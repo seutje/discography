@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+.DS_Store
+Thumbs.db
+
+# Local/generated analysis outputs
+analysis-output/
+analysis_outputs/
+reports/
+features/
+stems/
+waveforms/
+spectrograms/
+*.csv
+*.jsonl
+*.npy
+*.npz

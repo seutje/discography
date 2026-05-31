@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suno Pipeline</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f6f1;
+      --panel: #ffffff;
+      --ink: #20231f;
+      --muted: #686e65;
+      --line: #d9ddd2;
+      --accent: #1d6b5f;
+      --accent-2: #a43f45;
+      --soft: #e9efe9;
+      --warn: #8b5e14;
+      --ok: #1d6b3e;
+      --error: #a12b2b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+    header {
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 22px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcf8;
+    }
+    h1 {
+      font-size: 18px;
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 360px minmax(0, 1fr);
+      min-height: calc(100vh - 58px);
+    }
+    aside {
+      border-right: 1px solid var(--line);
+      background: #fbfcf8;
+      padding: 18px;
+      overflow: auto;
+    }
+    section {
+      padding: 20px 24px 32px;
+      overflow: auto;
+    }
+    label {
+      display: block;
+      margin: 12px 0 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    input, select {
+      width: 100%;
+      min-height: 36px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      padding: 7px 9px;
+      font: inherit;
+    }
+    input[type="checkbox"] {
+      width: 16px;
+      min-height: 16px;
+      margin: 0;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .check {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-top: 14px;
+      color: var(--ink);
+      font-weight: 600;
+    }
+    .check span { line-height: 1.2; }
+    button {
+      min-height: 36px;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      padding: 7px 12px;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    button.secondary {
+      background: #fff;
+      color: var(--accent);
+    }
+    button:disabled {
+      opacity: .55;
+      cursor: wait;
+    }
+    .actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .jobs {
+      margin-top: 22px;
+      display: grid;
+      gap: 8px;
+    }
+    .job {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 10px;
+      cursor: pointer;
+    }
+    .job.active {
+      border-color: var(--accent);
+      box-shadow: inset 3px 0 0 var(--accent);
+    }
+    .job-title {
+      font-weight: 700;
+      word-break: break-word;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 3px;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--soft);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .status.complete, .status.dry-run-complete { color: var(--ok); }
+    .status.error { color: var(--error); }
+    .status.running, .status.queued { color: var(--warn); }
+    .topline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(130px, 1fr));
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .metric, .iteration, .candidate, .log {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+    .metric {
+      padding: 11px 12px;
+    }
+    .metric strong {
+      display: block;
+      font-size: 18px;
+    }
+    .metric span {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .iteration {
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+    .iteration-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcf8;
+    }
+    .iteration-body {
+      padding: 12px;
+      display: grid;
+      gap: 10px;
+    }
+    .candidate {
+      padding: 12px;
+      display: grid;
+      grid-template-columns: 88px minmax(0, 1fr);
+      gap: 12px;
+      align-items: start;
+    }
+    .cover {
+      width: 88px;
+      aspect-ratio: 1;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      background: var(--soft);
+      object-fit: cover;
+    }
+    .placeholder {
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-weight: 800;
+    }
+    audio {
+      width: 100%;
+      height: 36px;
+      margin: 8px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 6px;
+      font-size: 12px;
+    }
+    th, td {
+      text-align: left;
+      padding: 5px 6px;
+      border-bottom: 1px solid var(--line);
+    }
+    th {
+      color: var(--muted);
+      font-weight: 800;
+    }
+    .log {
+      margin-top: 14px;
+      max-height: 220px;
+      overflow: auto;
+      padding: 10px 12px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12px;
+      white-space: pre-wrap;
+    }
+    .empty {
+      padding: 32px;
+      color: var(--muted);
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      background: rgba(255,255,255,.55);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    @media (max-width: 900px) {
+      main { grid-template-columns: 1fr; }
+      aside { border-right: 0; border-bottom: 1px solid var(--line); }
+      .summary { grid-template-columns: 1fr 1fr; }
+      .candidate { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Suno Pipeline</h1>
+    <span id="serverState" class="status">loading</span>
+  </header>
+  <main>
+    <aside>
+      <form id="jobForm">
+        <label for="songText">Seed Song</label>
+        <select id="songText" required></select>
+
+        <label for="publicBase">Public Base URL</label>
+        <input id="publicBase" placeholder="https://your-domain.example">
+
+        <div class="row">
+          <div>
+            <label for="threshold">Threshold</label>
+            <input id="threshold" type="number" min="0" max="10" step="0.1" value="8.2">
+          </div>
+          <div>
+            <label for="scoreMode">Score</label>
+            <select id="scoreMode">
+              <option value="mean_axes">Mean Axes</option>
+              <option value="min_axis">Min Axis</option>
+              <option value="cdpd">CDPD</option>
+              <option value="nge">NGE</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label for="maxIterations">Iterations</label>
+            <input id="maxIterations" type="number" min="1" max="20" value="3">
+          </div>
+          <div>
+            <label for="maxCalls">API Calls</label>
+            <input id="maxCalls" type="number" min="0" max="20" value="1">
+          </div>
+        </div>
+
+        <label for="ollamaModel">Ollama Model</label>
+        <input id="ollamaModel" value="qwen3:8b">
+
+        <label class="check">
+          <input id="live" type="checkbox">
+          <span>Live Suno generation</span>
+        </label>
+
+        <div class="actions">
+          <button id="startBtn" type="submit">Start Job</button>
+          <button class="secondary" id="refreshBtn" type="button">Refresh</button>
+        </div>
+      </form>
+
+      <div class="jobs" id="jobs"></div>
+    </aside>
+    <section>
+      <div id="detail" class="empty">No job selected.</div>
+    </section>
+  </main>
+
+  <script>
+    const state = { jobs: [], selected: null, busy: false };
+
+    function $(id) { return document.getElementById(id); }
+
+    async function api(path, options = {}) {
+      const res = await fetch(path, options);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || res.statusText);
+      return data;
+    }
+
+    function statusClass(status) {
+      return `status ${String(status || '').replaceAll('_', '-')}`;
+    }
+
+    function fmt(value, digits = 2) {
+      const num = Number(value);
+      return Number.isFinite(num) ? num.toFixed(digits) : '—';
+    }
+
+    async function loadSongs() {
+      const data = await api('/api/songs');
+      $('songText').innerHTML = data.songs.map(song =>
+        `<option value="${song.path}">${song.path}</option>`
+      ).join('');
+    }
+
+    async function loadConfig() {
+      const data = await api('/api/config');
+      if (data.public_base_url && !$('publicBase').value) {
+        $('publicBase').value = data.public_base_url;
+      }
+    }
+
+    async function loadJobs(keepSelection = true) {
+      const data = await api('/api/jobs');
+      state.jobs = data.jobs;
+      if (!keepSelection || !state.selected) {
+        state.selected = state.jobs[0]?.id || null;
+      }
+      renderJobs();
+      if (state.selected) await loadJob(state.selected);
+      $('serverState').textContent = 'online';
+      $('serverState').className = 'status complete';
+    }
+
+    async function loadJob(id) {
+      const job = await api(`/api/jobs/${id}`);
+      state.selected = id;
+      renderDetail(job);
+      renderJobs();
+    }
+
+    function renderJobs() {
+      $('jobs').innerHTML = state.jobs.map(job => `
+        <div class="job ${job.id === state.selected ? 'active' : ''}" data-job="${job.id}">
+          <div class="job-title">${job.song_text}</div>
+          <div class="meta">${job.created_at || ''}</div>
+          <div style="margin-top:8px"><span class="${statusClass(job.status)}">${job.status || 'unknown'}</span></div>
+        </div>
+      `).join('');
+      document.querySelectorAll('.job').forEach(el => {
+        el.addEventListener('click', () => loadJob(el.dataset.job));
+      });
+    }
+
+    function renderDetail(job) {
+      const best = job.best || {};
+      const iterations = job.iterations || [];
+      const callbackBase = job.settings?.public_base_url || '';
+      $('detail').className = '';
+      $('detail').innerHTML = `
+        <div class="topline">
+          <div>
+            <h2 style="margin:0 0 4px;font-size:20px">${job.song_text}</h2>
+            <div class="meta">${job.id}</div>
+          </div>
+          <span class="${statusClass(job.status)}">${job.status}</span>
+        </div>
+        <div class="summary">
+          <div class="metric"><strong>${fmt(best.score, 3)}</strong><span>Best Score</span></div>
+          <div class="metric"><strong>${job.settings?.threshold ?? '—'}</strong><span>Threshold</span></div>
+          <div class="metric"><strong>${iterations.length}</strong><span>Iterations</span></div>
+          <div class="metric"><strong>${job.settings?.live ? 'Live' : 'Dry'}</strong><span>Mode</span></div>
+        </div>
+        ${callbackBase ? `<div class="meta" style="margin-bottom:14px">Callback base: ${callbackBase}</div>` : ''}
+        ${job.error ? `<div class="empty" style="color:var(--error);margin-bottom:14px">${job.error}</div>` : ''}
+        <div>${iterations.map(renderIteration).join('') || '<div class="empty">No iterations yet.</div>'}</div>
+        <div class="log">${(job.log || []).map(item => `[${item.time}] ${item.message}`).join('\n')}</div>
+      `;
+    }
+
+    function renderIteration(iteration) {
+      const candidates = iteration.candidates || [];
+      return `
+        <div class="iteration">
+          <div class="iteration-head">
+            <strong>Iteration ${iteration.iteration}</strong>
+            <span class="${statusClass(iteration.status)}">${iteration.status || 'pending'}</span>
+          </div>
+          <div class="iteration-body">
+            ${iteration.task_id ? `<div class="meta">Task: ${iteration.task_id}</div>` : ''}
+            ${iteration.revision_notes?.length ? `<div class="meta">${iteration.revision_notes.join(' ')}</div>` : ''}
+            ${candidates.map(renderCandidate).join('') || `<div class="meta">Waiting for candidates.</div>`}
+          </div>
+        </div>
+      `;
+    }
+
+    function axisTable(candidate) {
+      const axes = candidate.axes || {};
+      const rows = Object.entries(axes).map(([key, value]) => `<tr><td>${key}</td><td>${fmt(value)}</td></tr>`).join('');
+      if (!rows) return '';
+      return `<table><thead><tr><th>Axis</th><th>Score</th></tr></thead><tbody>${rows}</tbody></table>`;
+    }
+
+    function renderCandidate(candidate) {
+      const cover = candidate.image_url
+        ? `<img class="cover" src="${candidate.image_url}" alt="">`
+        : `<div class="cover placeholder">♪</div>`;
+      return `
+        <div class="candidate">
+          ${cover}
+          <div>
+            <div style="display:flex;justify-content:space-between;gap:10px">
+              <strong>${candidate.title || 'Candidate'}</strong>
+              <span class="status">${fmt(candidate.score, 3)}</span>
+            </div>
+            <div class="meta">${candidate.duration ? `${fmt(candidate.duration, 1)}s` : ''} ${candidate.tags || ''}</div>
+            ${candidate.audio_url ? `<audio controls preload="metadata" src="${candidate.audio_url}"></audio>` : ''}
+            ${candidate.report_path ? `<a href="/media?path=${encodeURIComponent(candidate.report_path)}" target="_blank">Analysis JSON</a>` : ''}
+            ${axisTable(candidate)}
+          </div>
+        </div>
+      `;
+    }
+
+    async function startJob(event) {
+      event.preventDefault();
+      if (state.busy) return;
+      state.busy = true;
+      $('startBtn').disabled = true;
+      try {
+        const payload = {
+          song_text: $('songText').value,
+          public_base_url: $('publicBase').value.trim(),
+          threshold: Number($('threshold').value),
+          score_mode: $('scoreMode').value,
+          max_iterations: Number($('maxIterations').value),
+          max_api_calls: Number($('maxCalls').value),
+          live: $('live').checked,
+          ollama_model: $('ollamaModel').value.trim()
+        };
+        const job = await api('/api/jobs', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        state.selected = job.id;
+        await loadJobs(true);
+      } catch (err) {
+        alert(err.message);
+      } finally {
+        state.busy = false;
+        $('startBtn').disabled = false;
+      }
+    }
+
+    $('jobForm').addEventListener('submit', startJob);
+    $('refreshBtn').addEventListener('click', () => loadJobs(true));
+
+    (async function init() {
+      try {
+        await loadConfig();
+        await loadSongs();
+        await loadJobs(false);
+        setInterval(() => loadJobs(true).catch(() => {}), 5000);
+      } catch (err) {
+        $('serverState').textContent = 'error';
+        $('serverState').className = 'status error';
+        $('detail').textContent = err.message;
+      }
+    })();
+  </script>
+</body>
+</html>

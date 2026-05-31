@@ -1,0 +1,15 @@
+# Callback-only reverse proxy for the Suno pipeline.
+#
+# Replace suno.example.com with the public hostname that points to this machine.
+# Caddy will automatically request and renew HTTPS certificates when ports
+# 80 and 443 are reachable from the public internet.
+# For a temporary raw public IP, use `http://81.82.156.228` instead.
+
+suno.example.com {
+	encode zstd gzip
+
+	@callback path /api/suno/callback/*
+	reverse_proxy @callback 127.0.0.1:8765
+
+	respond 404
+}

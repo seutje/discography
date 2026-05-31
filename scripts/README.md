@@ -91,6 +91,46 @@ python scripts/suno_iterate.py "Net Worthless/01 - Main Character Morning.txt" \
 
 For each live iteration, the script submits `POST /api/v1/generate`, polls `GET /api/v1/generate/record-info?taskId=...`, downloads returned candidates, grades them with `analyze_track.py`, selects the best candidate, and appends targeted revision notes to the next style prompt when the quality threshold is not met.
 
+Run the local dashboard and callback receiver:
+
+```bash
+python scripts/suno_server.py --host 0.0.0.0 --port 8765
+```
+
+Open `http://127.0.0.1:8765/`. The dashboard can start dry-run jobs, start live Suno jobs, show iteration state, and play downloaded candidates after callbacks or polling return generated audio. Live dashboard jobs use callback URLs shaped like:
+
+```text
+https://your-public-host.example/api/suno/callback/<token>/<job_id>/<iteration>
+```
+
+The callback token comes from `SUNO_CALLBACK_TOKEN` in `.env` or `--callback-token`. By default, non-local clients are only allowed to POST to the callback route; the dashboard and job API stay local unless `--allow-remote-dashboard` is explicitly passed.
+
+For a callback-only Caddy reverse proxy, install Caddy and run the deploy helper with the public hostname that points to this machine:
+
+```bash
+sudo apt install caddy
+./deploy/install_suno_proxy.sh suno.example.com
+```
+
+For a temporary raw public IP, use HTTP:
+
+```bash
+./deploy/install_suno_proxy.sh 81.82.156.228
+```
+
+Then forward these router ports to this machine's LAN IP:
+
+```text
+Temporary raw-IP HTTP:
+TCP 80 -> 192.168.0.181:80
+
+Hostname HTTPS:
+TCP 80  -> 192.168.0.181:80
+TCP 443 -> 192.168.0.181:443
+```
+
+Use `http://81.82.156.228` as the dashboard's Public Base URL for the temporary IP setup, or `https://suno.example.com` once a hostname is configured. The proxy only forwards `/api/suno/callback/*` to the local dashboard worker; every other public path returns 404.
+
 Outputs are written under `analysis-output/` by default:
 
 - `*.analysis.md`: human-readable report.

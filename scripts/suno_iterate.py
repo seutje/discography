@@ -71,7 +71,10 @@ def parse_track_text(path: Path) -> TrackSpec:
     raw = path.read_text(encoding="utf-8")
     metadata = {key.upper(): value.strip() for key, value in re.findall(r"\[([A-Za-z_ -]+):\s*(.*?)\]", raw, flags=re.S)}
     lyrics_match = re.search(r"\[LYRICS\]\s*(.*)", raw, flags=re.S | re.I)
-    lyrics = lyrics_match.group(1).strip() if lyrics_match else raw.strip()
+    if lyrics_match:
+        lyrics = lyrics_match.group(1).strip()
+    else:
+        lyrics = re.sub(r"^\s*(?:\[[A-Za-z_ -]+:\s*.*?\]\s*)+", "", raw, flags=re.S).strip()
     title = metadata.get("TITLE") or path.stem
     return TrackSpec(source=path, title=title, metadata=metadata, lyrics=lyrics, raw=raw)
 
@@ -172,7 +175,7 @@ def poll_generation(task_id: str, api_key: str, poll_seconds: float, timeout_sec
 def extract_audio_items(record: dict[str, Any]) -> list[dict[str, Any]]:
     data = record.get("data") or {}
     response = data.get("response") or {}
-    candidates = response.get("sunoData") or data.get("sunoData") or response.get("data") or []
+    candidates = response.get("sunoData") or data.get("sunoData") or response.get("data") or data.get("data") or []
     if isinstance(candidates, dict):
         candidates = [candidates]
     return [item for item in candidates if isinstance(item, dict)]
@@ -187,7 +190,14 @@ def download_file(url: str, path: Path, timeout: float) -> None:
 def download_audio(record: dict[str, Any], iter_dir: Path, timeout: float) -> list[Path]:
     audio_paths: list[Path] = []
     for index, item in enumerate(extract_audio_items(record), start=1):
-        url = item.get("audioUrl") or item.get("streamAudioUrl") or item.get("sourceAudioUrl")
+        url = (
+            item.get("audioUrl")
+            or item.get("audio_url")
+            or item.get("streamAudioUrl")
+            or item.get("stream_audio_url")
+            or item.get("sourceAudioUrl")
+            or item.get("source_audio_url")
+        )
         if not url:
             continue
         parsed_path = urllib.parse.urlparse(url).path

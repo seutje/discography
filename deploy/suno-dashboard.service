@@ -1,0 +1,16 @@
+[Unit]
+Description=Discography Suno dashboard and callback worker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=seutje
+Group=seutje
+WorkingDirectory=/home/seutje/projects/discography
+ExecStart=/home/seutje/projects/discography/.venv/bin/python /home/seutje/projects/discography/scripts/suno_server.py --host 127.0.0.1 --port 8765
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

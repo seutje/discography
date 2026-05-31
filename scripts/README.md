@@ -63,6 +63,34 @@ python scripts/analyze_collection.py "stderr" \
 
 The LLM does not analyze raw audio. It receives the measured features, lyrics/production notes, framework excerpt, and Python base scoring, then returns bounded score adjustments plus rationale. Axis changes are limited to `--llm-max-axis-delta` from the Python score by default.
 
+## Suno Iteration Pipeline
+
+`scripts/suno_iterate.py` prepares Suno custom-mode `V5_5` generation requests from the existing song text format:
+
+- `GENRE`, `MOOD`, `TEMPO`, `KEY`, `VOCALS`, and `PRODUCTION` become the Suno `style` prompt.
+- Text after `[LYRICS]` becomes the regular Suno `prompt`.
+- `TITLE` becomes the Suno title.
+- The script enforces Suno's current limits: 1000 characters for `style`, 5000 for `prompt`, and 100 for `title`.
+
+Dry-run payload generation is the default and makes no Suno API calls:
+
+```bash
+python scripts/suno_iterate.py "Net Worthless/01 - Main Character Morning.txt" --threshold 8.2
+```
+
+Live runs require `SUNO_API_KEY` and `SUNO_CALLBACK_URL` in `.env`, or `--callback-url` on the command line. By default, live mode allows only one Suno generation call per run to keep testing cheap:
+
+```bash
+python scripts/suno_iterate.py "Net Worthless/01 - Main Character Morning.txt" \
+  --live \
+  --threshold 8.2 \
+  --max-iterations 3 \
+  --max-api-calls 1 \
+  --ollama-model qwen3:8b
+```
+
+For each live iteration, the script submits `POST /api/v1/generate`, polls `GET /api/v1/generate/record-info?taskId=...`, downloads returned candidates, grades them with `analyze_track.py`, selects the best candidate, and appends targeted revision notes to the next style prompt when the quality threshold is not met.
+
 Outputs are written under `analysis-output/` by default:
 
 - `*.analysis.md`: human-readable report.

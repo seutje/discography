@@ -8,6 +8,9 @@ __pycache__/
 .ruff_cache/
 .ipynb_checkpoints/
 .cache/
+.env
+.env.*
+!.env.example
 
 .DS_Store
 Thumbs.db
@@ -24,3 +27,4 @@ spectrograms/
 *.jsonl
 *.npy
 *.npz
+suno-runs/

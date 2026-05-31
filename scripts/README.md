@@ -90,7 +90,9 @@ python scripts/suno_iterate.py "Net Worthless/01 - Main Character Morning.txt" \
   --ollama-model qwen3:8b
 ```
 
-For each live iteration, the script submits `POST /api/v1/generate`, polls `GET /api/v1/generate/record-info?taskId=...`, downloads returned candidates, grades them with `analyze_track.py`, selects the best candidate, and appends targeted revision notes to the next style prompt when the quality threshold is not met.
+For each live iteration, the script submits `POST /api/v1/generate`, polls `GET /api/v1/generate/record-info?taskId=...`, downloads returned candidates, grades them with `analyze_track.py`, selects the best candidate, and asks the local Ollama model to revise the next iteration's lyrics/style metadata when the quality threshold is not met. The revision prompt includes the current lyrics, the current rendered style prompt, targeted feedback, and Suno's title/style/lyrics character limits. The revised text is verified before the next Suno request is submitted.
+
+Every iteration writes the exact text file used for that Suno generation inside the iteration folder. Dashboard promotion copies the selected iteration text into the album folder only when you pick that candidate as the winner.
 
 Suno HTTP requests use `curl` by default because Cloudflare may reject Python's default `urllib` client fingerprint with HTTP 403 / Error 1010. To force the older Python backend for debugging:
 

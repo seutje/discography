@@ -104,7 +104,7 @@ def text_analysis(relative_path: str) -> dict[str, Any]:
     track_text = analyze_track.read_track_text(text_path)
     metrics = analyze_track.lyric_metrics(track_text)
     spec = suno_iterate.parse_track_text(text_path)
-    style = suno_iterate.build_style(spec, [])
+    style = suno_iterate.render_style_prompt(spec)
     prompt = suno_iterate.truncate(spec.lyrics, suno_iterate.PROMPT_LIMIT)
     pseudo_audio_path = text_path.parent / "audio" / f"{text_path.stem}.mp3"
     framework = analyze_track.choose_framework(pseudo_audio_path, track_text, None)
@@ -377,6 +377,7 @@ def run_job(job_id: str) -> None:
     try:
         spec = suno_iterate.parse_track_text(ROOT / job["song_text"])
         revision_notes: list[str] = []
+        working_spec = spec
         api_calls = 0
         patch_job(job_id, status="running", started_at=now())
         add_log(job_id, "Job started.")
@@ -384,15 +385,30 @@ def run_job(job_id: str) -> None:
         for iteration in range(1, int(settings["max_iterations"]) + 1):
             iter_dir = job_dir(job_id) / f"iteration_{iteration:02d}"
             callback_url = f"{settings['public_base_url'].rstrip('/')}/api/suno/callback/{CALLBACK_TOKEN}/{job_id}/{iteration}"
+            revision_result = None
+            if revision_notes:
+                add_log(job_id, f"Revising text for iteration {iteration} from analysis feedback.")
+                working_spec, revision_result = suno_iterate.revise_spec_with_feedback(
+                    working_spec,
+                    revision_notes,
+                    settings.get("ollama_model") or suno_iterate.DEFAULT_OLLAMA_MODEL,
+                    settings["ollama_url"],
+                    float(settings["ollama_timeout"]),
+                )
             payload = suno_iterate.build_payload(
-                spec,
+                working_spec,
                 revision_notes,
                 callback_url,
                 float(settings.get("style_weight", 0.75)),
                 float(settings.get("weirdness_constraint", 0.75)),
                 settings.get("vocal_gender") or None,
             )
-            text_path = suno_iterate.write_iteration_inputs(iter_dir, spec, payload, revision_notes)
+            verification_errors = suno_iterate.verify_suno_spec(working_spec)
+            if verification_errors:
+                raise RuntimeError(f"Iteration {iteration} did not pass Suno input verification: {'; '.join(verification_errors)}")
+            text_path = suno_iterate.write_iteration_inputs(iter_dir, working_spec, payload, revision_notes)
+            if revision_result:
+                write_json(iter_dir / "text_revision.json", revision_result)
 
             with STATE_LOCK:
                 job = load_job(job_id)
@@ -401,6 +417,7 @@ def run_job(job_id: str) -> None:
                         "iteration": iteration,
                         "status": "prepared",
                         "payload_path": (iter_dir / "payload.json").relative_to(ROOT).as_posix(),
+                        "text_path": text_path.relative_to(ROOT).as_posix(),
                         "revision_notes": revision_notes,
                         "candidates": [],
                     }
@@ -555,6 +572,17 @@ def promote_candidate(job_id: str, iteration_number: int, candidate_index: int, 
         source_audio = safe_project_path(audio_path)
         if not source_audio.exists():
             raise FileNotFoundError(f"candidate audio does not exist: {source_audio}")
+        iteration_text_path = selected_iteration.get("text_path")
+        if iteration_text_path:
+            source_iteration_text = safe_project_path(iteration_text_path)
+        else:
+            text_matches = sorted((job_dir(job_id) / f"iteration_{iteration_number:02d}").glob("*.txt"))
+            if not text_matches:
+                raise ValueError("selected iteration has no text file")
+            source_iteration_text = text_matches[0]
+        if not source_iteration_text.exists():
+            raise FileNotFoundError(f"iteration text does not exist: {source_iteration_text}")
+        winner_text = source_iteration_text.read_text(encoding="utf-8")
         if destination.exists() and not overwrite:
             return {
                 "ok": False,
@@ -567,6 +595,7 @@ def promote_candidate(job_id: str, iteration_number: int, candidate_index: int, 
         if destination.exists() and overwrite:
             destination.unlink()
         shutil.move(str(source_audio), str(destination))
+        source_text.write_text(winner_text, encoding="utf-8")
 
         for iteration in job.get("iterations", []):
             for candidate in iteration.get("candidates", []):
@@ -574,16 +603,22 @@ def promote_candidate(job_id: str, iteration_number: int, candidate_index: int, 
         selected_candidate["promoted"] = True
         selected_candidate["promoted_at"] = now()
         selected_candidate["album_audio_path"] = destination.relative_to(ROOT).as_posix()
+        selected_candidate["album_text_path"] = source_text.relative_to(ROOT).as_posix()
         selected_candidate["audio_path"] = destination.relative_to(ROOT).as_posix()
         job["winner"] = {
             "iteration": iteration_number,
             "candidate_index": candidate_index,
             "album_audio_path": destination.relative_to(ROOT).as_posix(),
+            "album_text_path": source_text.relative_to(ROOT).as_posix(),
+            "iteration_text_path": source_iteration_text.relative_to(ROOT).as_posix(),
             "promoted_at": selected_candidate["promoted_at"],
         }
         job["status"] = "promoted"
         save_job(job)
-        add_log(job_id, f"Promoted candidate {candidate_index} to {destination.relative_to(ROOT).as_posix()}.")
+        add_log(
+            job_id,
+            f"Promoted candidate {candidate_index} to {destination.relative_to(ROOT).as_posix()} and updated {source_text.relative_to(ROOT).as_posix()}.",
+        )
         return {"ok": True, "job": enrich_job(job), "destination": destination.relative_to(ROOT).as_posix()}
 
 

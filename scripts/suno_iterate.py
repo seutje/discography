@@ -83,17 +83,214 @@ def parse_track_text(path: Path) -> TrackSpec:
     return TrackSpec(source=path, title=title, metadata=metadata, lyrics=lyrics, raw=raw)
 
 
-def build_style(spec: TrackSpec, revision_notes: list[str]) -> str:
+def render_style_prompt(spec: TrackSpec) -> str:
     lines = []
     for field in STYLE_FIELDS:
         value = spec.metadata.get(field)
         if value:
             lines.append(f"{field}: {value}")
-    if revision_notes:
-        lines.append("")
-        lines.append("REVISION TARGETS:")
-        lines.extend(f"- {note}" for note in revision_notes)
-    return truncate("\n".join(lines).strip(), STYLE_LIMIT)
+    return "\n".join(lines).strip()
+
+
+def build_style(spec: TrackSpec, revision_notes: list[str] | None = None) -> str:
+    return truncate(render_style_prompt(spec), STYLE_LIMIT)
+
+
+def render_track_text(spec: TrackSpec) -> str:
+    tag_lines = [f"[TITLE: {spec.title}]"]
+    for field in STYLE_FIELDS:
+        value = spec.metadata.get(field)
+        if value:
+            tag_lines.append(f"[{field}: {value}]")
+    return "\n\n".join(tag_lines) + "\n\n[LYRICS]\n" + f"{spec.lyrics.strip()}\n"
+
+
+def extract_json_object(content: str) -> dict[str, Any]:
+    content = content.strip()
+    if content.startswith("```"):
+        content = re.sub(r"^```(?:json)?\s*", "", content)
+        content = re.sub(r"\s*```$", "", content)
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        start = content.find("{")
+        end = content.rfind("}")
+        if start >= 0 and end > start:
+            return json.loads(content[start : end + 1])
+        raise
+
+
+def verify_suno_spec(spec: TrackSpec) -> list[str]:
+    style = render_style_prompt(spec)
+    errors = []
+    if not spec.title.strip():
+        errors.append("TITLE is empty.")
+    if not spec.lyrics.strip():
+        errors.append("LYRICS are empty.")
+    if not style.strip():
+        errors.append("Style prompt is empty.")
+    if len(spec.title) > TITLE_LIMIT:
+        errors.append(f"TITLE is {len(spec.title)} characters; limit is {TITLE_LIMIT}.")
+    if len(style) > STYLE_LIMIT:
+        errors.append(f"Style prompt is {len(style)} characters; limit is {STYLE_LIMIT}.")
+    if len(spec.lyrics) > PROMPT_LIMIT:
+        errors.append(f"LYRICS are {len(spec.lyrics)} characters; limit is {PROMPT_LIMIT}.")
+    return errors
+
+
+def spec_from_llm_revision(source: TrackSpec, raw: dict[str, Any]) -> TrackSpec:
+    metadata = dict(source.metadata)
+    raw_metadata = raw.get("metadata") or {}
+    if not isinstance(raw_metadata, dict):
+        raw_metadata = {}
+    raw_metadata = {str(key).upper(): value for key, value in raw_metadata.items()}
+    title = str(raw.get("title") or source.title).strip()
+    metadata["TITLE"] = title
+    for field in STYLE_FIELDS:
+        value = raw_metadata.get(field) or raw.get(field.lower()) or raw.get(field)
+        if value is not None:
+            metadata[field] = str(value).strip()
+    lyrics = str(raw.get("lyrics") or "").strip()
+    revised = TrackSpec(source=source.source, title=title, metadata=metadata, lyrics=lyrics, raw="")
+    revised.raw = render_track_text(revised)
+    return revised
+
+
+def call_ollama_json(
+    model: str,
+    ollama_url: str,
+    messages: list[dict[str, str]],
+    timeout: float,
+    num_ctx: int = 16384,
+) -> dict[str, Any]:
+    body = {
+        "model": model,
+        "messages": messages,
+        "stream": False,
+        "format": "json",
+        "think": False,
+        "options": {
+            "temperature": 0.2,
+            "top_p": 0.9,
+            "num_ctx": num_ctx,
+        },
+    }
+    request = urllib.request.Request(
+        ollama_url.rstrip("/") + "/api/chat",
+        data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        response_body = json.loads(response.read().decode("utf-8"))
+    content = (response_body.get("message") or {}).get("content", "")
+    parsed = extract_json_object(content)
+    parsed["_ollama"] = {
+        "model": model,
+        "url": ollama_url,
+        "created_at": response_body.get("created_at"),
+        "eval_count": response_body.get("eval_count"),
+        "eval_duration": response_body.get("eval_duration"),
+    }
+    return parsed
+
+
+def revise_spec_with_feedback(
+    spec: TrackSpec,
+    revision_notes: list[str],
+    model: str,
+    ollama_url: str,
+    timeout: float,
+    num_ctx: int = 16384,
+) -> tuple[TrackSpec, dict[str, Any]]:
+    if not revision_notes:
+        return spec, {"changed": False, "verification_errors": verify_suno_spec(spec)}
+    if not model:
+        raise RuntimeError("An Ollama model is required to revise lyrics/style from feedback.")
+
+    base_payload = {
+        "task": "Revise this Suno song source for the next generation iteration.",
+        "feedback_to_apply": revision_notes,
+        "current_title": spec.title,
+        "current_style_prompt": render_style_prompt(spec),
+        "current_metadata": {field: spec.metadata.get(field, "") for field in STYLE_FIELDS},
+        "current_lyrics": spec.lyrics,
+        "character_limits": {
+            "title": TITLE_LIMIT,
+            "style_prompt_after_metadata_rendering": STYLE_LIMIT,
+            "lyrics": PROMPT_LIMIT,
+        },
+        "style_prompt_rendering": "The style prompt will be rendered from GENRE, MOOD, TEMPO, KEY, VOCALS, and PRODUCTION only.",
+        "rules": [
+            "Return valid JSON only.",
+            "Apply the feedback by changing the lyrics and/or the style metadata fields.",
+            "Do not paste the feedback or revision notes into the lyrics or style fields.",
+            "Keep the song title recognizable unless a shorter title is needed for the character limit.",
+            "Preserve the song's core concept and voice while making the requested improvements.",
+            "The returned lyrics must be ready to send directly as Suno's prompt.",
+            "The rendered style prompt and lyrics must both fit within the listed character limits.",
+        ],
+        "required_json_shape": {
+            "title": "string",
+            "metadata": {field: "string" for field in STYLE_FIELDS},
+            "lyrics": "string",
+        },
+    }
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "You revise song source text for Suno custom-mode generation. "
+                "You receive current lyrics, the current style prompt, and concrete feedback. "
+                "Return only the revised source fields as JSON."
+            ),
+        },
+        {"role": "user", "content": json.dumps(base_payload, ensure_ascii=False)},
+    ]
+
+    attempts: list[dict[str, Any]] = []
+    last_errors: list[str] = []
+    revised = spec
+    for attempt in range(1, 3):
+        raw = call_ollama_json(model, ollama_url, messages, timeout, num_ctx=num_ctx)
+        revised = spec_from_llm_revision(spec, raw)
+        last_errors = verify_suno_spec(revised)
+        attempts.append(
+            {
+                "attempt": attempt,
+                "verification_errors": last_errors,
+                "style_chars": len(render_style_prompt(revised)),
+                "lyrics_chars": len(revised.lyrics),
+                "title_chars": len(revised.title),
+                "ollama": raw.get("_ollama", {}),
+            }
+        )
+        if not last_errors:
+            return revised, {"changed": True, "attempts": attempts}
+        messages.append(
+            {
+                "role": "assistant",
+                "content": json.dumps({key: value for key, value in raw.items() if key != "_ollama"}, ensure_ascii=False),
+            }
+        )
+        messages.append(
+            {
+                "role": "user",
+                "content": json.dumps(
+                    {
+                        "task": "Repair the JSON so it passes verification before Suno submission.",
+                        "verification_errors": last_errors,
+                        "character_limits": {
+                            "title": TITLE_LIMIT,
+                            "style_prompt_after_metadata_rendering": STYLE_LIMIT,
+                            "lyrics": PROMPT_LIMIT,
+                        },
+                    },
+                    ensure_ascii=False,
+                ),
+            }
+        )
+    raise RuntimeError(f"LLM revision did not pass Suno input verification: {'; '.join(last_errors)}")
 
 
 def build_payload(
@@ -125,14 +322,14 @@ def write_iteration_inputs(iter_dir: Path, spec: TrackSpec, payload: dict[str, A
     iter_dir.mkdir(parents=True, exist_ok=True)
     (iter_dir / "payload.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     (iter_dir / "revision_notes.json").write_text(json.dumps(revision_notes, indent=2), encoding="utf-8")
-    tag_lines = [f"[TITLE: {payload['title']}]"]
-    for field in STYLE_FIELDS:
-        value = spec.metadata.get(field)
-        if value:
-            tag_lines.append(f"[{field}: {value}]")
-    if revision_notes:
-        tag_lines.append(f"[REVISION_NOTES: {'; '.join(revision_notes)}]")
-    generated_text = "\n\n".join(tag_lines) + "\n\n[LYRICS]\n" + f"{payload['prompt']}\n"
+    payload_spec = TrackSpec(
+        source=spec.source,
+        title=payload["title"],
+        metadata={**spec.metadata, "TITLE": payload["title"]},
+        lyrics=payload["prompt"],
+        raw="",
+    )
+    generated_text = render_track_text(payload_spec)
     text_path = iter_dir / f"{slugify(payload['title'], 'track')}.txt"
     text_path.write_text(generated_text, encoding="utf-8")
     return text_path
@@ -426,6 +623,7 @@ def main() -> int:
     run_dir = args.output_root / run_id
     analysis_dir = run_dir / "analysis"
     revision_notes: list[str] = []
+    working_spec = spec
     api_calls = 0
     history: list[dict[str, Any]] = []
 
@@ -436,18 +634,40 @@ def main() -> int:
 
     for iteration in range(1, args.max_iterations + 1):
         iter_dir = run_dir / f"iteration_{iteration:02d}"
+        revision_result: dict[str, Any] | None = None
+        if revision_notes:
+            working_spec, revision_result = revise_spec_with_feedback(
+                working_spec,
+                revision_notes,
+                args.ollama_model,
+                args.ollama_url,
+                args.ollama_timeout,
+            )
         payload = build_payload(
-            spec,
+            working_spec,
             revision_notes,
             callback_url,
             args.style_weight,
             args.weirdness_constraint,
             args.vocal_gender,
         )
-        text_path = write_iteration_inputs(iter_dir, spec, payload, revision_notes)
+        verification_errors = verify_suno_spec(working_spec)
+        if verification_errors:
+            raise RuntimeError(f"Iteration {iteration} did not pass Suno input verification: {'; '.join(verification_errors)}")
+        text_path = write_iteration_inputs(iter_dir, working_spec, payload, revision_notes)
+        if revision_result:
+            (iter_dir / "text_revision.json").write_text(json.dumps(revision_result, indent=2, ensure_ascii=False), encoding="utf-8")
 
         if not args.live:
-            history.append({"iteration": iteration, "mode": "dry-run", "payload": str(iter_dir / "payload.json")})
+            history.append(
+                {
+                    "iteration": iteration,
+                    "mode": "dry-run",
+                    "payload": str(iter_dir / "payload.json"),
+                    "text": str(text_path),
+                    "revision_notes": revision_notes,
+                }
+            )
             break
         if api_calls >= args.max_api_calls:
             history.append({"iteration": iteration, "stopped": "max_api_calls", "max_api_calls": args.max_api_calls})
@@ -485,6 +705,7 @@ def main() -> int:
                 "iteration": iteration,
                 "taskId": task_id,
                 "audio": [str(path) for path in audio_paths],
+                "text": str(text_path),
                 "best": best,
                 "threshold": args.threshold,
                 "reached_threshold": reached,

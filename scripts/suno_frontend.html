@@ -711,6 +711,7 @@
         iterations: (job.iterations || []).map(iteration => ({
           iteration: iteration.iteration,
           status: iteration.status,
+          text_path: iteration.text_path || '',
           candidates: (iteration.candidates || []).map(candidate => ({
             index: candidate.index,
             score: candidate.score ?? null,
@@ -1025,6 +1026,7 @@
           </div>
           <div class="iteration-body" data-iteration-body="${iteration.iteration}">
             ${iteration.task_id ? `<div class="meta">Task: ${iteration.task_id}</div>` : ''}
+            ${iteration.text_path ? `<div class="meta">Text: ${escapeHtml(iteration.text_path)}</div>` : ''}
             ${iteration.revision_notes?.length ? `<div class="meta">${iteration.revision_notes.join(' ')}</div>` : ''}
             ${candidates.map(candidate => renderCandidate(candidate, iteration.iteration)).join('') || `<div class="meta" data-candidates-empty>Waiting for candidates.</div>`}
           </div>
@@ -1240,7 +1242,7 @@
       if (!button || button.disabled) return;
       const iteration = Number(button.dataset.iteration);
       const candidate = Number(button.dataset.candidate);
-      if (!confirm(`Move candidate ${candidate} into the album audio folder as the winning take?`)) return;
+      if (!confirm(`Move candidate ${candidate} into the album audio folder and update the album text file with this iteration's text?`)) return;
       button.disabled = true;
       button.textContent = 'Moving...';
       try {

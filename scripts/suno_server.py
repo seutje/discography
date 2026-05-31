@@ -148,6 +148,111 @@ def text_analysis(relative_path: str) -> dict[str, Any]:
     }
 
 
+def finite_float(value: Any) -> float | None:
+    try:
+        result = float(value)
+    except (TypeError, ValueError):
+        return None
+    if result != result or result in {float("inf"), float("-inf")}:
+        return None
+    return result
+
+
+def mean(values: list[float]) -> float | None:
+    return round(sum(values) / len(values), 3) if values else None
+
+
+def album_from_audio_path(audio_path: str) -> str:
+    parts = Path(audio_path).parts
+    if "audio" in parts:
+        index = parts.index("audio")
+        if index > 0:
+            return parts[index - 1]
+    if len(parts) > 1:
+        return parts[0]
+    return "Unsorted"
+
+
+def summarize_analysis_report(report_path: Path) -> dict[str, Any] | None:
+    report = read_json(report_path, {})
+    audio = report.get("audio") or {}
+    text = report.get("text") or {}
+    framework = report.get("framework") or {}
+    base_scoring = report.get("framework_scoring") or {}
+    llm_scoring = report.get("llm_adjusted_scoring") or {}
+    scoring = llm_scoring if llm_scoring.get("available") else base_scoring
+    axes = {key: finite_float(value) for key, value in (scoring.get("axes") or {}).items()}
+    axes = {key: value for key, value in axes.items() if value is not None}
+    core_metrics = {key: finite_float(value) for key, value in (scoring.get("core_metrics") or {}).items()}
+    core_metrics = {key: value for key, value in core_metrics.items() if value is not None}
+    if not axes and not core_metrics:
+        return None
+
+    audio_path = str(audio.get("path") or "")
+    score_values = [value for value in axes.values() if value is not None]
+    source_type = "job" if "suno-runs" in report_path.parts else "batch"
+    rel_report_path = report_path.relative_to(ROOT).as_posix()
+    rung = scoring.get("rung_estimate") or {}
+    return {
+        "report_path": rel_report_path,
+        "source_type": source_type,
+        "generated_at": report.get("generated_at"),
+        "title": text.get("title") or Path(audio_path).stem or report_path.stem,
+        "album": album_from_audio_path(audio_path),
+        "audio_path": audio_path,
+        "framework": framework.get("name") or Path(str(framework.get("path") or "")).name or "Unselected",
+        "score": mean(score_values),
+        "axes": axes,
+        "core_metrics": core_metrics,
+        "rung_number": finite_float(rung.get("number")),
+        "rung_label": rung.get("label"),
+        "confidence": finite_float(scoring.get("confidence_0_10")),
+        "duration_seconds": finite_float(audio.get("duration_seconds")),
+        "tempo_bpm": finite_float(audio.get("tempo_bpm")),
+        "estimated_key": audio.get("estimated_key"),
+        "key_confidence": finite_float(audio.get("key_confidence")),
+        "integrated_lufs": finite_float(audio.get("integrated_lufs")),
+        "peak_dbfs": finite_float(audio.get("peak_dbfs")),
+        "crest_factor_db": finite_float(audio.get("crest_factor_db")),
+        "clipping_ratio": finite_float(audio.get("clipping_ratio")),
+        "onset_rate_per_second": finite_float(audio.get("onset_rate_per_second")),
+        "recurrence_ratio": finite_float(audio.get("recurrence_ratio")),
+        "section_count": finite_float(text.get("section_count")),
+        "word_count": finite_float(text.get("word_count")),
+        "line_count": finite_float(text.get("line_count")),
+        "repeated_line_ratio": finite_float(text.get("repeated_line_ratio")),
+        "rhyme_suffix_reuse": finite_float(text.get("rhyme_suffix_reuse")),
+    }
+
+
+def analysis_statistics() -> dict[str, Any]:
+    records = []
+    for report_path in sorted(ROOT.rglob("*.analysis.json")):
+        if ".venv" in report_path.parts or ".git" in report_path.parts:
+            continue
+        try:
+            summary = summarize_analysis_report(report_path)
+        except Exception:
+            continue
+        if summary:
+            records.append(summary)
+
+    scores = [record["score"] for record in records if record.get("score") is not None]
+    rung_numbers = [record["rung_number"] for record in records if record.get("rung_number") is not None]
+    tempos = [record["tempo_bpm"] for record in records if record.get("tempo_bpm") is not None]
+    durations = [record["duration_seconds"] for record in records if record.get("duration_seconds") is not None]
+    return {
+        "records": records,
+        "summary": {
+            "count": len(records),
+            "average_score": mean(scores),
+            "average_rung": mean(rung_numbers),
+            "average_tempo_bpm": mean(tempos),
+            "total_duration_seconds": round(sum(durations), 3),
+        },
+    }
+
+
 def public_url_for_path(path: Path) -> str:
     rel = path.resolve().relative_to(ROOT.resolve()).as_posix()
     return "/media?path=" + urllib.parse.quote(rel)
@@ -489,6 +594,10 @@ class Handler(BaseHTTPRequestHandler):
             return
         if path == "/":
             self.send_text(FRONTEND_PATH.read_text(encoding="utf-8"), "text/html; charset=utf-8")
+        elif path == "/favicon.ico":
+            self.send_response(HTTPStatus.NO_CONTENT)
+            self.send_header("Content-Length", "0")
+            self.end_headers()
         elif path == "/api/config":
             env = {**suno_iterate.load_env(ROOT / ".env"), **os.environ}
             self.send_json({"public_base_url": env.get("SUNO_PUBLIC_BASE_URL", "")})
@@ -502,6 +611,8 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_json({"error": str(exc)}, HTTPStatus.NOT_FOUND)
             except Exception as exc:
                 self.send_json({"error": str(exc)}, HTTPStatus.BAD_REQUEST)
+        elif path == "/api/statistics":
+            self.send_json(analysis_statistics())
         elif path == "/api/jobs":
             jobs = [enrich_job(read_json(path / "job.json", {})) for path in sorted(OUTPUT_ROOT.glob("*")) if (path / "job.json").exists()]
             self.send_json({"jobs": sorted(jobs, key=lambda item: item.get("created_at", ""), reverse=True)})

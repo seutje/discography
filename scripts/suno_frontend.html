@@ -43,6 +43,19 @@
       font-weight: 700;
       letter-spacing: 0;
     }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .header-actions button {
+      min-height: 32px;
+      padding: 5px 10px;
+    }
+    .header-actions button.active {
+      background: var(--accent);
+      color: #fff;
+    }
     main {
       display: grid;
       grid-template-columns: 360px minmax(0, 1fr);
@@ -226,6 +239,86 @@
       font-weight: 700;
       text-transform: uppercase;
     }
+    .stats-toolbar {
+      display: flex;
+      gap: 10px;
+      align-items: end;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+    .stats-toolbar label {
+      margin-top: 0;
+    }
+    .stats-select {
+      min-width: 180px;
+    }
+    .charts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(280px, 1fr));
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .chart-panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 12px;
+      min-width: 0;
+    }
+    .chart-panel h3 {
+      margin: 0 0 10px;
+      font-size: 14px;
+    }
+    .bar-row {
+      display: grid;
+      grid-template-columns: minmax(86px, 150px) minmax(0, 1fr) 48px;
+      gap: 8px;
+      align-items: center;
+      min-height: 28px;
+      font-size: 12px;
+    }
+    .bar-label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .bar-track {
+      height: 12px;
+      border-radius: 999px;
+      background: var(--soft);
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: var(--accent);
+    }
+    .bar-fill.alt { background: #3f5fa4; }
+    .bar-fill.warm { background: #a45b3f; }
+    .bar-value {
+      text-align: right;
+      font-weight: 800;
+    }
+    .scatter {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fbfcf8;
+    }
+    .stats-table-wrap {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      overflow: auto;
+    }
+    .stats-table-wrap table {
+      margin: 0;
+      min-width: 760px;
+    }
     .iteration {
       margin-bottom: 12px;
       overflow: hidden;
@@ -321,6 +414,7 @@
       main { grid-template-columns: 1fr; }
       aside { border-right: 0; border-bottom: 1px solid var(--line); }
       .summary { grid-template-columns: 1fr 1fr; }
+      .charts { grid-template-columns: 1fr; }
       .candidate { grid-template-columns: 1fr; }
     }
   </style>
@@ -328,7 +422,11 @@
 <body>
   <header>
     <h1>Suno Pipeline</h1>
-    <span id="serverState" class="status">loading</span>
+    <div class="header-actions">
+      <button class="secondary active" id="jobsViewBtn" type="button">Jobs</button>
+      <button class="secondary" id="statsViewBtn" type="button">Statistics</button>
+      <span id="serverState" class="status">loading</span>
+    </div>
   </header>
   <main>
     <aside>
@@ -390,7 +488,16 @@
   </main>
 
   <script>
-    const state = { jobs: [], selected: null, busy: false, selectedJob: null, selectedSignature: '' };
+    const state = {
+      jobs: [],
+      selected: null,
+      busy: false,
+      selectedJob: null,
+      selectedSignature: '',
+      view: 'jobs',
+      statistics: null,
+      statsGroupBy: 'album'
+    };
 
     function $(id) { return document.getElementById(id); }
 
@@ -418,6 +525,11 @@
         '"': '&quot;',
         "'": '&#39;'
       }[char]));
+    }
+
+    function updateViewButtons() {
+      $('jobsViewBtn').classList.toggle('active', state.view === 'jobs');
+      $('statsViewBtn').classList.toggle('active', state.view === 'statistics');
     }
 
     async function loadSongs() {
@@ -479,7 +591,7 @@
         state.selected = state.jobs[0]?.id || null;
       }
       renderJobs();
-      if (state.selected) await loadJob(state.selected, { soft: true });
+      if (state.selected && state.view === 'jobs') await loadJob(state.selected, { soft: true });
       $('serverState').textContent = 'online';
       $('serverState').className = 'status complete';
     }
@@ -487,7 +599,9 @@
     async function loadJob(id, options = {}) {
       const job = await api(`/api/jobs/${id}`);
       const selectionChanged = state.selected !== id;
+      state.view = 'jobs';
       state.selected = id;
+      updateViewButtons();
       updateDetail(job, { soft: Boolean(options.soft) && !selectionChanged });
       renderJobs();
     }
@@ -561,6 +675,192 @@
       document.querySelectorAll('.job').forEach(el => {
         el.addEventListener('click', () => loadJob(el.dataset.job));
       });
+    }
+
+    function average(values) {
+      const nums = values.map(Number).filter(Number.isFinite);
+      return nums.length ? nums.reduce((sum, value) => sum + value, 0) / nums.length : null;
+    }
+
+    function groupAverage(records, field, valueField = 'score') {
+      const groups = new Map();
+      records.forEach(record => {
+        const key = record[field] || 'Unsorted';
+        if (!groups.has(key)) groups.set(key, []);
+        const value = Number(record[valueField]);
+        if (Number.isFinite(value)) groups.get(key).push(value);
+      });
+      return Array.from(groups.entries())
+        .map(([label, values]) => ({ label, value: average(values), count: values.length }))
+        .filter(row => row.value !== null)
+        .sort((a, b) => b.value - a.value || b.count - a.count || a.label.localeCompare(b.label));
+    }
+
+    function countBy(records, getter) {
+      const counts = new Map();
+      records.forEach(record => {
+        const key = getter(record);
+        counts.set(key, (counts.get(key) || 0) + 1);
+      });
+      return Array.from(counts.entries())
+        .map(([label, value]) => ({ label, value }))
+        .sort((a, b) => Number(a.label) - Number(b.label) || String(a.label).localeCompare(String(b.label)));
+    }
+
+    function axisAverages(records) {
+      const labels = {
+        SC_structural_coherence: 'Structural',
+        MI_motivic_integration: 'Motivic',
+        BP_beauty_spatial_poise: 'Beauty',
+        EG_evolving_grammar: 'Grammar',
+        CD_carry_depth: 'Carry'
+      };
+      return Object.entries(labels).map(([key, label]) => ({
+        label,
+        value: average(records.map(record => record.axes?.[key]))
+      })).filter(row => row.value !== null).sort((a, b) => b.value - a.value);
+    }
+
+    function barChart(rows, { max = null, fill = '', digits = 2, limit = 12 } = {}) {
+      const visibleRows = rows.slice(0, limit);
+      const maxValue = max ?? Math.max(1, ...visibleRows.map(row => Number(row.value) || 0));
+      if (!visibleRows.length) return '<div class="empty">No chart data available.</div>';
+      return visibleRows.map(row => {
+        const value = Number(row.value) || 0;
+        const width = Math.max(0, Math.min(100, (value / maxValue) * 100));
+        return `
+          <div class="bar-row" title="${escapeHtml(row.label)}">
+            <div class="bar-label">${escapeHtml(row.label)}${row.count ? ` (${row.count})` : ''}</div>
+            <div class="bar-track"><div class="bar-fill ${fill}" style="width:${width}%"></div></div>
+            <div class="bar-value">${fmt(value, digits)}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function scoreHistogram(records) {
+      const rows = countBy(records.filter(record => Number.isFinite(Number(record.score))), record => {
+        const score = Math.max(0, Math.min(9, Math.floor(Number(record.score))));
+        return `${score}-${score + 1}`;
+      });
+      return barChart(rows, { fill: 'warm', digits: 0 });
+    }
+
+    function scatterChart(records) {
+      const points = records
+        .map(record => ({ x: Number(record.tempo_bpm), y: Number(record.score), label: `${record.title} (${fmt(record.score, 2)})` }))
+        .filter(point => Number.isFinite(point.x) && Number.isFinite(point.y));
+      if (!points.length) return '<div class="empty">No tempo and score pairs available.</div>';
+      const width = 640;
+      const height = 360;
+      const pad = 38;
+      const minX = Math.min(...points.map(point => point.x));
+      const maxX = Math.max(...points.map(point => point.x));
+      const minY = 0;
+      const maxY = 10;
+      const xRange = Math.max(1, maxX - minX);
+      const xFor = value => pad + ((value - minX) / xRange) * (width - pad * 2);
+      const yFor = value => height - pad - ((value - minY) / (maxY - minY)) * (height - pad * 2);
+      const circles = points.map(point => `
+        <circle cx="${xFor(point.x).toFixed(1)}" cy="${yFor(point.y).toFixed(1)}" r="4" fill="#1d6b5f" opacity=".72">
+          <title>${escapeHtml(point.label)} - ${fmt(point.x, 1)} BPM</title>
+        </circle>
+      `).join('');
+      return `
+        <svg class="scatter" viewBox="0 0 ${width} ${height}" role="img" aria-label="Tempo by score scatter plot">
+          <line x1="${pad}" y1="${height - pad}" x2="${width - pad}" y2="${height - pad}" stroke="#d9ddd2"/>
+          <line x1="${pad}" y1="${pad}" x2="${pad}" y2="${height - pad}" stroke="#d9ddd2"/>
+          <text x="${pad}" y="${height - 10}" fill="#686e65" font-size="12">${fmt(minX, 0)} BPM</text>
+          <text x="${width - pad - 56}" y="${height - 10}" fill="#686e65" font-size="12">${fmt(maxX, 0)} BPM</text>
+          <text x="6" y="${pad + 4}" fill="#686e65" font-size="12">10</text>
+          <text x="14" y="${height - pad + 4}" fill="#686e65" font-size="12">0</text>
+          ${circles}
+        </svg>
+      `;
+    }
+
+    async function showStatistics(force = false) {
+      state.view = 'statistics';
+      updateViewButtons();
+      $('detail').className = '';
+      $('detail').innerHTML = '<div class="empty">Loading statistics...</div>';
+      if (!state.statistics || force) {
+        state.statistics = await api('/api/statistics');
+      }
+      renderStatistics();
+    }
+
+    function renderStatistics() {
+      const records = state.statistics?.records || [];
+      const summary = state.statistics?.summary || {};
+      const groupRows = groupAverage(records, state.statsGroupBy);
+      const topRows = records
+        .filter(record => Number.isFinite(Number(record.score)))
+        .slice()
+        .sort((a, b) => Number(b.score) - Number(a.score))
+        .slice(0, 20);
+      $('detail').className = '';
+      $('detail').innerHTML = `
+        <div class="topline">
+          <div>
+            <h2 style="margin:0 0 4px;font-size:20px">Statistics</h2>
+            <div class="meta">All analyzed JSON reports under this project.</div>
+          </div>
+          <button class="secondary" id="statsRefreshBtn" type="button">Refresh</button>
+        </div>
+        <div class="summary">
+          <div class="metric"><strong>${summary.count ?? records.length}</strong><span>Results</span></div>
+          <div class="metric"><strong>${fmt(summary.average_score, 2)}</strong><span>Avg Score</span></div>
+          <div class="metric"><strong>${fmt(summary.average_rung, 2)}</strong><span>Avg Rung</span></div>
+          <div class="metric"><strong>${fmt(summary.average_tempo_bpm, 1)}</strong><span>Avg BPM</span></div>
+        </div>
+        <div class="stats-toolbar">
+          <div class="stats-select">
+            <label for="statsGroupBy">Group Scores By</label>
+            <select id="statsGroupBy">
+              <option value="album" ${state.statsGroupBy === 'album' ? 'selected' : ''}>Album</option>
+              <option value="framework" ${state.statsGroupBy === 'framework' ? 'selected' : ''}>Framework</option>
+              <option value="source_type" ${state.statsGroupBy === 'source_type' ? 'selected' : ''}>Source</option>
+            </select>
+          </div>
+        </div>
+        ${records.length ? `
+          <div class="charts">
+            <div class="chart-panel"><h3>Average Axis Scores</h3>${barChart(axisAverages(records), { max: 10 })}</div>
+            <div class="chart-panel"><h3>Score Distribution</h3>${scoreHistogram(records)}</div>
+            <div class="chart-panel"><h3>Average Score by ${state.statsGroupBy.replace('_', ' ')}</h3>${barChart(groupRows, { max: 10, fill: 'alt' })}</div>
+            <div class="chart-panel"><h3>Rung Distribution</h3>${barChart(countBy(records.filter(r => r.rung_number !== null), r => String(Math.round(Number(r.rung_number)))), { fill: 'warm', digits: 0 })}</div>
+            <div class="chart-panel" style="grid-column:1 / -1"><h3>Tempo vs Score</h3>${scatterChart(records)}</div>
+          </div>
+          <div class="stats-table-wrap">
+            <table>
+              <thead><tr><th>Rank</th><th>Title</th><th>Album</th><th>Score</th><th>Rung</th><th>BPM</th><th>Framework</th><th>Report</th></tr></thead>
+              <tbody>
+                ${topRows.map((record, index) => `
+                  <tr>
+                    <td>${index + 1}</td>
+                    <td>${escapeHtml(record.title)}</td>
+                    <td>${escapeHtml(record.album)}</td>
+                    <td>${fmt(record.score, 3)}</td>
+                    <td>${record.rung_number ?? '—'} ${escapeHtml(record.rung_label || '')}</td>
+                    <td>${fmt(record.tempo_bpm, 1)}</td>
+                    <td>${escapeHtml(record.framework)}</td>
+                    <td><a href="/media?path=${encodeURIComponent(record.report_path)}" target="_blank">JSON</a></td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        ` : '<div class="empty">No analyzed results found. Run the analyzer first to create analysis JSON reports.</div>'}
+      `;
+      $('statsRefreshBtn').addEventListener('click', () => showStatistics(true).catch(err => alert(err.message)));
+      const selector = $('statsGroupBy');
+      if (selector) {
+        selector.addEventListener('change', () => {
+          state.statsGroupBy = selector.value;
+          renderStatistics();
+        });
+      }
     }
 
     function renderDetail(job) {
@@ -681,6 +981,8 @@
           body: JSON.stringify(payload)
         });
         state.selected = job.id;
+        state.view = 'jobs';
+        updateViewButtons();
         await loadJobs(true);
       } catch (err) {
         alert(err.message);
@@ -691,6 +993,13 @@
     }
 
     $('jobForm').addEventListener('submit', startJob);
+    $('jobsViewBtn').addEventListener('click', async () => {
+      state.view = 'jobs';
+      updateViewButtons();
+      if (state.selected) await loadJob(state.selected, { soft: false });
+      else $('detail').innerHTML = '<div class="empty">No job selected.</div>';
+    });
+    $('statsViewBtn').addEventListener('click', () => showStatistics().catch(err => alert(err.message)));
     $('analyzeTextBtn').addEventListener('click', analyzeSelectedText);
     $('songText').addEventListener('change', () => {
       $('textAnalysis').hidden = true;

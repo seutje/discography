@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import shutil
 import threading
 import traceback
 import urllib.parse
@@ -328,6 +329,72 @@ def update_iteration(job_id: str, iteration: int, **updates: Any) -> None:
         save_job(job)
 
 
+def safe_project_path(relative_path: str) -> Path:
+    path = (ROOT / relative_path).resolve()
+    path.relative_to(ROOT.resolve())
+    return path
+
+
+def promote_candidate(job_id: str, iteration_number: int, candidate_index: int, overwrite: bool = False) -> dict[str, Any]:
+    with STATE_LOCK:
+        job = load_job(job_id)
+        if not job:
+            raise FileNotFoundError(f"job not found: {job_id}")
+        source_text = safe_project_path(job["song_text"])
+        album_dir = source_text.parent
+        audio_dir = album_dir / "audio"
+        destination = audio_dir / f"{source_text.stem}.mp3"
+
+        selected_iteration = None
+        selected_candidate = None
+        for iteration in job.get("iterations", []):
+            if int(iteration.get("iteration", -1)) != iteration_number:
+                continue
+            selected_iteration = iteration
+            for candidate in iteration.get("candidates", []):
+                if int(candidate.get("index", -1)) == candidate_index:
+                    selected_candidate = candidate
+                    break
+        if selected_iteration is None or selected_candidate is None:
+            raise FileNotFoundError(f"candidate {candidate_index} in iteration {iteration_number} was not found")
+        audio_path = selected_candidate.get("audio_path")
+        if not audio_path:
+            raise ValueError("selected candidate has no audio file")
+        source_audio = safe_project_path(audio_path)
+        if not source_audio.exists():
+            raise FileNotFoundError(f"candidate audio does not exist: {source_audio}")
+        if destination.exists() and not overwrite:
+            return {
+                "ok": False,
+                "exists": True,
+                "destination": destination.relative_to(ROOT).as_posix(),
+                "message": f"{destination.relative_to(ROOT).as_posix()} already exists",
+            }
+
+        audio_dir.mkdir(parents=True, exist_ok=True)
+        if destination.exists() and overwrite:
+            destination.unlink()
+        shutil.move(str(source_audio), str(destination))
+
+        for iteration in job.get("iterations", []):
+            for candidate in iteration.get("candidates", []):
+                candidate["promoted"] = False
+        selected_candidate["promoted"] = True
+        selected_candidate["promoted_at"] = now()
+        selected_candidate["album_audio_path"] = destination.relative_to(ROOT).as_posix()
+        selected_candidate["audio_path"] = destination.relative_to(ROOT).as_posix()
+        job["winner"] = {
+            "iteration": iteration_number,
+            "candidate_index": candidate_index,
+            "album_audio_path": destination.relative_to(ROOT).as_posix(),
+            "promoted_at": selected_candidate["promoted_at"],
+        }
+        job["status"] = "promoted"
+        save_job(job)
+        add_log(job_id, f"Promoted candidate {candidate_index} to {destination.relative_to(ROOT).as_posix()}.")
+        return {"ok": True, "job": enrich_job(job), "destination": destination.relative_to(ROOT).as_posix()}
+
+
 class Handler(BaseHTTPRequestHandler):
     server_version = "SunoPipeline/1.0"
 
@@ -474,6 +541,23 @@ class Handler(BaseHTTPRequestHandler):
                 WORKERS[job_id] = thread
                 thread.start()
                 self.send_json(enrich_job(load_job(job_id)), HTTPStatus.CREATED)
+            except Exception as exc:
+                self.send_json({"error": str(exc)}, HTTPStatus.BAD_REQUEST)
+        elif path.startswith("/api/jobs/") and path.endswith("/promote"):
+            try:
+                parts = path.strip("/").split("/")
+                job_id = parts[2]
+                data = self.read_body()
+                result = promote_candidate(
+                    job_id,
+                    int(data.get("iteration", 1)),
+                    int(data["candidate_index"]),
+                    bool(data.get("overwrite", False)),
+                )
+                status = HTTPStatus.CONFLICT if result.get("exists") else HTTPStatus.OK
+                self.send_json(result, status)
+            except FileNotFoundError as exc:
+                self.send_json({"error": str(exc)}, HTTPStatus.NOT_FOUND)
             except Exception as exc:
                 self.send_json({"error": str(exc)}, HTTPStatus.BAD_REQUEST)
         elif path.startswith("/api/suno/callback/"):

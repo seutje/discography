@@ -110,6 +110,11 @@
       background: #fff;
       color: var(--accent);
     }
+    button.danger {
+      background: #fff;
+      border-color: var(--accent-2);
+      color: var(--accent-2);
+    }
     button:disabled {
       opacity: .55;
       cursor: wait;
@@ -214,6 +219,10 @@
       gap: 12px;
       align-items: start;
     }
+    .candidate.promoted {
+      border-color: var(--ok);
+      box-shadow: inset 3px 0 0 var(--ok);
+    }
     .cover {
       width: 88px;
       aspect-ratio: 1;
@@ -232,6 +241,13 @@
       width: 100%;
       height: 36px;
       margin: 8px 0;
+    }
+    .candidate-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 8px;
     }
     table {
       width: 100%;
@@ -408,9 +424,12 @@
             index: candidate.index,
             score: candidate.score ?? null,
             audio_path: candidate.audio_path || '',
-            analysis_status: candidate.analysis_status || ''
+            analysis_status: candidate.analysis_status || '',
+            promoted: Boolean(candidate.promoted),
+            album_audio_path: candidate.album_audio_path || ''
           }))
-        }))
+        })),
+        winner: job.winner || null
       });
     }
 
@@ -500,7 +519,7 @@
           <div class="iteration-body">
             ${iteration.task_id ? `<div class="meta">Task: ${iteration.task_id}</div>` : ''}
             ${iteration.revision_notes?.length ? `<div class="meta">${iteration.revision_notes.join(' ')}</div>` : ''}
-            ${candidates.map(renderCandidate).join('') || `<div class="meta">Waiting for candidates.</div>`}
+            ${candidates.map(candidate => renderCandidate(candidate, iteration.iteration)).join('') || `<div class="meta">Waiting for candidates.</div>`}
           </div>
         </div>
       `;
@@ -513,25 +532,49 @@
       return `<table><thead><tr><th>Axis</th><th>Score</th></tr></thead><tbody>${rows}</tbody></table>`;
     }
 
-    function renderCandidate(candidate) {
+    function renderCandidate(candidate, iterationNumber) {
       const cover = candidate.image_url
         ? `<img class="cover" src="${candidate.image_url}" alt="">`
         : `<div class="cover placeholder">♪</div>`;
+      const promoted = Boolean(candidate.promoted);
       return `
-        <div class="candidate">
+        <div class="candidate ${promoted ? 'promoted' : ''}">
           ${cover}
           <div>
             <div style="display:flex;justify-content:space-between;gap:10px">
               <strong>${candidate.title || 'Candidate'}</strong>
-              <span class="status">${fmt(candidate.score, 3)}</span>
+              <span class="status">${promoted ? 'winner' : fmt(candidate.score, 3)}</span>
             </div>
             <div class="meta">${candidate.duration ? `${fmt(candidate.duration, 1)}s` : ''} ${candidate.tags || ''}</div>
             ${candidate.audio_url ? `<audio controls preload="metadata" src="${candidate.audio_url}"></audio>` : ''}
             ${candidate.report_path ? `<a href="/media?path=${encodeURIComponent(candidate.report_path)}" target="_blank">Analysis JSON</a>` : ''}
+            <div class="candidate-actions">
+              ${candidate.audio_url ? `<button class="${promoted ? 'secondary' : 'danger'}" type="button" data-promote data-iteration="${iterationNumber}" data-candidate="${candidate.index}" ${promoted ? 'disabled' : ''}>${promoted ? 'Selected Winner' : 'Pick Winner'}</button>` : ''}
+              ${candidate.album_audio_path ? `<span class="meta">Moved to ${candidate.album_audio_path}</span>` : ''}
+            </div>
             ${axisTable(candidate)}
           </div>
         </div>
       `;
+    }
+
+    async function promoteCandidate(iteration, candidateIndex, overwrite = false) {
+      if (!state.selected) return;
+      const res = await fetch(`/api/jobs/${state.selected}/promote`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ iteration, candidate_index: candidateIndex, overwrite })
+      });
+      const data = await res.json();
+      if (res.status === 409 && data.exists) {
+        if (confirm(`${data.destination} already exists. Replace it with this candidate?`)) {
+          return promoteCandidate(iteration, candidateIndex, true);
+        }
+        return;
+      }
+      if (!res.ok) throw new Error(data.error || data.message || res.statusText);
+      state.selectedSignature = '';
+      await loadJob(state.selected, { soft: false });
     }
 
     async function startJob(event) {
@@ -569,6 +612,22 @@
     $('refreshBtn').addEventListener('click', async () => {
       state.selectedSignature = '';
       await loadJobs(true);
+    });
+    document.addEventListener('click', async (event) => {
+      const button = event.target.closest('[data-promote]');
+      if (!button || button.disabled) return;
+      const iteration = Number(button.dataset.iteration);
+      const candidate = Number(button.dataset.candidate);
+      if (!confirm(`Move candidate ${candidate} into the album audio folder as the winning take?`)) return;
+      button.disabled = true;
+      button.textContent = 'Moving...';
+      try {
+        await promoteCandidate(iteration, candidate);
+      } catch (err) {
+        alert(err.message);
+        button.disabled = false;
+        button.textContent = 'Pick Winner';
+      }
     });
 
     (async function init() {

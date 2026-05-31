@@ -158,6 +158,24 @@ def finite_float(value: Any) -> float | None:
     return result
 
 
+def bounded_float(value: Any, fallback: float, low: float = 0.0, high: float = 1.0) -> float:
+    result = finite_float(value)
+    if result is None:
+        result = fallback
+    if result < low or result > high:
+        raise ValueError(f"value must be between {low:g} and {high:g}")
+    return round(result, 2)
+
+
+def normalize_vocal_gender(value: Any) -> str | None:
+    gender = str(value or "").strip().lower()
+    if not gender:
+        return None
+    if gender not in {"m", "f"}:
+        raise ValueError("vocal_gender must be empty, m, or f")
+    return gender
+
+
 def mean(values: list[float]) -> float | None:
     return round(sum(values) / len(values), 3) if values else None
 
@@ -366,7 +384,14 @@ def run_job(job_id: str) -> None:
         for iteration in range(1, int(settings["max_iterations"]) + 1):
             iter_dir = job_dir(job_id) / f"iteration_{iteration:02d}"
             callback_url = f"{settings['public_base_url'].rstrip('/')}/api/suno/callback/{CALLBACK_TOKEN}/{job_id}/{iteration}"
-            payload = suno_iterate.build_payload(spec, revision_notes, callback_url)
+            payload = suno_iterate.build_payload(
+                spec,
+                revision_notes,
+                callback_url,
+                float(settings.get("style_weight", 0.75)),
+                float(settings.get("weirdness_constraint", 0.75)),
+                settings.get("vocal_gender") or None,
+            )
             text_path = suno_iterate.write_iteration_inputs(iter_dir, spec, payload, revision_notes)
 
             with STATE_LOCK:
@@ -697,6 +722,9 @@ class Handler(BaseHTTPRequestHandler):
                     "max_iterations": int(data.get("max_iterations", 3)),
                     "max_api_calls": int(data.get("max_api_calls", 1)),
                     "live": bool(data.get("live")),
+                    "style_weight": bounded_float(data.get("style_weight"), 0.75),
+                    "weirdness_constraint": bounded_float(data.get("weirdness_constraint"), 0.75),
+                    "vocal_gender": normalize_vocal_gender(data.get("vocal_gender")),
                     "framework": data.get("framework") or None,
                     "ollama_model": data.get("ollama_model") or suno_iterate.DEFAULT_OLLAMA_MODEL,
                     "ollama_url": data.get("ollama_url") or "http://localhost:11434",

@@ -533,6 +533,24 @@
           </div>
         </div>
 
+        <div class="row">
+          <div>
+            <label for="styleWeight">Style Weight</label>
+            <input id="styleWeight" type="number" min="0" max="1" step="0.01" value="0.75">
+          </div>
+          <div>
+            <label for="weirdnessConstraint">Weirdness</label>
+            <input id="weirdnessConstraint" type="number" min="0" max="1" step="0.01" value="0.75">
+          </div>
+        </div>
+
+        <label for="vocalGender">Vocal Gender</label>
+        <select id="vocalGender">
+          <option value="">Unspecified</option>
+          <option value="m">Male</option>
+          <option value="f">Female</option>
+        </select>
+
         <label for="ollamaModel">Ollama Model</label>
         <input id="ollamaModel" value="qwen3:8b">
 
@@ -971,6 +989,7 @@
       const best = job.best || {};
       const iterations = job.iterations || [];
       const callbackBase = job.settings?.public_base_url || '';
+      const vocalGender = job.settings?.vocal_gender || 'unspecified';
       $('detail').className = '';
       $('detail').innerHTML = `
         <div class="topline">
@@ -987,6 +1006,7 @@
           <div class="metric"><strong>${job.settings?.live ? 'Live' : 'Dry'}</strong><span>Mode</span></div>
         </div>
         ${callbackBase ? `<div class="meta" style="margin-bottom:14px">Callback base: ${callbackBase}</div>` : ''}
+        <div class="meta" style="margin-bottom:14px">Suno controls: styleWeight ${job.settings?.style_weight ?? '0.75'} · weirdnessConstraint ${job.settings?.weirdness_constraint ?? '0.75'} · vocalGender ${escapeHtml(vocalGender)}</div>
         ${job.error ? `<div class="empty" style="color:var(--error);margin-bottom:14px">${job.error}</div>` : ''}
         <div data-iterations>${iterations.map(renderIteration).join('') || '<div class="empty">No iterations yet.</div>'}</div>
         <div class="log" data-log>${(job.log || []).map(item => `[${item.time}] ${item.message}`).join('\n')}</div>
@@ -1170,6 +1190,9 @@
           score_mode: $('scoreMode').value,
           max_iterations: Number($('maxIterations').value),
           max_api_calls: Number($('maxCalls').value),
+          style_weight: Number($('styleWeight').value),
+          weirdness_constraint: Number($('weirdnessConstraint').value),
+          vocal_gender: $('vocalGender').value,
           live: $('live').checked,
           ollama_model: $('ollamaModel').value.trim()
         };

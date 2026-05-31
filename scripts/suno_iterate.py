@@ -96,7 +96,14 @@ def build_style(spec: TrackSpec, revision_notes: list[str]) -> str:
     return truncate("\n".join(lines).strip(), STYLE_LIMIT)
 
 
-def build_payload(spec: TrackSpec, revision_notes: list[str], callback_url: str) -> dict[str, Any]:
+def build_payload(
+    spec: TrackSpec,
+    revision_notes: list[str],
+    callback_url: str,
+    style_weight: float = 0.75,
+    weirdness_constraint: float = 0.75,
+    vocal_gender: str | None = None,
+) -> dict[str, Any]:
     payload = {
         "prompt": truncate(spec.lyrics, PROMPT_LIMIT),
         "style": build_style(spec, revision_notes),
@@ -104,7 +111,11 @@ def build_payload(spec: TrackSpec, revision_notes: list[str], callback_url: str)
         "customMode": True,
         "instrumental": False,
         "model": "V5_5",
+        "styleWeight": style_weight,
+        "weirdnessConstraint": weirdness_constraint,
     }
+    if vocal_gender:
+        payload["vocalGender"] = vocal_gender
     if callback_url:
         payload["callBackUrl"] = callback_url
     return payload
@@ -391,6 +402,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-api-calls", type=int, default=1, help="Maximum live Suno generation calls in this run.")
     parser.add_argument("--live", action="store_true", help="Actually submit to Suno. Without this flag, only write dry-run payloads.")
     parser.add_argument("--callback-url", help="Suno callback URL. Defaults to SUNO_CALLBACK_URL from env file or environment.")
+    parser.add_argument("--style-weight", type=float, default=0.75, help="Suno styleWeight control, from 0.00 to 1.00.")
+    parser.add_argument("--weirdness-constraint", type=float, default=0.75, help="Suno weirdnessConstraint control, from 0.00 to 1.00.")
+    parser.add_argument("--vocal-gender", choices=("m", "f"), help="Optional Suno vocalGender control.")
     parser.add_argument("--framework", type=Path, help="Optional analyzer framework override.")
     parser.add_argument("--ollama-model", default=DEFAULT_OLLAMA_MODEL, help="Local Ollama model passed to analyze_track.py for adjusted grading.")
     parser.add_argument("--ollama-url", default="http://localhost:11434", help="Ollama base URL for analyzer grading.")
@@ -422,7 +436,14 @@ def main() -> int:
 
     for iteration in range(1, args.max_iterations + 1):
         iter_dir = run_dir / f"iteration_{iteration:02d}"
-        payload = build_payload(spec, revision_notes, callback_url)
+        payload = build_payload(
+            spec,
+            revision_notes,
+            callback_url,
+            args.style_weight,
+            args.weirdness_constraint,
+            args.vocal_gender,
+        )
         text_path = write_iteration_inputs(iter_dir, spec, payload, revision_notes)
 
         if not args.live:

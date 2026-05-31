@@ -124,6 +124,38 @@
       gap: 8px;
       margin-top: 16px;
     }
+    .text-analysis {
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 10px 12px;
+    }
+    .text-analysis h3 {
+      margin: 0 0 8px;
+      font-size: 14px;
+    }
+    .text-analysis dl {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 4px 10px;
+      margin: 8px 0;
+      font-size: 12px;
+    }
+    .text-analysis dt {
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .text-analysis dd {
+      margin: 0;
+      font-weight: 700;
+    }
+    .warnings {
+      margin: 8px 0 0;
+      padding-left: 17px;
+      color: var(--warn);
+      font-size: 12px;
+    }
     .jobs {
       margin-top: 22px;
       display: grid;
@@ -344,8 +376,10 @@
 
         <div class="actions">
           <button id="startBtn" type="submit">Start Job</button>
+          <button class="secondary" id="analyzeTextBtn" type="button">Analyze Text</button>
           <button class="secondary" id="refreshBtn" type="button">Refresh</button>
         </div>
+        <div id="textAnalysis" class="text-analysis" hidden></div>
       </form>
 
       <div class="jobs" id="jobs"></div>
@@ -376,6 +410,16 @@
       return Number.isFinite(num) ? num.toFixed(digits) : '—';
     }
 
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, char => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      }[char]));
+    }
+
     async function loadSongs() {
       const data = await api('/api/songs');
       $('songText').innerHTML = data.songs.map(song =>
@@ -388,6 +432,44 @@
       if (data.public_base_url && !$('publicBase').value) {
         $('publicBase').value = data.public_base_url;
       }
+    }
+
+    async function analyzeSelectedText() {
+      const panel = $('textAnalysis');
+      panel.hidden = false;
+      panel.innerHTML = '<h3>Text Analysis</h3><div class="meta">Analyzing seed text...</div>';
+      $('analyzeTextBtn').disabled = true;
+      try {
+        const path = encodeURIComponent($('songText').value);
+        const data = await api(`/api/text-analysis?path=${path}`);
+        renderTextAnalysis(data);
+      } catch (err) {
+        panel.innerHTML = `<h3>Text Analysis</h3><div class="meta" style="color:var(--error)">${escapeHtml(err.message)}</div>`;
+      } finally {
+        $('analyzeTextBtn').disabled = false;
+      }
+    }
+
+    function renderTextAnalysis(data) {
+      const metrics = data.metrics || {};
+      const suno = data.suno || {};
+      const warnings = data.warnings || [];
+      $('textAnalysis').hidden = false;
+      $('textAnalysis').innerHTML = `
+        <h3>${escapeHtml(data.title || 'Text Analysis')}</h3>
+        <div class="meta">${escapeHtml(data.framework || 'No framework selected')}</div>
+        <dl>
+          <dt>Prompt chars</dt><dd>${suno.prompt_chars ?? '—'} / ${suno.prompt_limit ?? '—'}</dd>
+          <dt>Style chars</dt><dd>${suno.style_chars ?? '—'} / ${suno.style_limit ?? '—'}</dd>
+          <dt>Words</dt><dd>${metrics.word_count ?? '—'}</dd>
+          <dt>Lines</dt><dd>${metrics.line_count ?? '—'}</dd>
+          <dt>Sections</dt><dd>${metrics.section_count ?? '—'}</dd>
+          <dt>Repeated lines</dt><dd>${fmt(metrics.repeated_line_ratio, 2)}</dd>
+          <dt>Rhyme reuse</dt><dd>${fmt(metrics.rhyme_suffix_reuse, 2)}</dd>
+          <dt>Audio target</dt><dd>${escapeHtml(data.album_audio_target || '—')}</dd>
+        </dl>
+        ${warnings.length ? `<ul class="warnings">${warnings.map(warning => `<li>${escapeHtml(warning)}</li>`).join('')}</ul>` : '<div class="meta" style="color:var(--ok)">Ready for Suno payload limits.</div>'}
+      `;
     }
 
     async function loadJobs(keepSelection = true) {
@@ -609,6 +691,11 @@
     }
 
     $('jobForm').addEventListener('submit', startJob);
+    $('analyzeTextBtn').addEventListener('click', analyzeSelectedText);
+    $('songText').addEventListener('change', () => {
+      $('textAnalysis').hidden = true;
+      $('textAnalysis').innerHTML = '';
+    });
     $('refreshBtn').addEventListener('click', async () => {
       state.selectedSignature = '';
       await loadJobs(true);

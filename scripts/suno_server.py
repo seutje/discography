@@ -16,6 +16,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from typing import Any
 
+import analyze_track
 import suno_iterate
 
 
@@ -94,6 +95,57 @@ def list_song_files() -> list[dict[str, str]]:
             title = path.stem
         songs.append({"path": rel, "title": title})
     return sorted(songs, key=lambda item: item["path"].lower())
+
+
+def text_analysis(relative_path: str) -> dict[str, Any]:
+    text_path = safe_project_path(relative_path)
+    if not text_path.exists() or text_path.suffix.lower() != ".txt":
+        raise FileNotFoundError(f"text file not found: {relative_path}")
+    track_text = analyze_track.read_track_text(text_path)
+    metrics = analyze_track.lyric_metrics(track_text)
+    spec = suno_iterate.parse_track_text(text_path)
+    style = suno_iterate.build_style(spec, [])
+    prompt = suno_iterate.truncate(spec.lyrics, suno_iterate.PROMPT_LIMIT)
+    pseudo_audio_path = text_path.parent / "audio" / f"{text_path.stem}.mp3"
+    framework = analyze_track.choose_framework(pseudo_audio_path, track_text, None)
+    missing = [field for field in ("TITLE", "GENRE", "MOOD", "TEMPO", "KEY", "VOCALS", "PRODUCTION") if not track_text.tags.get(field)]
+    warnings: list[str] = []
+    if len(spec.lyrics) > suno_iterate.PROMPT_LIMIT:
+        warnings.append(f"Lyrics are {len(spec.lyrics)} characters and will be truncated to {suno_iterate.PROMPT_LIMIT}.")
+    elif len(spec.lyrics) > suno_iterate.PROMPT_LIMIT * 0.95:
+        warnings.append(f"Lyrics are close to Suno's limit: {len(spec.lyrics)}/{suno_iterate.PROMPT_LIMIT}.")
+    if len(style) > suno_iterate.STYLE_LIMIT:
+        warnings.append(f"Style prompt is {len(style)} characters and will be truncated to {suno_iterate.STYLE_LIMIT}.")
+    elif len(style) > suno_iterate.STYLE_LIMIT * 0.95:
+        warnings.append(f"Style prompt is close to Suno's limit: {len(style)}/{suno_iterate.STYLE_LIMIT}.")
+    if missing:
+        warnings.append("Missing metadata fields: " + ", ".join(missing) + ".")
+    if metrics["section_count"] < 4:
+        warnings.append("Few lyric sections detected; Suno may produce a less structured arrangement.")
+    if metrics["word_count"] < 120:
+        warnings.append("Low word count; generation may feel underwritten for this album's spoken-word style.")
+
+    return {
+        "path": relative_path,
+        "title": metrics.get("title") or spec.title,
+        "framework": str(framework) if framework else None,
+        "suno": {
+            "prompt_chars": len(spec.lyrics),
+            "prompt_limit": suno_iterate.PROMPT_LIMIT,
+            "prompt_will_truncate": len(spec.lyrics) > suno_iterate.PROMPT_LIMIT,
+            "style_chars": len(style),
+            "style_limit": suno_iterate.STYLE_LIMIT,
+            "style_will_truncate": len(style) > suno_iterate.STYLE_LIMIT,
+            "title_chars": len(spec.title),
+            "title_limit": suno_iterate.TITLE_LIMIT,
+        },
+        "metrics": metrics,
+        "missing_metadata": missing,
+        "warnings": warnings,
+        "album_audio_target": pseudo_audio_path.relative_to(ROOT).as_posix(),
+        "prompt_preview": prompt[:800],
+        "style_preview": style,
+    }
 
 
 def public_url_for_path(path: Path) -> str:
@@ -442,6 +494,14 @@ class Handler(BaseHTTPRequestHandler):
             self.send_json({"public_base_url": env.get("SUNO_PUBLIC_BASE_URL", "")})
         elif path == "/api/songs":
             self.send_json({"songs": list_song_files()})
+        elif path == "/api/text-analysis":
+            rel = query.get("path", [""])[0]
+            try:
+                self.send_json(text_analysis(rel))
+            except FileNotFoundError as exc:
+                self.send_json({"error": str(exc)}, HTTPStatus.NOT_FOUND)
+            except Exception as exc:
+                self.send_json({"error": str(exc)}, HTTPStatus.BAD_REQUEST)
         elif path == "/api/jobs":
             jobs = [enrich_job(read_json(path / "job.json", {})) for path in sorted(OUTPUT_ROOT.glob("*")) if (path / "job.json").exists()]
             self.send_json({"jobs": sorted(jobs, key=lambda item: item.get("created_at", ""), reverse=True)})

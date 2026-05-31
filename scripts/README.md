@@ -91,6 +91,12 @@ python scripts/suno_iterate.py "Net Worthless/01 - Main Character Morning.txt" \
 
 For each live iteration, the script submits `POST /api/v1/generate`, polls `GET /api/v1/generate/record-info?taskId=...`, downloads returned candidates, grades them with `analyze_track.py`, selects the best candidate, and appends targeted revision notes to the next style prompt when the quality threshold is not met.
 
+Suno HTTP requests use `curl` by default because Cloudflare may reject Python's default `urllib` client fingerprint with HTTP 403 / Error 1010. To force the older Python backend for debugging:
+
+```bash
+SUNO_HTTP_BACKEND=urllib python scripts/suno_iterate.py ...
+```
+
 Run the local dashboard and callback receiver:
 
 ```bash

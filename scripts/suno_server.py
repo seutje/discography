@@ -160,6 +160,7 @@ def wait_for_callback_or_poll(
         callback_path = job_dir(job_id) / f"iteration_{iteration:02d}" / "callback_latest.json"
         callback = read_json(callback_path, {})
         if callback_payload_has_complete_audio(callback):
+            add_log(job_id, f"Complete Suno callback received for task {task_id}.")
             return callback
 
         add_log(job_id, f"Waiting for Suno callback or poll result for task {task_id}.")
@@ -170,6 +171,7 @@ def wait_for_callback_or_poll(
         try:
             record = suno_iterate.poll_generation(task_id, api_key, 0.1, 0.2, request_timeout)
             if suno_iterate.extract_audio_items(record):
+                add_log(job_id, f"Polling found completed Suno result for task {task_id}.")
                 return record
         except TimeoutError:
             pass
@@ -248,6 +250,7 @@ def run_job(job_id: str) -> None:
             )
             write_json(iter_dir / "record.json", record)
             update_iteration(job_id, iteration, status="downloading")
+            add_log(job_id, f"Downloading generated audio for iteration {iteration}.")
 
             audio_paths = suno_iterate.download_audio(record, iter_dir, timeout=float(settings["request_timeout"]))
             raw_items = [normalize_audio_item(item) for item in suno_iterate.extract_audio_items(record)]
@@ -274,12 +277,14 @@ def run_job(job_id: str) -> None:
                     }
                 )
             update_iteration(job_id, iteration, status="analyzing", candidates=candidates)
+            add_log(job_id, f"Downloaded {len(candidates)} candidate(s); starting analysis.")
 
             report_paths = []
             analysis_dir = job_dir(job_id) / "analysis"
             framework = ROOT / settings["framework"] if settings.get("framework") else None
             for candidate in candidates:
                 audio_path = ROOT / candidate["audio_path"]
+                add_log(job_id, f"Analyzing candidate {candidate['index']}: {candidate['title']}.")
                 report_path = suno_iterate.run_analyzer(
                     audio_path,
                     text_path,
@@ -293,6 +298,7 @@ def run_job(job_id: str) -> None:
                 candidate.update(candidate_report_summary(report_path, settings["score_mode"]))
                 candidate["analysis_status"] = "complete"
                 update_iteration(job_id, iteration, candidates=candidates)
+                add_log(job_id, f"Candidate {candidate['index']} score: {candidate['score']:.3f}.")
 
             best = suno_iterate.choose_best(report_paths, settings["score_mode"])
             reached = best["score"] >= float(settings["threshold"])

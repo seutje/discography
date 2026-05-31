@@ -340,7 +340,7 @@
   </main>
 
   <script>
-    const state = { jobs: [], selected: null, busy: false };
+    const state = { jobs: [], selected: null, busy: false, selectedJob: null, selectedSignature: '' };
 
     function $(id) { return document.getElementById(id); }
 
@@ -381,16 +381,72 @@
         state.selected = state.jobs[0]?.id || null;
       }
       renderJobs();
-      if (state.selected) await loadJob(state.selected);
+      if (state.selected) await loadJob(state.selected, { soft: true });
       $('serverState').textContent = 'online';
       $('serverState').className = 'status complete';
     }
 
-    async function loadJob(id) {
+    async function loadJob(id, options = {}) {
       const job = await api(`/api/jobs/${id}`);
+      const selectionChanged = state.selected !== id;
       state.selected = id;
-      renderDetail(job);
+      updateDetail(job, { soft: Boolean(options.soft) && !selectionChanged });
       renderJobs();
+    }
+
+    function jobSignature(job) {
+      return JSON.stringify({
+        status: job.status,
+        updated_at: job.updated_at,
+        completed_at: job.completed_at,
+        error: job.error || '',
+        best: job.best?.score ?? null,
+        iterations: (job.iterations || []).map(iteration => ({
+          iteration: iteration.iteration,
+          status: iteration.status,
+          candidates: (iteration.candidates || []).map(candidate => ({
+            index: candidate.index,
+            score: candidate.score ?? null,
+            audio_path: candidate.audio_path || '',
+            analysis_status: candidate.analysis_status || ''
+          }))
+        }))
+      });
+    }
+
+    function mediaIsActive() {
+      const active = document.activeElement;
+      if (active && active.tagName === 'AUDIO') return true;
+      return Array.from(document.querySelectorAll('#detail audio')).some(audio => !audio.paused && !audio.ended);
+    }
+
+    function updateDetail(job, { soft = false } = {}) {
+      const signature = jobSignature(job);
+      state.selectedJob = job;
+      if (soft && signature === state.selectedSignature) {
+        return;
+      }
+      if (soft && mediaIsActive()) {
+        updateTextOnly(job);
+        return;
+      }
+      state.selectedSignature = signature;
+      renderDetail(job);
+    }
+
+    function updateTextOnly(job) {
+      const status = document.querySelector('#detail [data-job-status]');
+      if (status) {
+        status.textContent = job.status || 'unknown';
+        status.className = statusClass(job.status);
+      }
+      const best = document.querySelector('#detail [data-best-score]');
+      if (best) best.textContent = fmt(job.best?.score, 3);
+      const log = document.querySelector('#detail [data-log]');
+      if (log) {
+        log.textContent = (job.log || []).map(item => `[${item.time}] ${item.message}`).join('\n');
+        log.scrollTop = log.scrollHeight;
+      }
     }
 
     function renderJobs() {
@@ -417,10 +473,10 @@
             <h2 style="margin:0 0 4px;font-size:20px">${job.song_text}</h2>
             <div class="meta">${job.id}</div>
           </div>
-          <span class="${statusClass(job.status)}">${job.status}</span>
+          <span data-job-status class="${statusClass(job.status)}">${job.status}</span>
         </div>
         <div class="summary">
-          <div class="metric"><strong>${fmt(best.score, 3)}</strong><span>Best Score</span></div>
+          <div class="metric"><strong data-best-score>${fmt(best.score, 3)}</strong><span>Best Score</span></div>
           <div class="metric"><strong>${job.settings?.threshold ?? '—'}</strong><span>Threshold</span></div>
           <div class="metric"><strong>${iterations.length}</strong><span>Iterations</span></div>
           <div class="metric"><strong>${job.settings?.live ? 'Live' : 'Dry'}</strong><span>Mode</span></div>
@@ -428,8 +484,9 @@
         ${callbackBase ? `<div class="meta" style="margin-bottom:14px">Callback base: ${callbackBase}</div>` : ''}
         ${job.error ? `<div class="empty" style="color:var(--error);margin-bottom:14px">${job.error}</div>` : ''}
         <div>${iterations.map(renderIteration).join('') || '<div class="empty">No iterations yet.</div>'}</div>
-        <div class="log">${(job.log || []).map(item => `[${item.time}] ${item.message}`).join('\n')}</div>
+        <div class="log" data-log>${(job.log || []).map(item => `[${item.time}] ${item.message}`).join('\n')}</div>
       `;
+      state.selectedSignature = jobSignature(job);
     }
 
     function renderIteration(iteration) {
@@ -509,7 +566,10 @@
     }
 
     $('jobForm').addEventListener('submit', startJob);
-    $('refreshBtn').addEventListener('click', () => loadJobs(true));
+    $('refreshBtn').addEventListener('click', async () => {
+      state.selectedSignature = '';
+      await loadJobs(true);
+    });
 
     (async function init() {
       try {

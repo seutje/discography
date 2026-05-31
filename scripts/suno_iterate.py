@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -20,6 +21,7 @@ from typing import Any
 
 
 SUNO_BASE_URL = "https://api.sunoapi.org"
+SUNO_USER_AGENT = "discography-suno-pipeline/1.0 curl-client"
 STYLE_FIELDS = ("GENRE", "MOOD", "TEMPO", "KEY", "VOCALS", "PRODUCTION")
 STYLE_LIMIT = 1000
 PROMPT_LIMIT = 5000
@@ -123,7 +125,54 @@ def write_iteration_inputs(iter_dir: Path, spec: TrackSpec, payload: dict[str, A
     return text_path
 
 
-def suno_request(method: str, path: str, api_key: str, payload: dict[str, Any] | None = None, timeout: float = 60.0) -> dict[str, Any]:
+def suno_request_with_curl(method: str, path: str, api_key: str, payload: dict[str, Any] | None, timeout: float) -> dict[str, Any]:
+    curl = shutil.which("curl")
+    if not curl:
+        raise RuntimeError("curl is not installed")
+    body = json.dumps(payload, ensure_ascii=False) if payload is not None else None
+    cmd = [
+        curl,
+        "--silent",
+        "--show-error",
+        "--location",
+        "--max-time",
+        str(timeout),
+        "--request",
+        method,
+        f"{SUNO_BASE_URL}{path}",
+        "--header",
+        f"Authorization: Bearer {api_key}",
+        "--header",
+        "Content-Type: application/json",
+        "--header",
+        "Accept: application/json",
+        "--header",
+        f"User-Agent: {SUNO_USER_AGENT}",
+        "--write-out",
+        "\n%{http_code}",
+    ]
+    if body is not None:
+        cmd.extend(["--data-binary", "@-"])
+    completed = subprocess.run(cmd, input=body, text=True, capture_output=True)
+    output = completed.stdout or ""
+    if "\n" not in output:
+        raise RuntimeError(f"Suno curl request failed: {completed.stderr.strip() or output.strip()}")
+    response_body, status_raw = output.rsplit("\n", 1)
+    try:
+        status = int(status_raw.strip())
+    except ValueError as exc:
+        raise RuntimeError(f"Suno curl request returned invalid status: {status_raw}") from exc
+    if completed.returncode and not response_body:
+        raise RuntimeError(f"Suno curl request failed: {completed.stderr.strip()}")
+    if status >= 400:
+        raise RuntimeError(f"Suno HTTP {status}: {response_body}")
+    try:
+        return json.loads(response_body)
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"Suno returned non-JSON response: {response_body[:500]}") from exc
+
+
+def suno_request_with_urllib(method: str, path: str, api_key: str, payload: dict[str, Any] | None, timeout: float) -> dict[str, Any]:
     data = json.dumps(payload).encode("utf-8") if payload is not None else None
     request = urllib.request.Request(
         f"{SUNO_BASE_URL}{path}",
@@ -133,6 +182,7 @@ def suno_request(method: str, path: str, api_key: str, payload: dict[str, Any] |
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
             "Accept": "application/json",
+            "User-Agent": SUNO_USER_AGENT,
         },
     )
     try:
@@ -143,6 +193,19 @@ def suno_request(method: str, path: str, api_key: str, payload: dict[str, Any] |
         raise RuntimeError(f"Suno HTTP {exc.code}: {body}") from exc
     except urllib.error.URLError as exc:
         raise RuntimeError(f"Suno request failed: {exc}") from exc
+
+
+def suno_request(method: str, path: str, api_key: str, payload: dict[str, Any] | None = None, timeout: float = 60.0) -> dict[str, Any]:
+    """Call Suno with curl by default to avoid Python urllib Cloudflare fingerprint blocks."""
+    backend = os.environ.get("SUNO_HTTP_BACKEND", "curl").strip().lower()
+    if backend == "urllib":
+        return suno_request_with_urllib(method, path, api_key, payload, timeout)
+    try:
+        return suno_request_with_curl(method, path, api_key, payload, timeout)
+    except RuntimeError as exc:
+        if "curl is not installed" in str(exc):
+            return suno_request_with_urllib(method, path, api_key, payload, timeout)
+        raise
 
 
 def submit_generation(payload: dict[str, Any], api_key: str, timeout: float) -> str:

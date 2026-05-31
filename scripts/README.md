@@ -68,6 +68,7 @@ The LLM does not analyze raw audio. It receives the measured features, lyrics/pr
 `scripts/suno_iterate.py` prepares Suno custom-mode `V5_5` generation requests from the existing song text format:
 
 - `GENRE`, `MOOD`, `TEMPO`, `KEY`, `VOCALS`, and `PRODUCTION` become the Suno `style` prompt.
+- Generated candidates are analyzed with `beat_this` beat/downbeat files and the Ollama LLM scoring adjustment. The default pipeline model is `qwen3:8b`; pass `--ollama-model` to use a different local model.
 - Text after `[LYRICS]` becomes the regular Suno `prompt`.
 - `TITLE` becomes the Suno title.
 - The script enforces Suno's current limits: 1000 characters for `style`, 5000 for `prompt`, and 100 for `title`.

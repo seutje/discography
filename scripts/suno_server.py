@@ -230,6 +230,8 @@ def analysis_statistics() -> dict[str, Any]:
     for report_path in sorted(ROOT.rglob("*.analysis.json")):
         if ".venv" in report_path.parts or ".git" in report_path.parts:
             continue
+        if "suno-runs" in report_path.parts:
+            continue
         try:
             summary = summarize_analysis_report(report_path)
         except Exception:
@@ -439,10 +441,17 @@ def run_job(job_id: str) -> None:
 
             report_paths = []
             analysis_dir = job_dir(job_id) / "analysis"
+            beat_dir = iter_dir / "beat_this"
             framework = ROOT / settings["framework"] if settings.get("framework") else None
             for candidate in candidates:
                 audio_path = ROOT / candidate["audio_path"]
                 add_log(job_id, f"Analyzing candidate {candidate['index']}: {candidate['title']}.")
+                beat_file = suno_iterate.run_beat_this(
+                    audio_path,
+                    beat_dir,
+                    settings.get("beat_this_gpu") or suno_iterate.DEFAULT_BEAT_THIS_GPU,
+                )
+                candidate["beat_file"] = beat_file.relative_to(ROOT).as_posix()
                 report_path = suno_iterate.run_analyzer(
                     audio_path,
                     text_path,
@@ -451,6 +460,7 @@ def run_job(job_id: str) -> None:
                     settings.get("ollama_model") or None,
                     settings["ollama_url"],
                     float(settings["ollama_timeout"]),
+                    beat_file,
                 )
                 report_paths.append(report_path)
                 candidate.update(candidate_report_summary(report_path, settings["score_mode"]))
@@ -688,9 +698,10 @@ class Handler(BaseHTTPRequestHandler):
                     "max_api_calls": int(data.get("max_api_calls", 1)),
                     "live": bool(data.get("live")),
                     "framework": data.get("framework") or None,
-                    "ollama_model": data.get("ollama_model") or "",
+                    "ollama_model": data.get("ollama_model") or suno_iterate.DEFAULT_OLLAMA_MODEL,
                     "ollama_url": data.get("ollama_url") or "http://localhost:11434",
                     "ollama_timeout": float(data.get("ollama_timeout", 240)),
+                    "beat_this_gpu": str(data.get("beat_this_gpu") or suno_iterate.DEFAULT_BEAT_THIS_GPU),
                     "poll_seconds": float(data.get("poll_seconds", 15)),
                     "task_timeout": float(data.get("task_timeout", 900)),
                     "request_timeout": float(data.get("request_timeout", 60)),

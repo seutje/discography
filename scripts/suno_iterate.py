@@ -27,6 +27,8 @@ STYLE_LIMIT = 1000
 PROMPT_LIMIT = 5000
 TITLE_LIMIT = 100
 AUDIO_EXTENSIONS = (".mp3", ".wav", ".m4a", ".flac", ".ogg")
+DEFAULT_OLLAMA_MODEL = "qwen3:8b"
+DEFAULT_BEAT_THIS_GPU = "-1"
 AXIS_KEYS = (
     "SC_structural_coherence",
     "MI_motivic_integration",
@@ -278,6 +280,30 @@ def analyzer_stem(audio_path: Path) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", audio_path.with_suffix("").as_posix()).strip("_")
 
 
+def run_beat_this(audio_path: Path, output_dir: Path, gpu: str | None = DEFAULT_BEAT_THIS_GPU) -> Path:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    expected = output_dir / f"{audio_path.stem}.beats"
+    if expected.exists():
+        return expected
+
+    cmd = ["beat_this", str(audio_path), "-o", str(output_dir)]
+    if gpu:
+        cmd.extend(["--gpu", str(gpu)])
+    try:
+        completed = subprocess.run(cmd, text=True)
+    except FileNotFoundError as exc:
+        raise RuntimeError("beat_this is not installed or is not on PATH.") from exc
+    if completed.returncode:
+        raise RuntimeError(f"beat_this failed for {audio_path}")
+    if expected.exists():
+        return expected
+
+    matches = sorted(output_dir.rglob(f"{audio_path.stem}.beats"))
+    if matches:
+        return matches[0]
+    raise RuntimeError(f"beat_this did not create a .beats file for {audio_path}")
+
+
 def run_analyzer(
     audio_path: Path,
     text_path: Path,
@@ -286,6 +312,7 @@ def run_analyzer(
     ollama_model: str | None,
     ollama_url: str,
     ollama_timeout: float,
+    beat_file: Path | None = None,
 ) -> Path:
     analyzer = Path(__file__).with_name("analyze_track.py")
     cmd = [
@@ -299,6 +326,8 @@ def run_analyzer(
     ]
     if framework:
         cmd.extend(["--framework", str(framework)])
+    if beat_file:
+        cmd.extend(["--beat-file", str(beat_file)])
     if ollama_model:
         cmd.extend(["--ollama-model", ollama_model, "--ollama-url", ollama_url, "--ollama-timeout", str(ollama_timeout)])
     completed = subprocess.run(cmd, text=True)
@@ -363,9 +392,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--live", action="store_true", help="Actually submit to Suno. Without this flag, only write dry-run payloads.")
     parser.add_argument("--callback-url", help="Suno callback URL. Defaults to SUNO_CALLBACK_URL from env file or environment.")
     parser.add_argument("--framework", type=Path, help="Optional analyzer framework override.")
-    parser.add_argument("--ollama-model", help="Optional local Ollama model passed to analyze_track.py for adjusted grading.")
+    parser.add_argument("--ollama-model", default=DEFAULT_OLLAMA_MODEL, help="Local Ollama model passed to analyze_track.py for adjusted grading.")
     parser.add_argument("--ollama-url", default="http://localhost:11434", help="Ollama base URL for analyzer grading.")
     parser.add_argument("--ollama-timeout", type=float, default=240.0, help="Analyzer Ollama timeout per generated candidate.")
+    parser.add_argument("--beat-this-gpu", default=DEFAULT_BEAT_THIS_GPU, help="GPU argument passed to beat_this; use -1 for CPU.")
     parser.add_argument("--poll-seconds", type=float, default=15.0, help="Seconds between Suno task polls.")
     parser.add_argument("--task-timeout", type=float, default=900.0, help="Maximum seconds to wait for one Suno task.")
     parser.add_argument("--request-timeout", type=float, default=60.0, help="HTTP timeout for Suno requests and audio downloads.")
@@ -411,10 +441,22 @@ def main() -> int:
         if not audio_paths:
             raise RuntimeError(f"Suno task {task_id} did not expose downloadable audio URLs.")
 
-        reports = [
-            run_analyzer(audio_path, text_path, analysis_dir, args.framework, args.ollama_model, args.ollama_url, args.ollama_timeout)
-            for audio_path in audio_paths
-        ]
+        beat_dir = iter_dir / "beat_this"
+        reports = []
+        for audio_path in audio_paths:
+            beat_file = run_beat_this(audio_path, beat_dir, args.beat_this_gpu)
+            reports.append(
+                run_analyzer(
+                    audio_path,
+                    text_path,
+                    analysis_dir,
+                    args.framework,
+                    args.ollama_model,
+                    args.ollama_url,
+                    args.ollama_timeout,
+                    beat_file,
+                )
+            )
         best = choose_best(reports, args.score_mode)
         reached = best["score"] >= args.threshold
         history.append(

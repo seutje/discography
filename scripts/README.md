@@ -45,6 +45,24 @@ Analyze a whole album with precomputed Beat This! files:
 python scripts/analyze_collection.py "stderr" --beat-dir "analysis-output/beat-this/stderr"
 ```
 
+Apply an optional Ollama LLM scoring adjustment:
+
+```bash
+python scripts/analyze_track.py "stderr/audio/01 - You Follow.mp3" \
+  --beat-file "analysis-output/beat-this/stderr/01 - You Follow.beats" \
+  --ollama-model qwen3:8b
+```
+
+Batch mode passes the same model through to each track:
+
+```bash
+python scripts/analyze_collection.py "stderr" \
+  --beat-dir "analysis-output/beat-this/stderr" \
+  --ollama-model qwen3:8b
+```
+
+The LLM does not analyze raw audio. It receives the measured features, lyrics/production notes, framework excerpt, and Python base scoring, then returns bounded score adjustments plus rationale. Axis changes are limited to `--llm-max-axis-delta` from the Python score by default.
+
 Outputs are written under `analysis-output/` by default:
 
 - `*.analysis.md`: human-readable report.

@@ -18,6 +18,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-dir", type=Path, default=Path("analysis-output"), help="Report output directory.")
     parser.add_argument("--framework", type=Path, help="Force one analyzer framework for every track.")
     parser.add_argument("--beat-dir", type=Path, help="Directory containing precomputed beat_this .beats files.")
+    parser.add_argument("--ollama-model", help="Optional Ollama model for bounded LLM scoring adjustment.")
+    parser.add_argument("--ollama-url", default="http://localhost:11434", help="Ollama base URL.")
+    parser.add_argument("--ollama-timeout", type=float, default=240.0, help="Seconds to wait for each Ollama adjustment.")
+    parser.add_argument("--ollama-num-ctx", type=int, default=16384, help="Ollama context window for each scoring adjustment.")
+    parser.add_argument("--llm-max-axis-delta", type=float, default=1.5, help="Maximum LLM adjustment per axis around the Python score.")
     parser.add_argument("--limit", type=int, help="Analyze only the first N matching files.")
     return parser.parse_args()
 
@@ -52,6 +57,21 @@ def main() -> int:
                 if candidate.exists():
                     cmd.extend(["--beat-file", str(candidate)])
                     break
+        if args.ollama_model:
+            cmd.extend(
+                [
+                    "--ollama-model",
+                    args.ollama_model,
+                    "--ollama-url",
+                    args.ollama_url,
+                    "--ollama-timeout",
+                    str(args.ollama_timeout),
+                    "--ollama-num-ctx",
+                    str(args.ollama_num_ctx),
+                    "--llm-max-axis-delta",
+                    str(args.llm_max_axis_delta),
+                ]
+            )
         completed = subprocess.run(cmd, text=True)
         if completed.returncode:
             failures += 1

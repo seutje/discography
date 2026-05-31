@@ -8,6 +8,8 @@ import json
 import math
 import re
 import subprocess
+import urllib.error
+import urllib.request
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -120,6 +122,13 @@ def fmt_time(seconds: float) -> str:
     minutes = int(seconds // 60)
     sec = seconds - minutes * 60
     return f"{minutes}:{sec:05.2f}"
+
+
+def truncate_text(text: str, max_chars: int) -> str:
+    if len(text) <= max_chars:
+        return text
+    keep = max_chars // 2
+    return text[:keep] + "\n...[truncated]...\n" + text[-keep:]
 
 
 def run_ffprobe(path: Path) -> dict[str, Any]:
@@ -987,6 +996,233 @@ def estimate_rung(axis_avg: float, cdpd: float, nge: float, hmii: int, clipping_
     }
 
 
+def compact_audio_for_llm(audio: dict[str, Any]) -> dict[str, Any]:
+    beat_this = dict(audio.get("beat_this") or {})
+    beat_this.pop("beats", None)
+    beat_this.pop("beat_positions", None)
+    beat_this.pop("downbeats", None)
+    ffprobe = audio.get("ffprobe") or {}
+    return {
+        "path": audio["path"],
+        "duration": audio["duration"],
+        "tempo_bpm": round(audio["tempo_bpm"], 2),
+        "estimated_key": audio["estimated_key"],
+        "key_confidence": round(audio["key_confidence"], 3),
+        "integrated_lufs": round(audio["integrated_lufs"], 2),
+        "peak_dbfs": round(audio["peak_dbfs"], 2),
+        "crest_factor_db": round(audio["crest_factor_db"], 2),
+        "clipping_ratio": audio["clipping_ratio"],
+        "spectral_centroid_mean": round(audio["spectral_centroid_mean"], 2),
+        "spectral_centroid_std": round(audio["spectral_centroid_std"], 2),
+        "spectral_bandwidth_mean": round(audio["spectral_bandwidth_mean"], 2),
+        "flatness_mean": round(audio["flatness_mean"], 5),
+        "onset_rate_per_second": round(audio["onset_rate_per_second"], 3),
+        "harmonic_percussive_ratio": round(audio["harmonic_percussive_ratio"], 3),
+        "recurrence_ratio": round(audio["recurrence_ratio"], 3),
+        "detected_sections": audio["detected_sections"],
+        "beat_this": beat_this,
+        "evolving_grammar": audio.get("evolving_grammar"),
+        "ffprobe_streams": ffprobe.get("streams", [])[:3],
+    }
+
+
+def build_ollama_prompt(
+    audio: dict[str, Any],
+    text: dict[str, Any],
+    scoring: dict[str, Any],
+    framework_raw: str,
+    track_text: TrackText,
+    max_framework_chars: int = 9000,
+    max_lyrics_chars: int = 6500,
+) -> list[dict[str, str]]:
+    payload = {
+        "task": "Adjust the framework scoring using the measured audio/text evidence. Do not invent unmeasured facts.",
+        "base_scoring": scoring,
+        "audio_features": compact_audio_for_llm(audio),
+        "text_features": text,
+        "lyrics_and_notes_excerpt": truncate_text(track_text.raw, max_lyrics_chars),
+        "framework_excerpt": truncate_text(framework_raw, max_framework_chars),
+        "rules": [
+            "Return valid JSON only.",
+            "Use the base Python scores as the anchor; adjust only when the framework/text/evidence justifies it.",
+            "Axis scores must be floats from 0 to 10.",
+            "Prefer deltas within +/-1.5 of base axis scores. Larger moves require explicit evidence.",
+            "Core metrics CDPD and NGE must be 0..1; HMII_peak_estimate must be an integer 1..10.",
+            "Give concise evidence-backed reasons, not generic praise.",
+            "Flag uncertainty where audio-only evidence is weak or section detection looks suspicious.",
+        ],
+        "required_json_shape": {
+            "axes": {
+                "SC_structural_coherence": "float 0..10",
+                "MI_motivic_integration": "float 0..10",
+                "BP_beauty_spatial_poise": "float 0..10",
+                "EG_evolving_grammar": "float 0..10",
+                "CD_carry_depth": "float 0..10",
+            },
+            "core_metrics": {
+                "CDPD": "float 0..1",
+                "NGE": "float 0..1",
+                "HMII_peak_estimate": "integer 1..10",
+            },
+            "rung_estimate": {"number": "integer 1..23", "label": "string", "note": "string"},
+            "confidence_0_10": "float 0..10",
+            "adjustments": {
+                "SC_structural_coherence": {"delta": "float", "reason": "string"},
+                "MI_motivic_integration": {"delta": "float", "reason": "string"},
+                "BP_beauty_spatial_poise": {"delta": "float", "reason": "string"},
+                "EG_evolving_grammar": {"delta": "float", "reason": "string"},
+                "CD_carry_depth": {"delta": "float", "reason": "string"},
+            },
+            "rationale": ["string"],
+            "review_flags": ["string"],
+        },
+    }
+    return [
+        {
+            "role": "system",
+            "content": (
+                "You are a cautious music-analysis rubric judge. You receive measured audio features, "
+                "lyrics/production notes, and a framework excerpt. You cannot hear the audio directly. "
+                "Calibrate scores from evidence and preserve uncertainty."
+            ),
+        },
+        {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
+    ]
+
+
+def extract_json_object(content: str) -> dict[str, Any]:
+    content = content.strip()
+    if content.startswith("```"):
+        content = re.sub(r"^```(?:json)?\s*", "", content)
+        content = re.sub(r"\s*```$", "", content)
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        start = content.find("{")
+        end = content.rfind("}")
+        if start >= 0 and end > start:
+            return json.loads(content[start : end + 1])
+        raise
+
+
+def normalize_llm_scoring(raw: dict[str, Any], base: dict[str, Any], max_axis_delta: float) -> dict[str, Any]:
+    base_axes = base["axes"]
+    raw_axes = raw.get("axes") or {}
+    axes: dict[str, float] = {}
+    adjustments: dict[str, dict[str, Any]] = {}
+    for axis, base_value in base_axes.items():
+        proposed = safe_float(raw_axes.get(axis), base_value)
+        bounded = clamp(proposed, base_value - max_axis_delta, base_value + max_axis_delta)
+        bounded = round(clamp(bounded), 2)
+        axes[axis] = bounded
+
+        raw_adjustment = (raw.get("adjustments") or {}).get(axis) or {}
+        reason = str(raw_adjustment.get("reason") or "LLM adjusted from measured evidence.").strip()
+        adjustments[axis] = {
+            "delta": round(bounded - base_value, 2),
+            "reason": truncate_text(reason, 500),
+        }
+
+    raw_core = raw.get("core_metrics") or {}
+    base_core = base["core_metrics"]
+    core_metrics = {
+        "CDPD": round(clamp(safe_float(raw_core.get("CDPD"), base_core["CDPD"]), 0.0, 1.0), 3),
+        "NGE": round(clamp(safe_float(raw_core.get("NGE"), base_core["NGE"]), 0.0, 1.0), 3),
+        "HMII_peak_estimate": int(round(clamp(safe_float(raw_core.get("HMII_peak_estimate"), base_core["HMII_peak_estimate"]), 1, 10))),
+    }
+
+    raw_rung = raw.get("rung_estimate") or {}
+    base_rung = base["rung_estimate"]
+    rung_number = int(round(clamp(safe_float(raw_rung.get("number"), base_rung["number"]), 1, 23)))
+    rung = {
+        "number": rung_number,
+        "label": str(raw_rung.get("label") or base_rung.get("label") or "LLM-adjusted rung"),
+        "note": truncate_text(str(raw_rung.get("note") or "LLM-adjusted estimate from measured evidence."), 500),
+    }
+
+    rationale = raw.get("rationale") if isinstance(raw.get("rationale"), list) else []
+    review_flags = raw.get("review_flags") if isinstance(raw.get("review_flags"), list) else []
+    return {
+        "axes": axes,
+        "core_metrics": core_metrics,
+        "rung_estimate": rung,
+        "confidence_0_10": round(clamp(safe_float(raw.get("confidence_0_10"), base["confidence_0_10"])), 2),
+        "adjustments": adjustments,
+        "rationale": [truncate_text(str(item), 700) for item in rationale[:8]],
+        "review_flags": [truncate_text(str(item), 500) for item in review_flags[:8]],
+        "model_note": f"Axis deltas bounded to +/-{max_axis_delta} around Python base scores.",
+    }
+
+
+def call_ollama_adjuster(
+    model: str,
+    ollama_url: str,
+    audio: dict[str, Any],
+    text: dict[str, Any],
+    scoring: dict[str, Any],
+    framework_raw: str,
+    track_text: TrackText,
+    timeout: float,
+    num_ctx: int,
+    max_axis_delta: float,
+) -> dict[str, Any]:
+    messages = build_ollama_prompt(audio, text, scoring, framework_raw, track_text)
+    body = {
+        "model": model,
+        "messages": messages,
+        "stream": False,
+        "format": "json",
+        "think": False,
+        "options": {
+            "temperature": 0.1,
+            "top_p": 0.9,
+            "num_ctx": num_ctx,
+        },
+    }
+    endpoint = ollama_url.rstrip("/") + "/api/chat"
+    request = urllib.request.Request(
+        endpoint,
+        data=json.dumps(body).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            response_body = json.loads(response.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+        return {
+            "available": False,
+            "model": model,
+            "url": ollama_url,
+            "error": str(exc),
+        }
+
+    content = (response_body.get("message") or {}).get("content", "")
+    try:
+        raw = extract_json_object(content)
+        normalized = normalize_llm_scoring(raw, scoring, max_axis_delta=max_axis_delta)
+    except (json.JSONDecodeError, TypeError, ValueError) as exc:
+        return {
+            "available": False,
+            "model": model,
+            "url": ollama_url,
+            "error": f"Could not parse Ollama JSON response: {exc}",
+            "raw_content": truncate_text(content, 4000),
+        }
+
+    normalized.update(
+        {
+            "available": True,
+            "model": model,
+            "url": ollama_url,
+            "created_at": response_body.get("created_at"),
+            "eval_count": response_body.get("eval_count"),
+            "eval_duration": response_body.get("eval_duration"),
+        }
+    )
+    return normalized
+
+
 def build_rationale(
     audio: dict[str, Any],
     lyrics: dict[str, Any],
@@ -1038,6 +1274,8 @@ def make_markdown(report: dict[str, Any]) -> str:
     audio = report["audio"]
     lyrics = report["text"]
     scoring = report["framework_scoring"]
+    llm_scoring = report.get("llm_adjusted_scoring") or {}
+    displayed_scoring = llm_scoring if llm_scoring.get("available") else scoring
     framework = report["framework"]
 
     lines = [
@@ -1055,16 +1293,39 @@ def make_markdown(report: dict[str, Any]) -> str:
         f"- Key: {audio['estimated_key']} ({audio['key_confidence']:.2f} confidence)" + (f" (declared: {lyrics.get('declared_key')})" if lyrics.get("declared_key") else ""),
         f"- Loudness: {audio['integrated_lufs']:.1f} LUFS; peak {audio['peak_dbfs']:.1f} dBFS; crest {audio['crest_factor_db']:.1f} dB",
         f"- Detected sections: {len(audio['detected_sections'])}",
-        f"- Rung estimate: {scoring['rung_estimate']['number']} - {scoring['rung_estimate']['label']}",
-        f"- Confidence: {scoring['confidence_0_10']}/10",
-        "",
-        "## Framework Scores",
-        "",
+        f"- Rung estimate: {displayed_scoring['rung_estimate']['number']} - {displayed_scoring['rung_estimate']['label']}",
+        f"- Confidence: {displayed_scoring['confidence_0_10']}/10",
     ]
+    if llm_scoring.get("available"):
+        lines.append(f"- LLM adjustment: `{llm_scoring['model']}` via Ollama")
+    lines.extend(["", "## Framework Scores", ""])
+    if llm_scoring.get("available"):
+        lines.extend(["### LLM-Adjusted", ""])
+        for name, value in llm_scoring["axes"].items():
+            base_value = scoring["axes"].get(name, value)
+            lines.append(f"- {name}: {value}/10 ({value - base_value:+.2f})")
+        for name, value in llm_scoring["core_metrics"].items():
+            lines.append(f"- {name}: {value}")
+        lines.extend(["", "### Python Base", ""])
     for name, value in scoring["axes"].items():
         lines.append(f"- {name}: {value}/10")
     for name, value in scoring["core_metrics"].items():
         lines.append(f"- {name}: {value}")
+
+    if llm_scoring.get("available"):
+        lines.extend(["", "## LLM Adjustment Rationale", ""])
+        for axis, item in llm_scoring.get("adjustments", {}).items():
+            lines.append(f"- {axis}: {item['delta']:+.2f}. {item['reason']}")
+        if llm_scoring.get("rationale"):
+            lines.append("")
+            for note in llm_scoring["rationale"]:
+                lines.append(f"- {note}")
+        if llm_scoring.get("review_flags"):
+            lines.extend(["", "Review flags:"])
+            for flag in llm_scoring["review_flags"]:
+                lines.append(f"- {flag}")
+    elif llm_scoring:
+        lines.extend(["", "## LLM Adjustment", "", f"- Unavailable: {llm_scoring.get('error', 'unknown error')}"])
 
     beat_this = audio.get("beat_this") or {}
     lines.extend(["", "## Beat Grid", ""])
@@ -1162,6 +1423,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--text", type=Path, help="Companion lyrics/production-notes text file. Guessed by default for album/audio layouts.")
     parser.add_argument("--framework", type=Path, help="Framework file from analyzer/. Guessed from declared genre by default.")
     parser.add_argument("--beat-file", type=Path, help="Precomputed beat_this .beats file to use for beat/downbeat scoring.")
+    parser.add_argument("--ollama-model", help="Optional Ollama model for a bounded LLM scoring adjustment, e.g. qwen3:8b.")
+    parser.add_argument("--ollama-url", default="http://localhost:11434", help="Ollama base URL.")
+    parser.add_argument("--ollama-timeout", type=float, default=240.0, help="Seconds to wait for the Ollama adjustment.")
+    parser.add_argument("--ollama-num-ctx", type=int, default=16384, help="Ollama context window for scoring adjustment.")
+    parser.add_argument("--llm-max-axis-delta", type=float, default=1.5, help="Maximum LLM adjustment per axis around the Python score.")
     parser.add_argument("--output-dir", type=Path, default=Path("analysis-output"), help="Directory for Markdown and JSON reports.")
     parser.add_argument("--sample-rate", type=int, default=22050, help="Analysis sample rate for librosa.")
     parser.add_argument("--stdout", action="store_true", help="Print Markdown report to stdout.")
@@ -1183,6 +1449,20 @@ def main() -> int:
     text = lyric_metrics(track_text)
     framework_name = framework_path.name if framework_path else "Unselected framework"
     scoring = score_framework(audio, text, framework_name)
+    llm_scoring = None
+    if args.ollama_model:
+        llm_scoring = call_ollama_adjuster(
+            model=args.ollama_model,
+            ollama_url=args.ollama_url,
+            audio=audio,
+            text=text,
+            scoring=scoring,
+            framework_raw=framework_raw,
+            track_text=track_text,
+            timeout=args.ollama_timeout,
+            num_ctx=args.ollama_num_ctx,
+            max_axis_delta=args.llm_max_axis_delta,
+        )
 
     report = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
@@ -1196,6 +1476,8 @@ def main() -> int:
         },
         "framework_scoring": scoring,
     }
+    if llm_scoring is not None:
+        report["llm_adjusted_scoring"] = llm_scoring
 
     stem = re.sub(r"[^A-Za-z0-9._-]+", "_", audio_path.with_suffix("").as_posix()).strip("_")
     json_path, md_path = write_outputs(report, args.output_dir, stem)

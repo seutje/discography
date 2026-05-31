@@ -17,6 +17,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("root", nargs="?", type=Path, default=Path("."), help="Directory to scan.")
     parser.add_argument("--output-dir", type=Path, default=Path("analysis-output"), help="Report output directory.")
     parser.add_argument("--framework", type=Path, help="Force one analyzer framework for every track.")
+    parser.add_argument("--beat-dir", type=Path, help="Directory containing precomputed beat_this .beats files.")
     parser.add_argument("--limit", type=int, help="Analyze only the first N matching files.")
     return parser.parse_args()
 
@@ -42,6 +43,15 @@ def main() -> int:
         cmd = [sys.executable, str(analyzer), str(audio_path), "--output-dir", str(args.output_dir)]
         if args.framework:
             cmd.extend(["--framework", str(args.framework)])
+        if args.beat_dir:
+            candidates = [
+                args.beat_dir / f"{audio_path.stem}.beats",
+                args.beat_dir / audio_path.relative_to(args.root).with_suffix(".beats"),
+            ]
+            for candidate in candidates:
+                if candidate.exists():
+                    cmd.extend(["--beat-file", str(candidate)])
+                    break
         completed = subprocess.run(cmd, text=True)
         if completed.returncode:
             failures += 1

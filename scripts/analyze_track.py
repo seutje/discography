@@ -93,6 +93,72 @@ def run_ffprobe(path: Path) -> dict[str, Any]:
     return json.loads(completed.stdout)
 
 
+def parse_beat_this_file(path: Path | None) -> dict[str, Any] | None:
+    if not path or not path.exists():
+        return None
+
+    beats: list[float] = []
+    positions: list[int | None] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        parts = line.split()
+        if not parts:
+            continue
+        try:
+            beats.append(float(parts[0]))
+        except ValueError:
+            continue
+        if len(parts) > 1:
+            try:
+                positions.append(int(float(parts[1])))
+            except ValueError:
+                positions.append(None)
+        else:
+            positions.append(None)
+
+    if len(beats) < 2:
+        return {
+            "path": str(path),
+            "beat_count": len(beats),
+            "downbeat_count": 0,
+            "available": False,
+        }
+
+    beat_array = np.array(beats)
+    intervals = np.diff(beat_array)
+    intervals = intervals[(intervals > 0.15) & (intervals < 3.0)]
+    median_interval = safe_float(np.median(intervals)) if intervals.size else 0.0
+    interval_cv = safe_float(np.std(intervals) / (np.mean(intervals) + 1e-9)) if intervals.size else 1.0
+
+    downbeats = [beat for beat, position in zip(beats, positions) if position == 1]
+    downbeat_intervals = np.diff(np.array(downbeats)) if len(downbeats) > 1 else np.array([])
+    downbeat_cv = (
+        safe_float(np.std(downbeat_intervals) / (np.mean(downbeat_intervals) + 1e-9))
+        if downbeat_intervals.size
+        else 1.0
+    )
+
+    tempo = 60.0 / median_interval if median_interval else 0.0
+    return {
+        "path": str(path),
+        "available": True,
+        "beat_count": len(beats),
+        "downbeat_count": len(downbeats),
+        "first_beat": beats[0],
+        "last_beat": beats[-1],
+        "tempo_bpm": tempo,
+        "double_tempo_bpm": tempo * 2 if tempo else 0.0,
+        "half_tempo_bpm": tempo / 2 if tempo else 0.0,
+        "median_beat_interval_seconds": median_interval,
+        "beat_interval_cv": interval_cv,
+        "beat_grid_stability": clamp(1.0 - interval_cv * 4.0, 0.0, 1.0),
+        "median_bar_interval_seconds": safe_float(np.median(downbeat_intervals)) if downbeat_intervals.size else None,
+        "bar_interval_cv": downbeat_cv if downbeat_intervals.size else None,
+        "bar_grid_stability": clamp(1.0 - downbeat_cv * 3.0, 0.0, 1.0) if downbeat_intervals.size else None,
+        "sample_beats": beats[:12],
+        "sample_downbeats": downbeats[:8],
+    }
+
+
 def read_track_text(path: Path | None) -> TrackText:
     if not path:
         return TrackText(None, "", {}, "", [])
@@ -212,7 +278,7 @@ def pick_boundaries(feature_matrix: np.ndarray, duration: float, frame_times: np
     return [0.0, *sorted(chosen), duration]
 
 
-def analyze_audio(path: Path, sample_rate: int = 22050) -> dict[str, Any]:
+def analyze_audio(path: Path, sample_rate: int = 22050, beat_file: Path | None = None) -> dict[str, Any]:
     y, sr = librosa.load(path, sr=sample_rate, mono=True)
     stereo, native_sr = sf.read(path, always_2d=True)
     duration = librosa.get_duration(y=y, sr=sr)
@@ -268,6 +334,8 @@ def analyze_audio(path: Path, sample_rate: int = 22050) -> dict[str, Any]:
     ffprobe = run_ffprobe(path)
     audio = mutagen.File(path)
 
+    beat_this = parse_beat_this_file(beat_file)
+
     return {
         "path": str(path),
         "duration_seconds": duration,
@@ -295,6 +363,7 @@ def analyze_audio(path: Path, sample_rate: int = 22050) -> dict[str, Any]:
         "onset_rate_per_second": len(onset_frames) / max(duration, 1.0),
         "harmonic_percussive_ratio": hp_ratio,
         "recurrence_ratio": recurrence,
+        "beat_this": beat_this,
         "detected_sections": section_spans,
     }
 
@@ -353,12 +422,22 @@ def score_framework(audio: dict[str, Any], lyrics: dict[str, Any], framework_nam
         section_balance = 0.0
 
     declared_tempo = lyrics.get("declared_tempo") or ""
+    beat_this = audio.get("beat_this") or {}
+    tempo_candidates = [audio["tempo_bpm"]]
+    if beat_this.get("available"):
+        tempo_candidates.extend(
+            [
+                beat_this.get("tempo_bpm", 0.0),
+                beat_this.get("double_tempo_bpm", 0.0),
+                beat_this.get("half_tempo_bpm", 0.0),
+            ]
+        )
     tempo_match_bonus = 0.0
     tempo_number = re.search(r"(\d+(?:\.\d+)?)", declared_tempo)
     if tempo_number:
-        diff = abs(audio["tempo_bpm"] - float(tempo_number.group(1)))
-        diff = min(diff, abs(audio["tempo_bpm"] * 2 - float(tempo_number.group(1))))
-        diff = min(diff, abs(audio["tempo_bpm"] / 2 - float(tempo_number.group(1))))
+        declared_bpm = float(tempo_number.group(1))
+        diffs = [abs(candidate - declared_bpm) for candidate in tempo_candidates if candidate]
+        diff = min(diffs) if diffs else abs(audio["tempo_bpm"] - declared_bpm)
         tempo_match_bonus = max(0.0, 1.0 - diff / 12.0)
 
     clipping_penalty = min(2.0, audio["clipping_ratio"] * 400)
@@ -373,19 +452,38 @@ def score_framework(audio: dict[str, Any], lyrics: dict[str, Any], framework_nam
     spectral_width = clamp(audio["spectral_bandwidth_mean"] / 450)
     brightness_control = clamp(10 - abs(audio["spectral_centroid_mean"] - 2500) / 350)
     novelty = clamp((section_count - 2) * 0.7 + min(4.0, audio["spectral_centroid_std"] / 350) + onset_score * 0.15)
+    beat_grid = beat_this.get("beat_grid_stability") if beat_this.get("available") else None
+    bar_grid = beat_this.get("bar_grid_stability") if beat_this.get("available") else None
+    beat_stability_score = clamp(((beat_grid or 0.0) * 0.65 + (bar_grid or beat_grid or 0.0) * 0.35) * 10)
+    downbeat_score = clamp((beat_this.get("downbeat_count") or 0) / max(duration / 20.0, 1.0)) if beat_this.get("available") else 0.0
 
-    sc = clamp(2.0 + section_count * 0.65 + section_balance * 2.0 + tempo_match_bonus * 1.2 - clipping_penalty)
-    mi = clamp(2.0 + recurrence_score * 0.35 + lyric_repetition * 0.15 + rhyme_score * 0.10 + text_structure * 0.10)
+    sc = clamp(
+        2.0
+        + section_count * 0.65
+        + section_balance * 2.0
+        + tempo_match_bonus * 1.2
+        + beat_stability_score * 0.14
+        + downbeat_score * 0.08
+        - clipping_penalty
+    )
+    mi = clamp(
+        2.0
+        + recurrence_score * 0.35
+        + lyric_repetition * 0.15
+        + rhyme_score * 0.10
+        + text_structure * 0.10
+        + beat_stability_score * 0.08
+    )
     bp = clamp(2.0 + loudness_ok * 1.7 + dynamic_score * 0.28 + brightness_control * 0.25 + spectral_width * 0.16 - clipping_penalty)
     eg = clamp(1.5 + novelty * 0.25 + text_structure * 0.08 + lyric_density * 0.04)
     cd = clamp((sc + mi + bp) / 3 * 0.6 + lyric_density * 0.18 + min(2.0, section_count * 0.18))
 
     framework_lower = framework_name.lower()
     if any(term in framework_lower for term in ("rap", "hip-hop")):
-        mi = clamp(mi + rhyme_score * 0.12 + onset_score * 0.08)
-        eg = clamp(eg + min(0.6, audio["onset_rate_per_second"] * 0.18))
+        mi = clamp(mi + rhyme_score * 0.12 + onset_score * 0.08 + beat_stability_score * 0.08)
+        eg = clamp(eg + min(0.6, audio["onset_rate_per_second"] * 0.18) + beat_stability_score * 0.04)
     elif any(term in framework_lower for term in ("metal", "prog", "djent")):
-        mi = clamp(mi + onset_score * 0.12 + spectral_width * 0.08)
+        mi = clamp(mi + onset_score * 0.12 + spectral_width * 0.08 + beat_stability_score * 0.06)
         bp = clamp(bp + min(1.0, audio["harmonic_percussive_ratio"] * 0.2))
     elif "indie" in framework_lower:
         cd = clamp(cd + lyric_density * 0.06 + lyric_repetition * 0.08)
@@ -395,7 +493,15 @@ def score_framework(audio: dict[str, Any], lyrics: dict[str, Any], framework_nam
     axis_avg = (sc + mi + bp + eg + cd) / 5
     cdpd = clamp((mi * 0.45 + sc * 0.35 + cd * 0.20) / 10, 0, 1)
     nge = clamp((eg * 0.65 + novelty * 0.35) / 10, 0, 1)
-    hmii = int(round(clamp(1.5 + spectral_width * 0.18 + onset_score * 0.12 + recurrence_score * 0.12, 1, 8)))
+    hmii = int(
+        round(
+            clamp(
+                1.5 + spectral_width * 0.18 + onset_score * 0.12 + recurrence_score * 0.12 + beat_stability_score * 0.06,
+                1,
+                8,
+            )
+        )
+    )
 
     rung = estimate_rung(axis_avg, cdpd, nge, hmii, clipping_penalty, section_count)
     confidence = clamp(4.5 + bool(lyrics.get("has_text")) * 1.2 + min(1.0, duration / 180) + min(1.0, section_count / 6), 0, 8)
@@ -477,6 +583,12 @@ def build_rationale(
         f"Estimated key is {audio['estimated_key']} with confidence {audio['key_confidence']:.2f}.",
         f"Audio recurrence ratio is {audio['recurrence_ratio']:.3f}; this is a rough proxy for repeated musical cells, not true motif recognition.",
     ]
+    beat_this = audio.get("beat_this") or {}
+    if beat_this.get("available"):
+        notes.append(
+            f"beat_this detected {beat_this['beat_count']} beats and {beat_this['downbeat_count']} downbeats; "
+            f"beat-grid stability is {beat_this['beat_grid_stability']:.2f}."
+        )
     if lyrics.get("has_text"):
         notes.append(
             f"Companion text has {lyrics['section_count']} lyric/production sections, {lyrics['word_count']} words, "
@@ -518,6 +630,22 @@ def make_markdown(report: dict[str, Any]) -> str:
         lines.append(f"- {name}: {value}/10")
     for name, value in scoring["core_metrics"].items():
         lines.append(f"- {name}: {value}")
+
+    beat_this = audio.get("beat_this") or {}
+    lines.extend(["", "## Beat Grid", ""])
+    if beat_this.get("available"):
+        lines.extend(
+            [
+                f"- Source: `{beat_this['path']}`",
+                f"- Beats: {beat_this['beat_count']}; downbeats: {beat_this['downbeat_count']}",
+                f"- beat_this tempo: {beat_this['tempo_bpm']:.1f} BPM; double-time candidate: {beat_this['double_tempo_bpm']:.1f} BPM",
+                f"- Beat-grid stability: {beat_this['beat_grid_stability']:.2f}",
+            ]
+        )
+        if beat_this.get("bar_grid_stability") is not None:
+            lines.append(f"- Bar-grid stability: {beat_this['bar_grid_stability']:.2f}")
+    else:
+        lines.append("- No beat_this beat file was provided.")
 
     lines.extend(["", "## Section Map", ""])
     for section in audio["detected_sections"]:
@@ -570,6 +698,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("audio", type=Path, help="Path to an MP3/audio file.")
     parser.add_argument("--text", type=Path, help="Companion lyrics/production-notes text file. Guessed by default for album/audio layouts.")
     parser.add_argument("--framework", type=Path, help="Framework file from analyzer/. Guessed from declared genre by default.")
+    parser.add_argument("--beat-file", type=Path, help="Precomputed beat_this .beats file to use for beat/downbeat scoring.")
     parser.add_argument("--output-dir", type=Path, default=Path("analysis-output"), help="Directory for Markdown and JSON reports.")
     parser.add_argument("--sample-rate", type=int, default=22050, help="Analysis sample rate for librosa.")
     parser.add_argument("--stdout", action="store_true", help="Print Markdown report to stdout.")
@@ -587,7 +716,7 @@ def main() -> int:
     framework_path = choose_framework(audio_path, track_text, args.framework)
     framework_raw = framework_path.read_text(encoding="utf-8") if framework_path and framework_path.exists() else ""
 
-    audio = analyze_audio(audio_path, sample_rate=args.sample_rate)
+    audio = analyze_audio(audio_path, sample_rate=args.sample_rate, beat_file=args.beat_file)
     text = lyric_metrics(track_text)
     framework_name = framework_path.name if framework_path else "Unselected framework"
     scoring = score_framework(audio, text, framework_name)

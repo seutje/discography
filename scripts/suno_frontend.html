@@ -22,6 +22,7 @@
     * { box-sizing: border-box; }
     body {
       margin: 0;
+      padding-bottom: 92px;
       background: var(--bg);
       color: var(--ink);
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -362,10 +363,45 @@
       color: var(--muted);
       font-weight: 800;
     }
-    audio {
+    .global-player {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 20;
+      display: grid;
+      grid-template-columns: minmax(180px, 340px) minmax(0, 1fr);
+      gap: 16px;
+      align-items: center;
+      min-height: 76px;
+      padding: 12px 22px;
+      border-top: 1px solid var(--line);
+      background: #fbfcf8;
+      box-shadow: 0 -8px 24px rgba(32, 35, 31, .08);
+    }
+    .global-player-title {
+      min-width: 0;
+    }
+    .global-player-title strong,
+    .global-player-title span {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .global-player-title span {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 2px;
+    }
+    .global-player audio {
       width: 100%;
       height: 36px;
-      margin: 8px 0;
+    }
+    button.playing {
+      background: var(--ok);
+      border-color: var(--ok);
+      color: #fff;
     }
     .candidate-actions {
       display: flex;
@@ -373,6 +409,32 @@
       gap: 8px;
       flex-wrap: wrap;
       margin-top: 8px;
+    }
+    .score-details {
+      margin-top: 10px;
+      display: grid;
+      gap: 8px;
+    }
+    .score-summary {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(90px, 1fr));
+      gap: 6px;
+    }
+    .score-chip {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 6px 8px;
+      background: #fbfcf8;
+    }
+    .score-chip strong {
+      display: block;
+      font-size: 14px;
+    }
+    .score-chip span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
     }
     table {
       width: 100%;
@@ -411,11 +473,18 @@
       font-weight: 700;
     }
     @media (max-width: 900px) {
+      body { padding-bottom: 128px; }
       main { grid-template-columns: 1fr; }
       aside { border-right: 0; border-bottom: 1px solid var(--line); }
       .summary { grid-template-columns: 1fr 1fr; }
       .charts { grid-template-columns: 1fr; }
       .candidate { grid-template-columns: 1fr; }
+      .score-summary { grid-template-columns: 1fr 1fr; }
+      .global-player {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        padding: 10px 14px;
+      }
     }
   </style>
 </head>
@@ -486,6 +555,13 @@
       <div id="detail" class="empty">No job selected.</div>
     </section>
   </main>
+  <div class="global-player" id="globalPlayer">
+    <div class="global-player-title">
+      <strong id="playerTitle">No track selected</strong>
+      <span id="playerMeta">Use a card play button to load the player.</span>
+    </div>
+    <audio id="globalAudio" controls preload="metadata"></audio>
+  </div>
 
   <script>
     const state = {
@@ -496,7 +572,8 @@
       selectedSignature: '',
       view: 'jobs',
       statistics: null,
-      statsGroupBy: 'album'
+      statsGroupBy: 'album',
+      currentTrack: null
     };
 
     function $(id) { return document.getElementById(id); }
@@ -620,7 +697,11 @@
             index: candidate.index,
             score: candidate.score ?? null,
             audio_path: candidate.audio_path || '',
+            report_path: candidate.report_path || '',
             analysis_status: candidate.analysis_status || '',
+            axes: candidate.axes || {},
+            core_metrics: candidate.core_metrics || {},
+            rung_estimate: candidate.rung_estimate || null,
             promoted: Boolean(candidate.promoted),
             album_audio_path: candidate.album_audio_path || ''
           }))
@@ -629,20 +710,10 @@
       });
     }
 
-    function mediaIsActive() {
-      const active = document.activeElement;
-      if (active && active.tagName === 'AUDIO') return true;
-      return Array.from(document.querySelectorAll('#detail audio')).some(audio => !audio.paused && !audio.ended);
-    }
-
     function updateDetail(job, { soft = false } = {}) {
       const signature = jobSignature(job);
       state.selectedJob = job;
       if (soft && signature === state.selectedSignature) {
-        return;
-      }
-      if (soft && mediaIsActive()) {
-        updateTextOnly(job);
         return;
       }
       state.selectedSignature = signature;
@@ -657,11 +728,44 @@
       }
       const best = document.querySelector('#detail [data-best-score]');
       if (best) best.textContent = fmt(job.best?.score, 3);
+      for (const iteration of job.iterations || []) {
+        const iterationsRoot = document.querySelector('#detail [data-iterations]');
+        if (!document.querySelector(`#detail [data-iteration="${iteration.iteration}"]`) && iterationsRoot) {
+          const empty = iterationsRoot.querySelector('.empty');
+          if (empty) empty.remove();
+          iterationsRoot.insertAdjacentHTML('beforeend', renderIteration(iteration));
+        }
+        const iterationStatus = document.querySelector(`#detail [data-iteration-status="${iteration.iteration}"]`);
+        if (iterationStatus) {
+          iterationStatus.textContent = iteration.status || 'pending';
+          iterationStatus.className = statusClass(iteration.status);
+        }
+        for (const candidate of iteration.candidates || []) {
+          const key = candidateKey(iteration.iteration, candidate.index);
+          let row = document.querySelector(`#detail [data-candidate-key="${key}"]`);
+          if (!row) {
+            const body = document.querySelector(`#detail [data-iteration-body="${iteration.iteration}"]`);
+            if (!body) continue;
+            const empty = body.querySelector('[data-candidates-empty]');
+            if (empty) empty.remove();
+            body.insertAdjacentHTML('beforeend', renderCandidate(candidate, iteration.iteration));
+            row = document.querySelector(`#detail [data-candidate-key="${key}"]`);
+            if (!row) continue;
+          }
+          const score = row.querySelector('[data-score-status]');
+          if (score) score.textContent = candidateStatusText(candidate);
+          const report = row.querySelector('[data-report-link]');
+          if (report) report.innerHTML = reportLink(candidate);
+          const details = row.querySelector('[data-score-details]');
+          if (details) details.innerHTML = scoreDetails(candidate);
+        }
+      }
       const log = document.querySelector('#detail [data-log]');
       if (log) {
         log.textContent = (job.log || []).map(item => `[${item.time}] ${item.message}`).join('\n');
         log.scrollTop = log.scrollHeight;
       }
+      syncPlayButtons();
     }
 
     function renderJobs() {
@@ -884,34 +988,90 @@
         </div>
         ${callbackBase ? `<div class="meta" style="margin-bottom:14px">Callback base: ${callbackBase}</div>` : ''}
         ${job.error ? `<div class="empty" style="color:var(--error);margin-bottom:14px">${job.error}</div>` : ''}
-        <div>${iterations.map(renderIteration).join('') || '<div class="empty">No iterations yet.</div>'}</div>
+        <div data-iterations>${iterations.map(renderIteration).join('') || '<div class="empty">No iterations yet.</div>'}</div>
         <div class="log" data-log>${(job.log || []).map(item => `[${item.time}] ${item.message}`).join('\n')}</div>
       `;
       state.selectedSignature = jobSignature(job);
+      syncPlayButtons();
     }
 
     function renderIteration(iteration) {
       const candidates = iteration.candidates || [];
       return `
-        <div class="iteration">
+        <div class="iteration" data-iteration="${iteration.iteration}">
           <div class="iteration-head">
             <strong>Iteration ${iteration.iteration}</strong>
-            <span class="${statusClass(iteration.status)}">${iteration.status || 'pending'}</span>
+            <span data-iteration-status="${iteration.iteration}" class="${statusClass(iteration.status)}">${iteration.status || 'pending'}</span>
           </div>
-          <div class="iteration-body">
+          <div class="iteration-body" data-iteration-body="${iteration.iteration}">
             ${iteration.task_id ? `<div class="meta">Task: ${iteration.task_id}</div>` : ''}
             ${iteration.revision_notes?.length ? `<div class="meta">${iteration.revision_notes.join(' ')}</div>` : ''}
-            ${candidates.map(candidate => renderCandidate(candidate, iteration.iteration)).join('') || `<div class="meta">Waiting for candidates.</div>`}
+            ${candidates.map(candidate => renderCandidate(candidate, iteration.iteration)).join('') || `<div class="meta" data-candidates-empty>Waiting for candidates.</div>`}
           </div>
+        </div>
+      `;
+    }
+
+    function candidateKey(iterationNumber, candidateIndex) {
+      return `${iterationNumber}-${candidateIndex}`;
+    }
+
+    function candidateStatusText(candidate) {
+      if (candidate.promoted) return 'winner';
+      if (candidate.score !== undefined && candidate.score !== null) return fmt(candidate.score, 3);
+      if (candidate.analysis_status === 'pending') return 'pending';
+      return candidate.analysis_status || '—';
+    }
+
+    function scoreChip(label, value, digits = 2) {
+      return `
+        <div class="score-chip">
+          <strong>${fmt(value, digits)}</strong>
+          <span>${escapeHtml(label)}</span>
         </div>
       `;
     }
 
     function axisTable(candidate) {
       const axes = candidate.axes || {};
-      const rows = Object.entries(axes).map(([key, value]) => `<tr><td>${key}</td><td>${fmt(value)}</td></tr>`).join('');
+      const rows = Object.entries(axes).map(([key, value]) => `<tr><td>${escapeHtml(key)}</td><td>${fmt(value)}</td></tr>`).join('');
       if (!rows) return '';
       return `<table><thead><tr><th>Axis</th><th>Score</th></tr></thead><tbody>${rows}</tbody></table>`;
+    }
+
+    function scoreDetails(candidate) {
+      const core = candidate.core_metrics || {};
+      const rung = candidate.rung_estimate || {};
+      const hasScore = candidate.score !== undefined && candidate.score !== null;
+      const hasCore = Object.keys(core).length > 0;
+      const hasRung = rung && (rung.number !== undefined || rung.label);
+      const axes = axisTable(candidate);
+      const summary = [
+        hasScore ? scoreChip('Overall', candidate.score, 3) : '',
+        hasRung ? `
+          <div class="score-chip">
+            <strong>${escapeHtml(rung.number ?? '—')}</strong>
+            <span>${escapeHtml(rung.label || 'Rung')}</span>
+          </div>
+        ` : '',
+        core.CDPD !== undefined ? scoreChip('CDPD', core.CDPD, 2) : '',
+        core.NGE !== undefined ? scoreChip('NGE', core.NGE, 2) : '',
+        core.HMII_peak_estimate !== undefined ? scoreChip('HMII', core.HMII_peak_estimate, 0) : ''
+      ].filter(Boolean).join('');
+      if (!summary && !axes) {
+        return candidate.analysis_status ? `<div class="meta">Analysis ${escapeHtml(candidate.analysis_status)}.</div>` : '';
+      }
+      return `
+        <div class="score-details">
+          ${summary ? `<div class="score-summary">${summary}</div>` : ''}
+          ${axes}
+          ${hasCore ? `<div class="meta">${Object.entries(core).map(([key, value]) => `${escapeHtml(key)}: ${fmt(value, 3)}`).join(' · ')}</div>` : ''}
+        </div>
+      `;
+    }
+
+    function reportLink(candidate) {
+      return candidate.report_path ? `<a href="/media?path=${encodeURIComponent(candidate.report_path)}" target="_blank">Analysis JSON</a>` : '';
     }
 
     function renderCandidate(candidate, iterationNumber) {
@@ -919,25 +1079,63 @@
         ? `<img class="cover" src="${candidate.image_url}" alt="">`
         : `<div class="cover placeholder">♪</div>`;
       const promoted = Boolean(candidate.promoted);
+      const title = candidate.title || 'Candidate';
       return `
-        <div class="candidate ${promoted ? 'promoted' : ''}">
+        <div class="candidate ${promoted ? 'promoted' : ''}" data-candidate-key="${candidateKey(iterationNumber, candidate.index)}">
           ${cover}
           <div>
             <div style="display:flex;justify-content:space-between;gap:10px">
-              <strong>${candidate.title || 'Candidate'}</strong>
-              <span class="status">${promoted ? 'winner' : fmt(candidate.score, 3)}</span>
+              <strong>${escapeHtml(candidate.title || 'Candidate')}</strong>
+              <span data-score-status class="status">${candidateStatusText(candidate)}</span>
             </div>
-            <div class="meta">${candidate.duration ? `${fmt(candidate.duration, 1)}s` : ''} ${candidate.tags || ''}</div>
-            ${candidate.audio_url ? `<audio controls preload="metadata" src="${candidate.audio_url}"></audio>` : ''}
-            ${candidate.report_path ? `<a href="/media?path=${encodeURIComponent(candidate.report_path)}" target="_blank">Analysis JSON</a>` : ''}
+            <div class="meta">${candidate.duration ? `${fmt(candidate.duration, 1)}s` : ''} ${escapeHtml(candidate.tags || '')}</div>
+            <span data-report-link>${reportLink(candidate)}</span>
             <div class="candidate-actions">
+              ${candidate.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(candidate.audio_url)}" data-track-title="${escapeHtml(title)}" data-track-meta="${escapeHtml(`Iteration ${iterationNumber} · Candidate ${candidate.index}`)}">Play</button>` : ''}
               ${candidate.audio_url ? `<button class="${promoted ? 'secondary' : 'danger'}" type="button" data-promote data-iteration="${iterationNumber}" data-candidate="${candidate.index}" ${promoted ? 'disabled' : ''}>${promoted ? 'Selected Winner' : 'Pick Winner'}</button>` : ''}
-              ${candidate.album_audio_path ? `<span class="meta">Moved to ${candidate.album_audio_path}</span>` : ''}
+              ${candidate.album_audio_path ? `<span class="meta">Moved to ${escapeHtml(candidate.album_audio_path)}</span>` : ''}
             </div>
-            ${axisTable(candidate)}
+            <div data-score-details>${scoreDetails(candidate)}</div>
           </div>
         </div>
       `;
+    }
+
+    function syncPlayButtons() {
+      const audio = $('globalAudio');
+      const currentUrl = state.currentTrack?.url || '';
+      const playing = currentUrl && !audio.paused && !audio.ended;
+      document.querySelectorAll('[data-play-audio]').forEach(button => {
+        const isCurrent = button.dataset.audioUrl === currentUrl;
+        button.classList.toggle('playing', Boolean(isCurrent && playing));
+        button.textContent = isCurrent && playing ? 'Now Playing' : 'Play';
+      });
+    }
+
+    async function playCandidate(button) {
+      const audio = $('globalAudio');
+      const url = button.dataset.audioUrl;
+      if (!url) return;
+      const title = button.dataset.trackTitle || 'Selected track';
+      const meta = button.dataset.trackMeta || '';
+      const sameTrack = state.currentTrack?.url === url;
+      audio.pause();
+      if (!sameTrack || audio.getAttribute('src') !== url) {
+        audio.src = url;
+        audio.load();
+      }
+      audio.currentTime = 0;
+      state.currentTrack = { url, title, meta };
+      $('playerTitle').textContent = title;
+      $('playerMeta').textContent = meta || url;
+      syncPlayButtons();
+      try {
+        await audio.play();
+      } catch (err) {
+        alert(err.message);
+      } finally {
+        syncPlayButtons();
+      }
     }
 
     async function promoteCandidate(iteration, candidateIndex, overwrite = false) {
@@ -1010,6 +1208,11 @@
       await loadJobs(true);
     });
     document.addEventListener('click', async (event) => {
+      const playButton = event.target.closest('[data-play-audio]');
+      if (playButton) {
+        await playCandidate(playButton);
+        return;
+      }
       const button = event.target.closest('[data-promote]');
       if (!button || button.disabled) return;
       const iteration = Number(button.dataset.iteration);
@@ -1025,6 +1228,9 @@
         button.textContent = 'Pick Winner';
       }
     });
+    $('globalAudio').addEventListener('play', syncPlayButtons);
+    $('globalAudio').addEventListener('pause', syncPlayButtons);
+    $('globalAudio').addEventListener('ended', syncPlayButtons);
 
     (async function init() {
       try {

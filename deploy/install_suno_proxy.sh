@@ -35,7 +35,7 @@ sudo tee /etc/caddy/Caddyfile >/dev/null <<EOF
 $SITE_ADDR {
 	encode zstd gzip
 
-	@callback path /api/suno/callback/*
+	@callback path /api/suno/callback/* /api/suno/wav-callback/*
 	reverse_proxy @callback $BACKEND
 
 	respond 404
@@ -48,6 +48,7 @@ sudo systemctl reload caddy
 
 echo "Installed Suno callback proxy:"
 echo "  $SITE_ADDR/api/suno/callback/<token>/<job_id>/<iteration>"
+echo "  $SITE_ADDR/api/suno/wav-callback/<token>/<job_id>/<iteration>/<candidate>"
 echo
 if [[ "$SITE_ADDR" == http://* ]]; then
   echo "Forward this router port to 192.168.0.181:"

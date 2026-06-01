@@ -94,6 +94,8 @@ For each live iteration, the script submits `POST /api/v1/generate`, polls `GET 
 
 Every iteration writes the exact text file used for that Suno generation inside the iteration folder. Dashboard promotion copies the selected iteration text into the album folder only when you pick that candidate as the winner.
 
+The dashboard can also request a WAV conversion for any downloaded candidate. That action submits Suno's `POST /api/v1/wav/generate` with the iteration task ID, the candidate audio ID, and a callback URL; successful conversions are downloaded to `<album>/wav/<track>.wav`. If a callback is missed, click `Check WAV` to poll Suno's `GET /api/v1/wav/record-info?taskId=...` endpoint and pull the completed file into the album.
+
 Suno HTTP requests use `curl` by default because Cloudflare may reject Python's default `urllib` client fingerprint with HTTP 403 / Error 1010. To force the older Python backend for debugging:
 
 ```bash
@@ -110,6 +112,12 @@ Open `http://127.0.0.1:8765/`. The dashboard can start dry-run jobs, start live 
 
 ```text
 https://your-public-host.example/api/suno/callback/<token>/<job_id>/<iteration>
+```
+
+WAV conversion callbacks use the same token:
+
+```text
+https://your-public-host.example/api/suno/wav-callback/<token>/<job_id>/<iteration>/<candidate>
 ```
 
 The callback token comes from `SUNO_CALLBACK_TOKEN` in `.env` or `--callback-token`. By default, non-local clients are only allowed to POST to the callback route; the dashboard and job API stay local unless `--allow-remote-dashboard` is explicitly passed.
@@ -138,7 +146,7 @@ TCP 80  -> 192.168.0.181:80
 TCP 443 -> 192.168.0.181:443
 ```
 
-Use `http://81.82.156.228` as the dashboard's Public Base URL for the temporary IP setup, or `https://suno.example.com` once a hostname is configured. The proxy only forwards `/api/suno/callback/*` to the local dashboard worker; every other public path returns 404.
+Use `http://81.82.156.228` as the dashboard's Public Base URL for the temporary IP setup, or `https://suno.example.com` once a hostname is configured. The proxy only forwards `/api/suno/callback/*` and `/api/suno/wav-callback/*` to the local dashboard worker; every other public path returns 404.
 
 Outputs are written under `analysis-output/` by default:
 

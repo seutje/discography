@@ -25,6 +25,7 @@ OUTPUT_ROOT = ROOT / "suno-runs" / "web"
 FRONTEND_PATH = Path(__file__).with_name("suno_frontend.html")
 STATE_LOCK = threading.RLock()
 CALLBACK_EVENTS: dict[tuple[str, int], threading.Event] = {}
+WAV_CALLBACK_EVENTS: dict[tuple[str, int, int], threading.Event] = {}
 WORKERS: dict[str, threading.Thread] = {}
 CALLBACK_TOKEN = ""
 ALLOW_REMOTE_DASHBOARD = False
@@ -399,6 +400,9 @@ def enrich_job(job: dict[str, Any]) -> dict[str, Any]:
             image = candidate.get("image_path")
             if image:
                 candidate["image_url"] = public_url_for_path(ROOT / image)
+            wav = (candidate.get("wav_conversion") or {}).get("local_wav_path")
+            if wav:
+                candidate["wav_url"] = public_url_for_path(ROOT / wav)
     return enriched
 
 
@@ -412,6 +416,246 @@ def normalize_audio_item(item: dict[str, Any]) -> dict[str, Any]:
         "stream_audio_url": item.get("streamAudioUrl") or item.get("stream_audio_url"),
         "image_url": item.get("imageUrl") or item.get("image_url") or item.get("sourceImageUrl") or item.get("source_image_url"),
     }
+
+
+def find_iteration_and_candidate(
+    job: dict[str, Any], iteration_number: int, candidate_index: int
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    for iteration in job.get("iterations", []):
+        if int(iteration.get("iteration", -1)) != iteration_number:
+            continue
+        for candidate in iteration.get("candidates", []):
+            if int(candidate.get("index", -1)) == candidate_index:
+                return iteration, candidate
+    raise FileNotFoundError(f"candidate {candidate_index} in iteration {iteration_number} was not found")
+
+
+def resolve_candidate_audio_id(job_id: str, iteration_number: int, candidate_index: int, candidate: dict[str, Any]) -> str:
+    audio_id = candidate.get("suno_audio_id") or candidate.get("audio_id") or candidate.get("id")
+    if audio_id:
+        return str(audio_id)
+
+    record = read_json(job_dir(job_id) / f"iteration_{iteration_number:02d}" / "record.json", {})
+    raw_items = [normalize_audio_item(item) for item in suno_iterate.extract_audio_items(record)]
+    raw_item = raw_items[candidate_index - 1] if 0 <= candidate_index - 1 < len(raw_items) else {}
+    audio_id = raw_item.get("id")
+    if not audio_id:
+        raise ValueError("selected candidate has no Suno audio ID; rerun or use a candidate from a live Suno response")
+    candidate["suno_audio_id"] = str(audio_id)
+    return str(audio_id)
+
+
+def wav_callback_url(public_base_url: str, job_id: str, iteration_number: int, candidate_index: int) -> str:
+    if not public_base_url:
+        raise ValueError("public_base_url is required so Suno can reach the WAV callback")
+    return (
+        f"{public_base_url.rstrip('/')}/api/suno/wav-callback/{CALLBACK_TOKEN}/"
+        f"{urllib.parse.quote(job_id)}/{iteration_number}/{candidate_index}"
+    )
+
+
+def suno_api_key_for_job(job: dict[str, Any]) -> str:
+    env_file = str((job.get("settings") or {}).get("env_file") or ".env")
+    env = {**suno_iterate.load_env(ROOT / env_file), **os.environ}
+    api_key = env.get("SUNO_API_KEY", "")
+    if not api_key:
+        raise RuntimeError("SUNO_API_KEY is missing.")
+    return api_key
+
+
+def album_wav_destination(job: dict[str, Any]) -> Path:
+    source_text = safe_project_path(job["song_text"])
+    return source_text.parent / "wav" / f"{source_text.stem}.wav"
+
+
+def wav_result_url(payload: dict[str, Any]) -> str:
+    data = payload.get("data") or {}
+    response = data.get("response") or {}
+    return str(data.get("audioWavUrl") or response.get("audioWavUrl") or "")
+
+
+def wav_result_task_id(payload: dict[str, Any]) -> str:
+    data = payload.get("data") or {}
+    return str(data.get("task_id") or data.get("taskId") or payload.get("taskId") or "")
+
+
+def save_candidate_wav_updates(
+    job_id: str, iteration_number: int, candidate_index: int, updates: dict[str, Any]
+) -> dict[str, Any]:
+    with STATE_LOCK:
+        job = load_job(job_id)
+        _, candidate = find_iteration_and_candidate(job, iteration_number, candidate_index)
+        conversion = candidate.setdefault("wav_conversion", {})
+        conversion.update({key: value for key, value in updates.items() if value is not None})
+        save_job(job)
+        return enrich_job(job)
+
+
+def download_wav_to_album(job_id: str, iteration_number: int, candidate_index: int, wav_url: str, payload: dict[str, Any]) -> dict[str, Any]:
+    if not wav_url:
+        raise ValueError("Suno WAV result did not include audioWavUrl")
+    job = load_job(job_id)
+    destination = album_wav_destination(job)
+    destination_rel = destination.relative_to(ROOT).as_posix()
+    save_candidate_wav_updates(
+        job_id,
+        iteration_number,
+        candidate_index,
+        {
+            "status": "downloading",
+            "audio_wav_url": wav_url,
+            "callback": payload,
+            "task_id": wav_result_task_id(payload) or (payload.get("data") or {}).get("taskId"),
+            "local_wav_path": destination_rel,
+            "download_started_at": now(),
+        },
+    )
+    try:
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        tmp = destination.with_name(destination.name + ".tmp")
+        suno_iterate.download_file(wav_url, tmp, timeout=float((job.get("settings") or {}).get("request_timeout", 60)))
+        tmp.replace(destination)
+    except Exception as exc:
+        save_candidate_wav_updates(
+            job_id,
+            iteration_number,
+            candidate_index,
+            {"status": "error", "message": f"WAV download failed: {exc}", "failed_at": now()},
+        )
+        raise
+
+    add_log(job_id, f"Saved WAV for iteration {iteration_number} candidate {candidate_index} to {destination_rel}.")
+    return save_candidate_wav_updates(
+        job_id,
+        iteration_number,
+        candidate_index,
+        {
+            "status": "complete",
+            "audio_wav_url": wav_url,
+            "callback": payload,
+            "local_wav_path": destination_rel,
+            "completed_at": now(),
+        },
+    )
+
+
+def download_wav_to_album_async(job_id: str, iteration_number: int, candidate_index: int, wav_url: str, payload: dict[str, Any]) -> None:
+    thread = threading.Thread(
+        target=download_wav_to_album,
+        args=(job_id, iteration_number, candidate_index, wav_url, payload),
+        daemon=True,
+    )
+    thread.start()
+
+
+def refresh_wav_conversion(job_id: str, iteration_number: int, candidate_index: int) -> dict[str, Any]:
+    job = load_job(job_id)
+    _, candidate = find_iteration_and_candidate(job, iteration_number, candidate_index)
+    conversion = candidate.get("wav_conversion") or {}
+    task_id = conversion.get("task_id")
+    if not task_id:
+        raise ValueError("WAV conversion has no task ID to check")
+
+    local_path = conversion.get("local_wav_path")
+    if conversion.get("status") == "complete" and local_path and (ROOT / local_path).exists():
+        return {"ok": True, "job": enrich_job(job), "wav_conversion": conversion}
+    if conversion.get("status") == "complete" and conversion.get("audio_wav_url"):
+        updated_job = download_wav_to_album(job_id, iteration_number, candidate_index, conversion["audio_wav_url"], conversion.get("callback") or {})
+        return {"ok": True, "job": updated_job, "wav_conversion": find_iteration_and_candidate(updated_job, iteration_number, candidate_index)[1]["wav_conversion"]}
+    if conversion.get("status") == "downloading":
+        return {"ok": True, "job": enrich_job(job), "wav_conversion": conversion}
+
+    api_key = suno_api_key_for_job(job)
+    timeout = float((job.get("settings") or {}).get("request_timeout", 60))
+    query = urllib.parse.urlencode({"taskId": task_id})
+    response = suno_iterate.suno_request("GET", f"/api/v1/wav/record-info?{query}", api_key, timeout=timeout)
+    write_json(
+        job_dir(job_id) / f"iteration_{iteration_number:02d}" / f"wav_candidate_{candidate_index:02d}_record.json",
+        response,
+    )
+    data = response.get("data") or {}
+    success_flag = str(data.get("successFlag") or "").upper()
+    wav_url = wav_result_url(response)
+    if success_flag == "SUCCESS" and wav_url:
+        updated_job = download_wav_to_album(job_id, iteration_number, candidate_index, wav_url, response)
+        _, updated_candidate = find_iteration_and_candidate(updated_job, iteration_number, candidate_index)
+        return {"ok": True, "job": updated_job, "wav_conversion": updated_candidate["wav_conversion"]}
+    if success_flag in {"CREATE_TASK_FAILED", "GENERATE_WAV_FAILED", "CALLBACK_EXCEPTION"}:
+        updated_job = save_candidate_wav_updates(
+            job_id,
+            iteration_number,
+            candidate_index,
+            {
+                "status": "error",
+                "record": response,
+                "message": data.get("errorMessage") or response.get("msg") or success_flag,
+                "failed_at": now(),
+            },
+        )
+        _, updated_candidate = find_iteration_and_candidate(updated_job, iteration_number, candidate_index)
+        return {"ok": True, "job": updated_job, "wav_conversion": updated_candidate["wav_conversion"]}
+
+    updated_job = save_candidate_wav_updates(
+        job_id,
+        iteration_number,
+        candidate_index,
+        {"status": "pending", "record": response, "checked_at": now()},
+    )
+    _, updated_candidate = find_iteration_and_candidate(updated_job, iteration_number, candidate_index)
+    return {"ok": True, "job": updated_job, "wav_conversion": updated_candidate["wav_conversion"]}
+
+
+def initiate_wav_conversion(job_id: str, iteration_number: int, candidate_index: int) -> dict[str, Any]:
+    should_refresh = False
+    with STATE_LOCK:
+        job = load_job(job_id)
+        if not job:
+            raise FileNotFoundError(f"job not found: {job_id}")
+        iteration, candidate = find_iteration_and_candidate(job, iteration_number, candidate_index)
+        source_task_id = iteration.get("task_id")
+        if not source_task_id:
+            raise ValueError("selected iteration has no Suno task ID")
+        audio_id = resolve_candidate_audio_id(job_id, iteration_number, candidate_index, candidate)
+        settings = job.get("settings") or {}
+        callback_url = wav_callback_url(str(settings.get("public_base_url") or ""), job_id, iteration_number, candidate_index)
+        existing = candidate.get("wav_conversion") or {}
+        if existing.get("status") in {"submitted", "pending", "complete", "downloading"}:
+            should_refresh = True
+
+    if should_refresh:
+        return refresh_wav_conversion(job_id, iteration_number, candidate_index)
+
+    api_key = suno_api_key_for_job(job)
+
+    payload = {"taskId": str(source_task_id), "audioId": audio_id, "callBackUrl": callback_url}
+    timeout = float((job.get("settings") or {}).get("request_timeout", 60))
+    response = suno_iterate.suno_request("POST", "/api/v1/wav/generate", api_key, payload=payload, timeout=timeout)
+    code = response.get("code")
+    if code not in (0, 200, "0", "200", None):
+        raise RuntimeError(f"Suno WAV conversion rejected request: {response}")
+    data = response.get("data") or {}
+    wav_task_id = data.get("taskId") or response.get("taskId") or source_task_id
+
+    with STATE_LOCK:
+        job = load_job(job_id)
+        iteration, candidate = find_iteration_and_candidate(job, iteration_number, candidate_index)
+        candidate["suno_audio_id"] = audio_id
+        candidate["wav_conversion"] = {
+            "status": "submitted",
+            "task_id": str(wav_task_id),
+            "source_task_id": str(source_task_id),
+            "audio_id": audio_id,
+            "callback_url": callback_url,
+            "requested_at": now(),
+            "response": response,
+        }
+        save_job(job)
+        write_json(
+            job_dir(job_id) / f"iteration_{iteration_number:02d}" / f"wav_candidate_{candidate_index:02d}_request.json",
+            {"payload": payload, "response": response},
+        )
+    add_log(job_id, f"Requested WAV conversion for iteration {iteration_number} candidate {candidate_index}.")
+    return {"ok": True, "job": enrich_job(load_job(job_id)), "wav_conversion": candidate["wav_conversion"]}
 
 
 def download_image_if_present(item: dict[str, Any], iter_dir: Path, index: int, timeout: float) -> Path | None:
@@ -584,6 +828,7 @@ def run_job(job_id: str) -> None:
                         "title": raw_item.get("title") or audio_path.stem,
                         "duration": raw_item.get("duration"),
                         "tags": raw_item.get("tags"),
+                        "suno_audio_id": raw_item.get("id"),
                         "audio_path": audio_path.relative_to(ROOT).as_posix(),
                         "image_path": image_path.relative_to(ROOT).as_posix() if image_path else None,
                         "analysis_status": "pending",
@@ -761,7 +1006,7 @@ class Handler(BaseHTTPRequestHandler):
         return json.loads(body.decode("utf-8") or "{}")
 
     def remote_dashboard_denied(self, path: str) -> bool:
-        if ALLOW_REMOTE_DASHBOARD or path.startswith("/api/suno/callback/"):
+        if ALLOW_REMOTE_DASHBOARD or path.startswith("/api/suno/callback/") or path.startswith("/api/suno/wav-callback/"):
             return False
         host = self.client_address[0]
         return host not in {"127.0.0.1", "::1", "localhost"}
@@ -820,7 +1065,9 @@ class Handler(BaseHTTPRequestHandler):
                 if not target.exists() or target.is_dir():
                     raise FileNotFoundError(rel)
                 content_type = "audio/mpeg" if target.suffix.lower() == ".mp3" else "application/octet-stream"
-                if target.suffix.lower() in {".jpg", ".jpeg"}:
+                if target.suffix.lower() == ".wav":
+                    content_type = "audio/wav"
+                elif target.suffix.lower() in {".jpg", ".jpeg"}:
                     content_type = "image/jpeg"
                 elif target.suffix.lower() == ".png":
                     content_type = "image/png"
@@ -924,6 +1171,21 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_json({"error": str(exc)}, HTTPStatus.NOT_FOUND)
             except Exception as exc:
                 self.send_json({"error": str(exc)}, HTTPStatus.BAD_REQUEST)
+        elif path.startswith("/api/jobs/") and path.endswith("/wav"):
+            try:
+                parts = path.strip("/").split("/")
+                job_id = parts[2]
+                data = self.read_body()
+                result = initiate_wav_conversion(
+                    job_id,
+                    int(data.get("iteration", 1)),
+                    int(data["candidate_index"]),
+                )
+                self.send_json(result)
+            except FileNotFoundError as exc:
+                self.send_json({"error": str(exc)}, HTTPStatus.NOT_FOUND)
+            except Exception as exc:
+                self.send_json({"error": str(exc)}, HTTPStatus.BAD_REQUEST)
         elif path.startswith("/api/suno/callback/"):
             parts = path.strip("/").split("/")
             try:
@@ -942,6 +1204,60 @@ class Handler(BaseHTTPRequestHandler):
                 data = payload.get("data") or {}
                 add_log(job_id, f"Received Suno callback type={data.get('callbackType')} code={payload.get('code')}.")
                 event = CALLBACK_EVENTS.setdefault((job_id, iteration), threading.Event())
+                event.set()
+                self.send_json({"status": "received"})
+            except Exception as exc:
+                self.send_json({"error": str(exc)}, HTTPStatus.BAD_REQUEST)
+        elif path.startswith("/api/suno/wav-callback/"):
+            parts = path.strip("/").split("/")
+            try:
+                token = parts[3]
+                if token != CALLBACK_TOKEN:
+                    self.send_json({"error": "invalid callback token"}, HTTPStatus.FORBIDDEN)
+                    return
+                job_id = urllib.parse.unquote(parts[4])
+                iteration = int(parts[5])
+                candidate_index = int(parts[6].removesuffix("wavGenerated"))
+                payload = self.read_body()
+                iter_dir = job_dir(job_id) / f"iteration_{iteration:02d}"
+                iter_dir.mkdir(parents=True, exist_ok=True)
+                callback_index = len(list(iter_dir.glob(f"wav_candidate_{candidate_index:02d}_callback_*.json"))) + 1
+                write_json(iter_dir / f"wav_candidate_{candidate_index:02d}_callback_{callback_index:03d}.json", payload)
+                write_json(iter_dir / f"wav_candidate_{candidate_index:02d}_callback_latest.json", payload)
+
+                data = payload.get("data") or {}
+                wav_url = wav_result_url(payload)
+                if int(payload.get("code", 0) or 0) == 200 and wav_url:
+                    save_candidate_wav_updates(
+                        job_id,
+                        iteration,
+                        candidate_index,
+                        {
+                            "status": "downloading",
+                            "completed_at": now(),
+                            "callback": payload,
+                            "task_id": data.get("task_id") or data.get("taskId"),
+                            "audio_wav_url": wav_url,
+                            "message": payload.get("msg"),
+                        },
+                    )
+                    download_wav_to_album_async(job_id, iteration, candidate_index, wav_url, payload)
+                else:
+                    save_candidate_wav_updates(
+                        job_id,
+                        iteration,
+                        candidate_index,
+                        {
+                            "status": "error",
+                            "completed_at": now(),
+                            "callback": payload,
+                            "task_id": data.get("task_id") or data.get("taskId"),
+                            "audio_wav_url": wav_url,
+                            "message": payload.get("msg"),
+                        },
+                    )
+                add_log(job_id, f"Received WAV callback for iteration {iteration} candidate {candidate_index}: {payload.get('msg')}.")
+                event = WAV_CALLBACK_EVENTS.setdefault((job_id, iteration, candidate_index), threading.Event())
                 event.set()
                 self.send_json({"status": "received"})
             except Exception as exc:

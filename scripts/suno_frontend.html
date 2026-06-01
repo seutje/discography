@@ -847,6 +847,8 @@
             axes: candidate.axes || {},
             core_metrics: candidate.core_metrics || {},
             rung_estimate: candidate.rung_estimate || null,
+            suno_audio_id: candidate.suno_audio_id || '',
+            wav_conversion: candidate.wav_conversion || null,
             promoted: Boolean(candidate.promoted),
             album_audio_path: candidate.album_audio_path || ''
           }))
@@ -1536,6 +1538,37 @@
       return candidate.report_path ? `<a href="/media?path=${encodeURIComponent(candidate.report_path)}" target="_blank">Analysis JSON</a>` : '';
     }
 
+    function wavButtonLabel(candidate) {
+      const status = candidate.wav_conversion?.status || '';
+      if (status === 'submitted' || status === 'pending') return 'Check WAV';
+      if (status === 'downloading') return 'Downloading WAV';
+      if (status === 'complete') return 'WAV Ready';
+      if (status === 'error') return 'Retry WAV';
+      return 'Get WAV';
+    }
+
+    function wavButtonDisabled(candidate) {
+      const status = candidate.wav_conversion?.status || '';
+      return status === 'downloading' || status === 'complete';
+    }
+
+    function wavConversionMeta(candidate) {
+      const conversion = candidate.wav_conversion || {};
+      if (conversion.status === 'complete' && candidate.wav_url) {
+        return `<a class="meta" href="${escapeHtml(candidate.wav_url)}" target="_blank" rel="noopener">Album WAV: ${escapeHtml(conversion.local_wav_path || 'Download')}</a>`;
+      }
+      if (conversion.status === 'downloading') {
+        return '<span class="meta">Saving WAV to album.</span>';
+      }
+      if (conversion.status === 'error') {
+        return `<span class="meta" style="color:var(--error)">WAV failed${conversion.message ? `: ${escapeHtml(conversion.message)}` : ''}</span>`;
+      }
+      if (conversion.status === 'submitted' || conversion.status === 'pending') {
+        return '<span class="meta">WAV conversion requested; click Check WAV to poll Suno.</span>';
+      }
+      return '';
+    }
+
     function renderCandidate(candidate, iterationNumber) {
       const cover = candidate.image_url
         ? `<img class="cover" src="${candidate.image_url}" alt="">`
@@ -1555,6 +1588,8 @@
             <div class="candidate-actions">
               ${candidate.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(candidate.audio_url)}" data-track-title="${escapeHtml(title)}" data-track-meta="${escapeHtml(`Iteration ${iterationNumber} · Candidate ${candidate.index}`)}">Play</button>` : ''}
               ${candidate.audio_url ? `<button class="${promoted ? 'secondary' : 'danger'}" type="button" data-promote data-iteration="${iterationNumber}" data-candidate="${candidate.index}" ${promoted ? 'disabled' : ''}>${promoted ? 'Selected Winner' : 'Pick Winner'}</button>` : ''}
+              ${candidate.audio_url ? `<button class="secondary" type="button" data-get-wav data-iteration="${iterationNumber}" data-candidate="${candidate.index}" ${wavButtonDisabled(candidate) ? 'disabled' : ''}>${wavButtonLabel(candidate)}</button>` : ''}
+              ${wavConversionMeta(candidate)}
               ${candidate.album_audio_path ? `<span class="meta">Moved to ${escapeHtml(candidate.album_audio_path)}</span>` : ''}
             </div>
             <div data-score-details>${scoreDetails(candidate)}</div>
@@ -1724,6 +1759,17 @@
       await loadJob(state.selected, { soft: false });
     }
 
+    async function getWav(iteration, candidateIndex) {
+      if (!state.selected) return;
+      await api(`/api/jobs/${state.selected}/wav`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ iteration, candidate_index: candidateIndex })
+      });
+      state.selectedSignature = '';
+      await loadJob(state.selected, { soft: false });
+    }
+
     async function startJob(event) {
       event.preventDefault();
       if (state.busy) return;
@@ -1806,6 +1852,22 @@
       const removePlaylistButton = event.target.closest('[data-remove-playlist]');
       if (removePlaylistButton) {
         removePlaylistItem(removePlaylistButton.dataset.removePlaylist);
+        return;
+      }
+      const wavButton = event.target.closest('[data-get-wav]');
+      if (wavButton && !wavButton.disabled) {
+        const iteration = Number(wavButton.dataset.iteration);
+        const candidate = Number(wavButton.dataset.candidate);
+        if (wavButton.textContent === 'Get WAV' && !confirm(`Start WAV conversion for candidate ${candidate}?`)) return;
+        wavButton.disabled = true;
+        wavButton.textContent = wavButton.textContent === 'Check WAV' ? 'Checking...' : 'Requesting...';
+        try {
+          await getWav(iteration, candidate);
+        } catch (err) {
+          alert(err.message);
+          wavButton.disabled = false;
+          wavButton.textContent = 'Get WAV';
+        }
         return;
       }
       const button = event.target.closest('[data-promote]');

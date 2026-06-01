@@ -8,7 +8,7 @@
 suno.example.com {
 	encode zstd gzip
 
-	@callback path /api/suno/callback/*
+	@callback path /api/suno/callback/* /api/suno/wav-callback/*
 	reverse_proxy @callback 127.0.0.1:8765
 
 	respond 404

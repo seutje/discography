@@ -22,7 +22,7 @@
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      padding-bottom: 92px;
+      padding-bottom: 210px;
       background: var(--bg);
       color: var(--ink);
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -421,10 +421,10 @@
       left: 0;
       z-index: 20;
       display: grid;
-      grid-template-columns: minmax(180px, 340px) minmax(0, 1fr);
-      gap: 16px;
+      grid-template-columns: minmax(180px, 320px) minmax(0, 1fr) minmax(260px, 420px);
+      gap: 14px;
       align-items: center;
-      min-height: 76px;
+      min-height: 132px;
       padding: 12px 22px;
       border-top: 1px solid var(--line);
       background: #fbfcf8;
@@ -448,6 +448,64 @@
     .global-player audio {
       width: 100%;
       height: 36px;
+    }
+    .playlist {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      overflow: hidden;
+    }
+    .playlist-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 9px;
+      border-bottom: 1px solid var(--line);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .playlist-list {
+      max-height: 82px;
+      overflow: auto;
+    }
+    .playlist-item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+      align-items: center;
+      min-height: 34px;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      font-size: 12px;
+    }
+    .playlist-item:last-child { border-bottom: 0; }
+    .playlist-item.active {
+      box-shadow: inset 3px 0 0 var(--ok);
+      background: #f5faf5;
+    }
+    .playlist-item-title {
+      min-width: 0;
+    }
+    .playlist-item-title strong,
+    .playlist-item-title span {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .playlist-item-title span {
+      color: var(--muted);
+      font-size: 11px;
+      margin-top: 1px;
+    }
+    .playlist-item button {
+      min-height: 26px;
+      padding: 3px 7px;
+      font-size: 12px;
     }
     button.playing {
       background: var(--ok);
@@ -524,7 +582,7 @@
       font-weight: 700;
     }
     @media (max-width: 900px) {
-      body { padding-bottom: 128px; }
+      body { padding-bottom: 260px; }
       main { grid-template-columns: 1fr; }
       aside { border-right: 0; border-bottom: 1px solid var(--line); }
       .summary { grid-template-columns: 1fr 1fr; }
@@ -537,6 +595,7 @@
         gap: 8px;
         padding: 10px 14px;
       }
+      .playlist-list { max-height: 92px; }
     }
   </style>
 </head>
@@ -628,9 +687,18 @@
   <div class="global-player" id="globalPlayer">
     <div class="global-player-title">
       <strong id="playerTitle">No track selected</strong>
-      <span id="playerMeta">Use a card play button to load the player.</span>
+      <span id="playerMeta">Use a Play button to add tracks to the playlist.</span>
     </div>
     <audio id="globalAudio" controls preload="metadata"></audio>
+    <div class="playlist" aria-label="Playlist">
+      <div class="playlist-head">
+        <span id="playlistCount">Playlist empty</span>
+        <span>Loops</span>
+      </div>
+      <div class="playlist-list" id="playlistList">
+        <div class="playlist-item"><div class="playlist-item-title"><span>No queued tracks.</span></div></div>
+      </div>
+    </div>
   </div>
 
   <script>
@@ -642,8 +710,14 @@
       selectedSignature: '',
       view: 'jobs',
       statistics: null,
+      albums: null,
       statsGroupBy: 'album',
-      currentTrack: null
+      selectedAlbum: null,
+      selectedAlbumDetail: null,
+      currentTrack: null,
+      playlist: [],
+      currentPlaylistIndex: -1,
+      playlistSerial: 0
     };
 
     function $(id) { return document.getElementById(id); }
@@ -676,7 +750,7 @@
 
     function updateViewButtons() {
       $('jobsViewBtn').classList.toggle('active', state.view === 'jobs');
-      $('statsViewBtn').classList.toggle('active', state.view === 'statistics');
+      $('statsViewBtn').classList.toggle('active', state.view === 'statistics' || state.view === 'album');
     }
 
     async function loadSongs() {
@@ -923,11 +997,17 @@
 
     async function showStatistics(force = false) {
       state.view = 'statistics';
+      state.selectedAlbum = null;
       updateViewButtons();
       $('detail').className = '';
       $('detail').innerHTML = '<div class="empty">Loading statistics...</div>';
-      if (!state.statistics || force) {
-        state.statistics = await api('/api/statistics');
+      if (!state.statistics || !state.albums || force) {
+        const [statistics, albums] = await Promise.all([
+          api('/api/statistics'),
+          api('/api/albums')
+        ]);
+        state.statistics = statistics;
+        state.albums = albums.albums || [];
       }
       renderStatistics();
     }
@@ -935,7 +1015,19 @@
     function renderStatistics() {
       const records = state.statistics?.records || [];
       const summary = state.statistics?.summary || {};
+      const albums = state.albums || [];
       const groupRows = groupAverage(records, state.statsGroupBy);
+      const albumRows = albums
+        .slice()
+        .sort((a, b) => {
+          const scoreA = Number(a.stats?.average_score);
+          const scoreB = Number(b.stats?.average_score);
+          const finiteA = Number.isFinite(scoreA);
+          const finiteB = Number.isFinite(scoreB);
+          if (finiteA && finiteB && scoreA !== scoreB) return scoreB - scoreA;
+          if (finiteA !== finiteB) return finiteA ? -1 : 1;
+          return String(a.name).localeCompare(String(b.name));
+        });
       const tableRows = records
         .slice()
         .sort((a, b) => {
@@ -972,6 +1064,27 @@
             </select>
           </div>
         </div>
+        ${albumRows.length ? `
+          <div class="stats-table-wrap" style="margin-bottom:14px">
+            <div class="meta" style="padding:10px 12px 4px">Albums</div>
+            <table>
+              <thead><tr><th>Album</th><th>Tracks</th><th>Analyzed</th><th>Avg Score</th><th>Avg Rung</th><th>Avg BPM</th><th>Duration</th></tr></thead>
+              <tbody>
+                ${albumRows.map(album => `
+                  <tr>
+                    <td><button class="title-link" type="button" data-album-name="${escapeHtml(album.name)}">${escapeHtml(album.name)}</button></td>
+                    <td>${album.track_count ?? album.tracks?.length ?? '—'}</td>
+                    <td>${album.stats?.analyzed_count ?? 0}</td>
+                    <td>${fmt(album.stats?.average_score, 3)}</td>
+                    <td>${fmt(album.stats?.average_rung, 2)}</td>
+                    <td>${fmt(album.stats?.average_tempo_bpm, 1)}</td>
+                    <td>${formatDuration(album.stats?.total_duration_seconds)}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        ` : ''}
         ${records.length ? `
           <div class="charts">
             <div class="chart-panel"><h3>Average Axis Scores</h3>${barChart(axisAverages(records), { max: 10 })}</div>
@@ -988,7 +1101,7 @@
                   <tr>
                     <td>${index + 1}</td>
                     <td><button class="title-link" type="button" data-report-path="${escapeHtml(record.report_path)}">${escapeHtml(record.title)}</button></td>
-                    <td>${escapeHtml(record.album)}</td>
+                    <td><button class="title-link" type="button" data-album-name="${escapeHtml(record.album)}">${escapeHtml(record.album)}</button></td>
                     <td>${fmt(record.score, 3)}</td>
                     <td>${record.rung_number ?? '—'} ${escapeHtml(record.rung_label || '')}</td>
                     <td>${fmt(record.tempo_bpm, 1)}</td>
@@ -1009,6 +1122,93 @@
           renderStatistics();
         });
       }
+    }
+
+    function formatDuration(seconds) {
+      const total = Number(seconds);
+      if (!Number.isFinite(total)) return '—';
+      const rounded = Math.max(0, Math.round(total));
+      const minutes = Math.floor(rounded / 60);
+      const secs = rounded % 60;
+      return `${minutes}:${String(secs).padStart(2, '0')}`;
+    }
+
+    function rowsFromObject(values, labeler = value => value) {
+      return Object.entries(values || {})
+        .map(([key, value]) => ({ label: labeler(key), value }))
+        .filter(row => Number.isFinite(Number(row.value)))
+        .sort((a, b) => Number(b.value) - Number(a.value));
+    }
+
+    async function showAlbumDetail(albumName) {
+      state.view = 'album';
+      state.selectedAlbum = albumName;
+      updateViewButtons();
+      $('detail').className = '';
+      $('detail').innerHTML = '<div class="empty">Loading album...</div>';
+      try {
+        const album = await api(`/api/album?name=${encodeURIComponent(albumName)}`);
+        renderAlbumDetail(album);
+      } catch (err) {
+        $('detail').innerHTML = `<div class="empty" style="color:var(--error)">${escapeHtml(err.message)}</div>`;
+      }
+    }
+
+    function renderAlbumDetail(album) {
+      state.selectedAlbumDetail = album;
+      const tracks = album.tracks || [];
+      const playableTracks = tracks.filter(track => track.audio_url);
+      const stats = album.stats || {};
+      const axisRows = rowsFromObject(stats.axes, axisLabel);
+      const coreRows = rowsFromObject(stats.core_metrics, key => String(key).replaceAll('_', ' '));
+      $('detail').className = '';
+      $('detail').innerHTML = `
+        <div class="topline">
+          <div>
+            <h2 style="margin:0 0 4px;font-size:20px">${escapeHtml(album.name)}</h2>
+            <div class="meta">${tracks.length} tracks · ${stats.analyzed_count ?? 0} analyzed</div>
+          </div>
+          <div class="header-actions">
+            <button class="secondary" type="button" data-play-album ${playableTracks.length ? '' : 'disabled'}>Play Album</button>
+            <button class="secondary" type="button" data-statistics-back>Back</button>
+          </div>
+        </div>
+        <div class="summary">
+          <div class="metric"><strong>${fmt(stats.average_score, 3)}</strong><span>Avg Score</span></div>
+          <div class="metric"><strong>${fmt(stats.average_rung, 2)}</strong><span>Avg Rung</span></div>
+          <div class="metric"><strong>${fmt(stats.average_tempo_bpm, 1)}</strong><span>Avg BPM</span></div>
+          <div class="metric"><strong>${formatDuration(stats.total_duration_seconds)}</strong><span>Duration</span></div>
+        </div>
+        <div class="charts">
+          <div class="chart-panel"><h3>Average Axis Scores</h3>${barChart(axisRows, { max: 10 })}</div>
+          <div class="chart-panel"><h3>Core Metrics</h3>${barChart(coreRows, { max: 10, fill: 'alt' })}</div>
+        </div>
+        <div class="stats-table-wrap">
+          <div class="meta" style="padding:10px 12px 4px">Track order</div>
+          <table>
+            <thead><tr><th>#</th><th>Title</th><th>Score</th><th>Rung</th><th>BPM</th><th>Duration</th><th>Audio</th><th>Report</th></tr></thead>
+            <tbody>
+              ${tracks.map(track => {
+                const analysis = track.analysis || {};
+                const title = escapeHtml(track.title);
+                return `
+                  <tr>
+                    <td>${track.track_number ?? track.index ?? '—'}</td>
+                    <td>${analysis.report_path ? `<button class="title-link" type="button" data-report-path="${escapeHtml(analysis.report_path)}">${title}</button>` : title}</td>
+                    <td>${fmt(analysis.score, 3)}</td>
+                    <td>${analysis.rung_number ?? '—'} ${escapeHtml(analysis.rung_label || '')}</td>
+                    <td>${fmt(analysis.tempo_bpm, 1)}</td>
+                    <td>${formatDuration(analysis.duration_seconds)}</td>
+                    <td>${track.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(track.audio_url)}" data-track-title="${title}" data-track-meta="${escapeHtml(track.audio_path)}">Play</button>` : '—'}</td>
+                    <td>${analysis.report_path ? `<a href="/media?path=${encodeURIComponent(analysis.report_path)}" target="_blank">JSON</a>` : '—'}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+      syncPlayButtons();
     }
 
     function selectedReportScoring(report) {
@@ -1372,24 +1572,88 @@
         button.classList.toggle('playing', Boolean(isCurrent && playing));
         button.textContent = isCurrent && playing ? 'Now Playing' : 'Play';
       });
+      renderPlaylist();
     }
 
-    async function playCandidate(button) {
+    function trackFromButton(button) {
+      return {
+        url: button.dataset.audioUrl,
+        title: button.dataset.trackTitle || 'Selected track',
+        meta: button.dataset.trackMeta || ''
+      };
+    }
+
+    function albumTracksForPlaylist(album) {
+      return (album?.tracks || [])
+        .filter(track => track.audio_url)
+        .map(track => ({
+          url: track.audio_url,
+          title: track.title || 'Untitled',
+          meta: track.audio_path || album.name || ''
+        }));
+    }
+
+    function playlistItemId() {
+      state.playlistSerial += 1;
+      return `${Date.now()}-${state.playlistSerial}`;
+    }
+
+    function addToPlaylist(track, { startIfIdle = true } = {}) {
+      if (!track?.url) return;
+      const wasEmpty = state.playlist.length === 0;
+      state.playlist.push({ ...track, id: playlistItemId() });
+      if (wasEmpty) state.currentPlaylistIndex = 0;
+      renderPlaylist();
+      if (startIfIdle && (wasEmpty || !$('globalAudio').getAttribute('src'))) {
+        playPlaylistIndex(state.currentPlaylistIndex);
+      }
+    }
+
+    function addManyToPlaylist(tracks) {
+      const playable = (tracks || []).filter(track => track?.url);
+      if (!playable.length) return;
+      const wasEmpty = state.playlist.length === 0;
+      playable.forEach(track => state.playlist.push({ ...track, id: playlistItemId() }));
+      if (wasEmpty) {
+        state.currentPlaylistIndex = 0;
+        playPlaylistIndex(0);
+      } else {
+        renderPlaylist();
+      }
+    }
+
+    function setPlayerTrack(track) {
       const audio = $('globalAudio');
-      const url = button.dataset.audioUrl;
-      if (!url) return;
-      const title = button.dataset.trackTitle || 'Selected track';
-      const meta = button.dataset.trackMeta || '';
-      const sameTrack = state.currentTrack?.url === url;
-      audio.pause();
-      if (!sameTrack || audio.getAttribute('src') !== url) {
-        audio.src = url;
+      if (!track?.url) {
+        audio.pause();
+        audio.removeAttribute('src');
+        audio.load();
+        state.currentTrack = null;
+        $('playerTitle').textContent = 'No track selected';
+        $('playerMeta').textContent = 'Use a Play button to add tracks to the playlist.';
+        return;
+      }
+      if (audio.getAttribute('src') !== track.url) {
+        audio.src = track.url;
         audio.load();
       }
       audio.currentTime = 0;
-      state.currentTrack = { url, title, meta };
-      $('playerTitle').textContent = title;
-      $('playerMeta').textContent = meta || url;
+      state.currentTrack = track;
+      $('playerTitle').textContent = track.title;
+      $('playerMeta').textContent = track.meta || track.url;
+    }
+
+    async function playPlaylistIndex(index) {
+      const audio = $('globalAudio');
+      if (!state.playlist.length) {
+        state.currentPlaylistIndex = -1;
+        setPlayerTrack(null);
+        syncPlayButtons();
+        return;
+      }
+      const normalizedIndex = ((index % state.playlist.length) + state.playlist.length) % state.playlist.length;
+      state.currentPlaylistIndex = normalizedIndex;
+      setPlayerTrack(state.playlist[normalizedIndex]);
       syncPlayButtons();
       try {
         await audio.play();
@@ -1398,6 +1662,47 @@
       } finally {
         syncPlayButtons();
       }
+    }
+
+    function advancePlaylist() {
+      if (!state.playlist.length) return;
+      playPlaylistIndex(state.currentPlaylistIndex + 1);
+    }
+
+    function removePlaylistItem(id) {
+      const index = state.playlist.findIndex(item => item.id === id);
+      if (index < 0) return;
+      const removingCurrent = index === state.currentPlaylistIndex;
+      state.playlist.splice(index, 1);
+      if (!state.playlist.length) {
+        state.currentPlaylistIndex = -1;
+        setPlayerTrack(null);
+        syncPlayButtons();
+        return;
+      }
+      if (index < state.currentPlaylistIndex) {
+        state.currentPlaylistIndex -= 1;
+      } else if (removingCurrent) {
+        state.currentPlaylistIndex = Math.min(index, state.playlist.length - 1);
+        playPlaylistIndex(state.currentPlaylistIndex);
+        return;
+      }
+      renderPlaylist();
+      syncPlayButtons();
+    }
+
+    function renderPlaylist() {
+      const count = state.playlist.length;
+      $('playlistCount').textContent = count ? `${count} queued` : 'Playlist empty';
+      $('playlistList').innerHTML = count ? state.playlist.map((track, index) => `
+        <div class="playlist-item ${index === state.currentPlaylistIndex ? 'active' : ''}">
+          <div class="playlist-item-title">
+            <strong>${escapeHtml(track.title)}</strong>
+            <span>${escapeHtml(track.meta || track.url)}</span>
+          </div>
+          <button class="danger" type="button" data-remove-playlist="${escapeHtml(track.id)}">Remove</button>
+        </div>
+      `).join('') : '<div class="playlist-item"><div class="playlist-item-title"><span>No queued tracks.</span></div></div>';
     }
 
     async function promoteCandidate(iteration, candidateIndex, overwrite = false) {
@@ -1473,6 +1778,11 @@
       await loadJobs(true);
     });
     document.addEventListener('click', async (event) => {
+      const albumButton = event.target.closest('[data-album-name]');
+      if (albumButton) {
+        await showAlbumDetail(albumButton.dataset.albumName);
+        return;
+      }
       const reportButton = event.target.closest('[data-report-path]');
       if (reportButton) {
         await showAnalysisReport(reportButton.dataset.reportPath);
@@ -1483,9 +1793,19 @@
         renderStatistics();
         return;
       }
+      const albumPlayButton = event.target.closest('[data-play-album]');
+      if (albumPlayButton) {
+        addManyToPlaylist(albumTracksForPlaylist(state.selectedAlbumDetail));
+        return;
+      }
       const playButton = event.target.closest('[data-play-audio]');
       if (playButton) {
-        await playCandidate(playButton);
+        addToPlaylist(trackFromButton(playButton));
+        return;
+      }
+      const removePlaylistButton = event.target.closest('[data-remove-playlist]');
+      if (removePlaylistButton) {
+        removePlaylistItem(removePlaylistButton.dataset.removePlaylist);
         return;
       }
       const button = event.target.closest('[data-promote]');
@@ -1505,7 +1825,7 @@
     });
     $('globalAudio').addEventListener('play', syncPlayButtons);
     $('globalAudio').addEventListener('pause', syncPlayButtons);
-    $('globalAudio').addEventListener('ended', syncPlayButtons);
+    $('globalAudio').addEventListener('ended', advancePlaylist);
 
     (async function init() {
       try {

@@ -180,6 +180,14 @@ def mean(values: list[float]) -> float | None:
     return round(sum(values) / len(values), 3) if values else None
 
 
+def track_number_from_name(name: str) -> int | None:
+    stem = Path(name).stem
+    prefix = stem.split(" - ", 1)[0]
+    if prefix.isdigit():
+        return int(prefix)
+    return None
+
+
 def album_from_audio_path(audio_path: str) -> str:
     parts = Path(audio_path).parts
     if "audio" in parts:
@@ -189,6 +197,19 @@ def album_from_audio_path(audio_path: str) -> str:
     if len(parts) > 1:
         return parts[0]
     return "Unsorted"
+
+
+def relative_project_path(path: Path) -> str:
+    return path.relative_to(ROOT).as_posix()
+
+
+def audio_path_for_text(text_path: Path) -> Path | None:
+    audio_dir = text_path.parent / "audio"
+    for suffix in suno_iterate.AUDIO_EXTENSIONS:
+        candidate = audio_dir / f"{text_path.stem}{suffix}"
+        if candidate.exists():
+            return candidate
+    return None
 
 
 def summarize_analysis_report(report_path: Path) -> dict[str, Any] | None:
@@ -217,6 +238,7 @@ def summarize_analysis_report(report_path: Path) -> dict[str, Any] | None:
         "generated_at": report.get("generated_at"),
         "title": text.get("title") or Path(audio_path).stem or report_path.stem,
         "album": album_from_audio_path(audio_path),
+        "track_number": track_number_from_name(audio_path),
         "audio_path": audio_path,
         "framework": framework.get("name") or Path(str(framework.get("path") or "")).name or "Unselected",
         "score": mean(score_values),
@@ -243,7 +265,7 @@ def summarize_analysis_report(report_path: Path) -> dict[str, Any] | None:
     }
 
 
-def analysis_statistics() -> dict[str, Any]:
+def analysis_records() -> list[dict[str, Any]]:
     records = []
     for report_path in sorted(ROOT.rglob("*.analysis.json")):
         if ".venv" in report_path.parts or ".git" in report_path.parts:
@@ -256,21 +278,110 @@ def analysis_statistics() -> dict[str, Any]:
             continue
         if summary:
             records.append(summary)
+    return records
 
+
+def album_stats(records: list[dict[str, Any]], total_tracks: int | None = None) -> dict[str, Any]:
     scores = [record["score"] for record in records if record.get("score") is not None]
     rung_numbers = [record["rung_number"] for record in records if record.get("rung_number") is not None]
     tempos = [record["tempo_bpm"] for record in records if record.get("tempo_bpm") is not None]
     durations = [record["duration_seconds"] for record in records if record.get("duration_seconds") is not None]
+    axis_keys = sorted({key for record in records for key in (record.get("axes") or {})})
+    core_keys = sorted({key for record in records for key in (record.get("core_metrics") or {})})
     return {
-        "records": records,
-        "summary": {
-            "count": len(records),
-            "average_score": mean(scores),
-            "average_rung": mean(rung_numbers),
-            "average_tempo_bpm": mean(tempos),
-            "total_duration_seconds": round(sum(durations), 3),
+        "track_count": total_tracks if total_tracks is not None else len(records),
+        "analyzed_count": len(records),
+        "average_score": mean(scores),
+        "average_rung": mean(rung_numbers),
+        "average_tempo_bpm": mean(tempos),
+        "total_duration_seconds": round(sum(durations), 3),
+        "axes": {
+            key: mean([record["axes"][key] for record in records if record.get("axes", {}).get(key) is not None])
+            for key in axis_keys
+        },
+        "core_metrics": {
+            key: mean([record["core_metrics"][key] for record in records if record.get("core_metrics", {}).get(key) is not None])
+            for key in core_keys
         },
     }
+
+
+def analysis_statistics() -> dict[str, Any]:
+    records = analysis_records()
+    return {
+        "records": records,
+        "summary": {"count": len(records), **album_stats(records)},
+    }
+
+
+def album_catalog() -> list[dict[str, Any]]:
+    records = analysis_records()
+    records_by_audio = {
+        str(record.get("audio_path") or "").lower(): record
+        for record in records
+        if record.get("audio_path")
+    }
+    records_by_album_title: dict[tuple[str, str], dict[str, Any]] = {}
+    for record in records:
+        key = (str(record.get("album") or "").lower(), str(record.get("title") or "").lower())
+        records_by_album_title.setdefault(key, record)
+
+    ignored = {
+        ".agents",
+        ".cache",
+        ".codex",
+        ".git",
+        ".venv",
+        "analysis-output",
+        "analyzer",
+        "deploy",
+        "scripts",
+        "suno-runs",
+    }
+    albums: list[dict[str, Any]] = []
+    for album_dir in sorted((path for path in ROOT.iterdir() if path.is_dir() and path.name not in ignored), key=lambda path: path.name.lower()):
+        text_paths = sorted(album_dir.glob("*.txt"), key=lambda path: (track_number_from_name(path.name) or 9999, path.name.lower()))
+        if not text_paths:
+            continue
+        tracks = []
+        album_records = []
+        for index, text_path in enumerate(text_paths, start=1):
+            try:
+                title = suno_iterate.parse_track_text(text_path).title
+            except Exception:
+                title = text_path.stem.split(" - ", 1)[-1]
+            audio_path = audio_path_for_text(text_path)
+            audio_rel = relative_project_path(audio_path) if audio_path else ""
+            record = records_by_audio.get(audio_rel.lower()) or records_by_album_title.get((album_dir.name.lower(), title.lower()))
+            if record:
+                album_records.append(record)
+            tracks.append(
+                {
+                    "index": index,
+                    "track_number": track_number_from_name(text_path.name) or index,
+                    "title": title,
+                    "text_path": relative_project_path(text_path),
+                    "audio_path": audio_rel,
+                    "audio_url": public_url_for_path(audio_path) if audio_path else "",
+                    "analysis": record,
+                }
+            )
+        albums.append(
+            {
+                "name": album_dir.name,
+                "track_count": len(tracks),
+                "tracks": tracks,
+                "stats": album_stats(album_records, len(tracks)),
+            }
+        )
+    return albums
+
+
+def album_detail(album_name: str) -> dict[str, Any]:
+    for album in album_catalog():
+        if album["name"] == album_name:
+            return album
+    raise FileNotFoundError(album_name)
 
 
 def public_url_for_path(path: Path) -> str:
@@ -683,6 +794,14 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_json({"error": str(exc)}, HTTPStatus.BAD_REQUEST)
         elif path == "/api/statistics":
             self.send_json(analysis_statistics())
+        elif path == "/api/albums":
+            self.send_json({"albums": album_catalog()})
+        elif path == "/api/album":
+            album_name = query.get("name", [""])[0]
+            try:
+                self.send_json(album_detail(album_name))
+            except FileNotFoundError:
+                self.send_json({"error": "album not found"}, HTTPStatus.NOT_FOUND)
         elif path == "/api/jobs":
             jobs = [enrich_job(read_json(path / "job.json", {})) for path in sorted(OUTPUT_ROOT.glob("*")) if (path / "job.json").exists()]
             self.send_json({"jobs": sorted(jobs, key=lambda item: item.get("created_at", ""), reverse=True)})

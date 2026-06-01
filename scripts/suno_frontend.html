@@ -474,7 +474,7 @@
     }
     .playlist-item {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-columns: minmax(0, 1fr) auto auto;
       gap: 8px;
       align-items: center;
       min-height: 34px;
@@ -1728,16 +1728,23 @@
 
     function renderPlaylist() {
       const count = state.playlist.length;
+      const audio = $('globalAudio');
+      const playing = !audio.paused && !audio.ended;
       $('playlistCount').textContent = count ? `${count} queued` : 'Playlist empty';
-      $('playlistList').innerHTML = count ? state.playlist.map((track, index) => `
-        <div class="playlist-item ${index === state.currentPlaylistIndex ? 'active' : ''}">
-          <div class="playlist-item-title">
-            <strong>${escapeHtml(track.title)}</strong>
-            <span>${escapeHtml(track.meta || track.url)}</span>
+      $('playlistList').innerHTML = count ? state.playlist.map((track, index) => {
+        const isCurrent = index === state.currentPlaylistIndex;
+        const isPlaying = isCurrent && playing;
+        return `
+          <div class="playlist-item ${isCurrent ? 'active' : ''}">
+            <div class="playlist-item-title">
+              <strong>${escapeHtml(track.title)}</strong>
+              <span>${escapeHtml(track.meta || track.url)}</span>
+            </div>
+            <button class="secondary ${isPlaying ? 'playing' : ''}" type="button" data-play-playlist="${index}">${isPlaying ? 'Now Playing' : 'Play'}</button>
+            <button class="danger" type="button" data-remove-playlist="${escapeHtml(track.id)}">Remove</button>
           </div>
-          <button class="danger" type="button" data-remove-playlist="${escapeHtml(track.id)}">Remove</button>
-        </div>
-      `).join('') : '<div class="playlist-item"><div class="playlist-item-title"><span>No queued tracks.</span></div></div>';
+        `;
+      }).join('') : '<div class="playlist-item"><div class="playlist-item-title"><span>No queued tracks.</span></div></div>';
     }
 
     async function promoteCandidate(iteration, candidateIndex, overwrite = false) {
@@ -1847,6 +1854,11 @@
       const playButton = event.target.closest('[data-play-audio]');
       if (playButton) {
         addToPlaylist(trackFromButton(playButton));
+        return;
+      }
+      const playlistPlayButton = event.target.closest('[data-play-playlist]');
+      if (playlistPlayButton) {
+        playPlaylistIndex(Number(playlistPlayButton.dataset.playPlaylist));
         return;
       }
       const removePlaylistButton = event.target.closest('[data-remove-playlist]');

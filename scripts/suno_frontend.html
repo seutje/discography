@@ -1025,6 +1025,10 @@
       return String(path || '').split('/').pop()?.replace(/\.[^.]+$/, '') || 'Untitled';
     }
 
+    function mediaUrlForPath(path) {
+      return `/media?path=${encodeURIComponent(path)}`;
+    }
+
     function axisLabel(key) {
       return String(key || '')
         .replace(/^SC_/, '')
@@ -1102,6 +1106,7 @@
       const llm = report.llm_adjusted_scoring || {};
       const title = text.title || titleFromPath(audio.path || reportPath);
       const score = averageScoreFromAxes(axes);
+      const audioUrl = audio.path ? mediaUrlForPath(audio.path) : '';
       const egEvidence = baseScoring.eg_evidence || {};
       const adjustments = llm.available ? Object.entries(llm.adjustments || {}).map(([axis, item]) =>
         `${axisLabel(axis)}: ${item.delta >= 0 ? '+' : ''}${fmt(item.delta, 2)}. ${item.reason || ''}`
@@ -1115,6 +1120,7 @@
               <div class="meta">${escapeHtml(audio.path || reportPath)}</div>
             </div>
             <div class="header-actions">
+              ${audioUrl ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(audioUrl)}" data-track-title="${escapeHtml(title)}" data-track-meta="${escapeHtml(audio.path)}">Play</button>` : ''}
               <button class="secondary" type="button" data-statistics-back>Back</button>
               <a href="/media?path=${encodeURIComponent(reportPath)}" target="_blank">JSON</a>
             </div>
@@ -1206,6 +1212,7 @@
           </div>
         </div>
       `;
+      syncPlayButtons();
     }
 
     async function showAnalysisReport(reportPath) {

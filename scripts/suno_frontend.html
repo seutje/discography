@@ -1541,7 +1541,7 @@
     function wavButtonLabel(candidate) {
       const status = candidate.wav_conversion?.status || '';
       if (status === 'submitted' || status === 'pending') return 'Check WAV';
-      if (status === 'downloading') return 'Downloading WAV';
+      if (status === 'downloading') return 'Retry WAV Save';
       if (status === 'complete') return 'WAV Ready';
       if (status === 'error') return 'Retry WAV';
       return 'Get WAV';
@@ -1549,7 +1549,7 @@
 
     function wavButtonDisabled(candidate) {
       const status = candidate.wav_conversion?.status || '';
-      return status === 'downloading' || status === 'complete';
+      return status === 'complete';
     }
 
     function wavConversionMeta(candidate) {
@@ -1558,7 +1558,7 @@
         return `<a class="meta" href="${escapeHtml(candidate.wav_url)}" target="_blank" rel="noopener">Album WAV: ${escapeHtml(conversion.local_wav_path || 'Download')}</a>`;
       }
       if (conversion.status === 'downloading') {
-        return '<span class="meta">Saving WAV to album.</span>';
+        return '<span class="meta">Saving WAV to album; click Retry WAV Save if it stays here.</span>';
       }
       if (conversion.status === 'error') {
         return `<span class="meta" style="color:var(--error)">WAV failed${conversion.message ? `: ${escapeHtml(conversion.message)}` : ''}</span>`;
@@ -1860,7 +1860,8 @@
         const candidate = Number(wavButton.dataset.candidate);
         if (wavButton.textContent === 'Get WAV' && !confirm(`Start WAV conversion for candidate ${candidate}?`)) return;
         wavButton.disabled = true;
-        wavButton.textContent = wavButton.textContent === 'Check WAV' ? 'Checking...' : 'Requesting...';
+        const wavAction = wavButton.textContent;
+        wavButton.textContent = wavAction === 'Check WAV' ? 'Checking...' : wavAction === 'Retry WAV Save' ? 'Saving...' : 'Requesting...';
         try {
           await getWav(iteration, candidate);
         } catch (err) {

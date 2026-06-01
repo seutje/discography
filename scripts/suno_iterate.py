@@ -455,6 +455,32 @@ def extract_audio_items(record: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def download_file(url: str, path: Path, timeout: float) -> None:
+    curl = shutil.which("curl")
+    if curl:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        cmd = [
+            curl,
+            "--fail",
+            "--location",
+            "--silent",
+            "--show-error",
+            "--speed-limit",
+            "1024",
+            "--speed-time",
+            "30",
+            "--max-time",
+            str(max(timeout, 120)),
+            "--output",
+            str(path),
+            url,
+        ]
+        if path.exists() and path.stat().st_size > 0:
+            cmd[1:1] = ["--continue-at", "-"]
+        completed = subprocess.run(cmd, text=True, capture_output=True)
+        if completed.returncode == 0:
+            return
+        raise RuntimeError(completed.stderr.strip() or f"curl download failed with exit code {completed.returncode}")
+
     request = urllib.request.Request(url, headers={"User-Agent": "discography-suno-pipeline/1.0"})
     with urllib.request.urlopen(request, timeout=timeout) as response:
         path.write_bytes(response.read())

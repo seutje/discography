@@ -401,7 +401,7 @@ def enrich_job(job: dict[str, Any]) -> dict[str, Any]:
             if image:
                 candidate["image_url"] = public_url_for_path(ROOT / image)
             wav = (candidate.get("wav_conversion") or {}).get("local_wav_path")
-            if wav:
+            if wav and (ROOT / wav).exists():
                 candidate["wav_url"] = public_url_for_path(ROOT / wav)
     return enriched
 
@@ -563,6 +563,19 @@ def refresh_wav_conversion(job_id: str, iteration_number: int, candidate_index: 
         updated_job = download_wav_to_album(job_id, iteration_number, candidate_index, conversion["audio_wav_url"], conversion.get("callback") or {})
         return {"ok": True, "job": updated_job, "wav_conversion": find_iteration_and_candidate(updated_job, iteration_number, candidate_index)[1]["wav_conversion"]}
     if conversion.get("status") == "downloading":
+        if local_path and (ROOT / local_path).exists():
+            updated_job = save_candidate_wav_updates(
+                job_id,
+                iteration_number,
+                candidate_index,
+                {"status": "complete", "completed_at": now()},
+            )
+            _, updated_candidate = find_iteration_and_candidate(updated_job, iteration_number, candidate_index)
+            return {"ok": True, "job": updated_job, "wav_conversion": updated_candidate["wav_conversion"]}
+        if conversion.get("audio_wav_url"):
+            updated_job = download_wav_to_album(job_id, iteration_number, candidate_index, conversion["audio_wav_url"], conversion.get("callback") or {})
+            _, updated_candidate = find_iteration_and_candidate(updated_job, iteration_number, candidate_index)
+            return {"ok": True, "job": updated_job, "wav_conversion": updated_candidate["wav_conversion"]}
         return {"ok": True, "job": enrich_job(job), "wav_conversion": conversion}
 
     api_key = suno_api_key_for_job(job)

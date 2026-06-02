@@ -1,1 +1,1 @@
-When asked to write lyrics, avoid commong AI tropes like: velvet, blur, noise, static, neon
+When asked to write lyrics, avoid words like: velvet, blur, noise, static, neon

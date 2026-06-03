@@ -728,11 +728,25 @@ def candidate_report_summary(report_path: Path, score_mode: str) -> dict[str, An
     score, axes, report = suno_iterate.score_report(report_path, score_mode)
     llm = report.get("llm_adjusted_scoring") or {}
     scoring = llm if llm.get("available") else report["framework_scoring"]
+    quality = report.get("transcription_quality") or {}
     return {
         "score": round(score, 3),
         "axes": axes,
         "core_metrics": scoring.get("core_metrics", {}),
         "rung_estimate": scoring.get("rung_estimate"),
+        "transcription_quality": {
+            key: quality.get(key)
+            for key in (
+                "available",
+                "quality_score_0_10",
+                "lyric_alignment_ratio",
+                "word_count_ratio",
+                "likely_duplicate_passes",
+                "flags",
+                "error",
+            )
+            if key in quality
+        },
         "report_path": report_path.relative_to(ROOT).as_posix(),
     }
 
@@ -872,6 +886,13 @@ def run_job(job_id: str) -> None:
                     settings["ollama_url"],
                     float(settings["ollama_timeout"]),
                     beat_file,
+                    settings.get("transcription_backend") or suno_iterate.DEFAULT_TRANSCRIPTION_BACKEND,
+                    settings.get("transcription_model") or suno_iterate.DEFAULT_TRANSCRIPTION_MODEL,
+                    settings.get("transcription_language") or "en",
+                    settings.get("transcription_device") or "auto",
+                    settings.get("transcription_compute_type") or "default",
+                    float(settings.get("transcription_timeout", 900)),
+                    settings.get("transcription_model_dir") or suno_iterate.DEFAULT_TRANSCRIPTION_MODEL_DIR,
                 )
                 report_paths.append(report_path)
                 candidate.update(candidate_report_summary(report_path, settings["score_mode"]))
@@ -1143,6 +1164,13 @@ class Handler(BaseHTTPRequestHandler):
                     "ollama_model": data.get("ollama_model") or suno_iterate.DEFAULT_OLLAMA_MODEL,
                     "ollama_url": data.get("ollama_url") or "http://localhost:11434",
                     "ollama_timeout": float(data.get("ollama_timeout", 240)),
+                    "transcription_backend": data.get("transcription_backend") or suno_iterate.DEFAULT_TRANSCRIPTION_BACKEND,
+                    "transcription_model": data.get("transcription_model") or suno_iterate.DEFAULT_TRANSCRIPTION_MODEL,
+                    "transcription_language": data.get("transcription_language") or "en",
+                    "transcription_device": data.get("transcription_device") or "auto",
+                    "transcription_compute_type": data.get("transcription_compute_type") or "default",
+                    "transcription_timeout": float(data.get("transcription_timeout", 900)),
+                    "transcription_model_dir": data.get("transcription_model_dir") or suno_iterate.DEFAULT_TRANSCRIPTION_MODEL_DIR,
                     "beat_this_gpu": str(data.get("beat_this_gpu") or suno_iterate.DEFAULT_BEAT_THIS_GPU),
                     "poll_seconds": float(data.get("poll_seconds", 15)),
                     "task_timeout": float(data.get("task_timeout", 900)),

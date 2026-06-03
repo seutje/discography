@@ -29,6 +29,9 @@ TITLE_LIMIT = 100
 AUDIO_EXTENSIONS = (".mp3", ".wav", ".m4a", ".flac", ".ogg")
 DEFAULT_OLLAMA_MODEL = "qwen3:8b"
 DEFAULT_BEAT_THIS_GPU = "-1"
+DEFAULT_TRANSCRIPTION_BACKEND = "auto"
+DEFAULT_TRANSCRIPTION_MODEL = "base"
+DEFAULT_TRANSCRIPTION_MODEL_DIR = ".cache/whisper"
 AXIS_KEYS = (
     "SC_structural_coherence",
     "MI_motivic_integration",
@@ -547,6 +550,13 @@ def run_analyzer(
     ollama_url: str,
     ollama_timeout: float,
     beat_file: Path | None = None,
+    transcription_backend: str = DEFAULT_TRANSCRIPTION_BACKEND,
+    transcription_model: str = DEFAULT_TRANSCRIPTION_MODEL,
+    transcription_language: str = "en",
+    transcription_device: str = "auto",
+    transcription_compute_type: str = "default",
+    transcription_timeout: float = 900.0,
+    transcription_model_dir: str = DEFAULT_TRANSCRIPTION_MODEL_DIR,
 ) -> Path:
     analyzer = Path(__file__).with_name("analyze_track.py")
     cmd = [
@@ -564,6 +574,25 @@ def run_analyzer(
         cmd.extend(["--beat-file", str(beat_file)])
     if ollama_model:
         cmd.extend(["--ollama-model", ollama_model, "--ollama-url", ollama_url, "--ollama-timeout", str(ollama_timeout)])
+    if transcription_backend != "none":
+        cmd.extend(
+            [
+                "--transcription-backend",
+                transcription_backend,
+                "--transcription-model",
+                transcription_model,
+                "--transcription-language",
+                transcription_language,
+                "--transcription-device",
+                transcription_device,
+                "--transcription-compute-type",
+                transcription_compute_type,
+                "--transcription-timeout",
+                str(transcription_timeout),
+                "--transcription-model-dir",
+                transcription_model_dir,
+            ]
+        )
     completed = subprocess.run(cmd, text=True)
     if completed.returncode:
         raise RuntimeError(f"Analyzer failed for {audio_path}")
@@ -591,7 +620,28 @@ def choose_best(reports: list[Path], score_mode: str) -> dict[str, Any]:
     scored = []
     for path in reports:
         value, axes, report = score_report(path, score_mode)
-        scored.append({"score": round(value, 3), "axes": axes, "report": str(path), "track": report["audio"]["path"]})
+        quality = report.get("transcription_quality") or {}
+        scored.append(
+            {
+                "score": round(value, 3),
+                "axes": axes,
+                "report": str(path),
+                "track": report["audio"]["path"],
+                "transcription_quality": {
+                    key: quality.get(key)
+                    for key in (
+                        "available",
+                        "quality_score_0_10",
+                        "lyric_alignment_ratio",
+                        "word_count_ratio",
+                        "likely_duplicate_passes",
+                        "flags",
+                        "error",
+                    )
+                    if key in quality
+                },
+            }
+        )
     if not scored:
         raise RuntimeError("No analysis reports were produced.")
     return max(scored, key=lambda item: item["score"])
@@ -632,6 +682,30 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--ollama-model", default=DEFAULT_OLLAMA_MODEL, help="Local Ollama model passed to analyze_track.py for adjusted grading.")
     parser.add_argument("--ollama-url", default="http://localhost:11434", help="Ollama base URL for analyzer grading.")
     parser.add_argument("--ollama-timeout", type=float, default=240.0, help="Analyzer Ollama timeout per generated candidate.")
+    parser.add_argument(
+        "--transcription-backend",
+        choices=("none", "auto", "faster-whisper", "whisper-cli"),
+        default=os.environ.get("SUNO_TRANSCRIPTION_BACKEND", DEFAULT_TRANSCRIPTION_BACKEND),
+        help="Speech-to-text backend used to penalize unintelligible or repeated generated vocals.",
+    )
+    parser.add_argument(
+        "--transcription-model",
+        default=os.environ.get("SUNO_TRANSCRIPTION_MODEL", DEFAULT_TRANSCRIPTION_MODEL),
+        help="Whisper model name/path used for generated-candidate transcription.",
+    )
+    parser.add_argument("--transcription-language", default=os.environ.get("SUNO_TRANSCRIPTION_LANGUAGE", "en"), help="Transcription language code.")
+    parser.add_argument("--transcription-device", default=os.environ.get("SUNO_TRANSCRIPTION_DEVICE", "auto"), help="Transcription device, e.g. auto, cpu, cuda.")
+    parser.add_argument(
+        "--transcription-compute-type",
+        default=os.environ.get("SUNO_TRANSCRIPTION_COMPUTE_TYPE", "default"),
+        help="faster-whisper compute type, e.g. default, int8, float16.",
+    )
+    parser.add_argument("--transcription-timeout", type=float, default=900.0, help="Seconds to wait for whisper-cli transcription.")
+    parser.add_argument(
+        "--transcription-model-dir",
+        default=os.environ.get("SUNO_TRANSCRIPTION_MODEL_DIR", DEFAULT_TRANSCRIPTION_MODEL_DIR),
+        help="Writable directory for Whisper model downloads/cache.",
+    )
     parser.add_argument("--beat-this-gpu", default=DEFAULT_BEAT_THIS_GPU, help="GPU argument passed to beat_this; use -1 for CPU.")
     parser.add_argument("--poll-seconds", type=float, default=15.0, help="Seconds between Suno task polls.")
     parser.add_argument("--task-timeout", type=float, default=900.0, help="Maximum seconds to wait for one Suno task.")
@@ -722,6 +796,13 @@ def main() -> int:
                     args.ollama_url,
                     args.ollama_timeout,
                     beat_file,
+                    args.transcription_backend,
+                    args.transcription_model,
+                    args.transcription_language,
+                    args.transcription_device,
+                    args.transcription_compute_type,
+                    args.transcription_timeout,
+                    args.transcription_model_dir,
                 )
             )
         best = choose_best(reports, args.score_mode)

@@ -23,6 +23,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--ollama-timeout", type=float, default=240.0, help="Seconds to wait for each Ollama adjustment.")
     parser.add_argument("--ollama-num-ctx", type=int, default=16384, help="Ollama context window for each scoring adjustment.")
     parser.add_argument("--llm-max-axis-delta", type=float, default=1.5, help="Maximum LLM adjustment per axis around the Python score.")
+    parser.add_argument(
+        "--transcription-backend",
+        choices=("none", "auto", "faster-whisper", "whisper-cli"),
+        default="none",
+        help="Optional speech-to-text backend for lyric intelligibility/repetition checks.",
+    )
+    parser.add_argument("--transcription-model", default="base", help="Whisper model name/path for transcription checks.")
+    parser.add_argument("--transcription-language", default="en", help="Language code for transcription.")
+    parser.add_argument("--transcription-timeout", type=float, default=900.0, help="Seconds to wait for whisper-cli transcription.")
+    parser.add_argument("--transcription-device", default="auto", help="Transcription device, e.g. auto, cpu, cuda.")
+    parser.add_argument("--transcription-compute-type", default="default", help="faster-whisper compute type.")
+    parser.add_argument("--transcription-model-dir", type=Path, default=Path(".cache/whisper"), help="Writable directory for Whisper model downloads/cache.")
     parser.add_argument("--limit", type=int, help="Analyze only the first N matching files.")
     return parser.parse_args()
 
@@ -70,6 +82,25 @@ def main() -> int:
                     str(args.ollama_num_ctx),
                     "--llm-max-axis-delta",
                     str(args.llm_max_axis_delta),
+                ]
+            )
+        if args.transcription_backend != "none":
+            cmd.extend(
+                [
+                    "--transcription-backend",
+                    args.transcription_backend,
+                    "--transcription-model",
+                    args.transcription_model,
+                    "--transcription-language",
+                    args.transcription_language,
+                    "--transcription-timeout",
+                    str(args.transcription_timeout),
+                    "--transcription-device",
+                    args.transcription_device,
+                    "--transcription-compute-type",
+                    args.transcription_compute_type,
+                    "--transcription-model-dir",
+                    str(args.transcription_model_dir),
                 ]
             )
         completed = subprocess.run(cmd, text=True)

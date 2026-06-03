@@ -665,6 +665,22 @@
         <label for="ollamaModel">Ollama Model</label>
         <input id="ollamaModel" value="qwen3:8b">
 
+        <div class="row">
+          <div>
+            <label for="transcriptionBackend">Transcription</label>
+            <select id="transcriptionBackend">
+              <option value="auto">Auto</option>
+              <option value="faster-whisper">faster-whisper</option>
+              <option value="whisper-cli">whisper CLI</option>
+              <option value="none">Disabled</option>
+            </select>
+          </div>
+          <div>
+            <label for="transcriptionModel">Whisper Model</label>
+            <input id="transcriptionModel" value="base">
+          </div>
+        </div>
+
         <label class="check">
           <input id="live" type="checkbox">
           <span>Live Suno generation</span>
@@ -1306,6 +1322,7 @@
       const core = scoring.core_metrics || {};
       const rung = scoring.rung_estimate || {};
       const llm = report.llm_adjusted_scoring || {};
+      const transcription = report.transcription_quality || {};
       const title = text.title || titleFromPath(audio.path || reportPath);
       const score = averageScoreFromAxes(axes);
       const audioUrl = audio.path ? mediaUrlForPath(audio.path) : '';
@@ -1361,6 +1378,22 @@
                 ['Sections', text.section_count],
                 ['Repeated lines', fmt(text.repeated_line_ratio, 2)],
                 ['Rhyme reuse', fmt(text.rhyme_suffix_reuse, 2)]
+              ])}
+            </div>
+            <div class="report-panel">
+              <h3>Transcription</h3>
+              ${transcription.available ? reportDefinitionRows([
+                ['Backend', transcription.backend],
+                ['Model', transcription.model],
+                ['Quality', fmt(transcription.quality_score_0_10, 1)],
+                ['Alignment', fmt(transcription.lyric_alignment_ratio, 3)],
+                ['Coverage', fmt(transcription.unique_expected_word_coverage, 3)],
+                ['Word ratio', fmt(transcription.word_count_ratio, 3)],
+                ['Duplicate passes', transcription.likely_duplicate_passes],
+                ['Flags', (transcription.flags || []).join(', ')]
+              ]) : reportDefinitionRows([
+                ['Available', 'no'],
+                ['Reason', transcription.error || 'not requested']
               ])}
             </div>
             <div class="report-panel report-wide">
@@ -1433,6 +1466,7 @@
       const iterations = job.iterations || [];
       const callbackBase = job.settings?.public_base_url || '';
       const vocalGender = job.settings?.vocal_gender || 'unspecified';
+      const transcription = `${job.settings?.transcription_backend || 'auto'}:${job.settings?.transcription_model || 'base'}`;
       $('detail').className = '';
       $('detail').innerHTML = `
         <div class="topline">
@@ -1450,6 +1484,7 @@
         </div>
         ${callbackBase ? `<div class="meta" style="margin-bottom:14px">Callback base: ${callbackBase}</div>` : ''}
         <div class="meta" style="margin-bottom:14px">Suno controls: styleWeight ${job.settings?.style_weight ?? '0.75'} · weirdnessConstraint ${job.settings?.weirdness_constraint ?? '0.75'} · vocalGender ${escapeHtml(vocalGender)}</div>
+        <div class="meta" style="margin-bottom:14px">Transcription: ${escapeHtml(transcription)}</div>
         ${job.error ? `<div class="empty" style="color:var(--error);margin-bottom:14px">${job.error}</div>` : ''}
         <div data-iterations>${iterations.map(renderIteration).join('') || '<div class="empty">No iterations yet.</div>'}</div>
         <div class="log" data-log>${(job.log || []).map(item => `[${item.time}] ${item.message}`).join('\n')}</div>
@@ -1506,6 +1541,7 @@
     function scoreDetails(candidate) {
       const core = candidate.core_metrics || {};
       const rung = candidate.rung_estimate || {};
+      const transcription = candidate.transcription_quality || {};
       const hasScore = candidate.score !== undefined && candidate.score !== null;
       const hasCore = Object.keys(core).length > 0;
       const hasRung = rung && (rung.number !== undefined || rung.label);
@@ -1520,8 +1556,12 @@
         ` : '',
         core.CDPD !== undefined ? scoreChip('CDPD', core.CDPD, 2) : '',
         core.NGE !== undefined ? scoreChip('NGE', core.NGE, 2) : '',
-        core.HMII_peak_estimate !== undefined ? scoreChip('HMII', core.HMII_peak_estimate, 0) : ''
+        core.HMII_peak_estimate !== undefined ? scoreChip('HMII', core.HMII_peak_estimate, 0) : '',
+        transcription.available ? scoreChip('ASR', transcription.quality_score_0_10, 1) : ''
       ].filter(Boolean).join('');
+      const transcriptionMeta = transcription.available
+        ? `ASR alignment ${fmt(transcription.lyric_alignment_ratio, 2)} · word ratio ${fmt(transcription.word_count_ratio, 2)} · passes ${transcription.likely_duplicate_passes ?? 1}${transcription.flags?.length ? ` · ${transcription.flags.map(escapeHtml).join(', ')}` : ''}`
+        : (transcription.error ? `ASR unavailable: ${escapeHtml(transcription.error)}` : '');
       if (!summary && !axes) {
         return candidate.analysis_status ? `<div class="meta">Analysis ${escapeHtml(candidate.analysis_status)}.</div>` : '';
       }
@@ -1530,6 +1570,7 @@
           ${summary ? `<div class="score-summary">${summary}</div>` : ''}
           ${axes}
           ${hasCore ? `<div class="meta">${Object.entries(core).map(([key, value]) => `${escapeHtml(key)}: ${fmt(value, 3)}`).join(' · ')}</div>` : ''}
+          ${transcriptionMeta ? `<div class="meta">${transcriptionMeta}</div>` : ''}
         </div>
       `;
     }
@@ -1794,7 +1835,9 @@
           weirdness_constraint: Number($('weirdnessConstraint').value),
           vocal_gender: $('vocalGender').value,
           live: $('live').checked,
-          ollama_model: $('ollamaModel').value.trim()
+          ollama_model: $('ollamaModel').value.trim(),
+          transcription_backend: $('transcriptionBackend').value,
+          transcription_model: $('transcriptionModel').value.trim()
         };
         const job = await api('/api/jobs', {
           method: 'POST',

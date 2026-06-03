@@ -7,7 +7,9 @@ import argparse
 import json
 import math
 import re
+import shutil
 import subprocess
+import tempfile
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
@@ -72,6 +74,7 @@ TRANSFORMATION_TERMS = {
     "harmony",
     "harmonies",
 }
+WORD_RE = re.compile(r"[A-Za-z0-9']+")
 
 
 @dataclass(frozen=True)
@@ -246,6 +249,263 @@ def read_track_text(path: Path | None) -> TrackText:
         sections.append((current_name, "\n".join(current_lines).strip()))
 
     return TrackText(path, raw, tags, lyrics.strip(), [(name, body) for name, body in sections if body])
+
+
+def normalize_words(text: str) -> list[str]:
+    text = re.sub(r"^\s*\[[^\]]+\]\s*$", " ", text, flags=re.MULTILINE)
+    text = re.sub(r"\[[^\]]+\]", " ", text)
+    return [word.lower().strip("'") for word in WORD_RE.findall(text) if word.strip("'")]
+
+
+def lcs_length(left: list[str], right: list[str]) -> int:
+    if not left or not right:
+        return 0
+    if len(right) > len(left):
+        left, right = right, left
+    previous = [0] * (len(right) + 1)
+    for left_word in left:
+        current = [0]
+        for idx, right_word in enumerate(right, start=1):
+            if left_word == right_word:
+                current.append(previous[idx - 1] + 1)
+            else:
+                current.append(max(previous[idx], current[-1]))
+        previous = current
+    return previous[-1]
+
+
+def repeated_ngram_ratio(words: list[str], size: int = 12) -> float:
+    if len(words) < size * 2:
+        return 0.0
+    ngrams = [tuple(words[index : index + size]) for index in range(len(words) - size + 1)]
+    if not ngrams:
+        return 0.0
+    return 1.0 - (len(set(ngrams)) / len(ngrams))
+
+
+def half_similarity(words: list[str]) -> float:
+    if len(words) < 40:
+        return 0.0
+    midpoint = len(words) // 2
+    left = words[:midpoint]
+    right = words[midpoint:]
+    return lcs_length(left, right) / max(min(len(left), len(right)), 1)
+
+
+def transcribe_with_faster_whisper(
+    audio_path: Path,
+    model_name: str,
+    language: str | None,
+    device: str,
+    compute_type: str,
+    model_dir: Path | None,
+) -> dict[str, Any]:
+    try:
+        from faster_whisper import WhisperModel  # type: ignore
+    except ImportError as exc:
+        raise RuntimeError("faster-whisper is not installed") from exc
+
+    model = WhisperModel(model_name, device=device, compute_type=compute_type, download_root=str(model_dir) if model_dir else None)
+    segments_iter, info = model.transcribe(str(audio_path), language=language or None, vad_filter=True)
+    segments = list(segments_iter)
+    text = " ".join(segment.text.strip() for segment in segments if segment.text.strip())
+    duration = sum(max(0.0, float(segment.end) - float(segment.start)) for segment in segments)
+    avg_logprob = None
+    if duration > 0:
+        avg_logprob = sum(
+            float(getattr(segment, "avg_logprob", 0.0)) * max(0.0, float(segment.end) - float(segment.start))
+            for segment in segments
+        ) / duration
+    return {
+        "available": True,
+        "backend": "faster-whisper",
+        "model": model_name,
+        "language": getattr(info, "language", language),
+        "language_probability": safe_float(getattr(info, "language_probability", None), default=0.0),
+        "text": text,
+        "segments": [
+            {
+                "start": round(float(segment.start), 3),
+                "end": round(float(segment.end), 3),
+                "text": segment.text.strip(),
+                "avg_logprob": safe_float(getattr(segment, "avg_logprob", None), default=0.0),
+                "no_speech_prob": safe_float(getattr(segment, "no_speech_prob", None), default=0.0),
+            }
+            for segment in segments
+        ],
+        "avg_logprob": avg_logprob,
+    }
+
+
+def transcribe_with_whisper_cli(
+    audio_path: Path,
+    model_name: str,
+    language: str | None,
+    timeout: float,
+    device: str,
+    model_dir: Path | None,
+) -> dict[str, Any]:
+    whisper = shutil.which("whisper")
+    if not whisper:
+        raise RuntimeError("whisper CLI is not installed")
+
+    with tempfile.TemporaryDirectory(prefix="discography-whisper-") as tmpdir:
+        cmd = [
+            whisper,
+            str(audio_path),
+            "--model",
+            model_name,
+            "--output_format",
+            "json",
+            "--output_dir",
+            tmpdir,
+            "--fp16",
+            "False",
+        ]
+        if language:
+            cmd.extend(["--language", language])
+        if device and device != "auto":
+            cmd.extend(["--device", device])
+        if model_dir:
+            cmd.extend(["--model_dir", str(model_dir)])
+        completed = subprocess.run(cmd, text=True, capture_output=True, timeout=timeout)
+        if completed.returncode:
+            raise RuntimeError(completed.stderr.strip() or f"whisper exited with {completed.returncode}")
+        json_path = Path(tmpdir) / f"{audio_path.stem}.json"
+        if not json_path.exists():
+            matches = sorted(Path(tmpdir).glob("*.json"))
+            if not matches:
+                raise RuntimeError("whisper CLI did not write a JSON transcript")
+            json_path = matches[0]
+        raw = json.loads(json_path.read_text(encoding="utf-8"))
+
+    segments = raw.get("segments") if isinstance(raw.get("segments"), list) else []
+    text = str(raw.get("text") or " ".join(str(segment.get("text", "")) for segment in segments)).strip()
+    return {
+        "available": True,
+        "backend": "whisper-cli",
+        "model": model_name,
+        "language": raw.get("language") or language,
+        "text": text,
+        "segments": [
+            {
+                "start": safe_float(segment.get("start")),
+                "end": safe_float(segment.get("end")),
+                "text": str(segment.get("text") or "").strip(),
+                "avg_logprob": safe_float(segment.get("avg_logprob"), default=0.0),
+                "no_speech_prob": safe_float(segment.get("no_speech_prob"), default=0.0),
+            }
+            for segment in segments
+            if isinstance(segment, dict)
+        ],
+    }
+
+
+def transcribe_audio(
+    audio_path: Path,
+    backend: str,
+    model_name: str,
+    language: str | None,
+    timeout: float,
+    device: str,
+    compute_type: str,
+    model_dir: Path | None,
+) -> dict[str, Any]:
+    if backend == "none":
+        return {"available": False, "backend": "none", "model": model_name, "error": "Transcription disabled."}
+
+    errors: list[str] = []
+    backends = ["faster-whisper", "whisper-cli"] if backend == "auto" else [backend]
+    for current_backend in backends:
+        try:
+            if current_backend == "faster-whisper":
+                return transcribe_with_faster_whisper(audio_path, model_name, language, device, compute_type, model_dir)
+            if current_backend == "whisper-cli":
+                return transcribe_with_whisper_cli(audio_path, model_name, language, timeout, device, model_dir)
+        except Exception as exc:
+            errors.append(f"{current_backend}: {exc}")
+    return {
+        "available": False,
+        "backend": backend,
+        "model": model_name,
+        "error": truncate_text("; ".join(errors) or "No transcription backend was attempted.", 3000),
+    }
+
+
+def transcription_quality_metrics(transcription: dict[str, Any] | None, track_text: TrackText) -> dict[str, Any] | None:
+    if transcription is None:
+        return None
+
+    base = {
+        "available": bool(transcription.get("available")),
+        "backend": transcription.get("backend"),
+        "model": transcription.get("model"),
+    }
+    if not transcription.get("available"):
+        return {**base, "error": transcription.get("error")}
+
+    expected_words = normalize_words(track_text.lyrics)
+    transcript = str(transcription.get("text") or "")
+    transcript_words = normalize_words(transcript)
+    if len(expected_words) < 20:
+        return {
+            **base,
+            "status": "insufficient_expected_lyrics",
+            "expected_word_count": len(expected_words),
+            "transcript_word_count": len(transcript_words),
+            "transcript_excerpt": truncate_text(transcript, 1200),
+        }
+
+    matched = lcs_length(expected_words, transcript_words)
+    alignment = matched / max(len(expected_words), 1)
+    precision = matched / max(len(transcript_words), 1)
+    expected_unique = set(expected_words)
+    transcript_unique = set(transcript_words)
+    unique_coverage = len(expected_unique & transcript_unique) / max(len(expected_unique), 1)
+    word_count_ratio = len(transcript_words) / max(len(expected_words), 1)
+    ngram_repetition = repeated_ngram_ratio(transcript_words)
+    halves = half_similarity(transcript_words)
+    likely_duplicate_passes = 1
+    if word_count_ratio >= 1.55 and (ngram_repetition >= 0.12 or halves >= 0.45):
+        likely_duplicate_passes = max(2, min(4, int(round(word_count_ratio))))
+
+    repetition_penalty = 0.0
+    if likely_duplicate_passes > 1:
+        repetition_penalty = clamp(
+            max(0.0, word_count_ratio - 1.35) * 0.45 + ngram_repetition * 1.3 + halves * 0.6,
+            0.0,
+            1.0,
+        )
+
+    intelligibility_alignment = clamp(alignment * 0.70 + unique_coverage * 0.20 + precision * 0.10, 0.0, 1.0)
+    quality_score = clamp(intelligibility_alignment * 10.0 - repetition_penalty * 4.0)
+    flags: list[str] = []
+    if alignment < 0.50 or unique_coverage < 0.45:
+        flags.append("low_lyric_alignment")
+    if likely_duplicate_passes > 1:
+        flags.append("probable_full_song_repeat")
+    if len(transcript_words) < max(20, len(expected_words) * 0.25):
+        flags.append("sparse_transcript")
+
+    return {
+        **base,
+        "status": "ok" if not flags else "review",
+        "expected_word_count": len(expected_words),
+        "transcript_word_count": len(transcript_words),
+        "matched_sequence_words": matched,
+        "lyric_alignment_ratio": round(alignment, 3),
+        "transcript_precision_ratio": round(precision, 3),
+        "unique_expected_word_coverage": round(unique_coverage, 3),
+        "word_count_ratio": round(word_count_ratio, 3),
+        "repeated_12gram_ratio": round(ngram_repetition, 3),
+        "half_similarity": round(halves, 3),
+        "likely_duplicate_passes": likely_duplicate_passes,
+        "repetition_penalty_0_1": round(repetition_penalty, 3),
+        "intelligibility_alignment_0_1": round(intelligibility_alignment, 3),
+        "quality_score_0_10": round(quality_score, 2),
+        "flags": flags,
+        "transcript_excerpt": truncate_text(transcript, 1200),
+    }
 
 
 def guess_companion_text(audio_path: Path) -> Path | None:
@@ -809,7 +1069,37 @@ def clamp(value: float, low: float = 0.0, high: float = 10.0) -> float:
     return max(low, min(high, value))
 
 
-def score_framework(audio: dict[str, Any], lyrics: dict[str, Any], framework_name: str) -> dict[str, Any]:
+def transcription_penalties(transcription_quality: dict[str, Any] | None) -> dict[str, float]:
+    if not transcription_quality or not transcription_quality.get("available"):
+        return {
+            "alignment_penalty": 0.0,
+            "repetition_penalty": 0.0,
+            "total_penalty": 0.0,
+        }
+    if transcription_quality.get("status") == "insufficient_expected_lyrics":
+        return {
+            "alignment_penalty": 0.0,
+            "repetition_penalty": 0.0,
+            "total_penalty": 0.0,
+        }
+
+    alignment = safe_float(transcription_quality.get("lyric_alignment_ratio"), default=0.0)
+    repetition = safe_float(transcription_quality.get("repetition_penalty_0_1"), default=0.0)
+    alignment_penalty = clamp((0.72 - alignment) * 6.0, 0.0, 4.5)
+    repetition_penalty = clamp(repetition * 3.5, 0.0, 3.5)
+    return {
+        "alignment_penalty": round(alignment_penalty, 3),
+        "repetition_penalty": round(repetition_penalty, 3),
+        "total_penalty": round(alignment_penalty + repetition_penalty, 3),
+    }
+
+
+def score_framework(
+    audio: dict[str, Any],
+    lyrics: dict[str, Any],
+    framework_name: str,
+    transcription_quality: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     duration = audio["duration_seconds"]
     sections = audio["detected_sections"]
     section_count = len(sections)
@@ -856,6 +1146,9 @@ def score_framework(audio: dict[str, Any], lyrics: dict[str, Any], framework_nam
     bar_grid = beat_this.get("bar_grid_stability") if beat_this.get("available") else None
     beat_stability_score = clamp(((beat_grid or 0.0) * 0.65 + (bar_grid or beat_grid or 0.0) * 0.35) * 10)
     downbeat_score = clamp((beat_this.get("downbeat_count") or 0) / max(duration / 20.0, 1.0)) if beat_this.get("available") else 0.0
+    asr_penalties = transcription_penalties(transcription_quality)
+    alignment_penalty = asr_penalties["alignment_penalty"]
+    repetition_penalty = asr_penalties["repetition_penalty"]
 
     sc = clamp(
         2.0
@@ -908,6 +1201,13 @@ def score_framework(audio: dict[str, Any], lyrics: dict[str, Any], framework_nam
     else:
         bp = clamp(bp + min(1.0, audio["harmonic_percussive_ratio"] * 0.12))
 
+    if alignment_penalty or repetition_penalty:
+        sc = clamp(sc - alignment_penalty * 0.45 - repetition_penalty * 0.70)
+        mi = clamp(mi - alignment_penalty * 0.70 - repetition_penalty * 0.75)
+        bp = clamp(bp - alignment_penalty * 0.20)
+        eg = clamp(eg - alignment_penalty * 0.35 - repetition_penalty * 0.90)
+        cd = clamp(cd - alignment_penalty * 1.05 - repetition_penalty * 1.00)
+
     axis_avg = (sc + mi + bp + eg + cd) / 5
     cdpd = clamp((mi * 0.45 + sc * 0.35 + cd * 0.20) / 10, 0, 1)
     nge = clamp((eg * 0.50 + novelty * 0.18 + eg_features.get("overall_score", 0.0) * 0.32) / 10, 0, 1)
@@ -946,9 +1246,10 @@ def score_framework(audio: dict[str, Any], lyrics: dict[str, Any], framework_nam
             "production_transform_score": production_transform.get("score", 0.0),
             "overall_score": eg_features.get("overall_score", 0.0),
         },
+        "transcription_penalties": asr_penalties,
         "rung_estimate": rung,
         "confidence_0_10": round(confidence, 2),
-        "rationale": build_rationale(audio, lyrics, section_balance, tempo_match_bonus, clipping_penalty),
+        "rationale": build_rationale(audio, lyrics, section_balance, tempo_match_bonus, clipping_penalty, transcription_quality, asr_penalties),
     }
 
 
@@ -1032,6 +1333,7 @@ def build_ollama_prompt(
     scoring: dict[str, Any],
     framework_raw: str,
     track_text: TrackText,
+    transcription_quality: dict[str, Any] | None,
     max_framework_chars: int = 9000,
     max_lyrics_chars: int = 6500,
 ) -> list[dict[str, str]]:
@@ -1040,11 +1342,13 @@ def build_ollama_prompt(
         "base_scoring": scoring,
         "audio_features": compact_audio_for_llm(audio),
         "text_features": text,
+        "transcription_quality": transcription_quality,
         "lyrics_and_notes_excerpt": truncate_text(track_text.raw, max_lyrics_chars),
         "framework_excerpt": truncate_text(framework_raw, max_framework_chars),
         "rules": [
             "Return valid JSON only.",
             "Use the base Python scores as the anchor; adjust only when the framework/text/evidence justifies it.",
+            "If transcription_quality is available, treat low lyric alignment, sparse transcript, or probable full-song repetition as strong negative evidence.",
             "Axis scores must be floats from 0 to 10.",
             "Prefer deltas within +/-1.5 of base axis scores. Larger moves require explicit evidence.",
             "Core metrics CDPD and NGE must be 0..1; HMII_peak_estimate must be an integer 1..10.",
@@ -1162,11 +1466,12 @@ def call_ollama_adjuster(
     scoring: dict[str, Any],
     framework_raw: str,
     track_text: TrackText,
+    transcription_quality: dict[str, Any] | None,
     timeout: float,
     num_ctx: int,
     max_axis_delta: float,
 ) -> dict[str, Any]:
-    messages = build_ollama_prompt(audio, text, scoring, framework_raw, track_text)
+    messages = build_ollama_prompt(audio, text, scoring, framework_raw, track_text, transcription_quality)
     body = {
         "model": model,
         "messages": messages,
@@ -1229,6 +1534,8 @@ def build_rationale(
     section_balance: float,
     tempo_match_bonus: float,
     clipping_penalty: float,
+    transcription_quality: dict[str, Any] | None = None,
+    asr_penalties: dict[str, float] | None = None,
 ) -> list[str]:
     notes = [
         f"Detected {len(audio['detected_sections'])} audio sections over {audio['duration']} with section-balance score {section_balance:.2f}.",
@@ -1265,6 +1572,23 @@ def build_rationale(
                 f"({', '.join(production_transform.get('phrase_hits') or production_transform.get('matched_terms') or [])}); "
                 f"intent score {production_transform['score']:.2f}."
             )
+    if transcription_quality:
+        if transcription_quality.get("available") and transcription_quality.get("status") != "insufficient_expected_lyrics":
+            notes.append(
+                "Transcription check: "
+                f"lyric alignment {transcription_quality.get('lyric_alignment_ratio', 0.0):.2f}, "
+                f"unique-word coverage {transcription_quality.get('unique_expected_word_coverage', 0.0):.2f}, "
+                f"word-count ratio {transcription_quality.get('word_count_ratio', 0.0):.2f}, "
+                f"duplicate-pass estimate {transcription_quality.get('likely_duplicate_passes', 1)}."
+            )
+            penalties = asr_penalties or {}
+            if penalties.get("total_penalty", 0.0):
+                notes.append(
+                    "Transcription penalties reduced scores for unintelligible or repeated lyrics "
+                    f"(alignment {penalties.get('alignment_penalty', 0.0):.2f}, repeat {penalties.get('repetition_penalty', 0.0):.2f})."
+                )
+        elif not transcription_quality.get("available"):
+            notes.append(f"Transcription check unavailable: {transcription_quality.get('error', 'unknown error')}.")
     if clipping_penalty:
         notes.append("Clipping/headroom risk reduced the craft and spatial-poise estimates.")
     return notes
@@ -1277,6 +1601,7 @@ def make_markdown(report: dict[str, Any]) -> str:
     llm_scoring = report.get("llm_adjusted_scoring") or {}
     displayed_scoring = llm_scoring if llm_scoring.get("available") else scoring
     framework = report["framework"]
+    transcription_quality = report.get("transcription_quality") or {}
 
     lines = [
         f"# Track Analysis: {lyrics.get('title') or Path(audio['path']).stem}",
@@ -1298,6 +1623,14 @@ def make_markdown(report: dict[str, Any]) -> str:
     ]
     if llm_scoring.get("available"):
         lines.append(f"- LLM adjustment: `{llm_scoring['model']}` via Ollama")
+    if transcription_quality:
+        if transcription_quality.get("available"):
+            lines.append(
+                f"- Transcription check: {transcription_quality.get('quality_score_0_10', 'n/a')}/10 "
+                f"via `{transcription_quality.get('backend')}`"
+            )
+        else:
+            lines.append(f"- Transcription check: unavailable ({transcription_quality.get('error', 'unknown error')})")
     lines.extend(["", "## Framework Scores", ""])
     if llm_scoring.get("available"):
         lines.extend(["### LLM-Adjusted", ""])
@@ -1371,6 +1704,37 @@ def make_markdown(report: dict[str, Any]) -> str:
     else:
         lines.append("- No evolving-grammar feature block was computed.")
 
+    lines.extend(["", "## Transcription Quality", ""])
+    if transcription_quality:
+        if transcription_quality.get("available") and transcription_quality.get("status") != "insufficient_expected_lyrics":
+            lines.extend(
+                [
+                    f"- Backend/model: `{transcription_quality.get('backend')}` / `{transcription_quality.get('model')}`",
+                    f"- Quality score: {transcription_quality.get('quality_score_0_10')}/10",
+                    f"- Lyric alignment: {transcription_quality.get('lyric_alignment_ratio')}; transcript precision: {transcription_quality.get('transcript_precision_ratio')}",
+                    f"- Unique expected-word coverage: {transcription_quality.get('unique_expected_word_coverage')}",
+                    f"- Expected/transcribed words: {transcription_quality.get('expected_word_count')} / {transcription_quality.get('transcript_word_count')}",
+                    f"- Word-count ratio: {transcription_quality.get('word_count_ratio')}",
+                    f"- Repeated 12-gram ratio: {transcription_quality.get('repeated_12gram_ratio')}; half similarity: {transcription_quality.get('half_similarity')}",
+                    f"- Likely duplicate passes: {transcription_quality.get('likely_duplicate_passes')}",
+                ]
+            )
+            flags = transcription_quality.get("flags") or []
+            if flags:
+                lines.append(f"- Flags: {', '.join(flags)}")
+            penalties = scoring.get("transcription_penalties") or {}
+            if penalties.get("total_penalty", 0.0):
+                lines.append(
+                    f"- Score penalties: alignment {penalties.get('alignment_penalty', 0.0)}, "
+                    f"repeat {penalties.get('repetition_penalty', 0.0)}"
+                )
+        elif transcription_quality.get("available"):
+            lines.append("- Transcription ran, but the companion text does not contain enough expected lyric words for alignment scoring.")
+        else:
+            lines.append(f"- Unavailable: {transcription_quality.get('error', 'unknown error')}")
+    else:
+        lines.append("- Not requested.")
+
     lines.extend(["", "## Section Map", ""])
     for section in audio["detected_sections"]:
         lines.append(
@@ -1428,6 +1792,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--ollama-timeout", type=float, default=240.0, help="Seconds to wait for the Ollama adjustment.")
     parser.add_argument("--ollama-num-ctx", type=int, default=16384, help="Ollama context window for scoring adjustment.")
     parser.add_argument("--llm-max-axis-delta", type=float, default=1.5, help="Maximum LLM adjustment per axis around the Python score.")
+    parser.add_argument(
+        "--transcription-backend",
+        choices=("none", "auto", "faster-whisper", "whisper-cli"),
+        default="none",
+        help="Optional speech-to-text backend for lyric intelligibility/repetition checks.",
+    )
+    parser.add_argument("--transcription-model", default="base", help="Whisper model name/path for transcription checks.")
+    parser.add_argument("--transcription-language", default="en", help="Language code for transcription; pass empty string for auto-detect.")
+    parser.add_argument("--transcription-timeout", type=float, default=900.0, help="Seconds to wait for whisper-cli transcription.")
+    parser.add_argument("--transcription-device", default="auto", help="Transcription device, e.g. auto, cpu, cuda.")
+    parser.add_argument("--transcription-compute-type", default="default", help="faster-whisper compute type, e.g. default, int8, float16.")
+    parser.add_argument("--transcription-model-dir", type=Path, default=Path(".cache/whisper"), help="Writable directory for Whisper model downloads/cache.")
     parser.add_argument("--output-dir", type=Path, default=Path("analysis-output"), help="Directory for Markdown and JSON reports.")
     parser.add_argument("--sample-rate", type=int, default=22050, help="Analysis sample rate for librosa.")
     parser.add_argument("--stdout", action="store_true", help="Print Markdown report to stdout.")
@@ -1447,8 +1823,22 @@ def main() -> int:
 
     audio = analyze_audio(audio_path, sample_rate=args.sample_rate, beat_file=args.beat_file)
     text = lyric_metrics(track_text)
+    transcription = None
+    transcription_quality = None
+    if args.transcription_backend != "none":
+        transcription = transcribe_audio(
+            audio_path=audio_path,
+            backend=args.transcription_backend,
+            model_name=args.transcription_model,
+            language=args.transcription_language.strip() or None,
+            timeout=args.transcription_timeout,
+            device=args.transcription_device,
+            compute_type=args.transcription_compute_type,
+            model_dir=args.transcription_model_dir,
+        )
+        transcription_quality = transcription_quality_metrics(transcription, track_text)
     framework_name = framework_path.name if framework_path else "Unselected framework"
-    scoring = score_framework(audio, text, framework_name)
+    scoring = score_framework(audio, text, framework_name, transcription_quality=transcription_quality)
     llm_scoring = None
     if args.ollama_model:
         llm_scoring = call_ollama_adjuster(
@@ -1459,6 +1849,7 @@ def main() -> int:
             scoring=scoring,
             framework_raw=framework_raw,
             track_text=track_text,
+            transcription_quality=transcription_quality,
             timeout=args.ollama_timeout,
             num_ctx=args.ollama_num_ctx,
             max_axis_delta=args.llm_max_axis_delta,
@@ -1476,6 +1867,10 @@ def main() -> int:
         },
         "framework_scoring": scoring,
     }
+    if transcription is not None:
+        report["transcription"] = transcription
+    if transcription_quality is not None:
+        report["transcription_quality"] = transcription_quality
     if llm_scoring is not None:
         report["llm_adjusted_scoring"] = llm_scoring
 

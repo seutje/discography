@@ -63,12 +63,27 @@ python scripts/analyze_collection.py "stderr" \
 
 The LLM does not analyze raw audio. It receives the measured features, lyrics/production notes, framework excerpt, and Python base scoring, then returns bounded score adjustments plus rationale. Axis changes are limited to `--llm-max-axis-delta` from the Python score by default.
 
+## Transcription Quality Gate
+
+`analyze_track.py` can run a Whisper transcription pass and compare the generated vocal transcript with the intended `[LYRICS]` text:
+
+```bash
+python scripts/analyze_track.py "stderr/audio/01 - You Follow.mp3" \
+  --transcription-backend auto \
+  --transcription-model base
+```
+
+The `auto` backend tries `faster-whisper` first and falls back to the `whisper` CLI. Install one of those backends in the environment before relying on the gate. Whisper models are cached under `.cache/whisper` by default; override with `--transcription-model-dir` or `SUNO_TRANSCRIPTION_MODEL_DIR`. The report adds a `transcription_quality` block with lyric alignment, transcript precision, expected/transcribed word ratio, repeated n-gram ratio, half-to-half similarity, estimated duplicate passes, and review flags.
+
+When transcription is available, low lyric alignment penalizes carry depth, motivic integration, and related axes. Probable full-song duplication also penalizes structural coherence and evolving grammar. This is designed to catch Suno outputs where the vocal is unintelligible or the complete song is repeated to fill a long runtime.
+
 ## Suno Iteration Pipeline
 
 `scripts/suno_iterate.py` prepares Suno custom-mode `V5_5` generation requests from the existing song text format:
 
 - `GENRE`, `MOOD`, `TEMPO`, `KEY`, `VOCALS`, and `PRODUCTION` become the Suno `style` prompt.
 - Generated candidates are analyzed with `beat_this` beat/downbeat files and the Ollama LLM scoring adjustment. The default pipeline model is `qwen3:8b`; pass `--ollama-model` to use a different local model.
+- Generated candidates are also transcribed by default with `--transcription-backend auto` and `--transcription-model base` so unintelligible vocals or full-song repeats are penalized before candidate selection. Pass `--transcription-backend none` to disable this check.
 - Text after `[LYRICS]` becomes the regular Suno `prompt`.
 - `TITLE` becomes the Suno title.
 - The script enforces Suno's current limits: 1000 characters for `style`, 5000 for `prompt`, and 100 for `title`.

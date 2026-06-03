@@ -893,6 +893,7 @@ def run_job(job_id: str) -> None:
                     settings.get("transcription_compute_type") or "default",
                     float(settings.get("transcription_timeout", 900)),
                     settings.get("transcription_model_dir") or suno_iterate.DEFAULT_TRANSCRIPTION_MODEL_DIR,
+                    bool(settings.get("transcription_vad_filter")),
                 )
                 report_paths.append(report_path)
                 candidate.update(candidate_report_summary(report_path, settings["score_mode"]))
@@ -1171,6 +1172,7 @@ class Handler(BaseHTTPRequestHandler):
                     "transcription_compute_type": data.get("transcription_compute_type") or "default",
                     "transcription_timeout": float(data.get("transcription_timeout", 900)),
                     "transcription_model_dir": data.get("transcription_model_dir") or suno_iterate.DEFAULT_TRANSCRIPTION_MODEL_DIR,
+                    "transcription_vad_filter": bool(data.get("transcription_vad_filter")),
                     "beat_this_gpu": str(data.get("beat_this_gpu") or suno_iterate.DEFAULT_BEAT_THIS_GPU),
                     "poll_seconds": float(data.get("poll_seconds", 15)),
                     "task_timeout": float(data.get("task_timeout", 900)),

@@ -35,6 +35,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--transcription-device", default="auto", help="Transcription device, e.g. auto, cpu, cuda.")
     parser.add_argument("--transcription-compute-type", default="default", help="faster-whisper compute type.")
     parser.add_argument("--transcription-model-dir", type=Path, default=Path(".cache/whisper"), help="Writable directory for Whisper model downloads/cache.")
+    parser.add_argument("--transcription-vad-filter", action="store_true", help="Enable faster-whisper VAD filtering. Off by default because VAD can drop sung vocals.")
     parser.add_argument("--limit", type=int, help="Analyze only the first N matching files.")
     return parser.parse_args()
 
@@ -103,6 +104,8 @@ def main() -> int:
                     str(args.transcription_model_dir),
                 ]
             )
+            if args.transcription_vad_filter:
+                cmd.append("--transcription-vad-filter")
         completed = subprocess.run(cmd, text=True)
         if completed.returncode:
             failures += 1

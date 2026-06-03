@@ -299,6 +299,7 @@ def transcribe_with_faster_whisper(
     device: str,
     compute_type: str,
     model_dir: Path | None,
+    vad_filter: bool,
 ) -> dict[str, Any]:
     try:
         from faster_whisper import WhisperModel  # type: ignore
@@ -306,7 +307,7 @@ def transcribe_with_faster_whisper(
         raise RuntimeError("faster-whisper is not installed") from exc
 
     model = WhisperModel(model_name, device=device, compute_type=compute_type, download_root=str(model_dir) if model_dir else None)
-    segments_iter, info = model.transcribe(str(audio_path), language=language or None, vad_filter=True)
+    segments_iter, info = model.transcribe(str(audio_path), language=language or None, vad_filter=vad_filter, beam_size=5)
     segments = list(segments_iter)
     text = " ".join(segment.text.strip() for segment in segments if segment.text.strip())
     duration = sum(max(0.0, float(segment.end) - float(segment.start)) for segment in segments)
@@ -410,6 +411,7 @@ def transcribe_audio(
     device: str,
     compute_type: str,
     model_dir: Path | None,
+    vad_filter: bool,
 ) -> dict[str, Any]:
     if backend == "none":
         return {"available": False, "backend": "none", "model": model_name, "error": "Transcription disabled."}
@@ -419,7 +421,7 @@ def transcribe_audio(
     for current_backend in backends:
         try:
             if current_backend == "faster-whisper":
-                return transcribe_with_faster_whisper(audio_path, model_name, language, device, compute_type, model_dir)
+                return transcribe_with_faster_whisper(audio_path, model_name, language, device, compute_type, model_dir, vad_filter)
             if current_backend == "whisper-cli":
                 return transcribe_with_whisper_cli(audio_path, model_name, language, timeout, device, model_dir)
         except Exception as exc:
@@ -1804,6 +1806,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--transcription-device", default="auto", help="Transcription device, e.g. auto, cpu, cuda.")
     parser.add_argument("--transcription-compute-type", default="default", help="faster-whisper compute type, e.g. default, int8, float16.")
     parser.add_argument("--transcription-model-dir", type=Path, default=Path(".cache/whisper"), help="Writable directory for Whisper model downloads/cache.")
+    parser.add_argument("--transcription-vad-filter", action="store_true", help="Enable faster-whisper VAD filtering. Off by default because VAD can drop sung vocals.")
     parser.add_argument("--output-dir", type=Path, default=Path("analysis-output"), help="Directory for Markdown and JSON reports.")
     parser.add_argument("--sample-rate", type=int, default=22050, help="Analysis sample rate for librosa.")
     parser.add_argument("--stdout", action="store_true", help="Print Markdown report to stdout.")
@@ -1835,6 +1838,7 @@ def main() -> int:
             device=args.transcription_device,
             compute_type=args.transcription_compute_type,
             model_dir=args.transcription_model_dir,
+            vad_filter=args.transcription_vad_filter,
         )
         transcription_quality = transcription_quality_metrics(transcription, track_text)
     framework_name = framework_path.name if framework_path else "Unselected framework"

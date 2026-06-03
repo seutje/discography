@@ -73,7 +73,7 @@ python scripts/analyze_track.py "stderr/audio/01 - You Follow.mp3" \
   --transcription-model base
 ```
 
-The `auto` backend tries `faster-whisper` first and falls back to the `whisper` CLI. Install one of those backends in the environment before relying on the gate. Whisper models are cached under `.cache/whisper` by default; override with `--transcription-model-dir` or `SUNO_TRANSCRIPTION_MODEL_DIR`. The report adds a `transcription_quality` block with lyric alignment, transcript precision, expected/transcribed word ratio, repeated n-gram ratio, half-to-half similarity, estimated duplicate passes, and review flags.
+The `auto` backend tries `faster-whisper` first and falls back to the `whisper` CLI. Install one of those backends in the environment before relying on the gate. Whisper models are cached under `.cache/whisper` by default; override with `--transcription-model-dir` or `SUNO_TRANSCRIPTION_MODEL_DIR`. faster-whisper VAD filtering is off by default because it can incorrectly drop sung vocals; opt in only for speech-like material with `--transcription-vad-filter`. The report adds a `transcription_quality` block with lyric alignment, transcript precision, expected/transcribed word ratio, repeated n-gram ratio, half-to-half similarity, estimated duplicate passes, and review flags.
 
 When transcription is available, low lyric alignment penalizes carry depth, motivic integration, and related axes. Probable full-song duplication also penalizes structural coherence and evolving grammar. This is designed to catch Suno outputs where the vocal is unintelligible or the complete song is repeated to fill a long runtime.
 

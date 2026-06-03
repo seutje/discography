@@ -557,6 +557,7 @@ def run_analyzer(
     transcription_compute_type: str = "default",
     transcription_timeout: float = 900.0,
     transcription_model_dir: str = DEFAULT_TRANSCRIPTION_MODEL_DIR,
+    transcription_vad_filter: bool = False,
 ) -> Path:
     analyzer = Path(__file__).with_name("analyze_track.py")
     cmd = [
@@ -593,6 +594,8 @@ def run_analyzer(
                 transcription_model_dir,
             ]
         )
+        if transcription_vad_filter:
+            cmd.append("--transcription-vad-filter")
     completed = subprocess.run(cmd, text=True)
     if completed.returncode:
         raise RuntimeError(f"Analyzer failed for {audio_path}")
@@ -706,6 +709,12 @@ def parse_args() -> argparse.Namespace:
         default=os.environ.get("SUNO_TRANSCRIPTION_MODEL_DIR", DEFAULT_TRANSCRIPTION_MODEL_DIR),
         help="Writable directory for Whisper model downloads/cache.",
     )
+    parser.add_argument(
+        "--transcription-vad-filter",
+        action="store_true",
+        default=os.environ.get("SUNO_TRANSCRIPTION_VAD_FILTER", "").lower() in {"1", "true", "yes", "on"},
+        help="Enable faster-whisper VAD filtering. Off by default because VAD can drop sung vocals.",
+    )
     parser.add_argument("--beat-this-gpu", default=DEFAULT_BEAT_THIS_GPU, help="GPU argument passed to beat_this; use -1 for CPU.")
     parser.add_argument("--poll-seconds", type=float, default=15.0, help="Seconds between Suno task polls.")
     parser.add_argument("--task-timeout", type=float, default=900.0, help="Maximum seconds to wait for one Suno task.")
@@ -803,6 +812,7 @@ def main() -> int:
                     args.transcription_compute_type,
                     args.transcription_timeout,
                     args.transcription_model_dir,
+                    args.transcription_vad_filter,
                 )
             )
         best = choose_best(reports, args.score_mode)

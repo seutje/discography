@@ -727,7 +727,6 @@
       view: 'jobs',
       statistics: null,
       albums: null,
-      statsGroupBy: 'album',
       selectedAlbum: null,
       selectedAlbumDetail: null,
       currentTrack: null,
@@ -1034,7 +1033,7 @@
       const records = state.statistics?.records || [];
       const summary = state.statistics?.summary || {};
       const albums = state.albums || [];
-      const groupRows = groupAverage(records, state.statsGroupBy);
+      const groupRows = groupAverage(records, 'album');
       const albumRows = albums
         .slice()
         .sort((a, b) => {
@@ -1072,16 +1071,6 @@
           <div class="metric"><strong>${fmt(summary.average_rung, 2)}</strong><span>Avg Rung</span></div>
           <div class="metric"><strong>${fmt(summary.average_tempo_bpm, 1)}</strong><span>Avg BPM</span></div>
         </div>
-        <div class="stats-toolbar">
-          <div class="stats-select">
-            <label for="statsGroupBy">Group Scores By</label>
-            <select id="statsGroupBy">
-              <option value="album" ${state.statsGroupBy === 'album' ? 'selected' : ''}>Album</option>
-              <option value="framework" ${state.statsGroupBy === 'framework' ? 'selected' : ''}>Framework</option>
-              <option value="source_type" ${state.statsGroupBy === 'source_type' ? 'selected' : ''}>Source</option>
-            </select>
-          </div>
-        </div>
         ${albumRows.length ? `
           <div class="stats-table-wrap" style="margin-bottom:14px">
             <div class="meta" style="padding:10px 12px 4px">Albums</div>
@@ -1107,7 +1096,7 @@
           <div class="charts">
             <div class="chart-panel"><h3>Average Axis Scores</h3>${barChart(axisAverages(records), { max: 10 })}</div>
             <div class="chart-panel"><h3>Score Distribution</h3>${scoreHistogram(records)}</div>
-            <div class="chart-panel"><h3>Average Score by ${state.statsGroupBy.replace('_', ' ')}</h3>${barChart(groupRows, { max: 10, fill: 'alt' })}</div>
+            <div class="chart-panel"><h3>Average Score by Album</h3>${barChart(groupRows, { max: 10, fill: 'alt' })}</div>
             <div class="chart-panel"><h3>Rung Distribution</h3>${barChart(countBy(records.filter(r => r.rung_number !== null), r => String(Math.round(Number(r.rung_number)))), { fill: 'warm', digits: 0 })}</div>
           </div>
           <div class="stats-table-wrap">
@@ -1133,13 +1122,6 @@
         ` : '<div class="empty">No analyzed results found. Run the analyzer first to create analysis JSON reports.</div>'}
       `;
       $('statsRefreshBtn').addEventListener('click', () => showStatistics(true).catch(err => alert(err.message)));
-      const selector = $('statsGroupBy');
-      if (selector) {
-        selector.addEventListener('change', () => {
-          state.statsGroupBy = selector.value;
-          renderStatistics();
-        });
-      }
     }
 
     function formatDuration(seconds) {

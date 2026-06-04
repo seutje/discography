@@ -473,13 +473,6 @@
       <label for="search">Filter</label>
       <input id="search" type="search" placeholder="Album, song, framework">
 
-      <label for="groupBy">Group Scores By</label>
-      <select id="groupBy">
-        <option value="album">Album</option>
-        <option value="framework">Framework</option>
-        <option value="source_type">Source</option>
-      </select>
-
       <div class="album-list" id="albumList"></div>
     </aside>
     <section>
@@ -511,7 +504,6 @@
       selectedAlbum: null,
       selectedAlbumDetail: null,
       selectedReportPath: null,
-      groupBy: 'album',
       filter: '',
       currentTrack: null,
       playlist: [],
@@ -671,7 +663,7 @@
       state.selectedReportPath = null;
       const records = filteredRecords();
       const summary = state.catalog?.statistics?.summary || {};
-      const groupRows = groupAverage(records, state.groupBy);
+      const groupRows = groupAverage(records, 'album');
       const albumRows = filteredAlbums().slice().sort((a, b) => {
         const scoreA = Number(a.stats?.average_score);
         const scoreB = Number(b.stats?.average_score);
@@ -730,7 +722,7 @@
           <div class="charts">
             <div class="chart-panel"><h3>Average Axis Scores</h3>${barChart(axisAverages(records), { max: 10 })}</div>
             <div class="chart-panel"><h3>Score Distribution</h3>${scoreHistogram(records)}</div>
-            <div class="chart-panel"><h3>Average Score by ${state.groupBy.replace('_', ' ')}</h3>${barChart(groupRows, { max: 10, fill: 'alt' })}</div>
+            <div class="chart-panel"><h3>Average Score by Album</h3>${barChart(groupRows, { max: 10, fill: 'alt' })}</div>
             <div class="chart-panel"><h3>Rung Distribution</h3>${barChart(countBy(records.filter(r => r.rung_number !== null), r => String(Math.round(Number(r.rung_number)))), { fill: 'warm', digits: 0 })}</div>
           </div>
           <div class="stats-table-wrap">
@@ -1217,11 +1209,6 @@
     $('statsBtn').addEventListener('click', () => {
       state.selectedAlbum = null;
       renderStatistics();
-    });
-    $('groupBy').addEventListener('change', event => {
-      state.groupBy = event.target.value;
-      if (state.selectedAlbum) renderAlbumDetail(state.selectedAlbum);
-      else renderStatistics();
     });
     $('search').addEventListener('input', event => {
       state.filter = event.target.value;

@@ -307,7 +307,13 @@ def transcribe_with_faster_whisper(
         raise RuntimeError("faster-whisper is not installed") from exc
 
     model = WhisperModel(model_name, device=device, compute_type=compute_type, download_root=str(model_dir) if model_dir else None)
-    segments_iter, info = model.transcribe(str(audio_path), language=language or None, vad_filter=vad_filter, beam_size=5)
+    segments_iter, info = model.transcribe(
+        str(audio_path),
+        language=language or None,
+        vad_filter=vad_filter,
+        beam_size=5,
+        condition_on_previous_text=False,
+    )
     segments = list(segments_iter)
     text = " ".join(segment.text.strip() for segment in segments if segment.text.strip())
     duration = sum(max(0.0, float(segment.end) - float(segment.start)) for segment in segments)

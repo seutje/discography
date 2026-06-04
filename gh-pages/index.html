@@ -1,0 +1,1289 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Discography Statistics</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f6f1;
+      --panel: #ffffff;
+      --ink: #20231f;
+      --muted: #686e65;
+      --line: #d9ddd2;
+      --accent: #1d6b5f;
+      --accent-2: #a43f45;
+      --soft: #e9efe9;
+      --ok: #1d6b3e;
+      --error: #a12b2b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding-bottom: 210px;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+    header {
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 0 22px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcf8;
+    }
+    h1 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 320px minmax(0, 1fr);
+      min-height: calc(100vh - 58px);
+    }
+    aside {
+      border-right: 1px solid var(--line);
+      background: #fbfcf8;
+      padding: 18px;
+      overflow: auto;
+    }
+    section {
+      padding: 20px 24px 32px;
+      overflow: auto;
+    }
+    label {
+      display: block;
+      margin: 12px 0 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    input, select {
+      width: 100%;
+      min-height: 36px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      padding: 7px 9px;
+      font: inherit;
+    }
+    button {
+      min-height: 36px;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      padding: 7px 12px;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    button.secondary {
+      background: #fff;
+      color: var(--accent);
+    }
+    button.danger {
+      background: #fff;
+      border-color: var(--accent-2);
+      color: var(--accent-2);
+    }
+    button:disabled {
+      opacity: .55;
+      cursor: default;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--soft);
+      color: var(--ok);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .topline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .topline h2 {
+      margin: 0 0 4px;
+      font-size: 20px;
+      letter-spacing: 0;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 3px;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(130px, 1fr));
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .metric, .chart-panel, .stats-table-wrap, .report-panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+    .metric {
+      padding: 11px 12px;
+    }
+    .metric strong {
+      display: block;
+      font-size: 18px;
+    }
+    .metric span {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .stats-toolbar {
+      display: flex;
+      gap: 10px;
+      align-items: end;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+    .stats-toolbar label {
+      margin-top: 0;
+    }
+    .stats-select {
+      min-width: 180px;
+    }
+    .charts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(280px, 1fr));
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .chart-panel {
+      padding: 12px;
+      min-width: 0;
+    }
+    .chart-panel h3, .report-panel h3 {
+      margin: 0 0 10px;
+      font-size: 14px;
+    }
+    .bar-row {
+      display: grid;
+      grid-template-columns: minmax(86px, 150px) minmax(0, 1fr) 48px;
+      gap: 8px;
+      align-items: center;
+      min-height: 28px;
+      font-size: 12px;
+    }
+    .bar-label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .bar-track {
+      height: 12px;
+      border-radius: 999px;
+      background: var(--soft);
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: var(--accent);
+    }
+    .bar-fill.alt { background: #3f5fa4; }
+    .bar-fill.warm { background: #a45b3f; }
+    .bar-value {
+      text-align: right;
+      font-weight: 800;
+    }
+    .stats-table-wrap {
+      overflow: auto;
+    }
+    table {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+      margin: 0;
+      font-size: 12px;
+    }
+    th, td {
+      text-align: left;
+      padding: 6px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 800;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .title-link {
+      border: 0;
+      background: transparent;
+      color: var(--accent);
+      min-height: 0;
+      padding: 0;
+      text-align: left;
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .album-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .album-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 10px;
+      cursor: pointer;
+    }
+    .album-item.active {
+      border-color: var(--accent);
+      box-shadow: inset 3px 0 0 var(--accent);
+    }
+    .album-title {
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+    .report-layout {
+      display: grid;
+      gap: 14px;
+    }
+    .report-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .report-panel {
+      padding: 12px;
+      min-width: 0;
+    }
+    .report-panel dl {
+      display: grid;
+      grid-template-columns: minmax(120px, 1fr) minmax(0, 1.4fr);
+      gap: 6px 12px;
+      margin: 0;
+      font-size: 12px;
+    }
+    .report-panel dt {
+      color: var(--muted);
+      font-weight: 800;
+    }
+    .report-panel dd {
+      margin: 0;
+      min-width: 0;
+      overflow-wrap: anywhere;
+      font-weight: 650;
+    }
+    .report-panel ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .report-panel li + li {
+      margin-top: 5px;
+    }
+    .report-wide {
+      grid-column: 1 / -1;
+    }
+    .score-summary {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(90px, 1fr));
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+    .score-chip {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 6px 8px;
+      background: #fbfcf8;
+    }
+    .score-chip strong {
+      display: block;
+      font-size: 14px;
+    }
+    .score-chip span {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .empty {
+      padding: 32px;
+      color: var(--muted);
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      background: rgba(255,255,255,.55);
+    }
+    .global-player {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 20;
+      display: grid;
+      grid-template-columns: minmax(180px, 320px) minmax(0, 1fr) minmax(260px, 420px);
+      gap: 14px;
+      align-items: center;
+      min-height: 132px;
+      padding: 12px 22px;
+      border-top: 1px solid var(--line);
+      background: #fbfcf8;
+      box-shadow: 0 -8px 24px rgba(32, 35, 31, .08);
+    }
+    .global-player-title {
+      min-width: 0;
+    }
+    .global-player-title strong,
+    .global-player-title span {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .global-player-title span {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 2px;
+    }
+    .global-player audio {
+      width: 100%;
+      height: 36px;
+    }
+    .playlist {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      overflow: hidden;
+    }
+    .playlist-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 9px;
+      border-bottom: 1px solid var(--line);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .playlist-list {
+      max-height: 82px;
+      overflow: auto;
+    }
+    .playlist-item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      gap: 8px;
+      align-items: center;
+      min-height: 34px;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      font-size: 12px;
+    }
+    .playlist-item:last-child { border-bottom: 0; }
+    .playlist-item.active {
+      box-shadow: inset 3px 0 0 var(--ok);
+      background: #f5faf5;
+    }
+    .playlist-item-title {
+      min-width: 0;
+    }
+    .playlist-item-title strong,
+    .playlist-item-title span {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .playlist-item-title span {
+      color: var(--muted);
+      font-size: 11px;
+      margin-top: 1px;
+    }
+    .playlist-item button {
+      min-height: 26px;
+      padding: 3px 7px;
+      font-size: 12px;
+    }
+    button.playing {
+      background: var(--ok);
+      border-color: var(--ok);
+      color: #fff;
+    }
+    @media (max-width: 900px) {
+      body { padding-bottom: 260px; }
+      main { grid-template-columns: 1fr; }
+      aside { border-right: 0; border-bottom: 1px solid var(--line); }
+      .summary { grid-template-columns: 1fr 1fr; }
+      .charts, .report-grid { grid-template-columns: 1fr; }
+      .score-summary { grid-template-columns: 1fr 1fr; }
+      .global-player {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        padding: 10px 14px;
+      }
+      .playlist-list { max-height: 92px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Discography Statistics</h1>
+    <div class="header-actions">
+      <button class="secondary" id="statsBtn" type="button">Statistics</button>
+      <span id="dataState" class="status">loading</span>
+    </div>
+  </header>
+  <main>
+    <aside>
+      <label for="search">Filter</label>
+      <input id="search" type="search" placeholder="Album, song, framework">
+
+      <label for="groupBy">Group Scores By</label>
+      <select id="groupBy">
+        <option value="album">Album</option>
+        <option value="framework">Framework</option>
+        <option value="source_type">Source</option>
+      </select>
+
+      <div class="album-list" id="albumList"></div>
+    </aside>
+    <section>
+      <div id="detail" class="empty">Loading catalog...</div>
+    </section>
+  </main>
+  <div class="global-player" id="globalPlayer">
+    <div class="global-player-title">
+      <strong id="playerTitle">No track selected</strong>
+      <span id="playerMeta">Use a Play button to add tracks to the playlist.</span>
+    </div>
+    <audio id="globalAudio" controls preload="metadata"></audio>
+    <div class="playlist" aria-label="Playlist">
+      <div class="playlist-head">
+        <span id="playlistCount">Playlist empty</span>
+        <span>Queue</span>
+      </div>
+      <div class="playlist-list" id="playlistList">
+        <div class="playlist-item"><div class="playlist-item-title"><span>No queued tracks.</span></div></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const state = {
+      catalog: null,
+      albums: [],
+      records: [],
+      selectedAlbum: null,
+      selectedAlbumDetail: null,
+      selectedReportPath: null,
+      groupBy: 'album',
+      filter: '',
+      currentTrack: null,
+      playlist: [],
+      currentPlaylistIndex: -1,
+      playlistSerial: 0
+    };
+
+    function $(id) { return document.getElementById(id); }
+
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, char => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      }[char]));
+    }
+
+    function fmt(value, digits = 2) {
+      const num = Number(value);
+      return Number.isFinite(num) ? num.toFixed(digits) : '-';
+    }
+
+    function formatDuration(seconds) {
+      const total = Number(seconds);
+      if (!Number.isFinite(total)) return '-';
+      const rounded = Math.max(0, Math.round(total));
+      const minutes = Math.floor(rounded / 60);
+      const secs = rounded % 60;
+      return `${minutes}:${String(secs).padStart(2, '0')}`;
+    }
+
+    function average(values) {
+      const nums = values.map(Number).filter(Number.isFinite);
+      return nums.length ? nums.reduce((sum, value) => sum + value, 0) / nums.length : null;
+    }
+
+    function groupAverage(records, field, valueField = 'score') {
+      const groups = new Map();
+      records.forEach(record => {
+        const key = record[field] || 'Unsorted';
+        if (!groups.has(key)) groups.set(key, []);
+        const value = Number(record[valueField]);
+        if (Number.isFinite(value)) groups.get(key).push(value);
+      });
+      return Array.from(groups.entries())
+        .map(([label, values]) => ({ label, value: average(values), count: values.length }))
+        .filter(row => row.value !== null)
+        .sort((a, b) => b.value - a.value || b.count - a.count || a.label.localeCompare(b.label));
+    }
+
+    function countBy(records, getter) {
+      const counts = new Map();
+      records.forEach(record => {
+        const key = getter(record);
+        counts.set(key, (counts.get(key) || 0) + 1);
+      });
+      return Array.from(counts.entries())
+        .map(([label, value]) => ({ label, value }))
+        .sort((a, b) => Number(a.label) - Number(b.label) || String(a.label).localeCompare(String(b.label)));
+    }
+
+    function axisAverages(records) {
+      const labels = {
+        SC_structural_coherence: 'Structural',
+        MI_motivic_integration: 'Motivic',
+        BP_beauty_spatial_poise: 'Beauty',
+        EG_evolving_grammar: 'Grammar',
+        CD_carry_depth: 'Carry'
+      };
+      return Object.entries(labels).map(([key, label]) => ({
+        label,
+        value: average(records.map(record => record.axes?.[key]))
+      })).filter(row => row.value !== null).sort((a, b) => b.value - a.value);
+    }
+
+    function rowsFromObject(values, labeler = value => value) {
+      return Object.entries(values || {})
+        .map(([key, value]) => ({ label: labeler(key), value }))
+        .filter(row => Number.isFinite(Number(row.value)))
+        .sort((a, b) => Number(b.value) - Number(a.value));
+    }
+
+    function axisLabel(key) {
+      return String(key || '')
+        .replace(/^SC_/, '')
+        .replace(/^MI_/, '')
+        .replace(/^BP_/, '')
+        .replace(/^EG_/, '')
+        .replace(/^CD_/, '')
+        .replaceAll('_', ' ');
+    }
+
+    function barChart(rows, { max = null, fill = '', digits = 2, limit = 12 } = {}) {
+      const visibleRows = rows.slice(0, limit);
+      const maxValue = max ?? Math.max(1, ...visibleRows.map(row => Number(row.value) || 0));
+      if (!visibleRows.length) return '<div class="empty">No chart data available.</div>';
+      return visibleRows.map(row => {
+        const value = Number(row.value) || 0;
+        const width = Math.max(0, Math.min(100, (value / maxValue) * 100));
+        return `
+          <div class="bar-row" title="${escapeHtml(row.label)}">
+            <div class="bar-label">${escapeHtml(row.label)}${row.count ? ` (${row.count})` : ''}</div>
+            <div class="bar-track"><div class="bar-fill ${fill}" style="width:${width}%"></div></div>
+            <div class="bar-value">${fmt(value, digits)}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function scoreHistogram(records) {
+      const rows = countBy(records.filter(record => Number.isFinite(Number(record.score))), record => {
+        const score = Math.max(0, Math.min(9, Math.floor(Number(record.score))));
+        return `${score}-${score + 1}`;
+      });
+      return barChart(rows, { fill: 'warm', digits: 0 });
+    }
+
+    function matchesFilter(value) {
+      const query = state.filter.trim().toLowerCase();
+      return !query || String(value || '').toLowerCase().includes(query);
+    }
+
+    function filteredRecords() {
+      return state.records.filter(record =>
+        matchesFilter(record.title) ||
+        matchesFilter(record.album) ||
+        matchesFilter(record.framework)
+      );
+    }
+
+    function filteredAlbums() {
+      const recordAlbums = new Set(filteredRecords().map(record => record.album));
+      return state.albums.filter(album => recordAlbums.has(album.name) || matchesFilter(album.name));
+    }
+
+    function renderAlbumList() {
+      const albums = filteredAlbums().slice().sort((a, b) => {
+        const scoreA = Number(a.stats?.average_score);
+        const scoreB = Number(b.stats?.average_score);
+        const finiteA = Number.isFinite(scoreA);
+        const finiteB = Number.isFinite(scoreB);
+        if (finiteA && finiteB && scoreA !== scoreB) return scoreB - scoreA;
+        if (finiteA !== finiteB) return finiteA ? -1 : 1;
+        return String(a.name).localeCompare(String(b.name));
+      });
+      $('albumList').innerHTML = albums.length ? albums.map(album => `
+        <div class="album-item ${album.name === state.selectedAlbum ? 'active' : ''}" data-album-name="${escapeHtml(album.name)}">
+          <div class="album-title">${escapeHtml(album.name)}</div>
+          <div class="meta">${album.stats?.analyzed_count ?? album.tracks?.length ?? 0} analyzed · ${fmt(album.stats?.average_score, 2)} avg</div>
+        </div>
+      `).join('') : '<div class="empty">No matching albums.</div>';
+    }
+
+    function renderStatistics() {
+      state.selectedReportPath = null;
+      const records = filteredRecords();
+      const summary = state.catalog?.statistics?.summary || {};
+      const groupRows = groupAverage(records, state.groupBy);
+      const albumRows = filteredAlbums().slice().sort((a, b) => {
+        const scoreA = Number(a.stats?.average_score);
+        const scoreB = Number(b.stats?.average_score);
+        const finiteA = Number.isFinite(scoreA);
+        const finiteB = Number.isFinite(scoreB);
+        if (finiteA && finiteB && scoreA !== scoreB) return scoreB - scoreA;
+        if (finiteA !== finiteB) return finiteA ? -1 : 1;
+        return String(a.name).localeCompare(String(b.name));
+      });
+      const tableRows = records.slice().sort((a, b) => {
+        const scoreA = Number(a.score);
+        const scoreB = Number(b.score);
+        const finiteA = Number.isFinite(scoreA);
+        const finiteB = Number.isFinite(scoreB);
+        if (finiteA && finiteB && scoreA !== scoreB) return scoreB - scoreA;
+        if (finiteA !== finiteB) return finiteA ? -1 : 1;
+        return String(a.album).localeCompare(String(b.album)) || String(a.title).localeCompare(String(b.title));
+      });
+      $('detail').className = '';
+      $('detail').innerHTML = `
+        <div class="topline">
+          <div>
+            <h2>Statistics</h2>
+            <div class="meta">${records.length} filtered of ${summary.count ?? state.records.length} analyzed songs.</div>
+          </div>
+          <span class="status">${state.catalog?.generated_at || 'catalog'}</span>
+        </div>
+        <div class="summary">
+          <div class="metric"><strong>${records.length}</strong><span>Results</span></div>
+          <div class="metric"><strong>${fmt(average(records.map(r => r.score)), 2)}</strong><span>Avg Score</span></div>
+          <div class="metric"><strong>${fmt(average(records.map(r => r.rung_number)), 2)}</strong><span>Avg Rung</span></div>
+          <div class="metric"><strong>${fmt(average(records.map(r => r.tempo_bpm)), 1)}</strong><span>Avg BPM</span></div>
+        </div>
+        ${albumRows.length ? `
+          <div class="stats-table-wrap" style="margin-bottom:14px">
+            <div class="meta" style="padding:10px 12px 4px">Albums</div>
+            <table>
+              <thead><tr><th>Album</th><th>Analyzed</th><th>Avg Score</th><th>Avg Rung</th><th>Avg BPM</th><th>Duration</th><th>Audio</th></tr></thead>
+              <tbody>
+                ${albumRows.map(album => `
+                  <tr>
+                    <td><button class="title-link" type="button" data-album-name="${escapeHtml(album.name)}">${escapeHtml(album.name)}</button></td>
+                    <td>${album.stats?.analyzed_count ?? 0}</td>
+                    <td>${fmt(album.stats?.average_score, 3)}</td>
+                    <td>${fmt(album.stats?.average_rung, 2)}</td>
+                    <td>${fmt(album.stats?.average_tempo_bpm, 1)}</td>
+                    <td>${formatDuration(album.stats?.total_duration_seconds)}</td>
+                    <td><button class="secondary" type="button" data-play-album-name="${escapeHtml(album.name)}">Play Album</button></td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        ` : ''}
+        ${records.length ? `
+          <div class="charts">
+            <div class="chart-panel"><h3>Average Axis Scores</h3>${barChart(axisAverages(records), { max: 10 })}</div>
+            <div class="chart-panel"><h3>Score Distribution</h3>${scoreHistogram(records)}</div>
+            <div class="chart-panel"><h3>Average Score by ${state.groupBy.replace('_', ' ')}</h3>${barChart(groupRows, { max: 10, fill: 'alt' })}</div>
+            <div class="chart-panel"><h3>Rung Distribution</h3>${barChart(countBy(records.filter(r => r.rung_number !== null), r => String(Math.round(Number(r.rung_number)))), { fill: 'warm', digits: 0 })}</div>
+          </div>
+          <div class="stats-table-wrap">
+            <div class="meta" style="padding:10px 12px 4px">Songs</div>
+            <table>
+              <thead><tr><th>Rank</th><th>Title</th><th>Album</th><th>Score</th><th>Rung</th><th>BPM</th><th>Framework</th><th>Audio</th><th>Report</th></tr></thead>
+              <tbody>
+                ${tableRows.map((record, index) => `
+                  <tr>
+                    <td>${index + 1}</td>
+                    <td><button class="title-link" type="button" data-report-path="${escapeHtml(record.report_path)}">${escapeHtml(record.title)}</button></td>
+                    <td><button class="title-link" type="button" data-album-name="${escapeHtml(record.album)}">${escapeHtml(record.album)}</button></td>
+                    <td>${fmt(record.score, 3)}</td>
+                    <td>${record.rung_number ?? '-'} ${escapeHtml(record.rung_label || '')}</td>
+                    <td>${fmt(record.tempo_bpm, 1)}</td>
+                    <td>${escapeHtml(record.framework)}</td>
+                    <td>${record.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(record.audio_url)}" data-track-title="${escapeHtml(record.title)}" data-track-meta="${escapeHtml(record.audio_path)}">Play</button>` : '-'}</td>
+                    <td>${record.report_url ? `<a href="${escapeHtml(record.report_url)}" target="_blank" rel="noopener">JSON</a>` : '-'}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        ` : '<div class="empty">No analyzed songs match the current filter.</div>'}
+      `;
+      renderAlbumList();
+      syncPlayButtons();
+    }
+
+    function albumTracksForPlaylist(album) {
+      return (album?.tracks || [])
+        .filter(track => track.audio_url)
+        .map(track => ({
+          url: track.audio_url,
+          title: track.title || 'Untitled',
+          meta: track.audio_path || album.name || ''
+        }));
+    }
+
+    function renderAlbumDetail(albumName) {
+      const album = state.albums.find(item => item.name === albumName);
+      if (!album) return;
+      state.selectedAlbum = album.name;
+      state.selectedAlbumDetail = album;
+      state.selectedReportPath = null;
+      const tracks = (album.tracks || []).filter(track =>
+        matchesFilter(track.title) ||
+        matchesFilter(track.audio_path) ||
+        matchesFilter(track.analysis?.framework) ||
+        matchesFilter(album.name)
+      );
+      const stats = album.stats || {};
+      const axisRows = rowsFromObject(stats.axes, axisLabel);
+      const coreRows = rowsFromObject(stats.core_metrics, key => String(key).replaceAll('_', ' '));
+      $('detail').className = '';
+      $('detail').innerHTML = `
+        <div class="topline">
+          <div>
+            <h2>${escapeHtml(album.name)}</h2>
+            <div class="meta">${tracks.length} analyzed tracks</div>
+          </div>
+          <div class="header-actions">
+            <button class="secondary" type="button" data-play-album ${tracks.some(track => track.audio_url) ? '' : 'disabled'}>Play Album</button>
+            <button class="secondary" type="button" data-statistics-back>Back</button>
+          </div>
+        </div>
+        <div class="summary">
+          <div class="metric"><strong>${fmt(stats.average_score, 3)}</strong><span>Avg Score</span></div>
+          <div class="metric"><strong>${fmt(stats.average_rung, 2)}</strong><span>Avg Rung</span></div>
+          <div class="metric"><strong>${fmt(stats.average_tempo_bpm, 1)}</strong><span>Avg BPM</span></div>
+          <div class="metric"><strong>${formatDuration(stats.total_duration_seconds)}</strong><span>Duration</span></div>
+        </div>
+        <div class="charts">
+          <div class="chart-panel"><h3>Average Axis Scores</h3>${barChart(axisRows, { max: 10 })}</div>
+          <div class="chart-panel"><h3>Core Metrics</h3>${barChart(coreRows, { max: 10, fill: 'alt' })}</div>
+        </div>
+        <div class="stats-table-wrap">
+          <div class="meta" style="padding:10px 12px 4px">Track order</div>
+          <table>
+            <thead><tr><th>#</th><th>Title</th><th>Score</th><th>Rung</th><th>BPM</th><th>Duration</th><th>Audio</th><th>Report</th></tr></thead>
+            <tbody>
+              ${tracks.map(track => {
+                const analysis = track.analysis || {};
+                return `
+                  <tr>
+                    <td>${track.track_number ?? track.index ?? '-'}</td>
+                    <td>${analysis.report_path ? `<button class="title-link" type="button" data-report-path="${escapeHtml(analysis.report_path)}">${escapeHtml(track.title)}</button>` : escapeHtml(track.title)}</td>
+                    <td>${fmt(analysis.score, 3)}</td>
+                    <td>${analysis.rung_number ?? '-'} ${escapeHtml(analysis.rung_label || '')}</td>
+                    <td>${fmt(analysis.tempo_bpm, 1)}</td>
+                    <td>${formatDuration(analysis.duration_seconds)}</td>
+                    <td>${track.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(track.audio_url)}" data-track-title="${escapeHtml(track.title)}" data-track-meta="${escapeHtml(track.audio_path)}">Play</button>` : '-'}</td>
+                    <td>${analysis.report_url ? `<a href="${escapeHtml(analysis.report_url)}" target="_blank" rel="noopener">JSON</a>` : '-'}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+      renderAlbumList();
+      syncPlayButtons();
+    }
+
+    function reportDefinitionRows(rows) {
+      return `<dl>${rows
+        .filter(([, value]) => value !== undefined && value !== null && value !== '')
+        .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd>`)
+        .join('')}</dl>`;
+    }
+
+    function reportList(items) {
+      const rows = (items || []).filter(Boolean);
+      return rows.length ? `<ul>${rows.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : '<div class="meta">No notes available.</div>';
+    }
+
+    function selectedReportScoring(report) {
+      const llm = report.llm_adjusted_scoring || {};
+      return llm.available ? llm : (report.framework_scoring || {});
+    }
+
+    function averageScoreFromAxes(axes) {
+      return average(Object.values(axes || {}));
+    }
+
+    function titleFromPath(path) {
+      return String(path || '').split('/').pop()?.replace(/\.[^.]+$/, '') || 'Untitled';
+    }
+
+    function scoreChip(label, value, digits = 2) {
+      return `
+        <div class="score-chip">
+          <strong>${fmt(value, digits)}</strong>
+          <span>${escapeHtml(label)}</span>
+        </div>
+      `;
+    }
+
+    function reportAxisTable(scoring, baseScoring) {
+      const axes = scoring.axes || {};
+      const baseAxes = baseScoring.axes || {};
+      const adjusted = scoring !== baseScoring;
+      const rows = Object.entries(axes).map(([key, value]) => {
+        const baseValue = Number(baseAxes[key]);
+        const valueNumber = Number(value);
+        const delta = Number.isFinite(baseValue) && Number.isFinite(valueNumber) ? valueNumber - baseValue : null;
+        return `
+          <tr>
+            <td>${escapeHtml(axisLabel(key))}</td>
+            <td>${fmt(value, 2)}</td>
+            ${adjusted ? `<td>${fmt(baseValue, 2)}</td><td>${delta === null ? '-' : `${delta >= 0 ? '+' : ''}${fmt(delta, 2)}`}</td>` : ''}
+          </tr>
+        `;
+      }).join('');
+      if (!rows) return '<div class="meta">No axis scores available.</div>';
+      return `
+        <table>
+          <thead><tr><th>Axis</th><th>Score</th>${adjusted ? '<th>Base</th><th>Delta</th>' : ''}</tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      `;
+    }
+
+    function reportSectionTable(sections) {
+      const rows = (sections || []).map(section => `
+        <tr>
+          <td>${section.index ?? '-'}</td>
+          <td>${fmt(section.start, 1)}s</td>
+          <td>${fmt(section.end, 1)}s</td>
+          <td>${fmt(section.duration, 1)}s</td>
+        </tr>
+      `).join('');
+      if (!rows) return '<div class="meta">No section map available.</div>';
+      return `
+        <table>
+          <thead><tr><th>#</th><th>Start</th><th>End</th><th>Duration</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      `;
+    }
+
+    async function showAnalysisReport(reportPath) {
+      const record = state.records.find(item => item.report_path === reportPath);
+      if (!record?.report_url) return;
+      state.selectedReportPath = reportPath;
+      $('detail').className = '';
+      $('detail').innerHTML = '<div class="empty">Loading report...</div>';
+      try {
+        const response = await fetch(record.report_url);
+        if (!response.ok) throw new Error(`Report load failed: ${response.status}`);
+        renderAnalysisReport(await response.json(), record);
+      } catch (err) {
+        $('detail').innerHTML = `<div class="empty" style="color:var(--error)">${escapeHtml(err.message)}</div>`;
+      }
+    }
+
+    function renderAnalysisReport(report, record) {
+      const audio = report.audio || {};
+      const text = report.text || {};
+      const framework = report.framework || {};
+      const baseScoring = report.framework_scoring || {};
+      const scoring = selectedReportScoring(report);
+      const axes = scoring.axes || {};
+      const core = scoring.core_metrics || {};
+      const rung = scoring.rung_estimate || {};
+      const llm = report.llm_adjusted_scoring || {};
+      const transcription = report.transcription_quality || {};
+      const title = text.title || record.title || titleFromPath(audio.path || record.report_path);
+      const score = averageScoreFromAxes(axes);
+      const egEvidence = baseScoring.eg_evidence || {};
+      const adjustments = llm.available ? Object.entries(llm.adjustments || {}).map(([axis, item]) =>
+        `${axisLabel(axis)}: ${item.delta >= 0 ? '+' : ''}${fmt(item.delta, 2)}. ${item.reason || ''}`
+      ) : [];
+      $('detail').className = '';
+      $('detail').innerHTML = `
+        <div class="report-layout">
+          <div class="topline">
+            <div>
+              <h2>${escapeHtml(title)}</h2>
+              <div class="meta">${escapeHtml(audio.path || record.report_path)}</div>
+            </div>
+            <div class="header-actions">
+              ${record.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(record.audio_url)}" data-track-title="${escapeHtml(title)}" data-track-meta="${escapeHtml(record.audio_path)}">Play</button>` : ''}
+              <button class="secondary" type="button" data-statistics-back>Back</button>
+              <a href="${escapeHtml(record.report_url)}" target="_blank" rel="noopener">JSON</a>
+            </div>
+          </div>
+          <div class="summary">
+            <div class="metric"><strong>${fmt(score, 3)}</strong><span>Score</span></div>
+            <div class="metric"><strong>${rung.number ?? '-'}</strong><span>${escapeHtml(rung.label || 'Rung')}</span></div>
+            <div class="metric"><strong>${fmt(scoring.confidence_0_10, 1)}</strong><span>Confidence</span></div>
+            <div class="metric"><strong>${fmt(audio.tempo_bpm, 1)}</strong><span>BPM</span></div>
+          </div>
+          <div class="report-grid">
+            <div class="report-panel">
+              <h3>Audio</h3>
+              ${reportDefinitionRows([
+                ['Duration', audio.duration || (audio.duration_seconds ? `${fmt(audio.duration_seconds, 1)}s` : '')],
+                ['Key', `${audio.estimated_key || '-'} (${fmt(audio.key_confidence, 2)} confidence)`],
+                ['Loudness', `${fmt(audio.integrated_lufs, 1)} LUFS`],
+                ['Peak', `${fmt(audio.peak_dbfs, 1)} dBFS`],
+                ['Crest', `${fmt(audio.crest_factor_db, 1)} dB`],
+                ['Clipping ratio', fmt(audio.clipping_ratio, 6)],
+                ['Onset rate', `${fmt(audio.onset_rate_per_second, 2)} / sec`],
+                ['Recurrence', fmt(audio.recurrence_ratio, 3)],
+                ['Detected sections', (audio.detected_sections || []).length]
+              ])}
+            </div>
+            <div class="report-panel">
+              <h3>Text</h3>
+              ${reportDefinitionRows([
+                ['Text path', report.text_path],
+                ['Genre', text.declared_genre],
+                ['Mood', text.declared_mood],
+                ['Declared tempo', text.declared_tempo],
+                ['Declared key', text.declared_key],
+                ['Words', text.word_count],
+                ['Lines', text.line_count],
+                ['Sections', text.section_count],
+                ['Repeated lines', fmt(text.repeated_line_ratio, 2)],
+                ['Rhyme reuse', fmt(text.rhyme_suffix_reuse, 2)]
+              ])}
+            </div>
+            <div class="report-panel">
+              <h3>Transcription</h3>
+              ${transcription.available ? reportDefinitionRows([
+                ['Backend', transcription.backend],
+                ['Model', transcription.model],
+                ['Quality', fmt(transcription.quality_score_0_10, 1)],
+                ['Alignment', fmt(transcription.lyric_alignment_ratio, 3)],
+                ['Coverage', fmt(transcription.unique_expected_word_coverage, 3)],
+                ['Word ratio', fmt(transcription.word_count_ratio, 3)],
+                ['Duplicate passes', transcription.likely_duplicate_passes],
+                ['Flags', (transcription.flags || []).join(', ')]
+              ]) : reportDefinitionRows([
+                ['Available', 'no'],
+                ['Reason', transcription.error || 'not requested']
+              ])}
+            </div>
+            <div class="report-panel report-wide">
+              <h3>Framework Scores${llm.available ? ' (LLM-adjusted)' : ''}</h3>
+              <div class="score-summary">
+                ${core.CDPD !== undefined ? scoreChip('CDPD', core.CDPD, 2) : ''}
+                ${core.NGE !== undefined ? scoreChip('NGE', core.NGE, 2) : ''}
+                ${core.HMII_peak_estimate !== undefined ? scoreChip('HMII', core.HMII_peak_estimate, 0) : ''}
+                <div class="score-chip"><strong>${escapeHtml(framework.name || '-')}</strong><span>Framework</span></div>
+              </div>
+              ${reportAxisTable(scoring, baseScoring)}
+            </div>
+            ${llm.available ? `
+              <div class="report-panel report-wide">
+                <h3>LLM Adjustments</h3>
+                ${reportList(adjustments)}
+                ${llm.review_flags?.length ? `<h3 style="margin-top:14px">Review Flags</h3>${reportList(llm.review_flags)}` : ''}
+              </div>
+            ` : ''}
+            <div class="report-panel">
+              <h3>Evolving Grammar Signals</h3>
+              ${reportDefinitionRows([
+                ['Section contrast', fmt(egEvidence.section_contrast_score, 2)],
+                ['Cumulative evolution', fmt(egEvidence.cumulative_evolution_score, 2)],
+                ['Transformed returns', fmt(egEvidence.transformed_return_score, 2)],
+                ['Grid deviation', fmt(egEvidence.controlled_grid_deviation_score, 2)],
+                ['Rule changes', fmt(egEvidence.rule_change_score, 2)],
+                ['Production intent', fmt(egEvidence.production_transform_score, 2)],
+                ['Overall', fmt(egEvidence.overall_score, 2)]
+              ])}
+            </div>
+            <div class="report-panel">
+              <h3>Beat Grid</h3>
+              ${reportDefinitionRows([
+                ['Available', audio.beat_this?.available ? 'yes' : 'no'],
+                ['Beats', audio.beat_this?.beat_count],
+                ['Downbeats', audio.beat_this?.downbeat_count],
+                ['Tempo', audio.beat_this?.tempo_bpm ? `${fmt(audio.beat_this.tempo_bpm, 1)} BPM` : ''],
+                ['Beat stability', fmt(audio.beat_this?.beat_grid_stability, 2)],
+                ['Bar stability', fmt(audio.beat_this?.bar_grid_stability, 2)]
+              ])}
+            </div>
+            <div class="report-panel report-wide">
+              <h3>Rationale</h3>
+              ${reportList(scoring.rationale || baseScoring.rationale)}
+            </div>
+            <div class="report-panel report-wide">
+              <h3>Section Map</h3>
+              ${reportSectionTable(audio.detected_sections)}
+            </div>
+          </div>
+        </div>
+      `;
+      syncPlayButtons();
+    }
+
+    function playlistItemId() {
+      state.playlistSerial += 1;
+      return `${Date.now()}-${state.playlistSerial}`;
+    }
+
+    function trackFromButton(button) {
+      return {
+        url: button.dataset.audioUrl,
+        title: button.dataset.trackTitle || 'Selected track',
+        meta: button.dataset.trackMeta || ''
+      };
+    }
+
+    function addToPlaylist(track, { startIfIdle = true } = {}) {
+      if (!track?.url) return;
+      const wasEmpty = state.playlist.length === 0;
+      state.playlist.push({ ...track, id: playlistItemId() });
+      if (wasEmpty) state.currentPlaylistIndex = 0;
+      renderPlaylist();
+      if (startIfIdle && (wasEmpty || !$('globalAudio').getAttribute('src'))) {
+        playPlaylistIndex(state.currentPlaylistIndex);
+      }
+    }
+
+    function addManyToPlaylist(tracks) {
+      const playable = (tracks || []).filter(track => track?.url);
+      if (!playable.length) return;
+      const wasEmpty = state.playlist.length === 0;
+      playable.forEach(track => state.playlist.push({ ...track, id: playlistItemId() }));
+      if (wasEmpty) {
+        state.currentPlaylistIndex = 0;
+        playPlaylistIndex(0);
+      } else {
+        renderPlaylist();
+      }
+    }
+
+    function setPlayerTrack(track) {
+      const audio = $('globalAudio');
+      if (!track?.url) {
+        audio.pause();
+        audio.removeAttribute('src');
+        audio.load();
+        state.currentTrack = null;
+        $('playerTitle').textContent = 'No track selected';
+        $('playerMeta').textContent = 'Use a Play button to add tracks to the playlist.';
+        return;
+      }
+      if (audio.getAttribute('src') !== track.url) {
+        audio.src = track.url;
+        audio.load();
+      }
+      audio.currentTime = 0;
+      state.currentTrack = track;
+      $('playerTitle').textContent = track.title;
+      $('playerMeta').textContent = track.meta || track.url;
+    }
+
+    async function playPlaylistIndex(index) {
+      const audio = $('globalAudio');
+      if (!state.playlist.length) {
+        state.currentPlaylistIndex = -1;
+        setPlayerTrack(null);
+        syncPlayButtons();
+        return;
+      }
+      const normalizedIndex = ((index % state.playlist.length) + state.playlist.length) % state.playlist.length;
+      state.currentPlaylistIndex = normalizedIndex;
+      setPlayerTrack(state.playlist[normalizedIndex]);
+      syncPlayButtons();
+      try {
+        await audio.play();
+      } catch (err) {
+        console.warn(err);
+      } finally {
+        syncPlayButtons();
+      }
+    }
+
+    function advancePlaylist() {
+      if (!state.playlist.length) return;
+      playPlaylistIndex(state.currentPlaylistIndex + 1);
+    }
+
+    function removePlaylistItem(id) {
+      const index = state.playlist.findIndex(item => item.id === id);
+      if (index < 0) return;
+      const removingCurrent = index === state.currentPlaylistIndex;
+      state.playlist.splice(index, 1);
+      if (!state.playlist.length) {
+        state.currentPlaylistIndex = -1;
+        setPlayerTrack(null);
+        syncPlayButtons();
+        return;
+      }
+      if (index < state.currentPlaylistIndex) {
+        state.currentPlaylistIndex -= 1;
+      } else if (removingCurrent) {
+        state.currentPlaylistIndex = Math.min(index, state.playlist.length - 1);
+        playPlaylistIndex(state.currentPlaylistIndex);
+        return;
+      }
+      renderPlaylist();
+      syncPlayButtons();
+    }
+
+    function renderPlaylist() {
+      const count = state.playlist.length;
+      const audio = $('globalAudio');
+      const playing = !audio.paused && !audio.ended;
+      $('playlistCount').textContent = count ? `${count} queued` : 'Playlist empty';
+      $('playlistList').innerHTML = count ? state.playlist.map((track, index) => {
+        const isCurrent = index === state.currentPlaylistIndex;
+        const isPlaying = isCurrent && playing;
+        return `
+          <div class="playlist-item ${isCurrent ? 'active' : ''}">
+            <div class="playlist-item-title">
+              <strong>${escapeHtml(track.title)}</strong>
+              <span>${escapeHtml(track.meta || track.url)}</span>
+            </div>
+            <button class="secondary ${isPlaying ? 'playing' : ''}" type="button" data-play-playlist="${index}">${isPlaying ? 'Now Playing' : 'Play'}</button>
+            <button class="danger" type="button" data-remove-playlist="${escapeHtml(track.id)}">Remove</button>
+          </div>
+        `;
+      }).join('') : '<div class="playlist-item"><div class="playlist-item-title"><span>No queued tracks.</span></div></div>';
+    }
+
+    function syncPlayButtons() {
+      const audio = $('globalAudio');
+      const currentUrl = state.currentTrack?.url || '';
+      const playing = currentUrl && !audio.paused && !audio.ended;
+      document.querySelectorAll('[data-play-audio]').forEach(button => {
+        const isCurrent = button.dataset.audioUrl === currentUrl;
+        button.classList.toggle('playing', Boolean(isCurrent && playing));
+        button.textContent = isCurrent && playing ? 'Now Playing' : 'Play';
+      });
+      renderPlaylist();
+    }
+
+    async function loadCatalog() {
+      const response = await fetch('data/catalog.json');
+      if (!response.ok) throw new Error(`Catalog load failed: ${response.status}`);
+      state.catalog = await response.json();
+      state.albums = state.catalog.albums || [];
+      state.records = state.catalog.statistics?.records || [];
+      $('dataState').textContent = `${state.records.length} songs`;
+      renderAlbumList();
+      renderStatistics();
+    }
+
+    $('statsBtn').addEventListener('click', () => {
+      state.selectedAlbum = null;
+      renderStatistics();
+    });
+    $('groupBy').addEventListener('change', event => {
+      state.groupBy = event.target.value;
+      if (state.selectedAlbum) renderAlbumDetail(state.selectedAlbum);
+      else renderStatistics();
+    });
+    $('search').addEventListener('input', event => {
+      state.filter = event.target.value;
+      if (state.selectedAlbum) renderAlbumDetail(state.selectedAlbum);
+      else renderStatistics();
+    });
+    $('globalAudio').addEventListener('ended', advancePlaylist);
+    $('globalAudio').addEventListener('play', syncPlayButtons);
+    $('globalAudio').addEventListener('pause', syncPlayButtons);
+    document.addEventListener('click', async event => {
+      const albumButton = event.target.closest('[data-album-name]');
+      if (albumButton) {
+        renderAlbumDetail(albumButton.dataset.albumName);
+        return;
+      }
+      const namedAlbumPlayButton = event.target.closest('[data-play-album-name]');
+      if (namedAlbumPlayButton) {
+        const album = state.albums.find(item => item.name === namedAlbumPlayButton.dataset.playAlbumName);
+        addManyToPlaylist(albumTracksForPlaylist(album));
+        return;
+      }
+      const reportButton = event.target.closest('[data-report-path]');
+      if (reportButton) {
+        await showAnalysisReport(reportButton.dataset.reportPath);
+        return;
+      }
+      const backButton = event.target.closest('[data-statistics-back]');
+      if (backButton) {
+        if (state.selectedAlbum && state.selectedReportPath) {
+          renderAlbumDetail(state.selectedAlbum);
+        } else {
+          state.selectedAlbum = null;
+          renderStatistics();
+        }
+        return;
+      }
+      const albumPlayButton = event.target.closest('[data-play-album]');
+      if (albumPlayButton) {
+        addManyToPlaylist(albumTracksForPlaylist(state.selectedAlbumDetail));
+        return;
+      }
+      const playButton = event.target.closest('[data-play-audio]');
+      if (playButton) {
+        addToPlaylist(trackFromButton(playButton));
+        return;
+      }
+      const playlistPlayButton = event.target.closest('[data-play-playlist]');
+      if (playlistPlayButton) {
+        playPlaylistIndex(Number(playlistPlayButton.dataset.playPlaylist));
+        return;
+      }
+      const removePlaylistButton = event.target.closest('[data-remove-playlist]');
+      if (removePlaylistButton) {
+        removePlaylistItem(removePlaylistButton.dataset.removePlaylist);
+      }
+    });
+
+    loadCatalog().catch(err => {
+      $('dataState').textContent = 'error';
+      $('dataState').style.color = 'var(--error)';
+      $('detail').innerHTML = `<div class="empty" style="color:var(--error)">${escapeHtml(err.message)}</div>`;
+    });
+  </script>
+</body>
+</html>

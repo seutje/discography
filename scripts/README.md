@@ -168,6 +168,24 @@ Outputs are written under `analysis-output/` by default:
 - `*.analysis.md`: human-readable report.
 - `*.analysis.json`: raw measurements and scoring data.
 
+## GitHub Pages Dashboard
+
+The public dashboard in `gh-pages/` is a static version of the local statistics/player views. It does not include the Suno job pipeline controls.
+
+Refresh the committed catalog from local analyzer reports and build the deployable site:
+
+```bash
+python scripts/build_gh_pages.py --refresh-data --output-dir _site
+```
+
+Preview it locally:
+
+```bash
+python -m http.server 8000 --directory _site
+```
+
+The GitHub workflow builds `_site`, copies analyzed audio into `media/`, writes report JSON files under `reports/`, and deploys the artifact to GitHub Pages.
+
 The EG score uses an `evolving_grammar` evidence block in the JSON and report. It compares section-level harmony, timbre, rhythm, texture, and beat-grid behavior; looks for transformed returns instead of exact repeats; detects local grid and rule changes; and scores production/vocal notes for intentional arrangement transformations.
 
 The scoring is intentionally conservative and heuristic. The scripts measure duration, tempo, key estimate, loudness, clipping, dynamics, spectral shape, onset density, repetition proxy, rough section boundaries, optional `beat_this` beat/downbeat stability, evolving-grammar proxies, and lyric/text features. They cannot truly hear compositional intent, so final rung placement should be treated as a first-pass assistant for close listening, not an authoritative grade.

@@ -271,10 +271,30 @@ def build_catalog_from_reports() -> dict[str, Any]:
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
+        "frameworks": framework_catalog(),
         "statistics": {"records": records, "summary": {"count": len(records), **album_stats(records)}},
         "albums": build_album_catalog(records),
         "reports": reports,
     }
+
+
+def framework_catalog() -> list[dict[str, str]]:
+    analyzer_dir = ROOT / "analyzer"
+    if not analyzer_dir.exists():
+        return []
+    frameworks = []
+    for path in sorted(analyzer_dir.glob("*.txt"), key=lambda item: item.name.lower()):
+        raw = path.read_text(encoding="utf-8")
+        title = next((line.strip() for line in raw.splitlines() if line.strip()), path.stem)
+        frameworks.append(
+            {
+                "name": path.name,
+                "path": rel(path),
+                "title": title,
+                "text": raw,
+            }
+        )
+    return frameworks
 
 
 def load_source_catalog() -> dict[str, Any]:
@@ -283,6 +303,7 @@ def load_source_catalog() -> dict[str, Any]:
         return build_catalog_from_reports()
     catalog = read_json(SOURCE_DATA)
     if isinstance(catalog, dict):
+        catalog["frameworks"] = framework_catalog() or catalog.get("frameworks", [])
         return catalog
     raise FileNotFoundError("No analysis reports found and gh-pages/data/catalog.json does not exist.")
 

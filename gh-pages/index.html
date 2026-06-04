@@ -262,6 +262,21 @@
       gap: 8px;
       margin-top: 14px;
     }
+    .upload-panel {
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+    .upload-panel input[type="file"] {
+      min-height: 0;
+      padding: 8px;
+    }
+    .upload-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
     .album-item {
       border: 1px solid var(--line);
       border-radius: 8px;
@@ -473,6 +488,20 @@
       <label for="search">Filter</label>
       <input id="search" type="search" placeholder="Album, song, framework">
 
+      <div class="upload-panel">
+        <label for="uploadFramework">Framework</label>
+        <select id="uploadFramework"></select>
+
+        <label for="uploadFiles">Local MP3</label>
+        <input id="uploadFiles" type="file" accept=".mp3,audio/mpeg" multiple>
+
+        <div class="upload-actions">
+          <button id="analyzeUploadsBtn" type="button">Analyze Uploads</button>
+          <button id="clearUploadsBtn" class="secondary" type="button">Clear Uploads</button>
+        </div>
+        <div id="uploadStatus" class="meta"></div>
+      </div>
+
       <div class="album-list" id="albumList"></div>
     </aside>
     <section>
@@ -499,8 +528,15 @@
   <script>
     const state = {
       catalog: null,
+      frameworks: [],
       albums: [],
+      baseAlbums: [],
       records: [],
+      baseRecords: [],
+      localRecords: [],
+      localReports: {},
+      localObjectUrls: [],
+      uploadSerial: 0,
       selectedAlbum: null,
       selectedAlbumDetail: null,
       selectedReportPath: null,
@@ -623,6 +659,577 @@
       return barChart(rows, { fill: 'warm', digits: 0 });
     }
 
+    function clamp(value, low = 0, high = 10) {
+      const num = Number(value);
+      if (!Number.isFinite(num)) return low;
+      return Math.max(low, Math.min(high, num));
+    }
+
+    function sum(values) {
+      return values.reduce((total, value) => total + value, 0);
+    }
+
+    function standardDeviation(values) {
+      if (!values.length) return 0;
+      const avg = average(values) || 0;
+      return Math.sqrt(average(values.map(value => (value - avg) ** 2)) || 0);
+    }
+
+    function db(value) {
+      return value > 0 ? 20 * Math.log10(value) : -120;
+    }
+
+    function titleFromFilename(name) {
+      return String(name || 'Untitled')
+        .replace(/\.[^.]+$/, '')
+        .replace(/^\d+\s*-\s*/, '');
+    }
+
+    function findPeaks(values, threshold) {
+      const peaks = [];
+      for (let index = 1; index < values.length - 1; index += 1) {
+        if (values[index] > threshold && values[index] >= values[index - 1] && values[index] > values[index + 1]) {
+          peaks.push(index);
+        }
+      }
+      return peaks;
+    }
+
+    function downsampleBuffer(buffer, targetRate = 11025) {
+      const sourceRate = buffer.sampleRate;
+      const channels = buffer.numberOfChannels;
+      const ratio = sourceRate / targetRate;
+      const length = Math.max(1, Math.floor(buffer.length / ratio));
+      const output = new Float32Array(length);
+      for (let index = 0; index < length; index += 1) {
+        const sourceIndex = Math.min(buffer.length - 1, Math.floor(index * ratio));
+        let value = 0;
+        for (let channel = 0; channel < channels; channel += 1) {
+          value += buffer.getChannelData(channel)[sourceIndex];
+        }
+        output[index] = value / channels;
+      }
+      return { samples: output, sampleRate: targetRate };
+    }
+
+    function frameAudio(samples, sampleRate) {
+      const frameSize = 2048;
+      const hopSize = 1024;
+      const frames = [];
+      for (let start = 0; start + frameSize <= samples.length; start += hopSize) {
+        let energy = 0;
+        let peak = 0;
+        let crossings = 0;
+        let derivative = 0;
+        let previous = samples[start];
+        for (let offset = 0; offset < frameSize; offset += 1) {
+          const value = samples[start + offset];
+          energy += value * value;
+          peak = Math.max(peak, Math.abs(value));
+          if (offset > 0) {
+            if ((value >= 0 && previous < 0) || (value < 0 && previous >= 0)) crossings += 1;
+            derivative += Math.abs(value - previous);
+            previous = value;
+          }
+        }
+        const rms = Math.sqrt(energy / frameSize);
+        const zcr = crossings / frameSize;
+        const centroid = clamp(zcr * sampleRate * 0.65, 80, 8000);
+        const bandwidth = clamp((derivative / frameSize) * sampleRate * 10, 100, 8000);
+        frames.push({
+          time: start / sampleRate,
+          rms,
+          rms_db: db(rms),
+          peak,
+          zcr,
+          centroid,
+          bandwidth,
+          flatness: clamp(zcr * 8, 0, 1),
+        });
+      }
+      return frames;
+    }
+
+    function estimateTempo(frames, hopSeconds) {
+      const rms = frames.map(frame => frame.rms);
+      const onset = [];
+      for (let index = 1; index < rms.length; index += 1) {
+        onset.push(Math.max(0, rms[index] - rms[index - 1]));
+      }
+      const avg = average(onset) || 0;
+      const stdev = standardDeviation(onset);
+      const threshold = avg + stdev * 0.7;
+      const peaks = findPeaks(onset, threshold);
+      let bestLag = 0;
+      let bestScore = 0;
+      const minLag = Math.max(1, Math.round((60 / 180) / hopSeconds));
+      const maxLag = Math.max(minLag + 1, Math.round((60 / 60) / hopSeconds));
+      for (let lag = minLag; lag <= maxLag; lag += 1) {
+        let score = 0;
+        for (let index = lag; index < onset.length; index += 1) {
+          score += onset[index] * onset[index - lag];
+        }
+        if (score > bestScore) {
+          bestScore = score;
+          bestLag = lag;
+        }
+      }
+      const bpm = bestLag ? 60 / (bestLag * hopSeconds) : null;
+      return {
+        tempo_bpm: bpm ? Math.round(bpm * 10) / 10 : null,
+        onset_rate_per_second: frames.length ? peaks.length / Math.max(frames[frames.length - 1].time, 1) : 0,
+        onset_env: onset,
+      };
+    }
+
+    function pickBrowserSections(frames, duration) {
+      if (frames.length < 8 || duration < 20) {
+        return [{ index: 1, start: 0, end: duration, duration }];
+      }
+      const changes = [];
+      for (let index = 1; index < frames.length; index += 1) {
+        const prev = frames[index - 1];
+        const current = frames[index];
+        changes.push({
+          time: current.time,
+          value:
+            Math.abs(current.rms_db - prev.rms_db) / 12 +
+            Math.abs(current.zcr - prev.zcr) * 8 +
+            Math.abs(Math.log2((current.centroid + 1) / (prev.centroid + 1))) * 1.8,
+        });
+      }
+      const maxInternal = Math.max(2, Math.min(9, Math.floor(duration / 35)));
+      const chosen = [];
+      const minGap = 12;
+      changes
+        .slice()
+        .sort((a, b) => b.value - a.value)
+        .forEach(change => {
+          if (chosen.length >= maxInternal) return;
+          if (change.time < 8 || change.time > duration - 8) return;
+          if (chosen.every(time => Math.abs(time - change.time) >= minGap)) chosen.push(change.time);
+        });
+      const boundaries = [0, ...chosen.sort((a, b) => a - b), duration];
+      return boundaries.slice(0, -1).map((start, index) => ({
+        index: index + 1,
+        start: Math.round(start * 1000) / 1000,
+        end: Math.round(boundaries[index + 1] * 1000) / 1000,
+        duration: Math.round((boundaries[index + 1] - start) * 1000) / 1000,
+      }));
+    }
+
+    function sectionProfile(frames, section, onsetEnv, hopSeconds) {
+      const selected = frames.filter(frame => frame.time >= section.start && frame.time < section.end);
+      const rows = selected.length ? selected : frames;
+      const onsetStart = Math.max(0, Math.floor(section.start / hopSeconds));
+      const onsetEnd = Math.min(onsetEnv.length, Math.ceil(section.end / hopSeconds));
+      const onsets = onsetEnv.slice(onsetStart, onsetEnd);
+      return {
+        index: section.index,
+        start: section.start,
+        end: section.end,
+        duration: section.duration,
+        rms_db_mean: average(rows.map(frame => frame.rms_db)) || -120,
+        centroid_mean: average(rows.map(frame => frame.centroid)) || 0,
+        bandwidth_mean: average(rows.map(frame => frame.bandwidth)) || 0,
+        flatness_mean: average(rows.map(frame => frame.flatness)) || 0,
+        zcr_mean: average(rows.map(frame => frame.zcr)) || 0,
+        onset_rate: findPeaks(onsets, (average(onsets) || 0) + standardDeviation(onsets)).length / Math.max(section.duration, 1),
+      };
+    }
+
+    function boundedRatioDelta(a, b) {
+      return Math.min(1, Math.abs(Math.log2(Math.max(Number(a) || 0, 1e-9) / Math.max(Number(b) || 0, 1e-9))));
+    }
+
+    function browserEvolvingGrammar(sections, frames, onsetEnv, hopSeconds) {
+      const profiles = sections.map(section => sectionProfile(frames, section, onsetEnv, hopSeconds));
+      const adjacent = [];
+      for (let index = 1; index < profiles.length; index += 1) {
+        const prev = profiles[index - 1];
+        const current = profiles[index];
+        const rhythmDelta = boundedRatioDelta(current.onset_rate, prev.onset_rate);
+        const textureDelta = Math.max(
+          boundedRatioDelta(current.centroid_mean, prev.centroid_mean),
+          boundedRatioDelta(current.bandwidth_mean, prev.bandwidth_mean),
+          Math.abs(current.flatness_mean - prev.flatness_mean) * 4,
+          Math.abs(current.rms_db_mean - prev.rms_db_mean) / 10
+        );
+        const composite = clamp(rhythmDelta * 3 + textureDelta * 4);
+        const ruleChanges = [];
+        if (rhythmDelta > 0.28) ruleChanges.push('rhythmic-law-shift');
+        if (textureDelta > 0.24) ruleChanges.push('texture-law-shift');
+        adjacent.push({ from: prev.index, to: current.index, rhythm_delta: rhythmDelta, texture_delta: textureDelta, composite_change: composite, rule_changes: ruleChanges });
+      }
+      const sectionContrast = clamp(average(adjacent.map(change => change.composite_change)) || 0);
+      const cumulativeEvolution = clamp(sectionContrast * 0.75 + Math.min(2, Math.max(0, profiles.length - 3) * 0.25));
+      const ruleChangeScore = clamp(sum(adjacent.map(change => change.rule_changes.length)) / Math.max(profiles.length - 1, 1) * 2.5);
+      const transformedReturnScore = clamp((profiles.length >= 4 ? 1.4 : 0) + sectionContrast * 0.12);
+      const overall = clamp(sectionContrast * 0.28 + cumulativeEvolution * 0.24 + transformedReturnScore * 0.18 + ruleChangeScore * 0.30);
+      return {
+        section_contrast_score: Math.round(sectionContrast * 1000) / 1000,
+        cumulative_evolution_score: Math.round(cumulativeEvolution * 1000) / 1000,
+        transformed_return_score: Math.round(transformedReturnScore * 1000) / 1000,
+        controlled_grid_deviation_score: 0,
+        rule_change_score: Math.round(ruleChangeScore * 1000) / 1000,
+        overall_score: Math.round(overall * 1000) / 1000,
+        adjacent_changes: adjacent.map(change => ({
+          from: change.from,
+          to: change.to,
+          rhythm_delta: Math.round(change.rhythm_delta * 1000) / 1000,
+          texture_delta: Math.round(change.texture_delta * 1000) / 1000,
+          composite_change: Math.round(change.composite_change * 1000) / 1000,
+          rule_changes: change.rule_changes,
+        })),
+        sections: profiles.map(profile => ({
+          index: profile.index,
+          start: profile.start,
+          end: profile.end,
+          duration: profile.duration,
+          onset_rate: Math.round(profile.onset_rate * 1000) / 1000,
+          rms_db_mean: Math.round(profile.rms_db_mean * 100) / 100,
+          centroid_mean: Math.round(profile.centroid_mean * 10) / 10,
+          bandwidth_mean: Math.round(profile.bandwidth_mean * 10) / 10,
+          flatness_mean: Math.round(profile.flatness_mean * 10000) / 10000,
+          beat_count: 0,
+          downbeat_count: 0,
+          median_beat_interval_seconds: null,
+          beat_interval_cv: null,
+          bar_interval_cv: null,
+          rule_changes: [],
+        })),
+      };
+    }
+
+    function recurrenceRatio(frames) {
+      if (frames.length < 12) return 0;
+      const window = Math.max(4, Math.floor(frames.length / 16));
+      const signatures = [];
+      for (let index = 0; index + window < frames.length; index += window) {
+        const slice = frames.slice(index, index + window);
+        signatures.push([
+          average(slice.map(frame => frame.rms_db)) || 0,
+          average(slice.map(frame => frame.zcr)) || 0,
+          average(slice.map(frame => frame.centroid)) || 0,
+        ]);
+      }
+      let similar = 0;
+      let pairs = 0;
+      for (let i = 0; i < signatures.length; i += 1) {
+        for (let j = i + 2; j < signatures.length; j += 1) {
+          pairs += 1;
+          const a = signatures[i];
+          const b = signatures[j];
+          const distance = Math.abs(a[0] - b[0]) / 18 + Math.abs(a[1] - b[1]) * 10 + boundedRatioDelta(a[2], b[2]);
+          if (distance < 0.55) similar += 1;
+        }
+      }
+      return pairs ? similar / pairs : 0;
+    }
+
+    function estimateRung(axisAvg, cdpd, nge, hmii, clippingPenalty, sectionCount) {
+      let number;
+      if (clippingPenalty > 1.5 || sectionCount <= 1) number = 4;
+      else if (axisAvg < 4) number = 5;
+      else if (axisAvg < 5) number = 6;
+      else if (axisAvg < 5.8) number = 7;
+      else if (axisAvg < 6.6) number = 8;
+      else if (axisAvg < 7.4) number = 9;
+      else if (axisAvg < 8.1) number = 10;
+      else if (nge >= 0.50 && cdpd >= 0.60) number = 11;
+      else number = 10;
+      if (number >= 11 && hmii >= 5 && nge >= 0.55) number = 12;
+      if (number >= 12 && cdpd >= 0.65 && nge >= 0.58) number = 13;
+      const labels = {
+        4: 'Half-Form',
+        5: 'Draft',
+        6: 'Serviceable',
+        7: 'Competent Template',
+        8: 'Strong Craft, Some Signature',
+        9: 'Near-Perfection, No Rupture',
+        10: 'Technical Perfection, No Rupture',
+        11: 'First Rupture',
+        12: 'Recursion Threshold',
+        13: 'Inhabited Form',
+      };
+      return {
+        number,
+        label: labels[number] || 'Unmapped',
+        note: 'Browser-only heuristic; tiers above 13 need close listening and stronger evidence of new grammar.',
+      };
+    }
+
+    function scoreBrowserFramework(audio, frameworkName) {
+      const duration = audio.duration_seconds;
+      const sections = audio.detected_sections || [];
+      const sectionDurations = sections.map(section => section.duration);
+      const sectionBalance = sectionDurations.length
+        ? 1 - Math.min(1, standardDeviation(sectionDurations) / ((average(sectionDurations) || 0) + 1e-9))
+        : 0;
+      const clippingPenalty = Math.min(2, audio.clipping_ratio * 400);
+      const loudnessOk = audio.integrated_lufs >= -18 && audio.integrated_lufs <= -7 ? 1 : 0.4;
+      const dynamicScore = clamp((audio.crest_factor_db - 5) / 1.2);
+      const recurrenceScore = clamp(audio.recurrence_ratio * 35);
+      const onsetScore = clamp(audio.onset_rate_per_second * 3);
+      const spectralWidth = clamp(audio.spectral_bandwidth_mean / 450);
+      const brightnessControl = clamp(10 - Math.abs(audio.spectral_centroid_mean - 2500) / 350);
+      const novelty = clamp((sections.length - 2) * 0.7 + Math.min(4, audio.spectral_centroid_std / 350) + onsetScore * 0.15);
+      const egFeatures = audio.evolving_grammar || {};
+      let sc = clamp(2 + sections.length * 0.65 + sectionBalance * 2 - clippingPenalty);
+      let mi = clamp(2 + recurrenceScore * 0.35);
+      let bp = clamp(2 + loudnessOk * 1.7 + dynamicScore * 0.28 + brightnessControl * 0.25 + spectralWidth * 0.16 - clippingPenalty);
+      let eg = clamp(
+        1.2 +
+        novelty * 0.10 +
+        egFeatures.section_contrast_score * 0.20 +
+        egFeatures.cumulative_evolution_score * 0.18 +
+        egFeatures.transformed_return_score * 0.18 +
+        egFeatures.rule_change_score * 0.18
+      );
+      let cd = clamp(((sc + mi + bp) / 3) * 0.6 + Math.min(2, sections.length * 0.18));
+      const frameworkLower = frameworkName.toLowerCase();
+      if (frameworkLower.includes('rap') || frameworkLower.includes('hip-hop')) {
+        mi = clamp(mi + onsetScore * 0.08);
+        eg = clamp(eg + Math.min(0.5, audio.onset_rate_per_second * 0.14));
+      } else if (frameworkLower.includes('metal') || frameworkLower.includes('prog') || frameworkLower.includes('djent')) {
+        mi = clamp(mi + onsetScore * 0.12 + spectralWidth * 0.08);
+        bp = clamp(bp + Math.min(1, audio.harmonic_percussive_ratio * 0.2));
+        eg = clamp(eg + egFeatures.rule_change_score * 0.08);
+      } else if (frameworkLower.includes('indie')) {
+        cd = clamp(cd + recurrenceScore * 0.04);
+        eg = clamp(eg + egFeatures.transformed_return_score * 0.05);
+      } else {
+        bp = clamp(bp + Math.min(1, audio.harmonic_percussive_ratio * 0.12));
+      }
+      const axisAvg = (sc + mi + bp + eg + cd) / 5;
+      const cdpd = clamp((mi * 0.45 + sc * 0.35 + cd * 0.20) / 10, 0, 1);
+      const nge = clamp((eg * 0.50 + novelty * 0.18 + egFeatures.overall_score * 0.32) / 10, 0, 1);
+      const hmii = Math.round(clamp(1.5 + spectralWidth * 0.18 + onsetScore * 0.12 + recurrenceScore * 0.12, 1, 8));
+      return {
+        axes: {
+          SC_structural_coherence: Math.round(sc * 100) / 100,
+          MI_motivic_integration: Math.round(mi * 100) / 100,
+          BP_beauty_spatial_poise: Math.round(bp * 100) / 100,
+          EG_evolving_grammar: Math.round(eg * 100) / 100,
+          CD_carry_depth: Math.round(cd * 100) / 100,
+        },
+        core_metrics: {
+          CDPD: Math.round(cdpd * 1000) / 1000,
+          NGE: Math.round(nge * 1000) / 1000,
+          HMII_peak_estimate: hmii,
+        },
+        eg_evidence: {
+          section_contrast_score: egFeatures.section_contrast_score || 0,
+          cumulative_evolution_score: egFeatures.cumulative_evolution_score || 0,
+          transformed_return_score: egFeatures.transformed_return_score || 0,
+          controlled_grid_deviation_score: 0,
+          rule_change_score: egFeatures.rule_change_score || 0,
+          production_transform_score: 0,
+          overall_score: egFeatures.overall_score || 0,
+        },
+        rung_estimate: estimateRung(axisAvg, cdpd, nge, hmii, clippingPenalty, sections.length),
+        confidence_0_10: Math.round(clamp(4.2 + Math.min(1, duration / 180) + Math.min(1, sections.length / 6), 0, 7) * 100) / 100,
+        rationale: [
+          `Browser analysis used ${sections.length} detected section(s) over ${formatDuration(duration)}.`,
+          `Estimated tempo is ${fmt(audio.tempo_bpm, 1)} BPM; onset rate is ${fmt(audio.onset_rate_per_second, 2)} per second.`,
+          `beat_this, LLM adjustment, and transcription checks are disabled for local uploads.`,
+        ],
+      };
+    }
+
+    async function analyzeUploadedFile(file, framework) {
+      const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+      const arrayBuffer = await file.arrayBuffer();
+      const buffer = await audioContext.decodeAudioData(arrayBuffer);
+      await audioContext.close();
+      const { samples, sampleRate } = downsampleBuffer(buffer);
+      const frames = frameAudio(samples, sampleRate);
+      const hopSeconds = 1024 / sampleRate;
+      const tempo = estimateTempo(frames, hopSeconds);
+      const sections = pickBrowserSections(frames, buffer.duration);
+      const eg = browserEvolvingGrammar(sections, frames, tempo.onset_env, hopSeconds);
+      const peak = Math.max(...frames.map(frame => frame.peak), 0);
+      const rms = Math.sqrt(average(frames.map(frame => frame.rms ** 2)) || 0);
+      const clippingFrames = frames.filter(frame => frame.peak >= 0.999).length;
+      const centroidValues = frames.map(frame => frame.centroid);
+      const bandwidthValues = frames.map(frame => frame.bandwidth);
+      const flatnessValues = frames.map(frame => frame.flatness);
+      const zcrValues = frames.map(frame => frame.zcr);
+      const audio = {
+        path: file.name,
+        duration: formatDuration(buffer.duration),
+        duration_seconds: Math.round(buffer.duration * 1000) / 1000,
+        tempo_bpm: tempo.tempo_bpm,
+        estimated_key: 'Unknown',
+        key_confidence: 0,
+        integrated_lufs: Math.round((db(rms) - 0.7) * 10) / 10,
+        peak_dbfs: Math.round(db(peak) * 10) / 10,
+        crest_factor_db: Math.round((db(peak) - db(rms)) * 10) / 10,
+        clipping_ratio: frames.length ? clippingFrames / frames.length : 0,
+        onset_rate_per_second: Math.round(tempo.onset_rate_per_second * 1000) / 1000,
+        recurrence_ratio: Math.round(recurrenceRatio(frames) * 1000) / 1000,
+        spectral_centroid_mean: average(centroidValues) || 0,
+        spectral_centroid_std: standardDeviation(centroidValues),
+        spectral_bandwidth_mean: average(bandwidthValues) || 0,
+        spectral_flatness_mean: average(flatnessValues) || 0,
+        zero_crossing_rate_mean: average(zcrValues) || 0,
+        harmonic_percussive_ratio: clamp(1.8 - (average(zcrValues) || 0) * 8, 0, 4),
+        detected_sections: sections,
+        evolving_grammar: eg,
+        beat_this: {
+          available: false,
+          beat_count: 0,
+          downbeat_count: 0,
+          error: 'Disabled for browser uploads.',
+        },
+      };
+      const scoring = scoreBrowserFramework(audio, framework.name);
+      return {
+        generated_at: new Date().toISOString(),
+        text_path: null,
+        audio,
+        text: {
+          title: titleFromFilename(file.name),
+          word_count: null,
+          line_count: null,
+          section_count: null,
+          repeated_line_ratio: null,
+          rhyme_suffix_reuse: null,
+        },
+        framework: {
+          path: framework.path,
+          name: framework.name,
+          characters_loaded: framework.text?.length || 0,
+        },
+        framework_scoring: scoring,
+        llm_adjusted_scoring: { available: false },
+        transcription_quality: {
+          available: false,
+          error: 'Disabled for browser uploads.',
+        },
+      };
+    }
+
+    function albumStats(records, totalTracks = null) {
+      const axisKeys = Array.from(new Set(records.flatMap(record => Object.keys(record.axes || {})))).sort();
+      const coreKeys = Array.from(new Set(records.flatMap(record => Object.keys(record.core_metrics || {})))).sort();
+      return {
+        track_count: totalTracks ?? records.length,
+        analyzed_count: records.length,
+        average_score: average(records.map(record => record.score)),
+        average_rung: average(records.map(record => record.rung_number)),
+        average_tempo_bpm: average(records.map(record => record.tempo_bpm)),
+        total_duration_seconds: sum(records.map(record => Number(record.duration_seconds) || 0)),
+        axes: Object.fromEntries(axisKeys.map(key => [key, average(records.map(record => record.axes?.[key]))])),
+        core_metrics: Object.fromEntries(coreKeys.map(key => [key, average(records.map(record => record.core_metrics?.[key]))])),
+      };
+    }
+
+    function syncLocalUploads() {
+      state.records = [...state.baseRecords, ...state.localRecords];
+      const localTracks = state.localRecords.map((record, index) => ({
+        index: index + 1,
+        track_number: index + 1,
+        title: record.title,
+        text_path: '',
+        audio_path: record.audio_path,
+        audio_url: record.audio_url,
+        analysis: record,
+      }));
+      const localAlbum = localTracks.length ? [{
+        name: 'Local Uploads',
+        track_count: localTracks.length,
+        tracks: localTracks,
+        stats: albumStats(state.localRecords, localTracks.length),
+      }] : [];
+      state.albums = [...state.baseAlbums, ...localAlbum];
+    }
+
+    function selectedFramework() {
+      return state.frameworks.find(framework => framework.name === $('uploadFramework').value) || state.frameworks[0] || {
+        name: 'Sorelian.txt',
+        path: 'analyzer/Sorelian.txt',
+        text: '',
+      };
+    }
+
+    async function analyzeUploads() {
+      const files = Array.from($('uploadFiles').files || []).filter(file => file.type === 'audio/mpeg' || file.name.toLowerCase().endsWith('.mp3'));
+      if (!files.length) {
+        $('uploadStatus').textContent = 'No MP3 selected.';
+        return;
+      }
+      const button = $('analyzeUploadsBtn');
+      button.disabled = true;
+      const framework = selectedFramework();
+      try {
+        for (const [index, file] of files.entries()) {
+          $('uploadStatus').textContent = `Analyzing ${index + 1}/${files.length}: ${file.name}`;
+          const report = await analyzeUploadedFile(file, framework);
+          const objectUrl = URL.createObjectURL(file);
+          state.localObjectUrls.push(objectUrl);
+          state.uploadSerial += 1;
+          const reportPath = `local-upload/${Date.now()}-${state.uploadSerial}.analysis.json`;
+          const axes = report.framework_scoring.axes || {};
+          const record = {
+            report_path: reportPath,
+            report_url: '',
+            source_type: 'upload',
+            generated_at: report.generated_at,
+            title: report.text.title,
+            album: 'Local Uploads',
+            track_number: state.localRecords.length + 1,
+            audio_path: file.name,
+            audio_url: objectUrl,
+            framework: report.framework.name,
+            score: average(Object.values(axes)),
+            axes,
+            core_metrics: report.framework_scoring.core_metrics || {},
+            rung_number: report.framework_scoring.rung_estimate?.number ?? null,
+            rung_label: report.framework_scoring.rung_estimate?.label || '',
+            confidence: report.framework_scoring.confidence_0_10,
+            duration_seconds: report.audio.duration_seconds,
+            tempo_bpm: report.audio.tempo_bpm,
+            estimated_key: report.audio.estimated_key,
+            key_confidence: report.audio.key_confidence,
+            integrated_lufs: report.audio.integrated_lufs,
+            peak_dbfs: report.audio.peak_dbfs,
+            crest_factor_db: report.audio.crest_factor_db,
+            clipping_ratio: report.audio.clipping_ratio,
+            onset_rate_per_second: report.audio.onset_rate_per_second,
+            recurrence_ratio: report.audio.recurrence_ratio,
+          };
+          state.localReports[reportPath] = report;
+          state.localRecords.push(record);
+          syncLocalUploads();
+          renderStatistics();
+        }
+        $('uploadStatus').textContent = `${files.length} upload${files.length === 1 ? '' : 's'} analyzed.`;
+      } catch (err) {
+        $('uploadStatus').textContent = err.message;
+      } finally {
+        button.disabled = false;
+      }
+    }
+
+    function clearUploads() {
+      const uploadUrls = new Set(state.localObjectUrls);
+      state.playlist = state.playlist.filter(track => !uploadUrls.has(track.url));
+      if (state.currentTrack && uploadUrls.has(state.currentTrack.url)) {
+        state.currentPlaylistIndex = -1;
+        setPlayerTrack(null);
+      }
+      state.localObjectUrls.forEach(url => URL.revokeObjectURL(url));
+      state.localObjectUrls = [];
+      state.localRecords = [];
+      state.localReports = {};
+      syncLocalUploads();
+      state.selectedAlbum = null;
+      $('uploadFiles').value = '';
+      $('uploadStatus').textContent = '';
+      renderStatistics();
+    }
+
     function matchesFilter(value) {
       const query = state.filter.trim().toLowerCase();
       return !query || String(value || '').toLowerCase().includes(query);
@@ -662,7 +1269,6 @@
     function renderStatistics() {
       state.selectedReportPath = null;
       const records = filteredRecords();
-      const summary = state.catalog?.statistics?.summary || {};
       const groupRows = groupAverage(records, 'album');
       const albumRows = filteredAlbums().slice().sort((a, b) => {
         const scoreA = Number(a.stats?.average_score);
@@ -687,7 +1293,7 @@
         <div class="topline">
           <div>
             <h2>Statistics</h2>
-            <div class="meta">${records.length} filtered of ${summary.count ?? state.records.length} analyzed songs.</div>
+            <div class="meta">${records.length} filtered of ${state.records.length} analyzed songs.</div>
           </div>
           <span class="status">${state.catalog?.generated_at || 'catalog'}</span>
         </div>
@@ -906,14 +1512,18 @@
 
     async function showAnalysisReport(reportPath) {
       const record = state.records.find(item => item.report_path === reportPath);
-      if (!record?.report_url) return;
+      if (!record) return;
       state.selectedReportPath = reportPath;
       $('detail').className = '';
       $('detail').innerHTML = '<div class="empty">Loading report...</div>';
       try {
-        const response = await fetch(record.report_url);
-        if (!response.ok) throw new Error(`Report load failed: ${response.status}`);
-        renderAnalysisReport(await response.json(), record);
+        if (state.localReports[reportPath]) {
+          renderAnalysisReport(state.localReports[reportPath], record);
+        } else {
+          const response = await fetch(record.report_url);
+          if (!response.ok) throw new Error(`Report load failed: ${response.status}`);
+          renderAnalysisReport(await response.json(), record);
+        }
       } catch (err) {
         $('detail').innerHTML = `<div class="empty" style="color:var(--error)">${escapeHtml(err.message)}</div>`;
       }
@@ -947,7 +1557,7 @@
             <div class="header-actions">
               ${record.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(record.audio_url)}" data-track-title="${escapeHtml(title)}" data-track-meta="${escapeHtml(record.audio_path)}">Play</button>` : ''}
               <button class="secondary" type="button" data-statistics-back>Back</button>
-              <a href="${escapeHtml(record.report_url)}" target="_blank" rel="noopener">JSON</a>
+              ${record.report_url ? `<a href="${escapeHtml(record.report_url)}" target="_blank" rel="noopener">JSON</a>` : ''}
             </div>
           </div>
           <div class="summary">
@@ -1199,8 +1809,13 @@
       const response = await fetch('data/catalog.json');
       if (!response.ok) throw new Error(`Catalog load failed: ${response.status}`);
       state.catalog = await response.json();
-      state.albums = state.catalog.albums || [];
-      state.records = state.catalog.statistics?.records || [];
+      state.frameworks = state.catalog.frameworks || [];
+      $('uploadFramework').innerHTML = state.frameworks.length
+        ? state.frameworks.map(framework => `<option value="${escapeHtml(framework.name)}" ${framework.name === 'Sorelian.txt' ? 'selected' : ''}>${escapeHtml(framework.name.replace(/\.txt$/, ''))}</option>`).join('')
+        : '<option value="Sorelian.txt">Sorelian</option>';
+      state.baseAlbums = state.catalog.albums || [];
+      state.baseRecords = state.catalog.statistics?.records || [];
+      syncLocalUploads();
       $('dataState').textContent = `${state.records.length} songs`;
       renderAlbumList();
       renderStatistics();
@@ -1215,6 +1830,8 @@
       if (state.selectedAlbum) renderAlbumDetail(state.selectedAlbum);
       else renderStatistics();
     });
+    $('analyzeUploadsBtn').addEventListener('click', () => analyzeUploads());
+    $('clearUploadsBtn').addEventListener('click', clearUploads);
     $('globalAudio').addEventListener('ended', advancePlaylist);
     $('globalAudio').addEventListener('play', syncPlayButtons);
     $('globalAudio').addEventListener('pause', syncPlayButtons);

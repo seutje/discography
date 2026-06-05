@@ -493,6 +493,29 @@
       font-size: 13px;
       font-weight: 700;
     }
+    .karaoke-controls {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      z-index: 2;
+      display: grid;
+      gap: 6px;
+    }
+    .karaoke-controls button {
+      display: grid;
+      place-items: center;
+      width: 30px;
+      height: 30px;
+      min-height: 30px;
+      padding: 0;
+      border-radius: 6px;
+      background: color-mix(in srgb, var(--control) 86%, transparent);
+      color: var(--accent);
+      line-height: 1;
+    }
+    .karaoke-controls button:disabled {
+      opacity: .38;
+    }
     .playlist {
       min-width: 0;
       border: 1px solid var(--line);
@@ -615,6 +638,10 @@
       <audio id="globalAudio" controls preload="metadata"></audio>
       <div class="karaoke-stage" aria-label="Timed lyrics visualizer">
         <canvas id="karaokeCanvas"></canvas>
+        <div class="karaoke-controls" aria-label="Lyric navigation">
+          <button class="secondary" id="karaokePrevBtn" type="button" aria-label="Previous lyric line" title="Previous lyric line">↑</button>
+          <button class="secondary" id="karaokeNextBtn" type="button" aria-label="Next lyric line" title="Next lyric line">↓</button>
+        </div>
         <div class="karaoke-copy">
           <div class="karaoke-line previous" id="karaokePrevious"></div>
           <div class="karaoke-line current empty" id="karaokeCurrent">Timed lyrics will appear here.</div>
@@ -653,6 +680,9 @@
       timedLyrics: null,
       timedLyricsUrl: '',
       timedLyricsRequestId: 0,
+      manualLyricIndex: -1,
+      manualLyricUntil: 0,
+      manualLyricBaseTimedIndex: -1,
       lyricsByAudioUrl: new Map(),
       visualizer: null,
       animationFrame: 0,
@@ -714,10 +744,28 @@
       $('karaokeCurrent').classList.toggle('empty', empty);
     }
 
+    function syncKaraokeControlState() {
+      const lines = state.timedLyrics?.lines || [];
+      const hasLines = Boolean(lines.length);
+      const index = currentDisplayedLyricIndex();
+      const prevButton = $('karaokePrevBtn');
+      const nextButton = $('karaokeNextBtn');
+      if (prevButton) prevButton.disabled = !hasLines || index <= 0;
+      if (nextButton) nextButton.disabled = !hasLines || index < 0 || index >= lines.length - 1;
+    }
+
+    function clearManualLyricOverride() {
+      state.manualLyricIndex = -1;
+      state.manualLyricUntil = 0;
+      state.manualLyricBaseTimedIndex = -1;
+    }
+
     function resetTimedLyrics(message = 'Timed lyrics will appear here.') {
       state.timedLyrics = null;
       state.timedLyricsUrl = '';
+      clearManualLyricOverride();
       setKaraokeLines('', message, '', { empty: true });
+      syncKaraokeControlState();
     }
 
     function currentLyricIndex(lines, currentTime) {
@@ -740,13 +788,22 @@
       return currentTime <= Number(line.end) + 0.35 ? candidate : candidate;
     }
 
-    function updateKaraokeLines() {
+    function currentDisplayedLyricIndex() {
       const audio = $('globalAudio');
       const lines = state.timedLyrics?.lines || [];
-      if (!lines.length) return;
-      const index = currentLyricIndex(lines, audio.currentTime);
+      if (!lines.length) return -1;
+      if (state.manualLyricIndex >= 0 && performance.now() <= state.manualLyricUntil) {
+        return state.manualLyricIndex;
+      }
+      const timedIndex = currentLyricIndex(lines, audio.currentTime);
+      return timedIndex < 0 ? 0 : timedIndex;
+    }
+
+    function renderKaraokeIndex(index) {
+      const lines = state.timedLyrics?.lines || [];
       if (index < 0) {
         setKaraokeLines('', lines[0]?.text || '', lines[1]?.text || '');
+        syncKaraokeControlState();
         return;
       }
       setKaraokeLines(
@@ -754,6 +811,42 @@
         lines[index]?.text || '',
         lines[index + 1]?.text || ''
       );
+      syncKaraokeControlState();
+    }
+
+    function updateKaraokeLines() {
+      const audio = $('globalAudio');
+      const lines = state.timedLyrics?.lines || [];
+      if (!lines.length) {
+        syncKaraokeControlState();
+        return;
+      }
+      const timedIndex = currentLyricIndex(lines, audio.currentTime);
+      const manualActive = state.manualLyricIndex >= 0 && performance.now() <= state.manualLyricUntil;
+      const timingMovedPastManualStart =
+        timedIndex > state.manualLyricIndex && timedIndex > state.manualLyricBaseTimedIndex;
+      const timingCaughtManual =
+        timedIndex >= state.manualLyricIndex && state.manualLyricIndex > state.manualLyricBaseTimedIndex;
+      if (!manualActive || timingMovedPastManualStart || timingCaughtManual) {
+        clearManualLyricOverride();
+        renderKaraokeIndex(timedIndex);
+        return;
+      }
+      renderKaraokeIndex(state.manualLyricIndex);
+    }
+
+    function shiftManualLyric(delta) {
+      const audio = $('globalAudio');
+      const lines = state.timedLyrics?.lines || [];
+      if (!lines.length) return;
+      const rawTimedIndex = currentLyricIndex(lines, audio.currentTime);
+      const timedIndex = rawTimedIndex < 0 ? 0 : rawTimedIndex;
+      const baseIndex = state.manualLyricIndex >= 0 ? state.manualLyricIndex : timedIndex;
+      const nextIndex = Math.max(0, Math.min(lines.length - 1, baseIndex + delta));
+      state.manualLyricIndex = nextIndex;
+      state.manualLyricUntil = performance.now() + 5000;
+      state.manualLyricBaseTimedIndex = timedIndex;
+      renderKaraokeIndex(nextIndex);
     }
 
     async function loadTimedLyrics(track) {
@@ -2073,6 +2166,7 @@
       }
       audio.currentTime = 0;
       state.currentTrack = track;
+      clearManualLyricOverride();
       $('playerTitle').textContent = track.title;
       $('playerMeta').textContent = track.meta || track.url;
       loadTimedLyrics(track);
@@ -2198,6 +2292,8 @@
     });
     $('globalAudio').addEventListener('timeupdate', updateKaraokeLines);
     $('globalAudio').addEventListener('seeked', updateKaraokeLines);
+    $('karaokePrevBtn').addEventListener('click', () => shiftManualLyric(-1));
+    $('karaokeNextBtn').addEventListener('click', () => shiftManualLyric(1));
     window.addEventListener('resize', () => {
       if (!state.animationFrame) drawKaraokeFrame();
     });

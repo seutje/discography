@@ -683,6 +683,7 @@
       manualLyricIndex: -1,
       manualLyricUntil: 0,
       manualLyricBaseTimedIndex: -1,
+      manualLyricLastTimedIndex: -1,
       lyricsByAudioUrl: new Map(),
       visualizer: null,
       animationFrame: 0,
@@ -758,6 +759,7 @@
       state.manualLyricIndex = -1;
       state.manualLyricUntil = 0;
       state.manualLyricBaseTimedIndex = -1;
+      state.manualLyricLastTimedIndex = -1;
     }
 
     function resetTimedLyrics(message = 'Timed lyrics will appear here.') {
@@ -792,10 +794,18 @@
       const audio = $('globalAudio');
       const lines = state.timedLyrics?.lines || [];
       if (!lines.length) return -1;
-      if (state.manualLyricIndex >= 0 && performance.now() <= state.manualLyricUntil) {
+      const timedIndex = currentLyricIndex(lines, audio.currentTime);
+      const normalizedTimedIndex = timedIndex < 0 ? 0 : timedIndex;
+      if (
+        state.manualLyricIndex >= 0 &&
+        (
+          performance.now() <= state.manualLyricUntil ||
+          state.manualLyricIndex >= normalizedTimedIndex ||
+          normalizedTimedIndex === state.manualLyricLastTimedIndex
+        )
+      ) {
         return state.manualLyricIndex;
       }
-      const timedIndex = currentLyricIndex(lines, audio.currentTime);
       return timedIndex < 0 ? 0 : timedIndex;
     }
 
@@ -821,17 +831,29 @@
         syncKaraokeControlState();
         return;
       }
-      const timedIndex = currentLyricIndex(lines, audio.currentTime);
-      const manualActive = state.manualLyricIndex >= 0 && performance.now() <= state.manualLyricUntil;
-      const timingMovedPastManualStart =
-        timedIndex > state.manualLyricIndex && timedIndex > state.manualLyricBaseTimedIndex;
-      const timingCaughtManual =
-        timedIndex >= state.manualLyricIndex && state.manualLyricIndex > state.manualLyricBaseTimedIndex;
-      if (!manualActive || timingMovedPastManualStart || timingCaughtManual) {
-        clearManualLyricOverride();
-        renderKaraokeIndex(timedIndex);
+      const rawTimedIndex = currentLyricIndex(lines, audio.currentTime);
+      const timedIndex = rawTimedIndex < 0 ? 0 : rawTimedIndex;
+      if (state.manualLyricIndex < 0) {
+        renderKaraokeIndex(rawTimedIndex);
         return;
       }
+
+      const timingLineChanged = timedIndex !== state.manualLyricLastTimedIndex;
+      const timingCaughtManual =
+        state.manualLyricIndex > state.manualLyricBaseTimedIndex &&
+        timedIndex >= state.manualLyricIndex;
+      const timingAheadAfterGrace =
+        performance.now() > state.manualLyricUntil &&
+        timingLineChanged &&
+        timedIndex > state.manualLyricIndex;
+
+      if (timingCaughtManual || timingAheadAfterGrace) {
+        clearManualLyricOverride();
+        renderKaraokeIndex(rawTimedIndex);
+        return;
+      }
+
+      state.manualLyricLastTimedIndex = timedIndex;
       renderKaraokeIndex(state.manualLyricIndex);
     }
 
@@ -846,6 +868,7 @@
       state.manualLyricIndex = nextIndex;
       state.manualLyricUntil = performance.now() + 5000;
       state.manualLyricBaseTimedIndex = timedIndex;
+      state.manualLyricLastTimedIndex = timedIndex;
       renderKaraokeIndex(nextIndex);
     }
 

@@ -1,0 +1,728 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Noise Floor",
+  "title": "In Full Technicolor",
+  "text_path": "Noise Floor/05 - In Full Technicolor.txt",
+  "audio_path": "Noise Floor/audio/05 - In Full Technicolor.mp3",
+  "duration_seconds": 284.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 60,
+    "reference_word_count": 283,
+    "observed_word_count": 282,
+    "matched_word_count": 264,
+    "matched_word_ratio": 0.933
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 22.0,
+      "text": "I flicker in the frame I have remembered you I turn the dial again"
+    },
+    {
+      "start": 22.0,
+      "end": 38.0,
+      "text": "until the edges come through"
+    },
+    {
+      "start": 38.0,
+      "end": 42.0,
+      "text": "There's a language in the air tonight not spoken just revealed"
+    },
+    {
+      "start": 42.0,
+      "end": 47.0,
+      "text": "Every line begins to realign into something I can feel"
+    },
+    {
+      "start": 47.0,
+      "end": 52.0,
+      "text": "The frequencies I never named now settle into place"
+    },
+    {
+      "start": 52.0,
+      "end": 57.0,
+      "text": "A quiet architecture forms behind the human face"
+    },
+    {
+      "start": 57.0,
+      "end": 67.0,
+      "text": "I was searching in the haze for something out of phase"
+    },
+    {
+      "start": 67.0,
+      "end": 76.0,
+      "text": "Now I'm tuning into the nexus letting every color bloom"
+    },
+    {
+      "start": 76.0,
+      "end": 86.0,
+      "text": "All the fragments fall together in a living room of truth"
+    },
+    {
+      "start": 86.0,
+      "end": 90.0,
+      "text": "Every shadow finds its contour"
+    },
+    {
+      "start": 90.0,
+      "end": 95.0,
+      "text": "Every signal finds its cue"
+    },
+    {
+      "start": 95.0,
+      "end": 105.0,
+      "text": "I adjust until it holds me in full technical review"
+    },
+    {
+      "start": 108.0,
+      "end": 113.0,
+      "text": "A subtle shift in density like depth I couldn't see"
+    },
+    {
+      "start": 113.0,
+      "end": 118.0,
+      "text": "Expanding past the surface lines into continuity"
+    },
+    {
+      "start": 118.0,
+      "end": 123.0,
+      "text": "The boundaries grow permeable but nothing slips away"
+    },
+    {
+      "start": 123.0,
+      "end": 128.0,
+      "text": "It's not a skateboard leaving here just seeing it this way"
+    },
+    {
+      "start": 128.0,
+      "end": 133.0,
+      "text": "Not distortion, not disguise"
+    },
+    {
+      "start": 133.0,
+      "end": 138.0,
+      "text": "Just another way to sway"
+    },
+    {
+      "start": 138.0,
+      "end": 147.0,
+      "text": "I'm tuning into the nexus where the hidden threads align"
+    },
+    {
+      "start": 148.0,
+      "end": 157.0,
+      "text": "Every moment feels connected through a pattern I can't define"
+    },
+    {
+      "start": 157.0,
+      "end": 166.0,
+      "text": "There's a warmth beneath the structure like a pulse that carries through"
+    },
+    {
+      "start": 167.0,
+      "end": 176.0,
+      "text": "And it studies as I find it in full technical review"
+    },
+    {
+      "start": 185.0,
+      "end": 189.0,
+      "text": "A molecule of meaning unfolding in the mind"
+    },
+    {
+      "start": 189.0,
+      "end": 194.0,
+      "text": "Not louder just clearer like sight refined"
+    },
+    {
+      "start": 195.0,
+      "end": 201.0,
+      "text": "No need to hold it tightly, it's already intertwined"
+    },
+    {
+      "start": 204.0,
+      "end": 209.0,
+      "text": "I stop resisting in the picture unwinds"
+    },
+    {
+      "start": 224.0,
+      "end": 237.0,
+      "text": "Still tuning into the nexus the signals always spin"
+    },
+    {
+      "start": 237.0,
+      "end": 247.0,
+      "text": "In the space between perception and the shape of what was seen"
+    },
+    {
+      "start": 248.0,
+      "end": 252.0,
+      "text": "Every color now is anchored"
+    },
+    {
+      "start": 252.0,
+      "end": 257.0,
+      "text": "Every edges gently true"
+    },
+    {
+      "start": 257.0,
+      "end": 261.0,
+      "text": "I don't chase it anymore"
+    },
+    {
+      "start": 261.0,
+      "end": 274.0,
+      "text": "It arrives in front of me in full technical review"
+    },
+    {
+      "start": 274.0,
+      "end": 284.0,
+      "text": "Turn the dial just enough and it finds you"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro – distant hum | soft oscillation",
+      "start": 1.571,
+      "end": 7.857,
+      "text": "A flicker in the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 1,
+      "section": "Intro – distant hum | soft oscillation",
+      "start": 11.0,
+      "end": 12.571,
+      "text": "a half-remembered hue",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 2,
+      "section": "Intro – distant hum | soft oscillation",
+      "start": 14.143,
+      "end": 22.0,
+      "text": "I turn the dial again",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 3,
+      "section": "Intro – distant hum | soft oscillation",
+      "start": 22.0,
+      "end": 38.0,
+      "text": "until the edges come through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 – light pulse | warm synth",
+      "start": 38.0,
+      "end": 40.545,
+      "text": "There’s a language in the air tonight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 – light pulse | warm synth",
+      "start": 40.545,
+      "end": 42.0,
+      "text": "not spoken, just revealed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 – light pulse | warm synth",
+      "start": 42.0,
+      "end": 44.5,
+      "text": "Every line begins to realign",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 – light pulse | warm synth",
+      "start": 44.5,
+      "end": 47.0,
+      "text": "into something I can feel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 – light pulse | warm synth",
+      "start": 47.556,
+      "end": 49.778,
+      "text": "Frequencies I never named",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 – light pulse | warm synth",
+      "start": 49.778,
+      "end": 52.0,
+      "text": "now settle into place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 – light pulse | warm synth",
+      "start": 52.0,
+      "end": 54.5,
+      "text": "A quiet architecture forms",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 – light pulse | warm synth",
+      "start": 54.5,
+      "end": 57.0,
+      "text": "behind the human face",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 12,
+      "section": "Pre-Hook – rising shimmer",
+      "start": 57.0,
+      "end": 62.455,
+      "text": "I was searching in the haze",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 13,
+      "section": "Pre-Hook – rising shimmer",
+      "start": 62.455,
+      "end": 67.0,
+      "text": "for something out of phase",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "Hook – open, melodic | widening field",
+      "start": 67.0,
+      "end": 72.4,
+      "text": "Now I’m tuning into the nexus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 15,
+      "section": "Hook – open, melodic | widening field",
+      "start": 72.4,
+      "end": 76.0,
+      "text": "letting every color bloom",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 16,
+      "section": "Hook – open, melodic | widening field",
+      "start": 76.0,
+      "end": 80.545,
+      "text": "All the fragments fall together",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 17,
+      "section": "Hook – open, melodic | widening field",
+      "start": 80.545,
+      "end": 86.0,
+      "text": "in a living room of truth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Hook – open, melodic | widening field",
+      "start": 86.0,
+      "end": 90.0,
+      "text": "Every shadow finds its contour",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "Hook – open, melodic | widening field",
+      "start": 90.0,
+      "end": 95.0,
+      "text": "every signal finds its cue",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 20,
+      "section": "Hook – open, melodic | widening field",
+      "start": 95.0,
+      "end": 101.0,
+      "text": "I adjust until it holds me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 21,
+      "section": "Hook – open, melodic | widening field",
+      "start": 101.0,
+      "end": 103.0,
+      "text": "in full technicolor view",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 22,
+      "section": "Verse 2 – added rhythm | gentle motion",
+      "start": 108.0,
+      "end": 110.5,
+      "text": "A subtle shift in density",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 23,
+      "section": "Verse 2 – added rhythm | gentle motion",
+      "start": 110.5,
+      "end": 113.0,
+      "text": "like depth I couldn’t see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Verse 2 – added rhythm | gentle motion",
+      "start": 113.0,
+      "end": 116.571,
+      "text": "Expanding past the surface lines",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 25,
+      "section": "Verse 2 – added rhythm | gentle motion",
+      "start": 116.571,
+      "end": 118.0,
+      "text": "into continuity",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 – added rhythm | gentle motion",
+      "start": 118.0,
+      "end": 120.5,
+      "text": "The boundaries grow permeable",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 – added rhythm | gentle motion",
+      "start": 120.5,
+      "end": 123.0,
+      "text": "but nothing slips away",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 – added rhythm | gentle motion",
+      "start": 123.0,
+      "end": 125.727,
+      "text": "It’s not escape or leaving here",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 – added rhythm | gentle motion",
+      "start": 125.727,
+      "end": 128.0,
+      "text": "just seeing it this way",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Pre-Hook – soft lift",
+      "start": 128.0,
+      "end": 133.0,
+      "text": "Not distortion, not disguise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "Pre-Hook – soft lift",
+      "start": 133.0,
+      "end": 138.0,
+      "text": "just another way to sway",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 32,
+      "section": "Hook – fuller | layered harmonies",
+      "start": 138.0,
+      "end": 142.5,
+      "text": "I’m tuning into the nexus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 33,
+      "section": "Hook – fuller | layered harmonies",
+      "start": 142.5,
+      "end": 147.0,
+      "text": "where the hidden threads align",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 34,
+      "section": "Hook – fuller | layered harmonies",
+      "start": 148.0,
+      "end": 151.6,
+      "text": "Every moment feels connected",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 35,
+      "section": "Hook – fuller | layered harmonies",
+      "start": 151.6,
+      "end": 157.0,
+      "text": "through a pattern I can’t define",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 36,
+      "section": "Hook – fuller | layered harmonies",
+      "start": 157.0,
+      "end": 161.5,
+      "text": "There’s a warmth beneath the structure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 37,
+      "section": "Hook – fuller | layered harmonies",
+      "start": 161.5,
+      "end": 166.0,
+      "text": "like a pulse that carries through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 38,
+      "section": "Hook – fuller | layered harmonies",
+      "start": 167.0,
+      "end": 172.727,
+      "text": "And it steadies as I find it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 39,
+      "section": "Hook – fuller | layered harmonies",
+      "start": 172.727,
+      "end": 174.364,
+      "text": "in full technicolor view",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 40,
+      "section": "Bridge – minimal | spoken-soft",
+      "start": 185.0,
+      "end": 187.0,
+      "text": "A molecule of meaning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Bridge – minimal | spoken-soft",
+      "start": 187.0,
+      "end": 189.0,
+      "text": "unfolding in the mind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 42,
+      "section": "Bridge – minimal | spoken-soft",
+      "start": 189.0,
+      "end": 191.857,
+      "text": "Not louder, just… clearer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Bridge – minimal | spoken-soft",
+      "start": 191.857,
+      "end": 194.0,
+      "text": "like sight refined",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Bridge – minimal | spoken-soft",
+      "start": 195.0,
+      "end": 199.0,
+      "text": "No need to hold it tightly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 45,
+      "section": "Bridge – minimal | spoken-soft",
+      "start": 199.0,
+      "end": 201.0,
+      "text": "it’s already intertwined",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Turn – brief drop | sustained chord",
+      "start": 204.0,
+      "end": 206.143,
+      "text": "I stop resisting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 47,
+      "section": "Turn – brief drop | sustained chord",
+      "start": 206.857,
+      "end": 209.0,
+      "text": "and the picture unwinds",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 48,
+      "section": "Final Hook – expansive | luminous",
+      "start": 224.0,
+      "end": 231.222,
+      "text": "Still tuning into the nexus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 49,
+      "section": "Final Hook – expansive | luminous",
+      "start": 231.222,
+      "end": 235.556,
+      "text": "but the signal’s always been",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 50,
+      "section": "Final Hook – expansive | luminous",
+      "start": 237.0,
+      "end": 241.167,
+      "text": "In the space between perception",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 51,
+      "section": "Final Hook – expansive | luminous",
+      "start": 241.167,
+      "end": 247.0,
+      "text": "and the shape of what was seen",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 52,
+      "section": "Final Hook – expansive | luminous",
+      "start": 248.0,
+      "end": 252.0,
+      "text": "Every color now is anchored",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 53,
+      "section": "Final Hook – expansive | luminous",
+      "start": 252.0,
+      "end": 257.0,
+      "text": "every edge is gently true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 54,
+      "section": "Final Hook – expansive | luminous",
+      "start": 257.0,
+      "end": 261.0,
+      "text": "I don’t chase it anymore",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 55,
+      "section": "Final Hook – expansive | luminous",
+      "start": 261.0,
+      "end": 268.8,
+      "text": "it arrives in front of me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 56,
+      "section": "Final Hook – expansive | luminous",
+      "start": 268.8,
+      "end": 271.4,
+      "text": "in full technicolor view",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 57,
+      "section": "Outro – fading layers | soft repetition",
+      "start": 274.0,
+      "end": 277.333,
+      "text": "Turn the dial",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 58,
+      "section": "Outro – fading layers | soft repetition",
+      "start": 277.333,
+      "end": 279.556,
+      "text": "just enough",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 59,
+      "section": "Outro – fading layers | soft repetition",
+      "start": 279.556,
+      "end": 284.0,
+      "text": "and it finds you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    }
+  ]
+}

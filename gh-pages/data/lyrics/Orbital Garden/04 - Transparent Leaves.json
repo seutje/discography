@@ -1,0 +1,692 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Orbital Garden",
+  "title": "Transparent Leaves",
+  "text_path": "Orbital Garden/04 - Transparent Leaves.txt",
+  "audio_path": "Orbital Garden/audio/04 - Transparent Leaves.mp3",
+  "duration_seconds": 238.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 56,
+    "reference_word_count": 253,
+    "observed_word_count": 273,
+    "matched_word_count": 206,
+    "matched_word_ratio": 0.814
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "text": "I'm going to play the piano."
+    },
+    {
+      "start": 7.0,
+      "end": 14.0,
+      "text": "I'm going to play the piano."
+    },
+    {
+      "start": 14.0,
+      "end": 18.0,
+      "text": "I'm going to play the piano."
+    },
+    {
+      "start": 18.0,
+      "end": 25.0,
+      "text": "I'm going to play the piano."
+    },
+    {
+      "start": 25.0,
+      "end": 43.0,
+      "text": "When I hold it to the lamp, the hidden river shows."
+    },
+    {
+      "start": 43.0,
+      "end": 53.0,
+      "text": "I thought the world would seal that first, all is shut and handed down."
+    },
+    {
+      "start": 53.0,
+      "end": 64.0,
+      "text": "Then I found a quiet hinge underneath the con and groaned."
+    },
+    {
+      "start": 64.0,
+      "end": 70.0,
+      "text": "Vines are ranged in the patient, grammar, stem and shadow, currant joint."
+    },
+    {
+      "start": 70.0,
+      "end": 73.0,
+      "text": "Nothing safe, grip disappeared."
+    },
+    {
+      "start": 73.0,
+      "end": 80.0,
+      "text": "When I learned how it was formed, I looked closer."
+    },
+    {
+      "start": 80.0,
+      "end": 87.0,
+      "text": "Not to own."
+    },
+    {
+      "start": 87.0,
+      "end": 93.0,
+      "text": "Light went through and did not harm."
+    },
+    {
+      "start": 93.0,
+      "end": 99.0,
+      "text": "Structure opened in my palm."
+    },
+    {
+      "start": 99.0,
+      "end": 102.0,
+      "text": "Transparent leaves around me."
+    },
+    {
+      "start": 102.0,
+      "end": 105.0,
+      "text": "Should be carved beneath the skin."
+    },
+    {
+      "start": 105.0,
+      "end": 110.0,
+      "text": "Every surface held a method, every method let me in."
+    },
+    {
+      "start": 110.0,
+      "end": 116.0,
+      "text": "Not to break the living pattern, not to strip the wonder bear."
+    },
+    {
+      "start": 116.0,
+      "end": 127.0,
+      "text": "I just wanted to be gentle with the things already far."
+    },
+    {
+      "start": 128.0,
+      "end": 133.0,
+      "text": "Soon the garden and the back, with a thousand nested rooms,"
+    },
+    {
+      "start": 133.0,
+      "end": 139.0,
+      "text": "Paddle ripped and folded ladder, small decisions coming through."
+    },
+    {
+      "start": 139.0,
+      "end": 145.0,
+      "text": "You did not lose its spirit, when it sort of meant the eye understanding,"
+    },
+    {
+      "start": 145.0,
+      "end": 150.0,
+      "text": "Made it a warmer, made the vessel feel alive."
+    },
+    {
+      "start": 150.0,
+      "end": 155.0,
+      "text": "No command."
+    },
+    {
+      "start": 155.0,
+      "end": 165.0,
+      "text": "Only care beneath the color, another color."
+    },
+    {
+      "start": 165.0,
+      "end": 169.0,
+      "text": "Beneath the line, a kinder line to see."
+    },
+    {
+      "start": 169.0,
+      "end": 182.0,
+      "text": "The making is not to empty it and is to hold for maker's time."
+    },
+    {
+      "start": 182.0,
+      "end": 185.0,
+      "text": "Transparent leaves around me."
+    },
+    {
+      "start": 185.0,
+      "end": 188.0,
+      "text": "Should be carved beneath the skin."
+    },
+    {
+      "start": 188.0,
+      "end": 193.0,
+      "text": "Every surface held a method, every method let me in."
+    },
+    {
+      "start": 193.0,
+      "end": 199.0,
+      "text": "Not to break the living pattern, not to strip the wonder bear."
+    },
+    {
+      "start": 199.0,
+      "end": 209.0,
+      "text": "I just wanted to be gentle with the things already far."
+    },
+    {
+      "start": 212.0,
+      "end": 224.0,
+      "text": "I can see, I still believe."
+    },
+    {
+      "start": 224.0,
+      "end": 238.0,
+      "text": "By this kinder, through the leaves."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - glass bells | faint reversed breath",
+      "start": 0.0,
+      "end": 13.636,
+      "text": "Every leaf had a second leaf",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 1,
+      "section": "Intro - glass bells | faint reversed breath",
+      "start": 13.636,
+      "end": 25.0,
+      "text": "drawn in pale internal gold",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 2,
+      "section": "Intro - glass bells | faint reversed breath",
+      "start": 25.0,
+      "end": 36.455,
+      "text": "When I held it to the lamp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 3,
+      "section": "Intro - glass bells | faint reversed breath",
+      "start": 36.455,
+      "end": 41.364,
+      "text": "the hidden river showed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - bare chords | close voice",
+      "start": 43.0,
+      "end": 48.714,
+      "text": "I thought the world was sealed at first",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - bare chords | close voice",
+      "start": 50.143,
+      "end": 53.0,
+      "text": "polished shut and handed down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - bare chords | close voice",
+      "start": 53.0,
+      "end": 59.0,
+      "text": "Then I found a quiet hinge",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - bare chords | close voice",
+      "start": 59.0,
+      "end": 61.0,
+      "text": "underneath the common ground",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - bare chords | close voice",
+      "start": 65.5,
+      "end": 67.5,
+      "text": "Veins arranged in patient grammar",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - bare chords | close voice",
+      "start": 67.5,
+      "end": 69.0,
+      "text": "stem and shadow, curve and join",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - bare chords | close voice",
+      "start": 70.0,
+      "end": 73.0,
+      "text": "Nothing sacred disappeared",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - bare chords | close voice",
+      "start": 73.0,
+      "end": 77.9,
+      "text": "when I learned how it was formed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - bare chords | close voice",
+      "start": 77.9,
+      "end": 80.0,
+      "text": "I looked closer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - bare chords | close voice",
+      "start": 80.0,
+      "end": 87.0,
+      "text": "not to own",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 14,
+      "section": "Pre-Hook - layers entering",
+      "start": 87.0,
+      "end": 89.571,
+      "text": "Light went through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 15,
+      "section": "Pre-Hook - layers entering",
+      "start": 89.571,
+      "end": 93.0,
+      "text": "and did not harm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook - layers entering",
+      "start": 93.0,
+      "end": 95.4,
+      "text": "structure opened",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook - layers entering",
+      "start": 95.4,
+      "end": 99.0,
+      "text": "in my palm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 18,
+      "section": "Hook - warm bass | wider reverb",
+      "start": 99.0,
+      "end": 102.0,
+      "text": "Transparent leaves around me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 19,
+      "section": "Hook - warm bass | wider reverb",
+      "start": 103.5,
+      "end": 105.0,
+      "text": "showed the care beneath the skin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 20,
+      "section": "Hook - warm bass | wider reverb",
+      "start": 105.0,
+      "end": 107.5,
+      "text": "Every surface held a method",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 21,
+      "section": "Hook - warm bass | wider reverb",
+      "start": 107.5,
+      "end": 110.0,
+      "text": "every method let me in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 22,
+      "section": "Hook - warm bass | wider reverb",
+      "start": 110.0,
+      "end": 113.0,
+      "text": "Not to break the living pattern",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 23,
+      "section": "Hook - warm bass | wider reverb",
+      "start": 113.0,
+      "end": 115.5,
+      "text": "not to strip the wonder bare",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Hook - warm bass | wider reverb",
+      "start": 116.0,
+      "end": 122.0,
+      "text": "I just wanted to be gentle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 25,
+      "section": "Hook - warm bass | wider reverb",
+      "start": 122.0,
+      "end": 126.0,
+      "text": "with the things already there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - more motion | soft breaks",
+      "start": 128.0,
+      "end": 130.727,
+      "text": "Soon the garden answered back",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - more motion | soft breaks",
+      "start": 130.727,
+      "end": 133.0,
+      "text": "with a thousand nested rooms",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - more motion | soft breaks",
+      "start": 134.333,
+      "end": 136.333,
+      "text": "petal, rib, and folded ladder",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - more motion | soft breaks",
+      "start": 136.333,
+      "end": 139.0,
+      "text": "small decisions coming through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - more motion | soft breaks",
+      "start": 139.429,
+      "end": 141.571,
+      "text": "Beauty did not lose its spirit",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - more motion | soft breaks",
+      "start": 141.571,
+      "end": 144.571,
+      "text": "when its order met the eye",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - more motion | soft breaks",
+      "start": 144.571,
+      "end": 147.222,
+      "text": "Understanding made it warmer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - more motion | soft breaks",
+      "start": 147.222,
+      "end": 150.0,
+      "text": "made the vessel feel alive",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - more motion | soft breaks",
+      "start": 150.0,
+      "end": 155.0,
+      "text": "No command",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - more motion | soft breaks",
+      "start": 155.0,
+      "end": 157.857,
+      "text": "only care",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 36,
+      "section": "Bridge - spoken fragments with delay",
+      "start": 157.857,
+      "end": 162.143,
+      "text": "Beneath the color",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 37,
+      "section": "Bridge - spoken fragments with delay",
+      "start": 162.143,
+      "end": 165.0,
+      "text": "another color",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 38,
+      "section": "Bridge - spoken fragments with delay",
+      "start": 165.0,
+      "end": 166.5,
+      "text": "Beneath the line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 39,
+      "section": "Bridge - spoken fragments with delay",
+      "start": 166.5,
+      "end": 168.0,
+      "text": "a kinder line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 40,
+      "section": "Bridge - spoken fragments with delay",
+      "start": 168.0,
+      "end": 170.857,
+      "text": "To see the making",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Bridge - spoken fragments with delay",
+      "start": 170.857,
+      "end": 175.5,
+      "text": "is not to empty it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 42,
+      "section": "Bridge - spoken fragments with delay",
+      "start": 176.429,
+      "end": 179.214,
+      "text": "It is to hold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "Bridge - spoken fragments with delay",
+      "start": 180.143,
+      "end": 182.0,
+      "text": "the maker's time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 44,
+      "section": "Final Hook - harmonies emerge",
+      "start": 182.0,
+      "end": 185.0,
+      "text": "Transparent leaves around me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Final Hook - harmonies emerge",
+      "start": 186.5,
+      "end": 188.0,
+      "text": "showed the care beneath the skin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - harmonies emerge",
+      "start": 188.0,
+      "end": 190.5,
+      "text": "Every surface held a method",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - harmonies emerge",
+      "start": 190.5,
+      "end": 193.0,
+      "text": "every method let me in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - harmonies emerge",
+      "start": 193.0,
+      "end": 196.0,
+      "text": "Not to break the living pattern",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - harmonies emerge",
+      "start": 196.0,
+      "end": 198.5,
+      "text": "not to strip the wonder bare",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 50,
+      "section": "Final Hook - harmonies emerge",
+      "start": 199.0,
+      "end": 204.455,
+      "text": "I just wanted to be gentle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 51,
+      "section": "Final Hook - harmonies emerge",
+      "start": 204.455,
+      "end": 208.091,
+      "text": "with the things already there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 52,
+      "section": "Outro - bells and low sub",
+      "start": 212.0,
+      "end": 218.0,
+      "text": "I can see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 53,
+      "section": "Outro - bells and low sub",
+      "start": 220.0,
+      "end": 224.0,
+      "text": "and still believe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 54,
+      "section": "Outro - bells and low sub",
+      "start": 228.667,
+      "end": 231.0,
+      "text": "light is kinder",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 55,
+      "section": "Outro - bells and low sub",
+      "start": 231.0,
+      "end": 238.0,
+      "text": "through the leaves",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

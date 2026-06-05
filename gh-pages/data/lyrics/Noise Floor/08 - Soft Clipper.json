@@ -1,0 +1,836 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Noise Floor",
+  "title": "Soft Clipper",
+  "text_path": "Noise Floor/08 - Soft Clipper.txt",
+  "audio_path": "Noise Floor/audio/08 - Soft Clipper.mp3",
+  "duration_seconds": 225.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 72,
+    "reference_word_count": 357,
+    "observed_word_count": 361,
+    "matched_word_count": 296,
+    "matched_word_ratio": 0.829
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 17.0,
+      "text": "The room is teeth, until a meter close."
+    },
+    {
+      "start": 17.0,
+      "end": 32.0,
+      "text": "I touch the knob, and all the corners fold."
+    },
+    {
+      "start": 32.0,
+      "end": 41.0,
+      "text": "One beat gone, and everybody knows."
+    },
+    {
+      "start": 41.0,
+      "end": 46.0,
+      "text": "I keep a drawer of borrow gestures by the input near the door."
+    },
+    {
+      "start": 46.0,
+      "end": 51.0,
+      "text": "Gently laugh a slower answer, less of what I meant before."
+    },
+    {
+      "start": 51.0,
+      "end": 56.0,
+      "text": "When the needle warms the amber, I can pass for afternoon."
+    },
+    {
+      "start": 56.0,
+      "end": 61.0,
+      "text": "All my angles tucked their shoulders, all my clocks agree with you."
+    },
+    {
+      "start": 61.0,
+      "end": 66.0,
+      "text": "Nobody asked about the wiring, when the trouble has been shaped."
+    },
+    {
+      "start": 66.0,
+      "end": 72.0,
+      "text": "Now you become an easier station with a difficult parts delay."
+    },
+    {
+      "start": 72.0,
+      "end": 83.0,
+      "text": "The corner, say the spark, round the sentence high, the marks off."
+    },
+    {
+      "start": 83.0,
+      "end": 87.0,
+      "text": "Clip around me over, pick the spike out of my name."
+    },
+    {
+      "start": 87.0,
+      "end": 92.0,
+      "text": "Make me warm enough, strangers make me simple in the frame."
+    },
+    {
+      "start": 92.0,
+      "end": 98.0,
+      "text": "I can laugh a little later, I can miss a little lesson."
+    },
+    {
+      "start": 98.0,
+      "end": 107.0,
+      "text": "So, if the clip would keep me so short, with the fall light in my chest."
+    },
+    {
+      "start": 107.0,
+      "end": 114.0,
+      "text": "There is mercy in the smoothing end of the building, beneath the tone."
+    },
+    {
+      "start": 114.0,
+      "end": 119.0,
+      "text": "Every joke gets through the speaker, but it doesn't sound like home."
+    },
+    {
+      "start": 119.0,
+      "end": 124.0,
+      "text": "I can sit inside the chatter, I can sway in a cocoon."
+    },
+    {
+      "start": 124.0,
+      "end": 129.0,
+      "text": "Still the true part waits and stand by with both hands around the route."
+    },
+    {
+      "start": 129.0,
+      "end": 135.0,
+      "text": "By the second one revision, I am everyone's soft friend."
+    },
+    {
+      "start": 135.0,
+      "end": 140.0,
+      "text": "By the third, the backing heels off, little names I need again."
+    },
+    {
+      "start": 140.0,
+      "end": 145.0,
+      "text": "Soft clip around me over, leave the spark, but change the shape."
+    },
+    {
+      "start": 145.0,
+      "end": 150.0,
+      "text": "Let the room up, bobby, answer all the questions, stays awake."
+    },
+    {
+      "start": 150.0,
+      "end": 156.0,
+      "text": "I can laugh a little later, I can miss a little lesson."
+    },
+    {
+      "start": 156.0,
+      "end": 164.0,
+      "text": "Soft clip, keep me welcome, with the fall light in my chest."
+    },
+    {
+      "start": 167.0,
+      "end": 172.0,
+      "text": "Turn it off, hear the corner, not ugly, just exact."
+    },
+    {
+      "start": 172.0,
+      "end": 179.0,
+      "text": "Turn it on, watch the rest, I hate how well it acts."
+    },
+    {
+      "start": 179.0,
+      "end": 186.0,
+      "text": "Soft clip around me over, but don't take the spike away."
+    },
+    {
+      "start": 186.0,
+      "end": 191.0,
+      "text": "Let it press beneath the chorus, like a name I need to say."
+    },
+    {
+      "start": 191.0,
+      "end": 196.0,
+      "text": "I can laugh a little later, I can miss a little lesson."
+    },
+    {
+      "start": 196.0,
+      "end": 203.0,
+      "text": "Soft clip, leave me welcome, with the fall light in my chest."
+    },
+    {
+      "start": 208.0,
+      "end": 214.0,
+      "text": "When the room goes quiet, I come back sharp."
+    },
+    {
+      "start": 218.0,
+      "end": 221.0,
+      "text": "One beat gone, I count."
+    },
+    {
+      "start": 221.0,
+      "end": 225.0,
+      "text": "What I kept."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - glassy keys | meter glow",
+      "start": 0.0,
+      "end": 8.5,
+      "text": "The room has teeth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 1,
+      "section": "Intro - glassy keys | meter glow",
+      "start": 8.5,
+      "end": 14.875,
+      "text": "until the meter glows",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 2,
+      "section": "Intro - glassy keys | meter glow",
+      "start": 17.0,
+      "end": 23.667,
+      "text": "I touch the knob",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 3,
+      "section": "Intro - glassy keys | meter glow",
+      "start": 23.667,
+      "end": 32.0,
+      "text": "and all the corners fold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 4,
+      "section": "Intro - glassy keys | meter glow",
+      "start": 32.0,
+      "end": 36.5,
+      "text": "One beat gone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 5,
+      "section": "Intro - glassy keys | meter glow",
+      "start": 38.0,
+      "end": 41.0,
+      "text": "then everybody knows",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 41.0,
+      "end": 43.692,
+      "text": "I keep a drawer of borrowed gestures",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 43.692,
+      "end": 46.0,
+      "text": "by the input near the door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 46.455,
+      "end": 48.273,
+      "text": "A gentler laugh, a slower answer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 48.273,
+      "end": 51.0,
+      "text": "less of what I meant before",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 51.0,
+      "end": 53.727,
+      "text": "When the needle warms to amber",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 53.727,
+      "end": 56.0,
+      "text": "I can pass for afternoon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 56.0,
+      "end": 58.5,
+      "text": "All my angles tuck their shoulders",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 58.5,
+      "end": 61.0,
+      "text": "all my clocks agree with you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 61.0,
+      "end": 63.273,
+      "text": "Nobody asks about the wiring",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 63.273,
+      "end": 65.545,
+      "text": "when the treble has been shaved",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 67.091,
+      "end": 69.273,
+      "text": "I become an easier station",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - relaxed pocket | muted guitar chop",
+      "start": 69.273,
+      "end": 71.455,
+      "text": "with the difficult parts delayed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 18,
+      "section": "Pre-hook - one-beat breath | bass answers vocal",
+      "start": 72.0,
+      "end": 73.833,
+      "text": "Round the corner",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 19,
+      "section": "Pre-hook - one-beat breath | bass answers vocal",
+      "start": 74.75,
+      "end": 76.583,
+      "text": "save the spark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 20,
+      "section": "Pre-hook - one-beat breath | bass answers vocal",
+      "start": 76.583,
+      "end": 79.333,
+      "text": "Round the sentence",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Pre-hook - one-beat breath | bass answers vocal",
+      "start": 80.25,
+      "end": 81.167,
+      "text": "hide the mark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 22,
+      "section": "Hook 1 - soft saturation | wider doubles",
+      "start": 83.727,
+      "end": 84.455,
+      "text": "Soft clipper, round me over",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 23,
+      "section": "Hook 1 - soft saturation | wider doubles",
+      "start": 84.818,
+      "end": 87.0,
+      "text": "take the spike out of my name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 24,
+      "section": "Hook 1 - soft saturation | wider doubles",
+      "start": 87.0,
+      "end": 89.273,
+      "text": "Make me warm enough for strangers",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 25,
+      "section": "Hook 1 - soft saturation | wider doubles",
+      "start": 89.273,
+      "end": 92.0,
+      "text": "make me simple in the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 26,
+      "section": "Hook 1 - soft saturation | wider doubles",
+      "start": 92.0,
+      "end": 95.0,
+      "text": "I can laugh a little later",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 27,
+      "section": "Hook 1 - soft saturation | wider doubles",
+      "start": 95.0,
+      "end": 97.5,
+      "text": "I can miss a little less",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 28,
+      "section": "Hook 1 - soft saturation | wider doubles",
+      "start": 100.812,
+      "end": 101.938,
+      "text": "Soft clipper, keep me social",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 29,
+      "section": "Hook 1 - soft saturation | wider doubles",
+      "start": 103.062,
+      "end": 107.0,
+      "text": "with a fault light in my chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 107.0,
+      "end": 110.231,
+      "text": "There is mercy in the smoothing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 112.385,
+      "end": 114.0,
+      "text": "and a bill beneath the tone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 114.0,
+      "end": 116.5,
+      "text": "Every joke gets through the speaker",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 116.5,
+      "end": 119.0,
+      "text": "but it doesn't sound like home",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 119.0,
+      "end": 121.5,
+      "text": "I can sit inside the chatter",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 121.5,
+      "end": 122.75,
+      "text": "I can sway and not compute",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 36,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 124.0,
+      "end": 125.786,
+      "text": "Still the true part waits in standby",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 37,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 126.857,
+      "end": 128.643,
+      "text": "with both hands around the root",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 38,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 129.0,
+      "end": 132.0,
+      "text": "By the second warm revision",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 39,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 132.0,
+      "end": 135.0,
+      "text": "I am everyone's soft friend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 40,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 135.0,
+      "end": 137.917,
+      "text": "By the third, the backing peels off",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 41,
+      "section": "Verse 2 - dub bass leans behind beat | lyric cell returns",
+      "start": 137.917,
+      "end": 140.0,
+      "text": "little names I need again",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 42,
+      "section": "Hook 2 - thinner doubles | missing beat cuts harder",
+      "start": 140.0,
+      "end": 142.083,
+      "text": "Soft clipper, round me over",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "Hook 2 - thinner doubles | missing beat cuts harder",
+      "start": 142.083,
+      "end": 145.0,
+      "text": "leave the spark but change the shape",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 44,
+      "section": "Hook 2 - thinner doubles | missing beat cuts harder",
+      "start": 145.0,
+      "end": 148.636,
+      "text": "Let the room applaud the answer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Hook 2 - thinner doubles | missing beat cuts harder",
+      "start": 149.091,
+      "end": 150.0,
+      "text": "while the question stays awake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 46,
+      "section": "Hook 2 - thinner doubles | missing beat cuts harder",
+      "start": 150.0,
+      "end": 153.0,
+      "text": "I can laugh a little later",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 47,
+      "section": "Hook 2 - thinner doubles | missing beat cuts harder",
+      "start": 153.0,
+      "end": 155.5,
+      "text": "I can miss a little less",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Hook 2 - thinner doubles | missing beat cuts harder",
+      "start": 156.0,
+      "end": 159.333,
+      "text": "Soft clipper, keep me welcome",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 49,
+      "section": "Hook 2 - thinner doubles | missing beat cuts harder",
+      "start": 159.333,
+      "end": 164.0,
+      "text": "with a fault light in my chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 50,
+      "section": "Bridge - saturation drops | dry vocal, no doubles",
+      "start": 167.0,
+      "end": 168.5,
+      "text": "Turn it off",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Bridge - saturation drops | dry vocal, no doubles",
+      "start": 168.5,
+      "end": 170.0,
+      "text": "hear the corner",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 52,
+      "section": "Bridge - saturation drops | dry vocal, no doubles",
+      "start": 170.0,
+      "end": 171.0,
+      "text": "not ugly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 53,
+      "section": "Bridge - saturation drops | dry vocal, no doubles",
+      "start": 171.0,
+      "end": 172.0,
+      "text": "just exact",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 54,
+      "section": "Bridge - saturation drops | dry vocal, no doubles",
+      "start": 172.0,
+      "end": 173.75,
+      "text": "Turn it on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 55,
+      "section": "Bridge - saturation drops | dry vocal, no doubles",
+      "start": 173.75,
+      "end": 175.5,
+      "text": "watch them rest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 56,
+      "section": "Bridge - saturation drops | dry vocal, no doubles",
+      "start": 175.5,
+      "end": 176.667,
+      "text": "I hate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 57,
+      "section": "Bridge - saturation drops | dry vocal, no doubles",
+      "start": 176.667,
+      "end": 177.833,
+      "text": "how well",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 58,
+      "section": "Bridge - saturation drops | dry vocal, no doubles",
+      "start": 177.833,
+      "end": 179.0,
+      "text": "it acts",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 59,
+      "section": "Final Hook - F major over D minor bass | dry edge remains",
+      "start": 179.0,
+      "end": 182.182,
+      "text": "Soft clipper, round me over",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 60,
+      "section": "Final Hook - F major over D minor bass | dry edge remains",
+      "start": 182.182,
+      "end": 186.0,
+      "text": "but don't take the spike away",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 61,
+      "section": "Final Hook - F major over D minor bass | dry edge remains",
+      "start": 186.0,
+      "end": 188.308,
+      "text": "Let it press beneath the chorus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 62,
+      "section": "Final Hook - F major over D minor bass | dry edge remains",
+      "start": 188.308,
+      "end": 191.0,
+      "text": "like a name I mean to say",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 63,
+      "section": "Final Hook - F major over D minor bass | dry edge remains",
+      "start": 191.0,
+      "end": 193.5,
+      "text": "I can laugh a little later",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 64,
+      "section": "Final Hook - F major over D minor bass | dry edge remains",
+      "start": 193.5,
+      "end": 194.75,
+      "text": "I can miss and still confess",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 65,
+      "section": "Final Hook - F major over D minor bass | dry edge remains",
+      "start": 196.0,
+      "end": 198.917,
+      "text": "Soft clipper, leave me welcome",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 66,
+      "section": "Final Hook - F major over D minor bass | dry edge remains",
+      "start": 198.917,
+      "end": 203.0,
+      "text": "with the fault light in my chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 67,
+      "section": "Outro - tape wobble | single dry line",
+      "start": 208.0,
+      "end": 211.333,
+      "text": "When the room goes quiet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 68,
+      "section": "Outro - tape wobble | single dry line",
+      "start": 211.333,
+      "end": 214.0,
+      "text": "I come back sharp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 69,
+      "section": "Outro - tape wobble | single dry line",
+      "start": 218.0,
+      "end": 219.8,
+      "text": "One beat gone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 70,
+      "section": "Outro - tape wobble | single dry line",
+      "start": 219.8,
+      "end": 221.0,
+      "text": "I count",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 71,
+      "section": "Outro - tape wobble | single dry line",
+      "start": 221.0,
+      "end": 225.0,
+      "text": "what I kept",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

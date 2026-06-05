@@ -1,0 +1,1029 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Failure to Converge",
+  "title": "Taking Shape",
+  "text_path": "Failure to Converge/09 - Taking Shape.txt",
+  "audio_path": "Failure to Converge/audio/09 - Taking Shape.mp3",
+  "duration_seconds": 267.84,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 94,
+    "reference_word_count": 425,
+    "observed_word_count": 428,
+    "matched_word_count": 403,
+    "matched_word_ratio": 0.948
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 12.24,
+      "text": "I was told there's a pattern underneath it all."
+    },
+    {
+      "start": 12.24,
+      "end": 20.72,
+      "text": "Something hidden holding the pieces together but no one said it would feel like falling"
+    },
+    {
+      "start": 20.72,
+      "end": 22.72,
+      "text": "apart first."
+    },
+    {
+      "start": 30.0,
+      "end": 38.0,
+      "text": "I tried to fit into a single line when version of me had a time but every answer split"
+    },
+    {
+      "start": 38.0,
+      "end": 41.28,
+      "text": "into a thousand almost points of view."
+    },
+    {
+      "start": 41.28,
+      "end": 47.44,
+      "text": "They said be certain, choose a side but I kept shifting deep inside like every thought"
+    },
+    {
+      "start": 47.44,
+      "end": 48.96,
+      "text": "I tried to keep."
+    },
+    {
+      "start": 48.96,
+      "end": 57.6,
+      "text": "We'll blow the edges and my sleep by wasn't breaking just rewriting shape."
+    },
+    {
+      "start": 59.52,
+      "end": 63.44,
+      "text": "Somewhere between who I was and who I could be."
+    },
+    {
+      "start": 63.44,
+      "end": 69.92,
+      "text": "There's a space no one sees."
+    },
+    {
+      "start": 69.92,
+      "end": 75.52,
+      "text": "I'm learning how to move between every version I've ever been."
+    },
+    {
+      "start": 75.52,
+      "end": 80.48,
+      "text": "I'm not one truth not one design just a thousand ways to realign."
+    },
+    {
+      "start": 80.48,
+      "end": 91.04,
+      "text": "If I dissolve I reappear closer to something honest here and I lost just rearranged in the shape of change."
+    },
+    {
+      "start": 91.04,
+      "end": 107.76,
+      "text": "Every memory bends a little compressed into something simple but when I open it again"
+    },
+    {
+      "start": 107.76,
+      "end": 110.32,
+      "text": "it never looks the way it did."
+    },
+    {
+      "start": 110.32,
+      "end": 116.8,
+      "text": "There's noise inside the signal line a quiet chaos still refine the fragile balance push"
+    },
+    {
+      "start": 116.8,
+      "end": 122.88,
+      "text": "and pull between the parts and the whole I let it wander then pull it back not perfect."
+    },
+    {
+      "start": 123.76,
+      "end": 130.56,
+      "text": "But intact a hidden map beneath the doubt drawn in curves I'm tracing out."
+    },
+    {
+      "start": 130.56,
+      "end": 135.76,
+      "text": "I'm learning how to move between every version I've ever been."
+    },
+    {
+      "start": 135.76,
+      "end": 140.96,
+      "text": "I'm not one truth no one design just a thousand ways to realign."
+    },
+    {
+      "start": 140.96,
+      "end": 151.2,
+      "text": "If I dissolve I reappear closer to something honest here and I lost just rearranged in the shape of change."
+    },
+    {
+      "start": 152.96,
+      "end": 162.56,
+      "text": "They told me consistency means staying the same but what if it means returning differently?"
+    },
+    {
+      "start": 162.96,
+      "end": 167.12,
+      "text": "What if every distortion is just translation?"
+    },
+    {
+      "start": 169.12,
+      "end": 180.4,
+      "text": "Every fracture a new dimension and all this uncertainty isn't failure it's freedom."
+    },
+    {
+      "start": 181.2,
+      "end": 193.92,
+      "text": "A structure somewhere in the blur something holds not fixed but familiar."
+    },
+    {
+      "start": 197.76,
+      "end": 205.44,
+      "text": "I start to see it in the drift the quite logic in the shift however lost became a door"
+    },
+    {
+      "start": 205.44,
+      "end": 212.96,
+      "text": "to versions I ignored before no single path could carry me through all the men to learn and be"
+    },
+    {
+      "start": 212.96,
+      "end": 224.24,
+      "text": "so I unfold I bend I break and find the form I need to take not one answer but a range."
+    },
+    {
+      "start": 225.84,
+      "end": 231.44,
+      "text": "I'm learning how to move between every version I've ever been."
+    },
+    {
+      "start": 231.44,
+      "end": 247.44,
+      "text": "I'm not one truth no one design just a living breathing line if I dissolve I reappear closer to something real here not fixed just rearranged in the shape of change."
+    },
+    {
+      "start": 247.44,
+      "end": 260.64,
+      "text": "Somewhere inside all the noise and all the choice there's a quiet center not where I stay."
+    },
+    {
+      "start": 260.64,
+      "end": 267.84,
+      "text": "But where I begin again."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro – whispered vocal fragments | distant pads | faint glitch artifacts",
+      "start": 0.0,
+      "end": 4.08,
+      "text": "I was told",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 1,
+      "section": "Intro – whispered vocal fragments | distant pads | faint glitch artifacts",
+      "start": 4.08,
+      "end": 12.24,
+      "text": "there’s a pattern underneath it all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 2,
+      "section": "Intro – whispered vocal fragments | distant pads | faint glitch artifacts",
+      "start": 12.24,
+      "end": 13.371,
+      "text": "something hidden",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 3,
+      "section": "Intro – whispered vocal fragments | distant pads | faint glitch artifacts",
+      "start": 13.371,
+      "end": 15.632,
+      "text": "holding the pieces together",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 4,
+      "section": "Intro – whispered vocal fragments | distant pads | faint glitch artifacts",
+      "start": 15.632,
+      "end": 17.893,
+      "text": "but no one said",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 5,
+      "section": "Intro – whispered vocal fragments | distant pads | faint glitch artifacts",
+      "start": 17.893,
+      "end": 20.155,
+      "text": "it would feel like",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 6,
+      "section": "Intro – whispered vocal fragments | distant pads | faint glitch artifacts",
+      "start": 20.155,
+      "end": 22.72,
+      "text": "falling apart first",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 – minimal beat + pulsing synth",
+      "start": 30.0,
+      "end": 33.368,
+      "text": "I tried to fit into a single line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 – minimal beat + pulsing synth",
+      "start": 33.789,
+      "end": 36.316,
+      "text": "one version of me at a time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 – minimal beat + pulsing synth",
+      "start": 36.316,
+      "end": 38.0,
+      "text": "But every answer split in two",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 – minimal beat + pulsing synth",
+      "start": 38.469,
+      "end": 41.28,
+      "text": "a thousand “almost” points of view",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 – minimal beat + pulsing synth",
+      "start": 41.28,
+      "end": 43.975,
+      "text": "They said “be certain, choose a side”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 – minimal beat + pulsing synth",
+      "start": 43.975,
+      "end": 46.285,
+      "text": "but I kept shifting deep inside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 – minimal beat + pulsing synth",
+      "start": 46.285,
+      "end": 48.96,
+      "text": "Like every thought I tried to keep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 – minimal beat + pulsing synth",
+      "start": 50.289,
+      "end": 53.612,
+      "text": "would blur the edges in my sleep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 – minimal beat + pulsing synth",
+      "start": 54.277,
+      "end": 55.606,
+      "text": "I wasn’t breaking",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 – minimal beat + pulsing synth",
+      "start": 55.606,
+      "end": 57.6,
+      "text": "just… rewriting shape",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook – subtle arpeggio enters",
+      "start": 59.52,
+      "end": 60.304,
+      "text": "Somewhere between",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 18,
+      "section": "Pre-Hook – subtle arpeggio enters",
+      "start": 60.304,
+      "end": 61.48,
+      "text": "who I was",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Pre-Hook – subtle arpeggio enters",
+      "start": 61.48,
+      "end": 63.44,
+      "text": "and who I could be",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 20,
+      "section": "Pre-Hook – subtle arpeggio enters",
+      "start": 63.44,
+      "end": 66.68,
+      "text": "there’s a space",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Pre-Hook – subtle arpeggio enters",
+      "start": 66.68,
+      "end": 69.92,
+      "text": "no one sees",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "Hook – airy melodic line | wider mix",
+      "start": 69.92,
+      "end": 72.975,
+      "text": "I’m learning how to move between",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 23,
+      "section": "Hook – airy melodic line | wider mix",
+      "start": 72.975,
+      "end": 75.52,
+      "text": "every version I’ve ever been",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Hook – airy melodic line | wider mix",
+      "start": 75.902,
+      "end": 78.191,
+      "text": "Not one truth, not one design",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 25,
+      "section": "Hook – airy melodic line | wider mix",
+      "start": 78.191,
+      "end": 80.48,
+      "text": "just a thousand ways to realign",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 26,
+      "section": "Hook – airy melodic line | wider mix",
+      "start": 80.48,
+      "end": 83.12,
+      "text": "If I dissolve, I reappear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 27,
+      "section": "Hook – airy melodic line | wider mix",
+      "start": 83.12,
+      "end": 85.76,
+      "text": "closer to something honest here",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 28,
+      "section": "Hook – airy melodic line | wider mix",
+      "start": 86.816,
+      "end": 88.4,
+      "text": "Not lost—just rearranged",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Hook – airy melodic line | wider mix",
+      "start": 88.4,
+      "end": 91.04,
+      "text": "in the shape of change",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 91.04,
+      "end": 96.613,
+      "text": "Every memory bends a little",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 96.613,
+      "end": 101.072,
+      "text": "compressed into something simple",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 101.072,
+      "end": 107.76,
+      "text": "But when I open it again",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 107.76,
+      "end": 110.32,
+      "text": "it never looks the way it did",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 110.32,
+      "end": 112.912,
+      "text": "There’s noise inside the signal line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 112.912,
+      "end": 114.64,
+      "text": "a quiet chaos, still refined",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 36,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 115.504,
+      "end": 117.476,
+      "text": "A fragile balance, push and pull",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 37,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 117.476,
+      "end": 119.502,
+      "text": "between the parts and the whole",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 38,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 119.502,
+      "end": 120.853,
+      "text": "I let it wander",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 39,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 120.853,
+      "end": 122.204,
+      "text": "then pull it back",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 122.204,
+      "end": 122.88,
+      "text": "not perfect—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 41,
+      "section": "Verse 2 – more rhythmic detail | textured layers",
+      "start": 123.76,
+      "end": 124.731,
+      "text": "but intact",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 42,
+      "section": "Pre-Hook – rising tension | filtered sweep",
+      "start": 124.731,
+      "end": 126.189,
+      "text": "A hidden map",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "Pre-Hook – rising tension | filtered sweep",
+      "start": 126.189,
+      "end": 127.646,
+      "text": "beneath the doubt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Pre-Hook – rising tension | filtered sweep",
+      "start": 127.646,
+      "end": 129.103,
+      "text": "drawn in curves",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 45,
+      "section": "Pre-Hook – rising tension | filtered sweep",
+      "start": 129.103,
+      "end": 130.56,
+      "text": "I’m tracing out",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Hook – fuller | warmer harmonies",
+      "start": 130.56,
+      "end": 133.396,
+      "text": "I’m learning how to move between",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 47,
+      "section": "Hook – fuller | warmer harmonies",
+      "start": 133.396,
+      "end": 135.76,
+      "text": "every version I’ve ever been",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Hook – fuller | warmer harmonies",
+      "start": 136.16,
+      "end": 138.56,
+      "text": "Not one truth, not one design",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 49,
+      "section": "Hook – fuller | warmer harmonies",
+      "start": 138.56,
+      "end": 140.96,
+      "text": "just a thousand ways to realign",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 50,
+      "section": "Hook – fuller | warmer harmonies",
+      "start": 140.96,
+      "end": 143.52,
+      "text": "If I dissolve, I reappear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 51,
+      "section": "Hook – fuller | warmer harmonies",
+      "start": 143.52,
+      "end": 146.08,
+      "text": "closer to something honest here",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 52,
+      "section": "Hook – fuller | warmer harmonies",
+      "start": 147.104,
+      "end": 148.64,
+      "text": "Not lost—just rearranged",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 53,
+      "section": "Hook – fuller | warmer harmonies",
+      "start": 148.64,
+      "end": 151.2,
+      "text": "in the shape of change",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 54,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 152.96,
+      "end": 154.88,
+      "text": "They told me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 55,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 154.88,
+      "end": 158.08,
+      "text": "consistency means staying the same",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 56,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 158.08,
+      "end": 161.28,
+      "text": "but what if it means",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 57,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 161.28,
+      "end": 162.56,
+      "text": "returning… differently?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 58,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 162.96,
+      "end": 165.337,
+      "text": "What if every distortion",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 59,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 165.337,
+      "end": 167.12,
+      "text": "is just translation",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 60,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 169.12,
+      "end": 170.855,
+      "text": "every fracture",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 61,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 170.855,
+      "end": 173.458,
+      "text": "a new dimension",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 62,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 173.458,
+      "end": 176.929,
+      "text": "And all this uncertainty",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 63,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 176.929,
+      "end": 178.665,
+      "text": "isn’t failure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 64,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 178.665,
+      "end": 180.4,
+      "text": "it’s freedom",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 65,
+      "section": "Bridge – breakdown | glitch fragments | spoken tone",
+      "start": 182.26,
+      "end": 183.32,
+      "text": "with structure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 66,
+      "section": "Turn – beat drops out briefly | warm pad swell",
+      "start": 183.32,
+      "end": 187.56,
+      "text": "Somewhere in the blur",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 67,
+      "section": "Turn – beat drops out briefly | warm pad swell",
+      "start": 187.56,
+      "end": 189.68,
+      "text": "something holds",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 68,
+      "section": "Turn – beat drops out briefly | warm pad swell",
+      "start": 189.68,
+      "end": 191.8,
+      "text": "not fixed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 69,
+      "section": "Turn – beat drops out briefly | warm pad swell",
+      "start": 191.8,
+      "end": 193.92,
+      "text": "but… familiar",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 70,
+      "section": "Verse 3 – softer, more human tone | melodic phrasing",
+      "start": 197.76,
+      "end": 200.994,
+      "text": "I start to see it in the drift",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 71,
+      "section": "Verse 3 – softer, more human tone | melodic phrasing",
+      "start": 200.994,
+      "end": 203.419,
+      "text": "the quiet logic in the shift",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 72,
+      "section": "Verse 3 – softer, more human tone | melodic phrasing",
+      "start": 204.227,
+      "end": 205.44,
+      "text": "How every loss became a door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 73,
+      "section": "Verse 3 – softer, more human tone | melodic phrasing",
+      "start": 205.44,
+      "end": 207.419,
+      "text": "to versions I ignored before",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 74,
+      "section": "Verse 3 – softer, more human tone | melodic phrasing",
+      "start": 207.419,
+      "end": 209.794,
+      "text": "No single path could carry me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 75,
+      "section": "Verse 3 – softer, more human tone | melodic phrasing",
+      "start": 209.794,
+      "end": 212.96,
+      "text": "through all I’m meant to learn and be",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 76,
+      "section": "Verse 3 – softer, more human tone | melodic phrasing",
+      "start": 212.96,
+      "end": 216.72,
+      "text": "So I unfold, I bend, I break",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 77,
+      "section": "Verse 3 – softer, more human tone | melodic phrasing",
+      "start": 216.72,
+      "end": 221.017,
+      "text": "and find the form I need to take",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 78,
+      "section": "Verse 3 – softer, more human tone | melodic phrasing",
+      "start": 221.017,
+      "end": 222.629,
+      "text": "Not one answer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 79,
+      "section": "Verse 3 – softer, more human tone | melodic phrasing",
+      "start": 222.629,
+      "end": 224.24,
+      "text": "but a range",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 80,
+      "section": "Final Hook – expansive | layered vocals",
+      "start": 225.84,
+      "end": 228.895,
+      "text": "I’m learning how to move between",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 81,
+      "section": "Final Hook – expansive | layered vocals",
+      "start": 228.895,
+      "end": 231.44,
+      "text": "every version I’ve ever been",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 82,
+      "section": "Final Hook – expansive | layered vocals",
+      "start": 231.956,
+      "end": 235.053,
+      "text": "Not one truth, not one design",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 83,
+      "section": "Final Hook – expansive | layered vocals",
+      "start": 235.053,
+      "end": 237.634,
+      "text": "just a living, breathing line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 84,
+      "section": "Final Hook – expansive | layered vocals",
+      "start": 237.634,
+      "end": 240.214,
+      "text": "If I dissolve, I reappear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 85,
+      "section": "Final Hook – expansive | layered vocals",
+      "start": 240.214,
+      "end": 242.795,
+      "text": "closer to something realer here",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 86,
+      "section": "Final Hook – expansive | layered vocals",
+      "start": 242.795,
+      "end": 244.859,
+      "text": "Not fixed—just rearranged",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 87,
+      "section": "Final Hook – expansive | layered vocals",
+      "start": 244.859,
+      "end": 247.44,
+      "text": "in the shape of change",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 88,
+      "section": "Outro – ambient fade | fragments recombining",
+      "start": 247.44,
+      "end": 248.993,
+      "text": "Somewhere inside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 89,
+      "section": "Outro – ambient fade | fragments recombining",
+      "start": 248.993,
+      "end": 251.322,
+      "text": "all the noise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 90,
+      "section": "Outro – ambient fade | fragments recombining",
+      "start": 251.322,
+      "end": 254.428,
+      "text": "and all the choice",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 91,
+      "section": "Outro – ambient fade | fragments recombining",
+      "start": 254.428,
+      "end": 257.534,
+      "text": "there’s a quiet center",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 92,
+      "section": "Outro – ambient fade | fragments recombining",
+      "start": 257.534,
+      "end": 260.64,
+      "text": "not where I stay",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 93,
+      "section": "Outro – ambient fade | fragments recombining",
+      "start": 260.64,
+      "end": 267.84,
+      "text": "but where I begin again",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    }
+  ]
+}

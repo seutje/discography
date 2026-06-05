@@ -16,6 +16,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "gh-pages"
 SOURCE_DATA = SOURCE_DIR / "data" / "catalog.json"
+LYRIC_TIMING_DIR = SOURCE_DIR / "data" / "lyrics"
 AUDIO_EXTENSIONS = (".mp3", ".wav", ".m4a", ".flac", ".ogg")
 IGNORED_DIRS = {
     ".agents",
@@ -101,6 +102,13 @@ def audio_path_for_text(text_path: Path) -> Path | None:
         if candidate.exists():
             return candidate
     return None
+
+
+def lyric_timing_url_for_text(text_path: Path) -> str:
+    timing_path = LYRIC_TIMING_DIR / text_path.parent.name / f"{text_path.stem}.json"
+    if not timing_path.exists():
+        return ""
+    return url_for_path(timing_path.relative_to(SOURCE_DIR).as_posix())
 
 
 def slugify(value: str, fallback: str = "report") -> str:
@@ -229,9 +237,12 @@ def build_album_catalog(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
             title = track_title(text_path)
             audio_path = audio_path_for_text(text_path)
             audio_rel = rel(audio_path) if audio_path else ""
+            lyrics_url = lyric_timing_url_for_text(text_path)
             record = records_by_audio.get(audio_rel.lower()) or records_by_album_title.get((album_dir.name.lower(), title.lower()))
             if not record:
                 continue
+            if lyrics_url:
+                record["lyrics_url"] = lyrics_url
             album_records.append(record)
             tracks.append(
                 {
@@ -241,6 +252,7 @@ def build_album_catalog(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
                     "text_path": rel(text_path),
                     "audio_path": audio_rel,
                     "audio_url": f"media/{url_for_path(audio_rel)}" if audio_rel else "",
+                    "lyrics_url": lyrics_url,
                     "analysis": record,
                 }
             )
@@ -339,6 +351,8 @@ def copy_site_assets(catalog: dict[str, Any], output_dir: Path) -> None:
     output_dir.mkdir(parents=True)
     shutil.copy2(SOURCE_DIR / "index.html", output_dir / "index.html")
     write_json(output_dir / "data" / "catalog.json", strip_embedded_reports(catalog))
+    if LYRIC_TIMING_DIR.exists():
+        shutil.copytree(LYRIC_TIMING_DIR, output_dir / "data" / "lyrics")
 
     for report_path, payload in report_payloads(catalog).items():
         write_json(output_dir / report_asset_path(report_path), payload)

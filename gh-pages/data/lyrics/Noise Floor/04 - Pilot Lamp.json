@@ -1,0 +1,639 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Noise Floor",
+  "title": "Pilot Lamp",
+  "text_path": "Noise Floor/04 - Pilot Lamp.txt",
+  "audio_path": "Noise Floor/audio/04 - Pilot Lamp.mp3",
+  "duration_seconds": 256.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 54,
+    "reference_word_count": 262,
+    "observed_word_count": 272,
+    "matched_word_count": 224,
+    "matched_word_ratio": 0.855
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 24.0,
+      "text": "The pilot lamp was on already before I crossed the room"
+    },
+    {
+      "start": 24.0,
+      "end": 36.0,
+      "text": "A little lambawitness in the belly of the tube"
+    },
+    {
+      "start": 36.0,
+      "end": 42.0,
+      "text": "I tell myself the ritual is only switching spot"
+    },
+    {
+      "start": 42.0,
+      "end": 48.0,
+      "text": "Comely hands around the relic only weather after dark"
+    },
+    {
+      "start": 48.0,
+      "end": 54.0,
+      "text": "But the chair has learned my outline and the window knows the cue"
+    },
+    {
+      "start": 54.0,
+      "end": 60.0,
+      "text": "Very even it drops the needle where the old instruction grew"
+    },
+    {
+      "start": 60.0,
+      "end": 66.0,
+      "text": "There is comfort in the filament, there is warning in the stain"
+    },
+    {
+      "start": 66.0,
+      "end": 72.0,
+      "text": "There is nothing very sudden the way I come again"
+    },
+    {
+      "start": 72.0,
+      "end": 82.0,
+      "text": "Pilot lamp, pilot lamp small and never double glow"
+    },
+    {
+      "start": 82.0,
+      "end": 96.0,
+      "text": "I can't turn from every door, it's still the hallway knows I know"
+    },
+    {
+      "start": 96.0,
+      "end": 106.0,
+      "text": "Pilot lamp, pilot lamp, bold machine beneath the ribs"
+    },
+    {
+      "start": 106.0,
+      "end": 112.0,
+      "text": "Not a thunder, not a promise just to pull that all the way"
+    },
+    {
+      "start": 112.0,
+      "end": 124.0,
+      "text": "The room gets softer at the edges and the ceiling always down"
+    },
+    {
+      "start": 124.0,
+      "end": 130.0,
+      "text": "I can almost call it shelter if I'm never named the brown"
+    },
+    {
+      "start": 130.0,
+      "end": 136.0,
+      "text": "All the clocks keep compagiving all the mirrors lose their key"
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "text": "While the coil writes its circle under every word I breathe in tomorrow"
+    },
+    {
+      "start": 144.0,
+      "end": 148.0,
+      "text": "Has a service hatch with my fingerprints inside"
+    },
+    {
+      "start": 148.0,
+      "end": 154.0,
+      "text": "I will say I'm meant to close it, I will leave it open wide"
+    },
+    {
+      "start": 154.0,
+      "end": 164.0,
+      "text": "No, no, no, gran, collapse, no, no, right, along this varnish"
+    },
+    {
+      "start": 164.0,
+      "end": 174.0,
+      "text": "Slowly darkening on the same two fingers"
+    },
+    {
+      "start": 174.0,
+      "end": 186.0,
+      "text": "Pilot lamp, pilot lamp small and never double glow"
+    },
+    {
+      "start": 186.0,
+      "end": 198.0,
+      "text": "I can't leave the room and be like still the socket hums me low"
+    },
+    {
+      "start": 198.0,
+      "end": 210.0,
+      "text": "Pilot lamp, pilot lamp, bold machine beneath the ribs"
+    },
+    {
+      "start": 210.0,
+      "end": 220.0,
+      "text": "Not a thunder, not a promise just to pull that all the way"
+    },
+    {
+      "start": 220.0,
+      "end": 236.0,
+      "text": "After the song the lamp stays lit, not asking"
+    },
+    {
+      "start": 236.0,
+      "end": 256.0,
+      "text": "Just waiting"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - tiny lamp tone | dusty organ",
+      "start": 0.0,
+      "end": 13.091,
+      "text": "The pilot lamp was on already",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 1,
+      "section": "Intro - tiny lamp tone | dusty organ",
+      "start": 13.091,
+      "end": 24.0,
+      "text": "before I crossed the room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 2,
+      "section": "Intro - tiny lamp tone | dusty organ",
+      "start": 24.0,
+      "end": 26.667,
+      "text": "A little amber witness",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 3,
+      "section": "Intro - tiny lamp tone | dusty organ",
+      "start": 28.0,
+      "end": 36.0,
+      "text": "in the belly of the tube",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 36.0,
+      "end": 39.333,
+      "text": "I tell myself the ritual",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 39.333,
+      "end": 40.667,
+      "text": "is only switch and spark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 42.667,
+      "end": 45.333,
+      "text": "only hands around a relic",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 45.333,
+      "end": 48.0,
+      "text": "only weather after dark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 48.0,
+      "end": 51.231,
+      "text": "But the chair has learned my outline",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 51.231,
+      "end": 54.0,
+      "text": "and the window knows the cue",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 55.636,
+      "end": 57.273,
+      "text": "Every evening drops the needle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 57.273,
+      "end": 60.0,
+      "text": "where the old instruction grew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 60.0,
+      "end": 63.0,
+      "text": "There is comfort in the filament",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 63.0,
+      "end": 66.0,
+      "text": "there is warning in the stain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 66.0,
+      "end": 69.0,
+      "text": "There is nothing very sudden",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - slow groove | narrow",
+      "start": 69.0,
+      "end": 72.0,
+      "text": "in the way I come again",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 16,
+      "section": "Hook - bass opens | tape trails",
+      "start": 72.0,
+      "end": 76.444,
+      "text": "Pilot lamp, pilot lamp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 17,
+      "section": "Hook - bass opens | tape trails",
+      "start": 76.444,
+      "end": 82.0,
+      "text": "small inevitable glow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 18,
+      "section": "Hook - bass opens | tape trails",
+      "start": 82.0,
+      "end": 87.385,
+      "text": "I can turn from every doorway",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 19,
+      "section": "Hook - bass opens | tape trails",
+      "start": 89.538,
+      "end": 96.0,
+      "text": "still the hallway knows I know",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Hook - bass opens | tape trails",
+      "start": 96.0,
+      "end": 100.444,
+      "text": "Pilot lamp, pilot lamp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 21,
+      "section": "Hook - bass opens | tape trails",
+      "start": 101.556,
+      "end": 106.0,
+      "text": "old machine beneath the ribs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 22,
+      "section": "Hook - bass opens | tape trails",
+      "start": 106.0,
+      "end": 108.769,
+      "text": "not a thunder, not a promise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 23,
+      "section": "Hook - bass opens | tape trails",
+      "start": 108.769,
+      "end": 110.615,
+      "text": "just the pull that always is",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 24,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 112.0,
+      "end": 119.0,
+      "text": "The room gets softer at the edges",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 25,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 119.0,
+      "end": 124.0,
+      "text": "and the ceiling lowers down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 124.0,
+      "end": 127.0,
+      "text": "I can almost call it shelter",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 127.0,
+      "end": 130.0,
+      "text": "if I never name the brown",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 130.0,
+      "end": 131.636,
+      "text": "All the clocks become forgiving",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 132.727,
+      "end": 135.455,
+      "text": "all the mirrors lose their teeth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 136.0,
+      "end": 139.692,
+      "text": "while the coil writes its circle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 139.692,
+      "end": 142.769,
+      "text": "under every word I breathe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 143.385,
+      "end": 146.0,
+      "text": "And tomorrow has a service hatch",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 146.0,
+      "end": 148.0,
+      "text": "with my fingerprints inside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 148.0,
+      "end": 151.429,
+      "text": "I will say I meant to close it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - organ pad wider | rimshot delayed",
+      "start": 151.429,
+      "end": 154.0,
+      "text": "I will leave it open wide",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 36,
+      "section": "Bridge - bass drops | lamp tone alone",
+      "start": 154.0,
+      "end": 158.545,
+      "text": "No grand collapse",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 37,
+      "section": "Bridge - bass drops | lamp tone alone",
+      "start": 158.545,
+      "end": 159.455,
+      "text": "no bright alarm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 38,
+      "section": "Bridge - bass drops | lamp tone alone",
+      "start": 163.091,
+      "end": 164.0,
+      "text": "just varnish",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 39,
+      "section": "Bridge - bass drops | lamp tone alone",
+      "start": 164.0,
+      "end": 166.857,
+      "text": "slowly darkening",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 40,
+      "section": "Bridge - bass drops | lamp tone alone",
+      "start": 166.857,
+      "end": 171.143,
+      "text": "on the same",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 41,
+      "section": "Bridge - bass drops | lamp tone alone",
+      "start": 171.143,
+      "end": 174.0,
+      "text": "two fingers",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 42,
+      "section": "Final Hook - steady | fatal warmth",
+      "start": 174.0,
+      "end": 179.333,
+      "text": "Pilot lamp, pilot lamp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Final Hook - steady | fatal warmth",
+      "start": 179.333,
+      "end": 186.0,
+      "text": "small inevitable glow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 44,
+      "section": "Final Hook - steady | fatal warmth",
+      "start": 186.0,
+      "end": 190.286,
+      "text": "I can leave the room in daylight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Final Hook - steady | fatal warmth",
+      "start": 192.857,
+      "end": 196.286,
+      "text": "still the socket hums below",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - steady | fatal warmth",
+      "start": 198.0,
+      "end": 203.333,
+      "text": "Pilot lamp, pilot lamp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - steady | fatal warmth",
+      "start": 204.667,
+      "end": 210.0,
+      "text": "old machine beneath the ribs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - steady | fatal warmth",
+      "start": 210.0,
+      "end": 214.615,
+      "text": "not a thunder, not a promise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - steady | fatal warmth",
+      "start": 214.615,
+      "end": 217.692,
+      "text": "just the pull that always is",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 50,
+      "section": "Outro - tape hiss | lamp tone remains",
+      "start": 220.0,
+      "end": 225.333,
+      "text": "After the song",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Outro - tape hiss | lamp tone remains",
+      "start": 225.333,
+      "end": 232.444,
+      "text": "the lamp stays lit",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 52,
+      "section": "Outro - tape hiss | lamp tone remains",
+      "start": 232.444,
+      "end": 236.0,
+      "text": "not asking",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 53,
+      "section": "Outro - tape hiss | lamp tone remains",
+      "start": 236.0,
+      "end": 256.0,
+      "text": "just waiting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    }
+  ]
+}

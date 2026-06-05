@@ -1,0 +1,712 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Noise Floor",
+  "title": "Carrier Handshake",
+  "text_path": "Noise Floor/07 - Carrier Handshake.txt",
+  "audio_path": "Noise Floor/audio/07 - Carrier Handshake.mp3",
+  "duration_seconds": 207.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 61,
+    "reference_word_count": 299,
+    "observed_word_count": 310,
+    "matched_word_count": 264,
+    "matched_word_ratio": 0.883
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 16.0,
+      "text": "I send a lamp to copper weather Three small pulses then a pause"
+    },
+    {
+      "start": 16.0,
+      "end": 26.0,
+      "text": "No one answers in the meter On the dust behind the walls"
+    },
+    {
+      "start": 26.0,
+      "end": 34.0,
+      "text": "Every table has a timing Every laugh arrives on rails"
+    },
+    {
+      "start": 34.0,
+      "end": 39.0,
+      "text": "I keep missing where the door is When the sentence lifts its veil"
+    },
+    {
+      "start": 39.0,
+      "end": 44.0,
+      "text": "So I build a little protocol From breath until it dies"
+    },
+    {
+      "start": 44.0,
+      "end": 49.0,
+      "text": "Check the checksum of a shoulder Read the voltage and replies"
+    },
+    {
+      "start": 49.0,
+      "end": 54.0,
+      "text": "But the channel keeps refusing My uncommon envelope"
+    },
+    {
+      "start": 54.0,
+      "end": 61.0,
+      "text": "I can hear the room assembling While I stand outside the code then you tap back"
+    },
+    {
+      "start": 61.0,
+      "end": 69.0,
+      "text": "Not in words Just the rhythm I heard"
+    },
+    {
+      "start": 69.0,
+      "end": 74.0,
+      "text": "Carry a head shape, hold the line From out with the in your wire"
+    },
+    {
+      "start": 74.0,
+      "end": 79.0,
+      "text": "Not a cure, not a mask Just a circuit asking back"
+    },
+    {
+      "start": 79.0,
+      "end": 85.0,
+      "text": "You don't smooth the stranger way You make room around it shaping"
+    },
+    {
+      "start": 85.0,
+      "end": 99.0,
+      "text": "Echo something lens Like a language with a hand"
+    },
+    {
+      "start": 99.0,
+      "end": 104.0,
+      "text": "Now the static has a contour Now the pauses have a floor"
+    },
+    {
+      "start": 104.0,
+      "end": 109.0,
+      "text": "All the signals I was hiding Open slowly, let's unsure"
+    },
+    {
+      "start": 109.0,
+      "end": 114.0,
+      "text": "There is color in the timing There is kindness in the leg"
+    },
+    {
+      "start": 114.0,
+      "end": 119.0,
+      "text": "You let me know blue sideways From the margins of the track"
+    },
+    {
+      "start": 119.0,
+      "end": 124.0,
+      "text": "I don't have to fake the weather I don't have to trim the frame"
+    },
+    {
+      "start": 124.0,
+      "end": 131.0,
+      "text": "You receive the long transmission And repeat it without shame"
+    },
+    {
+      "start": 131.0,
+      "end": 140.0,
+      "text": "This is not escape From the room This is finding one to an instrument"
+    },
+    {
+      "start": 140.0,
+      "end": 152.0,
+      "text": "Inside it If I overload you don't vanish You'll lower the gain and stay"
+    },
+    {
+      "start": 152.0,
+      "end": 157.0,
+      "text": "Carry a head shape, hold the line From out with the through your wire"
+    },
+    {
+      "start": 157.0,
+      "end": 162.0,
+      "text": "Every fragment, every flare Has a landing over there"
+    },
+    {
+      "start": 162.0,
+      "end": 167.0,
+      "text": "You don't name the strangers know As you hear pattern in the voice"
+    },
+    {
+      "start": 167.0,
+      "end": 172.0,
+      "text": "And the echo something stands Like a language with a hand"
+    },
+    {
+      "start": 173.0,
+      "end": 184.0,
+      "text": "Free small pulses then you knew"
+    },
+    {
+      "start": 191.0,
+      "end": 196.0,
+      "text": "Not decoded, just let through"
+    },
+    {
+      "start": 202.0,
+      "end": 207.0,
+      "text": "Free small pulses then you knew"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - weak carrier | hand percussion | room hum",
+      "start": 0.0,
+      "end": 8.615,
+      "text": "I send a lamp through copper weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 1,
+      "section": "Intro - weak carrier | hand percussion | room hum",
+      "start": 8.615,
+      "end": 16.0,
+      "text": "three small pulses, then a pause",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 2,
+      "section": "Intro - weak carrier | hand percussion | room hum",
+      "start": 16.0,
+      "end": 21.0,
+      "text": "No one answers in the meter",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 3,
+      "section": "Intro - weak carrier | hand percussion | room hum",
+      "start": 22.667,
+      "end": 26.0,
+      "text": "only dust behind the walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 26.0,
+      "end": 30.0,
+      "text": "Every table has a timing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 30.0,
+      "end": 34.0,
+      "text": "every laugh arrives on rails",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 34.0,
+      "end": 36.692,
+      "text": "I keep missing where the door is",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 36.692,
+      "end": 39.0,
+      "text": "when the sentence lifts its veil",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 39.0,
+      "end": 41.727,
+      "text": "So I build a little protocol",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 41.727,
+      "end": 42.636,
+      "text": "from breath and tilted eyes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 44.0,
+      "end": 46.727,
+      "text": "check the checksum of a shoulder",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 46.727,
+      "end": 49.0,
+      "text": "read the voltage in replies",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 49.0,
+      "end": 52.125,
+      "text": "But the channel keeps refusing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 52.125,
+      "end": 54.0,
+      "text": "my uncommon envelope",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 54.0,
+      "end": 56.625,
+      "text": "I can hear the room assembling",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - dry groove | narrow stereo",
+      "start": 56.625,
+      "end": 59.25,
+      "text": "while I stand outside the code",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 16,
+      "section": "Signal Turn - first chirp motif",
+      "start": 59.25,
+      "end": 61.0,
+      "text": "Then you tap back",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 17,
+      "section": "Signal Turn - first chirp motif",
+      "start": 61.0,
+      "end": 64.0,
+      "text": "not in words",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 18,
+      "section": "Signal Turn - first chirp motif",
+      "start": 64.0,
+      "end": 67.0,
+      "text": "just the rhythm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Signal Turn - first chirp motif",
+      "start": 67.0,
+      "end": 69.0,
+      "text": "I had heard",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 20,
+      "section": "Hook - wider | bass warms",
+      "start": 70.429,
+      "end": 71.5,
+      "text": "Carrier handshake, hold the line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Hook - wider | bass warms",
+      "start": 72.929,
+      "end": 74.0,
+      "text": "find my weather in your wire",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "Hook - wider | bass warms",
+      "start": 74.0,
+      "end": 76.727,
+      "text": "Not a cure and not a mask",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 23,
+      "section": "Hook - wider | bass warms",
+      "start": 76.727,
+      "end": 79.0,
+      "text": "just a circuit asking back",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Hook - wider | bass warms",
+      "start": 79.0,
+      "end": 81.0,
+      "text": "You don't smooth the strange away",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Hook - wider | bass warms",
+      "start": 82.0,
+      "end": 84.0,
+      "text": "you make room around its shape",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Hook - wider | bass warms",
+      "start": 85.0,
+      "end": 88.111,
+      "text": "In the echo, something lands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 27,
+      "section": "Hook - wider | bass warms",
+      "start": 89.667,
+      "end": 99.0,
+      "text": "like a language with a hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 99.0,
+      "end": 101.5,
+      "text": "Now the static has a contour",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 101.5,
+      "end": 104.0,
+      "text": "now the pauses have a floor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 104.0,
+      "end": 107.0,
+      "text": "All the signals I was hiding",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 107.0,
+      "end": 109.0,
+      "text": "open slowly, less unsure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 109.0,
+      "end": 111.5,
+      "text": "There is color in the timing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 111.5,
+      "end": 113.583,
+      "text": "there is kindness in the lag",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 114.0,
+      "end": 116.5,
+      "text": "You let meaning bloom sideways",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 116.5,
+      "end": 119.0,
+      "text": "from the margins of the track",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 36,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 119.0,
+      "end": 121.5,
+      "text": "I don't have to fake the weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 37,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 121.5,
+      "end": 124.0,
+      "text": "I don't have to trim the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 38,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 124.0,
+      "end": 127.5,
+      "text": "You receive the long transmission",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 39,
+      "section": "Verse 2 - dub delay answers vocal",
+      "start": 127.5,
+      "end": 131.0,
+      "text": "and repeat it without shame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 40,
+      "section": "Bridge - beat thins | modem chirps become melody",
+      "start": 131.0,
+      "end": 133.571,
+      "text": "This is not escape",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Bridge - beat thins | modem chirps become melody",
+      "start": 133.571,
+      "end": 135.5,
+      "text": "from the room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "Bridge - beat thins | modem chirps become melody",
+      "start": 135.5,
+      "end": 137.429,
+      "text": "This is finding",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "Bridge - beat thins | modem chirps become melody",
+      "start": 137.429,
+      "end": 140.0,
+      "text": "one tuned instrument",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 44,
+      "section": "Bridge - beat thins | modem chirps become melody",
+      "start": 140.0,
+      "end": 141.714,
+      "text": "inside it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 45,
+      "section": "Bridge - beat thins | modem chirps become melody",
+      "start": 141.714,
+      "end": 144.286,
+      "text": "If I overload",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Bridge - beat thins | modem chirps become melody",
+      "start": 144.286,
+      "end": 146.857,
+      "text": "you don't vanish",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 47,
+      "section": "Bridge - beat thins | modem chirps become melody",
+      "start": 147.714,
+      "end": 150.286,
+      "text": "you lower the gain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 48,
+      "section": "Bridge - beat thins | modem chirps become melody",
+      "start": 150.286,
+      "end": 152.0,
+      "text": "and stay",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - luminous | harmonies braid",
+      "start": 153.429,
+      "end": 154.5,
+      "text": "Carrier handshake, hold the line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 50,
+      "section": "Final Hook - luminous | harmonies braid",
+      "start": 155.929,
+      "end": 157.0,
+      "text": "thread my weather through your wire",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Final Hook - luminous | harmonies braid",
+      "start": 157.0,
+      "end": 159.222,
+      "text": "Every fragment, every flare",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 52,
+      "section": "Final Hook - luminous | harmonies braid",
+      "start": 159.222,
+      "end": 162.0,
+      "text": "has a landing over there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 53,
+      "section": "Final Hook - luminous | harmonies braid",
+      "start": 162.0,
+      "end": 164.692,
+      "text": "You don't name the strange as noise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 54,
+      "section": "Final Hook - luminous | harmonies braid",
+      "start": 164.692,
+      "end": 167.0,
+      "text": "you hear pattern in the voice",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 55,
+      "section": "Final Hook - luminous | harmonies braid",
+      "start": 167.455,
+      "end": 169.273,
+      "text": "In the echo, something stands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 56,
+      "section": "Final Hook - luminous | harmonies braid",
+      "start": 169.273,
+      "end": 172.0,
+      "text": "like a language with a hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 57,
+      "section": "Outro - carrier tone becomes pad",
+      "start": 174.833,
+      "end": 178.5,
+      "text": "Three small pulses",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 58,
+      "section": "Outro - carrier tone becomes pad",
+      "start": 178.5,
+      "end": 184.0,
+      "text": "then you knew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 59,
+      "section": "Outro - carrier tone becomes pad",
+      "start": 191.0,
+      "end": 193.0,
+      "text": "not decoded",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 60,
+      "section": "Outro - carrier tone becomes pad",
+      "start": 193.0,
+      "end": 196.0,
+      "text": "just let through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

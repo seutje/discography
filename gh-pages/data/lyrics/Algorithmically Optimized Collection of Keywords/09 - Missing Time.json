@@ -1,0 +1,622 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Algorithmically Optimized Collection of Keywords",
+  "title": "Missing Time",
+  "text_path": "Algorithmically Optimized Collection of Keywords/09 - Missing Time.txt",
+  "audio_path": "Algorithmically Optimized Collection of Keywords/audio/09 - Missing Time.mp3",
+  "duration_seconds": 272.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 61,
+    "reference_word_count": 376,
+    "observed_word_count": 10,
+    "matched_word_count": 0,
+    "matched_word_ratio": 0.0
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "Music"
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "Music"
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "Music"
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "Music"
+    },
+    {
+      "start": 120.0,
+      "end": 122.0,
+      "text": "Music"
+    },
+    {
+      "start": 150.0,
+      "end": 152.0,
+      "text": "Music"
+    },
+    {
+      "start": 180.0,
+      "end": 182.0,
+      "text": "Music"
+    },
+    {
+      "start": 210.0,
+      "end": 212.0,
+      "text": "Music"
+    },
+    {
+      "start": 240.0,
+      "end": 242.0,
+      "text": "Music"
+    },
+    {
+      "start": 270.0,
+      "end": 272.0,
+      "text": "Music"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 0.0,
+      "end": 4.34,
+      "text": "Snow wires build their white empire",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 4.34,
+      "end": 7.957,
+      "text": "December flickers, out of sync",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 7.957,
+      "end": 12.298,
+      "text": "Every tire learns how to tire",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 12.298,
+      "end": 15.915,
+      "text": "Every clock forgets to blink",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 15.915,
+      "end": 20.979,
+      "text": "We hang the names we can’t pronounce",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 20.979,
+      "end": 24.596,
+      "text": "On branches bending into glow",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 24.596,
+      "end": 28.213,
+      "text": "Photographs that won’t sit still",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 28.213,
+      "end": 34.0,
+      "text": "Teach the room what it used to know",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 34.0,
+      "end": 36.894,
+      "text": "Footsteps echo without feet",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 36.894,
+      "end": 40.511,
+      "text": "Chairs remember weight and heat",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 40.511,
+      "end": 44.128,
+      "text": "Calendar dust on borrowed days",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 44.128,
+      "end": 48.468,
+      "text": "The future stalls, the past decays",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 12,
+      "section": "Pre-Chorus",
+      "start": 48.468,
+      "end": 53.532,
+      "text": "If joy is just a borrowed sound",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 13,
+      "section": "Pre-Chorus",
+      "start": 53.532,
+      "end": 59.319,
+      "text": "Why does it ache when it comes around?",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 14,
+      "section": "Chorus",
+      "start": 59.319,
+      "end": 63.66,
+      "text": "It’s missing time, the season sings",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 15,
+      "section": "Chorus",
+      "start": 63.66,
+      "end": 68.723,
+      "text": "A choir of bells with broken strings",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 16,
+      "section": "Chorus",
+      "start": 68.723,
+      "end": 74.511,
+      "text": "We toast the air, we set the place",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 17,
+      "section": "Chorus",
+      "start": 74.511,
+      "end": 78.128,
+      "text": "For everyone we couldn’t save",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 18,
+      "section": "Chorus",
+      "start": 78.128,
+      "end": 82.468,
+      "text": "It’s missing time, the quiet kind",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 19,
+      "section": "Chorus",
+      "start": 82.468,
+      "end": 86.809,
+      "text": "The seconds we can’t leave behind",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 86.809,
+      "end": 90.426,
+      "text": "December knows our truest crime—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 90.426,
+      "end": 94.766,
+      "text": "We keep on living, missing time",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 22,
+      "section": "Verse 2",
+      "start": 94.766,
+      "end": 98.383,
+      "text": "Paper stars and paper skin",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 23,
+      "section": "Verse 2",
+      "start": 98.383,
+      "end": 103.447,
+      "text": "We learn the shape of “then” again",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 24,
+      "section": "Verse 2",
+      "start": 103.447,
+      "end": 108.511,
+      "text": "Your laugh still sleeps in vinyl grooves",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 25,
+      "section": "Verse 2",
+      "start": 108.511,
+      "end": 113.574,
+      "text": "Worn thin by hands we never use",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 26,
+      "section": "Verse 2",
+      "start": 113.574,
+      "end": 118.638,
+      "text": "The snow keeps secrets we once said",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 27,
+      "section": "Verse 2",
+      "start": 118.638,
+      "end": 123.702,
+      "text": "Like prayers we meant but never read",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 123.702,
+      "end": 128.766,
+      "text": "A living room of ghosts and light",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 128.766,
+      "end": 133.83,
+      "text": "We learn to grieve in neon white",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 30,
+      "section": "Pre-Chorus",
+      "start": 133.83,
+      "end": 138.894,
+      "text": "If hope is just a delayed reply",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 31,
+      "section": "Pre-Chorus",
+      "start": 138.894,
+      "end": 144.681,
+      "text": "Why does it ring when no one’s alive?",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 32,
+      "section": "Chorus",
+      "start": 144.681,
+      "end": 149.021,
+      "text": "It’s missing time, the season sings",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 33,
+      "section": "Chorus",
+      "start": 149.021,
+      "end": 154.085,
+      "text": "A choir of bells with broken strings",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 34,
+      "section": "Chorus",
+      "start": 154.085,
+      "end": 159.872,
+      "text": "We toast the air, we set the place",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 35,
+      "section": "Chorus",
+      "start": 159.872,
+      "end": 163.489,
+      "text": "For everyone we couldn’t save",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 36,
+      "section": "Chorus",
+      "start": 163.489,
+      "end": 167.83,
+      "text": "It’s missing time, the quiet kind",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 37,
+      "section": "Chorus",
+      "start": 167.83,
+      "end": 172.17,
+      "text": "The seconds we can’t leave behind",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 38,
+      "section": "Chorus",
+      "start": 172.17,
+      "end": 175.787,
+      "text": "December knows our truest crime—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 39,
+      "section": "Chorus",
+      "start": 175.787,
+      "end": 180.128,
+      "text": "We keep on living, missing time",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 40,
+      "section": "Bridge",
+      "start": 180.128,
+      "end": 183.745,
+      "text": "Snowfall loops like old refrains",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 41,
+      "section": "Bridge",
+      "start": 183.745,
+      "end": 188.809,
+      "text": "The year repeats but not the names",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 42,
+      "section": "Bridge",
+      "start": 188.809,
+      "end": 193.149,
+      "text": "I trace the cracks in yesterday",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 43,
+      "section": "Bridge",
+      "start": 193.149,
+      "end": 197.489,
+      "text": "Where laughter learned to slip away",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 44,
+      "section": "Bridge",
+      "start": 197.489,
+      "end": 201.83,
+      "text": "If heaven’s just a feedback hum",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 45,
+      "section": "Bridge",
+      "start": 201.83,
+      "end": 206.894,
+      "text": "Then play it soft till morning comes",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 46,
+      "section": "Break",
+      "start": 206.894,
+      "end": 211.234,
+      "text": "Hold the silence, let it breathe",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 47,
+      "section": "Break",
+      "start": 211.234,
+      "end": 215.574,
+      "text": "Count the gaps between the beats",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 215.574,
+      "end": 219.915,
+      "text": "It’s missing time, the season sings",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 219.915,
+      "end": 224.979,
+      "text": "A choir of bells with broken strings",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 224.979,
+      "end": 230.766,
+      "text": "We toast the air, we set the place",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 230.766,
+      "end": 234.383,
+      "text": "For everyone we couldn’t save",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 52,
+      "section": "Chorus",
+      "start": 234.383,
+      "end": 238.723,
+      "text": "It’s missing time, the quiet kind",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 53,
+      "section": "Chorus",
+      "start": 238.723,
+      "end": 243.064,
+      "text": "The seconds we can’t leave behind",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 54,
+      "section": "Chorus",
+      "start": 243.064,
+      "end": 246.681,
+      "text": "December knows our truest crime—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 55,
+      "section": "Chorus",
+      "start": 246.681,
+      "end": 251.021,
+      "text": "We keep on living, missing time",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 56,
+      "section": "Outro",
+      "start": 251.021,
+      "end": 256.085,
+      "text": "When lights go out, the dark aligns",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 57,
+      "section": "Outro",
+      "start": 256.085,
+      "end": 261.149,
+      "text": "With all the love we can’t rewind",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 58,
+      "section": "Outro",
+      "start": 261.149,
+      "end": 266.936,
+      "text": "If time is lost, then let it rhyme",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 59,
+      "section": "Outro",
+      "start": 266.936,
+      "end": 270.553,
+      "text": "With every name we hold—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 60,
+      "section": "Outro",
+      "start": 270.553,
+      "end": 272.0,
+      "text": "Missing time",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    }
+  ]
+}

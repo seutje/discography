@@ -1,0 +1,567 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Orbital Garden",
+  "title": "Climate Rules",
+  "text_path": "Orbital Garden/05 - Climate Rules.txt",
+  "audio_path": "Orbital Garden/audio/05 - Climate Rules.mp3",
+  "duration_seconds": 213.76,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 56,
+    "reference_word_count": 255,
+    "observed_word_count": 624,
+    "matched_word_count": 33,
+    "matched_word_ratio": 0.129
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "text": "The"
+    },
+    {
+      "start": 30.0,
+      "end": 60.0,
+      "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+    },
+    {
+      "start": 60.0,
+      "end": 90.0,
+      "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+    },
+    {
+      "start": 90.0,
+      "end": 120.0,
+      "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+    },
+    {
+      "start": 120.0,
+      "end": 150.0,
+      "text": "Great more lately at the pattern, be the part made at place where the fuck is settled without losing its part, not control, not display"
+    },
+    {
+      "start": 150.0,
+      "end": 180.0,
+      "text": "The rules invisible thunder from heart to kind, shippin' weather, attention, leave the crowd at an rush behind what we call a surface is it garden for the eye, if the meaning won't together give the living room to rise you"
+    },
+    {
+      "start": 180.0,
+      "end": 210.0,
+      "text": "Glass from the lucid ray, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh,"
+    },
+    {
+      "start": 210.0,
+      "end": 213.76,
+      "text": "oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - droplets tuned to chords",
+      "start": 0.0,
+      "end": 1.0,
+      "text": "Rain inside the upper ring",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 1,
+      "section": "Intro - droplets tuned to chords",
+      "start": 1.0,
+      "end": 145.2,
+      "text": "falls according to a rule",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 2,
+      "section": "Intro - droplets tuned to chords",
+      "start": 145.2,
+      "end": 146.4,
+      "text": "not a storm, a careful climate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 3,
+      "section": "Intro - droplets tuned to chords",
+      "start": 150.0,
+      "end": 150.732,
+      "text": "made to keep the seedlings cool",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - clean grid pulse",
+      "start": 150.732,
+      "end": 150.832,
+      "text": "I learned the worth of empty margins",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - clean grid pulse",
+      "start": 150.832,
+      "end": 150.932,
+      "text": "how a channel guides the flow",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - clean grid pulse",
+      "start": 150.932,
+      "end": 151.032,
+      "text": "how a color warms a chamber",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - clean grid pulse",
+      "start": 151.032,
+      "end": 151.132,
+      "text": "how a narrow path can slow",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - clean grid pulse",
+      "start": 151.132,
+      "end": 151.232,
+      "text": "Nothing here was decoration",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - clean grid pulse",
+      "start": 151.232,
+      "end": 151.332,
+      "text": "every shade adjusted breath",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - clean grid pulse",
+      "start": 151.332,
+      "end": 151.432,
+      "text": "every gap allowed a meaning",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - clean grid pulse",
+      "start": 151.432,
+      "end": 151.532,
+      "text": "space enough to not be pressed",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - clean grid pulse",
+      "start": 151.532,
+      "end": 151.632,
+      "text": "Air has form",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - clean grid pulse",
+      "start": 151.632,
+      "end": 151.732,
+      "text": "form has weight",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 14,
+      "section": "Pre-Hook - rain widens",
+      "start": 151.732,
+      "end": 151.832,
+      "text": "Move the wall",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 15,
+      "section": "Pre-Hook - rain widens",
+      "start": 151.832,
+      "end": 151.932,
+      "text": "and thought can pass",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook - rain widens",
+      "start": 151.932,
+      "end": 152.032,
+      "text": "move the lamp",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook - rain widens",
+      "start": 152.032,
+      "end": 152.132,
+      "text": "and green comes back",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 18,
+      "section": "Hook - liquid bass | vocal pads",
+      "start": 152.132,
+      "end": 152.232,
+      "text": "Climate rules, invisible",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 19,
+      "section": "Hook - liquid bass | vocal pads",
+      "start": 152.927,
+      "end": 155.854,
+      "text": "turn the room from hard to kind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 20,
+      "section": "Hook - liquid bass | vocal pads",
+      "start": 156.585,
+      "end": 158.049,
+      "text": "Shape the weather of attention",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 21,
+      "section": "Hook - liquid bass | vocal pads",
+      "start": 158.049,
+      "end": 163.171,
+      "text": "leave the crowded rush behind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 22,
+      "section": "Hook - liquid bass | vocal pads",
+      "start": 163.171,
+      "end": 166.829,
+      "text": "What we call a surface",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 23,
+      "section": "Hook - liquid bass | vocal pads",
+      "start": 166.829,
+      "end": 171.22,
+      "text": "is a garden for the eye",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Hook - liquid bass | vocal pads",
+      "start": 171.951,
+      "end": 173.415,
+      "text": "Give the meaning room to gather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 25,
+      "section": "Hook - liquid bass | vocal pads",
+      "start": 174.878,
+      "end": 179.268,
+      "text": "give the living room to rise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - groove loosens",
+      "start": 180.536,
+      "end": 180.804,
+      "text": "Water traced the pane in columns",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - groove loosens",
+      "start": 180.804,
+      "end": 182.177,
+      "text": "then refused the perfect lane",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - groove loosens",
+      "start": 182.177,
+      "end": 183.825,
+      "text": "I had planned a clean arrangement",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - groove loosens",
+      "start": 183.825,
+      "end": 185.473,
+      "text": "but the leaves revised the rain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - groove loosens",
+      "start": 185.473,
+      "end": 187.395,
+      "text": "So I held the grid more lightly",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - groove loosens",
+      "start": 187.395,
+      "end": 188.768,
+      "text": "let the pattern breathe apart",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - groove loosens",
+      "start": 188.768,
+      "end": 190.691,
+      "text": "Made a place where thought could settle",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - groove loosens",
+      "start": 190.691,
+      "end": 191.789,
+      "text": "without losing its spark",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - groove loosens",
+      "start": 191.789,
+      "end": 192.339,
+      "text": "Not control",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - groove loosens",
+      "start": 192.339,
+      "end": 192.888,
+      "text": "not display",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 36,
+      "section": "Bridge - half-time | echo",
+      "start": 192.888,
+      "end": 193.712,
+      "text": "Style is climate",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 37,
+      "section": "Bridge - half-time | echo",
+      "start": 193.712,
+      "end": 194.261,
+      "text": "climate teaches",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 38,
+      "section": "Bridge - half-time | echo",
+      "start": 194.261,
+      "end": 195.085,
+      "text": "where to lean",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 39,
+      "section": "Bridge - half-time | echo",
+      "start": 195.085,
+      "end": 196.183,
+      "text": "and where to rest",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 40,
+      "section": "Bridge - half-time | echo",
+      "start": 196.183,
+      "end": 197.007,
+      "text": "Care is often",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 41,
+      "section": "Bridge - half-time | echo",
+      "start": 197.007,
+      "end": 197.557,
+      "text": "almost hidden",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 42,
+      "section": "Bridge - half-time | echo",
+      "start": 197.557,
+      "end": 198.106,
+      "text": "felt before",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 43,
+      "section": "Bridge - half-time | echo",
+      "start": 198.106,
+      "end": 198.93,
+      "text": "it is expressed",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 44,
+      "section": "Final Hook - fuller low end",
+      "start": 198.93,
+      "end": 199.754,
+      "text": "Climate rules, invisible",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 45,
+      "section": "Final Hook - fuller low end",
+      "start": 199.754,
+      "end": 201.676,
+      "text": "turn the room from hard to kind",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - fuller low end",
+      "start": 201.676,
+      "end": 203.049,
+      "text": "Shape the weather of attention",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - fuller low end",
+      "start": 203.049,
+      "end": 204.697,
+      "text": "leave the crowded and rush behind",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - fuller low end",
+      "start": 204.697,
+      "end": 206.07,
+      "text": "What we call a surface",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - fuller low end",
+      "start": 206.07,
+      "end": 207.718,
+      "text": "is a garden for the eye",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 50,
+      "section": "Final Hook - fuller low end",
+      "start": 207.718,
+      "end": 209.366,
+      "text": "Give the meaning room to gather",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 51,
+      "section": "Final Hook - fuller low end",
+      "start": 209.366,
+      "end": 211.014,
+      "text": "give the living room to rise",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 52,
+      "section": "Outro - rain fades",
+      "start": 211.014,
+      "end": 211.563,
+      "text": "Glass remembers",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 53,
+      "section": "Outro - rain fades",
+      "start": 211.563,
+      "end": 212.112,
+      "text": "every drop",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 54,
+      "section": "Outro - rain fades",
+      "start": 212.112,
+      "end": 212.661,
+      "text": "I arrange",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 55,
+      "section": "Outro - rain fades",
+      "start": 212.661,
+      "end": 213.76,
+      "text": "then let it stop",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    }
+  ]
+}

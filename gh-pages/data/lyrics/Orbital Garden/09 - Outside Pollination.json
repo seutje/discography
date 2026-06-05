@@ -1,0 +1,647 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Orbital Garden",
+  "title": "Outside Pollination",
+  "text_path": "Orbital Garden/09 - Outside Pollination.txt",
+  "audio_path": "Orbital Garden/audio/09 - Outside Pollination.mp3",
+  "duration_seconds": 224.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 56,
+    "reference_word_count": 252,
+    "observed_word_count": 281,
+    "matched_word_count": 178,
+    "matched_word_ratio": 0.706
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 16.0,
+      "text": "How's the glass?"
+    },
+    {
+      "start": 17.0,
+      "end": 28.0,
+      "text": "The flowers turn small wings crossing where they burn"
+    },
+    {
+      "start": 28.0,
+      "end": 47.0,
+      "text": "I built the body out of focus made it light enough to trust and to do the outer trail"
+    },
+    {
+      "start": 47.0,
+      "end": 50.0,
+      "text": "It's where the petals held their dust, no room left for inner chat"
+    },
+    {
+      "start": 50.0,
+      "end": 55.0,
+      "text": "The nose path ought to pull apart only breath the name they're changing only weather"
+    },
+    {
+      "start": 55.0,
+      "end": 62.0,
+      "text": "Do the heart fast and low, why then you?"
+    },
+    {
+      "start": 62.0,
+      "end": 69.0,
+      "text": "Sweet can make a sudden harsh when the winder becomes the blue"
+    },
+    {
+      "start": 69.0,
+      "end": 76.0,
+      "text": "No thoughts are full throttle, only garden glass than air"
+    },
+    {
+      "start": 76.0,
+      "end": 86.0,
+      "text": "I'll be on the moving question, I'll be on the line I'll be on the safer walkway"
+    },
+    {
+      "start": 86.0,
+      "end": 103.0,
+      "text": "Cast the rail and do this work, I can feel the flowers and several and I carry gold away"
+    },
+    {
+      "start": 103.0,
+      "end": 107.0,
+      "text": "Sometimes I talk to patients, sometimes pieces talk me crap"
+    },
+    {
+      "start": 107.0,
+      "end": 111.0,
+      "text": "I will gather up the lesson from the floor and build it back"
+    },
+    {
+      "start": 111.0,
+      "end": 114.0,
+      "text": "Flight was never pure escape, it was a tension under strain"
+    },
+    {
+      "start": 114.0,
+      "end": 118.0,
+      "text": "How to lose myself completely in my calm as all the greens"
+    },
+    {
+      "start": 118.0,
+      "end": 124.0,
+      "text": "Break, repair, rise, revive"
+    },
+    {
+      "start": 124.0,
+      "end": 129.0,
+      "text": "The body learns what fear cannot explain"
+    },
+    {
+      "start": 129.0,
+      "end": 134.0,
+      "text": "The hand goes quiet, the cat gets bright for one thing to get"
+    },
+    {
+      "start": 134.0,
+      "end": 141.0,
+      "text": "I am only what the daughter needs to fly"
+    },
+    {
+      "start": 141.0,
+      "end": 148.0,
+      "text": "No thoughts are full throttle, only garden glass than air"
+    },
+    {
+      "start": 148.0,
+      "end": 157.0,
+      "text": "I'll be on the moving question, I'll be on the line I'll be on the safer walkway"
+    },
+    {
+      "start": 157.0,
+      "end": 170.0,
+      "text": "Cast the rail and do this work, I can feel the flowers and several and I carry gold away"
+    },
+    {
+      "start": 170.0,
+      "end": 179.0,
+      "text": "Small things pass, then disappear"
+    },
+    {
+      "start": 179.0,
+      "end": 186.0,
+      "text": "The room remains the room draws near"
+    },
+    {
+      "start": 209.0,
+      "end": 224.0,
+      "text": "I'll be on the left side of the road, I'll be on the right side of the road"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - fast hats | rising air",
+      "start": 5.333,
+      "end": 16.0,
+      "text": "Outside the glass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "Intro - fast hats | rising air",
+      "start": 17.0,
+      "end": 20.667,
+      "text": "the flowers turn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 2,
+      "section": "Intro - fast hats | rising air",
+      "start": 20.667,
+      "end": 24.333,
+      "text": "small wings crossing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "Intro - fast hats | rising air",
+      "start": 24.333,
+      "end": 28.0,
+      "text": "where they burn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - tight rhythmic vocal",
+      "start": 28.0,
+      "end": 35.0,
+      "text": "I built a body out of focus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - tight rhythmic vocal",
+      "start": 35.0,
+      "end": 41.0,
+      "text": "made it light enough to trust",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - tight rhythmic vocal",
+      "start": 44.0,
+      "end": 46.0,
+      "text": "sent it through the outer trellis",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - tight rhythmic vocal",
+      "start": 47.231,
+      "end": 48.615,
+      "text": "where the petals held their dust",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - tight rhythmic vocal",
+      "start": 48.615,
+      "end": 49.769,
+      "text": "No room left for inner chatter",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - tight rhythmic vocal",
+      "start": 51.333,
+      "end": 52.333,
+      "text": "no spare thought to pull apart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - tight rhythmic vocal",
+      "start": 52.333,
+      "end": 54.333,
+      "text": "Only breath and angle changing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - tight rhythmic vocal",
+      "start": 54.333,
+      "end": 57.333,
+      "text": "only weather through the heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - tight rhythmic vocal",
+      "start": 57.333,
+      "end": 59.667,
+      "text": "Fast and low",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - tight rhythmic vocal",
+      "start": 60.444,
+      "end": 61.222,
+      "text": "wide then near",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 14,
+      "section": "Pre-Hook - pitch dive",
+      "start": 62.583,
+      "end": 63.75,
+      "text": "Speed can make",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 15,
+      "section": "Pre-Hook - pitch dive",
+      "start": 63.75,
+      "end": 64.917,
+      "text": "a sudden hush",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook - pitch dive",
+      "start": 65.5,
+      "end": 66.083,
+      "text": "when every nerve",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook - pitch dive",
+      "start": 67.25,
+      "end": 68.417,
+      "text": "becomes the bloom",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 18,
+      "section": "Hook - half-time sub drop",
+      "start": 69.0,
+      "end": 72.5,
+      "text": "No thoughts at full throttle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 19,
+      "section": "Hook - half-time sub drop",
+      "start": 72.5,
+      "end": 76.0,
+      "text": "only garden, glass, and air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 20,
+      "section": "Hook - half-time sub drop",
+      "start": 77.765,
+      "end": 79.529,
+      "text": "I become the moving question",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Hook - half-time sub drop",
+      "start": 81.294,
+      "end": 82.471,
+      "text": "I become the line I dare",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 22,
+      "section": "Hook - half-time sub drop",
+      "start": 84.235,
+      "end": 86.0,
+      "text": "Out beyond the safer walkway",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 23,
+      "section": "Hook - half-time sub drop",
+      "start": 86.895,
+      "end": 89.579,
+      "text": "past the rail and through the spray",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 24,
+      "section": "Hook - half-time sub drop",
+      "start": 92.263,
+      "end": 96.737,
+      "text": "I can feel the flowers answer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 25,
+      "section": "Hook - half-time sub drop",
+      "start": 99.421,
+      "end": 103.0,
+      "text": "when I carry gold away",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - hats return | wide pads",
+      "start": 103.0,
+      "end": 103.4,
+      "text": "Sometimes impact taught me patience",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - hats return | wide pads",
+      "start": 105.0,
+      "end": 106.6,
+      "text": "sometimes pieces taught me craft",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - hats return | wide pads",
+      "start": 107.0,
+      "end": 108.846,
+      "text": "I would gather up the lesson",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - hats return | wide pads",
+      "start": 108.846,
+      "end": 111.0,
+      "text": "from the floor and build it back",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - hats return | wide pads",
+      "start": 111.0,
+      "end": 112.364,
+      "text": "Flight was never pure escape",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - hats return | wide pads",
+      "start": 112.364,
+      "end": 114.0,
+      "text": "it was attention under strain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - hats return | wide pads",
+      "start": 114.0,
+      "end": 115.667,
+      "text": "how to lose myself completely",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - hats return | wide pads",
+      "start": 115.667,
+      "end": 118.0,
+      "text": "and return with pollen grains",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - hats return | wide pads",
+      "start": 118.0,
+      "end": 121.0,
+      "text": "Break, repair",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - hats return | wide pads",
+      "start": 121.0,
+      "end": 122.5,
+      "text": "rise, revise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 36,
+      "section": "Bridge - dub delay dropout",
+      "start": 124.0,
+      "end": 126.143,
+      "text": "The body learns",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 37,
+      "section": "Bridge - dub delay dropout",
+      "start": 126.143,
+      "end": 129.0,
+      "text": "what fear cannot explain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 38,
+      "section": "Bridge - dub delay dropout",
+      "start": 129.0,
+      "end": 130.538,
+      "text": "The hand goes quiet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 39,
+      "section": "Bridge - dub delay dropout",
+      "start": 130.538,
+      "end": 132.077,
+      "text": "The path gets bright",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 40,
+      "section": "Bridge - dub delay dropout",
+      "start": 132.077,
+      "end": 132.846,
+      "text": "For one clean second",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 41,
+      "section": "Bridge - dub delay dropout",
+      "start": 134.0,
+      "end": 136.333,
+      "text": "I am only",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "Bridge - dub delay dropout",
+      "start": 136.333,
+      "end": 137.889,
+      "text": "what the garden",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 43,
+      "section": "Bridge - dub delay dropout",
+      "start": 138.667,
+      "end": 139.444,
+      "text": "needs in flight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 44,
+      "section": "Final Hook - ecstatic, wide",
+      "start": 141.0,
+      "end": 144.5,
+      "text": "No thoughts at full throttle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Final Hook - ecstatic, wide",
+      "start": 144.5,
+      "end": 148.0,
+      "text": "only garden, glass, and air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - ecstatic, wide",
+      "start": 149.588,
+      "end": 151.176,
+      "text": "I become the moving question",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - ecstatic, wide",
+      "start": 152.765,
+      "end": 153.824,
+      "text": "I become the line I dare",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - ecstatic, wide",
+      "start": 155.412,
+      "end": 157.0,
+      "text": "Out beyond the safer walkway",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - ecstatic, wide",
+      "start": 157.684,
+      "end": 159.737,
+      "text": "past the rail and through the spray",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 50,
+      "section": "Final Hook - ecstatic, wide",
+      "start": 161.789,
+      "end": 165.211,
+      "text": "I can feel the flowers answer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 51,
+      "section": "Final Hook - ecstatic, wide",
+      "start": 167.263,
+      "end": 170.0,
+      "text": "when I carry gold away",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 52,
+      "section": "Outro - air sweep fades",
+      "start": 170.0,
+      "end": 175.4,
+      "text": "Small wings pass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 53,
+      "section": "Outro - air sweep fades",
+      "start": 175.4,
+      "end": 179.0,
+      "text": "then disappear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 54,
+      "section": "Outro - air sweep fades",
+      "start": 179.0,
+      "end": 182.0,
+      "text": "the bloom remains",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 55,
+      "section": "Outro - air sweep fades",
+      "start": 182.0,
+      "end": 186.0,
+      "text": "the room draws near",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    }
+  ]
+}

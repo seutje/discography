@@ -1,0 +1,657 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Orbital Garden",
+  "title": "Small Bloom Ledger",
+  "text_path": "Orbital Garden/07 - Small Bloom Ledger.txt",
+  "audio_path": "Orbital Garden/audio/07 - Small Bloom Ledger.mp3",
+  "duration_seconds": 221.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 56,
+    "reference_word_count": 255,
+    "observed_word_count": 256,
+    "matched_word_count": 212,
+    "matched_word_ratio": 0.831
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 23.0,
+      "text": "One small bloom, then another, brief gold face above the cover."
+    },
+    {
+      "start": 31.0,
+      "end": 39.0,
+      "text": "I stopped asking for a thunder clap, stopped waiting for the gates."
+    },
+    {
+      "start": 39.0,
+      "end": 48.0,
+      "text": "Learn to mark this smallest turn and learn to trust the tiny gates."
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "text": "One adjustment in the daylight, one repairing the leaves."
+    },
+    {
+      "start": 57.0,
+      "end": 64.0,
+      "text": "One more way the room grows kinder, one more reason to believe."
+    },
+    {
+      "start": 64.0,
+      "end": 73.0,
+      "text": "Little steps, living proof, not of crown, not of place."
+    },
+    {
+      "start": 73.0,
+      "end": 82.0,
+      "text": "Just a flower for the day."
+    },
+    {
+      "start": 83.0,
+      "end": 91.0,
+      "text": "Open up a small bloom ledger, count the characters not to see."
+    },
+    {
+      "start": 91.0,
+      "end": 99.0,
+      "text": "Every quiet act of tending adds a pedal to the stem."
+    },
+    {
+      "start": 99.0,
+      "end": 107.0,
+      "text": "I am not one sudden harvest, I am not a finish wall."
+    },
+    {
+      "start": 107.0,
+      "end": 112.0,
+      "text": "I am worried, turns each morning."
+    },
+    {
+      "start": 112.0,
+      "end": 121.0,
+      "text": "With the lantern in the hole, some improvements barely shimmer."
+    },
+    {
+      "start": 121.0,
+      "end": 128.0,
+      "text": "Some are only felt by roots, some will never draw witness."
+    },
+    {
+      "start": 128.0,
+      "end": 134.0,
+      "text": "Still they change the living truth."
+    },
+    {
+      "start": 134.0,
+      "end": 141.0,
+      "text": "I have learned to joy or less, when less in shape with honest hands."
+    },
+    {
+      "start": 141.0,
+      "end": 150.0,
+      "text": "Power, patience, little opening, you can revise the wider land."
+    },
+    {
+      "start": 150.0,
+      "end": 155.0,
+      "text": "No grand speech, only growth."
+    },
+    {
+      "start": 155.0,
+      "end": 160.0,
+      "text": "A flower does not brag about becoming."
+    },
+    {
+      "start": 160.0,
+      "end": 165.0,
+      "text": "It just arrives where care was kept."
+    },
+    {
+      "start": 165.0,
+      "end": 173.0,
+      "text": "I keep a record made of mornings not of glory but of breath."
+    },
+    {
+      "start": 173.0,
+      "end": 182.0,
+      "text": "Open up a small bloom ledger, count the characters not to see."
+    },
+    {
+      "start": 182.0,
+      "end": 189.0,
+      "text": "Every quiet act of tending adds a pedal to the stem."
+    },
+    {
+      "start": 189.0,
+      "end": 198.0,
+      "text": "I am not one sudden harvest, I am not a finish wall."
+    },
+    {
+      "start": 198.0,
+      "end": 203.0,
+      "text": "I am worried, turns each morning."
+    },
+    {
+      "start": 203.0,
+      "end": 211.0,
+      "text": "With the lantern in the hole, some improvements barely shimmer."
+    },
+    {
+      "start": 211.0,
+      "end": 221.0,
+      "text": "Then another enough to make the chamber home."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - bright arps | small chimes",
+      "start": 0.0,
+      "end": 6.273,
+      "text": "One small bloom",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 1,
+      "section": "Intro - bright arps | small chimes",
+      "start": 6.273,
+      "end": 10.455,
+      "text": "then another",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 2,
+      "section": "Intro - bright arps | small chimes",
+      "start": 10.455,
+      "end": 16.727,
+      "text": "brief gold face",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "Intro - bright arps | small chimes",
+      "start": 16.727,
+      "end": 23.0,
+      "text": "above the cover",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - motorik pulse",
+      "start": 31.0,
+      "end": 34.333,
+      "text": "I stopped asking for a thunderclap",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - motorik pulse",
+      "start": 35.667,
+      "end": 39.0,
+      "text": "stopped waiting for the gates",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - motorik pulse",
+      "start": 39.692,
+      "end": 42.462,
+      "text": "learned to mark the smallest turning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - motorik pulse",
+      "start": 44.538,
+      "end": 47.308,
+      "text": "learned to trust the tiny dates",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - motorik pulse",
+      "start": 48.0,
+      "end": 52.444,
+      "text": "One adjustment in the daylight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - motorik pulse",
+      "start": 52.444,
+      "end": 56.0,
+      "text": "one repair beneath the leaves",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - motorik pulse",
+      "start": 57.0,
+      "end": 61.083,
+      "text": "one more way the room grows kinder",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - motorik pulse",
+      "start": 61.083,
+      "end": 64.0,
+      "text": "one more reason to believe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - motorik pulse",
+      "start": 64.0,
+      "end": 65.8,
+      "text": "Little steps",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - motorik pulse",
+      "start": 65.8,
+      "end": 67.6,
+      "text": "living proof",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 14,
+      "section": "Pre-Hook - delay throws",
+      "start": 67.6,
+      "end": 70.3,
+      "text": "Not a crown",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 15,
+      "section": "Pre-Hook - delay throws",
+      "start": 70.3,
+      "end": 71.2,
+      "text": "not a blaze",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook - delay throws",
+      "start": 73.0,
+      "end": 77.5,
+      "text": "just a flower",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook - delay throws",
+      "start": 77.5,
+      "end": 82.0,
+      "text": "for the day",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 18,
+      "section": "Hook - full groove | warm harmonies",
+      "start": 83.0,
+      "end": 87.0,
+      "text": "Open, open, small bloom ledger",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 19,
+      "section": "Hook - full groove | warm harmonies",
+      "start": 87.0,
+      "end": 91.0,
+      "text": "count the care I did not see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 20,
+      "section": "Hook - full groove | warm harmonies",
+      "start": 91.0,
+      "end": 94.636,
+      "text": "Every quiet act of tending",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 21,
+      "section": "Hook - full groove | warm harmonies",
+      "start": 94.636,
+      "end": 99.0,
+      "text": "adds a petal to the stem",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 22,
+      "section": "Hook - full groove | warm harmonies",
+      "start": 99.0,
+      "end": 103.0,
+      "text": "I am not one sudden harvest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 23,
+      "section": "Hook - full groove | warm harmonies",
+      "start": 103.0,
+      "end": 107.0,
+      "text": "I am not a finished wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Hook - full groove | warm harmonies",
+      "start": 107.0,
+      "end": 112.0,
+      "text": "I am what returns each morning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Hook - full groove | warm harmonies",
+      "start": 112.0,
+      "end": 116.5,
+      "text": "with a lantern in the hall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - guitar fragments",
+      "start": 117.4,
+      "end": 121.0,
+      "text": "Some improvements barely shimmer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - guitar fragments",
+      "start": 121.0,
+      "end": 124.818,
+      "text": "some are only felt by roots",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - guitar fragments",
+      "start": 124.818,
+      "end": 128.0,
+      "text": "some will never draw a witness",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - guitar fragments",
+      "start": 128.0,
+      "end": 134.0,
+      "text": "still they change the living truth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - guitar fragments",
+      "start": 134.0,
+      "end": 137.5,
+      "text": "I have learned the joy of less",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - guitar fragments",
+      "start": 137.5,
+      "end": 141.0,
+      "text": "when less is shaped with honest hands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - guitar fragments",
+      "start": 142.8,
+      "end": 144.6,
+      "text": "How a patient little opening",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - guitar fragments",
+      "start": 145.5,
+      "end": 150.0,
+      "text": "can revise the wider land",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - guitar fragments",
+      "start": 150.0,
+      "end": 153.0,
+      "text": "No grand speech",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - guitar fragments",
+      "start": 153.0,
+      "end": 155.0,
+      "text": "only growth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 36,
+      "section": "Bridge - half-time, spacious",
+      "start": 155.0,
+      "end": 158.571,
+      "text": "A flower does not brag",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 37,
+      "section": "Bridge - half-time, spacious",
+      "start": 158.571,
+      "end": 160.0,
+      "text": "about becoming",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 38,
+      "section": "Bridge - half-time, spacious",
+      "start": 160.0,
+      "end": 162.143,
+      "text": "It just arrives",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 39,
+      "section": "Bridge - half-time, spacious",
+      "start": 162.143,
+      "end": 165.0,
+      "text": "where care was kept",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "Bridge - half-time, spacious",
+      "start": 165.0,
+      "end": 167.462,
+      "text": "I keep a record",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Bridge - half-time, spacious",
+      "start": 167.462,
+      "end": 169.308,
+      "text": "made of mornings",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "Bridge - half-time, spacious",
+      "start": 169.308,
+      "end": 171.154,
+      "text": "not of glory",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "Bridge - half-time, spacious",
+      "start": 171.154,
+      "end": 173.0,
+      "text": "but of breath",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Final Hook - wider, brighter",
+      "start": 173.0,
+      "end": 177.5,
+      "text": "Open, open, small bloom ledger",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Final Hook - wider, brighter",
+      "start": 177.5,
+      "end": 182.0,
+      "text": "count the care I did not see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - wider, brighter",
+      "start": 182.0,
+      "end": 185.182,
+      "text": "Every quiet act of tending",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - wider, brighter",
+      "start": 185.182,
+      "end": 189.0,
+      "text": "adds a petal to the stem",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - wider, brighter",
+      "start": 189.0,
+      "end": 193.5,
+      "text": "I am not one sudden harvest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - wider, brighter",
+      "start": 193.5,
+      "end": 198.0,
+      "text": "I am not a finished wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 50,
+      "section": "Final Hook - wider, brighter",
+      "start": 198.0,
+      "end": 203.0,
+      "text": "I am what returns each morning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 51,
+      "section": "Final Hook - wider, brighter",
+      "start": 203.0,
+      "end": 207.0,
+      "text": "with a lantern in the hall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 52,
+      "section": "Outro - arps fade into room",
+      "start": 207.0,
+      "end": 211.0,
+      "text": "One small bloom",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 53,
+      "section": "Outro - arps fade into room",
+      "start": 211.0,
+      "end": 213.5,
+      "text": "then another",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 54,
+      "section": "Outro - arps fade into room",
+      "start": 213.5,
+      "end": 217.25,
+      "text": "enough to make",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 55,
+      "section": "Outro - arps fade into room",
+      "start": 217.25,
+      "end": 219.75,
+      "text": "the chamber hum",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    }
+  ]
+}

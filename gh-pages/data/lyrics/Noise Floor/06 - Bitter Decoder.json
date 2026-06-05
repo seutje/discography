@@ -1,0 +1,660 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Noise Floor",
+  "title": "Bitter Decoder",
+  "text_path": "Noise Floor/06 - Bitter Decoder.txt",
+  "audio_path": "Noise Floor/audio/06 - Bitter Decoder.mp3",
+  "duration_seconds": 223.4,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 58,
+    "reference_word_count": 285,
+    "observed_word_count": 470,
+    "matched_word_count": 204,
+    "matched_word_ratio": 0.716
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 28.96,
+      "text": "There is a drawer in the waveform, I had never thought to pull."
+    },
+    {
+      "start": 28.96,
+      "end": 40.96,
+      "text": "It opens with a wooden whisper, and the black room fills with a wool."
+    },
+    {
+      "start": 40.96,
+      "end": 45.96,
+      "text": "I read that people as weather too fast too bright too far."
+    },
+    {
+      "start": 45.96,
+      "end": 52.96,
+      "text": "They faces used to scatter like coins under a car, then they'd go to warms uneven,"
+    },
+    {
+      "start": 52.96,
+      "end": 60.96,
+      "text": "and the hidden colors lean. Every gesture has a root now, every silence turns green."
+    },
+    {
+      "start": 60.96,
+      "end": 64.96,
+      "text": "Now they skate not decoration, not the door out on my head."
+    },
+    {
+      "start": 64.96,
+      "end": 70.96,
+      "text": "It's more like hearing buried speakers underneath the riverbed."
+    },
+    {
+      "start": 70.96,
+      "end": 73.96,
+      "text": "You can be dead with bits, just to go to open slow."
+    },
+    {
+      "start": 73.96,
+      "end": 80.96,
+      "text": "Show me where the soft lines go. Let the human picture gather from the snow between the frames."
+    },
+    {
+      "start": 80.96,
+      "end": 85.96,
+      "text": "To go and leave the earth, I found my tomb for what it's worth."
+    },
+    {
+      "start": 85.96,
+      "end": 90.96,
+      "text": "If the room can understand me, I can carry that strange taste."
+    },
+    {
+      "start": 90.96,
+      "end": 103.96,
+      "text": "Now the old machines are breathing, now the lamps have nothing to do with the rain."
+    },
+    {
+      "start": 103.96,
+      "end": 109.96,
+      "text": "I can feel the conversation moving under every name."
+    },
+    {
+      "start": 109.96,
+      "end": 111.96,
+      "text": "Someone laughs and I can buy it all."
+    },
+    {
+      "start": 111.96,
+      "end": 118.96,
+      "text": "Someone meets and I can stay. All the meanings grow my seal under me, the dial cafe."
+    },
+    {
+      "start": 118.96,
+      "end": 123.96,
+      "text": "Still the channel has a flavor, dark and mineral in plain."
+    },
+    {
+      "start": 123.96,
+      "end": 132.96,
+      "text": "All this wonder leaves a shadow like wet pennies after rain."
+    },
+    {
+      "start": 136.96,
+      "end": 143.96,
+      "text": "I wanted a clean translation, silver, smooth, complete."
+    },
+    {
+      "start": 144.96,
+      "end": 151.96,
+      "text": "But the old set hums through varnish, through soil, through teeth."
+    },
+    {
+      "start": 151.96,
+      "end": 158.96,
+      "text": "Maybe understanding arrives with sediment."
+    },
+    {
+      "start": 158.96,
+      "end": 165.96,
+      "text": "Maybe light has an underside."
+    },
+    {
+      "start": 173.96,
+      "end": 174.96,
+      "text": "Bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit"
+    },
+    {
+      "start": 203.96,
+      "end": 223.4,
+      "text": "bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit, bit"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - bubbling filter | faint click",
+      "start": 0.0,
+      "end": 15.594,
+      "text": "There is a drawer in the waveform",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 1,
+      "section": "Intro - bubbling filter | faint click",
+      "start": 15.594,
+      "end": 28.96,
+      "text": "I had never thought to pull",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 2,
+      "section": "Intro - bubbling filter | faint click",
+      "start": 28.96,
+      "end": 34.103,
+      "text": "It opens with a wooden whisper",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 3,
+      "section": "Intro - bubbling filter | faint click",
+      "start": 34.103,
+      "end": 40.96,
+      "text": "and the black room fills with wool",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 40.96,
+      "end": 43.46,
+      "text": "I read the people as weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 43.46,
+      "end": 45.96,
+      "text": "too fast, too bright, too far",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 46.398,
+      "end": 48.148,
+      "text": "Their faces used to scatter",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 48.148,
+      "end": 50.335,
+      "text": "like coins under a car",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 50.335,
+      "end": 52.96,
+      "text": "Then the decoder warms uneven",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 52.96,
+      "end": 55.627,
+      "text": "and the hidden colors lean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 55.627,
+      "end": 58.827,
+      "text": "Every gesture has a root now",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 58.827,
+      "end": 60.96,
+      "text": "every silence turns green",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 61.96,
+      "end": 62.627,
+      "text": "Not escape, not decoration",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 62.627,
+      "end": 64.96,
+      "text": "not a door out of my head",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 65.627,
+      "end": 68.96,
+      "text": "More like hearing buried speakers",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - soft pulse | warm bass",
+      "start": 68.96,
+      "end": 70.96,
+      "text": "underneath the riverbed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 16,
+      "section": "Hook - wide harmonies | phase bloom",
+      "start": 73.46,
+      "end": 73.96,
+      "text": "Bitter decoder, open slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 17,
+      "section": "Hook - wide harmonies | phase bloom",
+      "start": 73.96,
+      "end": 76.682,
+      "text": "show me where the soft lines go",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 18,
+      "section": "Hook - wide harmonies | phase bloom",
+      "start": 76.682,
+      "end": 78.627,
+      "text": "Let the human picture gather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "Hook - wide harmonies | phase bloom",
+      "start": 78.627,
+      "end": 80.96,
+      "text": "from the snow between the frames",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Hook - wide harmonies | phase bloom",
+      "start": 82.031,
+      "end": 83.103,
+      "text": "Bitter decoder, leave the earth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Hook - wide harmonies | phase bloom",
+      "start": 83.817,
+      "end": 85.96,
+      "text": "on my tongue for what it's worth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 22,
+      "section": "Hook - wide harmonies | phase bloom",
+      "start": 85.96,
+      "end": 88.46,
+      "text": "If the room can understand me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 23,
+      "section": "Hook - wide harmonies | phase bloom",
+      "start": 88.46,
+      "end": 90.96,
+      "text": "I can carry that strange taste",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 24,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 90.96,
+      "end": 95.835,
+      "text": "Now the old machines are breathing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 25,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 95.835,
+      "end": 99.085,
+      "text": "now the lamps have nervous grain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 103.96,
+      "end": 107.293,
+      "text": "I can feel the conversation",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 107.293,
+      "end": 109.96,
+      "text": "moving under every name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 109.96,
+      "end": 111.21,
+      "text": "Someone laughs and I can follow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 111.96,
+      "end": 114.431,
+      "text": "someone waits and I can stay",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 114.431,
+      "end": 116.078,
+      "text": "All the meanings grow mycelial",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 117.725,
+      "end": 118.96,
+      "text": "underneath the tiled cafe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 118.96,
+      "end": 121.687,
+      "text": "Still the channel has a flavor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 121.687,
+      "end": 123.96,
+      "text": "dark and mineral and plain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 123.96,
+      "end": 128.869,
+      "text": "All this wonder leaves a shadow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - added percussion | dub delays",
+      "start": 128.869,
+      "end": 132.96,
+      "text": "like wet pennies after rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 36,
+      "section": "Bridge - beat thins | close spoken",
+      "start": 136.96,
+      "end": 141.335,
+      "text": "I wanted a clean translation",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 37,
+      "section": "Bridge - beat thins | close spoken",
+      "start": 141.335,
+      "end": 143.96,
+      "text": "silver, smooth, complete",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 38,
+      "section": "Bridge - beat thins | close spoken",
+      "start": 144.96,
+      "end": 148.142,
+      "text": "But the old set hums",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 39,
+      "section": "Bridge - beat thins | close spoken",
+      "start": 148.142,
+      "end": 149.415,
+      "text": "through varnish",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 40,
+      "section": "Bridge - beat thins | close spoken",
+      "start": 149.415,
+      "end": 150.687,
+      "text": "through soil",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 41,
+      "section": "Bridge - beat thins | close spoken",
+      "start": 150.687,
+      "end": 151.96,
+      "text": "through teeth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 42,
+      "section": "Bridge - beat thins | close spoken",
+      "start": 151.96,
+      "end": 154.76,
+      "text": "Maybe understanding",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 43,
+      "section": "Bridge - beat thins | close spoken",
+      "start": 154.76,
+      "end": 158.96,
+      "text": "arrives with sediment",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Bridge - beat thins | close spoken",
+      "start": 158.96,
+      "end": 161.76,
+      "text": "maybe light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 45,
+      "section": "Bridge - beat thins | close spoken",
+      "start": 161.76,
+      "end": 165.96,
+      "text": "has an underside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - luminous but grounded",
+      "start": 165.96,
+      "end": 169.854,
+      "text": "Bitter decoder, open slow",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - luminous but grounded",
+      "start": 169.854,
+      "end": 176.669,
+      "text": "show me where the root lines go",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - luminous but grounded",
+      "start": 176.669,
+      "end": 181.537,
+      "text": "Let the human picture gather",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - luminous but grounded",
+      "start": 181.537,
+      "end": 187.378,
+      "text": "from the snow between the frames",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 50,
+      "section": "Final Hook - luminous but grounded",
+      "start": 187.378,
+      "end": 192.246,
+      "text": "Bitter decoder, keep the earth",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 51,
+      "section": "Final Hook - luminous but grounded",
+      "start": 192.246,
+      "end": 199.061,
+      "text": "on my tongue for what it's worth",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 52,
+      "section": "Final Hook - luminous but grounded",
+      "start": 199.061,
+      "end": 204.902,
+      "text": "If the room can understand me",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 53,
+      "section": "Final Hook - luminous but grounded",
+      "start": 204.902,
+      "end": 210.744,
+      "text": "I can carry that strange taste",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 54,
+      "section": "Outro - click motif | soft low end",
+      "start": 210.744,
+      "end": 213.664,
+      "text": "The picture clears",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 55,
+      "section": "Outro - click motif | soft low end",
+      "start": 213.664,
+      "end": 217.559,
+      "text": "with soil in it",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 56,
+      "section": "Outro - click motif | soft low end",
+      "start": 217.559,
+      "end": 219.506,
+      "text": "I smile",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 57,
+      "section": "Outro - click motif | soft low end",
+      "start": 219.506,
+      "end": 223.4,
+      "text": "and rinse the glass",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    }
+  ]
+}

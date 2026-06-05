@@ -1,0 +1,781 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Driftwood",
+  "title": "Barometer Teeth",
+  "text_path": "Driftwood/03 - Barometer Teeth.txt",
+  "audio_path": "Driftwood/audio/03 - Barometer Teeth.mp3",
+  "duration_seconds": 241.22,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 67,
+    "reference_word_count": 428,
+    "observed_word_count": 428,
+    "matched_word_count": 379,
+    "matched_word_ratio": 0.886
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 14.42,
+      "text": "Count the glass, count the drop Watch the needle learn to not"
+    },
+    {
+      "start": 14.42,
+      "end": 25.62,
+      "text": "Rope on the rail, teeth in the gale Something patient in the fog"
+    },
+    {
+      "start": 28.82,
+      "end": 34.26,
+      "text": "The raft held longer than it should Wrong nails old shirt half good wood"
+    },
+    {
+      "start": 34.26,
+      "end": 39.94,
+      "text": "I left the island breathing black And felt it watching from the back"
+    },
+    {
+      "start": 39.94,
+      "end": 45.46,
+      "text": "The first night kept a sailers grin A cold lip tucked beneath my chin"
+    },
+    {
+      "start": 45.46,
+      "end": 51.14,
+      "text": "No stars to bard or no clean charges Plank and pulse and stubborn heart"
+    },
+    {
+      "start": 51.14,
+      "end": 58.02,
+      "text": "I heard the pale roll end to end Like it had news it would not send the rope when stiff"
+    },
+    {
+      "start": 58.02,
+      "end": 62.34,
+      "text": "The boards complained The weather took my shape and stayed"
+    },
+    {
+      "start": 62.34,
+      "end": 67.78,
+      "text": "It doesn't arrive, it gathers weight It learns the hinges test the gate"
+    },
+    {
+      "start": 67.86,
+      "end": 74.42,
+      "text": "The quiet cup, the lowered cloud The hush before the mask gets bowed"
+    },
+    {
+      "start": 74.42,
+      "end": 80.1,
+      "text": "Take the reading, take it slow Pressure falling in the bones"
+    },
+    {
+      "start": 80.1,
+      "end": 88.42,
+      "text": "Every breath of borrowed birth Every waiver, her spy words I keep my mouth above the swell"
+    },
+    {
+      "start": 88.42,
+      "end": 96.58,
+      "text": "Hold my nerve and ring no bell If the sky is teeth and I let it find me still upright"
+    },
+    {
+      "start": 97.78,
+      "end": 112.58,
+      "text": "I found the sea had lost its floor No island left to answer for"
+    },
+    {
+      "start": 112.58,
+      "end": 118.26,
+      "text": "The gulls were gone The foam was hard My hands had mapped the splintered yard"
+    },
+    {
+      "start": 118.26,
+      "end": 123.78,
+      "text": "I thought of cures that pulled me down A first dressed up in a cleaner gown"
+    },
+    {
+      "start": 123.78,
+      "end": 129.38,
+      "text": "I thought of ships that would not turn Their windows carrying their own concern"
+    },
+    {
+      "start": 129.38,
+      "end": 134.98,
+      "text": "Now nothing passed and nothing waived No almost saved, no almost brave"
+    },
+    {
+      "start": 134.98,
+      "end": 140.58,
+      "text": "Just me, the boys, the weather's jaw And all the knots I never saw"
+    },
+    {
+      "start": 140.58,
+      "end": 145.14,
+      "text": "It doesn't bake The common squall, it takes attendance"
+    },
+    {
+      "start": 145.14,
+      "end": 149.3,
+      "text": "From us all till what we fear And what we feature"
+    },
+    {
+      "start": 149.3,
+      "end": 158.58,
+      "text": "One bonk beneath the keel Take the reading, take it slow Pressure falling in the bones"
+    },
+    {
+      "start": 158.58,
+      "end": 166.9,
+      "text": "Every breath of borrowed birth Every waiver, her spy words I keep my mouth above the swell"
+    },
+    {
+      "start": 166.9,
+      "end": 175.14,
+      "text": "Hold my nerve and ring no bell If the sky is teeth and I let it find me still upright"
+    },
+    {
+      "start": 175.14,
+      "end": 180.66,
+      "text": "I used to call the drag a shackle And call the leaving borrowed tackle"
+    },
+    {
+      "start": 180.66,
+      "end": 186.34,
+      "text": "But out here names go overboard And wanting where's the sailors court"
+    },
+    {
+      "start": 186.34,
+      "end": 191.94,
+      "text": "If I survive the luring glass It won't be proof the storm has passed"
+    },
+    {
+      "start": 191.94,
+      "end": 199.14,
+      "text": "Just proof a crooked little craft Can keep insisting from the act"
+    },
+    {
+      "start": 199.14,
+      "end": 211.14,
+      "text": "Not yet, not under Not yet, not water"
+    },
+    {
+      "start": 211.14,
+      "end": 230.58,
+      "text": "Count the glass, count the drop Tie the pale before it knocks"
+    },
+    {
+      "start": 230.58,
+      "end": 241.22,
+      "text": "Rope on the rail Press in the keel I am not done being small"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 0.0,
+      "end": 7.21,
+      "text": "Count the glass... count the drop...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 7.21,
+      "end": 13.218,
+      "text": "Watch the needle learn to nod",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 14.42,
+      "end": 21.312,
+      "text": "Rope on the rail... teeth in the gale...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 21.312,
+      "end": 25.62,
+      "text": "Something patient in the fog",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 28.82,
+      "end": 31.54,
+      "text": "The raft held longer than it should",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 31.54,
+      "end": 34.26,
+      "text": "Wrong nails, old shirt, half-good wood",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 34.26,
+      "end": 36.882,
+      "text": "I left the island breathing black",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 36.882,
+      "end": 39.94,
+      "text": "And felt it watching from the back",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 39.94,
+      "end": 42.7,
+      "text": "The first night kept a sailor's grin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 42.7,
+      "end": 45.46,
+      "text": "A cold lip tucked beneath my chin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 45.46,
+      "end": 48.3,
+      "text": "No stars to barter, no clean chart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 48.706,
+      "end": 51.14,
+      "text": "Just plank and pulse and stubborn heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 51.14,
+      "end": 53.892,
+      "text": "I heard the pail roll end to end",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 53.892,
+      "end": 56.644,
+      "text": "Like it had news it would not send",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 56.644,
+      "end": 59.316,
+      "text": "The rope went stiff, the boards complained",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 59.316,
+      "end": 62.34,
+      "text": "The weather took my shape and stayed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 62.34,
+      "end": 64.851,
+      "text": "It doesn't arrive, it gathers weight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 64.851,
+      "end": 67.78,
+      "text": "It learns the hinges, tests the gate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 67.86,
+      "end": 70.888,
+      "text": "The quiet cup, the lowered cloud",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 70.888,
+      "end": 74.42,
+      "text": "The hush before the mast gets bowed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 74.42,
+      "end": 77.518,
+      "text": "Take the reading, take it slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 77.518,
+      "end": 80.1,
+      "text": "Pressure falling in the bones",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 80.1,
+      "end": 82.058,
+      "text": "Every breath a borrowed berth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 82.547,
+      "end": 83.036,
+      "text": "Every wave rehearsed by worse",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 84.994,
+      "end": 88.42,
+      "text": "I keep my mouth above the swell",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 88.42,
+      "end": 91.276,
+      "text": "Hold my nerve and ring no bell",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 91.276,
+      "end": 93.316,
+      "text": "If the sky has teeth tonight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 94.132,
+      "end": 96.58,
+      "text": "Let it find me still upright",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 99.894,
+      "end": 106.237,
+      "text": "By dawn the sea had lost its floor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 106.237,
+      "end": 112.58,
+      "text": "No island left to answer for",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 112.58,
+      "end": 115.609,
+      "text": "The gulls were gone, the foam was hard",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 115.609,
+      "end": 118.26,
+      "text": "My hands had mapped the splintered yard",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 118.26,
+      "end": 121.02,
+      "text": "I thought of cures that pulled me down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 121.71,
+      "end": 123.78,
+      "text": "Of thirst dressed up in a cleaner gown",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 123.78,
+      "end": 126.98,
+      "text": "I thought of ships that would not turn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 126.98,
+      "end": 129.38,
+      "text": "Their windows carrying their own concern",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 129.38,
+      "end": 131.713,
+      "text": "Now nothing passed, and nothing waved",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 132.18,
+      "end": 134.98,
+      "text": "No almost-saved, no almost-brave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 134.98,
+      "end": 137.78,
+      "text": "Just me, the boards, the weather's jaw",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 137.78,
+      "end": 140.58,
+      "text": "And all the knots I never saw",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 140.58,
+      "end": 143.62,
+      "text": "It doesn't beg, the coming squall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 143.62,
+      "end": 146.275,
+      "text": "It takes attendance from us all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 146.653,
+      "end": 148.922,
+      "text": "Til what we fear and what we feed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 149.3,
+      "end": 152.2,
+      "text": "Share one bunk beneath the keel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 152.2,
+      "end": 155.68,
+      "text": "Take the reading, take it slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 155.68,
+      "end": 158.58,
+      "text": "Pressure falling in the bones",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 158.58,
+      "end": 160.538,
+      "text": "Every breath a borrowed berth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 161.027,
+      "end": 161.516,
+      "text": "Every wave rehearsed by worse",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 163.474,
+      "end": 166.9,
+      "text": "I keep my mouth above the swell",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 166.9,
+      "end": 169.784,
+      "text": "Hold my nerve and ring no bell",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 169.784,
+      "end": 171.844,
+      "text": "If the sky has teeth tonight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 172.668,
+      "end": 175.14,
+      "text": "Let it find me still upright",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 175.14,
+      "end": 178.294,
+      "text": "I used to call the drag a shackle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 179.083,
+      "end": 180.66,
+      "text": "Then called the leaving borrowed tackle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 180.66,
+      "end": 183.5,
+      "text": "But out here names go overboard",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 183.5,
+      "end": 184.447,
+      "text": "And wanting wears a sailor's cord",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 186.34,
+      "end": 188.74,
+      "text": "If I survive the lowering glass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 188.74,
+      "end": 191.94,
+      "text": "It won't be proof the storm has passed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 191.94,
+      "end": 195.54,
+      "text": "Just proof a crooked little craft",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 195.54,
+      "end": 198.54,
+      "text": "Can keep insisting from the aft",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 198.54,
+      "end": 199.14,
+      "text": "(whispered)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 199.14,
+      "end": 205.14,
+      "text": "Not yet... not under...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 205.14,
+      "end": 211.14,
+      "text": "Not yet... not water...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 63,
+      "section": "Outro",
+      "start": 211.14,
+      "end": 220.86,
+      "text": "Count the glass... count the drop...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 64,
+      "section": "Outro",
+      "start": 220.86,
+      "end": 230.58,
+      "text": "Tie the pail before it knocks",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 65,
+      "section": "Outro",
+      "start": 230.58,
+      "end": 235.9,
+      "text": "Rope on the rail... breath in the gale...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 66,
+      "section": "Outro",
+      "start": 236.66,
+      "end": 241.22,
+      "text": "I am not done being small",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    }
+  ]
+}

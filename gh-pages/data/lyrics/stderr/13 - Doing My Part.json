@@ -1,0 +1,847 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "stderr",
+  "title": "Doing My Part",
+  "text_path": "stderr/13 - Doing My Part.txt",
+  "audio_path": "stderr/audio/13 - Doing My Part.mp3",
+  "duration_seconds": 187.24,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 76,
+    "reference_word_count": 442,
+    "observed_word_count": 438,
+    "matched_word_count": 340,
+    "matched_word_ratio": 0.769
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 13.0,
+      "text": "Yeah, look close, if you need a villain, a volunteer."
+    },
+    {
+      "start": 13.0,
+      "end": 17.36,
+      "text": "Walking the room and attention rise like the air itself recognize something crooked"
+    },
+    {
+      "start": 17.36,
+      "end": 21.28,
+      "text": "under the skin, something broken, walking in, trying to be decent, trying to be fair,"
+    },
+    {
+      "start": 21.28,
+      "end": 25.6,
+      "text": "I still leave damage everywhere, if a good move I try to make, gotta shut our dragon"
+    },
+    {
+      "start": 25.6,
+      "end": 29.68,
+      "text": "in my way, smile on, but the wire ends wrong, like the static inside of someone"
+    },
+    {
+      "start": 29.68,
+      "end": 33.68,
+      "text": "worse, come on sharp and strange, every kindness somehow rearranged, people flinch"
+    },
+    {
+      "start": 33.68,
+      "end": 37.36,
+      "text": "when the silence falls, like they read in me through the walls, I can see it before"
+    },
+    {
+      "start": 37.36,
+      "end": 41.36,
+      "text": "they speak, they're quite a little shift in the cheek, yeah, try to change the shape"
+    },
+    {
+      "start": 41.36,
+      "end": 49.6,
+      "text": "I'm in, file the edges off the sand, but every fixer proves the chart, I'm still doing"
+    },
+    {
+      "start": 49.6,
+      "end": 59.24,
+      "text": "my part, if you need some wonder, blame tonight, put my face under, like point and say,"
+    },
+    {
+      "start": 59.24,
+      "end": 66.24,
+      "text": "don't grow that heart, look at him, he's doing this part, if you need proof, what"
+    },
+    {
+      "start": 66.24,
+      "end": 74.24,
+      "text": "are wrong looks like, I reckon I live inside of life, put me up like warning,"
+    },
+    {
+      "start": 74.24,
+      "end": 83.24,
+      "text": "I'm doing my part, me and talking in heart is stand every flaw, and hard to mend, every"
+    },
+    {
+      "start": 83.24,
+      "end": 88.24,
+      "text": "memory and review, every arm I ever brutal, I meant well every time, steady, I'll come"
+    },
+    {
+      "start": 88.24,
+      "end": 92.24,
+      "text": "reas like crime intentions, rest the moment they start, like the blueprint, it's my part,"
+    },
+    {
+      "start": 92.24,
+      "end": 97.24,
+      "text": "friends get tired of the same one track, same apology coming back, same profession, same regret,"
+    },
+    {
+      "start": 97.24,
+      "end": 102.24,
+      "text": "same mistake, I finish it, even when I try to step aside, still the fault lines coincide,"
+    },
+    {
+      "start": 102.24,
+      "end": 110.24,
+      "text": "like gravity in uniform, every system I deform, try to walk a cleaner line, try to"
+    },
+    {
+      "start": 110.24,
+      "end": 119.24,
+      "text": "walk a cleaner line, I'm still doing my part, if you need some wonder, blame tonight,"
+    },
+    {
+      "start": 119.24,
+      "end": 130.24,
+      "text": "put my face under, like point and say, don't grow that heart, look at him, he's doing"
+    },
+    {
+      "start": 130.24,
+      "end": 137.24,
+      "text": "this part, if you need proof, what are wrong looks like, I reckon I live inside of life,"
+    },
+    {
+      "start": 137.24,
+      "end": 147.24,
+      "text": "put me up like warning, I'm doing my part, this car sitting deep in the chest,"
+    },
+    {
+      "start": 147.24,
+      "end": 152.24,
+      "text": "like a parasite, need arrest, every breath you're second, like the air reject the man,"
+    },
+    {
+      "start": 152.24,
+      "end": 157.24,
+      "text": "if this poison in the world, I can hear it when they tell, you're available in the chart,"
+    },
+    {
+      "start": 157.24,
+      "end": 162.24,
+      "text": "you're the one, doing the part, maybe every system needs one example, when it bleeds,"
+    },
+    {
+      "start": 162.24,
+      "end": 167.24,
+      "text": "one bad shape in human eyes, so the rest no rest starts, if you search for the scar,"
+    },
+    {
+      "start": 167.24,
+      "end": 172.24,
+      "text": "for the place things fall apart, you don't have to look that hard, I'm right here,"
+    },
+    {
+      "start": 172.24,
+      "end": 187.24,
+      "text": "doing my part, doing my part, doing my part,"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 0.0,
+      "end": 1.3,
+      "text": "Yeah…",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 1.3,
+      "end": 3.9,
+      "text": "Look close.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 3.9,
+      "end": 13.0,
+      "text": "If you need a villain, I volunteer.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 3,
+      "section": "Verse 1",
+      "start": 13.335,
+      "end": 15.012,
+      "text": "Walk in the room and the tension rise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 15.012,
+      "end": 16.689,
+      "text": "Like the air itself recognize",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 16.689,
+      "end": 18.144,
+      "text": "Something crooked under the skin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 18.144,
+      "end": 19.189,
+      "text": "Something broken walking in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 19.451,
+      "end": 21.28,
+      "text": "Try to be decent, try to be fair",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 21.534,
+      "end": 22.551,
+      "text": "Still leave damage everywhere",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 23.059,
+      "end": 24.584,
+      "text": "Every good move I try to make",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 25.6,
+      "end": 26.11,
+      "text": "Got a shadow dragging in my wake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 26.365,
+      "end": 28.15,
+      "text": "Smile on but the wiring’s wrong",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 28.15,
+      "end": 29.17,
+      "text": "Like the static inside a song",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 30.013,
+      "end": 31.68,
+      "text": "Words come out sharp and strange",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 31.68,
+      "end": 33.013,
+      "text": "Every kindness somehow rearranged",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 33.013,
+      "end": 34.546,
+      "text": "People flinch when the silence falls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 16,
+      "section": "Verse 1",
+      "start": 34.546,
+      "end": 36.278,
+      "text": "Like they reading me through the walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 17,
+      "section": "Verse 1",
+      "start": 36.278,
+      "end": 37.86,
+      "text": "I can see it before they speak",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 18,
+      "section": "Verse 1",
+      "start": 38.61,
+      "end": 39.86,
+      "text": "That quiet little shift in the cheek",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 39.86,
+      "end": 42.329,
+      "text": "Yeah I tried to change the shape I’m in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 20,
+      "section": "Pre-Chorus",
+      "start": 42.814,
+      "end": 44.753,
+      "text": "Filed the edges off the sin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 21,
+      "section": "Pre-Chorus",
+      "start": 45.238,
+      "end": 48.146,
+      "text": "But every fix just proves the chart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 22,
+      "section": "Pre-Chorus",
+      "start": 48.146,
+      "end": 50.734,
+      "text": "I’m still doing my part",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 50.734,
+      "end": 54.704,
+      "text": "If you need someone to blame tonight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 54.704,
+      "end": 56.972,
+      "text": "Put my face under that light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 57.539,
+      "end": 60.99,
+      "text": "Point and say “Don’t grow that heart”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 60.99,
+      "end": 64.053,
+      "text": "Look at him — he’s doing his part",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 64.053,
+      "end": 68.24,
+      "text": "If you need proof what wrong looks like",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 28,
+      "section": "Chorus",
+      "start": 69.74,
+      "end": 71.74,
+      "text": "How rot can live inside a life",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Chorus",
+      "start": 71.74,
+      "end": 74.24,
+      "text": "Put me up like warning art",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Chorus",
+      "start": 74.24,
+      "end": 76.24,
+      "text": "Yeah… I’m doing my part",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 79.24,
+      "end": 79.74,
+      "text": "Mirror talk getting hard to stand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 79.74,
+      "end": 80.74,
+      "text": "Every flaw in high demand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 82.74,
+      "end": 84.178,
+      "text": "Every memory in review",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 84.178,
+      "end": 85.428,
+      "text": "Every harm I ever brewed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 85.74,
+      "end": 87.303,
+      "text": "Thought I meant well every time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 88.507,
+      "end": 89.04,
+      "text": "Still the outcome reads like crime",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 89.04,
+      "end": 90.64,
+      "text": "Intentions rust the moment they start",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 90.64,
+      "end": 92.24,
+      "text": "Like the blueprint hates my part",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 92.24,
+      "end": 94.74,
+      "text": "Friends get tired of the same old track",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 40,
+      "section": "Verse 2",
+      "start": 94.74,
+      "end": 95.99,
+      "text": "Same apology coming back",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Verse 2",
+      "start": 95.99,
+      "end": 97.24,
+      "text": "Same confession, same regret",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "Verse 2",
+      "start": 97.24,
+      "end": 97.828,
+      "text": "Same mistake not finished yet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 43,
+      "section": "Verse 2",
+      "start": 98.711,
+      "end": 100.769,
+      "text": "Even when I try to step aside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 44,
+      "section": "Verse 2",
+      "start": 100.769,
+      "end": 102.24,
+      "text": "Still the fault lines coincide",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 45,
+      "section": "Verse 2",
+      "start": 102.24,
+      "end": 103.74,
+      "text": "Like gravity in human form",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Verse 2",
+      "start": 104.24,
+      "end": 106.24,
+      "text": "Every system I deform",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 47,
+      "section": "Pre-Chorus 2",
+      "start": 106.74,
+      "end": 109.24,
+      "text": "Tried to walk a cleaner line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Pre-Chorus 2",
+      "start": 109.74,
+      "end": 110.24,
+      "text": "Tried to quarantine the mind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 49,
+      "section": "Pre-Chorus 2",
+      "start": 110.24,
+      "end": 112.49,
+      "text": "But the math don’t fall apart",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 50,
+      "section": "Pre-Chorus 2",
+      "start": 112.49,
+      "end": 115.302,
+      "text": "I’m still doing my part",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 115.302,
+      "end": 119.24,
+      "text": "If you need someone to blame tonight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 52,
+      "section": "Chorus",
+      "start": 119.24,
+      "end": 121.828,
+      "text": "Put my face under that light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 53,
+      "section": "Chorus",
+      "start": 122.475,
+      "end": 127.005,
+      "text": "Point and say “Don’t grow that heart”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 54,
+      "section": "Chorus",
+      "start": 127.005,
+      "end": 131.018,
+      "text": "Look at him — he’s doing his part",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 55,
+      "section": "Chorus",
+      "start": 131.018,
+      "end": 134.518,
+      "text": "If you need proof what wrong looks like",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 56,
+      "section": "Chorus",
+      "start": 135.684,
+      "end": 137.24,
+      "text": "How rot can live inside a life",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 57,
+      "section": "Chorus",
+      "start": 137.24,
+      "end": 140.365,
+      "text": "Put me up like warning art",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 58,
+      "section": "Chorus",
+      "start": 140.365,
+      "end": 142.865,
+      "text": "Yeah… I’m doing my part",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 144.115,
+      "end": 147.24,
+      "text": "Disgust sitting deep in the chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 60,
+      "section": "Bridge",
+      "start": 147.24,
+      "end": 148.24,
+      "text": "Like a parasite needing rest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 61,
+      "section": "Bridge",
+      "start": 148.907,
+      "end": 149.573,
+      "text": "Every breath feel secondhand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 62,
+      "section": "Bridge",
+      "start": 150.24,
+      "end": 152.24,
+      "text": "Like the air reject the man",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 63,
+      "section": "Bridge",
+      "start": 152.24,
+      "end": 153.629,
+      "text": "If there’s poison in the well",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 64,
+      "section": "Bridge",
+      "start": 153.907,
+      "end": 155.851,
+      "text": "I can hear it when they tell",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 65,
+      "section": "Bridge",
+      "start": 155.851,
+      "end": 157.24,
+      "text": "“You’re the variable in the chart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 66,
+      "section": "Bridge",
+      "start": 157.24,
+      "end": 159.24,
+      "text": "You’re the one doing the part”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 67,
+      "section": "Bridge",
+      "start": 159.24,
+      "end": 160.573,
+      "text": "Maybe every system needs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 68,
+      "section": "Bridge",
+      "start": 160.573,
+      "end": 162.24,
+      "text": "One example when it bleeds",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 69,
+      "section": "Bridge",
+      "start": 162.24,
+      "end": 163.629,
+      "text": "One bad shape in human art",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 70,
+      "section": "Bridge",
+      "start": 163.907,
+      "end": 164.74,
+      "text": "So the rest know where to start",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Outro",
+      "start": 165.573,
+      "end": 167.24,
+      "text": "So if you’re searching for the scar",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 72,
+      "section": "Outro",
+      "start": 167.24,
+      "end": 169.115,
+      "text": "For the place things fall apart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 73,
+      "section": "Outro",
+      "start": 169.115,
+      "end": 171.303,
+      "text": "You don’t have to look that hard",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 74,
+      "section": "Outro",
+      "start": 171.303,
+      "end": 172.24,
+      "text": "I’m right here.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 75,
+      "section": "Outro",
+      "start": 172.24,
+      "end": 177.24,
+      "text": "Doing my part.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

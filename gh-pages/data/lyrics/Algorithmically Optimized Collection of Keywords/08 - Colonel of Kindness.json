@@ -1,0 +1,605 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Algorithmically Optimized Collection of Keywords",
+  "title": "Colonel of Kindness",
+  "text_path": "Algorithmically Optimized Collection of Keywords/08 - Colonel of Kindness.txt",
+  "audio_path": "Algorithmically Optimized Collection of Keywords/audio/08 - Colonel of Kindness.mp3",
+  "duration_seconds": 196.24,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 48,
+    "reference_word_count": 290,
+    "observed_word_count": 294,
+    "matched_word_count": 226,
+    "matched_word_ratio": 0.779
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 21.76,
+      "text": "But they candle headache flare a signal fire in quiet air"
+    },
+    {
+      "start": 21.76,
+      "end": 28.56,
+      "text": "Gunn all of the kind hearted core Left hand stirring pots of water"
+    },
+    {
+      "start": 28.56,
+      "end": 35.12,
+      "text": "Chrome worries humming on the road eat grin and say hop on let's go"
+    },
+    {
+      "start": 35.12,
+      "end": 44.0,
+      "text": "Lucky man and worn out boots pockets full of fortitude"
+    },
+    {
+      "start": 44.0,
+      "end": 50.64,
+      "text": "Fortunate fingers holding the world like warm loaf of bread"
+    },
+    {
+      "start": 50.64,
+      "end": 57.92,
+      "text": "Principal thunder shouting at screens for the voiceless instead"
+    },
+    {
+      "start": 57.92,
+      "end": 64.48,
+      "text": "Father pellet in artillery smoke laughing in the kitchen where his patience broke"
+    },
+    {
+      "start": 64.48,
+      "end": 73.28,
+      "text": "Happy drunken a la whisky soft and truth you taught me how to rage with love and love with all my youth"
+    },
+    {
+      "start": 73.28,
+      "end": 77.92,
+      "text": "Passing Michael Fuse in rain"
+    },
+    {
+      "start": 78.88,
+      "end": 84.56,
+      "text": "Mercy was your last campaign"
+    },
+    {
+      "start": 90.96,
+      "end": 97.76,
+      "text": "Two cancers down a trembling hand Diabetic sweet tooth for the promise land left"
+    },
+    {
+      "start": 97.76,
+      "end": 103.92,
+      "text": "Lean in light out in a storm of blame and my grand winds carried your flame"
+    },
+    {
+      "start": 103.92,
+      "end": 111.28,
+      "text": "Motor oil gospel skillet he hands kids turned away from the taste of your whims you left"
+    },
+    {
+      "start": 111.28,
+      "end": 117.28,
+      "text": "You'd sip your tea's and again believe in solcoes often then"
+    },
+    {
+      "start": 119.76,
+      "end": 124.24,
+      "text": "Fortune and father grateful even as the day goes then"
+    },
+    {
+      "start": 125.2,
+      "end": 127.2,
+      "text": "oh"
+    },
+    {
+      "start": 127.2,
+      "end": 130.48,
+      "text": "Soldier choosing peace letting mercy us sure you"
+    },
+    {
+      "start": 130.48,
+      "end": 134.48,
+      "text": "in"
+    },
+    {
+      "start": 137.04,
+      "end": 143.36,
+      "text": "Father pellet in artillery smoke laughing in the kitchen where his patience broke"
+    },
+    {
+      "start": 143.36,
+      "end": 151.2,
+      "text": "Happy drunken a la whisky soft and truth you taught me how to rage with love and love with all my youth"
+    },
+    {
+      "start": 152.16,
+      "end": 154.72,
+      "text": "Passing Michael Fuse in rain"
+    },
+    {
+      "start": 158.8,
+      "end": 161.2,
+      "text": "Mercy was your last campaign"
+    },
+    {
+      "start": 162.88,
+      "end": 167.2,
+      "text": "You've been aged on life soft and sweet finals"
+    },
+    {
+      "start": 167.2,
+      "end": 172.88,
+      "text": "who in the hospital shade you whispered enough in the world obeyed"
+    },
+    {
+      "start": 172.88,
+      "end": 176.24,
+      "text": "Some endings blew over pedals fade"
+    },
+    {
+      "start": 176.24,
+      "end": 178.08,
+      "text": "Cremul of kindness"
+    },
+    {
+      "start": 179.36,
+      "end": 181.04,
+      "text": "Disbanded parade"
+    },
+    {
+      "start": 182.96,
+      "end": 187.52,
+      "text": "Heddy spark to a quiet star a follow its heart"
+    },
+    {
+      "start": 187.52,
+      "end": 193.28,
+      "text": "Wherever you are fortunate man you carried us far far"
+    },
+    {
+      "start": 193.28,
+      "end": 196.24,
+      "text": "As a motorcycle him in the dark"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "VERSE 1",
+      "start": 3.956,
+      "end": 9.891,
+      "text": "Birthday candle, headache flare—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 1,
+      "section": "VERSE 1",
+      "start": 9.891,
+      "end": 21.76,
+      "text": "a signal fire in quiet air.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 2,
+      "section": "VERSE 1",
+      "start": 22.806,
+      "end": 24.898,
+      "text": "Colonel of the kind-hearted corps,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 3,
+      "section": "VERSE 1",
+      "start": 25.422,
+      "end": 28.037,
+      "text": "left hand stirring pots of war.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 4,
+      "section": "VERSE 1",
+      "start": 28.56,
+      "end": 31.371,
+      "text": "Chrome horse humming on the road,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "VERSE 1",
+      "start": 31.84,
+      "end": 35.12,
+      "text": "he’d grin and say, “Hop on, let’s go.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 6,
+      "section": "VERSE 1",
+      "start": 35.12,
+      "end": 40.448,
+      "text": "Lucky man in worn-out boots,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 7,
+      "section": "VERSE 1",
+      "start": 40.448,
+      "end": 44.0,
+      "text": "pockets full of fortitude.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 8,
+      "section": "PRE-CHORUS",
+      "start": 44.0,
+      "end": 44.1,
+      "text": "Oh—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 9,
+      "section": "PRE-CHORUS",
+      "start": 44.1,
+      "end": 50.64,
+      "text": "Fortunate fingers, holding the world like a warm loaf of bread.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 10
+    },
+    {
+      "index": 10,
+      "section": "PRE-CHORUS",
+      "start": 50.64,
+      "end": 51.449,
+      "text": "Oh—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 11,
+      "section": "PRE-CHORUS",
+      "start": 51.449,
+      "end": 57.92,
+      "text": "Principled thunder, shouting at screens for the voiceless instead.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 12,
+      "section": "CHORUS",
+      "start": 57.92,
+      "end": 60.443,
+      "text": "Father, feathered in artillery smoke,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 13,
+      "section": "CHORUS",
+      "start": 60.443,
+      "end": 64.48,
+      "text": "laughing in the kitchen where his patience broke.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 14,
+      "section": "CHORUS",
+      "start": 64.48,
+      "end": 67.68,
+      "text": "Happy-drunken halo, whiskey-softened truth—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 15,
+      "section": "CHORUS",
+      "start": 67.68,
+      "end": 70.88,
+      "text": "you taught me how to rage with love,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 16,
+      "section": "CHORUS",
+      "start": 70.88,
+      "end": 73.28,
+      "text": "and love with all my youth.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 17,
+      "section": "CHORUS",
+      "start": 73.28,
+      "end": 77.92,
+      "text": "Mm—passing like a fuse in rain.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 18,
+      "section": "CHORUS",
+      "start": 78.88,
+      "end": 84.56,
+      "text": "Mm—mercy was your last campaign.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "VERSE 2",
+      "start": 90.96,
+      "end": 93.874,
+      "text": "Two cancers down, a trembling hand,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "VERSE 2",
+      "start": 93.874,
+      "end": 97.274,
+      "text": "diabetic sweet-tooth for the promised land.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 21,
+      "section": "VERSE 2",
+      "start": 97.274,
+      "end": 101.225,
+      "text": "Left-leaning lighthouse in a storm of blame,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 22,
+      "section": "VERSE 2",
+      "start": 102.38,
+      "end": 103.92,
+      "text": "immigrant winds carried your flame.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 23,
+      "section": "VERSE 2",
+      "start": 103.92,
+      "end": 105.652,
+      "text": "Motor-oil gospel, skillet-heat hymns,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 24,
+      "section": "VERSE 2",
+      "start": 106.518,
+      "end": 110.414,
+      "text": "kids turned away from the taste of your whims—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 25,
+      "section": "VERSE 2",
+      "start": 111.28,
+      "end": 114.553,
+      "text": "you’d laugh, you’d sip, you’d season again,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 26,
+      "section": "VERSE 2",
+      "start": 114.553,
+      "end": 119.639,
+      "text": "believing salt could soften men.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 27,
+      "section": "PRE-CHORUS",
+      "start": 119.639,
+      "end": 120.656,
+      "text": "Oh—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 28,
+      "section": "PRE-CHORUS",
+      "start": 120.656,
+      "end": 123.344,
+      "text": "Fortunate father, grateful even as the day grew thin.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 29,
+      "section": "PRE-CHORUS",
+      "start": 125.2,
+      "end": 127.2,
+      "text": "Oh—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 30,
+      "section": "PRE-CHORUS",
+      "start": 127.2,
+      "end": 134.48,
+      "text": "A soldier choosing peace, letting mercy usher you in.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 31,
+      "section": "CHORUS",
+      "start": 137.04,
+      "end": 139.471,
+      "text": "Father, feathered in artillery smoke,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 32,
+      "section": "CHORUS",
+      "start": 139.471,
+      "end": 143.36,
+      "text": "laughing in the kitchen where his patience broke.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 33,
+      "section": "CHORUS",
+      "start": 143.36,
+      "end": 146.211,
+      "text": "Happy-drunken halo, whiskey-softened truth—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 34,
+      "section": "CHORUS",
+      "start": 146.211,
+      "end": 149.062,
+      "text": "you taught me how to rage with love,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 35,
+      "section": "CHORUS",
+      "start": 149.062,
+      "end": 151.2,
+      "text": "and love with all my youth.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 36,
+      "section": "CHORUS",
+      "start": 152.16,
+      "end": 154.72,
+      "text": "Mm—passing like a fuse in rain.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 37,
+      "section": "CHORUS",
+      "start": 158.8,
+      "end": 161.2,
+      "text": "Mm—mercy was your last campaign.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 38,
+      "section": "BRIDGE",
+      "start": 165.28,
+      "end": 165.76,
+      "text": "Euthanasia dawnlight, soft as suede—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 39,
+      "section": "BRIDGE",
+      "start": 167.673,
+      "end": 169.567,
+      "text": "final salute in the hospital shade.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "BRIDGE",
+      "start": 169.567,
+      "end": 172.88,
+      "text": "You whispered, “Enough,” and the world obeyed.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 41,
+      "section": "BRIDGE",
+      "start": 172.88,
+      "end": 176.24,
+      "text": "Some endings bloom, though the petals fade.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "BRIDGE",
+      "start": 176.853,
+      "end": 178.08,
+      "text": "Colonel of kindness,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 43,
+      "section": "BRIDGE",
+      "start": 179.36,
+      "end": 181.04,
+      "text": "disbanded parade.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 44,
+      "section": "OUTRO",
+      "start": 183.416,
+      "end": 185.696,
+      "text": "Headache spark to a quiet star—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 45,
+      "section": "OUTRO",
+      "start": 186.152,
+      "end": 189.248,
+      "text": "I follow its arc wherever you are.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 46,
+      "section": "OUTRO",
+      "start": 189.248,
+      "end": 192.704,
+      "text": "Fortunate man, you carried us far,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 47,
+      "section": "OUTRO",
+      "start": 192.704,
+      "end": 196.24,
+      "text": "far as a motorcycle hymn in the dark.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    }
+  ]
+}

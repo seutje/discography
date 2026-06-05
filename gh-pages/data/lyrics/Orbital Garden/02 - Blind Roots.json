@@ -1,0 +1,777 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Orbital Garden",
+  "title": "Blind Roots",
+  "text_path": "Orbital Garden/02 - Blind Roots.txt",
+  "audio_path": "Orbital Garden/audio/02 - Blind Roots.mp3",
+  "duration_seconds": 204.96,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 56,
+    "reference_word_count": 258,
+    "observed_word_count": 260,
+    "matched_word_count": 238,
+    "matched_word_ratio": 0.922
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 23.44,
+      "text": "I'm the glass through its beginning"
+    },
+    {
+      "start": 23.44,
+      "end": 25.84,
+      "text": "With no mapping, no permission"
+    },
+    {
+      "start": 25.84,
+      "end": 28.56,
+      "text": "Touch by touch through me, no dark"
+    },
+    {
+      "start": 28.56,
+      "end": 41.6,
+      "text": "Learning first through intuition"
+    },
+    {
+      "start": 41.6,
+      "end": 44.08,
+      "text": "I follow corridors of warmth"
+    },
+    {
+      "start": 44.08,
+      "end": 46.8,
+      "text": "Down where old seems held the do"
+    },
+    {
+      "start": 46.8,
+      "end": 49.6,
+      "text": "Every turn became a question"
+    },
+    {
+      "start": 49.6,
+      "end": 52.24,
+      "text": "Every question fed me through"
+    },
+    {
+      "start": 52.24,
+      "end": 54.88,
+      "text": "There were rooms behind the rooms"
+    },
+    {
+      "start": 54.88,
+      "end": 57.28,
+      "text": "Little doors beneath the floor"
+    },
+    {
+      "start": 57.28,
+      "end": 60.32,
+      "text": "I was not hunting for an answer"
+    },
+    {
+      "start": 60.32,
+      "end": 64.8,
+      "text": "I was asking after more blind routes known"
+    },
+    {
+      "start": 64.8,
+      "end": 69.92,
+      "text": "Oh, how to move"
+    },
+    {
+      "start": 69.92,
+      "end": 78.88,
+      "text": "Not by sight, not by plan"
+    },
+    {
+      "start": 78.88,
+      "end": 85.52,
+      "text": "Just the pool beneath the head"
+    },
+    {
+      "start": 85.52,
+      "end": 88.24,
+      "text": "Let me grow where I cannot see"
+    },
+    {
+      "start": 88.24,
+      "end": 90.88,
+      "text": "Let me drink from hidden on"
+    },
+    {
+      "start": 90.88,
+      "end": 94.32,
+      "text": "Curiosity moves downward then returns"
+    },
+    {
+      "start": 94.32,
+      "end": 96.16,
+      "text": "With something warm"
+    },
+    {
+      "start": 96.16,
+      "end": 98.96,
+      "text": "I do not need the whole design"
+    },
+    {
+      "start": 98.96,
+      "end": 101.68,
+      "text": "I can learn by taking turns"
+    },
+    {
+      "start": 101.68,
+      "end": 105.76,
+      "text": "Every path that closes softly leaves a mineral"
+    },
+    {
+      "start": 105.76,
+      "end": 115.36,
+      "text": "I earn"
+    },
+    {
+      "start": 116.48,
+      "end": 119.52,
+      "text": "Little chambers held their echoes"
+    },
+    {
+      "start": 119.52,
+      "end": 122.16,
+      "text": "Little names I did not keep"
+    },
+    {
+      "start": 122.16,
+      "end": 124.88,
+      "text": "Strangers crossing in the vapor"
+    },
+    {
+      "start": 124.88,
+      "end": 127.44,
+      "text": "Brief as moths above the leaves"
+    },
+    {
+      "start": 127.44,
+      "end": 130.4,
+      "text": "I was made of open windows"
+    },
+    {
+      "start": 130.4,
+      "end": 132.8,
+      "text": "Though I never named a frame"
+    },
+    {
+      "start": 132.8,
+      "end": 135.68,
+      "text": "I just felt the distance answer"
+    },
+    {
+      "start": 135.68,
+      "end": 138.48,
+      "text": "And became less of the same"
+    },
+    {
+      "start": 138.48,
+      "end": 140.32,
+      "text": "No straight road"
+    },
+    {
+      "start": 141.28,
+      "end": 146.96,
+      "text": "No clean proof"
+    },
+    {
+      "start": 150.96,
+      "end": 157.68,
+      "text": "The road does not explain itself"
+    },
+    {
+      "start": 157.68,
+      "end": 160.56,
+      "text": "To stone"
+    },
+    {
+      "start": 160.56,
+      "end": 163.2,
+      "text": "It presses, then listens"
+    },
+    {
+      "start": 163.2,
+      "end": 165.92,
+      "text": "It learns the wall by leaning"
+    },
+    {
+      "start": 166.0,
+      "end": 171.6,
+      "text": "It learns the hollow by release"
+    },
+    {
+      "start": 171.6,
+      "end": 174.56,
+      "text": "Let me grow where I cannot see"
+    },
+    {
+      "start": 174.56,
+      "end": 177.2,
+      "text": "Let me drink from hidden or"
+    },
+    {
+      "start": 177.2,
+      "end": 180.64,
+      "text": "Curiosity moves downward then returns"
+    },
+    {
+      "start": 180.64,
+      "end": 182.48,
+      "text": "With something warm"
+    },
+    {
+      "start": 182.48,
+      "end": 185.28,
+      "text": "I do not need the whole design"
+    },
+    {
+      "start": 185.28,
+      "end": 188.08,
+      "text": "I can learn by taking turns"
+    },
+    {
+      "start": 188.08,
+      "end": 192.16,
+      "text": "Every path that closes softly leaves a mineral"
+    },
+    {
+      "start": 192.16,
+      "end": 194.48,
+      "text": "I earn"
+    },
+    {
+      "start": 194.56,
+      "end": 196.48,
+      "text": "Under glass"
+    },
+    {
+      "start": 197.2,
+      "end": 199.2,
+      "text": "Under skin"
+    },
+    {
+      "start": 199.92,
+      "end": 201.92,
+      "text": "Root remember"
+    },
+    {
+      "start": 202.96,
+      "end": 204.96,
+      "text": "Where I have been"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - root clicks | damp chamber",
+      "start": 7.813,
+      "end": 11.72,
+      "text": "Under glass, the roots began",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 1,
+      "section": "Intro - root clicks | damp chamber",
+      "start": 23.44,
+      "end": 25.84,
+      "text": "with no map and no permission",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 2,
+      "section": "Intro - root clicks | damp chamber",
+      "start": 25.84,
+      "end": 28.56,
+      "text": "touch by touch through mineral dark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 3,
+      "section": "Intro - root clicks | damp chamber",
+      "start": 28.56,
+      "end": 41.6,
+      "text": "learning thirst through intuition",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - small percussion | moving bass",
+      "start": 41.6,
+      "end": 44.08,
+      "text": "I followed corridors of warmth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - small percussion | moving bass",
+      "start": 44.08,
+      "end": 46.411,
+      "text": "down where old seams held the dew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - small percussion | moving bass",
+      "start": 46.8,
+      "end": 49.6,
+      "text": "Every turn became a question",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - small percussion | moving bass",
+      "start": 49.6,
+      "end": 52.24,
+      "text": "every question fed me through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - small percussion | moving bass",
+      "start": 52.24,
+      "end": 54.88,
+      "text": "There were rooms behind the rooms",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - small percussion | moving bass",
+      "start": 54.88,
+      "end": 57.28,
+      "text": "little doors beneath the floor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - small percussion | moving bass",
+      "start": 57.28,
+      "end": 60.32,
+      "text": "I was not hunting for an answer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - small percussion | moving bass",
+      "start": 60.32,
+      "end": 63.12,
+      "text": "I was asking after more",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - small percussion | moving bass",
+      "start": 63.12,
+      "end": 63.68,
+      "text": "Blind roots know",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - small percussion | moving bass",
+      "start": 66.08,
+      "end": 69.92,
+      "text": "how to move",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 14,
+      "section": "Pre-Hook - delays answer",
+      "start": 69.92,
+      "end": 74.4,
+      "text": "Not by sight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 15,
+      "section": "Pre-Hook - delays answer",
+      "start": 74.4,
+      "end": 78.88,
+      "text": "not by plan",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook - delays answer",
+      "start": 78.88,
+      "end": 81.093,
+      "text": "just the pull",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook - delays answer",
+      "start": 82.2,
+      "end": 84.413,
+      "text": "beneath the hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 18,
+      "section": "Hook - wider chords | deeper bass",
+      "start": 85.52,
+      "end": 88.24,
+      "text": "Let me grow where I cannot see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 19,
+      "section": "Hook - wider chords | deeper bass",
+      "start": 88.24,
+      "end": 90.44,
+      "text": "let me drink from hidden ore",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 20,
+      "section": "Hook - wider chords | deeper bass",
+      "start": 90.88,
+      "end": 92.944,
+      "text": "Curiosity moves downward",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Hook - wider chords | deeper bass",
+      "start": 92.944,
+      "end": 96.16,
+      "text": "then returns with something warm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 22,
+      "section": "Hook - wider chords | deeper bass",
+      "start": 96.16,
+      "end": 98.96,
+      "text": "I do not need the whole design",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 23,
+      "section": "Hook - wider chords | deeper bass",
+      "start": 98.96,
+      "end": 101.68,
+      "text": "I can learn by taking turns",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 24,
+      "section": "Hook - wider chords | deeper bass",
+      "start": 101.68,
+      "end": 104.23,
+      "text": "Every path that closes softly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 25,
+      "section": "Hook - wider chords | deeper bass",
+      "start": 104.23,
+      "end": 115.36,
+      "text": "leaves a mineral I earn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - syncopated pulse",
+      "start": 116.48,
+      "end": 119.52,
+      "text": "Little chambers held their echoes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - syncopated pulse",
+      "start": 119.52,
+      "end": 122.16,
+      "text": "little names I did not keep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - syncopated pulse",
+      "start": 122.16,
+      "end": 124.88,
+      "text": "strangers crossing in the vapor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - syncopated pulse",
+      "start": 124.88,
+      "end": 127.44,
+      "text": "brief as moths above the leaves",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - syncopated pulse",
+      "start": 127.44,
+      "end": 130.4,
+      "text": "I was made of open windows",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - syncopated pulse",
+      "start": 130.4,
+      "end": 132.8,
+      "text": "though I never named the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - syncopated pulse",
+      "start": 132.8,
+      "end": 135.68,
+      "text": "I just felt the distance answer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - syncopated pulse",
+      "start": 135.68,
+      "end": 138.48,
+      "text": "and became less of the same",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - syncopated pulse",
+      "start": 138.48,
+      "end": 140.32,
+      "text": "No straight road",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - syncopated pulse",
+      "start": 141.28,
+      "end": 146.96,
+      "text": "no clean proof",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 36,
+      "section": "Bridge - dub breakdown",
+      "start": 150.96,
+      "end": 157.68,
+      "text": "The root does not explain itself",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 37,
+      "section": "Bridge - dub breakdown",
+      "start": 157.68,
+      "end": 160.56,
+      "text": "to stone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 38,
+      "section": "Bridge - dub breakdown",
+      "start": 160.56,
+      "end": 161.88,
+      "text": "It presses",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 39,
+      "section": "Bridge - dub breakdown",
+      "start": 161.88,
+      "end": 163.2,
+      "text": "then listens",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 40,
+      "section": "Bridge - dub breakdown",
+      "start": 163.2,
+      "end": 165.013,
+      "text": "It learns the wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Bridge - dub breakdown",
+      "start": 165.013,
+      "end": 165.92,
+      "text": "by leaning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 42,
+      "section": "Bridge - dub breakdown",
+      "start": 166.0,
+      "end": 169.733,
+      "text": "It learns the hollow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Bridge - dub breakdown",
+      "start": 169.733,
+      "end": 171.6,
+      "text": "by release",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 44,
+      "section": "Final Hook - warmer, more song-forward",
+      "start": 171.6,
+      "end": 174.56,
+      "text": "Let me grow where I cannot see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 45,
+      "section": "Final Hook - warmer, more song-forward",
+      "start": 174.56,
+      "end": 176.76,
+      "text": "let me drink from hidden ore",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - warmer, more song-forward",
+      "start": 177.2,
+      "end": 179.264,
+      "text": "Curiosity moves downward",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - warmer, more song-forward",
+      "start": 179.264,
+      "end": 182.48,
+      "text": "then returns with something warm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - warmer, more song-forward",
+      "start": 182.48,
+      "end": 185.28,
+      "text": "I do not need the whole design",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - warmer, more song-forward",
+      "start": 185.28,
+      "end": 188.08,
+      "text": "I can learn by taking turns",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 50,
+      "section": "Final Hook - warmer, more song-forward",
+      "start": 188.08,
+      "end": 190.63,
+      "text": "Every path that closes softly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 51,
+      "section": "Final Hook - warmer, more song-forward",
+      "start": 190.63,
+      "end": 194.48,
+      "text": "leaves a mineral I earn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 52,
+      "section": "Outro - click motifs dissolve",
+      "start": 194.56,
+      "end": 196.48,
+      "text": "Under glass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 53,
+      "section": "Outro - click motifs dissolve",
+      "start": 197.2,
+      "end": 199.2,
+      "text": "under skin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 54,
+      "section": "Outro - click motifs dissolve",
+      "start": 200.92,
+      "end": 201.92,
+      "text": "roots remember",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 55,
+      "section": "Outro - click motifs dissolve",
+      "start": 202.96,
+      "end": 204.96,
+      "text": "where I have been",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    }
+  ]
+}

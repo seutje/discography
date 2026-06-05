@@ -1,0 +1,828 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Noise Floor",
+  "title": "Peak Hold Circuit",
+  "text_path": "Noise Floor/09 - Peak Hold Circuit.txt",
+  "audio_path": "Noise Floor/audio/09 - Peak Hold Circuit.mp3",
+  "duration_seconds": 210.88,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 80,
+    "reference_word_count": 342,
+    "observed_word_count": 593,
+    "matched_word_count": 126,
+    "matched_word_ratio": 0.368
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 17.04,
+      "text": "Red lamp, red lamp, green lamp, little snaps away, catch hold weight, someone fed"
+    },
+    {
+      "start": 17.04,
+      "end": 27.92,
+      "text": "the console too much day break."
+    },
+    {
+      "start": 27.92,
+      "end": 32.12,
+      "text": "Every surface tells reporting every shadow files a claim."
+    },
+    {
+      "start": 32.12,
+      "end": 36.52,
+      "text": "Tiny errors turn fluorescent with my number and my name."
+    },
+    {
+      "start": 36.52,
+      "end": 42.62,
+      "text": "I can sort the room in pieces, I can hear the suckets blink, but the more the circuit"
+    },
+    {
+      "start": 42.62,
+      "end": 45.2,
+      "text": "flatters the less room I have to think."
+    },
+    {
+      "start": 45.2,
+      "end": 51.6,
+      "text": "There is no clean invitation, only doors that talk too fast, only mirrors, checking"
+    },
+    {
+      "start": 51.6,
+      "end": 54.64,
+      "text": "mirrors only proof that doesn't last."
+    },
+    {
+      "start": 54.64,
+      "end": 61.64,
+      "text": "Catch the spike, hold the light, call it signal, call it right."
+    },
+    {
+      "start": 61.64,
+      "end": 66.64,
+      "text": "Be cold circuit, don't let go, catch the spike and make you grow."
+    },
+    {
+      "start": 66.64,
+      "end": 71.64,
+      "text": "Every breath becomes a test, every kind of sounds a step slightly, a little"
+    },
+    {
+      "start": 71.64,
+      "end": 80.64,
+      "text": "dinging useless crown, run me, and grind me down, if this signal got the feet, I don't want what it does to me."
+    },
+    {
+      "start": 80.64,
+      "end": 81.64,
+      "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+    },
+    {
+      "start": 110.64,
+      "end": 140.64,
+      "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+    },
+    {
+      "start": 140.64,
+      "end": 170.64,
+      "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+    },
+    {
+      "start": 170.64,
+      "end": 200.64,
+      "text": "oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+    },
+    {
+      "start": 200.64,
+      "end": 210.88,
+      "text": "please"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - relay clicks | meter wake",
+      "start": 2.434,
+      "end": 4.869,
+      "text": "Red lamp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "Intro - relay clicks | meter wake",
+      "start": 4.869,
+      "end": 7.303,
+      "text": "green lamp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 2,
+      "section": "Intro - relay clicks | meter wake",
+      "start": 8.52,
+      "end": 9.737,
+      "text": "needle snaps awake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 3,
+      "section": "Intro - relay clicks | meter wake",
+      "start": 10.954,
+      "end": 12.171,
+      "text": "Catch",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 4,
+      "section": "Intro - relay clicks | meter wake",
+      "start": 12.171,
+      "end": 13.389,
+      "text": "hold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 5,
+      "section": "Intro - relay clicks | meter wake",
+      "start": 13.389,
+      "end": 14.606,
+      "text": "wait",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 6,
+      "section": "Intro - relay clicks | meter wake",
+      "start": 14.606,
+      "end": 20.667,
+      "text": "Someone fed the console",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 7,
+      "section": "Intro - relay clicks | meter wake",
+      "start": 20.667,
+      "end": 24.293,
+      "text": "too much daybreak",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 27.92,
+      "end": 29.787,
+      "text": "Every surface starts reporting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 29.787,
+      "end": 32.12,
+      "text": "every shadow files a claim",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 32.12,
+      "end": 33.88,
+      "text": "Tiny errors turn fluorescent",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 33.88,
+      "end": 36.52,
+      "text": "with my number and my name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 36.52,
+      "end": 38.892,
+      "text": "I can sort the room in pieces",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 38.892,
+      "end": 40.926,
+      "text": "I can hear the sockets blink",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 40.926,
+      "end": 42.943,
+      "text": "But the more the circuit flatters",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 42.943,
+      "end": 45.2,
+      "text": "the less room I have to think",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 45.2,
+      "end": 47.486,
+      "text": "There is no clean invitation",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 47.486,
+      "end": 50.229,
+      "text": "only doors that talk too fast",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 50.229,
+      "end": 52.107,
+      "text": "only mirrors checking mirrors",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - quick pulse | tight stereo",
+      "start": 52.107,
+      "end": 54.64,
+      "text": "only proof that doesn't last",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 20,
+      "section": "Pre-hook - relay cell in bass",
+      "start": 54.64,
+      "end": 56.39,
+      "text": "Catch the spike",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Pre-hook - relay cell in bass",
+      "start": 56.39,
+      "end": 58.14,
+      "text": "hold the light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "Pre-hook - relay cell in bass",
+      "start": 58.14,
+      "end": 59.89,
+      "text": "Call it signal",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 23,
+      "section": "Pre-hook - relay cell in bass",
+      "start": 59.89,
+      "end": 61.64,
+      "text": "call it right",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 24,
+      "section": "Hook 1 - harsh upper mids | compressed bass",
+      "start": 62.409,
+      "end": 63.948,
+      "text": "Peak hold circuit, don't let go",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Hook 1 - harsh upper mids | compressed bass",
+      "start": 63.948,
+      "end": 66.64,
+      "text": "catch the spike and make it grow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 26,
+      "section": "Hook 1 - harsh upper mids | compressed bass",
+      "start": 66.64,
+      "end": 68.426,
+      "text": "Every breath becomes a test",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 27,
+      "section": "Hook 1 - harsh upper mids | compressed bass",
+      "start": 68.426,
+      "end": 69.854,
+      "text": "every kindness sounds assessed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 28,
+      "section": "Hook 1 - harsh upper mids | compressed bass",
+      "start": 71.283,
+      "end": 72.814,
+      "text": "Bright little engine, useless crown",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Hook 1 - harsh upper mids | compressed bass",
+      "start": 72.814,
+      "end": 75.162,
+      "text": "run me up and grind me down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 30,
+      "section": "Hook 1 - harsh upper mids | compressed bass",
+      "start": 75.162,
+      "end": 77.118,
+      "text": "If this is signal, cut the feed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "Hook 1 - harsh upper mids | compressed bass",
+      "start": 77.51,
+      "end": 80.64,
+      "text": "I don't want what it does to me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 80.64,
+      "end": 84.567,
+      "text": "Now my jaw becomes a metronome",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 84.567,
+      "end": 88.494,
+      "text": "now my hands forget their skin",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 88.494,
+      "end": 90.457,
+      "text": "Every friendly constellation",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 90.457,
+      "end": 93.075,
+      "text": "turns to cameras listening",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 36,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 93.075,
+      "end": 96.347,
+      "text": "The groove keeps promising precision",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 37,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 96.347,
+      "end": 99.62,
+      "text": "but it only sells alarm",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 38,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 99.62,
+      "end": 103.547,
+      "text": "I can feel the hidden solder",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 39,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 103.547,
+      "end": 106.164,
+      "text": "overheating in my arms",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 40,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 106.164,
+      "end": 108.128,
+      "text": "Catch the smile",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 41,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 108.128,
+      "end": 110.091,
+      "text": "hold the breath",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 42,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 110.091,
+      "end": 112.055,
+      "text": "name the danger",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 43,
+      "section": "Verse 2 - delay creeps | cell turns inward",
+      "start": 112.055,
+      "end": 114.018,
+      "text": "call it depth",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 44,
+      "section": "Hook 2 - wider, then narrowed | transformed return",
+      "start": 114.018,
+      "end": 117.945,
+      "text": "Peak hold circuit, change the law",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 45,
+      "section": "Hook 2 - wider, then narrowed | transformed return",
+      "start": 117.945,
+      "end": 122.526,
+      "text": "show the peak and show the flaw",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 46,
+      "section": "Hook 2 - wider, then narrowed | transformed return",
+      "start": 122.526,
+      "end": 124.49,
+      "text": "Every answer overblessed",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 47,
+      "section": "Hook 2 - wider, then narrowed | transformed return",
+      "start": 124.49,
+      "end": 127.108,
+      "text": "keeps the question underdressed",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 48,
+      "section": "Hook 2 - wider, then narrowed | transformed return",
+      "start": 127.108,
+      "end": 131.034,
+      "text": "Bright little engine, count me down",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 49,
+      "section": "Hook 2 - wider, then narrowed | transformed return",
+      "start": 131.034,
+      "end": 135.616,
+      "text": "strip the shine out of the crown",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 50,
+      "section": "Hook 2 - wider, then narrowed | transformed return",
+      "start": 135.616,
+      "end": 140.197,
+      "text": "If this is signal, break the lead",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 51,
+      "section": "Hook 2 - wider, then narrowed | transformed return",
+      "start": 140.197,
+      "end": 145.433,
+      "text": "I don't want what it makes of me",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 52,
+      "section": "Bridge - half-time dropout | whispered panning",
+      "start": 145.433,
+      "end": 148.705,
+      "text": "Left channel: check the lock",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 53,
+      "section": "Bridge - half-time dropout | whispered panning",
+      "start": 148.705,
+      "end": 151.977,
+      "text": "Right channel: check the face",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 54,
+      "section": "Bridge - half-time dropout | whispered panning",
+      "start": 151.977,
+      "end": 155.25,
+      "text": "Left channel: check the sentence",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 55,
+      "section": "Bridge - half-time dropout | whispered panning",
+      "start": 155.25,
+      "end": 158.522,
+      "text": "Right channel: leave the place",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 56,
+      "section": "Bridge - half-time dropout | whispered panning",
+      "start": 158.522,
+      "end": 159.177,
+      "text": "Catch",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 57,
+      "section": "Bridge - half-time dropout | whispered panning",
+      "start": 159.177,
+      "end": 159.831,
+      "text": "hold",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 58,
+      "section": "Bridge - half-time dropout | whispered panning",
+      "start": 159.831,
+      "end": 160.486,
+      "text": "catch",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 59,
+      "section": "Bridge - half-time dropout | whispered panning",
+      "start": 160.486,
+      "end": 161.14,
+      "text": "hold",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 60,
+      "section": "Rupture - full stop | dry unison",
+      "start": 161.14,
+      "end": 161.795,
+      "text": "Release.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 161.795,
+      "end": 166.376,
+      "text": "I pull the plug on the altar",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 62,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 166.376,
+      "end": 170.303,
+      "text": "let the false sun drain away",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 63,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 170.303,
+      "end": 173.575,
+      "text": "Keep your silver little thunder",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 64,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 173.575,
+      "end": 177.502,
+      "text": "keep the teeth behind the day",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 65,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 177.502,
+      "end": 180.774,
+      "text": "I would rather be uncertain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 66,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 180.774,
+      "end": 184.701,
+      "text": "I would rather move off-grid",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 67,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 184.701,
+      "end": 187.973,
+      "text": "than be polished into panic",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 68,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 187.973,
+      "end": 192.555,
+      "text": "by a light that calls me fixed",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 69,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 192.555,
+      "end": 194.518,
+      "text": "Catch the spike",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 70,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 194.518,
+      "end": 196.482,
+      "text": "name the cost",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 71,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 196.482,
+      "end": 198.445,
+      "text": "open the hand",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 72,
+      "section": "Final Section - filtered reprise | low end exposed",
+      "start": 198.445,
+      "end": 201.063,
+      "text": "let it be lost",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 73,
+      "section": "Outro - low hum | no delay",
+      "start": 201.063,
+      "end": 203.026,
+      "text": "Red lamp dark",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 74,
+      "section": "Outro - low hum | no delay",
+      "start": 203.026,
+      "end": 204.99,
+      "text": "green lamp gone",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 75,
+      "section": "Outro - low hum | no delay",
+      "start": 204.99,
+      "end": 206.299,
+      "text": "finally wrong",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 76,
+      "section": "Outro - low hum | no delay",
+      "start": 206.299,
+      "end": 208.917,
+      "text": "in a quieter room",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 77,
+      "section": "Outro - low hum | no delay",
+      "start": 208.917,
+      "end": 209.571,
+      "text": "Catch",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 78,
+      "section": "Outro - low hum | no delay",
+      "start": 209.571,
+      "end": 210.226,
+      "text": "hold",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 79,
+      "section": "Outro - low hum | no delay",
+      "start": 210.226,
+      "end": 210.88,
+      "text": "release",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    }
+  ]
+}

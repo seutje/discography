@@ -1,0 +1,704 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Orbital Garden",
+  "title": "Life Support Garden",
+  "text_path": "Orbital Garden/11 - Life Support Garden.txt",
+  "audio_path": "Orbital Garden/audio/11 - Life Support Garden.mp3",
+  "duration_seconds": 264.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 59,
+    "reference_word_count": 269,
+    "observed_word_count": 299,
+    "matched_word_count": 226,
+    "matched_word_ratio": 0.84
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 26.0,
+      "text": "All the rooms are breathing now, seat and root and rain together"
+    },
+    {
+      "start": 30.0,
+      "end": 46.0,
+      "text": "Every chamber in the ring keeps its own interior climate"
+    },
+    {
+      "start": 46.0,
+      "end": 52.0,
+      "text": "The first cost still lives in soil, faint beneath the new worries"
+    },
+    {
+      "start": 52.0,
+      "end": 59.0,
+      "text": "Barrowed sun still warm, the trellis transparent veins still teach belief"
+    },
+    {
+      "start": 59.0,
+      "end": 66.0,
+      "text": "I'm just remember sleepless hands, my string members open rules"
+    },
+    {
+      "start": 66.0,
+      "end": 72.0,
+      "text": "Out of flowers keep that pollen, buckets keep them moving"
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "text": "There's nothing lost, only place"
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "text": "Every season has its chamber, everyone can feed a bloom"
+    },
+    {
+      "start": 88.0,
+      "end": 94.0,
+      "text": "This is life's support for the air inside my chest"
+    },
+    {
+      "start": 94.0,
+      "end": 101.0,
+      "text": "I'm not escaping, not arrival, just a way to keep it fresh"
+    },
+    {
+      "start": 101.0,
+      "end": 108.0,
+      "text": "I have laid a breathing garden from the phases I survived"
+    },
+    {
+      "start": 108.0,
+      "end": 114.0,
+      "text": "Every song becomes a chamber within a weather thrive"
+    },
+    {
+      "start": 114.0,
+      "end": 128.0,
+      "text": "I used to call creation proof, something bright enough to show"
+    },
+    {
+      "start": 128.0,
+      "end": 138.0,
+      "text": "Now I know it as a climate, something tended so I grow there are days that glass feels heavy"
+    },
+    {
+      "start": 138.0,
+      "end": 145.0,
+      "text": "Days the orbit pulls me thin, then I hear the roots feel"
+    },
+    {
+      "start": 145.0,
+      "end": 157.0,
+      "text": "Moving patiently within no grand end, no closed gate"
+    },
+    {
+      "start": 158.0,
+      "end": 167.0,
+      "text": "A life is not a straight line, it is circulation"
+    },
+    {
+      "start": 167.0,
+      "end": 175.0,
+      "text": "A song is not a trophy, it is atmosphere"
+    },
+    {
+      "start": 175.0,
+      "end": 182.0,
+      "text": "The garden does not finish, it keeps breathing"
+    },
+    {
+      "start": 182.0,
+      "end": 189.0,
+      "text": "Because I keep retiring"
+    },
+    {
+      "start": 193.0,
+      "end": 199.0,
+      "text": "This is life's support for the air inside my chest"
+    },
+    {
+      "start": 199.0,
+      "end": 207.0,
+      "text": "I'm not escaping, not arrival, just a way to keep it fresh"
+    },
+    {
+      "start": 207.0,
+      "end": 213.0,
+      "text": "I have laid a breathing garden from the phases I survived"
+    },
+    {
+      "start": 213.0,
+      "end": 221.0,
+      "text": "Every song becomes a chamber within a weather thrive"
+    },
+    {
+      "start": 221.0,
+      "end": 228.0,
+      "text": "To root to rain, hand to lamp to flame"
+    },
+    {
+      "start": 228.0,
+      "end": 236.0,
+      "text": "All the rooms of history start to warm up a bit through the heart"
+    },
+    {
+      "start": 237.0,
+      "end": 244.0,
+      "text": "I'm not escaping, I'm not escaping, I'm not escaping"
+    },
+    {
+      "start": 244.0,
+      "end": 252.0,
+      "text": "I'm not escaping, I'm not escaping, I'm not escaping"
+    },
+    {
+      "start": 252.0,
+      "end": 259.0,
+      "text": "I'm not escaping, I'm not escaping"
+    },
+    {
+      "start": 259.0,
+      "end": 264.0,
+      "text": "I'm not escaping, I'm not escaping"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - low hum | slow kick",
+      "start": 0.0,
+      "end": 13.0,
+      "text": "All the rooms are breathing now",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 1,
+      "section": "Intro - low hum | slow kick",
+      "start": 15.167,
+      "end": 26.0,
+      "text": "seed and root and rain together",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 2,
+      "section": "Intro - low hum | slow kick",
+      "start": 30.0,
+      "end": 38.0,
+      "text": "every chamber in the ring",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 3,
+      "section": "Intro - low hum | slow kick",
+      "start": 38.0,
+      "end": 46.0,
+      "text": "keeps its own interior climate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - sparse dub pulse",
+      "start": 46.0,
+      "end": 49.5,
+      "text": "The first call still lives in soil",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - sparse dub pulse",
+      "start": 49.5,
+      "end": 51.0,
+      "text": "faint beneath the newer leaves",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - sparse dub pulse",
+      "start": 53.273,
+      "end": 55.818,
+      "text": "borrowed suns still warm the trellis",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - sparse dub pulse",
+      "start": 55.818,
+      "end": 59.0,
+      "text": "transparent veins still teach belief",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - sparse dub pulse",
+      "start": 60.4,
+      "end": 62.5,
+      "text": "Pumps remember sleepless hands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - sparse dub pulse",
+      "start": 64.6,
+      "end": 66.0,
+      "text": "moss remembers open rules",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - sparse dub pulse",
+      "start": 67.2,
+      "end": 69.6,
+      "text": "outer flowers keep their pollen",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - sparse dub pulse",
+      "start": 70.2,
+      "end": 72.0,
+      "text": "orchids keep their moving moons",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - sparse dub pulse",
+      "start": 73.6,
+      "end": 76.8,
+      "text": "Nothing lost",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - sparse dub pulse",
+      "start": 76.8,
+      "end": 78.4,
+      "text": "only placed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 14,
+      "section": "Pre-Hook - motifs return",
+      "start": 80.0,
+      "end": 81.6,
+      "text": "Every season",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 15,
+      "section": "Pre-Hook - motifs return",
+      "start": 81.6,
+      "end": 84.0,
+      "text": "has its chamber",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook - motifs return",
+      "start": 84.0,
+      "end": 84.8,
+      "text": "every wound",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook - motifs return",
+      "start": 84.8,
+      "end": 88.0,
+      "text": "can feed a bloom",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 18,
+      "section": "Hook - deep, wide",
+      "start": 88.0,
+      "end": 90.4,
+      "text": "This is life support",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Hook - deep, wide",
+      "start": 90.4,
+      "end": 94.0,
+      "text": "for the air inside my chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Hook - deep, wide",
+      "start": 94.583,
+      "end": 96.917,
+      "text": "not escape and not arrival",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Hook - deep, wide",
+      "start": 96.917,
+      "end": 101.0,
+      "text": "just a way to keep it fresh",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 22,
+      "section": "Hook - deep, wide",
+      "start": 101.0,
+      "end": 104.818,
+      "text": "I have made a breathing garden",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 23,
+      "section": "Hook - deep, wide",
+      "start": 104.818,
+      "end": 108.0,
+      "text": "from the phases I survived",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Hook - deep, wide",
+      "start": 108.0,
+      "end": 111.333,
+      "text": "Every song becomes a chamber",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 25,
+      "section": "Hook - deep, wide",
+      "start": 112.667,
+      "end": 113.333,
+      "text": "where the inner weather thrives",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - warmer chords",
+      "start": 114.0,
+      "end": 121.636,
+      "text": "I used to call creation proof",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - warmer chords",
+      "start": 121.636,
+      "end": 128.0,
+      "text": "something bright enough to show",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - warmer chords",
+      "start": 128.0,
+      "end": 131.684,
+      "text": "Now I know it as a climate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - warmer chords",
+      "start": 131.684,
+      "end": 134.316,
+      "text": "something tended so I grow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - warmer chords",
+      "start": 134.316,
+      "end": 138.0,
+      "text": "There are days the glass feels heavy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - warmer chords",
+      "start": 138.0,
+      "end": 141.5,
+      "text": "days the orbit pulls me thin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - warmer chords",
+      "start": 141.5,
+      "end": 144.417,
+      "text": "Then I hear the roots below",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - warmer chords",
+      "start": 145.0,
+      "end": 149.0,
+      "text": "moving patiently within",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - warmer chords",
+      "start": 149.0,
+      "end": 153.0,
+      "text": "No grand end",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - warmer chords",
+      "start": 153.0,
+      "end": 157.0,
+      "text": "no closed gate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 36,
+      "section": "Bridge - spoken fragments",
+      "start": 158.0,
+      "end": 164.3,
+      "text": "A life is not a straight line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 37,
+      "section": "Bridge - spoken fragments",
+      "start": 164.3,
+      "end": 167.0,
+      "text": "It is circulation",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 38,
+      "section": "Bridge - spoken fragments",
+      "start": 167.0,
+      "end": 172.333,
+      "text": "A song is not a trophy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 39,
+      "section": "Bridge - spoken fragments",
+      "start": 172.333,
+      "end": 175.0,
+      "text": "It is atmosphere",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 40,
+      "section": "Bridge - spoken fragments",
+      "start": 175.0,
+      "end": 179.375,
+      "text": "The garden does not finish",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 41,
+      "section": "Bridge - spoken fragments",
+      "start": 179.375,
+      "end": 182.0,
+      "text": "It keeps breathing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "Bridge - spoken fragments",
+      "start": 182.0,
+      "end": 187.25,
+      "text": "because I keep returning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "Final Hook - full harmonies | motifs interlock",
+      "start": 193.0,
+      "end": 195.4,
+      "text": "This is life support",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Final Hook - full harmonies | motifs interlock",
+      "start": 195.4,
+      "end": 199.0,
+      "text": "for the air inside my chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 45,
+      "section": "Final Hook - full harmonies | motifs interlock",
+      "start": 199.667,
+      "end": 202.333,
+      "text": "not escape and not arrival",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - full harmonies | motifs interlock",
+      "start": 202.333,
+      "end": 207.0,
+      "text": "just a way to keep it fresh",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - full harmonies | motifs interlock",
+      "start": 207.0,
+      "end": 210.273,
+      "text": "I have made a breathing garden",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - full harmonies | motifs interlock",
+      "start": 210.273,
+      "end": 213.0,
+      "text": "from the phases I survived",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - full harmonies | motifs interlock",
+      "start": 213.0,
+      "end": 217.444,
+      "text": "Every song becomes a chamber",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 50,
+      "section": "Final Hook - full harmonies | motifs interlock",
+      "start": 219.222,
+      "end": 220.111,
+      "text": "where the inner weather thrives",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 51,
+      "section": "Outro - low-pass closes | long delay",
+      "start": 221.0,
+      "end": 221.778,
+      "text": "Seed to root",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 52,
+      "section": "Outro - low-pass closes | long delay",
+      "start": 221.778,
+      "end": 224.111,
+      "text": "root to rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 53,
+      "section": "Outro - low-pass closes | long delay",
+      "start": 224.111,
+      "end": 226.444,
+      "text": "hand to lamp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 54,
+      "section": "Outro - low-pass closes | long delay",
+      "start": 226.444,
+      "end": 228.0,
+      "text": "lamp to flame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 55,
+      "section": "Outro - low-pass closes | long delay",
+      "start": 228.0,
+      "end": 229.714,
+      "text": "All the rooms",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 56,
+      "section": "Outro - low-pass closes | long delay",
+      "start": 230.857,
+      "end": 231.429,
+      "text": "softly start",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 57,
+      "section": "Outro - low-pass closes | long delay",
+      "start": 231.429,
+      "end": 234.286,
+      "text": "one more orbit",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 58,
+      "section": "Outro - low-pass closes | long delay",
+      "start": 234.286,
+      "end": 236.0,
+      "text": "through the heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

@@ -1,0 +1,1027 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Driftwood",
+  "title": "Oars From Strangers",
+  "text_path": "Driftwood/06 - Oars From Strangers.txt",
+  "audio_path": "Driftwood/audio/06 - Oars From Strangers.mp3",
+  "duration_seconds": 259.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 76,
+    "reference_word_count": 449,
+    "observed_word_count": 510,
+    "matched_word_count": 331,
+    "matched_word_ratio": 0.737
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "text": "I'm not going to walk or not on wood"
+    },
+    {
+      "start": 10.0,
+      "end": 17.0,
+      "text": "Something moving where nothing should"
+    },
+    {
+      "start": 17.0,
+      "end": 22.0,
+      "text": "Fogging the throat, roping the teeth"
+    },
+    {
+      "start": 22.0,
+      "end": 28.0,
+      "text": "Hands I can't see pulling beneath"
+    },
+    {
+      "start": 28.0,
+      "end": 34.0,
+      "text": "The morning came with out of face"
+    },
+    {
+      "start": 34.0,
+      "end": 37.0,
+      "text": "A great cloth over every place"
+    },
+    {
+      "start": 37.0,
+      "end": 40.0,
+      "text": "No gold to mark the lifted air"
+    },
+    {
+      "start": 40.0,
+      "end": 42.0,
+      "text": "No master proved the world held"
+    },
+    {
+      "start": 42.0,
+      "end": 45.0,
+      "text": "Shape I'd wrote until the or went thin"
+    },
+    {
+      "start": 45.0,
+      "end": 48.0,
+      "text": "Until my shoulder folded in"
+    },
+    {
+      "start": 48.0,
+      "end": 50.0,
+      "text": "The raft kept speaking through"
+    },
+    {
+      "start": 50.0,
+      "end": 54.0,
+      "text": "It seems in little warnings, little pleas"
+    },
+    {
+      "start": 54.0,
+      "end": 57.0,
+      "text": "Then I'll be on the broken bow"
+    },
+    {
+      "start": 57.0,
+      "end": 60.0,
+      "text": "And I'll the brake disturb the flow"
+    },
+    {
+      "start": 60.0,
+      "end": 63.0,
+      "text": "Not close enough to call a crew"
+    },
+    {
+      "start": 63.0,
+      "end": 66.0,
+      "text": "Too close to call the water"
+    },
+    {
+      "start": 66.0,
+      "end": 70.0,
+      "text": "M.D. It doesn't save you like him"
+    },
+    {
+      "start": 70.0,
+      "end": 73.0,
+      "text": "It enters at the outer rim"
+    },
+    {
+      "start": 73.0,
+      "end": 76.0,
+      "text": "A pull you feel before you see the hand"
+    },
+    {
+      "start": 76.0,
+      "end": 78.0,
+      "text": "That makes it possible"
+    },
+    {
+      "start": 78.0,
+      "end": 81.0,
+      "text": "From strangers dark and slow"
+    },
+    {
+      "start": 81.0,
+      "end": 84.0,
+      "text": "Taken turns below the fog"
+    },
+    {
+      "start": 84.0,
+      "end": 87.0,
+      "text": "I do not know the names they keep"
+    },
+    {
+      "start": 87.0,
+      "end": 90.0,
+      "text": "Only how the timbers ease"
+    },
+    {
+      "start": 90.0,
+      "end": 93.0,
+      "text": "Or from strangers pulling breathe"
+    },
+    {
+      "start": 93.0,
+      "end": 96.0,
+      "text": "A rescue not release"
+    },
+    {
+      "start": 96.0,
+      "end": 99.0,
+      "text": "Just another pulling rhythm"
+    },
+    {
+      "start": 99.0,
+      "end": 101.0,
+      "text": "Moving with the pull I carry"
+    },
+    {
+      "start": 101.0,
+      "end": 109.0,
+      "text": "A skiff emerged by half to grease"
+    },
+    {
+      "start": 109.0,
+      "end": 112.0,
+      "text": "First the rope and woolen sleeves"
+    },
+    {
+      "start": 112.0,
+      "end": 115.0,
+      "text": "Two bent figures salt and bone"
+    },
+    {
+      "start": 115.0,
+      "end": 118.0,
+      "text": "Child quiet as a stone"
+    },
+    {
+      "start": 118.0,
+      "end": 121.0,
+      "text": "No one asked me where I'd failed"
+    },
+    {
+      "start": 121.0,
+      "end": 123.0,
+      "text": "No one blessed the ragged sale"
+    },
+    {
+      "start": 123.0,
+      "end": 126.0,
+      "text": "One hand reached and set a cup"
+    },
+    {
+      "start": 126.0,
+      "end": 129.0,
+      "text": "Where the builds kept rising up"
+    },
+    {
+      "start": 129.0,
+      "end": 132.0,
+      "text": "The old one tied my ruin stern"
+    },
+    {
+      "start": 132.0,
+      "end": 135.0,
+      "text": "With knots that did not need my word"
+    },
+    {
+      "start": 135.0,
+      "end": 138.0,
+      "text": "The child watched the island dash"
+    },
+    {
+      "start": 138.0,
+      "end": 142.0,
+      "text": "Fall from my coat into the wall"
+    },
+    {
+      "start": 142.0,
+      "end": 145.0,
+      "text": "It doesn't break the empty spell"
+    },
+    {
+      "start": 145.0,
+      "end": 147.76,
+      "text": "It rose beside the private swat"
+    },
+    {
+      "start": 147.76,
+      "end": 149.0,
+      "text": "A solid too"
+    },
+    {
+      "start": 149.0,
+      "end": 154.0,
+      "text": "That narrow guide learns the rhythm of another horse"
+    },
+    {
+      "start": 154.0,
+      "end": 157.0,
+      "text": "From strangers dark and slow"
+    },
+    {
+      "start": 157.0,
+      "end": 160.0,
+      "text": "Taken turns below the fog"
+    },
+    {
+      "start": 160.0,
+      "end": 163.0,
+      "text": "I do not know the names they keep"
+    },
+    {
+      "start": 163.0,
+      "end": 166.0,
+      "text": "Only how the timbers ease"
+    },
+    {
+      "start": 166.0,
+      "end": 169.0,
+      "text": "Or from strangers pulling breathe"
+    },
+    {
+      "start": 169.0,
+      "end": 172.0,
+      "text": "A rescue not release"
+    },
+    {
+      "start": 172.0,
+      "end": 175.0,
+      "text": "Just another pulling rhythm"
+    },
+    {
+      "start": 175.0,
+      "end": 178.0,
+      "text": "Moving with the pull I carry"
+    },
+    {
+      "start": 178.0,
+      "end": 181.0,
+      "text": "I made a room of open sea"
+    },
+    {
+      "start": 181.0,
+      "end": 184.0,
+      "text": "Called it truth because it answered me"
+    },
+    {
+      "start": 184.0,
+      "end": 187.0,
+      "text": "Every way return my shape"
+    },
+    {
+      "start": 187.0,
+      "end": 190.0,
+      "text": "Every absence held its place"
+    },
+    {
+      "start": 190.0,
+      "end": 193.0,
+      "text": "But someone else can hold an arm"
+    },
+    {
+      "start": 193.0,
+      "end": 196.0,
+      "text": "Without becoming what you're for"
+    },
+    {
+      "start": 196.0,
+      "end": 199.0,
+      "text": "Someone else can share the strain"
+    },
+    {
+      "start": 199.0,
+      "end": 202.0,
+      "text": "And leave your sorrow unclamed"
+    },
+    {
+      "start": 202.0,
+      "end": 205.0,
+      "text": "Wait, rise"
+    },
+    {
+      "start": 205.0,
+      "end": 208.0,
+      "text": "Do you know I'm finished?"
+    },
+    {
+      "start": 214.0,
+      "end": 244.0,
+      "text": "No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+    },
+    {
+      "start": 244.0,
+      "end": 259.0,
+      "text": "I carry not gone wild and not on wood, the raft's still broken but understood, fucking the throat rop in the teeth more than my own hands underneath."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 6.667,
+      "end": 10.0,
+      "text": "Knock on water... not on wood...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 10.0,
+      "end": 17.0,
+      "text": "Something moving where nothing should",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 17.833,
+      "end": 22.0,
+      "text": "Fog in the throat... rope in the teeth...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 22.0,
+      "end": 28.0,
+      "text": "Hands I can't see pulling beneath",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 28.0,
+      "end": 34.0,
+      "text": "The morning came without a face",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 34.0,
+      "end": 37.0,
+      "text": "A grey cloth over every place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 37.0,
+      "end": 40.0,
+      "text": "No gull to mark the lifted air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 40.0,
+      "end": 42.375,
+      "text": "No mast to prove the world held shape",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 43.125,
+      "end": 45.0,
+      "text": "I had rowed until the oar went thin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 45.0,
+      "end": 48.0,
+      "text": "Until my shoulder folded in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 48.0,
+      "end": 50.0,
+      "text": "The raft kept speaking through its seams",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 51.143,
+      "end": 54.0,
+      "text": "In little warnings, little pleas",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 54.0,
+      "end": 57.0,
+      "text": "Then out beyond the broken bow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 59.143,
+      "end": 60.0,
+      "text": "Another blade disturbed the flow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 60.0,
+      "end": 63.0,
+      "text": "Not close enough to call a crew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 63.0,
+      "end": 66.0,
+      "text": "Too close to call the water empty",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 67.0,
+      "end": 69.5,
+      "text": "It doesn't save you like a hymn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 70.0,
+      "end": 73.0,
+      "text": "It enters at the outer rim",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 73.0,
+      "end": 75.333,
+      "text": "A pull you feel before you see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 75.333,
+      "end": 78.0,
+      "text": "The hand that makes it possible",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 78.0,
+      "end": 81.0,
+      "text": "Oars from strangers, dark and slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 81.6,
+      "end": 84.0,
+      "text": "Taking turns below the fog",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 84.0,
+      "end": 87.0,
+      "text": "I do not know the names they keep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 87.0,
+      "end": 90.0,
+      "text": "Only how the timbers ease",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 90.6,
+      "end": 93.0,
+      "text": "Oars from strangers, pull and breathe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 93.0,
+      "end": 96.0,
+      "text": "Not a rescue, not release",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 96.0,
+      "end": 99.0,
+      "text": "Just another pull in rhythm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 99.0,
+      "end": 101.0,
+      "text": "Moving with the pull I carry",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 101.0,
+      "end": 106.714,
+      "text": "A skiff emerged by half degrees",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 109.0,
+      "end": 112.0,
+      "text": "First the rope, then woolen sleeves",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 112.0,
+      "end": 115.0,
+      "text": "Two bent figures, salt and bone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 115.0,
+      "end": 118.0,
+      "text": "A child quiet as a stone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 118.0,
+      "end": 121.0,
+      "text": "No one asked me where I'd failed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 121.0,
+      "end": 122.667,
+      "text": "No one blessed the ragged sail",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 123.0,
+      "end": 126.0,
+      "text": "One hand reached and set a cup",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 126.0,
+      "end": 129.0,
+      "text": "Where the bilge kept rising up",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 129.0,
+      "end": 132.0,
+      "text": "The old one tied my ruined stern",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 132.0,
+      "end": 135.0,
+      "text": "With knots that did not need my word",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 135.0,
+      "end": 137.5,
+      "text": "The child watched the island ash",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 138.0,
+      "end": 141.429,
+      "text": "Fall from my coat into the wash",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 142.0,
+      "end": 145.0,
+      "text": "It doesn't break the empty spell",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 145.0,
+      "end": 147.3,
+      "text": "It rows beside the private swell",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 149.0,
+      "end": 150.111,
+      "text": "Til solitude, that narrow god",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 150.667,
+      "end": 153.444,
+      "text": "Learns the rhythm of another hull",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 154.0,
+      "end": 157.0,
+      "text": "Oars from strangers, dark and slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 157.6,
+      "end": 160.0,
+      "text": "Taking turns below the fog",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 160.0,
+      "end": 163.0,
+      "text": "I do not know the names they keep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 163.0,
+      "end": 166.0,
+      "text": "Only how the timbers ease",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 166.6,
+      "end": 169.0,
+      "text": "Oars from strangers, pull and breathe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 169.0,
+      "end": 172.0,
+      "text": "Not a rescue, not release",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 172.0,
+      "end": 175.0,
+      "text": "Just another pull in rhythm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 175.0,
+      "end": 178.0,
+      "text": "Moving with the pull I carry",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 178.0,
+      "end": 181.0,
+      "text": "I had made a room of open sea",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 181.0,
+      "end": 184.0,
+      "text": "Called it truth because it answered me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 184.0,
+      "end": 187.0,
+      "text": "Every wave returned my shape",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 187.0,
+      "end": 190.0,
+      "text": "Every absence held its place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 190.0,
+      "end": 192.571,
+      "text": "But someone else can hold an oar",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 193.0,
+      "end": 196.0,
+      "text": "Without becoming what you're for",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 196.0,
+      "end": 199.0,
+      "text": "Someone else can share the strain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 199.0,
+      "end": 201.4,
+      "text": "And leave your sorrow unclaimed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 201.4,
+      "end": 202.0,
+      "text": "(whispered)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 202.0,
+      "end": 203.5,
+      "text": "Pull... wait...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 203.5,
+      "end": 205.0,
+      "text": "Dip... rise...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 63,
+      "section": "Break",
+      "start": 205.0,
+      "end": 205.6,
+      "text": "Do not vanish...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 64,
+      "section": "Final Chorus",
+      "start": 205.6,
+      "end": 205.927,
+      "text": "Oars from strangers, dark and slow",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 65,
+      "section": "Final Chorus",
+      "start": 205.927,
+      "end": 206.2,
+      "text": "Taking turns below the fog",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 66,
+      "section": "Final Chorus",
+      "start": 206.2,
+      "end": 206.8,
+      "text": "I do not know the names they keep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 67,
+      "section": "Final Chorus",
+      "start": 206.8,
+      "end": 215.657,
+      "text": "Only how the timbers ease",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 68,
+      "section": "Final Chorus",
+      "start": 215.657,
+      "end": 226.286,
+      "text": "Oars from strangers, pull and breathe",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 69,
+      "section": "Final Chorus",
+      "start": 226.286,
+      "end": 235.143,
+      "text": "Not a rescue, not release",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 70,
+      "section": "Final Chorus",
+      "start": 235.143,
+      "end": 244.0,
+      "text": "Just another pull in rhythm",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 71,
+      "section": "Final Chorus",
+      "start": 244.0,
+      "end": 245.071,
+      "text": "Moving with the pull I carry",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 72,
+      "section": "Outro",
+      "start": 247.214,
+      "end": 248.821,
+      "text": "Knock on water... not on wood...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 73,
+      "section": "Outro",
+      "start": 248.821,
+      "end": 252.036,
+      "text": "The raft still broken, but understood",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 74,
+      "section": "Outro",
+      "start": 252.571,
+      "end": 255.786,
+      "text": "Fog in the throat... rope in the teeth...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 75,
+      "section": "Outro",
+      "start": 255.786,
+      "end": 259.0,
+      "text": "More than my own hands underneath",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    }
+  ]
+}

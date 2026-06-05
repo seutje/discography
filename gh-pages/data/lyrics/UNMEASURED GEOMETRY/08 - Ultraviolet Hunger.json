@@ -1,0 +1,443 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "UNMEASURED GEOMETRY",
+  "title": "Ultraviolet Hunger",
+  "text_path": "UNMEASURED GEOMETRY/08 - Ultraviolet Hunger.txt",
+  "audio_path": "UNMEASURED GEOMETRY/audio/08 - Ultraviolet Hunger.mp3",
+  "duration_seconds": 368.28,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 40,
+    "reference_word_count": 263,
+    "observed_word_count": 1333,
+    "matched_word_count": 6,
+    "matched_word_ratio": 0.023
+  },
+  "transcript_segments": [
+    {
+      "start": 30.0,
+      "end": 60.0,
+      "text": "I'm still afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm"
+    },
+    {
+      "start": 60.0,
+      "end": 90.0,
+      "text": "afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid"
+    },
+    {
+      "start": 90.0,
+      "end": 120.0,
+      "text": "I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I"
+    },
+    {
+      "start": 120.0,
+      "end": 150.0,
+      "text": "'m afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm"
+    },
+    {
+      "start": 150.0,
+      "end": 180.0,
+      "text": "afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid"
+    },
+    {
+      "start": 180.0,
+      "end": 210.0,
+      "text": "I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I"
+    },
+    {
+      "start": 210.0,
+      "end": 240.0,
+      "text": "I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I"
+    },
+    {
+      "start": 240.0,
+      "end": 270.0,
+      "text": "I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I"
+    },
+    {
+      "start": 270.0,
+      "end": 300.0,
+      "text": "I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I"
+    },
+    {
+      "start": 300.0,
+      "end": 330.0,
+      "text": "'m afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm"
+    },
+    {
+      "start": 330.0,
+      "end": 360.0,
+      "text": "afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid"
+    },
+    {
+      "start": 360.0,
+      "end": 368.28,
+      "text": "I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I'm afraid, I"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 0.0,
+      "end": 57.262,
+      "text": "A silver thread pulls tight around the hollow in my chest,",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 57.262,
+      "end": 78.085,
+      "text": "Whispers drip like mercury—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 78.085,
+      "end": 119.73,
+      "text": "“One more taste, one more shape of light…”",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 3,
+      "section": "Verse 1",
+      "start": 119.73,
+      "end": 210.0,
+      "text": "I chase the echo of a feeling I don’t recognize,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 210.0,
+      "end": 223.379,
+      "text": "Trading pieces of myself for shadows dressed as highs.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 223.379,
+      "end": 232.298,
+      "text": "Glass serpents coil around my thoughts,",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 232.298,
+      "end": 239.73,
+      "text": "Feeding me their borrowed fire",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 239.73,
+      "end": 240.0,
+      "text": "’Til I forget what warmth should be.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 8,
+      "section": "Pre-Chorus",
+      "start": 240.0,
+      "end": 251.149,
+      "text": "Reflections fracture, bending into new commandments.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 9,
+      "section": "Pre-Chorus",
+      "start": 251.149,
+      "end": 260.439,
+      "text": "Every craving is a teacher,",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 10,
+      "section": "Pre-Chorus",
+      "start": 260.439,
+      "end": 269.73,
+      "text": "Every hunger writes my name.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 11,
+      "section": "Chorus",
+      "start": 269.73,
+      "end": 270.0,
+      "text": "I am the open cage, singing to the hand that shuts it.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 12,
+      "section": "Chorus",
+      "start": 299.73,
+      "end": 300.0,
+      "text": "I am the trembling nerve, begging for another spark.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 13,
+      "section": "Chorus",
+      "start": 300.0,
+      "end": 315.74,
+      "text": "Somewhere in the storm of wanting,",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 14,
+      "section": "Chorus",
+      "start": 315.74,
+      "end": 328.856,
+      "text": "A quiet voice keeps asking—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 15,
+      "section": "Chorus",
+      "start": 328.856,
+      "end": 347.219,
+      "text": "“Who is left when the wanting ends?”",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 16,
+      "section": "Verse 2",
+      "start": 347.219,
+      "end": 368.205,
+      "text": "Attention blooms like neon flowers on my skin;",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 17,
+      "section": "Verse 2",
+      "start": 368.205,
+      "end": 368.305,
+      "text": "I harvest praise like oxygen,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 18,
+      "section": "Verse 2",
+      "start": 368.305,
+      "end": 368.405,
+      "text": "Yet suffocate beneath the weight of it.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 19,
+      "section": "Verse 2",
+      "start": 368.405,
+      "end": 368.505,
+      "text": "I scroll through borrowed heavens,",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 20,
+      "section": "Verse 2",
+      "start": 368.505,
+      "end": 368.605,
+      "text": "Hoping one will claim me as its god.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 21,
+      "section": "Bridge – Polyrhythmic / Spoken",
+      "start": 368.605,
+      "end": 368.705,
+      "text": "Patterns fold, unfold,",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 22,
+      "section": "Bridge – Polyrhythmic / Spoken",
+      "start": 368.705,
+      "end": 368.805,
+      "text": "Meaning spirals inward.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 23,
+      "section": "Bridge – Polyrhythmic / Spoken",
+      "start": 368.805,
+      "end": 368.905,
+      "text": "Dopamine hymns in ultraviolet tones—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 24,
+      "section": "Bridge – Polyrhythmic / Spoken",
+      "start": 368.905,
+      "end": 369.005,
+      "text": "A choir of invisible hands",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 25,
+      "section": "Bridge – Polyrhythmic / Spoken",
+      "start": 369.005,
+      "end": 369.105,
+      "text": "Tuning my bones to their frequency.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 26,
+      "section": "Breakdown",
+      "start": 369.105,
+      "end": 369.205,
+      "text": "Let the cycle crack—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 27,
+      "section": "Breakdown",
+      "start": 369.205,
+      "end": 369.305,
+      "text": "Let the hunger speak in riddles—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 28,
+      "section": "Breakdown",
+      "start": 369.305,
+      "end": 369.405,
+      "text": "Let the pulse confess its crime.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 29,
+      "section": "Breakdown",
+      "start": 369.405,
+      "end": 369.505,
+      "text": "I’ve worn this crown of static long enough",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 30,
+      "section": "Breakdown",
+      "start": 369.505,
+      "end": 369.605,
+      "text": "To know it never fit.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 31,
+      "section": "Chorus – Reprise",
+      "start": 369.605,
+      "end": 369.705,
+      "text": "I am the open cage, singing to the hand that shuts it.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 32,
+      "section": "Chorus – Reprise",
+      "start": 369.705,
+      "end": 369.805,
+      "text": "I am the trembling nerve, begging for another spark.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 33,
+      "section": "Chorus – Reprise",
+      "start": 369.805,
+      "end": 369.905,
+      "text": "Somewhere in the storm of wanting,",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 34,
+      "section": "Chorus – Reprise",
+      "start": 369.905,
+      "end": 370.005,
+      "text": "A quiet voice keeps asking—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 35,
+      "section": "Chorus – Reprise",
+      "start": 370.005,
+      "end": 370.105,
+      "text": "“Who are you when the wanting ends?”",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 36,
+      "section": "Outro",
+      "start": 370.105,
+      "end": 370.205,
+      "text": "Maybe the self is a room with no doors—",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 37,
+      "section": "Outro",
+      "start": 370.205,
+      "end": 370.305,
+      "text": "Or maybe the doorway was always inside.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 38,
+      "section": "Outro",
+      "start": 370.305,
+      "end": 370.405,
+      "text": "I walk toward the silence,",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 39,
+      "section": "Outro",
+      "start": 370.405,
+      "end": 370.505,
+      "text": "Hoping it remembers me.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    }
+  ]
+}

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Discography Statistics</title>
+  <link rel="icon" href="data:,">
   <script>
     (() => {
       const stored = localStorage.getItem('discography-theme');
@@ -59,7 +60,7 @@
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      padding-bottom: 210px;
+      padding-bottom: 310px;
       background: var(--bg);
       color: var(--ink);
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -406,10 +407,10 @@
       left: 0;
       z-index: 20;
       display: grid;
-      grid-template-columns: minmax(180px, 320px) minmax(0, 1fr) minmax(260px, 420px);
+      grid-template-columns: minmax(180px, 300px) minmax(0, 1fr) minmax(260px, 380px);
       gap: 14px;
       align-items: center;
-      min-height: 132px;
+      min-height: 230px;
       padding: 12px 22px;
       border-top: 1px solid var(--line);
       background: var(--chrome);
@@ -430,9 +431,67 @@
       font-size: 12px;
       margin-top: 2px;
     }
-    .global-player audio {
+    .player-stage {
+      display: grid;
+      gap: 10px;
+      min-width: 0;
+    }
+    .player-stage audio {
       width: 100%;
       height: 36px;
+    }
+    .karaoke-stage {
+      position: relative;
+      min-height: 156px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background:
+        radial-gradient(circle at 18% 24%, rgba(29,107,95,.16), transparent 34%),
+        radial-gradient(circle at 78% 16%, rgba(164,91,63,.13), transparent 30%),
+        linear-gradient(135deg, var(--panel), var(--chrome));
+    }
+    #karaokeCanvas {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .karaoke-copy {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      align-content: center;
+      gap: 5px;
+      min-height: 156px;
+      padding: 18px 20px;
+      text-align: center;
+      pointer-events: none;
+    }
+    .karaoke-line {
+      overflow-wrap: anywhere;
+      text-wrap: balance;
+      text-shadow: 0 1px 10px var(--panel);
+    }
+    .karaoke-line.previous,
+    .karaoke-line.next {
+      min-height: 18px;
+      color: var(--muted);
+      font-size: 12px;
+      opacity: .78;
+    }
+    .karaoke-line.current {
+      min-height: 34px;
+      color: var(--ink);
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+    .karaoke-line.empty {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
     }
     .playlist {
       min-width: 0;
@@ -498,7 +557,7 @@
       color: var(--accent-ink);
     }
     @media (max-width: 900px) {
-      body { padding-bottom: 260px; }
+      body { padding-bottom: 390px; }
       main { grid-template-columns: 1fr; }
       aside { border-right: 0; border-bottom: 1px solid var(--line); }
       .summary { grid-template-columns: 1fr 1fr; }
@@ -552,7 +611,17 @@
       <strong id="playerTitle">No track selected</strong>
       <span id="playerMeta">Use a Play button to add tracks to the playlist.</span>
     </div>
-    <audio id="globalAudio" controls preload="metadata"></audio>
+    <div class="player-stage">
+      <audio id="globalAudio" controls preload="metadata"></audio>
+      <div class="karaoke-stage" aria-label="Timed lyrics visualizer">
+        <canvas id="karaokeCanvas"></canvas>
+        <div class="karaoke-copy">
+          <div class="karaoke-line previous" id="karaokePrevious"></div>
+          <div class="karaoke-line current empty" id="karaokeCurrent">Timed lyrics will appear here.</div>
+          <div class="karaoke-line next" id="karaokeNext"></div>
+        </div>
+      </div>
+    </div>
     <div class="playlist" aria-label="Playlist">
       <div class="playlist-head">
         <span id="playlistCount">Playlist empty</span>
@@ -581,6 +650,12 @@
       selectedReportPath: null,
       filter: '',
       currentTrack: null,
+      timedLyrics: null,
+      timedLyricsUrl: '',
+      timedLyricsRequestId: 0,
+      lyricsByAudioUrl: new Map(),
+      visualizer: null,
+      animationFrame: 0,
       playlist: [],
       currentPlaylistIndex: -1,
       playlistSerial: 0
@@ -626,6 +701,224 @@
       const minutes = Math.floor(rounded / 60);
       const secs = rounded % 60;
       return `${minutes}:${String(secs).padStart(2, '0')}`;
+    }
+
+    function lyricsUrlForAudio(audioUrl) {
+      return state.lyricsByAudioUrl.get(audioUrl) || '';
+    }
+
+    function setKaraokeLines(previous, current, next, { empty = false } = {}) {
+      $('karaokePrevious').textContent = previous || '';
+      $('karaokeCurrent').textContent = current || '';
+      $('karaokeNext').textContent = next || '';
+      $('karaokeCurrent').classList.toggle('empty', empty);
+    }
+
+    function resetTimedLyrics(message = 'Timed lyrics will appear here.') {
+      state.timedLyrics = null;
+      state.timedLyricsUrl = '';
+      setKaraokeLines('', message, '', { empty: true });
+    }
+
+    function currentLyricIndex(lines, currentTime) {
+      if (!Array.isArray(lines) || !lines.length) return -1;
+      let low = 0;
+      let high = lines.length - 1;
+      let candidate = -1;
+      while (low <= high) {
+        const mid = Math.floor((low + high) / 2);
+        const start = Number(lines[mid].start);
+        if (start <= currentTime) {
+          candidate = mid;
+          low = mid + 1;
+        } else {
+          high = mid - 1;
+        }
+      }
+      if (candidate < 0) return -1;
+      const line = lines[candidate];
+      return currentTime <= Number(line.end) + 0.35 ? candidate : candidate;
+    }
+
+    function updateKaraokeLines() {
+      const audio = $('globalAudio');
+      const lines = state.timedLyrics?.lines || [];
+      if (!lines.length) return;
+      const index = currentLyricIndex(lines, audio.currentTime);
+      if (index < 0) {
+        setKaraokeLines('', lines[0]?.text || '', lines[1]?.text || '');
+        return;
+      }
+      setKaraokeLines(
+        lines[index - 1]?.text || '',
+        lines[index]?.text || '',
+        lines[index + 1]?.text || ''
+      );
+    }
+
+    async function loadTimedLyrics(track) {
+      const requestId = ++state.timedLyricsRequestId;
+      const lyricsUrl = track?.lyricsUrl || lyricsUrlForAudio(track?.url || '');
+      if (!lyricsUrl) {
+        resetTimedLyrics('No timed lyrics for this track yet.');
+        return;
+      }
+      if (state.timedLyricsUrl === lyricsUrl && state.timedLyrics) {
+        updateKaraokeLines();
+        return;
+      }
+      state.timedLyricsUrl = lyricsUrl;
+      state.timedLyrics = null;
+      setKaraokeLines('', 'Loading timed lyrics...', '', { empty: true });
+      try {
+        const response = await fetch(lyricsUrl);
+        if (!response.ok) throw new Error(`Timed lyrics load failed: ${response.status}`);
+        const payload = await response.json();
+        if (requestId !== state.timedLyricsRequestId) return;
+        state.timedLyrics = payload;
+        updateKaraokeLines();
+      } catch (err) {
+        if (requestId !== state.timedLyricsRequestId) return;
+        console.warn(err);
+        resetTimedLyrics('Timed lyrics could not be loaded.');
+      }
+    }
+
+    function rebuildLyricsIndex() {
+      const index = new Map();
+      state.records.forEach(record => {
+        if (record.audio_url && record.lyrics_url) index.set(record.audio_url, record.lyrics_url);
+      });
+      state.albums.forEach(album => {
+        (album.tracks || []).forEach(track => {
+          if (track.audio_url && track.lyrics_url) index.set(track.audio_url, track.lyrics_url);
+          if (track.analysis?.audio_url && track.analysis?.lyrics_url) {
+            index.set(track.analysis.audio_url, track.analysis.lyrics_url);
+          }
+        });
+      });
+      state.lyricsByAudioUrl = index;
+    }
+
+    function cssColor(name) {
+      return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    }
+
+    function resizeKaraokeCanvas() {
+      const canvas = $('karaokeCanvas');
+      const rect = canvas.getBoundingClientRect();
+      const scale = window.devicePixelRatio || 1;
+      const width = Math.max(1, Math.floor(rect.width * scale));
+      const height = Math.max(1, Math.floor(rect.height * scale));
+      if (canvas.width !== width || canvas.height !== height) {
+        canvas.width = width;
+        canvas.height = height;
+      }
+      return { canvas, width, height, scale };
+    }
+
+    function ensureVisualizer() {
+      if (state.visualizer) return state.visualizer;
+      const AudioCtor = window.AudioContext || window.webkitAudioContext;
+      if (!AudioCtor) return null;
+      const audio = $('globalAudio');
+      const context = new AudioCtor();
+      const analyser = context.createAnalyser();
+      analyser.fftSize = 256;
+      analyser.smoothingTimeConstant = 0.82;
+      const source = context.createMediaElementSource(audio);
+      source.connect(analyser);
+      analyser.connect(context.destination);
+      state.visualizer = {
+        context,
+        analyser,
+        frequencies: new Uint8Array(analyser.frequencyBinCount),
+        time: new Uint8Array(analyser.frequencyBinCount),
+      };
+      return state.visualizer;
+    }
+
+    function averageByte(values, start, end) {
+      let sum = 0;
+      let count = 0;
+      for (let index = start; index < end && index < values.length; index += 1) {
+        sum += values[index];
+        count += 1;
+      }
+      return count ? sum / count / 255 : 0;
+    }
+
+    function drawKaraokeFrame() {
+      const { canvas, width, height, scale } = resizeKaraokeCanvas();
+      const ctx = canvas.getContext('2d');
+      const visualizer = state.visualizer;
+      ctx.clearRect(0, 0, width, height);
+
+      let bass = 0.08;
+      let mid = 0.08;
+      let high = 0.08;
+      if (visualizer) {
+        visualizer.analyser.getByteFrequencyData(visualizer.frequencies);
+        bass = averageByte(visualizer.frequencies, 1, 8);
+        mid = averageByte(visualizer.frequencies, 8, 30);
+        high = averageByte(visualizer.frequencies, 30, visualizer.frequencies.length);
+      }
+      const energy = Math.min(1, bass * 0.55 + mid * 0.35 + high * 0.25);
+      const accentHue = currentTheme() === 'dark' ? 170 : 155;
+      const warmHue = 16;
+      const now = performance.now() / 1000;
+      const count = 86;
+      ctx.save();
+      ctx.scale(scale, scale);
+      const logicalWidth = width / scale;
+      const logicalHeight = height / scale;
+      for (let index = 0; index < count; index += 1) {
+        const column = index % 18;
+        const row = Math.floor(index / 18);
+        const baseX = (column + 0.5) * logicalWidth / 18;
+        const baseY = (row + 0.65) * logicalHeight / 5.4;
+        const phase = now * (0.45 + high * 2.2) + index * 0.73;
+        const drift = 4 + energy * 18;
+        const x = baseX + Math.sin(phase) * drift * (0.35 + bass);
+        const y = baseY + Math.cos(phase * 0.8) * drift * (0.3 + mid);
+        const radius = 1.5 + ((index % 7) / 7) * 2.2 + energy * 4.2;
+        const hue = index % 4 === 0 ? warmHue + bass * 18 : accentHue + mid * 50;
+        ctx.beginPath();
+        ctx.fillStyle = `hsla(${hue}, 58%, ${42 + energy * 28}%, ${0.18 + energy * 0.46})`;
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.strokeStyle = cssColor('--line');
+      ctx.globalAlpha = 0.35 + energy * 0.35;
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      for (let x = 0; x <= logicalWidth; x += Math.max(22, logicalWidth / 18)) {
+        const y = logicalHeight * 0.54 + Math.sin(now * 1.3 + x * 0.025) * (4 + mid * 18);
+        if (x === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+      ctx.restore();
+      updateKaraokeLines();
+      state.animationFrame = requestAnimationFrame(drawKaraokeFrame);
+    }
+
+    async function startVisualizer() {
+      const visualizer = ensureVisualizer();
+      if (visualizer && visualizer.context.state === 'suspended') {
+        await visualizer.context.resume();
+      }
+      if (!state.animationFrame) drawKaraokeFrame();
+    }
+
+    function stopVisualizer() {
+      if (state.animationFrame) cancelAnimationFrame(state.animationFrame);
+      state.animationFrame = 0;
+      drawKaraokeFrame();
+      if (state.animationFrame) {
+        cancelAnimationFrame(state.animationFrame);
+        state.animationFrame = 0;
+      }
     }
 
     function average(values) {
@@ -1198,6 +1491,7 @@
         stats: albumStats(state.localRecords, localTracks.length),
       }] : [];
       state.albums = [...state.baseAlbums, ...localAlbum];
+      rebuildLyricsIndex();
     }
 
     function selectedFramework() {
@@ -1400,7 +1694,7 @@
                     <td>${record.rung_number ?? '-'} ${escapeHtml(record.rung_label || '')}</td>
                     <td>${fmt(record.tempo_bpm, 1)}</td>
                     <td>${escapeHtml(record.framework)}</td>
-                    <td>${record.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(record.audio_url)}" data-track-title="${escapeHtml(record.title)}" data-track-meta="${escapeHtml(record.audio_path)}">Play</button>` : '-'}</td>
+                    <td>${record.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(record.audio_url)}" data-track-title="${escapeHtml(record.title)}" data-track-meta="${escapeHtml(record.audio_path)}" data-lyrics-url="${escapeHtml(record.lyrics_url || lyricsUrlForAudio(record.audio_url))}">Play</button>` : '-'}</td>
                     <td>${record.report_url ? `<a href="${escapeHtml(record.report_url)}" target="_blank" rel="noopener">JSON</a>` : '-'}</td>
                   </tr>
                 `).join('')}
@@ -1419,7 +1713,8 @@
         .map(track => ({
           url: track.audio_url,
           title: track.title || 'Untitled',
-          meta: track.audio_path || album.name || ''
+          meta: track.audio_path || album.name || '',
+          lyricsUrl: track.lyrics_url || lyricsUrlForAudio(track.audio_url)
         }));
     }
 
@@ -1475,7 +1770,7 @@
                     <td>${analysis.rung_number ?? '-'} ${escapeHtml(analysis.rung_label || '')}</td>
                     <td>${fmt(analysis.tempo_bpm, 1)}</td>
                     <td>${formatDuration(analysis.duration_seconds)}</td>
-                    <td>${track.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(track.audio_url)}" data-track-title="${escapeHtml(track.title)}" data-track-meta="${escapeHtml(track.audio_path)}">Play</button>` : '-'}</td>
+                    <td>${track.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(track.audio_url)}" data-track-title="${escapeHtml(track.title)}" data-track-meta="${escapeHtml(track.audio_path)}" data-lyrics-url="${escapeHtml(track.lyrics_url || lyricsUrlForAudio(track.audio_url))}">Play</button>` : '-'}</td>
                     <td>${analysis.report_url ? `<a href="${escapeHtml(analysis.report_url)}" target="_blank" rel="noopener">JSON</a>` : '-'}</td>
                   </tr>
                 `;
@@ -1610,7 +1905,7 @@
               <div class="meta">${escapeHtml(audio.path || record.report_path)}</div>
             </div>
             <div class="header-actions">
-              ${record.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(record.audio_url)}" data-track-title="${escapeHtml(title)}" data-track-meta="${escapeHtml(record.audio_path)}">Play</button>` : ''}
+              ${record.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(record.audio_url)}" data-track-title="${escapeHtml(title)}" data-track-meta="${escapeHtml(record.audio_path)}" data-lyrics-url="${escapeHtml(record.lyrics_url || lyricsUrlForAudio(record.audio_url))}">Play</button>` : ''}
               <button class="secondary" type="button" data-statistics-back>Back</button>
               ${record.report_url ? `<a href="${escapeHtml(record.report_url)}" target="_blank" rel="noopener">JSON</a>` : ''}
             </div>
@@ -1730,7 +2025,8 @@
       return {
         url: button.dataset.audioUrl,
         title: button.dataset.trackTitle || 'Selected track',
-        meta: button.dataset.trackMeta || ''
+        meta: button.dataset.trackMeta || '',
+        lyricsUrl: button.dataset.lyricsUrl || lyricsUrlForAudio(button.dataset.audioUrl)
       };
     }
 
@@ -1765,6 +2061,8 @@
         audio.removeAttribute('src');
         audio.load();
         state.currentTrack = null;
+        state.timedLyricsRequestId += 1;
+        resetTimedLyrics();
         $('playerTitle').textContent = 'No track selected';
         $('playerMeta').textContent = 'Use a Play button to add tracks to the playlist.';
         return;
@@ -1777,6 +2075,7 @@
       state.currentTrack = track;
       $('playerTitle').textContent = track.title;
       $('playerMeta').textContent = track.meta || track.url;
+      loadTimedLyrics(track);
     }
 
     async function playPlaylistIndex(index) {
@@ -1889,8 +2188,19 @@
     $('analyzeUploadsBtn').addEventListener('click', () => analyzeUploads());
     $('clearUploadsBtn').addEventListener('click', clearUploads);
     $('globalAudio').addEventListener('ended', advancePlaylist);
-    $('globalAudio').addEventListener('play', syncPlayButtons);
-    $('globalAudio').addEventListener('pause', syncPlayButtons);
+    $('globalAudio').addEventListener('play', () => {
+      startVisualizer();
+      syncPlayButtons();
+    });
+    $('globalAudio').addEventListener('pause', () => {
+      stopVisualizer();
+      syncPlayButtons();
+    });
+    $('globalAudio').addEventListener('timeupdate', updateKaraokeLines);
+    $('globalAudio').addEventListener('seeked', updateKaraokeLines);
+    window.addEventListener('resize', () => {
+      if (!state.animationFrame) drawKaraokeFrame();
+    });
     document.addEventListener('click', async event => {
       const albumButton = event.target.closest('[data-album-name]');
       if (albumButton) {
@@ -1940,6 +2250,7 @@
     });
 
     syncThemeButton();
+    stopVisualizer();
     loadCatalog().catch(err => {
       $('dataState').textContent = 'error';
       $('dataState').style.color = 'var(--error)';

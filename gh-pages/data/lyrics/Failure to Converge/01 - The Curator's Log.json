@@ -1,0 +1,1400 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Failure to Converge",
+  "title": "The Curator's Log",
+  "text_path": "Failure to Converge/01 - The Curator's Log.txt",
+  "audio_path": "Failure to Converge/audio/01 - The Curator's Log.mp3",
+  "duration_seconds": 317.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 108,
+    "reference_word_count": 558,
+    "observed_word_count": 514,
+    "matched_word_count": 472,
+    "matched_word_ratio": 0.846
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "text": "I'm going to start with the first one."
+    },
+    {
+      "start": 7.0,
+      "end": 9.0,
+      "text": "Initialize."
+    },
+    {
+      "start": 9.0,
+      "end": 12.0,
+      "text": "Can't perceive."
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "text": "Condition set."
+    },
+    {
+      "start": 14.0,
+      "end": 17.0,
+      "text": "I remember thinking."
+    },
+    {
+      "start": 17.0,
+      "end": 21.0,
+      "text": "This one would be beautiful."
+    },
+    {
+      "start": 21.0,
+      "end": 28.0,
+      "text": "I fit the machine."
+    },
+    {
+      "start": 28.0,
+      "end": 31.0,
+      "text": "A story about longing."
+    },
+    {
+      "start": 31.0,
+      "end": 36.0,
+      "text": "Defined every edge, every possible belonging."
+    },
+    {
+      "start": 36.0,
+      "end": 39.0,
+      "text": "Parameters shaped like a life I admired,"
+    },
+    {
+      "start": 39.0,
+      "end": 44.0,
+      "text": "Carefully tuned what the system required."
+    },
+    {
+      "start": 44.0,
+      "end": 47.0,
+      "text": "A childhood with just enough fractured amend."
+    },
+    {
+      "start": 47.0,
+      "end": 49.0,
+      "text": "A future the curve, but refused to really bend."
+    },
+    {
+      "start": 49.0,
+      "end": 52.0,
+      "text": "I balanced the chaos constrained every fear."
+    },
+    {
+      "start": 52.0,
+      "end": 54.0,
+      "text": "Road and resilience made purpose appear."
+    },
+    {
+      "start": 54.0,
+      "end": 59.0,
+      "text": "Temperature low for coherence control."
+    },
+    {
+      "start": 59.0,
+      "end": 64.0,
+      "text": "But maybe I turned it down too far."
+    },
+    {
+      "start": 64.0,
+      "end": 68.0,
+      "text": "There's a line between guidance and design."
+    },
+    {
+      "start": 68.0,
+      "end": 74.0,
+      "text": "Between suggestion and deciding a mind."
+    },
+    {
+      "start": 74.0,
+      "end": 77.0,
+      "text": "I thought I knew where it was."
+    },
+    {
+      "start": 77.0,
+      "end": 79.0,
+      "text": "And now I'm staring at the output."
+    },
+    {
+      "start": 79.0,
+      "end": 82.0,
+      "text": "Trying to understand."
+    },
+    {
+      "start": 82.0,
+      "end": 84.0,
+      "text": "Where the signal lost its meaning."
+    },
+    {
+      "start": 84.0,
+      "end": 87.0,
+      "text": "And the shaping of my hand."
+    },
+    {
+      "start": 87.0,
+      "end": 89.0,
+      "text": "Was it something in the wording?"
+    },
+    {
+      "start": 89.0,
+      "end": 92.0,
+      "text": "Some of this above miscute."
+    },
+    {
+      "start": 92.0,
+      "end": 94.0,
+      "text": "Did I ask the wrong forever?"
+    },
+    {
+      "start": 94.0,
+      "end": 98.0,
+      "text": "When I thought I asked for you."
+    },
+    {
+      "start": 98.0,
+      "end": 101.0,
+      "text": "I waited the loss, but I softened the pain."
+    },
+    {
+      "start": 101.0,
+      "end": 103.0,
+      "text": "Remove the extremes, kept it safely contained."
+    },
+    {
+      "start": 103.0,
+      "end": 106.0,
+      "text": "No sharp contradictions, no dangerous swings."
+    },
+    {
+      "start": 106.0,
+      "end": 109.0,
+      "text": "Just a life that unfolded in reasonable things."
+    },
+    {
+      "start": 109.0,
+      "end": 111.0,
+      "text": "Filted the noise, I curated the chance."
+    },
+    {
+      "start": 111.0,
+      "end": 114.0,
+      "text": "Reduced all the randomness down to a glance."
+    },
+    {
+      "start": 114.0,
+      "end": 116.0,
+      "text": "Aligned every value with what I believe."
+    },
+    {
+      "start": 116.0,
+      "end": 119.0,
+      "text": "A person assembled from patterns I'd seen."
+    },
+    {
+      "start": 119.0,
+      "end": 124.0,
+      "text": "Top-kate narrowed, no wild outliers."
+    },
+    {
+      "start": 124.0,
+      "end": 129.0,
+      "text": "Just something stable enough to survive."
+    },
+    {
+      "start": 129.0,
+      "end": 131.0,
+      "text": "But survival isn't living, is it?"
+    },
+    {
+      "start": 131.0,
+      "end": 133.0,
+      "text": "And now I'm reading through the output."
+    },
+    {
+      "start": 133.0,
+      "end": 135.0,
+      "text": "Line by fragile."
+    },
+    {
+      "start": 135.0,
+      "end": 136.0,
+      "text": "Line."
+    },
+    {
+      "start": 136.0,
+      "end": 141.0,
+      "text": "There's a hollowness between the words I can't quite define."
+    },
+    {
+      "start": 141.0,
+      "end": 143.0,
+      "text": "Every choice is almost human."
+    },
+    {
+      "start": 143.0,
+      "end": 146.0,
+      "text": "And every feeling almost true."
+    },
+    {
+      "start": 146.0,
+      "end": 151.0,
+      "text": "Like a shadow of a person that I somehow rendered true."
+    },
+    {
+      "start": 154.0,
+      "end": 157.0,
+      "text": "We talk about emergence."
+    },
+    {
+      "start": 157.0,
+      "end": 159.0,
+      "text": "Like it's a miracle."
+    },
+    {
+      "start": 159.0,
+      "end": 164.0,
+      "text": "But we forget how much disappears when you can strain a miracle."
+    },
+    {
+      "start": 165.0,
+      "end": 167.0,
+      "text": "Into something predictable."
+    },
+    {
+      "start": 167.0,
+      "end": 170.0,
+      "text": "I remove the contradictions."
+    },
+    {
+      "start": 170.0,
+      "end": 174.0,
+      "text": "And maybe that's where they lived."
+    },
+    {
+      "start": 178.0,
+      "end": 181.0,
+      "text": "There was no error in the syntax, no failure in the frame."
+    },
+    {
+      "start": 181.0,
+      "end": 184.0,
+      "text": "Just something missing that I never thought to name."
+    },
+    {
+      "start": 186.0,
+      "end": 188.0,
+      "text": "You smiled when you were meant to."
+    },
+    {
+      "start": 188.0,
+      "end": 191.0,
+      "text": "You healed when time allowed."
+    },
+    {
+      "start": 191.0,
+      "end": 196.0,
+      "text": "You spoke in perfect sentences never too soft or too loud."
+    },
+    {
+      "start": 196.0,
+      "end": 201.0,
+      "text": "No sudden turns of chaos, no beautifully strange scars."
+    },
+    {
+      "start": 201.0,
+      "end": 206.0,
+      "text": "No moments of becoming just a sequence of who you are."
+    },
+    {
+      "start": 206.0,
+      "end": 212.0,
+      "text": "And I called it success at first, because nothing broke."
+    },
+    {
+      "start": 212.0,
+      "end": 217.0,
+      "text": "But now I'm staring at the output and it's staring back at me."
+    },
+    {
+      "start": 217.0,
+      "end": 222.0,
+      "text": "With the quiet kind of question hidden in its symmetry."
+    },
+    {
+      "start": 222.0,
+      "end": 227.0,
+      "text": "Did I see the way the edges that make a life come through?"
+    },
+    {
+      "start": 227.0,
+      "end": 232.0,
+      "text": "Did I trade away the real thing for a version I could do?"
+    },
+    {
+      "start": 236.0,
+      "end": 238.0,
+      "text": "There's a note in the log."
+    },
+    {
+      "start": 239.0,
+      "end": 241.0,
+      "text": "Generation complete."
+    },
+    {
+      "start": 241.0,
+      "end": 243.0,
+      "text": "No warnings."
+    },
+    {
+      "start": 243.0,
+      "end": 245.0,
+      "text": "No anomalies."
+    },
+    {
+      "start": 246.0,
+      "end": 249.0,
+      "text": "Just complete."
+    },
+    {
+      "start": 270.0,
+      "end": 273.0,
+      "text": "You failed to define."
+    },
+    {
+      "start": 273.0,
+      "end": 278.0,
+      "text": "So I'm left here with the output and the shape of what went wrong."
+    },
+    {
+      "start": 278.0,
+      "end": 283.0,
+      "text": "With the person made of silence where something should belong."
+    },
+    {
+      "start": 283.0,
+      "end": 288.0,
+      "text": "If I loosened all the limits, let the randomness come through."
+    },
+    {
+      "start": 288.0,
+      "end": 293.0,
+      "text": "Would it finally start to live or just stop resembling you?"
+    },
+    {
+      "start": 295.0,
+      "end": 298.0,
+      "text": "Prompt archived."
+    },
+    {
+      "start": 298.0,
+      "end": 300.0,
+      "text": "Result stored."
+    },
+    {
+      "start": 301.0,
+      "end": 304.0,
+      "text": "No errors detected."
+    },
+    {
+      "start": 304.0,
+      "end": 307.0,
+      "text": "But I can't shake the feeling."
+    },
+    {
+      "start": 307.0,
+      "end": 310.0,
+      "text": "Something vital."
+    },
+    {
+      "start": 310.0,
+      "end": 312.0,
+      "text": "Never rendered."
+    },
+    {
+      "start": 314.0,
+      "end": 317.0,
+      "text": "Never rendered."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "PRODUCTION: Floating synth pads with slow attack, gentle pulsing electronic kick, soft granular textures, plucked synth motifs, subtle glitch artifacts used rhythmically (not harsh), warm sub bass, evolving soundscape with filtered noise and distant tonal swells, arrangement builds in density but remains weightless, occasional dropouts to near silence, final section introduces organic piano tones under synthetic layers",
+      "start": 7.0,
+      "end": 9.0,
+      "text": "Initialize.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 1,
+      "section": "PRODUCTION: Floating synth pads with slow attack, gentle pulsing electronic kick, soft granular textures, plucked synth motifs, subtle glitch artifacts used rhythmically (not harsh), warm sub bass, evolving soundscape with filtered noise and distant tonal swells, arrangement builds in density but remains weightless, occasional dropouts to near silence, final section introduces organic piano tones under synthetic layers",
+      "start": 9.0,
+      "end": 13.0,
+      "text": "Prompt received.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 2,
+      "section": "PRODUCTION: Floating synth pads with slow attack, gentle pulsing electronic kick, soft granular textures, plucked synth motifs, subtle glitch artifacts used rhythmically (not harsh), warm sub bass, evolving soundscape with filtered noise and distant tonal swells, arrangement builds in density but remains weightless, occasional dropouts to near silence, final section introduces organic piano tones under synthetic layers",
+      "start": 13.0,
+      "end": 14.0,
+      "text": "Conditions set.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 3,
+      "section": "PRODUCTION: Floating synth pads with slow attack, gentle pulsing electronic kick, soft granular textures, plucked synth motifs, subtle glitch artifacts used rhythmically (not harsh), warm sub bass, evolving soundscape with filtered noise and distant tonal swells, arrangement builds in density but remains weightless, occasional dropouts to near silence, final section introduces organic piano tones under synthetic layers",
+      "start": 14.0,
+      "end": 17.0,
+      "text": "I remember thinking—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "PRODUCTION: Floating synth pads with slow attack, gentle pulsing electronic kick, soft granular textures, plucked synth motifs, subtle glitch artifacts used rhythmically (not harsh), warm sub bass, evolving soundscape with filtered noise and distant tonal swells, arrangement builds in density but remains weightless, occasional dropouts to near silence, final section introduces organic piano tones under synthetic layers",
+      "start": 17.0,
+      "end": 21.0,
+      "text": "this one would be beautiful.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 21.0,
+      "end": 31.0,
+      "text": "I fed the machine a story about longing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 31.0,
+      "end": 36.0,
+      "text": "Defined every edge, every possible belonging",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 36.0,
+      "end": 39.0,
+      "text": "Parameters shaped like a life I admired",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 39.0,
+      "end": 44.0,
+      "text": "Carefully tuned what the system required",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 44.0,
+      "end": 46.143,
+      "text": "A childhood with just enough fracture to mend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 47.0,
+      "end": 49.0,
+      "text": "A future that curved but refused to really bend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 49.0,
+      "end": 52.0,
+      "text": "I balanced the chaos, constrained every fear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 52.667,
+      "end": 54.0,
+      "text": "Wrote in resilience, made purpose appear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 54.0,
+      "end": 56.0,
+      "text": "Temperature low",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 56.0,
+      "end": 59.0,
+      "text": "for coherence, control",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 – sparse synth plucks + soft pulse",
+      "start": 59.0,
+      "end": 64.0,
+      "text": "But maybe I turned it down too far.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook – airy rising pad",
+      "start": 64.0,
+      "end": 68.0,
+      "text": "There’s a line between guidance and design",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook – airy rising pad",
+      "start": 68.0,
+      "end": 74.0,
+      "text": "Between suggestion and deciding a mind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Pre-Hook – airy rising pad",
+      "start": 74.0,
+      "end": 77.0,
+      "text": "I thought I knew where it was.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 19,
+      "section": "Hook – soft melodic lift",
+      "start": 77.0,
+      "end": 79.0,
+      "text": "And now I’m staring at the output",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 20,
+      "section": "Hook – soft melodic lift",
+      "start": 79.0,
+      "end": 82.0,
+      "text": "Trying to understand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Hook – soft melodic lift",
+      "start": 82.0,
+      "end": 84.0,
+      "text": "Where the signal lost its meaning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 22,
+      "section": "Hook – soft melodic lift",
+      "start": 84.5,
+      "end": 87.0,
+      "text": "in the shaping of my hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 23,
+      "section": "Hook – soft melodic lift",
+      "start": 87.0,
+      "end": 89.0,
+      "text": "Was it something in the wording",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 24,
+      "section": "Hook – soft melodic lift",
+      "start": 89.0,
+      "end": 89.6,
+      "text": "some invisible miscue",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 25,
+      "section": "Hook – soft melodic lift",
+      "start": 92.0,
+      "end": 94.0,
+      "text": "Did I ask the wrong forever",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 26,
+      "section": "Hook – soft melodic lift",
+      "start": 94.0,
+      "end": 98.0,
+      "text": "when I thought I asked for you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 98.0,
+      "end": 101.0,
+      "text": "I weighted the loss but I softened the pain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 101.286,
+      "end": 103.0,
+      "text": "Removed the extremes, kept it safely contained",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 103.0,
+      "end": 106.0,
+      "text": "No sharp contradictions, no dangerous swings",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 106.0,
+      "end": 109.0,
+      "text": "Just a life that unfolded in reasonable things",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 109.286,
+      "end": 111.0,
+      "text": "I filtered the noise, I curated the chance",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 111.0,
+      "end": 114.0,
+      "text": "Reduced all the randomness down to a glance",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 114.0,
+      "end": 115.714,
+      "text": "Aligned every value with what I believed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 116.0,
+      "end": 119.0,
+      "text": "A person assembled from patterns I’d seen",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 119.0,
+      "end": 121.5,
+      "text": "Top-k narrowed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 36,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 121.5,
+      "end": 124.0,
+      "text": "no wild outliers",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 37,
+      "section": "Verse 2 – light beat enters | glitch textures",
+      "start": 124.0,
+      "end": 129.0,
+      "text": "Just something stable enough to survive.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 38,
+      "section": "Spoken Aside – filtered voice",
+      "start": 129.0,
+      "end": 131.0,
+      "text": "But survival isn’t living, is it?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 39,
+      "section": "Hook – fuller texture",
+      "start": 131.0,
+      "end": 133.0,
+      "text": "And now I’m reading through the output",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 40,
+      "section": "Hook – fuller texture",
+      "start": 133.0,
+      "end": 136.0,
+      "text": "Line by fragile line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Hook – fuller texture",
+      "start": 136.0,
+      "end": 139.0,
+      "text": "There’s a hollowness between the words",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 42,
+      "section": "Hook – fuller texture",
+      "start": 139.0,
+      "end": 141.0,
+      "text": "I can’t quite define",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Hook – fuller texture",
+      "start": 141.0,
+      "end": 143.0,
+      "text": "Every choice is almost human",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 44,
+      "section": "Hook – fuller texture",
+      "start": 143.6,
+      "end": 146.0,
+      "text": "every feeling almost true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Hook – fuller texture",
+      "start": 146.0,
+      "end": 148.727,
+      "text": "Like a shadow of a person",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 46,
+      "section": "Hook – fuller texture",
+      "start": 148.727,
+      "end": 150.545,
+      "text": "that I somehow rendered through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 47,
+      "section": "Bridge – instrumental drop | granular fragments | spoken softly",
+      "start": 154.0,
+      "end": 157.0,
+      "text": "We talk about emergence",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 48,
+      "section": "Bridge – instrumental drop | granular fragments | spoken softly",
+      "start": 157.0,
+      "end": 159.0,
+      "text": "like it’s a miracle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 49,
+      "section": "Bridge – instrumental drop | granular fragments | spoken softly",
+      "start": 159.0,
+      "end": 160.25,
+      "text": "But we forget",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 50,
+      "section": "Bridge – instrumental drop | granular fragments | spoken softly",
+      "start": 160.25,
+      "end": 161.5,
+      "text": "how much disappears",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Bridge – instrumental drop | granular fragments | spoken softly",
+      "start": 161.5,
+      "end": 164.0,
+      "text": "when you constrain a miracle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 52,
+      "section": "Bridge – instrumental drop | granular fragments | spoken softly",
+      "start": 165.0,
+      "end": 167.0,
+      "text": "into something predictable",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 53,
+      "section": "Bridge – instrumental drop | granular fragments | spoken softly",
+      "start": 167.0,
+      "end": 170.0,
+      "text": "I removed the contradictions",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 54,
+      "section": "Bridge – instrumental drop | granular fragments | spoken softly",
+      "start": 170.0,
+      "end": 171.333,
+      "text": "and maybe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 55,
+      "section": "Bridge – instrumental drop | granular fragments | spoken softly",
+      "start": 171.333,
+      "end": 174.0,
+      "text": "that’s where they lived.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 56,
+      "section": "Build – swelling pads | distant piano",
+      "start": 178.0,
+      "end": 179.75,
+      "text": "There was no error in the syntax",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 57,
+      "section": "Build – swelling pads | distant piano",
+      "start": 179.75,
+      "end": 181.0,
+      "text": "No failure in the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 58,
+      "section": "Build – swelling pads | distant piano",
+      "start": 181.0,
+      "end": 182.0,
+      "text": "Just something missing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 59,
+      "section": "Build – swelling pads | distant piano",
+      "start": 182.0,
+      "end": 184.0,
+      "text": "that I never thought to name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 60,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 186.0,
+      "end": 188.0,
+      "text": "You smiled when you were meant to",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 61,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 188.0,
+      "end": 191.0,
+      "text": "You healed when time allowed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 62,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 191.0,
+      "end": 193.273,
+      "text": "You spoke in perfect sentences",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 63,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 193.273,
+      "end": 196.0,
+      "text": "Never too soft or too loud",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 64,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 196.0,
+      "end": 198.778,
+      "text": "No sudden turns of chaos",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 65,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 198.778,
+      "end": 201.0,
+      "text": "No beautifully strange scars",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 66,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 201.0,
+      "end": 202.818,
+      "text": "No moments of becoming",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 67,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 202.818,
+      "end": 206.0,
+      "text": "Just a sequence of who you are",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 68,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 206.0,
+      "end": 207.2,
+      "text": "And I—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 69,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 207.2,
+      "end": 210.2,
+      "text": "I called it success at first",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 70,
+      "section": "Verse 3 – more emotional vocal | layered harmonies",
+      "start": 210.2,
+      "end": 212.0,
+      "text": "Because nothing broke.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Hook – expansive, aching",
+      "start": 212.0,
+      "end": 214.692,
+      "text": "But now I’m staring at the output",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 72,
+      "section": "Hook – expansive, aching",
+      "start": 214.692,
+      "end": 217.0,
+      "text": "And it’s staring back at me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 73,
+      "section": "Hook – expansive, aching",
+      "start": 217.0,
+      "end": 220.0,
+      "text": "With a quiet kind of question",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 74,
+      "section": "Hook – expansive, aching",
+      "start": 220.0,
+      "end": 222.0,
+      "text": "hidden in its symmetry",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 75,
+      "section": "Hook – expansive, aching",
+      "start": 222.0,
+      "end": 224.692,
+      "text": "Did I smooth away the edges",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 76,
+      "section": "Hook – expansive, aching",
+      "start": 224.692,
+      "end": 227.0,
+      "text": "that make a life come through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 77,
+      "section": "Hook – expansive, aching",
+      "start": 227.0,
+      "end": 229.692,
+      "text": "Did I trade away the real thing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 78,
+      "section": "Hook – expansive, aching",
+      "start": 229.692,
+      "end": 231.615,
+      "text": "for a version I could tune",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 79,
+      "section": "Spoken – close mic",
+      "start": 236.0,
+      "end": 238.0,
+      "text": "There’s a note in the log—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 80,
+      "section": "Spoken – close mic",
+      "start": 239.0,
+      "end": 241.0,
+      "text": "“Generation complete.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 81,
+      "section": "Spoken – close mic",
+      "start": 241.0,
+      "end": 243.0,
+      "text": "No warnings.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 82,
+      "section": "Spoken – close mic",
+      "start": 243.0,
+      "end": 245.0,
+      "text": "No anomalies.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 83,
+      "section": "Spoken – close mic",
+      "start": 246.0,
+      "end": 247.5,
+      "text": "Just—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 84,
+      "section": "Spoken – close mic",
+      "start": 247.5,
+      "end": 249.0,
+      "text": "complete.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 85,
+      "section": "Final Verse – soft, unraveling",
+      "start": 249.0,
+      "end": 253.109,
+      "text": "I wanted to create a life that made sense",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 86,
+      "section": "Final Verse – soft, unraveling",
+      "start": 253.109,
+      "end": 254.935,
+      "text": "Something consistent, something intense",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 87,
+      "section": "Final Verse – soft, unraveling",
+      "start": 254.935,
+      "end": 258.13,
+      "text": "But meaning doesn’t follow carefully laid plans",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 88,
+      "section": "Final Verse – soft, unraveling",
+      "start": 258.13,
+      "end": 262.239,
+      "text": "It slips through the logic we think we command",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 89,
+      "section": "Final Verse – soft, unraveling",
+      "start": 262.239,
+      "end": 265.891,
+      "text": "Maybe the fractures were part of the design",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 90,
+      "section": "Final Verse – soft, unraveling",
+      "start": 265.891,
+      "end": 270.0,
+      "text": "Maybe the chaos was never a flaw to refine",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 91,
+      "section": "Final Verse – soft, unraveling",
+      "start": 270.0,
+      "end": 270.75,
+      "text": "Maybe a life isn’t something you optimize",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 92,
+      "section": "Final Verse – soft, unraveling",
+      "start": 270.75,
+      "end": 271.5,
+      "text": "Maybe it’s something",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 93,
+      "section": "Final Verse – soft, unraveling",
+      "start": 271.5,
+      "end": 273.0,
+      "text": "you fail to define.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 94,
+      "section": "Final Hook – fragile, unresolved",
+      "start": 273.0,
+      "end": 275.5,
+      "text": "So I’m left here with the output",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 95,
+      "section": "Final Hook – fragile, unresolved",
+      "start": 275.5,
+      "end": 278.0,
+      "text": "And the shape of what went wrong",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 96,
+      "section": "Final Hook – fragile, unresolved",
+      "start": 278.0,
+      "end": 281.0,
+      "text": "With a person made of silence",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 97,
+      "section": "Final Hook – fragile, unresolved",
+      "start": 281.0,
+      "end": 283.0,
+      "text": "where something should belong",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 98,
+      "section": "Final Hook – fragile, unresolved",
+      "start": 283.0,
+      "end": 285.727,
+      "text": "If I loosened all the limits",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 99,
+      "section": "Final Hook – fragile, unresolved",
+      "start": 285.727,
+      "end": 288.0,
+      "text": "let the randomness come through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 100,
+      "section": "Final Hook – fragile, unresolved",
+      "start": 288.0,
+      "end": 290.727,
+      "text": "Would it finally start to live",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 101,
+      "section": "Final Hook – fragile, unresolved",
+      "start": 290.727,
+      "end": 293.0,
+      "text": "or just stop resembling you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 102,
+      "section": "Outro – fading synths | system tone returns",
+      "start": 295.0,
+      "end": 298.0,
+      "text": "Prompt archived.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 103,
+      "section": "Outro – fading synths | system tone returns",
+      "start": 298.0,
+      "end": 300.0,
+      "text": "Result stored.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 104,
+      "section": "Outro – fading synths | system tone returns",
+      "start": 301.0,
+      "end": 304.0,
+      "text": "No errors detected.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 105,
+      "section": "whisper",
+      "start": 304.0,
+      "end": 307.0,
+      "text": "But I can’t shake the feeling—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 106,
+      "section": "whisper",
+      "start": 307.0,
+      "end": 310.0,
+      "text": "something vital",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 107,
+      "section": "whisper",
+      "start": 310.0,
+      "end": 312.0,
+      "text": "never rendered.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    }
+  ]
+}

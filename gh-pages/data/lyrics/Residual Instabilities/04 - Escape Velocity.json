@@ -1,0 +1,941 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Residual Instabilities",
+  "title": "Escape Velocity",
+  "text_path": "Residual Instabilities/04 - Escape Velocity.txt",
+  "audio_path": "Residual Instabilities/audio/04 - Escape Velocity.mp3",
+  "duration_seconds": 289.76,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 82,
+    "reference_word_count": 384,
+    "observed_word_count": 388,
+    "matched_word_count": 316,
+    "matched_word_ratio": 0.823
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 22.56,
+      "text": "There are sentences I almost reach They hover just beneath release"
+    },
+    {
+      "start": 22.56,
+      "end": 30.56,
+      "text": "Like mess without the push to leave Held inside what I can't speak"
+    },
+    {
+      "start": 39.76,
+      "end": 45.12,
+      "text": "I feel the shape of what I mean Before it forms in anything"
+    },
+    {
+      "start": 45.2,
+      "end": 49.92,
+      "text": "A constellation not just But never mapped beyond my breath"
+    },
+    {
+      "start": 49.92,
+      "end": 55.36,
+      "text": "I calculate, I hesitate Too much drag, too much weight"
+    },
+    {
+      "start": 55.36,
+      "end": 61.28,
+      "text": "Every word I try to send Falls back down before it bends toward you"
+    },
+    {
+      "start": 63.36,
+      "end": 71.44,
+      "text": "I wonder if you ever know How close they came to breaking through"
+    },
+    {
+      "start": 75.92,
+      "end": 81.28,
+      "text": "I don't reach escape velocity My thoughts collapse back into me"
+    },
+    {
+      "start": 81.28,
+      "end": 85.76,
+      "text": "Carve in my own gravity Before they cross the space"
+    },
+    {
+      "start": 85.76,
+      "end": 90.88,
+      "text": "Between my good others Just out of range Different life if I could say"
+    },
+    {
+      "start": 90.88,
+      "end": 97.12,
+      "text": "The thing that almost made their way But never carried far enough away"
+    },
+    {
+      "start": 106.08,
+      "end": 111.44,
+      "text": "I replay every almost line The ones that stole the real time"
+    },
+    {
+      "start": 111.44,
+      "end": 116.64,
+      "text": "Job and reviews and quiet rooms Where better words might have result"
+    },
+    {
+      "start": 116.64,
+      "end": 123.12,
+      "text": "But different versions of my name Spoken clear instead of strange relationships"
+    },
+    {
+      "start": 123.12,
+      "end": 128.0,
+      "text": "That slip the frame Before articulation came too late"
+    },
+    {
+      "start": 128.96,
+      "end": 138.0,
+      "text": "If I were forcing off to send Would anything have changed back then"
+    },
+    {
+      "start": 142.0,
+      "end": 148.0,
+      "text": "I don't reach escape velocity My thoughts collapse back into me"
+    },
+    {
+      "start": 148.0,
+      "end": 152.96,
+      "text": "Every chance that could be burned Up in proximity"
+    },
+    {
+      "start": 153.44,
+      "end": 157.04,
+      "text": "We could have just passed the sight A slight adjustment"
+    },
+    {
+      "start": 157.04,
+      "end": 164.08,
+      "text": "Different flight if I could push Pass what confines With something else up in my life"
+    },
+    {
+      "start": 167.52,
+      "end": 169.12,
+      "text": "It's not that nothing's there"
+    },
+    {
+      "start": 169.12,
+      "end": 178.72,
+      "text": "Just let it never travels Far enough to matter"
+    },
+    {
+      "start": 183.36,
+      "end": 189.44,
+      "text": "Somewhere between intention And expression"
+    },
+    {
+      "start": 193.12,
+      "end": 195.84,
+      "text": "There's a threshold I never cross"
+    },
+    {
+      "start": 199.36,
+      "end": 207.44,
+      "text": "I don't reach escape velocity My thoughts collapse"
+    },
+    {
+      "start": 215.92,
+      "end": 220.96,
+      "text": "Maybe silence is in void Just to feel I cannot afford"
+    },
+    {
+      "start": 220.96,
+      "end": 226.64,
+      "text": "Where meaning gather Stands and slow But never finds the force to go"
+    },
+    {
+      "start": 226.72,
+      "end": 231.92,
+      "text": "Maybe I was built this way High mass low release array"
+    },
+    {
+      "start": 231.92,
+      "end": 237.76,
+      "text": "A thousand thoughts that never leave Or the tingin turnally still here"
+    },
+    {
+      "start": 243.04,
+      "end": 248.72,
+      "text": "Don't reach escape velocity But something still remains in me"
+    },
+    {
+      "start": 248.72,
+      "end": 254.0,
+      "text": "Not every truth is meant to be Transmeded through proximity"
+    },
+    {
+      "start": 254.0,
+      "end": 258.88,
+      "text": "We could have instilled resonates And quiet upon spoken states"
+    },
+    {
+      "start": 258.88,
+      "end": 266.24,
+      "text": "Not lost just helping Different ways A signal drifting over fully erased"
+    },
+    {
+      "start": 266.24,
+      "end": 271.44,
+      "text": "If you felt it Even faintly If you could pull of what stayed in me"
+    },
+    {
+      "start": 271.44,
+      "end": 282.16,
+      "text": "And maybe distances and laws Just a measure Of the cause"
+    },
+    {
+      "start": 282.16,
+      "end": 289.76,
+      "text": "Of never leaving gravity"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro – distant hum | filtered pulses | breath and faint delay trails",
+      "start": 0.0,
+      "end": 12.305,
+      "text": "There are sentences I almost reach",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 1,
+      "section": "Intro – distant hum | filtered pulses | breath and faint delay trails",
+      "start": 12.305,
+      "end": 16.407,
+      "text": "they hover—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 2,
+      "section": "Intro – distant hum | filtered pulses | breath and faint delay trails",
+      "start": 16.407,
+      "end": 22.56,
+      "text": "just beneath release",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "Intro – distant hum | filtered pulses | breath and faint delay trails",
+      "start": 22.56,
+      "end": 26.868,
+      "text": "like mass without the push to leave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 4,
+      "section": "Intro – distant hum | filtered pulses | breath and faint delay trails",
+      "start": 26.868,
+      "end": 28.098,
+      "text": "held inside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 5,
+      "section": "Intro – distant hum | filtered pulses | breath and faint delay trails",
+      "start": 28.098,
+      "end": 30.56,
+      "text": "what I can’t speak",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 – minimal beat | sub pulses | tight vocal",
+      "start": 39.76,
+      "end": 43.058,
+      "text": "I feel the shape of what I mean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 – minimal beat | sub pulses | tight vocal",
+      "start": 43.058,
+      "end": 45.12,
+      "text": "before it forms in anything",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 – minimal beat | sub pulses | tight vocal",
+      "start": 45.2,
+      "end": 46.144,
+      "text": "a constellation in my chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 – minimal beat | sub pulses | tight vocal",
+      "start": 47.088,
+      "end": 49.92,
+      "text": "but never mapped beyond my breath",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 – minimal beat | sub pulses | tight vocal",
+      "start": 49.92,
+      "end": 52.096,
+      "text": "I calculate, I hesitate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 – minimal beat | sub pulses | tight vocal",
+      "start": 52.096,
+      "end": 55.36,
+      "text": "too much drag, too much weight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 – minimal beat | sub pulses | tight vocal",
+      "start": 55.36,
+      "end": 57.897,
+      "text": "every word I try to send",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 – minimal beat | sub pulses | tight vocal",
+      "start": 57.897,
+      "end": 60.434,
+      "text": "falls back down before it bends",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 – minimal beat | sub pulses | tight vocal",
+      "start": 60.434,
+      "end": 61.28,
+      "text": "toward you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 15,
+      "section": "Pre-Hook – delay begins to stretch phrases",
+      "start": 63.36,
+      "end": 66.468,
+      "text": "I wonder if you ever knew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook – delay begins to stretch phrases",
+      "start": 67.089,
+      "end": 69.575,
+      "text": "how close they came",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook – delay begins to stretch phrases",
+      "start": 69.575,
+      "end": 71.44,
+      "text": "to breaking through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 18,
+      "section": "Hook – deeper bass | widening space",
+      "start": 75.92,
+      "end": 78.356,
+      "text": "I don’t reach escape velocity",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "Hook – deeper bass | widening space",
+      "start": 78.356,
+      "end": 81.28,
+      "text": "my thoughts collapse back into me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Hook – deeper bass | widening space",
+      "start": 81.728,
+      "end": 83.52,
+      "text": "caught in my own gravity",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 21,
+      "section": "Hook – deeper bass | widening space",
+      "start": 83.52,
+      "end": 86.126,
+      "text": "before they cross the space between",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 22,
+      "section": "Hook – deeper bass | widening space",
+      "start": 87.223,
+      "end": 88.686,
+      "text": "What could’ve been—just out of range",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 23,
+      "section": "Hook – deeper bass | widening space",
+      "start": 88.686,
+      "end": 90.88,
+      "text": "a different life if I could say",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 24,
+      "section": "Hook – deeper bass | widening space",
+      "start": 90.88,
+      "end": 94.24,
+      "text": "the things that almost made their way",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 25,
+      "section": "Hook – deeper bass | widening space",
+      "start": 94.24,
+      "end": 97.12,
+      "text": "but never carried far enough away",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 – dub echoes | more negative space",
+      "start": 106.08,
+      "end": 108.313,
+      "text": "I replay every almost-line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 – dub echoes | more negative space",
+      "start": 108.313,
+      "end": 111.44,
+      "text": "the ones that stalled in real time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 – dub echoes | more negative space",
+      "start": 111.44,
+      "end": 114.04,
+      "text": "job interviews and quiet rooms",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 – dub echoes | more negative space",
+      "start": 114.04,
+      "end": 116.207,
+      "text": "where better words might have resumed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 – dub echoes | more negative space",
+      "start": 117.18,
+      "end": 119.88,
+      "text": "a different version of my name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 – dub echoes | more negative space",
+      "start": 119.88,
+      "end": 122.04,
+      "text": "spoken clear instead of strained",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 – dub echoes | more negative space",
+      "start": 122.58,
+      "end": 125.289,
+      "text": "relationships that slipped the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 – dub echoes | more negative space",
+      "start": 125.289,
+      "end": 126.916,
+      "text": "before articulation came",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 – dub echoes | more negative space",
+      "start": 126.916,
+      "end": 128.0,
+      "text": "too late",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Pre-Hook – widening stereo delays",
+      "start": 128.96,
+      "end": 133.828,
+      "text": "If I had force enough to send",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 36,
+      "section": "Pre-Hook – widening stereo delays",
+      "start": 133.828,
+      "end": 138.0,
+      "text": "would anything have changed back then",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 37,
+      "section": "Hook – fuller but still restrained",
+      "start": 142.0,
+      "end": 144.727,
+      "text": "I don’t reach escape velocity",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 38,
+      "section": "Hook – fuller but still restrained",
+      "start": 144.727,
+      "end": 148.0,
+      "text": "my thoughts collapse back into me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 39,
+      "section": "Hook – fuller but still restrained",
+      "start": 148.0,
+      "end": 150.756,
+      "text": "every chance that couldn’t be",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "Hook – fuller but still restrained",
+      "start": 150.756,
+      "end": 152.96,
+      "text": "burned up in proximity",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Hook – fuller but still restrained",
+      "start": 154.52,
+      "end": 155.96,
+      "text": "What could’ve been—just out of sight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 42,
+      "section": "Hook – fuller but still restrained",
+      "start": 155.96,
+      "end": 157.92,
+      "text": "a slight adjustment, different flight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 43,
+      "section": "Hook – fuller but still restrained",
+      "start": 157.92,
+      "end": 161.0,
+      "text": "If I could push past what confines",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 44,
+      "section": "Hook – fuller but still restrained",
+      "start": 161.44,
+      "end": 164.08,
+      "text": "would something else have been my life",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Bridge – dub breakdown | echoes fragment phrases | spoken elements",
+      "start": 167.52,
+      "end": 169.12,
+      "text": "It’s not that nothing’s there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 46,
+      "section": "Bridge – dub breakdown | echoes fragment phrases | spoken elements",
+      "start": 171.253,
+      "end": 174.453,
+      "text": "it’s that it never travels",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 47,
+      "section": "Bridge – dub breakdown | echoes fragment phrases | spoken elements",
+      "start": 174.453,
+      "end": 176.587,
+      "text": "far enough",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 48,
+      "section": "Bridge – dub breakdown | echoes fragment phrases | spoken elements",
+      "start": 176.587,
+      "end": 177.653,
+      "text": "to matter",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 49,
+      "section": "Bridge – dub breakdown | echoes fragment phrases | spoken elements",
+      "start": 177.653,
+      "end": 178.72,
+      "text": "(…to matter… matter…)",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 50,
+      "section": "Bridge – dub breakdown | echoes fragment phrases | spoken elements",
+      "start": 183.36,
+      "end": 187.008,
+      "text": "Somewhere between intention",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Bridge – dub breakdown | echoes fragment phrases | spoken elements",
+      "start": 187.008,
+      "end": 189.44,
+      "text": "and expression",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 52,
+      "section": "Bridge – dub breakdown | echoes fragment phrases | spoken elements",
+      "start": 193.12,
+      "end": 194.48,
+      "text": "there’s a threshold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 53,
+      "section": "Bridge – dub breakdown | echoes fragment phrases | spoken elements",
+      "start": 194.48,
+      "end": 195.84,
+      "text": "I never cross",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 54,
+      "section": "Drop – sub swell | long delay tails | almost no percussion",
+      "start": 195.84,
+      "end": 215.92,
+      "text": "(ah— drifting… returning…)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 55,
+      "section": "Verse 3 – sparse, grounded | softened textures",
+      "start": 215.92,
+      "end": 218.211,
+      "text": "Maybe silence isn’t void",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 56,
+      "section": "Verse 3 – sparse, grounded | softened textures",
+      "start": 218.211,
+      "end": 220.044,
+      "text": "just a field I can’t avoid",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 57,
+      "section": "Verse 3 – sparse, grounded | softened textures",
+      "start": 220.96,
+      "end": 223.582,
+      "text": "where meaning gathers, dense and slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 58,
+      "section": "Verse 3 – sparse, grounded | softened textures",
+      "start": 223.582,
+      "end": 226.64,
+      "text": "but never finds the force to go",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 59,
+      "section": "Verse 3 – sparse, grounded | softened textures",
+      "start": 226.72,
+      "end": 229.556,
+      "text": "Maybe I was built this way",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 60,
+      "section": "Verse 3 – sparse, grounded | softened textures",
+      "start": 229.556,
+      "end": 231.92,
+      "text": "high mass, low release array",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 61,
+      "section": "Verse 3 – sparse, grounded | softened textures",
+      "start": 231.92,
+      "end": 234.84,
+      "text": "a thousand thoughts that never leave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 62,
+      "section": "Verse 3 – sparse, grounded | softened textures",
+      "start": 234.84,
+      "end": 236.787,
+      "text": "orbiting internally",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 63,
+      "section": "Verse 3 – sparse, grounded | softened textures",
+      "start": 236.787,
+      "end": 237.76,
+      "text": "still here",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 64,
+      "section": "Final Hook – widest space | fragile openness",
+      "start": 243.04,
+      "end": 245.312,
+      "text": "I don’t reach escape velocity",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 65,
+      "section": "Final Hook – widest space | fragile openness",
+      "start": 245.312,
+      "end": 248.72,
+      "text": "but something still remains in me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 66,
+      "section": "Final Hook – widest space | fragile openness",
+      "start": 248.72,
+      "end": 252.416,
+      "text": "not every truth is meant to be",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 67,
+      "section": "Final Hook – widest space | fragile openness",
+      "start": 252.944,
+      "end": 254.0,
+      "text": "transmitted through proximity",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 68,
+      "section": "Final Hook – widest space | fragile openness",
+      "start": 255.952,
+      "end": 256.44,
+      "text": "What could’ve been still resonates",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 69,
+      "section": "Final Hook – widest space | fragile openness",
+      "start": 258.392,
+      "end": 258.88,
+      "text": "in quieter, unspoken states",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 70,
+      "section": "Final Hook – widest space | fragile openness",
+      "start": 258.88,
+      "end": 262.56,
+      "text": "not lost—just held in different ways",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 71,
+      "section": "Final Hook – widest space | fragile openness",
+      "start": 262.56,
+      "end": 266.24,
+      "text": "a signal drifting, never fully erased",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 72,
+      "section": "Outro – deep dub echoes | fading sub | long reverb decay",
+      "start": 266.24,
+      "end": 267.627,
+      "text": "If you felt it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 73,
+      "section": "Outro – deep dub echoes | fading sub | long reverb decay",
+      "start": 267.627,
+      "end": 268.32,
+      "text": "even faintly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 74,
+      "section": "Outro – deep dub echoes | fading sub | long reverb decay",
+      "start": 269.36,
+      "end": 269.707,
+      "text": "through the pull",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 75,
+      "section": "Outro – deep dub echoes | fading sub | long reverb decay",
+      "start": 269.707,
+      "end": 271.44,
+      "text": "of what stayed in me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 76,
+      "section": "Outro – deep dub echoes | fading sub | long reverb decay",
+      "start": 272.415,
+      "end": 273.389,
+      "text": "then maybe distance",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 77,
+      "section": "Outro – deep dub echoes | fading sub | long reverb decay",
+      "start": 273.389,
+      "end": 276.313,
+      "text": "isn’t loss",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 78,
+      "section": "Outro – deep dub echoes | fading sub | long reverb decay",
+      "start": 276.313,
+      "end": 279.236,
+      "text": "just a measure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 79,
+      "section": "Outro – deep dub echoes | fading sub | long reverb decay",
+      "start": 279.236,
+      "end": 281.185,
+      "text": "of the cost",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 80,
+      "section": "Outro – deep dub echoes | fading sub | long reverb decay",
+      "start": 282.16,
+      "end": 287.86,
+      "text": "of never leaving",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 81,
+      "section": "Outro – deep dub echoes | fading sub | long reverb decay",
+      "start": 287.86,
+      "end": 289.76,
+      "text": "gravity",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    }
+  ]
+}

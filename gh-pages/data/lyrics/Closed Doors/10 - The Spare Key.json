@@ -1,0 +1,2449 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Closed Doors",
+  "title": "The Spare Key",
+  "text_path": "Closed Doors/10 - The Spare Key.txt",
+  "audio_path": "Closed Doors/audio/10 - The Spare Key.mp3",
+  "duration_seconds": 371.4,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 209,
+    "reference_word_count": 772,
+    "observed_word_count": 779,
+    "matched_word_count": 722,
+    "matched_word_ratio": 0.935
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "text": "I used to leave instructions for anyone who entered."
+    },
+    {
+      "start": 8.0,
+      "end": 11.7,
+      "text": "Mine the crooked stairs don't touch the third rail."
+    },
+    {
+      "start": 11.7,
+      "end": 13.74,
+      "text": "The lights might not work."
+    },
+    {
+      "start": 13.74,
+      "end": 17.3,
+      "text": "The walls may answer back."
+    },
+    {
+      "start": 17.3,
+      "end": 21.36,
+      "text": "Most people read the sign and left politely."
+    },
+    {
+      "start": 21.36,
+      "end": 24.18,
+      "text": "You found the spare key under the warning."
+    },
+    {
+      "start": 24.18,
+      "end": 28.32,
+      "text": "Didn't even mention the rust."
+    },
+    {
+      "start": 28.32,
+      "end": 29.98,
+      "text": "You were not like me."
+    },
+    {
+      "start": 29.98,
+      "end": 32.48,
+      "text": "That was the first relief."
+    },
+    {
+      "start": 32.48,
+      "end": 36.76,
+      "text": "You come in sideways where I spiral downward."
+    },
+    {
+      "start": 36.76,
+      "end": 40.12,
+      "text": "You hold a silence like it's just a cup of tea."
+    },
+    {
+      "start": 40.12,
+      "end": 41.88,
+      "text": "I count the exits."
+    },
+    {
+      "start": 41.88,
+      "end": 43.52,
+      "text": "You count the birds outside."
+    },
+    {
+      "start": 43.52,
+      "end": 48.16,
+      "text": "I hear a floor board complain and prepare for collapse, you say."
+    },
+    {
+      "start": 48.16,
+      "end": 51.16,
+      "text": "Old houses make sounds."
+    },
+    {
+      "start": 51.16,
+      "end": 55.0,
+      "text": "Simple as that."
+    },
+    {
+      "start": 55.0,
+      "end": 61.16,
+      "text": "Not a sermon, not a rescue, not a map folded open with red circles around."
+    },
+    {
+      "start": 61.16,
+      "end": 65.4,
+      "text": "All the places I went wrong."
+    },
+    {
+      "start": 65.4,
+      "end": 69.84,
+      "text": "Just you standing in the hallway with your coats still on."
+    },
+    {
+      "start": 69.84,
+      "end": 73.36,
+      "text": "Like the house it always expected you."
+    },
+    {
+      "start": 73.36,
+      "end": 76.84,
+      "text": "You don't mind the crooked stairs."
+    },
+    {
+      "start": 76.84,
+      "end": 80.32,
+      "text": "You don't ask why the dark is there."
+    },
+    {
+      "start": 80.32,
+      "end": 85.4,
+      "text": "You don't knock like a guest who do."
+    },
+    {
+      "start": 85.4,
+      "end": 89.28,
+      "text": "The door remembers you."
+    },
+    {
+      "start": 89.28,
+      "end": 95.32,
+      "text": "I tried to apologize for the strange rooms for the one where I keep all my unfinished sentences."
+    },
+    {
+      "start": 95.32,
+      "end": 98.12,
+      "text": "For the one where the clocks don't agree."
+    },
+    {
+      "start": 98.12,
+      "end": 102.88,
+      "text": "For the one with no chairs because I never learned how long people stay."
+    },
+    {
+      "start": 102.88,
+      "end": 105.48,
+      "text": "You said mine has boxes."
+    },
+    {
+      "start": 105.48,
+      "end": 111.0,
+      "text": "And somehow that was better than comfort because comfort often arrives wearing shoes to"
+    },
+    {
+      "start": 111.0,
+      "end": 112.0,
+      "text": "clean."
+    },
+    {
+      "start": 112.0,
+      "end": 115.84,
+      "text": "For the month it wants to discuss."
+    },
+    {
+      "start": 115.84,
+      "end": 117.16,
+      "text": "But you?"
+    },
+    {
+      "start": 117.16,
+      "end": 123.36,
+      "text": "You understand terms and conditions without turning me into paperwork."
+    },
+    {
+      "start": 123.36,
+      "end": 129.8,
+      "text": "You read the fine print and laughs softly at the part that said may become distant."
+    },
+    {
+      "start": 129.8,
+      "end": 132.28,
+      "text": "Without leaving, may need quiet."
+    },
+    {
+      "start": 132.28,
+      "end": 135.4,
+      "text": "Without anger, may answer late without absence."
+    },
+    {
+      "start": 135.4,
+      "end": 139.12,
+      "text": "May you love deeply while looking at the floor."
+    },
+    {
+      "start": 139.12,
+      "end": 141.88,
+      "text": "You said you had the same."
+    },
+    {
+      "start": 141.88,
+      "end": 145.88,
+      "text": "The walls for once did not correct you."
+    },
+    {
+      "start": 145.88,
+      "end": 151.4,
+      "text": "Oh, you don't mind the crooked stairs."
+    },
+    {
+      "start": 151.4,
+      "end": 155.2,
+      "text": "You don't ask why the dark is there."
+    },
+    {
+      "start": 155.2,
+      "end": 160.32,
+      "text": "You don't knock like a guest who do."
+    },
+    {
+      "start": 160.32,
+      "end": 164.24,
+      "text": "The door remembers you."
+    },
+    {
+      "start": 164.24,
+      "end": 165.24,
+      "text": "Maybe that's the trick."
+    },
+    {
+      "start": 165.24,
+      "end": 166.24,
+      "text": "Not matching."
+    },
+    {
+      "start": 166.24,
+      "end": 167.24,
+      "text": "Not mirroring."
+    },
+    {
+      "start": 167.24,
+      "end": 168.24,
+      "text": "Not becoming."
+    },
+    {
+      "start": 168.24,
+      "end": 172.64,
+      "text": "Some tidy little pair for people to point at and say, look, they make sense."
+    },
+    {
+      "start": 172.64,
+      "end": 174.04,
+      "text": "We don't."
+    },
+    {
+      "start": 174.04,
+      "end": 176.04,
+      "text": "Not like that."
+    },
+    {
+      "start": 176.04,
+      "end": 177.04,
+      "text": "You are weather."
+    },
+    {
+      "start": 177.04,
+      "end": 178.04,
+      "text": "I would never predict."
+    },
+    {
+      "start": 178.04,
+      "end": 181.48,
+      "text": "I am a locked room with too many lamps."
+    },
+    {
+      "start": 181.48,
+      "end": 183.32,
+      "text": "You are soft where I sharpen."
+    },
+    {
+      "start": 183.32,
+      "end": 185.16,
+      "text": "I am loud where you vanish."
+    },
+    {
+      "start": 185.16,
+      "end": 186.92,
+      "text": "You forgive the moment slowly."
+    },
+    {
+      "start": 186.92,
+      "end": 190.0,
+      "text": "I dissected four bones."
+    },
+    {
+      "start": 190.0,
+      "end": 193.28,
+      "text": "Somewhere in the distance there's a shape I recognize."
+    },
+    {
+      "start": 193.28,
+      "end": 194.92,
+      "text": "This is an emissary."
+    },
+    {
+      "start": 194.92,
+      "end": 198.12,
+      "text": "Two wrong angles making me shelter."
+    },
+    {
+      "start": 198.12,
+      "end": 202.08,
+      "text": "Two separate good fires teaching the same room."
+    },
+    {
+      "start": 202.08,
+      "end": 204.76,
+      "text": "How to be worn?"
+    },
+    {
+      "start": 204.76,
+      "end": 207.0,
+      "text": "You didn't ask where the ghost had gone."
+    },
+    {
+      "start": 207.0,
+      "end": 209.8,
+      "text": "You just sat down near the wall and waited."
+    },
+    {
+      "start": 209.8,
+      "end": 212.6,
+      "text": "Not waiting for me to perform being better."
+    },
+    {
+      "start": 212.6,
+      "end": 214.44,
+      "text": "Not waiting for the lights."
+    },
+    {
+      "start": 214.44,
+      "end": 219.64,
+      "text": "Just breathing in the same room like darkness wasn't a failure."
+    },
+    {
+      "start": 219.64,
+      "end": 223.32,
+      "text": "And I wanted to say, careful, the stairs bite the kitchen."
+    },
+    {
+      "start": 223.32,
+      "end": 227.08,
+      "text": "Remember the foyer lies, the roof leaks old weather."
+    },
+    {
+      "start": 227.08,
+      "end": 231.6,
+      "text": "When the wrong song plays, but you already knew."
+    },
+    {
+      "start": 231.6,
+      "end": 236.48,
+      "text": "Not the details, the feeling, that old mathematics of being difficult"
+    },
+    {
+      "start": 236.48,
+      "end": 238.32,
+      "text": "without meaning harm."
+    },
+    {
+      "start": 238.32,
+      "end": 242.08,
+      "text": "That private grammar of almost saying it."
+    },
+    {
+      "start": 242.08,
+      "end": 248.72,
+      "text": "That tiny exhaustion after being called intense by people who only skimp."
+    },
+    {
+      "start": 248.72,
+      "end": 255.08,
+      "text": "The surface of gentle things."
+    },
+    {
+      "start": 255.08,
+      "end": 258.8,
+      "text": "You don't mind the crooked stairs."
+    },
+    {
+      "start": 258.8,
+      "end": 262.6,
+      "text": "You don't ask why the dark is there."
+    },
+    {
+      "start": 262.6,
+      "end": 265.6,
+      "text": "You don't knock like a guest."
+    },
+    {
+      "start": 265.6,
+      "end": 268.04,
+      "text": "You."
+    },
+    {
+      "start": 268.04,
+      "end": 269.84,
+      "text": "The door remembers you."
+    },
+    {
+      "start": 269.84,
+      "end": 274.52,
+      "text": "So now there were two moogers by the sink, two coats and the wrong chair."
+    },
+    {
+      "start": 274.52,
+      "end": 277.44,
+      "text": "Two kinds of quiet learning not the French."
+    },
+    {
+      "start": 277.44,
+      "end": 282.6,
+      "text": "When the other one moves and no, the house is not fixed."
+    },
+    {
+      "start": 282.6,
+      "end": 286.08,
+      "text": "The banister still wobbles, the upstairs room still hums."
+    },
+    {
+      "start": 286.08,
+      "end": 288.72,
+      "text": "Some nights I still retreat so far."
+    },
+    {
+      "start": 288.72,
+      "end": 292.92,
+      "text": "Inward, even my name has to leave a note."
+    },
+    {
+      "start": 292.92,
+      "end": 294.8,
+      "text": "But you don't panic."
+    },
+    {
+      "start": 294.8,
+      "end": 298.52,
+      "text": "You don't call it distance when it is weather."
+    },
+    {
+      "start": 298.52,
+      "end": 302.08,
+      "text": "You don't call it cold when it is shelter."
+    },
+    {
+      "start": 302.08,
+      "end": 306.36,
+      "text": "You don't call me God just because I am hard to reach."
+    },
+    {
+      "start": 307.96,
+      "end": 310.36,
+      "text": "You found a spare key."
+    },
+    {
+      "start": 310.36,
+      "end": 313.4,
+      "text": "Under the warning sign and it stuck."
+    },
+    {
+      "start": 313.4,
+      "end": 316.6,
+      "text": "It could go like you didn't force."
+    },
+    {
+      "start": 316.6,
+      "end": 321.28,
+      "text": "You warmed it in your hair."
+    },
+    {
+      "start": 321.28,
+      "end": 325.08,
+      "text": "You don't mind the crooked stairs."
+    },
+    {
+      "start": 325.08,
+      "end": 328.92,
+      "text": "You don't ask why the dark is there."
+    },
+    {
+      "start": 328.92,
+      "end": 331.8,
+      "text": "You don't knock like a guest."
+    },
+    {
+      "start": 331.8,
+      "end": 334.48,
+      "text": "You."
+    },
+    {
+      "start": 334.48,
+      "end": 336.4,
+      "text": "The door remembers you."
+    },
+    {
+      "start": 336.4,
+      "end": 339.52,
+      "text": "You don't fear the ghost and the walls."
+    },
+    {
+      "start": 339.52,
+      "end": 342.56,
+      "text": "You don't name every silence."
+    },
+    {
+      "start": 342.56,
+      "end": 345.36,
+      "text": "All you left here was strange to me."
+    },
+    {
+      "start": 345.36,
+      "end": 353.0,
+      "text": "Gently drew the room make space for you."
+    },
+    {
+      "start": 353.0,
+      "end": 358.44,
+      "text": "I used to think being understood, but feel like someone turning all the lights on."
+    },
+    {
+      "start": 358.44,
+      "end": 359.84,
+      "text": "But this is better."
+    },
+    {
+      "start": 359.84,
+      "end": 362.84,
+      "text": "You sit in the side, me in the dark."
+    },
+    {
+      "start": 362.84,
+      "end": 365.48,
+      "text": "Not asking what the dark needs."
+    },
+    {
+      "start": 365.48,
+      "end": 369.28,
+      "text": "Just passing me half the blanket."
+    },
+    {
+      "start": 369.28,
+      "end": 371.4,
+      "text": "Like you knew where it was kept."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 0.0,
+      "end": 4.444,
+      "text": "I used to leave instructions",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 1,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 4.444,
+      "end": 8.0,
+      "text": "for anyone who entered.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 2,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 8.411,
+      "end": 9.644,
+      "text": "Mind the crooked stairs.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 9.644,
+      "end": 11.7,
+      "text": "Don’t touch the third rail.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 4,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 11.7,
+      "end": 13.74,
+      "text": "The lights might not work.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 13.74,
+      "end": 17.3,
+      "text": "The walls may answer back.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 6,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 17.3,
+      "end": 19.837,
+      "text": "Most people read the sign",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 7,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 19.837,
+      "end": 21.36,
+      "text": "and left politely.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 8,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 21.36,
+      "end": 23.122,
+      "text": "You found the spare key",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 9,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 23.122,
+      "end": 24.18,
+      "text": "under the warning.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Intro – spoken | two guitars | room tone",
+      "start": 24.18,
+      "end": 28.32,
+      "text": "Didn’t even mention the rust.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 – spoken-word",
+      "start": 28.32,
+      "end": 29.98,
+      "text": "You are not like me.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 – spoken-word",
+      "start": 29.98,
+      "end": 32.48,
+      "text": "That was the first relief.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 – spoken-word",
+      "start": 32.48,
+      "end": 34.62,
+      "text": "You come in sideways",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 – spoken-word",
+      "start": 34.62,
+      "end": 36.76,
+      "text": "where I spiral downward.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 – spoken-word",
+      "start": 36.76,
+      "end": 37.982,
+      "text": "You hold a silence",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 – spoken-word",
+      "start": 37.982,
+      "end": 40.12,
+      "text": "like it’s just a cup of tea.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 – spoken-word",
+      "start": 40.12,
+      "end": 41.88,
+      "text": "I count the exits.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 – spoken-word",
+      "start": 41.88,
+      "end": 43.52,
+      "text": "You count the birds outside.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 – spoken-word",
+      "start": 43.52,
+      "end": 45.84,
+      "text": "I hear a floorboard complain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 – spoken-word",
+      "start": 45.84,
+      "end": 47.387,
+      "text": "and prepare for collapse.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 – spoken-word",
+      "start": 47.387,
+      "end": 48.16,
+      "text": "You say,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 – spoken-word",
+      "start": 48.16,
+      "end": 51.16,
+      "text": "“Old houses make sounds.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 – spoken-word",
+      "start": 51.16,
+      "end": 55.0,
+      "text": "Simple as that.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 – spoken-word",
+      "start": 55.0,
+      "end": 56.232,
+      "text": "Not a sermon.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 – spoken-word",
+      "start": 56.232,
+      "end": 57.464,
+      "text": "Not a rescue.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 – spoken-word",
+      "start": 57.464,
+      "end": 59.517,
+      "text": "Not a map folded open",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 – spoken-word",
+      "start": 59.517,
+      "end": 61.16,
+      "text": "with red circles around",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 – spoken-word",
+      "start": 61.16,
+      "end": 65.4,
+      "text": "all the places I went wrong.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 – spoken-word",
+      "start": 65.4,
+      "end": 66.207,
+      "text": "Just you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 – spoken-word",
+      "start": 66.207,
+      "end": 67.822,
+      "text": "standing in the hallway",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 – spoken-word",
+      "start": 67.822,
+      "end": 69.84,
+      "text": "with your coat still on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 32,
+      "section": "Verse 1 – spoken-word",
+      "start": 69.84,
+      "end": 72.354,
+      "text": "like the house had always",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 33,
+      "section": "Verse 1 – spoken-word",
+      "start": 72.354,
+      "end": 73.36,
+      "text": "expected you.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 34,
+      "section": "Refrain – soft sung",
+      "start": 73.36,
+      "end": 75.1,
+      "text": "You don’t mind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 35,
+      "section": "Refrain – soft sung",
+      "start": 75.1,
+      "end": 76.84,
+      "text": "the crooked stairs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 36,
+      "section": "Refrain – soft sung",
+      "start": 76.84,
+      "end": 78.145,
+      "text": "You don’t ask",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 37,
+      "section": "Refrain – soft sung",
+      "start": 78.145,
+      "end": 80.32,
+      "text": "why the dark is there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 38,
+      "section": "Refrain – soft sung",
+      "start": 80.32,
+      "end": 82.225,
+      "text": "You don’t knock",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 39,
+      "section": "Refrain – soft sung",
+      "start": 82.225,
+      "end": 85.4,
+      "text": "like a guest would do",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "Refrain – soft sung",
+      "start": 85.4,
+      "end": 89.28,
+      "text": "The door remembers you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 89.28,
+      "end": 90.622,
+      "text": "I tried to apologize",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 42,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 90.622,
+      "end": 91.964,
+      "text": "for the strange rooms.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 91.964,
+      "end": 93.978,
+      "text": "For the one where I keep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 44,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 93.978,
+      "end": 95.32,
+      "text": "all my unfinished sentences.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 95.32,
+      "end": 97.42,
+      "text": "For the one where the clocks",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 46,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 97.42,
+      "end": 98.12,
+      "text": "don’t agree.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 47,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 98.12,
+      "end": 100.16,
+      "text": "For the one with no chairs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 48,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 100.16,
+      "end": 101.52,
+      "text": "because I never learned",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 49,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 101.52,
+      "end": 102.88,
+      "text": "how long people stay.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 50,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 102.88,
+      "end": 103.92,
+      "text": "You said,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 51,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 103.92,
+      "end": 105.48,
+      "text": "“Mine has boxes.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 52,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 105.48,
+      "end": 106.269,
+      "text": "And somehow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 53,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 106.269,
+      "end": 108.24,
+      "text": "that was better than comfort.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 54,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 108.24,
+      "end": 109.817,
+      "text": "Because comfort often arrives",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 55,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 109.817,
+      "end": 112.0,
+      "text": "wearing shoes too clean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 112.0,
+      "end": 115.84,
+      "text": "for the mud it wants to discuss.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 115.84,
+      "end": 117.16,
+      "text": "But you?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 117.16,
+      "end": 120.26,
+      "text": "You understand terms and conditions",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 120.26,
+      "end": 122.12,
+      "text": "without turning me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 122.12,
+      "end": 123.36,
+      "text": "into paperwork.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 123.36,
+      "end": 125.373,
+      "text": "You read the fine print",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 125.373,
+      "end": 126.58,
+      "text": "and laughed softly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 126.58,
+      "end": 128.593,
+      "text": "at the part that said:",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 128.593,
+      "end": 129.8,
+      "text": "May become distant",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 129.8,
+      "end": 130.792,
+      "text": "without leaving.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 130.792,
+      "end": 132.28,
+      "text": "May need quiet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 132.28,
+      "end": 133.171,
+      "text": "without anger.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 133.171,
+      "end": 134.509,
+      "text": "May answer late",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 134.509,
+      "end": 135.4,
+      "text": "without absence.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 135.4,
+      "end": 137.053,
+      "text": "May love deeply",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 137.053,
+      "end": 137.88,
+      "text": "while looking",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 72,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 137.88,
+      "end": 139.12,
+      "text": "at the floor.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 73,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 139.12,
+      "end": 140.04,
+      "text": "You said,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 74,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 141.42,
+      "end": 141.88,
+      "text": "“Yeah. Same.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 75,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 141.88,
+      "end": 142.88,
+      "text": "And the walls,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 76,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 142.88,
+      "end": 143.88,
+      "text": "for once,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 77,
+      "section": "Verse 2 – spoken, warmer",
+      "start": 143.88,
+      "end": 145.88,
+      "text": "did not correct you.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 78,
+      "section": "Refrain – fuller, faint harmony",
+      "start": 146.669,
+      "end": 149.034,
+      "text": "You don’t mind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 79,
+      "section": "Refrain – fuller, faint harmony",
+      "start": 149.034,
+      "end": 151.4,
+      "text": "the crooked stairs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 80,
+      "section": "Refrain – fuller, faint harmony",
+      "start": 151.4,
+      "end": 152.825,
+      "text": "You don’t ask",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 81,
+      "section": "Refrain – fuller, faint harmony",
+      "start": 152.825,
+      "end": 155.2,
+      "text": "why the dark is there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 82,
+      "section": "Refrain – fuller, faint harmony",
+      "start": 155.2,
+      "end": 157.12,
+      "text": "You don’t knock",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 83,
+      "section": "Refrain – fuller, faint harmony",
+      "start": 157.12,
+      "end": 160.32,
+      "text": "like a guest would do",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 84,
+      "section": "Refrain – fuller, faint harmony",
+      "start": 160.32,
+      "end": 164.24,
+      "text": "The door remembers you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 85,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 164.24,
+      "end": 165.24,
+      "text": "Maybe that’s the trick.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 86,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 165.24,
+      "end": 166.24,
+      "text": "Not matching.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 87,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 166.24,
+      "end": 167.24,
+      "text": "Not mirroring.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 88,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 167.24,
+      "end": 168.24,
+      "text": "Not becoming",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 89,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 168.24,
+      "end": 169.413,
+      "text": "some tidy little pair",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 90,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 169.413,
+      "end": 170.88,
+      "text": "for people to point at",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 91,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 170.88,
+      "end": 171.467,
+      "text": "and say,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 92,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 171.467,
+      "end": 172.64,
+      "text": "“Look, they make sense.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 93,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 172.64,
+      "end": 174.04,
+      "text": "We don’t.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 94,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 174.04,
+      "end": 176.04,
+      "text": "Not like that.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 95,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 176.04,
+      "end": 177.04,
+      "text": "You are weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 96,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 177.04,
+      "end": 178.04,
+      "text": "I would never predict.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 97,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 178.04,
+      "end": 179.951,
+      "text": "I am a locked room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 98,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 179.951,
+      "end": 181.48,
+      "text": "with too many lamps.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 99,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 181.48,
+      "end": 183.32,
+      "text": "You are soft where I sharpen.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 100,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 183.32,
+      "end": 185.16,
+      "text": "I am loud where you vanish.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 101,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 185.16,
+      "end": 186.92,
+      "text": "You forgive the moment slowly.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 102,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 186.92,
+      "end": 190.0,
+      "text": "I dissect it for bones.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 103,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 190.0,
+      "end": 190.364,
+      "text": "But somewhere",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 104,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 190.364,
+      "end": 191.093,
+      "text": "in the difference",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 105,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 191.458,
+      "end": 193.28,
+      "text": "there’s a shape I recognize.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 106,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 193.28,
+      "end": 194.92,
+      "text": "Dissonant symmetry.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 107,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 194.92,
+      "end": 196.52,
+      "text": "Two wrong angles",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 108,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 196.52,
+      "end": 198.12,
+      "text": "making shelter.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 109,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 198.12,
+      "end": 200.1,
+      "text": "Two separate fires",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 110,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 200.1,
+      "end": 202.08,
+      "text": "teaching the same room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 111,
+      "section": "Bridge – spoken | bass enters more clearly",
+      "start": 202.08,
+      "end": 204.09,
+      "text": "how to be warm.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 112,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 204.76,
+      "end": 205.6,
+      "text": "You didn’t ask",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 113,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 205.6,
+      "end": 207.0,
+      "text": "where the ghost had gone.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 114,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 207.0,
+      "end": 208.244,
+      "text": "You just sat down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 115,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 208.244,
+      "end": 209.178,
+      "text": "near the wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 116,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 209.178,
+      "end": 209.8,
+      "text": "and waited.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 117,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 209.8,
+      "end": 211.2,
+      "text": "Not waiting for me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 118,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 211.2,
+      "end": 212.6,
+      "text": "to perform being better.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 119,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 212.6,
+      "end": 214.44,
+      "text": "Not waiting for the lights.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 120,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 214.44,
+      "end": 215.385,
+      "text": "Just breathing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 121,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 215.385,
+      "end": 217.276,
+      "text": "in the same room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 122,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 217.276,
+      "end": 218.222,
+      "text": "like darkness",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 123,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 218.222,
+      "end": 219.64,
+      "text": "wasn’t a failure.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 124,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 219.64,
+      "end": 221.313,
+      "text": "And I wanted to say:",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 125,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 221.313,
+      "end": 221.647,
+      "text": "Careful.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 126,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 221.647,
+      "end": 222.651,
+      "text": "The stairs bite.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 127,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 222.651,
+      "end": 223.32,
+      "text": "The kitchen remembers.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 128,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 223.738,
+      "end": 224.991,
+      "text": "The foyer lies.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 129,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 224.991,
+      "end": 227.08,
+      "text": "The roof leaks old weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 130,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 227.08,
+      "end": 229.591,
+      "text": "when the wrong song plays.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 131,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 229.591,
+      "end": 231.6,
+      "text": "But you already knew.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 132,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 231.6,
+      "end": 232.931,
+      "text": "Not the details.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 133,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 232.931,
+      "end": 233.818,
+      "text": "The feeling.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 134,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 233.818,
+      "end": 235.149,
+      "text": "That old mathematics",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 135,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 235.149,
+      "end": 236.48,
+      "text": "of being difficult",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 136,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 236.48,
+      "end": 238.32,
+      "text": "without meaning harm.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 137,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 238.32,
+      "end": 239.931,
+      "text": "That private grammar",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 138,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 239.931,
+      "end": 242.08,
+      "text": "of almost saying it.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 139,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 242.08,
+      "end": 243.74,
+      "text": "That tiny exhaustion",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 140,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 243.74,
+      "end": 245.953,
+      "text": "after being called intense",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 141,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 245.953,
+      "end": 247.06,
+      "text": "by people",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 142,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 247.06,
+      "end": 248.167,
+      "text": "who only skimmed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 143,
+      "section": "Verse 3 – half-sung, half-spoken",
+      "start": 248.72,
+      "end": 255.08,
+      "text": "the surface of gentle things.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 144,
+      "section": "Refrain – warmest yet",
+      "start": 255.08,
+      "end": 256.94,
+      "text": "You don’t mind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 145,
+      "section": "Refrain – warmest yet",
+      "start": 256.94,
+      "end": 258.8,
+      "text": "the crooked stairs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 146,
+      "section": "Refrain – warmest yet",
+      "start": 258.8,
+      "end": 260.225,
+      "text": "You don’t ask",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 147,
+      "section": "Refrain – warmest yet",
+      "start": 260.225,
+      "end": 262.6,
+      "text": "why the dark is there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 148,
+      "section": "Refrain – warmest yet",
+      "start": 262.6,
+      "end": 264.1,
+      "text": "You don’t knock",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 149,
+      "section": "Refrain – warmest yet",
+      "start": 264.1,
+      "end": 265.6,
+      "text": "like a guest would do",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 150,
+      "section": "Refrain – warmest yet",
+      "start": 268.04,
+      "end": 269.84,
+      "text": "The door remembers you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 151,
+      "section": "Final Verse – spoken, tender",
+      "start": 269.84,
+      "end": 271.4,
+      "text": "So now there are two mugs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 152,
+      "section": "Final Verse – spoken, tender",
+      "start": 271.712,
+      "end": 272.648,
+      "text": "by the sink.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 153,
+      "section": "Final Verse – spoken, tender",
+      "start": 272.648,
+      "end": 273.272,
+      "text": "Two coats",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 154,
+      "section": "Final Verse – spoken, tender",
+      "start": 273.584,
+      "end": 274.52,
+      "text": "on the wrong chair.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 155,
+      "section": "Final Verse – spoken, tender",
+      "start": 274.52,
+      "end": 275.98,
+      "text": "Two kinds of quiet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 156,
+      "section": "Final Verse – spoken, tender",
+      "start": 275.98,
+      "end": 276.71,
+      "text": "learning not to flinch",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 157,
+      "section": "Final Verse – spoken, tender",
+      "start": 277.44,
+      "end": 279.59,
+      "text": "when the other one moves.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 158,
+      "section": "Final Verse – spoken, tender",
+      "start": 279.59,
+      "end": 280.45,
+      "text": "And no,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 159,
+      "section": "Final Verse – spoken, tender",
+      "start": 280.45,
+      "end": 282.6,
+      "text": "the house is not fixed.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 160,
+      "section": "Final Verse – spoken, tender",
+      "start": 282.6,
+      "end": 284.147,
+      "text": "The banister still wobbles.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 161,
+      "section": "Final Verse – spoken, tender",
+      "start": 284.147,
+      "end": 286.08,
+      "text": "The upstairs room still hums.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 162,
+      "section": "Final Verse – spoken, tender",
+      "start": 286.08,
+      "end": 287.966,
+      "text": "Some nights I still retreat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 163,
+      "section": "Final Verse – spoken, tender",
+      "start": 287.966,
+      "end": 289.187,
+      "text": "so far inward",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 164,
+      "section": "Final Verse – spoken, tender",
+      "start": 289.187,
+      "end": 290.587,
+      "text": "even my name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 165,
+      "section": "Final Verse – spoken, tender",
+      "start": 290.587,
+      "end": 292.92,
+      "text": "has to leave a note.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 166,
+      "section": "Final Verse – spoken, tender",
+      "start": 292.92,
+      "end": 294.8,
+      "text": "But you don’t panic.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 167,
+      "section": "Final Verse – spoken, tender",
+      "start": 294.8,
+      "end": 296.867,
+      "text": "You don’t call it distance",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 168,
+      "section": "Final Verse – spoken, tender",
+      "start": 296.867,
+      "end": 298.52,
+      "text": "when it is weather.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 169,
+      "section": "Final Verse – spoken, tender",
+      "start": 298.52,
+      "end": 300.498,
+      "text": "You don’t call it cold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 170,
+      "section": "Final Verse – spoken, tender",
+      "start": 300.498,
+      "end": 302.08,
+      "text": "when it is shelter.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 171,
+      "section": "Final Verse – spoken, tender",
+      "start": 302.08,
+      "end": 303.507,
+      "text": "You don’t call me gone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 172,
+      "section": "Final Verse – spoken, tender",
+      "start": 303.863,
+      "end": 304.577,
+      "text": "just because",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 173,
+      "section": "Final Verse – spoken, tender",
+      "start": 304.577,
+      "end": 306.36,
+      "text": "I am hard to reach.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 174,
+      "section": "Final Verse – spoken, tender",
+      "start": 307.96,
+      "end": 310.36,
+      "text": "You found the spare key",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 175,
+      "section": "Final Verse – spoken, tender",
+      "start": 310.36,
+      "end": 312.097,
+      "text": "under the warning sign",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 176,
+      "section": "Final Verse – spoken, tender",
+      "start": 312.097,
+      "end": 313.4,
+      "text": "and when it stuck",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 177,
+      "section": "Final Verse – spoken, tender",
+      "start": 313.4,
+      "end": 315.229,
+      "text": "in the lock",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 178,
+      "section": "Final Verse – spoken, tender",
+      "start": 315.229,
+      "end": 316.6,
+      "text": "you didn’t force it.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 179,
+      "section": "Final Verse – spoken, tender",
+      "start": 316.6,
+      "end": 318.94,
+      "text": "You warmed it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 180,
+      "section": "Final Verse – spoken, tender",
+      "start": 318.94,
+      "end": 320.5,
+      "text": "in your hand.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 181,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 321.28,
+      "end": 323.18,
+      "text": "You don’t mind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 182,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 323.18,
+      "end": 325.08,
+      "text": "the crooked stairs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 183,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 325.08,
+      "end": 326.52,
+      "text": "You don’t ask",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 184,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 326.52,
+      "end": 328.92,
+      "text": "why the dark is there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 185,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 328.92,
+      "end": 330.36,
+      "text": "You don’t knock",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 186,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 330.36,
+      "end": 331.8,
+      "text": "like a guest would do",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 187,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 334.48,
+      "end": 336.4,
+      "text": "The door remembers you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 188,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 336.4,
+      "end": 337.57,
+      "text": "You don’t fear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 189,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 337.57,
+      "end": 339.52,
+      "text": "the ghost in the walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 190,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 339.52,
+      "end": 341.344,
+      "text": "You don’t name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 191,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 341.344,
+      "end": 342.56,
+      "text": "every silence a fall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 192,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 342.91,
+      "end": 343.96,
+      "text": "You live here",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 193,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 345.36,
+      "end": 346.315,
+      "text": "strangely, gently, true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 194,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 347.27,
+      "end": 351.09,
+      "text": "The room makes space",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 195,
+      "section": "Final Refrain – soft harmonies, gentle lift",
+      "start": 351.09,
+      "end": 353.0,
+      "text": "for you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 196,
+      "section": "Outro – spoken | instruments fading",
+      "start": 353.0,
+      "end": 354.451,
+      "text": "I used to think",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 197,
+      "section": "Outro – spoken | instruments fading",
+      "start": 354.451,
+      "end": 355.176,
+      "text": "being understood",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 198,
+      "section": "Outro – spoken | instruments fading",
+      "start": 355.539,
+      "end": 356.627,
+      "text": "would feel like someone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 199,
+      "section": "Outro – spoken | instruments fading",
+      "start": 356.627,
+      "end": 358.44,
+      "text": "turning all the lights on.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 200,
+      "section": "Outro – spoken | instruments fading",
+      "start": 358.44,
+      "end": 359.84,
+      "text": "But this is better.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 201,
+      "section": "Outro – spoken | instruments fading",
+      "start": 359.84,
+      "end": 361.84,
+      "text": "You sitting beside me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 202,
+      "section": "Outro – spoken | instruments fading",
+      "start": 361.84,
+      "end": 362.84,
+      "text": "in the dark,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 203,
+      "section": "Outro – spoken | instruments fading",
+      "start": 362.84,
+      "end": 363.72,
+      "text": "not asking",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 204,
+      "section": "Outro – spoken | instruments fading",
+      "start": 363.72,
+      "end": 365.04,
+      "text": "what the dark means,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 205,
+      "section": "Outro – spoken | instruments fading",
+      "start": 365.48,
+      "end": 367.38,
+      "text": "just passing me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 206,
+      "section": "Outro – spoken | instruments fading",
+      "start": 367.38,
+      "end": 369.28,
+      "text": "half the blanket",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 207,
+      "section": "Outro – spoken | instruments fading",
+      "start": 369.28,
+      "end": 370.189,
+      "text": "like you knew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 208,
+      "section": "Outro – spoken | instruments fading",
+      "start": 370.189,
+      "end": 371.4,
+      "text": "where it was kept.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    }
+  ]
+}

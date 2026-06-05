@@ -1,0 +1,906 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Noise Floor",
+  "title": "Fast Forward Null",
+  "text_path": "Noise Floor/10 - Fast Forward Null.txt",
+  "audio_path": "Noise Floor/audio/10 - Fast Forward Null.mp3",
+  "duration_seconds": 214.08,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 82,
+    "reference_word_count": 343,
+    "observed_word_count": 352,
+    "matched_word_count": 266,
+    "matched_word_ratio": 0.776
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 29.52,
+      "text": "The wheels spin clean, the counterlight, skip, drag, land, all that motion"
+    },
+    {
+      "start": 29.52,
+      "end": 34.56,
+      "text": "No arrival"
+    },
+    {
+      "start": 34.56,
+      "end": 38.56,
+      "text": "I thought the transport had an answer, shove the ribbon through the head"
+    },
+    {
+      "start": 38.56,
+      "end": 43.04,
+      "text": "Skip the dull parts, skip the waiting, make a run, way out of dread"
+    },
+    {
+      "start": 43.04,
+      "end": 47.36,
+      "text": "But the tape begins to wrinkle, and the picture doesn't change"
+    },
+    {
+      "start": 47.36,
+      "end": 51.76,
+      "text": "Same old room, a double motion, same old lock and shop the grain"
+    },
+    {
+      "start": 51.76,
+      "end": 56.24,
+      "text": "There is metal on the vowel, there is chop behind the grin"
+    },
+    {
+      "start": 56.24,
+      "end": 60.24,
+      "text": "Every short cut tastes like solder, and the song won't let me in"
+    },
+    {
+      "start": 60.24,
+      "end": 65.04,
+      "text": "Skip the hard way, drag the frame, land, and place and call it change"
+    },
+    {
+      "start": 65.04,
+      "end": 74.08,
+      "text": "No pressure, no purr, no just a motor chewing fur"
+    },
+    {
+      "start": 74.08,
+      "end": 78.08,
+      "text": "Run the wheel until it screams, still the door stays where it stood"
+    },
+    {
+      "start": 78.08,
+      "end": 86.08,
+      "text": "Nothing gained by going quicker, but no quicker taste this bad"
+    },
+    {
+      "start": 86.08,
+      "end": 95.12,
+      "text": "Now the phrases drift their brackets, now the snare arrives too soon"
+    },
+    {
+      "start": 95.12,
+      "end": 102.08,
+      "text": "Now the friendly little engine cleans the hallway, and the new nav can rush the conversation"
+    },
+    {
+      "start": 102.08,
+      "end": 108.08,
+      "text": "In count if it is fine, but the contact comes about all like a jack without a knife"
+    },
+    {
+      "start": 108.08,
+      "end": 114.08,
+      "text": "Every promise is efficient, every out comes as a race just to burn the look"
+    },
+    {
+      "start": 114.08,
+      "end": 118.08,
+      "text": "Depending, help too long behind the taste"
+    },
+    {
+      "start": 118.08,
+      "end": 124.08,
+      "text": "Fast forward, no skip the brief and keep the stain fast forward"
+    },
+    {
+      "start": 124.08,
+      "end": 130.08,
+      "text": "No, drag the room through every frame Run the wheel until it buckles, still the door"
+    },
+    {
+      "start": 130.08,
+      "end": 138.08,
+      "text": "It feels it's gone, nothing gained by going quicker, but no quicker taste this bad"
+    },
+    {
+      "start": 138.08,
+      "end": 150.08,
+      "text": "Stop the wheels, hit the capsten, lose its teeth, skip no drag, no let the hurry"
+    },
+    {
+      "start": 150.08,
+      "end": 156.08,
+      "text": "Follow backwards, let me hear the room beneath"
+    },
+    {
+      "start": 156.08,
+      "end": 162.08,
+      "text": "Worthless little acceleration, cheap, creative, moving parts"
+    },
+    {
+      "start": 162.08,
+      "end": 166.08,
+      "text": "You don't open human channels, you just overclock the dark"
+    },
+    {
+      "start": 166.08,
+      "end": 170.08,
+      "text": "I would rather take the long way with my hard and careful hands"
+    },
+    {
+      "start": 170.08,
+      "end": 176.08,
+      "text": "Than a rival's bit of filing, ten of plates that never land, skip the price"
+    },
+    {
+      "start": 176.08,
+      "end": 182.08,
+      "text": "Drag the doubt, land inside and wait it out"
+    },
+    {
+      "start": 182.08,
+      "end": 202.08,
+      "text": "The counter-rests, the ribbon slacking, bad taste fading, no prize missing, skip drag, I land"
+    },
+    {
+      "start": 202.08,
+      "end": 214.08,
+      "text": "Where I am, where I am, where I am"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - fast spool | sour filter",
+      "start": 0.0,
+      "end": 9.84,
+      "text": "The wheels spin clean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 1,
+      "section": "Intro - fast spool | sour filter",
+      "start": 9.84,
+      "end": 12.3,
+      "text": "the counter lies",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 2,
+      "section": "Intro - fast spool | sour filter",
+      "start": 14.76,
+      "end": 17.22,
+      "text": "Skip",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 3,
+      "section": "Intro - fast spool | sour filter",
+      "start": 17.22,
+      "end": 19.68,
+      "text": "drag",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 4,
+      "section": "Intro - fast spool | sour filter",
+      "start": 19.68,
+      "end": 22.14,
+      "text": "land",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 5,
+      "section": "Intro - fast spool | sour filter",
+      "start": 22.14,
+      "end": 29.52,
+      "text": "All that motion",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 6,
+      "section": "Intro - fast spool | sour filter",
+      "start": 29.52,
+      "end": 34.56,
+      "text": "no arrival",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 34.56,
+      "end": 36.714,
+      "text": "I thought the transport had an answer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 36.714,
+      "end": 38.56,
+      "text": "shove the ribbon through the head",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 38.56,
+      "end": 40.8,
+      "text": "skip the dull part, skip the waiting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 40.8,
+      "end": 43.04,
+      "text": "make a runway out of dread",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 43.04,
+      "end": 45.396,
+      "text": "But the tape begins to wrinkle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 45.396,
+      "end": 47.36,
+      "text": "and the picture doesn't change",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 47.36,
+      "end": 49.391,
+      "text": "Same old room at double motion",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 49.391,
+      "end": 51.76,
+      "text": "same old lock in sharper grain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 51.76,
+      "end": 54.0,
+      "text": "There is metal on the vowel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 54.0,
+      "end": 56.24,
+      "text": "there is chalk behind the grin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 56.24,
+      "end": 58.086,
+      "text": "Every shortcut tastes like solder",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - rushing beat | clipped bass",
+      "start": 58.086,
+      "end": 60.24,
+      "text": "and the song won't let me in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 19,
+      "section": "Pre-hook - transport clicks become vocal rhythm",
+      "start": 60.24,
+      "end": 60.926,
+      "text": "Skip the hallway",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 20,
+      "section": "Pre-hook - transport clicks become vocal rhythm",
+      "start": 61.611,
+      "end": 62.64,
+      "text": "drag the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Pre-hook - transport clicks become vocal rhythm",
+      "start": 62.64,
+      "end": 63.669,
+      "text": "Land in place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 22,
+      "section": "Pre-hook - transport clicks become vocal rhythm",
+      "start": 63.669,
+      "end": 65.04,
+      "text": "and call it change",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 23,
+      "section": "Hook 1 - blunt | bass overdriven",
+      "start": 65.04,
+      "end": 65.14,
+      "text": "Fast forward null",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 24,
+      "section": "Hook 1 - blunt | bass overdriven",
+      "start": 65.14,
+      "end": 65.944,
+      "text": "no treasure in the whirr",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 25,
+      "section": "Hook 1 - blunt | bass overdriven",
+      "start": 65.944,
+      "end": 69.56,
+      "text": "Fast forward null",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 26,
+      "section": "Hook 1 - blunt | bass overdriven",
+      "start": 69.56,
+      "end": 74.08,
+      "text": "just a motor chewing fur",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 27,
+      "section": "Hook 1 - blunt | bass overdriven",
+      "start": 74.08,
+      "end": 75.926,
+      "text": "Run the reel until it screams",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 28,
+      "section": "Hook 1 - blunt | bass overdriven",
+      "start": 75.926,
+      "end": 78.08,
+      "text": "still the door stays where it stood",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 29,
+      "section": "Hook 1 - blunt | bass overdriven",
+      "start": 78.08,
+      "end": 81.716,
+      "text": "Nothing gained by going quicker",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Hook 1 - blunt | bass overdriven",
+      "start": 83.171,
+      "end": 86.08,
+      "text": "when the quicker tastes this bad",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 86.08,
+      "end": 90.6,
+      "text": "Now the phrases trip their brackets",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 90.6,
+      "end": 95.12,
+      "text": "now the snare arrives too soon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 95.12,
+      "end": 97.295,
+      "text": "Now the friendly little engine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 97.73,
+      "end": 98.6,
+      "text": "turns the hallway into noon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 100.34,
+      "end": 102.08,
+      "text": "I can rush the conversation",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 36,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 102.08,
+      "end": 104.08,
+      "text": "I can counterfeit a spark",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 37,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 104.08,
+      "end": 105.413,
+      "text": "but the contact comes up hollow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 38,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 106.08,
+      "end": 107.413,
+      "text": "like a jack without an arc",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 39,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 108.08,
+      "end": 109.68,
+      "text": "Every promise says efficient",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 40,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 109.68,
+      "end": 110.08,
+      "text": "every outcome says erased",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 41,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 112.08,
+      "end": 112.48,
+      "text": "Just a burned electric penny",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 42,
+      "section": "Verse 2 - groove destabilizes | doubles lag",
+      "start": 115.223,
+      "end": 118.08,
+      "text": "held too long behind the taste",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 43,
+      "section": "Hook 2 - filtered reprise | transformed return",
+      "start": 118.08,
+      "end": 119.08,
+      "text": "Fast forward null",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 44,
+      "section": "Hook 2 - filtered reprise | transformed return",
+      "start": 119.58,
+      "end": 123.08,
+      "text": "skip the grief and keep the stain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 45,
+      "section": "Hook 2 - filtered reprise | transformed return",
+      "start": 123.08,
+      "end": 124.08,
+      "text": "Fast forward null",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 46,
+      "section": "Hook 2 - filtered reprise | transformed return",
+      "start": 124.455,
+      "end": 126.705,
+      "text": "drag the room through every frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 47,
+      "section": "Hook 2 - filtered reprise | transformed return",
+      "start": 126.705,
+      "end": 128.955,
+      "text": "Run the reel until it buckles",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Hook 2 - filtered reprise | transformed return",
+      "start": 128.955,
+      "end": 130.08,
+      "text": "still the door refuses dawn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 49,
+      "section": "Hook 2 - filtered reprise | transformed return",
+      "start": 132.213,
+      "end": 134.88,
+      "text": "Nothing gained by going quicker",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 50,
+      "section": "Hook 2 - filtered reprise | transformed return",
+      "start": 135.947,
+      "end": 136.48,
+      "text": "when the quicker drags me wrong",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 51,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 138.08,
+      "end": 139.58,
+      "text": "Stop the reels",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 52,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 141.08,
+      "end": 141.83,
+      "text": "Let the capstan",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 53,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 142.58,
+      "end": 144.83,
+      "text": "lose its teeth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 54,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 144.83,
+      "end": 145.58,
+      "text": "Skip",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 55,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 145.58,
+      "end": 146.33,
+      "text": "No",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 56,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 146.33,
+      "end": 147.08,
+      "text": "Drag",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 57,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 147.08,
+      "end": 147.83,
+      "text": "No",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 58,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 147.83,
+      "end": 150.08,
+      "text": "Let the hurry",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 59,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 150.08,
+      "end": 151.58,
+      "text": "fall out backward",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 60,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 151.58,
+      "end": 153.83,
+      "text": "let me hear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 61,
+      "section": "Bridge - dropout | sparse halftime dub",
+      "start": 153.83,
+      "end": 156.08,
+      "text": "the room beneath",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 62,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 156.08,
+      "end": 158.651,
+      "text": "Worthless little acceleration",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 63,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 158.651,
+      "end": 162.08,
+      "text": "cheap parade of moving parts",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 64,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 162.08,
+      "end": 164.08,
+      "text": "You don't open human channels",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 65,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 164.08,
+      "end": 166.08,
+      "text": "you just overclock the dark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 66,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 166.08,
+      "end": 168.234,
+      "text": "I would rather take the long way",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 67,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 168.234,
+      "end": 170.08,
+      "text": "with my odd and careful hands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 68,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 170.08,
+      "end": 170.48,
+      "text": "than arrive as bitter filings",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 69,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 170.48,
+      "end": 174.48,
+      "text": "in a place that never lands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 70,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 174.88,
+      "end": 175.68,
+      "text": "Skip the prize",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 71,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 176.08,
+      "end": 178.08,
+      "text": "drag the doubt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 72,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 178.08,
+      "end": 179.413,
+      "text": "land inside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 73,
+      "section": "Final Verse - slow, dry, centered",
+      "start": 179.413,
+      "end": 182.08,
+      "text": "and wait it out",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 74,
+      "section": "Outro - slowed tape | warm sub",
+      "start": 182.08,
+      "end": 185.83,
+      "text": "The counter rests",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 75,
+      "section": "Outro - slowed tape | warm sub",
+      "start": 185.83,
+      "end": 188.33,
+      "text": "the ribbon slackens",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 76,
+      "section": "Outro - slowed tape | warm sub",
+      "start": 189.58,
+      "end": 193.33,
+      "text": "bad taste fading",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 77,
+      "section": "Outro - slowed tape | warm sub",
+      "start": 193.33,
+      "end": 197.08,
+      "text": "no prize missing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 78,
+      "section": "Outro - slowed tape | warm sub",
+      "start": 197.08,
+      "end": 198.33,
+      "text": "Skip",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 79,
+      "section": "Outro - slowed tape | warm sub",
+      "start": 198.33,
+      "end": 199.58,
+      "text": "drag",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 80,
+      "section": "Outro - slowed tape | warm sub",
+      "start": 199.58,
+      "end": 202.08,
+      "text": "I land",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 81,
+      "section": "Outro - slowed tape | warm sub",
+      "start": 202.08,
+      "end": 206.08,
+      "text": "where I am",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

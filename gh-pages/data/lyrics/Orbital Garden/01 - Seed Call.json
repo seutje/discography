@@ -1,0 +1,662 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Orbital Garden",
+  "title": "Seed Call",
+  "text_path": "Orbital Garden/01 - Seed Call.txt",
+  "audio_path": "Orbital Garden/audio/01 - Seed Call.mp3",
+  "duration_seconds": 261.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 56,
+    "reference_word_count": 262,
+    "observed_word_count": 290,
+    "matched_word_count": 192,
+    "matched_word_ratio": 0.733
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 23.0,
+      "text": "First there was a waiting hole, Carden sealed above the cloud bank."
+    },
+    {
+      "start": 23.0,
+      "end": 37.0,
+      "text": "Seeds are sleeping copper loam, Dreaming roots beneath the metal."
+    },
+    {
+      "start": 37.0,
+      "end": 44.0,
+      "text": "I kept my hands beside this oil, countered breaths between the dooms."
+    },
+    {
+      "start": 44.0,
+      "end": 50.0,
+      "text": "Every call arrived in fragments small enough to enter bones."
+    },
+    {
+      "start": 50.0,
+      "end": 56.0,
+      "text": "Something tapped beneath the casing, not a voice, not a prayer."
+    },
+    {
+      "start": 56.0,
+      "end": 62.0,
+      "text": "Just a post that asked for patience, just enough to wait the air."
+    },
+    {
+      "start": 62.0,
+      "end": 68.0,
+      "text": "I did not rush, I did not reach."
+    },
+    {
+      "start": 69.0,
+      "end": 80.0,
+      "text": "The dark gave up a little warmth and thread from earth to birth."
+    },
+    {
+      "start": 80.0,
+      "end": 93.0,
+      "text": "Open slowly, seed of calling, skip the shell without a long."
+    },
+    {
+      "start": 93.0,
+      "end": 103.0,
+      "text": "The first green and such empty, let the room remember once."
+    },
+    {
+      "start": 103.0,
+      "end": 110.0,
+      "text": "I can wait through fraction air, I can tend but barely start."
+    },
+    {
+      "start": 110.0,
+      "end": 119.0,
+      "text": "Seeds recording has a threshold, every threshold has a heart."
+    },
+    {
+      "start": 124.0,
+      "end": 130.0,
+      "text": "The first green and such empty, let the room remember once."
+    },
+    {
+      "start": 130.0,
+      "end": 137.0,
+      "text": "I kept my hands beside this water, countered breaths."
+    },
+    {
+      "start": 137.0,
+      "end": 143.0,
+      "text": "I kept my hands beside this water, countered breaths."
+    },
+    {
+      "start": 143.0,
+      "end": 152.0,
+      "text": "I was younger than me or a bit, I was older than the spark, learning how to distant garden."
+    },
+    {
+      "start": 152.0,
+      "end": 163.0,
+      "text": "Here's always spoken the dark, not command, just consent."
+    },
+    {
+      "start": 163.0,
+      "end": 169.0,
+      "text": "Before the bloom there is permission."
+    },
+    {
+      "start": 170.0,
+      "end": 176.0,
+      "text": "Before the stone there is a door."
+    },
+    {
+      "start": 176.0,
+      "end": 189.0,
+      "text": "Before I knew what I was making, I learned to listen to the floor."
+    },
+    {
+      "start": 190.0,
+      "end": 202.0,
+      "text": "Open slowly, seed of calling, skip the shell without a long."
+    },
+    {
+      "start": 202.0,
+      "end": 213.0,
+      "text": "The first green and such empty, let the room remember once."
+    },
+    {
+      "start": 214.0,
+      "end": 220.0,
+      "text": "I can wait through fraction air, I can tend but barely start."
+    },
+    {
+      "start": 220.0,
+      "end": 228.0,
+      "text": "Seeds recording has a threshold, every threshold has a heart."
+    },
+    {
+      "start": 228.0,
+      "end": 241.0,
+      "text": "Once one hood, once one has a heart, every tooth, and asks for more."
+    },
+    {
+      "start": 244.0,
+      "end": 253.0,
+      "text": "Seeds recording has a threshold, every threshold has a heart."
+    },
+    {
+      "start": 253.0,
+      "end": 261.0,
+      "text": "Seeds recording has a heart."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - dark greenhouse | tiny chirps | low air returning",
+      "start": 0.0,
+      "end": 9.583,
+      "text": "First there was a waiting hull",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 1,
+      "section": "Intro - dark greenhouse | tiny chirps | low air returning",
+      "start": 13.417,
+      "end": 19.167,
+      "text": "garden sealed above the cloudbank",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 2,
+      "section": "Intro - dark greenhouse | tiny chirps | low air returning",
+      "start": 23.0,
+      "end": 30.0,
+      "text": "seeds asleep in copper loam",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "Intro - dark greenhouse | tiny chirps | low air returning",
+      "start": 30.0,
+      "end": 37.0,
+      "text": "dreaming roots beneath the metal",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - close vocal | sparse pulse",
+      "start": 37.0,
+      "end": 39.917,
+      "text": "I kept my hands beside the soil",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - close vocal | sparse pulse",
+      "start": 41.667,
+      "end": 43.417,
+      "text": "counted breaths between the tones",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - close vocal | sparse pulse",
+      "start": 44.0,
+      "end": 47.0,
+      "text": "Every call arrived in fragments",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - close vocal | sparse pulse",
+      "start": 47.0,
+      "end": 49.4,
+      "text": "small enough to enter bone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - close vocal | sparse pulse",
+      "start": 50.0,
+      "end": 52.727,
+      "text": "Something tapped beneath the casing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - close vocal | sparse pulse",
+      "start": 52.727,
+      "end": 56.0,
+      "text": "not a voice and not a prayer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - close vocal | sparse pulse",
+      "start": 56.0,
+      "end": 59.231,
+      "text": "just a pulse that asked for patience",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - close vocal | sparse pulse",
+      "start": 59.231,
+      "end": 62.0,
+      "text": "just enough to wake the air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - close vocal | sparse pulse",
+      "start": 62.0,
+      "end": 65.0,
+      "text": "I did not rush",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - close vocal | sparse pulse",
+      "start": 65.0,
+      "end": 68.0,
+      "text": "I did not reach",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 14,
+      "section": "Pre-Hook - filter opening slowly",
+      "start": 69.0,
+      "end": 72.385,
+      "text": "The dark gave up",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 15,
+      "section": "Pre-Hook - filter opening slowly",
+      "start": 72.385,
+      "end": 74.923,
+      "text": "a little warmth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook - filter opening slowly",
+      "start": 75.769,
+      "end": 76.615,
+      "text": "one thin thread",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook - filter opening slowly",
+      "start": 76.615,
+      "end": 79.154,
+      "text": "from earth to berth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 18,
+      "section": "Hook - deep sub enters | wide echo",
+      "start": 80.0,
+      "end": 85.909,
+      "text": "Open slowly, seed of calling",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "Hook - deep sub enters | wide echo",
+      "start": 87.091,
+      "end": 90.636,
+      "text": "split the shell without alarm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 20,
+      "section": "Hook - deep sub enters | wide echo",
+      "start": 93.0,
+      "end": 95.727,
+      "text": "Let the first green answer gently",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Hook - deep sub enters | wide echo",
+      "start": 98.455,
+      "end": 102.091,
+      "text": "let the room remember warmth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 22,
+      "section": "Hook - deep sub enters | wide echo",
+      "start": 103.0,
+      "end": 106.5,
+      "text": "I can wait through fractured air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 23,
+      "section": "Hook - deep sub enters | wide echo",
+      "start": 106.5,
+      "end": 109.417,
+      "text": "I can tend what barely starts",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 24,
+      "section": "Hook - deep sub enters | wide echo",
+      "start": 111.8,
+      "end": 114.5,
+      "text": "Every garden has a threshold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 25,
+      "section": "Hook - deep sub enters | wide echo",
+      "start": 114.5,
+      "end": 119.0,
+      "text": "every threshold has a heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - dub chords | softer rhythm",
+      "start": 124.0,
+      "end": 124.545,
+      "text": "Roots unfolded through the panel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - dub chords | softer rhythm",
+      "start": 124.545,
+      "end": 125.854,
+      "text": "silver tendrils, careful reach",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - dub chords | softer rhythm",
+      "start": 125.854,
+      "end": 127.818,
+      "text": "Nothing bloomed by being forced here",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - dub chords | softer rhythm",
+      "start": 127.818,
+      "end": 128.364,
+      "text": "only by the space between",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - dub chords | softer rhythm",
+      "start": 143.0,
+      "end": 144.895,
+      "text": "I was younger than the orbit",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - dub chords | softer rhythm",
+      "start": 146.789,
+      "end": 149.632,
+      "text": "I was older than the spark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - dub chords | softer rhythm",
+      "start": 149.632,
+      "end": 152.0,
+      "text": "Learning how a distant garden",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - dub chords | softer rhythm",
+      "start": 155.667,
+      "end": 158.111,
+      "text": "hears a whisper in the dark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - dub chords | softer rhythm",
+      "start": 158.111,
+      "end": 160.556,
+      "text": "Not command",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - dub chords | softer rhythm",
+      "start": 160.556,
+      "end": 163.0,
+      "text": "just consent",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 36,
+      "section": "Bridge - stripped | spoken fragments",
+      "start": 163.0,
+      "end": 166.0,
+      "text": "Before the bloom",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 37,
+      "section": "Bridge - stripped | spoken fragments",
+      "start": 166.0,
+      "end": 169.0,
+      "text": "there is permission",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 38,
+      "section": "Bridge - stripped | spoken fragments",
+      "start": 170.0,
+      "end": 171.714,
+      "text": "Before the stem",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 39,
+      "section": "Bridge - stripped | spoken fragments",
+      "start": 172.571,
+      "end": 176.0,
+      "text": "there is a door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "Bridge - stripped | spoken fragments",
+      "start": 176.0,
+      "end": 178.786,
+      "text": "Before I knew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 41,
+      "section": "Bridge - stripped | spoken fragments",
+      "start": 178.786,
+      "end": 182.5,
+      "text": "what I was making",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 42,
+      "section": "Bridge - stripped | spoken fragments",
+      "start": 182.5,
+      "end": 186.214,
+      "text": "I learned to listen",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Bridge - stripped | spoken fragments",
+      "start": 186.214,
+      "end": 189.0,
+      "text": "to the floor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Final Hook - harmonies bloom",
+      "start": 190.0,
+      "end": 195.455,
+      "text": "Open slowly, seed of calling",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 45,
+      "section": "Final Hook - harmonies bloom",
+      "start": 196.545,
+      "end": 199.818,
+      "text": "split the shell without alarm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - harmonies bloom",
+      "start": 202.0,
+      "end": 205.0,
+      "text": "Let the first green answer gently",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - harmonies bloom",
+      "start": 208.0,
+      "end": 212.0,
+      "text": "let the room remember warmth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - harmonies bloom",
+      "start": 214.0,
+      "end": 217.0,
+      "text": "I can wait through fractured air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - harmonies bloom",
+      "start": 217.0,
+      "end": 219.5,
+      "text": "I can tend what barely starts",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 50,
+      "section": "Final Hook - harmonies bloom",
+      "start": 221.6,
+      "end": 224.0,
+      "text": "Every garden has a threshold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Final Hook - harmonies bloom",
+      "start": 224.0,
+      "end": 228.0,
+      "text": "every threshold has a heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 52,
+      "section": "Outro - low-pass fade | breath and sub",
+      "start": 228.929,
+      "end": 229.857,
+      "text": "One small root",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 53,
+      "section": "Outro - low-pass fade | breath and sub",
+      "start": 231.714,
+      "end": 232.643,
+      "text": "one answered chord",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 54,
+      "section": "Outro - low-pass fade | breath and sub",
+      "start": 232.643,
+      "end": 237.286,
+      "text": "air returns",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 55,
+      "section": "Outro - low-pass fade | breath and sub",
+      "start": 237.286,
+      "end": 241.0,
+      "text": "and asks for more",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    }
+  ]
+}

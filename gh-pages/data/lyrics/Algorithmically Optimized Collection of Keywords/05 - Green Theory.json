@@ -1,0 +1,584 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Algorithmically Optimized Collection of Keywords",
+  "title": "Green Theory",
+  "text_path": "Algorithmically Optimized Collection of Keywords/05 - Green Theory.txt",
+  "audio_path": "Algorithmically Optimized Collection of Keywords/audio/05 - Green Theory.mp3",
+  "duration_seconds": 164.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 44,
+    "reference_word_count": 222,
+    "observed_word_count": 230,
+    "matched_word_count": 176,
+    "matched_word_ratio": 0.793
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "text": "Wish I was dimmer, a lantern with a paper skin"
+    },
+    {
+      "start": 5.0,
+      "end": 11.0,
+      "text": "Glow trembling thin thoughts folded like ore gamma ray"
+    },
+    {
+      "start": 20.0,
+      "end": 24.0,
+      "text": "My mind's a luma restless thread spinning riddles"
+    },
+    {
+      "start": 24.0,
+      "end": 28.0,
+      "text": "Weaving dreads I long to be the plunter blade"
+    },
+    {
+      "start": 28.0,
+      "end": 30.0,
+      "text": "A soft mistake the dawn has made"
+    },
+    {
+      "start": 30.0,
+      "end": 33.0,
+      "text": "If I were dull a fog-bound member"
+    },
+    {
+      "start": 33.0,
+      "end": 35.0,
+      "text": "I'd forget the things I remember"
+    },
+    {
+      "start": 35.0,
+      "end": 38.0,
+      "text": "Drift and simpler hues lose the needle"
+    },
+    {
+      "start": 38.0,
+      "end": 42.0,
+      "text": "Keep the bruise but the head hums heavy"
+    },
+    {
+      "start": 42.0,
+      "end": 47.0,
+      "text": "A hive of bright fang bees carving rooms"
+    },
+    {
+      "start": 47.0,
+      "end": 52.0,
+      "text": "And a light troubling the breeze"
+    },
+    {
+      "start": 53.0,
+      "end": 57.0,
+      "text": "All the grass is greener when you don't know what green implies"
+    },
+    {
+      "start": 57.0,
+      "end": 60.0,
+      "text": "I'm tangled in the knowing roots"
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "Deep under overwides"
+    },
+    {
+      "start": 62.0,
+      "end": 67.0,
+      "text": "Let me be dimmed in more slow light swimmer"
+    },
+    {
+      "start": 67.0,
+      "end": 74.0,
+      "text": "And I'll be nice high where the shallow river glimmers"
+    },
+    {
+      "start": 75.0,
+      "end": 84.0,
+      "text": "These were a little smoke of something"
+    },
+    {
+      "start": 84.0,
+      "end": 87.0,
+      "text": "With sandy edges of my mind"
+    },
+    {
+      "start": 87.0,
+      "end": 89.0,
+      "text": "Let thoughts dissolve to harmless powder"
+    },
+    {
+      "start": 89.0,
+      "end": 91.0,
+      "text": "Leaf sharp brakes behind"
+    },
+    {
+      "start": 91.0,
+      "end": 96.0,
+      "text": "But in magnify the corners made the quiet angles shout"
+    },
+    {
+      "start": 96.0,
+      "end": 102.0,
+      "text": "A promise often thinking turned to riddles twisting out"
+    },
+    {
+      "start": 104.0,
+      "end": 108.0,
+      "text": "I felt the bargain break"
+    },
+    {
+      "start": 108.0,
+      "end": 116.0,
+      "text": "A counterfeit escape"
+    },
+    {
+      "start": 116.0,
+      "end": 119.0,
+      "text": "Green grass gleams on the further hill"
+    },
+    {
+      "start": 119.0,
+      "end": 125.0,
+      "text": "Be less fine more still"
+    },
+    {
+      "start": 125.0,
+      "end": 129.0,
+      "text": "I chase the mutant miracle"
+    },
+    {
+      "start": 129.0,
+      "end": 133.0,
+      "text": "Followed out the miracle to treat the burden under"
+    },
+    {
+      "start": 133.0,
+      "end": 136.0,
+      "text": "For a sweeter, smaller wonder"
+    },
+    {
+      "start": 136.0,
+      "end": 142.0,
+      "text": "I wish I was duller"
+    },
+    {
+      "start": 142.0,
+      "end": 149.0,
+      "text": "A half a gutton number may be then the sky"
+    },
+    {
+      "start": 149.0,
+      "end": 153.0,
+      "text": "Would finally lie"
+    },
+    {
+      "start": 159.0,
+      "end": 164.0,
+      "text": "I wish I was duller"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "INTRO",
+      "start": 0.0,
+      "end": 2.0,
+      "text": "Wish I was dimmer—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 1,
+      "section": "INTRO",
+      "start": 2.0,
+      "end": 5.0,
+      "text": "A lantern with a paper skin,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 2,
+      "section": "INTRO",
+      "start": 5.0,
+      "end": 7.0,
+      "text": "Glow trembling thin,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "INTRO",
+      "start": 7.0,
+      "end": 9.0,
+      "text": "Thoughts folded like origami rain.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "VERSE 1",
+      "start": 20.0,
+      "end": 22.5,
+      "text": "My mind’s a loom of restless threads,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 5,
+      "section": "VERSE 1",
+      "start": 23.0,
+      "end": 24.889,
+      "text": "Spinning riddles, weaving dreads.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 6,
+      "section": "VERSE 1",
+      "start": 24.889,
+      "end": 28.0,
+      "text": "I long to be the blunter blade,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "VERSE 1",
+      "start": 28.0,
+      "end": 30.0,
+      "text": "A soft mistake the dawn has made.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 8,
+      "section": "VERSE 1",
+      "start": 30.0,
+      "end": 32.625,
+      "text": "If I were dull, a fog-bound ember,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 9,
+      "section": "VERSE 1",
+      "start": 33.0,
+      "end": 35.0,
+      "text": "I’d forget the things I remember—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "VERSE 1",
+      "start": 35.0,
+      "end": 36.714,
+      "text": "Drift in simpler hues,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 11,
+      "section": "VERSE 1",
+      "start": 36.714,
+      "end": 39.5,
+      "text": "Lose the needle, keep the bruise.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 12,
+      "section": "PRE-CHORUS",
+      "start": 39.5,
+      "end": 42.0,
+      "text": "But the head hums heavy,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 13,
+      "section": "PRE-CHORUS",
+      "start": 42.0,
+      "end": 45.75,
+      "text": "A hive of bright-fanged bees,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "PRE-CHORUS",
+      "start": 45.75,
+      "end": 46.375,
+      "text": "Carving runes in daylight,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 15,
+      "section": "PRE-CHORUS",
+      "start": 49.5,
+      "end": 52.0,
+      "text": "Troubling the breeze.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 16,
+      "section": "CHORUS",
+      "start": 53.333,
+      "end": 54.667,
+      "text": "Oh, the grass is greener",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 17,
+      "section": "CHORUS",
+      "start": 54.667,
+      "end": 57.0,
+      "text": "When you don’t know what green implies.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 18,
+      "section": "CHORUS",
+      "start": 57.0,
+      "end": 59.5,
+      "text": "I’m tangled in the knowing,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "CHORUS",
+      "start": 60.0,
+      "end": 61.333,
+      "text": "Root-deep under overwise.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 20,
+      "section": "CHORUS",
+      "start": 62.0,
+      "end": 63.667,
+      "text": "Let me be dim, dimmer,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "CHORUS",
+      "start": 65.333,
+      "end": 67.0,
+      "text": "A slow-light swimmer—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "CHORUS",
+      "start": 67.0,
+      "end": 70.5,
+      "text": "Happiness hides",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 23,
+      "section": "CHORUS",
+      "start": 70.5,
+      "end": 74.0,
+      "text": "Where the shallow river glimmers.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "VERSE 2",
+      "start": 77.571,
+      "end": 84.0,
+      "text": "They swore a little smoke of something",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 25,
+      "section": "VERSE 2",
+      "start": 85.0,
+      "end": 87.0,
+      "text": "Would sand the edges of my mind,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "VERSE 2",
+      "start": 87.0,
+      "end": 89.0,
+      "text": "Let thoughts dissolve to harmless powder,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 27,
+      "section": "VERSE 2",
+      "start": 90.5,
+      "end": 91.0,
+      "text": "Leave sharper aches behind.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 28,
+      "section": "VERSE 2",
+      "start": 91.0,
+      "end": 93.5,
+      "text": "But it magnified the corners,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "VERSE 2",
+      "start": 93.5,
+      "end": 96.0,
+      "text": "Made the quiet angles shout—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "VERSE 2",
+      "start": 96.0,
+      "end": 96.667,
+      "text": "A promised soft unthinking",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 31,
+      "section": "VERSE 2",
+      "start": 98.667,
+      "end": 102.0,
+      "text": "Turned to riddles twisting out.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 32,
+      "section": "VERSE 2",
+      "start": 104.0,
+      "end": 108.0,
+      "text": "I felt the bargain break,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 33,
+      "section": "VERSE 2",
+      "start": 108.0,
+      "end": 116.0,
+      "text": "A counterfeit escape.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 34,
+      "section": "BRIDGE",
+      "start": 116.0,
+      "end": 119.0,
+      "text": "Green grass gleams on the further hill—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 35,
+      "section": "BRIDGE",
+      "start": 119.0,
+      "end": 125.0,
+      "text": "“Be less spine, more still, more still.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 36,
+      "section": "BRIDGE",
+      "start": 125.0,
+      "end": 129.0,
+      "text": "I chase the muted miracle,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 37,
+      "section": "BRIDGE",
+      "start": 129.444,
+      "end": 130.333,
+      "text": "The hollowed-out, the lyrical—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 38,
+      "section": "BRIDGE",
+      "start": 130.778,
+      "end": 132.111,
+      "text": "To trade the burdened thunder",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 39,
+      "section": "BRIDGE",
+      "start": 133.0,
+      "end": 136.0,
+      "text": "For a sweeter, smaller wonder.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 40,
+      "section": "OUTRO",
+      "start": 137.2,
+      "end": 140.8,
+      "text": "Wish I was dumber,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 41,
+      "section": "OUTRO",
+      "start": 142.0,
+      "end": 145.5,
+      "text": "A half-forgotten number—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "OUTRO",
+      "start": 146.9,
+      "end": 149.0,
+      "text": "Maybe then the sky",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "OUTRO",
+      "start": 149.0,
+      "end": 153.0,
+      "text": "Would finally lie.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

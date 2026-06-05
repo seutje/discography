@@ -1,0 +1,535 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "UNMEASURED GEOMETRY",
+  "title": "Merchant of Division",
+  "text_path": "UNMEASURED GEOMETRY/09 - Merchant of Division.txt",
+  "audio_path": "UNMEASURED GEOMETRY/audio/09 - Merchant of Division.mp3",
+  "duration_seconds": 355.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 38,
+    "reference_word_count": 314,
+    "observed_word_count": 330,
+    "matched_word_count": 230,
+    "matched_word_ratio": 0.732
+  },
+  "transcript_segments": [
+    {
+      "start": 30.0,
+      "end": 51.0,
+      "text": "The Mary of the Dawn bands and I'll crook it all"
+    },
+    {
+      "start": 51.0,
+      "end": 57.0,
+      "text": "A voice of splintered banners hiding in the dark"
+    },
+    {
+      "start": 57.0,
+      "end": 63.0,
+      "text": "Echoes of a promise fracture circle in the days"
+    },
+    {
+      "start": 63.0,
+      "end": 70.0,
+      "text": "A crown of silent Denver's feeding on the maze"
+    },
+    {
+      "start": 70.0,
+      "end": 76.0,
+      "text": "He walks the spiral staircase, caught from Barrelstone"
+    },
+    {
+      "start": 76.0,
+      "end": 82.0,
+      "text": "A whisper shaping boy who's claiming they were his own"
+    },
+    {
+      "start": 82.0,
+      "end": 89.0,
+      "text": "With tongue of guilt it's sinned or he derives the faithful choir"
+    },
+    {
+      "start": 89.0,
+      "end": 97.0,
+      "text": "Selling midnight sovereignty to any passing buyer"
+    },
+    {
+      "start": 98.0,
+      "end": 109.0,
+      "text": "In the skyline bands, a lattice built on phantom heads"
+    },
+    {
+      "start": 109.0,
+      "end": 119.0,
+      "text": "Wherever your piece's sword is, it's all like salt and sand"
+    },
+    {
+      "start": 119.0,
+      "end": 126.0,
+      "text": "Oh, oh the architect of shadow speaks in fraction light"
+    },
+    {
+      "start": 126.0,
+      "end": 132.0,
+      "text": "Reaching your new house feeding on the blind"
+    },
+    {
+      "start": 132.0,
+      "end": 138.0,
+      "text": "With open palms he bothers, faith for silver fields"
+    },
+    {
+      "start": 138.0,
+      "end": 145.0,
+      "text": "And a covenant of vultures circling over sealed up deals"
+    },
+    {
+      "start": 157.0,
+      "end": 164.0,
+      "text": "These strikes are packed of convenience with distant iron towers"
+    },
+    {
+      "start": 164.0,
+      "end": 170.0,
+      "text": "Blessing storms of fire as if they were blooming flowers"
+    },
+    {
+      "start": 170.0,
+      "end": 176.0,
+      "text": "The must he wears early gin, stitched from Barrel crowns"
+    },
+    {
+      "start": 176.0,
+      "end": 185.0,
+      "text": "Each smile acquired tyrant, pulling lesser kingdoms down"
+    },
+    {
+      "start": 185.0,
+      "end": 196.0,
+      "text": "Yet the skyline bands, a citadel of whispered sins"
+    },
+    {
+      "start": 196.0,
+      "end": 206.0,
+      "text": "Where truth is just a rumor folded deep within"
+    },
+    {
+      "start": 206.0,
+      "end": 213.0,
+      "text": "Oh, the architect of shadow speaks in fraction light"
+    },
+    {
+      "start": 213.0,
+      "end": 219.0,
+      "text": "Reaching your new house feeding on the blind"
+    },
+    {
+      "start": 219.0,
+      "end": 225.0,
+      "text": "With open palms he bothers, faith for silver fields"
+    },
+    {
+      "start": 225.0,
+      "end": 232.0,
+      "text": "And a covenant of vultures circling over sealed up deals"
+    },
+    {
+      "start": 244.0,
+      "end": 251.0,
+      "text": "In my eyes of the quietest saver, once and by the nameless dreamer"
+    },
+    {
+      "start": 251.0,
+      "end": 258.0,
+      "text": "The mafri rich and in the furnace glad, I try to find those who never truly care"
+    },
+    {
+      "start": 258.0,
+      "end": 269.0,
+      "text": "The merchants of division count as ghostly time"
+    },
+    {
+      "start": 270.0,
+      "end": 279.0,
+      "text": "The measuring of future where no living trips are by"
+    },
+    {
+      "start": 279.0,
+      "end": 286.0,
+      "text": "Oh, the architect of shadows range in fairer dark"
+    },
+    {
+      "start": 286.0,
+      "end": 293.0,
+      "text": "Shedding heads of unity while forging tidings"
+    },
+    {
+      "start": 293.0,
+      "end": 299.0,
+      "text": "A kingdom built on murmurs drifting in the gale"
+    },
+    {
+      "start": 299.0,
+      "end": 313.0,
+      "text": "May the weight of all his echoes crack the final veil"
+    },
+    {
+      "start": 324.0,
+      "end": 340.0,
+      "text": "And in the emberts silence all the illusions start to fall"
+    },
+    {
+      "start": 340.0,
+      "end": 355.0,
+      "text": "The fractured crown returns to dust revealing nothing after all"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "INTRO",
+      "start": 30.0,
+      "end": 39.545,
+      "text": "The marionette dawn bends in a crooked arc,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "INTRO",
+      "start": 51.0,
+      "end": 57.0,
+      "text": "A voice of splintered banners hiding in the dark.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 2,
+      "section": "INTRO",
+      "start": 57.0,
+      "end": 62.333,
+      "text": "Echoes of a promised fracture circle in the haze—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 3,
+      "section": "INTRO",
+      "start": 63.0,
+      "end": 70.0,
+      "text": "A crown of silent embers feeding on the maze.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 4,
+      "section": "VERSE 1",
+      "start": 70.0,
+      "end": 75.25,
+      "text": "He walks the spiral staircase carved from borrowed stone,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 5,
+      "section": "VERSE 1",
+      "start": 77.2,
+      "end": 81.4,
+      "text": "Whispers shaping borders, claiming they were his alone.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 6,
+      "section": "VERSE 1",
+      "start": 82.0,
+      "end": 89.0,
+      "text": "With tongue of gilded cinder he divides the faithful choir,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 7,
+      "section": "VERSE 1",
+      "start": 89.0,
+      "end": 97.0,
+      "text": "Selling midnight sovereignty to any passing buyer.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 8,
+      "section": "PRE-CHORUS",
+      "start": 99.1,
+      "end": 101.3,
+      "text": "And the skyline bends,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 9,
+      "section": "PRE-CHORUS",
+      "start": 102.4,
+      "end": 107.9,
+      "text": "A lattice built on phantom hands—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 10,
+      "section": "PRE-CHORUS",
+      "start": 115.364,
+      "end": 119.0,
+      "text": "Where every oath he swore dissolves like salt in sand.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 11,
+      "section": "CHORUS",
+      "start": 119.7,
+      "end": 126.0,
+      "text": "Oh, the architect of shadows speaks in fractured light,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 12,
+      "section": "CHORUS",
+      "start": 129.0,
+      "end": 131.25,
+      "text": "Preaching purity while feeding on the blight.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 13,
+      "section": "CHORUS",
+      "start": 132.0,
+      "end": 138.0,
+      "text": "With open palms he barters faith for silvered fields,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 14,
+      "section": "CHORUS",
+      "start": 138.7,
+      "end": 145.0,
+      "text": "A covenant of vultures circling over sealed-up deals.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 15,
+      "section": "VERSE 2",
+      "start": 157.7,
+      "end": 164.0,
+      "text": "He strikes a pact of convenience with distant iron towers,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 16,
+      "section": "VERSE 2",
+      "start": 164.0,
+      "end": 170.0,
+      "text": "Blessing storms of fire as if they were blooming flowers.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 10
+    },
+    {
+      "index": 17,
+      "section": "VERSE 2",
+      "start": 170.0,
+      "end": 176.0,
+      "text": "The masks he wears are legion, stitched from borrowed crowns,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "VERSE 2",
+      "start": 176.0,
+      "end": 185.0,
+      "text": "Each smile a quiet tyrant pulling lesser kingdoms down.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 19,
+      "section": "PRE-CHORUS",
+      "start": 185.0,
+      "end": 188.667,
+      "text": "Yet the skyline bends,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 20,
+      "section": "PRE-CHORUS",
+      "start": 189.889,
+      "end": 196.0,
+      "text": "A citadel of whispered sins—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 21,
+      "section": "PRE-CHORUS",
+      "start": 196.0,
+      "end": 206.0,
+      "text": "Where truth is just a rumor folded deep within.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 22,
+      "section": "CHORUS",
+      "start": 206.0,
+      "end": 213.0,
+      "text": "Oh, the architect of shadows speaks in fractured light,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 23,
+      "section": "CHORUS",
+      "start": 216.0,
+      "end": 218.25,
+      "text": "Preaching purity while feeding on the blight.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 24,
+      "section": "CHORUS",
+      "start": 219.0,
+      "end": 225.0,
+      "text": "With open palms he barters faith for silvered fields,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 25,
+      "section": "CHORUS",
+      "start": 225.7,
+      "end": 232.0,
+      "text": "A covenant of vultures circling over sealed-up deals.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 26,
+      "section": "BRIDGE – POLYRHYTHMIC / SPOKEN-GROWLED",
+      "start": 245.615,
+      "end": 246.692,
+      "text": "Hewn by the hands of the quiet deceiver,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 27,
+      "section": "BRIDGE – POLYRHYTHMIC / SPOKEN-GROWLED",
+      "start": 249.385,
+      "end": 251.0,
+      "text": "Walls divide the nameless dreamer.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 28,
+      "section": "BRIDGE – POLYRHYTHMIC / SPOKEN-GROWLED",
+      "start": 252.647,
+      "end": 253.882,
+      "text": "A map rewritten in the furnace glare—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "BRIDGE – POLYRHYTHMIC / SPOKEN-GROWLED",
+      "start": 255.941,
+      "end": 258.0,
+      "text": "Lines redrawn by those who never truly care.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "BRIDGE – POLYRHYTHMIC / SPOKEN-GROWLED",
+      "start": 258.0,
+      "end": 267.625,
+      "text": "The merchant of division counts his ghostly tithe,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "BRIDGE – POLYRHYTHMIC / SPOKEN-GROWLED",
+      "start": 270.9,
+      "end": 276.3,
+      "text": "Measuring the future where no living truth survives.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 32,
+      "section": "FINAL CHORUS",
+      "start": 279.0,
+      "end": 284.444,
+      "text": "Oh, the architect of shadows reigns in paradox,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "FINAL CHORUS",
+      "start": 288.0,
+      "end": 292.0,
+      "text": "Chanting hymns of unity while forging tighter locks.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 34,
+      "section": "FINAL CHORUS",
+      "start": 293.0,
+      "end": 299.0,
+      "text": "A kingdom built on murmurs, drifting in the gale—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 35,
+      "section": "FINAL CHORUS",
+      "start": 299.0,
+      "end": 313.0,
+      "text": "May the weight of all his echoes crack the final veil.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 11
+    },
+    {
+      "index": 36,
+      "section": "OUTRO",
+      "start": 324.0,
+      "end": 340.0,
+      "text": "And in the embered silence, all illusions start to fall;",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 37,
+      "section": "OUTRO",
+      "start": 341.5,
+      "end": 355.0,
+      "text": "A fractured crown returns to dust, revealing nothing after all.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    }
+  ]
+}

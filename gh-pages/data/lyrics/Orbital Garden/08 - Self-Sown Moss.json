@@ -1,0 +1,642 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Orbital Garden",
+  "title": "Self-Sown Moss",
+  "text_path": "Orbital Garden/08 - Self-Sown Moss.txt",
+  "audio_path": "Orbital Garden/audio/08 - Self-Sown Moss.mp3",
+  "duration_seconds": 222.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 56,
+    "reference_word_count": 249,
+    "observed_word_count": 257,
+    "matched_word_count": 178,
+    "matched_word_ratio": 0.715
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 28.0,
+      "text": "I made a place, then step to side, and must appear."
+    },
+    {
+      "start": 28.0,
+      "end": 48.0,
+      "text": "Where was good hide?"
+    },
+    {
+      "start": 49.0,
+      "end": 55.0,
+      "text": "Not planted in a tidy row, not named before it took."
+    },
+    {
+      "start": 55.0,
+      "end": 61.0,
+      "text": "It crossed the wall and patient, islands writing green without a book."
+    },
+    {
+      "start": 61.0,
+      "end": 67.0,
+      "text": "I gave the limits, gave it rainfall, gave it corners, gave it shade."
+    },
+    {
+      "start": 67.0,
+      "end": 75.0,
+      "text": "Then it answered with a pattern, I could not have made, I chose the vessel."
+    },
+    {
+      "start": 75.0,
+      "end": 84.0,
+      "text": "It chose the road, some kinds of care, are indirect."
+    },
+    {
+      "start": 84.0,
+      "end": 97.0,
+      "text": "You said the less, done, accept."
+    },
+    {
+      "start": 97.0,
+      "end": 102.0,
+      "text": "Selfs on the station walls are fleeting, multiplying."
+    },
+    {
+      "start": 102.0,
+      "end": 108.0,
+      "text": "I design a transport window, not the wonder arriving."
+    },
+    {
+      "start": 108.0,
+      "end": 114.0,
+      "text": "Let it creep me on my measure, let the teach my care for hand,"
+    },
+    {
+      "start": 114.0,
+      "end": 128.0,
+      "text": "making this a space for all the forms of life to understand."
+    },
+    {
+      "start": 129.0,
+      "end": 137.0,
+      "text": "I'm straight on the different hours, never meeting quite the same."
+    },
+    {
+      "start": 137.0,
+      "end": 143.0,
+      "text": "One living and two another, one will leave before it came."
+    },
+    {
+      "start": 143.0,
+      "end": 149.0,
+      "text": "So the garden had a pole, as I could follow, not command."
+    },
+    {
+      "start": 149.0,
+      "end": 161.0,
+      "text": "I like the thought that keeps unfolding after leaving my hand, not control, not neglect."
+    },
+    {
+      "start": 161.0,
+      "end": 167.0,
+      "text": "I will learn and watch the choose, I will decide, I didn't watch it move."
+    },
+    {
+      "start": 167.0,
+      "end": 175.0,
+      "text": "I will be a leech, then I'll be a leech, do something, quiet, little lie."
+    },
+    {
+      "start": 179.0,
+      "end": 191.0,
+      "text": "Selfs on the station walls are fleeting, multiplying."
+    },
+    {
+      "start": 191.0,
+      "end": 197.0,
+      "text": "I design a transport window, not the wonder arriving."
+    },
+    {
+      "start": 197.0,
+      "end": 203.0,
+      "text": "Let it creep me on my measure, let the teach my care for hand,"
+    },
+    {
+      "start": 203.0,
+      "end": 209.0,
+      "text": "making this a space for all the forms of life to understand."
+    },
+    {
+      "start": 209.0,
+      "end": 222.0,
+      "text": "Green beyond what I began, living work from open hands."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - evolving pads | scattered droplets",
+      "start": 0.0,
+      "end": 10.182,
+      "text": "I made a place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 1,
+      "section": "Intro - evolving pads | scattered droplets",
+      "start": 10.182,
+      "end": 12.727,
+      "text": "then stepped aside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 2,
+      "section": "Intro - evolving pads | scattered droplets",
+      "start": 20.364,
+      "end": 22.909,
+      "text": "and moss appeared",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 3,
+      "section": "Intro - evolving pads | scattered droplets",
+      "start": 28.0,
+      "end": 48.0,
+      "text": "where rules could hide",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - nearly beatless",
+      "start": 49.0,
+      "end": 52.273,
+      "text": "Not planted in a tidy row",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - nearly beatless",
+      "start": 52.273,
+      "end": 55.0,
+      "text": "not named before it took",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - nearly beatless",
+      "start": 55.0,
+      "end": 58.5,
+      "text": "It crossed the wall in patient islands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - nearly beatless",
+      "start": 58.5,
+      "end": 61.0,
+      "text": "writing green without a book",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - nearly beatless",
+      "start": 61.0,
+      "end": 64.231,
+      "text": "I gave it limits, gave it rainfall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - nearly beatless",
+      "start": 64.231,
+      "end": 67.0,
+      "text": "gave it corners, gave it shade",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - nearly beatless",
+      "start": 67.0,
+      "end": 70.2,
+      "text": "Then it answered with a pattern",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - nearly beatless",
+      "start": 70.2,
+      "end": 72.867,
+      "text": "I could not have made",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - nearly beatless",
+      "start": 72.867,
+      "end": 75.0,
+      "text": "I chose the vessel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - nearly beatless",
+      "start": 75.0,
+      "end": 77.7,
+      "text": "it chose the route",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 14,
+      "section": "Pre-Hook - pulse begins",
+      "start": 78.6,
+      "end": 82.2,
+      "text": "Some kinds of care",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 15,
+      "section": "Pre-Hook - pulse begins",
+      "start": 82.2,
+      "end": 84.0,
+      "text": "are indirect",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook - pulse begins",
+      "start": 84.0,
+      "end": 90.5,
+      "text": "you set the vessel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook - pulse begins",
+      "start": 94.833,
+      "end": 97.0,
+      "text": "then accept",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 18,
+      "section": "Hook - low bass arrives",
+      "start": 97.625,
+      "end": 99.5,
+      "text": "Self-sown moss on the station wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Hook - low bass arrives",
+      "start": 101.375,
+      "end": 102.0,
+      "text": "softly multiplying",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 20,
+      "section": "Hook - low bass arrives",
+      "start": 102.0,
+      "end": 102.667,
+      "text": "I designed the chance for wonder",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 21,
+      "section": "Hook - low bass arrives",
+      "start": 105.333,
+      "end": 108.0,
+      "text": "not the wonder arriving",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 22,
+      "section": "Hook - low bass arrives",
+      "start": 108.0,
+      "end": 111.0,
+      "text": "Let it creep beyond my measure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 23,
+      "section": "Hook - low bass arrives",
+      "start": 111.0,
+      "end": 114.0,
+      "text": "let it teach my careful hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 24,
+      "section": "Hook - low bass arrives",
+      "start": 114.0,
+      "end": 119.833,
+      "text": "Making is a space for other",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Hook - low bass arrives",
+      "start": 122.167,
+      "end": 128.0,
+      "text": "forms of life to understand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - phasing arps",
+      "start": 131.909,
+      "end": 133.364,
+      "text": "Loops returned at different hours",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - phasing arps",
+      "start": 133.364,
+      "end": 137.0,
+      "text": "never meeting quite the same",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - phasing arps",
+      "start": 137.0,
+      "end": 139.727,
+      "text": "one would lean into another",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - phasing arps",
+      "start": 139.727,
+      "end": 143.0,
+      "text": "one would leave before it came",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - phasing arps",
+      "start": 143.5,
+      "end": 145.5,
+      "text": "Soon the garden had a pulse",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - phasing arps",
+      "start": 146.5,
+      "end": 149.0,
+      "text": "I could follow, not command",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - phasing arps",
+      "start": 149.8,
+      "end": 154.6,
+      "text": "like a thought that keeps unfolding",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - phasing arps",
+      "start": 154.6,
+      "end": 157.8,
+      "text": "after leaving my hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - phasing arps",
+      "start": 157.8,
+      "end": 159.4,
+      "text": "Not control",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - phasing arps",
+      "start": 159.4,
+      "end": 161.0,
+      "text": "not neglect",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 36,
+      "section": "Bridge - spoken fragments, delay",
+      "start": 161.0,
+      "end": 163.4,
+      "text": "I wrote the rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 37,
+      "section": "Bridge - spoken fragments, delay",
+      "start": 163.4,
+      "end": 163.8,
+      "text": "and watched it choose",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 38,
+      "section": "Bridge - spoken fragments, delay",
+      "start": 163.8,
+      "end": 164.2,
+      "text": "I wrote the shade",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 39,
+      "section": "Bridge - spoken fragments, delay",
+      "start": 166.2,
+      "end": 167.0,
+      "text": "and watched it move",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 40,
+      "section": "Bridge - spoken fragments, delay",
+      "start": 167.0,
+      "end": 167.533,
+      "text": "I wrote the edge",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 41,
+      "section": "Bridge - spoken fragments, delay",
+      "start": 169.667,
+      "end": 170.2,
+      "text": "then lost the edge",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 42,
+      "section": "Bridge - spoken fragments, delay",
+      "start": 172.867,
+      "end": 173.4,
+      "text": "to something",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 43,
+      "section": "Bridge - spoken fragments, delay",
+      "start": 173.4,
+      "end": 180.5,
+      "text": "quietly alive",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 44,
+      "section": "Final Hook - wider, richer",
+      "start": 180.5,
+      "end": 185.0,
+      "text": "Self-sown moss on the station wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 45,
+      "section": "Final Hook - wider, richer",
+      "start": 189.5,
+      "end": 191.0,
+      "text": "softly multiplying",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - wider, richer",
+      "start": 191.0,
+      "end": 191.667,
+      "text": "I designed the chance for wonder",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - wider, richer",
+      "start": 194.333,
+      "end": 197.0,
+      "text": "not the wonder arriving",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - wider, richer",
+      "start": 197.0,
+      "end": 200.0,
+      "text": "Let it creep beyond my measure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - wider, richer",
+      "start": 200.0,
+      "end": 203.0,
+      "text": "let it teach my careful hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 50,
+      "section": "Final Hook - wider, richer",
+      "start": 203.0,
+      "end": 205.5,
+      "text": "Making is a space for other",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 51,
+      "section": "Final Hook - wider, richer",
+      "start": 206.5,
+      "end": 209.0,
+      "text": "forms of life to understand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 52,
+      "section": "Outro - beat dissolves",
+      "start": 209.0,
+      "end": 211.6,
+      "text": "Green beyond",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 53,
+      "section": "Outro - beat dissolves",
+      "start": 211.6,
+      "end": 215.5,
+      "text": "what I began",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 54,
+      "section": "Outro - beat dissolves",
+      "start": 215.5,
+      "end": 218.1,
+      "text": "living work",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 55,
+      "section": "Outro - beat dissolves",
+      "start": 218.1,
+      "end": 222.0,
+      "text": "from open hands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

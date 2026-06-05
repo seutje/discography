@@ -1,0 +1,881 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "stderr",
+  "title": "Dear Mr. Weaver",
+  "text_path": "stderr/05 - Dear Mr Weaver.txt",
+  "audio_path": "stderr/audio/05 - Dear Mr Weaver.mp3",
+  "duration_seconds": 230.84,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 77,
+    "reference_word_count": 429,
+    "observed_word_count": 427,
+    "matched_word_count": 394,
+    "matched_word_ratio": 0.918
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 17.92,
+      "text": "The Mr. Weaver, I hope this letter finds you well, or at least comfortable enough to"
+    },
+    {
+      "start": 17.92,
+      "end": 21.56,
+      "text": "hear what the city has to tell."
+    },
+    {
+      "start": 21.56,
+      "end": 26.56,
+      "text": "The Mr. Weaver, you speak of a fracture, say the whole country's held back by its structure,"
+    },
+    {
+      "start": 26.56,
+      "end": 31.16,
+      "text": "you pointed the ceiling, the pipes in the floor, and quietly sell off the house to the"
+    },
+    {
+      "start": 31.16,
+      "end": 32.16,
+      "text": "store."
+    },
+    {
+      "start": 32.16,
+      "end": 36.52,
+      "text": "You talk about freedom, efficiency speed, but markets grow fat while the six start"
+    },
+    {
+      "start": 36.52,
+      "end": 37.52,
+      "text": "to bleed."
+    },
+    {
+      "start": 37.52,
+      "end": 41.76,
+      "text": "The clinics grow thinner, the waiting rooms long, your towers grow higher where developers"
+    },
+    {
+      "start": 41.76,
+      "end": 46.92,
+      "text": "throw, you split up the tenants, divide up the blame, and somehow the landlord walks"
+    },
+    {
+      "start": 46.92,
+      "end": 53.24,
+      "text": "out winning the game."
+    },
+    {
+      "start": 53.24,
+      "end": 63.76,
+      "text": "The Mr. Weaver, who holds your thread, who profits quietly from the words you said."
+    },
+    {
+      "start": 63.76,
+      "end": 74.6,
+      "text": "The furnace clear, the cloth gets thinner every single year."
+    },
+    {
+      "start": 74.6,
+      "end": 79.92,
+      "text": "You preach about order, discipline law, about moral decay that you swear that you saw."
+    },
+    {
+      "start": 79.92,
+      "end": 85.24,
+      "text": "You chase after smoke in a teenager's hand while powder rise by the tongue to the land."
+    },
+    {
+      "start": 85.24,
+      "end": 90.56,
+      "text": "Your harbor stays busy, your speeches stay neat, the gangs grow louder in every street."
+    },
+    {
+      "start": 90.56,
+      "end": 95.08,
+      "text": "The sirens keep singing, a midnight refrain, but press rooms insist everything's under"
+    },
+    {
+      "start": 95.08,
+      "end": 96.08,
+      "text": "control again."
+    },
+    {
+      "start": 96.08,
+      "end": 104.4,
+      "text": "The rules are strict for the week who survived, but strangely flexible for money that thrives."
+    },
+    {
+      "start": 104.4,
+      "end": 110.96,
+      "text": "And of course, the sausages, every delay, every bill, every fall, there's always a sausage"
+    },
+    {
+      "start": 110.96,
+      "end": 113.92,
+      "text": "responsible for it all."
+    },
+    {
+      "start": 113.92,
+      "end": 119.84,
+      "text": "Remarkable creatures, they seem to control have the parliament hall."
+    },
+    {
+      "start": 119.84,
+      "end": 129.84,
+      "text": "You miss the Weaver, your loom spins fast, but thread pulled tight, we'll snap at last."
+    },
+    {
+      "start": 129.84,
+      "end": 141.64,
+      "text": "You miss the Weaver, your cloth may tear, when too many hands find nothing there."
+    },
+    {
+      "start": 141.64,
+      "end": 146.6,
+      "text": "Strange little shadows stitched into the past, old flags that certain families cast."
+    },
+    {
+      "start": 146.6,
+      "end": 151.92,
+      "text": "You say that history's buried and gone, yet echoes still hum in the songs you lean on."
+    },
+    {
+      "start": 151.92,
+      "end": 157.24,
+      "text": "Your party denies every whisper and claim, but sometimes the smoke looks a lot like a flame."
+    },
+    {
+      "start": 157.24,
+      "end": 162.52,
+      "text": "The slogans feel older than most will admit, just polished and tailored to better fit."
+    },
+    {
+      "start": 162.52,
+      "end": 173.36,
+      "text": "A suit and a tie can soften a creed, but underneath fabric, the stitches still bleed."
+    },
+    {
+      "start": 173.36,
+      "end": 183.36,
+      "text": "Sell the rail, sell the care, sell the future piece by piece if it's there."
+    },
+    {
+      "start": 183.36,
+      "end": 194.24,
+      "text": "Balanced the books, tightened the road, privatized daylight, and then voiced the whole."
+    },
+    {
+      "start": 194.24,
+      "end": 205.04,
+      "text": "Dear Mr Weaver, answer me true, who keeps the country well-loosen to you."
+    },
+    {
+      "start": 205.04,
+      "end": 216.84,
+      "text": "Dear Mr Weaver, the pattern shows, the richer the towers, the poorer it grows."
+    },
+    {
+      "start": 216.84,
+      "end": 230.84,
+      "text": "Dear Mr Weaver, you keep weaving the story, that everything's fine, but the people you're threading are starting to read between the lines."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro – spoken | sparse guitar",
+      "start": 1.12,
+      "end": 3.36,
+      "text": "Dear Mr. Weaver,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "Intro – spoken | sparse guitar",
+      "start": 3.36,
+      "end": 11.2,
+      "text": "I hope this letter finds you well—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 2,
+      "section": "Intro – spoken | sparse guitar",
+      "start": 11.2,
+      "end": 16.8,
+      "text": "or at least comfortable enough",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 3,
+      "section": "Intro – spoken | sparse guitar",
+      "start": 16.8,
+      "end": 21.56,
+      "text": "to hear what the city has to tell.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 – guitar + light drums",
+      "start": 21.854,
+      "end": 23.913,
+      "text": "Dear Mr. Weaver, you speak of a fracture",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 – guitar + light drums",
+      "start": 23.913,
+      "end": 26.56,
+      "text": "Say the whole country's held back by its structure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 – guitar + light drums",
+      "start": 26.56,
+      "end": 28.995,
+      "text": "You point at the ceiling, the pipes and the floor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 – guitar + light drums",
+      "start": 29.266,
+      "end": 32.16,
+      "text": "Then quietly sell off the house to the store",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 – guitar + light drums",
+      "start": 32.16,
+      "end": 34.029,
+      "text": "You talk about freedom, efficiency, speed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 – guitar + light drums",
+      "start": 34.029,
+      "end": 37.52,
+      "text": "But markets grow fat while the sick start to bleed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 – guitar + light drums",
+      "start": 37.52,
+      "end": 39.943,
+      "text": "The clinics grow thinner, the waiting rooms long",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 – guitar + light drums",
+      "start": 40.246,
+      "end": 41.76,
+      "text": "Yet towers grow higher where developers throng",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 – guitar + light drums",
+      "start": 42.104,
+      "end": 45.2,
+      "text": "You split up the tenants, divide up the blame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 – guitar + light drums",
+      "start": 45.2,
+      "end": 53.24,
+      "text": "And somehow the landlord walks out winning the game",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 14,
+      "section": "Hook – sung",
+      "start": 53.941,
+      "end": 55.344,
+      "text": "Dear Mr. Weaver",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 15,
+      "section": "Hook – sung",
+      "start": 55.344,
+      "end": 58.149,
+      "text": "who holds your thread",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 16,
+      "section": "Hook – sung",
+      "start": 58.149,
+      "end": 60.253,
+      "text": "Who profits quietly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 17,
+      "section": "Hook – sung",
+      "start": 60.253,
+      "end": 63.76,
+      "text": "from the words you’ve said",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 18,
+      "section": "Hook – sung",
+      "start": 63.76,
+      "end": 63.86,
+      "text": "Dear Mr. Weaver",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 19,
+      "section": "Hook – sung",
+      "start": 63.86,
+      "end": 67.012,
+      "text": "the pattern is clear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 20,
+      "section": "Hook – sung",
+      "start": 67.012,
+      "end": 71.348,
+      "text": "The cloth gets thinner",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 21,
+      "section": "Hook – sung",
+      "start": 71.348,
+      "end": 74.6,
+      "text": "every single year",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "Verse 2 – stronger rhythm",
+      "start": 74.6,
+      "end": 76.728,
+      "text": "You preach about order, discipline, law",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 23,
+      "section": "Verse 2 – stronger rhythm",
+      "start": 76.728,
+      "end": 79.92,
+      "text": "About moral decay that you swear that you saw",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 24,
+      "section": "Verse 2 – stronger rhythm",
+      "start": 79.92,
+      "end": 82.424,
+      "text": "You chase after smoke in a teenager’s hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 25,
+      "section": "Verse 2 – stronger rhythm",
+      "start": 82.424,
+      "end": 85.24,
+      "text": "While powder arrives by the ton to the land",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 – stronger rhythm",
+      "start": 85.24,
+      "end": 88.077,
+      "text": "Your harbor stays busy, your speeches stay neat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 – stronger rhythm",
+      "start": 88.077,
+      "end": 90.56,
+      "text": "The gangs grow louder in every street",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 – stronger rhythm",
+      "start": 90.56,
+      "end": 92.994,
+      "text": "The sirens keep singing a midnight refrain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 – stronger rhythm",
+      "start": 92.994,
+      "end": 96.08,
+      "text": "But press rooms insist everything’s under control again",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 – stronger rhythm",
+      "start": 96.08,
+      "end": 100.24,
+      "text": "The rules are strict for the weak who survive",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 – stronger rhythm",
+      "start": 100.76,
+      "end": 104.4,
+      "text": "But strangely flexible for money that thrives",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 32,
+      "section": "Spoken Break – beat drops",
+      "start": 104.4,
+      "end": 105.712,
+      "text": "And of course—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 33,
+      "section": "Spoken Break – beat drops",
+      "start": 105.712,
+      "end": 106.587,
+      "text": "the sausages.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 34,
+      "section": "Spoken Break – beat drops",
+      "start": 106.587,
+      "end": 109.211,
+      "text": "Every delay, every bill, every fall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 35,
+      "section": "Spoken Break – beat drops",
+      "start": 109.211,
+      "end": 113.92,
+      "text": "There's always a sausage responsible for it all.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 36,
+      "section": "Spoken Break – beat drops",
+      "start": 113.92,
+      "end": 115.104,
+      "text": "Remarkable creatures.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 37,
+      "section": "Spoken Break – beat drops",
+      "start": 115.104,
+      "end": 119.84,
+      "text": "They seem to control half the parliament hall.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 38,
+      "section": "Hook – fuller",
+      "start": 121.715,
+      "end": 122.34,
+      "text": "Dear Mr. Weaver",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 39,
+      "section": "Hook – fuller",
+      "start": 122.34,
+      "end": 124.84,
+      "text": "your loom spins fast",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "Hook – fuller",
+      "start": 124.84,
+      "end": 127.34,
+      "text": "But thread pulled tight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Hook – fuller",
+      "start": 127.965,
+      "end": 129.84,
+      "text": "will snap at last",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "Hook – fuller",
+      "start": 132.2,
+      "end": 132.987,
+      "text": "Dear Mr. Weaver",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 43,
+      "section": "Hook – fuller",
+      "start": 132.987,
+      "end": 136.133,
+      "text": "your cloth may tear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 44,
+      "section": "Hook – fuller",
+      "start": 136.133,
+      "end": 139.28,
+      "text": "When too many hands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Hook – fuller",
+      "start": 139.28,
+      "end": 141.64,
+      "text": "find nothing there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Verse 3 – darker tone",
+      "start": 141.64,
+      "end": 144.311,
+      "text": "Strange little shadows stitched into the past",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 47,
+      "section": "Verse 3 – darker tone",
+      "start": 144.311,
+      "end": 146.6,
+      "text": "Old flags that certain families cast",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 48,
+      "section": "Verse 3 – darker tone",
+      "start": 146.6,
+      "end": 148.791,
+      "text": "You say that history’s buried and gone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 49,
+      "section": "Verse 3 – darker tone",
+      "start": 148.791,
+      "end": 151.92,
+      "text": "Yet echoes still hum in the songs you lean on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 10
+    },
+    {
+      "index": 50,
+      "section": "Verse 3 – darker tone",
+      "start": 151.92,
+      "end": 154.111,
+      "text": "Your party denies every whisper and claim",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 51,
+      "section": "Verse 3 – darker tone",
+      "start": 154.111,
+      "end": 157.24,
+      "text": "But sometimes the smoke looks a lot like a flame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 10
+    },
+    {
+      "index": 52,
+      "section": "Verse 3 – darker tone",
+      "start": 157.24,
+      "end": 160.056,
+      "text": "The slogans feel older than most will admit",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 53,
+      "section": "Verse 3 – darker tone",
+      "start": 160.056,
+      "end": 162.52,
+      "text": "Just polished and tailored to better fit",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 54,
+      "section": "Verse 3 – darker tone",
+      "start": 162.52,
+      "end": 168.617,
+      "text": "A suit and a tie can soften a creed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 55,
+      "section": "Verse 3 – darker tone",
+      "start": 168.617,
+      "end": 173.36,
+      "text": "But underneath fabric the stitches still bleed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 56,
+      "section": "Bridge – quieter",
+      "start": 173.36,
+      "end": 174.693,
+      "text": "Sell the rails.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 57,
+      "section": "Bridge – quieter",
+      "start": 175.36,
+      "end": 177.36,
+      "text": "Sell the care.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 58,
+      "section": "Bridge – quieter",
+      "start": 177.36,
+      "end": 183.36,
+      "text": "Sell the future piece by piece if it’s there.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
+    },
+    {
+      "index": 59,
+      "section": "Bridge – quieter",
+      "start": 184.197,
+      "end": 187.545,
+      "text": "Balance the books, tighten the rope,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 60,
+      "section": "Bridge – quieter",
+      "start": 189.218,
+      "end": 193.403,
+      "text": "Privatize daylight and invoice the hope.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 61,
+      "section": "Final Hook – stronger melody",
+      "start": 194.24,
+      "end": 196.554,
+      "text": "Dear Mr. Weaver",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 62,
+      "section": "Final Hook – stronger melody",
+      "start": 196.554,
+      "end": 198.869,
+      "text": "answer me true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 63,
+      "section": "Final Hook – stronger melody",
+      "start": 198.869,
+      "end": 201.954,
+      "text": "Who keeps the country",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 64,
+      "section": "Final Hook – stronger melody",
+      "start": 203.497,
+      "end": 205.04,
+      "text": "we’re losing to you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 65,
+      "section": "Final Hook – stronger melody",
+      "start": 205.04,
+      "end": 207.569,
+      "text": "Dear Mr. Weaver",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 66,
+      "section": "Final Hook – stronger melody",
+      "start": 207.569,
+      "end": 210.097,
+      "text": "the pattern shows",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 67,
+      "section": "Final Hook – stronger melody",
+      "start": 210.097,
+      "end": 213.469,
+      "text": "The richer the towers",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 68,
+      "section": "Final Hook – stronger melody",
+      "start": 213.469,
+      "end": 216.84,
+      "text": "the poorer it grows",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 69,
+      "section": "Outro – spoken",
+      "start": 216.84,
+      "end": 218.666,
+      "text": "Dear Mr. Weaver,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 70,
+      "section": "Outro – spoken",
+      "start": 218.666,
+      "end": 221.71,
+      "text": "You keep weaving the story",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 71,
+      "section": "Outro – spoken",
+      "start": 221.71,
+      "end": 223.536,
+      "text": "that everything’s fine.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 72,
+      "section": "Outro – spoken",
+      "start": 223.536,
+      "end": 226.579,
+      "text": "But the people you’re threading",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 73,
+      "section": "Outro – spoken",
+      "start": 226.579,
+      "end": 227.797,
+      "text": "are starting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 74,
+      "section": "Outro – spoken",
+      "start": 227.797,
+      "end": 229.014,
+      "text": "to read",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 75,
+      "section": "Outro – spoken",
+      "start": 229.014,
+      "end": 229.623,
+      "text": "between",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 76,
+      "section": "Outro – spoken",
+      "start": 229.623,
+      "end": 230.84,
+      "text": "the lines.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    }
+  ]
+}

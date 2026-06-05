@@ -1,0 +1,669 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Orbital Garden",
+  "title": "Borrowed Suns",
+  "text_path": "Orbital Garden/03 - Borrowed Suns.txt",
+  "audio_path": "Orbital Garden/audio/03 - Borrowed Suns.mp3",
+  "duration_seconds": 174.0,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-segment-timestamps",
+  "diagnostics": {
+    "line_count": 54,
+    "reference_word_count": 251,
+    "observed_word_count": 261,
+    "matched_word_count": 199,
+    "matched_word_ratio": 0.793
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "text": "We brought our own sons into the sleeping bay"
+    },
+    {
+      "start": 10.0,
+      "end": 20.0,
+      "text": "Lately on the tables and stayed awake"
+    },
+    {
+      "start": 20.0,
+      "end": 28.0,
+      "text": "Cables curled like living vines, ankles crossed in barred chairs"
+    },
+    {
+      "start": 28.0,
+      "end": 32.0,
+      "text": "Midnight opened up its lungs with everyone already there"
+    },
+    {
+      "start": 32.0,
+      "end": 35.0,
+      "text": "Someone left and broke the hush"
+    },
+    {
+      "start": 35.0,
+      "end": 39.0,
+      "text": "Someone passed a cold drink, all the leaves above us"
+    },
+    {
+      "start": 39.0,
+      "end": 42.0,
+      "text": "Shivered green from what we shared the thing"
+    },
+    {
+      "start": 42.0,
+      "end": 48.0,
+      "text": "No, one alone, no one's still"
+    },
+    {
+      "start": 48.0,
+      "end": 57.0,
+      "text": "Hey, from hands like from faces small bright"
+    },
+    {
+      "start": 57.0,
+      "end": 62.0,
+      "text": "Retro's in crem place"
+    },
+    {
+      "start": 62.0,
+      "end": 66.0,
+      "text": "We brought our own sons"
+    },
+    {
+      "start": 66.0,
+      "end": 71.0,
+      "text": "When the station lost the dawn, fed the vines on sleepless hours"
+    },
+    {
+      "start": 71.0,
+      "end": 74.0,
+      "text": "Kept it in the wet the warm, side by side"
+    },
+    {
+      "start": 74.0,
+      "end": 78.0,
+      "text": "They got a lift and I became a second"
+    },
+    {
+      "start": 78.0,
+      "end": 83.0,
+      "text": "I became myself and fragments passed from hand to hand in blue"
+    },
+    {
+      "start": 92.0,
+      "end": 94.0,
+      "text": "There were rules we never wrote"
+    },
+    {
+      "start": 94.0,
+      "end": 96.0,
+      "text": "There were jokes with no origin"
+    },
+    {
+      "start": 96.0,
+      "end": 101.0,
+      "text": "Every law speaking a chorus, every wind will change its core"
+    },
+    {
+      "start": 101.0,
+      "end": 104.0,
+      "text": "The siren, remember, show the shadows, fight"
+    },
+    {
+      "start": 104.0,
+      "end": 108.0,
+      "text": "Squares on the wall, how the room could put an alarm"
+    },
+    {
+      "start": 108.0,
+      "end": 112.0,
+      "text": "Swin it barely, fed us all not a stage"
+    },
+    {
+      "start": 112.0,
+      "end": 115.0,
+      "text": "Not a throne"
+    },
+    {
+      "start": 115.0,
+      "end": 120.0,
+      "text": "Creation starts and company then follows you through years"
+    },
+    {
+      "start": 120.0,
+      "end": 126.0,
+      "text": "You hear that gathering inside your timing"
+    },
+    {
+      "start": 126.0,
+      "end": 131.0,
+      "text": "You keep the chair inside your chest"
+    },
+    {
+      "start": 131.0,
+      "end": 136.0,
+      "text": "We brought our own sons"
+    },
+    {
+      "start": 136.0,
+      "end": 140.0,
+      "text": "When the station lost the dawn, fed the vines on sleepless hours"
+    },
+    {
+      "start": 140.0,
+      "end": 144.0,
+      "text": "Kept it in the wet the warm, side by side"
+    },
+    {
+      "start": 144.0,
+      "end": 148.0,
+      "text": "They got a lift and I became a second"
+    },
+    {
+      "start": 148.0,
+      "end": 155.0,
+      "text": "I became myself and fragments passed from hand to hand in blue"
+    },
+    {
+      "start": 155.0,
+      "end": 167.0,
+      "text": "Harrowed sons, the arrowed air"
+    },
+    {
+      "start": 167.0,
+      "end": 174.0,
+      "text": "One part keeps returning is always there"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - room warmth | small sparks",
+      "start": 0.0,
+      "end": 4.444,
+      "text": "We brought our own suns",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 1,
+      "section": "Intro - room warmth | small sparks",
+      "start": 5.556,
+      "end": 10.0,
+      "text": "into the sleeping bay",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 2,
+      "section": "Intro - room warmth | small sparks",
+      "start": 11.429,
+      "end": 15.714,
+      "text": "laid them on the tables",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "Intro - room warmth | small sparks",
+      "start": 15.714,
+      "end": 20.0,
+      "text": "and stayed awake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - bouncy groove",
+      "start": 20.0,
+      "end": 24.0,
+      "text": "Cables curled like living vines",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - bouncy groove",
+      "start": 24.0,
+      "end": 28.0,
+      "text": "ankles crossed in borrowed chairs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - bouncy groove",
+      "start": 28.0,
+      "end": 30.222,
+      "text": "Midnight opened up its lungs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - bouncy groove",
+      "start": 30.222,
+      "end": 32.0,
+      "text": "with everyone already there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - bouncy groove",
+      "start": 32.0,
+      "end": 35.0,
+      "text": "Someone laughed and broke the hush",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - bouncy groove",
+      "start": 35.0,
+      "end": 37.0,
+      "text": "someone passed a colder drink",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - bouncy groove",
+      "start": 37.0,
+      "end": 39.375,
+      "text": "All the leaves above us shivered",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - bouncy groove",
+      "start": 39.375,
+      "end": 41.25,
+      "text": "green from what we shared to think",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - bouncy groove",
+      "start": 42.0,
+      "end": 45.0,
+      "text": "No one alone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - bouncy groove",
+      "start": 45.0,
+      "end": 48.0,
+      "text": "no one still",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 14,
+      "section": "Pre-Hook - guitar harmonics",
+      "start": 49.125,
+      "end": 51.375,
+      "text": "Heat from hands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 15,
+      "section": "Pre-Hook - guitar harmonics",
+      "start": 52.5,
+      "end": 54.75,
+      "text": "light from faces",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 16,
+      "section": "Pre-Hook - guitar harmonics",
+      "start": 54.75,
+      "end": 57.0,
+      "text": "small bright rituals",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 17,
+      "section": "Pre-Hook - guitar harmonics",
+      "start": 58.25,
+      "end": 59.5,
+      "text": "in cramped places",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 18,
+      "section": "Hook - full bass | layered hook",
+      "start": 62.0,
+      "end": 65.2,
+      "text": "We brought our own suns",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 19,
+      "section": "Hook - full bass | layered hook",
+      "start": 66.0,
+      "end": 68.5,
+      "text": "when the station lost the dawn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Hook - full bass | layered hook",
+      "start": 68.5,
+      "end": 71.0,
+      "text": "fed the vines on sleepless hours",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 21,
+      "section": "Hook - full bass | layered hook",
+      "start": 71.0,
+      "end": 73.1,
+      "text": "kept the inner weather warm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "Hook - full bass | layered hook",
+      "start": 73.1,
+      "end": 74.0,
+      "text": "Side by side, the garden lifted",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 23,
+      "section": "Hook - full bass | layered hook",
+      "start": 76.667,
+      "end": 78.0,
+      "text": "night became a second noon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 24,
+      "section": "Hook - full bass | layered hook",
+      "start": 78.0,
+      "end": 80.083,
+      "text": "I became myself in fragments",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Hook - full bass | layered hook",
+      "start": 80.083,
+      "end": 82.583,
+      "text": "passed from hand to hand in bloom",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 26,
+      "section": "Verse 2 - tighter drums | echo throws",
+      "start": 92.0,
+      "end": 94.0,
+      "text": "There were rules we never wrote",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 27,
+      "section": "Verse 2 - tighter drums | echo throws",
+      "start": 94.0,
+      "end": 96.0,
+      "text": "there were jokes with no origin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 28,
+      "section": "Verse 2 - tighter drums | echo throws",
+      "start": 96.0,
+      "end": 98.273,
+      "text": "Every loss became a chorus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Verse 2 - tighter drums | echo throws",
+      "start": 98.273,
+      "end": 100.545,
+      "text": "every win changed its course",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 30,
+      "section": "Verse 2 - tighter drums | echo throws",
+      "start": 101.857,
+      "end": 103.571,
+      "text": "I remember shoulder shadows",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 31,
+      "section": "Verse 2 - tighter drums | echo throws",
+      "start": 104.0,
+      "end": 105.455,
+      "text": "bright squares on the wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 32,
+      "section": "Verse 2 - tighter drums | echo throws",
+      "start": 105.455,
+      "end": 106.909,
+      "text": "how a room could turn enormous",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 33,
+      "section": "Verse 2 - tighter drums | echo throws",
+      "start": 108.444,
+      "end": 110.667,
+      "text": "when it barely fit us all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 34,
+      "section": "Verse 2 - tighter drums | echo throws",
+      "start": 110.667,
+      "end": 112.0,
+      "text": "Not a stage",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 35,
+      "section": "Verse 2 - tighter drums | echo throws",
+      "start": 112.0,
+      "end": 115.0,
+      "text": "not a throne",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 36,
+      "section": "Bridge - half-time dub space",
+      "start": 115.0,
+      "end": 117.222,
+      "text": "Creation starts in company",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 37,
+      "section": "Bridge - half-time dub space",
+      "start": 117.222,
+      "end": 120.0,
+      "text": "then follows you through years",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 38,
+      "section": "Bridge - half-time dub space",
+      "start": 120.0,
+      "end": 123.429,
+      "text": "You hear that gathering",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 39,
+      "section": "Bridge - half-time dub space",
+      "start": 123.429,
+      "end": 126.0,
+      "text": "inside your timing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 40,
+      "section": "Bridge - half-time dub space",
+      "start": 126.0,
+      "end": 128.857,
+      "text": "You keep a chair",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 41,
+      "section": "Bridge - half-time dub space",
+      "start": 128.857,
+      "end": 131.0,
+      "text": "inside your chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "Final Hook - harmonies wider",
+      "start": 131.0,
+      "end": 135.0,
+      "text": "We brought our own suns",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Final Hook - harmonies wider",
+      "start": 136.0,
+      "end": 138.0,
+      "text": "when the station lost the dawn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 44,
+      "section": "Final Hook - harmonies wider",
+      "start": 138.0,
+      "end": 140.0,
+      "text": "fed the vines on sleepless hours",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 45,
+      "section": "Final Hook - harmonies wider",
+      "start": 140.0,
+      "end": 142.8,
+      "text": "kept the inner weather warm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Final Hook - harmonies wider",
+      "start": 142.8,
+      "end": 144.0,
+      "text": "Side by side, the garden lifted",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 47,
+      "section": "Final Hook - harmonies wider",
+      "start": 146.667,
+      "end": 148.0,
+      "text": "night became a second noon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 48,
+      "section": "Final Hook - harmonies wider",
+      "start": 148.0,
+      "end": 150.917,
+      "text": "I became myself in fragments",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 49,
+      "section": "Final Hook - harmonies wider",
+      "start": 150.917,
+      "end": 154.417,
+      "text": "passed from hand to hand in bloom",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 50,
+      "section": "Outro - room tone fades",
+      "start": 154.417,
+      "end": 164.6,
+      "text": "Borrowed suns",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 51,
+      "section": "Outro - room tone fades",
+      "start": 164.6,
+      "end": 167.0,
+      "text": "borrowed air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 52,
+      "section": "Outro - room tone fades",
+      "start": 167.0,
+      "end": 171.0,
+      "text": "one part keeps returning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 53,
+      "section": "Outro - room tone fades",
+      "start": 171.0,
+      "end": 174.0,
+      "text": "is always there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

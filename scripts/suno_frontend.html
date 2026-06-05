@@ -4,20 +4,59 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Suno Pipeline</title>
+  <script>
+    (() => {
+      const stored = localStorage.getItem('discography-theme');
+      const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = stored || preferred;
+    })();
+  </script>
   <style>
     :root {
       color-scheme: light;
       --bg: #f5f6f1;
       --panel: #ffffff;
+      --chrome: #fbfcf8;
+      --control: #ffffff;
+      --chip: #fbfcf8;
+      --empty-bg: rgba(255,255,255,.55);
+      --active-soft: #f5faf5;
+      --shadow: rgba(32, 35, 31, .08);
       --ink: #20231f;
       --muted: #686e65;
       --line: #d9ddd2;
       --accent: #1d6b5f;
+      --accent-ink: #ffffff;
+      --accent-alt: #3f5fa4;
+      --accent-warm: #a45b3f;
       --accent-2: #a43f45;
       --soft: #e9efe9;
       --warn: #8b5e14;
       --ok: #1d6b3e;
       --error: #a12b2b;
+    }
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #151713;
+      --panel: #20241f;
+      --chrome: #1a1d18;
+      --control: #171a16;
+      --chip: #181c18;
+      --empty-bg: rgba(32,36,31,.58);
+      --active-soft: #18251d;
+      --shadow: rgba(0, 0, 0, .32);
+      --ink: #ecefe8;
+      --muted: #aab2a6;
+      --line: #3b4239;
+      --accent: #58b7a8;
+      --accent-ink: #08231f;
+      --accent-alt: #84a0ec;
+      --accent-warm: #d08a6f;
+      --accent-2: #e0838a;
+      --soft: #2d362e;
+      --warn: #d2a957;
+      --ok: #74c98b;
+      --error: #ee8b8b;
     }
     * { box-sizing: border-box; }
     body {
@@ -36,7 +75,7 @@
       justify-content: space-between;
       padding: 0 22px;
       border-bottom: 1px solid var(--line);
-      background: #fbfcf8;
+      background: var(--chrome);
     }
     h1 {
       font-size: 18px;
@@ -55,7 +94,7 @@
     }
     .header-actions button.active {
       background: var(--accent);
-      color: #fff;
+      color: var(--accent-ink);
     }
     main {
       display: grid;
@@ -64,7 +103,7 @@
     }
     aside {
       border-right: 1px solid var(--line);
-      background: #fbfcf8;
+      background: var(--chrome);
       padding: 18px;
       overflow: auto;
     }
@@ -85,7 +124,7 @@
       min-height: 36px;
       border: 1px solid var(--line);
       border-radius: 6px;
-      background: #fff;
+      background: var(--control);
       color: var(--ink);
       padding: 7px 9px;
       font: inherit;
@@ -114,18 +153,18 @@
       border: 1px solid var(--accent);
       border-radius: 6px;
       background: var(--accent);
-      color: #fff;
+      color: var(--accent-ink);
       padding: 7px 12px;
       font: inherit;
       font-weight: 700;
       cursor: pointer;
     }
     button.secondary {
-      background: #fff;
+      background: var(--control);
       color: var(--accent);
     }
     button.danger {
-      background: #fff;
+      background: var(--control);
       border-color: var(--accent-2);
       color: var(--accent-2);
     }
@@ -297,8 +336,8 @@
       border-radius: 999px;
       background: var(--accent);
     }
-    .bar-fill.alt { background: #3f5fa4; }
-    .bar-fill.warm { background: #a45b3f; }
+    .bar-fill.alt { background: var(--accent-alt); }
+    .bar-fill.warm { background: var(--accent-warm); }
     .bar-value {
       text-align: right;
       font-weight: 800;
@@ -382,7 +421,7 @@
       gap: 10px;
       padding: 10px 12px;
       border-bottom: 1px solid var(--line);
-      background: #fbfcf8;
+      background: var(--chrome);
     }
     .iteration-body {
       padding: 12px;
@@ -427,8 +466,8 @@
       min-height: 132px;
       padding: 12px 22px;
       border-top: 1px solid var(--line);
-      background: #fbfcf8;
-      box-shadow: 0 -8px 24px rgba(32, 35, 31, .08);
+      background: var(--chrome);
+      box-shadow: 0 -8px 24px var(--shadow);
     }
     .global-player-title {
       min-width: 0;
@@ -485,7 +524,7 @@
     .playlist-item:last-child { border-bottom: 0; }
     .playlist-item.active {
       box-shadow: inset 3px 0 0 var(--ok);
-      background: #f5faf5;
+      background: var(--active-soft);
     }
     .playlist-item-title {
       min-width: 0;
@@ -510,7 +549,7 @@
     button.playing {
       background: var(--ok);
       border-color: var(--ok);
-      color: #fff;
+      color: var(--accent-ink);
     }
     .candidate-actions {
       display: flex;
@@ -533,7 +572,7 @@
       border: 1px solid var(--line);
       border-radius: 6px;
       padding: 6px 8px;
-      background: #fbfcf8;
+      background: var(--chip);
     }
     .score-chip strong {
       display: block;
@@ -574,7 +613,7 @@
       color: var(--muted);
       border: 1px dashed var(--line);
       border-radius: 8px;
-      background: rgba(255,255,255,.55);
+      background: var(--empty-bg);
     }
     a {
       color: var(--accent);
@@ -605,6 +644,7 @@
     <div class="header-actions">
       <button class="secondary active" id="jobsViewBtn" type="button">Jobs</button>
       <button class="secondary" id="statsViewBtn" type="button">Statistics</button>
+      <button class="secondary" id="themeToggle" type="button">Dark</button>
       <span id="serverState" class="status">loading</span>
     </div>
   </header>
@@ -736,6 +776,22 @@
     };
 
     function $(id) { return document.getElementById(id); }
+
+    function currentTheme() {
+      return document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+    }
+
+    function syncThemeButton() {
+      const button = $('themeToggle');
+      if (button) button.textContent = currentTheme() === 'dark' ? 'Light' : 'Dark';
+    }
+
+    function toggleTheme() {
+      const next = currentTheme() === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem('discography-theme', next);
+      syncThemeButton();
+    }
 
     async function api(path, options = {}) {
       const res = await fetch(path, options);
@@ -1839,6 +1895,7 @@
     }
 
     $('jobForm').addEventListener('submit', startJob);
+    $('themeToggle').addEventListener('click', toggleTheme);
     $('jobsViewBtn').addEventListener('click', async () => {
       state.view = 'jobs';
       updateViewButtons();
@@ -1928,6 +1985,7 @@
     $('globalAudio').addEventListener('ended', advancePlaylist);
 
     (async function init() {
+      syncThemeButton();
       try {
         await loadConfig();
         await loadSongs();

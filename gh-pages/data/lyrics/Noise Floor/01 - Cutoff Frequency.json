@@ -13,8 +13,9 @@
     "line_count": 84,
     "reference_word_count": 373,
     "observed_word_count": 383,
-    "matched_word_count": 332,
-    "matched_word_ratio": 0.89
+    "matched_word_count": 318,
+    "matched_word_ratio": 0.853,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -173,10 +174,10 @@
       "index": 0,
       "section": "Intro – filtered high-end textures | scattered percussive ticks | breath sounds",
       "start": 0.0,
-      "end": 10.154,
+      "end": 6.769,
       "text": "Too much coming in at once",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 4
     },
     {
       "index": 1,
@@ -191,19 +192,19 @@
       "index": 2,
       "section": "Intro – filtered high-end textures | scattered percussive ticks | breath sounds",
       "start": 22.0,
-      "end": 30.4,
+      "end": 26.2,
       "text": "every layer speaking loud",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 3,
       "section": "Intro – filtered high-end textures | scattered percussive ticks | breath sounds",
       "start": 30.4,
-      "end": 43.0,
+      "end": 36.7,
       "text": "no space left inside the crowd",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3
     },
     {
       "index": 4,
@@ -695,37 +696,37 @@
       "index": 58,
       "section": "Verse 3 – soft, grounded | minimal percussion",
       "start": 200.0,
-      "end": 208.667,
+      "end": 207.429,
       "text": "Now the world moves at my pace",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 59,
       "section": "Verse 3 – soft, grounded | minimal percussion",
       "start": 208.667,
-      "end": 213.619,
+      "end": 212.381,
       "text": "rounded corners, open space",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 60,
       "section": "Verse 3 – soft, grounded | minimal percussion",
       "start": 213.619,
-      "end": 221.048,
+      "end": 219.81,
       "text": "I can follow, I can stay",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 61,
       "section": "Verse 3 – soft, grounded | minimal percussion",
       "start": 221.048,
-      "end": 226.0,
+      "end": 224.762,
       "text": "without needing to escape",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 62,
@@ -911,19 +912,19 @@
       "index": 82,
       "section": "Outro – deep ambient dub echoes | low-pass nearly closed",
       "start": 284.0,
-      "end": 291.5,
+      "end": 286.5,
       "text": "held in warmth",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 83,
       "section": "Outro – deep ambient dub echoes | low-pass nearly closed",
       "start": 291.5,
-      "end": 296.5,
+      "end": 294.0,
       "text": "instead of rush",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     }
   ]
 }

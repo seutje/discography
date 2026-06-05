@@ -13,8 +13,9 @@
     "line_count": 56,
     "reference_word_count": 262,
     "observed_word_count": 290,
-    "matched_word_count": 192,
-    "matched_word_ratio": 0.733
+    "matched_word_count": 186,
+    "matched_word_ratio": 0.71,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -158,37 +159,37 @@
       "index": 0,
       "section": "Intro - dark greenhouse | tiny chirps | low air returning",
       "start": 0.0,
-      "end": 9.583,
+      "end": 5.75,
       "text": "First there was a waiting hull",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 1,
       "section": "Intro - dark greenhouse | tiny chirps | low air returning",
       "start": 13.417,
-      "end": 19.167,
+      "end": 17.25,
       "text": "garden sealed above the cloudbank",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 2,
       "section": "Intro - dark greenhouse | tiny chirps | low air returning",
       "start": 23.0,
-      "end": 30.0,
+      "end": 28.6,
       "text": "seeds asleep in copper loam",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 3,
       "section": "Intro - dark greenhouse | tiny chirps | low air returning",
       "start": 30.0,
-      "end": 37.0,
+      "end": 35.6,
       "text": "dreaming roots beneath the metal",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 4,
@@ -320,10 +321,10 @@
       "index": 18,
       "section": "Hook - deep sub enters | wide echo",
       "start": 80.0,
-      "end": 85.909,
+      "end": 84.727,
       "text": "Open slowly, seed of calling",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 19,

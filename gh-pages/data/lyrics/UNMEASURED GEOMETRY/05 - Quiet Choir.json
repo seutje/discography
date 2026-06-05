@@ -13,8 +13,9 @@
     "line_count": 48,
     "reference_word_count": 268,
     "observed_word_count": 292,
-    "matched_word_count": 210,
-    "matched_word_ratio": 0.784
+    "matched_word_count": 202,
+    "matched_word_ratio": 0.754,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -273,10 +274,10 @@
       "index": 0,
       "section": "Intro",
       "start": 39.24,
-      "end": 53.1,
+      "end": 43.86,
       "text": "Whispered shapes inside the hum",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 1,
@@ -372,19 +373,19 @@
       "index": 11,
       "section": "Verse 1",
       "start": 107.72,
-      "end": 113.72,
+      "end": 111.72,
       "text": "Turns my shelter into waste",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 12,
       "section": "Pre-Chorus",
       "start": 115.52,
-      "end": 122.72,
+      "end": 120.92,
       "text": "Pull me closer, push me through",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 13,
@@ -516,10 +517,10 @@
       "index": 27,
       "section": "Verse 2",
       "start": 190.72,
-      "end": 198.72,
+      "end": 197.387,
       "text": "Just enough to let me breathe",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 28,
@@ -534,10 +535,10 @@
       "index": 29,
       "section": "Pre-Chorus",
       "start": 213.72,
-      "end": 219.72,
+      "end": 218.52,
       "text": "Let the choir swallow me",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 30,
@@ -588,10 +589,10 @@
       "index": 35,
       "section": "Chorus",
       "start": 239.72,
-      "end": 257.72,
+      "end": 242.72,
       "text": "I’m the quiet in the storm",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 36,

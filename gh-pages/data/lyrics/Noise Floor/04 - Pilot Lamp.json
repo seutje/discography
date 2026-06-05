@@ -13,8 +13,9 @@
     "line_count": 54,
     "reference_word_count": 262,
     "observed_word_count": 272,
-    "matched_word_count": 224,
-    "matched_word_ratio": 0.855
+    "matched_word_count": 207,
+    "matched_word_ratio": 0.79,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -153,19 +154,19 @@
       "index": 0,
       "section": "Intro - tiny lamp tone | dusty organ",
       "start": 0.0,
-      "end": 13.091,
+      "end": 6.545,
       "text": "The pilot lamp was on already",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3
     },
     {
       "index": 1,
       "section": "Intro - tiny lamp tone | dusty organ",
       "start": 13.091,
-      "end": 24.0,
+      "end": 17.455,
       "text": "before I crossed the room",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 2
     },
     {
       "index": 2,
@@ -180,10 +181,10 @@
       "index": 3,
       "section": "Intro - tiny lamp tone | dusty organ",
       "start": 28.0,
-      "end": 36.0,
+      "end": 34.667,
       "text": "in the belly of the tube",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 4,
@@ -306,10 +307,10 @@
       "index": 17,
       "section": "Hook - bass opens | tape trails",
       "start": 76.444,
-      "end": 82.0,
+      "end": 77.556,
       "text": "small inevitable glow",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 18,
@@ -477,10 +478,10 @@
       "index": 36,
       "section": "Bridge - bass drops | lamp tone alone",
       "start": 154.0,
-      "end": 158.545,
+      "end": 154.909,
       "text": "No grand collapse",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 37,
@@ -513,10 +514,10 @@
       "index": 40,
       "section": "Bridge - bass drops | lamp tone alone",
       "start": 166.857,
-      "end": 171.143,
+      "end": 169.714,
       "text": "on the same",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 41,
@@ -531,19 +532,19 @@
       "index": 42,
       "section": "Final Hook - steady | fatal warmth",
       "start": 174.0,
-      "end": 179.333,
+      "end": 178.0,
       "text": "Pilot lamp, pilot lamp",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 43,
       "section": "Final Hook - steady | fatal warmth",
       "start": 179.333,
-      "end": 186.0,
+      "end": 180.667,
       "text": "small inevitable glow",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 44,
@@ -567,10 +568,10 @@
       "index": 46,
       "section": "Final Hook - steady | fatal warmth",
       "start": 198.0,
-      "end": 203.333,
+      "end": 202.0,
       "text": "Pilot lamp, pilot lamp",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 47,
@@ -603,19 +604,19 @@
       "index": 50,
       "section": "Outro - tape hiss | lamp tone remains",
       "start": 220.0,
-      "end": 225.333,
+      "end": 223.556,
       "text": "After the song",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 51,
       "section": "Outro - tape hiss | lamp tone remains",
       "start": 225.333,
-      "end": 232.444,
+      "end": 228.889,
       "text": "the lamp stays lit",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 52,
@@ -630,10 +631,10 @@
       "index": 53,
       "section": "Outro - tape hiss | lamp tone remains",
       "start": 236.0,
-      "end": 256.0,
+      "end": 246.0,
       "text": "just waiting",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     }
   ]
 }

@@ -13,8 +13,9 @@
     "line_count": 44,
     "reference_word_count": 222,
     "observed_word_count": 230,
-    "matched_word_count": 176,
-    "matched_word_ratio": 0.793
+    "matched_word_count": 174,
+    "matched_word_ratio": 0.784,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -485,10 +486,10 @@
       "index": 33,
       "section": "VERSE 2",
       "start": 108.0,
-      "end": 116.0,
+      "end": 110.667,
       "text": "A counterfeit escape.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 34,

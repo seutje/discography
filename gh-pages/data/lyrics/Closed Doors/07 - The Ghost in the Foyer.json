@@ -13,8 +13,9 @@
     "line_count": 126,
     "reference_word_count": 534,
     "observed_word_count": 544,
-    "matched_word_count": 498,
-    "matched_word_ratio": 0.933
+    "matched_word_count": 493,
+    "matched_word_ratio": 0.923,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -358,19 +359,19 @@
       "index": 0,
       "section": "Intro – whispered | distant piano | ticking clock",
       "start": 3.104,
-      "end": 7.76,
+      "end": 6.208,
       "text": "Please wipe your feet.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 1,
       "section": "Intro – whispered | distant piano | ticking clock",
       "start": 7.76,
-      "end": 15.52,
+      "end": 12.416,
       "text": "The house is still open.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 2,
@@ -763,10 +764,10 @@
       "index": 45,
       "section": "Verse 2 – trip-hop beat enters softly",
       "start": 113.0,
-      "end": 120.0,
+      "end": 118.6,
       "text": "“I’m fine, just tired, whatever”",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 46,
@@ -1411,10 +1412,10 @@
       "index": 117,
       "section": "Outro – whispered | piano fading | clocks remain",
       "start": 275.8,
-      "end": 280.0,
+      "end": 278.6,
       "text": "admire the hallway.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 118,

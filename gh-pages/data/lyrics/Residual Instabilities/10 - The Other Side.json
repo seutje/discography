@@ -13,8 +13,9 @@
     "line_count": 67,
     "reference_word_count": 337,
     "observed_word_count": 350,
-    "matched_word_count": 290,
-    "matched_word_ratio": 0.861
+    "matched_word_count": 275,
+    "matched_word_ratio": 0.816,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -188,19 +189,19 @@
       "index": 0,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
       "start": 0.0,
-      "end": 18.2,
+      "end": 7.8,
       "text": "I keep one face toward the light",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 3
     },
     {
       "index": 1,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 18.2,
+      "start": 7.8,
       "end": 26.0,
       "text": "calculated, always right",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 2,
@@ -305,10 +306,10 @@
       "index": 13,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
       "start": 66.0,
-      "end": 73.0,
+      "end": 68.333,
       "text": "the other side",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 14,
@@ -431,10 +432,10 @@
       "index": 27,
       "section": "Section II – beat enters | sharper transients | layered signals",
       "start": 118.0,
-      "end": 124.0,
+      "end": 122.0,
       "text": "the other side",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 28,
@@ -548,19 +549,19 @@
       "index": 40,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
       "start": 158.154,
-      "end": 167.0,
+      "end": 164.667,
       "text": "A burning arc, a failed glide",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 41,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
       "start": 167.0,
-      "end": 174.0,
+      "end": 169.333,
       "text": "the other side",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 42,
@@ -674,10 +675,10 @@
       "index": 54,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
       "start": 216.0,
-      "end": 230.0,
+      "end": 220.667,
       "text": "the other side",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 55,

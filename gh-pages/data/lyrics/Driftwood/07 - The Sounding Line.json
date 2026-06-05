@@ -13,8 +13,9 @@
     "line_count": 68,
     "reference_word_count": 409,
     "observed_word_count": 408,
-    "matched_word_count": 355,
-    "matched_word_ratio": 0.868
+    "matched_word_count": 353,
+    "matched_word_ratio": 0.863,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -163,10 +164,10 @@
       "index": 5,
       "section": "Verse 1",
       "start": 22.476,
-      "end": 28.143,
+      "end": 23.286,
       "text": "Wet knots keeping careful count",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 6,

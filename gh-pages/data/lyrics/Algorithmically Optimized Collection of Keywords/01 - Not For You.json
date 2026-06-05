@@ -13,8 +13,9 @@
     "line_count": 63,
     "reference_word_count": 423,
     "observed_word_count": 423,
-    "matched_word_count": 358,
-    "matched_word_ratio": 0.846
+    "matched_word_count": 353,
+    "matched_word_ratio": 0.835,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -173,19 +174,19 @@
       "index": 0,
       "section": "Verse 1",
       "start": 0.0,
-      "end": 9.849,
+      "end": 8.618,
       "text": "I draw a line and call it truth",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 7
     },
     {
       "index": 1,
       "section": "Verse 1",
       "start": 9.849,
-      "end": 19.698,
+      "end": 18.467,
       "text": "You trace it back, it looks like proof",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 7
     },
     {
       "index": 2,
@@ -731,10 +732,10 @@
       "index": 62,
       "section": "Outro",
       "start": 247.52,
-      "end": 257.52,
+      "end": 250.02,
       "text": "It’s not for you.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 1
     }
   ]
 }

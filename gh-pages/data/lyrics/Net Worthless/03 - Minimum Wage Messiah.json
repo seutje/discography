@@ -13,8 +13,9 @@
     "line_count": 205,
     "reference_word_count": 762,
     "observed_word_count": 720,
-    "matched_word_count": 624,
-    "matched_word_ratio": 0.819
+    "matched_word_count": 621,
+    "matched_word_ratio": 0.815,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -448,19 +449,19 @@
       "index": 15,
       "section": "Verse 1 – spoken rap | light guitar groove",
       "start": 33.24,
-      "end": 37.8,
+      "end": 36.28,
       "text": "Minimum wage messiah",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 16,
       "section": "Verse 1 – spoken rap | light guitar groove",
       "start": 37.8,
-      "end": 45.4,
+      "end": 42.36,
       "text": "with holes in his trainers,",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 17,

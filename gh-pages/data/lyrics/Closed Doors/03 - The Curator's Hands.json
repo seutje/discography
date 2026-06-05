@@ -13,8 +13,9 @@
     "line_count": 175,
     "reference_word_count": 692,
     "observed_word_count": 795,
-    "matched_word_count": 654,
-    "matched_word_ratio": 0.945
+    "matched_word_count": 653,
+    "matched_word_ratio": 0.944,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -548,10 +549,10 @@
       "index": 0,
       "section": "Intro – spoken | sparse guitar",
       "start": 0.0,
-      "end": 4.94,
+      "end": 2.47,
       "text": "Welcome back.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 1,

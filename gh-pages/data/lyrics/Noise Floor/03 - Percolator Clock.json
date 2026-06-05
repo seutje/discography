@@ -13,8 +13,9 @@
     "line_count": 56,
     "reference_word_count": 309,
     "observed_word_count": 592,
-    "matched_word_count": 119,
-    "matched_word_ratio": 0.385
+    "matched_word_count": 115,
+    "matched_word_ratio": 0.372,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -163,10 +164,10 @@
       "index": 0,
       "section": "Intro - kettle hum | clock tick | filtered keys",
       "start": 0.0,
-      "end": 21.0,
+      "end": 6.0,
       "text": "Before the screen has found its color",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 2
     },
     {
       "index": 1,

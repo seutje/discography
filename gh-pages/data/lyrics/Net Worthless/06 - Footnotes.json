@@ -13,8 +13,9 @@
     "line_count": 220,
     "reference_word_count": 830,
     "observed_word_count": 836,
-    "matched_word_count": 766,
-    "matched_word_ratio": 0.923
+    "matched_word_count": 765,
+    "matched_word_ratio": 0.922,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -2043,15 +2044,15 @@
       "index": 190,
       "section": "Final Hook – warm, layered, quietly triumphant",
       "start": 311.208,
-      "end": 315.96,
+      "end": 314.772,
       "text": "and someone walked through",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 191,
       "section": "Outro – spoken | instruments softening",
-      "start": 315.96,
+      "start": 314.772,
       "end": 316.619,
       "text": "So no.",
       "timing_source": "interpolated",

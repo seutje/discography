@@ -13,8 +13,9 @@
     "line_count": 76,
     "reference_word_count": 449,
     "observed_word_count": 510,
-    "matched_word_count": 331,
-    "matched_word_ratio": 0.737
+    "matched_word_count": 330,
+    "matched_word_ratio": 0.735,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -352,10 +353,10 @@
       "index": 1,
       "section": "Intro",
       "start": 10.0,
-      "end": 17.0,
+      "end": 15.6,
       "text": "Something moving where nothing should",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 2,

@@ -13,8 +13,9 @@
     "line_count": 65,
     "reference_word_count": 368,
     "observed_word_count": 428,
-    "matched_word_count": 263,
-    "matched_word_ratio": 0.715
+    "matched_word_count": 260,
+    "matched_word_ratio": 0.707,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -573,10 +574,10 @@
       "index": 25,
       "section": "Hook – wider synths, glitch rhythm stabilizes slightly",
       "start": 74.0,
-      "end": 82.0,
+      "end": 74.444,
       "text": "but it keeps returning me",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 2
     },
     {
       "index": 26,

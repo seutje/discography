@@ -13,8 +13,9 @@
     "line_count": 39,
     "reference_word_count": 326,
     "observed_word_count": 344,
-    "matched_word_count": 266,
-    "matched_word_ratio": 0.816
+    "matched_word_count": 262,
+    "matched_word_ratio": 0.804,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -191,10 +192,10 @@
       "index": 2,
       "section": "Verse 1",
       "start": 56.0,
-      "end": 68.0,
+      "end": 65.333,
       "text": "Arms that never opened, only clenched into the night,",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 6
     },
     {
       "index": 3,
@@ -443,10 +444,10 @@
       "index": 30,
       "section": "Breakdown",
       "start": 266.0,
-      "end": 272.5,
+      "end": 271.2,
       "text": "Your absence is the algorithm",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 31,
@@ -515,10 +516,10 @@
       "index": 38,
       "section": "Final Chorus",
       "start": 317.333,
-      "end": 326.0,
+      "end": 323.667,
       "text": "To close the loop you never meant.",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     }
   ]
 }

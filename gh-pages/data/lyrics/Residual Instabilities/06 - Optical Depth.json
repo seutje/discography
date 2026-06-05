@@ -13,8 +13,9 @@
     "line_count": 68,
     "reference_word_count": 336,
     "observed_word_count": 411,
-    "matched_word_count": 303,
-    "matched_word_ratio": 0.902
+    "matched_word_count": 298,
+    "matched_word_ratio": 0.887,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -432,10 +433,10 @@
       "index": 21,
       "section": "Chorus – wider pads | sub bass blooms | echoes stretch",
       "start": 116.0,
-      "end": 126.0,
+      "end": 119.333,
       "text": "passes through, unchanged",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 22,
@@ -513,19 +514,19 @@
       "index": 30,
       "section": "Verse 2 – dub delays | more space | percussive echoes",
       "start": 146.0,
-      "end": 151.2,
+      "end": 149.9,
       "text": "I rehearse acceptance lines",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 31,
       "section": "Verse 2 – dub delays | more space | percussive echoes",
       "start": 151.2,
-      "end": 159.0,
+      "end": 157.7,
       "text": "but they scatter when I speak",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 32,
@@ -612,10 +613,10 @@
       "index": 41,
       "section": "Verse 3 – slightly denser rhythm | tension building",
       "start": 183.0,
-      "end": 188.0,
+      "end": 185.0,
       "text": "drawn-out, unobserved retreat",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 42,

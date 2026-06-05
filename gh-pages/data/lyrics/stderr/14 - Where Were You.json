@@ -13,8 +13,8 @@
     "line_count": 106,
     "reference_word_count": 488,
     "observed_word_count": 499,
-    "matched_word_count": 454,
-    "matched_word_ratio": 0.93,
+    "matched_word_count": 453,
+    "matched_word_ratio": 0.928,
     "inserted_adlib_count": 0
   },
   "transcript_segments": [
@@ -403,10 +403,10 @@
       "index": 11,
       "section": "Intro – spoken word | sparse guitar harmonics | distant room tone",
       "start": 27.88,
-      "end": 33.48,
+      "end": 31.613,
       "text": "another temporary name.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 12,
@@ -673,24 +673,24 @@
       "index": 41,
       "section": "Verse 2 – spoken word rhythm over beat",
       "start": 108.38,
-      "end": 109.54,
+      "end": 110.12,
       "text": "\"behavioral report\"",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 42,
       "section": "Verse 2 – spoken word rhythm over beat",
-      "start": 109.54,
-      "end": 110.12,
+      "start": 110.12,
+      "end": 110.22,
       "text": "and",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 43,
       "section": "Verse 2 – spoken word rhythm over beat",
-      "start": 110.12,
+      "start": 110.22,
       "end": 111.6,
       "text": "\"we'll place him somewhere else\"",
       "timing_source": "whisper-aligned",

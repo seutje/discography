@@ -13,8 +13,9 @@
     "line_count": 56,
     "reference_word_count": 260,
     "observed_word_count": 615,
-    "matched_word_count": 114,
-    "matched_word_ratio": 0.438
+    "matched_word_count": 110,
+    "matched_word_ratio": 0.423,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -258,19 +259,19 @@
       "index": 0,
       "section": "Intro - reversed piano | wide pads",
       "start": 8.838,
-      "end": 14.73,
+      "end": 11.784,
       "text": "The orchid opened into motion",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 1,
       "section": "Intro - reversed piano | wide pads",
       "start": 17.676,
-      "end": 29.46,
+      "end": 20.622,
       "text": "petals lifting frame by frame",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 1
     },
     {
       "index": 2,

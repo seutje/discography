@@ -14,7 +14,8 @@
     "reference_word_count": 846,
     "observed_word_count": 863,
     "matched_word_count": 733,
-    "matched_word_ratio": 0.866
+    "matched_word_ratio": 0.866,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -849,17 +850,17 @@
     {
       "index": 63,
       "section": "Verse 2 – spoken rap | brushed snare enters",
-      "start": 101.92,
-      "end": 102.6,
+      "start": 108.72,
+      "end": 114.4,
       "text": "A bill.",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 64,
       "section": "Verse 2 – spoken rap | brushed snare enters",
-      "start": 102.6,
-      "end": 103.884,
+      "start": 114.4,
+      "end": 114.5,
       "text": "A half-written plan.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -867,8 +868,8 @@
     {
       "index": 65,
       "section": "Verse 2 – spoken rap | brushed snare enters",
-      "start": 103.884,
-      "end": 105.396,
+      "start": 114.5,
+      "end": 114.6,
       "text": "Now I lose my keys",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -876,8 +877,8 @@
     {
       "index": 66,
       "section": "Verse 2 – spoken rap | brushed snare enters",
-      "start": 105.698,
-      "end": 107.209,
+      "start": 114.6,
+      "end": 114.7,
       "text": "while they’re still in my hand.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -885,8 +886,8 @@
     {
       "index": 67,
       "section": "Verse 2 – spoken rap | brushed snare enters",
-      "start": 107.209,
-      "end": 108.72,
+      "start": 114.7,
+      "end": 114.8,
       "text": "I read the same sentence",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -894,8 +895,8 @@
     {
       "index": 68,
       "section": "Verse 2 – spoken rap | brushed snare enters",
-      "start": 108.72,
-      "end": 110.14,
+      "start": 114.8,
+      "end": 114.9,
       "text": "nine times in a row",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -903,8 +904,8 @@
     {
       "index": 69,
       "section": "Verse 2 – spoken rap | brushed snare enters",
-      "start": 110.992,
-      "end": 111.56,
+      "start": 114.9,
+      "end": 115.0,
       "text": "like maybe the tenth",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -912,8 +913,8 @@
     {
       "index": 70,
       "section": "Verse 2 – spoken rap | brushed snare enters",
-      "start": 111.56,
-      "end": 112.98,
+      "start": 115.0,
+      "end": 115.1,
       "text": "will agree to come home.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -921,8 +922,8 @@
     {
       "index": 71,
       "section": "Verse 2 – spoken rap | brushed snare enters",
-      "start": 112.98,
-      "end": 114.116,
+      "start": 115.1,
+      "end": 115.2,
       "text": "I stare at a form",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -930,7 +931,7 @@
     {
       "index": 72,
       "section": "Verse 2 – spoken rap | brushed snare enters",
-      "start": 114.4,
+      "start": 115.2,
       "end": 116.118,
       "text": "with my government face",
       "timing_source": "whisper-aligned",

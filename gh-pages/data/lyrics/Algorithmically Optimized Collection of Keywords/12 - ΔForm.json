@@ -13,8 +13,9 @@
     "line_count": 42,
     "reference_word_count": 193,
     "observed_word_count": 215,
-    "matched_word_count": 139,
-    "matched_word_ratio": 0.72
+    "matched_word_count": 134,
+    "matched_word_ratio": 0.694,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -163,10 +164,10 @@
       "index": 0,
       "section": "I. Superposition",
       "start": 30.0,
-      "end": 35.728,
+      "end": 34.296,
       "text": "Before your eyes arrive,",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 1,
@@ -217,10 +218,10 @@
       "index": 6,
       "section": "II. Double-Slit Memory",
       "start": 70.96,
-      "end": 77.72,
+      "end": 76.593,
       "text": "Every look redraws the boundary.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 7,
@@ -307,10 +308,10 @@
       "index": 16,
       "section": "III. The Instrument Watches Back",
       "start": 112.64,
-      "end": 123.76,
+      "end": 120.583,
       "text": "so I invent motion to explain it.",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 5
     },
     {
       "index": 17,
@@ -478,10 +479,10 @@
       "index": 35,
       "section": "VII. Decoherence",
       "start": 211.04,
-      "end": 215.92,
+      "end": 214.7,
       "text": "The silence after scrutiny",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 36,

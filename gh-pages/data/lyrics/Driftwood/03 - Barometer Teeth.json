@@ -13,8 +13,9 @@
     "line_count": 67,
     "reference_word_count": 428,
     "observed_word_count": 428,
-    "matched_word_count": 379,
-    "matched_word_ratio": 0.886
+    "matched_word_count": 372,
+    "matched_word_ratio": 0.869,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -178,10 +179,10 @@
       "index": 0,
       "section": "Intro",
       "start": 0.0,
-      "end": 7.21,
+      "end": 6.008,
       "text": "Count the glass... count the drop...",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 1,
@@ -727,37 +728,37 @@
       "index": 61,
       "section": "Break",
       "start": 199.14,
-      "end": 205.14,
+      "end": 203.64,
       "text": "Not yet... not under...",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 62,
       "section": "Break",
       "start": 205.14,
-      "end": 211.14,
+      "end": 209.64,
       "text": "Not yet... not water...",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 63,
       "section": "Outro",
       "start": 211.14,
-      "end": 220.86,
+      "end": 217.62,
       "text": "Count the glass... count the drop...",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 4
     },
     {
       "index": 64,
       "section": "Outro",
       "start": 220.86,
-      "end": 230.58,
+      "end": 227.34,
       "text": "Tie the pail before it knocks",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 65,

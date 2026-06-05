@@ -13,8 +13,8 @@
     "line_count": 75,
     "reference_word_count": 514,
     "observed_word_count": 285,
-    "matched_word_count": 158,
-    "matched_word_ratio": 0.307,
+    "matched_word_count": 157,
+    "matched_word_ratio": 0.305,
     "inserted_adlib_count": 0
   },
   "transcript_segments": [
@@ -515,16 +515,16 @@
       "index": 34,
       "section": "Verse 2",
       "start": 83.88,
-      "end": 190.84,
+      "end": 113.22,
       "text": "You blame the broke for the cracks and collapse",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 35,
       "section": "Verse 2",
-      "start": 190.84,
-      "end": 190.94,
+      "start": 113.22,
+      "end": 116.663,
       "text": "But the stacks built the trap where the system got mapped",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -532,8 +532,8 @@
     {
       "index": 36,
       "section": "Verse 2",
-      "start": 190.94,
-      "end": 191.04,
+      "start": 116.663,
+      "end": 119.167,
       "text": "Every scandal handled with a scandal-proof script",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -541,8 +541,8 @@
     {
       "index": 37,
       "section": "Verse 2",
-      "start": 191.04,
-      "end": 191.14,
+      "start": 119.167,
+      "end": 121.671,
       "text": "Every “watchdog” talk show funded by the clique",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -550,8 +550,8 @@
     {
       "index": 38,
       "section": "Break – beat drop",
-      "start": 191.14,
-      "end": 191.24,
+      "start": 121.671,
+      "end": 121.984,
       "text": "Transparency.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -559,8 +559,8 @@
     {
       "index": 39,
       "section": "Break – beat drop",
-      "start": 191.24,
-      "end": 191.34,
+      "start": 121.984,
+      "end": 122.297,
       "text": "Accountability.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -568,8 +568,8 @@
     {
       "index": 40,
       "section": "Break – beat drop",
-      "start": 191.34,
-      "end": 191.44,
+      "start": 122.297,
+      "end": 122.922,
       "text": "Nice words—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -577,8 +577,8 @@
     {
       "index": 41,
       "section": "Break – beat drop",
-      "start": 191.44,
-      "end": 191.54,
+      "start": 122.922,
+      "end": 124.487,
       "text": "when nobody’s watching the books.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -586,8 +586,8 @@
     {
       "index": 42,
       "section": "Hook",
-      "start": 191.54,
-      "end": 191.64,
+      "start": 124.487,
+      "end": 126.365,
       "text": "Gilded lies in a velvet tone",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -595,8 +595,8 @@
     {
       "index": 43,
       "section": "Hook",
-      "start": 191.64,
-      "end": 191.74,
+      "start": 126.365,
+      "end": 128.243,
       "text": "Silver scripts from a marble throne",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -604,8 +604,8 @@
     {
       "index": 44,
       "section": "Hook",
-      "start": 191.74,
-      "end": 191.84,
+      "start": 128.243,
+      "end": 130.121,
       "text": "Lies, lies — layered in the phrase",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -613,8 +613,8 @@
     {
       "index": 45,
       "section": "Hook",
-      "start": 191.84,
-      "end": 191.94,
+      "start": 130.121,
+      "end": 132.625,
       "text": "Spin, grin, win while the truth gets erased",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -622,8 +622,8 @@
     {
       "index": 46,
       "section": "Hook",
-      "start": 191.94,
-      "end": 192.04,
+      "start": 132.625,
+      "end": 134.503,
       "text": "Gilded lies in a polished plea",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -631,8 +631,8 @@
     {
       "index": 47,
       "section": "Hook",
-      "start": 192.04,
-      "end": 192.14,
+      "start": 134.503,
+      "end": 137.32,
       "text": "Say “serve the people” while you serve the elite",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -640,8 +640,8 @@
     {
       "index": 48,
       "section": "Hook",
-      "start": 192.14,
-      "end": 192.24,
+      "start": 137.32,
+      "end": 138.572,
       "text": "Lies, lies — everybody knows",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -649,8 +649,8 @@
     {
       "index": 49,
       "section": "Hook",
-      "start": 192.24,
-      "end": 192.34,
+      "start": 138.572,
+      "end": 140.763,
       "text": "Name's in the files, but nobody shows",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -658,8 +658,8 @@
     {
       "index": 50,
       "section": "Verse 3",
-      "start": 192.34,
-      "end": 192.44,
+      "start": 140.763,
+      "end": 143.266,
       "text": "Stage-lit rage in a pageant of power",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -667,8 +667,8 @@
     {
       "index": 51,
       "section": "Verse 3",
-      "start": 192.44,
-      "end": 192.54,
+      "start": 143.266,
+      "end": 145.144,
       "text": "Soundbite fights every prime-time hour",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -676,8 +676,8 @@
     {
       "index": 52,
       "section": "Verse 3",
-      "start": 192.54,
-      "end": 192.64,
+      "start": 145.144,
+      "end": 147.335,
       "text": "Divide the crowd, make the outrage louder",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -685,8 +685,8 @@
     {
       "index": 53,
       "section": "Verse 3",
-      "start": 192.64,
-      "end": 192.74,
+      "start": 147.335,
+      "end": 149.839,
       "text": "While the boardroom deals stack higher than towers",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -694,8 +694,8 @@
     {
       "index": 54,
       "section": "Verse 3",
-      "start": 192.74,
-      "end": 192.84,
+      "start": 149.839,
+      "end": 152.03,
       "text": "Spin foes, pick sides, weaponize the divide",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -703,8 +703,8 @@
     {
       "index": 55,
       "section": "Verse 3",
-      "start": 192.84,
-      "end": 192.94,
+      "start": 152.03,
+      "end": 154.847,
       "text": "Let the headlines collide while the pipelines get signed",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -712,8 +712,8 @@
     {
       "index": 56,
       "section": "Verse 3",
-      "start": 192.94,
-      "end": 193.04,
+      "start": 154.847,
+      "end": 157.351,
       "text": "New face, same chase, same game, same race",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -721,8 +721,8 @@
     {
       "index": 57,
       "section": "Verse 3",
-      "start": 193.04,
-      "end": 193.14,
+      "start": 157.351,
+      "end": 160.481,
       "text": "Same donors in the corner pulling strings in the place",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -730,8 +730,8 @@
     {
       "index": 58,
       "section": "Verse 3",
-      "start": 193.14,
-      "end": 193.24,
+      "start": 160.481,
+      "end": 162.045,
       "text": "Hypocrite politics polished to shine",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -739,8 +739,8 @@
     {
       "index": 59,
       "section": "Verse 3",
-      "start": 193.24,
-      "end": 193.34,
+      "start": 162.045,
+      "end": 163.923,
       "text": "Moral quotes with a corporate spine",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -748,8 +748,8 @@
     {
       "index": 60,
       "section": "Verse 3",
-      "start": 193.34,
-      "end": 193.44,
+      "start": 163.923,
+      "end": 165.175,
       "text": "Every election reflection repeats",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -757,8 +757,8 @@
     {
       "index": 61,
       "section": "Verse 3",
-      "start": 193.44,
-      "end": 193.54,
+      "start": 165.175,
+      "end": 167.992,
       "text": "Fresh voice, same choice, same cash in the seats",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -766,8 +766,8 @@
     {
       "index": 62,
       "section": "Final Hook – explosive",
-      "start": 193.54,
-      "end": 193.64,
+      "start": 167.992,
+      "end": 169.87,
       "text": "Gilded lies in a velvet tone",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -775,8 +775,8 @@
     {
       "index": 63,
       "section": "Final Hook – explosive",
-      "start": 193.64,
-      "end": 193.74,
+      "start": 169.87,
+      "end": 171.748,
       "text": "Silver scripts from a marble throne",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -784,8 +784,8 @@
     {
       "index": 64,
       "section": "Final Hook – explosive",
-      "start": 193.74,
-      "end": 193.84,
+      "start": 171.748,
+      "end": 173.313,
       "text": "Lies! Lies! — chant it again",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -793,8 +793,8 @@
     {
       "index": 65,
       "section": "Final Hook – explosive",
-      "start": 193.84,
-      "end": 193.94,
+      "start": 173.313,
+      "end": 176.13,
       "text": "Spin, grin, win for the suits and their friends",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -802,8 +802,8 @@
     {
       "index": 66,
       "section": "Final Hook – explosive",
-      "start": 193.94,
-      "end": 194.04,
+      "start": 176.13,
+      "end": 178.008,
       "text": "Gilded lies in a polished plea",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -811,8 +811,8 @@
     {
       "index": 67,
       "section": "Final Hook – explosive",
-      "start": 194.04,
-      "end": 194.14,
+      "start": 178.008,
+      "end": 180.825,
       "text": "Say “serve the people” while you serve the elite",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -820,8 +820,8 @@
     {
       "index": 68,
       "section": "Final Hook – explosive",
-      "start": 194.14,
-      "end": 194.24,
+      "start": 180.825,
+      "end": 182.076,
       "text": "Lies! Lies! — everybody knows",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -829,8 +829,8 @@
     {
       "index": 69,
       "section": "Final Hook – explosive",
-      "start": 194.24,
-      "end": 194.34,
+      "start": 182.076,
+      "end": 184.267,
       "text": "Name's in the files, but nobody shows",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -838,8 +838,8 @@
     {
       "index": 70,
       "section": "Outro – spoken",
-      "start": 194.34,
-      "end": 194.44,
+      "start": 184.267,
+      "end": 185.832,
       "text": "When the sermon sounds perfect",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -847,8 +847,8 @@
     {
       "index": 71,
       "section": "Outro – spoken",
-      "start": 194.44,
-      "end": 194.54,
+      "start": 185.832,
+      "end": 187.397,
       "text": "and the promise sounds pure—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -856,8 +856,8 @@
     {
       "index": 72,
       "section": "Outro – spoken",
-      "start": 194.54,
-      "end": 194.64,
+      "start": 187.397,
+      "end": 188.336,
       "text": "check the purse,",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -865,8 +865,8 @@
     {
       "index": 73,
       "section": "Outro – spoken",
-      "start": 194.64,
-      "end": 194.74,
+      "start": 188.336,
+      "end": 189.275,
       "text": "check the perks,",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -874,8 +874,8 @@
     {
       "index": 74,
       "section": "Outro – spoken",
-      "start": 194.74,
-      "end": 194.84,
+      "start": 189.275,
+      "end": 190.84,
       "text": "check the people they serve.",
       "timing_source": "interpolated",
       "matched_words": 0

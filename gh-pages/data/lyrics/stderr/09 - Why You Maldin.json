@@ -13,8 +13,8 @@
     "line_count": 87,
     "reference_word_count": 500,
     "observed_word_count": 519,
-    "matched_word_count": 199,
-    "matched_word_ratio": 0.398,
+    "matched_word_count": 189,
+    "matched_word_ratio": 0.378,
     "inserted_adlib_count": 0
   },
   "transcript_segments": [
@@ -714,34 +714,34 @@
       "index": 35,
       "section": "Chorus",
       "start": 74.75,
-      "end": 144.0,
+      "end": 75.5,
       "text": "Happiest I’ve ever been in this world",
-      "timing_source": "whisper-aligned",
-      "matched_words": 6
-    },
-    {
-      "index": 36,
-      "section": "Chorus",
-      "start": 144.0,
-      "end": 146.286,
-      "text": "So tell me again—",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 37,
-      "section": "Chorus",
-      "start": 146.286,
-      "end": 147.429,
-      "text": "Why you maldin’?",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 36,
+      "section": "Chorus",
+      "start": 77.0,
+      "end": 79.0,
+      "text": "So tell me again—",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 37,
+      "section": "Chorus",
+      "start": 79.0,
+      "end": 82.0,
+      "text": "Why you maldin’?",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
       "index": 38,
       "section": "Verse 2",
-      "start": 147.429,
-      "end": 147.529,
+      "start": 82.0,
+      "end": 84.0,
       "text": "Doctors printing organs in labs now",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -749,8 +749,8 @@
     {
       "index": 39,
       "section": "Verse 2",
-      "start": 147.529,
-      "end": 147.629,
+      "start": 84.0,
+      "end": 86.0,
       "text": "Solar on rooftops lighting whole towns",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -758,8 +758,8 @@
     {
       "index": 40,
       "section": "Verse 2",
-      "start": 147.629,
-      "end": 147.729,
+      "start": 86.0,
+      "end": 88.667,
       "text": "Robots doing work that was breakin’ our backs",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -767,8 +767,8 @@
     {
       "index": 41,
       "section": "Verse 2",
-      "start": 147.729,
-      "end": 147.829,
+      "start": 88.667,
+      "end": 91.333,
       "text": "Humans got time just to breathe and relax",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -776,8 +776,8 @@
     {
       "index": 42,
       "section": "Verse 2",
-      "start": 147.829,
-      "end": 147.929,
+      "start": 91.333,
+      "end": 94.0,
       "text": "Languages learned in a week from your seat",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -785,8 +785,8 @@
     {
       "index": 43,
       "section": "Verse 2",
-      "start": 147.929,
-      "end": 148.029,
+      "start": 94.0,
+      "end": 96.0,
       "text": "Farmers use satellites tending the wheat",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -794,17 +794,17 @@
     {
       "index": 44,
       "section": "Verse 2",
-      "start": 148.029,
-      "end": 148.129,
+      "start": 96.0,
+      "end": 98.0,
       "text": "Knowledge once locked in the ivory halls",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 45,
       "section": "Verse 2",
-      "start": 148.129,
-      "end": 148.229,
+      "start": 98.0,
+      "end": 100.0,
       "text": "Now it’s a click and it falls to us all",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -812,17 +812,17 @@
     {
       "index": 46,
       "section": "Verse 2",
-      "start": 148.229,
-      "end": 148.329,
+      "start": 100.0,
+      "end": 102.0,
       "text": "People online still scream it’s doomed",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 47,
       "section": "Verse 2",
-      "start": 148.329,
-      "end": 148.429,
+      "start": 102.0,
+      "end": 104.0,
       "text": "Like the planet about to explode by noon",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -830,26 +830,26 @@
     {
       "index": 48,
       "section": "Verse 2",
-      "start": 148.429,
-      "end": 148.529,
+      "start": 104.0,
+      "end": 106.0,
       "text": "But I see kids building startups in class",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 49,
       "section": "Verse 2",
-      "start": 148.529,
-      "end": 148.629,
+      "start": 106.0,
+      "end": 108.0,
       "text": "Old folks painting galaxies on glass",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 50,
       "section": "Verse 2",
-      "start": 148.629,
-      "end": 148.729,
+      "start": 108.0,
+      "end": 108.545,
       "text": "History wild, we survived the worst",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -857,8 +857,8 @@
     {
       "index": 51,
       "section": "Verse 2",
-      "start": 148.729,
-      "end": 148.829,
+      "start": 108.545,
+      "end": 109.273,
       "text": "Wars and plagues tried to bury the Earth",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -866,8 +866,8 @@
     {
       "index": 52,
       "section": "Verse 2",
-      "start": 148.829,
-      "end": 148.929,
+      "start": 109.273,
+      "end": 110.0,
       "text": "Now we curing things they feared for years",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -875,17 +875,17 @@
     {
       "index": 53,
       "section": "Verse 2",
-      "start": 148.929,
-      "end": 149.029,
+      "start": 110.0,
+      "end": 112.0,
       "text": "Still everybody crying all their tears",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 54,
       "section": "Pre-Chorus 2",
-      "start": 149.029,
-      "end": 149.129,
+      "start": 112.0,
+      "end": 113.615,
       "text": "Every new breakthrough drop like a spark",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -893,8 +893,8 @@
     {
       "index": 55,
       "section": "Pre-Chorus 2",
-      "start": 149.129,
-      "end": 149.229,
+      "start": 113.615,
+      "end": 115.231,
       "text": "Lighting the grid in the digital dark",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -902,8 +902,8 @@
     {
       "index": 56,
       "section": "Pre-Chorus 2",
-      "start": 149.229,
-      "end": 149.329,
+      "start": 115.231,
+      "end": 116.385,
       "text": "Future arriving faster than planned",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -911,8 +911,8 @@
     {
       "index": 57,
       "section": "Pre-Chorus 2",
-      "start": 149.329,
-      "end": 149.429,
+      "start": 116.385,
+      "end": 118.0,
       "text": "I’m just grinning like—y’all don’t understand",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -920,26 +920,26 @@
     {
       "index": 58,
       "section": "Chorus",
-      "start": 149.429,
-      "end": 149.529,
+      "start": 118.0,
+      "end": 122.0,
       "text": "Why you maldin’?",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 59,
       "section": "Chorus",
-      "start": 149.529,
-      "end": 149.629,
+      "start": 122.0,
+      "end": 122.1,
       "text": "Why you so stressed?",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 60,
       "section": "Chorus",
-      "start": 149.629,
-      "end": 149.729,
+      "start": 122.1,
+      "end": 122.2,
       "text": "World keep leveling, patch notes blessed",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -947,17 +947,17 @@
     {
       "index": 61,
       "section": "Chorus",
-      "start": 149.729,
-      "end": 149.829,
+      "start": 122.2,
+      "end": 122.3,
       "text": "Why you maldin’?",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 62,
       "section": "Chorus",
-      "start": 149.829,
-      "end": 149.929,
+      "start": 122.3,
+      "end": 127.0,
       "text": "Why the despair?",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -965,8 +965,8 @@
     {
       "index": 63,
       "section": "Chorus",
-      "start": 149.929,
-      "end": 150.029,
+      "start": 127.0,
+      "end": 132.0,
       "text": "Opportunity floating everywhere",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -974,17 +974,17 @@
     {
       "index": 64,
       "section": "Chorus",
-      "start": 150.029,
-      "end": 150.129,
+      "start": 132.0,
+      "end": 135.0,
       "text": "Brains online",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 65,
       "section": "Chorus",
-      "start": 150.129,
-      "end": 150.229,
+      "start": 135.0,
+      "end": 135.1,
       "text": "Dreams go global",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -992,17 +992,17 @@
     {
       "index": 66,
       "section": "Chorus",
-      "start": 150.229,
-      "end": 150.329,
+      "start": 135.1,
+      "end": 138.0,
       "text": "Kids from nowhere building something noble",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 67,
       "section": "Chorus",
-      "start": 150.329,
-      "end": 150.429,
+      "start": 138.0,
+      "end": 140.5,
       "text": "I’m just vibin’, feelin’ absurd",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1010,8 +1010,8 @@
     {
       "index": 68,
       "section": "Chorus",
-      "start": 150.429,
-      "end": 150.529,
+      "start": 140.5,
+      "end": 144.0,
       "text": "Happiest I’ve ever been in this world",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1019,26 +1019,26 @@
     {
       "index": 69,
       "section": "Chorus",
-      "start": 150.529,
-      "end": 150.629,
+      "start": 144.0,
+      "end": 148.0,
       "text": "So tell me again—",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 70,
       "section": "Chorus",
-      "start": 150.629,
-      "end": 150.729,
+      "start": 148.0,
+      "end": 148.1,
       "text": "Why you maldin’?",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 71,
       "section": "Bridge",
-      "start": 150.729,
-      "end": 150.829,
+      "start": 148.286,
+      "end": 150.0,
       "text": "Maybe rage just louder than hope",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1046,7 +1046,7 @@
     {
       "index": 72,
       "section": "Bridge",
-      "start": 150.829,
+      "start": 150.0,
       "end": 152.0,
       "text": "Maybe calm don’t trend in the scope",
       "timing_source": "whisper-aligned",

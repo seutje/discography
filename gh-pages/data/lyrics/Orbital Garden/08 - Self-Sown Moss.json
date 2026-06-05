@@ -13,8 +13,9 @@
     "line_count": 56,
     "reference_word_count": 249,
     "observed_word_count": 257,
-    "matched_word_count": 178,
-    "matched_word_ratio": 0.715
+    "matched_word_count": 172,
+    "matched_word_ratio": 0.691,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -138,10 +139,10 @@
       "index": 0,
       "section": "Intro - evolving pads | scattered droplets",
       "start": 0.0,
-      "end": 10.182,
+      "end": 2.545,
       "text": "I made a place",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 1
     },
     {
       "index": 1,
@@ -165,10 +166,10 @@
       "index": 3,
       "section": "Intro - evolving pads | scattered droplets",
       "start": 28.0,
-      "end": 48.0,
+      "end": 33.0,
       "text": "where rules could hide",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 4,
@@ -282,10 +283,10 @@
       "index": 16,
       "section": "Pre-Hook - pulse begins",
       "start": 84.0,
-      "end": 90.5,
+      "end": 86.167,
       "text": "you set the vessel",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 17,
@@ -363,10 +364,10 @@
       "index": 25,
       "section": "Hook - low bass arrives",
       "start": 122.167,
-      "end": 128.0,
+      "end": 126.833,
       "text": "forms of life to understand",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 26,
@@ -525,9 +526,9 @@
       "index": 43,
       "section": "Bridge - spoken fragments, delay",
       "start": 173.4,
-      "end": 180.5,
+      "end": 175.0,
       "text": "quietly alive",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {

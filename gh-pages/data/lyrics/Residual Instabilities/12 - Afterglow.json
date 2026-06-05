@@ -13,8 +13,9 @@
     "line_count": 86,
     "reference_word_count": 371,
     "observed_word_count": 835,
-    "matched_word_count": 200,
-    "matched_word_ratio": 0.539
+    "matched_word_count": 198,
+    "matched_word_ratio": 0.534,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -178,10 +179,10 @@
       "index": 0,
       "section": "Intro – distant hiss-like textures | faint pulses | space-like ambience",
       "start": 2.0,
-      "end": 10.0,
+      "end": 4.0,
       "text": "A temperature that never falls",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 1,
@@ -196,10 +197,10 @@
       "index": 2,
       "section": "Intro – distant hiss-like textures | faint pulses | space-like ambience",
       "start": 16.0,
-      "end": 22.0,
+      "end": 20.8,
       "text": "Residual, it stains the frame",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 3,

@@ -13,8 +13,9 @@
     "line_count": 70,
     "reference_word_count": 408,
     "observed_word_count": 407,
-    "matched_word_count": 367,
-    "matched_word_ratio": 0.9
+    "matched_word_count": 362,
+    "matched_word_ratio": 0.887,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -208,28 +209,28 @@
       "index": 0,
       "section": "Intro",
       "start": 0.0,
-      "end": 10.124,
+      "end": 5.062,
       "text": "Stone by stone... tide by tide...",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 1,
       "section": "Intro",
       "start": 10.124,
-      "end": 18.56,
+      "end": 15.185,
       "text": "Something waits on the inside",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 2,
       "section": "Intro",
       "start": 18.56,
-      "end": 23.2,
+      "end": 22.04,
       "text": "Harbor mouth... guarded breath...",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 3,

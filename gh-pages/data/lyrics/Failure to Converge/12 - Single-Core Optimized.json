@@ -13,8 +13,9 @@
     "line_count": 85,
     "reference_word_count": 329,
     "observed_word_count": 335,
-    "matched_word_count": 291,
-    "matched_word_ratio": 0.884
+    "matched_word_count": 283,
+    "matched_word_ratio": 0.86,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -167,28 +168,28 @@
       "index": 1,
       "section": "Intro – ambient pads | faint digital clicks | whispered layers",
       "start": 8.0,
-      "end": 14.0,
+      "end": 12.0,
       "text": "no audience required",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 2,
       "section": "Intro – ambient pads | faint digital clicks | whispered layers",
       "start": 14.0,
-      "end": 20.0,
+      "end": 18.0,
       "text": "A quiet system",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 3,
       "section": "Intro – ambient pads | faint digital clicks | whispered layers",
       "start": 20.0,
-      "end": 28.0,
+      "end": 24.0,
       "text": "learning its own rhythm",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 4,
@@ -410,10 +411,10 @@
       "index": 28,
       "section": "Hook – airy, floating melody",
       "start": 95.0,
-      "end": 107.0,
+      "end": 99.0,
       "text": "everything is mine",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 29,
@@ -860,10 +861,10 @@
       "index": 78,
       "section": "Outro – elements fade one by one | soft clicks remain",
       "start": 224.053,
-      "end": 229.105,
+      "end": 227.842,
       "text": "but I’m still here",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 79,
@@ -887,10 +888,10 @@
       "index": 81,
       "section": "Outro – elements fade one by one | soft clicks remain",
       "start": 234.158,
-      "end": 240.474,
+      "end": 239.211,
       "text": "Just a quiet little engine",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 82,

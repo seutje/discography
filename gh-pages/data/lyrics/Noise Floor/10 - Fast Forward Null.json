@@ -13,8 +13,9 @@
     "line_count": 82,
     "reference_word_count": 343,
     "observed_word_count": 352,
-    "matched_word_count": 266,
-    "matched_word_ratio": 0.776
+    "matched_word_count": 260,
+    "matched_word_ratio": 0.758,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -168,10 +169,10 @@
       "index": 0,
       "section": "Intro - fast spool | sour filter",
       "start": 0.0,
-      "end": 9.84,
+      "end": 2.46,
       "text": "The wheels spin clean",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 1
     },
     {
       "index": 1,
@@ -213,19 +214,19 @@
       "index": 5,
       "section": "Intro - fast spool | sour filter",
       "start": 22.14,
-      "end": 29.52,
+      "end": 24.6,
       "text": "All that motion",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 6,
       "section": "Intro - fast spool | sour filter",
       "start": 29.52,
-      "end": 34.56,
+      "end": 32.04,
       "text": "no arrival",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 7,

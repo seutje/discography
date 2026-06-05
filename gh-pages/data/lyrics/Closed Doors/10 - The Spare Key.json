@@ -13,8 +13,9 @@
     "line_count": 209,
     "reference_word_count": 772,
     "observed_word_count": 779,
-    "matched_word_count": 722,
-    "matched_word_ratio": 0.935
+    "matched_word_count": 721,
+    "matched_word_ratio": 0.934,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -1855,10 +1856,10 @@
       "index": 143,
       "section": "Verse 3 – half-sung, half-spoken",
       "start": 248.72,
-      "end": 255.08,
+      "end": 253.808,
       "text": "the surface of gentle things.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 144,

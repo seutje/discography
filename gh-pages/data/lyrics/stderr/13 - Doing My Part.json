@@ -13,8 +13,8 @@
     "line_count": 76,
     "reference_word_count": 442,
     "observed_word_count": 438,
-    "matched_word_count": 340,
-    "matched_word_ratio": 0.769,
+    "matched_word_count": 338,
+    "matched_word_ratio": 0.765,
     "inserted_adlib_count": 0
   },
   "transcript_segments": [
@@ -182,10 +182,10 @@
       "index": 2,
       "section": "Intro",
       "start": 3.9,
-      "end": 13.0,
+      "end": 10.4,
       "text": "If you need a villain, I volunteer.",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 3,
@@ -839,10 +839,10 @@
       "index": 75,
       "section": "Outro",
       "start": 172.24,
-      "end": 177.24,
+      "end": 175.573,
       "text": "Doing my part.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     }
   ]
 }

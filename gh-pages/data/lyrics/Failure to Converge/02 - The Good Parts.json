@@ -13,8 +13,9 @@
     "line_count": 129,
     "reference_word_count": 462,
     "observed_word_count": 477,
-    "matched_word_count": 428,
-    "matched_word_ratio": 0.926
+    "matched_word_count": 425,
+    "matched_word_ratio": 0.92,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -488,10 +489,10 @@
       "index": 0,
       "section": "Intro – spoken | faint synth hum | distant digital noise",
       "start": 0.0,
-      "end": 12.0,
+      "end": 6.0,
       "text": "You always know what to say.",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3
     },
     {
       "index": 1,

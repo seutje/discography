@@ -13,8 +13,9 @@
     "line_count": 165,
     "reference_word_count": 627,
     "observed_word_count": 1320,
-    "matched_word_count": 309,
-    "matched_word_ratio": 0.493
+    "matched_word_count": 300,
+    "matched_word_ratio": 0.478,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -163,37 +164,37 @@
       "index": 0,
       "section": "Intro – breath close | distant hiss | faint sub",
       "start": 0.0,
-      "end": 5.862,
+      "end": 3.908,
       "text": "Before the flare",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 1,
       "section": "Intro – breath close | distant hiss | faint sub",
       "start": 5.862,
-      "end": 11.723,
+      "end": 9.769,
       "text": "before the name",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 2,
       "section": "Intro – breath close | distant hiss | faint sub",
       "start": 11.723,
-      "end": 19.538,
+      "end": 15.631,
       "text": "there was a temperature",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 3,
       "section": "Intro – breath close | distant hiss | faint sub",
       "start": 19.538,
-      "end": 25.4,
+      "end": 23.446,
       "text": "I couldn’t change",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 4,
@@ -235,19 +236,19 @@
       "index": 8,
       "section": "State I – Residual Field",
       "start": 35.4,
-      "end": 43.4,
+      "end": 42.067,
       "text": "There’s a signal in the frame",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 9,
       "section": "State I – Residual Field",
       "start": 43.4,
-      "end": 51.4,
+      "end": 50.067,
       "text": "older than the face I wear",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 10,
@@ -910,19 +911,19 @@
       "index": 83,
       "section": "State IV – Limit / Core Pressure",
       "start": 183.56,
-      "end": 185.48,
+      "end": 205.4,
       "text": "past where constants bent",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 84,
       "section": "State IV – Limit / Core Pressure",
-      "start": 185.48,
-      "end": 206.4,
+      "start": 205.4,
+      "end": 205.5,
       "text": "Core temperature climbing still",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 85,

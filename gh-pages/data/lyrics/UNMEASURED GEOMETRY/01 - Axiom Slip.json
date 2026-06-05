@@ -13,8 +13,9 @@
     "line_count": 52,
     "reference_word_count": 281,
     "observed_word_count": 286,
-    "matched_word_count": 207,
-    "matched_word_ratio": 0.737
+    "matched_word_count": 206,
+    "matched_word_ratio": 0.733,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -393,10 +394,10 @@
       "index": 15,
       "section": "PRE-CHORUS",
       "start": 158.6,
-      "end": 164.0,
+      "end": 163.1,
       "text": "To catch my breathing.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 16,

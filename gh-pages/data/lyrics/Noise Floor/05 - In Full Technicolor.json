@@ -13,8 +13,9 @@
     "line_count": 60,
     "reference_word_count": 283,
     "observed_word_count": 282,
-    "matched_word_count": 264,
-    "matched_word_ratio": 0.933
+    "matched_word_count": 253,
+    "matched_word_ratio": 0.894,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -188,10 +189,10 @@
       "index": 0,
       "section": "Intro – distant hum | soft oscillation",
       "start": 1.571,
-      "end": 7.857,
+      "end": 6.286,
       "text": "A flicker in the frame",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 1,
@@ -206,19 +207,19 @@
       "index": 2,
       "section": "Intro – distant hum | soft oscillation",
       "start": 14.143,
-      "end": 22.0,
+      "end": 18.857,
       "text": "I turn the dial again",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 3,
       "section": "Intro – distant hum | soft oscillation",
       "start": 22.0,
-      "end": 38.0,
+      "end": 25.2,
       "text": "until the edges come through",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 1
     },
     {
       "index": 4,
@@ -458,10 +459,10 @@
       "index": 30,
       "section": "Pre-Hook – soft lift",
       "start": 128.0,
-      "end": 133.0,
+      "end": 131.75,
       "text": "Not distortion, not disguise",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 31,
@@ -620,10 +621,10 @@
       "index": 48,
       "section": "Final Hook – expansive | luminous",
       "start": 224.0,
-      "end": 231.222,
+      "end": 228.333,
       "text": "Still tuning into the nexus",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 49,
@@ -683,10 +684,10 @@
       "index": 55,
       "section": "Final Hook – expansive | luminous",
       "start": 261.0,
-      "end": 268.8,
+      "end": 267.5,
       "text": "it arrives in front of me",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 56,

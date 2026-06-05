@@ -13,8 +13,9 @@
     "line_count": 84,
     "reference_word_count": 418,
     "observed_word_count": 682,
-    "matched_word_count": 226,
-    "matched_word_ratio": 0.541
+    "matched_word_count": 218,
+    "matched_word_ratio": 0.522,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -233,19 +234,19 @@
       "index": 0,
       "section": "Intro - narrow pulse | scored-line click",
       "start": 0.0,
-      "end": 13.62,
+      "end": 6.81,
       "text": "A little mark across the center",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3
     },
     {
       "index": 1,
       "section": "Intro - narrow pulse | scored-line click",
       "start": 13.62,
-      "end": 27.24,
+      "end": 20.43,
       "text": "like a secret in the shell",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3
     },
     {
       "index": 2,
@@ -503,10 +504,10 @@
       "index": 30,
       "section": "Anxious Turn - arps wobble | bass ducks",
       "start": 105.695,
-      "end": 111.149,
+      "end": 106.513,
       "text": "For a breath I check the exits",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 31,
@@ -926,16 +927,16 @@
       "index": 77,
       "section": "Final Hook - huge, warm, communal",
       "start": 215.317,
-      "end": 228.977,
+      "end": 215.702,
       "text": "then the parting learned to sing",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 78,
       "section": "Final Hook - huge, warm, communal",
-      "start": 228.977,
-      "end": 238.481,
+      "start": 215.702,
+      "end": 228.999,
       "text": "Two small halves become a chorus",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -943,8 +944,8 @@
     {
       "index": 79,
       "section": "Final Hook - huge, warm, communal",
-      "start": 238.481,
-      "end": 246.4,
+      "start": 228.999,
+      "end": 240.079,
       "text": "and the chorus welcomes everything",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -952,8 +953,8 @@
     {
       "index": 80,
       "section": "Outro - carrier pad | fading claps",
-      "start": 246.4,
-      "end": 251.152,
+      "start": 240.079,
+      "end": 246.727,
       "text": "Line through center",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -961,8 +962,8 @@
     {
       "index": 81,
       "section": "Outro - carrier pad | fading claps",
-      "start": 251.152,
-      "end": 255.904,
+      "start": 246.727,
+      "end": 253.376,
       "text": "room made whole",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -970,8 +971,8 @@
     {
       "index": 82,
       "section": "Outro - carrier pad | fading claps",
-      "start": 255.904,
-      "end": 259.072,
+      "start": 253.376,
+      "end": 257.808,
       "text": "warm receiver",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -979,7 +980,7 @@
     {
       "index": 83,
       "section": "Outro - carrier pad | fading claps",
-      "start": 259.072,
+      "start": 257.808,
       "end": 262.24,
       "text": "open soul",
       "timing_source": "interpolated",

@@ -13,8 +13,9 @@
     "line_count": 56,
     "reference_word_count": 253,
     "observed_word_count": 273,
-    "matched_word_count": 206,
-    "matched_word_ratio": 0.814
+    "matched_word_count": 195,
+    "matched_word_ratio": 0.771,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -206,19 +207,19 @@
       "index": 2,
       "section": "Intro - glass bells | faint reversed breath",
       "start": 25.0,
-      "end": 36.455,
+      "end": 31.545,
       "text": "When I held it to the lamp",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3
     },
     {
       "index": 3,
       "section": "Intro - glass bells | faint reversed breath",
       "start": 36.455,
-      "end": 41.364,
+      "end": 39.727,
       "text": "the hidden river showed",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 4,
@@ -305,10 +306,10 @@
       "index": 13,
       "section": "Verse 1 - bare chords | close voice",
       "start": 80.0,
-      "end": 87.0,
+      "end": 82.333,
       "text": "not to own",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 14,
@@ -494,10 +495,10 @@
       "index": 34,
       "section": "Verse 2 - more motion | soft breaks",
       "start": 150.0,
-      "end": 155.0,
+      "end": 152.5,
       "text": "No command",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 35,
@@ -512,10 +513,10 @@
       "index": 36,
       "section": "Bridge - spoken fragments with delay",
       "start": 157.857,
-      "end": 162.143,
+      "end": 160.714,
       "text": "Beneath the color",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 37,
@@ -656,10 +657,10 @@
       "index": 52,
       "section": "Outro - bells and low sub",
       "start": 212.0,
-      "end": 218.0,
+      "end": 216.0,
       "text": "I can see",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 53,
@@ -683,10 +684,10 @@
       "index": 55,
       "section": "Outro - bells and low sub",
       "start": 231.0,
-      "end": 238.0,
+      "end": 233.333,
       "text": "through the leaves",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     }
   ]
 }

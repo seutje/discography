@@ -13,8 +13,9 @@
     "line_count": 61,
     "reference_word_count": 299,
     "observed_word_count": 310,
-    "matched_word_count": 264,
-    "matched_word_ratio": 0.883
+    "matched_word_count": 259,
+    "matched_word_ratio": 0.866,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -163,19 +164,19 @@
       "index": 0,
       "section": "Intro - weak carrier | hand percussion | room hum",
       "start": 0.0,
-      "end": 8.615,
+      "end": 7.385,
       "text": "I send a lamp through copper weather",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 1,
       "section": "Intro - weak carrier | hand percussion | room hum",
       "start": 8.615,
-      "end": 16.0,
+      "end": 14.769,
       "text": "three small pulses, then a pause",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 2,
@@ -406,10 +407,10 @@
       "index": 27,
       "section": "Hook - wider | bass warms",
       "start": 89.667,
-      "end": 99.0,
+      "end": 95.889,
       "text": "like a language with a hand",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 4
     },
     {
       "index": 28,
@@ -685,10 +686,10 @@
       "index": 58,
       "section": "Outro - carrier tone becomes pad",
       "start": 178.5,
-      "end": 184.0,
+      "end": 182.167,
       "text": "then you knew",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 59,

@@ -13,8 +13,9 @@
     "line_count": 40,
     "reference_word_count": 263,
     "observed_word_count": 1333,
-    "matched_word_count": 6,
-    "matched_word_ratio": 0.023
+    "matched_word_count": 5,
+    "matched_word_ratio": 0.019,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -110,16 +111,16 @@
       "index": 3,
       "section": "Verse 1",
       "start": 119.73,
-      "end": 210.0,
+      "end": 120.0,
       "text": "I chase the echo of a feeling I don’t recognize,",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 4,
       "section": "Verse 1",
-      "start": 210.0,
-      "end": 223.379,
+      "start": 120.0,
+      "end": 173.879,
       "text": "Trading pieces of myself for shadows dressed as highs.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -127,8 +128,8 @@
     {
       "index": 5,
       "section": "Verse 1",
-      "start": 223.379,
-      "end": 232.298,
+      "start": 173.879,
+      "end": 209.798,
       "text": "Glass serpents coil around my thoughts,",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -136,7 +137,7 @@
     {
       "index": 6,
       "section": "Verse 1",
-      "start": 232.298,
+      "start": 209.798,
       "end": 239.73,
       "text": "Feeding me their borrowed fire",
       "timing_source": "interpolated",

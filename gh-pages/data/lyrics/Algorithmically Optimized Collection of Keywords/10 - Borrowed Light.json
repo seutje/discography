@@ -13,8 +13,9 @@
     "line_count": 48,
     "reference_word_count": 290,
     "observed_word_count": 288,
-    "matched_word_count": 264,
-    "matched_word_ratio": 0.91
+    "matched_word_count": 251,
+    "matched_word_ratio": 0.866,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -253,10 +254,10 @@
       "index": 0,
       "section": "verse",
       "start": 0.0,
-      "end": 27.0,
+      "end": 3.857,
       "text": "I carve a lantern out of quiet,",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 1
     },
     {
       "index": 1,
@@ -352,10 +353,10 @@
       "index": 11,
       "section": "pre-chorus",
       "start": 84.0,
-      "end": 90.0,
+      "end": 88.8,
       "text": "depending who unveils the glass.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 12,
@@ -649,19 +650,19 @@
       "index": 44,
       "section": "outro",
       "start": 243.0,
-      "end": 264.0,
+      "end": 246.5,
       "text": "One day the echo might remember",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 1
     },
     {
       "index": 45,
       "section": "outro",
       "start": 264.0,
-      "end": 271.0,
+      "end": 269.833,
       "text": "the shape of its first sound.",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 46,
@@ -676,10 +677,10 @@
       "index": 47,
       "section": "outro",
       "start": 277.0,
-      "end": 286.0,
+      "end": 282.4,
       "text": "of the lost and the profound.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     }
   ]
 }

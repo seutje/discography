@@ -13,8 +13,9 @@
     "line_count": 64,
     "reference_word_count": 354,
     "observed_word_count": 376,
-    "matched_word_count": 264,
-    "matched_word_ratio": 0.746
+    "matched_word_count": 259,
+    "matched_word_ratio": 0.732,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -368,10 +369,10 @@
       "index": 0,
       "section": "verse 1",
       "start": 30.0,
-      "end": 40.0,
+      "end": 36.667,
       "text": "I was thrown through weathered hallways,",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 1,
@@ -728,10 +729,10 @@
       "index": 40,
       "section": "bridge",
       "start": 190.0,
-      "end": 197.0,
+      "end": 195.25,
       "text": "I crawled the track in circles,",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 41,
@@ -755,10 +756,10 @@
       "index": 43,
       "section": "bridge",
       "start": 210.0,
-      "end": 215.0,
+      "end": 212.5,
       "text": "Unanswered dial-up tones.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 44,
@@ -790,11 +791,11 @@
     {
       "index": 47,
       "section": "bridge",
-      "start": 230.0,
+      "start": 241.25,
       "end": 245.0,
       "text": "Where legs were never meant to be.",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 48,
@@ -935,10 +936,10 @@
       "index": 63,
       "section": "outro",
       "start": 285.5,
-      "end": 294.0,
+      "end": 292.25,
       "text": "Across the dark that made me bright.",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     }
   ]
 }

@@ -13,8 +13,8 @@
     "line_count": 130,
     "reference_word_count": 735,
     "observed_word_count": 900,
-    "matched_word_count": 176,
-    "matched_word_ratio": 0.239,
+    "matched_word_count": 168,
+    "matched_word_ratio": 0.229,
     "inserted_adlib_count": 0
   },
   "transcript_segments": [
@@ -636,19 +636,19 @@
       "index": 8,
       "section": "Hook",
       "start": 18.0,
-      "end": 60.0,
+      "end": 18.667,
       "text": "See the throne, chase the trick",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 2
     },
     {
       "index": 9,
       "section": "Hook",
-      "start": 60.0,
-      "end": 61.2,
+      "start": 20.0,
+      "end": 22.0,
       "text": "Every promise counterfeit",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 10,
@@ -1068,15 +1068,15 @@
       "index": 56,
       "section": "Pre-Chorus",
       "start": 128.0,
-      "end": 139.667,
+      "end": 128.333,
       "text": "Every flex just bait in a trick",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 57,
       "section": "Pre-Chorus",
-      "start": 139.667,
+      "start": 128.333,
       "end": 142.0,
       "text": "Another carrot on a stick",
       "timing_source": "interpolated",

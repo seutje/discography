@@ -13,8 +13,9 @@
     "line_count": 86,
     "reference_word_count": 387,
     "observed_word_count": 405,
-    "matched_word_count": 339,
-    "matched_word_ratio": 0.876
+    "matched_word_count": 323,
+    "matched_word_ratio": 0.835,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -233,19 +234,19 @@
       "index": 0,
       "section": "Intro – distant low hum | slow oscillation | faint high-frequency pulses",
       "start": 1.75,
-      "end": 10.5,
+      "end": 7.0,
       "text": "Two bodies in a quiet bind",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 1,
       "section": "Intro – distant low hum | slow oscillation | faint high-frequency pulses",
       "start": 10.5,
-      "end": 21.0,
+      "end": 15.75,
       "text": "one defines the frame of time",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3
     },
     {
       "index": 2,
@@ -260,10 +261,10 @@
       "index": 3,
       "section": "Intro – distant low hum | slow oscillation | faint high-frequency pulses",
       "start": 28.0,
-      "end": 46.0,
+      "end": 31.0,
       "text": "held in paths your mass composed",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 4,
@@ -332,10 +333,10 @@
       "index": 11,
       "section": "Verse 1 – minimal pulse | soft sub movement | wide empty space",
       "start": 67.0,
-      "end": 73.429,
+      "end": 72.143,
       "text": "as if you were origin",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 12,
@@ -368,10 +369,10 @@
       "index": 15,
       "section": "Pre-Hook – delays tighten | subtle pitch dip",
       "start": 81.0,
-      "end": 86.0,
+      "end": 84.75,
       "text": "but not for me",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 16,
@@ -386,10 +387,10 @@
       "index": 17,
       "section": "Pre-Hook – delays tighten | subtle pitch dip",
       "start": 91.0,
-      "end": 97.0,
+      "end": 95.0,
       "text": "you just be",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 18,
@@ -773,19 +774,19 @@
       "index": 60,
       "section": "Verse 3 – slower | more grounded | less spatial width",
       "start": 221.0,
-      "end": 234.8,
+      "end": 225.6,
       "text": "I begin to feel the strain",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 2
     },
     {
       "index": 61,
       "section": "Verse 3 – slower | more grounded | less spatial width",
       "start": 234.8,
-      "end": 244.0,
+      "end": 239.4,
       "text": "of revolving in your name",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 62,

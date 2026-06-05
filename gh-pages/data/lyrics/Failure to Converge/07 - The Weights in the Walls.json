@@ -13,8 +13,9 @@
     "line_count": 104,
     "reference_word_count": 468,
     "observed_word_count": 449,
-    "matched_word_count": 381,
-    "matched_word_ratio": 0.814
+    "matched_word_count": 380,
+    "matched_word_ratio": 0.812,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -957,7 +958,7 @@
       "index": 51,
       "section": "Bridge – instrumental glitch wash → sudden drop | whispered, intimate",
       "start": 158.0,
-      "end": 158.1,
+      "end": 162.75,
       "text": "(glitches stretch and smear, then fall away)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -965,11 +966,11 @@
     {
       "index": 52,
       "section": "Bridge – instrumental glitch wash → sudden drop | whispered, intimate",
-      "start": 158.1,
+      "start": 162.75,
       "end": 165.0,
       "text": "You trimmed the world to fit inside me.",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 53,

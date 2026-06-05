@@ -13,8 +13,8 @@
     "line_count": 80,
     "reference_word_count": 515,
     "observed_word_count": 307,
-    "matched_word_count": 49,
-    "matched_word_ratio": 0.095,
+    "matched_word_count": 46,
+    "matched_word_ratio": 0.089,
     "inserted_adlib_count": 0
   },
   "transcript_segments": [
@@ -265,10 +265,10 @@
       "index": 4,
       "section": "Verse 1 – hard entry | triplet flow | heavy 808s",
       "start": 119.0,
-      "end": 132.444,
+      "end": 119.667,
       "text": "Crit-hit cadence, I’m a glitch in the system",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 5,
@@ -418,16 +418,16 @@
       "index": 21,
       "section": "Pre-Hook – half-time bounce | glitch delays",
       "start": 142.0,
-      "end": 152.111,
+      "end": 142.25,
       "text": "If I flip, get a rise, get a spike, get a fix",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 22,
       "section": "Pre-Hook – half-time bounce | glitch delays",
-      "start": 152.111,
-      "end": 152.211,
+      "start": 142.25,
+      "end": 148.0,
       "text": "Just a trick, just a bit—just a—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -435,17 +435,17 @@
     {
       "index": 23,
       "section": "Hook – stripped but heavy | distorted chant",
-      "start": 152.211,
-      "end": 152.311,
+      "start": 148.0,
+      "end": 151.0,
       "text": "Just larping",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 24,
       "section": "Hook – stripped but heavy | distorted chant",
-      "start": 152.311,
-      "end": 152.411,
+      "start": 151.0,
+      "end": 152.111,
       "text": "Dark art, sharp tongue, spark it",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -453,7 +453,7 @@
     {
       "index": 25,
       "section": "Hook – stripped but heavy | distorted chant",
-      "start": 152.411,
+      "start": 152.111,
       "end": 153.545,
       "text": "Play the part ‘til the mask gets carbon",
       "timing_source": "whisper-aligned",
@@ -625,7 +625,7 @@
       "index": 44,
       "section": "Verse 2 – faster triplets | more glitch cuts",
       "start": 163.443,
-      "end": 163.543,
+      "end": 163.772,
       "text": "Ration the passion, then crash into factions",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -633,8 +633,8 @@
     {
       "index": 45,
       "section": "Verse 2 – faster triplets | more glitch cuts",
-      "start": 163.543,
-      "end": 163.643,
+      "start": 163.772,
+      "end": 164.637,
       "text": "Clash just to cash in on flashes of traction",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -642,8 +642,8 @@
     {
       "index": 46,
       "section": "Verse 2 – faster triplets | more glitch cuts",
-      "start": 163.643,
-      "end": 163.743,
+      "start": 164.637,
+      "end": 165.31,
       "text": "Smash the connection, detach from the action",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -651,8 +651,8 @@
     {
       "index": 47,
       "section": "Bridge – beat drops out | eerie drone | whispered doubles",
-      "start": 163.743,
-      "end": 163.843,
+      "start": 165.31,
+      "end": 165.41,
       "text": "(whisper)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -660,8 +660,8 @@
     {
       "index": 48,
       "section": "Bridge – beat drops out | eerie drone | whispered doubles",
-      "start": 163.843,
-      "end": 163.943,
+      "start": 165.41,
+      "end": 165.983,
       "text": "It’s easier when they hate me.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -669,8 +669,8 @@
     {
       "index": 49,
       "section": "Bridge – beat drops out | eerie drone | whispered doubles",
-      "start": 163.943,
-      "end": 164.043,
+      "start": 165.983,
+      "end": 166.271,
       "text": "(whisper, layered glitch)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -678,8 +678,8 @@
     {
       "index": 50,
       "section": "Bridge – beat drops out | eerie drone | whispered doubles",
-      "start": 164.043,
-      "end": 164.143,
+      "start": 166.271,
+      "end": 166.752,
       "text": "Harder when they see me.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -687,8 +687,8 @@
     {
       "index": 51,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 164.143,
-      "end": 164.243,
+      "start": 166.752,
+      "end": 167.521,
       "text": "Armor is noise, I deploy it in layers",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -696,8 +696,8 @@
     {
       "index": 52,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 164.243,
-      "end": 164.343,
+      "start": 167.521,
+      "end": 168.194,
       "text": "Annoy ‘em on purpose, avoid being bared",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -705,8 +705,8 @@
     {
       "index": 53,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 164.343,
-      "end": 164.443,
+      "start": 168.194,
+      "end": 169.155,
       "text": "Aware that I care, but I swear I don’t care",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -714,8 +714,8 @@
     {
       "index": 54,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 164.443,
-      "end": 164.543,
+      "start": 169.155,
+      "end": 170.117,
       "text": "It’s a dare to myself—“never let ‘em get there”",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -723,8 +723,8 @@
     {
       "index": 55,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 164.543,
-      "end": 164.643,
+      "start": 170.117,
+      "end": 170.693,
       "text": "Side quest psyche, I psyche myself",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -732,8 +732,8 @@
     {
       "index": 56,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 164.643,
-      "end": 164.743,
+      "start": 170.693,
+      "end": 171.366,
       "text": "High check, mic check, lie to myself",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -741,8 +741,8 @@
     {
       "index": 57,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 164.743,
-      "end": 164.843,
+      "start": 171.366,
+      "end": 171.847,
       "text": "Diegetic villain, I’m writing myself",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -750,8 +750,8 @@
     {
       "index": 58,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 164.843,
-      "end": 164.943,
+      "start": 171.847,
+      "end": 172.809,
       "text": "Into fights just to feel like I’m right with myself",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -759,8 +759,8 @@
     {
       "index": 59,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 164.943,
-      "end": 165.056,
+      "start": 172.809,
+      "end": 173.481,
       "text": "Insight? Light leaks—slight, then it’s gone",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -768,8 +768,8 @@
     {
       "index": 60,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 165.056,
-      "end": 165.244,
+      "start": 173.481,
+      "end": 174.347,
       "text": "Right when it’s wrong, I’m back with the spawn",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -777,8 +777,8 @@
     {
       "index": 61,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 165.244,
-      "end": 165.39,
+      "start": 174.347,
+      "end": 175.02,
       "text": "Respawn, re-form, re-warp the persona",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -786,8 +786,8 @@
     {
       "index": 62,
       "section": "Verse 3 – slower but heavier delivery | distortion creeping",
-      "start": 165.39,
-      "end": 165.599,
+      "start": 175.02,
+      "end": 175.981,
       "text": "So no one can corner the core of the owner",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -795,8 +795,8 @@
     {
       "index": 63,
       "section": "Pre-Hook – glitch stutter returns",
-      "start": 165.599,
-      "end": 165.746,
+      "start": 175.981,
+      "end": 176.654,
       "text": "If I break character—nah, I don’t",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -804,8 +804,8 @@
     {
       "index": 64,
       "section": "Pre-Hook – glitch stutter returns",
-      "start": 165.746,
-      "end": 165.913,
+      "start": 176.654,
+      "end": 177.423,
       "text": "If I say “I’m hurt”—nah, I won’t",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -813,8 +813,8 @@
     {
       "index": 65,
       "section": "Pre-Hook – glitch stutter returns",
-      "start": 165.913,
-      "end": 166.038,
+      "start": 177.423,
+      "end": 178.0,
       "text": "If I—if I—if I—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -822,17 +822,17 @@
     {
       "index": 66,
       "section": "Hook – fuller, more chaotic",
-      "start": 166.038,
-      "end": 166.138,
+      "start": 178.0,
+      "end": 179.0,
       "text": "Just larping",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 67,
       "section": "Hook – fuller, more chaotic",
-      "start": 166.138,
-      "end": 166.238,
+      "start": 179.0,
+      "end": 179.1,
       "text": "Dark art, sharp tongue, spark it",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -840,8 +840,8 @@
     {
       "index": 68,
       "section": "Hook – fuller, more chaotic",
-      "start": 166.238,
-      "end": 166.373,
+      "start": 179.1,
+      "end": 179.2,
       "text": "Play the part ‘til the mask gets carbon",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -849,8 +849,8 @@
     {
       "index": 69,
       "section": "Hook – fuller, more chaotic",
-      "start": 166.373,
-      "end": 166.561,
+      "start": 179.2,
+      "end": 179.3,
       "text": "Cracks but I laugh—“it’s all just a bargain”",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -858,17 +858,17 @@
     {
       "index": 70,
       "section": "Hook – fuller, more chaotic",
-      "start": 166.561,
-      "end": 166.661,
+      "start": 179.3,
+      "end": 179.4,
       "text": "Just larping",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 71,
       "section": "Hook – fuller, more chaotic",
-      "start": 166.661,
-      "end": 166.761,
+      "start": 179.4,
+      "end": 179.5,
       "text": "Roll low, still pose like a marksman",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -876,8 +876,8 @@
     {
       "index": 72,
       "section": "Hook – fuller, more chaotic",
-      "start": 166.761,
-      "end": 166.875,
+      "start": 179.5,
+      "end": 179.6,
       "text": "False start, false heart, false martyr",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -885,8 +885,8 @@
     {
       "index": 73,
       "section": "Hook – fuller, more chaotic",
-      "start": 166.875,
-      "end": 167.0,
+      "start": 179.6,
+      "end": 179.7,
       "text": "All bark, no arc—just larping",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -894,8 +894,8 @@
     {
       "index": 74,
       "section": "Outro – decaying beat | digital artifacts | voice degrading",
-      "start": 167.0,
-      "end": 168.0,
+      "start": 179.7,
+      "end": 179.8,
       "text": "Crit fail…",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -903,8 +903,8 @@
     {
       "index": 75,
       "section": "Outro – decaying beat | digital artifacts | voice degrading",
-      "start": 169.0,
-      "end": 169.667,
+      "start": 179.8,
+      "end": 179.9,
       "text": "still narrating.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -912,8 +912,8 @@
     {
       "index": 76,
       "section": "Outro – decaying beat | digital artifacts | voice degrading",
-      "start": 173.0,
-      "end": 174.0,
+      "start": 179.9,
+      "end": 180.0,
       "text": "No save…",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -921,8 +921,8 @@
     {
       "index": 77,
       "section": "Outro – decaying beat | digital artifacts | voice degrading",
-      "start": 176.0,
-      "end": 178.0,
+      "start": 180.0,
+      "end": 180.1,
       "text": "just—performing.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -930,8 +930,8 @@
     {
       "index": 78,
       "section": "Outro – decaying beat | digital artifacts | voice degrading",
-      "start": 178.0,
-      "end": 178.1,
+      "start": 180.1,
+      "end": 180.2,
       "text": "(quiet, almost clean)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -939,8 +939,8 @@
     {
       "index": 79,
       "section": "Outro – decaying beat | digital artifacts | voice degrading",
-      "start": 178.1,
-      "end": 178.2,
+      "start": 180.2,
+      "end": 180.3,
       "text": "…just larping.",
       "timing_source": "whisper-aligned",
       "matched_words": 1

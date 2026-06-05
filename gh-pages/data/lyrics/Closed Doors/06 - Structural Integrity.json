@@ -14,7 +14,8 @@
     "reference_word_count": 737,
     "observed_word_count": 763,
     "matched_word_count": 542,
-    "matched_word_ratio": 0.735
+    "matched_word_ratio": 0.735,
+    "inserted_adlib_count": 1
   },
   "transcript_segments": [
     {
@@ -201,1488 +202,1663 @@
   "lines": [
     {
       "index": 0,
+      "section": "Detected ad-lib",
+      "start": 0.0,
+      "end": 2.0,
+      "text": "Check the beams.",
+      "timing_source": "transcript-repeated-adlib",
+      "matched_words": 3,
+      "line_type": "transcript-adlib"
+    },
+    {
+      "index": 1,
       "section": "Intro – spoken | guitar taps | group whispers",
       "start": 3.44,
       "end": 4.68,
       "text": "Check the beams.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 1,
+      "index": 2,
       "section": "Intro – spoken | guitar taps | group whispers",
       "start": 4.68,
       "end": 5.88,
       "text": "Check the beams.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 2,
+      "index": 3,
       "section": "Intro – spoken | guitar taps | group whispers",
       "start": 5.88,
       "end": 7.92,
       "text": "Structural integrity report:",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 3,
+      "index": 4,
       "section": "Intro – spoken | guitar taps | group whispers",
       "start": 7.92,
       "end": 8.76,
       "text": "questionable.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 4,
+      "index": 5,
       "section": "Intro – spoken | guitar taps | group whispers",
       "start": 8.76,
       "end": 10.76,
       "text": "Occupancy limit?",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 5,
+      "index": 6,
       "section": "Intro – spoken | guitar taps | group whispers",
       "start": 10.76,
       "end": 11.453,
       "text": "One.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 6,
+      "index": 7,
       "section": "Intro – spoken | guitar taps | group whispers",
       "start": 11.453,
       "end": 12.84,
       "text": "Maybe two",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 7,
+      "index": 8,
       "section": "Intro – spoken | guitar taps | group whispers",
       "start": 12.84,
       "end": 14.08,
       "text": "if they breathe quietly.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 8,
+      "index": 9,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 14.08,
       "end": 17.214,
       "text": "I’m load-bearing, chair-staring, barely preparing",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 9,
+      "index": 10,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 17.214,
       "end": 21.244,
       "text": "For a normal little Tuesday with the daylight glaring",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 10,
+      "index": 11,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 21.244,
       "end": 25.274,
       "text": "Cup in the sink and the phone keeps ringing",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 11,
+      "index": 12,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 25.274,
       "end": 29.304,
       "text": "And the doorbell sings like a bad bell swinging",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 12,
+      "index": 13,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 29.304,
       "end": 33.334,
       "text": "Mail on the mat, and the cat needs feeding",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 13,
+      "index": 14,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 33.334,
       "end": 36.916,
       "text": "One more form with a name worth reading",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 14,
+      "index": 15,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 36.916,
       "end": 40.498,
       "text": "Light in the kitchen doing too much meaning",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 15,
+      "index": 16,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 40.498,
       "end": 44.08,
       "text": "And the whole damn ceiling starts quietly leaning",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 16,
+      "index": 17,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 44.08,
       "end": 44.989,
       "text": "I’m fine, I’m fine, I’m legally fine",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 17,
+      "index": 18,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 45.292,
       "end": 47.716,
       "text": "Got a smile on my face like a warning sign",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 18,
+      "index": 19,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 48.322,
       "end": 51.656,
       "text": "Got a list in my fist and a plan in decline",
       "timing_source": "whisper-aligned",
-      "matched_words": 10
+      "matched_words": 10,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 19,
+      "index": 20,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 52.262,
       "end": 54.383,
       "text": "Got a brain full of scaffolds and fraying twine",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 20,
+      "index": 21,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 54.383,
       "end": 56.807,
       "text": "Don’t touch that wall, that wall is essential",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 21,
+      "index": 22,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 56.807,
       "end": 58.928,
       "text": "Don’t ask that thing, that thing is potential",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 22,
+      "index": 23,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 58.928,
       "end": 61.353,
       "text": "Don’t move that chair, that chair is mental",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 23,
+      "index": 24,
       "section": "Verse 1 – bouncy spoken rap",
       "start": 61.353,
       "end": 63.171,
       "text": "Don’t say “relax,” that’s not instrumental",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 24,
+      "index": 25,
       "section": "Group shout",
       "start": 63.171,
       "end": 63.777,
       "text": "Check the beams!",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 25,
+      "index": 26,
       "section": "Pre-Hook – half-sung, half-spoken",
       "start": 64.989,
       "end": 65.898,
       "text": "One small sound",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 26,
+      "index": 27,
       "section": "Pre-Hook – half-sung, half-spoken",
       "start": 65.898,
       "end": 67.413,
       "text": "and the plaster shakes",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 27,
+      "index": 28,
       "section": "Pre-Hook – half-sung, half-spoken",
       "start": 67.413,
       "end": 68.322,
       "text": "One wrong look",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 28,
+      "index": 29,
       "section": "Pre-Hook – half-sung, half-spoken",
       "start": 68.322,
       "end": 69.838,
       "text": "and the hallway breaks",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 29,
+      "index": 30,
       "section": "Pre-Hook – half-sung, half-spoken",
       "start": 69.838,
       "end": 70.141,
       "text": "It’s not drama",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 30,
+      "index": 31,
       "section": "Pre-Hook – half-sung, half-spoken",
       "start": 70.444,
       "end": 71.959,
       "text": "it’s stress in the frame",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 31,
+      "index": 32,
       "section": "Pre-Hook – half-sung, half-spoken",
       "start": 71.959,
       "end": 73.171,
       "text": "You call it nothing",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 32,
+      "index": 33,
       "section": "Pre-Hook – half-sung, half-spoken",
       "start": 73.171,
       "end": 74.68,
       "text": "I call it flame",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 33,
+      "index": 34,
       "section": "Hook – call-and-response",
       "start": 74.68,
       "end": 75.88,
       "text": "Structural integrity!",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 34,
+      "index": 35,
       "section": "Hook – call-and-response",
       "start": 75.88,
       "end": 80.68,
       "text": "How much pressure can the old place take?",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 35,
+      "index": 36,
       "section": "Hook – call-and-response",
       "start": 80.68,
       "end": 81.88,
       "text": "Structural integrity!",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 36,
+      "index": 37,
       "section": "Hook – call-and-response",
       "start": 81.88,
       "end": 85.48,
       "text": "How many little things before I break?",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 37,
+      "index": 38,
       "section": "Hook – call-and-response",
       "start": 87.52,
       "end": 88.0,
       "text": "Load-bearing silence",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 38,
+      "index": 39,
       "section": "Hook – call-and-response",
       "start": 88.48,
       "end": 89.44,
       "text": "load-bearing grin",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 39,
+      "index": 40,
       "section": "Hook – call-and-response",
       "start": 89.44,
       "end": 90.4,
       "text": "Everybody out",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 40,
+      "index": 41,
       "section": "Hook – call-and-response",
       "start": 90.4,
       "end": 92.8,
       "text": "before the walls cave in",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 41,
+      "index": 42,
       "section": "Hook – call-and-response",
       "start": 92.8,
       "end": 93.76,
       "text": "Structural integrity!",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 42,
+      "index": 43,
       "section": "Hook – call-and-response",
       "start": 93.76,
       "end": 95.68,
       "text": "If I fall apart",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 43,
+      "index": 44,
       "section": "Hook – call-and-response",
       "start": 95.68,
       "end": 97.6,
       "text": "don’t call it a mood",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 44,
+      "index": 45,
       "section": "Hook – call-and-response",
       "start": 98.08,
       "end": 99.037,
       "text": "Call it demolition",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 45,
+      "index": 46,
       "section": "Hook – call-and-response",
       "start": 99.037,
       "end": 100.314,
       "text": "with a missing crew",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 46,
+      "index": 47,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 100.314,
       "end": 102.229,
       "text": "Click-clack panic with a backpack, knick-knack",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 47,
+      "index": 48,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 102.548,
       "end": 104.782,
       "text": "Stacked-up tasks in a zigzag rucksack",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 48,
+      "index": 49,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 104.782,
       "end": 107.016,
       "text": "Trip-trap thought with the grip gone slip-snap",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 49,
+      "index": 50,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 107.654,
       "end": 110.527,
       "text": "Trying to act calm but the floorboards clap back",
       "timing_source": "whisper-aligned",
-      "matched_words": 9
+      "matched_words": 9,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 50,
+      "index": 51,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 110.527,
       "end": 113.08,
       "text": "Can’t track tone when the light gets loud",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 51,
+      "index": 52,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 113.08,
       "end": 115.58,
       "text": "Can’t pack self in a polite little crowd",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 52,
+      "index": 53,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 115.58,
       "end": 118.08,
       "text": "Can’t mask cracks when the heat gets proud",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 53,
+      "index": 54,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 118.08,
       "end": 120.892,
       "text": "Can’t keep shape when the roof comes down",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 54,
+      "index": 55,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 120.892,
       "end": 123.08,
       "text": "You say, “It’s simple,” I say, “Fantastic”",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 55,
+      "index": 56,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 123.08,
       "end": 125.6,
       "text": "Simple things are the ones most drastic",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 56,
+      "index": 57,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 125.6,
       "end": 128.84,
       "text": "One more choice and the joists go spastic",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 57,
+      "index": 58,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 129.2,
       "end": 130.28,
       "text": "Whole house bends like tired elastic",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 58,
+      "index": 59,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 131.72,
       "end": 134.157,
       "text": "And yes, I know I’ve done stars before",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 59,
+      "index": 60,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 135.195,
       "end": 136.58,
       "text": "Collapsed whole suns on the bedroom floor",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 60,
+      "index": 61,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 137.618,
       "end": 137.965,
       "text": "Chandrasekhar limit, one point four four",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 61,
+      "index": 62,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 138.657,
       "end": 141.08,
       "text": "White dwarf math knocking at the door",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 62,
+      "index": 63,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 141.08,
       "end": 143.564,
       "text": "But that’s not a metaphor this time, friend",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 63,
+      "index": 64,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 143.564,
       "end": 144.983,
       "text": "That’s me out of metaphors near the end",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 64,
+      "index": 65,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 146.757,
       "end": 148.532,
       "text": "Whole universe folded, no symbols extend",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 65,
+      "index": 66,
       "section": "Verse 2 – faster triplets | acoustic percussion tightens",
       "start": 148.532,
       "end": 152.08,
       "text": "Just a room going quiet with a wall to defend",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 66,
+      "index": 67,
       "section": "Beat dropout – spoken",
       "start": 152.08,
       "end": 155.08,
       "text": "I’m not comparing myself to a star.",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 67,
+      "index": 68,
       "section": "Beat dropout – spoken",
       "start": 155.08,
       "end": 155.937,
       "text": "I’m saying",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 68,
+      "index": 69,
       "section": "Beat dropout – spoken",
       "start": 155.937,
       "end": 158.08,
       "text": "I ran out of sky.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 69,
+      "index": 70,
       "section": "Hook – more strained",
       "start": 158.08,
       "end": 159.238,
       "text": "Structural integrity!",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 70,
+      "index": 71,
       "section": "Hook – more strained",
       "start": 159.238,
       "end": 163.869,
       "text": "How much pressure can the old place take?",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 71,
+      "index": 72,
       "section": "Hook – more strained",
       "start": 163.869,
       "end": 165.027,
       "text": "Structural integrity!",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 72,
+      "index": 73,
       "section": "Hook – more strained",
       "start": 165.027,
       "end": 168.501,
       "text": "How many little things before I break?",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 73,
+      "index": 74,
       "section": "Hook – more strained",
       "start": 171.975,
       "end": 172.448,
       "text": "Load-bearing silence",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 74,
+      "index": 75,
       "section": "Hook – more strained",
       "start": 172.448,
       "end": 172.922,
       "text": "load-bearing grin",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 75,
+      "index": 76,
       "section": "Hook – more strained",
       "start": 172.922,
       "end": 173.869,
       "text": "Everybody out",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 76,
+      "index": 77,
       "section": "Hook – more strained",
       "start": 173.869,
       "end": 176.238,
       "text": "before the walls cave in",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 77,
+      "index": 78,
       "section": "Hook – more strained",
       "start": 176.238,
       "end": 177.185,
       "text": "Structural integrity!",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 78,
+      "index": 79,
       "section": "Hook – more strained",
       "start": 177.185,
       "end": 179.08,
       "text": "If I fall apart",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 79,
+      "index": 80,
       "section": "Hook – more strained",
       "start": 179.58,
       "end": 182.08,
       "text": "don’t call it a mood",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 80,
+      "index": 81,
       "section": "Hook – more strained",
       "start": 182.08,
       "end": 184.08,
       "text": "Call it demolition",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 81,
+      "index": 82,
       "section": "Hook – more strained",
       "start": 184.08,
       "end": 185.58,
       "text": "with a missing crew",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 82,
+      "index": 83,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 186.08,
       "end": 187.04,
       "text": "Clear the room.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 83,
+      "index": 84,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 187.36,
       "end": 188.0,
       "text": "No, really.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 84,
+      "index": 85,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 188.0,
       "end": 188.96,
       "text": "Clear the room.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 85,
+      "index": 86,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 188.96,
       "end": 190.56,
       "text": "Not because I hate you.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 86,
+      "index": 87,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 190.56,
       "end": 192.48,
       "text": "Not because I’m making a point.",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 87,
+      "index": 88,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 192.48,
       "end": 194.08,
       "text": "Because the bolts are screaming",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 88,
+      "index": 89,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 194.08,
       "end": 196.125,
       "text": "and the banister knows",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 89,
+      "index": 90,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 196.535,
       "end": 198.171,
       "text": "and the paint has started",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 90,
+      "index": 91,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 198.171,
       "end": 199.398,
       "text": "remembering every hand",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 91,
+      "index": 92,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 199.807,
       "end": 201.444,
       "text": "that ever slammed a door.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 92,
+      "index": 93,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 201.444,
       "end": 203.08,
       "text": "There is a stage",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 93,
+      "index": 94,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 203.866,
       "end": 205.044,
       "text": "where language leaves first.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 94,
+      "index": 95,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 205.437,
       "end": 205.83,
       "text": "Then humor.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 95,
+      "index": 96,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 205.83,
       "end": 206.616,
       "text": "Then posture.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 96,
+      "index": 97,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 206.616,
       "end": 209.366,
       "text": "Then the small polite version of me",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 97,
+      "index": 98,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 209.366,
       "end": 210.151,
       "text": "who says,",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 98,
+      "index": 99,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 210.151,
       "end": 211.723,
       "text": "“Give me a minute.”",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 99,
+      "index": 100,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 211.723,
       "end": 212.509,
       "text": "He’s gone.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 100,
+      "index": 101,
       "section": "Bridge – breakdown | rhythm stumbles",
       "start": 212.509,
       "end": 214.08,
       "text": "He left his coat.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 101,
+      "index": 102,
       "section": "Collapse – sparse impacts | whispered doubles",
       "start": 215.441,
       "end": 215.802,
       "text": "Beam one: gone.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 102,
+      "index": 103,
       "section": "Collapse – sparse impacts | whispered doubles",
       "start": 216.524,
       "end": 217.247,
       "text": "Beam two: split.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 103,
+      "index": 104,
       "section": "Collapse – sparse impacts | whispered doubles",
       "start": 217.608,
       "end": 218.691,
       "text": "Beam three: don’t ask.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 104,
+      "index": 105,
       "section": "Collapse – sparse impacts | whispered doubles",
       "start": 219.413,
       "end": 219.774,
       "text": "Roofline: shifting.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 105,
+      "index": 106,
       "section": "Collapse – sparse impacts | whispered doubles",
       "start": 219.774,
       "end": 220.136,
       "text": "Foundation: old.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 106,
+      "index": 107,
       "section": "Collapse – sparse impacts | whispered doubles",
       "start": 220.497,
       "end": 221.941,
       "text": "Heart: still in the building.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 107,
+      "index": 108,
       "section": "Verse 3 – slower, bare",
       "start": 221.941,
       "end": 223.747,
       "text": "Then comes the ugly mercy.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 108,
+      "index": 109,
       "section": "Verse 3 – slower, bare",
       "start": 223.747,
       "end": 224.469,
       "text": "The crash.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 109,
+      "index": 110,
       "section": "Verse 3 – slower, bare",
       "start": 224.469,
       "end": 225.552,
       "text": "The honest architecture.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 110,
+      "index": 111,
       "section": "Verse 3 – slower, bare",
       "start": 225.552,
       "end": 228.08,
       "text": "No more pretending the room is usable.",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 111,
+      "index": 112,
       "section": "Verse 3 – slower, bare",
       "start": 228.08,
       "end": 230.659,
       "text": "No more smiling beside a cracked support",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 112,
+      "index": 113,
       "section": "Verse 3 – slower, bare",
       "start": 230.659,
       "end": 231.027,
       "text": "saying,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 113,
+      "index": 114,
       "section": "Verse 3 – slower, bare",
       "start": 231.027,
       "end": 231.764,
       "text": "“Lovely weather.”",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 114,
+      "index": 115,
       "section": "Verse 3 – slower, bare",
       "start": 231.764,
       "end": 233.606,
       "text": "Everything down to dust and joist.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 115,
+      "index": 116,
       "section": "Verse 3 – slower, bare",
       "start": 233.975,
       "end": 234.343,
       "text": "Everything named",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 116,
+      "index": 117,
       "section": "Verse 3 – slower, bare",
       "start": 234.712,
       "end": 235.817,
       "text": "by what survived.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 117,
-      "section": "Verse 3 – slower, bare",
-      "start": 235.817,
-      "end": 236.554,
-      "text": "And there—",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 118,
       "section": "Verse 3 – slower, bare",
-      "start": 236.554,
-      "end": 237.659,
-      "text": "under the mess,",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "start": 235.817,
+      "end": 242.08,
+      "text": "And there—",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 119,
       "section": "Verse 3 – slower, bare",
-      "start": 237.659,
-      "end": 239.869,
-      "text": "under the noise I won’t name,",
+      "start": 242.08,
+      "end": 242.18,
+      "text": "under the mess,",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 120,
       "section": "Verse 3 – slower, bare",
-      "start": 239.869,
-      "end": 240.606,
-      "text": "under the sorry,",
+      "start": 242.18,
+      "end": 242.28,
+      "text": "under the noise I won’t name,",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 121,
       "section": "Verse 3 – slower, bare",
-      "start": 241.343,
-      "end": 241.712,
-      "text": "under the shame—",
+      "start": 242.28,
+      "end": 242.38,
+      "text": "under the sorry,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 122,
+      "section": "Verse 3 – slower, bare",
+      "start": 242.38,
+      "end": 242.48,
+      "text": "under the shame—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 123,
       "section": "Verse 3 – slower, bare",
       "start": 244.08,
       "end": 244.68,
       "text": "there’s a floor.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 123,
+      "index": 124,
       "section": "Verse 3 – slower, bare",
       "start": 244.68,
       "end": 245.48,
       "text": "Not a good one.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 124,
+      "index": 125,
       "section": "Verse 3 – slower, bare",
       "start": 245.48,
       "end": 246.08,
       "text": "But a floor.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 125,
+      "index": 126,
       "section": "Rebuild – rhythm returns softer",
       "start": 246.08,
       "end": 248.117,
       "text": "So we start with that.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 126,
+      "index": 127,
       "section": "Rebuild – rhythm returns softer",
       "start": 248.117,
       "end": 248.524,
       "text": "One plank.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 127,
+      "index": 128,
       "section": "Rebuild – rhythm returns softer",
       "start": 248.932,
       "end": 249.747,
       "text": "One breath.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 128,
+      "index": 129,
       "section": "Rebuild – rhythm returns softer",
       "start": 249.747,
       "end": 251.376,
       "text": "One cup of water",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 129,
+      "index": 130,
       "section": "Rebuild – rhythm returns softer",
       "start": 251.376,
       "end": 253.006,
       "text": "held with both hands.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 130,
+      "index": 131,
       "section": "Rebuild – rhythm returns softer",
       "start": 253.413,
       "end": 253.821,
       "text": "No speeches.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 131,
+      "index": 132,
       "section": "Rebuild – rhythm returns softer",
       "start": 253.821,
       "end": 254.636,
       "text": "No lesson.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 132,
+      "index": 133,
       "section": "Rebuild – rhythm returns softer",
       "start": 254.636,
       "end": 256.265,
       "text": "No bright little poster",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 133,
+      "index": 134,
       "section": "Rebuild – rhythm returns softer",
       "start": 256.265,
       "end": 257.08,
       "text": "about resilience.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 134,
+      "index": 135,
       "section": "Rebuild – rhythm returns softer",
       "start": 257.08,
       "end": 257.554,
       "text": "Just a broom.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 135,
+      "index": 136,
       "section": "Rebuild – rhythm returns softer",
       "start": 258.501,
       "end": 258.975,
       "text": "Just a bag.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 136,
+      "index": 137,
       "section": "Rebuild – rhythm returns softer",
       "start": 259.922,
       "end": 261.343,
       "text": "Just somebody saying,",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 137,
+      "index": 138,
       "section": "Rebuild – rhythm returns softer",
       "start": 261.343,
       "end": 263.238,
       "text": "“I’ll get the left side.”",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 138,
+      "index": 139,
       "section": "Rebuild – rhythm returns softer",
       "start": 263.238,
       "end": 265.606,
       "text": "And not making it holy.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 139,
+      "index": 140,
       "section": "Final Hook – warmer, steadier",
       "start": 270.08,
       "end": 271.08,
       "text": "Structural integrity",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
-    },
-    {
-      "index": 140,
-      "section": "Final Hook – warmer, steadier",
-      "start": 271.08,
-      "end": 272.205,
-      "text": "Maybe breaking was the survey made",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 141,
       "section": "Final Hook – warmer, steadier",
-      "start": 272.205,
-      "end": 272.58,
-      "text": "Structural integrity",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "start": 271.08,
+      "end": 275.08,
+      "text": "Maybe breaking was the survey made",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 142,
       "section": "Final Hook – warmer, steadier",
-      "start": 272.58,
-      "end": 275.08,
-      "text": "Maybe ruins show where weight was laid",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "start": 275.08,
+      "end": 275.18,
+      "text": "Structural integrity",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 143,
+      "section": "Final Hook – warmer, steadier",
+      "start": 275.18,
+      "end": 275.28,
+      "text": "Maybe ruins show where weight was laid",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 144,
       "section": "Final Hook – warmer, steadier",
       "start": 277.08,
       "end": 277.48,
       "text": "Load-bearing quiet",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 144,
+      "index": 145,
       "section": "Final Hook – warmer, steadier",
       "start": 278.28,
       "end": 278.68,
       "text": "load-bearing care",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 145,
+      "index": 146,
       "section": "Final Hook – warmer, steadier",
       "start": 278.68,
       "end": 279.88,
       "text": "Open up the windows",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 146,
+      "index": 147,
       "section": "Final Hook – warmer, steadier",
       "start": 280.28,
       "end": 282.28,
       "text": "let the dust meet air",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 147,
+      "index": 148,
       "section": "Final Hook – warmer, steadier",
       "start": 282.28,
       "end": 283.08,
       "text": "Structural integrity",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 148,
+      "index": 149,
       "section": "Final Hook – warmer, steadier",
       "start": 283.08,
       "end": 284.88,
       "text": "Build it smaller",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 149,
+      "index": 150,
       "section": "Final Hook – warmer, steadier",
       "start": 284.88,
       "end": 285.18,
       "text": "build it true",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 150,
+      "index": 151,
       "section": "Final Hook – warmer, steadier",
       "start": 285.18,
       "end": 285.78,
       "text": "Not for everyone",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 151,
+      "index": 152,
       "section": "Final Hook – warmer, steadier",
       "start": 287.247,
       "end": 288.413,
       "text": "Just enough for two",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 152,
+      "index": 153,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 288.413,
       "end": 289.58,
       "text": "Final report",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 153,
+      "index": 154,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 289.58,
       "end": 291.33,
       "text": "Unsafe for crowds.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 154,
+      "index": 155,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 291.33,
       "end": 293.08,
       "text": "Unfit for shouting.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 155,
+      "index": 156,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 293.547,
       "end": 294.013,
       "text": "Poorly suited",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 156,
+      "index": 157,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 294.013,
       "end": 295.413,
       "text": "to sudden changes",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 157,
+      "index": 158,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 295.413,
       "end": 296.813,
       "text": "and overhead lighting.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 158,
+      "index": 159,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 297.28,
       "end": 297.747,
       "text": "But repairable.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 159,
+      "index": 160,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 297.747,
       "end": 298.213,
       "text": "With notice.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 160,
+      "index": 161,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 299.147,
       "end": 300.08,
       "text": "With patience.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 161,
+      "index": 162,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 300.542,
       "end": 301.465,
       "text": "With fewer people",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 162,
+      "index": 163,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 301.465,
       "end": 303.772,
       "text": "leaning on the same wall.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 163,
+      "index": 164,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 303.772,
       "end": 304.695,
       "text": "Check the beams.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 164,
+      "index": 165,
       "section": "Outro – spoken | guitar and bass fade",
       "start": 305.157,
       "end": 306.08,
       "text": "Still here.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     }
   ]
 }

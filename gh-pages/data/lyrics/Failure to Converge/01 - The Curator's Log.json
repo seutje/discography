@@ -13,8 +13,9 @@
     "line_count": 108,
     "reference_word_count": 558,
     "observed_word_count": 514,
-    "matched_word_count": 472,
-    "matched_word_ratio": 0.846
+    "matched_word_count": 470,
+    "matched_word_ratio": 0.842,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -473,10 +474,10 @@
       "index": 5,
       "section": "Verse 1 – sparse synth plucks + soft pulse",
       "start": 21.0,
-      "end": 31.0,
+      "end": 29.5,
       "text": "I fed the machine a story about longing",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 5
     },
     {
       "index": 6,

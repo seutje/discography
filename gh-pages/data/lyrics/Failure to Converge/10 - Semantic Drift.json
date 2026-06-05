@@ -13,8 +13,9 @@
     "line_count": 77,
     "reference_word_count": 492,
     "observed_word_count": 294,
-    "matched_word_count": 34,
-    "matched_word_ratio": 0.069
+    "matched_word_count": 32,
+    "matched_word_ratio": 0.065,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -733,15 +734,15 @@
       "index": 60,
       "section": "Final Verse – expansion, emotional lift, still precise language",
       "start": 50.571,
-      "end": 57.0,
+      "end": 51.286,
       "text": "I broke the cycle of needing to prove",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 61,
       "section": "Final Verse – expansion, emotional lift, still precise language",
-      "start": 57.0,
+      "start": 51.286,
       "end": 83.0,
       "text": "Rebased my self into something that moved",
       "timing_source": "interpolated",
@@ -796,10 +797,10 @@
       "index": 67,
       "section": "Final Hook – wide, luminous, slight glitch decay on last words",
       "start": 147.0,
-      "end": 155.0,
+      "end": 148.0,
       "text": "I am the patch and the permanent sign",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 68,

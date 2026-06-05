@@ -14,7 +14,8 @@
     "reference_word_count": 778,
     "observed_word_count": 716,
     "matched_word_count": 673,
-    "matched_word_ratio": 0.865
+    "matched_word_ratio": 0.865,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -402,25 +403,25 @@
       "index": 6,
       "section": "Intro – spoken | sparse guitar",
       "start": 11.653,
-      "end": 12.747,
+      "end": 12.88,
       "text": "overexplaining,",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 7,
       "section": "Intro – spoken | sparse guitar",
-      "start": 12.747,
-      "end": 13.84,
+      "start": 12.88,
+      "end": 19.12,
       "text": "underspeaking,",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 8,
       "section": "Intro – spoken | sparse guitar",
-      "start": 13.84,
-      "end": 14.8,
+      "start": 19.12,
+      "end": 19.22,
       "text": "leaving early,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -428,8 +429,8 @@
     {
       "index": 9,
       "section": "Intro – spoken | sparse guitar",
-      "start": 14.8,
-      "end": 15.76,
+      "start": 19.22,
+      "end": 19.32,
       "text": "arriving strange,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -437,8 +438,8 @@
     {
       "index": 10,
       "section": "Intro – spoken | sparse guitar",
-      "start": 15.76,
-      "end": 18.16,
+      "start": 19.32,
+      "end": 19.42,
       "text": "and needing three business days",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -446,7 +447,7 @@
     {
       "index": 11,
       "section": "Intro – spoken | sparse guitar",
-      "start": 18.16,
+      "start": 19.42,
       "end": 21.12,
       "text": "to answer a simple question.",
       "timing_source": "whisper-aligned",

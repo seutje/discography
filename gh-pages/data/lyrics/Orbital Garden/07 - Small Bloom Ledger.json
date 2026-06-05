@@ -13,8 +13,9 @@
     "line_count": 56,
     "reference_word_count": 255,
     "observed_word_count": 256,
-    "matched_word_count": 212,
-    "matched_word_ratio": 0.831
+    "matched_word_count": 203,
+    "matched_word_ratio": 0.796,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -153,37 +154,37 @@
       "index": 0,
       "section": "Intro - bright arps | small chimes",
       "start": 0.0,
-      "end": 6.273,
+      "end": 2.091,
       "text": "One small bloom",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 1,
       "section": "Intro - bright arps | small chimes",
       "start": 6.273,
-      "end": 10.455,
+      "end": 8.364,
       "text": "then another",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 2,
       "section": "Intro - bright arps | small chimes",
       "start": 10.455,
-      "end": 16.727,
+      "end": 12.545,
       "text": "brief gold face",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 3,
       "section": "Intro - bright arps | small chimes",
       "start": 16.727,
-      "end": 23.0,
+      "end": 18.818,
       "text": "above the cover",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 4,
@@ -297,19 +298,19 @@
       "index": 16,
       "section": "Pre-Hook - delay throws",
       "start": 73.0,
-      "end": 77.5,
+      "end": 76.0,
       "text": "just a flower",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 17,
       "section": "Pre-Hook - delay throws",
       "start": 77.5,
-      "end": 82.0,
+      "end": 80.5,
       "text": "for the day",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 18,

@@ -13,8 +13,9 @@
     "line_count": 38,
     "reference_word_count": 314,
     "observed_word_count": 330,
-    "matched_word_count": 230,
-    "matched_word_ratio": 0.732
+    "matched_word_count": 219,
+    "matched_word_ratio": 0.697,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -193,10 +194,10 @@
       "index": 0,
       "section": "INTRO",
       "start": 30.0,
-      "end": 39.545,
+      "end": 31.909,
       "text": "The marionette dawn bends in a crooked arc,",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 1,
@@ -373,10 +374,10 @@
       "index": 20,
       "section": "PRE-CHORUS",
       "start": 189.889,
-      "end": 196.0,
+      "end": 194.778,
       "text": "A citadel of whispered sins—",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 21,
@@ -463,10 +464,10 @@
       "index": 30,
       "section": "BRIDGE – POLYRHYTHMIC / SPOKEN-GROWLED",
       "start": 258.0,
-      "end": 267.625,
+      "end": 263.5,
       "text": "The merchant of division counts his ghostly tithe,",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 31,
@@ -508,28 +509,28 @@
       "index": 35,
       "section": "FINAL CHORUS",
       "start": 299.0,
-      "end": 313.0,
+      "end": 310.455,
       "text": "May the weight of all his echoes crack the final veil.",
       "timing_source": "whisper-aligned",
-      "matched_words": 11
+      "matched_words": 9
     },
     {
       "index": 36,
       "section": "OUTRO",
       "start": 324.0,
-      "end": 340.0,
+      "end": 332.727,
       "text": "And in the embered silence, all illusions start to fall;",
       "timing_source": "whisper-aligned",
-      "matched_words": 9
+      "matched_words": 5
     },
     {
       "index": 37,
       "section": "OUTRO",
       "start": 341.5,
-      "end": 355.0,
+      "end": 352.0,
       "text": "A fractured crown returns to dust, revealing nothing after all.",
       "timing_source": "whisper-aligned",
-      "matched_words": 9
+      "matched_words": 7
     }
   ]
 }

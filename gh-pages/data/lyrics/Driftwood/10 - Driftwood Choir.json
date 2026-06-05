@@ -13,8 +13,9 @@
     "line_count": 78,
     "reference_word_count": 461,
     "observed_word_count": 458,
-    "matched_word_count": 391,
-    "matched_word_ratio": 0.848
+    "matched_word_count": 389,
+    "matched_word_ratio": 0.844,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -450,10 +451,10 @@
       "index": 3,
       "section": "Intro",
       "start": 21.5,
-      "end": 26.375,
+      "end": 24.75,
       "text": "Something broken learning tune",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 4,
@@ -1107,10 +1108,10 @@
       "index": 76,
       "section": "Outro",
       "start": 239.0,
-      "end": 245.0,
+      "end": 242.6,
       "text": "Salt in grain... weathered through...",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 77,

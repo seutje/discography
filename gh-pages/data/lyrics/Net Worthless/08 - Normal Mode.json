@@ -13,8 +13,9 @@
     "line_count": 248,
     "reference_word_count": 822,
     "observed_word_count": 751,
-    "matched_word_count": 647,
-    "matched_word_ratio": 0.787
+    "matched_word_count": 644,
+    "matched_word_ratio": 0.783,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -963,7 +964,7 @@
       "index": 80,
       "section": "Post-Hook – spoken aside",
       "start": 103.76,
-      "end": 104.19,
+      "end": 104.183,
       "text": "cheers.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -971,8 +972,8 @@
     {
       "index": 81,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 104.19,
-      "end": 105.908,
+      "start": 104.183,
+      "end": 105.873,
       "text": "At work they love",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -980,8 +981,8 @@
     {
       "index": 82,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 105.908,
-      "end": 107.197,
+      "start": 105.873,
+      "end": 107.14,
       "text": "a casual meeting.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -989,8 +990,8 @@
     {
       "index": 83,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 107.197,
-      "end": 108.056,
+      "start": 107.14,
+      "end": 107.985,
       "text": "Business for",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -998,8 +999,8 @@
     {
       "index": 84,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 108.056,
-      "end": 109.345,
+      "start": 107.985,
+      "end": 109.253,
       "text": "“surprise social eating.”",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1007,8 +1008,8 @@
     {
       "index": 85,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 109.345,
-      "end": 110.204,
+      "start": 109.253,
+      "end": 110.098,
       "text": "Someone says,",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1016,8 +1017,8 @@
     {
       "index": 86,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 110.204,
-      "end": 111.063,
+      "start": 110.098,
+      "end": 110.943,
       "text": "“Let’s brainstorm,”",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1025,8 +1026,8 @@
     {
       "index": 87,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 111.063,
-      "end": 112.781,
+      "start": 110.943,
+      "end": 112.633,
       "text": "and suddenly my thoughts",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1034,8 +1035,8 @@
     {
       "index": 88,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 112.781,
-      "end": 114.07,
+      "start": 112.633,
+      "end": 113.901,
       "text": "form a union",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1043,8 +1044,8 @@
     {
       "index": 89,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 114.07,
-      "end": 114.929,
+      "start": 113.901,
+      "end": 114.746,
       "text": "and leave.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1052,8 +1053,8 @@
     {
       "index": 90,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 114.929,
-      "end": 117.077,
+      "start": 114.746,
+      "end": 116.859,
       "text": "I nod like a bloke",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1061,8 +1062,8 @@
     {
       "index": 91,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 117.077,
-      "end": 118.366,
+      "start": 116.859,
+      "end": 118.126,
       "text": "with available bandwidth.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1070,8 +1071,8 @@
     {
       "index": 92,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 118.366,
-      "end": 119.654,
+      "start": 118.126,
+      "end": 119.394,
       "text": "Inside, I’m filing",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1079,8 +1080,8 @@
     {
       "index": 93,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 119.654,
-      "end": 120.943,
+      "start": 119.394,
+      "end": 120.661,
       "text": "for emergency silence.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1088,8 +1089,8 @@
     {
       "index": 94,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 120.943,
-      "end": 121.802,
+      "start": 120.661,
+      "end": 121.506,
       "text": "Spreadsheet open,",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1097,8 +1098,8 @@
     {
       "index": 95,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 121.802,
-      "end": 123.091,
+      "start": 121.506,
+      "end": 122.774,
       "text": "Teams call blinking,",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1106,8 +1107,8 @@
     {
       "index": 96,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 123.091,
-      "end": 124.38,
+      "start": 122.774,
+      "end": 124.042,
       "text": "three people laughing",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1115,8 +1116,8 @@
     {
       "index": 97,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 124.38,
-      "end": 126.098,
+      "start": 124.042,
+      "end": 125.732,
       "text": "while I’m manually thinking:",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1124,8 +1125,8 @@
     {
       "index": 98,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 126.098,
-      "end": 126.957,
+      "start": 125.732,
+      "end": 126.577,
       "text": "Eye contact.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1133,8 +1134,8 @@
     {
       "index": 99,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 126.957,
-      "end": 128.246,
+      "start": 126.577,
+      "end": 127.845,
       "text": "Not too much.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1142,8 +1143,8 @@
     {
       "index": 100,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 128.246,
-      "end": 129.105,
+      "start": 127.845,
+      "end": 128.69,
       "text": "Laugh here.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1151,8 +1152,8 @@
     {
       "index": 101,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 129.105,
-      "end": 129.964,
+      "start": 128.69,
+      "end": 129.535,
       "text": "Cup touch.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1160,8 +1161,8 @@
     {
       "index": 102,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 129.964,
-      "end": 130.394,
+      "start": 129.535,
+      "end": 129.957,
       "text": "Question.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1169,8 +1170,8 @@
     {
       "index": 103,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 130.394,
-      "end": 130.823,
+      "start": 129.957,
+      "end": 130.38,
       "text": "Answer.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1178,8 +1179,8 @@
     {
       "index": 104,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 130.823,
-      "end": 132.542,
+      "start": 130.38,
+      "end": 132.07,
       "text": "Don’t explain the machine.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1187,8 +1188,8 @@
     {
       "index": 105,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 132.542,
-      "end": 134.26,
+      "start": 132.07,
+      "end": 133.76,
       "text": "Keep the strange bits",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1196,11 +1197,11 @@
     {
       "index": 106,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 134.26,
+      "start": 133.76,
       "end": 135.76,
       "text": "off the screen.",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 107,
@@ -2124,16 +2125,16 @@
       "index": 209,
       "section": "Final Hook – warm, communal",
       "start": 282.151,
-      "end": 282.609,
+      "end": 288.56,
       "text": "overloads",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 210,
       "section": "Final Hook – warm, communal",
-      "start": 282.609,
-      "end": 283.524,
+      "start": 288.56,
+      "end": 288.66,
       "text": "Too much light",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2141,8 +2142,8 @@
     {
       "index": 211,
       "section": "Final Hook – warm, communal",
-      "start": 283.982,
-      "end": 285.356,
+      "start": 288.66,
+      "end": 288.76,
       "text": "too much room",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2150,8 +2151,8 @@
     {
       "index": 212,
       "section": "Final Hook – warm, communal",
-      "start": 285.356,
-      "end": 286.271,
+      "start": 288.76,
+      "end": 288.86,
       "text": "too many tabs",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2159,8 +2160,8 @@
     {
       "index": 213,
       "section": "Final Hook – warm, communal",
-      "start": 286.729,
-      "end": 288.56,
+      "start": 288.86,
+      "end": 288.96,
       "text": "in a one-bed moon",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2168,7 +2169,7 @@
     {
       "index": 214,
       "section": "Final Hook – warm, communal",
-      "start": 288.922,
+      "start": 288.96,
       "end": 290.371,
       "text": "If we go quiet",
       "timing_source": "whisper-aligned",

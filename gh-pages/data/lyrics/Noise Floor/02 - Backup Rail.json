@@ -13,8 +13,9 @@
     "line_count": 54,
     "reference_word_count": 272,
     "observed_word_count": 321,
-    "matched_word_count": 237,
-    "matched_word_ratio": 0.871
+    "matched_word_count": 228,
+    "matched_word_ratio": 0.838,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -163,37 +164,37 @@
       "index": 0,
       "section": "Intro - brownout pad | tiny warning beep",
       "start": 0.0,
-      "end": 10.182,
+      "end": 2.545,
       "text": "The lamps go thin",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 1
     },
     {
       "index": 1,
       "section": "Intro - brownout pad | tiny warning beep",
       "start": 10.182,
-      "end": 15.273,
+      "end": 12.727,
       "text": "the console sighs",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 2,
       "section": "Intro - brownout pad | tiny warning beep",
       "start": 22.909,
-      "end": 28.0,
+      "end": 25.455,
       "text": "I know this shade",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 3,
       "section": "Intro - brownout pad | tiny warning beep",
       "start": 28.0,
-      "end": 38.0,
+      "end": 31.333,
       "text": "behind my eyes",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 4,
@@ -613,25 +614,25 @@
       "index": 50,
       "section": "Outro - low battery beep fades into pad",
       "start": 218.273,
-      "end": 223.25,
+      "end": 218.727,
       "text": "Not a halo",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 51,
       "section": "Outro - low battery beep fades into pad",
       "start": 224.75,
-      "end": 228.875,
+      "end": 225.5,
       "text": "not a chain",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 52,
       "section": "Outro - low battery beep fades into pad",
-      "start": 228.875,
-      "end": 233.438,
+      "start": 225.5,
+      "end": 231.75,
       "text": "just the current",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -639,7 +640,7 @@
     {
       "index": 53,
       "section": "Outro - low battery beep fades into pad",
-      "start": 233.438,
+      "start": 231.75,
       "end": 238.0,
       "text": "with my name",
       "timing_source": "interpolated",

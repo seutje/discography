@@ -13,8 +13,9 @@
     "line_count": 98,
     "reference_word_count": 446,
     "observed_word_count": 443,
-    "matched_word_count": 396,
-    "matched_word_ratio": 0.888
+    "matched_word_count": 384,
+    "matched_word_ratio": 0.861,
+    "inserted_adlib_count": 2
   },
   "transcript_segments": [
     {
@@ -456,7 +457,8 @@
       "end": 7.0,
       "text": "I trace your light from far away",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 1,
@@ -465,7 +467,8 @@
       "end": 12.0,
       "text": "not cold enough to turn to stone",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 2,
@@ -474,7 +477,8 @@
       "end": 18.0,
       "text": "not close enough to burn away",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 3,
@@ -483,7 +487,8 @@
       "end": 24.0,
       "text": "I keep a path I’ve always known",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 4,
@@ -492,7 +497,8 @@
       "end": 29.0,
       "text": "A careful line",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 5,
@@ -501,25 +507,28 @@
       "end": 36.0,
       "text": "I never cross",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 6,
       "section": "Intro – distant pulses | high, cold synths | orbital movement",
       "start": 36.0,
-      "end": 41.0,
+      "end": 38.5,
       "text": "but never leave",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 7,
       "section": "Verse 1 – minimal beat | tense spacing | ticking rhythm",
       "start": 41.0,
-      "end": 52.0,
+      "end": 46.5,
       "text": "I measure distance in my range",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 8,
@@ -528,7 +537,8 @@
       "end": 53.667,
       "text": "in micro-shifts I can’t arrange",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 9,
@@ -537,7 +547,8 @@
       "end": 57.0,
       "text": "Every move a fragile thread",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 10,
@@ -546,7 +557,8 @@
       "end": 60.0,
       "text": "too much weight and it might shred",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 11,
@@ -555,7 +567,8 @@
       "end": 63.0,
       "text": "You shift—I recalibrate",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 12,
@@ -564,7 +577,8 @@
       "end": 65.0,
       "text": "a silent, unseen counterweight",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 13,
@@ -573,7 +587,8 @@
       "end": 68.0,
       "text": "I read the silence in your tone",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 14,
@@ -582,7 +597,8 @@
       "end": 70.0,
       "text": "like gravity I can’t outrun",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 15,
@@ -591,7 +607,8 @@
       "end": 74.429,
       "text": "I stay within the range you need",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 16,
@@ -600,7 +617,8 @@
       "end": 78.0,
       "text": "but never take the lead",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 17,
@@ -609,7 +627,8 @@
       "end": 84.5,
       "text": "Not too near",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 18,
@@ -618,7 +637,8 @@
       "end": 86.0,
       "text": "not too gone",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 19,
@@ -627,7 +647,8 @@
       "end": 86.571,
       "text": "I adjust",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 20,
@@ -636,7 +657,8 @@
       "end": 88.286,
       "text": "carry on",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 21,
@@ -645,7 +667,8 @@
       "end": 91.143,
       "text": "In the balance, I remain",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 22,
@@ -654,7 +677,8 @@
       "end": 94.0,
       "text": "circling through pull and strain",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 23,
@@ -663,7 +687,8 @@
       "end": 97.0,
       "text": "In your orbit, held in place",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 24,
@@ -672,7 +697,8 @@
       "end": 100.0,
       "text": "never lost, but never faced",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 25,
@@ -681,7 +707,8 @@
       "end": 103.0,
       "text": "If I drift, I disappear",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 26,
@@ -690,7 +717,8 @@
       "end": 105.0,
       "text": "If I stay, I’m too severe",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 27,
@@ -699,7 +727,8 @@
       "end": 107.857,
       "text": "So I hover, undefined",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 28,
@@ -708,628 +737,718 @@
       "end": 110.0,
       "text": "in the balance",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 29,
       "section": "Hook – warm bass enters | wider space",
       "start": 110.0,
-      "end": 117.0,
+      "end": 113.5,
       "text": "every time",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 30,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 117.0,
-      "end": 126.0,
+      "end": 120.0,
       "text": "Every word, a careful step",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 31,
+      "section": "Detected ad-lib",
+      "start": 117.0,
+      "end": 123.0,
+      "text": "every time",
+      "timing_source": "transcript-repeated-adlib",
+      "matched_words": 2,
+      "line_type": "transcript-adlib"
+    },
+    {
+      "index": 32,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 126.6,
       "end": 129.0,
       "text": "placed where tension hasn’t crept",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 32,
+      "index": 33,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 129.0,
       "end": 131.0,
       "text": "I soften edges of my voice",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 33,
+      "index": 34,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 131.0,
       "end": 134.0,
       "text": "like presence is a measured choice",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 34,
+      "index": 35,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 134.0,
       "end": 136.4,
       "text": "You move closer—I recede",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 35,
+      "index": 36,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 137.0,
       "end": 139.0,
       "text": "just enough to let you breathe",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 36,
+      "index": 37,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 139.0,
       "end": 142.0,
       "text": "But if you fade beyond my sight",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 37,
+      "index": 38,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 142.0,
       "end": 144.5,
       "text": "I feel the pull to realign",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 38,
+      "index": 39,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 145.0,
       "end": 147.0,
       "text": "It’s never still",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 39,
+      "index": 40,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 147.0,
       "end": 150.0,
       "text": "it’s never free",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 40,
+      "index": 41,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 151.2,
       "end": 153.6,
       "text": "this constant tuning",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 41,
+      "index": 42,
       "section": "Verse 2 – dub echoes | wider gaps | moving stereo field",
       "start": 153.6,
       "end": 156.0,
       "text": "inside me",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 42,
+      "index": 43,
       "section": "Pre-Hook – low-end swell | circular panning",
       "start": 156.0,
       "end": 157.5,
       "text": "A fragile zone",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 43,
+      "index": 44,
       "section": "Pre-Hook – low-end swell | circular panning",
       "start": 157.5,
       "end": 159.0,
       "text": "I orbit through",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 44,
+      "index": 45,
       "section": "Pre-Hook – low-end swell | circular panning",
       "start": 159.0,
       "end": 160.5,
       "text": "defined by you",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 45,
+      "index": 46,
       "section": "Pre-Hook – low-end swell | circular panning",
       "start": 160.5,
       "end": 162.0,
       "text": "defined by you",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 46,
+      "index": 47,
       "section": "Hook – fuller low end | harmonies bloom slightly",
       "start": 162.0,
       "end": 165.0,
       "text": "In the balance, I remain",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 47,
+      "index": 48,
       "section": "Hook – fuller low end | harmonies bloom slightly",
       "start": 166.2,
       "end": 168.0,
       "text": "circling through pull and strain",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 48,
+      "index": 49,
       "section": "Hook – fuller low end | harmonies bloom slightly",
       "start": 168.0,
       "end": 171.0,
       "text": "In your orbit, held in place",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 49,
+      "index": 50,
       "section": "Hook – fuller low end | harmonies bloom slightly",
       "start": 171.0,
       "end": 174.0,
       "text": "never lost, but never faced",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 50,
+      "index": 51,
       "section": "Hook – fuller low end | harmonies bloom slightly",
       "start": 174.0,
       "end": 177.0,
       "text": "If I drift, I disappear",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 51,
+      "index": 52,
       "section": "Hook – fuller low end | harmonies bloom slightly",
       "start": 177.0,
       "end": 180.0,
       "text": "If I stay, I’m too severe",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 52,
+      "index": 53,
       "section": "Hook – fuller low end | harmonies bloom slightly",
       "start": 180.0,
       "end": 182.286,
       "text": "So I hover, undefined",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 53,
+      "index": 54,
       "section": "Hook – fuller low end | harmonies bloom slightly",
       "start": 182.286,
       "end": 184.0,
       "text": "in the balance",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 54,
-      "section": "Hook – fuller low end | harmonies bloom slightly",
-      "start": 184.0,
-      "end": 189.0,
-      "text": "every time",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 55,
+      "section": "Hook – fuller low end | harmonies bloom slightly",
+      "start": 184.0,
+      "end": 186.5,
+      "text": "every time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 56,
+      "section": "Detected ad-lib",
+      "start": 189.0,
+      "end": 196.0,
+      "text": "every time",
+      "timing_source": "transcript-repeated-adlib",
+      "matched_words": 2,
+      "line_type": "transcript-adlib"
+    },
+    {
+      "index": 57,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
       "start": 196.0,
       "end": 199.0,
       "text": "There’s a line I cannot see",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 56,
+      "index": 58,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
       "start": 199.0,
       "end": 203.286,
       "text": "but I feel it pulling me",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 57,
+      "index": 59,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
       "start": 203.286,
-      "end": 208.0,
+      "end": 204.0,
       "text": "closer… back… closer… back…",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 58,
+      "index": 60,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
       "start": 208.0,
       "end": 210.0,
       "text": "If I cross it, something breaks",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 59,
+      "index": 61,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
       "start": 210.0,
       "end": 213.0,
       "text": "If I don’t, it slowly aches",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 60,
+      "index": 62,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
       "start": 213.0,
       "end": 218.0,
       "text": "I was never meant to stay this still",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 61,
+      "index": 63,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
       "start": 218.0,
       "end": 220.5,
       "text": "just suspended",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 62,
+      "index": 64,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
       "start": 220.5,
       "end": 223.0,
       "text": "just controlled",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 63,
+      "index": 65,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
       "start": 223.0,
       "end": 224.5,
       "text": "just… almost",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 64,
+      "index": 66,
       "section": "Build – rising tension | accelerating delay repeats | tightening loop",
       "start": 226.5,
       "end": 227.0,
       "text": "Closer now",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 65,
+      "index": 67,
       "section": "Build – rising tension | accelerating delay repeats | tightening loop",
       "start": 227.0,
       "end": 229.0,
       "text": "I feel the heat",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 66,
+      "index": 68,
       "section": "Build – rising tension | accelerating delay repeats | tightening loop",
       "start": 229.0,
       "end": 230.2,
       "text": "holding back",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 67,
+      "index": 69,
       "section": "Build – rising tension | accelerating delay repeats | tightening loop",
       "start": 230.8,
       "end": 232.0,
       "text": "missing beats",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 68,
+      "index": 70,
       "section": "Build – rising tension | accelerating delay repeats | tightening loop",
       "start": 232.0,
       "end": 235.0,
       "text": "Every orbit pulls me in",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 69,
+      "index": 71,
       "section": "Build – rising tension | accelerating delay repeats | tightening loop",
       "start": 235.0,
       "end": 236.0,
       "text": "every cycle wears me thin",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 70,
+      "index": 72,
       "section": "Build – rising tension | accelerating delay repeats | tightening loop",
       "start": 237.0,
       "end": 240.0,
       "text": "I can’t keep this perfect space",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
-    },
-    {
-      "index": 71,
-      "section": "Build – rising tension | accelerating delay repeats | tightening loop",
-      "start": 240.0,
-      "end": 247.0,
-      "text": "without erasing what I crave",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5
-    },
-    {
-      "index": 72,
-      "section": "Drop – explosive bass | distortion | widened chaos",
-      "start": 247.0,
-      "end": 247.1,
-      "text": "(ah—!)",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 73,
-      "section": "Final Verse / Release – full instrumentation | raw vocal layers",
-      "start": 247.1,
-      "end": 250.0,
-      "text": "I let the distance collapse at last",
+      "section": "Build – rising tension | accelerating delay repeats | tightening loop",
+      "start": 240.0,
+      "end": 245.6,
+      "text": "without erasing what I crave",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 74,
+      "section": "Drop – explosive bass | distortion | widened chaos",
+      "start": 245.6,
+      "end": 247.0,
+      "text": "(ah—!)",
+      "timing_source": "interpolated",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 75,
+      "section": "Final Verse / Release – full instrumentation | raw vocal layers",
+      "start": 247.0,
+      "end": 250.0,
+      "text": "I let the distance collapse at last",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 76,
       "section": "Final Verse / Release – full instrumentation | raw vocal layers",
       "start": 250.375,
       "end": 253.0,
       "text": "I break the line I held so fast",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 75,
+      "index": 77,
       "section": "Final Verse / Release – full instrumentation | raw vocal layers",
       "start": 253.0,
       "end": 256.0,
       "text": "No more careful measured spin",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 76,
+      "index": 78,
       "section": "Final Verse / Release – full instrumentation | raw vocal layers",
       "start": 256.0,
       "end": 258.0,
       "text": "I fall directly in",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 77,
+      "index": 79,
       "section": "Final Verse / Release – full instrumentation | raw vocal layers",
       "start": 258.667,
       "end": 261.333,
       "text": "Too close now—I feel the flame",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 78,
+      "index": 80,
       "section": "Final Verse / Release – full instrumentation | raw vocal layers",
       "start": 261.333,
       "end": 264.0,
       "text": "no safe distance left to name",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 79,
+      "index": 81,
       "section": "Final Verse / Release – full instrumentation | raw vocal layers",
       "start": 264.6,
       "end": 267.0,
       "text": "But for once I don’t retreat",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 80,
-      "section": "Final Verse / Release – full instrumentation | raw vocal layers",
-      "start": 267.0,
-      "end": 267.1,
-      "text": "I stay",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 81,
-      "section": "Final Verse / Release – full instrumentation | raw vocal layers",
-      "start": 267.1,
-      "end": 268.5,
-      "text": "I stay",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 82,
       "section": "Final Verse / Release – full instrumentation | raw vocal layers",
-      "start": 268.5,
+      "start": 267.0,
       "end": 270.0,
       "text": "I stay",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 83,
-      "section": "Final Hook – massive, open, overwhelming",
+      "section": "Final Verse / Release – full instrumentation | raw vocal layers",
       "start": 270.0,
-      "end": 273.0,
-      "text": "Out of balance, I descend",
+      "end": 270.1,
+      "text": "I stay",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 84,
+      "section": "Final Verse / Release – full instrumentation | raw vocal layers",
+      "start": 270.1,
+      "end": 270.2,
+      "text": "I stay",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 85,
+      "section": "Final Hook – massive, open, overwhelming",
+      "start": 270.2,
+      "end": 273.0,
+      "text": "Out of balance, I descend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 86,
       "section": "Final Hook – massive, open, overwhelming",
       "start": 273.429,
       "end": 276.0,
       "text": "past the place I used to bend",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 85,
+      "index": 87,
       "section": "Final Hook – massive, open, overwhelming",
       "start": 276.0,
       "end": 279.0,
       "text": "No more orbit, no return",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 86,
+      "index": 88,
       "section": "Final Hook – massive, open, overwhelming",
       "start": 279.0,
       "end": 281.0,
       "text": "I accept the way I burn",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 87,
+      "index": 89,
       "section": "Final Hook – massive, open, overwhelming",
       "start": 281.0,
       "end": 284.0,
       "text": "If I vanish, let it be",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 88,
+      "index": 90,
       "section": "Final Hook – massive, open, overwhelming",
       "start": 284.0,
       "end": 287.0,
       "text": "at least I moved honestly",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 89,
+      "index": 91,
       "section": "Final Hook – massive, open, overwhelming",
       "start": 287.0,
       "end": 289.0,
       "text": "No more hovering between",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 90,
+      "index": 92,
       "section": "Final Hook – massive, open, overwhelming",
       "start": 289.0,
       "end": 292.0,
       "text": "I choose the fall",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 91,
+      "index": 93,
       "section": "Final Hook – massive, open, overwhelming",
       "start": 292.0,
-      "end": 297.0,
+      "end": 295.75,
       "text": "I choose the scene",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 92,
+      "index": 94,
       "section": "Outro – collapsing echoes | fading low-end | unresolved chord",
       "start": 297.0,
       "end": 301.0,
       "text": "No more distance left to hold",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 93,
+      "index": 95,
       "section": "Outro – collapsing echoes | fading low-end | unresolved chord",
       "start": 302.0,
       "end": 307.0,
       "text": "no more careful, no more controlled",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 94,
+      "index": 96,
       "section": "Outro – collapsing echoes | fading low-end | unresolved chord",
       "start": 307.0,
       "end": 308.0,
       "text": "Just the pull",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 95,
+      "index": 97,
       "section": "Outro – collapsing echoes | fading low-end | unresolved chord",
       "start": 310.0,
       "end": 313.0,
       "text": "just the flame",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 96,
+      "index": 98,
       "section": "Outro – collapsing echoes | fading low-end | unresolved chord",
       "start": 313.0,
       "end": 316.0,
       "text": "and your name",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 97,
+      "index": 99,
       "section": "Outro – collapsing echoes | fading low-end | unresolved chord",
       "start": 316.0,
       "end": 319.0,
       "text": "and your name",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     }
   ]
 }

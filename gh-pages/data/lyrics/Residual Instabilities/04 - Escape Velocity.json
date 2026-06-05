@@ -13,8 +13,9 @@
     "line_count": 82,
     "reference_word_count": 384,
     "observed_word_count": 388,
-    "matched_word_count": 316,
-    "matched_word_ratio": 0.823
+    "matched_word_count": 309,
+    "matched_word_ratio": 0.805,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -203,28 +204,28 @@
       "index": 0,
       "section": "Intro – distant hum | filtered pulses | breath and faint delay trails",
       "start": 0.0,
-      "end": 12.305,
+      "end": 6.153,
       "text": "There are sentences I almost reach",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3
     },
     {
       "index": 1,
       "section": "Intro – distant hum | filtered pulses | breath and faint delay trails",
       "start": 12.305,
-      "end": 16.407,
+      "end": 14.356,
       "text": "they hover—",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 2,
       "section": "Intro – distant hum | filtered pulses | breath and faint delay trails",
       "start": 16.407,
-      "end": 22.56,
+      "end": 18.458,
       "text": "just beneath release",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 3,
@@ -923,10 +924,10 @@
       "index": 80,
       "section": "Outro – deep dub echoes | fading sub | long reverb decay",
       "start": 282.16,
-      "end": 287.86,
+      "end": 285.96,
       "text": "of never leaving",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 81,

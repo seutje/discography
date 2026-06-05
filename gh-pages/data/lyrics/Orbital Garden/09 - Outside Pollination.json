@@ -13,8 +13,9 @@
     "line_count": 56,
     "reference_word_count": 252,
     "observed_word_count": 281,
-    "matched_word_count": 178,
-    "matched_word_ratio": 0.706
+    "matched_word_count": 176,
+    "matched_word_ratio": 0.698,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -143,10 +144,10 @@
       "index": 0,
       "section": "Intro - fast hats | rising air",
       "start": 5.333,
-      "end": 16.0,
+      "end": 10.667,
       "text": "Outside the glass",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 1,
@@ -611,10 +612,10 @@
       "index": 52,
       "section": "Outro - air sweep fades",
       "start": 170.0,
-      "end": 175.4,
+      "end": 171.8,
       "text": "Small wings pass",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 53,

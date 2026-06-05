@@ -13,8 +13,9 @@
     "line_count": 55,
     "reference_word_count": 298,
     "observed_word_count": 388,
-    "matched_word_count": 202,
-    "matched_word_ratio": 0.678
+    "matched_word_count": 201,
+    "matched_word_ratio": 0.674,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -406,10 +407,10 @@
       "index": 7,
       "section": "Chorus – distant pads | pulsing sub | filtered starlight textures",
       "start": 41.0,
-      "end": 60.4,
+      "end": 41.6,
       "text": "still I’m asked to burn in vain",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 8,

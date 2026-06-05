@@ -13,8 +13,9 @@
     "line_count": 202,
     "reference_word_count": 736,
     "observed_word_count": 736,
-    "matched_word_count": 662,
-    "matched_word_ratio": 0.899
+    "matched_word_count": 661,
+    "matched_word_ratio": 0.898,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -2318,19 +2319,19 @@
       "index": 200,
       "section": "Outro – spoken | slight smile",
       "start": 301.167,
-      "end": 303.0,
+      "end": 302.0,
       "text": "declares",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 201,
       "section": "Outro – spoken | slight smile",
       "start": 303.0,
-      "end": 310.0,
+      "end": 306.5,
       "text": "a surplus.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     }
   ]
 }

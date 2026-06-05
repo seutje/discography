@@ -13,8 +13,9 @@
     "line_count": 54,
     "reference_word_count": 251,
     "observed_word_count": 261,
-    "matched_word_count": 199,
-    "matched_word_ratio": 0.793
+    "matched_word_count": 198,
+    "matched_word_ratio": 0.789,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -210,10 +211,10 @@
       "index": 3,
       "section": "Intro - room warmth | small sparks",
       "start": 15.714,
-      "end": 20.0,
+      "end": 18.571,
       "text": "and stayed awake",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 4,
@@ -632,17 +633,17 @@
     {
       "index": 50,
       "section": "Outro - room tone fades",
-      "start": 154.417,
-      "end": 164.6,
+      "start": 155.0,
+      "end": 167.0,
       "text": "Borrowed suns",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 51,
       "section": "Outro - room tone fades",
-      "start": 164.6,
-      "end": 167.0,
+      "start": 167.0,
+      "end": 167.1,
       "text": "borrowed air",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -650,7 +651,7 @@
     {
       "index": 52,
       "section": "Outro - room tone fades",
-      "start": 167.0,
+      "start": 167.1,
       "end": 171.0,
       "text": "one part keeps returning",
       "timing_source": "whisper-aligned",

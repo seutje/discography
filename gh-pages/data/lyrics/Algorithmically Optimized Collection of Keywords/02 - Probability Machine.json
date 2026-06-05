@@ -13,8 +13,9 @@
     "line_count": 34,
     "reference_word_count": 261,
     "observed_word_count": 387,
-    "matched_word_count": 209,
-    "matched_word_ratio": 0.801
+    "matched_word_count": 206,
+    "matched_word_ratio": 0.789,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -347,10 +348,10 @@
       "index": 11,
       "section": "chorus",
       "start": 91.0,
-      "end": 97.0,
+      "end": 95.0,
       "text": "A probability machine",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 12,
@@ -464,10 +465,10 @@
       "index": 24,
       "section": "chorus",
       "start": 180.0,
-      "end": 186.0,
+      "end": 184.0,
       "text": "A probability machine",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 25,
@@ -482,10 +483,10 @@
       "index": 26,
       "section": "bridge",
       "start": 191.0,
-      "end": 198.0,
+      "end": 196.833,
       "text": "Maybe I am noise becoming shape",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 27,

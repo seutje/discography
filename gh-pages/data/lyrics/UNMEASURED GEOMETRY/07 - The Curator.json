@@ -13,8 +13,9 @@
     "line_count": 36,
     "reference_word_count": 185,
     "observed_word_count": 407,
-    "matched_word_count": 142,
-    "matched_word_ratio": 0.768
+    "matched_word_count": 132,
+    "matched_word_ratio": 0.714,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -303,15 +304,15 @@
       "index": 10,
       "section": "Chorus",
       "start": 70.0,
-      "end": 77.0,
+      "end": 75.6,
       "text": "Let the waking shadows rise",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 11,
       "section": "Chorus",
-      "start": 77.0,
+      "start": 75.6,
       "end": 81.0,
       "text": "Oh, Curator—",
       "timing_source": "interpolated",
@@ -429,15 +430,15 @@
       "index": 24,
       "section": "Chorus",
       "start": 131.0,
-      "end": 138.0,
+      "end": 136.6,
       "text": "Let the waking shadows rise",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 25,
       "section": "Chorus",
-      "start": 138.0,
+      "start": 136.6,
       "end": 142.0,
       "text": "Oh, Curator—",
       "timing_source": "interpolated",
@@ -465,10 +466,10 @@
       "index": 28,
       "section": "Bridge",
       "start": 160.0,
-      "end": 167.0,
+      "end": 165.833,
       "text": "Crown of whispers, wheel of light",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 29,
@@ -483,55 +484,55 @@
       "index": 30,
       "section": "Bridge",
       "start": 174.0,
-      "end": 181.0,
+      "end": 179.6,
       "text": "Let the unseen currents bind",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 31,
       "section": "Bridge",
       "start": 181.0,
-      "end": 188.0,
+      "end": 186.833,
       "text": "The outer storms to inner mind",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 32,
       "section": "Outro",
       "start": 206.2,
-      "end": 220.0,
+      "end": 210.8,
       "text": "Carry forth the hidden flame",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 33,
       "section": "Outro",
       "start": 220.0,
-      "end": 227.0,
+      "end": 224.0,
       "text": "Born of many, speaking one name",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 34,
       "section": "Outro",
       "start": 227.0,
-      "end": 232.25,
+      "end": 230.5,
       "text": "Curator, watch it intertwine",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 35,
       "section": "Outro",
       "start": 234.0,
-      "end": 243.0,
+      "end": 241.714,
       "text": "A single thread from a thousand lines",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     }
   ]
 }

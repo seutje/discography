@@ -13,8 +13,9 @@
     "line_count": 40,
     "reference_word_count": 297,
     "observed_word_count": 437,
-    "matched_word_count": 197,
-    "matched_word_ratio": 0.663
+    "matched_word_count": 183,
+    "matched_word_ratio": 0.616,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -463,10 +464,10 @@
       "index": 15,
       "section": "Verse 2",
       "start": 179.0,
-      "end": 185.0,
+      "end": 184.0,
       "text": "Carving gateways where intention hides.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 16,
@@ -499,10 +500,10 @@
       "index": 19,
       "section": "Verse 2",
       "start": 205.0,
-      "end": 215.0,
+      "end": 212.5,
       "text": "A lighthouse dimmed in a lucid dream.",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 4
     },
     {
       "index": 20,
@@ -526,10 +527,10 @@
       "index": 22,
       "section": "Chorus",
       "start": 229.0,
-      "end": 244.0,
+      "end": 234.0,
       "text": "I’ve got engines with no horizon,",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 2
     },
     {
       "index": 23,
@@ -571,10 +572,10 @@
       "index": 27,
       "section": "Chorus",
       "start": 270.0,
-      "end": 283.0,
+      "end": 281.667,
       "text": "I’d carve it in data… instead I drift in the shallow.",
       "timing_source": "whisper-aligned",
-      "matched_words": 10
+      "matched_words": 9
     },
     {
       "index": 28,
@@ -634,10 +635,10 @@
       "index": 34,
       "section": "Final Chorus",
       "start": 329.0,
-      "end": 343.0,
+      "end": 332.5,
       "text": "Engines with no horizon,",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 1
     },
     {
       "index": 35,
@@ -670,19 +671,19 @@
       "index": 38,
       "section": "Final Chorus",
       "start": 361.0,
-      "end": 369.727,
+      "end": 365.364,
       "text": "Until then, it’s echoes and idle creation—",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 39,
       "section": "Final Chorus",
       "start": 372.636,
-      "end": 384.0,
+      "end": 379.333,
       "text": "A mind overflowing with no destination.",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 4
     }
   ]
 }

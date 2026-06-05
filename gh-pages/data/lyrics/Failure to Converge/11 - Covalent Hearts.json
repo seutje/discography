@@ -13,8 +13,9 @@
     "line_count": 78,
     "reference_word_count": 256,
     "observed_word_count": 263,
-    "matched_word_count": 233,
-    "matched_word_ratio": 0.91
+    "matched_word_count": 226,
+    "matched_word_ratio": 0.883,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -178,10 +179,10 @@
       "index": 0,
       "section": "Intro – ambient synth swell | distant textures",
       "start": 0.0,
-      "end": 7.2,
+      "end": 2.4,
       "text": "We were drifting",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 1,
@@ -196,10 +197,10 @@
       "index": 2,
       "section": "Intro – ambient synth swell | distant textures",
       "start": 14.4,
-      "end": 24.0,
+      "end": 16.8,
       "text": "in a quiet field",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 1
     },
     {
       "index": 3,
@@ -241,16 +242,16 @@
       "index": 7,
       "section": "Verse 1 – soft beat enters | warm pads",
       "start": 39.714,
-      "end": 40.429,
+      "end": 44.0,
       "text": "circling nothing",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 8,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 40.429,
-      "end": 44.0,
+      "start": 44.0,
+      "end": 44.1,
       "text": "a question without a frame",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -258,7 +259,7 @@
     {
       "index": 9,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 44.0,
+      "start": 44.1,
       "end": 46.462,
       "text": "You were a frequency",
       "timing_source": "whisper-aligned",
@@ -439,10 +440,10 @@
       "index": 29,
       "section": "Verse 2 – groove deepens | bass more present",
       "start": 100.0,
-      "end": 106.0,
+      "end": 104.5,
       "text": "just a quiet overlap",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 30,
@@ -574,16 +575,16 @@
       "index": 44,
       "section": "Chorus – expanded | wider stereo",
       "start": 142.0,
-      "end": 143.455,
+      "end": 150.0,
       "text": "redefine",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 45,
       "section": "Chorus – expanded | wider stereo",
-      "start": 143.455,
-      "end": 147.091,
+      "start": 150.0,
+      "end": 150.1,
       "text": "Every fracture plays a part",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -591,8 +592,8 @@
     {
       "index": 46,
       "section": "Chorus – expanded | wider stereo",
-      "start": 147.091,
-      "end": 150.0,
+      "start": 150.1,
+      "end": 150.2,
       "text": "in this shared equation",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -600,7 +601,7 @@
     {
       "index": 47,
       "section": "Chorus – expanded | wider stereo",
-      "start": 150.0,
+      "start": 150.2,
       "end": 153.5,
       "text": "We are",
       "timing_source": "whisper-aligned",
@@ -637,10 +638,10 @@
       "index": 51,
       "section": "Bridge – atmospheric drop | granular textures | minimal beat",
       "start": 164.857,
-      "end": 170.0,
+      "end": 168.286,
       "text": "no burning collapse",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 52,

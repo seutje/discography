@@ -13,8 +13,9 @@
     "line_count": 94,
     "reference_word_count": 425,
     "observed_word_count": 428,
-    "matched_word_count": 403,
-    "matched_word_ratio": 0.948
+    "matched_word_count": 399,
+    "matched_word_ratio": 0.939,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -183,19 +184,19 @@
       "index": 0,
       "section": "Intro – whispered vocal fragments | distant pads | faint glitch artifacts",
       "start": 0.0,
-      "end": 4.08,
+      "end": 2.72,
       "text": "I was told",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 1,
       "section": "Intro – whispered vocal fragments | distant pads | faint glitch artifacts",
       "start": 4.08,
-      "end": 12.24,
+      "end": 10.88,
       "text": "there’s a pattern underneath it all",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 2,
@@ -1020,10 +1021,10 @@
       "index": 93,
       "section": "Outro – ambient fade | fragments recombining",
       "start": 260.64,
-      "end": 267.84,
+      "end": 264.96,
       "text": "but where I begin again",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     }
   ]
 }

@@ -13,8 +13,8 @@
     "line_count": 99,
     "reference_word_count": 713,
     "observed_word_count": 746,
-    "matched_word_count": 298,
-    "matched_word_ratio": 0.418,
+    "matched_word_count": 294,
+    "matched_word_ratio": 0.412,
     "inserted_adlib_count": 0
   },
   "transcript_segments": [
@@ -549,10 +549,10 @@
       "index": 25,
       "section": "Pre-Chorus",
       "start": 58.161,
-      "end": 101.902,
+      "end": 58.431,
       "text": "Tools changed, now they acting like it’s heresy",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 1
     },
     {
       "index": 26,
@@ -657,16 +657,16 @@
       "index": 37,
       "section": "Verse 2",
       "start": 159.84,
-      "end": 164.073,
+      "end": 160.407,
       "text": "I was making strange worlds when I barely could read",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 38,
       "section": "Verse 2",
-      "start": 164.073,
-      "end": 164.228,
+      "start": 160.407,
+      "end": 160.902,
       "text": "Little kid building systems out of scraps and ideas",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -674,8 +674,8 @@
     {
       "index": 39,
       "section": "Verse 2",
-      "start": 164.228,
-      "end": 164.328,
+      "start": 160.902,
+      "end": 161.177,
       "text": "Sketchbooks, notebooks, keyboards, and schemes",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -683,8 +683,8 @@
     {
       "index": 40,
       "section": "Verse 2",
-      "start": 164.328,
-      "end": 164.451,
+      "start": 161.177,
+      "end": 161.617,
       "text": "Long before your algorithm learned what art means",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -692,8 +692,8 @@
     {
       "index": 41,
       "section": "Verse 2",
-      "start": 164.451,
-      "end": 164.606,
+      "start": 161.617,
+      "end": 162.111,
       "text": "But now they pointing fingers like a courtroom trial",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -701,8 +701,8 @@
     {
       "index": 42,
       "section": "Verse 2",
-      "start": 164.606,
-      "end": 164.743,
+      "start": 162.111,
+      "end": 162.551,
       "text": "“Stolen valor,” they shout with a righteous smile",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -710,8 +710,8 @@
     {
       "index": 43,
       "section": "Verse 2",
-      "start": 164.743,
-      "end": 164.915,
+      "start": 162.551,
+      "end": 163.101,
       "text": "Like a hammer ain’t a hammer if the steel improved",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -719,8 +719,8 @@
     {
       "index": 44,
       "section": "Verse 2",
-      "start": 164.915,
-      "end": 165.104,
+      "start": 163.101,
+      "end": 163.706,
       "text": "Like a lens ain’t a lens if the glass got tuned",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -728,8 +728,8 @@
     {
       "index": 45,
       "section": "Verse 2",
-      "start": 165.104,
-      "end": 165.224,
+      "start": 163.706,
+      "end": 164.091,
       "text": "Every era got prophets guarding the gate",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -737,8 +737,8 @@
     {
       "index": 46,
       "section": "Verse 2",
-      "start": 165.224,
-      "end": 165.324,
+      "start": 164.091,
+      "end": 164.366,
       "text": "Every gatekeeper terrified tools mutate",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -746,8 +746,8 @@
     {
       "index": 47,
       "section": "Verse 2",
-      "start": 165.324,
-      "end": 165.431,
+      "start": 164.366,
+      "end": 164.75,
       "text": "Oil painters hated cameras in the day",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -755,8 +755,8 @@
     {
       "index": 48,
       "section": "Verse 2",
-      "start": 165.431,
-      "end": 165.603,
+      "start": 164.75,
+      "end": 165.3,
       "text": "Now the cycle repeats with a new name to hate",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -764,7 +764,7 @@
     {
       "index": 49,
       "section": "Verse 2",
-      "start": 165.603,
+      "start": 165.3,
       "end": 165.74,
       "text": "You worship the myth of the suffering hand",
       "timing_source": "interpolated",

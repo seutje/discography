@@ -14,7 +14,8 @@
     "reference_word_count": 719,
     "observed_word_count": 749,
     "matched_word_count": 623,
-    "matched_word_ratio": 0.866
+    "matched_word_ratio": 0.866,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -1054,17 +1055,17 @@
     {
       "index": 63,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 104.667,
-      "end": 105.333,
+      "start": 106.0,
+      "end": 110.0,
       "text": "a coat",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 64,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 105.333,
-      "end": 105.667,
+      "start": 110.0,
+      "end": 110.1,
       "text": "and the last thin thread",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1072,8 +1073,8 @@
     {
       "index": 65,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 106.364,
-      "end": 107.818,
+      "start": 110.1,
+      "end": 110.2,
       "text": "of a civic oath",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1081,8 +1082,8 @@
     {
       "index": 66,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 107.818,
-      "end": 109.273,
+      "start": 110.2,
+      "end": 110.3,
       "text": "They push through smiling",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1090,7 +1091,7 @@
     {
       "index": 67,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 109.273,
+      "start": 110.3,
       "end": 111.0,
       "text": "like, “Sorry, just me,”",
       "timing_source": "whisper-aligned",
@@ -1909,17 +1910,17 @@
     {
       "index": 158,
       "section": "Final Hook – warm, gently defiant",
-      "start": 246.0,
-      "end": 248.75,
+      "start": 268.0,
+      "end": 272.0,
       "text": "Everybody’s starring",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
       "index": 159,
       "section": "Final Hook – warm, gently defiant",
-      "start": 248.75,
-      "end": 249.75,
+      "start": 272.0,
+      "end": 272.1,
       "text": "in a film no one bought tickets for",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1927,8 +1928,8 @@
     {
       "index": 160,
       "section": "Final Hook – warm, gently defiant",
-      "start": 250.5,
-      "end": 251.5,
+      "start": 272.1,
+      "end": 272.2,
       "text": "Main character morning",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1936,8 +1937,8 @@
     {
       "index": 161,
       "section": "Final Hook – warm, gently defiant",
-      "start": 252.0,
-      "end": 256.0,
+      "start": 272.2,
+      "end": 272.3,
       "text": "with your bag across the corridor",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1945,8 +1946,8 @@
     {
       "index": 162,
       "section": "Final Hook – warm, gently defiant",
-      "start": 256.0,
-      "end": 258.0,
+      "start": 272.3,
+      "end": 272.4,
       "text": "Look up for a second",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1954,8 +1955,8 @@
     {
       "index": 163,
       "section": "Final Hook – warm, gently defiant",
-      "start": 258.0,
-      "end": 262.0,
+      "start": 272.4,
+      "end": 272.5,
       "text": "There are people in the frame",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1963,8 +1964,8 @@
     {
       "index": 164,
       "section": "Final Hook – warm, gently defiant",
-      "start": 262.0,
-      "end": 264.0,
+      "start": 272.5,
+      "end": 272.6,
       "text": "The world doesn’t end",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1972,8 +1973,8 @@
     {
       "index": 165,
       "section": "Final Hook – warm, gently defiant",
-      "start": 264.0,
-      "end": 268.0,
+      "start": 272.6,
+      "end": 272.7,
       "text": "when it isn’t saying your name",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1981,8 +1982,8 @@
     {
       "index": 166,
       "section": "Final Hook – warm, gently defiant",
-      "start": 268.0,
-      "end": 269.143,
+      "start": 272.7,
+      "end": 272.8,
       "text": "Everybody’s carrying",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1990,8 +1991,8 @@
     {
       "index": 167,
       "section": "Final Hook – warm, gently defiant",
-      "start": 269.143,
-      "end": 272.0,
+      "start": 272.8,
+      "end": 272.9,
       "text": "a world behind their eyes",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1999,7 +2000,7 @@
     {
       "index": 168,
       "section": "Final Hook – warm, gently defiant",
-      "start": 272.0,
+      "start": 272.9,
       "end": 274.182,
       "text": "But the kindest little miracle",
       "timing_source": "whisper-aligned",

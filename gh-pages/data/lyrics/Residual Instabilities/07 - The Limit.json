@@ -13,8 +13,9 @@
     "line_count": 101,
     "reference_word_count": 420,
     "observed_word_count": 413,
-    "matched_word_count": 380,
-    "matched_word_ratio": 0.905
+    "matched_word_count": 377,
+    "matched_word_ratio": 0.898,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -352,10 +353,10 @@
       "index": 1,
       "section": "Intro – whispered fragments | distant low-frequency hum | faint static",
       "start": 3.2,
-      "end": 8.0,
+      "end": 6.4,
       "text": "there’s a limit",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 2,
@@ -388,10 +389,10 @@
       "index": 5,
       "section": "Intro – whispered fragments | distant low-frequency hum | faint static",
       "start": 22.857,
-      "end": 36.0,
+      "end": 24.0,
       "text": "it could feel like this",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 6,

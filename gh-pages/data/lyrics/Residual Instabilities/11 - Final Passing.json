@@ -13,8 +13,9 @@
     "line_count": 83,
     "reference_word_count": 437,
     "observed_word_count": 448,
-    "matched_word_count": 386,
-    "matched_word_ratio": 0.883
+    "matched_word_count": 381,
+    "matched_word_ratio": 0.872,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -283,37 +284,37 @@
       "index": 0,
       "section": "Intro",
       "start": 0.0,
-      "end": 7.728,
+      "end": 3.864,
       "text": "There it is again",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 1,
       "section": "Intro",
       "start": 11.592,
-      "end": 19.32,
+      "end": 17.388,
       "text": "A streak I swore was gone",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 2,
       "section": "Intro",
       "start": 19.32,
-      "end": 29.616,
+      "end": 26.184,
       "text": "Every time I name the dark",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 4
     },
     {
       "index": 3,
       "section": "Intro",
       "start": 29.616,
-      "end": 36.48,
+      "end": 31.332,
       "text": "You redraw it",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 4,

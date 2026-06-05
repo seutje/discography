@@ -13,8 +13,9 @@
     "line_count": 72,
     "reference_word_count": 432,
     "observed_word_count": 1144,
-    "matched_word_count": 68,
-    "matched_word_ratio": 0.157
+    "matched_word_count": 65,
+    "matched_word_ratio": 0.15,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -68,24 +69,24 @@
       "index": 0,
       "section": "Intro",
       "start": 1.613,
-      "end": 8.064,
+      "end": 6.451,
       "text": "Fair wind... if it comes...",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 1,
       "section": "Intro",
       "start": 8.064,
-      "end": 17.74,
+      "end": 14.515,
       "text": "Let it find the tired ones",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 4
     },
     {
       "index": 2,
       "section": "Intro",
-      "start": 17.74,
+      "start": 14.515,
       "end": 147.519,
       "text": "Loose rope... open palm...",
       "timing_source": "interpolated",
@@ -466,7 +467,7 @@
       "start": 224.84,
       "end": 224.94,
       "text": "If the fair wind finds us",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -475,7 +476,7 @@
       "start": 224.94,
       "end": 225.04,
       "text": "Let it find us as we are",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -484,7 +485,7 @@
       "start": 225.04,
       "end": 225.14,
       "text": "Salt in every sleeve cuff",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -493,7 +494,7 @@
       "start": 225.14,
       "end": 225.24,
       "text": "Splinters in the spar",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -502,7 +503,7 @@
       "start": 225.24,
       "end": 225.34,
       "text": "If the fair wind carries",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -511,7 +512,7 @@
       "start": 225.34,
       "end": 225.44,
       "text": "Let it carry without debt",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -520,7 +521,7 @@
       "start": 225.44,
       "end": 225.54,
       "text": "Not every good thing coming",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -610,7 +611,7 @@
       "start": 226.44,
       "end": 226.54,
       "text": "If the fair wind finds us",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -619,7 +620,7 @@
       "start": 226.54,
       "end": 226.64,
       "text": "Let it find us as we are",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -628,7 +629,7 @@
       "start": 226.64,
       "end": 226.74,
       "text": "Salt in every sleeve cuff",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -637,7 +638,7 @@
       "start": 226.74,
       "end": 226.84,
       "text": "Splinters in the spar",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -646,7 +647,7 @@
       "start": 226.84,
       "end": 226.94,
       "text": "If the fair wind carries",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -655,7 +656,7 @@
       "start": 226.94,
       "end": 227.04,
       "text": "Let it carry without debt",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {
@@ -664,7 +665,7 @@
       "start": 227.04,
       "end": 227.14,
       "text": "Not every good thing coming",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
     },
     {

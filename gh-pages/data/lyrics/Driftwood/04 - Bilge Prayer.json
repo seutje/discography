@@ -13,8 +13,9 @@
     "line_count": 68,
     "reference_word_count": 423,
     "observed_word_count": 417,
-    "matched_word_count": 376,
-    "matched_word_ratio": 0.889
+    "matched_word_count": 374,
+    "matched_word_ratio": 0.884,
+    "inserted_adlib_count": 0
   },
   "transcript_segments": [
     {
@@ -197,10 +198,10 @@
       "index": 1,
       "section": "Intro",
       "start": 4.8,
-      "end": 12.0,
+      "end": 10.8,
       "text": "Small cold hands beneath the floor",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 2,
@@ -719,16 +720,16 @@
       "index": 59,
       "section": "Bridge",
       "start": 189.0,
-      "end": 196.0,
+      "end": 194.833,
       "text": "Just someone braced below the deck",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 60,
       "section": "Break",
-      "start": 196.0,
-      "end": 196.1,
+      "start": 194.833,
+      "end": 196.0,
       "text": "(whispered)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -736,7 +737,7 @@
     {
       "index": 61,
       "section": "Break",
-      "start": 196.1,
+      "start": 196.0,
       "end": 199.429,
       "text": "Cup by cup...",
       "timing_source": "whisper-aligned",

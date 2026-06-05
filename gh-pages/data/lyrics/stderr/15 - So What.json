@@ -13,8 +13,9 @@
     "line_count": 86,
     "reference_word_count": 521,
     "observed_word_count": 559,
-    "matched_word_count": 201,
-    "matched_word_ratio": 0.386
+    "matched_word_count": 169,
+    "matched_word_ratio": 0.324,
+    "inserted_adlib_count": 6
   },
   "transcript_segments": [
     {
@@ -526,7 +527,8 @@
       "end": 2.0,
       "text": "Yeah…",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 1,
@@ -535,7 +537,8 @@
       "end": 15.15,
       "text": "Used to carry mountains on my shoulders…",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 2,
@@ -544,7 +547,8 @@
       "end": 18.52,
       "text": "Thought the world was watching every move…",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 3,
@@ -553,7 +557,8 @@
       "end": 22.44,
       "text": "But then it hit me…",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 4,
@@ -562,7 +567,8 @@
       "end": 24.44,
       "text": "So what?",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 5,
@@ -571,7 +577,8 @@
       "end": 27.84,
       "text": "Used to wake up heavy like the sky on my chest",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 6,
@@ -580,7 +587,8 @@
       "end": 29.44,
       "text": "Every little choice feel like a cosmic test",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 7,
@@ -589,7 +597,8 @@
       "end": 31.44,
       "text": "One wrong step, whole life might collapse",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 8,
@@ -598,7 +607,8 @@
       "end": 32.218,
       "text": "Every tiny moment had the weight of maps",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 9,
@@ -607,7 +617,8 @@
       "end": 34.44,
       "text": "Thought every thought had to mean something deep",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 10,
@@ -616,7 +627,8 @@
       "end": 35.44,
       "text": "Every dream had a promise to keep",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 11,
@@ -625,7 +637,8 @@
       "end": 37.44,
       "text": "Every failure carved into the stone",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 12,
@@ -634,7 +647,8 @@
       "end": 39.19,
       "text": "Like the universe writing on my bones",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 13,
@@ -643,7 +657,8 @@
       "end": 41.44,
       "text": "Spent years trying not to mess it up",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 14,
@@ -652,7 +667,8 @@
       "end": 42.273,
       "text": "Like existence was a fragile cup",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 15,
@@ -661,7 +677,8 @@
       "end": 44.04,
       "text": "Every word, every move, every breath",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 16,
@@ -670,7 +687,8 @@
       "end": 46.154,
       "text": "Measured like I’m bargaining with death",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 17,
@@ -679,7 +697,8 @@
       "end": 47.315,
       "text": "Then one night staring into the dark",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 18,
@@ -688,7 +707,8 @@
       "end": 48.107,
       "text": "Realized something lighting a spark",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 19,
@@ -697,7 +717,8 @@
       "end": 50.69,
       "text": "All the pressure suddenly fell through",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 20,
@@ -706,7 +727,8 @@
       "end": 52.44,
       "text": "Nothing matters like I thought it do",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 21,
@@ -715,7 +737,8 @@
       "end": 54.107,
       "text": "And the silence felt lighter than air",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 22,
@@ -724,574 +747,698 @@
       "end": 57.44,
       "text": "Like the universe just didn't care",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 23,
       "section": "Pre-Chorus",
       "start": 58.44,
-      "end": 128.44,
+      "end": 59.69,
       "text": "All the rules that I carried for years",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 24,
       "section": "Pre-Chorus",
-      "start": 128.44,
-      "end": 142.44,
+      "start": 59.69,
+      "end": 63.44,
       "text": "Just… disappeared",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 25,
       "section": "Chorus",
-      "start": 142.44,
-      "end": 145.44,
+      "start": 63.44,
+      "end": 66.44,
       "text": "So what if the moment goes wrong?",
-      "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 26,
       "section": "Chorus",
-      "start": 145.44,
-      "end": 148.44,
+      "start": 66.44,
+      "end": 69.44,
       "text": "So what if the road gets long?",
-      "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 27,
       "section": "Chorus",
-      "start": 148.44,
-      "end": 151.44,
+      "start": 69.44,
+      "end": 72.44,
       "text": "So what if the world don’t care?",
-      "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 28,
       "section": "Chorus",
-      "start": 152.297,
-      "end": 153.583,
+      "start": 72.44,
+      "end": 75.44,
       "text": "Neither do the stars up there",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 29,
       "section": "Chorus",
-      "start": 154.44,
-      "end": 157.297,
+      "start": 75.44,
+      "end": 79.44,
       "text": "So what if I stumble today?",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 30,
-      "section": "Chorus",
-      "start": 158.44,
-      "end": 160.64,
-      "text": "So what if the plans all stray?",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "section": "Detected ad-lib",
+      "start": 97.44,
+      "end": 100.44,
+      "text": "So what?",
+      "timing_source": "transcript-repeated-adlib",
+      "matched_words": 2,
+      "line_type": "transcript-adlib"
     },
     {
       "index": 31,
+      "section": "Chorus",
+      "start": 142.44,
+      "end": 145.44,
+      "text": "So what if the plans all stray?",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 32,
+      "section": "Detected ad-lib",
+      "start": 158.44,
+      "end": 159.44,
+      "text": "So what?",
+      "timing_source": "transcript-repeated-adlib",
+      "matched_words": 2,
+      "line_type": "transcript-adlib"
+    },
+    {
+      "index": 33,
       "section": "Chorus",
       "start": 161.94,
       "end": 164.44,
       "text": "If nothing’s written in the sky",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 32,
+      "index": 34,
       "section": "Chorus",
       "start": 165.44,
       "end": 167.44,
       "text": "Then I’m finally free to try",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 33,
+      "index": 35,
       "section": "Chorus",
       "start": 167.44,
       "end": 175.44,
       "text": "So what?",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 34,
+      "index": 36,
       "section": "Verse 2",
       "start": 175.44,
       "end": 175.869,
       "text": "Used to treat every mistake like doom",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 35,
+      "index": 37,
       "section": "Verse 2",
       "start": 175.869,
       "end": 176.457,
       "text": "Like the walls of reality closing the room",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 36,
+      "index": 38,
       "section": "Verse 2",
       "start": 176.457,
       "end": 177.118,
       "text": "Like the eyes of the cosmos judging the play",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 37,
+      "index": 39,
       "section": "Verse 2",
       "start": 177.118,
       "end": 177.485,
       "text": "Every misstep etched in clay",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 38,
+      "index": 40,
       "section": "Verse 2",
       "start": 177.485,
       "end": 177.999,
       "text": "But the truth came quiet and strange",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 39,
+      "index": 41,
       "section": "Verse 2",
       "start": 177.999,
       "end": 178.44,
       "text": "Not a sermon, not a page",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 40,
+      "index": 42,
       "section": "Verse 2",
       "start": 178.44,
       "end": 179.44,
       "text": "Just a thought drifting soft and slow",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 41,
+      "index": 43,
       "section": "Verse 2",
       "start": 179.44,
       "end": 182.94,
       "text": "What if none of it matters though?",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 42,
+      "index": 44,
       "section": "Verse 2",
       "start": 182.94,
       "end": 186.44,
       "text": "What if pressure’s a story we tell",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 43,
+      "index": 45,
       "section": "Verse 2",
       "start": 186.44,
       "end": 187.773,
       "text": "Just a mind-built private hell",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 44,
+      "index": 46,
       "section": "Verse 2",
       "start": 187.773,
       "end": 188.292,
       "text": "What if meaning ain’t carved in stone",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 45,
+      "index": 47,
       "section": "Verse 2",
       "start": 188.292,
       "end": 188.736,
       "text": "But something we’re free to loan",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 46,
+      "index": 48,
       "section": "Verse 2",
       "start": 188.736,
       "end": 189.107,
       "text": "Suddenly the air got wide",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 47,
+      "index": 49,
       "section": "Verse 2",
       "start": 189.107,
       "end": 189.996,
       "text": "Like the walls of the world slid aside",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 48,
+      "index": 50,
       "section": "Verse 2",
       "start": 191.44,
       "end": 191.94,
       "text": "All the fear that I fed for years",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 49,
+      "index": 51,
       "section": "Verse 2",
       "start": 191.94,
       "end": 192.101,
       "text": "Lost its gears",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 50,
+      "index": 52,
       "section": "Pre-Chorus",
       "start": 192.101,
       "end": 192.422,
       "text": "If the universe ain’t keeping score",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 51,
+      "index": 53,
       "section": "Pre-Chorus",
       "start": 192.422,
       "end": 192.744,
       "text": "Why keep punishing myself for more?",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 52,
+      "index": 54,
       "section": "Pre-Chorus",
       "start": 192.744,
       "end": 193.119,
       "text": "Why drag chains that I forged alone?",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 53,
+      "index": 55,
       "section": "Pre-Chorus",
       "start": 193.119,
       "end": 193.44,
       "text": "When I can drop the stone",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 54,
+      "index": 56,
+      "section": "Detected ad-lib",
+      "start": 193.44,
+      "end": 195.44,
+      "text": "So what?",
+      "timing_source": "transcript-repeated-adlib",
+      "matched_words": 2,
+      "line_type": "transcript-adlib"
+    },
+    {
+      "index": 57,
       "section": "Chorus",
       "start": 193.44,
       "end": 197.44,
       "text": "So what if the moment goes wrong?",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 55,
+      "index": 58,
+      "section": "Detected ad-lib",
+      "start": 197.44,
+      "end": 198.44,
+      "text": "So what?",
+      "timing_source": "transcript-repeated-adlib",
+      "matched_words": 2,
+      "line_type": "transcript-adlib"
+    },
+    {
+      "index": 59,
       "section": "Chorus",
       "start": 197.44,
       "end": 199.44,
       "text": "So what if the road gets long?",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
-    },
-    {
-      "index": 56,
-      "section": "Chorus",
-      "start": 199.44,
-      "end": 199.54,
-      "text": "So what if the world don’t care?",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 57,
-      "section": "Chorus",
-      "start": 199.54,
-      "end": 199.64,
-      "text": "Neither do the stars up there",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 58,
-      "section": "Chorus",
-      "start": 199.64,
-      "end": 199.74,
-      "text": "So what if I stumble today?",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 59,
-      "section": "Chorus",
-      "start": 199.74,
-      "end": 199.84,
-      "text": "So what if the plans all stray?",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 60,
       "section": "Chorus",
-      "start": 199.84,
-      "end": 199.94,
-      "text": "If nothing’s written in the sky",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "start": 200.44,
+      "end": 203.44,
+      "text": "So what if the world don’t care?",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 61,
       "section": "Chorus",
-      "start": 199.94,
-      "end": 200.04,
-      "text": "Then I’m finally free to try",
+      "start": 203.44,
+      "end": 203.54,
+      "text": "Neither do the stars up there",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 62,
       "section": "Chorus",
-      "start": 200.04,
-      "end": 200.14,
-      "text": "So what?",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "start": 203.54,
+      "end": 203.64,
+      "text": "So what if I stumble today?",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 63,
-      "section": "Bridge",
-      "start": 200.14,
-      "end": 200.24,
-      "text": "Let the pressure dissolve in the air",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "section": "Chorus",
+      "start": 203.64,
+      "end": 203.74,
+      "text": "So what if the plans all stray?",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 64,
-      "section": "Bridge",
-      "start": 200.24,
-      "end": 200.34,
-      "text": "Let the weight disappear if it’s there",
+      "section": "Chorus",
+      "start": 203.74,
+      "end": 203.84,
+      "text": "If nothing’s written in the sky",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 65,
-      "section": "Bridge",
-      "start": 200.34,
-      "end": 200.44,
-      "text": "Every rule that was crushing your chest",
+      "section": "Chorus",
+      "start": 203.84,
+      "end": 203.94,
+      "text": "Then I’m finally free to try",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 66,
-      "section": "Bridge",
-      "start": 200.44,
-      "end": 200.54,
-      "text": "Just a thought in a nest",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "section": "Chorus",
+      "start": 203.94,
+      "end": 204.04,
+      "text": "So what?",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 67,
       "section": "Bridge",
-      "start": 200.54,
-      "end": 200.64,
-      "text": "You were never on trial, my friend",
+      "start": 204.04,
+      "end": 204.14,
+      "text": "Let the pressure dissolve in the air",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 68,
       "section": "Bridge",
-      "start": 200.64,
-      "end": 200.74,
-      "text": "No cosmic judge at the end",
+      "start": 204.14,
+      "end": 204.24,
+      "text": "Let the weight disappear if it’s there",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 69,
       "section": "Bridge",
-      "start": 200.74,
-      "end": 200.84,
-      "text": "Just a mind that forgot how to breathe",
+      "start": 204.24,
+      "end": 204.34,
+      "text": "Every rule that was crushing your chest",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 70,
       "section": "Bridge",
-      "start": 200.84,
-      "end": 200.94,
-      "text": "Under stories we weave",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "start": 204.34,
+      "end": 204.44,
+      "text": "Just a thought in a nest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 71,
-      "section": "Final Chorus",
-      "start": 200.94,
-      "end": 201.04,
-      "text": "So what if the moment goes wrong?",
+      "section": "Bridge",
+      "start": 204.44,
+      "end": 204.54,
+      "text": "You were never on trial, my friend",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 72,
-      "section": "Final Chorus",
-      "start": 201.04,
-      "end": 201.14,
-      "text": "So what if the road gets long?",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "section": "Bridge",
+      "start": 204.54,
+      "end": 204.64,
+      "text": "No cosmic judge at the end",
+      "timing_source": "interpolated",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 73,
-      "section": "Final Chorus",
-      "start": 201.14,
-      "end": 203.44,
-      "text": "So what if the world don’t care?",
-      "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "section": "Bridge",
+      "start": 204.64,
+      "end": 204.74,
+      "text": "Just a mind that forgot how to breathe",
+      "timing_source": "interpolated",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 74,
-      "section": "Final Chorus",
-      "start": 203.44,
-      "end": 206.44,
-      "text": "That’s the freedom in the air",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "section": "Bridge",
+      "start": 204.74,
+      "end": 204.84,
+      "text": "Under stories we weave",
+      "timing_source": "interpolated",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 75,
+      "section": "Final Chorus",
+      "start": 204.84,
+      "end": 204.94,
+      "text": "So what if the moment goes wrong?",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 76,
+      "section": "Final Chorus",
+      "start": 204.94,
+      "end": 205.04,
+      "text": "So what if the road gets long?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 77,
+      "section": "Final Chorus",
+      "start": 205.04,
+      "end": 205.14,
+      "text": "So what if the world don’t care?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 78,
+      "section": "Final Chorus",
+      "start": 205.14,
+      "end": 206.44,
+      "text": "That’s the freedom in the air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 79,
+      "section": "Detected ad-lib",
+      "start": 206.44,
+      "end": 208.44,
+      "text": "So what?",
+      "timing_source": "transcript-repeated-adlib",
+      "matched_words": 2,
+      "line_type": "transcript-adlib"
+    },
+    {
+      "index": 80,
       "section": "Final Chorus",
       "start": 206.44,
       "end": 210.44,
       "text": "So what if the plans collapse?",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 76,
+      "index": 81,
+      "section": "Detected ad-lib",
+      "start": 210.44,
+      "end": 211.44,
+      "text": "So what?",
+      "timing_source": "transcript-repeated-adlib",
+      "matched_words": 2,
+      "line_type": "transcript-adlib"
+    },
+    {
+      "index": 82,
       "section": "Final Chorus",
       "start": 210.44,
       "end": 212.94,
       "text": "So what if the future gaps?",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 77,
+      "index": 83,
       "section": "Final Chorus",
       "start": 213.94,
       "end": 216.44,
       "text": "If nothing’s written in the sky",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 78,
+      "index": 84,
       "section": "Final Chorus",
       "start": 217.44,
       "end": 218.94,
       "text": "Then we’re finally free to fly",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 79,
+      "index": 85,
       "section": "Final Chorus",
       "start": 219.44,
       "end": 221.44,
       "text": "So what?",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 80,
+      "index": 86,
       "section": "Final Chorus",
       "start": 223.44,
       "end": 224.44,
       "text": "So what?",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 81,
+      "index": 87,
       "section": "Final Chorus",
       "start": 226.44,
       "end": 227.44,
       "text": "So what?",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 82,
+      "index": 88,
       "section": "Outro",
       "start": 230.44,
       "end": 230.94,
       "text": "Yeah…",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 83,
+      "index": 89,
       "section": "Outro",
       "start": 230.94,
       "end": 234.44,
       "text": "The universe kept spinning the whole time",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 84,
+      "index": 90,
       "section": "Outro",
       "start": 234.44,
       "end": 238.04,
       "text": "Turns out…",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 85,
+      "index": 91,
       "section": "Outro",
       "start": 238.04,
       "end": 240.44,
       "text": "It was never that serious.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     }
   ]
 }

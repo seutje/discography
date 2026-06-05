@@ -186,6 +186,51 @@ def match_tokens(refs: list[dict[str, int | str]], words: list[dict[str, Any]]) 
     return matched
 
 
+def compact_word_clusters(line: LyricLine, word_indices: list[int], words: list[dict[str, Any]]) -> list[list[int]]:
+    indices = sorted(set(word_indices))
+    if len(indices) <= 1:
+        return [indices] if indices else []
+
+    max_gap = 3.2
+    max_span = max(4.0, min(12.0, len(line.tokens) * 1.15))
+    clusters: list[list[int]] = []
+    current = [indices[0]]
+    for index in indices[1:]:
+        previous = current[-1]
+        gap = float(words[index]["start"]) - float(words[previous]["end"])
+        span = float(words[index]["end"]) - float(words[current[0]]["start"])
+        if gap <= max_gap and span <= max_span:
+            current.append(index)
+        else:
+            clusters.append(current)
+            current = [index]
+    clusters.append(current)
+    return clusters
+
+
+def select_word_cluster(
+    line: LyricLine,
+    word_indices: list[int],
+    words: list[dict[str, Any]],
+    cursor: int,
+) -> list[int]:
+    clusters = compact_word_clusters(line, word_indices, words)
+    if not clusters:
+        return []
+
+    max_count = max(len(cluster) for cluster in clusters)
+    good_count = max(1, max_count - 2)
+    after_cursor = [cluster for cluster in clusters if cluster[0] >= cursor and len(cluster) >= good_count]
+    if after_cursor:
+        return min(after_cursor, key=lambda cluster: (cluster[0], -(len(cluster))))
+
+    def score(cluster: list[int]) -> tuple[int, float, int]:
+        span = float(words[cluster[-1]]["end"]) - float(words[cluster[0]]["start"])
+        return (len(cluster), -span, -cluster[0])
+
+    return max(clusters, key=score)
+
+
 def weighted_fill(lines: list[LyricLine], timings: list[dict[str, float | None]], total_duration: float) -> None:
     matched_indices = [index for index, timing in enumerate(timings) if timing["start"] is not None]
 
@@ -221,15 +266,95 @@ def weighted_fill(lines: list[LyricLine], timings: list[dict[str, float | None]]
     fill_block(last + 1, len(lines) - 1, float(timings[last]["end"] or timings[last]["start"] or 0), total_duration)
 
 
-def align_lines(lines: list[LyricLine], words: list[dict[str, Any]], total_duration: float) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+def ordered_overlap_score(reference: list[str], observed: list[str]) -> float:
+    if not reference or not observed:
+        return 0.0
+
+    def token_matches(left: str, right: str) -> bool:
+        if left == right:
+            return True
+        if left in {"a", "an", "the"} and right in {"a", "an", "the"}:
+            return True
+        if {left, right} <= {"if", "in"}:
+            return True
+        if left.endswith("s") and left[:-1] == right:
+            return True
+        if right.endswith("s") and right[:-1] == left:
+            return True
+        return difflib.SequenceMatcher(None, left, right, autojunk=False).ratio() >= 0.74
+
+    matched = 0
+    observed_index = 0
+    for token in reference:
+        while observed_index < len(observed):
+            if token_matches(token, observed[observed_index]):
+                matched += 1
+                observed_index += 1
+                break
+            observed_index += 1
+    return matched / len(reference)
+
+
+def fuzzy_segment_candidate(
+    line: LyricLine,
+    segments: list[dict[str, Any]],
+    previous_end: float,
+    cluster_start: float | None,
+) -> dict[str, Any] | None:
+    if not line.tokens:
+        return None
+    threshold = 0.5 if len(line.tokens) >= 5 else 0.72
+    search_end = cluster_start - 0.25 if cluster_start is not None else previous_end + 22.0
+    candidates = []
+    for segment in segments:
+        start = float(segment.get("start", 0))
+        end = float(segment.get("end", start))
+        if end < previous_end - 0.5:
+            continue
+        if start > search_end:
+            break
+        score = ordered_overlap_score(line.tokens, normalize_tokens(str(segment.get("text") or "")))
+        if score >= threshold:
+            candidates.append((score, start, end))
+    if not candidates:
+        return None
+    score, start, end = max(candidates, key=lambda item: (item[0], -item[1]))
+    return {"start": start, "end": end, "score": score}
+
+
+def align_lines(
+    lines: list[LyricLine],
+    words: list[dict[str, Any]],
+    total_duration: float,
+    segments: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     refs = line_token_refs(lines)
     matches = match_tokens(refs, words)
     timings: list[dict[str, Any]] = [{"start": None, "end": None, "source": "unmatched", "matched_words": 0} for _ in lines]
     matched_word_total = 0
+    cursor = 0
+    previous_end = 0.0
     for line in lines:
-        word_indices = sorted(set(matches.get(line.index, [])))
+        word_indices = select_word_cluster(line, matches.get(line.index, []), words, cursor)
+        cluster_start = min((float(words[index]["start"]) for index in word_indices), default=None)
+        fuzzy = fuzzy_segment_candidate(line, segments, previous_end, cluster_start)
+        use_fuzzy = fuzzy is not None and (
+            not word_indices or (cluster_start is not None and cluster_start - previous_end > 10)
+        )
+        if use_fuzzy:
+            start = float(fuzzy["start"])
+            end = float(fuzzy["end"])
+            timings[line.index] = {
+                "start": round(start, 3),
+                "end": round(end, 3),
+                "source": "whisper-segment-fuzzy",
+                "matched_words": 0,
+            }
+            previous_end = max(previous_end, end)
+            continue
         if not word_indices:
             continue
+        cursor = max(cursor, word_indices[-1] + 1)
         matched_word_total += len(word_indices)
         start = min(float(words[index]["start"]) for index in word_indices)
         end = max(float(words[index]["end"]) for index in word_indices)
@@ -240,6 +365,7 @@ def align_lines(lines: list[LyricLine], words: list[dict[str, Any]], total_durat
                 "source": "whisper-aligned",
                 "matched_words": len(word_indices),
             }
+            previous_end = max(previous_end, end)
     weighted_fill(lines, timings, total_duration)
 
     previous_end = 0.0
@@ -285,12 +411,106 @@ def concise_segments(transcript: dict[str, Any]) -> list[dict[str, Any]]:
     ]
 
 
+def repeated_short_line_candidates(lines: list[LyricLine]) -> dict[tuple[str, ...], str]:
+    counts: dict[tuple[str, ...], int] = {}
+    labels: dict[tuple[str, ...], str] = {}
+    for line in lines:
+        key = tuple(line.tokens)
+        if not 2 <= len(key) <= 3:
+            continue
+        counts[key] = counts.get(key, 0) + 1
+        labels.setdefault(key, line.text)
+    return {key: labels[key] for key, count in counts.items() if count >= 2}
+
+
+def repeated_candidate_span(tokens: list[str], candidates: dict[tuple[str, ...], str]) -> tuple[tuple[str, ...], int] | None:
+    fillers = {"ah", "ay", "eh", "hm", "hmm", "uh", "um", "yeah", "yo"}
+    trimmed = [token for token in tokens if token not in fillers]
+    if not trimmed:
+        return None
+    for candidate in sorted(candidates, key=len, reverse=True):
+        size = len(candidate)
+        if len(trimmed) % size:
+            continue
+        repeats = len(trimmed) // size
+        if repeats < 1:
+            continue
+        if all(tuple(trimmed[index : index + size]) == candidate for index in range(0, len(trimmed), size)):
+            return candidate, repeats
+    return None
+
+
+def has_matching_line_near(lines: list[dict[str, Any]], candidate: tuple[str, ...], start: float, end: float) -> bool:
+    for line in lines:
+        if tuple(normalize_tokens(str(line.get("text") or ""))) != candidate:
+            continue
+        line_start = float(line.get("start", 0))
+        line_end = float(line.get("end", line_start))
+        overlaps = max(start, line_start) <= min(end, line_end) + 0.5
+        nearby = abs(start - line_start) <= 1.0 or abs(end - line_end) <= 1.0
+        if overlaps or nearby:
+            return True
+    return False
+
+
+def insert_repeated_adlibs(
+    timed_lines: list[dict[str, Any]],
+    sheet_lines: list[LyricLine],
+    transcript: dict[str, Any],
+) -> tuple[list[dict[str, Any]], int]:
+    candidates = repeated_short_line_candidates(sheet_lines)
+    if not candidates:
+        return timed_lines, 0
+
+    additions: list[dict[str, Any]] = []
+    for segment in transcript.get("segments") or []:
+        tokens = normalize_tokens(str(segment.get("text") or ""))
+        match = repeated_candidate_span(tokens, candidates)
+        if not match:
+            continue
+        candidate, repeats = match
+        start = float(segment.get("start", 0))
+        end = float(segment.get("end", start))
+        if end <= start or has_matching_line_near(timed_lines, candidate, start, end):
+            continue
+        span = (end - start) / repeats
+        for repeat_index in range(repeats):
+            line_start = start + span * repeat_index
+            line_end = start + span * (repeat_index + 1)
+            if has_matching_line_near(timed_lines + additions, candidate, line_start, line_end):
+                continue
+            additions.append(
+                {
+                    "index": -1,
+                    "section": "Detected ad-lib",
+                    "start": round(line_start, 3),
+                    "end": round(line_end, 3),
+                    "text": candidates[candidate],
+                    "timing_source": "transcript-repeated-adlib",
+                    "matched_words": len(candidate),
+                    "line_type": "transcript-adlib",
+                }
+            )
+
+    if not additions:
+        return timed_lines, 0
+
+    merged = sorted([*timed_lines, *additions], key=lambda line: (float(line["start"]), float(line["end"])))
+    for index, line in enumerate(merged):
+        line["index"] = index
+        line.setdefault("line_type", "lyric-sheet")
+    return merged, len(additions)
+
+
 def build_payload(text_path: Path, audio_path: Path, args: argparse.Namespace, model: Any) -> dict[str, Any]:
     metadata, lines = parse_lyrics(text_path)
     transcript = transcribe(model, audio_path, args.language, args.word_timestamps)
     total_duration = max((float(segment.get("end", 0)) for segment in transcript.get("segments") or []), default=0)
+    transcript_segments = concise_segments(transcript)
     words = observed_words(transcript)
-    timed_lines, diagnostics = align_lines(lines, words, max(0.1, total_duration or 0.1))
+    timed_lines, diagnostics = align_lines(lines, words, max(0.1, total_duration or 0.1), transcript_segments)
+    timed_lines, inserted_adlibs = insert_repeated_adlibs(timed_lines, lines, transcript)
+    diagnostics["inserted_adlib_count"] = inserted_adlibs
     return {
         "schema": "discography-timed-lyrics-v1",
         "album": text_path.parent.name,
@@ -303,7 +523,7 @@ def build_payload(text_path: Path, audio_path: Path, args: argparse.Namespace, m
         "timing_granularity": "line",
         "timing_backend": transcript.get("_timing_backend", "unknown"),
         "diagnostics": diagnostics,
-        "transcript_segments": concise_segments(transcript),
+        "transcript_segments": transcript_segments,
         "lines": timed_lines,
     }
 
@@ -334,6 +554,7 @@ def write_json(path: Path, payload: dict[str, Any]) -> None:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate timed lyric JSON for a repo album.")
     parser.add_argument("--album", action="append", help="Album directory to process. May be passed more than once.")
+    parser.add_argument("--track", action="append", default=[], help="Only process matching track title or text-file stem. May be passed more than once.")
     parser.add_argument("--all", action="store_true", help="Process every album directory with lyric sheets and audio.")
     parser.add_argument("--exclude-album", action="append", default=[], help="Album directory name to skip. May be passed more than once.")
     parser.add_argument("--model", default="base", help="Whisper model name, e.g. tiny, base, small.")
@@ -351,6 +572,11 @@ def process_album(album: Path, args: argparse.Namespace, model: Any) -> int:
 
     written = 0
     for text_path in text_paths_for_album(album):
+        if args.track:
+            needles = [value.casefold() for value in args.track]
+            haystacks = [text_path.stem.casefold(), text_path.stem.split(" - ", 1)[-1].casefold()]
+            if not any(needle in haystack for needle in needles for haystack in haystacks):
+                continue
         audio_path = audio_path_for_text(text_path)
         if not audio_path:
             print(f"skip missing audio: {text_path.relative_to(ROOT)}")

@@ -14,7 +14,8 @@
     "reference_word_count": 426,
     "observed_word_count": 830,
     "matched_word_count": 222,
-    "matched_word_ratio": 0.521
+    "matched_word_ratio": 0.521,
+    "inserted_adlib_count": 1
   },
   "transcript_segments": [
     {
@@ -186,7 +187,8 @@
       "end": 8.64,
       "text": "Yeah…",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 1,
@@ -195,7 +197,8 @@
       "end": 11.88,
       "text": "Listen close.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 2,
@@ -204,7 +207,8 @@
       "end": 13.88,
       "text": "Actually—don’t bother.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 3,
@@ -213,7 +217,8 @@
       "end": 16.36,
       "text": "You won’t catch it anyway.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 4,
@@ -222,7 +227,8 @@
       "end": 18.92,
       "text": "You follow?",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 5,
@@ -231,7 +237,8 @@
       "end": 21.883,
       "text": "I can spend hours on a bar, perfect the phrasing",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 6,
@@ -240,7 +247,8 @@
       "end": 25.314,
       "text": "Triple-entendre with the structure amazing",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 7,
@@ -249,7 +257,8 @@
       "end": 25.737,
       "text": "Internal rhyme chains, pattern aligning",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 8,
@@ -258,7 +267,8 @@
       "end": 27.006,
       "text": "Meaning in the margins, the rhythm entwining",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 9,
@@ -267,7 +277,8 @@
       "end": 28.697,
       "text": "Syllable stitching, the cadence precise",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 10,
@@ -276,7 +287,8 @@
       "end": 30.209,
       "text": "Every consonant landing like cutting with ice",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 11,
@@ -285,7 +297,8 @@
       "end": 32.023,
       "text": "Multi-layer metaphors deep in the mix",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 12,
@@ -294,7 +307,8 @@
       "end": 33.111,
       "text": "Hidden little puzzles inside of the script",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 13,
@@ -303,7 +317,8 @@
       "end": 35.377,
       "text": "But if the first eight seconds don’t grab your brain",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 14,
@@ -312,7 +327,8 @@
       "end": 36.79,
       "text": "It’s over before the verse explains",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 15,
@@ -321,7 +337,8 @@
       "end": 38.203,
       "text": "Nobody’s digging through bars that deep",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 16,
@@ -330,7 +347,8 @@
       "end": 40.713,
       "text": "If the intro ain’t catchy enough to repeat",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 17,
@@ -339,7 +357,8 @@
       "end": 41.38,
       "text": "You follow?",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 18,
@@ -348,7 +367,8 @@
       "end": 43.318,
       "text": "You think they listen to the lines?",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 19,
@@ -357,7 +377,8 @@
       "end": 44.722,
       "text": "Nah, they listen to the vibes",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 20,
@@ -366,7 +387,8 @@
       "end": 45.658,
       "text": "Words could be brilliant, complex, refined",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 21,
@@ -375,7 +397,8 @@
       "end": 48.88,
       "text": "But the bounce decides the life",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 22,
@@ -384,7 +407,8 @@
       "end": 51.594,
       "text": "Flow first, meaning later",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 23,
@@ -393,7 +417,8 @@
       "end": 52.972,
       "text": "Hook loud, truth gets fainter",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 24,
@@ -402,7 +427,8 @@
       "end": 54.567,
       "text": "You could write a masterpiece",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 25,
@@ -411,7 +437,8 @@
       "end": 56.428,
       "text": "Nobody hears it if the beat ain’t greater",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 26,
@@ -420,7 +447,8 @@
       "end": 56.96,
       "text": "Intro catch, algorithm nod",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 27,
@@ -429,7 +457,8 @@
       "end": 59.312,
       "text": "Numbers rise, they think you’re a god",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 28,
@@ -438,7 +467,8 @@
       "end": 60.167,
       "text": "Write for weeks, polish the craft",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 29,
@@ -447,7 +477,8 @@
       "end": 62.519,
       "text": "But the first ten seconds decide the path",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 30,
@@ -456,367 +487,418 @@
       "end": 63.16,
       "text": "You follow?",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 31,
+      "section": "Detected ad-lib",
+      "start": 72.12,
+      "end": 74.12,
+      "text": "You follow?",
+      "timing_source": "transcript-repeated-adlib",
+      "matched_words": 2,
+      "line_type": "transcript-adlib"
+    },
+    {
+      "index": 32,
       "section": "Verse 2",
       "start": 79.32,
       "end": 80.773,
       "text": "I’ve seen verses carved like sculpture in stone",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 32,
+      "index": 33,
       "section": "Verse 2",
       "start": 80.773,
       "end": 82.64,
       "text": "Every rhyme placed like a gear in a dome",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 33,
+      "index": 34,
       "section": "Verse 2",
       "start": 83.453,
       "end": 84.267,
       "text": "Architecture hidden inside of the sound",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 34,
+      "index": 35,
       "section": "Verse 2",
       "start": 84.47,
       "end": 85.893,
       "text": "But nobody notices once it’s around",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 35,
+      "index": 36,
       "section": "Verse 2",
       "start": 85.893,
       "end": 86.707,
       "text": "They just nod when the hi-hats scatter",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 36,
+      "index": 37,
       "section": "Verse 2",
       "start": 87.52,
       "end": 89.15,
       "text": "They don’t care what the words even matter",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 8,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 37,
+      "index": 38,
       "section": "Verse 2",
       "start": 89.15,
       "end": 90.373,
       "text": "Cadence hypnotic, the rhythm intact",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 38,
+      "index": 39,
       "section": "Verse 2",
       "start": 90.78,
       "end": 91.801,
       "text": "Lyrics could vanish and nothing retracts",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 39,
+      "index": 40,
       "section": "Verse 2",
       "start": 92.006,
       "end": 93.64,
       "text": "You could rap about nothing at all",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 40,
+      "index": 41,
       "section": "Verse 2",
       "start": 93.64,
       "end": 95.131,
       "text": "Just vowel percussion bouncing the wall",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 41,
+      "index": 42,
       "section": "Verse 2",
       "start": 95.344,
       "end": 97.049,
       "text": "Flow like a piston, bounce like a drum",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 42,
+      "index": 43,
       "section": "Verse 2",
       "start": 97.049,
       "end": 97.688,
       "text": "People go crazy like something profound",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 43,
+      "index": 44,
       "section": "Verse 2",
       "start": 98.54,
       "end": 100.102,
       "text": "Meaning optional, rhythm required",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 44,
+      "index": 45,
       "section": "Verse 2",
       "start": 100.102,
       "end": 101.975,
       "text": "Truth gets buried beneath the amplifier",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 45,
+      "index": 46,
       "section": "Verse 2",
       "start": 101.975,
       "end": 102.6,
       "text": "You follow?",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 46,
+      "index": 47,
       "section": "Pre-Chorus 2",
       "start": 104.677,
       "end": 105.048,
       "text": "Every artist thinks the verse is the core",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 47,
+      "index": 48,
       "section": "Pre-Chorus 2",
       "start": 105.79,
       "end": 106.347,
       "text": "Hours crafting what the pen is for",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 48,
+      "index": 49,
       "section": "Pre-Chorus 2",
       "start": 106.533,
       "end": 108.203,
       "text": "But the system don’t measure the art in the page",
       "timing_source": "whisper-aligned",
-      "matched_words": 9
+      "matched_words": 9,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 49,
+      "index": 50,
       "section": "Pre-Chorus 2",
       "start": 108.76,
       "end": 110.538,
       "text": "Just the hook that survives through the scroll of the age",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 50,
+      "index": 51,
       "section": "Chorus",
       "start": 112.35,
       "end": 112.979,
       "text": "Flow first, meaning later",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 51,
+      "index": 52,
       "section": "Chorus",
       "start": 113.294,
       "end": 114.238,
       "text": "Hook loud, truth gets fainter",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 52,
+      "index": 53,
       "section": "Chorus",
       "start": 114.553,
       "end": 116.127,
       "text": "You could write a masterpiece",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 53,
+      "index": 54,
       "section": "Chorus",
       "start": 116.127,
       "end": 118.33,
       "text": "Nobody hears it if the beat ain’t greater",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 54,
+      "index": 55,
       "section": "Chorus",
       "start": 118.33,
       "end": 118.96,
       "text": "Intro catch, algorithm nod",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 55,
+      "index": 56,
       "section": "Chorus",
       "start": 120.108,
       "end": 121.485,
       "text": "Numbers rise, they think you’re a god",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 56,
+      "index": 57,
       "section": "Chorus",
       "start": 122.174,
       "end": 123.092,
       "text": "Write for weeks, polish the craft",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 57,
+      "index": 58,
       "section": "Chorus",
       "start": 123.322,
       "end": 124.24,
       "text": "But the first ten seconds decide the path",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 3,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 58,
+      "index": 59,
       "section": "Chorus",
       "start": 125.24,
       "end": 126.24,
       "text": "You follow?",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 2,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 59,
+      "index": 60,
       "section": "Bridge",
       "start": 126.24,
       "end": 126.469,
       "text": "This ain’t bitter, it’s basic design",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 60,
+      "index": 61,
       "section": "Bridge",
       "start": 126.469,
       "end": 126.735,
       "text": "Sound hits faster than reading a line",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 61,
+      "index": 62,
       "section": "Bridge",
       "start": 126.735,
       "end": 127.002,
       "text": "Brain grabs rhythm before it grabs sense",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 62,
+      "index": 63,
       "section": "Bridge",
       "start": 127.002,
       "end": 127.154,
       "text": "Emotion arrives before consequence",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 63,
+      "index": 64,
       "section": "Bridge",
       "start": 127.154,
       "end": 127.497,
       "text": "So the verse could be genius, layered and dense",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 64,
+      "index": 65,
       "section": "Bridge",
       "start": 127.497,
       "end": 127.84,
       "text": "Still drowned in the kick and the bass suspense",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 65,
+      "index": 66,
       "section": "Bridge",
       "start": 127.84,
       "end": 129.84,
       "text": "You follow?",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 66,
+      "index": 67,
       "section": "Outro",
       "start": 129.84,
       "end": 131.108,
       "text": "So write your verses sharp as a blade",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 67,
+      "index": 68,
       "section": "Outro",
       "start": 131.108,
       "end": 132.376,
       "text": "Stack every rhyme like a fortress you made",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 68,
+      "index": 69,
       "section": "Outro",
       "start": 132.376,
       "end": 133.644,
       "text": "But if the intro don’t spark that flame",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 69,
+      "index": 70,
       "section": "Outro",
       "start": 133.644,
       "end": 134.12,
       "text": "Nobody listening anyway.",
       "timing_source": "interpolated",
-      "matched_words": 0
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
-      "index": 70,
+      "index": 71,
       "section": "Outro",
       "start": 134.12,
       "end": 134.256,
       "text": "You follow?",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     }
   ]
 }

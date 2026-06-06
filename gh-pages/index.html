@@ -772,6 +772,7 @@
 
     function currentLyricIndex(lines, currentTime) {
       if (!Array.isArray(lines) || !lines.length) return -1;
+      const shortGapHoldSeconds = 4;
       let low = 0;
       let high = lines.length - 1;
       let candidate = -1;
@@ -787,7 +788,13 @@
       }
       if (candidate < 0) return -1;
       const line = lines[candidate];
-      return currentTime <= Number(line.end) + 0.35 ? candidate : candidate;
+      const lineEnd = Number(line.end);
+      if (currentTime <= lineEnd + 0.35) return candidate;
+      const nextStart = Number(lines[candidate + 1]?.start);
+      if (Number.isFinite(nextStart) && nextStart - lineEnd <= shortGapHoldSeconds && currentTime < nextStart) {
+        return candidate;
+      }
+      return -1;
     }
 
     function currentDisplayedLyricIndex() {
@@ -795,7 +802,7 @@
       const lines = state.timedLyrics?.lines || [];
       if (!lines.length) return -1;
       const timedIndex = currentLyricIndex(lines, audio.currentTime);
-      const normalizedTimedIndex = timedIndex < 0 ? 0 : timedIndex;
+      const normalizedTimedIndex = timedIndex;
       if (
         state.manualLyricIndex >= 0 &&
         (
@@ -806,13 +813,13 @@
       ) {
         return state.manualLyricIndex;
       }
-      return timedIndex < 0 ? 0 : timedIndex;
+      return timedIndex;
     }
 
     function renderKaraokeIndex(index) {
       const lines = state.timedLyrics?.lines || [];
       if (index < 0) {
-        setKaraokeLines('', lines[0]?.text || '', lines[1]?.text || '');
+        setKaraokeLines('', '', '');
         syncKaraokeControlState();
         return;
       }
@@ -832,7 +839,7 @@
         return;
       }
       const rawTimedIndex = currentLyricIndex(lines, audio.currentTime);
-      const timedIndex = rawTimedIndex < 0 ? 0 : rawTimedIndex;
+      const timedIndex = rawTimedIndex;
       if (state.manualLyricIndex < 0) {
         renderKaraokeIndex(rawTimedIndex);
         return;
@@ -862,7 +869,7 @@
       const lines = state.timedLyrics?.lines || [];
       if (!lines.length) return;
       const rawTimedIndex = currentLyricIndex(lines, audio.currentTime);
-      const timedIndex = rawTimedIndex < 0 ? 0 : rawTimedIndex;
+      const timedIndex = rawTimedIndex;
       const baseIndex = state.manualLyricIndex >= 0 ? state.manualLyricIndex : timedIndex;
       const nextIndex = Math.max(0, Math.min(lines.length - 1, baseIndex + delta));
       state.manualLyricIndex = nextIndex;
@@ -887,7 +894,8 @@
       state.timedLyrics = null;
       setKaraokeLines('', 'Loading timed lyrics...', '', { empty: true });
       try {
-        const response = await fetch(lyricsUrl);
+        const fetchUrl = `${lyricsUrl}${lyricsUrl.includes('?') ? '&' : '?'}v=${Date.now()}`;
+        const response = await fetch(fetchUrl, { cache: 'no-store' });
         if (!response.ok) throw new Error(`Timed lyrics load failed: ${response.status}`);
         const payload = await response.json();
         if (requestId !== state.timedLyricsRequestId) return;

@@ -4,203 +4,370 @@
   "title": "Residual Instability",
   "text_path": "Closed Doors/11 - Residual Instability.txt",
   "audio_path": "Closed Doors/audio/11 - Residual Instability.mp3",
-  "duration_seconds": 370.8,
+  "duration_seconds": 363.04,
   "model": "base",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 165,
     "reference_word_count": 627,
-    "observed_word_count": 1320,
-    "matched_word_count": 300,
-    "matched_word_ratio": 0.478,
-    "inserted_adlib_count": 0
+    "observed_word_count": 645,
+    "matched_word_count": 530,
+    "matched_word_ratio": 0.845,
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 2,
+    "section_start_overrides": {
+      "State III – Deferred / Shifted": 150.0
+    },
+    "line_start_overrides": {
+      "Center drifts": 102.5,
+      "signal bends": 104.0,
+      "what begins": 106.0,
+      "does not end": 107.5
+    }
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 25.4,
+      "start": 12.94,
+      "end": 24.5,
       "text": "Before the flare, before the name There was a temperature, I couldn't change"
     },
     {
-      "start": 25.4,
-      "end": 35.4,
+      "start": 24.5,
+      "end": 35.36,
       "text": "A low remainder underneath Something older had learned to stay"
     },
     {
-      "start": 35.4,
-      "end": 51.4,
+      "start": 48.6,
+      "end": 51.66,
       "text": "There's a signal in the frame older than the face I wear"
     },
     {
-      "start": 51.4,
-      "end": 54.4,
+      "start": 51.66,
+      "end": 54.58,
       "text": "Thread it through the quiet rooms like it was always there"
     },
     {
-      "start": 54.4,
-      "end": 57.4,
-      "text": "Every silence takes a shape Every option spends the line"
+      "start": 54.58,
+      "end": 57.48,
+      "text": "Every silence takes a shape Every action spends the line"
     },
     {
-      "start": 57.4,
-      "end": 61.4,
+      "start": 57.48,
+      "end": 61.42,
       "text": "Every almost spoken word keeps returning out of time I called it background"
     },
     {
-      "start": 61.4,
-      "end": 66.4,
+      "start": 61.42,
+      "end": 65.88,
       "text": "I called it noise But it knew me before voice"
     },
     {
-      "start": 66.4,
+      "start": 66.96,
       "end": 72.4,
       "text": "I am residual instability A trace that never disappears"
     },
     {
       "start": 72.4,
-      "end": 78.4,
+      "end": 78.82,
       "text": "A field of frail trellis Still glowing through the ears"
     },
     {
-      "start": 78.4,
-      "end": 81.4,
+      "start": 78.82,
+      "end": 82.06,
       "text": "Not a flaw beneath the form Not a crack I have to hide"
     },
     {
-      "start": 81.4,
-      "end": 85.4,
+      "start": 82.06,
+      "end": 85.36,
       "text": "I am what the pressure keeps on Everything is passed inside"
     },
     {
-      "start": 85.4,
-      "end": 87.4,
-      "text": "Not the same"
+      "start": 85.36,
+      "end": 89.94,
+      "text": "Not the same Not erased"
     },
     {
-      "start": 88.4,
-      "end": 94.4,
-      "text": "Not erased I learned to move around a weight That was never mind a hold called it love"
+      "start": 89.94,
+      "end": 94.22,
+      "text": "I learned to move around a weight That was never mind a hold called it love"
     },
     {
-      "start": 94.4,
-      "end": 97.4,
+      "start": 94.22,
+      "end": 97.82,
       "text": "When young called it gravity When old every cent a leaned away"
     },
     {
-      "start": 97.4,
-      "end": 102.4,
+      "start": 97.82,
+      "end": 102.5,
       "text": "Every balance came on even I trace somebody else Just to prove I had a reason"
     },
     {
-      "start": 102.4,
-      "end": 109.4,
-      "text": "Center trips signal pins What begins does not end"
+      "start": 102.5,
+      "end": 108.42,
+      "text": "Scented trifts signal pens What begins does not end"
     },
     {
-      "start": 109.4,
-      "end": 115.4,
+      "start": 108.94,
+      "end": 114.36,
       "text": "I am residual instability A trace that never disappears"
     },
     {
-      "start": 115.4,
-      "end": 120.4,
+      "start": 114.36,
+      "end": 120.72,
       "text": "A field of frail trellis Still glowing through the ears"
     },
     {
-      "start": 120.4,
-      "end": 126.4,
+      "start": 120.72,
+      "end": 126.42,
       "text": "Not devotion, not escape Just to shape the forces made"
     },
     {
-      "start": 126.4,
-      "end": 133.4,
-      "text": "If I fall or if I stay Something keeps the way"
+      "start": 126.42,
+      "end": 133.66,
+      "text": "If I were to stay Something keeps the way"
     },
     {
-      "start": 145.4,
-      "end": 175.4,
-      "text": "No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+      "start": 147.88,
+      "end": 151.16,
+      "text": "I am residual instability A trace that never disappears"
     },
     {
-      "start": 175.4,
-      "end": 205.4,
-      "text": "I kept telling my defy, held it past the legal line, packaged out and grow to gels, called the pressure being fine, Paulie was burdened my breath, no two states shared a sense, still like Harry W. Virgin passed, we're constant flint, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core tempered, core"
+      "start": 151.16,
+      "end": 151.16,
+      "text": ""
     },
     {
-      "start": 205.4,
-      "end": 235.4,
-      "text": "And your climbing still hydrogen-greed helium will every flare they call the gift was another inwards shift, tenders they call the door 1.4, 4, 4, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6"
+      "start": 151.16,
+      "end": 151.16,
+      "text": ""
     },
     {
-      "start": 235.4,
-      "end": 259.4,
-      "text": "I'll say back my heart every over every delay, every word that fell away, every limit, every line, every almost at the life, every signal no one read comes through me all at once, not collapse, repression"
+      "start": 151.16,
+      "end": 153.82,
+      "text": "Time began to mess my hands Second splitting at the scene"
     },
     {
-      "start": 259.4,
-      "end": 289.4,
-      "text": "I am the center, I am the drift, I am the pressure, listen, I am the distance, I am the flame, I am the orbit, I am the fire, I am the hidden, I am the shown, I am the signal I am, I am the hidden, I am the shown, I am the signal I am, I am the hidden, I am the hidden, I am the center, I am the center, I am the drift, I am the pressure, listen, I am the pressure, listen, I am the pressure, listen, I am the distance, I am the flame, I am the orbit, I am the flame, I am the orbit, I am the flame, I am the orbit, I am the flame, I am the hidden, I am the hidden, I am the flame, I am the hidden, I am the flame, I am the hidden, I am the flame, I am the hidden, I am the flame, I am the flame, I am the flame, I am the orbit, I am the flame"
+      "start": 153.82,
+      "end": 157.98,
+      "text": "Future cells arrive to they speaking through the stream I was never truly still"
     },
     {
-      "start": 289.4,
-      "end": 319.4,
-      "text": "I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I"
+      "start": 157.98,
+      "end": 161.94,
+      "text": "I was offset from the now Every action half alive waiting for a gate"
     },
     {
-      "start": 319.4,
-      "end": 349.4,
-      "text": "am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am"
+      "start": 161.94,
+      "end": 167.84,
+      "text": "So now they called me sharp They called me strange I was only shifted by the same spectrum"
     },
     {
-      "start": 349.4,
-      "end": 370.8,
-      "text": "the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the flame, I am the"
+      "start": 167.84,
+      "end": 173.9,
+      "text": "Different night What if delay is not absence"
+    },
+    {
+      "start": 173.9,
+      "end": 181.64,
+      "text": "What if distance is not lost What if pressure is just the cost of becoming legible"
+    },
+    {
+      "start": 181.64,
+      "end": 187.3,
+      "text": "To something vast Enough to read the field"
+    },
+    {
+      "start": 192.22,
+      "end": 197.04,
+      "text": "I kept telling wait to find held it past the legal line Packaged out in crowded gels"
+    },
+    {
+      "start": 197.04,
+      "end": 199.98,
+      "text": "Called the pressure being fine Paulie was burdened my breath"
+    },
+    {
+      "start": 199.98,
+      "end": 203.44,
+      "text": "No two states shared a sense Still I carried every version past"
+    },
+    {
+      "start": 203.44,
+      "end": 207.66,
+      "text": "Were constant bent core temperature climbing Still hydrogen grief"
+    },
+    {
+      "start": 207.66,
+      "end": 213.18,
+      "text": "Helium will every flare they call the gift Was another inward shift"
+    },
+    {
+      "start": 213.18,
+      "end": 217.38,
+      "text": "Chandras they call the door 1.4, oh but I was through"
+    },
+    {
+      "start": 217.38,
+      "end": 220.4,
+      "text": "Hold the oven hold the frame Hold the silence hold the name"
+    },
+    {
+      "start": 220.4,
+      "end": 226.82,
+      "text": "Hold the pressure hold the light all the half to go Till the lost in fire"
+    },
+    {
+      "start": 227.9,
+      "end": 234.14,
+      "text": "And I can't hold it anymore All the states I kept apart"
+    },
+    {
+      "start": 234.14,
+      "end": 239.46,
+      "text": "Break that shells and sack my heart Every over and every delay"
+    },
+    {
+      "start": 240.4,
+      "end": 245.98,
+      "text": "Every word that fell away Every limit every line"
+    },
+    {
+      "start": 245.98,
+      "end": 252.12,
+      "text": "Every almost at the life Every signal no one read"
+    },
+    {
+      "start": 252.98,
+      "end": 258.88,
+      "text": "Comes through me all at once Not collapse repression"
+    },
+    {
+      "start": 260.8,
+      "end": 268.84,
+      "text": "I am the center I am the drift I am the pressure"
+    },
+    {
+      "start": 272.36,
+      "end": 278.02,
+      "text": "I am the distance I am the flame I am the orbit"
+    },
+    {
+      "start": 278.84,
+      "end": 285.66,
+      "text": "And fire I am the hidden I am the sound I am the signal I am"
+    },
+    {
+      "start": 285.66,
+      "end": 292.52,
+      "text": "If you listen past the noise There is still a human voice"
+    },
+    {
+      "start": 292.52,
+      "end": 298.36,
+      "text": "No more holding all alone No more proving I was strong"
+    },
+    {
+      "start": 298.36,
+      "end": 301.66,
+      "text": "I was never just a burn Never just a thing that broke"
+    },
+    {
+      "start": 301.66,
+      "end": 304.92,
+      "text": "I was heavy trace returned Through the rock after its slope"
+    },
+    {
+      "start": 304.92,
+      "end": 308.78,
+      "text": "The distance was measured Time was face, pressure"
+    },
+    {
+      "start": 308.78,
+      "end": 316.22,
+      "text": "Was language life became phrase Will remain was not the wound"
+    },
+    {
+      "start": 317.22,
+      "end": 327.42,
+      "text": "But the feel that carried through I am residual instability"
+    },
+    {
+      "start": 327.42,
+      "end": 333.46,
+      "text": "Not erased and not complete Not a failure of the form"
+    },
+    {
+      "start": 333.46,
+      "end": 339.44,
+      "text": "But the law beneath the heat Every orbit every scar"
+    },
+    {
+      "start": 340.22,
+      "end": 345.98,
+      "text": "Every signal from far Heavy limit every name"
+    },
+    {
+      "start": 345.98,
+      "end": 350.52,
+      "text": "Health inside the after globe Now I let the future"
+    },
+    {
+      "start": 351.66,
+      "end": 358.14,
+      "text": "Before the flare Before the name I was changing all the same"
+    },
+    {
+      "start": 358.14,
+      "end": 363.04,
+      "text": "Not hidden, not undone Just a trace that learned to be"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – breath close | distant hiss | faint sub",
-      "start": 0.0,
-      "end": 3.908,
+      "start": 12.94,
+      "end": 15.36,
       "text": "Before the flare",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 1,
       "section": "Intro – breath close | distant hiss | faint sub",
-      "start": 5.862,
-      "end": 9.769,
+      "start": 16.02,
+      "end": 18.0,
       "text": "before the name",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 2,
       "section": "Intro – breath close | distant hiss | faint sub",
-      "start": 11.723,
-      "end": 15.631,
+      "start": 18.0,
+      "end": 21.42,
       "text": "there was a temperature",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 3,
       "section": "Intro – breath close | distant hiss | faint sub",
-      "start": 19.538,
-      "end": 23.446,
+      "start": 21.9,
+      "end": 24.5,
       "text": "I couldn’t change",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 4,
       "section": "Intro – breath close | distant hiss | faint sub",
-      "start": 25.4,
-      "end": 28.4,
+      "start": 24.5,
+      "end": 26.8,
       "text": "a low remainder",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -208,8 +375,8 @@
     {
       "index": 5,
       "section": "Intro – breath close | distant hiss | faint sub",
-      "start": 28.4,
-      "end": 29.4,
+      "start": 26.8,
+      "end": 29.28,
       "text": "underneath",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -217,8 +384,8 @@
     {
       "index": 6,
       "section": "Intro – breath close | distant hiss | faint sub",
-      "start": 29.4,
-      "end": 31.4,
+      "start": 29.28,
+      "end": 32.9,
       "text": "something older",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -226,8 +393,8 @@
     {
       "index": 7,
       "section": "Intro – breath close | distant hiss | faint sub",
-      "start": 31.4,
-      "end": 35.4,
+      "start": 32.9,
+      "end": 35.36,
       "text": "had learned to stay",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -235,26 +402,26 @@
     {
       "index": 8,
       "section": "State I – Residual Field",
-      "start": 35.4,
-      "end": 42.067,
+      "start": 48.6,
+      "end": 50.22,
       "text": "There’s a signal in the frame",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 9,
       "section": "State I – Residual Field",
-      "start": 43.4,
-      "end": 50.067,
+      "start": 50.22,
+      "end": 51.66,
       "text": "older than the face I wear",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 10,
       "section": "State I – Residual Field",
-      "start": 51.945,
-      "end": 53.036,
+      "start": 52.12,
+      "end": 53.14,
       "text": "threaded through the quiet rooms",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -262,8 +429,8 @@
     {
       "index": 11,
       "section": "State I – Residual Field",
-      "start": 53.036,
-      "end": 54.4,
+      "start": 53.14,
+      "end": 54.58,
       "text": "like it was always there",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -271,8 +438,8 @@
     {
       "index": 12,
       "section": "State I – Residual Field",
-      "start": 54.4,
-      "end": 55.9,
+      "start": 54.58,
+      "end": 56.04,
       "text": "Every silence leaves a shape",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -280,8 +447,8 @@
     {
       "index": 13,
       "section": "State I – Residual Field",
-      "start": 55.9,
-      "end": 57.4,
+      "start": 56.04,
+      "end": 57.48,
       "text": "every absence bends the line",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -289,8 +456,8 @@
     {
       "index": 14,
       "section": "State I – Residual Field",
-      "start": 57.4,
-      "end": 58.631,
+      "start": 57.48,
+      "end": 58.84,
       "text": "every almost-spoken word",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -298,8 +465,8 @@
     {
       "index": 15,
       "section": "State I – Residual Field",
-      "start": 58.631,
-      "end": 60.169,
+      "start": 58.84,
+      "end": 60.22,
       "text": "keeps returning out of time",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -307,8 +474,8 @@
     {
       "index": 16,
       "section": "State I – Residual Field",
-      "start": 60.169,
-      "end": 61.4,
+      "start": 60.22,
+      "end": 61.42,
       "text": "I called it background",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -316,8 +483,8 @@
     {
       "index": 17,
       "section": "State I – Residual Field",
-      "start": 61.9,
-      "end": 63.4,
+      "start": 61.92,
+      "end": 62.68,
       "text": "called it noise",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -325,8 +492,8 @@
     {
       "index": 18,
       "section": "State I – Residual Field",
-      "start": 63.4,
-      "end": 65.4,
+      "start": 62.68,
+      "end": 64.38,
       "text": "but it knew me",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -334,8 +501,8 @@
     {
       "index": 19,
       "section": "State I – Residual Field",
-      "start": 65.4,
-      "end": 66.4,
+      "start": 64.38,
+      "end": 65.88,
       "text": "before voice",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -343,8 +510,8 @@
     {
       "index": 20,
       "section": "Hook I",
-      "start": 66.4,
-      "end": 69.067,
+      "start": 66.96,
+      "end": 69.88,
       "text": "I am residual instability",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -352,7 +519,7 @@
     {
       "index": 21,
       "section": "Hook I",
-      "start": 69.067,
+      "start": 69.88,
       "end": 72.4,
       "text": "a trace that never disappears",
       "timing_source": "whisper-aligned",
@@ -362,7 +529,7 @@
       "index": 22,
       "section": "Hook I",
       "start": 72.4,
-      "end": 74.2,
+      "end": 74.3,
       "text": "a field of failed release",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -370,8 +537,8 @@
     {
       "index": 23,
       "section": "Hook I",
-      "start": 75.4,
-      "end": 77.8,
+      "start": 75.6,
+      "end": 77.92,
       "text": "still glowing through the years",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -379,8 +546,8 @@
     {
       "index": 24,
       "section": "Hook I",
-      "start": 78.4,
-      "end": 79.785,
+      "start": 78.82,
+      "end": 80.5,
       "text": "Not a flaw beneath the form",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -388,8 +555,8 @@
     {
       "index": 25,
       "section": "Hook I",
-      "start": 79.785,
-      "end": 81.4,
+      "start": 80.5,
+      "end": 82.06,
       "text": "not a crack I have to hide",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -397,8 +564,8 @@
     {
       "index": 26,
       "section": "Hook I",
-      "start": 81.4,
-      "end": 83.582,
+      "start": 82.06,
+      "end": 83.34,
       "text": "I am what the pressure keeps",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -406,8 +573,8 @@
     {
       "index": 27,
       "section": "Hook I",
-      "start": 83.945,
-      "end": 85.4,
+      "start": 83.5,
+      "end": 85.36,
       "text": "when everything has passed inside",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -415,8 +582,8 @@
     {
       "index": 28,
       "section": "Hook I",
-      "start": 85.4,
-      "end": 87.4,
+      "start": 85.36,
+      "end": 87.28,
       "text": "not the same",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -424,8 +591,8 @@
     {
       "index": 29,
       "section": "Hook I",
-      "start": 88.4,
-      "end": 89.067,
+      "start": 87.28,
+      "end": 89.94,
       "text": "not erased",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -433,8 +600,8 @@
     {
       "index": 30,
       "section": "State II – Orbit / Balance",
-      "start": 89.067,
-      "end": 91.4,
+      "start": 89.94,
+      "end": 92.02,
       "text": "I learned to move around a weight",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -442,8 +609,8 @@
     {
       "index": 31,
       "section": "State II – Orbit / Balance",
-      "start": 91.4,
-      "end": 93.4,
+      "start": 92.02,
+      "end": 93.54,
       "text": "that was never mine to hold",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -451,8 +618,8 @@
     {
       "index": 32,
       "section": "State II – Orbit / Balance",
-      "start": 93.4,
-      "end": 94.9,
+      "start": 93.54,
+      "end": 94.92,
       "text": "called it love when young",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -460,8 +627,8 @@
     {
       "index": 33,
       "section": "State II – Orbit / Balance",
-      "start": 94.9,
-      "end": 96.15,
+      "start": 94.92,
+      "end": 96.44,
       "text": "called it gravity when old",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -469,8 +636,8 @@
     {
       "index": 34,
       "section": "State II – Orbit / Balance",
-      "start": 96.15,
-      "end": 97.4,
+      "start": 96.44,
+      "end": 97.82,
       "text": "Every center leaned away",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -478,8 +645,8 @@
     {
       "index": 35,
       "section": "State II – Orbit / Balance",
-      "start": 97.4,
-      "end": 98.338,
+      "start": 97.82,
+      "end": 98.9,
       "text": "every balance came uneven",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -487,8 +654,8 @@
     {
       "index": 36,
       "section": "State II – Orbit / Balance",
-      "start": 98.963,
-      "end": 100.213,
+      "start": 99.36,
+      "end": 100.84,
       "text": "I traced somebody else",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -496,8 +663,8 @@
     {
       "index": 37,
       "section": "State II – Orbit / Balance",
-      "start": 100.213,
-      "end": 102.4,
+      "start": 100.84,
+      "end": 102.5,
       "text": "just to prove I had a reason",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -505,44 +672,44 @@
     {
       "index": 38,
       "section": "State II – Orbit / Balance",
-      "start": 102.4,
-      "end": 103.178,
+      "start": 102.5,
+      "end": 108.42,
       "text": "Center drifts",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "whisper-segment-fuzzy-line-override",
+      "matched_words": 0
     },
     {
       "index": 39,
       "section": "State II – Orbit / Balance",
-      "start": 103.956,
-      "end": 104.733,
+      "start": 104.0,
+      "end": 108.52,
       "text": "signal bends",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 1
     },
     {
       "index": 40,
       "section": "State II – Orbit / Balance",
-      "start": 105.511,
-      "end": 107.067,
+      "start": 106.0,
+      "end": 108.62,
       "text": "what begins",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 2
     },
     {
       "index": 41,
       "section": "State II – Orbit / Balance",
-      "start": 107.067,
-      "end": 109.4,
+      "start": 107.5,
+      "end": 108.72,
       "text": "does not end",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 42,
       "section": "Hook II",
-      "start": 109.4,
-      "end": 112.067,
+      "start": 108.94,
+      "end": 111.7,
       "text": "I am residual instability",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -550,8 +717,8 @@
     {
       "index": 43,
       "section": "Hook II",
-      "start": 112.067,
-      "end": 115.4,
+      "start": 111.7,
+      "end": 114.36,
       "text": "a trace that never disappears",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -559,8 +726,8 @@
     {
       "index": 44,
       "section": "Hook II",
-      "start": 115.4,
-      "end": 116.9,
+      "start": 114.36,
+      "end": 116.48,
       "text": "a field of failed release",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -568,8 +735,8 @@
     {
       "index": 45,
       "section": "Hook II",
-      "start": 117.9,
-      "end": 119.9,
+      "start": 117.82,
+      "end": 120.04,
       "text": "still glowing through the years",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -577,8 +744,8 @@
     {
       "index": 46,
       "section": "Hook II",
-      "start": 120.4,
-      "end": 121.6,
+      "start": 120.72,
+      "end": 122.12,
       "text": "Not devotion",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -586,8 +753,8 @@
     {
       "index": 47,
       "section": "Hook II",
-      "start": 121.6,
-      "end": 122.8,
+      "start": 122.44,
+      "end": 123.36,
       "text": "not escape",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -595,8 +762,8 @@
     {
       "index": 48,
       "section": "Hook II",
-      "start": 122.8,
-      "end": 124.6,
+      "start": 123.36,
+      "end": 124.84,
       "text": "just the shape",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -604,8 +771,8 @@
     {
       "index": 49,
       "section": "Hook II",
-      "start": 124.6,
-      "end": 126.4,
+      "start": 124.84,
+      "end": 126.42,
       "text": "the forces made",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -613,26 +780,26 @@
     {
       "index": 50,
       "section": "Hook II",
-      "start": 126.4,
-      "end": 128.309,
+      "start": 126.42,
+      "end": 127.4,
       "text": "If I fall",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 51,
       "section": "Hook II",
-      "start": 128.309,
-      "end": 130.855,
+      "start": 128.98,
+      "end": 129.62,
       "text": "or if I stay",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 1
     },
     {
       "index": 52,
       "section": "Hook II",
-      "start": 130.855,
-      "end": 132.764,
+      "start": 129.62,
+      "end": 133.22,
       "text": "something keeps the wave",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -640,224 +807,224 @@
     {
       "index": 53,
       "section": "State III – Deferred / Shifted",
-      "start": 132.764,
-      "end": 135.704,
+      "start": 150.0,
+      "end": 152.4,
       "text": "Time began to miss my hands",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned-section-override",
+      "matched_words": 5
     },
     {
       "index": 54,
       "section": "State III – Deferred / Shifted",
-      "start": 135.704,
-      "end": 138.155,
+      "start": 152.74,
+      "end": 153.54,
       "text": "seconds splitting at the seam",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 55,
       "section": "State III – Deferred / Shifted",
-      "start": 138.155,
-      "end": 140.605,
+      "start": 153.82,
+      "end": 154.24,
       "text": "future selves arrived too late",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 56,
       "section": "State III – Deferred / Shifted",
-      "start": 140.605,
-      "end": 142.565,
+      "start": 155.24,
+      "end": 156.46,
       "text": "speaking through the stream",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 57,
       "section": "State III – Deferred / Shifted",
-      "start": 142.565,
-      "end": 145.016,
+      "start": 156.46,
+      "end": 157.98,
       "text": "I was never truly still",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 58,
       "section": "State III – Deferred / Shifted",
-      "start": 145.016,
-      "end": 147.956,
+      "start": 157.98,
+      "end": 159.34,
       "text": "I was offset from the now",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 59,
       "section": "State III – Deferred / Shifted",
-      "start": 147.956,
-      "end": 149.916,
+      "start": 159.34,
+      "end": 160.82,
       "text": "every action half-alive",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 60,
       "section": "State III – Deferred / Shifted",
-      "start": 149.916,
-      "end": 152.367,
+      "start": 160.82,
+      "end": 161.94,
       "text": "waiting for a gate somehow",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 61,
       "section": "State III – Deferred / Shifted",
-      "start": 152.367,
-      "end": 154.327,
+      "start": 162.54,
+      "end": 163.8,
       "text": "They called me sharp",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 62,
       "section": "State III – Deferred / Shifted",
-      "start": 154.327,
-      "end": 156.287,
+      "start": 163.8,
+      "end": 165.26,
       "text": "they called me strange",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 63,
       "section": "State III – Deferred / Shifted",
-      "start": 156.287,
-      "end": 157.758,
+      "start": 165.26,
+      "end": 166.14,
       "text": "I was only",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 64,
       "section": "State III – Deferred / Shifted",
-      "start": 157.758,
-      "end": 158.738,
+      "start": 166.14,
+      "end": 166.48,
       "text": "shifted light",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 65,
       "section": "State III – Deferred / Shifted",
-      "start": 158.738,
-      "end": 159.718,
+      "start": 166.98,
+      "end": 167.84,
       "text": "same spectrum",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 66,
-      "section": "State III – Deferred / Shifted",
-      "start": 159.718,
-      "end": 160.698,
-      "text": "different night",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 67,
-      "section": "Bridge – spoken fragments",
-      "start": 160.698,
-      "end": 162.168,
-      "text": "What if delay",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 68,
-      "section": "Bridge – spoken fragments",
-      "start": 162.168,
-      "end": 163.638,
-      "text": "is not absence",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 69,
-      "section": "Bridge – spoken fragments",
-      "start": 163.638,
-      "end": 165.109,
-      "text": "What if distance",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 70,
-      "section": "Bridge – spoken fragments",
-      "start": 165.109,
-      "end": 166.579,
-      "text": "is not loss",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 71,
-      "section": "Bridge – spoken fragments",
-      "start": 166.579,
-      "end": 168.049,
-      "text": "What if pressure",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 72,
-      "section": "Bridge – spoken fragments",
-      "start": 168.049,
-      "end": 170.009,
-      "text": "is just the cost",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 73,
-      "section": "Bridge – spoken fragments",
-      "start": 170.009,
-      "end": 171.479,
-      "text": "of becoming legible",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 74,
-      "section": "Bridge – spoken fragments",
-      "start": 171.479,
-      "end": 172.95,
-      "text": "to something vast",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 75,
-      "section": "Bridge – spoken fragments",
-      "start": 172.95,
-      "end": 175.4,
-      "text": "enough to read the field",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 76,
-      "section": "State IV – Limit / Core Pressure",
-      "start": 175.4,
-      "end": 175.88,
-      "text": "I kept adding weight to thought",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 66,
+      "section": "State III – Deferred / Shifted",
+      "start": 167.84,
+      "end": 170.08,
+      "text": "different night",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 67,
+      "section": "Bridge – spoken fragments",
+      "start": 170.08,
+      "end": 172.1,
+      "text": "What if delay",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 68,
+      "section": "Bridge – spoken fragments",
+      "start": 172.1,
+      "end": 173.9,
+      "text": "is not absence",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 69,
+      "section": "Bridge – spoken fragments",
+      "start": 173.9,
+      "end": 175.42,
+      "text": "What if distance",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 70,
+      "section": "Bridge – spoken fragments",
+      "start": 175.42,
+      "end": 176.3,
+      "text": "is not loss",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 71,
+      "section": "Bridge – spoken fragments",
+      "start": 176.72,
+      "end": 178.46,
+      "text": "What if pressure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 72,
+      "section": "Bridge – spoken fragments",
+      "start": 178.46,
+      "end": 179.82,
+      "text": "is just the cost",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 73,
+      "section": "Bridge – spoken fragments",
+      "start": 179.82,
+      "end": 181.64,
+      "text": "of becoming legible",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 74,
+      "section": "Bridge – spoken fragments",
+      "start": 181.64,
+      "end": 184.16,
+      "text": "to something vast",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 75,
+      "section": "Bridge – spoken fragments",
+      "start": 184.16,
+      "end": 187.3,
+      "text": "enough to read the field",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 76,
+      "section": "State IV – Limit / Core Pressure",
+      "start": 192.22,
+      "end": 193.72,
+      "text": "I kept adding weight to thought",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
       "index": 77,
       "section": "State IV – Limit / Core Pressure",
-      "start": 176.6,
-      "end": 178.04,
+      "start": 193.94,
+      "end": 195.54,
       "text": "held it past the legal line",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -865,17 +1032,17 @@
     {
       "index": 78,
       "section": "State IV – Limit / Core Pressure",
-      "start": 178.04,
-      "end": 179.48,
+      "start": 196.2,
+      "end": 196.62,
       "text": "packed each doubt in crowded shells",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 79,
       "section": "State IV – Limit / Core Pressure",
-      "start": 179.48,
-      "end": 180.68,
+      "start": 197.04,
+      "end": 198.5,
       "text": "called the pressure “being fine”",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -883,8 +1050,8 @@
     {
       "index": 80,
       "section": "State IV – Limit / Core Pressure",
-      "start": 181.4,
-      "end": 181.88,
+      "start": 199.62,
+      "end": 199.98,
       "text": "Pauli whispered in my breath",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -892,8 +1059,8 @@
     {
       "index": 81,
       "section": "State IV – Limit / Core Pressure",
-      "start": 181.88,
-      "end": 182.6,
+      "start": 199.98,
+      "end": 200.64,
       "text": "no two states share descent",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -901,44 +1068,44 @@
     {
       "index": 82,
       "section": "State IV – Limit / Core Pressure",
-      "start": 183.32,
-      "end": 183.56,
+      "start": 201.44,
+      "end": 203.04,
       "text": "still I carried every version",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 5
     },
     {
       "index": 83,
       "section": "State IV – Limit / Core Pressure",
-      "start": 183.56,
-      "end": 205.4,
+      "start": 203.04,
+      "end": 204.56,
       "text": "past where constants bent",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 84,
       "section": "State IV – Limit / Core Pressure",
-      "start": 205.4,
-      "end": 205.5,
+      "start": 204.56,
+      "end": 206.34,
       "text": "Core temperature climbing still",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 4
     },
     {
       "index": 85,
       "section": "State IV – Limit / Core Pressure",
-      "start": 206.4,
-      "end": 207.4,
+      "start": 206.34,
+      "end": 208.94,
       "text": "hydrogen grief, helium will",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 86,
       "section": "State IV – Limit / Core Pressure",
-      "start": 207.4,
-      "end": 208.9,
+      "start": 208.94,
+      "end": 210.54,
       "text": "every flare they called a gift",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -946,17 +1113,17 @@
     {
       "index": 87,
       "section": "State IV – Limit / Core Pressure",
-      "start": 208.9,
-      "end": 209.9,
+      "start": 210.54,
+      "end": 213.18,
       "text": "was another inward shift",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 88,
       "section": "State IV – Limit / Core Pressure",
-      "start": 210.65,
-      "end": 211.15,
+      "start": 214.3,
+      "end": 215.1,
       "text": "Chandrasekhar at the door",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -964,8 +1131,8 @@
     {
       "index": 89,
       "section": "State IV – Limit / Core Pressure",
-      "start": 211.15,
-      "end": 213.531,
+      "start": 215.1,
+      "end": 216.54,
       "text": "one point four four",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -973,116 +1140,116 @@
     {
       "index": 90,
       "section": "State IV – Limit / Core Pressure",
-      "start": 213.531,
-      "end": 215.913,
+      "start": 216.54,
+      "end": 217.16,
       "text": "but I was more",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 91,
       "section": "Build",
-      "start": 215.913,
-      "end": 217.699,
+      "start": 217.38,
+      "end": 217.92,
       "text": "Hold the orbit",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 92,
-      "section": "Build",
-      "start": 217.699,
-      "end": 219.485,
-      "text": "hold the frame",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 93,
-      "section": "Build",
-      "start": 219.485,
-      "end": 221.271,
-      "text": "hold the silence",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 94,
-      "section": "Build",
-      "start": 221.271,
-      "end": 223.057,
-      "text": "hold the name",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 95,
-      "section": "Build",
-      "start": 223.057,
-      "end": 224.843,
-      "text": "hold the pressure",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 96,
-      "section": "Build",
-      "start": 224.843,
-      "end": 226.629,
-      "text": "hold the light",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 97,
-      "section": "Build",
-      "start": 226.629,
-      "end": 228.416,
-      "text": "hold the afterglow",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 98,
-      "section": "Build",
-      "start": 228.416,
-      "end": 230.797,
-      "text": "till the laws divide",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 99,
-      "section": "Final Event",
-      "start": 230.797,
-      "end": 233.774,
-      "text": "I CAN’T HOLD IT ANYMORE",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 100,
-      "section": "Final Event",
-      "start": 233.774,
-      "end": 237.346,
-      "text": "All the states I kept apart",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 101,
-      "section": "Final Event",
-      "start": 237.346,
-      "end": 238.643,
-      "text": "break their shells inside my heart",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 92,
+      "section": "Build",
+      "start": 218.14,
+      "end": 218.88,
+      "text": "hold the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 93,
+      "section": "Build",
+      "start": 218.88,
+      "end": 219.68,
+      "text": "hold the silence",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 94,
+      "section": "Build",
+      "start": 219.68,
+      "end": 220.4,
+      "text": "hold the name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 95,
+      "section": "Build",
+      "start": 220.4,
+      "end": 221.18,
+      "text": "hold the pressure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 96,
+      "section": "Build",
+      "start": 221.18,
+      "end": 222.0,
+      "text": "hold the light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 97,
+      "section": "Build",
+      "start": 222.26,
+      "end": 222.46,
+      "text": "hold the afterglow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 98,
+      "section": "Build",
+      "start": 223.72,
+      "end": 225.44,
+      "text": "till the laws divide",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 99,
+      "section": "Final Event",
+      "start": 228.66,
+      "end": 230.68,
+      "text": "I CAN’T HOLD IT ANYMORE",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 100,
+      "section": "Final Event",
+      "start": 230.68,
+      "end": 234.14,
+      "text": "All the states I kept apart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 101,
+      "section": "Final Event",
+      "start": 234.14,
+      "end": 237.18,
+      "text": "break their shells inside my heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
       "index": 102,
       "section": "Final Event",
-      "start": 238.643,
-      "end": 241.238,
+      "start": 237.18,
+      "end": 239.46,
       "text": "every orbit, every delay",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1090,8 +1257,8 @@
     {
       "index": 103,
       "section": "Final Event",
-      "start": 241.238,
-      "end": 244.481,
+      "start": 240.3,
+      "end": 242.88,
       "text": "every word that fell away",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1099,8 +1266,8 @@
     {
       "index": 104,
       "section": "Final Event",
-      "start": 244.481,
-      "end": 247.076,
+      "start": 242.88,
+      "end": 245.98,
       "text": "Every limit, every line",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1108,8 +1275,8 @@
     {
       "index": 105,
       "section": "Final Event",
-      "start": 247.076,
-      "end": 250.319,
+      "start": 245.98,
+      "end": 248.94,
       "text": "every almost-other life",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1117,8 +1284,8 @@
     {
       "index": 106,
       "section": "Final Event",
-      "start": 250.319,
-      "end": 253.562,
+      "start": 248.94,
+      "end": 252.12,
       "text": "every signal no one read",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1126,8 +1293,8 @@
     {
       "index": 107,
       "section": "Final Event",
-      "start": 253.562,
-      "end": 255.508,
+      "start": 252.98,
+      "end": 254.46,
       "text": "comes through me",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1135,8 +1302,8 @@
     {
       "index": 108,
       "section": "Final Event",
-      "start": 255.508,
-      "end": 257.454,
+      "start": 254.46,
+      "end": 255.82,
       "text": "all at once",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1144,8 +1311,8 @@
     {
       "index": 109,
       "section": "Final Event",
-      "start": 257.454,
-      "end": 258.751,
+      "start": 255.82,
+      "end": 257.24,
       "text": "not collapse",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1153,8 +1320,8 @@
     {
       "index": 110,
       "section": "Final Event",
-      "start": 258.751,
-      "end": 259.4,
+      "start": 257.24,
+      "end": 260.8,
       "text": "RECURSION",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1162,8 +1329,8 @@
     {
       "index": 111,
       "section": "Catastrophic Recursion",
-      "start": 259.4,
-      "end": 260.082,
+      "start": 260.8,
+      "end": 262.82,
       "text": "I am the center",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1171,8 +1338,8 @@
     {
       "index": 112,
       "section": "Catastrophic Recursion",
-      "start": 260.082,
-      "end": 260.764,
+      "start": 262.82,
+      "end": 265.78,
       "text": "I am the drift",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1180,8 +1347,8 @@
     {
       "index": 113,
       "section": "Catastrophic Recursion",
-      "start": 260.764,
-      "end": 261.445,
+      "start": 265.78,
+      "end": 268.84,
       "text": "I am the pressure",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1189,8 +1356,8 @@
     {
       "index": 114,
       "section": "Catastrophic Recursion",
-      "start": 261.445,
-      "end": 261.616,
+      "start": 268.84,
+      "end": 272.36,
       "text": "and the shift",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1198,8 +1365,8 @@
     {
       "index": 115,
       "section": "Catastrophic Recursion",
-      "start": 261.616,
-      "end": 262.298,
+      "start": 272.36,
+      "end": 275.12,
       "text": "I am the distance",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1207,8 +1374,8 @@
     {
       "index": 116,
       "section": "Catastrophic Recursion",
-      "start": 262.639,
-      "end": 262.98,
+      "start": 276.34,
+      "end": 276.78,
       "text": "and the flame",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1216,8 +1383,8 @@
     {
       "index": 117,
       "section": "Catastrophic Recursion",
-      "start": 262.98,
-      "end": 263.661,
+      "start": 276.78,
+      "end": 278.02,
       "text": "I am the orbit",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1225,8 +1392,8 @@
     {
       "index": 118,
       "section": "Catastrophic Recursion",
-      "start": 264.002,
-      "end": 264.173,
+      "start": 278.84,
+      "end": 279.38,
       "text": "and the fall",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1234,8 +1401,8 @@
     {
       "index": 119,
       "section": "Catastrophic Recursion",
-      "start": 264.343,
-      "end": 265.025,
+      "start": 279.9,
+      "end": 280.88,
       "text": "I am the hidden",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1243,17 +1410,17 @@
     {
       "index": 120,
       "section": "Catastrophic Recursion",
-      "start": 265.025,
-      "end": 265.707,
+      "start": 280.88,
+      "end": 281.92,
       "text": "I am shown",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 121,
       "section": "Catastrophic Recursion",
-      "start": 265.707,
-      "end": 266.389,
+      "start": 282.66,
+      "end": 284.08,
       "text": "I am the signal",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1261,8 +1428,8 @@
     {
       "index": 122,
       "section": "Catastrophic Recursion",
-      "start": 266.389,
-      "end": 266.73,
+      "start": 284.08,
+      "end": 285.66,
       "text": "I am home",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1270,152 +1437,152 @@
     {
       "index": 123,
       "section": "Vacuum Dropout",
-      "start": 266.73,
-      "end": 266.83,
+      "start": 285.66,
+      "end": 287.76,
       "text": "If you listen",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 124,
       "section": "Vacuum Dropout",
-      "start": 266.83,
-      "end": 266.93,
+      "start": 287.76,
+      "end": 289.26,
       "text": "past the noise",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 125,
       "section": "Vacuum Dropout",
-      "start": 266.93,
-      "end": 267.03,
+      "start": 289.26,
+      "end": 290.66,
       "text": "there is still",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 126,
       "section": "Vacuum Dropout",
-      "start": 267.03,
-      "end": 267.13,
+      "start": 290.66,
+      "end": 292.52,
       "text": "a human voice",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 127,
       "section": "Afterglow / New Law",
-      "start": 267.13,
-      "end": 267.23,
+      "start": 292.52,
+      "end": 294.04,
       "text": "No more holding",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 128,
       "section": "Afterglow / New Law",
-      "start": 267.23,
-      "end": 267.33,
+      "start": 294.04,
+      "end": 295.38,
       "text": "all alone",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 129,
       "section": "Afterglow / New Law",
-      "start": 267.33,
-      "end": 267.43,
+      "start": 295.38,
+      "end": 297.14,
       "text": "no more proving",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 130,
       "section": "Afterglow / New Law",
-      "start": 267.43,
-      "end": 267.53,
+      "start": 297.14,
+      "end": 298.02,
       "text": "I was stone",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 131,
       "section": "Afterglow / New Law",
-      "start": 267.53,
-      "end": 267.63,
+      "start": 298.36,
+      "end": 300.2,
       "text": "I was never just the burn",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 132,
       "section": "Afterglow / New Law",
-      "start": 267.63,
-      "end": 267.73,
+      "start": 300.2,
+      "end": 301.66,
       "text": "never just the thing that broke",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 133,
       "section": "Afterglow / New Law",
-      "start": 267.73,
-      "end": 267.83,
+      "start": 301.66,
+      "end": 303.36,
       "text": "I was every trace returned",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 134,
       "section": "Afterglow / New Law",
-      "start": 267.83,
-      "end": 267.93,
+      "start": 303.36,
+      "end": 304.38,
       "text": "through the dark after it spoke",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 135,
       "section": "Afterglow / New Law",
-      "start": 267.93,
-      "end": 268.03,
+      "start": 305.2,
+      "end": 306.0,
       "text": "Distance was measure",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 136,
       "section": "Afterglow / New Law",
-      "start": 268.03,
-      "end": 268.13,
+      "start": 306.56,
+      "end": 307.54,
       "text": "time was phase",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 137,
       "section": "Afterglow / New Law",
-      "start": 268.13,
-      "end": 268.23,
+      "start": 308.3,
+      "end": 309.66,
       "text": "pressure was language",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 138,
       "section": "Afterglow / New Law",
-      "start": 268.23,
-      "end": 268.33,
+      "start": 310.2,
+      "end": 311.44,
       "text": "light became phrase",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 139,
       "section": "Afterglow / New Law",
-      "start": 268.33,
-      "end": 268.43,
+      "start": 311.44,
+      "end": 312.82,
       "text": "What remained",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1423,134 +1590,134 @@
     {
       "index": 140,
       "section": "Afterglow / New Law",
-      "start": 268.43,
-      "end": 268.53,
+      "start": 312.82,
+      "end": 316.22,
       "text": "was not the wound",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 141,
       "section": "Afterglow / New Law",
-      "start": 268.53,
-      "end": 268.63,
+      "start": 317.22,
+      "end": 318.64,
       "text": "but the field",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 142,
       "section": "Afterglow / New Law",
-      "start": 268.63,
-      "end": 268.73,
+      "start": 319.3,
+      "end": 322.74,
       "text": "that carried through",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 143,
       "section": "Final Hook",
-      "start": 268.73,
-      "end": 268.83,
+      "start": 322.74,
+      "end": 325.7,
       "text": "I am residual instability",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 144,
       "section": "Final Hook",
-      "start": 268.83,
-      "end": 268.93,
+      "start": 327.42,
+      "end": 330.0,
       "text": "not erased and not complete",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 145,
       "section": "Final Hook",
-      "start": 268.93,
-      "end": 269.03,
+      "start": 330.0,
+      "end": 333.46,
       "text": "not a failure of the form",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 6
     },
     {
       "index": 146,
       "section": "Final Hook",
-      "start": 269.03,
-      "end": 269.13,
+      "start": 333.46,
+      "end": 336.68,
       "text": "but the law beneath the heat",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 6
     },
     {
       "index": 147,
       "section": "Final Hook",
-      "start": 276.957,
-      "end": 277.127,
+      "start": 336.68,
+      "end": 338.16,
       "text": "Every orbit",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 148,
       "section": "Final Hook",
-      "start": 277.127,
-      "end": 277.227,
+      "start": 338.16,
+      "end": 339.44,
       "text": "every scar",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 149,
       "section": "Final Hook",
-      "start": 277.227,
-      "end": 277.327,
+      "start": 340.06,
+      "end": 341.28,
       "text": "every signal",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 150,
       "section": "Final Hook",
-      "start": 277.327,
-      "end": 277.427,
+      "start": 341.28,
+      "end": 342.18,
       "text": "from afar",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 151,
       "section": "Final Hook",
-      "start": 277.427,
-      "end": 277.527,
+      "start": 343.84,
+      "end": 344.3,
       "text": "every limit",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 152,
       "section": "Final Hook",
-      "start": 277.527,
-      "end": 277.627,
+      "start": 344.3,
+      "end": 345.98,
       "text": "every name",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 153,
       "section": "Final Hook",
-      "start": 277.627,
-      "end": 277.727,
+      "start": 346.8,
+      "end": 347.3,
       "text": "held inside",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 154,
       "section": "Final Hook",
-      "start": 277.727,
-      "end": 277.827,
+      "start": 347.3,
+      "end": 347.76,
       "text": "the afterglow",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1558,17 +1725,17 @@
     {
       "index": 155,
       "section": "Final Hook",
-      "start": 277.827,
-      "end": 277.98,
+      "start": 348.76,
+      "end": 349.48,
       "text": "now I let",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 156,
       "section": "Final Hook",
-      "start": 278.15,
-      "end": 278.32,
+      "start": 349.48,
+      "end": 349.68,
       "text": "the field show",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1576,74 +1743,74 @@
     {
       "index": 157,
       "section": "Outro",
-      "start": 278.832,
-      "end": 279.002,
+      "start": 351.66,
+      "end": 353.1,
       "text": "Before the flare",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 158,
       "section": "Outro",
-      "start": 279.514,
-      "end": 279.684,
+      "start": 353.1,
+      "end": 354.68,
       "text": "before the name",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 159,
       "section": "Outro",
-      "start": 279.855,
-      "end": 280.025,
+      "start": 354.68,
+      "end": 356.24,
       "text": "I was changing",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 160,
       "section": "Outro",
-      "start": 280.195,
-      "end": 280.366,
+      "start": 356.24,
+      "end": 358.14,
       "text": "all the same",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 161,
       "section": "Outro",
-      "start": 281.048,
-      "end": 281.218,
+      "start": 358.14,
+      "end": 359.48,
       "text": "Not hidden",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 162,
       "section": "Outro",
-      "start": 281.218,
-      "end": 301.125,
+      "start": 359.48,
+      "end": 360.82,
       "text": "not undone",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 163,
       "section": "Outro",
-      "start": 301.125,
-      "end": 330.986,
+      "start": 360.82,
+      "end": 361.8,
       "text": "just a trace",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 164,
       "section": "Outro",
-      "start": 330.986,
-      "end": 370.8,
+      "start": 361.8,
+      "end": 363.04,
       "text": "that learned to be",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     }
   ]
 }

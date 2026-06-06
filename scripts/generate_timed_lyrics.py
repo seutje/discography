@@ -22,6 +22,27 @@ ROOT = Path(__file__).resolve().parents[1]
 AUDIO_EXTENSIONS = (".mp3", ".wav", ".m4a", ".flac", ".ogg")
 DEFAULT_OUTPUT_ROOT = ROOT / "gh-pages" / "data" / "lyrics"
 DEFAULT_MODEL_CACHE = ROOT / ".cache" / "whisper"
+LOW_INFORMATION_ADLIB_TOKENS = {
+    "ah",
+    "ay",
+    "eh",
+    "ha",
+    "hey",
+    "hm",
+    "hmm",
+    "huh",
+    "la",
+    "mm",
+    "mmm",
+    "no",
+    "oh",
+    "ooh",
+    "uh",
+    "um",
+    "woah",
+    "yeah",
+    "yo",
+}
 IGNORED_DIRS = {
     ".agents",
     ".cache",
@@ -60,6 +81,50 @@ def normalize_tokens(text: str) -> list[str]:
     return re.findall(r"[a-z0-9]+(?:'[a-z0-9]+)?", text)
 
 
+def is_low_information_adlib(tokens: list[str]) -> bool:
+    """Detect transcript-only vocalization loops that destabilize lyric alignment."""
+    if len(tokens) < 3:
+        return False
+    meaningful = [token for token in tokens if token not in {"a", "an", "the"}]
+    if not meaningful:
+        return False
+    if not set(meaningful) <= LOW_INFORMATION_ADLIB_TOKENS:
+        return False
+    unique_ratio = len(set(meaningful)) / len(meaningful)
+    return unique_ratio <= 0.5
+
+
+def alignment_token_indices(tokens: list[str]) -> list[int]:
+    if is_low_information_adlib(tokens):
+        return []
+
+    kept: list[int] = []
+    index = 0
+    while index < len(tokens):
+        best_loop: tuple[int, int] | None = None
+        for size in range(1, min(4, len(tokens) - index) + 1):
+            phrase = tokens[index : index + size]
+            repeats = 1
+            while tokens[index + repeats * size : index + (repeats + 1) * size] == phrase:
+                repeats += 1
+            low_information = set(phrase) <= LOW_INFORMATION_ADLIB_TOKENS
+            if repeats >= 4 or (low_information and repeats >= 3):
+                best_loop = max(best_loop or (0, 0), (size, repeats), key=lambda item: item[0] * item[1])
+
+        if best_loop:
+            size, repeats = best_loop
+            phrase = tokens[index : index + size]
+            if not set(phrase) <= LOW_INFORMATION_ADLIB_TOKENS:
+                kept.extend(range(index, index + size))
+            index += size * repeats
+            continue
+
+        kept.append(index)
+        index += 1
+
+    return kept
+
+
 def read_text(path: Path) -> str:
     try:
         return path.read_text(encoding="utf-8")
@@ -91,6 +156,93 @@ def parse_lyrics(path: Path) -> tuple[dict[str, str], list[LyricLine]]:
             continue
         lines.append(LyricLine(len(lines), section, line, normalize_tokens(line)))
     return metadata, lines
+
+
+def split_metadata_list(value: str) -> list[str]:
+    return [item.strip() for item in re.split(r"[;\n|]+", value) if item.strip()]
+
+
+def timing_lines(lines: list[LyricLine], metadata: dict[str, str]) -> tuple[list[LyricLine], dict[str, Any]]:
+    skipped_sections = set(split_metadata_list(metadata.get("TIMING_SKIP_SECTIONS", "")))
+    if not skipped_sections:
+        return lines, {"skipped_line_count": 0, "skipped_sections": []}
+
+    kept: list[LyricLine] = []
+    skipped_count = 0
+    for line in lines:
+        if line.section in skipped_sections:
+            skipped_count += 1
+            continue
+        kept.append(LyricLine(len(kept), line.section, line.text, line.tokens))
+
+    return kept, {
+        "skipped_line_count": skipped_count,
+        "skipped_sections": sorted(skipped_sections),
+    }
+
+
+def timing_section_starts(metadata: dict[str, str]) -> dict[str, float]:
+    starts: dict[str, float] = {}
+    for item in split_metadata_list(metadata.get("TIMING_SECTION_STARTS", "")):
+        section, separator, value = item.partition("=")
+        if not separator:
+            continue
+        try:
+            starts[section.strip()] = float(value.strip())
+        except ValueError:
+            continue
+    return starts
+
+
+def timing_line_starts(metadata: dict[str, str]) -> dict[str, float]:
+    starts: dict[str, float] = {}
+    for item in split_metadata_list(metadata.get("TIMING_LINE_STARTS", "")):
+        text, separator, value = item.partition("=")
+        if not separator:
+            continue
+        try:
+            starts[text.strip().casefold()] = float(value.strip())
+        except ValueError:
+            continue
+    return starts
+
+
+def apply_section_start_overrides(timed_lines: list[dict[str, Any]], metadata: dict[str, str]) -> dict[str, Any]:
+    starts = timing_section_starts(metadata)
+    applied: dict[str, float] = {}
+    if not starts:
+        return {"section_start_overrides": applied}
+
+    seen_sections: set[str] = set()
+    previous_end = 0.0
+    for line in timed_lines:
+        section = str(line.get("section") or "")
+        if section in starts and section not in seen_sections:
+            start = max(previous_end, starts[section])
+            line["start"] = round(start, 3)
+            line["end"] = round(max(start + 0.1, float(line.get("end", start + 0.1))), 3)
+            line["timing_source"] = f"{line.get('timing_source', 'timed')}-section-override"
+            applied[section] = round(start, 3)
+        seen_sections.add(section)
+        previous_end = max(previous_end, float(line.get("end", line.get("start", 0))))
+    return {"section_start_overrides": applied}
+
+
+def apply_line_start_overrides(timed_lines: list[dict[str, Any]], metadata: dict[str, str]) -> dict[str, Any]:
+    starts = timing_line_starts(metadata)
+    applied: dict[str, float] = {}
+    if not starts:
+        return {"line_start_overrides": applied}
+
+    for line in timed_lines:
+        text_key = str(line.get("text") or "").strip().casefold()
+        if text_key in starts:
+            start = starts[text_key]
+            line["start"] = round(start, 3)
+            line["end"] = round(max(start + 0.1, float(line.get("end", start + 0.1))), 3)
+            line["timing_source"] = f"{line.get('timing_source', 'timed')}-line-override"
+            applied[str(line.get("text") or "")] = round(start, 3)
+    return {"line_start_overrides": applied}
 
 
 def audio_path_for_text(text_path: Path) -> Path | None:
@@ -133,14 +285,29 @@ def transcribe(model: Any, audio_path: Path, language: str | None, word_timestam
         return result
 
 
+def alignment_segments(transcript: dict[str, Any]) -> list[dict[str, Any]]:
+    return [
+        segment
+        for segment in transcript.get("segments") or []
+        if alignment_token_indices(normalize_tokens(str(segment.get("text") or "")))
+    ]
+
+
 def observed_words(transcript: dict[str, Any]) -> list[dict[str, Any]]:
     words: list[dict[str, Any]] = []
-    for segment in transcript.get("segments") or []:
+    for segment in alignment_segments(transcript):
+        segment_tokens = normalize_tokens(str(segment.get("text") or ""))
+        kept_token_indices = alignment_token_indices(segment_tokens)
         segment_words = segment.get("words") or []
         if segment_words:
+            kept_word_indices = set(kept_token_indices)
+            word_token_index = 0
             for word in segment_words:
                 token = normalize_tokens(str(word.get("word") or ""))
                 if not token:
+                    continue
+                if word_token_index not in kept_word_indices:
+                    word_token_index += 1
                     continue
                 words.append(
                     {
@@ -149,15 +316,17 @@ def observed_words(transcript: dict[str, Any]) -> list[dict[str, Any]]:
                         "end": float(word.get("end", segment.get("end", 0))),
                     }
                 )
+                word_token_index += 1
             continue
 
-        tokens = normalize_tokens(str(segment.get("text") or ""))
+        tokens = [segment_tokens[index] for index in kept_token_indices]
         start = float(segment.get("start", 0))
         end = float(segment.get("end", start))
         span = max(0.01, end - start)
-        for index, token in enumerate(tokens):
-            token_start = start + span * index / max(1, len(tokens))
-            token_end = start + span * (index + 1) / max(1, len(tokens))
+        original_count = max(1, len(segment_tokens))
+        for original_index, token in zip(kept_token_indices, tokens):
+            token_start = start + span * original_index / original_count
+            token_end = start + span * (original_index + 1) / original_count
             words.append({"token": token, "start": token_start, "end": token_end})
     return words
 
@@ -503,14 +672,21 @@ def insert_repeated_adlibs(
 
 
 def build_payload(text_path: Path, audio_path: Path, args: argparse.Namespace, model: Any) -> dict[str, Any]:
-    metadata, lines = parse_lyrics(text_path)
+    metadata, parsed_lines = parse_lyrics(text_path)
+    lines, timing_line_diagnostics = timing_lines(parsed_lines, metadata)
     transcript = transcribe(model, audio_path, args.language, args.word_timestamps)
     total_duration = max((float(segment.get("end", 0)) for segment in transcript.get("segments") or []), default=0)
+    alignable_segments = alignment_segments(transcript)
     transcript_segments = concise_segments(transcript)
+    alignment_transcript_segments = concise_segments({"segments": alignable_segments})
     words = observed_words(transcript)
-    timed_lines, diagnostics = align_lines(lines, words, max(0.1, total_duration or 0.1), transcript_segments)
+    timed_lines, diagnostics = align_lines(lines, words, max(0.1, total_duration or 0.1), alignment_transcript_segments)
+    diagnostics.update(apply_section_start_overrides(timed_lines, metadata))
+    diagnostics.update(apply_line_start_overrides(timed_lines, metadata))
     timed_lines, inserted_adlibs = insert_repeated_adlibs(timed_lines, lines, transcript)
+    diagnostics.update(timing_line_diagnostics)
     diagnostics["inserted_adlib_count"] = inserted_adlibs
+    diagnostics["ignored_adlib_segment_count"] = len(transcript.get("segments") or []) - len(alignable_segments)
     return {
         "schema": "discography-timed-lyrics-v1",
         "album": text_path.parent.name,
@@ -551,6 +727,13 @@ def write_json(path: Path, payload: dict[str, Any]) -> None:
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False, allow_nan=False) + "\n", encoding="utf-8")
 
 
+def display_path(path: Path) -> str:
+    try:
+        return path.relative_to(ROOT).as_posix()
+    except ValueError:
+        return path.as_posix()
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate timed lyric JSON for a repo album.")
     parser.add_argument("--album", action="append", help="Album directory to process. May be passed more than once.")
@@ -583,13 +766,13 @@ def process_album(album: Path, args: argparse.Namespace, model: Any) -> int:
             continue
         output_path = args.output_root / album.name / f"{text_path.stem}.json"
         if output_path.exists() and not args.force:
-            print(f"skip existing: {output_path.relative_to(ROOT)}")
+            print(f"skip existing: {display_path(output_path)}")
             continue
         print(f"timing {text_path.relative_to(ROOT)}")
         payload = build_payload(text_path, audio_path, args, model)
         write_json(output_path, payload)
         ratio = payload["diagnostics"]["matched_word_ratio"]
-        print(f"wrote {output_path.relative_to(ROOT)} ({ratio:.0%} word match)")
+        print(f"wrote {display_path(output_path)} ({ratio:.0%} word match)")
         written += 1
     return written
 

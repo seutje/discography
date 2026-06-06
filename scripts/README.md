@@ -186,6 +186,31 @@ python -m http.server 8000 --directory _site
 
 The GitHub workflow builds `_site`, copies analyzed audio into `media/`, writes report JSON files under `reports/`, and deploys the artifact to GitHub Pages.
 
+## Lyric Video Export
+
+Timed lyric JSON assets can be rendered to square MP4 lyric videos with an audio-reactive background similar to the GitHub Pages player. The exporter uses the JSON `audio_path`, draws 2160x2160 frames with bold timed lyrics, and pipes them to `ffmpeg` as H.264/AAC:
+
+```bash
+python scripts/export_lyric_video.py "gh-pages/data/lyrics/stderr/01 - You Follow.json"
+```
+
+Outputs default to `video-exports/<album>/<title>.mp4`. The default constrained H.264 settings (`CRF 22`, `maxrate 12000k`, AAC `160k`) are intended to stay below 1 GB for songs up to about 8 minutes.
+
+Render a quick preview clip:
+
+```bash
+python scripts/export_lyric_video.py "gh-pages/data/lyrics/stderr/01 - You Follow.json" \
+  --duration 10 \
+  --output /tmp/you-follow-preview.mp4 \
+  --overwrite
+```
+
+Useful options:
+
+- `--theme light` to match the light dashboard palette.
+- `--audio path/to/file.mp3` if the JSON audio path is not available locally.
+- `--size 720 --crf 24 --maxrate 2200k` for smaller files, or `--crf 20 --maxrate 16000k` for higher quality.
+
 The EG score uses an `evolving_grammar` evidence block in the JSON and report. It compares section-level harmony, timbre, rhythm, texture, and beat-grid behavior; looks for transformed returns instead of exact repeats; detects local grid and rule changes; and scores production/vocal notes for intentional arrangement transformations.
 
 The scoring is intentionally conservative and heuristic. The scripts measure duration, tempo, key estimate, loudness, clipping, dynamics, spectral shape, onset density, repetition proxy, rough section boundaries, optional `beat_this` beat/downbeat stability, evolving-grammar proxies, and lyric/text features. They cannot truly hear compositional intent, so final rung placement should be treated as a first-pass assistant for close listening, not an authoritative grade.

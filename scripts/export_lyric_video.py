@@ -42,8 +42,8 @@ THEMES = {
         "ink": "#f5f7f1",
         "muted": "#aab2a6",
         "line": "#3b4239",
-        "accent": "#58b7a8",
-        "warm": "#d08a6f",
+        "accent": "#006994",
+        "warm": "#800020",
         "shadow": "#050604",
     },
     "light": {
@@ -54,8 +54,8 @@ THEMES = {
         "ink": "#20231f",
         "muted": "#686e65",
         "line": "#d9ddd2",
-        "accent": "#1d6b5f",
-        "warm": "#a45b3f",
+        "accent": "#006994",
+        "warm": "#800020",
         "shadow": "#ffffff",
     },
 }
@@ -216,6 +216,94 @@ def add_radial(
         )
 
 
+def darken(color: tuple[int, int, int], amount: float) -> tuple[int, int, int]:
+    return mix(color, (0, 0, 0), amount)
+
+
+def lighten(color: tuple[int, int, int], amount: float) -> tuple[int, int, int]:
+    return mix(color, (255, 255, 255), amount)
+
+
+@lru_cache(maxsize=768)
+def sphere_sprite(
+    radius_key: int,
+    color: tuple[int, int, int],
+    opacity_key: int,
+) -> Image.Image:
+    radius = max(1.0, radius_key / 10)
+    opacity = max(0.0, min(1.0, opacity_key / 100))
+    pad = math.ceil(radius * 4.3)
+    side = pad * 2 + 1
+    center = pad
+
+    yy, xx = np.mgrid[0:side, 0:side].astype(np.float32)
+    dx = (xx - center) / radius
+    dy = (yy - center) / radius
+    distance = np.sqrt(dx * dx + dy * dy)
+
+    rgba = np.zeros((side, side, 4), dtype=np.float32)
+
+    shadow_dx = radius * 0.48
+    shadow_dy = radius * 0.58
+    shadow_distance = np.sqrt(((xx - center - shadow_dx) / (radius * 1.16)) ** 2 + ((yy - center - shadow_dy) / (radius * 1.04)) ** 2)
+    shadow_alpha = np.clip(1 - shadow_distance, 0, 1) ** 1.8 * opacity * 0.25
+    rgba[..., 3] = np.maximum(rgba[..., 3], shadow_alpha)
+
+    glow = np.exp(-((distance / 2.35) ** 2)) * opacity * 0.46
+    rgba[..., :3] = np.array(color, dtype=np.float32)
+    rgba[..., 3] = np.maximum(rgba[..., 3], glow)
+
+    mask = distance <= 1.0
+    if np.any(mask):
+        nx = dx[mask]
+        ny = dy[mask]
+        nz = np.sqrt(np.clip(1 - nx * nx - ny * ny, 0, 1))
+        normals = np.stack([nx, ny, nz], axis=1)
+        light = np.array([-0.48, -0.62, 0.86], dtype=np.float32)
+        light = light / np.linalg.norm(light)
+        view = np.array([0.0, 0.0, 1.0], dtype=np.float32)
+        ndotl = np.clip(normals @ light, 0, 1)
+        half_vec = light + view
+        half_vec = half_vec / np.linalg.norm(half_vec)
+        specular = np.clip(normals @ half_vec, 0, 1) ** 18
+        rim = np.clip(1 - nz, 0, 1) ** 1.7
+
+        base = np.array(color, dtype=np.float32)
+        shade = 0.38 + ndotl * 0.74 - rim * 0.18
+        sphere_rgb = base[None, :] * shade[:, None]
+        sphere_rgb += np.array([255, 255, 255], dtype=np.float32)[None, :] * (specular[:, None] * 0.30)
+        sphere_rgb += base[None, :] * (np.clip(0.9 - distance[mask], 0, 1)[:, None] * 0.07)
+        sphere_rgb = np.clip(sphere_rgb, 0, 255)
+
+        edge_alpha = np.clip((1.0 - distance[mask]) * 6.0, 0, 1)
+        sphere_alpha = opacity * edge_alpha
+        existing_alpha = rgba[..., 3][mask]
+        out_alpha = sphere_alpha + existing_alpha * (1 - sphere_alpha)
+        existing_rgb = rgba[..., :3][mask]
+        rgba[..., :3][mask] = (
+            sphere_rgb * sphere_alpha[:, None] + existing_rgb * existing_alpha[:, None] * (1 - sphere_alpha[:, None])
+        ) / np.maximum(out_alpha[:, None], 0.001)
+        rgba[..., 3][mask] = out_alpha
+
+    rgba[..., :3] = np.clip(rgba[..., :3], 0, 255)
+    rgba[..., 3] = np.clip(rgba[..., 3] * 255, 0, 255)
+    return Image.fromarray(rgba.astype(np.uint8), "RGBA")
+
+
+def draw_glowing_sphere(
+    frame: Image.Image,
+    x: float,
+    y: float,
+    radius: float,
+    base_color: tuple[int, int, int],
+    opacity: float,
+) -> None:
+    radius_key = max(10, round(radius * 10))
+    opacity_key = max(20, min(75, round(opacity * 100)))
+    sprite = sphere_sprite(radius_key, base_color, opacity_key)
+    frame.alpha_composite(sprite, (round(x - sprite.width / 2), round(y - sprite.height / 2)))
+
+
 def make_visual_points(size: int) -> list[VisualPoint]:
     rng = random.Random(1147)
     scale = size / DESIGN_SIZE
@@ -232,7 +320,7 @@ def make_visual_points(size: int) -> list[VisualPoint]:
                 x=base_x + rng.uniform(-6, 6) * scale,
                 y=base_y + rng.uniform(-6, 6) * scale,
                 phase=index * 0.73 + rng.uniform(-0.25, 0.25),
-                radius=(2.0 + (index % 7) / 7 * 4.0) * scale,
+                radius=(1.0 + (index % 7) / 7 * 2.35) * scale,
                 hue_role="warm" if index % 4 == 0 else "accent",
             )
         )
@@ -366,6 +454,23 @@ def draw_centered_text_block(
         y += height + line_gap
 
 
+def draw_centered_label(
+    draw: ImageDraw.ImageDraw,
+    text: str,
+    font: ImageFont.FreeTypeFont,
+    font_path: str | None,
+    y: int,
+    max_width: int,
+    theme: dict[str, str],
+) -> None:
+    for line in cached_wrap_text(font_path, font.size, text, max_width)[:2]:
+        width, height = text_size(draw, line, font)
+        x = (draw.im.size[0] - width) // 2
+        draw.text((x, y + 2), line, font=font, fill=(*parse_hex(theme["shadow"]), 160))
+        draw.text((x, y), line, font=font, fill=(*parse_hex(theme["muted"]), 230))
+        y += height + 4
+
+
 def load_audio_features(audio_path: Path, start: float, duration: float, fps: int, sample_rate: int) -> np.ndarray:
     try:
         import librosa
@@ -438,17 +543,16 @@ def render_frame(
     frame.alpha_composite(overlay)
 
     draw = ImageDraw.Draw(frame, "RGBA")
-    accent_hue = 170 if theme is THEMES["dark"] else 155
-    warm_hue = 16
     for point in points:
         phase = t * (0.45 + high * 2.2) + point.phase
         drift = (4 + energy * 28) * scale
         x = point.x + math.sin(phase) * drift * (0.35 + bass)
         y = point.y + math.cos(phase * 0.8) * drift * (0.3 + mid)
-        radius = point.radius + (energy * 8.5 + bass * 2.5) * scale
-        hue = warm_hue + bass * 18 if point.hue_role == "warm" else accent_hue + mid * 50
-        color = hsla(hue, 58, 42 + energy * 28, 0.14 + energy * 0.42)
-        draw.ellipse((x - radius, y - radius, x + radius, y + radius), fill=color)
+        point_amplitude = min(1.0, energy * 0.72 + (bass if point.hue_role == "warm" else mid) * 0.28)
+        radius = point.radius + (point_amplitude * 3.05 + bass * 0.7) * scale
+        opacity = 0.20 + point_amplitude * 0.55
+        base_color = warm if point.hue_role == "warm" else accent
+        draw_glowing_sphere(frame, x, y, radius, base_color, opacity)
 
     wave_points: list[tuple[float, float]] = []
     amplitude = (9 + mid * 36) * scale
@@ -467,15 +571,16 @@ def render_frame(
     next_line = str(lines[current_index + 1].get("text") or "") if 0 <= current_index < len(lines) - 1 else ""
 
     title = str(payload.get("title") or "Untitled")
-    meta = title
-    meta_lines = cached_wrap_text(font_path, fonts.small.size, meta, round(size * 0.76))[:2]
-    y = round(size * 0.075)
-    for meta_line in meta_lines:
-        width, height = text_size(draw, meta_line, fonts.small)
-        x = (size - width) // 2
-        draw.text((x, y + 2), meta_line, font=fonts.small, fill=(*parse_hex(theme["shadow"]), 160))
-        draw.text((x, y), meta_line, font=fonts.small, fill=(*parse_hex(theme["muted"]), 230))
-        y += height + 4
+    draw_centered_label(draw, title, fonts.small, font_path, round(size * 0.075), round(size * 0.76), theme)
+    draw_centered_label(
+        draw,
+        "ART.ficial.IGNORANCE",
+        fonts.small,
+        font_path,
+        round(size * 0.925),
+        round(size * 0.76),
+        theme,
+    )
 
     if previous:
         previous_lines = cached_wrap_text(font_path, fonts.previous.size, previous, max_width)[:2]

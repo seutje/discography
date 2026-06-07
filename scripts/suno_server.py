@@ -20,15 +20,41 @@ import analyze_track
 import suno_iterate
 
 
-ROOT = Path.cwd()
+ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_ROOT = ROOT / "suno-runs" / "web"
 FRONTEND_PATH = Path(__file__).with_name("suno_frontend.html")
+GH_PAGES_DATA = ROOT / "gh-pages" / "data"
+GH_PAGES_CATALOG = GH_PAGES_DATA / "catalog.json"
+LYRIC_TIMING_ROOT = ROOT / "gh-pages" / "data" / "lyrics"
 STATE_LOCK = threading.RLock()
 CALLBACK_EVENTS: dict[tuple[str, int], threading.Event] = {}
 WAV_CALLBACK_EVENTS: dict[tuple[str, int, int], threading.Event] = {}
 WORKERS: dict[str, threading.Thread] = {}
 CALLBACK_TOKEN = ""
 ALLOW_REMOTE_DASHBOARD = False
+PROJECT_IGNORED_DIRS = {
+    ".agents",
+    ".cache",
+    ".codex",
+    ".git",
+    ".github",
+    ".venv",
+    "_site",
+    "analysis-output",
+    "analysis_outputs",
+    "analyzer",
+    "deploy",
+    "gh-pages",
+    "node_modules",
+    "reports",
+    "scripts",
+    "suno-runs",
+}
+REPORT_SCAN_IGNORED_DIRS = PROJECT_IGNORED_DIRS - {"analysis-output"}
+_LYRICS_INDEX_CACHE_MTIME_NS = -1
+_LYRICS_INDEX_CACHE: dict[str, str] = {}
+_ANALYSIS_RECORDS_CACHE_SIGNATURE: tuple[tuple[str, int, int], ...] = ()
+_ANALYSIS_RECORDS_CACHE: list[dict[str, Any]] = []
 
 
 def now() -> str:
@@ -83,18 +109,20 @@ def add_log(job_id: str, message: str) -> None:
 
 def list_song_files() -> list[dict[str, str]]:
     songs = []
-    for path in ROOT.rglob("*.txt"):
-        if any(part in {".git", ".venv", ".cache", "analyzer", "analysis-output", "suno-runs"} for part in path.parts):
-            continue
-        if path.name == "requirements.txt":
-            continue
-        rel = path.relative_to(ROOT).as_posix()
-        try:
-            spec = suno_iterate.parse_track_text(path)
-            title = spec.title
-        except Exception:
-            title = path.stem
-        songs.append({"path": rel, "title": title})
+    for current, dirs, files in os.walk(ROOT):
+        dirs[:] = [name for name in dirs if name not in PROJECT_IGNORED_DIRS]
+        current_path = Path(current)
+        for filename in files:
+            if not filename.endswith(".txt") or filename == "requirements.txt":
+                continue
+            path = current_path / filename
+            rel = path.relative_to(ROOT).as_posix()
+            try:
+                spec = suno_iterate.parse_track_text(path)
+                title = spec.title
+            except Exception:
+                title = path.stem
+            songs.append({"path": rel, "title": title})
     return sorted(songs, key=lambda item: item["path"].lower())
 
 
@@ -213,6 +241,68 @@ def audio_path_for_text(text_path: Path) -> Path | None:
     return None
 
 
+def url_for_path(path: str) -> str:
+    return "/".join(urllib.parse.quote(part) for part in Path(path).as_posix().split("/"))
+
+
+def gh_pages_lyrics_by_audio_path() -> dict[str, str]:
+    global _LYRICS_INDEX_CACHE_MTIME_NS, _LYRICS_INDEX_CACHE
+    try:
+        mtime_ns = GH_PAGES_CATALOG.stat().st_mtime_ns
+    except OSError:
+        mtime_ns = -1
+    if _LYRICS_INDEX_CACHE_MTIME_NS == mtime_ns:
+        return _LYRICS_INDEX_CACHE
+
+    catalog = read_json(GH_PAGES_CATALOG, {})
+    index: dict[str, str] = {}
+    for record in catalog.get("statistics", {}).get("records", []):
+        audio_path = str(record.get("audio_path") or "").lower()
+        lyrics_url = str(record.get("lyrics_url") or "")
+        if audio_path and lyrics_url:
+            index[audio_path] = lyrics_url
+    for album in catalog.get("albums", []):
+        for track in album.get("tracks", []):
+            audio_path = str(track.get("audio_path") or "").lower()
+            lyrics_url = str(track.get("lyrics_url") or track.get("analysis", {}).get("lyrics_url") or "")
+            if audio_path and lyrics_url:
+                index[audio_path] = lyrics_url
+    _LYRICS_INDEX_CACHE_MTIME_NS = mtime_ns
+    _LYRICS_INDEX_CACHE = index
+    return index
+
+
+def public_lyrics_url_for_path(path: Path) -> str:
+    rel = path.resolve().relative_to(LYRIC_TIMING_ROOT.resolve()).as_posix()
+    return "data/lyrics/" + url_for_path(rel)
+
+
+def lyric_timing_url_for_text(text_path: Path) -> str:
+    timing_path = LYRIC_TIMING_ROOT / text_path.parent.name / f"{text_path.stem}.json"
+    if not timing_path.exists():
+        return ""
+    return public_lyrics_url_for_path(timing_path)
+
+
+def lyric_timing_url_for_audio_path(audio_path: str) -> str:
+    if not audio_path:
+        return ""
+    catalog_url = gh_pages_lyrics_by_audio_path().get(str(audio_path).lower())
+    if catalog_url:
+        return catalog_url
+    path = Path(audio_path)
+    parts = path.parts
+    if "audio" not in parts:
+        return ""
+    index = parts.index("audio")
+    if index == 0:
+        return ""
+    timing_path = LYRIC_TIMING_ROOT / parts[index - 1] / f"{path.stem}.json"
+    if not timing_path.exists():
+        return ""
+    return public_lyrics_url_for_path(timing_path)
+
+
 def summarize_analysis_report(report_path: Path) -> dict[str, Any] | None:
     report = read_json(report_path, {})
     audio = report.get("audio") or {}
@@ -241,6 +331,7 @@ def summarize_analysis_report(report_path: Path) -> dict[str, Any] | None:
         "album": album_from_audio_path(audio_path),
         "track_number": track_number_from_name(audio_path),
         "audio_path": audio_path,
+        "lyrics_url": lyric_timing_url_for_audio_path(audio_path),
         "framework": framework.get("name") or Path(str(framework.get("path") or "")).name or "Unselected",
         "score": mean(score_values),
         "axes": axes,
@@ -266,19 +357,42 @@ def summarize_analysis_report(report_path: Path) -> dict[str, Any] | None:
     }
 
 
+def analysis_report_paths() -> list[Path]:
+    paths: list[Path] = []
+    for current, dirs, files in os.walk(ROOT):
+        dirs[:] = [name for name in dirs if name not in REPORT_SCAN_IGNORED_DIRS]
+        current_path = Path(current)
+        for filename in files:
+            if filename.endswith(".analysis.json"):
+                paths.append(current_path / filename)
+    return sorted(paths)
+
+
 def analysis_records() -> list[dict[str, Any]]:
+    global _ANALYSIS_RECORDS_CACHE_SIGNATURE, _ANALYSIS_RECORDS_CACHE
+    report_paths = analysis_report_paths()
+    signature: list[tuple[str, int, int]] = []
+    for path in report_paths:
+        try:
+            stat = path.stat()
+        except OSError:
+            continue
+        signature.append((path.relative_to(ROOT).as_posix(), stat.st_mtime_ns, stat.st_size))
+
+    signature_tuple = tuple(signature)
+    if _ANALYSIS_RECORDS_CACHE_SIGNATURE == signature_tuple:
+        return [dict(record) for record in _ANALYSIS_RECORDS_CACHE]
+
     records = []
-    for report_path in sorted(ROOT.rglob("*.analysis.json")):
-        if ".venv" in report_path.parts or ".git" in report_path.parts:
-            continue
-        if "suno-runs" in report_path.parts:
-            continue
+    for report_path in report_paths:
         try:
             summary = summarize_analysis_report(report_path)
         except Exception:
             continue
         if summary:
             records.append(summary)
+    _ANALYSIS_RECORDS_CACHE_SIGNATURE = signature_tuple
+    _ANALYSIS_RECORDS_CACHE = records
     return records
 
 
@@ -327,20 +441,8 @@ def album_catalog() -> list[dict[str, Any]]:
         key = (str(record.get("album") or "").lower(), str(record.get("title") or "").lower())
         records_by_album_title.setdefault(key, record)
 
-    ignored = {
-        ".agents",
-        ".cache",
-        ".codex",
-        ".git",
-        ".venv",
-        "analysis-output",
-        "analyzer",
-        "deploy",
-        "scripts",
-        "suno-runs",
-    }
     albums: list[dict[str, Any]] = []
-    for album_dir in sorted((path for path in ROOT.iterdir() if path.is_dir() and path.name not in ignored), key=lambda path: path.name.lower()):
+    for album_dir in sorted((path for path in ROOT.iterdir() if path.is_dir() and path.name not in PROJECT_IGNORED_DIRS), key=lambda path: path.name.lower()):
         text_paths = sorted(album_dir.glob("*.txt"), key=lambda path: (track_number_from_name(path.name) or 9999, path.name.lower()))
         if not text_paths:
             continue
@@ -364,6 +466,7 @@ def album_catalog() -> list[dict[str, Any]]:
                     "text_path": relative_project_path(text_path),
                     "audio_path": audio_rel,
                     "audio_url": public_url_for_path(audio_path) if audio_path else "",
+                    "lyrics_url": lyric_timing_url_for_text(text_path),
                     "analysis": record,
                 }
             )
@@ -397,6 +500,7 @@ def enrich_job(job: dict[str, Any]) -> dict[str, Any]:
             audio = candidate.get("audio_path")
             if audio:
                 candidate["audio_url"] = public_url_for_path(ROOT / audio)
+                candidate["lyrics_url"] = lyric_timing_url_for_audio_path(candidate.get("album_audio_path") or audio)
             image = candidate.get("image_path")
             if image:
                 candidate["image_url"] = public_url_for_path(ROOT / image)
@@ -1019,13 +1123,19 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, fmt: str, *args: Any) -> None:
         print(f"[{now()}] {self.address_string()} {fmt % args}")
 
+    def write_body(self, body: bytes) -> None:
+        try:
+            self.wfile.write(body)
+        except (BrokenPipeError, ConnectionResetError):
+            return
+
     def send_json(self, data: Any, status: int = 200) -> None:
         body = json.dumps(data, ensure_ascii=False).encode("utf-8")
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
-        self.wfile.write(body)
+        self.write_body(body)
 
     def send_text(self, text: str, content_type: str = "text/plain; charset=utf-8", status: int = 200) -> None:
         body = text.encode("utf-8")
@@ -1033,7 +1143,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Content-Type", content_type)
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
-        self.wfile.write(body)
+        self.write_body(body)
 
     def read_body(self) -> dict[str, Any]:
         length = int(self.headers.get("Content-Length", "0") or "0")
@@ -1092,6 +1202,36 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_json({"error": "job not found"}, HTTPStatus.NOT_FOUND)
             else:
                 self.send_json(enrich_job(job))
+        elif path.startswith("/data/lyrics/"):
+            rel = urllib.parse.unquote(path.removeprefix("/data/lyrics/"))
+            try:
+                target = (LYRIC_TIMING_ROOT / rel).resolve()
+                target.relative_to(LYRIC_TIMING_ROOT.resolve())
+                if not target.exists() or target.is_dir() or target.suffix.lower() != ".json":
+                    raise FileNotFoundError(rel)
+                data = target.read_bytes()
+                self.send_response(HTTPStatus.OK)
+                self.send_header("Content-Type", "application/json")
+                self.send_header("Content-Length", str(len(data)))
+                self.end_headers()
+                self.write_body(data)
+            except Exception:
+                self.send_json({"error": "lyrics not found"}, HTTPStatus.NOT_FOUND)
+        elif path == "/lyrics":
+            rel = query.get("path", [""])[0]
+            try:
+                target = (LYRIC_TIMING_ROOT / rel).resolve()
+                target.relative_to(LYRIC_TIMING_ROOT.resolve())
+                if not target.exists() or target.is_dir() or target.suffix.lower() != ".json":
+                    raise FileNotFoundError(rel)
+                data = target.read_bytes()
+                self.send_response(HTTPStatus.OK)
+                self.send_header("Content-Type", "application/json")
+                self.send_header("Content-Length", str(len(data)))
+                self.end_headers()
+                self.write_body(data)
+            except Exception:
+                self.send_json({"error": "lyrics not found"}, HTTPStatus.NOT_FOUND)
         elif path == "/media":
             rel = query.get("path", [""])[0]
             try:
@@ -1122,14 +1262,14 @@ class Handler(BaseHTTPRequestHandler):
                     self.send_header("Content-Type", content_type)
                     self.send_header("Content-Length", str(len(chunk)))
                     self.end_headers()
-                    self.wfile.write(chunk)
+                    self.write_body(chunk)
                     return
                 self.send_response(200)
                 self.send_header("Accept-Ranges", "bytes")
                 self.send_header("Content-Type", content_type)
                 self.send_header("Content-Length", str(len(data)))
                 self.end_headers()
-                self.wfile.write(data)
+                self.write_body(data)
             except Exception:
                 self.send_json({"error": "media not found"}, HTTPStatus.NOT_FOUND)
         else:

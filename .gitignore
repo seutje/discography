@@ -19,6 +19,8 @@ Thumbs.db
 analysis-output/
 analysis_outputs/
 reports/
+!gh-pages/reports/
+!gh-pages/reports/**
 features/
 stems/
 waveforms/

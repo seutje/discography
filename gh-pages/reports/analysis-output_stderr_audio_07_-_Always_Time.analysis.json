@@ -1,0 +1,1716 @@
+{
+  "generated_at": "2026-06-03T22:59:45",
+  "audio": {
+    "path": "stderr/audio/07 - Always Time.mp3",
+    "duration_seconds": 173.0,
+    "duration": "2:53.00",
+    "sample_rate": 48000,
+    "channels": 2,
+    "bitrate": 180460,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "mjpeg"
+        }
+      ],
+      "format": {
+        "duration": "173.040000",
+        "bit_rate": "181413"
+      }
+    },
+    "tempo_bpm": 143.5546875,
+    "estimated_key": "F minor",
+    "key_confidence": 0.679463090253129,
+    "integrated_lufs": -17.186934004389354,
+    "peak_dbfs": -1.0593073517380427,
+    "crest_factor_db": 14.954882880261444,
+    "clipping_ratio": 0.0,
+    "rms_db_mean": -17.26944346800025,
+    "rms_db_std": 6.8669023513793945,
+    "spectral_centroid_mean": 2656.8213272644603,
+    "spectral_centroid_std": 1072.7125377553957,
+    "spectral_bandwidth_mean": 2648.116490869214,
+    "rolloff_mean": 5684.606676379429,
+    "flatness_mean": 0.03128334507346153,
+    "zero_crossing_rate_mean": 0.11015182001576969,
+    "onset_count": 618,
+    "onset_rate_per_second": 3.5722543352601157,
+    "harmonic_percussive_ratio": 2.5772757814135856,
+    "recurrence_ratio": 0.1166981544062296,
+    "beat_this": {
+      "path": "analysis-output/beat-this/stderr/07 - Always Time.beats",
+      "available": true,
+      "beat_count": 213,
+      "downbeat_count": 54,
+      "first_beat": 0.02,
+      "last_beat": 171.9,
+      "tempo_bpm": 73.17073170731769,
+      "double_tempo_bpm": 146.34146341463537,
+      "half_tempo_bpm": 36.58536585365884,
+      "median_beat_interval_seconds": 0.8199999999999932,
+      "beat_interval_cv": 0.015219636180195555,
+      "beat_grid_stability": 0.9391214552792178,
+      "median_bar_interval_seconds": 3.240000000000002,
+      "bar_interval_cv": 0.003672267589758715,
+      "bar_grid_stability": 0.9889831972307238,
+      "beats": [
+        0.02,
+        0.82,
+        1.62,
+        2.44,
+        3.26,
+        4.06,
+        4.86,
+        5.7,
+        6.5,
+        7.32,
+        8.12,
+        8.92,
+        9.74,
+        10.54,
+        11.36,
+        12.16,
+        12.96,
+        13.78,
+        14.58,
+        15.4,
+        16.2,
+        17.04,
+        17.84,
+        18.66,
+        19.46,
+        20.28,
+        21.08,
+        21.9,
+        22.7,
+        23.52,
+        24.32,
+        25.12,
+        25.94,
+        26.76,
+        27.56,
+        28.38,
+        29.2,
+        30.0,
+        30.82,
+        31.64,
+        32.44,
+        33.24,
+        34.06,
+        34.86,
+        35.68,
+        36.48,
+        37.3,
+        38.1,
+        38.92,
+        39.72,
+        40.54,
+        41.34,
+        42.16,
+        42.96,
+        43.78,
+        44.6,
+        45.4,
+        46.2,
+        47.04,
+        47.84,
+        48.64,
+        49.46,
+        50.26,
+        51.08,
+        51.9,
+        52.7,
+        53.52,
+        54.32,
+        55.14,
+        55.94,
+        56.76,
+        57.56,
+        58.38,
+        59.2,
+        60.0,
+        60.82,
+        61.62,
+        62.44,
+        63.24,
+        64.06,
+        64.86,
+        65.68,
+        66.5,
+        67.3,
+        68.1,
+        68.92,
+        69.72,
+        70.54,
+        71.36,
+        72.16,
+        72.96,
+        73.78,
+        74.58,
+        75.4,
+        76.22,
+        77.04,
+        77.84,
+        78.64,
+        79.46,
+        80.28,
+        81.08,
+        81.9,
+        82.7,
+        83.52,
+        84.32,
+        85.12,
+        85.94,
+        86.76,
+        87.54,
+        88.38,
+        89.18,
+        89.98,
+        90.8,
+        91.62,
+        92.44,
+        93.26,
+        94.06,
+        94.88,
+        95.68,
+        96.48,
+        97.3,
+        98.1,
+        98.92,
+        99.74,
+        100.54,
+        101.36,
+        102.16,
+        102.96,
+        103.78,
+        104.6,
+        105.4,
+        106.22,
+        107.04,
+        107.86,
+        108.66,
+        109.46,
+        110.28,
+        111.08,
+        111.9,
+        112.7,
+        113.52,
+        114.34,
+        115.12,
+        115.96,
+        116.76,
+        117.58,
+        118.4,
+        119.18,
+        120.0,
+        120.82,
+        121.62,
+        122.44,
+        123.24,
+        124.06,
+        124.86,
+        125.68,
+        126.48,
+        127.32,
+        128.12,
+        128.94,
+        129.74,
+        130.54,
+        131.36,
+        132.16,
+        132.98,
+        133.78,
+        134.58,
+        135.42,
+        136.22,
+        137.04,
+        137.84,
+        138.66,
+        139.48,
+        140.28,
+        141.06,
+        141.88,
+        142.68,
+        143.5,
+        144.32,
+        145.12,
+        145.94,
+        146.76,
+        147.56,
+        148.4,
+        149.18,
+        150.0,
+        150.8,
+        151.62,
+        152.42,
+        153.24,
+        154.06,
+        154.88,
+        155.68,
+        156.5,
+        157.3,
+        158.1,
+        158.92,
+        159.74,
+        160.54,
+        161.36,
+        162.16,
+        162.96,
+        163.8,
+        164.6,
+        165.4,
+        166.22,
+        167.04,
+        167.84,
+        168.64,
+        169.46,
+        170.28,
+        171.08,
+        171.9
+      ],
+      "beat_positions": [
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1
+      ],
+      "downbeats": [
+        0.02,
+        3.26,
+        6.5,
+        9.74,
+        12.96,
+        16.2,
+        19.46,
+        22.7,
+        25.94,
+        29.2,
+        32.44,
+        35.68,
+        38.92,
+        42.16,
+        45.4,
+        48.64,
+        51.9,
+        55.14,
+        58.38,
+        61.62,
+        64.86,
+        68.1,
+        71.36,
+        74.58,
+        77.84,
+        81.08,
+        84.32,
+        87.54,
+        90.8,
+        94.06,
+        97.3,
+        100.54,
+        103.78,
+        107.04,
+        110.28,
+        113.52,
+        116.76,
+        120.0,
+        123.24,
+        126.48,
+        129.74,
+        132.98,
+        136.22,
+        139.48,
+        142.68,
+        145.94,
+        149.18,
+        152.42,
+        155.68,
+        158.92,
+        162.16,
+        165.4,
+        168.64,
+        171.9
+      ],
+      "sample_beats": [
+        0.02,
+        0.82,
+        1.62,
+        2.44,
+        3.26,
+        4.06,
+        4.86,
+        5.7,
+        6.5,
+        7.32,
+        8.12,
+        8.92
+      ],
+      "sample_downbeats": [
+        0.02,
+        3.26,
+        6.5,
+        9.74,
+        12.96,
+        16.2,
+        19.46,
+        22.7
+      ]
+    },
+    "evolving_grammar": {
+      "section_contrast_score": 3.094,
+      "cumulative_evolution_score": 1.08,
+      "transformed_return_score": 8.0,
+      "controlled_grid_deviation_score": 0.166,
+      "rule_change_score": 3.75,
+      "overall_score": 3.487,
+      "transformed_returns": [
+        {
+          "sections": [
+            1,
+            3
+          ],
+          "harmonic_similarity": 0.989,
+          "timbre_similarity": 0.969,
+          "rhythm_delta": 0.129,
+          "texture_delta": 0.421
+        },
+        {
+          "sections": [
+            1,
+            4
+          ],
+          "harmonic_similarity": 0.955,
+          "timbre_similarity": 0.964,
+          "rhythm_delta": 0.496,
+          "texture_delta": 0.384
+        },
+        {
+          "sections": [
+            1,
+            5
+          ],
+          "harmonic_similarity": 0.983,
+          "timbre_similarity": 0.978,
+          "rhythm_delta": 0.27,
+          "texture_delta": 0.365
+        },
+        {
+          "sections": [
+            2,
+            5
+          ],
+          "harmonic_similarity": 0.979,
+          "timbre_similarity": 0.993,
+          "rhythm_delta": 0.931,
+          "texture_delta": 0.161
+        }
+      ],
+      "copied_return_count": 0,
+      "adjacent_changes": [
+        {
+          "from": 1,
+          "to": 2,
+          "harmonic_delta": 0.029,
+          "timbre_delta": 0.019,
+          "rhythm_delta": 0.662,
+          "texture_delta": 0.602,
+          "composite_change": 4.181,
+          "rule_changes": [
+            "rhythmic-law-shift",
+            "texture-law-shift",
+            "timbre-law-shift"
+          ]
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "harmonic_delta": 0.023,
+          "timbre_delta": 0.009,
+          "rhythm_delta": 0.791,
+          "texture_delta": 0.074,
+          "composite_change": 2.852,
+          "rule_changes": [
+            "rhythmic-law-shift"
+          ]
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "harmonic_delta": 0.043,
+          "timbre_delta": 0.019,
+          "rhythm_delta": 0.625,
+          "texture_delta": 0.046,
+          "composite_change": 2.506,
+          "rule_changes": [
+            "rhythmic-law-shift"
+          ]
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "harmonic_delta": 0.022,
+          "timbre_delta": 0.013,
+          "rhythm_delta": 0.765,
+          "texture_delta": 0.088,
+          "composite_change": 2.839,
+          "rule_changes": [
+            "rhythmic-law-shift"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "index": 1,
+          "start": 0.0,
+          "end": 18.715,
+          "duration": 18.715,
+          "onset_rate": 3.633,
+          "rms_db_mean": -23.46,
+          "centroid_mean": 2247.4,
+          "bandwidth_mean": 2086.0,
+          "flatness_mean": 0.0248,
+          "beat_count": 24,
+          "downbeat_count": 6,
+          "median_beat_interval_seconds": 0.8000000000000007,
+          "beat_interval_cv": 0.016058615374064677,
+          "bar_interval_cv": 0.002472187885515272,
+          "rule_changes": []
+        },
+        {
+          "index": 2,
+          "start": 18.715,
+          "end": 32.113,
+          "duration": 13.398,
+          "onset_rate": 5.747,
+          "rms_db_mean": -17.44,
+          "centroid_mean": 2910.5,
+          "bandwidth_mean": 2692.3,
+          "flatness_mean": 0.048,
+          "beat_count": 16,
+          "downbeat_count": 4,
+          "median_beat_interval_seconds": 0.8200000000000003,
+          "beat_interval_cv": 0.0120664519200328,
+          "bar_interval_cv": 0.0029039292852923,
+          "rule_changes": [
+            "rhythmic-law-shift",
+            "texture-law-shift",
+            "timbre-law-shift"
+          ]
+        },
+        {
+          "index": 3,
+          "start": 32.113,
+          "end": 67.64,
+          "duration": 35.527,
+          "onset_rate": 3.321,
+          "rms_db_mean": -16.7,
+          "centroid_mean": 2856.0,
+          "bandwidth_mean": 2793.7,
+          "flatness_mean": 0.0374,
+          "beat_count": 44,
+          "downbeat_count": 11,
+          "median_beat_interval_seconds": 0.8199999999999932,
+          "beat_interval_cv": 0.013405991315130355,
+          "bar_interval_cv": 0.0018507094380470607,
+          "rule_changes": [
+            "rhythmic-law-shift"
+          ]
+        },
+        {
+          "index": 4,
+          "start": 67.64,
+          "end": 85.403,
+          "duration": 17.763,
+          "onset_rate": 5.123,
+          "rms_db_mean": -16.55,
+          "centroid_mean": 2766.2,
+          "bandwidth_mean": 2723.0,
+          "flatness_mean": 0.0421,
+          "beat_count": 22,
+          "downbeat_count": 6,
+          "median_beat_interval_seconds": 0.8199999999999932,
+          "beat_interval_cv": 0.012324428282917473,
+          "bar_interval_cv": 0.004613634260938728,
+          "rule_changes": [
+            "rhythmic-law-shift"
+          ]
+        },
+        {
+          "index": 5,
+          "start": 85.403,
+          "end": 173.0,
+          "duration": 87.597,
+          "onset_rate": 3.014,
+          "rms_db_mean": -16.71,
+          "centroid_mean": 2602.5,
+          "bandwidth_mean": 2687.2,
+          "flatness_mean": 0.0254,
+          "beat_count": 107,
+          "downbeat_count": 27,
+          "median_beat_interval_seconds": 0.8199999999999932,
+          "beat_interval_cv": 0.016641744737268163,
+          "bar_interval_cv": 0.003938655220653231,
+          "rule_changes": [
+            "rhythmic-law-shift"
+          ]
+        }
+      ]
+    },
+    "detected_sections": [
+      {
+        "index": 1,
+        "start": 0.0,
+        "end": 18.715283446712018,
+        "duration": 18.715283446712018
+      },
+      {
+        "index": 2,
+        "start": 18.715283446712018,
+        "end": 32.113197278911564,
+        "duration": 13.397913832199546
+      },
+      {
+        "index": 3,
+        "start": 32.113197278911564,
+        "end": 67.63972789115647,
+        "duration": 35.526530612244905
+      },
+      {
+        "index": 4,
+        "start": 67.63972789115647,
+        "end": 85.40299319727892,
+        "duration": 17.76326530612245
+      },
+      {
+        "index": 5,
+        "start": 85.40299319727892,
+        "end": 173.0,
+        "duration": 87.59700680272108
+      }
+    ]
+  },
+  "text_path": "stderr/07 - Always Time.txt",
+  "text": {
+    "has_text": true,
+    "title": "Always Time",
+    "declared_genre": "Aggressive Trap / Dark Hip-Hop",
+    "declared_tempo": "148 BPM",
+    "declared_key": "F minor",
+    "declared_mood": "Accusatory, confrontational, cynical, chaotic, slightly sarcastic",
+    "production_notes": "Dark trap beat with distorted sliding 808s and heavy sub, Rapid hi-hat rolls with sudden stutters and triplets, Punchy kicks and snapping snares, Gritty synth bass and ominous minor piano chords, Beat dropouts before accusations and punchlines, Hook hits with layered vocals and extra 808 distortion",
+    "vocal_notes": "Aggressive trap delivery with sharp rhythmic phrasing and triplet flows, Confrontational tone bordering on mocking, Fast internal rhyme bursts in verses, Chant-style hook with crowd-style emphasis, Frequent ad-libs (Facts! / Huh! / Why? / Damn! / Look!), Occasional whispered sarcastic lines before beat drops",
+    "section_count": 10,
+    "section_names": [
+      "Intro",
+      "Verse 1",
+      "Pre-Chorus",
+      "Chorus",
+      "Verse 2",
+      "Pre-Chorus",
+      "Chorus",
+      "Bridge",
+      "Final Chorus",
+      "Outro"
+    ],
+    "line_count": 82,
+    "word_count": 567,
+    "unique_word_ratio": 0.42151675485008816,
+    "repeated_line_ratio": 0.15853658536585366,
+    "rhyme_suffix_reuse": 0.524390243902439,
+    "avg_words_per_line": 6.914634146341464,
+    "reading_ease": 48.9233083730429,
+    "production_transform": {
+      "score": 4.0,
+      "matched_terms": [
+        "distortion",
+        "layered"
+      ],
+      "phrase_hits": [
+        "density-change",
+        "dropout",
+        "texture-change"
+      ]
+    }
+  },
+  "framework": {
+    "path": "analyzer/Hip hop & rap.txt",
+    "name": "Hip hop & rap.txt",
+    "characters_loaded": 16431
+  },
+  "framework_scoring": {
+    "axes": {
+      "SC_structural_coherence": 8.47,
+      "MI_motivic_integration": 9.02,
+      "BP_beauty_spatial_poise": 9.33,
+      "EG_evolving_grammar": 6.83,
+      "CD_carry_depth": 7.43
+    },
+    "core_metrics": {
+      "CDPD": 0.851,
+      "NGE": 0.573,
+      "HMII_peak_estimate": 5
+    },
+    "eg_evidence": {
+      "section_contrast_score": 3.094,
+      "cumulative_evolution_score": 1.08,
+      "transformed_return_score": 8.0,
+      "controlled_grid_deviation_score": 0.166,
+      "rule_change_score": 3.75,
+      "production_transform_score": 4.0,
+      "overall_score": 3.487
+    },
+    "transcription_penalties": {
+      "alignment_penalty": 0.126,
+      "repetition_penalty": 0.0,
+      "total_penalty": 0.126
+    },
+    "rung_estimate": {
+      "number": 12,
+      "label": "Recursion Threshold",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+    },
+    "confidence_0_10": 7.49,
+    "rationale": [
+      "Detected 5 audio sections over 2:53.00 with section-balance score 0.20.",
+      "Tempo estimate is 143.6 BPM; declared tempo alignment contributes 0.86.",
+      "Integrated loudness is -17.2 LUFS, peak is -1.1 dBFS, clipping ratio is 0.00000.",
+      "Estimated key is F minor with confidence 0.68.",
+      "Audio recurrence ratio is 0.117; this is a rough proxy for repeated musical cells, not true motif recognition.",
+      "beat_this detected 213 beats and 54 downbeats; beat-grid stability is 0.94.",
+      "EG evidence: section contrast 3.09, cumulative evolution 1.08, transformed returns 8.00, grid deviation 0.17, rule changes 3.75.",
+      "Companion text has 10 lyric/production sections, 567 words, line repetition 0.16, rhyme-suffix reuse 0.52.",
+      "Production/vocal notes contain transformation cues (density-change, dropout, texture-change); intent score 4.00.",
+      "Transcription check: lyric alignment 0.70, unique-word coverage 0.76, word-count ratio 1.14, duplicate-pass estimate 1.",
+      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.13, repeat 0.00)."
+    ]
+  },
+  "transcription": {
+    "available": true,
+    "backend": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "language_probability": 1.0,
+    "text": "Yeah, everybody busy, huh? Busy, do what I'm doing. Look, look. Everybody said they're drowning in the ground, no rest, but I see blue light glow on their face and chest. Thumbs flick, flick through a screen on night. Scroll raised from a little double mean fight. Busy with the TikTok, loop, same dance cone, busy leaving paragraphs under somebody's phone. Busy getting the timeline, I can morally tell, but I ain't got five minutes just to answer a call. Say light hearts at the world, I'm frail, but you got six hours, ditty-floor, coming world there. Tapping out, then I'm like a keyboard king. What I saw on the side, don't want to go to never things. Got time to argue with the strangest tape, but not enough time for a walk by the lake. Got time to screenshot, drama to send, but not enough time to laugh with a friend. Why? Always too busy to work with the sides, but always on line with the Irish phones. Oh, we got time for what digital charm, but never got time for what you're new in time. You always got time to run, always got time to complain on that. Take, take, take what a whole word shun. Tell me what you want, you got time to run. Why? I'll take you to what I'm at, why? Oh, you got time to complain on that. Take, take, take what a whole word shun. Tell me why you want, you got time to run. Oh, you got time to run, coming session soldier on the front of the line. Life outside, but you stuck in the vines. Tell me why you want, you got time to run. Facts. Scrolling through a winger like a sausage and air. Red face tapping like a fight right there. Algorithm feeding you the same old rage. Just another actor running a digital state. Everybody critic, everybody judge. Everybody holding some invisible grudge. Everybody pull some people fake nowadays, while they're farming cheap paint for a couple more plays. Busy being bitter in the red, dead. Busy running, I say about the things someone said. Busy breaking strangers down, peace by a piece, but can't break bread with the people in reach. Busy with drama that ain't even yours. Busy opening arguments, closing old doors. Busy collecting numbers like coins in a job. But don't even know who you really are down. Two busy scrolling up boys and streams. Two busy living inside a stream. Two busy shouting into the void. Two busy forgetting how to enjoy. You all we got time to run. All we got time to complain online. Take, take, take what a whole word shun. Tell me why you want, you got time to run. What? Look, we tied you up, watch what I want. What? People who want you, I was forming a line. Life outside, but you stuck in the vines. Tell me why you want, you got time to run. Yeah. When? Last laugh echoed in your room. Last sunset you actually consumed. When the last night you forgot your phone. When the last time you just left it alone, you said. You tried to say life declares. But you always got energy left to run. Why? All we got time to run. All we got time for a digital crime. Still in your piece one scroll at a time. Tell me why you want, you got time to run. Why? Yeah. If your Chape of Simmons every single night. Life outside still waiting a lot. But you always got time to run. Yeah. Yeah. Whole world outside, laughing in the sun. What? What? What? What? What? What? What? What? What? What? What? What? What? What?",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.28,
+        "text": "Yeah, everybody busy, huh?",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 4.28,
+        "end": 7.0,
+        "text": "Busy, do what I'm doing.",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 9.28,
+        "end": 11.32,
+        "text": "Look, look.",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 12.32,
+        "end": 13.96,
+        "text": "Everybody said they're drowning in the ground, no rest,",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 13.96,
+        "end": 15.76,
+        "text": "but I see blue light glow on their face and chest.",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 15.76,
+        "end": 17.28,
+        "text": "Thumbs flick, flick through a screen on night.",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 17.28,
+        "end": 19.0,
+        "text": "Scroll raised from a little double mean fight.",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 19.0,
+        "end": 20.64,
+        "text": "Busy with the TikTok, loop, same dance cone,",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 20.64,
+        "end": 22.28,
+        "text": "busy leaving paragraphs under somebody's phone.",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 22.28,
+        "end": 23.88,
+        "text": "Busy getting the timeline, I can morally tell,",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 23.88,
+        "end": 25.52,
+        "text": "but I ain't got five minutes just to answer a call.",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 25.52,
+        "end": 26.92,
+        "text": "Say light hearts at the world, I'm frail,",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 26.92,
+        "end": 28.72,
+        "text": "but you got six hours, ditty-floor, coming world there.",
+        "avg_logprob": -0.488948177455402,
+        "no_speech_prob": 0.29443359375
+      },
+      {
+        "start": 28.72,
+        "end": 30.16,
+        "text": "Tapping out, then I'm like a keyboard king.",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 30.16,
+        "end": 31.96,
+        "text": "What I saw on the side, don't want to go to never things.",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 31.96,
+        "end": 33.48,
+        "text": "Got time to argue with the strangest tape,",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 33.48,
+        "end": 35.2,
+        "text": "but not enough time for a walk by the lake.",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 35.2,
+        "end": 36.72,
+        "text": "Got time to screenshot, drama to send,",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 36.72,
+        "end": 38.4,
+        "text": "but not enough time to laugh with a friend.",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 38.4,
+        "end": 39.24,
+        "text": "Why?",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 39.24,
+        "end": 40.76,
+        "text": "Always too busy to work with the sides,",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 40.76,
+        "end": 42.56,
+        "text": "but always on line with the Irish phones.",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 42.56,
+        "end": 44.0,
+        "text": "Oh, we got time for what digital charm,",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 44.0,
+        "end": 45.64,
+        "text": "but never got time for what you're new in time.",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 45.64,
+        "end": 46.96,
+        "text": "You always got time to run,",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 46.96,
+        "end": 48.56,
+        "text": "always got time to complain on that.",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 48.56,
+        "end": 50.2,
+        "text": "Take, take, take what a whole word shun.",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 50.2,
+        "end": 52.2,
+        "text": "Tell me what you want, you got time to run.",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 52.2,
+        "end": 53.36,
+        "text": "Why?",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 53.36,
+        "end": 55.08,
+        "text": "I'll take you to what I'm at, why?",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 55.08,
+        "end": 56.68,
+        "text": "Oh, you got time to complain on that.",
+        "avg_logprob": -0.3832938419699104,
+        "no_speech_prob": 0.374755859375
+      },
+      {
+        "start": 56.68,
+        "end": 58.12,
+        "text": "Take, take, take what a whole word shun.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 58.12,
+        "end": 60.32,
+        "text": "Tell me why you want, you got time to run.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 60.32,
+        "end": 61.48,
+        "text": "Oh, you got time to run,",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 61.48,
+        "end": 63.12,
+        "text": "coming session soldier on the front of the line.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 63.12,
+        "end": 64.64,
+        "text": "Life outside, but you stuck in the vines.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 64.64,
+        "end": 66.8,
+        "text": "Tell me why you want, you got time to run.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 66.8,
+        "end": 67.6,
+        "text": "Facts.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 67.6,
+        "end": 69.24,
+        "text": "Scrolling through a winger like a sausage and air.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 69.24,
+        "end": 70.84,
+        "text": "Red face tapping like a fight right there.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 70.84,
+        "end": 72.44,
+        "text": "Algorithm feeding you the same old rage.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 72.44,
+        "end": 74.08,
+        "text": "Just another actor running a digital state.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 74.08,
+        "end": 75.72,
+        "text": "Everybody critic, everybody judge.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 75.72,
+        "end": 77.36,
+        "text": "Everybody holding some invisible grudge.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 77.36,
+        "end": 78.8,
+        "text": "Everybody pull some people fake nowadays,",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 78.8,
+        "end": 80.6,
+        "text": "while they're farming cheap paint for a couple more plays.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 80.6,
+        "end": 82.16,
+        "text": "Busy being bitter in the red, dead.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 82.16,
+        "end": 83.8,
+        "text": "Busy running, I say about the things someone said.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 83.8,
+        "end": 85.28,
+        "text": "Busy breaking strangers down, peace by a piece,",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.286376953125
+      },
+      {
+        "start": 85.28,
+        "end": 87.08,
+        "text": "but can't break bread with the people in reach.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 87.08,
+        "end": 88.56,
+        "text": "Busy with drama that ain't even yours.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 88.56,
+        "end": 90.16,
+        "text": "Busy opening arguments, closing old doors.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 90.16,
+        "end": 91.8,
+        "text": "Busy collecting numbers like coins in a job.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 91.8,
+        "end": 94.2,
+        "text": "But don't even know who you really are down.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 94.2,
+        "end": 96.0,
+        "text": "Two busy scrolling up boys and streams.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 96.0,
+        "end": 97.6,
+        "text": "Two busy living inside a stream.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 97.6,
+        "end": 99.16,
+        "text": "Two busy shouting into the void.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 99.16,
+        "end": 100.8,
+        "text": "Two busy forgetting how to enjoy.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 100.8,
+        "end": 102.04,
+        "text": "You all we got time to run.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 102.04,
+        "end": 103.68,
+        "text": "All we got time to complain online.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 103.68,
+        "end": 105.28,
+        "text": "Take, take, take what a whole word shun.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 105.28,
+        "end": 107.28,
+        "text": "Tell me why you want, you got time to run.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 107.28,
+        "end": 108.28,
+        "text": "What?",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 108.28,
+        "end": 109.72,
+        "text": "Look, we tied you up, watch what I want.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 109.72,
+        "end": 110.24,
+        "text": "What?",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 110.24,
+        "end": 111.76,
+        "text": "People who want you, I was forming a line.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 111.76,
+        "end": 113.28,
+        "text": "Life outside, but you stuck in the vines.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 113.28,
+        "end": 114.96,
+        "text": "Tell me why you want, you got time to run.",
+        "avg_logprob": -0.3401785842009953,
+        "no_speech_prob": 0.185791015625
+      },
+      {
+        "start": 114.96,
+        "end": 115.96,
+        "text": "Yeah.",
+        "avg_logprob": -0.2736150707033547,
+        "no_speech_prob": 0.151611328125
+      },
+      {
+        "start": 115.96,
+        "end": 116.96,
+        "text": "When?",
+        "avg_logprob": -0.2736150707033547,
+        "no_speech_prob": 0.151611328125
+      },
+      {
+        "start": 116.96,
+        "end": 119.96,
+        "text": "Last laugh echoed in your room.",
+        "avg_logprob": -0.2736150707033547,
+        "no_speech_prob": 0.151611328125
+      },
+      {
+        "start": 119.96,
+        "end": 122.96,
+        "text": "Last sunset you actually consumed.",
+        "avg_logprob": -0.2736150707033547,
+        "no_speech_prob": 0.151611328125
+      },
+      {
+        "start": 122.96,
+        "end": 125.96,
+        "text": "When the last night you forgot your phone.",
+        "avg_logprob": -0.2736150707033547,
+        "no_speech_prob": 0.151611328125
+      },
+      {
+        "start": 125.96,
+        "end": 129.96,
+        "text": "When the last time you just left it alone, you said.",
+        "avg_logprob": -0.2736150707033547,
+        "no_speech_prob": 0.151611328125
+      },
+      {
+        "start": 129.96,
+        "end": 134.96,
+        "text": "You tried to say life declares.",
+        "avg_logprob": -0.2736150707033547,
+        "no_speech_prob": 0.151611328125
+      },
+      {
+        "start": 134.96,
+        "end": 141.96,
+        "text": "But you always got energy left to run.",
+        "avg_logprob": -0.2736150707033547,
+        "no_speech_prob": 0.151611328125
+      },
+      {
+        "start": 141.96,
+        "end": 142.96,
+        "text": "Why?",
+        "avg_logprob": -0.2736150707033547,
+        "no_speech_prob": 0.151611328125
+      },
+      {
+        "start": 142.96,
+        "end": 143.96,
+        "text": "All we got time to run.",
+        "avg_logprob": -0.2736150707033547,
+        "no_speech_prob": 0.151611328125
+      },
+      {
+        "start": 143.96,
+        "end": 145.96,
+        "text": "All we got time for a digital crime.",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 145.96,
+        "end": 146.96,
+        "text": "Still in your piece one scroll at a time.",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 146.96,
+        "end": 148.96,
+        "text": "Tell me why you want, you got time to run.",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 148.96,
+        "end": 149.96,
+        "text": "Why?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 149.96,
+        "end": 150.96,
+        "text": "Yeah.",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 150.96,
+        "end": 151.96,
+        "text": "If your Chape of Simmons every single night.",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 151.96,
+        "end": 153.96,
+        "text": "Life outside still waiting a lot.",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 153.96,
+        "end": 155.96,
+        "text": "But you always got time to run.",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 155.96,
+        "end": 156.96,
+        "text": "Yeah.",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 156.96,
+        "end": 157.96,
+        "text": "Yeah.",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 157.96,
+        "end": 159.96,
+        "text": "Whole world outside, laughing in the sun.",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 159.96,
+        "end": 160.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 160.96,
+        "end": 161.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 161.96,
+        "end": 162.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 162.96,
+        "end": 163.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 163.96,
+        "end": 164.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 164.96,
+        "end": 165.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 165.96,
+        "end": 166.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 166.96,
+        "end": 167.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 167.96,
+        "end": 168.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 168.96,
+        "end": 169.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 169.96,
+        "end": 170.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 170.96,
+        "end": 171.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 171.96,
+        "end": 172.96,
+        "text": "What?",
+        "avg_logprob": -0.23846477190120108,
+        "no_speech_prob": 0.293212890625
+      },
+      {
+        "start": 172.96,
+        "end": 173.96,
+        "text": "What?",
+        "avg_logprob": -0.41484375,
+        "no_speech_prob": 0.80126953125
+      }
+    ],
+    "avg_logprob": -0.3403910676052264
+  },
+  "transcription_quality": {
+    "available": true,
+    "backend": "faster-whisper",
+    "model": "base",
+    "status": "ok",
+    "expected_word_count": 552,
+    "transcript_word_count": 628,
+    "matched_sequence_words": 386,
+    "lyric_alignment_ratio": 0.699,
+    "transcript_precision_ratio": 0.615,
+    "unique_expected_word_coverage": 0.757,
+    "word_count_ratio": 1.138,
+    "repeated_12gram_ratio": 0.036,
+    "half_similarity": 0.248,
+    "likely_duplicate_passes": 1,
+    "repetition_penalty_0_1": 0.0,
+    "intelligibility_alignment_0_1": 0.702,
+    "quality_score_0_10": 7.02,
+    "flags": [],
+    "transcript_excerpt": "Yeah, everybody busy, huh? Busy, do what I'm doing. Look, look. Everybody said they're drowning in the ground, no rest, but I see blue light glow on their face and chest. Thumbs flick, flick through a screen on night. Scroll raised from a little double mean fight. Busy with the TikTok, loop, same dance cone, busy leaving paragraphs under somebody's phone. Busy getting the timeline, I can morally tell, but I ain't got five minutes just to answer a call. Say light hearts at the world, I'm frail, but you got six hours, ditty-floor, coming world there. Tapping out, then I'm like a keyboard king. W\n...[truncated]...\nyou actually consumed. When the last night you forgot your phone. When the last time you just left it alone, you said. You tried to say life declares. But you always got energy left to run. Why? All we got time to run. All we got time for a digital crime. Still in your piece one scroll at a time. Tell me why you want, you got time to run. Why? Yeah. If your Chape of Simmons every single night. Life outside still waiting a lot. But you always got time to run. Yeah. Yeah. Whole world outside, laughing in the sun. What? What? What? What? What? What? What? What? What? What? What? What? What? What?"
+  },
+  "llm_adjusted_scoring": {
+    "axes": {
+      "SC_structural_coherence": 8.47,
+      "MI_motivic_integration": 9.02,
+      "BP_beauty_spatial_poise": 9.33,
+      "EG_evolving_grammar": 6.83,
+      "CD_carry_depth": 7.43
+    },
+    "core_metrics": {
+      "CDPD": 0.851,
+      "NGE": 0.573,
+      "HMII_peak_estimate": 5
+    },
+    "rung_estimate": {
+      "number": 12,
+      "label": "Recursion Threshold",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+    },
+    "confidence_0_10": 7.49,
+    "adjustments": {
+      "SC_structural_coherence": {
+        "delta": 0.0,
+        "reason": "The track has 5 audio sections and 10 lyric/production sections, with balanced section durations and clear transitions. The form is consistent with a standard verse–hook structure, and the section-balance score is 0.20, indicating proportionate lengths."
+      },
+      "MI_motivic_integration": {
+        "delta": 0.0,
+        "reason": "Motifs are clearly integrated across sections, with recurring vocal phrases, rhythmic patterns, and harmonic cells. The transformed returns and rule changes in the evolving_grammar evidence support strong motivic integration."
+      },
+      "BP_beauty_spatial_poise": {
+        "delta": 0.0,
+        "reason": "The sonic habitat is consistently spacious and immersive, with intentional reverb/delay use and stereo field design. The mix is clear, and the production design supports the introspective and ambient qualities of the track."
+      },
+      "EG_evolving_grammar": {
+        "delta": 0.0,
+        "reason": "The evolving_grammar evidence shows a clear development of rhythmic, harmonic, and textural rules across sections. The cumulative evolution score of 1.08 and transformed return scores indicate a structured and intentional grammatical progression."
+      },
+      "CD_carry_depth": {
+        "delta": 0.0,
+        "reason": "The track presents a clear emotional arc and invites re-listening. The lyrical and sonic themes of digital distraction and time management create a recognizable psychic habitat, supporting a strong carry depth."
+      }
+    },
+    "rationale": [
+      "Detected 5 audio sections over 2:53.00 with section-balance score 0.20.",
+      "Tempo estimate is 143.6 BPM; declared tempo alignment contributes 0.86.",
+      "Integrated loudness is -17.2 LUFS, peak is -1.1 dBFS, clipping ratio is 0.00000.",
+      "Estimated key is F minor with confidence 0.68.",
+      "Audio recurrence ratio is 0.117; this is a rough proxy for repeated musical cells, not true motif recognition.",
+      "beat_this detected 213 beats and 54 downbeats; beat-grid stability is 0.94.",
+      "EG evidence: section contrast 3.09, cumulative evolution 1.08, transformed returns 8.00, grid deviation 0.17, rule changes 3.75.",
+      "Companion text has 10 lyric/production sections, 567 words, line repetition 0.16, rhyme-suffix reuse 0.52."
+    ],
+    "review_flags": [
+      "Uncertainty remains about the exact nature of the harmonic recurrence ratio and its relationship to true motif recognition."
+    ],
+    "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
+    "available": true,
+    "model": "qwen3:8b",
+    "url": "http://localhost:11434",
+    "created_at": "2026-06-03T20:59:45.3922525Z",
+    "eval_count": 913,
+    "eval_duration": 14925983700
+  }
+}

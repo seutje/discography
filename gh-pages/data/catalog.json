@@ -1,6 +1,11 @@
 {
-  "generated_at": "2026-06-08T20:19:57Z",
+  "generated_at": "2026-06-08T22:30:28Z",
   "news": [
+    {
+      "title": "Report assets restored for source previews",
+      "datetime": "2026-06-09T00:30:48+02:00",
+      "body": "Added the generated report JSON assets to the gh-pages source output and updated the site builder so refreshed source previews include those reports. Song pages now load full report data when serving gh-pages directly instead of falling back to catalog summary data."
+    },
     {
       "title": "News section added",
       "datetime": "2026-06-08T19:28:14+02:00",

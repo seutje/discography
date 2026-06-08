@@ -374,6 +374,14 @@ def report_payloads(catalog: dict[str, Any]) -> dict[str, Any]:
     return {}
 
 
+def write_report_assets(catalog: dict[str, Any], output_dir: Path) -> None:
+    reports_dir = output_dir / "reports"
+    if reports_dir.exists():
+        shutil.rmtree(reports_dir)
+    for report_path, payload in report_payloads(catalog).items():
+        write_json(output_dir / report_asset_path(report_path), payload)
+
+
 def collect_audio_paths(catalog: dict[str, Any]) -> set[str]:
     paths: set[str] = set()
     for record in (catalog.get("statistics") or {}).get("records") or []:
@@ -396,8 +404,7 @@ def copy_site_assets(catalog: dict[str, Any], output_dir: Path) -> None:
     if LYRIC_TIMING_DIR.exists():
         shutil.copytree(LYRIC_TIMING_DIR, output_dir / "data" / "lyrics")
 
-    for report_path, payload in report_payloads(catalog).items():
-        write_json(output_dir / report_asset_path(report_path), payload)
+    write_report_assets(catalog, output_dir)
 
     for audio_path in sorted(collect_audio_paths(catalog)):
         source = ROOT / audio_path
@@ -420,6 +427,7 @@ def main() -> int:
     catalog = load_source_catalog()
     if args.refresh_data:
         write_split_catalog(SOURCE_DIR, strip_embedded_reports(catalog))
+        write_report_assets(catalog, SOURCE_DIR)
     copy_site_assets(catalog, args.output_dir)
     records = (catalog.get("statistics") or {}).get("records") or []
     print(f"Built {args.output_dir} with {len(records)} analyzed song(s).")

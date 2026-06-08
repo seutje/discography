@@ -1,0 +1,1208 @@
+{
+  "generated_at": "2026-06-03T23:02:39",
+  "audio": {
+    "path": "stderr/audio/12 - That's Why.mp3",
+    "duration_seconds": 129.72,
+    "duration": "2:09.72",
+    "sample_rate": 48000,
+    "channels": 2,
+    "bitrate": 168989,
+    "ffprobe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "mjpeg"
+        }
+      ],
+      "format": {
+        "duration": "129.744000",
+        "bit_rate": "170110"
+      }
+    },
+    "tempo_bpm": 151.99908088235293,
+    "estimated_key": "F minor",
+    "key_confidence": 0.48620242892513027,
+    "integrated_lufs": -15.588266919577421,
+    "peak_dbfs": -2.3468164374303506,
+    "crest_factor_db": 11.442568985196502,
+    "clipping_ratio": 0.0,
+    "rms_db_mean": -14.570341775801626,
+    "rms_db_std": 6.630209445953369,
+    "spectral_centroid_mean": 2457.999948325828,
+    "spectral_centroid_std": 963.975568976783,
+    "spectral_bandwidth_mean": 2731.9151660985553,
+    "rolloff_mean": 5637.665838211194,
+    "flatness_mean": 0.017362112179398537,
+    "zero_crossing_rate_mean": 0.08011692880794702,
+    "onset_count": 604,
+    "onset_rate_per_second": 4.65618254702436,
+    "harmonic_percussive_ratio": 3.074924936737929,
+    "recurrence_ratio": 0.12707875989132314,
+    "beat_this": {
+      "path": "analysis-output/beat-this/stderr/12 - That's Why.beats",
+      "available": true,
+      "beat_count": 162,
+      "downbeat_count": 41,
+      "first_beat": 0.34,
+      "last_beat": 129.12,
+      "tempo_bpm": 75.00000000000027,
+      "double_tempo_bpm": 150.00000000000054,
+      "half_tempo_bpm": 37.500000000000135,
+      "median_beat_interval_seconds": 0.7999999999999972,
+      "beat_interval_cv": 0.012616925600993728,
+      "beat_grid_stability": 0.9495322975960251,
+      "median_bar_interval_seconds": 3.200000000000003,
+      "bar_interval_cv": 0.0036975498632816494,
+      "bar_grid_stability": 0.9889073504101551,
+      "beats": [
+        0.34,
+        1.12,
+        1.92,
+        2.74,
+        3.54,
+        4.32,
+        5.12,
+        5.94,
+        6.74,
+        7.52,
+        8.32,
+        9.14,
+        9.94,
+        10.72,
+        11.52,
+        12.32,
+        13.12,
+        13.92,
+        14.72,
+        15.52,
+        16.32,
+        17.12,
+        17.92,
+        18.72,
+        19.52,
+        20.32,
+        21.12,
+        21.92,
+        22.7,
+        23.52,
+        24.32,
+        25.12,
+        25.92,
+        26.7,
+        27.52,
+        28.32,
+        29.1,
+        29.92,
+        30.74,
+        31.52,
+        32.32,
+        33.12,
+        33.92,
+        34.72,
+        35.52,
+        36.32,
+        37.12,
+        37.92,
+        38.72,
+        39.52,
+        40.32,
+        41.12,
+        41.92,
+        42.72,
+        43.52,
+        44.32,
+        45.12,
+        45.92,
+        46.72,
+        47.52,
+        48.32,
+        49.12,
+        49.92,
+        50.72,
+        51.52,
+        52.32,
+        53.12,
+        53.92,
+        54.72,
+        55.52,
+        56.3,
+        57.12,
+        57.92,
+        58.72,
+        59.5,
+        60.32,
+        61.12,
+        61.92,
+        62.72,
+        63.52,
+        64.3,
+        65.12,
+        65.9,
+        66.7,
+        67.5,
+        68.3,
+        69.12,
+        69.92,
+        70.72,
+        71.52,
+        72.32,
+        73.12,
+        73.92,
+        74.72,
+        75.52,
+        76.32,
+        77.12,
+        77.92,
+        78.72,
+        79.52,
+        80.32,
+        81.12,
+        81.9,
+        82.72,
+        83.52,
+        84.32,
+        85.12,
+        85.92,
+        86.72,
+        87.52,
+        88.32,
+        89.12,
+        89.92,
+        90.72,
+        91.54,
+        92.32,
+        93.12,
+        93.92,
+        94.72,
+        95.52,
+        96.32,
+        97.12,
+        97.92,
+        98.72,
+        99.52,
+        100.32,
+        101.1,
+        101.92,
+        102.72,
+        103.52,
+        104.3,
+        105.12,
+        105.9,
+        106.72,
+        107.52,
+        108.32,
+        109.12,
+        109.92,
+        110.7,
+        111.5,
+        112.3,
+        113.1,
+        113.9,
+        114.7,
+        115.52,
+        116.32,
+        117.14,
+        117.94,
+        118.74,
+        119.54,
+        120.32,
+        121.12,
+        121.92,
+        122.72,
+        123.52,
+        124.32,
+        125.12,
+        125.92,
+        126.74,
+        127.52,
+        128.34,
+        129.12
+      ],
+      "beat_positions": [
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2,
+        3,
+        4,
+        1,
+        2
+      ],
+      "downbeats": [
+        0.34,
+        3.54,
+        6.74,
+        9.94,
+        13.12,
+        16.32,
+        19.52,
+        22.7,
+        25.92,
+        29.1,
+        32.32,
+        35.52,
+        38.72,
+        41.92,
+        45.12,
+        48.32,
+        51.52,
+        54.72,
+        57.92,
+        61.12,
+        64.3,
+        67.5,
+        70.72,
+        73.92,
+        77.12,
+        80.32,
+        83.52,
+        86.72,
+        89.92,
+        93.12,
+        96.32,
+        99.52,
+        102.72,
+        105.9,
+        109.12,
+        112.3,
+        115.52,
+        118.74,
+        121.92,
+        125.12,
+        128.34
+      ],
+      "sample_beats": [
+        0.34,
+        1.12,
+        1.92,
+        2.74,
+        3.54,
+        4.32,
+        5.12,
+        5.94,
+        6.74,
+        7.52,
+        8.32,
+        9.14
+      ],
+      "sample_downbeats": [
+        0.34,
+        3.54,
+        6.74,
+        9.94,
+        13.12,
+        16.32,
+        19.52,
+        22.7
+      ]
+    },
+    "evolving_grammar": {
+      "section_contrast_score": 1.814,
+      "cumulative_evolution_score": 0.837,
+      "transformed_return_score": 7.5,
+      "controlled_grid_deviation_score": 0.149,
+      "rule_change_score": 2.5,
+      "overall_score": 2.774,
+      "transformed_returns": [
+        {
+          "sections": [
+            1,
+            3
+          ],
+          "harmonic_similarity": 0.998,
+          "timbre_similarity": 0.964,
+          "rhythm_delta": 0.12,
+          "texture_delta": 0.184
+        },
+        {
+          "sections": [
+            1,
+            4
+          ],
+          "harmonic_similarity": 0.986,
+          "timbre_similarity": 0.974,
+          "rhythm_delta": 0.423,
+          "texture_delta": 0.352
+        },
+        {
+          "sections": [
+            2,
+            4
+          ],
+          "harmonic_similarity": 0.977,
+          "timbre_similarity": 0.987,
+          "rhythm_delta": 0.606,
+          "texture_delta": 0.588
+        }
+      ],
+      "copied_return_count": 0,
+      "adjacent_changes": [
+        {
+          "from": 1,
+          "to": 2,
+          "harmonic_delta": 0.005,
+          "timbre_delta": 0.006,
+          "rhythm_delta": 0.183,
+          "texture_delta": 0.236,
+          "composite_change": 1.345,
+          "rule_changes": []
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "harmonic_delta": 0.004,
+          "timbre_delta": 0.017,
+          "rhythm_delta": 0.063,
+          "texture_delta": 0.143,
+          "composite_change": 0.788,
+          "rule_changes": []
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "harmonic_delta": 0.01,
+          "timbre_delta": 0.011,
+          "rhythm_delta": 0.544,
+          "texture_delta": 0.502,
+          "composite_change": 3.308,
+          "rule_changes": [
+            "rhythmic-law-shift",
+            "texture-law-shift",
+            "timbre-law-shift"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "index": 1,
+          "start": 0.0,
+          "end": 38.336,
+          "duration": 38.336,
+          "onset_rate": 4.669,
+          "rms_db_mean": -16.08,
+          "centroid_mean": 2405.3,
+          "bandwidth_mean": 2616.0,
+          "flatness_mean": 0.0173,
+          "beat_count": 48,
+          "downbeat_count": 12,
+          "median_beat_interval_seconds": 0.8000000000000007,
+          "beat_interval_cv": 0.014120808030686171,
+          "bar_interval_cv": 0.004177640264952821,
+          "rule_changes": []
+        },
+        {
+          "index": 2,
+          "start": 38.336,
+          "end": 73.236,
+          "duration": 34.9,
+          "onset_rate": 5.301,
+          "rms_db_mean": -14.97,
+          "centroid_mean": 2833.3,
+          "bandwidth_mean": 2975.5,
+          "flatness_mean": 0.0233,
+          "beat_count": 44,
+          "downbeat_count": 11,
+          "median_beat_interval_seconds": 0.7999999999999972,
+          "beat_interval_cv": 0.010783277306866429,
+          "bar_interval_cv": 0.0027950849710012132,
+          "rule_changes": []
+        },
+        {
+          "index": 3,
+          "start": 73.236,
+          "end": 100.426,
+          "duration": 27.191,
+          "onset_rate": 5.075,
+          "rms_db_mean": -13.53,
+          "centroid_mean": 2668.7,
+          "bandwidth_mean": 2972.2,
+          "flatness_mean": 0.019,
+          "beat_count": 34,
+          "downbeat_count": 9,
+          "median_beat_interval_seconds": 0.7999999999999972,
+          "beat_interval_cv": 0.008703882786906402,
+          "bar_interval_cv": 1.9229626857826383e-15,
+          "rule_changes": []
+        },
+        {
+          "index": 4,
+          "start": 100.426,
+          "end": 129.72,
+          "duration": 29.294,
+          "onset_rate": 3.482,
+          "rms_db_mean": -13.4,
+          "centroid_mean": 1884.5,
+          "bandwidth_mean": 2370.4,
+          "flatness_mean": 0.0088,
+          "beat_count": 36,
+          "downbeat_count": 9,
+          "median_beat_interval_seconds": 0.7999999999999972,
+          "beat_interval_cv": 0.015208619361919168,
+          "bar_interval_cv": 0.005789382111459246,
+          "rule_changes": [
+            "rhythmic-law-shift",
+            "texture-law-shift",
+            "timbre-law-shift"
+          ]
+        }
+      ]
+    },
+    "detected_sections": [
+      {
+        "index": 1,
+        "start": 0.0,
+        "end": 38.33614512471655,
+        "duration": 38.33614512471655
+      },
+      {
+        "index": 2,
+        "start": 38.33614512471655,
+        "end": 73.23573696145125,
+        "duration": 34.8995918367347
+      },
+      {
+        "index": 3,
+        "start": 73.23573696145125,
+        "end": 100.42630385487529,
+        "duration": 27.190566893424034
+      },
+      {
+        "index": 4,
+        "start": 100.42630385487529,
+        "end": 129.72,
+        "duration": 29.293696145124713
+      }
+    ]
+  },
+  "text_path": "stderr/12 - That's Why.txt",
+  "text": {
+    "has_text": true,
+    "title": "That's Why",
+    "declared_genre": "Aggressive Trap / Dark Hip-Hop",
+    "declared_tempo": "150 BPM",
+    "declared_key": "F minor",
+    "declared_mood": "Dark, self-critical, confrontational, chaotic, introspective",
+    "production_notes": "Hard trap beat with distorted sliding 808s, rapid hi-hat rolls, punchy kicks, and sharp snares, Dark piano stabs and eerie pads, Sparse verses with beat dropouts before punchlines; heavier layered hooks,",
+    "vocal_notes": "Aggressive trap delivery with rapid triplet flows and dense internal rhymes, Confrontational tone mixed with moments of self-awareness, Occasional shouted ad-libs (Yeah! / Facts! / Damn!), Hooks delivered with chant-style emphasis,",
+    "section_count": 9,
+    "section_names": [
+      "Intro",
+      "Verse 1",
+      "Pre-Chorus",
+      "Chorus",
+      "Verse 2",
+      "Pre-Chorus 2",
+      "Chorus",
+      "Bridge",
+      "Outro"
+    ],
+    "line_count": 62,
+    "word_count": 510,
+    "unique_word_ratio": 0.45294117647058824,
+    "repeated_line_ratio": 0.12903225806451613,
+    "rhyme_suffix_reuse": 0.29032258064516125,
+    "avg_words_per_line": 8.225806451612904,
+    "reading_ease": -413.22798816568036,
+    "production_transform": {
+      "score": 3.1,
+      "matched_terms": [
+        "layered",
+        "sparse"
+      ],
+      "phrase_hits": [
+        "density-change",
+        "dropout"
+      ]
+    }
+  },
+  "framework": {
+    "path": "analyzer/Hip hop & rap.txt",
+    "name": "Hip hop & rap.txt",
+    "characters_loaded": 16431
+  },
+  "framework_scoring": {
+    "axes": {
+      "SC_structural_coherence": 9.07,
+      "MI_motivic_integration": 7.66,
+      "BP_beauty_spatial_poise": 8.5,
+      "EG_evolving_grammar": 5.71,
+      "CD_carry_depth": 6.45
+    },
+    "core_metrics": {
+      "CDPD": 0.791,
+      "NGE": 0.476,
+      "HMII_peak_estimate": 5
+    },
+    "eg_evidence": {
+      "section_contrast_score": 1.814,
+      "cumulative_evolution_score": 0.837,
+      "transformed_return_score": 7.5,
+      "controlled_grid_deviation_score": 0.149,
+      "rule_change_score": 2.5,
+      "production_transform_score": 3.1,
+      "overall_score": 2.774
+    },
+    "transcription_penalties": {
+      "alignment_penalty": 0.702,
+      "repetition_penalty": 0.0,
+      "total_penalty": 0.702
+    },
+    "rung_estimate": {
+      "number": 10,
+      "label": "Technical Perfection, No Rupture",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+    },
+    "confidence_0_10": 7.09,
+    "rationale": [
+      "Detected 4 audio sections over 2:09.72 with section-balance score 0.86.",
+      "Tempo estimate is 152.0 BPM; declared tempo alignment contributes 1.00.",
+      "Integrated loudness is -15.6 LUFS, peak is -2.3 dBFS, clipping ratio is 0.00000.",
+      "Estimated key is F minor with confidence 0.49.",
+      "Audio recurrence ratio is 0.127; this is a rough proxy for repeated musical cells, not true motif recognition.",
+      "beat_this detected 162 beats and 41 downbeats; beat-grid stability is 0.95.",
+      "EG evidence: section contrast 1.81, cumulative evolution 0.84, transformed returns 7.50, grid deviation 0.15, rule changes 2.50.",
+      "Companion text has 9 lyric/production sections, 510 words, line repetition 0.13, rhyme-suffix reuse 0.29.",
+      "Production/vocal notes contain transformation cues (density-change, dropout); intent score 3.10.",
+      "Transcription check: lyric alignment 0.60, unique-word coverage 0.64, word-count ratio 0.86, duplicate-pass estimate 1.",
+      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.70, repeat 0.00)."
+    ]
+  },
+  "transcription": {
+    "available": true,
+    "backend": "faster-whisper",
+    "model": "base",
+    "language": "en",
+    "language_probability": 1.0,
+    "text": "Yeah Yeah Hey, boy, where the shouting on stuff? Yeah, keep up that fee Bunger to clinger to glass in the sink In the sting of the gym, my mother would drink Mama like thunder, her voice like a whip Every small thing made the silence go split Young is a fool on a war and a haw Every broken place, I'm on my fault Trip, trip, trip and down flights of the stairs Burn the stone fence, like I was in there They call me the problem to kill at the start But nobody asked why the room felt dark But the home was different doors every year Different beds, but the same kind of fit Different faces, same look, and I lie there Already knew I was troubled inside Why do I feel like a stranger with friends? Why do the nights never see that? Why do I reach for a drink or a fix? Any small things just to silence a mix? Why do I roam when somebody gets close? Why do I freeze and they need me to moat? Why do I feel like a Martin Joe? All right, that's what they made of the book This is the rhythm when the room was beat Nobody knew what was under the skin Just a weird kid, dripping deeper than an undiagnosed Lable to mess, every confusion, turning the stress Left with the crap of the left, your stage Like a mess that I hold on my faith See even with people like drifts of the side Like I'm watching my life from my side Boarding holes by like a highway line Small little bag every couple months' time Every goodbye, it's another reset Every hello, another regret Why do I feel like a stranger with friends? Why do the nights never see that? Everybody gets close? Why do I freeze and they need me to moat? Why do I feel like a Martin Joe? All right, that's what they made of the book Million editions just holding me up Smoke on my lungs and I'm feeling the cup Anything just required to know it Anything just come for the voice Someone someone gonna hear this and say That ain't even him that made it that way Like the words in the track and the scars on my skin Like the pain in the buzz and the life I was in For all those old echoes living in me Fists in the past that I still can't leave Still tryna rebuild that boy",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "Yeah",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 2.0,
+        "end": 4.0,
+        "text": "Yeah",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 4.0,
+        "end": 8.0,
+        "text": "Hey, boy, where the shouting on stuff?",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 8.0,
+        "end": 12.0,
+        "text": "Yeah, keep up that fee",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 12.0,
+        "end": 14.0,
+        "text": "Bunger to clinger to glass in the sink",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 14.0,
+        "end": 16.0,
+        "text": "In the sting of the gym, my mother would drink",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 16.0,
+        "end": 18.0,
+        "text": "Mama like thunder, her voice like a whip",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 18.0,
+        "end": 20.0,
+        "text": "Every small thing made the silence go split",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 20.0,
+        "end": 22.0,
+        "text": "Young is a fool on a war and a haw",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 22.0,
+        "end": 24.0,
+        "text": "Every broken place, I'm on my fault",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 24.0,
+        "end": 26.0,
+        "text": "Trip, trip, trip and down flights of the stairs",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 26.0,
+        "end": 28.0,
+        "text": "Burn the stone fence, like I was in there",
+        "avg_logprob": -0.5396341385880137,
+        "no_speech_prob": 0.6064453125
+      },
+      {
+        "start": 28.0,
+        "end": 30.0,
+        "text": "They call me the problem to kill at the start",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 30.0,
+        "end": 32.0,
+        "text": "But nobody asked why the room felt dark",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 32.0,
+        "end": 34.0,
+        "text": "But the home was different doors every year",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 34.0,
+        "end": 36.0,
+        "text": "Different beds, but the same kind of fit",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 36.0,
+        "end": 38.0,
+        "text": "Different faces, same look, and I lie there",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 38.0,
+        "end": 40.0,
+        "text": "Already knew I was troubled inside",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 40.0,
+        "end": 42.0,
+        "text": "Why do I feel like a stranger with friends?",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 42.0,
+        "end": 44.0,
+        "text": "Why do the nights never see that?",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 44.0,
+        "end": 46.0,
+        "text": "Why do I reach for a drink or a fix?",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 46.0,
+        "end": 48.0,
+        "text": "Any small things just to silence a mix?",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 48.0,
+        "end": 50.0,
+        "text": "Why do I roam when somebody gets close?",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 50.0,
+        "end": 52.0,
+        "text": "Why do I freeze and they need me to moat?",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 52.0,
+        "end": 54.0,
+        "text": "Why do I feel like a Martin Joe?",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 54.0,
+        "end": 56.0,
+        "text": "All right, that's what they made of the book",
+        "avg_logprob": -0.2666015613824129,
+        "no_speech_prob": 0.25830078125
+      },
+      {
+        "start": 56.0,
+        "end": 58.0,
+        "text": "This is the rhythm when the room was beat",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 58.0,
+        "end": 60.0,
+        "text": "Nobody knew what was under the skin",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 60.0,
+        "end": 62.0,
+        "text": "Just a weird kid, dripping deeper than an undiagnosed",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 62.0,
+        "end": 64.0,
+        "text": "Lable to mess, every confusion, turning the stress",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 64.0,
+        "end": 66.0,
+        "text": "Left with the crap of the left, your stage",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 66.0,
+        "end": 68.0,
+        "text": "Like a mess that I hold on my faith",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 68.0,
+        "end": 70.0,
+        "text": "See even with people like drifts of the side",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 70.0,
+        "end": 72.0,
+        "text": "Like I'm watching my life from my side",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 72.0,
+        "end": 74.0,
+        "text": "Boarding holes by like a highway line",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 74.0,
+        "end": 76.0,
+        "text": "Small little bag every couple months' time",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 76.0,
+        "end": 78.0,
+        "text": "Every goodbye, it's another reset",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 78.0,
+        "end": 80.0,
+        "text": "Every hello, another regret",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 80.0,
+        "end": 82.0,
+        "text": "Why do I feel like a stranger with friends?",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 82.0,
+        "end": 84.0,
+        "text": "Why do the nights never see that?",
+        "avg_logprob": -0.3060064826692854,
+        "no_speech_prob": 0.5556640625
+      },
+      {
+        "start": 84.0,
+        "end": 86.0,
+        "text": "Everybody gets close?",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 86.0,
+        "end": 88.0,
+        "text": "Why do I freeze and they need me to moat?",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 88.0,
+        "end": 90.0,
+        "text": "Why do I feel like a Martin Joe?",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 90.0,
+        "end": 92.0,
+        "text": "All right, that's what they made of the book",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 92.0,
+        "end": 94.0,
+        "text": "Million editions just holding me up",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 94.0,
+        "end": 96.0,
+        "text": "Smoke on my lungs and I'm feeling the cup",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 96.0,
+        "end": 98.0,
+        "text": "Anything just required to know it",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 98.0,
+        "end": 100.0,
+        "text": "Anything just come for the voice",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 100.0,
+        "end": 102.0,
+        "text": "Someone someone gonna hear this and say",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 102.0,
+        "end": 104.0,
+        "text": "That ain't even him that made it that way",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 104.0,
+        "end": 106.0,
+        "text": "Like the words in the track and the scars on my skin",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 106.0,
+        "end": 108.0,
+        "text": "Like the pain in the buzz and the life I was in",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 108.0,
+        "end": 110.0,
+        "text": "For all those old echoes living in me",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 110.0,
+        "end": 112.0,
+        "text": "Fists in the past that I still can't leave",
+        "avg_logprob": -0.2073863623784734,
+        "no_speech_prob": 0.393310546875
+      },
+      {
+        "start": 112.0,
+        "end": 114.0,
+        "text": "Still tryna rebuild that boy",
+        "avg_logprob": -0.2049560584127903,
+        "no_speech_prob": 0.076904296875
+      }
+    ],
+    "avg_logprob": -0.3277150120818836
+  },
+  "transcription_quality": {
+    "available": true,
+    "backend": "faster-whisper",
+    "model": "base",
+    "status": "ok",
+    "expected_word_count": 496,
+    "transcript_word_count": 426,
+    "matched_sequence_words": 299,
+    "lyric_alignment_ratio": 0.603,
+    "transcript_precision_ratio": 0.702,
+    "unique_expected_word_coverage": 0.637,
+    "word_count_ratio": 0.859,
+    "repeated_12gram_ratio": 0.055,
+    "half_similarity": 0.296,
+    "likely_duplicate_passes": 1,
+    "repetition_penalty_0_1": 0.0,
+    "intelligibility_alignment_0_1": 0.62,
+    "quality_score_0_10": 6.2,
+    "flags": [],
+    "transcript_excerpt": "Yeah Yeah Hey, boy, where the shouting on stuff? Yeah, keep up that fee Bunger to clinger to glass in the sink In the sting of the gym, my mother would drink Mama like thunder, her voice like a whip Every small thing made the silence go split Young is a fool on a war and a haw Every broken place, I'm on my fault Trip, trip, trip and down flights of the stairs Burn the stone fence, like I was in there They call me the problem to kill at the start But nobody asked why the room felt dark But the home was different doors every year Different beds, but the same kind of fit Different faces, same loo\n...[truncated]...\nghts never see that? Everybody gets close? Why do I freeze and they need me to moat? Why do I feel like a Martin Joe? All right, that's what they made of the book Million editions just holding me up Smoke on my lungs and I'm feeling the cup Anything just required to know it Anything just come for the voice Someone someone gonna hear this and say That ain't even him that made it that way Like the words in the track and the scars on my skin Like the pain in the buzz and the life I was in For all those old echoes living in me Fists in the past that I still can't leave Still tryna rebuild that boy"
+  },
+  "llm_adjusted_scoring": {
+    "axes": {
+      "SC_structural_coherence": 9.07,
+      "MI_motivic_integration": 7.66,
+      "BP_beauty_spatial_poise": 8.5,
+      "EG_evolving_grammar": 5.71,
+      "CD_carry_depth": 6.45
+    },
+    "core_metrics": {
+      "CDPD": 0.791,
+      "NGE": 0.476,
+      "HMII_peak_estimate": 5
+    },
+    "rung_estimate": {
+      "number": 10,
+      "label": "Technical Perfection, No Rupture",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+    },
+    "confidence_0_10": 7.09,
+    "adjustments": {
+      "SC_structural_coherence": {
+        "delta": 0.0,
+        "reason": "The track has 4 audio sections with balanced durations and clear section functions (Intro, Verse, Chorus, Bridge). Transitions feel intentional, and no filler 8s are present."
+      },
+      "MI_motivic_integration": {
+        "delta": 0.0,
+        "reason": "Motifs (e.g., triplet flows, vocal cadences, harmonic shifts) recur across sections, though not deeply developed. Cross-domain recursion is limited."
+      },
+      "BP_beauty_spatial_poise": {
+        "delta": 0.0,
+        "reason": "The sonic habitat is consistently spacious with reverb and delay, though not uniquely fingerprinted. It supports the introspective mood without overcomplicating."
+      },
+      "EG_evolving_grammar": {
+        "delta": 0.0,
+        "reason": "The beat and harmonic grammar remain static, with no meaningful evolution. The track relies on repetition rather than structural development."
+      },
+      "CD_carry_depth": {
+        "delta": 0.0,
+        "reason": "The track defines a clear emotional habitat of self-criticism and introspection. It invites re-listening and feels like a 'little world' of internal conflict."
+      }
+    },
+    "rationale": [
+      "Detected 4 audio sections over 2:09.72 with section-balance score 0.86.",
+      "Tempo estimate is 152.0 BPM; declared tempo alignment contributes 1.00.",
+      "Integrated loudness is -15.6 LUFS, peak is -2.3 dBFS, clipping ratio is 0.00000.",
+      "Estimated key is F minor with confidence 0.49.",
+      "Audio recurrence ratio is 0.127; this is a rough proxy for repeated musical cells, not true motif recognition.",
+      "beat_this detected 162 beats and 41 downbeats; beat-grid stability is 0.95.",
+      "EG evidence: section contrast 1.81, cumulative evolution 0.84, transformed returns 7.50, grid deviation 0.15, rule changes 2.50.",
+      "Companion text has 9 lyric/production sections, 510 words, line repetition 0.13, rhyme-suffix reuse 0.29."
+    ],
+    "review_flags": [
+      "Uncertainty about section detection in the framework excerpt; audio evidence suggests 4 sections, but framework mentions 9 lyric/production sections."
+    ],
+    "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
+    "available": true,
+    "model": "qwen3:8b",
+    "url": "http://localhost:11434",
+    "created_at": "2026-06-03T21:02:39.3107977Z",
+    "eval_count": 859,
+    "eval_duration": 14184742200
+  }
+}

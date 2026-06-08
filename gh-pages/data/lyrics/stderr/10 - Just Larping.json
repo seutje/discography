@@ -12,10 +12,15 @@
   "diagnostics": {
     "line_count": 80,
     "reference_word_count": 515,
-    "observed_word_count": 307,
+    "observed_word_count": 204,
     "matched_word_count": 46,
     "matched_word_ratio": 0.089,
-    "inserted_adlib_count": 0
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0
   },
   "transcript_segments": [
     {
@@ -228,8 +233,8 @@
     {
       "index": 0,
       "section": "Intro – glitch artifacts | distorted voice fragments | low industrial hum",
-      "start": 0.0,
-      "end": 2.0,
+      "start": 4.0,
+      "end": 6.25,
       "text": "just—just—just—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -237,8 +242,8 @@
     {
       "index": 1,
       "section": "Intro – glitch artifacts | distorted voice fragments | low industrial hum",
-      "start": 2.0,
-      "end": 2.667,
+      "start": 7.0,
+      "end": 7.6,
       "text": "just larping.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -246,8 +251,8 @@
     {
       "index": 2,
       "section": "Intro – glitch artifacts | distorted voice fragments | low industrial hum",
-      "start": 2.667,
-      "end": 28.519,
+      "start": 7.6,
+      "end": 32.356,
       "text": "roll initiative.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -255,7 +260,7 @@
     {
       "index": 3,
       "section": "Verse 1 – hard entry | triplet flow | heavy 808s",
-      "start": 28.519,
+      "start": 32.356,
       "end": 119.0,
       "text": "Mask on, max con, min stat charisma",
       "timing_source": "interpolated",

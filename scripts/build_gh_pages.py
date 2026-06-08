@@ -378,7 +378,11 @@ def write_report_assets(catalog: dict[str, Any], output_dir: Path) -> None:
     reports_dir = output_dir / "reports"
     if reports_dir.exists():
         shutil.rmtree(reports_dir)
-    for report_path, payload in report_payloads(catalog).items():
+    reports = report_payloads(catalog)
+    if not reports and (SOURCE_DIR / "reports").exists():
+        shutil.copytree(SOURCE_DIR / "reports", reports_dir)
+        return
+    for report_path, payload in reports.items():
         write_json(output_dir / report_asset_path(report_path), payload)
 
 

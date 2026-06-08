@@ -1,0 +1,1860 @@
+const state = {
+  catalog: null,
+  frameworks: [],
+  albums: [],
+  baseAlbums: [],
+  records: [],
+  baseRecords: [],
+  localRecords: [],
+  localReports: {},
+  localObjectUrls: [],
+  uploadSerial: 0,
+  selectedAlbum: null,
+  selectedAlbumDetail: null,
+  selectedReportPath: null,
+  currentView: 'news',
+  filter: '',
+  currentTrack: null,
+  timedLyrics: null,
+  timedLyricsUrl: '',
+  timedLyricsRequestId: 0,
+  manualLyricIndex: -1,
+  manualLyricUntil: 0,
+  manualLyricBaseTimedIndex: -1,
+  manualLyricLastTimedIndex: -1,
+  lyricsByAudioUrl: new Map(),
+  playlist: [],
+  currentPlaylistIndex: -1,
+  playlistSerial: 0
+};
+
+function $(id) { return document.getElementById(id); }
+
+function currentTheme() {
+  return document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+}
+
+function syncThemeButton() {
+  const button = $('themeToggle');
+  if (button) button.textContent = currentTheme() === 'dark' ? 'Light' : 'Dark';
+}
+
+function toggleTheme() {
+  const next = currentTheme() === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = next;
+  localStorage.setItem('discography-theme', next);
+  syncThemeButton();
+}
+
+function escapeHtml(value) {
+  return String(value ?? '').replace(/[&<>"']/g, char => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+  }[char]));
+}
+
+function routeUrl({ view = 'news', album = '', song = '' } = {}) {
+  const url = new URL(window.location.href);
+  url.search = '';
+  if (song) {
+    if (album) url.searchParams.set('album', album);
+    url.searchParams.set('song', song);
+  } else if (album) {
+    url.searchParams.set('album', album);
+  } else if (view === 'discography') {
+    url.searchParams.set('view', 'discography');
+  }
+  return url;
+}
+
+function updateRoute(route, { replace = false } = {}) {
+  const nextUrl = routeUrl(route);
+  if (nextUrl.href === window.location.href) return;
+  const method = replace ? 'replaceState' : 'pushState';
+  window.history[method](null, '', nextUrl);
+}
+
+function recordForRouteSong(song, album = '') {
+  return state.records.find(record => record.report_path === song) ||
+    state.records.find(record =>
+      record.title === song &&
+      (!album || record.album === album)
+    );
+}
+
+async function applyRouteFromUrl({ replace = false } = {}) {
+  const params = new URLSearchParams(window.location.search);
+  const album = params.get('album') || '';
+  const song = params.get('song') || params.get('report') || '';
+  const view = params.get('view') || 'news';
+
+  if (song) {
+    const record = recordForRouteSong(song, album);
+    if (record) {
+      state.selectedAlbum = album && record.album === album ? album : null;
+      await showAnalysisReport(record.report_path);
+      if (replace) updateRoute({ album: record.album, song: record.title }, { replace: true });
+      return;
+    }
+  }
+
+  if (album) {
+    const targetAlbum = state.albums.find(item => item.name === album);
+    if (targetAlbum) {
+      renderAlbumDetail(targetAlbum.name);
+      if (replace) updateRoute({ album: targetAlbum.name }, { replace: true });
+      return;
+    }
+  }
+
+  if (view === 'discography') {
+    state.selectedAlbum = null;
+    renderStatistics();
+    if (replace) updateRoute({ view: 'discography' }, { replace: true });
+    return;
+  }
+
+  renderNews();
+  if (replace) updateRoute({ view: 'news' }, { replace: true });
+}
+
+function navigateToNews() {
+  renderNews();
+  updateRoute({ view: 'news' });
+}
+
+function navigateToStatistics() {
+  state.selectedAlbum = null;
+  renderStatistics();
+  updateRoute({ view: 'discography' });
+}
+
+function navigateToAlbum(albumName) {
+  const album = state.albums.find(item => item.name === albumName);
+  if (!album) return;
+  renderAlbumDetail(album.name);
+  updateRoute({ album: album.name });
+}
+
+async function navigateToReport(reportPath) {
+  const record = state.records.find(item => item.report_path === reportPath);
+  if (!record) return;
+  updateRoute({ album: record.album, song: record.title });
+  await showAnalysisReport(reportPath);
+}
+
+async function copyText(value) {
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(value);
+    return;
+  }
+  const textarea = document.createElement('textarea');
+  textarea.value = value;
+  textarea.setAttribute('readonly', '');
+  textarea.style.position = 'fixed';
+  textarea.style.top = '-9999px';
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  textarea.remove();
+}
+
+function showCopiedState(button) {
+  const originalText = button.dataset.copyOriginalText || button.textContent;
+  button.dataset.copyOriginalText = originalText;
+  button.textContent = 'Copied';
+  window.setTimeout(() => {
+    button.textContent = button.dataset.copyOriginalText || originalText;
+  }, 1400);
+}
+
+async function copyRouteFromButton(button) {
+  const album = button.dataset.copyAlbumLink || '';
+  const reportPath = button.dataset.copyReportLink || '';
+  const record = reportPath ? state.records.find(item => item.report_path === reportPath) : null;
+  const url = record
+    ? routeUrl({ album: record.album, song: record.title })
+    : routeUrl({ album });
+  try {
+    await copyText(url.href);
+    showCopiedState(button);
+  } catch (err) {
+    console.warn(err);
+    button.textContent = 'Copy Failed';
+  }
+}
+
+function fmt(value, digits = 2) {
+  const num = Number(value);
+  return Number.isFinite(num) ? num.toFixed(digits) : '-';
+}
+
+function formatDuration(seconds) {
+  const total = Number(seconds);
+  if (!Number.isFinite(total)) return '-';
+  const rounded = Math.max(0, Math.round(total));
+  const minutes = Math.floor(rounded / 60);
+  const secs = rounded % 60;
+  return `${minutes}:${String(secs).padStart(2, '0')}`;
+}
+
+function lyricsUrlForAudio(audioUrl) {
+  return state.lyricsByAudioUrl.get(audioUrl) || '';
+}
+
+function setKaraokeLines(previous, current, next, { empty = false } = {}) {
+  $('karaokePrevious').textContent = previous || '';
+  $('karaokeCurrent').textContent = current || '';
+  $('karaokeNext').textContent = next || '';
+  $('karaokeCurrent').classList.toggle('empty', empty);
+}
+
+function syncKaraokeControlState() {
+  const lines = state.timedLyrics?.lines || [];
+  const hasLines = Boolean(lines.length);
+  const index = currentDisplayedLyricIndex();
+  const prevButton = $('karaokePrevBtn');
+  const nextButton = $('karaokeNextBtn');
+  if (prevButton) prevButton.disabled = !hasLines || index <= 0;
+  if (nextButton) nextButton.disabled = !hasLines || index < 0 || index >= lines.length - 1;
+}
+
+function clearManualLyricOverride() {
+  state.manualLyricIndex = -1;
+  state.manualLyricUntil = 0;
+  state.manualLyricBaseTimedIndex = -1;
+  state.manualLyricLastTimedIndex = -1;
+}
+
+function resetTimedLyrics(message = 'Timed lyrics will appear here.') {
+  state.timedLyrics = null;
+  state.timedLyricsUrl = '';
+  clearManualLyricOverride();
+  setKaraokeLines('', message, '', { empty: true });
+  syncKaraokeControlState();
+}
+
+function currentLyricIndex(lines, currentTime) {
+  if (!Array.isArray(lines) || !lines.length) return -1;
+  const shortGapHoldSeconds = 4;
+  let low = 0;
+  let high = lines.length - 1;
+  let candidate = -1;
+  while (low <= high) {
+    const mid = Math.floor((low + high) / 2);
+    const start = Number(lines[mid].start);
+    if (start <= currentTime) {
+      candidate = mid;
+      low = mid + 1;
+    } else {
+      high = mid - 1;
+    }
+  }
+  if (candidate < 0) return -1;
+  const line = lines[candidate];
+  const lineEnd = Number(line.end);
+  if (currentTime <= lineEnd + 0.35) return candidate;
+  const nextStart = Number(lines[candidate + 1]?.start);
+  if (Number.isFinite(nextStart) && nextStart - lineEnd <= shortGapHoldSeconds && currentTime < nextStart) {
+    return candidate;
+  }
+  return -1;
+}
+
+function currentDisplayedLyricIndex() {
+  const audio = $('globalAudio');
+  const lines = state.timedLyrics?.lines || [];
+  if (!lines.length) return -1;
+  const timedIndex = currentLyricIndex(lines, audio.currentTime);
+  const normalizedTimedIndex = timedIndex;
+  if (
+    state.manualLyricIndex >= 0 &&
+    (
+      performance.now() <= state.manualLyricUntil ||
+      state.manualLyricIndex >= normalizedTimedIndex ||
+      normalizedTimedIndex === state.manualLyricLastTimedIndex
+    )
+  ) {
+    return state.manualLyricIndex;
+  }
+  return timedIndex;
+}
+
+function renderKaraokeIndex(index) {
+  const lines = state.timedLyrics?.lines || [];
+  if (index < 0) {
+    setKaraokeLines('', '', '');
+    syncKaraokeControlState();
+    return;
+  }
+  setKaraokeLines(
+    lines[index - 1]?.text || '',
+    lines[index]?.text || '',
+    lines[index + 1]?.text || ''
+  );
+  syncKaraokeControlState();
+}
+
+function updateKaraokeLines() {
+  const audio = $('globalAudio');
+  const lines = state.timedLyrics?.lines || [];
+  if (!lines.length) {
+    syncKaraokeControlState();
+    return;
+  }
+  const rawTimedIndex = currentLyricIndex(lines, audio.currentTime);
+  const timedIndex = rawTimedIndex;
+  if (state.manualLyricIndex < 0) {
+    renderKaraokeIndex(rawTimedIndex);
+    return;
+  }
+
+  const timingLineChanged = timedIndex !== state.manualLyricLastTimedIndex;
+  const timingCaughtManual =
+    state.manualLyricIndex > state.manualLyricBaseTimedIndex &&
+    timedIndex >= state.manualLyricIndex;
+  const timingAheadAfterGrace =
+    performance.now() > state.manualLyricUntil &&
+    timingLineChanged &&
+    timedIndex > state.manualLyricIndex;
+
+  if (timingCaughtManual || timingAheadAfterGrace) {
+    clearManualLyricOverride();
+    renderKaraokeIndex(rawTimedIndex);
+    return;
+  }
+
+  state.manualLyricLastTimedIndex = timedIndex;
+  renderKaraokeIndex(state.manualLyricIndex);
+}
+
+function shiftManualLyric(delta) {
+  const audio = $('globalAudio');
+  const lines = state.timedLyrics?.lines || [];
+  if (!lines.length) return;
+  const rawTimedIndex = currentLyricIndex(lines, audio.currentTime);
+  const timedIndex = rawTimedIndex;
+  const baseIndex = state.manualLyricIndex >= 0 ? state.manualLyricIndex : timedIndex;
+  const nextIndex = Math.max(0, Math.min(lines.length - 1, baseIndex + delta));
+  state.manualLyricIndex = nextIndex;
+  state.manualLyricUntil = performance.now() + 5000;
+  state.manualLyricBaseTimedIndex = timedIndex;
+  state.manualLyricLastTimedIndex = timedIndex;
+  renderKaraokeIndex(nextIndex);
+}
+
+async function loadTimedLyrics(track) {
+  const requestId = ++state.timedLyricsRequestId;
+  const lyricsUrl = track?.lyricsUrl || lyricsUrlForAudio(track?.url || '');
+  if (!lyricsUrl) {
+    resetTimedLyrics('No timed lyrics for this track yet.');
+    return;
+  }
+  if (state.timedLyricsUrl === lyricsUrl && state.timedLyrics) {
+    updateKaraokeLines();
+    return;
+  }
+  state.timedLyricsUrl = lyricsUrl;
+  state.timedLyrics = null;
+  setKaraokeLines('', 'Loading timed lyrics...', '', { empty: true });
+  try {
+    const fetchUrl = `${lyricsUrl}${lyricsUrl.includes('?') ? '&' : '?'}v=${Date.now()}`;
+    const response = await fetch(fetchUrl, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Timed lyrics load failed: ${response.status}`);
+    const payload = await response.json();
+    if (requestId !== state.timedLyricsRequestId) return;
+    state.timedLyrics = payload;
+    updateKaraokeLines();
+  } catch (err) {
+    if (requestId !== state.timedLyricsRequestId) return;
+    console.warn(err);
+    resetTimedLyrics('Timed lyrics could not be loaded.');
+  }
+}
+
+function rebuildLyricsIndex() {
+  const index = new Map();
+  state.records.forEach(record => {
+    if (record.audio_url && record.lyrics_url) index.set(record.audio_url, record.lyrics_url);
+  });
+  state.albums.forEach(album => {
+    (album.tracks || []).forEach(track => {
+      if (track.audio_url && track.lyrics_url) index.set(track.audio_url, track.lyrics_url);
+      if (track.analysis?.audio_url && track.analysis?.lyrics_url) {
+        index.set(track.analysis.audio_url, track.analysis.lyrics_url);
+      }
+    });
+  });
+  state.lyricsByAudioUrl = index;
+}
+
+function average(values) {
+  const nums = values.map(Number).filter(Number.isFinite);
+  return nums.length ? nums.reduce((sum, value) => sum + value, 0) / nums.length : null;
+}
+
+function groupAverage(records, field, valueField = 'score') {
+  const groups = new Map();
+  records.forEach(record => {
+    const key = record[field] || 'Unsorted';
+    if (!groups.has(key)) groups.set(key, []);
+    const value = Number(record[valueField]);
+    if (Number.isFinite(value)) groups.get(key).push(value);
+  });
+  return Array.from(groups.entries())
+    .map(([label, values]) => ({ label, value: average(values), count: values.length }))
+    .filter(row => row.value !== null)
+    .sort((a, b) => b.value - a.value || b.count - a.count || a.label.localeCompare(b.label));
+}
+
+function countBy(records, getter) {
+  const counts = new Map();
+  records.forEach(record => {
+    const key = getter(record);
+    counts.set(key, (counts.get(key) || 0) + 1);
+  });
+  return Array.from(counts.entries())
+    .map(([label, value]) => ({ label, value }))
+    .sort((a, b) => Number(a.label) - Number(b.label) || String(a.label).localeCompare(String(b.label)));
+}
+
+function axisAverages(records) {
+  const labels = {
+    SC_structural_coherence: 'Structural',
+    MI_motivic_integration: 'Motivic',
+    BP_beauty_spatial_poise: 'Beauty',
+    EG_evolving_grammar: 'Grammar',
+    CD_carry_depth: 'Carry'
+  };
+  return Object.entries(labels).map(([key, label]) => ({
+    label,
+    value: average(records.map(record => record.axes?.[key]))
+  })).filter(row => row.value !== null).sort((a, b) => b.value - a.value);
+}
+
+function rowsFromObject(values, labeler = value => value) {
+  return Object.entries(values || {})
+    .map(([key, value]) => ({ label: labeler(key), value }))
+    .filter(row => Number.isFinite(Number(row.value)))
+    .sort((a, b) => Number(b.value) - Number(a.value));
+}
+
+function axisLabel(key) {
+  return String(key || '')
+    .replace(/^SC_/, '')
+    .replace(/^MI_/, '')
+    .replace(/^BP_/, '')
+    .replace(/^EG_/, '')
+    .replace(/^CD_/, '')
+    .replaceAll('_', ' ');
+}
+
+function barChart(rows, { max = null, fill = '', digits = 2, limit = 12 } = {}) {
+  const visibleRows = rows.slice(0, limit);
+  const maxValue = max ?? Math.max(1, ...visibleRows.map(row => Number(row.value) || 0));
+  if (!visibleRows.length) return '<div class="empty">No chart data available.</div>';
+  return visibleRows.map(row => {
+    const value = Number(row.value) || 0;
+    const width = Math.max(0, Math.min(100, (value / maxValue) * 100));
+    return `
+      <div class="bar-row" title="${escapeHtml(row.label)}">
+        <div class="bar-label">${escapeHtml(row.label)}${row.count ? ` (${row.count})` : ''}</div>
+        <div class="bar-track"><div class="bar-fill ${fill}" style="width:${width}%"></div></div>
+        <div class="bar-value">${fmt(value, digits)}</div>
+      </div>
+    `;
+  }).join('');
+}
+
+function scoreHistogram(records) {
+  const rows = countBy(records.filter(record => Number.isFinite(Number(record.score))), record => {
+    const score = Math.max(0, Math.min(9, Math.floor(Number(record.score))));
+    return `${score}-${score + 1}`;
+  });
+  return barChart(rows, { fill: 'warm', digits: 0 });
+}
+
+function formatNewsDate(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value || '';
+  return new Intl.DateTimeFormat(undefined, {
+    dateStyle: 'medium',
+    timeStyle: 'short'
+  }).format(date);
+}
+
+function sortedNews() {
+  return (state.catalog?.news || []).slice().sort((a, b) => {
+    const timeA = Date.parse(a.datetime || '');
+    const timeB = Date.parse(b.datetime || '');
+    const safeA = Number.isFinite(timeA) ? timeA : 0;
+    const safeB = Number.isFinite(timeB) ? timeB : 0;
+    return safeB - safeA || String(b.title || '').localeCompare(String(a.title || ''));
+  });
+}
+
+function syncNavButtons() {
+  $('newsBtn').classList.toggle('active', state.currentView === 'news');
+  $('statsBtn').classList.toggle('active', state.currentView !== 'news');
+}
+
+function renderNews() {
+  state.currentView = 'news';
+  state.selectedAlbum = null;
+  state.selectedAlbumDetail = null;
+  state.selectedReportPath = null;
+  const news = sortedNews();
+  $('detail').className = '';
+  $('detail').innerHTML = `
+    <div class="topline">
+      <div>
+        <h2>News</h2>
+        <div class="meta">${news.length} update${news.length === 1 ? '' : 's'}</div>
+      </div>
+      <span class="status">${state.catalog?.generated_at || 'catalog'}</span>
+    </div>
+    ${news.length ? `
+      <div class="news-list">
+        ${news.map(item => `
+          <article class="news-item">
+            <h3>${escapeHtml(item.title || 'Untitled update')}</h3>
+            <div class="meta">${escapeHtml(formatNewsDate(item.datetime))}</div>
+            <div class="news-body">${escapeHtml(item.body || '')}</div>
+          </article>
+        `).join('')}
+      </div>
+    ` : '<div class="empty">No news yet.</div>'}
+  `;
+  renderAlbumList();
+  syncNavButtons();
+}
+
+function clamp(value, low = 0, high = 10) {
+  const num = Number(value);
+  if (!Number.isFinite(num)) return low;
+  return Math.max(low, Math.min(high, num));
+}
+
+function sum(values) {
+  return values.reduce((total, value) => total + value, 0);
+}
+
+function standardDeviation(values) {
+  if (!values.length) return 0;
+  const avg = average(values) || 0;
+  return Math.sqrt(average(values.map(value => (value - avg) ** 2)) || 0);
+}
+
+function db(value) {
+  return value > 0 ? 20 * Math.log10(value) : -120;
+}
+
+function titleFromFilename(name) {
+  return String(name || 'Untitled')
+    .replace(/\.[^.]+$/, '')
+    .replace(/^\d+\s*-\s*/, '');
+}
+
+function findPeaks(values, threshold) {
+  const peaks = [];
+  for (let index = 1; index < values.length - 1; index += 1) {
+    if (values[index] > threshold && values[index] >= values[index - 1] && values[index] > values[index + 1]) {
+      peaks.push(index);
+    }
+  }
+  return peaks;
+}
+
+function downsampleBuffer(buffer, targetRate = 11025) {
+  const sourceRate = buffer.sampleRate;
+  const channels = buffer.numberOfChannels;
+  const ratio = sourceRate / targetRate;
+  const length = Math.max(1, Math.floor(buffer.length / ratio));
+  const output = new Float32Array(length);
+  for (let index = 0; index < length; index += 1) {
+    const sourceIndex = Math.min(buffer.length - 1, Math.floor(index * ratio));
+    let value = 0;
+    for (let channel = 0; channel < channels; channel += 1) {
+      value += buffer.getChannelData(channel)[sourceIndex];
+    }
+    output[index] = value / channels;
+  }
+  return { samples: output, sampleRate: targetRate };
+}
+
+function frameAudio(samples, sampleRate) {
+  const frameSize = 2048;
+  const hopSize = 1024;
+  const frames = [];
+  for (let start = 0; start + frameSize <= samples.length; start += hopSize) {
+    let energy = 0;
+    let peak = 0;
+    let crossings = 0;
+    let derivative = 0;
+    let previous = samples[start];
+    for (let offset = 0; offset < frameSize; offset += 1) {
+      const value = samples[start + offset];
+      energy += value * value;
+      peak = Math.max(peak, Math.abs(value));
+      if (offset > 0) {
+        if ((value >= 0 && previous < 0) || (value < 0 && previous >= 0)) crossings += 1;
+        derivative += Math.abs(value - previous);
+        previous = value;
+      }
+    }
+    const rms = Math.sqrt(energy / frameSize);
+    const zcr = crossings / frameSize;
+    const centroid = clamp(zcr * sampleRate * 0.65, 80, 8000);
+    const bandwidth = clamp((derivative / frameSize) * sampleRate * 10, 100, 8000);
+    frames.push({
+      time: start / sampleRate,
+      rms,
+      rms_db: db(rms),
+      peak,
+      zcr,
+      centroid,
+      bandwidth,
+      flatness: clamp(zcr * 8, 0, 1),
+    });
+  }
+  return frames;
+}
+
+function estimateTempo(frames, hopSeconds) {
+  const rms = frames.map(frame => frame.rms);
+  const onset = [];
+  for (let index = 1; index < rms.length; index += 1) {
+    onset.push(Math.max(0, rms[index] - rms[index - 1]));
+  }
+  const avg = average(onset) || 0;
+  const stdev = standardDeviation(onset);
+  const threshold = avg + stdev * 0.7;
+  const peaks = findPeaks(onset, threshold);
+  let bestLag = 0;
+  let bestScore = 0;
+  const minLag = Math.max(1, Math.round((60 / 180) / hopSeconds));
+  const maxLag = Math.max(minLag + 1, Math.round((60 / 60) / hopSeconds));
+  for (let lag = minLag; lag <= maxLag; lag += 1) {
+    let score = 0;
+    for (let index = lag; index < onset.length; index += 1) {
+      score += onset[index] * onset[index - lag];
+    }
+    if (score > bestScore) {
+      bestScore = score;
+      bestLag = lag;
+    }
+  }
+  const bpm = bestLag ? 60 / (bestLag * hopSeconds) : null;
+  return {
+    tempo_bpm: bpm ? Math.round(bpm * 10) / 10 : null,
+    onset_rate_per_second: frames.length ? peaks.length / Math.max(frames[frames.length - 1].time, 1) : 0,
+    onset_env: onset,
+  };
+}
+
+function pickBrowserSections(frames, duration) {
+  if (frames.length < 8 || duration < 20) {
+    return [{ index: 1, start: 0, end: duration, duration }];
+  }
+  const changes = [];
+  for (let index = 1; index < frames.length; index += 1) {
+    const prev = frames[index - 1];
+    const current = frames[index];
+    changes.push({
+      time: current.time,
+      value:
+        Math.abs(current.rms_db - prev.rms_db) / 12 +
+        Math.abs(current.zcr - prev.zcr) * 8 +
+        Math.abs(Math.log2((current.centroid + 1) / (prev.centroid + 1))) * 1.8,
+    });
+  }
+  const maxInternal = Math.max(2, Math.min(9, Math.floor(duration / 35)));
+  const chosen = [];
+  const minGap = 12;
+  changes
+    .slice()
+    .sort((a, b) => b.value - a.value)
+    .forEach(change => {
+      if (chosen.length >= maxInternal) return;
+      if (change.time < 8 || change.time > duration - 8) return;
+      if (chosen.every(time => Math.abs(time - change.time) >= minGap)) chosen.push(change.time);
+    });
+  const boundaries = [0, ...chosen.sort((a, b) => a - b), duration];
+  return boundaries.slice(0, -1).map((start, index) => ({
+    index: index + 1,
+    start: Math.round(start * 1000) / 1000,
+    end: Math.round(boundaries[index + 1] * 1000) / 1000,
+    duration: Math.round((boundaries[index + 1] - start) * 1000) / 1000,
+  }));
+}
+
+function sectionProfile(frames, section, onsetEnv, hopSeconds) {
+  const selected = frames.filter(frame => frame.time >= section.start && frame.time < section.end);
+  const rows = selected.length ? selected : frames;
+  const onsetStart = Math.max(0, Math.floor(section.start / hopSeconds));
+  const onsetEnd = Math.min(onsetEnv.length, Math.ceil(section.end / hopSeconds));
+  const onsets = onsetEnv.slice(onsetStart, onsetEnd);
+  return {
+    index: section.index,
+    start: section.start,
+    end: section.end,
+    duration: section.duration,
+    rms_db_mean: average(rows.map(frame => frame.rms_db)) || -120,
+    centroid_mean: average(rows.map(frame => frame.centroid)) || 0,
+    bandwidth_mean: average(rows.map(frame => frame.bandwidth)) || 0,
+    flatness_mean: average(rows.map(frame => frame.flatness)) || 0,
+    zcr_mean: average(rows.map(frame => frame.zcr)) || 0,
+    onset_rate: findPeaks(onsets, (average(onsets) || 0) + standardDeviation(onsets)).length / Math.max(section.duration, 1),
+  };
+}
+
+function boundedRatioDelta(a, b) {
+  return Math.min(1, Math.abs(Math.log2(Math.max(Number(a) || 0, 1e-9) / Math.max(Number(b) || 0, 1e-9))));
+}
+
+function browserEvolvingGrammar(sections, frames, onsetEnv, hopSeconds) {
+  const profiles = sections.map(section => sectionProfile(frames, section, onsetEnv, hopSeconds));
+  const adjacent = [];
+  for (let index = 1; index < profiles.length; index += 1) {
+    const prev = profiles[index - 1];
+    const current = profiles[index];
+    const rhythmDelta = boundedRatioDelta(current.onset_rate, prev.onset_rate);
+    const textureDelta = Math.max(
+      boundedRatioDelta(current.centroid_mean, prev.centroid_mean),
+      boundedRatioDelta(current.bandwidth_mean, prev.bandwidth_mean),
+      Math.abs(current.flatness_mean - prev.flatness_mean) * 4,
+      Math.abs(current.rms_db_mean - prev.rms_db_mean) / 10
+    );
+    const composite = clamp(rhythmDelta * 3 + textureDelta * 4);
+    const ruleChanges = [];
+    if (rhythmDelta > 0.28) ruleChanges.push('rhythmic-law-shift');
+    if (textureDelta > 0.24) ruleChanges.push('texture-law-shift');
+    adjacent.push({ from: prev.index, to: current.index, rhythm_delta: rhythmDelta, texture_delta: textureDelta, composite_change: composite, rule_changes: ruleChanges });
+  }
+  const sectionContrast = clamp(average(adjacent.map(change => change.composite_change)) || 0);
+  const cumulativeEvolution = clamp(sectionContrast * 0.75 + Math.min(2, Math.max(0, profiles.length - 3) * 0.25));
+  const ruleChangeScore = clamp(sum(adjacent.map(change => change.rule_changes.length)) / Math.max(profiles.length - 1, 1) * 2.5);
+  const transformedReturnScore = clamp((profiles.length >= 4 ? 1.4 : 0) + sectionContrast * 0.12);
+  const overall = clamp(sectionContrast * 0.28 + cumulativeEvolution * 0.24 + transformedReturnScore * 0.18 + ruleChangeScore * 0.30);
+  return {
+    section_contrast_score: Math.round(sectionContrast * 1000) / 1000,
+    cumulative_evolution_score: Math.round(cumulativeEvolution * 1000) / 1000,
+    transformed_return_score: Math.round(transformedReturnScore * 1000) / 1000,
+    controlled_grid_deviation_score: 0,
+    rule_change_score: Math.round(ruleChangeScore * 1000) / 1000,
+    overall_score: Math.round(overall * 1000) / 1000,
+    adjacent_changes: adjacent.map(change => ({
+      from: change.from,
+      to: change.to,
+      rhythm_delta: Math.round(change.rhythm_delta * 1000) / 1000,
+      texture_delta: Math.round(change.texture_delta * 1000) / 1000,
+      composite_change: Math.round(change.composite_change * 1000) / 1000,
+      rule_changes: change.rule_changes,
+    })),
+    sections: profiles.map(profile => ({
+      index: profile.index,
+      start: profile.start,
+      end: profile.end,
+      duration: profile.duration,
+      onset_rate: Math.round(profile.onset_rate * 1000) / 1000,
+      rms_db_mean: Math.round(profile.rms_db_mean * 100) / 100,
+      centroid_mean: Math.round(profile.centroid_mean * 10) / 10,
+      bandwidth_mean: Math.round(profile.bandwidth_mean * 10) / 10,
+      flatness_mean: Math.round(profile.flatness_mean * 10000) / 10000,
+      beat_count: 0,
+      downbeat_count: 0,
+      median_beat_interval_seconds: null,
+      beat_interval_cv: null,
+      bar_interval_cv: null,
+      rule_changes: [],
+    })),
+  };
+}
+
+function recurrenceRatio(frames) {
+  if (frames.length < 12) return 0;
+  const window = Math.max(4, Math.floor(frames.length / 16));
+  const signatures = [];
+  for (let index = 0; index + window < frames.length; index += window) {
+    const slice = frames.slice(index, index + window);
+    signatures.push([
+      average(slice.map(frame => frame.rms_db)) || 0,
+      average(slice.map(frame => frame.zcr)) || 0,
+      average(slice.map(frame => frame.centroid)) || 0,
+    ]);
+  }
+  let similar = 0;
+  let pairs = 0;
+  for (let i = 0; i < signatures.length; i += 1) {
+    for (let j = i + 2; j < signatures.length; j += 1) {
+      pairs += 1;
+      const a = signatures[i];
+      const b = signatures[j];
+      const distance = Math.abs(a[0] - b[0]) / 18 + Math.abs(a[1] - b[1]) * 10 + boundedRatioDelta(a[2], b[2]);
+      if (distance < 0.55) similar += 1;
+    }
+  }
+  return pairs ? similar / pairs : 0;
+}
+
+function estimateRung(axisAvg, cdpd, nge, hmii, clippingPenalty, sectionCount) {
+  let number;
+  if (clippingPenalty > 1.5 || sectionCount <= 1) number = 4;
+  else if (axisAvg < 4) number = 5;
+  else if (axisAvg < 5) number = 6;
+  else if (axisAvg < 5.8) number = 7;
+  else if (axisAvg < 6.6) number = 8;
+  else if (axisAvg < 7.4) number = 9;
+  else if (axisAvg < 8.1) number = 10;
+  else if (nge >= 0.50 && cdpd >= 0.60) number = 11;
+  else number = 10;
+  if (number >= 11 && hmii >= 5 && nge >= 0.55) number = 12;
+  if (number >= 12 && cdpd >= 0.65 && nge >= 0.58) number = 13;
+  const labels = {
+    4: 'Half-Form',
+    5: 'Draft',
+    6: 'Serviceable',
+    7: 'Competent Template',
+    8: 'Strong Craft, Some Signature',
+    9: 'Near-Perfection, No Rupture',
+    10: 'Technical Perfection, No Rupture',
+    11: 'First Rupture',
+    12: 'Recursion Threshold',
+    13: 'Inhabited Form',
+  };
+  return {
+    number,
+    label: labels[number] || 'Unmapped',
+    note: 'Browser-only heuristic; tiers above 13 need close listening and stronger evidence of new grammar.',
+  };
+}
+
+function scoreBrowserFramework(audio, frameworkName) {
+  const duration = audio.duration_seconds;
+  const sections = audio.detected_sections || [];
+  const sectionDurations = sections.map(section => section.duration);
+  const sectionBalance = sectionDurations.length
+    ? 1 - Math.min(1, standardDeviation(sectionDurations) / ((average(sectionDurations) || 0) + 1e-9))
+    : 0;
+  const clippingPenalty = Math.min(2, audio.clipping_ratio * 400);
+  const loudnessOk = audio.integrated_lufs >= -18 && audio.integrated_lufs <= -7 ? 1 : 0.4;
+  const dynamicScore = clamp((audio.crest_factor_db - 5) / 1.2);
+  const recurrenceScore = clamp(audio.recurrence_ratio * 35);
+  const onsetScore = clamp(audio.onset_rate_per_second * 3);
+  const spectralWidth = clamp(audio.spectral_bandwidth_mean / 450);
+  const brightnessControl = clamp(10 - Math.abs(audio.spectral_centroid_mean - 2500) / 350);
+  const novelty = clamp((sections.length - 2) * 0.7 + Math.min(4, audio.spectral_centroid_std / 350) + onsetScore * 0.15);
+  const egFeatures = audio.evolving_grammar || {};
+  let sc = clamp(2 + sections.length * 0.65 + sectionBalance * 2 - clippingPenalty);
+  let mi = clamp(2 + recurrenceScore * 0.35);
+  let bp = clamp(2 + loudnessOk * 1.7 + dynamicScore * 0.28 + brightnessControl * 0.25 + spectralWidth * 0.16 - clippingPenalty);
+  let eg = clamp(
+    1.2 +
+    novelty * 0.10 +
+    egFeatures.section_contrast_score * 0.20 +
+    egFeatures.cumulative_evolution_score * 0.18 +
+    egFeatures.transformed_return_score * 0.18 +
+    egFeatures.rule_change_score * 0.18
+  );
+  let cd = clamp(((sc + mi + bp) / 3) * 0.6 + Math.min(2, sections.length * 0.18));
+  const frameworkLower = frameworkName.toLowerCase();
+  if (frameworkLower.includes('rap') || frameworkLower.includes('hip-hop')) {
+    mi = clamp(mi + onsetScore * 0.08);
+    eg = clamp(eg + Math.min(0.5, audio.onset_rate_per_second * 0.14));
+  } else if (frameworkLower.includes('metal') || frameworkLower.includes('prog') || frameworkLower.includes('djent')) {
+    mi = clamp(mi + onsetScore * 0.12 + spectralWidth * 0.08);
+    bp = clamp(bp + Math.min(1, audio.harmonic_percussive_ratio * 0.2));
+    eg = clamp(eg + egFeatures.rule_change_score * 0.08);
+  } else if (frameworkLower.includes('indie')) {
+    cd = clamp(cd + recurrenceScore * 0.04);
+    eg = clamp(eg + egFeatures.transformed_return_score * 0.05);
+  } else {
+    bp = clamp(bp + Math.min(1, audio.harmonic_percussive_ratio * 0.12));
+  }
+  const axisAvg = (sc + mi + bp + eg + cd) / 5;
+  const cdpd = clamp((mi * 0.45 + sc * 0.35 + cd * 0.20) / 10, 0, 1);
+  const nge = clamp((eg * 0.50 + novelty * 0.18 + egFeatures.overall_score * 0.32) / 10, 0, 1);
+  const hmii = Math.round(clamp(1.5 + spectralWidth * 0.18 + onsetScore * 0.12 + recurrenceScore * 0.12, 1, 8));
+  return {
+    axes: {
+      SC_structural_coherence: Math.round(sc * 100) / 100,
+      MI_motivic_integration: Math.round(mi * 100) / 100,
+      BP_beauty_spatial_poise: Math.round(bp * 100) / 100,
+      EG_evolving_grammar: Math.round(eg * 100) / 100,
+      CD_carry_depth: Math.round(cd * 100) / 100,
+    },
+    core_metrics: {
+      CDPD: Math.round(cdpd * 1000) / 1000,
+      NGE: Math.round(nge * 1000) / 1000,
+      HMII_peak_estimate: hmii,
+    },
+    eg_evidence: {
+      section_contrast_score: egFeatures.section_contrast_score || 0,
+      cumulative_evolution_score: egFeatures.cumulative_evolution_score || 0,
+      transformed_return_score: egFeatures.transformed_return_score || 0,
+      controlled_grid_deviation_score: 0,
+      rule_change_score: egFeatures.rule_change_score || 0,
+      production_transform_score: 0,
+      overall_score: egFeatures.overall_score || 0,
+    },
+    rung_estimate: estimateRung(axisAvg, cdpd, nge, hmii, clippingPenalty, sections.length),
+    confidence_0_10: Math.round(clamp(4.2 + Math.min(1, duration / 180) + Math.min(1, sections.length / 6), 0, 7) * 100) / 100,
+    rationale: [
+      `Browser analysis used ${sections.length} detected section(s) over ${formatDuration(duration)}.`,
+      `Estimated tempo is ${fmt(audio.tempo_bpm, 1)} BPM; onset rate is ${fmt(audio.onset_rate_per_second, 2)} per second.`,
+      `beat_this, LLM adjustment, and transcription checks are disabled for local uploads.`,
+    ],
+  };
+}
+
+async function analyzeUploadedFile(file, framework) {
+  const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+  const arrayBuffer = await file.arrayBuffer();
+  const buffer = await audioContext.decodeAudioData(arrayBuffer);
+  await audioContext.close();
+  const { samples, sampleRate } = downsampleBuffer(buffer);
+  const frames = frameAudio(samples, sampleRate);
+  const hopSeconds = 1024 / sampleRate;
+  const tempo = estimateTempo(frames, hopSeconds);
+  const sections = pickBrowserSections(frames, buffer.duration);
+  const eg = browserEvolvingGrammar(sections, frames, tempo.onset_env, hopSeconds);
+  const peak = Math.max(...frames.map(frame => frame.peak), 0);
+  const rms = Math.sqrt(average(frames.map(frame => frame.rms ** 2)) || 0);
+  const clippingFrames = frames.filter(frame => frame.peak >= 0.999).length;
+  const centroidValues = frames.map(frame => frame.centroid);
+  const bandwidthValues = frames.map(frame => frame.bandwidth);
+  const flatnessValues = frames.map(frame => frame.flatness);
+  const zcrValues = frames.map(frame => frame.zcr);
+  const audio = {
+    path: file.name,
+    duration: formatDuration(buffer.duration),
+    duration_seconds: Math.round(buffer.duration * 1000) / 1000,
+    tempo_bpm: tempo.tempo_bpm,
+    estimated_key: 'Unknown',
+    key_confidence: 0,
+    integrated_lufs: Math.round((db(rms) - 0.7) * 10) / 10,
+    peak_dbfs: Math.round(db(peak) * 10) / 10,
+    crest_factor_db: Math.round((db(peak) - db(rms)) * 10) / 10,
+    clipping_ratio: frames.length ? clippingFrames / frames.length : 0,
+    onset_rate_per_second: Math.round(tempo.onset_rate_per_second * 1000) / 1000,
+    recurrence_ratio: Math.round(recurrenceRatio(frames) * 1000) / 1000,
+    spectral_centroid_mean: average(centroidValues) || 0,
+    spectral_centroid_std: standardDeviation(centroidValues),
+    spectral_bandwidth_mean: average(bandwidthValues) || 0,
+    spectral_flatness_mean: average(flatnessValues) || 0,
+    zero_crossing_rate_mean: average(zcrValues) || 0,
+    harmonic_percussive_ratio: clamp(1.8 - (average(zcrValues) || 0) * 8, 0, 4),
+    detected_sections: sections,
+    evolving_grammar: eg,
+    beat_this: {
+      available: false,
+      beat_count: 0,
+      downbeat_count: 0,
+      error: 'Disabled for browser uploads.',
+    },
+  };
+  const scoring = scoreBrowserFramework(audio, framework.name);
+  return {
+    generated_at: new Date().toISOString(),
+    text_path: null,
+    audio,
+    text: {
+      title: titleFromFilename(file.name),
+      word_count: null,
+      line_count: null,
+      section_count: null,
+      repeated_line_ratio: null,
+      rhyme_suffix_reuse: null,
+    },
+    framework: {
+      path: framework.path,
+      name: framework.name,
+      characters_loaded: framework.text?.length || 0,
+    },
+    framework_scoring: scoring,
+    llm_adjusted_scoring: { available: false },
+    transcription_quality: {
+      available: false,
+      error: 'Disabled for browser uploads.',
+    },
+  };
+}
+
+function albumStats(records, totalTracks = null) {
+  const axisKeys = Array.from(new Set(records.flatMap(record => Object.keys(record.axes || {})))).sort();
+  const coreKeys = Array.from(new Set(records.flatMap(record => Object.keys(record.core_metrics || {})))).sort();
+  return {
+    track_count: totalTracks ?? records.length,
+    analyzed_count: records.length,
+    average_score: average(records.map(record => record.score)),
+    average_rung: average(records.map(record => record.rung_number)),
+    average_tempo_bpm: average(records.map(record => record.tempo_bpm)),
+    total_duration_seconds: sum(records.map(record => Number(record.duration_seconds) || 0)),
+    axes: Object.fromEntries(axisKeys.map(key => [key, average(records.map(record => record.axes?.[key]))])),
+    core_metrics: Object.fromEntries(coreKeys.map(key => [key, average(records.map(record => record.core_metrics?.[key]))])),
+  };
+}
+
+function syncLocalUploads() {
+  state.records = [...state.baseRecords, ...state.localRecords];
+  const localTracks = state.localRecords.map((record, index) => ({
+    index: index + 1,
+    track_number: index + 1,
+    title: record.title,
+    text_path: '',
+    audio_path: record.audio_path,
+    audio_url: record.audio_url,
+    analysis: record,
+  }));
+  const localAlbum = localTracks.length ? [{
+    name: 'Local Uploads',
+    track_count: localTracks.length,
+    tracks: localTracks,
+    stats: albumStats(state.localRecords, localTracks.length),
+  }] : [];
+  state.albums = [...state.baseAlbums, ...localAlbum];
+  rebuildLyricsIndex();
+}
+
+function selectedFramework() {
+  return state.frameworks.find(framework => framework.name === $('uploadFramework').value) || state.frameworks[0] || {
+    name: 'Sorelian.txt',
+    path: 'analyzer/Sorelian.txt',
+    text: '',
+  };
+}
+
+async function analyzeUploads() {
+  const files = Array.from($('uploadFiles').files || []).filter(file => file.type === 'audio/mpeg' || file.name.toLowerCase().endsWith('.mp3'));
+  if (!files.length) {
+    $('uploadStatus').textContent = 'No MP3 selected.';
+    return;
+  }
+  const button = $('analyzeUploadsBtn');
+  button.disabled = true;
+  const framework = selectedFramework();
+  try {
+    for (const [index, file] of files.entries()) {
+      $('uploadStatus').textContent = `Analyzing ${index + 1}/${files.length}: ${file.name}`;
+      const report = await analyzeUploadedFile(file, framework);
+      const objectUrl = URL.createObjectURL(file);
+      state.localObjectUrls.push(objectUrl);
+      state.uploadSerial += 1;
+      const reportPath = `local-upload/${Date.now()}-${state.uploadSerial}.analysis.json`;
+      const axes = report.framework_scoring.axes || {};
+      const record = {
+        report_path: reportPath,
+        report_url: '',
+        source_type: 'upload',
+        generated_at: report.generated_at,
+        title: report.text.title,
+        album: 'Local Uploads',
+        track_number: state.localRecords.length + 1,
+        audio_path: file.name,
+        audio_url: objectUrl,
+        framework: report.framework.name,
+        score: average(Object.values(axes)),
+        axes,
+        core_metrics: report.framework_scoring.core_metrics || {},
+        rung_number: report.framework_scoring.rung_estimate?.number ?? null,
+        rung_label: report.framework_scoring.rung_estimate?.label || '',
+        confidence: report.framework_scoring.confidence_0_10,
+        duration_seconds: report.audio.duration_seconds,
+        tempo_bpm: report.audio.tempo_bpm,
+        estimated_key: report.audio.estimated_key,
+        key_confidence: report.audio.key_confidence,
+        integrated_lufs: report.audio.integrated_lufs,
+        peak_dbfs: report.audio.peak_dbfs,
+        crest_factor_db: report.audio.crest_factor_db,
+        clipping_ratio: report.audio.clipping_ratio,
+        onset_rate_per_second: report.audio.onset_rate_per_second,
+        recurrence_ratio: report.audio.recurrence_ratio,
+      };
+      state.localReports[reportPath] = report;
+      state.localRecords.push(record);
+      syncLocalUploads();
+      renderStatistics();
+    }
+    $('uploadStatus').textContent = `${files.length} upload${files.length === 1 ? '' : 's'} analyzed.`;
+  } catch (err) {
+    $('uploadStatus').textContent = err.message;
+  } finally {
+    button.disabled = false;
+  }
+}
+
+function clearUploads() {
+  const uploadUrls = new Set(state.localObjectUrls);
+  state.playlist = state.playlist.filter(track => !uploadUrls.has(track.url));
+  if (state.currentTrack && uploadUrls.has(state.currentTrack.url)) {
+    state.currentPlaylistIndex = -1;
+    setPlayerTrack(null);
+  }
+  state.localObjectUrls.forEach(url => URL.revokeObjectURL(url));
+  state.localObjectUrls = [];
+  state.localRecords = [];
+  state.localReports = {};
+  syncLocalUploads();
+  state.selectedAlbum = null;
+  $('uploadFiles').value = '';
+  $('uploadStatus').textContent = '';
+  renderStatistics();
+}
+
+function matchesFilter(value) {
+  const query = state.filter.trim().toLowerCase();
+  return !query || String(value || '').toLowerCase().includes(query);
+}
+
+function filteredRecords() {
+  return state.records.filter(record =>
+    matchesFilter(record.title) ||
+    matchesFilter(record.album) ||
+    matchesFilter(record.framework)
+  );
+}
+
+function filteredAlbums() {
+  const recordAlbums = new Set(filteredRecords().map(record => record.album));
+  return state.albums.filter(album => recordAlbums.has(album.name) || matchesFilter(album.name));
+}
+
+function renderAlbumList() {
+  const albums = filteredAlbums().slice().sort((a, b) => {
+    const scoreA = Number(a.stats?.average_score);
+    const scoreB = Number(b.stats?.average_score);
+    const finiteA = Number.isFinite(scoreA);
+    const finiteB = Number.isFinite(scoreB);
+    if (finiteA && finiteB && scoreA !== scoreB) return scoreB - scoreA;
+    if (finiteA !== finiteB) return finiteA ? -1 : 1;
+    return String(a.name).localeCompare(String(b.name));
+  });
+  $('albumList').innerHTML = albums.length ? albums.map(album => `
+    <div class="album-item ${album.name === state.selectedAlbum ? 'active' : ''}" data-album-name="${escapeHtml(album.name)}">
+      <div class="album-title">${escapeHtml(album.name)}</div>
+      <div class="meta">${album.stats?.analyzed_count ?? album.tracks?.length ?? 0} analyzed · ${fmt(album.stats?.average_score, 2)} avg</div>
+    </div>
+  `).join('') : '<div class="empty">No matching albums.</div>';
+}
+
+function renderStatistics() {
+  state.currentView = 'discography';
+  state.selectedReportPath = null;
+  const records = filteredRecords();
+  const groupRows = groupAverage(records, 'album');
+  const albumRows = filteredAlbums().slice().sort((a, b) => {
+    const scoreA = Number(a.stats?.average_score);
+    const scoreB = Number(b.stats?.average_score);
+    const finiteA = Number.isFinite(scoreA);
+    const finiteB = Number.isFinite(scoreB);
+    if (finiteA && finiteB && scoreA !== scoreB) return scoreB - scoreA;
+    if (finiteA !== finiteB) return finiteA ? -1 : 1;
+    return String(a.name).localeCompare(String(b.name));
+  });
+  const tableRows = records.slice().sort((a, b) => {
+    const scoreA = Number(a.score);
+    const scoreB = Number(b.score);
+    const finiteA = Number.isFinite(scoreA);
+    const finiteB = Number.isFinite(scoreB);
+    if (finiteA && finiteB && scoreA !== scoreB) return scoreB - scoreA;
+    if (finiteA !== finiteB) return finiteA ? -1 : 1;
+    return String(a.album).localeCompare(String(b.album)) || String(a.title).localeCompare(String(b.title));
+  });
+  $('detail').className = '';
+  $('detail').innerHTML = `
+    <div class="topline">
+      <div>
+        <h2>Discography</h2>
+        <div class="meta">${records.length} filtered of ${state.records.length} analyzed songs.</div>
+      </div>
+      <span class="status">${state.catalog?.generated_at || 'catalog'}</span>
+    </div>
+    <div class="summary">
+      <div class="metric"><strong>${records.length}</strong><span>Results</span></div>
+      <div class="metric"><strong>${fmt(average(records.map(r => r.score)), 2)}</strong><span>Avg Score</span></div>
+      <div class="metric"><strong>${fmt(average(records.map(r => r.rung_number)), 2)}</strong><span>Avg Rung</span></div>
+      <div class="metric"><strong>${fmt(average(records.map(r => r.tempo_bpm)), 1)}</strong><span>Avg BPM</span></div>
+    </div>
+    ${albumRows.length ? `
+      <div class="stats-table-wrap" style="margin-bottom:14px">
+        <div class="meta" style="padding:10px 12px 4px">Albums</div>
+        <table>
+          <thead><tr><th>Album</th><th>Analyzed</th><th>Avg Score</th><th>Avg Rung</th><th>Avg BPM</th><th>Duration</th><th>Audio</th></tr></thead>
+          <tbody>
+            ${albumRows.map(album => `
+              <tr>
+                <td><button class="title-link" type="button" data-album-name="${escapeHtml(album.name)}">${escapeHtml(album.name)}</button></td>
+                <td>${album.stats?.analyzed_count ?? 0}</td>
+                <td>${fmt(album.stats?.average_score, 3)}</td>
+                <td>${fmt(album.stats?.average_rung, 2)}</td>
+                <td>${fmt(album.stats?.average_tempo_bpm, 1)}</td>
+                <td>${formatDuration(album.stats?.total_duration_seconds)}</td>
+                <td><button class="secondary" type="button" data-play-album-name="${escapeHtml(album.name)}">Play Album</button></td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    ` : ''}
+    ${records.length ? `
+      <div class="charts">
+        <div class="chart-panel"><h3>Average Axis Scores</h3>${barChart(axisAverages(records), { max: 10 })}</div>
+        <div class="chart-panel"><h3>Score Distribution</h3>${scoreHistogram(records)}</div>
+        <div class="chart-panel"><h3>Average Score by Album</h3>${barChart(groupRows, { max: 10, fill: 'alt' })}</div>
+        <div class="chart-panel"><h3>Rung Distribution</h3>${barChart(countBy(records.filter(r => r.rung_number !== null), r => String(Math.round(Number(r.rung_number)))), { fill: 'warm', digits: 0 })}</div>
+      </div>
+      <div class="stats-table-wrap">
+        <div class="meta" style="padding:10px 12px 4px">Songs</div>
+        <table>
+          <thead><tr><th>Rank</th><th>Title</th><th>Album</th><th>Score</th><th>Rung</th><th>BPM</th><th>Framework</th><th>Audio</th><th>Report</th></tr></thead>
+          <tbody>
+            ${tableRows.map((record, index) => `
+              <tr>
+                <td>${index + 1}</td>
+                <td><button class="title-link" type="button" data-report-path="${escapeHtml(record.report_path)}">${escapeHtml(record.title)}</button></td>
+                <td><button class="title-link" type="button" data-album-name="${escapeHtml(record.album)}">${escapeHtml(record.album)}</button></td>
+                <td>${fmt(record.score, 3)}</td>
+                <td>${record.rung_number ?? '-'} ${escapeHtml(record.rung_label || '')}</td>
+                <td>${fmt(record.tempo_bpm, 1)}</td>
+                <td>${escapeHtml(record.framework)}</td>
+                <td>${record.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(record.audio_url)}" data-track-title="${escapeHtml(record.title)}" data-track-meta="${escapeHtml(record.audio_path)}" data-lyrics-url="${escapeHtml(record.lyrics_url || lyricsUrlForAudio(record.audio_url))}">Play</button>` : '-'}</td>
+                <td>${record.report_url ? `<a href="${escapeHtml(record.report_url)}" target="_blank" rel="noopener">JSON</a>` : '-'}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    ` : '<div class="empty">No analyzed songs match the current filter.</div>'}
+  `;
+  renderAlbumList();
+  syncNavButtons();
+  syncPlayButtons();
+}
+
+function albumTracksForPlaylist(album) {
+  return (album?.tracks || [])
+    .filter(track => track.audio_url)
+    .map(track => ({
+      url: track.audio_url,
+      title: track.title || 'Untitled',
+      meta: track.audio_path || album.name || '',
+      lyricsUrl: track.lyrics_url || lyricsUrlForAudio(track.audio_url)
+    }));
+}
+
+function renderAlbumDetail(albumName) {
+  const album = state.albums.find(item => item.name === albumName);
+  if (!album) return;
+  state.selectedAlbum = album.name;
+  state.selectedAlbumDetail = album;
+  state.selectedReportPath = null;
+  state.currentView = 'discography';
+  const tracks = (album.tracks || []).filter(track =>
+    matchesFilter(track.title) ||
+    matchesFilter(track.audio_path) ||
+    matchesFilter(track.analysis?.framework) ||
+    matchesFilter(album.name)
+  );
+  const stats = album.stats || {};
+  const axisRows = rowsFromObject(stats.axes, axisLabel);
+  const coreRows = rowsFromObject(stats.core_metrics, key => String(key).replaceAll('_', ' '));
+  $('detail').className = '';
+  $('detail').innerHTML = `
+    <div class="topline">
+      <div>
+        <h2>${escapeHtml(album.name)}</h2>
+        <div class="meta">${tracks.length} analyzed tracks</div>
+      </div>
+      <div class="header-actions">
+        <button class="secondary" type="button" data-copy-album-link="${escapeHtml(album.name)}">Copy Link</button>
+        <button class="secondary" type="button" data-play-album ${tracks.some(track => track.audio_url) ? '' : 'disabled'}>Play Album</button>
+        <button class="secondary" type="button" data-statistics-back>Back</button>
+      </div>
+    </div>
+    <div class="summary">
+      <div class="metric"><strong>${fmt(stats.average_score, 3)}</strong><span>Avg Score</span></div>
+      <div class="metric"><strong>${fmt(stats.average_rung, 2)}</strong><span>Avg Rung</span></div>
+      <div class="metric"><strong>${fmt(stats.average_tempo_bpm, 1)}</strong><span>Avg BPM</span></div>
+      <div class="metric"><strong>${formatDuration(stats.total_duration_seconds)}</strong><span>Duration</span></div>
+    </div>
+    <div class="charts">
+      <div class="chart-panel"><h3>Average Axis Scores</h3>${barChart(axisRows, { max: 10 })}</div>
+      <div class="chart-panel"><h3>Core Metrics</h3>${barChart(coreRows, { max: 10, fill: 'alt' })}</div>
+    </div>
+    <div class="stats-table-wrap">
+      <div class="meta" style="padding:10px 12px 4px">Track order</div>
+      <table>
+        <thead><tr><th>#</th><th>Title</th><th>Score</th><th>Rung</th><th>BPM</th><th>Duration</th><th>Audio</th><th>Report</th></tr></thead>
+        <tbody>
+          ${tracks.map(track => {
+            const analysis = track.analysis || {};
+            return `
+              <tr>
+                <td>${track.track_number ?? track.index ?? '-'}</td>
+                <td>${analysis.report_path ? `<button class="title-link" type="button" data-report-path="${escapeHtml(analysis.report_path)}">${escapeHtml(track.title)}</button>` : escapeHtml(track.title)}</td>
+                <td>${fmt(analysis.score, 3)}</td>
+                <td>${analysis.rung_number ?? '-'} ${escapeHtml(analysis.rung_label || '')}</td>
+                <td>${fmt(analysis.tempo_bpm, 1)}</td>
+                <td>${formatDuration(analysis.duration_seconds)}</td>
+                <td>${track.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(track.audio_url)}" data-track-title="${escapeHtml(track.title)}" data-track-meta="${escapeHtml(track.audio_path)}" data-lyrics-url="${escapeHtml(track.lyrics_url || lyricsUrlForAudio(track.audio_url))}">Play</button>` : '-'}</td>
+                <td>${analysis.report_url ? `<a href="${escapeHtml(analysis.report_url)}" target="_blank" rel="noopener">JSON</a>` : '-'}</td>
+              </tr>
+            `;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>
+  `;
+  renderAlbumList();
+  syncNavButtons();
+  syncPlayButtons();
+}
+
+function reportDefinitionRows(rows) {
+  return `<dl>${rows
+    .filter(([, value]) => value !== undefined && value !== null && value !== '')
+    .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd>`)
+    .join('')}</dl>`;
+}
+
+function reportList(items) {
+  const rows = (items || []).filter(Boolean);
+  return rows.length ? `<ul>${rows.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : '<div class="meta">No notes available.</div>';
+}
+
+function selectedReportScoring(report) {
+  const llm = report.llm_adjusted_scoring || {};
+  return llm.available ? llm : (report.framework_scoring || {});
+}
+
+function averageScoreFromAxes(axes) {
+  return average(Object.values(axes || {}));
+}
+
+function titleFromPath(path) {
+  return String(path || '').split('/').pop()?.replace(/\.[^.]+$/, '') || 'Untitled';
+}
+
+function scoreChip(label, value, digits = 2) {
+  return `
+    <div class="score-chip">
+      <strong>${fmt(value, digits)}</strong>
+      <span>${escapeHtml(label)}</span>
+    </div>
+  `;
+}
+
+function reportAxisTable(scoring, baseScoring) {
+  const axes = scoring.axes || {};
+  const baseAxes = baseScoring.axes || {};
+  const adjusted = scoring !== baseScoring;
+  const rows = Object.entries(axes).map(([key, value]) => {
+    const baseValue = Number(baseAxes[key]);
+    const valueNumber = Number(value);
+    const delta = Number.isFinite(baseValue) && Number.isFinite(valueNumber) ? valueNumber - baseValue : null;
+    return `
+      <tr>
+        <td>${escapeHtml(axisLabel(key))}</td>
+        <td>${fmt(value, 2)}</td>
+        ${adjusted ? `<td>${fmt(baseValue, 2)}</td><td>${delta === null ? '-' : `${delta >= 0 ? '+' : ''}${fmt(delta, 2)}`}</td>` : ''}
+      </tr>
+    `;
+  }).join('');
+  if (!rows) return '<div class="meta">No axis scores available.</div>';
+  return `
+    <table>
+      <thead><tr><th>Axis</th><th>Score</th>${adjusted ? '<th>Base</th><th>Delta</th>' : ''}</tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+}
+
+function reportSectionTable(sections) {
+  const rows = (sections || []).map(section => `
+    <tr>
+      <td>${section.index ?? '-'}</td>
+      <td>${fmt(section.start, 1)}s</td>
+      <td>${fmt(section.end, 1)}s</td>
+      <td>${fmt(section.duration, 1)}s</td>
+    </tr>
+  `).join('');
+  if (!rows) return '<div class="meta">No section map available.</div>';
+  return `
+    <table>
+      <thead><tr><th>#</th><th>Start</th><th>End</th><th>Duration</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+    `;
+}
+
+function fallbackReportFromRecord(record, error) {
+  return {
+    generated_at: record.generated_at,
+    text_path: record.text_path,
+    audio: {
+      path: record.audio_path,
+      duration_seconds: record.duration_seconds,
+      tempo_bpm: record.tempo_bpm,
+      estimated_key: record.estimated_key,
+      key_confidence: record.key_confidence,
+      integrated_lufs: record.integrated_lufs,
+      peak_dbfs: record.peak_dbfs,
+      crest_factor_db: record.crest_factor_db,
+      clipping_ratio: record.clipping_ratio,
+      onset_rate_per_second: record.onset_rate_per_second,
+      recurrence_ratio: record.recurrence_ratio,
+      detected_sections: [],
+      beat_this: { available: false },
+    },
+    text: { title: record.title },
+    framework: { name: record.framework },
+    framework_scoring: {
+      axes: record.axes || {},
+      core_metrics: record.core_metrics || {},
+      rung_estimate: {
+        number: record.rung_number,
+        label: record.rung_label,
+      },
+      confidence_0_10: record.confidence,
+      eg_evidence: {},
+      rationale: [
+        `Full report JSON could not be loaded (${error.message}); showing catalog summary data.`,
+      ],
+    },
+    llm_adjusted_scoring: { available: false },
+    transcription_quality: {
+      available: false,
+      error: 'Full report JSON unavailable.',
+    },
+  };
+}
+
+async function showAnalysisReport(reportPath) {
+  const record = state.records.find(item => item.report_path === reportPath);
+  if (!record) return;
+  state.selectedReportPath = reportPath;
+  state.currentView = 'discography';
+  $('detail').className = '';
+  $('detail').innerHTML = '<div class="empty">Loading report...</div>';
+  try {
+    if (state.localReports[reportPath]) {
+      renderAnalysisReport(state.localReports[reportPath], record);
+    } else {
+      const response = await fetch(record.report_url);
+      if (!response.ok) throw new Error(`Report load failed: ${response.status}`);
+      renderAnalysisReport(await response.json(), record);
+    }
+  } catch (err) {
+    renderAnalysisReport(fallbackReportFromRecord(record, err), record);
+  }
+}
+
+function renderAnalysisReport(report, record) {
+  const audio = report.audio || {};
+  const text = report.text || {};
+  const framework = report.framework || {};
+  const baseScoring = report.framework_scoring || {};
+  const scoring = selectedReportScoring(report);
+  const axes = scoring.axes || {};
+  const core = scoring.core_metrics || {};
+  const rung = scoring.rung_estimate || {};
+  const llm = report.llm_adjusted_scoring || {};
+  const transcription = report.transcription_quality || {};
+  const title = text.title || record.title || titleFromPath(audio.path || record.report_path);
+  const score = averageScoreFromAxes(axes);
+  const egEvidence = baseScoring.eg_evidence || {};
+  const adjustments = llm.available ? Object.entries(llm.adjustments || {}).map(([axis, item]) =>
+    `${axisLabel(axis)}: ${item.delta >= 0 ? '+' : ''}${fmt(item.delta, 2)}. ${item.reason || ''}`
+  ) : [];
+  $('detail').className = '';
+  $('detail').innerHTML = `
+    <div class="report-layout">
+      <div class="topline">
+        <div>
+          <h2>${escapeHtml(title)}</h2>
+          <div class="meta">${escapeHtml(audio.path || record.report_path)}</div>
+        </div>
+        <div class="header-actions">
+          <button class="secondary" type="button" data-copy-report-link="${escapeHtml(record.report_path)}">Copy Link</button>
+          ${record.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(record.audio_url)}" data-track-title="${escapeHtml(title)}" data-track-meta="${escapeHtml(record.audio_path)}" data-lyrics-url="${escapeHtml(record.lyrics_url || lyricsUrlForAudio(record.audio_url))}">Play</button>` : ''}
+          <button class="secondary" type="button" data-statistics-back>Back</button>
+          ${record.report_url ? `<a href="${escapeHtml(record.report_url)}" target="_blank" rel="noopener">JSON</a>` : ''}
+        </div>
+      </div>
+      <div class="summary">
+        <div class="metric"><strong>${fmt(score, 3)}</strong><span>Score</span></div>
+        <div class="metric"><strong>${rung.number ?? '-'}</strong><span>${escapeHtml(rung.label || 'Rung')}</span></div>
+        <div class="metric"><strong>${fmt(scoring.confidence_0_10, 1)}</strong><span>Confidence</span></div>
+        <div class="metric"><strong>${fmt(audio.tempo_bpm, 1)}</strong><span>BPM</span></div>
+      </div>
+      <div class="report-grid">
+        <div class="report-panel">
+          <h3>Audio</h3>
+          ${reportDefinitionRows([
+            ['Duration', audio.duration || (audio.duration_seconds ? `${fmt(audio.duration_seconds, 1)}s` : '')],
+            ['Key', `${audio.estimated_key || '-'} (${fmt(audio.key_confidence, 2)} confidence)`],
+            ['Loudness', `${fmt(audio.integrated_lufs, 1)} LUFS`],
+            ['Peak', `${fmt(audio.peak_dbfs, 1)} dBFS`],
+            ['Crest', `${fmt(audio.crest_factor_db, 1)} dB`],
+            ['Clipping ratio', fmt(audio.clipping_ratio, 6)],
+            ['Onset rate', `${fmt(audio.onset_rate_per_second, 2)} / sec`],
+            ['Recurrence', fmt(audio.recurrence_ratio, 3)],
+            ['Detected sections', (audio.detected_sections || []).length]
+          ])}
+        </div>
+        <div class="report-panel">
+          <h3>Text</h3>
+          ${reportDefinitionRows([
+            ['Text path', report.text_path],
+            ['Genre', text.declared_genre],
+            ['Mood', text.declared_mood],
+            ['Declared tempo', text.declared_tempo],
+            ['Declared key', text.declared_key],
+            ['Words', text.word_count],
+            ['Lines', text.line_count],
+            ['Sections', text.section_count],
+            ['Repeated lines', fmt(text.repeated_line_ratio, 2)],
+            ['Rhyme reuse', fmt(text.rhyme_suffix_reuse, 2)]
+          ])}
+        </div>
+        <div class="report-panel">
+          <h3>Transcription</h3>
+          ${transcription.available ? reportDefinitionRows([
+            ['Backend', transcription.backend],
+            ['Model', transcription.model],
+            ['Quality', fmt(transcription.quality_score_0_10, 1)],
+            ['Alignment', fmt(transcription.lyric_alignment_ratio, 3)],
+            ['Coverage', fmt(transcription.unique_expected_word_coverage, 3)],
+            ['Word ratio', fmt(transcription.word_count_ratio, 3)],
+            ['Duplicate passes', transcription.likely_duplicate_passes],
+            ['Flags', (transcription.flags || []).join(', ')]
+          ]) : reportDefinitionRows([
+            ['Available', 'no'],
+            ['Reason', transcription.error || 'not requested']
+          ])}
+        </div>
+        <div class="report-panel report-wide">
+          <h3>Framework Scores${llm.available ? ' (LLM-adjusted)' : ''}</h3>
+          <div class="score-summary">
+            ${core.CDPD !== undefined ? scoreChip('CDPD', core.CDPD, 2) : ''}
+            ${core.NGE !== undefined ? scoreChip('NGE', core.NGE, 2) : ''}
+            ${core.HMII_peak_estimate !== undefined ? scoreChip('HMII', core.HMII_peak_estimate, 0) : ''}
+            <div class="score-chip"><strong>${escapeHtml(framework.name || '-')}</strong><span>Framework</span></div>
+          </div>
+          ${reportAxisTable(scoring, baseScoring)}
+        </div>
+        ${llm.available ? `
+          <div class="report-panel report-wide">
+            <h3>LLM Adjustments</h3>
+            ${reportList(adjustments)}
+            ${llm.review_flags?.length ? `<h3 style="margin-top:14px">Review Flags</h3>${reportList(llm.review_flags)}` : ''}
+          </div>
+        ` : ''}
+        <div class="report-panel">
+          <h3>Evolving Grammar Signals</h3>
+          ${reportDefinitionRows([
+            ['Section contrast', fmt(egEvidence.section_contrast_score, 2)],
+            ['Cumulative evolution', fmt(egEvidence.cumulative_evolution_score, 2)],
+            ['Transformed returns', fmt(egEvidence.transformed_return_score, 2)],
+            ['Grid deviation', fmt(egEvidence.controlled_grid_deviation_score, 2)],
+            ['Rule changes', fmt(egEvidence.rule_change_score, 2)],
+            ['Production intent', fmt(egEvidence.production_transform_score, 2)],
+            ['Overall', fmt(egEvidence.overall_score, 2)]
+          ])}
+        </div>
+        <div class="report-panel">
+          <h3>Beat Grid</h3>
+          ${reportDefinitionRows([
+            ['Available', audio.beat_this?.available ? 'yes' : 'no'],
+            ['Beats', audio.beat_this?.beat_count],
+            ['Downbeats', audio.beat_this?.downbeat_count],
+            ['Tempo', audio.beat_this?.tempo_bpm ? `${fmt(audio.beat_this.tempo_bpm, 1)} BPM` : ''],
+            ['Beat stability', fmt(audio.beat_this?.beat_grid_stability, 2)],
+            ['Bar stability', fmt(audio.beat_this?.bar_grid_stability, 2)]
+          ])}
+        </div>
+        <div class="report-panel report-wide">
+          <h3>Rationale</h3>
+          ${reportList(scoring.rationale || baseScoring.rationale)}
+        </div>
+        <div class="report-panel report-wide">
+          <h3>Section Map</h3>
+          ${reportSectionTable(audio.detected_sections)}
+        </div>
+      </div>
+    </div>
+  `;
+  syncPlayButtons();
+  syncNavButtons();
+}
+
+function playlistItemId() {
+  state.playlistSerial += 1;
+  return `${Date.now()}-${state.playlistSerial}`;
+}
+
+function trackFromButton(button) {
+  return {
+    url: button.dataset.audioUrl,
+    title: button.dataset.trackTitle || 'Selected track',
+    meta: button.dataset.trackMeta || '',
+    lyricsUrl: button.dataset.lyricsUrl || lyricsUrlForAudio(button.dataset.audioUrl)
+  };
+}
+
+function addToPlaylist(track, { startIfIdle = true } = {}) {
+  if (!track?.url) return;
+  const wasEmpty = state.playlist.length === 0;
+  state.playlist.push({ ...track, id: playlistItemId() });
+  if (wasEmpty) state.currentPlaylistIndex = 0;
+  renderPlaylist();
+  if (startIfIdle && (wasEmpty || !$('globalAudio').getAttribute('src'))) {
+    playPlaylistIndex(state.currentPlaylistIndex);
+  }
+}
+
+function addManyToPlaylist(tracks) {
+  const playable = (tracks || []).filter(track => track?.url);
+  if (!playable.length) return;
+  const wasEmpty = state.playlist.length === 0;
+  playable.forEach(track => state.playlist.push({ ...track, id: playlistItemId() }));
+  if (wasEmpty) {
+    state.currentPlaylistIndex = 0;
+    playPlaylistIndex(0);
+  } else {
+    renderPlaylist();
+  }
+}
+
+function setPlayerTrack(track) {
+  const audio = $('globalAudio');
+  if (!track?.url) {
+    audio.pause();
+    audio.removeAttribute('src');
+    audio.load();
+    state.currentTrack = null;
+    state.timedLyricsRequestId += 1;
+    resetTimedLyrics();
+    $('playerTitle').textContent = 'No track selected';
+    $('playerMeta').textContent = 'Use a Play button to add tracks to the playlist.';
+    return;
+  }
+  if (audio.getAttribute('src') !== track.url) {
+    audio.src = track.url;
+    audio.load();
+  }
+  audio.currentTime = 0;
+  state.currentTrack = track;
+  clearManualLyricOverride();
+  $('playerTitle').textContent = track.title;
+  $('playerMeta').textContent = track.meta || track.url;
+  loadTimedLyrics(track);
+}
+
+async function playPlaylistIndex(index) {
+  const audio = $('globalAudio');
+  if (!state.playlist.length) {
+    state.currentPlaylistIndex = -1;
+    setPlayerTrack(null);
+    syncPlayButtons();
+    return;
+  }
+  const normalizedIndex = ((index % state.playlist.length) + state.playlist.length) % state.playlist.length;
+  state.currentPlaylistIndex = normalizedIndex;
+  setPlayerTrack(state.playlist[normalizedIndex]);
+  syncPlayButtons();
+  try {
+    await audio.play();
+  } catch (err) {
+    console.warn(err);
+  } finally {
+    syncPlayButtons();
+  }
+}
+
+function advancePlaylist() {
+  if (!state.playlist.length) return;
+  playPlaylistIndex(state.currentPlaylistIndex + 1);
+}
+
+function removePlaylistItem(id) {
+  const index = state.playlist.findIndex(item => item.id === id);
+  if (index < 0) return;
+  const removingCurrent = index === state.currentPlaylistIndex;
+  state.playlist.splice(index, 1);
+  if (!state.playlist.length) {
+    state.currentPlaylistIndex = -1;
+    setPlayerTrack(null);
+    syncPlayButtons();
+    return;
+  }
+  if (index < state.currentPlaylistIndex) {
+    state.currentPlaylistIndex -= 1;
+  } else if (removingCurrent) {
+    state.currentPlaylistIndex = Math.min(index, state.playlist.length - 1);
+    playPlaylistIndex(state.currentPlaylistIndex);
+    return;
+  }
+  renderPlaylist();
+  syncPlayButtons();
+}
+
+function renderPlaylist() {
+  const count = state.playlist.length;
+  const audio = $('globalAudio');
+  const playing = !audio.paused && !audio.ended;
+  $('playlistCount').textContent = count ? `${count} queued` : 'Playlist empty';
+  $('playlistList').innerHTML = count ? state.playlist.map((track, index) => {
+    const isCurrent = index === state.currentPlaylistIndex;
+    const isPlaying = isCurrent && playing;
+    return `
+      <div class="playlist-item ${isCurrent ? 'active' : ''}">
+        <div class="playlist-item-title">
+          <strong>${escapeHtml(track.title)}</strong>
+          <span>${escapeHtml(track.meta || track.url)}</span>
+        </div>
+        <button class="secondary ${isPlaying ? 'playing' : ''}" type="button" data-play-playlist="${index}">${isPlaying ? 'Now Playing' : 'Play'}</button>
+        <button class="danger" type="button" data-remove-playlist="${escapeHtml(track.id)}">Remove</button>
+      </div>
+    `;
+  }).join('') : '<div class="playlist-item"><div class="playlist-item-title"><span>No queued tracks.</span></div></div>';
+}
+
+function syncPlayButtons() {
+  const audio = $('globalAudio');
+  const currentUrl = state.currentTrack?.url || '';
+  const playing = currentUrl && !audio.paused && !audio.ended;
+  document.querySelectorAll('[data-play-audio]').forEach(button => {
+    const isCurrent = button.dataset.audioUrl === currentUrl;
+    button.classList.toggle('playing', Boolean(isCurrent && playing));
+    button.textContent = isCurrent && playing ? 'Now Playing' : 'Play';
+  });
+  renderPlaylist();
+}
+
+async function fetchJson(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`${url} load failed: ${response.status}`);
+  return response.json();
+}
+
+async function catalogSection(catalog, key, fallback) {
+  if (catalog[key] !== undefined) return catalog[key];
+  const url = catalog.data_files?.[key];
+  if (!url) return fallback;
+  return fetchJson(url);
+}
+
+async function loadCatalog() {
+  const catalog = await fetchJson('data/catalog.json');
+  const [frameworks, statistics, albums] = await Promise.all([
+    catalogSection(catalog, 'frameworks', []),
+    catalogSection(catalog, 'statistics', {}),
+    catalogSection(catalog, 'albums', []),
+  ]);
+  state.catalog = { ...catalog, frameworks, statistics, albums };
+  state.frameworks = frameworks || [];
+  $('uploadFramework').innerHTML = state.frameworks.length
+    ? state.frameworks.map(framework => `<option value="${escapeHtml(framework.name)}" ${framework.name === 'Sorelian.txt' ? 'selected' : ''}>${escapeHtml(framework.name.replace(/\.txt$/, ''))}</option>`).join('')
+    : '<option value="Sorelian.txt">Sorelian</option>';
+  state.baseAlbums = albums || [];
+  state.baseRecords = statistics?.records || [];
+  syncLocalUploads();
+  $('dataState').textContent = `${state.records.length} songs`;
+  renderAlbumList();
+  await applyRouteFromUrl({ replace: true });
+}
+
+$('newsBtn').addEventListener('click', () => {
+  navigateToNews();
+});
+$('statsBtn').addEventListener('click', () => {
+  navigateToStatistics();
+});
+$('themeToggle').addEventListener('click', toggleTheme);
+$('search').addEventListener('input', event => {
+  state.filter = event.target.value;
+  if (state.selectedAlbum) renderAlbumDetail(state.selectedAlbum);
+  else if (state.currentView === 'news') renderNews();
+  else renderStatistics();
+});
+$('analyzeUploadsBtn').addEventListener('click', () => analyzeUploads());
+$('clearUploadsBtn').addEventListener('click', clearUploads);
+$('globalAudio').addEventListener('ended', advancePlaylist);
+$('globalAudio').addEventListener('play', () => {
+  updateKaraokeLines();
+  syncPlayButtons();
+});
+$('globalAudio').addEventListener('pause', () => {
+  updateKaraokeLines();
+  syncPlayButtons();
+});
+$('globalAudio').addEventListener('timeupdate', updateKaraokeLines);
+$('globalAudio').addEventListener('seeked', updateKaraokeLines);
+$('karaokePrevBtn').addEventListener('click', () => shiftManualLyric(-1));
+$('karaokeNextBtn').addEventListener('click', () => shiftManualLyric(1));
+document.addEventListener('click', async event => {
+  const copyLinkButton = event.target.closest('[data-copy-album-link], [data-copy-report-link]');
+  if (copyLinkButton) {
+    await copyRouteFromButton(copyLinkButton);
+    return;
+  }
+  const albumButton = event.target.closest('[data-album-name]');
+  if (albumButton) {
+    navigateToAlbum(albumButton.dataset.albumName);
+    return;
+  }
+  const namedAlbumPlayButton = event.target.closest('[data-play-album-name]');
+  if (namedAlbumPlayButton) {
+    const album = state.albums.find(item => item.name === namedAlbumPlayButton.dataset.playAlbumName);
+    addManyToPlaylist(albumTracksForPlaylist(album));
+    return;
+  }
+  const reportButton = event.target.closest('[data-report-path]');
+  if (reportButton) {
+    await navigateToReport(reportButton.dataset.reportPath);
+    return;
+  }
+  const backButton = event.target.closest('[data-statistics-back]');
+  if (backButton) {
+    if (state.selectedAlbum && state.selectedReportPath) {
+      navigateToAlbum(state.selectedAlbum);
+    } else {
+      navigateToStatistics();
+    }
+    return;
+  }
+  const albumPlayButton = event.target.closest('[data-play-album]');
+  if (albumPlayButton) {
+    addManyToPlaylist(albumTracksForPlaylist(state.selectedAlbumDetail));
+    return;
+  }
+  const playButton = event.target.closest('[data-play-audio]');
+  if (playButton) {
+    addToPlaylist(trackFromButton(playButton));
+    return;
+  }
+  const playlistPlayButton = event.target.closest('[data-play-playlist]');
+  if (playlistPlayButton) {
+    playPlaylistIndex(Number(playlistPlayButton.dataset.playPlaylist));
+    return;
+  }
+  const removePlaylistButton = event.target.closest('[data-remove-playlist]');
+  if (removePlaylistButton) {
+    removePlaylistItem(removePlaylistButton.dataset.removePlaylist);
+  }
+});
+
+window.addEventListener('popstate', () => {
+  applyRouteFromUrl();
+});
+
+syncThemeButton();
+loadCatalog().catch(err => {
+  $('dataState').textContent = 'error';
+  $('dataState').style.color = 'var(--error)';
+  $('detail').innerHTML = `<div class="empty" style="color:var(--error)">${escapeHtml(err.message)}</div>`;
+});

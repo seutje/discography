@@ -4,7 +4,7 @@
     {
       "title": "News section added",
       "datetime": "2026-06-08T19:28:14+02:00",
-      "body": "Added a News section as the default landing view, renamed the statistics view to Discography, and added navigation between News and Discography. Regenerated Oars From Strangers timed lyrics with word timestamps and added scoped final-chorus overrides so the lyrics recover from the 3:26 ad-lib at 3:39. Split the large catalog payload into a small manifest plus separate frameworks, statistics, and albums data files so the catalog is easier to edit and review."
+      "body": "Added a News section as the default landing view, renamed the statistics view to Discography, and added navigation between News and Discography. Regenerated Oars From Strangers timed lyrics with word timestamps and added scoped final-chorus overrides so the lyrics recover from the 3:26 ad-lib at 3:39. Split the large catalog payload into a small manifest plus separate frameworks, statistics, and albums data files so the catalog is easier to edit and review. Split the gh-pages frontend into separate HTML, CSS, and JavaScript files, and added query-param routing for the Discography view, album pages, and song reports. Song report pages now fall back to catalog summary data when the full report JSON is unavailable. Added Copy Link buttons to album and song pages so their routed URLs can be shared directly. Updated the site build so the deployable _site output includes the split CSS and JavaScript assets."
     }
   ],
   "data_files": {

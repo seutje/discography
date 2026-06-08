@@ -390,7 +390,8 @@ def copy_site_assets(catalog: dict[str, Any], output_dir: Path) -> None:
     if output_dir.exists():
         shutil.rmtree(output_dir)
     output_dir.mkdir(parents=True)
-    shutil.copy2(SOURCE_DIR / "index.html", output_dir / "index.html")
+    for asset_name in ("index.html", "styles.css", "app.js"):
+        shutil.copy2(SOURCE_DIR / asset_name, output_dir / asset_name)
     write_split_catalog(output_dir, strip_embedded_reports(catalog))
     if LYRIC_TIMING_DIR.exists():
         shutil.copytree(LYRIC_TIMING_DIR, output_dir / "data" / "lyrics")

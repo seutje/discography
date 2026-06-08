@@ -2235,16 +2235,33 @@
       renderPlaylist();
     }
 
+    async function fetchJson(url) {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`${url} load failed: ${response.status}`);
+      return response.json();
+    }
+
+    async function catalogSection(catalog, key, fallback) {
+      if (catalog[key] !== undefined) return catalog[key];
+      const url = catalog.data_files?.[key];
+      if (!url) return fallback;
+      return fetchJson(url);
+    }
+
     async function loadCatalog() {
-      const response = await fetch('data/catalog.json');
-      if (!response.ok) throw new Error(`Catalog load failed: ${response.status}`);
-      state.catalog = await response.json();
-      state.frameworks = state.catalog.frameworks || [];
+      const catalog = await fetchJson('data/catalog.json');
+      const [frameworks, statistics, albums] = await Promise.all([
+        catalogSection(catalog, 'frameworks', []),
+        catalogSection(catalog, 'statistics', {}),
+        catalogSection(catalog, 'albums', []),
+      ]);
+      state.catalog = { ...catalog, frameworks, statistics, albums };
+      state.frameworks = frameworks || [];
       $('uploadFramework').innerHTML = state.frameworks.length
         ? state.frameworks.map(framework => `<option value="${escapeHtml(framework.name)}" ${framework.name === 'Sorelian.txt' ? 'selected' : ''}>${escapeHtml(framework.name.replace(/\.txt$/, ''))}</option>`).join('')
         : '<option value="Sorelian.txt">Sorelian</option>';
-      state.baseAlbums = state.catalog.albums || [];
-      state.baseRecords = state.catalog.statistics?.records || [];
+      state.baseAlbums = albums || [];
+      state.baseRecords = statistics?.records || [];
       syncLocalUploads();
       $('dataState').textContent = `${state.records.length} songs`;
       renderAlbumList();

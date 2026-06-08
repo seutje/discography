@@ -17,6 +17,11 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "gh-pages"
 SOURCE_DATA = SOURCE_DIR / "data" / "catalog.json"
 LYRIC_TIMING_DIR = SOURCE_DIR / "data" / "lyrics"
+CATALOG_DATA_FILES = {
+    "frameworks": "data/frameworks.json",
+    "statistics": "data/statistics.json",
+    "albums": "data/albums.json",
+}
 AUDIO_EXTENSIONS = (".mp3", ".wav", ".m4a", ".flac", ".ogg")
 IGNORED_DIRS = {
     ".agents",
@@ -293,6 +298,38 @@ def build_catalog_from_reports() -> dict[str, Any]:
     }
 
 
+def split_catalog_manifest(catalog: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "generated_at": catalog.get("generated_at"),
+        "news": catalog.get("news") if isinstance(catalog.get("news"), list) else [],
+        "data_files": dict(CATALOG_DATA_FILES),
+    }
+
+
+def expand_catalog_files(catalog: dict[str, Any], base_dir: Path) -> dict[str, Any]:
+    data_files = catalog.get("data_files") if isinstance(catalog, dict) else None
+    if not isinstance(data_files, dict):
+        return catalog
+
+    expanded = dict(catalog)
+    for key in CATALOG_DATA_FILES:
+        if key in expanded:
+            continue
+        path_value = data_files.get(key)
+        if not isinstance(path_value, str):
+            continue
+        payload = read_json(base_dir / path_value)
+        if payload is not None:
+            expanded[key] = payload
+    return expanded
+
+
+def write_split_catalog(output_dir: Path, catalog: dict[str, Any]) -> None:
+    write_json(output_dir / "data" / "catalog.json", split_catalog_manifest(catalog))
+    for key, relative_path in CATALOG_DATA_FILES.items():
+        write_json(output_dir / relative_path, catalog.get(key, [] if key in {"frameworks", "albums"} else {}))
+
+
 def framework_catalog() -> list[dict[str, str]]:
     analyzer_dir = ROOT / "analyzer"
     if not analyzer_dir.exists():
@@ -318,6 +355,7 @@ def load_source_catalog() -> dict[str, Any]:
         return build_catalog_from_reports()
     catalog = read_json(SOURCE_DATA)
     if isinstance(catalog, dict):
+        catalog = expand_catalog_files(catalog, SOURCE_DIR)
         catalog["frameworks"] = framework_catalog() or catalog.get("frameworks", [])
         return catalog
     raise FileNotFoundError("No analysis reports found and gh-pages/data/catalog.json does not exist.")
@@ -353,7 +391,7 @@ def copy_site_assets(catalog: dict[str, Any], output_dir: Path) -> None:
         shutil.rmtree(output_dir)
     output_dir.mkdir(parents=True)
     shutil.copy2(SOURCE_DIR / "index.html", output_dir / "index.html")
-    write_json(output_dir / "data" / "catalog.json", strip_embedded_reports(catalog))
+    write_split_catalog(output_dir, strip_embedded_reports(catalog))
     if LYRIC_TIMING_DIR.exists():
         shutil.copytree(LYRIC_TIMING_DIR, output_dir / "data" / "lyrics")
 
@@ -380,7 +418,7 @@ def main() -> int:
     args = parse_args()
     catalog = load_source_catalog()
     if args.refresh_data:
-        write_json(SOURCE_DATA, catalog)
+        write_split_catalog(SOURCE_DIR, strip_embedded_reports(catalog))
     copy_site_assets(catalog, args.output_dir)
     records = (catalog.get("statistics") or {}).get("records") or []
     print(f"Built {args.output_dir} with {len(records)} analyzed song(s).")

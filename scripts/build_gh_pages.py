@@ -269,6 +269,8 @@ def build_album_catalog(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def build_catalog_from_reports() -> dict[str, Any]:
+    existing_catalog = read_json(SOURCE_DATA, {})
+    existing_news = existing_catalog.get("news") if isinstance(existing_catalog, dict) else None
     records: list[dict[str, Any]] = []
     reports: dict[str, Any] = {}
     for report_path in analysis_report_paths():
@@ -284,6 +286,7 @@ def build_catalog_from_reports() -> dict[str, Any]:
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "frameworks": framework_catalog(),
+        "news": existing_news if isinstance(existing_news, list) else [],
         "statistics": {"records": records, "summary": {"count": len(records), **album_stats(records)}},
         "albums": build_album_catalog(records),
         "reports": reports,

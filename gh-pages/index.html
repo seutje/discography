@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Discography Statistics</title>
+  <title>Discography</title>
   <link rel="icon" href="data:,">
   <script>
     (() => {
@@ -131,6 +131,10 @@
       background: var(--control);
       color: var(--accent);
     }
+    button.active {
+      background: var(--accent);
+      color: var(--accent-ink);
+    }
     button.danger {
       background: var(--control);
       border-color: var(--accent-2);
@@ -182,7 +186,7 @@
       gap: 10px;
       margin-bottom: 18px;
     }
-    .metric, .chart-panel, .stats-table-wrap, .report-panel {
+    .metric, .chart-panel, .stats-table-wrap, .report-panel, .news-item {
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--panel);
@@ -213,6 +217,21 @@
     }
     .stats-select {
       min-width: 180px;
+    }
+    .news-list {
+      display: grid;
+      gap: 12px;
+    }
+    .news-item {
+      padding: 14px 16px;
+    }
+    .news-item h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+    .news-body {
+      margin-top: 10px;
+      white-space: pre-wrap;
     }
     .charts {
       display: grid;
@@ -590,9 +609,10 @@
 </head>
 <body>
   <header>
-    <h1>Discography Statistics</h1>
+    <h1>Discography</h1>
     <div class="header-actions">
-      <button class="secondary" id="statsBtn" type="button">Statistics</button>
+      <button class="secondary" id="newsBtn" type="button">News</button>
+      <button class="secondary" id="statsBtn" type="button">Discography</button>
       <button class="secondary" id="themeToggle" type="button">Dark</button>
       <span id="dataState" class="status">loading</span>
     </div>
@@ -667,6 +687,7 @@
       selectedAlbum: null,
       selectedAlbumDetail: null,
       selectedReportPath: null,
+      currentView: 'news',
       filter: '',
       currentTrack: null,
       timedLyrics: null,
@@ -998,6 +1019,61 @@
         return `${score}-${score + 1}`;
       });
       return barChart(rows, { fill: 'warm', digits: 0 });
+    }
+
+    function formatNewsDate(value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value || '';
+      return new Intl.DateTimeFormat(undefined, {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      }).format(date);
+    }
+
+    function sortedNews() {
+      return (state.catalog?.news || []).slice().sort((a, b) => {
+        const timeA = Date.parse(a.datetime || '');
+        const timeB = Date.parse(b.datetime || '');
+        const safeA = Number.isFinite(timeA) ? timeA : 0;
+        const safeB = Number.isFinite(timeB) ? timeB : 0;
+        return safeB - safeA || String(b.title || '').localeCompare(String(a.title || ''));
+      });
+    }
+
+    function syncNavButtons() {
+      $('newsBtn').classList.toggle('active', state.currentView === 'news');
+      $('statsBtn').classList.toggle('active', state.currentView !== 'news');
+    }
+
+    function renderNews() {
+      state.currentView = 'news';
+      state.selectedAlbum = null;
+      state.selectedAlbumDetail = null;
+      state.selectedReportPath = null;
+      const news = sortedNews();
+      $('detail').className = '';
+      $('detail').innerHTML = `
+        <div class="topline">
+          <div>
+            <h2>News</h2>
+            <div class="meta">${news.length} update${news.length === 1 ? '' : 's'}</div>
+          </div>
+          <span class="status">${state.catalog?.generated_at || 'catalog'}</span>
+        </div>
+        ${news.length ? `
+          <div class="news-list">
+            ${news.map(item => `
+              <article class="news-item">
+                <h3>${escapeHtml(item.title || 'Untitled update')}</h3>
+                <div class="meta">${escapeHtml(formatNewsDate(item.datetime))}</div>
+                <div class="news-body">${escapeHtml(item.body || '')}</div>
+              </article>
+            `).join('')}
+          </div>
+        ` : '<div class="empty">No news yet.</div>'}
+      `;
+      renderAlbumList();
+      syncNavButtons();
     }
 
     function clamp(value, low = 0, high = 10) {
@@ -1609,6 +1685,7 @@
     }
 
     function renderStatistics() {
+      state.currentView = 'discography';
       state.selectedReportPath = null;
       const records = filteredRecords();
       const groupRows = groupAverage(records, 'album');
@@ -1634,7 +1711,7 @@
       $('detail').innerHTML = `
         <div class="topline">
           <div>
-            <h2>Statistics</h2>
+            <h2>Discography</h2>
             <div class="meta">${records.length} filtered of ${state.records.length} analyzed songs.</div>
           </div>
           <span class="status">${state.catalog?.generated_at || 'catalog'}</span>
@@ -1697,6 +1774,7 @@
         ` : '<div class="empty">No analyzed songs match the current filter.</div>'}
       `;
       renderAlbumList();
+      syncNavButtons();
       syncPlayButtons();
     }
 
@@ -1717,6 +1795,7 @@
       state.selectedAlbum = album.name;
       state.selectedAlbumDetail = album;
       state.selectedReportPath = null;
+      state.currentView = 'discography';
       const tracks = (album.tracks || []).filter(track =>
         matchesFilter(track.title) ||
         matchesFilter(track.audio_path) ||
@@ -1773,6 +1852,7 @@
         </div>
       `;
       renderAlbumList();
+      syncNavButtons();
       syncPlayButtons();
     }
 
@@ -1857,6 +1937,7 @@
       const record = state.records.find(item => item.report_path === reportPath);
       if (!record) return;
       state.selectedReportPath = reportPath;
+      state.currentView = 'discography';
       $('detail').className = '';
       $('detail').innerHTML = '<div class="empty">Loading report...</div>';
       try {
@@ -2007,6 +2088,7 @@
         </div>
       `;
       syncPlayButtons();
+      syncNavButtons();
     }
 
     function playlistItemId() {
@@ -2166,9 +2248,12 @@
       syncLocalUploads();
       $('dataState').textContent = `${state.records.length} songs`;
       renderAlbumList();
-      renderStatistics();
+      renderNews();
     }
 
+    $('newsBtn').addEventListener('click', () => {
+      renderNews();
+    });
     $('statsBtn').addEventListener('click', () => {
       state.selectedAlbum = null;
       renderStatistics();
@@ -2177,6 +2262,7 @@
     $('search').addEventListener('input', event => {
       state.filter = event.target.value;
       if (state.selectedAlbum) renderAlbumDetail(state.selectedAlbum);
+      else if (state.currentView === 'news') renderNews();
       else renderStatistics();
     });
     $('analyzeUploadsBtn').addEventListener('click', () => analyzeUploads());

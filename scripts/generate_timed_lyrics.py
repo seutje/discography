@@ -194,16 +194,28 @@ def timing_section_starts(metadata: dict[str, str]) -> dict[str, float]:
     return starts
 
 
-def timing_line_starts(metadata: dict[str, str]) -> dict[str, float]:
-    starts: dict[str, float] = {}
+def timing_line_starts(metadata: dict[str, str]) -> list[dict[str, str | float | None]]:
+    starts: list[dict[str, str | float | None]] = []
     for item in split_metadata_list(metadata.get("TIMING_LINE_STARTS", "")):
         text, separator, value = item.partition("=")
         if not separator:
             continue
         try:
-            starts[text.strip().casefold()] = float(value.strip())
+            start = float(value.strip())
         except ValueError:
             continue
+        section: str | None = None
+        text = text.strip()
+        if "::" in text:
+            section, text = [part.strip() for part in text.split("::", 1)]
+        starts.append(
+            {
+                "section": section.casefold() if section else None,
+                "text": text.casefold(),
+                "label": f"{section}::{text}" if section else text,
+                "start": start,
+            }
+        )
     return starts
 
 
@@ -236,12 +248,18 @@ def apply_line_start_overrides(timed_lines: list[dict[str, Any]], metadata: dict
 
     for line in timed_lines:
         text_key = str(line.get("text") or "").strip().casefold()
-        if text_key in starts:
-            start = starts[text_key]
+        section_key = str(line.get("section") or "").strip().casefold()
+        for override in starts:
+            if text_key != override["text"]:
+                continue
+            if override["section"] is not None and section_key != override["section"]:
+                continue
+            start = float(override["start"])
             line["start"] = round(start, 3)
             line["end"] = round(max(start + 0.1, float(line.get("end", start + 0.1))), 3)
             line["timing_source"] = f"{line.get('timing_source', 'timed')}-line-override"
-            applied[str(line.get("text") or "")] = round(start, 3)
+            applied[str(override["label"])] = round(start, 3)
+            break
     return {"line_start_overrides": applied}
 
 

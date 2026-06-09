@@ -219,24 +219,49 @@ def timing_line_starts(metadata: dict[str, str]) -> list[dict[str, str | float |
     return starts
 
 
-def apply_section_start_overrides(timed_lines: list[dict[str, Any]], metadata: dict[str, str]) -> dict[str, Any]:
+def apply_section_start_overrides(
+    timed_lines: list[dict[str, Any]],
+    metadata: dict[str, str],
+    total_duration: float,
+) -> dict[str, Any]:
     starts = timing_section_starts(metadata)
     applied: dict[str, float] = {}
     if not starts:
         return {"section_start_overrides": applied}
 
+    anchors: list[tuple[int, str, float]] = []
     seen_sections: set[str] = set()
-    previous_end = 0.0
-    for line in timed_lines:
+    for index, line in enumerate(timed_lines):
         section = str(line.get("section") or "")
         if section in starts and section not in seen_sections:
-            start = max(previous_end, starts[section])
-            line["start"] = round(start, 3)
-            line["end"] = round(max(start + 0.1, float(line.get("end", start + 0.1))), 3)
-            line["timing_source"] = f"{line.get('timing_source', 'timed')}-section-override"
-            applied[section] = round(start, 3)
+            anchors.append((index, section, starts[section]))
         seen_sections.add(section)
-        previous_end = max(previous_end, float(line.get("end", line.get("start", 0))))
+
+    if not anchors:
+        return {"section_start_overrides": applied}
+
+    anchors.sort(key=lambda item: item[0])
+    previous_end = 0.0
+    for anchor_offset, (start_index, section, requested_start) in enumerate(anchors):
+        start = max(previous_end, requested_start)
+        end = (
+            max(start + 0.1, anchors[anchor_offset + 1][2])
+            if anchor_offset + 1 < len(anchors)
+            else max(start + 0.1, total_duration)
+        )
+        end_index = anchors[anchor_offset + 1][0] if anchor_offset + 1 < len(anchors) else len(timed_lines)
+        block = timed_lines[start_index:end_index]
+        weights = [max(1, len(normalize_tokens(str(line.get("text") or "")))) for line in block]
+        total_weight = sum(weights) or len(block) or 1
+        cursor = start
+        for line, weight in zip(block, weights):
+            span = max(0.1, (end - start) * weight / total_weight)
+            line["start"] = round(cursor, 3)
+            line["end"] = round(min(end, cursor + span), 3)
+            line["timing_source"] = f"{line.get('timing_source', 'timed')}-section-override"
+            cursor += span
+        previous_end = end
+        applied[section] = round(start, 3)
     return {"section_start_overrides": applied}
 
 
@@ -246,7 +271,8 @@ def apply_line_start_overrides(timed_lines: list[dict[str, Any]], metadata: dict
     if not starts:
         return {"line_start_overrides": applied}
 
-    for line in timed_lines:
+    anchors: list[tuple[int, dict[str, str | float | None]]] = []
+    for index, line in enumerate(timed_lines):
         text_key = str(line.get("text") or "").strip().casefold()
         section_key = str(line.get("section") or "").strip().casefold()
         for override in starts:
@@ -254,12 +280,48 @@ def apply_line_start_overrides(timed_lines: list[dict[str, Any]], metadata: dict
                 continue
             if override["section"] is not None and section_key != override["section"]:
                 continue
-            start = float(override["start"])
-            line["start"] = round(start, 3)
-            line["end"] = round(max(start + 0.1, float(line.get("end", start + 0.1))), 3)
-            line["timing_source"] = f"{line.get('timing_source', 'timed')}-line-override"
-            applied[str(override["label"])] = round(start, 3)
+            anchors.append((index, override))
             break
+
+    if not anchors:
+        return {"line_start_overrides": applied}
+
+    anchors.sort(key=lambda item: item[0])
+    for anchor_offset, (start_index, override) in enumerate(anchors):
+        start = float(override["start"])
+        section = str(timed_lines[start_index].get("section") or "")
+
+        if anchor_offset + 1 < len(anchors):
+            end_index = anchors[anchor_offset + 1][0]
+            end = max(start + 0.1, float(anchors[anchor_offset + 1][1]["start"]))
+        else:
+            end_index = len(timed_lines)
+            for index in range(start_index + 1, len(timed_lines)):
+                if str(timed_lines[index].get("section") or "") != section:
+                    end_index = index
+                    break
+            end = (
+                max(start + 0.1, float(timed_lines[end_index].get("start", start + 0.1)))
+                if end_index < len(timed_lines)
+                else max(start + 0.1, float(timed_lines[-1].get("end", start + 0.1)))
+            )
+
+        if start_index > 0:
+            previous = timed_lines[start_index - 1]
+            if float(previous.get("end", 0)) > start:
+                previous["end"] = round(max(float(previous.get("start", 0)) + 0.1, start), 3)
+
+        block = timed_lines[start_index:end_index]
+        weights = [max(1, len(normalize_tokens(str(line.get("text") or "")))) for line in block]
+        total_weight = sum(weights) or len(block) or 1
+        cursor = start
+        for line, weight in zip(block, weights):
+            span = max(0.1, (end - start) * weight / total_weight)
+            line["start"] = round(cursor, 3)
+            line["end"] = round(min(end, cursor + span), 3)
+            line["timing_source"] = f"{line.get('timing_source', 'timed')}-line-override"
+            cursor += span
+        applied[str(override["label"])] = round(start, 3)
     return {"line_start_overrides": applied}
 
 
@@ -699,7 +761,7 @@ def build_payload(text_path: Path, audio_path: Path, args: argparse.Namespace, m
     alignment_transcript_segments = concise_segments({"segments": alignable_segments})
     words = observed_words(transcript)
     timed_lines, diagnostics = align_lines(lines, words, max(0.1, total_duration or 0.1), alignment_transcript_segments)
-    diagnostics.update(apply_section_start_overrides(timed_lines, metadata))
+    diagnostics.update(apply_section_start_overrides(timed_lines, metadata, max(0.1, total_duration or 0.1)))
     diagnostics.update(apply_line_start_overrides(timed_lines, metadata))
     timed_lines, inserted_adlibs = insert_repeated_adlibs(timed_lines, lines, transcript)
     diagnostics.update(timing_line_diagnostics)

@@ -1,0 +1,1276 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Lost Souls",
+  "title": "Homeostasis",
+  "text_path": "Lost Souls/02 - Homeostasis.txt",
+  "audio_path": "Lost Souls/audio/02 - Homeostasis.mp3",
+  "duration_seconds": 231.1,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 104,
+    "reference_word_count": 381,
+    "observed_word_count": 296,
+    "matched_word_count": 176,
+    "matched_word_ratio": 0.462,
+    "section_start_overrides": {
+      "BRIDGE – drums drop out, underwater vocal, slow filter movement": 120.6,
+      "SPOKEN – obscure, calm, intimate": 135.0,
+      "BREAK – bubbling bass, fragmented vocal delays": 162.0,
+      "FINAL CHORUS – emotional lift, still restrained": 174.0,
+      "GROUP VOCALS – human, simple, repeated": 193.0,
+      "WHISPER": 211.5,
+      "BACKING VOICES – fading": 223.0,
+      "LEAD – final line, dry then swallowed by reverb": 228.0
+    },
+    "line_start_overrides": {
+      "SPOKEN – obscure, calm, intimate::Every tear a reagent.": 140.0
+    },
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 10
+  },
+  "transcript_segments": [
+    {
+      "start": 6.74,
+      "end": 8.16,
+      "text": "Keep the peak warm."
+    },
+    {
+      "start": 11.74,
+      "end": 13.76,
+      "text": "Keep the skin of it from breaking."
+    },
+    {
+      "start": 17.82,
+      "end": 24.6,
+      "text": "Keep the little sea inside me from turning sharp."
+    },
+    {
+      "start": 29.76,
+      "end": 32.94,
+      "text": "The room's falling in repustering on the floor."
+    },
+    {
+      "start": 33.8,
+      "end": 35.86,
+      "text": "Everybody's asking what I'm breathing for."
+    },
+    {
+      "start": 36.14,
+      "end": 39.3,
+      "text": "I stir myself in circles, small spoon, careful hand."
+    },
+    {
+      "start": 39.46,
+      "end": 42.24,
+      "text": "Too much bitter in the water, too much heat in the pan."
+    },
+    {
+      "start": 42.24,
+      "end": 45.68,
+      "text": "P-H temperature concentration."
+    },
+    {
+      "start": 46.18,
+      "end": 48.4,
+      "text": "I'm not calm, I am correcting."
+    },
+    {
+      "start": 50.9,
+      "end": 54.92,
+      "text": "Home in your neutral, not a holy just alive."
+    },
+    {
+      "start": 55.16,
+      "end": 57.92,
+      "text": "A little more from the acids rise."
+    },
+    {
+      "start": 58.1,
+      "end": 60.98,
+      "text": "Cool me by degrees than me when I'm dense."
+    },
+    {
+      "start": 61.3,
+      "end": 64.32,
+      "text": "I keep changing shape to keep some kind of sense."
+    },
+    {
+      "start": 64.68,
+      "end": 67.52,
+      "text": "Home your stasis, home your stasis."
+    },
+    {
+      "start": 68.28,
+      "end": 69.0,
+      "text": "Not peace."
+    },
+    {
+      "start": 70.14,
+      "end": 73.98,
+      "text": "Adjustment, home your stasis, home your stasis."
+    },
+    {
+      "start": 74.46,
+      "end": 75.28,
+      "text": "Not peace."
+    },
+    {
+      "start": 76.5,
+      "end": 77.18,
+      "text": "Survival."
+    },
+    {
+      "start": 82.72,
+      "end": 86.02,
+      "text": "My heart isn't a query in the glass on the strain."
+    },
+    {
+      "start": 86.02,
+      "end": 89.12,
+      "text": "I name every factor so it won't be vain."
+    },
+    {
+      "start": 89.52,
+      "end": 92.3,
+      "text": "I'm salt in the morning, sugar after dark."
+    },
+    {
+      "start": 92.54,
+      "end": 95.42,
+      "text": "I feed the tiny engine spark in the dark."
+    },
+    {
+      "start": 95.42,
+      "end": 98.54,
+      "text": "The biologist know it a cell does not pray."
+    },
+    {
+      "start": 98.84,
+      "end": 101.42,
+      "text": "It opens a channel and lives another day."
+    },
+    {
+      "start": 102.26,
+      "end": 104.9,
+      "text": "Membrane gradient feedback gate."
+    },
+    {
+      "start": 105.22,
+      "end": 106.44,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 106.76,
+      "end": 107.3,
+      "text": "I am listening."
+    },
+    {
+      "start": 107.74,
+      "end": 111.1,
+      "text": "Home in your neutral, not perfect just alive."
+    },
+    {
+      "start": 111.28,
+      "end": 114.04,
+      "text": "A little more from the acids rise."
+    },
+    {
+      "start": 114.42,
+      "end": 117.32,
+      "text": "Cool me by degrees than me when I'm dense."
+    },
+    {
+      "start": 117.6,
+      "end": 120.4,
+      "text": "I keep changing shape to keep some kind of sense."
+    },
+    {
+      "start": 120.4,
+      "end": 123.46,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 134.6,
+      "end": 137.48,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 137.5,
+      "end": 137.54,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 137.56,
+      "end": 137.74,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 137.74,
+      "end": 137.74,
+      "text": ""
+    },
+    {
+      "start": 137.74,
+      "end": 138.66,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 139.76,
+      "end": 140.46,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 140.46,
+      "end": 143.34,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 144.18,
+      "end": 150.34,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 150.34,
+      "end": 152.9,
+      "text": "Before the whole beauty thing tips over."
+    },
+    {
+      "start": 180.34,
+      "end": 180.86,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 186.86,
+      "end": 188.26,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 188.26,
+      "end": 190.04,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 190.04,
+      "end": 190.22,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 190.22,
+      "end": 190.22,
+      "text": ""
+    },
+    {
+      "start": 190.22,
+      "end": 191.62,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 191.62,
+      "end": 192.72,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 192.72,
+      "end": 199.62,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 199.62,
+      "end": 201.44,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 211.46,
+      "end": 225.36,
+      "text": "I am what fixed."
+    },
+    {
+      "start": 225.36,
+      "end": 225.36,
+      "text": ""
+    },
+    {
+      "start": 225.36,
+      "end": 225.36,
+      "text": ""
+    },
+    {
+      "start": 225.36,
+      "end": 225.36,
+      "text": ""
+    },
+    {
+      "start": 225.36,
+      "end": 225.36,
+      "text": ""
+    },
+    {
+      "start": 225.36,
+      "end": 225.36,
+      "text": ""
+    },
+    {
+      "start": 225.36,
+      "end": 225.36,
+      "text": ""
+    },
+    {
+      "start": 225.36,
+      "end": 225.36,
+      "text": ""
+    },
+    {
+      "start": 225.36,
+      "end": 225.36,
+      "text": ""
+    },
+    {
+      "start": 225.36,
+      "end": 231.1,
+      "text": "I am what fixed."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "WHISPER – close, almost internal",
+      "start": 6.74,
+      "end": 8.16,
+      "text": "Keep the beaker warm.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 1,
+      "section": "WHISPER – close, almost internal",
+      "start": 11.74,
+      "end": 13.76,
+      "text": "Keep the skin of it from breaking.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 2,
+      "section": "WHISPER – close, almost internal",
+      "start": 17.82,
+      "end": 20.46,
+      "text": "Keep the little sea inside me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 3,
+      "section": "WHISPER – close, almost internal",
+      "start": 20.46,
+      "end": 23.8,
+      "text": "from turning sharp.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 4,
+      "section": "VERSE 1 – sparse drums, damp synth pads",
+      "start": 29.76,
+      "end": 31.12,
+      "text": "The room is falling inward,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 5,
+      "section": "VERSE 1 – sparse drums, damp synth pads",
+      "start": 31.88,
+      "end": 32.94,
+      "text": "plaster rain on the floor.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 6,
+      "section": "VERSE 1 – sparse drums, damp synth pads",
+      "start": 33.8,
+      "end": 34.6,
+      "text": "Everybody’s asking",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 7,
+      "section": "VERSE 1 – sparse drums, damp synth pads",
+      "start": 34.6,
+      "end": 35.86,
+      "text": "what I’m breathing for.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 8,
+      "section": "VERSE 1 – sparse drums, damp synth pads",
+      "start": 36.14,
+      "end": 37.7,
+      "text": "I stir myself in circles,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 9,
+      "section": "VERSE 1 – sparse drums, damp synth pads",
+      "start": 37.9,
+      "end": 39.3,
+      "text": "small spoon, careful hand.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 10,
+      "section": "VERSE 1 – sparse drums, damp synth pads",
+      "start": 39.46,
+      "end": 40.76,
+      "text": "Too much bitter in the water,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 11,
+      "section": "VERSE 1 – sparse drums, damp synth pads",
+      "start": 41.02,
+      "end": 42.24,
+      "text": "too much heat in the pan.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 12,
+      "section": "BACKING VOICES – distant, clinical",
+      "start": 42.24,
+      "end": 43.66,
+      "text": "pH.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 13,
+      "section": "BACKING VOICES – distant, clinical",
+      "start": 43.66,
+      "end": 44.14,
+      "text": "temperature.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 14,
+      "section": "BACKING VOICES – distant, clinical",
+      "start": 44.14,
+      "end": 45.68,
+      "text": "concentration.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 15,
+      "section": "LEAD – plain, wounded",
+      "start": 46.46,
+      "end": 47.02,
+      "text": "I am not calm.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 16,
+      "section": "LEAD – plain, wounded",
+      "start": 47.28,
+      "end": 48.4,
+      "text": "I am correcting.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 17,
+      "section": "CHORUS – fuller, soft bass bloom, wet percussion",
+      "start": 52.12,
+      "end": 52.74,
+      "text": "Hold me near neutral,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 18,
+      "section": "CHORUS – fuller, soft bass bloom, wet percussion",
+      "start": 53.12,
+      "end": 54.92,
+      "text": "not holy, just alive.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 19,
+      "section": "CHORUS – fuller, soft bass bloom, wet percussion",
+      "start": 55.16,
+      "end": 55.98,
+      "text": "A little more buffer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 20,
+      "section": "CHORUS – fuller, soft bass bloom, wet percussion",
+      "start": 56.44,
+      "end": 57.92,
+      "text": "when the acids rise.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "CHORUS – fuller, soft bass bloom, wet percussion",
+      "start": 58.1,
+      "end": 59.42,
+      "text": "Cool me by degrees,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 22,
+      "section": "CHORUS – fuller, soft bass bloom, wet percussion",
+      "start": 59.88,
+      "end": 60.98,
+      "text": "thin me when I’m dense.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 23,
+      "section": "CHORUS – fuller, soft bass bloom, wet percussion",
+      "start": 61.3,
+      "end": 62.56,
+      "text": "I keep changing shape",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 24,
+      "section": "CHORUS – fuller, soft bass bloom, wet percussion",
+      "start": 62.56,
+      "end": 64.32,
+      "text": "to keep some kind of sense.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 25,
+      "section": "POST-CHORUS – mantra, layered voices",
+      "start": 64.32,
+      "end": 66.3,
+      "text": "Homeostasis.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 26,
+      "section": "POST-CHORUS – mantra, layered voices",
+      "start": 66.3,
+      "end": 68.28,
+      "text": "Homeostasis.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 27,
+      "section": "POST-CHORUS – mantra, layered voices",
+      "start": 68.28,
+      "end": 69.0,
+      "text": "Not peace.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 28,
+      "section": "POST-CHORUS – mantra, layered voices",
+      "start": 70.14,
+      "end": 70.82,
+      "text": "Adjustment.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 29,
+      "section": "POST-CHORUS – mantra, layered voices",
+      "start": 70.82,
+      "end": 72.64,
+      "text": "Homeostasis.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 30,
+      "section": "POST-CHORUS – mantra, layered voices",
+      "start": 72.64,
+      "end": 74.46,
+      "text": "Homeostasis.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 31,
+      "section": "POST-CHORUS – mantra, layered voices",
+      "start": 74.46,
+      "end": 75.28,
+      "text": "Not peace.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 32,
+      "section": "POST-CHORUS – mantra, layered voices",
+      "start": 76.5,
+      "end": 77.18,
+      "text": "Survival.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 33,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 82.72,
+      "end": 83.64,
+      "text": "My heart is an aquarium",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 34,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 84.9,
+      "end": 86.02,
+      "text": "with glass under strain.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 86.02,
+      "end": 87.26,
+      "text": "I name every fracture",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 36,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 87.58,
+      "end": 89.12,
+      "text": "so it won’t be vain.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 37,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 89.58,
+      "end": 90.94,
+      "text": "Salt in the morning,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 38,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 91.28,
+      "end": 92.3,
+      "text": "sugar after dark.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 39,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 92.54,
+      "end": 93.5,
+      "text": "I feed the tiny engines",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 94.34,
+      "end": 95.42,
+      "text": "sparking in the dark.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 41,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 95.42,
+      "end": 97.16,
+      "text": "The biologists know it:",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 97.16,
+      "end": 98.54,
+      "text": "a cell does not pray.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 43,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 98.84,
+      "end": 100.16,
+      "text": "It opens a channel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 44,
+      "section": "VERSE 2 – kalimba enters, droplets syncopated",
+      "start": 100.16,
+      "end": 101.52,
+      "text": "and lives another day.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "BACKING VOICES – soft, rhythmic",
+      "start": 102.26,
+      "end": 102.84,
+      "text": "membrane.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 46,
+      "section": "BACKING VOICES – soft, rhythmic",
+      "start": 102.84,
+      "end": 103.5,
+      "text": "gradient.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 47,
+      "section": "BACKING VOICES – soft, rhythmic",
+      "start": 103.5,
+      "end": 104.16,
+      "text": "feedback.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 48,
+      "section": "BACKING VOICES – soft, rhythmic",
+      "start": 104.16,
+      "end": 104.9,
+      "text": "gate.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 49,
+      "section": "LEAD – closer",
+      "start": 105.22,
+      "end": 106.44,
+      "text": "I am not fixed.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 50,
+      "section": "LEAD – closer",
+      "start": 106.76,
+      "end": 107.3,
+      "text": "I am listening.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "CHORUS 2 – wider harmonies, warm low end",
+      "start": 108.42,
+      "end": 109.0,
+      "text": "Hold me near neutral,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 52,
+      "section": "CHORUS 2 – wider harmonies, warm low end",
+      "start": 109.32,
+      "end": 111.1,
+      "text": "not perfect, just alive.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 53,
+      "section": "CHORUS 2 – wider harmonies, warm low end",
+      "start": 111.28,
+      "end": 112.22,
+      "text": "A little more buffer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 54,
+      "section": "CHORUS 2 – wider harmonies, warm low end",
+      "start": 112.48,
+      "end": 114.04,
+      "text": "when the acids rise.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 55,
+      "section": "CHORUS 2 – wider harmonies, warm low end",
+      "start": 114.42,
+      "end": 115.74,
+      "text": "Cool me by degrees,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 56,
+      "section": "CHORUS 2 – wider harmonies, warm low end",
+      "start": 115.74,
+      "end": 117.32,
+      "text": "thin me when I’m dense.",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 57,
+      "section": "CHORUS 2 – wider harmonies, warm low end",
+      "start": 117.6,
+      "end": 120.4,
+      "text": "I keep changing shape",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 58,
+      "section": "CHORUS 2 – wider harmonies, warm low end",
+      "start": 120.4,
+      "end": 120.5,
+      "text": "to keep some kind of sense.",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 59,
+      "section": "BRIDGE – drums drop out, underwater vocal, slow filter movement",
+      "start": 120.6,
+      "end": 122.246,
+      "text": "When the outside burns,",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 60,
+      "section": "BRIDGE – drums drop out, underwater vocal, slow filter movement",
+      "start": 122.246,
+      "end": 124.303,
+      "text": "I sweat like a system.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "BRIDGE – drums drop out, underwater vocal, slow filter movement",
+      "start": 124.303,
+      "end": 125.949,
+      "text": "When the outside freezes,",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 62,
+      "section": "BRIDGE – drums drop out, underwater vocal, slow filter movement",
+      "start": 125.949,
+      "end": 127.594,
+      "text": "I tremble for heat.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 63,
+      "section": "BRIDGE – drums drop out, underwater vocal, slow filter movement",
+      "start": 127.594,
+      "end": 129.24,
+      "text": "When the pressure climbs,",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 64,
+      "section": "BRIDGE – drums drop out, underwater vocal, slow filter movement",
+      "start": 129.24,
+      "end": 131.297,
+      "text": "I breathe out the solvent.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 65,
+      "section": "BRIDGE – drums drop out, underwater vocal, slow filter movement",
+      "start": 131.297,
+      "end": 132.943,
+      "text": "When the vessel shakes,",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 66,
+      "section": "BRIDGE – drums drop out, underwater vocal, slow filter movement",
+      "start": 132.943,
+      "end": 135.0,
+      "text": "I lower the flame beneath.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 67,
+      "section": "SPOKEN – obscure, calm, intimate",
+      "start": 135.0,
+      "end": 139.629,
+      "text": "The body is not a temple.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 68,
+      "section": "SPOKEN – obscure, calm, intimate",
+      "start": 139.629,
+      "end": 140.0,
+      "text": "It is a lab with the lights still on.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 69,
+      "section": "SPOKEN – obscure, calm, intimate",
+      "start": 140.0,
+      "end": 144.4,
+      "text": "Every tear a reagent.",
+      "timing_source": "interpolated-section-override-line-override",
+      "matched_words": 0
+    },
+    {
+      "index": 70,
+      "section": "SPOKEN – obscure, calm, intimate",
+      "start": 144.4,
+      "end": 148.8,
+      "text": "Every breath a titration.",
+      "timing_source": "interpolated-section-override-line-override",
+      "matched_words": 0
+    },
+    {
+      "index": 71,
+      "section": "SPOKEN – obscure, calm, intimate",
+      "start": 148.8,
+      "end": 154.3,
+      "text": "Every morning, another small correction",
+      "timing_source": "interpolated-section-override-line-override",
+      "matched_words": 0
+    },
+    {
+      "index": 72,
+      "section": "SPOKEN – obscure, calm, intimate",
+      "start": 154.3,
+      "end": 162.0,
+      "text": "before the whole blue thing tips over.",
+      "timing_source": "interpolated-section-override-line-override",
+      "matched_words": 0
+    },
+    {
+      "index": 73,
+      "section": "BREAK – bubbling bass, fragmented vocal delays",
+      "start": 162.0,
+      "end": 163.5,
+      "text": "Too much.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 74,
+      "section": "BREAK – bubbling bass, fragmented vocal delays",
+      "start": 163.5,
+      "end": 165.0,
+      "text": "Add water.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 75,
+      "section": "BREAK – bubbling bass, fragmented vocal delays",
+      "start": 165.0,
+      "end": 166.5,
+      "text": "Too cold.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 76,
+      "section": "BREAK – bubbling bass, fragmented vocal delays",
+      "start": 166.5,
+      "end": 168.0,
+      "text": "Make motion.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 77,
+      "section": "BREAK – bubbling bass, fragmented vocal delays",
+      "start": 168.0,
+      "end": 169.5,
+      "text": "Too sharp.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 78,
+      "section": "BREAK – bubbling bass, fragmented vocal delays",
+      "start": 169.5,
+      "end": 171.0,
+      "text": "Find base.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 79,
+      "section": "BREAK – bubbling bass, fragmented vocal delays",
+      "start": 171.0,
+      "end": 172.5,
+      "text": "Too full.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 80,
+      "section": "BREAK – bubbling bass, fragmented vocal delays",
+      "start": 172.5,
+      "end": 174.0,
+      "text": "Make room.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 81,
+      "section": "FINAL CHORUS – emotional lift, still restrained",
+      "start": 174.0,
+      "end": 176.171,
+      "text": "Hold me near neutral,",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 82,
+      "section": "FINAL CHORUS – emotional lift, still restrained",
+      "start": 176.171,
+      "end": 178.343,
+      "text": "not holy, just alive.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 83,
+      "section": "FINAL CHORUS – emotional lift, still restrained",
+      "start": 178.343,
+      "end": 180.514,
+      "text": "A little more buffer",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 84,
+      "section": "FINAL CHORUS – emotional lift, still restrained",
+      "start": 180.514,
+      "end": 182.686,
+      "text": "when the acids rise.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 85,
+      "section": "FINAL CHORUS – emotional lift, still restrained",
+      "start": 182.686,
+      "end": 184.857,
+      "text": "Cool me by degrees,",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 86,
+      "section": "FINAL CHORUS – emotional lift, still restrained",
+      "start": 184.857,
+      "end": 187.571,
+      "text": "thin me when I’m dense.",
+      "timing_source": "whisper-aligned-section-override",
+      "matched_words": 4
+    },
+    {
+      "index": 87,
+      "section": "FINAL CHORUS – emotional lift, still restrained",
+      "start": 187.571,
+      "end": 189.743,
+      "text": "I keep changing shape",
+      "timing_source": "whisper-aligned-section-override",
+      "matched_words": 4
+    },
+    {
+      "index": 88,
+      "section": "FINAL CHORUS – emotional lift, still restrained",
+      "start": 189.743,
+      "end": 193.0,
+      "text": "to keep some kind of sense.",
+      "timing_source": "whisper-aligned-section-override",
+      "matched_words": 6
+    },
+    {
+      "index": 89,
+      "section": "GROUP VOCALS – human, simple, repeated",
+      "start": 193.0,
+      "end": 195.467,
+      "text": "I bend, I balance.",
+      "timing_source": "whisper-aligned-section-override",
+      "matched_words": 1
+    },
+    {
+      "index": 90,
+      "section": "GROUP VOCALS – human, simple, repeated",
+      "start": 195.467,
+      "end": 197.933,
+      "text": "I bend, I balance.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 91,
+      "section": "GROUP VOCALS – human, simple, repeated",
+      "start": 197.933,
+      "end": 200.4,
+      "text": "I bend, I balance.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 92,
+      "section": "GROUP VOCALS – human, simple, repeated",
+      "start": 200.4,
+      "end": 202.25,
+      "text": "I don’t collapse.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 93,
+      "section": "GROUP VOCALS – human, simple, repeated",
+      "start": 202.25,
+      "end": 204.717,
+      "text": "I bend, I balance.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 94,
+      "section": "GROUP VOCALS – human, simple, repeated",
+      "start": 204.717,
+      "end": 207.183,
+      "text": "I bend, I balance.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 95,
+      "section": "GROUP VOCALS – human, simple, repeated",
+      "start": 207.183,
+      "end": 209.65,
+      "text": "I bend, I balance.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 96,
+      "section": "GROUP VOCALS – human, simple, repeated",
+      "start": 209.65,
+      "end": 211.5,
+      "text": "I come back.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 97,
+      "section": "WHISPER",
+      "start": 211.5,
+      "end": 214.786,
+      "text": "Keep the beaker warm.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 98,
+      "section": "WHISPER",
+      "start": 214.786,
+      "end": 218.893,
+      "text": "Keep the small sea moving.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 99,
+      "section": "WHISPER",
+      "start": 218.893,
+      "end": 223.0,
+      "text": "Keep the numbers close enough.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 100,
+      "section": "BACKING VOICES – fading",
+      "start": 223.0,
+      "end": 224.667,
+      "text": "pH.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 101,
+      "section": "BACKING VOICES – fading",
+      "start": 224.667,
+      "end": 226.333,
+      "text": "temperature.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 102,
+      "section": "BACKING VOICES – fading",
+      "start": 226.333,
+      "end": 228.0,
+      "text": "concentration.",
+      "timing_source": "interpolated-section-override",
+      "matched_words": 0
+    },
+    {
+      "index": 103,
+      "section": "LEAD – final line, dry then swallowed by reverb",
+      "start": 228.0,
+      "end": 231.1,
+      "text": "I am still adjusting.",
+      "timing_source": "whisper-aligned-section-override",
+      "matched_words": 2
+    }
+  ]
+}

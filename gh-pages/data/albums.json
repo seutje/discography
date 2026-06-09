@@ -2490,7 +2490,7 @@
   },
   {
     "name": "Lost Souls",
-    "track_count": 1,
+    "track_count": 2,
     "tracks": [
       {
         "index": 1,
@@ -2544,26 +2544,79 @@
           "rhyme_suffix_reuse": 0.35593220338983056,
           "lyrics_url": "data/lyrics/Lost%20Souls/01%20-%20Old%20Oars%20From%20Strangers.json"
         }
+      },
+      {
+        "index": 2,
+        "track_number": 2,
+        "title": "Homeostasis",
+        "text_path": "Lost Souls/02 - Homeostasis.txt",
+        "audio_path": "Lost Souls/audio/02 - Homeostasis.mp3",
+        "audio_url": "media/Lost%20Souls/audio/02%20-%20Homeostasis.mp3",
+        "lyrics_url": "data/lyrics/Lost%20Souls/02%20-%20Homeostasis.json",
+        "analysis": {
+          "report_path": "analysis-output/Lost_Souls_audio_02_-_Homeostasis.analysis.json",
+          "report_url": "reports/analysis-output_Lost_Souls_audio_02_-_Homeostasis.analysis.json",
+          "source_type": "batch",
+          "generated_at": "2026-06-09T16:35:41",
+          "title": "Homeostasis",
+          "album": "Lost Souls",
+          "track_number": 2,
+          "audio_path": "Lost Souls/audio/02 - Homeostasis.mp3",
+          "audio_url": "media/Lost%20Souls/audio/02%20-%20Homeostasis.mp3",
+          "framework": "Indie.txt",
+          "score": 8.774,
+          "axes": {
+            "SC_structural_coherence": 9.87,
+            "MI_motivic_integration": 8.27,
+            "BP_beauty_spatial_poise": 8.87,
+            "EG_evolving_grammar": 7.59,
+            "CD_carry_depth": 9.27
+          },
+          "core_metrics": {
+            "CDPD": 0.903,
+            "NGE": 0.647,
+            "HMII_peak_estimate": 5.0
+          },
+          "rung_number": 13.0,
+          "rung_label": "Inhabited Form",
+          "confidence": 7.7,
+          "duration_seconds": 231.12,
+          "tempo_bpm": 151.99908088235293,
+          "estimated_key": "G minor",
+          "key_confidence": 0.2804707230651233,
+          "integrated_lufs": -16.39514890956053,
+          "peak_dbfs": -0.0428057624301086,
+          "crest_factor_db": 14.302425711622927,
+          "clipping_ratio": 0.0,
+          "onset_rate_per_second": 4.322429906542056,
+          "recurrence_ratio": 0.24771453594458837,
+          "section_count": 18.0,
+          "word_count": 498.0,
+          "line_count": 104.0,
+          "repeated_line_ratio": 0.2692307692307692,
+          "rhyme_suffix_reuse": 0.46153846153846156,
+          "lyrics_url": "data/lyrics/Lost%20Souls/02%20-%20Homeostasis.json"
+        }
       }
     ],
     "stats": {
-      "track_count": 1,
-      "analyzed_count": 1,
-      "average_score": 8.594,
+      "track_count": 2,
+      "analyzed_count": 2,
+      "average_score": 8.684,
       "average_rung": 13.0,
-      "average_tempo_bpm": 172.266,
-      "total_duration_seconds": 246.52,
+      "average_tempo_bpm": 162.132,
+      "total_duration_seconds": 477.64,
       "axes": {
-        "BP_beauty_spatial_poise": 9.74,
-        "CD_carry_depth": 8.73,
-        "EG_evolving_grammar": 7.5,
-        "MI_motivic_integration": 8.5,
-        "SC_structural_coherence": 8.5
+        "BP_beauty_spatial_poise": 9.305,
+        "CD_carry_depth": 9.0,
+        "EG_evolving_grammar": 7.545,
+        "MI_motivic_integration": 8.385,
+        "SC_structural_coherence": 9.185
       },
       "core_metrics": {
-        "CDPD": 0.975,
-        "HMII_peak_estimate": 6.0,
-        "NGE": 0.633
+        "CDPD": 0.939,
+        "HMII_peak_estimate": 5.5,
+        "NGE": 0.64
       }
     }
   },

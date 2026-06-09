@@ -2499,19 +2499,72 @@
         "text_path": "Lost Souls/01 - Old Oars From Strangers.txt",
         "audio_path": "Lost Souls/audio/01 - Old Oars From Strangers.mp3",
         "audio_url": "media/Lost%20Souls/audio/01%20-%20Old%20Oars%20From%20Strangers.mp3",
-        "lyrics_url": "",
-        "analysis": {}
+        "lyrics_url": "data/lyrics/Lost%20Souls/01%20-%20Old%20Oars%20From%20Strangers.json",
+        "analysis": {
+          "report_path": "analysis-output/Lost_Souls_audio_01_-_Old_Oars_From_Strangers.analysis.json",
+          "report_url": "reports/analysis-output_Lost_Souls_audio_01_-_Old_Oars_From_Strangers.analysis.json",
+          "source_type": "batch",
+          "generated_at": "2026-06-09T15:59:43",
+          "title": "Old Oars From Strangers",
+          "album": "Lost Souls",
+          "track_number": 1,
+          "audio_path": "Lost Souls/audio/01 - Old Oars From Strangers.mp3",
+          "audio_url": "media/Lost%20Souls/audio/01%20-%20Old%20Oars%20From%20Strangers.mp3",
+          "framework": "Hip hop & rap.txt",
+          "score": 8.594,
+          "axes": {
+            "SC_structural_coherence": 8.5,
+            "MI_motivic_integration": 8.5,
+            "BP_beauty_spatial_poise": 9.74,
+            "EG_evolving_grammar": 7.5,
+            "CD_carry_depth": 8.73
+          },
+          "core_metrics": {
+            "CDPD": 0.975,
+            "NGE": 0.633,
+            "HMII_peak_estimate": 6.0
+          },
+          "rung_number": 13.0,
+          "rung_label": "Inhabited Form",
+          "confidence": 7.7,
+          "duration_seconds": 246.52,
+          "tempo_bpm": 172.265625,
+          "estimated_key": "F major",
+          "key_confidence": 0.6997278260966596,
+          "integrated_lufs": -17.971249955145463,
+          "peak_dbfs": -0.6790101892187967,
+          "crest_factor_db": 15.8879121625435,
+          "clipping_ratio": 0.0,
+          "onset_rate_per_second": 4.13759532695116,
+          "recurrence_ratio": 0.347182415584584,
+          "section_count": 11.0,
+          "word_count": 526.0,
+          "line_count": 118.0,
+          "repeated_line_ratio": 0.1440677966101695,
+          "rhyme_suffix_reuse": 0.35593220338983056,
+          "lyrics_url": "data/lyrics/Lost%20Souls/01%20-%20Old%20Oars%20From%20Strangers.json"
+        }
       }
     ],
     "stats": {
       "track_count": 1,
-      "analyzed_count": 0,
-      "average_score": null,
-      "average_rung": null,
-      "average_tempo_bpm": null,
-      "total_duration_seconds": 0,
-      "axes": {},
-      "core_metrics": {}
+      "analyzed_count": 1,
+      "average_score": 8.594,
+      "average_rung": 13.0,
+      "average_tempo_bpm": 172.266,
+      "total_duration_seconds": 246.52,
+      "axes": {
+        "BP_beauty_spatial_poise": 9.74,
+        "CD_carry_depth": 8.73,
+        "EG_evolving_grammar": 7.5,
+        "MI_motivic_integration": 8.5,
+        "SC_structural_coherence": 8.5
+      },
+      "core_metrics": {
+        "CDPD": 0.975,
+        "HMII_peak_estimate": 6.0,
+        "NGE": 0.633
+      }
     }
   },
   {

@@ -1981,6 +1981,50 @@
       "lyrics_url": "data/lyrics/Failure%20to%20Converge/12%20-%20Single-Core%20Optimized.json"
     },
     {
+      "report_path": "analysis-output/Lost_Souls_audio_01_-_Old_Oars_From_Strangers.analysis.json",
+      "report_url": "reports/analysis-output_Lost_Souls_audio_01_-_Old_Oars_From_Strangers.analysis.json",
+      "source_type": "batch",
+      "generated_at": "2026-06-09T15:59:43",
+      "title": "Old Oars From Strangers",
+      "album": "Lost Souls",
+      "track_number": 1,
+      "audio_path": "Lost Souls/audio/01 - Old Oars From Strangers.mp3",
+      "audio_url": "media/Lost%20Souls/audio/01%20-%20Old%20Oars%20From%20Strangers.mp3",
+      "framework": "Hip hop & rap.txt",
+      "score": 8.594,
+      "axes": {
+        "SC_structural_coherence": 8.5,
+        "MI_motivic_integration": 8.5,
+        "BP_beauty_spatial_poise": 9.74,
+        "EG_evolving_grammar": 7.5,
+        "CD_carry_depth": 8.73
+      },
+      "core_metrics": {
+        "CDPD": 0.975,
+        "NGE": 0.633,
+        "HMII_peak_estimate": 6.0
+      },
+      "rung_number": 13.0,
+      "rung_label": "Inhabited Form",
+      "confidence": 7.7,
+      "duration_seconds": 246.52,
+      "tempo_bpm": 172.265625,
+      "estimated_key": "F major",
+      "key_confidence": 0.6997278260966596,
+      "integrated_lufs": -17.971249955145463,
+      "peak_dbfs": -0.6790101892187967,
+      "crest_factor_db": 15.8879121625435,
+      "clipping_ratio": 0.0,
+      "onset_rate_per_second": 4.13759532695116,
+      "recurrence_ratio": 0.347182415584584,
+      "section_count": 11.0,
+      "word_count": 526.0,
+      "line_count": 118.0,
+      "repeated_line_ratio": 0.1440677966101695,
+      "rhyme_suffix_reuse": 0.35593220338983056,
+      "lyrics_url": "data/lyrics/Lost%20Souls/01%20-%20Old%20Oars%20From%20Strangers.json"
+    },
+    {
       "report_path": "analysis-output/Net_Worthless_audio_01_-_Main_Character_Morning.analysis.json",
       "report_url": "reports/analysis-output_Net_Worthless_audio_01_-_Main_Character_Morning.analysis.json",
       "source_type": "batch",
@@ -5062,23 +5106,23 @@
     }
   ],
   "summary": {
-    "count": 115,
-    "track_count": 115,
-    "analyzed_count": 115,
-    "average_score": 8.341,
-    "average_rung": 12.226,
-    "average_tempo_bpm": 131.138,
-    "total_duration_seconds": 32001.31,
+    "count": 116,
+    "track_count": 116,
+    "analyzed_count": 116,
+    "average_score": 8.343,
+    "average_rung": 12.233,
+    "average_tempo_bpm": 131.492,
+    "total_duration_seconds": 32247.83,
     "axes": {
-      "BP_beauty_spatial_poise": 8.96,
-      "CD_carry_depth": 8.405,
-      "EG_evolving_grammar": 7.365,
-      "MI_motivic_integration": 7.772,
-      "SC_structural_coherence": 9.202
+      "BP_beauty_spatial_poise": 8.967,
+      "CD_carry_depth": 8.408,
+      "EG_evolving_grammar": 7.366,
+      "MI_motivic_integration": 7.778,
+      "SC_structural_coherence": 9.196
     },
     "core_metrics": {
-      "CDPD": 0.845,
-      "HMII_peak_estimate": 4.948,
+      "CDPD": 0.846,
+      "HMII_peak_estimate": 4.957,
       "NGE": 0.639
     }
   }

@@ -85,6 +85,15 @@ function recordForRouteSong(song, album = '') {
     );
 }
 
+function albumTrackForRouteSong(song, album = '') {
+  for (const albumItem of state.albums) {
+    if (album && albumItem.name !== album) continue;
+    const track = (albumItem.tracks || []).find(item => item.title === song);
+    if (track) return { album: albumItem, track };
+  }
+  return null;
+}
+
 async function applyRouteFromUrl({ replace = false } = {}) {
   const params = new URLSearchParams(window.location.search);
   const album = params.get('album') || '';
@@ -97,6 +106,12 @@ async function applyRouteFromUrl({ replace = false } = {}) {
       state.selectedAlbum = album && record.album === album ? album : null;
       await showAnalysisReport(record.report_path);
       if (replace) updateRoute({ album: record.album, song: record.title }, { replace: true });
+      return;
+    }
+    const albumTrack = albumTrackForRouteSong(song, album);
+    if (albumTrack) {
+      renderTrackDetail(albumTrack.album, albumTrack.track);
+      if (replace) updateRoute({ album: albumTrack.album.name, song: albumTrack.track.title }, { replace: true });
       return;
     }
   }
@@ -146,6 +161,13 @@ async function navigateToReport(reportPath) {
   await showAnalysisReport(reportPath);
 }
 
+function navigateToTrack(albumName, trackTitle) {
+  const albumTrack = albumTrackForRouteSong(trackTitle, albumName);
+  if (!albumTrack) return;
+  renderTrackDetail(albumTrack.album, albumTrack.track);
+  updateRoute({ album: albumTrack.album.name, song: albumTrack.track.title });
+}
+
 async function copyText(value) {
   if (navigator.clipboard?.writeText) {
     await navigator.clipboard.writeText(value);
@@ -174,9 +196,13 @@ function showCopiedState(button) {
 async function copyRouteFromButton(button) {
   const album = button.dataset.copyAlbumLink || '';
   const reportPath = button.dataset.copyReportLink || '';
+  const trackAlbum = button.dataset.copyTrackAlbum || '';
+  const trackTitle = button.dataset.copyTrackTitle || '';
   const record = reportPath ? state.records.find(item => item.report_path === reportPath) : null;
   const url = record
     ? routeUrl({ album: record.album, song: record.title })
+    : trackTitle
+      ? routeUrl({ album: trackAlbum, song: trackTitle })
     : routeUrl({ album });
   try {
     await copyText(url.href);
@@ -496,6 +522,37 @@ function sortedNews() {
   });
 }
 
+function isSafeNewsHref(href) {
+  const value = String(href || '').trim();
+  if (!value) return false;
+  if (value.startsWith('?') || value.startsWith('#')) return true;
+  if (value.startsWith('//') || /^[a-z][a-z0-9+.-]*:/i.test(value)) return false;
+  return /^[A-Za-z0-9./_%?=&#+-]+$/.test(value);
+}
+
+function renderNewsBody(value) {
+  const parts = [];
+  const source = String(value || '');
+  const pattern = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  const appendText = text => {
+    parts.push(escapeHtml(text).replace(/\n{2,}/g, '<br><br>').replace(/\n/g, '<br>'));
+  };
+  for (const match of source.matchAll(pattern)) {
+    appendText(source.slice(lastIndex, match.index));
+    const [raw, label, href] = match;
+    const safeHref = String(href || '').trim();
+    if (isSafeNewsHref(safeHref)) {
+      parts.push(`<a href="${escapeHtml(safeHref)}">${escapeHtml(label)}</a>`);
+    } else {
+      appendText(raw);
+    }
+    lastIndex = match.index + raw.length;
+  }
+  appendText(source.slice(lastIndex));
+  return parts.join('');
+}
+
 function syncNavButtons() {
   $('newsBtn').classList.toggle('active', state.currentView === 'news');
   $('statsBtn').classList.toggle('active', state.currentView !== 'news');
@@ -522,7 +579,7 @@ function renderNews() {
           <article class="news-item">
             <h3>${escapeHtml(item.title || 'Untitled update')}</h3>
             <div class="meta">${escapeHtml(formatNewsDate(item.datetime))}</div>
-            <div class="news-body">${escapeHtml(item.body || '')}</div>
+            <div class="news-body">${renderNewsBody(item.body || '')}</div>
           </article>
         `).join('')}
       </div>
@@ -1245,6 +1302,55 @@ function albumTracksForPlaylist(album) {
     }));
 }
 
+function trackDisplayDuration(track) {
+  return track.analysis?.duration_seconds;
+}
+
+function renderTrackDetail(album, track) {
+  const analysis = track.analysis || {};
+  const hasReport = Boolean(analysis.report_path);
+  state.selectedAlbum = album.name;
+  state.selectedAlbumDetail = album;
+  state.selectedReportPath = hasReport ? analysis.report_path : null;
+  state.currentView = 'discography';
+  $('detail').className = '';
+  $('detail').innerHTML = `
+    <div class="topline">
+      <div>
+        <h2>${escapeHtml(track.title)}</h2>
+        <div class="meta">${escapeHtml(track.audio_path || track.text_path || album.name)}</div>
+      </div>
+      <div class="header-actions">
+        <button class="secondary" type="button" data-copy-track-album="${escapeHtml(album.name)}" data-copy-track-title="${escapeHtml(track.title)}">Copy Link</button>
+        ${track.audio_url ? `<button class="secondary" type="button" data-play-audio data-audio-url="${escapeHtml(track.audio_url)}" data-track-title="${escapeHtml(track.title)}" data-track-meta="${escapeHtml(track.audio_path)}" data-lyrics-url="${escapeHtml(track.lyrics_url || lyricsUrlForAudio(track.audio_url))}">Play</button>` : ''}
+        <button class="secondary" type="button" data-album-name="${escapeHtml(album.name)}">Album</button>
+        <button class="secondary" type="button" data-statistics-back>Back</button>
+        ${analysis.report_url ? `<a href="${escapeHtml(analysis.report_url)}" target="_blank" rel="noopener">JSON</a>` : ''}
+      </div>
+    </div>
+    <div class="summary">
+      <div class="metric"><strong>${track.track_number ?? track.index ?? '-'}</strong><span>Track</span></div>
+      <div class="metric"><strong>${hasReport ? fmt(analysis.score, 3) : '-'}</strong><span>Score</span></div>
+      <div class="metric"><strong>${hasReport ? fmt(analysis.tempo_bpm, 1) : '-'}</strong><span>BPM</span></div>
+      <div class="metric"><strong>${formatDuration(trackDisplayDuration(track))}</strong><span>Duration</span></div>
+    </div>
+    <div class="stats-table-wrap">
+      <div class="meta" style="padding:10px 12px 4px">Source</div>
+      <table>
+        <tbody>
+          <tr><th>Album</th><td><button class="title-link" type="button" data-album-name="${escapeHtml(album.name)}">${escapeHtml(album.name)}</button></td></tr>
+          <tr><th>Lyrics</th><td>${escapeHtml(track.text_path || '-')}</td></tr>
+          <tr><th>Audio</th><td>${escapeHtml(track.audio_path || '-')}</td></tr>
+          <tr><th>Report</th><td>${hasReport ? `<button class="title-link" type="button" data-report-path="${escapeHtml(analysis.report_path)}">Open analysis</button>` : 'No analysis report yet.'}</td></tr>
+        </tbody>
+      </table>
+    </div>
+  `;
+  renderAlbumList();
+  syncNavButtons();
+  syncPlayButtons();
+}
+
 function renderAlbumDetail(albumName) {
   const album = state.albums.find(item => item.name === albumName);
   if (!album) return;
@@ -1266,7 +1372,7 @@ function renderAlbumDetail(albumName) {
     <div class="topline">
       <div>
         <h2>${escapeHtml(album.name)}</h2>
-        <div class="meta">${tracks.length} analyzed tracks</div>
+        <div class="meta">${tracks.length} track${tracks.length === 1 ? '' : 's'}</div>
       </div>
       <div class="header-actions">
         <button class="secondary" type="button" data-copy-album-link="${escapeHtml(album.name)}">Copy Link</button>
@@ -1294,7 +1400,7 @@ function renderAlbumDetail(albumName) {
             return `
               <tr>
                 <td>${track.track_number ?? track.index ?? '-'}</td>
-                <td>${analysis.report_path ? `<button class="title-link" type="button" data-report-path="${escapeHtml(analysis.report_path)}">${escapeHtml(track.title)}</button>` : escapeHtml(track.title)}</td>
+                <td><button class="title-link" type="button" data-track-album="${escapeHtml(album.name)}" data-track-title="${escapeHtml(track.title)}">${escapeHtml(track.title)}</button></td>
                 <td>${fmt(analysis.score, 3)}</td>
                 <td>${analysis.rung_number ?? '-'} ${escapeHtml(analysis.rung_label || '')}</td>
                 <td>${fmt(analysis.tempo_bpm, 1)}</td>
@@ -1797,7 +1903,7 @@ $('globalAudio').addEventListener('seeked', updateKaraokeLines);
 $('karaokePrevBtn').addEventListener('click', () => shiftManualLyric(-1));
 $('karaokeNextBtn').addEventListener('click', () => shiftManualLyric(1));
 document.addEventListener('click', async event => {
-  const copyLinkButton = event.target.closest('[data-copy-album-link], [data-copy-report-link]');
+  const copyLinkButton = event.target.closest('[data-copy-album-link], [data-copy-report-link], [data-copy-track-title]');
   if (copyLinkButton) {
     await copyRouteFromButton(copyLinkButton);
     return;
@@ -1805,6 +1911,11 @@ document.addEventListener('click', async event => {
   const albumButton = event.target.closest('[data-album-name]');
   if (albumButton) {
     navigateToAlbum(albumButton.dataset.albumName);
+    return;
+  }
+  const trackButton = event.target.closest('[data-track-album][data-track-title]');
+  if (trackButton) {
+    navigateToTrack(trackButton.dataset.trackAlbum, trackButton.dataset.trackTitle);
     return;
   }
   const namedAlbumPlayButton = event.target.closest('[data-play-album-name]');

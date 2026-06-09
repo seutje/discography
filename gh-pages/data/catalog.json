@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-08T22:30:28Z",
+  "generated_at": "2026-06-09T13:45:16Z",
   "news": [
     {
       "title": "Report assets restored for source previews",
       "datetime": "2026-06-09T00:30:48+02:00",
-      "body": "Added the generated report JSON assets to the gh-pages source output and updated the site builder so refreshed source previews include those reports. Song pages now load full report data when serving gh-pages directly instead of falling back to catalog summary data. Fixed the GitHub Pages artifact build so it copies committed gh-pages report JSON files when local analysis-output reports are not present in CI."
+      "body": "Added the generated report JSON assets to the gh-pages source output and updated the site builder so refreshed source previews include those reports. Song pages now load full report data when serving gh-pages directly instead of falling back to catalog summary data. Fixed the GitHub Pages artifact build so it copies committed gh-pages report JSON files when local analysis-output reports are not present in CI.\n\nRecovered track: restored the original Oars From Strangers recording and lyrics as [Old Oars From Strangers](?album=Lost%20Souls&song=Old%20Oars%20From%20Strangers) in [Lost Souls](?album=Lost%20Souls). The remade version remains available as [Oars From Strangers](?album=Driftwood&song=Oars%20From%20Strangers) in [Driftwood](?album=Driftwood)."
     },
     {
       "title": "News section added",

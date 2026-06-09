@@ -244,11 +244,12 @@ def build_album_catalog(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
             audio_rel = rel(audio_path) if audio_path else ""
             lyrics_url = lyric_timing_url_for_text(text_path)
             record = records_by_audio.get(audio_rel.lower()) or records_by_album_title.get((album_dir.name.lower(), title.lower()))
-            if not record:
+            if not record and not audio_rel:
                 continue
-            if lyrics_url:
+            if lyrics_url and record:
                 record["lyrics_url"] = lyrics_url
-            album_records.append(record)
+            if record:
+                album_records.append(record)
             tracks.append(
                 {
                     "index": index,
@@ -258,7 +259,7 @@ def build_album_catalog(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
                     "audio_path": audio_rel,
                     "audio_url": f"media/{url_for_path(audio_rel)}" if audio_rel else "",
                     "lyrics_url": lyrics_url,
-                    "analysis": record,
+                    "analysis": record or {},
                 }
             )
         if tracks:

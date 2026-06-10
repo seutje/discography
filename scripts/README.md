@@ -50,7 +50,8 @@ Apply an optional Ollama LLM scoring adjustment:
 ```bash
 python scripts/analyze_track.py "stderr/audio/01 - You Follow.mp3" \
   --beat-file "analysis-output/beat-this/stderr/01 - You Follow.beats" \
-  --ollama-model qwen3:8b
+  --ollama-model gemma4:12b \
+  --ollama-audio-image
 ```
 
 Batch mode passes the same model through to each track:
@@ -58,7 +59,8 @@ Batch mode passes the same model through to each track:
 ```bash
 python scripts/analyze_collection.py "stderr" \
   --beat-dir "analysis-output/beat-this/stderr" \
-  --ollama-model qwen3:8b
+  --ollama-model gemma4:12b \
+  --ollama-audio-image
 ```
 
 By default, the LLM does not analyze raw audio. It receives the measured features, lyrics/production notes, framework excerpt, and Python base scoring, then returns bounded score adjustments plus rationale. Axis changes are limited to `--llm-max-axis-delta` from the Python score by default.
@@ -94,7 +96,7 @@ When transcription is available, low lyric alignment penalizes carry depth, moti
 `scripts/suno_iterate.py` prepares Suno custom-mode `V5_5` generation requests from the existing song text format:
 
 - `GENRE`, `MOOD`, `TEMPO`, `KEY`, `VOCALS`, and `PRODUCTION` become the Suno `style` prompt.
-- Generated candidates are analyzed with `beat_this` beat/downbeat files and the Ollama LLM scoring adjustment. The default pipeline model is `qwen3:8b`; pass `--ollama-model` to use a different local model.
+- Generated candidates are analyzed with `beat_this` beat/downbeat files and the Ollama LLM scoring adjustment. The default pipeline model is `gemma4:12b` with audio context enabled; pass `--ollama-model` or `--no-ollama-audio-image` to change that.
 - Generated candidates are also transcribed by default with `--transcription-backend auto` and `--transcription-model base` so unintelligible vocals or full-song repeats are penalized before candidate selection. Pass `--transcription-backend none` to disable this check.
 - Text after `[LYRICS]` becomes the regular Suno `prompt`.
 - `TITLE` becomes the Suno title.
@@ -114,7 +116,7 @@ python scripts/suno_iterate.py "Net Worthless/01 - Main Character Morning.txt" \
   --threshold 8.2 \
   --max-iterations 3 \
   --max-api-calls 1 \
-  --ollama-model qwen3:8b
+  --ollama-model gemma4:12b
 ```
 
 For each live iteration, the script submits `POST /api/v1/generate`, polls `GET /api/v1/generate/record-info?taskId=...`, downloads returned candidates, grades them with `analyze_track.py`, selects the best candidate, and asks the local Ollama model to revise the next iteration's lyrics/style metadata when the quality threshold is not met. The revision prompt includes the current lyrics, the current rendered style prompt, targeted feedback, and Suno's title/style/lyrics character limits. The revised text is verified before the next Suno request is submitted.

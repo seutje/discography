@@ -27,7 +27,11 @@ STYLE_LIMIT = 1000
 PROMPT_LIMIT = 5000
 TITLE_LIMIT = 100
 AUDIO_EXTENSIONS = (".mp3", ".wav", ".m4a", ".flac", ".ogg")
-DEFAULT_OLLAMA_MODEL = "qwen3:8b"
+DEFAULT_OLLAMA_MODEL = "gemma4:12b"
+DEFAULT_OLLAMA_NUM_CTX = 16384
+DEFAULT_OLLAMA_TIMEOUT = 900.0
+DEFAULT_OLLAMA_AUDIO_IMAGE = True
+DEFAULT_OLLAMA_AUDIO_SAMPLE_RATE = 16000
 DEFAULT_BEAT_THIS_GPU = "-1"
 DEFAULT_TRANSCRIPTION_BACKEND = "auto"
 DEFAULT_TRANSCRIPTION_MODEL = "base"
@@ -204,7 +208,7 @@ def revise_spec_with_feedback(
     model: str,
     ollama_url: str,
     timeout: float,
-    num_ctx: int = 16384,
+    num_ctx: int = DEFAULT_OLLAMA_NUM_CTX,
 ) -> tuple[TrackSpec, dict[str, Any]]:
     if not revision_notes:
         return spec, {"changed": False, "verification_errors": verify_suno_spec(spec)}
@@ -549,6 +553,9 @@ def run_analyzer(
     ollama_model: str | None,
     ollama_url: str,
     ollama_timeout: float,
+    ollama_num_ctx: int = DEFAULT_OLLAMA_NUM_CTX,
+    ollama_audio_image: bool = DEFAULT_OLLAMA_AUDIO_IMAGE,
+    ollama_audio_sample_rate: int = DEFAULT_OLLAMA_AUDIO_SAMPLE_RATE,
     beat_file: Path | None = None,
     transcription_backend: str = DEFAULT_TRANSCRIPTION_BACKEND,
     transcription_model: str = DEFAULT_TRANSCRIPTION_MODEL,
@@ -574,7 +581,20 @@ def run_analyzer(
     if beat_file:
         cmd.extend(["--beat-file", str(beat_file)])
     if ollama_model:
-        cmd.extend(["--ollama-model", ollama_model, "--ollama-url", ollama_url, "--ollama-timeout", str(ollama_timeout)])
+        cmd.extend(
+            [
+                "--ollama-model",
+                ollama_model,
+                "--ollama-url",
+                ollama_url,
+                "--ollama-timeout",
+                str(ollama_timeout),
+                "--ollama-num-ctx",
+                str(ollama_num_ctx),
+            ]
+        )
+        if ollama_audio_image:
+            cmd.extend(["--ollama-audio-image", "--ollama-audio-sample-rate", str(ollama_audio_sample_rate)])
     if transcription_backend != "none":
         cmd.extend(
             [
@@ -684,7 +704,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--framework", type=Path, help="Optional analyzer framework override.")
     parser.add_argument("--ollama-model", default=DEFAULT_OLLAMA_MODEL, help="Local Ollama model passed to analyze_track.py for adjusted grading.")
     parser.add_argument("--ollama-url", default="http://localhost:11434", help="Ollama base URL for analyzer grading.")
-    parser.add_argument("--ollama-timeout", type=float, default=240.0, help="Analyzer Ollama timeout per generated candidate.")
+    parser.add_argument("--ollama-timeout", type=float, default=DEFAULT_OLLAMA_TIMEOUT, help="Analyzer Ollama timeout per generated candidate.")
+    parser.add_argument("--ollama-num-ctx", type=int, default=DEFAULT_OLLAMA_NUM_CTX, help="Ollama context window for analyzer grading.")
+    parser.add_argument(
+        "--no-ollama-audio-image",
+        action="store_true",
+        help="Disable attaching generated audio to the analyzer's multimodal Ollama request.",
+    )
+    parser.add_argument("--ollama-audio-sample-rate", type=int, default=DEFAULT_OLLAMA_AUDIO_SAMPLE_RATE, help="Sample rate for analyzer audio attachment.")
     parser.add_argument(
         "--transcription-backend",
         choices=("none", "auto", "faster-whisper", "whisper-cli"),
@@ -751,6 +778,7 @@ def main() -> int:
                 args.ollama_model,
                 args.ollama_url,
                 args.ollama_timeout,
+                args.ollama_num_ctx,
             )
         payload = build_payload(
             working_spec,
@@ -804,6 +832,9 @@ def main() -> int:
                     args.ollama_model,
                     args.ollama_url,
                     args.ollama_timeout,
+                    args.ollama_num_ctx,
+                    not args.no_ollama_audio_image,
+                    args.ollama_audio_sample_rate,
                     beat_file,
                     args.transcription_backend,
                     args.transcription_model,

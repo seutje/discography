@@ -777,7 +777,7 @@
         </select>
 
         <label for="ollamaModel">Ollama Model</label>
-        <input id="ollamaModel" value="qwen3:8b">
+        <input id="ollamaModel" value="gemma4:12b">
 
         <div class="row">
           <div>
@@ -2168,6 +2168,9 @@
           vocal_gender: $('vocalGender').value,
           live: $('live').checked,
           ollama_model: $('ollamaModel').value.trim(),
+          ollama_num_ctx: 16384,
+          ollama_audio_image: true,
+          ollama_audio_sample_rate: 16000,
           transcription_backend: $('transcriptionBackend').value,
           transcription_model: $('transcriptionModel').value.trim()
         };

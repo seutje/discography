@@ -196,6 +196,20 @@ def bounded_float(value: Any, fallback: float, low: float = 0.0, high: float = 1
     return round(result, 2)
 
 
+def bounded_bool(value: Any, fallback: bool = False) -> bool:
+    if value is None:
+        return fallback
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        normalized = value.strip().lower()
+        if normalized in {"1", "true", "yes", "on"}:
+            return True
+        if normalized in {"0", "false", "no", "off"}:
+            return False
+    return bool(value)
+
+
 def normalize_vocal_gender(value: Any) -> str | None:
     gender = str(value or "").strip().lower()
     if not gender:
@@ -880,6 +894,7 @@ def run_job(job_id: str) -> None:
                     settings.get("ollama_model") or suno_iterate.DEFAULT_OLLAMA_MODEL,
                     settings["ollama_url"],
                     float(settings["ollama_timeout"]),
+                    int(settings.get("ollama_num_ctx", suno_iterate.DEFAULT_OLLAMA_NUM_CTX)),
                 )
             payload = suno_iterate.build_payload(
                 working_spec,
@@ -989,6 +1004,9 @@ def run_job(job_id: str) -> None:
                     settings.get("ollama_model") or None,
                     settings["ollama_url"],
                     float(settings["ollama_timeout"]),
+                    int(settings.get("ollama_num_ctx", suno_iterate.DEFAULT_OLLAMA_NUM_CTX)),
+                    bounded_bool(settings.get("ollama_audio_image"), suno_iterate.DEFAULT_OLLAMA_AUDIO_IMAGE),
+                    int(settings.get("ollama_audio_sample_rate", suno_iterate.DEFAULT_OLLAMA_AUDIO_SAMPLE_RATE)),
                     beat_file,
                     settings.get("transcription_backend") or suno_iterate.DEFAULT_TRANSCRIPTION_BACKEND,
                     settings.get("transcription_model") or suno_iterate.DEFAULT_TRANSCRIPTION_MODEL,
@@ -997,7 +1015,7 @@ def run_job(job_id: str) -> None:
                     settings.get("transcription_compute_type") or "default",
                     float(settings.get("transcription_timeout", 900)),
                     settings.get("transcription_model_dir") or suno_iterate.DEFAULT_TRANSCRIPTION_MODEL_DIR,
-                    bool(settings.get("transcription_vad_filter")),
+                    bounded_bool(settings.get("transcription_vad_filter")),
                 )
                 report_paths.append(report_path)
                 candidate.update(candidate_report_summary(report_path, settings["score_mode"]))
@@ -1297,14 +1315,17 @@ class Handler(BaseHTTPRequestHandler):
                     "score_mode": data.get("score_mode", "mean_axes"),
                     "max_iterations": int(data.get("max_iterations", 3)),
                     "max_api_calls": int(data.get("max_api_calls", 1)),
-                    "live": bool(data.get("live")),
+                    "live": bounded_bool(data.get("live")),
                     "style_weight": bounded_float(data.get("style_weight"), 0.75),
                     "weirdness_constraint": bounded_float(data.get("weirdness_constraint"), 0.75),
                     "vocal_gender": normalize_vocal_gender(data.get("vocal_gender")),
                     "framework": data.get("framework") or None,
                     "ollama_model": data.get("ollama_model") or suno_iterate.DEFAULT_OLLAMA_MODEL,
                     "ollama_url": data.get("ollama_url") or "http://localhost:11434",
-                    "ollama_timeout": float(data.get("ollama_timeout", 240)),
+                    "ollama_timeout": float(data.get("ollama_timeout", suno_iterate.DEFAULT_OLLAMA_TIMEOUT)),
+                    "ollama_num_ctx": int(data.get("ollama_num_ctx", suno_iterate.DEFAULT_OLLAMA_NUM_CTX)),
+                    "ollama_audio_image": bounded_bool(data.get("ollama_audio_image"), suno_iterate.DEFAULT_OLLAMA_AUDIO_IMAGE),
+                    "ollama_audio_sample_rate": int(data.get("ollama_audio_sample_rate", suno_iterate.DEFAULT_OLLAMA_AUDIO_SAMPLE_RATE)),
                     "transcription_backend": data.get("transcription_backend") or suno_iterate.DEFAULT_TRANSCRIPTION_BACKEND,
                     "transcription_model": data.get("transcription_model") or suno_iterate.DEFAULT_TRANSCRIPTION_MODEL,
                     "transcription_language": data.get("transcription_language") or "en",
@@ -1312,7 +1333,7 @@ class Handler(BaseHTTPRequestHandler):
                     "transcription_compute_type": data.get("transcription_compute_type") or "default",
                     "transcription_timeout": float(data.get("transcription_timeout", 900)),
                     "transcription_model_dir": data.get("transcription_model_dir") or suno_iterate.DEFAULT_TRANSCRIPTION_MODEL_DIR,
-                    "transcription_vad_filter": bool(data.get("transcription_vad_filter")),
+                    "transcription_vad_filter": bounded_bool(data.get("transcription_vad_filter")),
                     "beat_this_gpu": str(data.get("beat_this_gpu") or suno_iterate.DEFAULT_BEAT_THIS_GPU),
                     "poll_seconds": float(data.get("poll_seconds", 15)),
                     "task_timeout": float(data.get("task_timeout", 900)),
@@ -1346,7 +1367,7 @@ class Handler(BaseHTTPRequestHandler):
                     job_id,
                     int(data.get("iteration", 1)),
                     int(data["candidate_index"]),
-                    bool(data.get("overwrite", False)),
+                    bounded_bool(data.get("overwrite")),
                 )
                 status = HTTPStatus.CONFLICT if result.get("exists") else HTTPStatus.OK
                 self.send_json(result, status)

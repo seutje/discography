@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:52:00",
+  "generated_at": "2026-06-10T12:51:10",
   "audio": {
     "path": "UNMEASURED GEOMETRY/audio/05 - Quiet Choir.mp3",
     "duration_seconds": 349.92,
@@ -2967,19 +2967,22 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.9,
-      "MI_motivic_integration": 6.74,
-      "BP_beauty_spatial_poise": 9.96,
-      "EG_evolving_grammar": 7.12,
-      "CD_carry_depth": 7.81
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 6.89,
+      "BP_beauty_spatial_poise": 10.0,
+      "EG_evolving_grammar": 7.2,
+      "CD_carry_depth": 8.04
     },
     "core_metrics": {
-      "CDPD": 0.806,
-      "NGE": 0.693,
+      "CDPD": 0.821,
+      "NGE": 0.697,
       "HMII_peak_estimate": 4
     },
     "eg_evidence": {
@@ -2992,9 +2995,9 @@
       "overall_score": 5.493
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.216,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.216
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 11,
@@ -3002,323 +3005,6 @@
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
     "confidence_0_10": 7.7,
-    "rationale": [
-      "Detected 10 audio sections over 5:49.92 with section-balance score 0.45.",
-      "Tempo estimate is 117.5 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -17.5 LUFS, peak is -0.3 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is E minor with confidence 0.24.",
-      "Audio recurrence ratio is 0.252; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 956 beats and 396 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 4.02, cumulative evolution 1.65, transformed returns 10.00, grid deviation 2.50, rule changes 7.78.",
-      "Companion text has 9 lyric/production sections, 291 words, line repetition 0.12, rhyme-suffix reuse 0.40.",
-      "Transcription check: lyric alignment 0.68, unique-word coverage 0.74, word-count ratio 1.08, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.22, repeat 0.00)."
-    ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "With spur-chapes inside the home, pulling at the threads I've spun every voice a distant drum calling me to come under I reach for the warmth of the human fire but the smoke calls into my lungs The shadows linger in the wire with me while my pulse starts coming undone I feel the gravity of wanting a press of tens against my face Yet the noise beneath their breathing turns my shelter into waste Pulling closer push me through I'm a man he's split into I want the light that circles crowds Another body's making sound, craving union, very touch Needing everything too much on the echo chasing home I'm the quiet and the storm I trace the shape of conversation like a ghost with her sentence But the weight of every heartbeat makes me crawl back to my youth Where silence grew with sharp and teeth and cards it's all in me Still I beg for one connection just enough to let me breathe Pull me nearer tear me free Let the choirs swallow me On the light that circles crowds, another body's making sound, craving union, very touch Needing everything too much on the echo chasing home I'm the quiet and the storm I'm a man he's split into I want the light that circles crowds, another body's making sound, craving union, very touch Needing everything too much on the echo chasing home I'm the quiet and the storm I'm a man he's split into I want the light that circles, another body's making sound, craving union, very touch Needing everything too much on the echo If I step inside the circle Will I vanish into need? Will solitude release me When I finally let it bleed I'm a man he's split into",
-    "segments": [
-      {
-        "start": 30.0,
-        "end": 59.96,
-        "text": "With spur-chapes inside the home, pulling at the threads",
-        "avg_logprob": -0.6462673511770036,
-        "no_speech_prob": 0.426513671875
-      },
-      {
-        "start": 59.96,
-        "end": 75.96,
-        "text": "I've spun every voice a distant drum calling me to come under",
-        "avg_logprob": -0.33258927719933645,
-        "no_speech_prob": 0.127197265625
-      },
-      {
-        "start": 75.96,
-        "end": 87.96,
-        "text": "I reach for the warmth of the human fire but the smoke calls into my lungs",
-        "avg_logprob": -0.33258927719933645,
-        "no_speech_prob": 0.127197265625
-      },
-      {
-        "start": 87.96,
-        "end": 98.96,
-        "text": "The shadows linger in the wire with me while my pulse starts coming undone",
-        "avg_logprob": -0.31399600049282644,
-        "no_speech_prob": 0.05255126953125
-      },
-      {
-        "start": 98.96,
-        "end": 104.96,
-        "text": "I feel the gravity of wanting a press of tens against my face",
-        "avg_logprob": -0.31399600049282644,
-        "no_speech_prob": 0.05255126953125
-      },
-      {
-        "start": 104.96,
-        "end": 113.96,
-        "text": "Yet the noise beneath their breathing turns my shelter into waste",
-        "avg_logprob": -0.31399600049282644,
-        "no_speech_prob": 0.05255126953125
-      },
-      {
-        "start": 113.96,
-        "end": 125.96,
-        "text": "Pulling closer push me through",
-        "avg_logprob": -0.3068426600817976,
-        "no_speech_prob": 0.040863037109375
-      },
-      {
-        "start": 125.96,
-        "end": 133.96,
-        "text": "I'm a man he's split into",
-        "avg_logprob": -0.3068426600817976,
-        "no_speech_prob": 0.040863037109375
-      },
-      {
-        "start": 133.96,
-        "end": 136.96,
-        "text": "I want the light that circles crowds",
-        "avg_logprob": -0.3068426600817976,
-        "no_speech_prob": 0.040863037109375
-      },
-      {
-        "start": 136.96,
-        "end": 141.96,
-        "text": "Another body's making sound, craving union, very touch",
-        "avg_logprob": -0.340711809694767,
-        "no_speech_prob": 0.1729736328125
-      },
-      {
-        "start": 141.96,
-        "end": 150.96,
-        "text": "Needing everything too much on the echo chasing home",
-        "avg_logprob": -0.340711809694767,
-        "no_speech_prob": 0.1729736328125
-      },
-      {
-        "start": 150.96,
-        "end": 157.96,
-        "text": "I'm the quiet and the storm",
-        "avg_logprob": -0.340711809694767,
-        "no_speech_prob": 0.1729736328125
-      },
-      {
-        "start": 157.96,
-        "end": 173.96,
-        "text": "I trace the shape of conversation like a ghost with her sentence",
-        "avg_logprob": -0.27797378839985015,
-        "no_speech_prob": 0.033721923828125
-      },
-      {
-        "start": 173.96,
-        "end": 181.96,
-        "text": "But the weight of every heartbeat makes me crawl back to my youth",
-        "avg_logprob": -0.27797378839985015,
-        "no_speech_prob": 0.033721923828125
-      },
-      {
-        "start": 181.96,
-        "end": 187.96,
-        "text": "Where silence grew with sharp and teeth and cards it's all in me",
-        "avg_logprob": -0.36582032293081285,
-        "no_speech_prob": 0.01629638671875
-      },
-      {
-        "start": 187.96,
-        "end": 198.96,
-        "text": "Still I beg for one connection just enough to let me breathe",
-        "avg_logprob": -0.36582032293081285,
-        "no_speech_prob": 0.01629638671875
-      },
-      {
-        "start": 203.96,
-        "end": 210.96,
-        "text": "Pull me nearer tear me free",
-        "avg_logprob": -0.36582032293081285,
-        "no_speech_prob": 0.01629638671875
-      },
-      {
-        "start": 211.96,
-        "end": 222.96,
-        "text": "Let the choirs swallow me",
-        "avg_logprob": -0.2072916716337204,
-        "no_speech_prob": 0.006809234619140625
-      },
-      {
-        "start": 222.96,
-        "end": 230.96,
-        "text": "On the light that circles crowds, another body's making sound, craving union, very touch",
-        "avg_logprob": -0.2072916716337204,
-        "no_speech_prob": 0.006809234619140625
-      },
-      {
-        "start": 230.96,
-        "end": 240.96,
-        "text": "Needing everything too much on the echo chasing home",
-        "avg_logprob": -0.16495028070428155,
-        "no_speech_prob": 0.273193359375
-      },
-      {
-        "start": 240.96,
-        "end": 253.96,
-        "text": "I'm the quiet and the storm",
-        "avg_logprob": -0.16495028070428155,
-        "no_speech_prob": 0.273193359375
-      },
-      {
-        "start": 260.96,
-        "end": 265.96,
-        "text": "I'm a man he's split into",
-        "avg_logprob": -0.31298829009756446,
-        "no_speech_prob": 0.12066650390625
-      },
-      {
-        "start": 265.96,
-        "end": 272.96,
-        "text": "I want the light that circles crowds, another body's making sound, craving union, very touch",
-        "avg_logprob": -0.31298829009756446,
-        "no_speech_prob": 0.12066650390625
-      },
-      {
-        "start": 272.96,
-        "end": 277.96,
-        "text": "Needing everything too much on the echo chasing home",
-        "avg_logprob": -0.31298829009756446,
-        "no_speech_prob": 0.12066650390625
-      },
-      {
-        "start": 277.96,
-        "end": 281.96,
-        "text": "I'm the quiet and the storm",
-        "avg_logprob": -0.31298829009756446,
-        "no_speech_prob": 0.12066650390625
-      },
-      {
-        "start": 281.96,
-        "end": 285.96,
-        "text": "I'm a man he's split into",
-        "avg_logprob": -0.31298829009756446,
-        "no_speech_prob": 0.12066650390625
-      },
-      {
-        "start": 285.96,
-        "end": 292.96,
-        "text": "I want the light that circles, another body's making sound, craving union, very touch",
-        "avg_logprob": -0.2208658910046021,
-        "no_speech_prob": 0.1298828125
-      },
-      {
-        "start": 292.96,
-        "end": 298.96,
-        "text": "Needing everything too much on the echo",
-        "avg_logprob": -0.2208658910046021,
-        "no_speech_prob": 0.1298828125
-      },
-      {
-        "start": 298.96,
-        "end": 304.96,
-        "text": "If I step inside the circle",
-        "avg_logprob": -0.2208658910046021,
-        "no_speech_prob": 0.1298828125
-      },
-      {
-        "start": 304.96,
-        "end": 310.96,
-        "text": "Will I vanish into need?",
-        "avg_logprob": -0.2208658910046021,
-        "no_speech_prob": 0.1298828125
-      },
-      {
-        "start": 310.96,
-        "end": 315.96,
-        "text": "Will solitude release me",
-        "avg_logprob": -0.2108154259622097,
-        "no_speech_prob": 0.31640625
-      },
-      {
-        "start": 315.96,
-        "end": 320.96,
-        "text": "When I finally let it bleed",
-        "avg_logprob": -0.2108154259622097,
-        "no_speech_prob": 0.31640625
-      },
-      {
-        "start": 340.96,
-        "end": 345.96,
-        "text": "I'm a man he's split into",
-        "avg_logprob": -0.8515625108372081,
-        "no_speech_prob": 0.8818359375
-      }
-    ],
-    "avg_logprob": -0.3320139702843751
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 275,
-    "transcript_word_count": 297,
-    "matched_sequence_words": 188,
-    "lyric_alignment_ratio": 0.684,
-    "transcript_precision_ratio": 0.633,
-    "unique_expected_word_coverage": 0.739,
-    "word_count_ratio": 1.08,
-    "repeated_12gram_ratio": 0.203,
-    "half_similarity": 0.324,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.69,
-    "quality_score_0_10": 6.9,
-    "flags": [],
-    "transcript_excerpt": "With spur-chapes inside the home, pulling at the threads I've spun every voice a distant drum calling me to come under I reach for the warmth of the human fire but the smoke calls into my lungs The shadows linger in the wire with me while my pulse starts coming undone I feel the gravity of wanting a press of tens against my face Yet the noise beneath their breathing turns my shelter into waste Pulling closer push me through I'm a man he's split into I want the light that circles crowds Another body's making sound, craving union, very touch Needing everything too much on the echo chasing home I\n...[truncated]...\nng sound, craving union, very touch Needing everything too much on the echo chasing home I'm the quiet and the storm I'm a man he's split into I want the light that circles crowds, another body's making sound, craving union, very touch Needing everything too much on the echo chasing home I'm the quiet and the storm I'm a man he's split into I want the light that circles, another body's making sound, craving union, very touch Needing everything too much on the echo If I step inside the circle Will I vanish into need? Will solitude release me When I finally let it bleed I'm a man he's split into"
-  },
-  "llm_adjusted_scoring": {
-    "axes": {
-      "SC_structural_coherence": 9.9,
-      "MI_motivic_integration": 6.74,
-      "BP_beauty_spatial_poise": 9.96,
-      "EG_evolving_grammar": 7.12,
-      "CD_carry_depth": 7.81
-    },
-    "core_metrics": {
-      "CDPD": 0.806,
-      "NGE": 0.693,
-      "HMII_peak_estimate": 4
-    },
-    "rung_estimate": {
-      "number": 11,
-      "label": "First Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
-    },
-    "confidence_0_10": 7.7,
-    "adjustments": {
-      "SC_structural_coherence": {
-        "delta": 0.0,
-        "reason": "The piece maintains a clear, multi-sectional structure with consistent transitions and a strong sense of form, aligning with the 'First Rupture' label."
-      },
-      "MI_motivic_integration": {
-        "delta": 0.0,
-        "reason": "Motifs are introduced and repeated with variation across sections, though the integration is not deeply recursive or transformative."
-      },
-      "BP_beauty_spatial_poise": {
-        "delta": 0.0,
-        "reason": "The piece exhibits a high level of harmonic and timbral beauty, with well-structured spatial dynamics and phrasing."
-      },
-      "EG_evolving_grammar": {
-        "delta": 0.0,
-        "reason": "The evolving grammar is evident through the rule changes and section contrasts, though the transformation is not fully realized in the framework's higher tiers."
-      },
-      "CD_carry_depth": {
-        "delta": 0.0,
-        "reason": "The emotional depth and re-listen pull are strong, with a self-sustaining musical habitat that resonates with the listener."
-      }
-    },
     "rationale": [
       "Detected 10 audio sections over 5:49.92 with section-balance score 0.45.",
       "Tempo estimate is 117.5 BPM; declared tempo alignment contributes 0.00.",
@@ -3328,16 +3014,75 @@
       "beat_this detected 956 beats and 396 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 4.02, cumulative evolution 1.65, transformed returns 10.00, grid deviation 2.50, rule changes 7.78.",
       "Companion text has 9 lyric/production sections, 291 words, line repetition 0.12, rhyme-suffix reuse 0.40."
+    ]
+  },
+  "llm_adjusted_scoring": {
+    "axes": {
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 6.89,
+      "BP_beauty_spatial_poise": 10.0,
+      "EG_evolving_grammar": 7.2,
+      "CD_carry_depth": 8.04
+    },
+    "core_metrics": {
+      "CDPD": 0.821,
+      "NGE": 0.697,
+      "HMII_peak_estimate": 4
+    },
+    "rung_estimate": {
+      "number": 11,
+      "label": "First Rupture",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar"
+    },
+    "confidence_0_10": 7.7,
+    "adjustments": {
+      "SC_structural_coherence": {
+        "delta": 0.0,
+        "reason": "No change."
+      },
+      "MI_motivic_integration": {
+        "delta": 0.0,
+        "reason": "No change."
+      },
+      "BP_beauty_spatial_poise": {
+        "delta": 0.0,
+        "reason": "No change."
+      },
+      "EG_evolving_grammar": {
+        "delta": 0.0,
+        "reason": "No change."
+      },
+      "CD_carry_depth": {
+        "delta": 0.0,
+        "reason": "No change."
+      }
+    },
+    "rationale": [
+      "The track exhibits high structural coherence (10.0) and spatial poise (10.0), indicating a well-defined arrangement.",
+      "Motivic integration is strong (6.89), suggesting the musical elements work together to create a cohesive emotional experience.",
+      "Evolutionary grammar is solid (7.2), showing consistent development of themes throughout the piece.",
+      "Carry depth is high (8.04), indicating that the core motifs are effectively sustained and developed over time."
     ],
     "review_flags": [
-      "Uncertainty about the exact nature of the 'First Rupture' label due to limited evidence of new grammar beyond the framework's heuristic ceiling."
+      "No issues identified."
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:52:00.6071833Z",
-    "eval_count": 809,
-    "eval_duration": 13486548500
+    "created_at": "2026-06-10T10:51:10.7928223Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 11197566,
+      "base64_chars": 14930088,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14968,
+    "prompt_eval_duration": 6521218000,
+    "eval_count": 538,
+    "eval_duration": 13885150000
   }
 }

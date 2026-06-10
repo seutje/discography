@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:42:27",
+  "generated_at": "2026-06-10T12:42:28",
   "audio": {
     "path": "Residual Instabilities/audio/03 - Just Shifted.mp3",
     "duration_seconds": 279.72,
@@ -1776,7 +1776,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1820,601 +1823,8 @@
       "beat_this detected 527 beats and 153 downbeats; beat-grid stability is 0.53.",
       "EG evidence: section contrast 2.20, cumulative evolution 0.86, transformed returns 10.00, grid deviation 1.60, rule changes 4.29.",
       "Companion text has 12 lyric/production sections, 460 words, line repetition 0.06, rhyme-suffix reuse 0.33.",
-      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change); intent score 5.95.",
-      "Transcription check: lyric alignment 0.84, unique-word coverage 0.90, word-count ratio 1.01, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change); intent score 5.95."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "They say I'm sharp, like I cut through things, but I just see where it thins. Conversations drift so slow. A stretched light I used to know. They're debating contracts, megabytes, data caps, and monthly rights. I'm tracing how the carrier's been to fields that never really am. The phase alignment error rates, latency through vacuum states. You call it signal, I call it strain of waves collapsing into frame. You hear convenience, I hear the cost of distance. Dressed up as loss. Everything they say feels redshifted. Pulled away elongated gifted, not wrong. Just shifted. I'm just shifted further up the scale. Where the meaning stretches thin, mine compresses into detail. They think I'm ahead. I think the drag behind. Same light leaving different mouths. Just differently align. They explain the plans out loud. I'm out probability clouds. They name outcomes fixed and clean. I see branching in between. And trapping in every choice. Thermal drift inside their voice. You call it simple, I call it course. Resolution lost to force. They laugh at things I can't ignore. Missing layers underneath the floor, not deeper. Just dance. Every word they send is widening. Energy drops while time is lighting. Still true. Just shifted. I'm just shifted. Higher frequency. Where the colors fade to red, mine burn into intensity. They say I'm too much. I say they're too wide. Same star seen at different speeds from opposite sides. I wasn't made for this band with. Everything here. Arrives diluted. Not incorrect. Just displaced. What if clarity. Isn't brilliance. A compression. What if I'm not ahead. Just shifted. I slow myself to meet the frame. Read my edges. Tamp the gain. Trade precision for the flow. Lower where they seem to go. But every time I settle in, I feel the stretching. Start again like gravity. I can't escape. Pulling form out of my shape. Not alone. Just shifted. I'm just shifted. Not above. Not below. Same spectrum. All belong to just a different place to go. They think I'm distant. I think they're dead. Same signal crossing different curves of space. We're living in. I think they're dead. Same signal crossing different curves of space. We're living in. Not smarter. Just tighter. Not clearer. Just brighter. Same light. Just shifted. Just shifted. Same signal crossing different curves.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 20.0,
-        "text": "They say I'm sharp, like I cut through things, but I just see where it thins.",
-        "avg_logprob": -0.4258996212121212,
-        "no_speech_prob": 0.375244140625
-      },
-      {
-        "start": 20.0,
-        "end": 28.0,
-        "text": "Conversations drift so slow.",
-        "avg_logprob": -0.4258996212121212,
-        "no_speech_prob": 0.375244140625
-      },
-      {
-        "start": 28.0,
-        "end": 34.0,
-        "text": "A stretched light I used to know.",
-        "avg_logprob": -0.25159799747846345,
-        "no_speech_prob": 0.37548828125
-      },
-      {
-        "start": 34.0,
-        "end": 38.0,
-        "text": "They're debating contracts, megabytes, data caps, and monthly rights.",
-        "avg_logprob": -0.25159799747846345,
-        "no_speech_prob": 0.37548828125
-      },
-      {
-        "start": 38.0,
-        "end": 43.0,
-        "text": "I'm tracing how the carrier's been to fields that never really am.",
-        "avg_logprob": -0.25159799747846345,
-        "no_speech_prob": 0.37548828125
-      },
-      {
-        "start": 43.0,
-        "end": 47.0,
-        "text": "The phase alignment error rates, latency through vacuum states.",
-        "avg_logprob": -0.25159799747846345,
-        "no_speech_prob": 0.37548828125
-      },
-      {
-        "start": 47.0,
-        "end": 52.0,
-        "text": "You call it signal, I call it strain of waves collapsing into frame.",
-        "avg_logprob": -0.25159799747846345,
-        "no_speech_prob": 0.37548828125
-      },
-      {
-        "start": 52.0,
-        "end": 57.0,
-        "text": "You hear convenience, I hear the cost of distance.",
-        "avg_logprob": -0.25159799747846345,
-        "no_speech_prob": 0.37548828125
-      },
-      {
-        "start": 58.0,
-        "end": 60.0,
-        "text": "Dressed up as loss.",
-        "avg_logprob": -0.18951612302372534,
-        "no_speech_prob": 0.074462890625
-      },
-      {
-        "start": 60.0,
-        "end": 64.0,
-        "text": "Everything they say feels redshifted.",
-        "avg_logprob": -0.18951612302372534,
-        "no_speech_prob": 0.074462890625
-      },
-      {
-        "start": 64.0,
-        "end": 72.0,
-        "text": "Pulled away elongated gifted, not wrong.",
-        "avg_logprob": -0.18951612302372534,
-        "no_speech_prob": 0.074462890625
-      },
-      {
-        "start": 72.0,
-        "end": 76.0,
-        "text": "Just shifted.",
-        "avg_logprob": -0.18951612302372534,
-        "no_speech_prob": 0.074462890625
-      },
-      {
-        "start": 76.0,
-        "end": 80.0,
-        "text": "I'm just shifted further up the scale.",
-        "avg_logprob": -0.18951612302372534,
-        "no_speech_prob": 0.074462890625
-      },
-      {
-        "start": 80.0,
-        "end": 85.0,
-        "text": "Where the meaning stretches thin, mine compresses into detail.",
-        "avg_logprob": -0.18951612302372534,
-        "no_speech_prob": 0.074462890625
-      },
-      {
-        "start": 85.0,
-        "end": 87.0,
-        "text": "They think I'm ahead.",
-        "avg_logprob": -0.158582085104131,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 87.0,
-        "end": 89.0,
-        "text": "I think the drag behind.",
-        "avg_logprob": -0.158582085104131,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 89.0,
-        "end": 91.0,
-        "text": "Same light leaving different mouths.",
-        "avg_logprob": -0.158582085104131,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 91.0,
-        "end": 95.0,
-        "text": "Just differently align.",
-        "avg_logprob": -0.158582085104131,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 103.0,
-        "end": 105.0,
-        "text": "They explain the plans out loud.",
-        "avg_logprob": -0.158582085104131,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 105.0,
-        "end": 107.0,
-        "text": "I'm out probability clouds.",
-        "avg_logprob": -0.158582085104131,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 107.0,
-        "end": 109.0,
-        "text": "They name outcomes fixed and clean.",
-        "avg_logprob": -0.158582085104131,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 109.0,
-        "end": 111.0,
-        "text": "I see branching in between.",
-        "avg_logprob": -0.158582085104131,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 111.0,
-        "end": 113.0,
-        "text": "And trapping in every choice.",
-        "avg_logprob": -0.1763392821118072,
-        "no_speech_prob": 0.460693359375
-      },
-      {
-        "start": 113.0,
-        "end": 115.0,
-        "text": "Thermal drift inside their voice.",
-        "avg_logprob": -0.1763392821118072,
-        "no_speech_prob": 0.460693359375
-      },
-      {
-        "start": 115.0,
-        "end": 117.0,
-        "text": "You call it simple, I call it course.",
-        "avg_logprob": -0.1763392821118072,
-        "no_speech_prob": 0.460693359375
-      },
-      {
-        "start": 117.0,
-        "end": 119.0,
-        "text": "Resolution lost to force.",
-        "avg_logprob": -0.1763392821118072,
-        "no_speech_prob": 0.460693359375
-      },
-      {
-        "start": 119.0,
-        "end": 121.0,
-        "text": "They laugh at things I can't ignore.",
-        "avg_logprob": -0.1763392821118072,
-        "no_speech_prob": 0.460693359375
-      },
-      {
-        "start": 121.0,
-        "end": 125.0,
-        "text": "Missing layers underneath the floor, not deeper.",
-        "avg_logprob": -0.1763392821118072,
-        "no_speech_prob": 0.460693359375
-      },
-      {
-        "start": 127.0,
-        "end": 129.0,
-        "text": "Just dance.",
-        "avg_logprob": -0.1763392821118072,
-        "no_speech_prob": 0.460693359375
-      },
-      {
-        "start": 129.0,
-        "end": 133.0,
-        "text": "Every word they send is widening.",
-        "avg_logprob": -0.1763392821118072,
-        "no_speech_prob": 0.460693359375
-      },
-      {
-        "start": 133.0,
-        "end": 137.0,
-        "text": "Energy drops while time is lighting.",
-        "avg_logprob": -0.1763392821118072,
-        "no_speech_prob": 0.460693359375
-      },
-      {
-        "start": 137.0,
-        "end": 139.0,
-        "text": "Still true.",
-        "avg_logprob": -0.1763392821118072,
-        "no_speech_prob": 0.460693359375
-      },
-      {
-        "start": 141.0,
-        "end": 143.0,
-        "text": "Just shifted.",
-        "avg_logprob": -0.15962837213600004,
-        "no_speech_prob": 0.52294921875
-      },
-      {
-        "start": 145.0,
-        "end": 147.0,
-        "text": "I'm just shifted.",
-        "avg_logprob": -0.15962837213600004,
-        "no_speech_prob": 0.52294921875
-      },
-      {
-        "start": 147.0,
-        "end": 149.0,
-        "text": "Higher frequency.",
-        "avg_logprob": -0.15962837213600004,
-        "no_speech_prob": 0.52294921875
-      },
-      {
-        "start": 149.0,
-        "end": 153.0,
-        "text": "Where the colors fade to red, mine burn into intensity.",
-        "avg_logprob": -0.15962837213600004,
-        "no_speech_prob": 0.52294921875
-      },
-      {
-        "start": 153.0,
-        "end": 155.0,
-        "text": "They say I'm too much.",
-        "avg_logprob": -0.15962837213600004,
-        "no_speech_prob": 0.52294921875
-      },
-      {
-        "start": 155.0,
-        "end": 157.0,
-        "text": "I say they're too wide.",
-        "avg_logprob": -0.15962837213600004,
-        "no_speech_prob": 0.52294921875
-      },
-      {
-        "start": 157.0,
-        "end": 163.0,
-        "text": "Same star seen at different speeds from opposite sides.",
-        "avg_logprob": -0.15962837213600004,
-        "no_speech_prob": 0.52294921875
-      },
-      {
-        "start": 165.0,
-        "end": 167.0,
-        "text": "I wasn't made for this band with.",
-        "avg_logprob": -0.15962837213600004,
-        "no_speech_prob": 0.52294921875
-      },
-      {
-        "start": 167.0,
-        "end": 171.0,
-        "text": "Everything here.",
-        "avg_logprob": -0.12840908386490563,
-        "no_speech_prob": 0.3095703125
-      },
-      {
-        "start": 171.0,
-        "end": 173.0,
-        "text": "Arrives diluted.",
-        "avg_logprob": -0.12840908386490563,
-        "no_speech_prob": 0.3095703125
-      },
-      {
-        "start": 173.0,
-        "end": 175.0,
-        "text": "Not incorrect.",
-        "avg_logprob": -0.12840908386490563,
-        "no_speech_prob": 0.3095703125
-      },
-      {
-        "start": 175.0,
-        "end": 177.0,
-        "text": "Just displaced.",
-        "avg_logprob": -0.12840908386490563,
-        "no_speech_prob": 0.3095703125
-      },
-      {
-        "start": 177.0,
-        "end": 179.0,
-        "text": "What if clarity.",
-        "avg_logprob": -0.12840908386490563,
-        "no_speech_prob": 0.3095703125
-      },
-      {
-        "start": 179.0,
-        "end": 181.0,
-        "text": "Isn't brilliance.",
-        "avg_logprob": -0.12840908386490563,
-        "no_speech_prob": 0.3095703125
-      },
-      {
-        "start": 183.0,
-        "end": 185.0,
-        "text": "A compression.",
-        "avg_logprob": -0.12840908386490563,
-        "no_speech_prob": 0.3095703125
-      },
-      {
-        "start": 187.0,
-        "end": 189.0,
-        "text": "What if I'm not ahead.",
-        "avg_logprob": -0.12840908386490563,
-        "no_speech_prob": 0.3095703125
-      },
-      {
-        "start": 189.0,
-        "end": 191.0,
-        "text": "Just shifted.",
-        "avg_logprob": -0.12840908386490563,
-        "no_speech_prob": 0.3095703125
-      },
-      {
-        "start": 197.0,
-        "end": 201.0,
-        "text": "I slow myself to meet the frame.",
-        "avg_logprob": -0.23106617857428158,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 201.0,
-        "end": 203.0,
-        "text": "Read my edges.",
-        "avg_logprob": -0.23106617857428158,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 203.0,
-        "end": 205.0,
-        "text": "Tamp the gain.",
-        "avg_logprob": -0.23106617857428158,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 205.0,
-        "end": 207.0,
-        "text": "Trade precision for the flow.",
-        "avg_logprob": -0.23106617857428158,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 207.0,
-        "end": 209.0,
-        "text": "Lower where they seem to go.",
-        "avg_logprob": -0.23106617857428158,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 209.0,
-        "end": 211.0,
-        "text": "But every time I settle in, I feel the stretching.",
-        "avg_logprob": -0.23106617857428158,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 211.0,
-        "end": 213.0,
-        "text": "Start again like gravity.",
-        "avg_logprob": -0.23106617857428158,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 213.0,
-        "end": 215.0,
-        "text": "I can't escape.",
-        "avg_logprob": -0.23106617857428158,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 215.0,
-        "end": 217.0,
-        "text": "Pulling form out of my shape.",
-        "avg_logprob": -0.23106617857428158,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 217.0,
-        "end": 219.0,
-        "text": "Not alone.",
-        "avg_logprob": -0.23106617857428158,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 219.0,
-        "end": 223.0,
-        "text": "Just shifted.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 223.0,
-        "end": 225.0,
-        "text": "I'm just shifted.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 225.0,
-        "end": 227.0,
-        "text": "Not above.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 227.0,
-        "end": 229.0,
-        "text": "Not below.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 229.0,
-        "end": 231.0,
-        "text": "Same spectrum.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 231.0,
-        "end": 233.0,
-        "text": "All belong to just a different place to go.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 233.0,
-        "end": 235.0,
-        "text": "They think I'm distant.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 235.0,
-        "end": 237.0,
-        "text": "I think they're dead.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 237.0,
-        "end": 241.0,
-        "text": "Same signal crossing different curves of space.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 241.0,
-        "end": 243.0,
-        "text": "We're living in.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 243.0,
-        "end": 245.0,
-        "text": "I think they're dead.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 245.0,
-        "end": 247.0,
-        "text": "Same signal crossing different curves of space.",
-        "avg_logprob": -0.18274456537936046,
-        "no_speech_prob": 0.1678466796875
-      },
-      {
-        "start": 247.0,
-        "end": 249.0,
-        "text": "We're living in.",
-        "avg_logprob": -0.10392441513926484,
-        "no_speech_prob": 0.1461181640625
-      },
-      {
-        "start": 249.0,
-        "end": 251.0,
-        "text": "Not smarter.",
-        "avg_logprob": -0.10392441513926484,
-        "no_speech_prob": 0.1461181640625
-      },
-      {
-        "start": 251.0,
-        "end": 253.0,
-        "text": "Just tighter.",
-        "avg_logprob": -0.10392441513926484,
-        "no_speech_prob": 0.1461181640625
-      },
-      {
-        "start": 253.0,
-        "end": 255.0,
-        "text": "Not clearer.",
-        "avg_logprob": -0.10392441513926484,
-        "no_speech_prob": 0.1461181640625
-      },
-      {
-        "start": 255.0,
-        "end": 257.0,
-        "text": "Just brighter.",
-        "avg_logprob": -0.10392441513926484,
-        "no_speech_prob": 0.1461181640625
-      },
-      {
-        "start": 257.0,
-        "end": 259.0,
-        "text": "Same light.",
-        "avg_logprob": -0.10392441513926484,
-        "no_speech_prob": 0.1461181640625
-      },
-      {
-        "start": 259.0,
-        "end": 263.0,
-        "text": "Just shifted.",
-        "avg_logprob": -0.10392441513926484,
-        "no_speech_prob": 0.1461181640625
-      },
-      {
-        "start": 263.0,
-        "end": 265.0,
-        "text": "Just shifted.",
-        "avg_logprob": -0.10392441513926484,
-        "no_speech_prob": 0.1461181640625
-      },
-      {
-        "start": 277.0,
-        "end": 279.0,
-        "text": "Same signal crossing different curves.",
-        "avg_logprob": -0.7986111111111112,
-        "no_speech_prob": 0.806640625
-      }
-    ],
-    "avg_logprob": -0.21469140344796717
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 382,
-    "transcript_word_count": 387,
-    "matched_sequence_words": 322,
-    "lyric_alignment_ratio": 0.843,
-    "transcript_precision_ratio": 0.832,
-    "unique_expected_word_coverage": 0.895,
-    "word_count_ratio": 1.013,
-    "repeated_12gram_ratio": 0.008,
-    "half_similarity": 0.166,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.852,
-    "quality_score_0_10": 8.52,
-    "flags": [],
-    "transcript_excerpt": "They say I'm sharp, like I cut through things, but I just see where it thins. Conversations drift so slow. A stretched light I used to know. They're debating contracts, megabytes, data caps, and monthly rights. I'm tracing how the carrier's been to fields that never really am. The phase alignment error rates, latency through vacuum states. You call it signal, I call it strain of waves collapsing into frame. You hear convenience, I hear the cost of distance. Dressed up as loss. Everything they say feels redshifted. Pulled away elongated gifted, not wrong. Just shifted. I'm just shifted further \n...[truncated]...\nhere they seem to go. But every time I settle in, I feel the stretching. Start again like gravity. I can't escape. Pulling form out of my shape. Not alone. Just shifted. I'm just shifted. Not above. Not below. Same spectrum. All belong to just a different place to go. They think I'm distant. I think they're dead. Same signal crossing different curves of space. We're living in. I think they're dead. Same signal crossing different curves of space. We're living in. Not smarter. Just tighter. Not clearer. Just brighter. Same light. Just shifted. Just shifted. Same signal crossing different curves."
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -2432,50 +1842,57 @@
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in lyrical imagery and production layering."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track maintains strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting emotional rooms."
+        "reason": "Base score accurately reflects the clear verse/hook structure."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong motivic integration."
+        "reason": "Stronger integration of technical motifs (data caps, parity) into the core theme."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The track’s spatial poise is central to its identity, with room tone and guitar space forming a memorable habitat."
+        "reason": "Atmospheric production and spatial depth are highly effective."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The grammar develops a personal indie system over time, showing noticeable evolution without inventing a new method."
+        "reason": "Lyric progression from technical jargon to abstract identity is well-executed."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track feels like a small world, with a strong emotional arc and lasting imprint."
+        "reason": "Thematic weight of 'shifting' vs 'distance' provides significant depth."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:39.72 with section-balance score 0.53.",
-      "Tempo estimate is 112.3 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -15.9 LUFS, peak is -1.3 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D major with confidence 0.17.",
-      "Audio recurrence ratio is 0.314; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 527 beats and 153 downbeats; beat-grid stability is 0.53.",
-      "EG evidence: section contrast 2.20, cumulative evolution 0.86, transformed returns 10.00, grid deviation 1.60, rule changes 4.29.",
-      "Companion text has 12 lyric/production sections, 460 words, line repetition 0.06, rhyme-suffix reuse 0.33."
+      "Strong structural coherence with clear transitions.",
+      "Motivic integration links tech-jargon to personal identity.",
+      "High production value in spatial design and atmosphere.",
+      "Lyric progression shows sophisticated growth."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to weak audio-only evidence."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:42:27.751563Z",
-    "eval_count": 774,
-    "eval_duration": 12957018500
+    "created_at": "2026-06-10T10:42:28.3834648Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8951266,
+      "base64_chars": 11935024,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12767,
+    "prompt_eval_duration": 5453636000,
+    "eval_count": 381,
+    "eval_duration": 9389236000
   }
 }

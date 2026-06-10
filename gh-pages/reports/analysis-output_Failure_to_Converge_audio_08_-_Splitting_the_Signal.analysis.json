@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:16:11",
+  "generated_at": "2026-06-10T12:19:34",
   "audio": {
     "path": "Failure to Converge/audio/08 - Splitting the Signal.mp3",
     "duration_seconds": 300.84,
@@ -1521,7 +1521,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1565,312 +1568,76 @@
       "beat_this detected 410 beats and 103 downbeats; beat-grid stability is 0.91.",
       "EG evidence: section contrast 2.17, cumulative evolution 0.66, transformed returns 10.00, grid deviation 0.23, rule changes 3.44.",
       "Companion text has 12 lyric/production sections, 697 words, line repetition 0.00, rhyme-suffix reuse 0.31.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 5.95.",
-      "Transcription check: lyric alignment 0.89, unique-word coverage 0.95, word-count ratio 0.96, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 5.95."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "There are too many voices inside a single thought too many paths for one answer to carry so something inside me learned to choose not everything just enough to keep moving I used to think I had to be everything at once every question pulling threads I couldn't hold on to every answer heavy with the weight of the hole like I had to carry every version of control but somewhere deep beneath the noise and demand the quieter system started drawing a plan not louder not faster not trying to prove just deciding which parts of me to use and leaving the rest in the gentle silence like I'm open doors that still made sense I don't need every voice to speak to find the meaning underneath somewhere between what I choose and what I leave behind unused there's a shape there's a truth that only shows when I let go of the proof there are specialists inside us small selves trained on different kinds of weather one knows how to hold a memory without breaking it one knows how to leave one understands the language of failure like it's been there before but they don't all speak at once they wait and something not quite meet not quite separate decides who steps forward I don't need every road too light to find a way through every night just a signal clear and true choosing what to carry through there's a rhythm in the divide where the scattered parts are lying it's strange the way clarity isn't about more it's about less but chosen well then over time the choosing gets quieter not forced not calculated just understood I started noticing how the pieces would fall not into chaos but into something small a pattern of trust in the way I respond like I don't need to reach for everything at once some parts step forward some gently received not lost just resting until they're needed and suddenly the noise wasn't something to fight it was a system learning how to be light now I feel the signal form through the quiet and the storm not every voice but the right few shaping something I can move through there's a balance I can't force but I can follow like a course maybe we were never meant to hold everything maybe we were built to choose to trust that not every path needs to be walked for the journey to be real that meaning isn't in the way it's in the selection and all those unused pieces they're not wasted they're waiting I don't need every part to stay to find the truth along the way in what I keep and what I release I finally feel a kind of peace there's a system soft and true making something out of you it was never about being everything just about knowing which parts of you were enough to answer",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 12.36,
-        "text": "There are too many voices inside a single thought too many paths for one answer to",
-        "avg_logprob": -0.3192274355226093,
-        "no_speech_prob": 0.304443359375
-      },
-      {
-        "start": 12.36,
-        "end": 25.0,
-        "text": "carry so something inside me learned to choose not everything just enough to keep moving",
-        "avg_logprob": -0.3192274355226093,
-        "no_speech_prob": 0.304443359375
-      },
-      {
-        "start": 30.0,
-        "end": 42.16,
-        "text": "I used to think I had to be everything at once every question pulling threads I couldn't",
-        "avg_logprob": -0.20405016839504242,
-        "no_speech_prob": 0.3515625
-      },
-      {
-        "start": 42.16,
-        "end": 47.56,
-        "text": "hold on to every answer heavy with the weight of the hole like I had to carry every",
-        "avg_logprob": -0.20405016839504242,
-        "no_speech_prob": 0.3515625
-      },
-      {
-        "start": 47.56,
-        "end": 52.64,
-        "text": "version of control but somewhere deep beneath the noise and demand the quieter system",
-        "avg_logprob": -0.20405016839504242,
-        "no_speech_prob": 0.3515625
-      },
-      {
-        "start": 52.64,
-        "end": 58.84,
-        "text": "started drawing a plan not louder not faster not trying to prove just deciding which parts",
-        "avg_logprob": -0.20405016839504242,
-        "no_speech_prob": 0.3515625
-      },
-      {
-        "start": 58.84,
-        "end": 69.16,
-        "text": "of me to use and leaving the rest in the gentle silence like I'm open doors that still",
-        "avg_logprob": -0.2694359639795815,
-        "no_speech_prob": 0.0997314453125
-      },
-      {
-        "start": 69.16,
-        "end": 78.16,
-        "text": "made sense I don't need every voice to speak to find the meaning underneath somewhere",
-        "avg_logprob": -0.2694359639795815,
-        "no_speech_prob": 0.0997314453125
-      },
-      {
-        "start": 78.16,
-        "end": 88.4,
-        "text": "between what I choose and what I leave behind unused there's a shape there's a truth",
-        "avg_logprob": -0.2767578028142452,
-        "no_speech_prob": 0.2264404296875
-      },
-      {
-        "start": 88.4,
-        "end": 102.52,
-        "text": "that only shows when I let go of the proof there are specialists inside us small",
-        "avg_logprob": -0.2767578028142452,
-        "no_speech_prob": 0.2264404296875
-      },
-      {
-        "start": 102.52,
-        "end": 108.56,
-        "text": "selves trained on different kinds of weather one knows how to hold a memory without breaking",
-        "avg_logprob": -0.22080591634700172,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 108.56,
-        "end": 114.76,
-        "text": "it one knows how to leave one understands the language of failure like it's been there",
-        "avg_logprob": -0.22080591634700172,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 114.76,
-        "end": 121.6,
-        "text": "before but they don't all speak at once they wait and something not quite meet not",
-        "avg_logprob": -0.22080591634700172,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 121.6,
-        "end": 129.4,
-        "text": "quite separate decides who steps forward I don't need every road too light to find",
-        "avg_logprob": -0.22080591634700172,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 129.4,
-        "end": 137.8,
-        "text": "a way through every night just a signal clear and true choosing what to carry through",
-        "avg_logprob": -0.28125000152832424,
-        "no_speech_prob": 0.279296875
-      },
-      {
-        "start": 137.8,
-        "end": 149.2,
-        "text": "there's a rhythm in the divide where the scattered parts are lying it's strange the",
-        "avg_logprob": -0.28125000152832424,
-        "no_speech_prob": 0.279296875
-      },
-      {
-        "start": 149.2,
-        "end": 164.88,
-        "text": "way clarity isn't about more it's about less but chosen well then over time the choosing",
-        "avg_logprob": -0.18606085408675044,
-        "no_speech_prob": 0.10491943359375
-      },
-      {
-        "start": 164.88,
-        "end": 177.16,
-        "text": "gets quieter not forced not calculated just understood I started noticing how the pieces",
-        "avg_logprob": -0.18606085408675044,
-        "no_speech_prob": 0.10491943359375
-      },
-      {
-        "start": 177.16,
-        "end": 183.6,
-        "text": "would fall not into chaos but into something small a pattern of trust in the way I respond",
-        "avg_logprob": -0.1648536452764197,
-        "no_speech_prob": 0.46533203125
-      },
-      {
-        "start": 183.6,
-        "end": 188.68,
-        "text": "like I don't need to reach for everything at once some parts step forward some gently",
-        "avg_logprob": -0.1648536452764197,
-        "no_speech_prob": 0.46533203125
-      },
-      {
-        "start": 188.68,
-        "end": 194.6,
-        "text": "received not lost just resting until they're needed and suddenly the noise wasn't something",
-        "avg_logprob": -0.1648536452764197,
-        "no_speech_prob": 0.46533203125
-      },
-      {
-        "start": 194.6,
-        "end": 201.0,
-        "text": "to fight it was a system learning how to be light now I feel the signal form through",
-        "avg_logprob": -0.1648536452764197,
-        "no_speech_prob": 0.46533203125
-      },
-      {
-        "start": 201.0,
-        "end": 208.68,
-        "text": "the quiet and the storm not every voice but the right few shaping something I can move",
-        "avg_logprob": -0.21707589675982794,
-        "no_speech_prob": 0.1375732421875
-      },
-      {
-        "start": 208.68,
-        "end": 224.56,
-        "text": "through there's a balance I can't force but I can follow like a course maybe we were",
-        "avg_logprob": -0.21707589675982794,
-        "no_speech_prob": 0.1375732421875
-      },
-      {
-        "start": 224.56,
-        "end": 233.44,
-        "text": "never meant to hold everything maybe we were built to choose to trust that not every",
-        "avg_logprob": -0.13319052851969196,
-        "no_speech_prob": 0.62646484375
-      },
-      {
-        "start": 233.44,
-        "end": 242.0,
-        "text": "path needs to be walked for the journey to be real that meaning isn't in the way it's",
-        "avg_logprob": -0.13319052851969196,
-        "no_speech_prob": 0.62646484375
-      },
-      {
-        "start": 242.0,
-        "end": 252.68,
-        "text": "in the selection and all those unused pieces they're not wasted they're waiting I don't",
-        "avg_logprob": -0.13319052851969196,
-        "no_speech_prob": 0.62646484375
-      },
-      {
-        "start": 252.68,
-        "end": 260.6,
-        "text": "need every part to stay to find the truth along the way in what I keep and what I release",
-        "avg_logprob": -0.2376736084620158,
-        "no_speech_prob": 0.05078125
-      },
-      {
-        "start": 260.6,
-        "end": 272.76,
-        "text": "I finally feel a kind of peace there's a system soft and true making something out of you",
-        "avg_logprob": -0.2376736084620158,
-        "no_speech_prob": 0.05078125
-      },
-      {
-        "start": 272.76,
-        "end": 294.04,
-        "text": "it was never about being everything just about knowing which parts of you were enough to answer",
-        "avg_logprob": -0.34188988662901376,
-        "no_speech_prob": 0.1568603515625
-      }
-    ],
-    "avg_logprob": -0.23303601482687644
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 509,
-    "transcript_word_count": 489,
-    "matched_sequence_words": 453,
-    "lyric_alignment_ratio": 0.89,
-    "transcript_precision_ratio": 0.926,
-    "unique_expected_word_coverage": 0.947,
-    "word_count_ratio": 0.961,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.172,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.905,
-    "quality_score_0_10": 9.05,
-    "flags": [],
-    "transcript_excerpt": "There are too many voices inside a single thought too many paths for one answer to carry so something inside me learned to choose not everything just enough to keep moving I used to think I had to be everything at once every question pulling threads I couldn't hold on to every answer heavy with the weight of the hole like I had to carry every version of control but somewhere deep beneath the noise and demand the quieter system started drawing a plan not louder not faster not trying to prove just deciding which parts of me to use and leaving the rest in the gentle silence like I'm open doors th\n...[truncated]...\nalance I can't force but I can follow like a course maybe we were never meant to hold everything maybe we were built to choose to trust that not every path needs to be walked for the journey to be real that meaning isn't in the way it's in the selection and all those unused pieces they're not wasted they're waiting I don't need every part to stay to find the truth along the way in what I keep and what I release I finally feel a kind of peace there's a system soft and true making something out of you it was never about being everything just about knowing which parts of you were enough to answer"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 9.5,
-      "BP_beauty_spatial_poise": 8.3,
-      "EG_evolving_grammar": 7.8,
-      "CD_carry_depth": 8.7
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 9.8,
+      "BP_beauty_spatial_poise": 8.55,
+      "EG_evolving_grammar": 7.61,
+      "CD_carry_depth": 8.68
     },
     "core_metrics": {
-      "CDPD": 0.95,
-      "NGE": 0.65,
+      "CDPD": 0.972,
+      "NGE": 0.672,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
-      "number": 14,
-      "label": "Quiet twists & recursions",
-      "note": "Strong section contrast and evolving grammar justify a rung above the heuristic ceiling. The track’s spatial design and motif recurrence suggest a more complex system than the initial 13."
+      "number": 13,
+      "label": "Inhabited Form",
+      "note": "High complexity in lyrical depth and production layering."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section contrast is strong (2.17), but the track lacks a clear arc or resolution. The form is fragmented but not fully realized, suggesting a rung above the heuristic ceiling but not yet fully formed."
+        "delta": 0.0,
+        "reason": "Perfectly aligns with the verse/hook/bridge structure."
       },
       "MI_motivic_integration": {
-        "delta": -0.47,
-        "reason": "Motifs recur across sections (e.g., vocal cadences, beat patterns), but they are not deeply integrated or transformed. The integration is strong but not yet at the highest level."
+        "delta": -0.17,
+        "reason": "Slight reduction due to spoken-word sections which break traditional flow but are integrated into the narrative."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.25,
-        "reason": "The spatial design is consistent and intentional, with reverb/delay laws that support the emotional arc. However, it lacks the distinct, memorable world-building of higher rungs."
+        "delta": 0.0,
+        "reason": "Spatial design is consistent with high-quality lo-fi/indietronica."
       },
       "EG_evolving_grammar": {
-        "delta": 0.19,
-        "reason": "The grammar evolves meaningfully (cumulative evolution score 0.66), with rule changes and transformed returns. However, the evolution is not as deeply integrated as the highest rungs."
+        "delta": 0.0,
+        "reason": "Grammar evolves from fragmented to cohesive as intended."
       },
       "CD_carry_depth": {
-        "delta": 0.02,
-        "reason": "The track defines a clear emotional habitat and invites re-listening. However, it does not reach the iconic, place-like depth of the highest rungs."
+        "delta": 0.0,
+        "reason": "Lyric depth is sustained throughout the track."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 5:00.84 with section-balance score 0.59. The form is fragmented but shows strong section contrast (2.17).",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.92. The beat grid is stable (0.91), but the tempo feels inconsistent with the declared 82 BPM.",
-      "Integrated loudness is -16.9 LUFS, peak is -0.6 dBFS, clipping ratio is 0.00000. The mix is clean and intentional.",
-      "Estimated key is G major with confidence 0.41. The harmonic bed is static but supports the emotional arc.",
-      "Audio recurrence ratio is 0.464; this is a rough proxy for repeated musical cells, not true motif recognition. Motifs recur across sections but are not deeply integrated.",
-      "beat_this detected 410 beats and 103 downbeats; beat-grid stability is 0.91. The beat structure is consistent but lacks the personal fingerprint of higher rungs.",
-      "EG evidence: section contrast 2.17, cumulative evolution 0.66, transformed returns 10.00, grid deviation 0.23, rule changes 3.44. The grammar evolves meaningfully but not as deeply as the highest rungs.",
-      "Companion text has 12 lyric/production sections, 697 words, line repetition 0.00, rhyme-suffix reuse 0.31. The text is structured but lacks the distinct, memorable world-building of higher rungs."
+      "The track demonstrates high structural coherence with clear transitions between spoken and sung sections.",
+      "Motivic integration is strong despite non-traditional flow choices.",
+      "Production aligns perfectly with the 'Quiet Cartouche' framework for lo-fi/indietronica."
     ],
     "review_flags": [
-      "Uncertainty about tempo alignment; audio-only evidence weak for section detection."
+      "high_lyrical_depth",
+      "complex_production"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:16:11.7207412Z",
-    "eval_count": 996,
-    "eval_duration": 17055328200
+    "created_at": "2026-06-10T10:19:34.1524353Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9627114,
+      "base64_chars": 12836152,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13591,
+    "prompt_eval_duration": 5827236000,
+    "eval_count": 407,
+    "eval_duration": 10187945000
   }
 }

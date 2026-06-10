@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:45:07",
+  "generated_at": "2026-06-10T12:44:50",
   "audio": {
     "path": "Residual Instabilities/audio/07 - The Limit.mp3",
     "duration_seconds": 285.68,
@@ -1559,7 +1559,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1603,403 +1606,76 @@
       "beat_this detected 422 beats and 108 downbeats; beat-grid stability is 0.87.",
       "EG evidence: section contrast 2.63, cumulative evolution 0.76, transformed returns 10.00, grid deviation 0.54, rule changes 3.75.",
       "Companion text has 11 lyric/production sections, 512 words, line repetition 0.12, rhyme-suffix reuse 0.42.",
-      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 8.80.",
-      "Transcription check: lyric alignment 0.85, unique-word coverage 0.88, word-count ratio 0.97, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 8.80."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "They said there's a limit, and as you can't exceed, without becoming something else, I didn't know you could feel like this. I keep adding weight to who I am, every proof, every second hand plan, stacking expectations in my chest, approximations I never fully test, they talk in numbers quiet and precise, like certainty is something you can slice, but every measure I align, feels like it fractures over time, not quite stable, not quite mine, somewhere near a boundary line. I feel the curve start to redefine, and my past the point, where I can hold this form, where the pressure builds in the self-defense. If I cross that line, do I disappear or collapse into something more severe? They call it limit, like it's clean and defined, but it feels like losing my mind. Everybody says you're not enough, but dresses it in polished stuff. Equations I don't understand, still somehow written in my hands, a bright white heart, compressed and tight, holding out against the night, but every doubt I try to hide, that's another layer deep inside. I'm still standing, but I've been the fragile state of our word, calm while everything is towards the dawn, in my past the point, where I can hold this form, where the pressure builds in the self-defense. If I cross that line, do I disappear or collapse into something more severe? They call it limit, like it's just a line, but it feels like it's wallow in mine. 1.44 They said it like a threshold, like a warning sign, like if I reached it, I'd stop being fine. But what happens to everything I carried here? All the small lights compressed into fear? Does it disappear or ignite? I start to feel the edge of strain, the quiet shift beneath the name. No single soft can hold the weight of every doubt I fabricate, and maybe breaking isn't lost, but just a different kind of cost, where something dense and undefined becomes a new state over time. Not an ending, just a change in time. If I pass the point, where I can't stay the same, and the pressure burns through the fragile frame, maybe what I lose is what I outgrew, and the collapse is just breaking through, they call it limit, but it might be a door to something I wasn't before. Somewhere beyond the way I hold, there's a quiet wall I didn't know. Not failure. Transformation. Written and pressure. In constellation.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 21.88,
-        "text": "They said there's a limit, and as you can't exceed, without becoming something else,",
-        "avg_logprob": -0.604017846924918,
-        "no_speech_prob": 0.418212890625
-      },
-      {
-        "start": 21.88,
-        "end": 27.08,
-        "text": "I didn't know you could feel like this.",
-        "avg_logprob": -0.604017846924918,
-        "no_speech_prob": 0.418212890625
-      },
-      {
-        "start": 27.08,
-        "end": 41.16,
-        "text": "I keep adding weight to who I am, every proof, every second hand plan,",
-        "avg_logprob": -0.341724525447245,
-        "no_speech_prob": 0.27099609375
-      },
-      {
-        "start": 41.16,
-        "end": 46.44,
-        "text": "stacking expectations in my chest, approximations I never fully test,",
-        "avg_logprob": -0.341724525447245,
-        "no_speech_prob": 0.27099609375
-      },
-      {
-        "start": 46.44,
-        "end": 51.76,
-        "text": "they talk in numbers quiet and precise, like certainty is something you can slice,",
-        "avg_logprob": -0.341724525447245,
-        "no_speech_prob": 0.27099609375
-      },
-      {
-        "start": 51.76,
-        "end": 55.52,
-        "text": "but every measure I align, feels like it fractures over time,",
-        "avg_logprob": -0.2718750012772424,
-        "no_speech_prob": 0.1285400390625
-      },
-      {
-        "start": 55.52,
-        "end": 62.8,
-        "text": "not quite stable, not quite mine, somewhere near a boundary line.",
-        "avg_logprob": -0.2718750012772424,
-        "no_speech_prob": 0.1285400390625
-      },
-      {
-        "start": 62.8,
-        "end": 70.12,
-        "text": "I feel the curve start to redefine, and my past the point,",
-        "avg_logprob": -0.2718750012772424,
-        "no_speech_prob": 0.1285400390625
-      },
-      {
-        "start": 70.12,
-        "end": 78.2,
-        "text": "where I can hold this form, where the pressure builds in the self-defense.",
-        "avg_logprob": -0.2718750012772424,
-        "no_speech_prob": 0.1285400390625
-      },
-      {
-        "start": 78.2,
-        "end": 83.8,
-        "text": "If I cross that line, do I disappear or collapse into something more severe?",
-        "avg_logprob": -0.32084515961733734,
-        "no_speech_prob": 0.0261993408203125
-      },
-      {
-        "start": 83.8,
-        "end": 87.44,
-        "text": "They call it limit, like it's clean and defined,",
-        "avg_logprob": -0.32084515961733734,
-        "no_speech_prob": 0.0261993408203125
-      },
-      {
-        "start": 87.44,
-        "end": 90.28,
-        "text": "but it feels like losing my mind.",
-        "avg_logprob": -0.32084515961733734,
-        "no_speech_prob": 0.0261993408203125
-      },
-      {
-        "start": 90.28,
-        "end": 104.76,
-        "text": "Everybody says you're not enough, but dresses it in polished stuff.",
-        "avg_logprob": -0.2858455858978571,
-        "no_speech_prob": 0.2225341796875
-      },
-      {
-        "start": 104.76,
-        "end": 110.36,
-        "text": "Equations I don't understand, still somehow written in my hands,",
-        "avg_logprob": -0.2858455858978571,
-        "no_speech_prob": 0.2225341796875
-      },
-      {
-        "start": 110.36,
-        "end": 115.44,
-        "text": "a bright white heart, compressed and tight, holding out against the night,",
-        "avg_logprob": -0.2858455858978571,
-        "no_speech_prob": 0.2225341796875
-      },
-      {
-        "start": 115.44,
-        "end": 121.32,
-        "text": "but every doubt I try to hide, that's another layer deep inside.",
-        "avg_logprob": -0.32783018193154967,
-        "no_speech_prob": 0.018768310546875
-      },
-      {
-        "start": 121.32,
-        "end": 131.16,
-        "text": "I'm still standing, but I've been the fragile state of our word,",
-        "avg_logprob": -0.32783018193154967,
-        "no_speech_prob": 0.018768310546875
-      },
-      {
-        "start": 131.16,
-        "end": 139.36,
-        "text": "calm while everything is towards the dawn, in my past the point,",
-        "avg_logprob": -0.32783018193154967,
-        "no_speech_prob": 0.018768310546875
-      },
-      {
-        "start": 139.36,
-        "end": 147.56,
-        "text": "where I can hold this form, where the pressure builds in the self-defense.",
-        "avg_logprob": -0.2022705136332661,
-        "no_speech_prob": 0.10382080078125
-      },
-      {
-        "start": 147.56,
-        "end": 153.32,
-        "text": "If I cross that line, do I disappear or collapse into something more severe?",
-        "avg_logprob": -0.2022705136332661,
-        "no_speech_prob": 0.10382080078125
-      },
-      {
-        "start": 153.32,
-        "end": 163.32,
-        "text": "They call it limit, like it's just a line, but it feels like it's wallow in mine.",
-        "avg_logprob": -0.2022705136332661,
-        "no_speech_prob": 0.10382080078125
-      },
-      {
-        "start": 163.32,
-        "end": 165.24,
-        "text": "1.44",
-        "avg_logprob": -0.35888672852888703,
-        "no_speech_prob": 0.51123046875
-      },
-      {
-        "start": 167.24,
-        "end": 172.36,
-        "text": "They said it like a threshold, like a warning sign,",
-        "avg_logprob": -0.35888672852888703,
-        "no_speech_prob": 0.51123046875
-      },
-      {
-        "start": 172.36,
-        "end": 176.52,
-        "text": "like if I reached it, I'd stop being fine.",
-        "avg_logprob": -0.35888672852888703,
-        "no_speech_prob": 0.51123046875
-      },
-      {
-        "start": 176.52,
-        "end": 179.56,
-        "text": "But what happens to everything I carried here?",
-        "avg_logprob": -0.35888672852888703,
-        "no_speech_prob": 0.51123046875
-      },
-      {
-        "start": 179.56,
-        "end": 182.6,
-        "text": "All the small lights compressed into fear?",
-        "avg_logprob": -0.35888672852888703,
-        "no_speech_prob": 0.51123046875
-      },
-      {
-        "start": 182.6,
-        "end": 186.28,
-        "text": "Does it disappear or ignite?",
-        "avg_logprob": -0.35888672852888703,
-        "no_speech_prob": 0.51123046875
-      },
-      {
-        "start": 187.28,
-        "end": 193.28,
-        "text": "I start to feel the edge of strain, the quiet shift beneath the name.",
-        "avg_logprob": -0.27853261733400647,
-        "no_speech_prob": 0.67578125
-      },
-      {
-        "start": 193.28,
-        "end": 199.28,
-        "text": "No single soft can hold the weight of every doubt I fabricate,",
-        "avg_logprob": -0.27853261733400647,
-        "no_speech_prob": 0.67578125
-      },
-      {
-        "start": 199.28,
-        "end": 204.28,
-        "text": "and maybe breaking isn't lost, but just a different kind of cost,",
-        "avg_logprob": -0.27853261733400647,
-        "no_speech_prob": 0.67578125
-      },
-      {
-        "start": 204.28,
-        "end": 211.28,
-        "text": "where something dense and undefined becomes a new state over time.",
-        "avg_logprob": -0.27853261733400647,
-        "no_speech_prob": 0.67578125
-      },
-      {
-        "start": 211.28,
-        "end": 218.28,
-        "text": "Not an ending, just a change in time.",
-        "avg_logprob": -0.20045731125808344,
-        "no_speech_prob": 0.03277587890625
-      },
-      {
-        "start": 227.28,
-        "end": 232.28,
-        "text": "If I pass the point, where I can't stay the same,",
-        "avg_logprob": -0.20045731125808344,
-        "no_speech_prob": 0.03277587890625
-      },
-      {
-        "start": 232.28,
-        "end": 238.28,
-        "text": "and the pressure burns through the fragile frame,",
-        "avg_logprob": -0.20045731125808344,
-        "no_speech_prob": 0.03277587890625
-      },
-      {
-        "start": 238.28,
-        "end": 241.28,
-        "text": "maybe what I lose is what I outgrew,",
-        "avg_logprob": -0.1230193685058137,
-        "no_speech_prob": 0.09930419921875
-      },
-      {
-        "start": 241.28,
-        "end": 244.28,
-        "text": "and the collapse is just breaking through,",
-        "avg_logprob": -0.1230193685058137,
-        "no_speech_prob": 0.09930419921875
-      },
-      {
-        "start": 244.28,
-        "end": 250.28,
-        "text": "they call it limit, but it might be a door to something I wasn't before.",
-        "avg_logprob": -0.1230193685058137,
-        "no_speech_prob": 0.09930419921875
-      },
-      {
-        "start": 250.28,
-        "end": 255.28,
-        "text": "Somewhere beyond the way I hold,",
-        "avg_logprob": -0.1230193685058137,
-        "no_speech_prob": 0.09930419921875
-      },
-      {
-        "start": 255.28,
-        "end": 262.28,
-        "text": "there's a quiet wall I didn't know.",
-        "avg_logprob": -0.1230193685058137,
-        "no_speech_prob": 0.09930419921875
-      },
-      {
-        "start": 262.28,
-        "end": 265.28,
-        "text": "Not failure.",
-        "avg_logprob": -0.1230193685058137,
-        "no_speech_prob": 0.09930419921875
-      },
-      {
-        "start": 265.28,
-        "end": 268.28,
-        "text": "Transformation.",
-        "avg_logprob": -0.3704427133003871,
-        "no_speech_prob": 0.705078125
-      },
-      {
-        "start": 268.28,
-        "end": 271.28,
-        "text": "Written and pressure.",
-        "avg_logprob": -0.3704427133003871,
-        "no_speech_prob": 0.705078125
-      },
-      {
-        "start": 271.28,
-        "end": 275.28,
-        "text": "In constellation.",
-        "avg_logprob": -0.3704427133003871,
-        "no_speech_prob": 0.705078125
-      }
-    ],
-    "avg_logprob": -0.3060466190961952
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 435,
-    "transcript_word_count": 420,
-    "matched_sequence_words": 372,
-    "lyric_alignment_ratio": 0.855,
-    "transcript_precision_ratio": 0.886,
-    "unique_expected_word_coverage": 0.88,
-    "word_count_ratio": 0.966,
-    "repeated_12gram_ratio": 0.066,
-    "half_similarity": 0.233,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.863,
-    "quality_score_0_10": 8.63,
-    "flags": [],
-    "transcript_excerpt": "They said there's a limit, and as you can't exceed, without becoming something else, I didn't know you could feel like this. I keep adding weight to who I am, every proof, every second hand plan, stacking expectations in my chest, approximations I never fully test, they talk in numbers quiet and precise, like certainty is something you can slice, but every measure I align, feels like it fractures over time, not quite stable, not quite mine, somewhere near a boundary line. I feel the curve start to redefine, and my past the point, where I can hold this form, where the pressure builds in the sel\n...[truncated]...\nthe weight of every doubt I fabricate, and maybe breaking isn't lost, but just a different kind of cost, where something dense and undefined becomes a new state over time. Not an ending, just a change in time. If I pass the point, where I can't stay the same, and the pressure burns through the fragile frame, maybe what I lose is what I outgrew, and the collapse is just breaking through, they call it limit, but it might be a door to something I wasn't before. Somewhere beyond the way I hold, there's a quiet wall I didn't know. Not failure. Transformation. Written and pressure. In constellation."
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 6.8,
-      "BP_beauty_spatial_poise": 9.1,
-      "EG_evolving_grammar": 8.4,
-      "CD_carry_depth": 9.1
+      "MI_motivic_integration": 7.2,
+      "BP_beauty_spatial_poise": 9.13,
+      "EG_evolving_grammar": 8.39,
+      "CD_carry_depth": 9.13
     },
     "core_metrics": {
-      "CDPD": 0.81,
-      "NGE": 0.71,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.0,
+      "NGE": 0.0,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in both lyrical depth and production layering."
     },
-    "confidence_0_10": 7.9,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like revisiting emotional rooms."
+        "reason": "Strong structural progression from minimal tension to dense 'near-collapse' textures."
       },
       "MI_motivic_integration": {
-        "delta": 0.5,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing integration."
+        "delta": 0.9,
+        "reason": "Motif integration is high due to the recurring 'limit' theme and consistent sonic atmosphere."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.03,
-        "reason": "The spatial poise is central to the track’s identity, with room tone and guitar space forming a memorable habitat."
+        "delta": 0.0,
+        "reason": "Base score remains stable as spatial depth is well-maintained throughout."
       },
       "EG_evolving_grammar": {
-        "delta": 0.01,
-        "reason": "The grammar develops a personal indie system over time, showing growth in arrangement and production."
+        "delta": 0.0,
+        "reason": "Grammar is consistently sophisticated and evocative."
       },
       "CD_carry_depth": {
-        "delta": -0.03,
-        "reason": "The track feels like a small world, with a strong emotional arc and lasting imprint."
+        "delta": 0.0,
+        "reason": "Lyric depth is consistent across all sections."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:45.68 with section-balance score 0.39.",
-      "Tempo estimate is 117.5 BPM; declared tempo alignment contributes 0.69.",
-      "Integrated loudness is -16.3 LUFS, peak is -0.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D minor with confidence 0.24.",
-      "Audio recurrence ratio is 0.137; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 422 beats and 108 downbeats; beat-grid stability is 0.87.",
-      "EG evidence: section contrast 2.63, cumulative evolution 0.76, transformed returns 10.00, grid deviation 0.54, rule changes 3.75.",
-      "Companion text has 11 lyric/production sections, 512 words, line repetition 0.12, rhyme-suffix reuse 0.42."
+      "The track exhibits a highly intentional structure where the 'limit' serves as both a thematic anchor and a structural pivot point.",
+      "Production notes confirm a deliberate build from minimal tension to dense textures, supporting high coherence scores.",
+      "The transition between Verse 2 and Hook shows significant texture expansion while maintaining melodic continuity.",
+      "Lyrics are deeply introspective and use sophisticated imagery (e.g., 'constellation', 'fragile frame') to convey internal struggle."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to audio-only evidence; transcription quality is high but limited."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:45:07.6248746Z",
-    "eval_count": 773,
-    "eval_duration": 13066877300
+    "created_at": "2026-06-10T10:44:50.1739271Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9141982,
+      "base64_chars": 12189312,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13218,
+    "prompt_eval_duration": 5773446000,
+    "eval_count": 427,
+    "eval_duration": 10519280000
   }
 }

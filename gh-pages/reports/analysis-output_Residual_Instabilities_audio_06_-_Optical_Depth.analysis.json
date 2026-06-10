@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:44:29",
+  "generated_at": "2026-06-10T12:44:15",
   "audio": {
     "path": "Residual Instabilities/audio/06 - Optical Depth.mp3",
     "duration_seconds": 304.8,
@@ -1688,7 +1688,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1732,690 +1735,76 @@
       "beat_this detected 486 beats and 122 downbeats; beat-grid stability is 0.88.",
       "EG evidence: section contrast 2.50, cumulative evolution 0.62, transformed returns 10.00, grid deviation 0.22, rule changes 3.44.",
       "Companion text has 8 lyric/production sections, 401 words, line repetition 0.12, rhyme-suffix reuse 0.31.",
-      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 5.70.",
-      "Transcription check: lyric alignment 0.90, unique-word coverage 0.88, word-count ratio 1.03, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 5.70."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Music A stand where light arrives to light Measure it, go second hand Something passes through my frame Never settling in my hands They speak in wavelengths, I can trace Spectral lines, I recognize hydrogen Praise, shifting red Has it slips beyond my size Every complement, decays Like a photon, struts too thin By the time it reaches me It forgets where it has been I calculate the drift, the scale Still I fail to feel it land I am not the place it stays I am transit, I am a phase Every brightness bends away Before it knows my name Like expansion, pulling wide Nothing helped just carried by all the walls That should remain me Passes through unchanged Passes through unchanged Passes through unchanged They say the universe retains Every trace of what occurs Background whispers fossilite Quiet proof of what once stood So where is mine? Let lingering feel that After glow of being seen Did it thin across the span Or collapse somewhere between I rehearse Acceptance lines But they scatter When I speak Maybe I'm a dying star Core to light to hold the burn Fusion falters at the edge Nothing left to overturn Iron silence At my center No more elements to give All reactions Note to stillness Yet I'm somehow Has to live Not explosion Just a dimming Drawn out An observed retreat I am not the place It stays I am transit, I am a phase Every brightness bends away Before it knows my name Like expansion Pulling wide nothing Help just carried by all the warmth That should remain Passes through unchanged If there's gravity in me Why does nothing choose to keep? Orbit fails escape is easy Everything exceeds I can map the missing mass Trace effects I cannot grasp Something should be holding fast But it never is Never is Redshift stretching Every word Longer Finnerless to find Background glow without a source Still detected never mind I remain where signals cross Not receiving not the cause Just a distance Just a frame Still expanding All the same",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 22.0,
-        "text": "Music",
-        "avg_logprob": -1.0301339285714286,
-        "no_speech_prob": 0.494384765625
-      },
-      {
-        "start": 22.0,
-        "end": 27.0,
-        "text": "A stand where light arrives to light",
-        "avg_logprob": -1.0301339285714286,
-        "no_speech_prob": 0.494384765625
-      },
-      {
-        "start": 27.0,
-        "end": 30.0,
-        "text": "Measure it, go second hand",
-        "avg_logprob": -0.4045516330262889,
-        "no_speech_prob": 0.2044677734375
-      },
-      {
-        "start": 32.0,
-        "end": 35.0,
-        "text": "Something passes through my frame",
-        "avg_logprob": -0.4045516330262889,
-        "no_speech_prob": 0.2044677734375
-      },
-      {
-        "start": 37.0,
-        "end": 40.0,
-        "text": "Never settling in my hands",
-        "avg_logprob": -0.4045516330262889,
-        "no_speech_prob": 0.2044677734375
-      },
-      {
-        "start": 57.0,
-        "end": 62.0,
-        "text": "They speak in wavelengths, I can trace",
-        "avg_logprob": -0.3193108829168173,
-        "no_speech_prob": 0.1463623046875
-      },
-      {
-        "start": 62.0,
-        "end": 65.0,
-        "text": "Spectral lines, I recognize hydrogen",
-        "avg_logprob": -0.3193108829168173,
-        "no_speech_prob": 0.1463623046875
-      },
-      {
-        "start": 65.0,
-        "end": 67.0,
-        "text": "Praise, shifting red",
-        "avg_logprob": -0.3193108829168173,
-        "no_speech_prob": 0.1463623046875
-      },
-      {
-        "start": 67.0,
-        "end": 70.0,
-        "text": "Has it slips beyond my size",
-        "avg_logprob": -0.3193108829168173,
-        "no_speech_prob": 0.1463623046875
-      },
-      {
-        "start": 70.0,
-        "end": 74.0,
-        "text": "Every complement, decays",
-        "avg_logprob": -0.3193108829168173,
-        "no_speech_prob": 0.1463623046875
-      },
-      {
-        "start": 74.0,
-        "end": 77.0,
-        "text": "Like a photon, struts too thin",
-        "avg_logprob": -0.3193108829168173,
-        "no_speech_prob": 0.1463623046875
-      },
-      {
-        "start": 77.0,
-        "end": 79.0,
-        "text": "By the time it reaches me",
-        "avg_logprob": -0.3193108829168173,
-        "no_speech_prob": 0.1463623046875
-      },
-      {
-        "start": 79.0,
-        "end": 81.0,
-        "text": "It forgets where it has been",
-        "avg_logprob": -0.3193108829168173,
-        "no_speech_prob": 0.1463623046875
-      },
-      {
-        "start": 81.0,
-        "end": 85.0,
-        "text": "I calculate the drift, the scale",
-        "avg_logprob": -0.3193108829168173,
-        "no_speech_prob": 0.1463623046875
-      },
-      {
-        "start": 85.0,
-        "end": 90.0,
-        "text": "Still I fail to feel it land",
-        "avg_logprob": -0.1947699687961075,
-        "no_speech_prob": 0.00726318359375
-      },
-      {
-        "start": 90.0,
-        "end": 94.0,
-        "text": "I am not the place it stays",
-        "avg_logprob": -0.1947699687961075,
-        "no_speech_prob": 0.00726318359375
-      },
-      {
-        "start": 94.0,
-        "end": 97.0,
-        "text": "I am transit, I am a phase",
-        "avg_logprob": -0.1947699687961075,
-        "no_speech_prob": 0.00726318359375
-      },
-      {
-        "start": 97.0,
-        "end": 99.0,
-        "text": "Every brightness bends away",
-        "avg_logprob": -0.1947699687961075,
-        "no_speech_prob": 0.00726318359375
-      },
-      {
-        "start": 99.0,
-        "end": 101.0,
-        "text": "Before it knows my name",
-        "avg_logprob": -0.1947699687961075,
-        "no_speech_prob": 0.00726318359375
-      },
-      {
-        "start": 101.0,
-        "end": 104.0,
-        "text": "Like expansion, pulling wide",
-        "avg_logprob": -0.1947699687961075,
-        "no_speech_prob": 0.00726318359375
-      },
-      {
-        "start": 104.0,
-        "end": 107.0,
-        "text": "Nothing helped just carried by all the walls",
-        "avg_logprob": -0.1947699687961075,
-        "no_speech_prob": 0.00726318359375
-      },
-      {
-        "start": 107.0,
-        "end": 109.0,
-        "text": "That should remain me",
-        "avg_logprob": -0.1947699687961075,
-        "no_speech_prob": 0.00726318359375
-      },
-      {
-        "start": 109.0,
-        "end": 113.0,
-        "text": "Passes through unchanged",
-        "avg_logprob": -0.1947699687961075,
-        "no_speech_prob": 0.00726318359375
-      },
-      {
-        "start": 113.0,
-        "end": 118.0,
-        "text": "Passes through unchanged",
-        "avg_logprob": -0.25048829382285476,
-        "no_speech_prob": 0.01215362548828125
-      },
-      {
-        "start": 118.0,
-        "end": 123.0,
-        "text": "Passes through unchanged",
-        "avg_logprob": -0.25048829382285476,
-        "no_speech_prob": 0.01215362548828125
-      },
-      {
-        "start": 126.0,
-        "end": 129.0,
-        "text": "They say the universe retains",
-        "avg_logprob": -0.25048829382285476,
-        "no_speech_prob": 0.01215362548828125
-      },
-      {
-        "start": 129.0,
-        "end": 131.0,
-        "text": "Every trace of what occurs",
-        "avg_logprob": -0.25048829382285476,
-        "no_speech_prob": 0.01215362548828125
-      },
-      {
-        "start": 131.0,
-        "end": 134.0,
-        "text": "Background whispers fossilite",
-        "avg_logprob": -0.25048829382285476,
-        "no_speech_prob": 0.01215362548828125
-      },
-      {
-        "start": 134.0,
-        "end": 136.0,
-        "text": "Quiet proof of what once stood",
-        "avg_logprob": -0.25048829382285476,
-        "no_speech_prob": 0.01215362548828125
-      },
-      {
-        "start": 136.0,
-        "end": 137.0,
-        "text": "So where is mine?",
-        "avg_logprob": -0.25048829382285476,
-        "no_speech_prob": 0.01215362548828125
-      },
-      {
-        "start": 137.0,
-        "end": 139.0,
-        "text": "Let lingering feel that",
-        "avg_logprob": -0.25048829382285476,
-        "no_speech_prob": 0.01215362548828125
-      },
-      {
-        "start": 139.0,
-        "end": 141.0,
-        "text": "After glow of being seen",
-        "avg_logprob": -0.25048829382285476,
-        "no_speech_prob": 0.01215362548828125
-      },
-      {
-        "start": 141.0,
-        "end": 144.0,
-        "text": "Did it thin across the span",
-        "avg_logprob": -0.17502331911627925,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 144.0,
-        "end": 146.0,
-        "text": "Or collapse somewhere between",
-        "avg_logprob": -0.17502331911627925,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 146.0,
-        "end": 148.0,
-        "text": "I rehearse",
-        "avg_logprob": -0.17502331911627925,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 148.0,
-        "end": 151.0,
-        "text": "Acceptance lines",
-        "avg_logprob": -0.17502331911627925,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 151.0,
-        "end": 153.0,
-        "text": "But they scatter",
-        "avg_logprob": -0.17502331911627925,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 153.0,
-        "end": 156.0,
-        "text": "When I speak",
-        "avg_logprob": -0.17502331911627925,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 159.0,
-        "end": 161.0,
-        "text": "Maybe I'm a dying star",
-        "avg_logprob": -0.17502331911627925,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 161.0,
-        "end": 164.0,
-        "text": "Core to light to hold the burn",
-        "avg_logprob": -0.17502331911627925,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 164.0,
-        "end": 166.0,
-        "text": "Fusion falters at the edge",
-        "avg_logprob": -0.17502331911627925,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 166.0,
-        "end": 168.0,
-        "text": "Nothing left to overturn",
-        "avg_logprob": -0.17502331911627925,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 168.0,
-        "end": 170.0,
-        "text": "Iron silence",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 170.0,
-        "end": 171.0,
-        "text": "At my center",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 171.0,
-        "end": 173.0,
-        "text": "No more elements to give",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 173.0,
-        "end": 175.0,
-        "text": "All reactions",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 175.0,
-        "end": 176.0,
-        "text": "Note to stillness",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 176.0,
-        "end": 177.0,
-        "text": "Yet I'm somehow",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 177.0,
-        "end": 178.0,
-        "text": "Has to live",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 178.0,
-        "end": 181.0,
-        "text": "Not explosion",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 181.0,
-        "end": 183.0,
-        "text": "Just a dimming",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 183.0,
-        "end": 185.0,
-        "text": "Drawn out",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 185.0,
-        "end": 188.0,
-        "text": "An observed retreat",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 188.0,
-        "end": 190.0,
-        "text": "I am not the place",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 190.0,
-        "end": 191.0,
-        "text": "It stays",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 191.0,
-        "end": 194.0,
-        "text": "I am transit, I am a phase",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 194.0,
-        "end": 196.0,
-        "text": "Every brightness bends away",
-        "avg_logprob": -0.1882267440127772,
-        "no_speech_prob": 0.046905517578125
-      },
-      {
-        "start": 196.0,
-        "end": 199.0,
-        "text": "Before it knows my name",
-        "avg_logprob": -0.1464843816523041,
-        "no_speech_prob": 0.06927490234375
-      },
-      {
-        "start": 199.0,
-        "end": 200.0,
-        "text": "Like expansion",
-        "avg_logprob": -0.1464843816523041,
-        "no_speech_prob": 0.06927490234375
-      },
-      {
-        "start": 200.0,
-        "end": 202.0,
-        "text": "Pulling wide nothing",
-        "avg_logprob": -0.1464843816523041,
-        "no_speech_prob": 0.06927490234375
-      },
-      {
-        "start": 202.0,
-        "end": 205.0,
-        "text": "Help just carried by all the warmth",
-        "avg_logprob": -0.1464843816523041,
-        "no_speech_prob": 0.06927490234375
-      },
-      {
-        "start": 205.0,
-        "end": 207.0,
-        "text": "That should remain",
-        "avg_logprob": -0.1464843816523041,
-        "no_speech_prob": 0.06927490234375
-      },
-      {
-        "start": 207.0,
-        "end": 211.0,
-        "text": "Passes through unchanged",
-        "avg_logprob": -0.1464843816523041,
-        "no_speech_prob": 0.06927490234375
-      },
-      {
-        "start": 212.0,
-        "end": 217.0,
-        "text": "If there's gravity in me",
-        "avg_logprob": -0.1464843816523041,
-        "no_speech_prob": 0.06927490234375
-      },
-      {
-        "start": 217.0,
-        "end": 222.0,
-        "text": "Why does nothing choose to keep?",
-        "avg_logprob": -0.1464843816523041,
-        "no_speech_prob": 0.06927490234375
-      },
-      {
-        "start": 223.0,
-        "end": 229.0,
-        "text": "Orbit fails escape is easy",
-        "avg_logprob": -0.2885416691501935,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 229.0,
-        "end": 231.0,
-        "text": "Everything exceeds",
-        "avg_logprob": -0.2885416691501935,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 231.0,
-        "end": 233.0,
-        "text": "I can map the missing mass",
-        "avg_logprob": -0.2885416691501935,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 233.0,
-        "end": 236.0,
-        "text": "Trace effects I cannot grasp",
-        "avg_logprob": -0.2885416691501935,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 236.0,
-        "end": 239.0,
-        "text": "Something should be holding fast",
-        "avg_logprob": -0.2885416691501935,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 239.0,
-        "end": 241.0,
-        "text": "But it never is",
-        "avg_logprob": -0.2885416691501935,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 241.0,
-        "end": 244.0,
-        "text": "Never is",
-        "avg_logprob": -0.2885416691501935,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 244.0,
-        "end": 246.0,
-        "text": "Redshift stretching",
-        "avg_logprob": -0.2885416691501935,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 246.0,
-        "end": 248.0,
-        "text": "Every word",
-        "avg_logprob": -0.2885416691501935,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 248.0,
-        "end": 249.0,
-        "text": "Longer",
-        "avg_logprob": -0.2885416691501935,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 249.0,
-        "end": 252.0,
-        "text": "Finnerless to find",
-        "avg_logprob": -0.28430707104828046,
-        "no_speech_prob": 0.0283203125
-      },
-      {
-        "start": 252.0,
-        "end": 258.0,
-        "text": "Background glow without a source",
-        "avg_logprob": -0.28430707104828046,
-        "no_speech_prob": 0.0283203125
-      },
-      {
-        "start": 258.0,
-        "end": 263.0,
-        "text": "Still detected never mind",
-        "avg_logprob": -0.28430707104828046,
-        "no_speech_prob": 0.0283203125
-      },
-      {
-        "start": 263.0,
-        "end": 268.0,
-        "text": "I remain where signals cross",
-        "avg_logprob": -0.28430707104828046,
-        "no_speech_prob": 0.0283203125
-      },
-      {
-        "start": 268.0,
-        "end": 272.0,
-        "text": "Not receiving not the cause",
-        "avg_logprob": -0.28430707104828046,
-        "no_speech_prob": 0.0283203125
-      },
-      {
-        "start": 272.0,
-        "end": 275.0,
-        "text": "Just a distance",
-        "avg_logprob": -0.28430707104828046,
-        "no_speech_prob": 0.0283203125
-      },
-      {
-        "start": 275.0,
-        "end": 277.0,
-        "text": "Just a frame",
-        "avg_logprob": -0.28430707104828046,
-        "no_speech_prob": 0.0283203125
-      },
-      {
-        "start": 277.0,
-        "end": 279.0,
-        "text": "Still expanding",
-        "avg_logprob": -0.24609375,
-        "no_speech_prob": 0.273193359375
-      },
-      {
-        "start": 279.0,
-        "end": 282.0,
-        "text": "All the same",
-        "avg_logprob": -0.24609375,
-        "no_speech_prob": 0.273193359375
-      }
-    ],
-    "avg_logprob": -0.3238625301656575
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 339,
-    "transcript_word_count": 349,
-    "matched_sequence_words": 305,
-    "lyric_alignment_ratio": 0.9,
-    "transcript_precision_ratio": 0.874,
-    "unique_expected_word_coverage": 0.881,
-    "word_count_ratio": 1.029,
-    "repeated_12gram_ratio": 0.05,
-    "half_similarity": 0.287,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.893,
-    "quality_score_0_10": 8.93,
-    "flags": [],
-    "transcript_excerpt": "Music A stand where light arrives to light Measure it, go second hand Something passes through my frame Never settling in my hands They speak in wavelengths, I can trace Spectral lines, I recognize hydrogen Praise, shifting red Has it slips beyond my size Every complement, decays Like a photon, struts too thin By the time it reaches me It forgets where it has been I calculate the drift, the scale Still I fail to feel it land I am not the place it stays I am transit, I am a phase Every brightness bends away Before it knows my name Like expansion, pulling wide Nothing helped just carried by all \n...[truncated]...\n bends away Before it knows my name Like expansion Pulling wide nothing Help just carried by all the warmth That should remain Passes through unchanged If there's gravity in me Why does nothing choose to keep? Orbit fails escape is easy Everything exceeds I can map the missing mass Trace effects I cannot grasp Something should be holding fast But it never is Never is Redshift stretching Every word Longer Finnerless to find Background glow without a source Still detected never mind I remain where signals cross Not receiving not the cause Just a distance Just a frame Still expanding All the same"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
+      "SC_structural_coherence": 9.4,
       "MI_motivic_integration": 8.2,
-      "BP_beauty_spatial_poise": 8.9,
-      "EG_evolving_grammar": 8.6,
-      "CD_carry_depth": 9.1
+      "BP_beauty_spatial_poise": 9.1,
+      "EG_evolving_grammar": 8.5,
+      "CD_carry_depth": 9.3
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.65,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.94,
+      "NGE": 0.78,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "The structure is highly intentional and complex."
     },
-    "confidence_0_10": 8.5,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting emotional rooms."
+        "delta": -0.6,
+        "reason": "Strong evidence of deliberate structural design in the transition between verse and chorus (Section 3 to 4) and a clearly defined outro."
       },
       "MI_motivic_integration": {
         "delta": 0.76,
-        "reason": "Motifs recur in altered forms across sections, with vocal hooks, guitar figures, and lyric images showing integration across the track."
+        "reason": "The lyrical content is deeply integrated with the sonic atmosphere, creating a cohesive thematic experience."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.13,
-        "reason": "The sonic habitat is central to the track’s identity, with room tone and guitar space forming a memorable, coherent spatial environment."
+        "delta": 0.33,
+        "reason": "The spatial arrangement of vocals and pads creates a sophisticated sense of depth."
       },
       "EG_evolving_grammar": {
-        "delta": 1.18,
-        "reason": "The track develops a personal indie grammar over time, with meaningful shifts in rhythm, texture, and timbre across sections."
+        "delta": 1.08,
+        "reason": "The production notes confirm intentional 'redshift' effects and gradual spectral thinning to create evolving textures."
       },
       "CD_carry_depth": {
-        "delta": 0.3,
-        "reason": "The track feels like a small world, with a strong emotional arc and specific sonic and lyrical imprints that invite re-listening."
+        "delta": 0.5,
+        "reason": "The use of long-tail reverbs and delayed signals creates a profound sense of depth."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 5:04.80 with section-balance score 0.37.",
-      "Tempo estimate is 95.7 BPM; declared tempo alignment contributes 0.19.",
-      "Integrated loudness is -16.8 LUFS, peak is -1.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D major with confidence 0.34.",
-      "Audio recurrence ratio is 0.259; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 486 beats and 122 downbeats; beat-grid stability is 0.88.",
-      "EG evidence: section contrast 2.50, cumulative evolution 0.62, transformed returns 10.00, grid deviation 0.22, rule changes 3.44.",
-      "Companion text has 8 lyric/production sections, 401 words, line repetition 0.12, rhyme-suffix reuse 0.31."
+      "The track exhibits high structural coherence with distinct sections that transition smoothly.",
+      "The lyrics are not just words but part of the sonic landscape, creating strong motivic integration.",
+      "The spatial design is sophisticated, using delay and reverb to create an immersive environment.",
+      "Production techniques like 'redshift' and spectral thinning are used intentionally to evolve the musical grammar."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the final 15 seconds; audio-only evidence is weak."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:44:29.7698887Z",
-    "eval_count": 788,
-    "eval_duration": 13199174800
+    "created_at": "2026-06-10T10:44:15.7679045Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9753826,
+      "base64_chars": 13005104,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13635,
+    "prompt_eval_duration": 5781998000,
+    "eval_count": 440,
+    "eval_duration": 10751574000
   }
 }

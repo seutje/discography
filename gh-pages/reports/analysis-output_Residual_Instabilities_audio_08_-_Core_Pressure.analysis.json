@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:45:48",
+  "generated_at": "2026-06-10T12:45:25",
   "audio": {
     "path": "Residual Instabilities/audio/08 - Core Pressure.mp3",
     "duration_seconds": 297.32,
@@ -1858,7 +1858,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1902,480 +1905,20 @@
       "beat_this detected 544 beats and 144 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 2.79, cumulative evolution 1.07, transformed returns 10.00, grid deviation 1.14, rule changes 7.19.",
       "Companion text has 7 lyric/production sections, 360 words, line repetition 0.29, rhyme-suffix reuse 0.51.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 9.20.",
-      "Transcription check: lyric alignment 0.76, unique-word coverage 0.78, word-count ratio 1.04, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 9.20."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Music Hold it till it turns to light Way to thought becoming bright Every spark demands a name Every flare at different flame How compressed would I create? That's the point it should sustain They call these brilliance, I call it strength Still I'm asked to burn in vain Hydrogen lines in my chest Spectral traces never rest They measure output, not the mass Only what escapes the glass Equations whisper through my head Shandrous colors quite thread Limit away, collapse begins Pressure folding everything in I am told to synthesize Something no one's seen before But novelty is just disguise For the same request once more Hold it till it turns to light Way to thought becoming bright Every spark demands a name Every flare at different flame How compressed would I create? That's the point it should sustain They call these brilliance, I call it strength Still I'm asked to burn in vain Heating forms and quiet grief Fusion built on brief belief That if I push beyond the scene My might become what they all mean Entropy begins to show In places I don't go Still they ask for something As if I split myself into Notals, fear, illusion, shine Surface, calm, but not inside Radiation takes its time Nothing here is ever light Hold it till it turns to light Way to thought becoming bright Every spark demands a name Every flare at different flame How compressed would I create? That's the point it should sustain They call these brilliance, I call it strength Still I'm asked to burn in vain All our core, damn nature Still crimes All our core, damn nature Still crimes All our core, damn creature Still crimes All our release Just a dim of friends What I'm close, I'll just drift beyond the map still Burn, again, again Still burn, again, again, again, again Burn, again, again",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 6.0,
-        "text": "Music",
-        "avg_logprob": -0.4437271014732473,
-        "no_speech_prob": 0.5107421875
-      },
-      {
-        "start": 14.0,
-        "end": 17.0,
-        "text": "Hold it till it turns to light",
-        "avg_logprob": -0.4437271014732473,
-        "no_speech_prob": 0.5107421875
-      },
-      {
-        "start": 18.0,
-        "end": 21.0,
-        "text": "Way to thought becoming bright",
-        "avg_logprob": -0.4437271014732473,
-        "no_speech_prob": 0.5107421875
-      },
-      {
-        "start": 22.0,
-        "end": 25.0,
-        "text": "Every spark demands a name",
-        "avg_logprob": -0.4437271014732473,
-        "no_speech_prob": 0.5107421875
-      },
-      {
-        "start": 26.0,
-        "end": 29.0,
-        "text": "Every flare at different flame",
-        "avg_logprob": -0.4437271014732473,
-        "no_speech_prob": 0.5107421875
-      },
-      {
-        "start": 30.0,
-        "end": 33.0,
-        "text": "How compressed would I create?",
-        "avg_logprob": -0.260937488079071,
-        "no_speech_prob": 0.0107269287109375
-      },
-      {
-        "start": 34.0,
-        "end": 37.0,
-        "text": "That's the point it should sustain",
-        "avg_logprob": -0.260937488079071,
-        "no_speech_prob": 0.0107269287109375
-      },
-      {
-        "start": 37.0,
-        "end": 41.0,
-        "text": "They call these brilliance, I call it strength",
-        "avg_logprob": -0.260937488079071,
-        "no_speech_prob": 0.0107269287109375
-      },
-      {
-        "start": 41.0,
-        "end": 45.0,
-        "text": "Still I'm asked to burn in vain",
-        "avg_logprob": -0.260937488079071,
-        "no_speech_prob": 0.0107269287109375
-      },
-      {
-        "start": 60.0,
-        "end": 65.0,
-        "text": "Hydrogen lines in my chest",
-        "avg_logprob": -0.37021683673469385,
-        "no_speech_prob": 0.1690673828125
-      },
-      {
-        "start": 66.0,
-        "end": 70.0,
-        "text": "Spectral traces never rest",
-        "avg_logprob": -0.37021683673469385,
-        "no_speech_prob": 0.1690673828125
-      },
-      {
-        "start": 70.0,
-        "end": 75.0,
-        "text": "They measure output, not the mass",
-        "avg_logprob": -0.37021683673469385,
-        "no_speech_prob": 0.1690673828125
-      },
-      {
-        "start": 75.0,
-        "end": 79.0,
-        "text": "Only what escapes the glass",
-        "avg_logprob": -0.37021683673469385,
-        "no_speech_prob": 0.1690673828125
-      },
-      {
-        "start": 79.0,
-        "end": 83.0,
-        "text": "Equations whisper through my head",
-        "avg_logprob": -0.37021683673469385,
-        "no_speech_prob": 0.1690673828125
-      },
-      {
-        "start": 83.0,
-        "end": 87.0,
-        "text": "Shandrous colors quite thread",
-        "avg_logprob": -0.37021683673469385,
-        "no_speech_prob": 0.1690673828125
-      },
-      {
-        "start": 87.0,
-        "end": 91.0,
-        "text": "Limit away, collapse begins",
-        "avg_logprob": -0.1443256599861279,
-        "no_speech_prob": 0.00930023193359375
-      },
-      {
-        "start": 91.0,
-        "end": 95.0,
-        "text": "Pressure folding everything in",
-        "avg_logprob": -0.1443256599861279,
-        "no_speech_prob": 0.00930023193359375
-      },
-      {
-        "start": 95.0,
-        "end": 99.0,
-        "text": "I am told to synthesize",
-        "avg_logprob": -0.1443256599861279,
-        "no_speech_prob": 0.00930023193359375
-      },
-      {
-        "start": 99.0,
-        "end": 103.0,
-        "text": "Something no one's seen before",
-        "avg_logprob": -0.1443256599861279,
-        "no_speech_prob": 0.00930023193359375
-      },
-      {
-        "start": 103.0,
-        "end": 107.0,
-        "text": "But novelty is just disguise",
-        "avg_logprob": -0.1443256599861279,
-        "no_speech_prob": 0.00930023193359375
-      },
-      {
-        "start": 107.0,
-        "end": 110.0,
-        "text": "For the same request once more",
-        "avg_logprob": -0.1443256599861279,
-        "no_speech_prob": 0.00930023193359375
-      },
-      {
-        "start": 110.0,
-        "end": 113.0,
-        "text": "Hold it till it turns to light",
-        "avg_logprob": -0.1443256599861279,
-        "no_speech_prob": 0.00930023193359375
-      },
-      {
-        "start": 114.0,
-        "end": 117.0,
-        "text": "Way to thought becoming bright",
-        "avg_logprob": -0.06576588163610364,
-        "no_speech_prob": 0.0180206298828125
-      },
-      {
-        "start": 118.0,
-        "end": 122.0,
-        "text": "Every spark demands a name",
-        "avg_logprob": -0.06576588163610364,
-        "no_speech_prob": 0.0180206298828125
-      },
-      {
-        "start": 122.0,
-        "end": 126.0,
-        "text": "Every flare at different flame",
-        "avg_logprob": -0.06576588163610364,
-        "no_speech_prob": 0.0180206298828125
-      },
-      {
-        "start": 126.0,
-        "end": 130.0,
-        "text": "How compressed would I create?",
-        "avg_logprob": -0.06576588163610364,
-        "no_speech_prob": 0.0180206298828125
-      },
-      {
-        "start": 130.0,
-        "end": 133.0,
-        "text": "That's the point it should sustain",
-        "avg_logprob": -0.06576588163610364,
-        "no_speech_prob": 0.0180206298828125
-      },
-      {
-        "start": 133.0,
-        "end": 137.0,
-        "text": "They call these brilliance, I call it strength",
-        "avg_logprob": -0.06576588163610364,
-        "no_speech_prob": 0.0180206298828125
-      },
-      {
-        "start": 137.0,
-        "end": 142.0,
-        "text": "Still I'm asked to burn in vain",
-        "avg_logprob": -0.06576588163610364,
-        "no_speech_prob": 0.0180206298828125
-      },
-      {
-        "start": 144.0,
-        "end": 148.0,
-        "text": "Heating forms and quiet grief",
-        "avg_logprob": -0.2404056996629949,
-        "no_speech_prob": 0.07135009765625
-      },
-      {
-        "start": 148.0,
-        "end": 151.0,
-        "text": "Fusion built on brief belief",
-        "avg_logprob": -0.2404056996629949,
-        "no_speech_prob": 0.07135009765625
-      },
-      {
-        "start": 151.0,
-        "end": 155.0,
-        "text": "That if I push beyond the scene",
-        "avg_logprob": -0.2404056996629949,
-        "no_speech_prob": 0.07135009765625
-      },
-      {
-        "start": 155.0,
-        "end": 159.0,
-        "text": "My might become what they all mean",
-        "avg_logprob": -0.2404056996629949,
-        "no_speech_prob": 0.07135009765625
-      },
-      {
-        "start": 159.0,
-        "end": 163.0,
-        "text": "Entropy begins to show",
-        "avg_logprob": -0.2404056996629949,
-        "no_speech_prob": 0.07135009765625
-      },
-      {
-        "start": 163.0,
-        "end": 167.0,
-        "text": "In places I don't go",
-        "avg_logprob": -0.2404056996629949,
-        "no_speech_prob": 0.07135009765625
-      },
-      {
-        "start": 167.0,
-        "end": 171.0,
-        "text": "Still they ask for something",
-        "avg_logprob": -0.2404056996629949,
-        "no_speech_prob": 0.07135009765625
-      },
-      {
-        "start": 171.0,
-        "end": 175.0,
-        "text": "As if I split myself into",
-        "avg_logprob": -0.29356970408788097,
-        "no_speech_prob": 0.0307769775390625
-      },
-      {
-        "start": 175.0,
-        "end": 179.0,
-        "text": "Notals, fear, illusion, shine",
-        "avg_logprob": -0.29356970408788097,
-        "no_speech_prob": 0.0307769775390625
-      },
-      {
-        "start": 179.0,
-        "end": 183.0,
-        "text": "Surface, calm, but not inside",
-        "avg_logprob": -0.29356970408788097,
-        "no_speech_prob": 0.0307769775390625
-      },
-      {
-        "start": 183.0,
-        "end": 187.0,
-        "text": "Radiation takes its time",
-        "avg_logprob": -0.29356970408788097,
-        "no_speech_prob": 0.0307769775390625
-      },
-      {
-        "start": 187.0,
-        "end": 193.0,
-        "text": "Nothing here is ever light",
-        "avg_logprob": -0.29356970408788097,
-        "no_speech_prob": 0.0307769775390625
-      },
-      {
-        "start": 194.0,
-        "end": 198.0,
-        "text": "Hold it till it turns to light",
-        "avg_logprob": -0.29356970408788097,
-        "no_speech_prob": 0.0307769775390625
-      },
-      {
-        "start": 198.0,
-        "end": 202.0,
-        "text": "Way to thought becoming bright",
-        "avg_logprob": -0.060290727214735065,
-        "no_speech_prob": 0.033416748046875
-      },
-      {
-        "start": 202.0,
-        "end": 206.0,
-        "text": "Every spark demands a name",
-        "avg_logprob": -0.060290727214735065,
-        "no_speech_prob": 0.033416748046875
-      },
-      {
-        "start": 206.0,
-        "end": 210.0,
-        "text": "Every flare at different flame",
-        "avg_logprob": -0.060290727214735065,
-        "no_speech_prob": 0.033416748046875
-      },
-      {
-        "start": 210.0,
-        "end": 214.0,
-        "text": "How compressed would I create?",
-        "avg_logprob": -0.060290727214735065,
-        "no_speech_prob": 0.033416748046875
-      },
-      {
-        "start": 214.0,
-        "end": 218.0,
-        "text": "That's the point it should sustain",
-        "avg_logprob": -0.060290727214735065,
-        "no_speech_prob": 0.033416748046875
-      },
-      {
-        "start": 218.0,
-        "end": 222.0,
-        "text": "They call these brilliance, I call it strength",
-        "avg_logprob": -0.060290727214735065,
-        "no_speech_prob": 0.033416748046875
-      },
-      {
-        "start": 222.0,
-        "end": 226.0,
-        "text": "Still I'm asked to burn in vain",
-        "avg_logprob": -0.060290727214735065,
-        "no_speech_prob": 0.033416748046875
-      },
-      {
-        "start": 229.0,
-        "end": 234.0,
-        "text": "All our core, damn nature",
-        "avg_logprob": -0.8795221161842346,
-        "no_speech_prob": 0.10980224609375
-      },
-      {
-        "start": 234.0,
-        "end": 237.0,
-        "text": "Still crimes",
-        "avg_logprob": -0.8795221161842346,
-        "no_speech_prob": 0.10980224609375
-      },
-      {
-        "start": 237.0,
-        "end": 240.0,
-        "text": "All our core, damn nature",
-        "avg_logprob": -0.8795221161842346,
-        "no_speech_prob": 0.10980224609375
-      },
-      {
-        "start": 240.0,
-        "end": 242.0,
-        "text": "Still crimes",
-        "avg_logprob": -0.8795221161842346,
-        "no_speech_prob": 0.10980224609375
-      },
-      {
-        "start": 242.0,
-        "end": 245.0,
-        "text": "All our core, damn creature",
-        "avg_logprob": -0.8795221161842346,
-        "no_speech_prob": 0.10980224609375
-      },
-      {
-        "start": 245.0,
-        "end": 248.0,
-        "text": "Still crimes",
-        "avg_logprob": -0.8795221161842346,
-        "no_speech_prob": 0.10980224609375
-      },
-      {
-        "start": 248.0,
-        "end": 252.0,
-        "text": "All our release",
-        "avg_logprob": -0.8795221161842346,
-        "no_speech_prob": 0.10980224609375
-      },
-      {
-        "start": 252.0,
-        "end": 256.0,
-        "text": "Just a dim of friends",
-        "avg_logprob": -0.8795221161842346,
-        "no_speech_prob": 0.10980224609375
-      },
-      {
-        "start": 256.0,
-        "end": 263.0,
-        "text": "What I'm close, I'll just drift beyond the map still",
-        "avg_logprob": -0.6513393061501639,
-        "no_speech_prob": 0.357177734375
-      },
-      {
-        "start": 268.8,
-        "end": 276.0,
-        "text": "Burn, again, again",
-        "avg_logprob": -0.6513393061501639,
-        "no_speech_prob": 0.357177734375
-      },
-      {
-        "start": 277.0,
-        "end": 284.0,
-        "text": "Still burn, again, again, again, again",
-        "avg_logprob": -0.6513393061501639,
-        "no_speech_prob": 0.357177734375
-      },
-      {
-        "start": 286.0,
-        "end": 293.0,
-        "text": "Burn, again, again",
-        "avg_logprob": -0.4814453274011612,
-        "no_speech_prob": 0.5634765625
-      }
-    ],
-    "avg_logprob": -0.3379106418159623
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 304,
-    "transcript_word_count": 316,
-    "matched_sequence_words": 230,
-    "lyric_alignment_ratio": 0.757,
-    "transcript_precision_ratio": 0.728,
-    "unique_expected_word_coverage": 0.784,
-    "word_count_ratio": 1.039,
-    "repeated_12gram_ratio": 0.243,
-    "half_similarity": 0.367,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.759,
-    "quality_score_0_10": 7.59,
-    "flags": [],
-    "transcript_excerpt": "Music Hold it till it turns to light Way to thought becoming bright Every spark demands a name Every flare at different flame How compressed would I create? That's the point it should sustain They call these brilliance, I call it strength Still I'm asked to burn in vain Hydrogen lines in my chest Spectral traces never rest They measure output, not the mass Only what escapes the glass Equations whisper through my head Shandrous colors quite thread Limit away, collapse begins Pressure folding everything in I am told to synthesize Something no one's seen before But novelty is just disguise For th\n...[truncated]...\niation takes its time Nothing here is ever light Hold it till it turns to light Way to thought becoming bright Every spark demands a name Every flare at different flame How compressed would I create? That's the point it should sustain They call these brilliance, I call it strength Still I'm asked to burn in vain All our core, damn nature Still crimes All our core, damn nature Still crimes All our core, damn creature Still crimes All our release Just a dim of friends What I'm close, I'll just drift beyond the map still Burn, again, again Still burn, again, again, again, again Burn, again, again"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.77,
-      "MI_motivic_integration": 8.2,
+      "MI_motivic_integration": 7.9,
       "BP_beauty_spatial_poise": 8.78,
       "EG_evolving_grammar": 9.01,
       "CD_carry_depth": 8.95
     },
     "core_metrics": {
-      "CDPD": 0.877,
-      "NGE": 0.774,
+      "CDPD": 0.88,
+      "NGE": 0.77,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
@@ -2387,44 +1930,52 @@
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The framework already reflects strong structural coherence with clear verse/chorus/bridge/outro logic and consistent returns."
+        "reason": "No change required."
       },
       "MI_motivic_integration": {
-        "delta": 0.3,
-        "reason": "Motivic integration is high due to recurring vocal hooks, guitar figures, and lyric images that evolve across sections."
+        "delta": 0.0,
+        "reason": "No change required."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The spatial poise is central to the track’s identity, with a memorable sonic habitat formed by room tone and guitar space."
+        "reason": "No change required."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar is strong, with meaningful rule changes and development over time, though not fully inventing a new method."
+        "reason": "No change required."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track feels like a small world with a clear emotional arc and lasting imprint, meeting the criteria for strong carry depth."
+        "reason": "No change required."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:57.32 with section-balance score 0.53.",
-      "Tempo estimate is 117.5 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -16.0 LUFS, peak is -0.1 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is E minor with confidence 0.39.",
-      "Audio recurrence ratio is 0.343; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 544 beats and 144 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 2.79, cumulative evolution 1.07, transformed returns 10.00, grid deviation 1.14, rule changes 7.19.",
-      "Companion text has 7 lyric/production sections, 360 words, line repetition 0.29, rhyme-suffix reuse 0.51."
+      "The track exhibits a highly structured and intentional arrangement with clear transitions between sections (verse to chorus) as evidenced by the high SC score.",
+      "The lyrical content is deeply integrated into the production, using technical metaphors to build an atmosphere of 'core pressure' and 'radiant intensity'.",
+      "The spatial placement of elements like 'sub bass', 'filtered starlight textures', and 'distant pads' creates a sophisticated sonic landscape.",
+      "The grammar evolves significantly through the track, moving from descriptive imagery in the verses to more abstract, atmospheric phrasing in the chorus and outro.",
+      "The depth of the composition is evident in the layered production and complex texture."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to weak audio-only evidence."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:45:48.6849915Z",
-    "eval_count": 777,
-    "eval_duration": 13112983900
+    "created_at": "2026-06-10T10:45:25.5249103Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9514466,
+      "base64_chars": 12685956,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13456,
+    "prompt_eval_duration": 5681324000,
+    "eval_count": 437,
+    "eval_duration": 11055854000
   }
 }

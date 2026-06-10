@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T07:21:40",
+  "generated_at": "2026-06-10T12:08:05",
   "audio": {
     "path": "Driftwood/audio/06 - Oars From Strangers.mp3",
     "duration_seconds": 261.64,
@@ -1318,7 +1318,7 @@
     "declared_mood": "Hushed, sea-worn, wary, intimate, cautiously held, slow-burning",
     "production_notes": "Subdued electronic pulse like oars dipping out of time, Low synth bass with a slow undertow, Muted wooden percussion, Sparse piano notes left to decay, Weathered tape texture on transitions, Dropouts before key images, Wide tidal reverb that makes the backing voices feel half-seen",
     "vocal_notes": "Close low-register verses, restrained and almost spoken, Fragile melodic chorus with thin doubled phrases, Distant harmony fragments answering from the edges, Breath left exposed before repeated lines, Final chorus warmer but still unsettled",
-    "section_count": 11,
+    "section_count": 12,
     "section_names": [
       "Intro",
       "Verse 1",
@@ -1329,16 +1329,17 @@
       "Chorus",
       "Bridge",
       "Break",
+      "Final Chorus Opening",
       "Final Chorus",
       "Outro"
     ],
     "line_count": 76,
-    "word_count": 466,
-    "unique_word_ratio": 0.48068669527896996,
+    "word_count": 469,
+    "unique_word_ratio": 0.47974413646055436,
     "repeated_line_ratio": 0.23684210526315788,
     "rhyme_suffix_reuse": 0.368421052631579,
-    "avg_words_per_line": 6.131578947368421,
-    "reading_ease": 64.7309989200864,
+    "avg_words_per_line": 6.171052631578948,
+    "reading_ease": 63.941416309012894,
     "production_transform": {
       "score": 6.85,
       "matched_terms": [
@@ -1359,19 +1360,22 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
       "SC_structural_coherence": 9.95,
-      "MI_motivic_integration": 8.07,
+      "MI_motivic_integration": 8.15,
       "BP_beauty_spatial_poise": 8.97,
-      "EG_evolving_grammar": 8.09,
-      "CD_carry_depth": 9.25
+      "EG_evolving_grammar": 8.12,
+      "CD_carry_depth": 9.28
     },
     "core_metrics": {
-      "CDPD": 0.897,
-      "NGE": 0.695,
+      "CDPD": 0.901,
+      "NGE": 0.697,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -1402,495 +1406,77 @@
       "Audio recurrence ratio is 0.339; this is a rough proxy for repeated musical cells, not true motif recognition.",
       "beat_this detected 353 beats and 92 downbeats; beat-grid stability is 0.39.",
       "EG evidence: section contrast 2.38, cumulative evolution 1.09, transformed returns 10.00, grid deviation 1.52, rule changes 4.29.",
-      "Companion text has 11 lyric/production sections, 466 words, line repetition 0.24, rhyme-suffix reuse 0.37.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 6.85.",
-      "Transcription check: lyric alignment 0.73, unique-word coverage 0.85, word-count ratio 0.90, duplicate-pass estimate 1."
+      "Companion text has 12 lyric/production sections, 469 words, line repetition 0.24, rhyme-suffix reuse 0.37.",
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 6.85."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Don't go wild and I don't want to Something moving where nothing should Fogging the throat, roping the teeth Hands I can't see pull and beneath The morning came without a face A great cloth over every place No gold to mark the lifted air No master proved the world held Shape I'd wrote until the or went thin Until my shoulder folded in The raft kept speaking through its seams It seems in little warnings, little pleas And now be on the broken bow And Mother played to stir the flow Not close enough to call the crew Too close to call the water Empty, it doesn't save you like him It enters at the outer rim A pull you feel before you see the hand That makes it possible Forage from strangers dark and slow taking turns below the fog I do not know the names they keep Only how the timbers ease orage from strangers pull and breathe out A rescue not release, just another pool and rhythm Moving with the pull I carry The skiff emerged by half degrees, first the rope and woolen sleeves, two bent figures salt and bone, a child quiet as a stone. No one asked me where I'd failed, no one blessed the ragged sail, one hand reached Instead of cut where the build kept rising up The old one tied my ruin stern with knots that did not need my word The child watched the island ash fall from my coat into the wall It doesn't break the empty spell It rose beside the private swathe solid too That narrow guide learns to rhythm of another horse From strangers dark and slow day Can turns below the fog I do not know the names they keep Only how the timmer sings Orced from strangers tall and green Not a rescue not release Just another bull in rhythm Moving with the bull I carry I made a room of open sea Called it truth because it answered me Every way, return my shape Every absence held its place But someone else can hold it off Without becoming what you're for Someone else can share the strain And leave your sorrow unclamed Oh, wait! Rise! Do you not vanish? The pull I carry Not gone warden, not on wood The raft's still broken But understood fucking the throat Roping the teeth more Than my own hands under me",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 10.0,
-        "text": "Don't go wild and I don't want to",
-        "avg_logprob": -0.6335227272727273,
-        "no_speech_prob": 0.45654296875
-      },
-      {
-        "start": 10.0,
-        "end": 17.0,
-        "text": "Something moving where nothing should",
-        "avg_logprob": -0.6335227272727273,
-        "no_speech_prob": 0.45654296875
-      },
-      {
-        "start": 17.0,
-        "end": 23.0,
-        "text": "Fogging the throat, roping the teeth",
-        "avg_logprob": -0.6335227272727273,
-        "no_speech_prob": 0.45654296875
-      },
-      {
-        "start": 23.0,
-        "end": 29.0,
-        "text": "Hands I can't see pull and beneath",
-        "avg_logprob": -0.3129340149462223,
-        "no_speech_prob": 0.5361328125
-      },
-      {
-        "start": 31.0,
-        "end": 34.0,
-        "text": "The morning came without a face",
-        "avg_logprob": -0.3129340149462223,
-        "no_speech_prob": 0.5361328125
-      },
-      {
-        "start": 34.0,
-        "end": 37.0,
-        "text": "A great cloth over every place",
-        "avg_logprob": -0.3129340149462223,
-        "no_speech_prob": 0.5361328125
-      },
-      {
-        "start": 37.0,
-        "end": 40.0,
-        "text": "No gold to mark the lifted air",
-        "avg_logprob": -0.3129340149462223,
-        "no_speech_prob": 0.5361328125
-      },
-      {
-        "start": 40.0,
-        "end": 42.0,
-        "text": "No master proved the world held",
-        "avg_logprob": -0.3129340149462223,
-        "no_speech_prob": 0.5361328125
-      },
-      {
-        "start": 42.0,
-        "end": 45.0,
-        "text": "Shape I'd wrote until the or went thin",
-        "avg_logprob": -0.3129340149462223,
-        "no_speech_prob": 0.5361328125
-      },
-      {
-        "start": 45.0,
-        "end": 48.0,
-        "text": "Until my shoulder folded in",
-        "avg_logprob": -0.3129340149462223,
-        "no_speech_prob": 0.5361328125
-      },
-      {
-        "start": 48.0,
-        "end": 50.0,
-        "text": "The raft kept speaking through its seams",
-        "avg_logprob": -0.3129340149462223,
-        "no_speech_prob": 0.5361328125
-      },
-      {
-        "start": 50.0,
-        "end": 54.2,
-        "text": "It seems in little warnings, little pleas",
-        "avg_logprob": -0.4371279822218986,
-        "no_speech_prob": 0.443115234375
-      },
-      {
-        "start": 54.2,
-        "end": 57.44,
-        "text": "And now be on the broken bow",
-        "avg_logprob": -0.4371279822218986,
-        "no_speech_prob": 0.443115234375
-      },
-      {
-        "start": 57.44,
-        "end": 60.08,
-        "text": "And Mother played to stir the flow",
-        "avg_logprob": -0.4371279822218986,
-        "no_speech_prob": 0.443115234375
-      },
-      {
-        "start": 60.08,
-        "end": 62.92,
-        "text": "Not close enough to call the crew",
-        "avg_logprob": -0.4371279822218986,
-        "no_speech_prob": 0.443115234375
-      },
-      {
-        "start": 62.92,
-        "end": 65.48,
-        "text": "Too close to call the water",
-        "avg_logprob": -0.4371279822218986,
-        "no_speech_prob": 0.443115234375
-      },
-      {
-        "start": 65.48,
-        "end": 69.88,
-        "text": "Empty, it doesn't save you like him",
-        "avg_logprob": -0.4371279822218986,
-        "no_speech_prob": 0.443115234375
-      },
-      {
-        "start": 69.88,
-        "end": 72.72,
-        "text": "It enters at the outer rim",
-        "avg_logprob": -0.4371279822218986,
-        "no_speech_prob": 0.443115234375
-      },
-      {
-        "start": 72.72,
-        "end": 76.08,
-        "text": "A pull you feel before you see the hand",
-        "avg_logprob": -0.4371279822218986,
-        "no_speech_prob": 0.443115234375
-      },
-      {
-        "start": 76.08,
-        "end": 77.68,
-        "text": "That makes it possible",
-        "avg_logprob": -0.4371279822218986,
-        "no_speech_prob": 0.443115234375
-      },
-      {
-        "start": 77.68,
-        "end": 83.68,
-        "text": "Forage from strangers dark and slow taking turns below the fog",
-        "avg_logprob": -0.36491935964553585,
-        "no_speech_prob": 0.45068359375
-      },
-      {
-        "start": 83.68,
-        "end": 86.68,
-        "text": "I do not know the names they keep",
-        "avg_logprob": -0.36491935964553585,
-        "no_speech_prob": 0.45068359375
-      },
-      {
-        "start": 86.68,
-        "end": 92.68,
-        "text": "Only how the timbers ease orage from strangers pull and breathe out",
-        "avg_logprob": -0.36491935964553585,
-        "no_speech_prob": 0.45068359375
-      },
-      {
-        "start": 92.68,
-        "end": 97.68,
-        "text": "A rescue not release, just another pool and rhythm",
-        "avg_logprob": -0.36491935964553585,
-        "no_speech_prob": 0.45068359375
-      },
-      {
-        "start": 97.68,
-        "end": 100.68,
-        "text": "Moving with the pull I carry",
-        "avg_logprob": -0.36491935964553585,
-        "no_speech_prob": 0.45068359375
-      },
-      {
-        "start": 100.68,
-        "end": 113.32,
-        "text": "The skiff emerged by half degrees, first the rope and woolen sleeves, two bent figures",
-        "avg_logprob": -0.4334590383644762,
-        "no_speech_prob": 0.5888671875
-      },
-      {
-        "start": 113.32,
-        "end": 117.92,
-        "text": "salt and bone, a child quiet as a stone.",
-        "avg_logprob": -0.4334590383644762,
-        "no_speech_prob": 0.5888671875
-      },
-      {
-        "start": 117.92,
-        "end": 124.96,
-        "text": "No one asked me where I'd failed, no one blessed the ragged sail, one hand reached",
-        "avg_logprob": -0.4334590383644762,
-        "no_speech_prob": 0.5888671875
-      },
-      {
-        "start": 124.96,
-        "end": 128.56,
-        "text": "Instead of cut where the build kept rising up",
-        "avg_logprob": -0.4127435204270598,
-        "no_speech_prob": 0.5068359375
-      },
-      {
-        "start": 129.56,
-        "end": 135.36,
-        "text": "The old one tied my ruin stern with knots that did not need my word",
-        "avg_logprob": -0.4127435204270598,
-        "no_speech_prob": 0.5068359375
-      },
-      {
-        "start": 135.36,
-        "end": 141.56,
-        "text": "The child watched the island ash fall from my coat into the wall",
-        "avg_logprob": -0.4127435204270598,
-        "no_speech_prob": 0.5068359375
-      },
-      {
-        "start": 142.56,
-        "end": 145.36,
-        "text": "It doesn't break the empty spell",
-        "avg_logprob": -0.4127435204270598,
-        "no_speech_prob": 0.5068359375
-      },
-      {
-        "start": 145.36,
-        "end": 149.36,
-        "text": "It rose beside the private swathe solid too",
-        "avg_logprob": -0.4127435204270598,
-        "no_speech_prob": 0.5068359375
-      },
-      {
-        "start": 149.36,
-        "end": 154.16,
-        "text": "That narrow guide learns to rhythm of another horse",
-        "avg_logprob": -0.4127435204270598,
-        "no_speech_prob": 0.5068359375
-      },
-      {
-        "start": 154.16,
-        "end": 157.16,
-        "text": "From strangers dark and slow day",
-        "avg_logprob": -0.3357514934170814,
-        "no_speech_prob": 0.703125
-      },
-      {
-        "start": 157.16,
-        "end": 159.16,
-        "text": "Can turns below the fog",
-        "avg_logprob": -0.3357514934170814,
-        "no_speech_prob": 0.703125
-      },
-      {
-        "start": 159.16,
-        "end": 162.16,
-        "text": "I do not know the names they keep",
-        "avg_logprob": -0.3357514934170814,
-        "no_speech_prob": 0.703125
-      },
-      {
-        "start": 162.16,
-        "end": 165.16,
-        "text": "Only how the timmer sings",
-        "avg_logprob": -0.3357514934170814,
-        "no_speech_prob": 0.703125
-      },
-      {
-        "start": 165.16,
-        "end": 168.16,
-        "text": "Orced from strangers tall and green",
-        "avg_logprob": -0.3357514934170814,
-        "no_speech_prob": 0.703125
-      },
-      {
-        "start": 168.16,
-        "end": 171.16,
-        "text": "Not a rescue not release",
-        "avg_logprob": -0.3357514934170814,
-        "no_speech_prob": 0.703125
-      },
-      {
-        "start": 171.16,
-        "end": 174.16,
-        "text": "Just another bull in rhythm",
-        "avg_logprob": -0.3357514934170814,
-        "no_speech_prob": 0.703125
-      },
-      {
-        "start": 174.16,
-        "end": 177.16,
-        "text": "Moving with the bull I carry",
-        "avg_logprob": -0.3357514934170814,
-        "no_speech_prob": 0.703125
-      },
-      {
-        "start": 177.16,
-        "end": 180.16,
-        "text": "I made a room of open sea",
-        "avg_logprob": -0.3357514934170814,
-        "no_speech_prob": 0.703125
-      },
-      {
-        "start": 180.16,
-        "end": 183.16,
-        "text": "Called it truth because it answered me",
-        "avg_logprob": -0.3357514934170814,
-        "no_speech_prob": 0.703125
-      },
-      {
-        "start": 183.16,
-        "end": 187.16,
-        "text": "Every way, return my shape",
-        "avg_logprob": -0.330223888603609,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 187.16,
-        "end": 190.16,
-        "text": "Every absence held its place",
-        "avg_logprob": -0.330223888603609,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 190.16,
-        "end": 193.16,
-        "text": "But someone else can hold it off",
-        "avg_logprob": -0.330223888603609,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 193.16,
-        "end": 196.16,
-        "text": "Without becoming what you're for",
-        "avg_logprob": -0.330223888603609,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 196.16,
-        "end": 199.16,
-        "text": "Someone else can share the strain",
-        "avg_logprob": -0.330223888603609,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 199.16,
-        "end": 202.16,
-        "text": "And leave your sorrow unclamed",
-        "avg_logprob": -0.330223888603609,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 202.16,
-        "end": 204.16,
-        "text": "Oh, wait!",
-        "avg_logprob": -0.330223888603609,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 204.16,
-        "end": 206.16,
-        "text": "Rise!",
-        "avg_logprob": -0.330223888603609,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 206.16,
-        "end": 208.16,
-        "text": "Do you not vanish?",
-        "avg_logprob": -0.330223888603609,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 243.16,
-        "end": 248.76,
-        "text": "The pull I carry Not gone warden, not on wood",
-        "avg_logprob": -0.5859375268220901,
-        "no_speech_prob": 0.328369140625
-      },
-      {
-        "start": 248.76,
-        "end": 253.16,
-        "text": "The raft's still broken But understood fucking the throat",
-        "avg_logprob": -0.5859375268220901,
-        "no_speech_prob": 0.328369140625
-      },
-      {
-        "start": 253.16,
-        "end": 259.16,
-        "text": "Roping the teeth more Than my own hands under me",
-        "avg_logprob": -0.5859375268220901,
-        "no_speech_prob": 0.328369140625
-      }
-    ],
-    "avg_logprob": -0.41790343877690006
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 449,
-    "transcript_word_count": 406,
-    "matched_sequence_words": 330,
-    "lyric_alignment_ratio": 0.735,
-    "transcript_precision_ratio": 0.813,
-    "unique_expected_word_coverage": 0.847,
-    "word_count_ratio": 0.904,
-    "repeated_12gram_ratio": 0.01,
-    "half_similarity": 0.256,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.765,
-    "quality_score_0_10": 7.65,
-    "flags": [],
-    "transcript_excerpt": "Don't go wild and I don't want to Something moving where nothing should Fogging the throat, roping the teeth Hands I can't see pull and beneath The morning came without a face A great cloth over every place No gold to mark the lifted air No master proved the world held Shape I'd wrote until the or went thin Until my shoulder folded in The raft kept speaking through its seams It seems in little warnings, little pleas And now be on the broken bow And Mother played to stir the flow Not close enough to call the crew Too close to call the water Empty, it doesn't save you like him It enters at the o\n...[truncated]...\n names they keep Only how the timmer sings Orced from strangers tall and green Not a rescue not release Just another bull in rhythm Moving with the bull I carry I made a room of open sea Called it truth because it answered me Every way, return my shape Every absence held its place But someone else can hold it off Without becoming what you're for Someone else can share the strain And leave your sorrow unclamed Oh, wait! Rise! Do you not vanish? The pull I carry Not gone warden, not on wood The raft's still broken But understood fucking the throat Roping the teeth more Than my own hands under me"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.95,
-      "MI_motivic_integration": 8.07,
+      "MI_motivic_integration": 8.15,
       "BP_beauty_spatial_poise": 8.97,
-      "EG_evolving_grammar": 8.09,
-      "CD_carry_depth": 9.25
+      "EG_evolving_grammar": 8.12,
+      "CD_carry_depth": 9.28
     },
     "core_metrics": {
-      "CDPD": 0.897,
-      "NGE": 0.695,
+      "CDPD": 0.901,
+      "NGE": 0.697,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High score reflects sophisticated structure and evocative imagery."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track maintains strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting the same emotional room."
+        "reason": "Base score already near ceiling; structure is highly deliberate."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong motivic integration."
+        "reason": "Motivic material is well-integrated into the atmospheric build."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The track’s spatial poise is central to its identity, with room tone and guitar space forming a memorable habitat."
+        "reason": "Sonic space and aesthetic balance are consistent with high score."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "While the track develops a personal indie grammar over time, it does not fully invent a new method, so the evolving grammar score is adjusted downward."
+        "reason": "Grammar evolves consistently through the arc."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track feels like a small world, with a recognizable emotional or psychic habitat and a strong carry depth."
+        "reason": "Lyrical depth is sustained throughout."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:21.64 with section-balance score 0.41.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.67.",
-      "Integrated loudness is -16.3 LUFS, peak is -0.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D major with confidence 0.21.",
-      "Audio recurrence ratio is 0.339; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 353 beats and 92 downbeats; beat-grid stability is 0.39.",
-      "EG evidence: section contrast 2.38, cumulative evolution 1.09, transformed returns 10.00, grid deviation 1.52, rule changes 4.29.",
-      "Companion text has 11 lyric/production sections, 466 words, line repetition 0.24, rhyme-suffix reuse 0.37."
+      "The track features a highly sophisticated structure with clear transitions and an intentional 'slow-burn' progression.",
+      "Motivic elements (the 'oars', the 'pull') are woven into both the lyrical narrative and the sonic texture.",
+      "The production creates a cohesive, immersive space that supports the intimate vocal delivery.",
+      "The ending is deliberate and evocative, providing a satisfying resolution to the atmospheric arc."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to weak audio-only evidence."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-04T05:21:40.8209892Z",
-    "eval_count": 792,
-    "eval_duration": 13207012600
+    "created_at": "2026-06-10T10:08:05.1904438Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8372558,
+      "base64_chars": 11163412,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12142,
+    "prompt_eval_duration": 5251651000,
+    "eval_count": 408,
+    "eval_duration": 10318387000
   }
 }

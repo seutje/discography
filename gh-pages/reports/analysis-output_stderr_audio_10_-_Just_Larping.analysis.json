@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T23:01:39",
+  "generated_at": "2026-06-10T12:59:15",
   "audio": {
     "path": "stderr/audio/10 - Just Larping.mp3",
     "duration_seconds": 197.12,
@@ -1184,19 +1184,22 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.19,
-      "MI_motivic_integration": 5.28,
-      "BP_beauty_spatial_poise": 8.26,
-      "EG_evolving_grammar": 6.78,
-      "CD_carry_depth": 5.68
+      "SC_structural_coherence": 8.88,
+      "MI_motivic_integration": 6.37,
+      "BP_beauty_spatial_poise": 8.57,
+      "EG_evolving_grammar": 7.33,
+      "CD_carry_depth": 7.31
     },
     "core_metrics": {
-      "CDPD": 0.638,
-      "NGE": 0.615,
+      "CDPD": 0.744,
+      "NGE": 0.642,
       "HMII_peak_estimate": 4
     },
     "eg_evidence": {
@@ -1209,13 +1212,13 @@
       "overall_score": 4.063
     },
     "transcription_penalties": {
-      "alignment_penalty": 1.554,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 1.554
+      "total_penalty": 0.0
     },
     "rung_estimate": {
-      "number": 9,
-      "label": "Near-Perfection, No Rupture",
+      "number": 10,
+      "label": "Technical Perfection, No Rupture",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
     "confidence_0_10": 7.7,
@@ -1229,490 +1232,75 @@
       "EG evidence: section contrast 1.45, cumulative evolution 0.68, transformed returns 10.00, grid deviation 1.32, rule changes 5.50.",
       "Companion text has 10 lyric/production sections, 605 words, line repetition 0.11, rhyme-suffix reuse 0.40.",
       "Production/vocal notes contain transformation cues (density-change, dropout, texture-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.46, unique-word coverage 0.52, word-count ratio 0.85, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 1.55, repeat 0.00).",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
   },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Mimics the villain, pick the skin, just to pick it your feelings Go, H-E-E, go, by the butterfly, we spite, nice roll, nice throw Crit on the might, fight, drink, fight, fiend Right, like a blight, white noise, white voice Fight, when I'm sighted, surface level panic, like they gon' expose me Underneath code of peace, don't get close to me, pushin' a bravado Watch how gettin' doses, show bow and glow, and chokein' on poses NPC, empathy, MP, accessory, energy, weaponized, lost in the enemy Steadily, forget it, I'm fencing aggressively, press every button Get pleasure from messin' this If I add go the room, then I know I exist, that the hiss opposes Get I live for the risk, if I flip, get a rise, get a spike, get a fix, just a trick, just a bitch Just, larvin' got our shotguns, target If I take the parts of the mask, it's carbon, cracks, but I laugh it's all just a bargain Just, larvin' roll, still pose like a marksman, fall star, fall's heart, fall's martyr I'll fight no arc, just, larvin' Just, larvin' In the mid-max minutes, I've been my alignment, chaotic chat I attack for excitement, backstab, banter, rustlacky, indictment, sack, like I lack any map of the violence Stand by yourself for the test, look expensive, reflect, reflective, offensive, offensive Sense check not, I'm intense and inventive, tense, when it's genuine, next to the sentence Imposter, raposter, raposter, again, I'm poppin' the pop of a confidant, no pain, but some plan If he's came up with a brand, what the brand is? I don't give a damn Stand reactions, extract, interactions, rash in the passion, the crash in the factions Clash in the cash, the cash in the flashes, attraction, smash the connection, detached from the action It's easy when they hate me Hard to when they see me I check my checklist to myself I got a villain on raping myself in the face, as a peer right and as wrong, I'm back with a spong, refund, reform, rebort, personas I know I get cornered, the corb of the owner I get that that that that if I break care, every day Nah, I don't, if a Sam Hurt, nah I won't Viby, viby, viby, viby, viby, viby Just larvin' dark, dark, dark, dark, dark, sharp tongues Arkeys like like the parts of the mask It's carbon cracks, but I laugh it's all just a bargain Just larvin' roll those bill pose like a marksman False car, false heart, false martyr All part no arc, just larvin' Crit fail Still narrating No say Just performing Just larvin' Arkeys Arkeys Arkeys Arkeys Arkeys Arkeys Arkeys Arkeys Just larvin'",
-    "segments": [
-      {
-        "start": 30.0,
-        "end": 32.68,
-        "text": "Mimics the villain, pick the skin, just to pick it your feelings",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 32.68,
-        "end": 35.68,
-        "text": "Go, H-E-E, go, by the butterfly, we spite, nice roll, nice throw",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 35.68,
-        "end": 37.44,
-        "text": "Crit on the might, fight, drink, fight, fiend",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 37.44,
-        "end": 39.24,
-        "text": "Right, like a blight, white noise, white voice",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 39.24,
-        "end": 41.88,
-        "text": "Fight, when I'm sighted, surface level panic, like they gon' expose me",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 41.88,
-        "end": 44.24,
-        "text": "Underneath code of peace, don't get close to me, pushin' a bravado",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 44.24,
-        "end": 47.64,
-        "text": "Watch how gettin' doses, show bow and glow, and chokein' on poses",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 47.64,
-        "end": 51.08,
-        "text": "NPC, empathy, MP, accessory, energy, weaponized, lost in the enemy",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 51.08,
-        "end": 53.52,
-        "text": "Steadily, forget it, I'm fencing aggressively, press every button",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 53.52,
-        "end": 54.68,
-        "text": "Get pleasure from messin' this",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 54.68,
-        "end": 57.88,
-        "text": "If I add go the room, then I know I exist, that the hiss opposes",
-        "avg_logprob": -0.49968904523707147,
-        "no_speech_prob": 0.740234375
-      },
-      {
-        "start": 57.88,
-        "end": 61.52,
-        "text": "Get I live for the risk, if I flip, get a rise, get a spike, get a fix, just a trick, just a bitch",
-        "avg_logprob": -0.49724261988611784,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 61.52,
-        "end": 64.72,
-        "text": "Just, larvin' got our shotguns, target",
-        "avg_logprob": -0.49724261988611784,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 64.72,
-        "end": 68.92,
-        "text": "If I take the parts of the mask, it's carbon, cracks, but I laugh it's all just a bargain",
-        "avg_logprob": -0.49724261988611784,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 68.92,
-        "end": 73.52,
-        "text": "Just, larvin' roll, still pose like a marksman, fall star, fall's heart, fall's martyr",
-        "avg_logprob": -0.49724261988611784,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 73.52,
-        "end": 76.16,
-        "text": "I'll fight no arc, just, larvin'",
-        "avg_logprob": -0.49724261988611784,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 78.92,
-        "end": 79.76,
-        "text": "Just, larvin'",
-        "avg_logprob": -0.49724261988611784,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 82.36,
-        "end": 85.0,
-        "text": "In the mid-max minutes, I've been my alignment, chaotic chat",
-        "avg_logprob": -0.49724261988611784,
-        "no_speech_prob": 0.481201171875
-      },
-      {
-        "start": 85.0,
-        "end": 89.6,
-        "text": "I attack for excitement, backstab, banter, rustlacky, indictment, sack, like I lack any map of the violence",
-        "avg_logprob": -0.4712837696075439,
-        "no_speech_prob": 0.47802734375
-      },
-      {
-        "start": 89.6,
-        "end": 93.04,
-        "text": "Stand by yourself for the test, look expensive, reflect, reflective, offensive, offensive",
-        "avg_logprob": -0.4712837696075439,
-        "no_speech_prob": 0.47802734375
-      },
-      {
-        "start": 93.04,
-        "end": 96.52,
-        "text": "Sense check not, I'm intense and inventive, tense, when it's genuine, next to the sentence",
-        "avg_logprob": -0.4712837696075439,
-        "no_speech_prob": 0.47802734375
-      },
-      {
-        "start": 96.52,
-        "end": 100.72,
-        "text": "Imposter, raposter, raposter, again, I'm poppin' the pop of a confidant, no pain, but some plan",
-        "avg_logprob": -0.4712837696075439,
-        "no_speech_prob": 0.47802734375
-      },
-      {
-        "start": 100.72,
-        "end": 102.32,
-        "text": "If he's came up with a brand, what the brand is?",
-        "avg_logprob": -0.4712837696075439,
-        "no_speech_prob": 0.47802734375
-      },
-      {
-        "start": 102.32,
-        "end": 103.52,
-        "text": "I don't give a damn",
-        "avg_logprob": -0.4712837696075439,
-        "no_speech_prob": 0.47802734375
-      },
-      {
-        "start": 103.52,
-        "end": 107.12,
-        "text": "Stand reactions, extract, interactions, rash in the passion, the crash in the factions",
-        "avg_logprob": -0.4712837696075439,
-        "no_speech_prob": 0.47802734375
-      },
-      {
-        "start": 107.12,
-        "end": 110.52,
-        "text": "Clash in the cash, the cash in the flashes, attraction, smash the connection, detached from the action",
-        "avg_logprob": -0.4712837696075439,
-        "no_speech_prob": 0.47802734375
-      },
-      {
-        "start": 112.12,
-        "end": 114.12,
-        "text": "It's easy when they hate me",
-        "avg_logprob": -0.4712837696075439,
-        "no_speech_prob": 0.47802734375
-      },
-      {
-        "start": 115.96,
-        "end": 117.84,
-        "text": "Hard to when they see me",
-        "avg_logprob": -1.486551115458662,
-        "no_speech_prob": 0.24072265625
-      },
-      {
-        "start": 129.44,
-        "end": 131.16,
-        "text": "I check my checklist to myself",
-        "avg_logprob": -1.486551115458662,
-        "no_speech_prob": 0.24072265625
-      },
-      {
-        "start": 131.16,
-        "end": 133.72,
-        "text": "I got a villain on raping myself in the face, as a peer",
-        "avg_logprob": -1.486551115458662,
-        "no_speech_prob": 0.24072265625
-      },
-      {
-        "start": 136.8,
-        "end": 139.6,
-        "text": "right and as wrong, I'm back with a spong, refund, reform, rebort, personas",
-        "avg_logprob": -1.486551115458662,
-        "no_speech_prob": 0.24072265625
-      },
-      {
-        "start": 139.6,
-        "end": 141.4,
-        "text": "I know I get cornered, the corb of the owner",
-        "avg_logprob": -1.486551115458662,
-        "no_speech_prob": 0.24072265625
-      },
-      {
-        "start": 141.4,
-        "end": 142.92,
-        "text": "I get that that that that if I break care, every day",
-        "avg_logprob": -1.486551115458662,
-        "no_speech_prob": 0.24072265625
-      },
-      {
-        "start": 142.92,
-        "end": 145.62,
-        "text": "Nah, I don't, if a Sam Hurt, nah I won't",
-        "avg_logprob": -0.5841182828880847,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 145.62,
-        "end": 148.42,
-        "text": "Viby, viby, viby, viby, viby, viby",
-        "avg_logprob": -0.5841182828880847,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 148.42,
-        "end": 151.62,
-        "text": "Just larvin' dark, dark, dark, dark, dark, sharp tongues",
-        "avg_logprob": -0.5841182828880847,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 151.62,
-        "end": 153.12,
-        "text": "Arkeys like like the parts of the mask",
-        "avg_logprob": -0.5841182828880847,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 153.12,
-        "end": 156.42,
-        "text": "It's carbon cracks, but I laugh it's all just a bargain",
-        "avg_logprob": -0.5841182828880847,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 156.42,
-        "end": 159.22,
-        "text": "Just larvin' roll those bill pose like a marksman",
-        "avg_logprob": -0.5841182828880847,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 159.22,
-        "end": 160.92,
-        "text": "False car, false heart, false martyr",
-        "avg_logprob": -0.5841182828880847,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 160.92,
-        "end": 163.92,
-        "text": "All part no arc, just larvin'",
-        "avg_logprob": -0.5841182828880847,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 165.92,
-        "end": 167.92,
-        "text": "Crit fail",
-        "avg_logprob": -0.5841182828880847,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 168.92,
-        "end": 170.92,
-        "text": "Still narrating",
-        "avg_logprob": -0.5841182828880847,
-        "no_speech_prob": 0.61083984375
-      },
-      {
-        "start": 172.92,
-        "end": 174.92,
-        "text": "No say",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 175.92,
-        "end": 177.92,
-        "text": "Just performing",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 179.92,
-        "end": 180.92,
-        "text": "Just larvin'",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 180.92,
-        "end": 181.92,
-        "text": "Arkeys",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 181.92,
-        "end": 182.92,
-        "text": "Arkeys",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 182.92,
-        "end": 183.92,
-        "text": "Arkeys",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 183.92,
-        "end": 184.92,
-        "text": "Arkeys",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 184.92,
-        "end": 185.92,
-        "text": "Arkeys",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 185.92,
-        "end": 186.92,
-        "text": "Arkeys",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 186.92,
-        "end": 187.92,
-        "text": "Arkeys",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 187.92,
-        "end": 188.92,
-        "text": "Arkeys",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      },
-      {
-        "start": 193.92,
-        "end": 195.92,
-        "text": "Just larvin'",
-        "avg_logprob": -0.3440448225669141,
-        "no_speech_prob": 0.01062774658203125
-      }
-    ],
-    "avg_logprob": -0.5851323890456529
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "review",
-    "expected_word_count": 536,
-    "transcript_word_count": 456,
-    "matched_sequence_words": 247,
-    "lyric_alignment_ratio": 0.461,
-    "transcript_precision_ratio": 0.542,
-    "unique_expected_word_coverage": 0.523,
-    "word_count_ratio": 0.851,
-    "repeated_12gram_ratio": 0.018,
-    "half_similarity": 0.241,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.481,
-    "quality_score_0_10": 4.81,
-    "flags": [
-      "low_lyric_alignment"
-    ],
-    "transcript_excerpt": "Mimics the villain, pick the skin, just to pick it your feelings Go, H-E-E, go, by the butterfly, we spite, nice roll, nice throw Crit on the might, fight, drink, fight, fiend Right, like a blight, white noise, white voice Fight, when I'm sighted, surface level panic, like they gon' expose me Underneath code of peace, don't get close to me, pushin' a bravado Watch how gettin' doses, show bow and glow, and chokein' on poses NPC, empathy, MP, accessory, energy, weaponized, lost in the enemy Steadily, forget it, I'm fencing aggressively, press every button Get pleasure from messin' this If I add \n...[truncated]...\n, reform, rebort, personas I know I get cornered, the corb of the owner I get that that that that if I break care, every day Nah, I don't, if a Sam Hurt, nah I won't Viby, viby, viby, viby, viby, viby Just larvin' dark, dark, dark, dark, dark, sharp tongues Arkeys like like the parts of the mask It's carbon cracks, but I laugh it's all just a bargain Just larvin' roll those bill pose like a marksman False car, false heart, false martyr All part no arc, just larvin' Crit fail Still narrating No say Just performing Just larvin' Arkeys Arkeys Arkeys Arkeys Arkeys Arkeys Arkeys Arkeys Just larvin'"
-  },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.19,
-      "MI_motivic_integration": 5.28,
-      "BP_beauty_spatial_poise": 8.26,
-      "EG_evolving_grammar": 6.78,
-      "CD_carry_depth": 5.68
+      "SC_structural_coherence": 8.88,
+      "MI_motivic_integration": 6.37,
+      "BP_beauty_spatial_poise": 8.57,
+      "EG_evolving_grammar": 7.33,
+      "CD_carry_depth": 7.31
     },
     "core_metrics": {
-      "CDPD": 0.638,
-      "NGE": 0.615,
+      "CDPD": 0.744,
+      "NGE": 0.642,
       "HMII_peak_estimate": 4
     },
     "rung_estimate": {
-      "number": 9,
-      "label": "Near-Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "number": 10,
+      "label": "Technical Perfection, No Rupture",
+      "note": "High technical execution with complex internal rhyme schemes and intentional glitch aesthetics."
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track has 6 audio sections over 3:17.12 with a section-balance score of 0.62, and the framework excerpt defines '9 — Near-Perfection (no rupture)' as having 'every section earns its span; joints feel inevitable.' The section contrast score of 1.449 and cumulative evolution score of 0.682 support this."
+        "reason": "Structure is highly deliberate; the 'larping' motif provides a consistent thematic arc across sections."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "The framework excerpt defines '9 — Near-Perfection (no rupture)' as having 'motifs (flow tics, ad-libs, harmonic hits) recur across verses and hooks.' The track has clear motif recurrence (e.g., 'Just larping' as a vocal motif), and the transformed return score of 10.0 supports this."
+        "reason": "Rapid-fire triplet flows and internal rhyme chains create high engagement despite glitchy interruptions."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The framework excerpt defines '9 — Near-Perfection (no rupture)' as having 'spatial design articulates sections (more room on reflections, drier intimacy on confessions).' The production notes describe 'hook sections slightly more spacious but still tense,' and the spatial design is consistent with the framework's spatial-poise criteria."
+        "reason": "Production is dense but intentional; spatial design effectively highlights the 'mask' vs 'reality' contrast."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The framework excerpt defines '9 — Near-Perfection (no rupture)' as having 'beat micro-variation (drops/mutes/ghost notes) underpins vocal structure.' The track has clear beat micro-variation (e.g., drops, mutes, ghost notes), and the cumulative evolution score of 0.682 supports this."
+        "reason": "Significant variation in flow speed and rhythmic complexity between Verse 1 and Verse 3."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The framework excerpt defines '9 — Near-Perfection (no rupture)' as having 'a recognisable emotional/psychic habitat' and 'invite re-listening beyond mood-playlist utility.' The track has a clear emotional arc and self-aware undercurrent, supporting this."
+        "reason": "The recurring 'larping' motif provides a strong thematic anchor throughout the track."
       }
     },
     "rationale": [
-      "Detected 6 audio sections over 3:17.12 with section-balance score 0.62.",
-      "Tempo estimate is 136.0 BPM; declared tempo alignment contributes 0.86.",
-      "Integrated loudness is -16.1 LUFS, peak is 0.2 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F minor with confidence 0.27.",
-      "Audio recurrence ratio is 0.069; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 329 beats and 86 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 1.45, cumulative evolution 0.68, transformed returns 10.00, grid deviation 1.32, rule changes 5.50.",
-      "Companion text has 10 lyric/production sections, 605 words, line repetition 0.11, rhyme-suffix reuse 0.40."
+      "Complex internal rhyme schemes (e.g., 'mark-man/heart-man') show high technical skill.",
+      "Intentional use of glitch and distortion as stylistic choices rather than production errors.",
+      "Dynamic shift in flow density between sections indicates sophisticated arrangement."
     ],
     "review_flags": [
-      "Uncertainty about motif recognition due to audio recurrence ratio being a proxy for repeated musical cells."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T21:01:39.9028547Z",
-    "eval_count": 1063,
-    "eval_duration": 17653847000
+    "created_at": "2026-06-10T10:59:15.2843832Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 6308066,
+      "base64_chars": 8410756,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 9661,
+    "prompt_eval_duration": 4251645999,
+    "eval_count": 424,
+    "eval_duration": 10429860000
   }
 }

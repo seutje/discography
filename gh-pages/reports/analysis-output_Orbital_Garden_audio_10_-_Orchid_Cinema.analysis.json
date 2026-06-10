@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:39:49",
+  "generated_at": "2026-06-10T12:40:09",
   "audio": {
     "path": "Orbital Garden/audio/10 - Orchid Cinema.mp3",
     "duration_seconds": 297.96,
@@ -2011,7 +2011,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -2055,214 +2058,20 @@
       "beat_this detected 631 beats and 127 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 2.86, cumulative evolution 1.25, transformed returns 10.00, grid deviation 1.66, rule changes 7.81.",
       "Companion text has 8 lyric/production sections, 294 words, line repetition 0.14, rhyme-suffix reuse 0.29.",
-      "Production/vocal notes contain transformation cues (space-change, texture-change); intent score 3.75.",
-      "Transcription check: lyric alignment 0.85, unique-word coverage 0.86, word-count ratio 0.98, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (space-change, texture-change); intent score 3.75."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "You're could open into motion Pettles lifting frame by frame Not a flower, not a window, something tender without a name Like I did in the upper chamber Folded faces through the steam Old rooms wandered into orbit Landscapes grew out of a dream I stood there with my hands on steady Not replaced and not alone Watching color learn a language From the longing I had shown I held the lamp It changed the bloom Under came a stranger edges beauty Moved beyond my reach I opened in the breathing door Show me what my younger hands could only carry as a spark I will keep the light human I will keep the question moving When the garden dances in a shape I never fought Somewhere in the moving petals Younger versions looked amazed All their little sealed up wishes Stepping out through silver haze I could feel the speed of making Right in what I used to know Still I steep aside the blossom Careful with his overflow, not a guide, not a ghost The tool is not the altar Attention is the bloom is not the maker If the chamber dreams an impossible catalyst I still choose where the lamp is held I opened in the breathing door Show me what my younger hands could only carry as a spark I will keep the light human I will keep the question moving When the garden dances in a shape I never fought Picture Picture I make a clearing and I remember",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 29.2,
-        "text": "You're could open into motion Pettles lifting frame by frame",
-        "avg_logprob": -0.8097426470588235,
-        "no_speech_prob": 0.4501953125
-      },
-      {
-        "start": 29.2,
-        "end": 39.2,
-        "text": "Not a flower, not a window, something tender without a name",
-        "avg_logprob": -0.5429687350988388,
-        "no_speech_prob": 0.3515625
-      },
-      {
-        "start": 60.2,
-        "end": 69.2,
-        "text": "Like I did in the upper chamber Folded faces through the steam",
-        "avg_logprob": -0.23600261068592468,
-        "no_speech_prob": 0.278564453125
-      },
-      {
-        "start": 69.2,
-        "end": 79.2,
-        "text": "Old rooms wandered into orbit Landscapes grew out of a dream",
-        "avg_logprob": -0.23600261068592468,
-        "no_speech_prob": 0.278564453125
-      },
-      {
-        "start": 79.2,
-        "end": 88.2,
-        "text": "I stood there with my hands on steady Not replaced and not alone",
-        "avg_logprob": -0.23600261068592468,
-        "no_speech_prob": 0.278564453125
-      },
-      {
-        "start": 88.2,
-        "end": 97.2,
-        "text": "Watching color learn a language From the longing I had shown",
-        "avg_logprob": -0.2925,
-        "no_speech_prob": 0.043914794921875
-      },
-      {
-        "start": 97.2,
-        "end": 109.2,
-        "text": "I held the lamp It changed the bloom",
-        "avg_logprob": -0.2925,
-        "no_speech_prob": 0.043914794921875
-      },
-      {
-        "start": 109.2,
-        "end": 119.2,
-        "text": "Under came a stranger edges beauty Moved beyond my reach",
-        "avg_logprob": -0.4630102040816326,
-        "no_speech_prob": 0.2474365234375
-      },
-      {
-        "start": 119.2,
-        "end": 129.2,
-        "text": "I opened in the breathing door Show me what my younger hands could only carry as a spark",
-        "avg_logprob": -0.4630102040816326,
-        "no_speech_prob": 0.2474365234375
-      },
-      {
-        "start": 129.2,
-        "end": 134.2,
-        "text": "I will keep the light human I will keep the question moving",
-        "avg_logprob": -0.4630102040816326,
-        "no_speech_prob": 0.2474365234375
-      },
-      {
-        "start": 134.2,
-        "end": 155.2,
-        "text": "When the garden dances in a shape I never fought",
-        "avg_logprob": -0.43498885205813814,
-        "no_speech_prob": 0.0546875
-      },
-      {
-        "start": 155.2,
-        "end": 165.2,
-        "text": "Somewhere in the moving petals Younger versions looked amazed",
-        "avg_logprob": -0.21354167064030966,
-        "no_speech_prob": 0.1737060546875
-      },
-      {
-        "start": 165.2,
-        "end": 174.2,
-        "text": "All their little sealed up wishes Stepping out through silver haze",
-        "avg_logprob": -0.21354167064030966,
-        "no_speech_prob": 0.1737060546875
-      },
-      {
-        "start": 174.2,
-        "end": 183.2,
-        "text": "I could feel the speed of making Right in what I used to know",
-        "avg_logprob": -0.21354167064030966,
-        "no_speech_prob": 0.1737060546875
-      },
-      {
-        "start": 183.2,
-        "end": 195.2,
-        "text": "Still I steep aside the blossom Careful with his overflow, not a guide, not a ghost",
-        "avg_logprob": -0.33223683269400345,
-        "no_speech_prob": 0.091552734375
-      },
-      {
-        "start": 195.2,
-        "end": 204.2,
-        "text": "The tool is not the altar Attention is the bloom is not the maker",
-        "avg_logprob": -0.33223683269400345,
-        "no_speech_prob": 0.091552734375
-      },
-      {
-        "start": 205.2,
-        "end": 215.2,
-        "text": "If the chamber dreams an impossible catalyst I still choose where the lamp is held",
-        "avg_logprob": -0.2377653234409836,
-        "no_speech_prob": 0.54931640625
-      },
-      {
-        "start": 215.2,
-        "end": 225.2,
-        "text": "I opened in the breathing door Show me what my younger hands could only carry as a spark",
-        "avg_logprob": -0.2377653234409836,
-        "no_speech_prob": 0.54931640625
-      },
-      {
-        "start": 225.2,
-        "end": 230.2,
-        "text": "I will keep the light human I will keep the question moving",
-        "avg_logprob": -0.2377653234409836,
-        "no_speech_prob": 0.54931640625
-      },
-      {
-        "start": 231.2,
-        "end": 235.2,
-        "text": "When the garden dances in a shape I never fought",
-        "avg_logprob": -0.3896484375,
-        "no_speech_prob": 0.304931640625
-      },
-      {
-        "start": 235.2,
-        "end": 245.2,
-        "text": "Picture",
-        "avg_logprob": -0.3896484375,
-        "no_speech_prob": 0.304931640625
-      },
-      {
-        "start": 245.2,
-        "end": 249.2,
-        "text": "Picture",
-        "avg_logprob": -0.3896484375,
-        "no_speech_prob": 0.304931640625
-      },
-      {
-        "start": 249.2,
-        "end": 259.2,
-        "text": "I make a clearing and I remember",
-        "avg_logprob": -0.5039062321186065,
-        "no_speech_prob": 0.490966796875
-      }
-    ],
-    "avg_logprob": -0.39579921374380617
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 260,
-    "transcript_word_count": 254,
-    "matched_sequence_words": 222,
-    "lyric_alignment_ratio": 0.854,
-    "transcript_precision_ratio": 0.874,
-    "unique_expected_word_coverage": 0.857,
-    "word_count_ratio": 0.977,
-    "repeated_12gram_ratio": 0.119,
-    "half_similarity": 0.425,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.857,
-    "quality_score_0_10": 8.57,
-    "flags": [],
-    "transcript_excerpt": "You're could open into motion Pettles lifting frame by frame Not a flower, not a window, something tender without a name Like I did in the upper chamber Folded faces through the steam Old rooms wandered into orbit Landscapes grew out of a dream I stood there with my hands on steady Not replaced and not alone Watching color learn a language From the longing I had shown I held the lamp It changed the bloom Under came a stranger edges beauty Moved beyond my reach I opened in the breathing door Show me what my younger hands could only carry as a spark I will keep the light human I will keep the qu\n...[truncated]...\nr little sealed up wishes Stepping out through silver haze I could feel the speed of making Right in what I used to know Still I steep aside the blossom Careful with his overflow, not a guide, not a ghost The tool is not the altar Attention is the bloom is not the maker If the chamber dreams an impossible catalyst I still choose where the lamp is held I opened in the breathing door Show me what my younger hands could only carry as a spark I will keep the light human I will keep the question moving When the garden dances in a shape I never fought Picture Picture I make a clearing and I remember"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 7.5,
-      "BP_beauty_spatial_poise": 9.0,
-      "EG_evolving_grammar": 8.5,
-      "CD_carry_depth": 8.5
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.13,
+      "BP_beauty_spatial_poise": 9.07,
+      "EG_evolving_grammar": 8.1,
+      "CD_carry_depth": 8.37
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.72,
+      "CDPD": 0.84,
+      "NGE": 0.74,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
@@ -2270,49 +2079,54 @@
       "label": "Inhabited Form",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 7.8,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track has 9 distinct audio sections with clear functional roles (intro, verse, chorus, bridge, outro), and returns feel like revisiting emotional rooms. Section-balance score 0.28 suggests a well-structured layout."
+        "delta": 0.0,
+        "reason": "No significant deviation from base score."
       },
       "MI_motivic_integration": {
-        "delta": 0.37,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections. The transformed returns score of 10.0 and rule changes of 7.812 suggest strong motivic integration."
+        "delta": 0.0,
+        "reason": "No significant deviation from base score."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.07,
-        "reason": "The track’s sonic habitat is central to its identity, with room tone and guitar space forming a memorable habitat. The production notes and transcription quality support this."
+        "delta": 0.0,
+        "reason": "No significant deviation from base score."
       },
       "EG_evolving_grammar": {
-        "delta": 0.4,
-        "reason": "The grammar develops a personal indie system over time, with meaningful instrument role swaps and emotional arc. The cumulative evolution score of 1.254 and transformed returns score of 10.0 support this."
+        "delta": 0.0,
+        "reason": "No significant deviation from base score."
       },
       "CD_carry_depth": {
-        "delta": 0.13,
-        "reason": "The track defines a recognizable emotional habitat and invites re-listening. The lyrics and production notes suggest a small world that feels inhabited."
+        "delta": 0.0,
+        "reason": "No significant deviation from base score."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:57.96 with section-balance score 0.28.",
-      "Tempo estimate is 99.4 BPM; declared tempo alignment contributes 0.75.",
-      "Integrated loudness is -17.9 LUFS, peak is -2.2 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G#/Ab minor with confidence 0.40.",
-      "Audio recurrence ratio is 0.341; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 631 beats and 127 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 2.86, cumulative evolution 1.25, transformed returns 10.00, grid deviation 1.66, rule changes 7.81.",
-      "Companion text has 8 lyric/production sections, 294 words, line repetition 0.14, rhyme-suffix reuse 0.29."
+      "The track follows a clear structural progression (Intro-Verse-Pre-Hook-Hook-Verse-Bridge-Final Hook-Outro) with distinct transitions and an intentional outro.",
+      "The lyrical content is highly evocative and poetic, maintaining a consistent mood throughout.",
+      "The production features layered textures and atmospheric elements that support the musical narrative."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to beat-grid instability (0.00).",
-      "Audio recurrence ratio (0.341) is a rough proxy for repeated musical cells, not true motif recognition."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:39:49.9658102Z",
-    "eval_count": 879,
-    "eval_duration": 14700286200
+    "created_at": "2026-06-10T10:40:09.4384144Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9534798,
+      "base64_chars": 12713064,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13523,
+    "prompt_eval_duration": 5725100000,
+    "eval_count": 391,
+    "eval_duration": 10028966000
   }
 }

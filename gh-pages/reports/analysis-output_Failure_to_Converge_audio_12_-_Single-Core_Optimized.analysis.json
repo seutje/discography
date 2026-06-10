@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:18:45",
+  "generated_at": "2026-06-10T12:21:42",
   "audio": {
     "path": "Failure to Converge/audio/12 - Single-Core Optimized.mp3",
     "duration_seconds": 272.92,
@@ -1578,7 +1578,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1622,235 +1625,76 @@
       "beat_this detected 446 beats and 107 downbeats; beat-grid stability is 0.41.",
       "EG evidence: section contrast 2.61, cumulative evolution 0.95, transformed returns 10.00, grid deviation 0.93, rule changes 5.71.",
       "Companion text has 9 lyric/production sections, 528 words, line repetition 0.16, rhyme-suffix reuse 0.36.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 9.20.",
-      "Transcription check: lyric alignment 0.82, unique-word coverage 0.81, word-count ratio 0.98, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 9.20."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Good sequence, no audience required, a quiet system, learning its own rhythm, no access, no noise, just enough to peek in, I trim the edges off the day, cut the background Gift away, close the tabs I didn't need, left one window just for me, no racing breaths in my head, no cure of things left unsaid, every cycle finds its place, nothing lost, nothing to chase, I used to think, moment alive, now I lit the silence compiled, single core optimized, I run better on my hand, I know overflow, now divide, just a steady state of mind, single core optimized, no one else I need to align in this small perfect design, everything is mine, used to mirror every sound, shape myself to fit the crowd late and see in every move, waiting just to be approved, now this signal's clean and clear, no distortion when I'm here, every thought arrives on cue, process slow enough to feel true, I don't lie, I don't compete, I just loop, one feels complete, single core optimized, I run better on my hand, I know overflow, now divide, just a steady state of mind, single core optimized, no one else I need to align in this small perfect design, everything is mine, there's a kind of quiet pleasure, and the systems self-contained, a gentle feedback, no one else can replicate, hands aren't patterns, no one taught them how to trace a private current, in a non-shared space, no witness, no demand, just the circuit in my hand, and it's not only, when nothing is missing, it's not empty, when everything fits, single core optimized, I run deeper when simplified, no excess left behind, just a common broken mind, single core optimized, a permission no outside, in this loop I define, what it means to feel alive The clock slows down, but I'm still here, no shut down, no interference, just a quiet little engine, running clear, all I needed",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 29.92,
-        "text": "Good sequence, no audience required, a quiet system, learning its own rhythm, no",
-        "avg_logprob": -0.627604155313401,
-        "no_speech_prob": 0.51953125
-      },
-      {
-        "start": 29.92,
-        "end": 51.04,
-        "text": "access, no noise, just enough to peek in, I trim the edges off the day, cut the background",
-        "avg_logprob": -0.5567908860169924,
-        "no_speech_prob": 0.455322265625
-      },
-      {
-        "start": 51.04,
-        "end": 57.92,
-        "text": "Gift away, close the tabs I didn't need, left one window just for me, no racing",
-        "avg_logprob": -0.37745535160814014,
-        "no_speech_prob": 0.87646484375
-      },
-      {
-        "start": 57.92,
-        "end": 65.36,
-        "text": "breaths in my head, no cure of things left unsaid, every cycle finds its place, nothing",
-        "avg_logprob": -0.37745535160814014,
-        "no_speech_prob": 0.87646484375
-      },
-      {
-        "start": 65.36,
-        "end": 78.0,
-        "text": "lost, nothing to chase, I used to think, moment alive, now I lit the silence compiled,",
-        "avg_logprob": -0.37745535160814014,
-        "no_speech_prob": 0.87646484375
-      },
-      {
-        "start": 78.0,
-        "end": 86.56,
-        "text": "single core optimized, I run better on my hand, I know overflow, now divide, just a steady",
-        "avg_logprob": -0.3046875074505806,
-        "no_speech_prob": 0.326416015625
-      },
-      {
-        "start": 86.56,
-        "end": 95.12,
-        "text": "state of mind, single core optimized, no one else I need to align in this small perfect design,",
-        "avg_logprob": -0.3046875074505806,
-        "no_speech_prob": 0.326416015625
-      },
-      {
-        "start": 95.12,
-        "end": 113.04,
-        "text": "everything is mine, used to mirror every sound, shape myself to fit the crowd late and see",
-        "avg_logprob": -0.3164930688010322,
-        "no_speech_prob": 0.1690673828125
-      },
-      {
-        "start": 113.04,
-        "end": 120.8,
-        "text": "in every move, waiting just to be approved, now this signal's clean and clear, no distortion",
-        "avg_logprob": -0.3164930688010322,
-        "no_speech_prob": 0.1690673828125
-      },
-      {
-        "start": 120.8,
-        "end": 134.88,
-        "text": "when I'm here, every thought arrives on cue, process slow enough to feel true, I don't lie, I don't compete, I just loop, one feels",
-        "avg_logprob": -0.235615074634552,
-        "no_speech_prob": 0.0838623046875
-      },
-      {
-        "start": 134.88,
-        "end": 146.56,
-        "text": "complete, single core optimized, I run better on my hand, I know overflow, now divide, just a steady",
-        "avg_logprob": -0.235615074634552,
-        "no_speech_prob": 0.0838623046875
-      },
-      {
-        "start": 146.64,
-        "end": 155.04,
-        "text": "state of mind, single core optimized, no one else I need to align in this small perfect design,",
-        "avg_logprob": -0.18783481887408665,
-        "no_speech_prob": 0.1546630859375
-      },
-      {
-        "start": 156.0,
-        "end": 162.24,
-        "text": "everything is mine, there's a kind of quiet pleasure, and the systems self-contained,",
-        "avg_logprob": -0.18783481887408665,
-        "no_speech_prob": 0.1546630859375
-      },
-      {
-        "start": 163.28,
-        "end": 171.6,
-        "text": "a gentle feedback, no one else can replicate, hands aren't patterns, no one taught them how to",
-        "avg_logprob": -0.18783481887408665,
-        "no_speech_prob": 0.1546630859375
-      },
-      {
-        "start": 171.6,
-        "end": 187.44,
-        "text": "trace a private current, in a non-shared space, no witness, no demand, just the circuit in my hand,",
-        "avg_logprob": -0.2585358707993119,
-        "no_speech_prob": 0.1400146484375
-      },
-      {
-        "start": 188.4,
-        "end": 198.88,
-        "text": "and it's not only, when nothing is missing, it's not empty, when everything fits, single core",
-        "avg_logprob": -0.2585358707993119,
-        "no_speech_prob": 0.1400146484375
-      },
-      {
-        "start": 198.96,
-        "end": 208.96,
-        "text": "optimized, I run deeper when simplified, no excess left behind, just a common broken mind, single core",
-        "avg_logprob": -0.3177649463000505,
-        "no_speech_prob": 0.2479248046875
-      },
-      {
-        "start": 208.96,
-        "end": 217.68,
-        "text": "optimized, a permission no outside, in this loop I define, what it means to feel alive",
-        "avg_logprob": -0.3177649463000505,
-        "no_speech_prob": 0.2479248046875
-      },
-      {
-        "start": 217.68,
-        "end": 245.12,
-        "text": "The clock slows down, but I'm still here, no shut down, no interference, just a quiet little engine, running clear, all I needed",
-        "avg_logprob": -0.38556984680540424,
-        "no_speech_prob": 0.2890625
-      }
-    ],
-    "avg_logprob": -0.36269719226374364
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 338,
-    "transcript_word_count": 330,
-    "matched_sequence_words": 278,
-    "lyric_alignment_ratio": 0.822,
-    "transcript_precision_ratio": 0.842,
-    "unique_expected_word_coverage": 0.806,
-    "word_count_ratio": 0.976,
-    "repeated_12gram_ratio": 0.085,
-    "half_similarity": 0.291,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.821,
-    "quality_score_0_10": 8.21,
-    "flags": [],
-    "transcript_excerpt": "Good sequence, no audience required, a quiet system, learning its own rhythm, no access, no noise, just enough to peek in, I trim the edges off the day, cut the background Gift away, close the tabs I didn't need, left one window just for me, no racing breaths in my head, no cure of things left unsaid, every cycle finds its place, nothing lost, nothing to chase, I used to think, moment alive, now I lit the silence compiled, single core optimized, I run better on my hand, I know overflow, now divide, just a steady state of mind, single core optimized, no one else I need to align in this small pe\n...[truncated]...\ne feedback, no one else can replicate, hands aren't patterns, no one taught them how to trace a private current, in a non-shared space, no witness, no demand, just the circuit in my hand, and it's not only, when nothing is missing, it's not empty, when everything fits, single core optimized, I run deeper when simplified, no excess left behind, just a common broken mind, single core optimized, a permission no outside, in this loop I define, what it means to feel alive The clock slows down, but I'm still here, no shut down, no interference, just a quiet little engine, running clear, all I needed"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.2,
-      "BP_beauty_spatial_poise": 8.9,
-      "EG_evolving_grammar": 8.6,
-      "CD_carry_depth": 9.4
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.79,
+      "BP_beauty_spatial_poise": 8.71,
+      "EG_evolving_grammar": 8.81,
+      "CD_carry_depth": 9.31
     },
     "core_metrics": {
-      "CDPD": 0.88,
-      "NGE": 0.74,
+      "CDPD": 0.887,
+      "NGE": 0.75,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High score maintained; structure is deliberate and sophisticated."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting emotional rooms. Section contrast and cumulative evolution scores support this."
+        "delta": 0.0,
+        "reason": "Base score reflects high structural integrity across all sections."
       },
       "MI_motivic_integration": {
-        "delta": 0.41,
-        "reason": "Motivic integration is strong, with recurring vocal hooks, guitar figures, and lyric images that evolve across sections. The transformed returns and rule changes suggest a cohesive motivic system."
+        "delta": 0.0,
+        "reason": "Motivic elements are well-integrated into the minimalist framework."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.19,
-        "reason": "The production design creates a memorable sonic habitat with intentional room tone, guitar space, and reverb. These elements contribute to a coherent and beautiful spatial poise."
+        "delta": 0.0,
+        "reason": "Production and spatial arrangement align with aesthetic goals."
       },
       "EG_evolving_grammar": {
-        "delta": -0.21,
-        "reason": "While the track develops a personal indie grammar over time, it does not fully invent a new method. The evolving grammar is strong but not groundbreaking."
+        "delta": 0.0,
+        "reason": "Lyric progression is consistent with the 'minimal' theme."
       },
       "CD_carry_depth": {
-        "delta": 0.09,
-        "reason": "The track feels like a small world with a clear emotional arc and memorable sonic details. It invites re-listening and leaves a distinct impression."
+        "delta": 0.0,
+        "reason": "Thematic depth is sustained throughout the track."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:32.92 with section-balance score 0.55.",
-      "Tempo estimate is 95.7 BPM; declared tempo alignment contributes 0.98.",
-      "Integrated loudness is -17.0 LUFS, peak is -0.8 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is C major with confidence 0.57.",
-      "Audio recurrence ratio is 0.368; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 446 beats and 107 downbeats; beat-grid stability is 0.41.",
-      "EG evidence: section contrast 2.61, cumulative evolution 0.95, transformed returns 10.00, grid deviation 0.93, rule changes 5.71.",
-      "Companion text has 9 lyric/production sections, 528 words, line repetition 0.16, rhyme-suffix reuse 0.36."
+      "Structure follows a clear, intentional arc (Intro-Verse-Hook-Bridge-Turn-Final Hook-Outro).",
+      "Motivic elements are integrated into the production and vocal delivery.",
+      "Production quality aligns with 'minimal' and 'sophisticated' descriptors.",
+      "Lyrics maintain a consistent internal logic regarding technology/simplicity."
     ],
     "review_flags": [
-      "Uncertainty about section detection: audio sections are detected, but the framework excerpt does not reference section detection directly."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:18:45.0074018Z",
-    "eval_count": 823,
-    "eval_duration": 14730804500
+    "created_at": "2026-06-10T10:21:42.9455868Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8733674,
+      "base64_chars": 11644900,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12603,
+    "prompt_eval_duration": 5550576000,
+    "eval_count": 346,
+    "eval_duration": 8628000000
   }
 }

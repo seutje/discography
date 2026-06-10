@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:05:56",
+  "generated_at": "2026-06-10T12:05:56",
   "audio": {
     "path": "Driftwood/audio/02 - Waxing Bruise.mp3",
     "duration_seconds": 270.8,
@@ -1394,7 +1394,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1438,256 +1441,76 @@
       "beat_this detected 379 beats and 98 downbeats; beat-grid stability is 0.94.",
       "EG evidence: section contrast 1.87, cumulative evolution 0.83, transformed returns 10.00, grid deviation 0.53, rule changes 1.79.",
       "Companion text has 11 lyric/production sections, 599 words, line repetition 0.12, rhyme-suffix reuse 0.45.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, formal-pivot, space-change, texture-change); intent score 8.40.",
-      "Transcription check: lyric alignment 0.91, unique-word coverage 0.93, word-count ratio 1.01, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, formal-pivot, space-change, texture-change); intent score 8.40."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Hold the shore, count the days, tie the dark to another name, salt in the cup, rope in the hand, nothing answers from the sand. I woke with the ankle, let me go, face down where the small reeds grow, no chain to bless, no chain to blame. Just my own mouth, say in my name, the island kept in their own room, of crooked palms and afternoon, the ring of shells, a weathered pale, a prayer scratch thin with a broken nail. I made a fire from a fallen bark, fetted pieces of the dark, watched the smoke stand up and bend like it, remembered having friends out past the reef, a lantern moved, but quiet proof I was not removed. I raised both arms, I split my throat, the light kept walking with the boat, they passed, they passed, they never turned. Their windows catch the signal burn, I drink the tide and spit it back, still taste the anchor in the lack, no voice, no hand, no short line, no name, return from the maritime, only gold marks, ash and skin in the moon at a bruise where the morning got in. By the third week I spoke to stones at the near me, called them home, one for hunger, one for sleep, one for promises I could not keep some nights, a ship would cross the rim, moving town, all lit within, I learned the shape of almost saved, how close can come and still behave, I waved a shirt until it tore, beat a pen against the shore, the holes lit on through silver rain, too far to hear, too near for saying it doesn't shout. The empty place it learns, the outline of your face, to what you miss and what you are, share one shadow under one star, they passed, they passed, they never turned. Their windows catch the signal burn, I drink the tide and spit it back, still taste the anchor in the lack, no voice, no hand, no short line, no name, return from the maritime, only gold marks, ash and skin in the moon at a bruise where the morning got in. I saved the last dry plank for proof, kept it hidden under the roof, told myself not yet, not now, somebody has to learn this sound, but I'll get small and left on the fed, a splintered thing beside the bed, I took the rope, the pale, the door, the shirt that couldn't wave anymore, so I built it badly, bored by bored, from every promise I could afford, a ragged raft, a crooked prayer, the last bit of hope left anywhere, I pushed it out through the biting foam, no sound, no map, no word for home, if the sea had kept my weight before, let it carry what the island wore, they passed, they passed, but I won't stay, to count their lights across the bay, I drink the tide and give it name, not your not anchor, not the same, no voice, no hand, no short line, no blessed turn, no clean design, only a burn breath and skin, no moon at a bruise where the morning got in. And hold the shore Let it go Something pulling from below No one saw and no one came Still I moved against the frame Salt in the mouth Wood in the hand The island's shrinking into a sand I left the fire to learn the rain And took the first out past its chain",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 24.0,
-        "text": "Hold the shore, count the days, tie the dark to another name, salt in the cup, rope in the hand, nothing answers from the sand.",
-        "avg_logprob": -0.32589286395481654,
-        "no_speech_prob": 0.626953125
-      },
-      {
-        "start": 25.0,
-        "end": 33.0,
-        "text": "I woke with the ankle, let me go, face down where the small reeds grow, no chain to bless, no chain to blame.",
-        "avg_logprob": -0.2917968720197678,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 33.0,
-        "end": 41.0,
-        "text": "Just my own mouth, say in my name, the island kept in their own room, of crooked palms and afternoon,",
-        "avg_logprob": -0.2917968720197678,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 41.0,
-        "end": 47.0,
-        "text": "the ring of shells, a weathered pale, a prayer scratch thin with a broken nail.",
-        "avg_logprob": -0.2917968720197678,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 48.0,
-        "end": 57.0,
-        "text": "I made a fire from a fallen bark, fetted pieces of the dark, watched the smoke stand up and bend like it,",
-        "avg_logprob": -0.17349466517931078,
-        "no_speech_prob": 0.525390625
-      },
-      {
-        "start": 57.0,
-        "end": 65.0,
-        "text": "remembered having friends out past the reef, a lantern moved, but quiet proof I was not removed.",
-        "avg_logprob": -0.17349466517931078,
-        "no_speech_prob": 0.525390625
-      },
-      {
-        "start": 65.0,
-        "end": 73.0,
-        "text": "I raised both arms, I split my throat, the light kept walking with the boat, they passed, they passed, they never turned.",
-        "avg_logprob": -0.17349466517931078,
-        "no_speech_prob": 0.525390625
-      },
-      {
-        "start": 73.0,
-        "end": 87.0,
-        "text": "Their windows catch the signal burn, I drink the tide and spit it back, still taste the anchor in the lack, no voice, no hand, no short line, no name, return from the maritime,",
-        "avg_logprob": -0.27228860513252373,
-        "no_speech_prob": 0.221923828125
-      },
-      {
-        "start": 87.0,
-        "end": 99.0,
-        "text": "only gold marks, ash and skin in the moon at a bruise where the morning got in.",
-        "avg_logprob": -0.27228860513252373,
-        "no_speech_prob": 0.221923828125
-      },
-      {
-        "start": 100.0,
-        "end": 108.0,
-        "text": "By the third week I spoke to stones at the near me, called them home, one for hunger, one for sleep,",
-        "avg_logprob": -0.195312495820406,
-        "no_speech_prob": 0.408447265625
-      },
-      {
-        "start": 108.0,
-        "end": 116.0,
-        "text": "one for promises I could not keep some nights, a ship would cross the rim, moving town, all lit within,",
-        "avg_logprob": -0.195312495820406,
-        "no_speech_prob": 0.408447265625
-      },
-      {
-        "start": 116.0,
-        "end": 125.0,
-        "text": "I learned the shape of almost saved, how close can come and still behave, I waved a shirt until it tore,",
-        "avg_logprob": -0.195312495820406,
-        "no_speech_prob": 0.408447265625
-      },
-      {
-        "start": 125.0,
-        "end": 135.0,
-        "text": "beat a pen against the shore, the holes lit on through silver rain, too far to hear, too near for saying it doesn't shout.",
-        "avg_logprob": -0.17776113176999025,
-        "no_speech_prob": 0.2105712890625
-      },
-      {
-        "start": 135.0,
-        "end": 148.0,
-        "text": "The empty place it learns, the outline of your face, to what you miss and what you are, share one shadow under one star, they passed, they passed, they never turned.",
-        "avg_logprob": -0.17776113176999025,
-        "no_speech_prob": 0.2105712890625
-      },
-      {
-        "start": 148.0,
-        "end": 171.0,
-        "text": "Their windows catch the signal burn, I drink the tide and spit it back, still taste the anchor in the lack, no voice, no hand, no short line, no name, return from the maritime, only gold marks, ash and skin in the moon at a bruise where the morning got in.",
-        "avg_logprob": -0.055279357810363625,
-        "no_speech_prob": 0.339599609375
-      },
-      {
-        "start": 171.0,
-        "end": 193.0,
-        "text": "I saved the last dry plank for proof, kept it hidden under the roof, told myself not yet, not now, somebody has to learn this sound, but I'll get small and left on the fed, a splintered thing beside the bed, I took the rope, the pale, the door, the shirt that couldn't wave anymore,",
-        "avg_logprob": -0.20608107403323456,
-        "no_speech_prob": 0.708984375
-      },
-      {
-        "start": 193.0,
-        "end": 222.0,
-        "text": "so I built it badly, bored by bored, from every promise I could afford, a ragged raft, a crooked prayer, the last bit of hope left anywhere, I pushed it out through the biting foam, no sound, no map, no word for home, if the sea had kept my weight before, let it carry what the island wore, they passed, they passed, but I won't stay, to count their lights across the bay,",
-        "avg_logprob": -0.1587993402230112,
-        "no_speech_prob": 0.84130859375
-      },
-      {
-        "start": 222.0,
-        "end": 242.0,
-        "text": "I drink the tide and give it name, not your not anchor, not the same, no voice, no hand, no short line, no blessed turn, no clean design, only a burn breath and skin, no moon at a bruise where the morning got in.",
-        "avg_logprob": -0.21709040817567857,
-        "no_speech_prob": 0.22216796875
-      },
-      {
-        "start": 242.0,
-        "end": 247.76,
-        "text": "And hold the shore Let it go Something pulling from below",
-        "avg_logprob": -0.35815430944785476,
-        "no_speech_prob": 0.60546875
-      },
-      {
-        "start": 247.76,
-        "end": 253.2,
-        "text": "No one saw and no one came Still I moved against the frame",
-        "avg_logprob": -0.35815430944785476,
-        "no_speech_prob": 0.60546875
-      },
-      {
-        "start": 253.2,
-        "end": 258.96,
-        "text": "Salt in the mouth Wood in the hand The island's shrinking into a sand",
-        "avg_logprob": -0.35815430944785476,
-        "no_speech_prob": 0.60546875
-      },
-      {
-        "start": 258.96,
-        "end": 264.8,
-        "text": "I left the fire to learn the rain And took the first out past its chain",
-        "avg_logprob": -0.35815430944785476,
-        "no_speech_prob": 0.60546875
-      }
-    ],
-    "avg_logprob": -0.21981384588334724
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 582,
-    "transcript_word_count": 589,
-    "matched_sequence_words": 532,
-    "lyric_alignment_ratio": 0.914,
-    "transcript_precision_ratio": 0.903,
-    "unique_expected_word_coverage": 0.926,
-    "word_count_ratio": 1.012,
-    "repeated_12gram_ratio": 0.081,
-    "half_similarity": 0.265,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.915,
-    "quality_score_0_10": 9.15,
-    "flags": [],
-    "transcript_excerpt": "Hold the shore, count the days, tie the dark to another name, salt in the cup, rope in the hand, nothing answers from the sand. I woke with the ankle, let me go, face down where the small reeds grow, no chain to bless, no chain to blame. Just my own mouth, say in my name, the island kept in their own room, of crooked palms and afternoon, the ring of shells, a weathered pale, a prayer scratch thin with a broken nail. I made a fire from a fallen bark, fetted pieces of the dark, watched the smoke stand up and bend like it, remembered having friends out past the reef, a lantern moved, but quiet pr\n...[truncated]...\nght before, let it carry what the island wore, they passed, they passed, but I won't stay, to count their lights across the bay, I drink the tide and give it name, not your not anchor, not the same, no voice, no hand, no short line, no blessed turn, no clean design, only a burn breath and skin, no moon at a bruise where the morning got in. And hold the shore Let it go Something pulling from below No one saw and no one came Still I moved against the frame Salt in the mouth Wood in the hand The island's shrinking into a sand I left the fire to learn the rain And took the first out past its chain"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.5,
-      "BP_beauty_spatial_poise": 8.8,
-      "EG_evolving_grammar": 7.8,
-      "CD_carry_depth": 9.6
+      "MI_motivic_integration": 8.23,
+      "BP_beauty_spatial_poise": 8.75,
+      "EG_evolving_grammar": 8.4,
+      "CD_carry_depth": 9.43
     },
     "core_metrics": {
       "CDPD": 0.91,
-      "NGE": 0.67,
-      "HMII_peak_estimate": 5
+      "NGE": 0.66,
+      "HMII_peak_estimate": 7
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural integrity with clear thematic progression."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting the same emotional room."
+        "reason": "Stronger evidence of intentional structure in the 'Bridge' and 'Outro' sections."
       },
       "MI_motivic_integration": {
-        "delta": 0.27,
-        "reason": "Motifs recur in altered forms across sections, with the vocal hook, guitar figure, and lyric image showing integration across the track."
+        "delta": 0.0,
+        "reason": "Base score accurately reflects the cohesive motif integration."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.05,
-        "reason": "The sonic habitat, including room tone and guitar space, forms a memorable and coherent spatial identity."
+        "delta": 0.0,
+        "reason": "Score remains stable as it aligns with production notes of 'space' and 'texture'."
       },
       "EG_evolving_grammar": {
-        "delta": 0.03,
-        "reason": "The track develops a personal indie grammar over time, with meaningful instrument role shifts and emotional arc."
+        "delta": 0.63,
+        "reason": "Significant lyrical variety and non-repetitive imagery in the final sections."
       },
       "CD_carry_depth": {
-        "delta": 0.17,
-        "reason": "The track defines a recognizable emotional habitat and feels like a small world, inviting re-listening beyond mood-playlist utility."
+        "delta": 0.0,
+        "reason": "Base score already reflects high depth of thematic consistency."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:30.80 with section-balance score 0.16.",
-      "Tempo estimate is 112.3 BPM; declared tempo alignment contributes 0.94.",
-      "Integrated loudness is -17.6 LUFS, peak is -2.3 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D minor with confidence 0.43.",
-      "Audio recurrence ratio is 0.394; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 379 beats and 98 downbeats; beat-grid stability is 0.94.",
-      "EG evidence: section contrast 1.87, cumulative evolution 0.83, transformed returns 10.00, grid deviation 0.53, rule changes 1.79.",
-      "Companion text has 11 lyric/production sections, 599 words, line repetition 0.12, rhyme-suffix reuse 0.45."
+      "The track exhibits a highly deliberate structure with distinct transitions between verse and chorus.",
+      "Lyrical imagery is dense and evocative, avoiding common tropes in favor of specific, tactile descriptions (e.g., 'salt-worn', 'bruise where the morning got in').",
+      "Production notes confirm intentional use of space and texture as structural elements.",
+      "The transition from a desolate coastal setting to an internal psychological state is well-executed."
     ],
     "review_flags": [
-      "Uncertainty remains about the exact nature of the harmonic recurrence, as audio-only evidence is limited to a rough proxy for repeated musical cells."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:05:56.152176Z",
-    "eval_count": 792,
-    "eval_duration": 13300070500
+    "created_at": "2026-06-10T10:05:56.6538944Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8665678,
+      "base64_chars": 11554240,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12237,
+    "prompt_eval_duration": 5156966000,
+    "eval_count": 548,
+    "eval_duration": 13512832000
   }
 }

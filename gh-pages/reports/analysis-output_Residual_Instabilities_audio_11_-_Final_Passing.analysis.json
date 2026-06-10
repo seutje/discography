@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:47:48",
+  "generated_at": "2026-06-10T12:47:08",
   "audio": {
     "path": "Residual Instabilities/audio/11 - Final Passing.mp3",
     "duration_seconds": 282.2,
@@ -1928,7 +1928,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1972,298 +1975,75 @@
       "beat_this detected 588 beats and 147 downbeats; beat-grid stability is 0.13.",
       "EG evidence: section contrast 2.91, cumulative evolution 1.07, transformed returns 10.00, grid deviation 0.50, rule changes 4.69.",
       "Companion text has 10 lyric/production sections, 471 words, line repetition 0.12, rhyme-suffix reuse 0.30.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 6.20.",
-      "Transcription check: lyric alignment 0.81, unique-word coverage 0.86, word-count ratio 0.97, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 6.20."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "There it is again, the street I swore was gone, every time I named the dark you re-draw it, you were at without a sound just a shift in gravity, loose objects start to turn like they remember you, I traced the same old arc in every word you choose a language built on leaving and returning when it suits You said this time it's done like a ritual you keep, I buried what you were in the shallowest of sleep, the distance has a pattern and it bends towards your knee, you call it, coincidence, I call it orbiting me, you pass, you pull, you fade again, a cycle dressed as accident, I learned to sky by heart, still couldn't map the end, you're just a fine old passing out, a fire I won't follow down, you lit my nights then left me blind too many times, too many times, I held you like a guiding line, you cut away them, redefined body, then stars decay somehow, you're just a fine old passing out Every goodbye you gave, came number not complete, like you were testing exits, you never meant to keep, you only speak in echoes when your silence gets too loud, when no one else will listen, I'm the shadow you allow, I wore the weight of maybe like it meant something real, but hope it came a habit that I finally can unfield, you don't see the repetition from the center of your spin, but I've been counting in packs, every time you're real me in, you pass, you pull, you fade again, and I pretend it's different than but every sky you cross, leave as a me too man, you're just a fine old passing out, a fire I won't follow down, you lit my nights then left me blind too many times, too many times, I held you like a guiding line, you cut away them, redefined body, then stars decay somehow, you're just a fine old passing out I'm on you like a constant thing, though you were never that, just intervals of brightness breaking through the black eye, and ain't you something sacred, so I wouldn't say the cost, how many times can something, and before it's truly lost, you said, not anymore, three times, four, I kept the door, I'd get met more, no more watching empty skies for something that won't stay, no more calling it a sign when you drift my way, burn out somewhere else, this time don't circle back around, I won't be your atmosphere, I won't be your background, there it goes again, but I don't look up now",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 25.14,
-        "text": "There it is again, the street I swore was gone, every time I named the dark you",
-        "avg_logprob": -0.5725911681850752,
-        "no_speech_prob": 0.376220703125
-      },
-      {
-        "start": 25.14,
-        "end": 44.78,
-        "text": "re-draw it, you were at without a sound just a shift in gravity, loose objects start",
-        "avg_logprob": -0.44495737281712616,
-        "no_speech_prob": 0.51953125
-      },
-      {
-        "start": 44.78,
-        "end": 54.42,
-        "text": "to turn like they remember you, I traced the same old arc in every word you choose",
-        "avg_logprob": -0.44495737281712616,
-        "no_speech_prob": 0.51953125
-      },
-      {
-        "start": 54.42,
-        "end": 65.42,
-        "text": "a language built on leaving and returning when it suits",
-        "avg_logprob": -0.40131578110812005,
-        "no_speech_prob": 0.431640625
-      },
-      {
-        "start": 65.42,
-        "end": 71.34,
-        "text": "You said this time it's done like a ritual you keep, I buried what you were in the",
-        "avg_logprob": -0.40131578110812005,
-        "no_speech_prob": 0.431640625
-      },
-      {
-        "start": 71.34,
-        "end": 76.98,
-        "text": "shallowest of sleep, the distance has a pattern and it bends towards your knee, you call",
-        "avg_logprob": -0.40131578110812005,
-        "no_speech_prob": 0.431640625
-      },
-      {
-        "start": 76.98,
-        "end": 85.22,
-        "text": "it, coincidence, I call it orbiting me, you pass, you pull, you fade again, a cycle",
-        "avg_logprob": -0.3435359491060858,
-        "no_speech_prob": 0.51025390625
-      },
-      {
-        "start": 85.22,
-        "end": 94.96,
-        "text": "dressed as accident, I learned to sky by heart, still couldn't map the end, you're just",
-        "avg_logprob": -0.3435359491060858,
-        "no_speech_prob": 0.51025390625
-      },
-      {
-        "start": 94.96,
-        "end": 104.58,
-        "text": "a fine old passing out, a fire I won't follow down, you lit my nights then left me blind",
-        "avg_logprob": -0.3435359491060858,
-        "no_speech_prob": 0.51025390625
-      },
-      {
-        "start": 104.58,
-        "end": 115.22,
-        "text": "too many times, too many times, I held you like a guiding line, you cut away them, redefined",
-        "avg_logprob": -0.368252849036997,
-        "no_speech_prob": 0.275390625
-      },
-      {
-        "start": 115.22,
-        "end": 128.02,
-        "text": "body, then stars decay somehow, you're just a fine old passing out",
-        "avg_logprob": -0.368252849036997,
-        "no_speech_prob": 0.275390625
-      },
-      {
-        "start": 128.02,
-        "end": 133.78,
-        "text": "Every goodbye you gave, came number not complete, like you were testing exits, you never",
-        "avg_logprob": -0.28631365575172285,
-        "no_speech_prob": 0.84375
-      },
-      {
-        "start": 133.78,
-        "end": 139.38,
-        "text": "meant to keep, you only speak in echoes when your silence gets too loud, when no one",
-        "avg_logprob": -0.28631365575172285,
-        "no_speech_prob": 0.84375
-      },
-      {
-        "start": 139.38,
-        "end": 144.62,
-        "text": "else will listen, I'm the shadow you allow, I wore the weight of maybe like it meant",
-        "avg_logprob": -0.28631365575172285,
-        "no_speech_prob": 0.84375
-      },
-      {
-        "start": 144.62,
-        "end": 150.06,
-        "text": "something real, but hope it came a habit that I finally can unfield, you don't see the",
-        "avg_logprob": -0.28631365575172285,
-        "no_speech_prob": 0.84375
-      },
-      {
-        "start": 150.06,
-        "end": 155.3,
-        "text": "repetition from the center of your spin, but I've been counting in packs, every time",
-        "avg_logprob": -0.28631365575172285,
-        "no_speech_prob": 0.84375
-      },
-      {
-        "start": 155.3,
-        "end": 162.54,
-        "text": "you're real me in, you pass, you pull, you fade again, and I pretend it's different",
-        "avg_logprob": -0.22146738957667697,
-        "no_speech_prob": 0.1016845703125
-      },
-      {
-        "start": 162.54,
-        "end": 172.34,
-        "text": "than but every sky you cross, leave as a me too man, you're just a fine old passing",
-        "avg_logprob": -0.22146738957667697,
-        "no_speech_prob": 0.1016845703125
-      },
-      {
-        "start": 172.34,
-        "end": 180.18,
-        "text": "out, a fire I won't follow down, you lit my nights then left me blind",
-        "avg_logprob": -0.22146738957667697,
-        "no_speech_prob": 0.1016845703125
-      },
-      {
-        "start": 180.18,
-        "end": 190.82,
-        "text": "too many times, too many times, I held you like a guiding line, you cut away them, redefined",
-        "avg_logprob": -0.19016335193406453,
-        "no_speech_prob": 0.350341796875
-      },
-      {
-        "start": 190.82,
-        "end": 206.42,
-        "text": "body, then stars decay somehow, you're just a fine old passing out",
-        "avg_logprob": -0.19016335193406453,
-        "no_speech_prob": 0.350341796875
-      },
-      {
-        "start": 206.42,
-        "end": 211.86,
-        "text": "I'm on you like a constant thing, though you were never that, just intervals of brightness",
-        "avg_logprob": -0.337545955005814,
-        "no_speech_prob": 0.2763671875
-      },
-      {
-        "start": 211.86,
-        "end": 216.34,
-        "text": "breaking through the black eye, and ain't you something sacred, so I wouldn't say the",
-        "avg_logprob": -0.337545955005814,
-        "no_speech_prob": 0.2763671875
-      },
-      {
-        "start": 216.34,
-        "end": 229.14,
-        "text": "cost, how many times can something, and before it's truly lost, you said, not anymore, three",
-        "avg_logprob": -0.337545955005814,
-        "no_speech_prob": 0.2763671875
-      },
-      {
-        "start": 229.14,
-        "end": 243.5,
-        "text": "times, four, I kept the door, I'd get met more, no more watching empty skies for something",
-        "avg_logprob": -0.32991535899539787,
-        "no_speech_prob": 0.267333984375
-      },
-      {
-        "start": 243.5,
-        "end": 255.22,
-        "text": "that won't stay, no more calling it a sign when you drift my way, burn out somewhere",
-        "avg_logprob": -0.32991535899539787,
-        "no_speech_prob": 0.267333984375
-      },
-      {
-        "start": 255.22,
-        "end": 267.78,
-        "text": "else, this time don't circle back around, I won't be your atmosphere, I won't be your",
-        "avg_logprob": -0.3094951980389081,
-        "no_speech_prob": 0.734375
-      },
-      {
-        "start": 267.78,
-        "end": 282.1,
-        "text": "background, there it goes again, but I don't look up now",
-        "avg_logprob": -0.4108455882352941,
-        "no_speech_prob": 0.865234375
-      }
-    ],
-    "avg_logprob": -0.35074389773260317
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 456,
-    "transcript_word_count": 444,
-    "matched_sequence_words": 370,
-    "lyric_alignment_ratio": 0.811,
-    "transcript_precision_ratio": 0.833,
-    "unique_expected_word_coverage": 0.864,
-    "word_count_ratio": 0.974,
-    "repeated_12gram_ratio": 0.092,
-    "half_similarity": 0.356,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.824,
-    "quality_score_0_10": 8.24,
-    "flags": [],
-    "transcript_excerpt": "There it is again, the street I swore was gone, every time I named the dark you re-draw it, you were at without a sound just a shift in gravity, loose objects start to turn like they remember you, I traced the same old arc in every word you choose a language built on leaving and returning when it suits You said this time it's done like a ritual you keep, I buried what you were in the shallowest of sleep, the distance has a pattern and it bends towards your knee, you call it, coincidence, I call it orbiting me, you pass, you pull, you fade again, a cycle dressed as accident, I learned to sky by\n...[truncated]...\npassing out I'm on you like a constant thing, though you were never that, just intervals of brightness breaking through the black eye, and ain't you something sacred, so I wouldn't say the cost, how many times can something, and before it's truly lost, you said, not anymore, three times, four, I kept the door, I'd get met more, no more watching empty skies for something that won't stay, no more calling it a sign when you drift my way, burn out somewhere else, this time don't circle back around, I won't be your atmosphere, I won't be your background, there it goes again, but I don't look up now"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.13,
-      "MI_motivic_integration": 7.37,
-      "BP_beauty_spatial_poise": 7.9,
+      "SC_structural_coherence": 9.5,
+      "MI_motivic_integration": 8.2,
+      "BP_beauty_spatial_poise": 8.5,
       "EG_evolving_grammar": 8.04,
-      "CD_carry_depth": 8.75
+      "CD_carry_depth": 9.0
     },
     "core_metrics": {
-      "CDPD": 0.826,
-      "NGE": 0.709,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.12,
+      "NGE": 0.65,
+      "HMII_peak_estimate": 7
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in lyrical imagery and production layering."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": 0.0,
-        "reason": "The track maintains strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting emotional rooms."
+        "delta": 0.37,
+        "reason": "Strong structural payoff with distinct bridge/break sections."
       },
       "MI_motivic_integration": {
-        "delta": 0.0,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong motivic integration."
+        "delta": 0.83,
+        "reason": "Motif-like repetition of 'You're just a finding...' provides strong thematic cohesion."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.0,
-        "reason": "The track’s spatial poise is central to its identity, with room tone and guitar space forming a memorable habitat."
+        "delta": 0.6,
+        "reason": "Atmospheric production and spatial depth are highly effective."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The grammar develops a personal indie system over time, showing noticeable evolution in arrangement and production."
+        "reason": "Base score remains stable as grammar is consistent with genre."
       },
       "CD_carry_depth": {
-        "delta": 0.0,
-        "reason": "The track feels like a small world, with a strong emotional arc and lasting imprint."
+        "delta": 0.25,
+        "reason": "Lyric imagery regarding 'gravity' and 'orbit' adds depth."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:42.20 with section-balance score 0.09.",
-      "Tempo estimate is 136.0 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -16.4 LUFS, peak is -1.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F#/Gb minor with confidence 0.54.",
-      "Audio recurrence ratio is 0.397; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 588 beats and 147 downbeats; beat-grid stability is 0.13.",
-      "EG evidence: section contrast 2.91, cumulative evolution 1.07, transformed returns 10.00, grid deviation 0.50, rule changes 4.69.",
-      "Companion text has 10 lyric/production sections, 471 words, line repetition 0.12, rhyme-suffix reuse 0.30."
+      "Strong structural coherence through clear section transitions.",
+      "Motivic integration is high due to the recurring lyrical motif.",
+      "Atmospheric production creates a cohesive sonic space."
     ],
     "review_flags": [
-      "Uncertainty about section detection; audio-only evidence is weak for some transformations."
+      ""
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:47:48.4102779Z",
-    "eval_count": 779,
-    "eval_duration": 12990167800
+    "created_at": "2026-06-10T10:47:08.7469093Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9030626,
+      "base64_chars": 12040836,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13047,
+    "prompt_eval_duration": 5758196000,
+    "eval_count": 371,
+    "eval_duration": 9143701000
   }
 }

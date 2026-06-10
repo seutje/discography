@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:10:39",
+  "generated_at": "2026-06-10T12:10:28",
   "audio": {
     "path": "Driftwood/audio/10 - Driftwood Choir.mp3",
     "duration_seconds": 256.92,
@@ -1419,7 +1419,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1463,347 +1466,76 @@
       "beat_this detected 385 beats and 96 downbeats; beat-grid stability is 0.88.",
       "EG evidence: section contrast 2.29, cumulative evolution 1.10, transformed returns 10.00, grid deviation 0.43, rule changes 3.21.",
       "Companion text has 11 lyric/production sections, 478 words, line repetition 0.23, rhyme-suffix reuse 0.45.",
-      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 4.40.",
-      "Transcription check: lyric alignment 0.83, unique-word coverage 0.88, word-count ratio 1.01, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 4.40."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Wood on wood, pond upon, Pieces gathered from the strand Salt and green weathered through Something broken, learning to We carried every plank ashore The raft pailed the stubborn door, the shirt that would not wave enough The rope that taught my palms to rough We laid them out beside the cave Not as proof, not property, just things that crossed and did not sink Layed where other hands could think The child tapped rhythm on the boards The fishers found a minor chord Somebody brought a crack canteen and rinsed a sand from what had been Nothing holy, nothing grand Only wreckage breath in hands, but even what the sea has chewed Can hold a room when it is used Sing, drift would quiet, not for rescue, not for glory Sing the cross that I carry through Every plank that made it too Sing, salt-worn core is slow and rough, but less divided, not made holy, not made new, just less alone And what is true I kept the anger in the song, not on my ankle, not for long It's a rough step, fed the oldest part That thought a weight could be a heart I kept the moon with its old bruise, not his own and not his news Just as a mark above the bay, we're mourning into it anyway I kept the map with ruined beak, pinned above the kitchen sink So anyone who loses, no I can see a roof, is not the worth It doesn't end in being healed, no final bell Across the field, but there are meals and there are names Spoken gently after weather Sing, drift would quiet, not for rescue, not for glory Sing the cross that I carry through Every plank that made it too Sing, salt-worn core is slow and rough, but less divided, not made holy, not made new, just less alone And what is true I used to drink the sea for ache, call its thirst, the small mistake Now I leave a cup outside, for the next one, not the time, no clean harry, no perfect chart No weather kind enough to start, but hands can gather what remains and make a shelter Out of grain, bored by bored, breath by breath, room for what? Survive the death Sing, drift would quiet, not for rescue, not for glory Sing the cross that I carry through Every plank that made it too Sing, salt-worn core is slow and rough, but less divided, not made holy, not made new, just less alone And what is true I would onward pump to pump Peace is drying on the strand, if the sea calls back someday I will know the leaving way, soft and green, willer through Something broken, learned to tune",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 21.88,
-        "text": "Wood on wood, pond upon, Pieces gathered from the strand Salt and green weathered through",
-        "avg_logprob": -0.7187499844509623,
-        "no_speech_prob": 0.345947265625
-      },
-      {
-        "start": 21.88,
-        "end": 33.48,
-        "text": "Something broken, learning to We carried every plank ashore",
-        "avg_logprob": -0.43229167208527075,
-        "no_speech_prob": 0.3662109375
-      },
-      {
-        "start": 33.48,
-        "end": 38.76,
-        "text": "The raft pailed the stubborn door, the shirt that would not wave enough",
-        "avg_logprob": -0.43229167208527075,
-        "no_speech_prob": 0.3662109375
-      },
-      {
-        "start": 38.76,
-        "end": 44.12,
-        "text": "The rope that taught my palms to rough We laid them out beside the cave",
-        "avg_logprob": -0.43229167208527075,
-        "no_speech_prob": 0.3662109375
-      },
-      {
-        "start": 44.12,
-        "end": 49.08,
-        "text": "Not as proof, not property, just things that crossed and did not sink",
-        "avg_logprob": -0.43229167208527075,
-        "no_speech_prob": 0.3662109375
-      },
-      {
-        "start": 49.08,
-        "end": 54.36,
-        "text": "Layed where other hands could think The child tapped rhythm on the boards",
-        "avg_logprob": -0.30681816962632263,
-        "no_speech_prob": 0.116943359375
-      },
-      {
-        "start": 54.36,
-        "end": 62.6,
-        "text": "The fishers found a minor chord Somebody brought a crack canteen and rinsed a sand from what had been",
-        "avg_logprob": -0.30681816962632263,
-        "no_speech_prob": 0.116943359375
-      },
-      {
-        "start": 62.6,
-        "end": 70.12,
-        "text": "Nothing holy, nothing grand Only wreckage breath in hands, but even what the sea has chewed",
-        "avg_logprob": -0.30681816962632263,
-        "no_speech_prob": 0.116943359375
-      },
-      {
-        "start": 70.12,
-        "end": 77.88,
-        "text": "Can hold a room when it is used Sing, drift would quiet, not for rescue, not for glory",
-        "avg_logprob": -0.30681816962632263,
-        "no_speech_prob": 0.116943359375
-      },
-      {
-        "start": 77.88,
-        "end": 83.56,
-        "text": "Sing the cross that I carry through Every plank that made it too",
-        "avg_logprob": -0.3547794240362504,
-        "no_speech_prob": 0.032318115234375
-      },
-      {
-        "start": 83.56,
-        "end": 92.36,
-        "text": "Sing, salt-worn core is slow and rough, but less divided, not made holy, not made new, just less alone",
-        "avg_logprob": -0.3547794240362504,
-        "no_speech_prob": 0.032318115234375
-      },
-      {
-        "start": 92.36,
-        "end": 103.96,
-        "text": "And what is true I kept the anger in the song, not on my ankle, not for long",
-        "avg_logprob": -0.3547794240362504,
-        "no_speech_prob": 0.032318115234375
-      },
-      {
-        "start": 103.96,
-        "end": 109.24,
-        "text": "It's a rough step, fed the oldest part That thought a weight could be a heart",
-        "avg_logprob": -0.29618055125077564,
-        "no_speech_prob": 0.3173828125
-      },
-      {
-        "start": 109.24,
-        "end": 114.6,
-        "text": "I kept the moon with its old bruise, not his own and not his news",
-        "avg_logprob": -0.29618055125077564,
-        "no_speech_prob": 0.3173828125
-      },
-      {
-        "start": 114.6,
-        "end": 119.96,
-        "text": "Just as a mark above the bay, we're mourning into it anyway",
-        "avg_logprob": -0.29618055125077564,
-        "no_speech_prob": 0.3173828125
-      },
-      {
-        "start": 119.96,
-        "end": 125.32,
-        "text": "I kept the map with ruined beak, pinned above the kitchen sink",
-        "avg_logprob": -0.29618055125077564,
-        "no_speech_prob": 0.3173828125
-      },
-      {
-        "start": 125.32,
-        "end": 130.76,
-        "text": "So anyone who loses, no I can see a roof, is not the worth",
-        "avg_logprob": -0.29618055125077564,
-        "no_speech_prob": 0.3173828125
-      },
-      {
-        "start": 130.92,
-        "end": 135.08,
-        "text": "It doesn't end in being healed, no final bell",
-        "avg_logprob": -0.14613486528396608,
-        "no_speech_prob": 0.0181732177734375
-      },
-      {
-        "start": 135.08,
-        "end": 139.16,
-        "text": "Across the field, but there are meals and there are names",
-        "avg_logprob": -0.14613486528396608,
-        "no_speech_prob": 0.0181732177734375
-      },
-      {
-        "start": 139.16,
-        "end": 142.6,
-        "text": "Spoken gently after weather",
-        "avg_logprob": -0.14613486528396608,
-        "no_speech_prob": 0.0181732177734375
-      },
-      {
-        "start": 142.6,
-        "end": 147.56,
-        "text": "Sing, drift would quiet, not for rescue, not for glory",
-        "avg_logprob": -0.14613486528396608,
-        "no_speech_prob": 0.0181732177734375
-      },
-      {
-        "start": 147.56,
-        "end": 153.4,
-        "text": "Sing the cross that I carry through Every plank that made it too",
-        "avg_logprob": -0.14613486528396608,
-        "no_speech_prob": 0.0181732177734375
-      },
-      {
-        "start": 153.4,
-        "end": 159.56,
-        "text": "Sing, salt-worn core is slow and rough, but less divided, not made holy, not made new, just less alone",
-        "avg_logprob": -0.14613486528396608,
-        "no_speech_prob": 0.0181732177734375
-      },
-      {
-        "start": 159.56,
-        "end": 171.48,
-        "text": "And what is true I used to drink the sea for ache, call its thirst, the small mistake",
-        "avg_logprob": -0.2814764423646789,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 171.48,
-        "end": 179.64,
-        "text": "Now I leave a cup outside, for the next one, not the time, no clean harry, no perfect chart",
-        "avg_logprob": -0.2814764423646789,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 179.64,
-        "end": 187.56,
-        "text": "No weather kind enough to start, but hands can gather what remains and make a shelter",
-        "avg_logprob": -0.2814764423646789,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 187.64,
-        "end": 197.56,
-        "text": "Out of grain, bored by bored, breath by breath, room for what?",
-        "avg_logprob": -0.27887835300394465,
-        "no_speech_prob": 0.09130859375
-      },
-      {
-        "start": 197.56,
-        "end": 202.6,
-        "text": "Survive the death",
-        "avg_logprob": -0.27887835300394465,
-        "no_speech_prob": 0.09130859375
-      },
-      {
-        "start": 202.6,
-        "end": 207.64,
-        "text": "Sing, drift would quiet, not for rescue, not for glory",
-        "avg_logprob": -0.27887835300394465,
-        "no_speech_prob": 0.09130859375
-      },
-      {
-        "start": 207.64,
-        "end": 213.64,
-        "text": "Sing the cross that I carry through Every plank that made it too",
-        "avg_logprob": -0.27887835300394465,
-        "no_speech_prob": 0.09130859375
-      },
-      {
-        "start": 213.72,
-        "end": 222.76,
-        "text": "Sing, salt-worn core is slow and rough, but less divided, not made holy, not made new, just less alone",
-        "avg_logprob": -0.24920551352581735,
-        "no_speech_prob": 0.068603515625
-      },
-      {
-        "start": 222.76,
-        "end": 227.56,
-        "text": "And what is true I would onward pump to pump",
-        "avg_logprob": -0.24920551352581735,
-        "no_speech_prob": 0.068603515625
-      },
-      {
-        "start": 227.56,
-        "end": 233.08,
-        "text": "Peace is drying on the strand, if the sea calls back someday",
-        "avg_logprob": -0.24920551352581735,
-        "no_speech_prob": 0.068603515625
-      },
-      {
-        "start": 233.08,
-        "end": 245.72,
-        "text": "I will know the leaving way, soft and green, willer through",
-        "avg_logprob": -0.495,
-        "no_speech_prob": 0.1693115234375
-      },
-      {
-        "start": 245.72,
-        "end": 250.92,
-        "text": "Something broken, learned to tune",
-        "avg_logprob": -0.495,
-        "no_speech_prob": 0.1693115234375
-      }
-    ],
-    "avg_logprob": -0.34510826586606896
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 461,
-    "transcript_word_count": 467,
-    "matched_sequence_words": 381,
-    "lyric_alignment_ratio": 0.826,
-    "transcript_precision_ratio": 0.816,
-    "unique_expected_word_coverage": 0.876,
-    "word_count_ratio": 1.013,
-    "repeated_12gram_ratio": 0.162,
-    "half_similarity": 0.313,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.835,
-    "quality_score_0_10": 8.35,
-    "flags": [],
-    "transcript_excerpt": "Wood on wood, pond upon, Pieces gathered from the strand Salt and green weathered through Something broken, learning to We carried every plank ashore The raft pailed the stubborn door, the shirt that would not wave enough The rope that taught my palms to rough We laid them out beside the cave Not as proof, not property, just things that crossed and did not sink Layed where other hands could think The child tapped rhythm on the boards The fishers found a minor chord Somebody brought a crack canteen and rinsed a sand from what had been Nothing holy, nothing grand Only wreckage breath in hands, b\n...[truncated]...\nfect chart No weather kind enough to start, but hands can gather what remains and make a shelter Out of grain, bored by bored, breath by breath, room for what? Survive the death Sing, drift would quiet, not for rescue, not for glory Sing the cross that I carry through Every plank that made it too Sing, salt-worn core is slow and rough, but less divided, not made holy, not made new, just less alone And what is true I would onward pump to pump Peace is drying on the strand, if the sea calls back someday I will know the leaving way, soft and green, willer through Something broken, learned to tune"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.8,
-      "BP_beauty_spatial_poise": 9.6,
-      "EG_evolving_grammar": 7.3,
-      "CD_carry_depth": 9.6
+      "SC_structural_coherence": 9.85,
+      "MI_motivic_integration": 8.57,
+      "BP_beauty_spatial_poise": 9.77,
+      "EG_evolving_grammar": 7.28,
+      "CD_carry_depth": 9.56
     },
     "core_metrics": {
-      "CDPD": 0.92,
+      "CDPD": 0.93,
       "NGE": 0.65,
       "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in lyrical imagery and layered vocal production."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with strong functional returns. Each section has a defined role, and the emotional arc is consistent."
+        "delta": -0.15,
+        "reason": "Strong structural payoff with clear transitions between verse and chorus sections."
       },
       "MI_motivic_integration": {
-        "delta": 0.23,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric images recur in altered forms across sections, showing integration and development."
+        "delta": 0.0,
+        "reason": "Base score remains accurate for the recurring 'driftwood' motif."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.17,
-        "reason": "The sonic habitat—room tone, guitar space, reverb, and texture—forms a memorable and coherent environment."
+        "delta": 0.0,
+        "reason": "Score reflects high production quality and atmospheric depth."
       },
       "EG_evolving_grammar": {
-        "delta": 0.02,
-        "reason": "The grammar develops over time, with meaningful changes in rhythm, texture, and harmonic law, though it does not fully invent a new method."
+        "delta": 0.0,
+        "reason": "Base score accurately captures the sophisticated lyrical imagery."
       },
       "CD_carry_depth": {
-        "delta": 0.04,
-        "reason": "The track feels like a small world, with a strong emotional arc and memorable sonic and lyrical details."
+        "delta": 0.0,
+        "reason": "The 'driftwood' metaphor is consistently developed throughout."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:16.92 with section-balance score 0.14.",
-      "Tempo estimate is 89.1 BPM; declared tempo alignment contributes 0.93.",
-      "Integrated loudness is -18.0 LUFS, peak is -0.7 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G#/Ab major with confidence 0.29.",
-      "Audio recurrence ratio is 0.344; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 385 beats and 96 downbeats; beat-grid stability is 0.88.",
-      "EG evidence: section contrast 2.29, cumulative evolution 1.10, transformed returns 10.00, grid deviation 0.43, rule changes 3.21.",
-      "Companion text has 11 lyric/production sections, 478 words, line repetition 0.23, rhyme-suffix reuse 0.45."
+      "The track features a highly sophisticated lyrical structure with consistent imagery.",
+      "The transition from the intimate lead to layered choruses provides strong structural payoff.",
+      "The production creates a cohesive sonic habitat that supports the 'weathered' theme.",
+      "Motif integration is high, as the central metaphor remains coherent across all sections."
     ],
     "review_flags": [
-      "Uncertainty about section detection: The audio is divided into 8 sections, but the text has 11 lyric/production sections. This discrepancy may affect structural coherence scoring."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:10:39.0110142Z",
-    "eval_count": 805,
-    "eval_duration": 13296624100
+    "created_at": "2026-06-10T10:10:28.470029Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8221518,
+      "base64_chars": 10962024,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11937,
+    "prompt_eval_duration": 5951011000,
+    "eval_count": 513,
+    "eval_duration": 14404550000
   }
 }

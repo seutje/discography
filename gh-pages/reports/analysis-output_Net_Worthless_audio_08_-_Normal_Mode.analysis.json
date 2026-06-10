@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:25:24",
+  "generated_at": "2026-06-10T12:27:44",
   "audio": {
     "path": "Net Worthless/audio/08 - Normal Mode.mp3",
     "duration_seconds": 346.08,
@@ -1697,7 +1697,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1741,451 +1744,76 @@
       "beat_this detected 479 beats and 122 downbeats; beat-grid stability is 0.83.",
       "EG evidence: section contrast 1.39, cumulative evolution 0.39, transformed returns 10.00, grid deviation 0.82, rule changes 1.94.",
       "Companion text has 12 lyric/production sections, 920 words, line repetition 0.10, rhyme-suffix reuse 0.42.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.79, unique-word coverage 0.85, word-count ratio 0.96, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.65."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I woke up this morning and selected normal mode, optimistic, because normal mode requires an update and my brain is running on 3% to biscuits and a sound nobody else can hear. I walked into the shop with a list of my hands like a paper priest sent to make the man's milk bread soap something green. So the fridge looks less like a cry for help. The lights were bright in the personal way. The freeze are hummed like a new mind name. A child's green wants near the frozen peas and my soul left quietly through aisle 3. I smiled at the cashier, correct face, good tone. No visible evidence, I was buffering alone. They said need a bag mate, I said no thanks. I'm fine. Holding seven loose items in the concept to decline, because mine is a costume with an elastic waist. Where it old day if you don't breathe a pace, I know the lines, I know the scene, I know where the person is meant to be. But under the skin, where the wise glow blue, there's a little red light saying not for you. I'm trying to run in normal mode, smiling while the system overloads. Too much light, too much room, too many times in a one bed moon. If I go quiet, don't call it rude, I'm finding a door through the noise and the cue, I'm still here. I'm still me, just not built for pretending cheaply. Also, who decided background music needed ambition. I'm buying onions, not entering a boss fight, cheers, but they love a casual meeting business for surprise, social eating. Someone says, let's brainstorm, and suddenly my thoughts form a union and leave. I nod like a bloke with available bandwidth inside, I'm filing for emergency silence, spreadsheet open, teams call blinking, free people laughing while I'm manually thinking I contact up too much life here, cup touched, question answer, don't explain the machine, keep the strange bits off the screen. A mask in the morning, mask in the lift, mask big coffee in a sexually approved quip, mask when the brilla makes that noise, mask when the coke has invisible decoys, mask till the door forgets its hinge, mask till the self comes, loose at the fringe, then someone says, you seem so calm, and I nearly applaud with my actual palm. I'm trying to rock in normal mode, smiling while the system moves the loads, but too much life, too much room, too many tabs and a one bed moon. If I go quiet, don't call it rude, I'm finding a door, through the noise and the cue, I'm still here, I'm still me, just not built for pretending cheaply, and the ugly bit is, sometimes I don't know where the mask ends, I come home and peel off my face and find another face for lightly waiting, I cancel plans, I wanted, I answer late because the message became furniture, and now it lives there, I love people, that's the problem, I love them with the battery, that dies in public, and I'm tired of calling myself difficult, when I'm accurate, tired of saying sorry, I'm weird, but I mean the room is loud, the tires sharp, the rules are smoking, I've been translating all day, without dictionary, maybe I'm not broken, maybe I'm specific, a radio to inside way still catches the weather, a busy map can still get your home, a nervous system, there's not a moral failure, it's a party with strong opinions about lighting, let me leave early without making it tragic, let me ask twice, but I'll call in it planet, let me be the same, safety, for we can still contain mystery, let me slip in with my thumb on my sleeve, let me need what I need and not perform a scene, there's kindness and saying, this is too much, there's courage in the sentence, I can't do that today, there's a whole small life from the other side of not standing yourself into something, easy to display, but trying to run in normal mode, smiling while the system overlaps too much life, too much room, too many tapas in a one-bedroom, if we don't cry, don't call it rude, we're finding a door through the noise and the cue, we're still here, still complete, not made wrong, just be precisely soaked in the room, nothing, everyone's briefly spacing the plans for they need to leave the well alone, and if the script becomes loose, my heart's being better, with the volume of use, so yes, I'm fine, the nut and the factory say, I will not become smaller, to make the room feel clever, I will not apologize for hearing the buzz, I am here, unmuted, eventually, somewhere under the table, my foot is tucking a tiny hem, but got me through the day,",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 10.4,
-        "text": "I woke up this morning and selected normal mode, optimistic, because normal mode requires",
-        "avg_logprob": -0.3100198535692124,
-        "no_speech_prob": 0.39697265625
-      },
-      {
-        "start": 10.4,
-        "end": 21.84,
-        "text": "an update and my brain is running on 3% to biscuits and a sound nobody else can hear.",
-        "avg_logprob": -0.3100198535692124,
-        "no_speech_prob": 0.39697265625
-      },
-      {
-        "start": 21.84,
-        "end": 26.88,
-        "text": "I walked into the shop with a list of my hands like a paper priest sent to make the",
-        "avg_logprob": -0.3100198535692124,
-        "no_speech_prob": 0.39697265625
-      },
-      {
-        "start": 26.88,
-        "end": 32.96,
-        "text": "man's milk bread soap something green. So the fridge looks less like a cry for help.",
-        "avg_logprob": -0.2582799002655551,
-        "no_speech_prob": 0.62548828125
-      },
-      {
-        "start": 32.96,
-        "end": 37.12,
-        "text": "The lights were bright in the personal way. The freeze are hummed like a new",
-        "avg_logprob": -0.2582799002655551,
-        "no_speech_prob": 0.62548828125
-      },
-      {
-        "start": 37.12,
-        "end": 40.24,
-        "text": "mind name. A child's green wants near the frozen",
-        "avg_logprob": -0.2582799002655551,
-        "no_speech_prob": 0.62548828125
-      },
-      {
-        "start": 40.24,
-        "end": 43.68,
-        "text": "peas and my soul left quietly through aisle 3.",
-        "avg_logprob": -0.2582799002655551,
-        "no_speech_prob": 0.62548828125
-      },
-      {
-        "start": 43.68,
-        "end": 49.12,
-        "text": "I smiled at the cashier, correct face, good tone. No visible evidence, I was buffering alone.",
-        "avg_logprob": -0.2582799002655551,
-        "no_speech_prob": 0.62548828125
-      },
-      {
-        "start": 49.12,
-        "end": 54.08,
-        "text": "They said need a bag mate, I said no thanks. I'm fine. Holding seven loose items in the concept",
-        "avg_logprob": -0.2582799002655551,
-        "no_speech_prob": 0.62548828125
-      },
-      {
-        "start": 54.08,
-        "end": 60.08,
-        "text": "to decline, because mine is a costume with an elastic waist. Where it old day if you don't",
-        "avg_logprob": -0.23085170867396335,
-        "no_speech_prob": 0.259521484375
-      },
-      {
-        "start": 60.08,
-        "end": 66.16,
-        "text": "breathe a pace, I know the lines, I know the scene, I know where the person is meant to be.",
-        "avg_logprob": -0.23085170867396335,
-        "no_speech_prob": 0.259521484375
-      },
-      {
-        "start": 66.16,
-        "end": 71.84,
-        "text": "But under the skin, where the wise glow blue, there's a little red light saying not for you.",
-        "avg_logprob": -0.23085170867396335,
-        "no_speech_prob": 0.259521484375
-      },
-      {
-        "start": 71.84,
-        "end": 80.48,
-        "text": "I'm trying to run in normal mode, smiling while the system overloads. Too much light, too much room, too",
-        "avg_logprob": -0.23085170867396335,
-        "no_speech_prob": 0.259521484375
-      },
-      {
-        "start": 80.48,
-        "end": 87.04,
-        "text": "many times in a one bed moon. If I go quiet, don't call it rude, I'm finding a door",
-        "avg_logprob": -0.26095779685230996,
-        "no_speech_prob": 0.49609375
-      },
-      {
-        "start": 87.04,
-        "end": 94.88,
-        "text": "through the noise and the cue, I'm still here. I'm still me, just not built for pretending cheaply.",
-        "avg_logprob": -0.26095779685230996,
-        "no_speech_prob": 0.49609375
-      },
-      {
-        "start": 96.24,
-        "end": 103.76,
-        "text": "Also, who decided background music needed ambition. I'm buying onions, not entering a boss fight,",
-        "avg_logprob": -0.26095779685230996,
-        "no_speech_prob": 0.49609375
-      },
-      {
-        "start": 103.76,
-        "end": 110.48,
-        "text": "cheers, but they love a casual meeting business for surprise, social eating. Someone says,",
-        "avg_logprob": -0.3220373299214747,
-        "no_speech_prob": 0.7587890625
-      },
-      {
-        "start": 110.48,
-        "end": 116.56,
-        "text": "let's brainstorm, and suddenly my thoughts form a union and leave. I nod like a bloke with",
-        "avg_logprob": -0.3220373299214747,
-        "no_speech_prob": 0.7587890625
-      },
-      {
-        "start": 116.56,
-        "end": 122.16,
-        "text": "available bandwidth inside, I'm filing for emergency silence, spreadsheet open,",
-        "avg_logprob": -0.3220373299214747,
-        "no_speech_prob": 0.7587890625
-      },
-      {
-        "start": 122.16,
-        "end": 126.96,
-        "text": "teams call blinking, free people laughing while I'm manually thinking I contact",
-        "avg_logprob": -0.3220373299214747,
-        "no_speech_prob": 0.7587890625
-      },
-      {
-        "start": 126.96,
-        "end": 135.28,
-        "text": "up too much life here, cup touched, question answer, don't explain the machine, keep the strange bits off the screen.",
-        "avg_logprob": -0.3939645472325777,
-        "no_speech_prob": 0.72802734375
-      },
-      {
-        "start": 137.76,
-        "end": 142.96,
-        "text": "A mask in the morning, mask in the lift, mask big coffee in a sexually approved",
-        "avg_logprob": -0.3939645472325777,
-        "no_speech_prob": 0.72802734375
-      },
-      {
-        "start": 142.96,
-        "end": 149.28,
-        "text": "quip, mask when the brilla makes that noise, mask when the coke has invisible decoys,",
-        "avg_logprob": -0.3939645472325777,
-        "no_speech_prob": 0.72802734375
-      },
-      {
-        "start": 149.28,
-        "end": 154.64,
-        "text": "mask till the door forgets its hinge, mask till the self comes, loose at the fringe,",
-        "avg_logprob": -0.3939645472325777,
-        "no_speech_prob": 0.72802734375
-      },
-      {
-        "start": 154.64,
-        "end": 161.2,
-        "text": "then someone says, you seem so calm, and I nearly applaud with my actual palm.",
-        "avg_logprob": -0.2663433962854846,
-        "no_speech_prob": 0.0927734375
-      },
-      {
-        "start": 161.2,
-        "end": 167.04,
-        "text": "I'm trying to rock in normal mode, smiling while the system moves the loads,",
-        "avg_logprob": -0.2663433962854846,
-        "no_speech_prob": 0.0927734375
-      },
-      {
-        "start": 167.04,
-        "end": 174.16,
-        "text": "but too much life, too much room, too many tabs and a one bed moon. If I go quiet,",
-        "avg_logprob": -0.2663433962854846,
-        "no_speech_prob": 0.0927734375
-      },
-      {
-        "start": 174.16,
-        "end": 178.64,
-        "text": "don't call it rude, I'm finding a door, through the noise and the cue,",
-        "avg_logprob": -0.2663433962854846,
-        "no_speech_prob": 0.0927734375
-      },
-      {
-        "start": 178.64,
-        "end": 185.04,
-        "text": "I'm still here, I'm still me, just not built for pretending cheaply,",
-        "avg_logprob": -0.18536184304638914,
-        "no_speech_prob": 0.43603515625
-      },
-      {
-        "start": 186.24,
-        "end": 192.8,
-        "text": "and the ugly bit is, sometimes I don't know where the mask ends, I come home and peel off my face",
-        "avg_logprob": -0.18536184304638914,
-        "no_speech_prob": 0.43603515625
-      },
-      {
-        "start": 192.8,
-        "end": 198.8,
-        "text": "and find another face for lightly waiting, I cancel plans, I wanted, I answer late because the message",
-        "avg_logprob": -0.18536184304638914,
-        "no_speech_prob": 0.43603515625
-      },
-      {
-        "start": 198.8,
-        "end": 205.36,
-        "text": "became furniture, and now it lives there, I love people, that's the problem, I love them with",
-        "avg_logprob": -0.18536184304638914,
-        "no_speech_prob": 0.43603515625
-      },
-      {
-        "start": 205.36,
-        "end": 211.92,
-        "text": "the battery, that dies in public, and I'm tired of calling myself difficult, when I'm",
-        "avg_logprob": -0.25579353664698223,
-        "no_speech_prob": 0.1676025390625
-      },
-      {
-        "start": 211.92,
-        "end": 218.72,
-        "text": "accurate, tired of saying sorry, I'm weird, but I mean the room is loud, the tires sharp,",
-        "avg_logprob": -0.25579353664698223,
-        "no_speech_prob": 0.1676025390625
-      },
-      {
-        "start": 218.72,
-        "end": 225.12,
-        "text": "the rules are smoking, I've been translating all day, without dictionary,",
-        "avg_logprob": -0.25579353664698223,
-        "no_speech_prob": 0.1676025390625
-      },
-      {
-        "start": 227.12,
-        "end": 233.2,
-        "text": "maybe I'm not broken, maybe I'm specific, a radio to inside way still catches the weather,",
-        "avg_logprob": -0.25579353664698223,
-        "no_speech_prob": 0.1676025390625
-      },
-      {
-        "start": 233.2,
-        "end": 239.2,
-        "text": "a busy map can still get your home, a nervous system, there's not a moral failure,",
-        "avg_logprob": -0.2597257540542252,
-        "no_speech_prob": 0.116455078125
-      },
-      {
-        "start": 239.2,
-        "end": 245.44,
-        "text": "it's a party with strong opinions about lighting, let me leave early without making it tragic,",
-        "avg_logprob": -0.2597257540542252,
-        "no_speech_prob": 0.116455078125
-      },
-      {
-        "start": 245.44,
-        "end": 254.32,
-        "text": "let me ask twice, but I'll call in it planet, let me be the same, safety, for we can still contain",
-        "avg_logprob": -0.2597257540542252,
-        "no_speech_prob": 0.116455078125
-      },
-      {
-        "start": 254.32,
-        "end": 260.96,
-        "text": "mystery, let me slip in with my thumb on my sleeve, let me need what I need and not perform a",
-        "avg_logprob": -0.2597257540542252,
-        "no_speech_prob": 0.116455078125
-      },
-      {
-        "start": 261.36,
-        "end": 267.12,
-        "text": "scene, there's kindness and saying, this is too much, there's courage in the sentence, I can't",
-        "avg_logprob": -0.2892857040677752,
-        "no_speech_prob": 0.50537109375
-      },
-      {
-        "start": 267.12,
-        "end": 273.76,
-        "text": "do that today, there's a whole small life from the other side of not standing yourself into",
-        "avg_logprob": -0.2892857040677752,
-        "no_speech_prob": 0.50537109375
-      },
-      {
-        "start": 273.76,
-        "end": 283.2,
-        "text": "something, easy to display, but trying to run in normal mode, smiling while the system overlaps",
-        "avg_logprob": -0.2892857040677752,
-        "no_speech_prob": 0.50537109375
-      },
-      {
-        "start": 283.2,
-        "end": 291.76,
-        "text": "too much life, too much room, too many tapas in a one-bedroom, if we don't cry, don't call it rude,",
-        "avg_logprob": -0.3269531145691872,
-        "no_speech_prob": 0.64208984375
-      },
-      {
-        "start": 291.76,
-        "end": 299.44,
-        "text": "we're finding a door through the noise and the cue, we're still here, still complete, not made wrong,",
-        "avg_logprob": -0.3269531145691872,
-        "no_speech_prob": 0.64208984375
-      },
-      {
-        "start": 299.44,
-        "end": 305.6,
-        "text": "just be precisely soaked in the room, nothing, everyone's briefly spacing the plans for",
-        "avg_logprob": -0.3269531145691872,
-        "no_speech_prob": 0.64208984375
-      },
-      {
-        "start": 305.68,
-        "end": 311.52,
-        "text": "they need to leave the well alone, and if the script becomes loose, my heart's being better,",
-        "avg_logprob": -0.2918669757170555,
-        "no_speech_prob": 0.451171875
-      },
-      {
-        "start": 312.96,
-        "end": 321.04,
-        "text": "with the volume of use, so yes, I'm fine, the nut and the factory say, I will not become smaller,",
-        "avg_logprob": -0.2918669757170555,
-        "no_speech_prob": 0.451171875
-      },
-      {
-        "start": 321.04,
-        "end": 329.04,
-        "text": "to make the room feel clever, I will not apologize for hearing the buzz, I am here, unmuted,",
-        "avg_logprob": -0.2918669757170555,
-        "no_speech_prob": 0.451171875
-      },
-      {
-        "start": 329.04,
-        "end": 338.96,
-        "text": "eventually, somewhere under the table, my foot is tucking a tiny hem, but got me through the day,",
-        "avg_logprob": -0.4008413507388188,
-        "no_speech_prob": 0.289794921875
-      }
-    ],
-    "avg_logprob": -0.28342602159616276
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 858,
-    "transcript_word_count": 820,
-    "matched_sequence_words": 677,
-    "lyric_alignment_ratio": 0.789,
-    "transcript_precision_ratio": 0.826,
-    "unique_expected_word_coverage": 0.855,
-    "word_count_ratio": 0.956,
-    "repeated_12gram_ratio": 0.028,
-    "half_similarity": 0.198,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.806,
-    "quality_score_0_10": 8.06,
-    "flags": [],
-    "transcript_excerpt": "I woke up this morning and selected normal mode, optimistic, because normal mode requires an update and my brain is running on 3% to biscuits and a sound nobody else can hear. I walked into the shop with a list of my hands like a paper priest sent to make the man's milk bread soap something green. So the fridge looks less like a cry for help. The lights were bright in the personal way. The freeze are hummed like a new mind name. A child's green wants near the frozen peas and my soul left quietly through aisle 3. I smiled at the cashier, correct face, good tone. No visible evidence, I was buffe\n...[truncated]...\nn't cry, don't call it rude, we're finding a door through the noise and the cue, we're still here, still complete, not made wrong, just be precisely soaked in the room, nothing, everyone's briefly spacing the plans for they need to leave the well alone, and if the script becomes loose, my heart's being better, with the volume of use, so yes, I'm fine, the nut and the factory say, I will not become smaller, to make the room feel clever, I will not apologize for hearing the buzz, I am here, unmuted, eventually, somewhere under the table, my foot is tucking a tiny hem, but got me through the day,"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 9.5,
-      "BP_beauty_spatial_poise": 9.0,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 9.0
+      "SC_structural_coherence": 9.85,
+      "MI_motivic_integration": 9.62,
+      "BP_beauty_spatial_poise": 9.41,
+      "EG_evolving_grammar": 7.02,
+      "CD_carry_depth": 8.97
     },
     "core_metrics": {
-      "CDPD": 0.95,
-      "NGE": 0.6,
-      "HMII_peak_estimate": 4
+      "CDPD": 0.97,
+      "NGE": 0.63,
+      "HMII_peak_estimate": 5
     },
     "rung_estimate": {
-      "number": 14,
-      "label": "Quiet twists & recursions",
-      "note": "Heuristic ceiling is conservative; tiers above 14 need close listening and stronger evidence of new grammar."
+      "number": 13,
+      "label": "Inhabited Form",
+      "note": "High complexity in spoken-word structure and layered production."
     },
     "confidence_0_10": 8.2,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section-balance score 0.31 suggests uneven distribution, but the 10-section structure with clear functional roles (Intro, Verse, Hook, Bridge, Outro) and consistent transitions (drops, fills, hook entries) support a clean verse–hook ecosystem with clear arc."
+        "delta": -0.15,
+        "reason": "Base score accurately reflects the clear verse/hook distinction."
       },
       "MI_motivic_integration": {
-        "delta": -0.32,
-        "reason": "Core cells (hook rhythm, vocal flow patterns, sample motifs) recur across sections with transformation (register change, rhythm tweak, chopped, pitched, inverted), and cross-domain recursion (hook rhythm in verse cadences, vocal contour mirroring sample line) is evident."
+        "delta": -0.2,
+        "reason": "Slightly lower due to some repetitive phrasing in spoken sections."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.37,
-        "reason": "Sonic habitat is consistently beautiful and coherent, but the production leans toward functional lo-fi gloss rather than distinct, memorable room/world design."
+        "delta": 0.04,
+        "reason": "Score reflects the intentional lo-fi aesthetic."
       },
       "EG_evolving_grammar": {
-        "delta": 0.48,
-        "reason": "Grammar evolves meaningfully: beat micro-variation underpins vocal structure, motifs recur across verses and hooks, and spatial design articulates sections (more room on reflections, drier intimacy on confessions)."
+        "delta": 0.0,
+        "reason": "Base score is accurate for the mix of rap and folk."
       },
       "CD_carry_depth": {
-        "delta": 0.03,
-        "reason": "Track defines a recognisable emotional/psychic habitat and invites re-listening beyond mood-playlist utility. Emotional arc is clear and memorably affecting."
+        "delta": 0.0,
+        "reason": "Strong lyrical depth in the 'mask' metaphor."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:46.08 with section-balance score 0.31. Section roles (Intro, Verse, Hook, Bridge, Outro) are clear and functional.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.78. Beat-grid stability is 0.83, suggesting consistent rhythmic structure.",
-      "Integrated loudness is -16.7 LUFS, peak is -1.0 dBFS, clipping ratio is 0.00000. Audio recurrence ratio is 0.231, suggesting repeated musical cells, not true motif recognition.",
-      "Estimated key is F major with confidence 0.78. Audio recurrence ratio is 0.231, suggesting repeated musical cells, not true motif recognition.",
-      "Beat_this detected 479 beats and 122 downbeats; beat-grid stability is 0.83. Section contrast score 1.39, cumulative evolution score 0.39, transformed returns 10.00, grid deviation 0.82, rule changes 1.94.",
-      "Companion text has 12 lyric/production sections, 920 words, line repetition 0.10, rhyme-suffix reuse 0.42. Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.79, unique-word coverage 0.85, word-count ratio 0.96, duplicate-pass estimate 1."
+      "Clear structural distinction between spoken verses and melodic hooks.",
+      "High level of internal rhyme and wordplay in rap sections.",
+      "Effective use of dynamic contrast (beat drops/additions).",
+      "Consistent thematic exploration of identity and performance."
     ],
     "review_flags": [
-      "Uncertainty about section detection in audio; transcription quality is high but sparse transcript may affect lyric alignment."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:25:24.0564646Z",
-    "eval_count": 917,
-    "eval_duration": 16008623300
+    "created_at": "2026-06-10T10:27:44.1942472Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 11074784,
+      "base64_chars": 14766380,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 15011,
+    "prompt_eval_duration": 6633654000,
+    "eval_count": 381,
+    "eval_duration": 9314021000
   }
 }

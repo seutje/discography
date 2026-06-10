@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T21:55:24",
+  "generated_at": "2026-06-10T12:03:45",
   "audio": {
     "path": "Algorithmically Optimized Collection of Keywords/audio/10 - Borrowed Light.mp3",
     "duration_seconds": 289.92,
@@ -1561,7 +1561,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -1605,424 +1608,76 @@
       "beat_this detected 423 beats and 116 downbeats; beat-grid stability is 0.92.",
       "EG evidence: section contrast 1.91, cumulative evolution 0.43, transformed returns 10.00, grid deviation 1.47, rule changes 4.38.",
       "Companion text has 7 lyric/production sections, 302 words, line repetition 0.04, rhyme-suffix reuse 0.25.",
-      "Production/vocal notes contain transformation cues (density-change); intent score 2.85.",
-      "Transcription check: lyric alignment 0.90, unique-word coverage 0.89, word-count ratio 0.98, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change); intent score 2.85."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I call the lantern out of quiet Hold it up, show the lamp But if you flame my name, go silent When it's carried by my hand Then someone lives the same dim shimmer Cause it knew, cause it divine And the crowd bothers like believers As if I never drew the line Maybe my voice is made of paper Rising first but seen the last Maybe truth wears different faces Depending who unveils the glass So let them cheer the echo And forget the origin Let them claim my constellations As if they were born in their skin I'll stand inside the hush between the thorn and the acclaim Where everything I offer up returns without my name I speak a seed into the open They salt the ground beneath my feet But when another plants its twin there Suddenly the soil's all sweet And I am told to join the praising To smile wide and play along As though the bloom was not my shaping As though I never wrote this song Is it envy, is it shadow Or the desire to be seen To spark the fire that warms the world But never feel its heat on me Still I whisper to the void Where unclaim brilliant sleeves For sometimes truth grows brightest In the dark where no one peep So let them cheer the echo And forget the origin Let them crown the imitation As the place where life begins I'll stay within the quiet space That lives behind the fame Where everything I've ever made Shine's best without my name One day the echo might remember The shape of its first sound Until then I walk the border Of the lost and profound",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 27.0,
-        "text": "I call the lantern out of quiet",
-        "avg_logprob": -0.6853693181818182,
-        "no_speech_prob": 0.56787109375
-      },
-      {
-        "start": 28.0,
-        "end": 34.0,
-        "text": "Hold it up, show the lamp",
-        "avg_logprob": -0.23378906808793545,
-        "no_speech_prob": 0.30517578125
-      },
-      {
-        "start": 34.0,
-        "end": 40.0,
-        "text": "But if you flame my name, go silent",
-        "avg_logprob": -0.23378906808793545,
-        "no_speech_prob": 0.30517578125
-      },
-      {
-        "start": 40.0,
-        "end": 45.0,
-        "text": "When it's carried by my hand",
-        "avg_logprob": -0.23378906808793545,
-        "no_speech_prob": 0.30517578125
-      },
-      {
-        "start": 45.0,
-        "end": 51.0,
-        "text": "Then someone lives the same dim shimmer",
-        "avg_logprob": -0.23378906808793545,
-        "no_speech_prob": 0.30517578125
-      },
-      {
-        "start": 51.0,
-        "end": 57.0,
-        "text": "Cause it knew, cause it divine",
-        "avg_logprob": -0.23090277247958713,
-        "no_speech_prob": 0.15576171875
-      },
-      {
-        "start": 57.0,
-        "end": 62.0,
-        "text": "And the crowd bothers like believers",
-        "avg_logprob": -0.23090277247958713,
-        "no_speech_prob": 0.15576171875
-      },
-      {
-        "start": 62.0,
-        "end": 68.0,
-        "text": "As if I never drew the line",
-        "avg_logprob": -0.23090277247958713,
-        "no_speech_prob": 0.15576171875
-      },
-      {
-        "start": 68.0,
-        "end": 73.0,
-        "text": "Maybe my voice is made of paper",
-        "avg_logprob": -0.23090277247958713,
-        "no_speech_prob": 0.15576171875
-      },
-      {
-        "start": 73.0,
-        "end": 79.0,
-        "text": "Rising first but seen the last",
-        "avg_logprob": -0.23090277247958713,
-        "no_speech_prob": 0.15576171875
-      },
-      {
-        "start": 79.0,
-        "end": 84.0,
-        "text": "Maybe truth wears different faces",
-        "avg_logprob": -0.14749053527008404,
-        "no_speech_prob": 0.005397796630859375
-      },
-      {
-        "start": 84.0,
-        "end": 90.0,
-        "text": "Depending who unveils the glass",
-        "avg_logprob": -0.14749053527008404,
-        "no_speech_prob": 0.005397796630859375
-      },
-      {
-        "start": 90.0,
-        "end": 93.0,
-        "text": "So let them cheer the echo",
-        "avg_logprob": -0.14749053527008404,
-        "no_speech_prob": 0.005397796630859375
-      },
-      {
-        "start": 93.0,
-        "end": 95.0,
-        "text": "And forget the origin",
-        "avg_logprob": -0.14749053527008404,
-        "no_speech_prob": 0.005397796630859375
-      },
-      {
-        "start": 95.0,
-        "end": 98.0,
-        "text": "Let them claim my constellations",
-        "avg_logprob": -0.14749053527008404,
-        "no_speech_prob": 0.005397796630859375
-      },
-      {
-        "start": 98.0,
-        "end": 101.0,
-        "text": "As if they were born in their skin",
-        "avg_logprob": -0.14749053527008404,
-        "no_speech_prob": 0.005397796630859375
-      },
-      {
-        "start": 101.0,
-        "end": 107.0,
-        "text": "I'll stand inside the hush between the thorn and the acclaim",
-        "avg_logprob": -0.14749053527008404,
-        "no_speech_prob": 0.005397796630859375
-      },
-      {
-        "start": 107.0,
-        "end": 114.0,
-        "text": "Where everything I offer up returns without my name",
-        "avg_logprob": -0.11832156969654944,
-        "no_speech_prob": 0.00572967529296875
-      },
-      {
-        "start": 121.0,
-        "end": 127.0,
-        "text": "I speak a seed into the open",
-        "avg_logprob": -0.11832156969654944,
-        "no_speech_prob": 0.00572967529296875
-      },
-      {
-        "start": 127.0,
-        "end": 132.0,
-        "text": "They salt the ground beneath my feet",
-        "avg_logprob": -0.11832156969654944,
-        "no_speech_prob": 0.00572967529296875
-      },
-      {
-        "start": 133.0,
-        "end": 138.0,
-        "text": "But when another plants its twin there",
-        "avg_logprob": -0.16356382725086618,
-        "no_speech_prob": 0.027252197265625
-      },
-      {
-        "start": 138.0,
-        "end": 144.0,
-        "text": "Suddenly the soil's all sweet",
-        "avg_logprob": -0.16356382725086618,
-        "no_speech_prob": 0.027252197265625
-      },
-      {
-        "start": 144.0,
-        "end": 149.0,
-        "text": "And I am told to join the praising",
-        "avg_logprob": -0.16356382725086618,
-        "no_speech_prob": 0.027252197265625
-      },
-      {
-        "start": 149.0,
-        "end": 155.0,
-        "text": "To smile wide and play along",
-        "avg_logprob": -0.16356382725086618,
-        "no_speech_prob": 0.027252197265625
-      },
-      {
-        "start": 155.0,
-        "end": 160.0,
-        "text": "As though the bloom was not my shaping",
-        "avg_logprob": -0.16356382725086618,
-        "no_speech_prob": 0.027252197265625
-      },
-      {
-        "start": 160.0,
-        "end": 167.0,
-        "text": "As though I never wrote this song",
-        "avg_logprob": -0.11897321162479264,
-        "no_speech_prob": 0.038665771484375
-      },
-      {
-        "start": 167.0,
-        "end": 170.0,
-        "text": "Is it envy, is it shadow",
-        "avg_logprob": -0.11897321162479264,
-        "no_speech_prob": 0.038665771484375
-      },
-      {
-        "start": 170.0,
-        "end": 172.0,
-        "text": "Or the desire to be seen",
-        "avg_logprob": -0.11897321162479264,
-        "no_speech_prob": 0.038665771484375
-      },
-      {
-        "start": 172.0,
-        "end": 175.0,
-        "text": "To spark the fire that warms the world",
-        "avg_logprob": -0.11897321162479264,
-        "no_speech_prob": 0.038665771484375
-      },
-      {
-        "start": 175.0,
-        "end": 178.0,
-        "text": "But never feel its heat on me",
-        "avg_logprob": -0.11897321162479264,
-        "no_speech_prob": 0.038665771484375
-      },
-      {
-        "start": 178.0,
-        "end": 181.0,
-        "text": "Still I whisper to the void",
-        "avg_logprob": -0.11897321162479264,
-        "no_speech_prob": 0.038665771484375
-      },
-      {
-        "start": 181.0,
-        "end": 184.0,
-        "text": "Where unclaim brilliant sleeves",
-        "avg_logprob": -0.11897321162479264,
-        "no_speech_prob": 0.038665771484375
-      },
-      {
-        "start": 184.0,
-        "end": 186.0,
-        "text": "For sometimes truth grows brightest",
-        "avg_logprob": -0.11897321162479264,
-        "no_speech_prob": 0.038665771484375
-      },
-      {
-        "start": 186.0,
-        "end": 193.0,
-        "text": "In the dark where no one peep",
-        "avg_logprob": -0.11286057692307692,
-        "no_speech_prob": 0.07269287109375
-      },
-      {
-        "start": 193.0,
-        "end": 196.0,
-        "text": "So let them cheer the echo",
-        "avg_logprob": -0.11286057692307692,
-        "no_speech_prob": 0.07269287109375
-      },
-      {
-        "start": 196.0,
-        "end": 199.0,
-        "text": "And forget the origin",
-        "avg_logprob": -0.11286057692307692,
-        "no_speech_prob": 0.07269287109375
-      },
-      {
-        "start": 199.0,
-        "end": 201.0,
-        "text": "Let them crown the imitation",
-        "avg_logprob": -0.11286057692307692,
-        "no_speech_prob": 0.07269287109375
-      },
-      {
-        "start": 201.0,
-        "end": 204.0,
-        "text": "As the place where life begins",
-        "avg_logprob": -0.11286057692307692,
-        "no_speech_prob": 0.07269287109375
-      },
-      {
-        "start": 204.0,
-        "end": 207.0,
-        "text": "I'll stay within the quiet space",
-        "avg_logprob": -0.11286057692307692,
-        "no_speech_prob": 0.07269287109375
-      },
-      {
-        "start": 207.0,
-        "end": 210.0,
-        "text": "That lives behind the fame",
-        "avg_logprob": -0.11286057692307692,
-        "no_speech_prob": 0.07269287109375
-      },
-      {
-        "start": 210.0,
-        "end": 213.0,
-        "text": "Where everything I've ever made",
-        "avg_logprob": -0.11286057692307692,
-        "no_speech_prob": 0.07269287109375
-      },
-      {
-        "start": 213.0,
-        "end": 220.0,
-        "text": "Shine's best without my name",
-        "avg_logprob": -0.2921006944444444,
-        "no_speech_prob": 0.6572265625
-      },
-      {
-        "start": 243.0,
-        "end": 267.0,
-        "text": "One day the echo might remember",
-        "avg_logprob": -0.2766927083333333,
-        "no_speech_prob": 0.31689453125
-      },
-      {
-        "start": 267.0,
-        "end": 272.0,
-        "text": "The shape of its first sound",
-        "avg_logprob": -0.2766927083333333,
-        "no_speech_prob": 0.31689453125
-      },
-      {
-        "start": 272.0,
-        "end": 277.0,
-        "text": "Until then I walk the border",
-        "avg_logprob": -0.1812744140625,
-        "no_speech_prob": 0.1888427734375
-      },
-      {
-        "start": 277.0,
-        "end": 282.0,
-        "text": "Of the lost and profound",
-        "avg_logprob": -0.1812744140625,
-        "no_speech_prob": 0.1888427734375
-      }
-    ],
-    "avg_logprob": -0.23618088394721654
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 294,
-    "transcript_word_count": 288,
-    "matched_sequence_words": 263,
-    "lyric_alignment_ratio": 0.895,
-    "transcript_precision_ratio": 0.913,
-    "unique_expected_word_coverage": 0.886,
-    "word_count_ratio": 0.98,
-    "repeated_12gram_ratio": 0.004,
-    "half_similarity": 0.257,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.895,
-    "quality_score_0_10": 8.95,
-    "flags": [],
-    "transcript_excerpt": "I call the lantern out of quiet Hold it up, show the lamp But if you flame my name, go silent When it's carried by my hand Then someone lives the same dim shimmer Cause it knew, cause it divine And the crowd bothers like believers As if I never drew the line Maybe my voice is made of paper Rising first but seen the last Maybe truth wears different faces Depending who unveils the glass So let them cheer the echo And forget the origin Let them claim my constellations As if they were born in their skin I'll stand inside the hush between the thorn and the acclaim Where everything I offer up return\n...[truncated]...\n this song Is it envy, is it shadow Or the desire to be seen To spark the fire that warms the world But never feel its heat on me Still I whisper to the void Where unclaim brilliant sleeves For sometimes truth grows brightest In the dark where no one peep So let them cheer the echo And forget the origin Let them crown the imitation As the place where life begins I'll stay within the quiet space That lives behind the fame Where everything I've ever made Shine's best without my name One day the echo might remember The shape of its first sound Until then I walk the border Of the lost and profound"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 7.2,
-      "BP_beauty_spatial_poise": 8.8,
-      "EG_evolving_grammar": 6.5,
-      "CD_carry_depth": 7.8
+      "MI_motivic_integration": 8.2,
+      "BP_beauty_spatial_poise": 9.1,
+      "EG_evolving_grammar": 7.4,
+      "CD_carry_depth": 8.6
     },
     "core_metrics": {
-      "CDPD": 0.82,
-      "NGE": 0.59,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.0,
+      "NGE": 0.0,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
-      "number": 10,
+      "number": 12,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "The track exhibits high structural integrity and complex musical evolution with no discernible technical flaws."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 9.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The piece is divided into 9 well-balanced sections with clear transitions and a consistent structural framework, meeting the criteria for technical perfection."
+        "reason": "Stronger evidence of a cohesive arc from the 'whispered incantation' to 'resonant mantra' transition."
       },
       "MI_motivic_integration": {
-        "delta": -0.01,
-        "reason": "Motivic integration is strong but not exceptional; the recurrence ratio and section contrast suggest repetition-with-variation, but not deep motivic integration."
+        "delta": 0.99,
+        "reason": "The lyrical progression and musical build-up create a highly integrated emotional journey."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.07,
-        "reason": "The piece maintains a consistent spatial poise and harmonic beauty, but lacks the exceptional depth and grace that would push it further."
+        "delta": 0.23,
+        "reason": "The spatial depth of the 'shadow-drenched' atmosphere is well-realized."
       },
       "EG_evolving_grammar": {
-        "delta": 0.29,
-        "reason": "The evolving grammar is evident through the rule changes and transformed returns, but the piece remains within established frameworks without introducing radical new grammar."
+        "delta": 1.19,
+        "reason": "Significant growth in lyrical complexity and musical texture from verse to outro."
       },
       "CD_carry_depth": {
-        "delta": 0.07,
-        "reason": "The emotional carry and re-listen pull are strong, with a self-sustaining musical habitat that supports the piece’s thematic depth."
+        "delta": 0.87,
+        "reason": "The 'echo' motif provides a deep, consistent thematic anchor throughout the piece."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:49.92 with section-balance score 0.37.",
-      "Tempo estimate is 89.1 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -16.5 LUFS, peak is -1.9 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D#/Eb minor with confidence 0.49.",
-      "Audio recurrence ratio is 0.362; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 423 beats and 116 downbeats; beat-grid stability is 0.92.",
-      "EG evidence: section contrast 1.91, cumulative evolution 0.43, transformed returns 10.00, grid deviation 1.47, rule changes 4.38.",
-      "Companion text has 7 lyric/production sections, 302 words, line repetition 0.04, rhyme-suffix reuse 0.25."
+      "The track demonstrates exceptional structural coherence by moving through distinct phases (verse, pre-chorus, chorus) while maintaining a unified atmosphere.",
+      "The integration of lyrics and music is seamless; the shift from whispered to resonant vocals mirrors the musical build.",
+      "The spatial design creates an immersive 'ritualistic' environment as described in production notes.",
+      "The grammar evolves significantly, moving from simple imagery to complex philosophical reflections on identity and fame."
     ],
     "review_flags": [
-      "Uncertainty about key confidence and motif recognition; audio-only evidence is limited."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T19:55:24.4107553Z",
-    "eval_count": 789,
-    "eval_duration": 12980417300
+    "created_at": "2026-06-10T10:03:45.3728667Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9277668,
+      "base64_chars": 12370224,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13110,
+    "prompt_eval_duration": 5542085000,
+    "eval_count": 451,
+    "eval_duration": 11186564000
   }
 }

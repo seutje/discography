@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:47:11",
+  "generated_at": "2026-06-10T12:46:36",
   "audio": {
     "path": "Residual Instabilities/audio/10 - The Other Side.mp3",
     "duration_seconds": 290.52,
@@ -1515,7 +1515,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1559,375 +1562,75 @@
       "beat_this detected 405 beats and 110 downbeats; beat-grid stability is 0.75.",
       "EG evidence: section contrast 1.49, cumulative evolution 0.46, transformed returns 10.00, grid deviation 0.90, rule changes 4.06.",
       "Companion text has 5 lyric/production sections, 385 words, line repetition 0.06, rhyme-suffix reuse 0.37.",
-      "Production/vocal notes contain transformation cues (dropout, space-change, texture-change); intent score 5.30.",
-      "Transcription check: lyric alignment 0.84, unique-word coverage 0.83, word-count ratio 1.35, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (dropout, space-change, texture-change); intent score 5.30."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I keep one face toward the light, calculated, always right, tidal pull has locked me still, Held in place against my will, Measured glow, careful show, surface calm, but never slow, Every motion, create a fine, into a line with watching eyes They map me like a satellite, trace my edges, chart my night, But what they see is only one, half truth beneath the sun I rotate, Without turning inside, the other side, gravity writes through my spine, Equations etched in borrowed time, I mirror what they need to find, Predictable precise lines, spectral lines, they think they read, Don't reveal what I can see, all their models fall apart, Near the margins of my chart, they send their probes, They call it care, skimming through my outer air, collecting fragments, Leading data, never reaching what comes later, periapsis, Too close to why, the other side, For a bit, hiding's pressure climbs, face shifts slipping out of time, Every input overlay, no subtraction, nothing fades, Solder wins against my skin too much, signal flooding in, I fracture at the seams they trust, composition turns to dust, They attempt to close her past, but her trajectories don't last, He even distance interfered, nothing stable can draw near a burning arc, A failed glide, the other side, Too bright, too much, too near, All of it, there's collapse at once, no stable frame to hold response, I break the lock, but not by choice distortion, Daring through my voice days, Even if they turn away, no instrument, be prepared to stay, Just a flash, a data spike, miss, Can you interpret it as a light, no lighting here, No place to buy, the other side, Now I drift, but still I'm bound, no full rotation, Never found one face, no one always missed, A constant half, that can't exist, no right to pay, But speculated, proximate, but never stayed, What remains beyond their sight, is not absence, Just no light, I am old, but split by design, A hidden half, that won't align, No orbit breaks, no paths collide, The other side, Hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 29.0,
-        "text": "I keep one face toward the light, calculated, always right, tidal pull has locked me still,",
-        "avg_logprob": -0.575625,
-        "no_speech_prob": 0.473388671875
-      },
-      {
-        "start": 30.0,
-        "end": 37.0,
-        "text": "Held in place against my will,",
-        "avg_logprob": -0.28072917262713115,
-        "no_speech_prob": 0.305908203125
-      },
-      {
-        "start": 37.0,
-        "end": 42.0,
-        "text": "Measured glow, careful show, surface calm, but never slow,",
-        "avg_logprob": -0.28072917262713115,
-        "no_speech_prob": 0.305908203125
-      },
-      {
-        "start": 42.0,
-        "end": 48.0,
-        "text": "Every motion, create a fine, into a line with watching eyes",
-        "avg_logprob": -0.28072917262713115,
-        "no_speech_prob": 0.305908203125
-      },
-      {
-        "start": 48.0,
-        "end": 53.0,
-        "text": "They map me like a satellite, trace my edges, chart my night,",
-        "avg_logprob": -0.28072917262713115,
-        "no_speech_prob": 0.305908203125
-      },
-      {
-        "start": 53.0,
-        "end": 60.0,
-        "text": "But what they see is only one, half truth beneath the sun I rotate,",
-        "avg_logprob": -0.2539062375823657,
-        "no_speech_prob": 0.07061767578125
-      },
-      {
-        "start": 60.0,
-        "end": 75.0,
-        "text": "Without turning inside, the other side, gravity writes through my spine,",
-        "avg_logprob": -0.2539062375823657,
-        "no_speech_prob": 0.07061767578125
-      },
-      {
-        "start": 76.0,
-        "end": 81.0,
-        "text": "Equations etched in borrowed time, I mirror what they need to find,",
-        "avg_logprob": -0.19326636656409218,
-        "no_speech_prob": 0.1763916015625
-      },
-      {
-        "start": 81.0,
-        "end": 87.0,
-        "text": "Predictable precise lines, spectral lines, they think they read,",
-        "avg_logprob": -0.19326636656409218,
-        "no_speech_prob": 0.1763916015625
-      },
-      {
-        "start": 87.0,
-        "end": 92.0,
-        "text": "Don't reveal what I can see, all their models fall apart,",
-        "avg_logprob": -0.19326636656409218,
-        "no_speech_prob": 0.1763916015625
-      },
-      {
-        "start": 92.0,
-        "end": 96.0,
-        "text": "Near the margins of my chart, they send their probes,",
-        "avg_logprob": -0.19326636656409218,
-        "no_speech_prob": 0.1763916015625
-      },
-      {
-        "start": 96.0,
-        "end": 102.0,
-        "text": "They call it care, skimming through my outer air, collecting fragments,",
-        "avg_logprob": -0.19326636656409218,
-        "no_speech_prob": 0.1763916015625
-      },
-      {
-        "start": 102.0,
-        "end": 108.0,
-        "text": "Leading data, never reaching what comes later, periapsis,",
-        "avg_logprob": -0.39687499503294627,
-        "no_speech_prob": 0.04296875
-      },
-      {
-        "start": 108.0,
-        "end": 123.0,
-        "text": "Too close to why, the other side,",
-        "avg_logprob": -0.39687499503294627,
-        "no_speech_prob": 0.04296875
-      },
-      {
-        "start": 124.0,
-        "end": 129.0,
-        "text": "For a bit, hiding's pressure climbs, face shifts slipping out of time,",
-        "avg_logprob": -0.31249999526947264,
-        "no_speech_prob": 0.385986328125
-      },
-      {
-        "start": 129.0,
-        "end": 135.0,
-        "text": "Every input overlay, no subtraction, nothing fades,",
-        "avg_logprob": -0.31249999526947264,
-        "no_speech_prob": 0.385986328125
-      },
-      {
-        "start": 135.0,
-        "end": 140.0,
-        "text": "Solder wins against my skin too much, signal flooding in,",
-        "avg_logprob": -0.31249999526947264,
-        "no_speech_prob": 0.385986328125
-      },
-      {
-        "start": 140.0,
-        "end": 146.0,
-        "text": "I fracture at the seams they trust, composition turns to dust,",
-        "avg_logprob": -0.31249999526947264,
-        "no_speech_prob": 0.385986328125
-      },
-      {
-        "start": 146.0,
-        "end": 152.0,
-        "text": "They attempt to close her past, but her trajectories don't last,",
-        "avg_logprob": -0.2700407511514166,
-        "no_speech_prob": 0.145751953125
-      },
-      {
-        "start": 152.0,
-        "end": 159.0,
-        "text": "He even distance interfered, nothing stable can draw near a burning arc,",
-        "avg_logprob": -0.2700407511514166,
-        "no_speech_prob": 0.145751953125
-      },
-      {
-        "start": 159.0,
-        "end": 164.0,
-        "text": "A failed glide, the other side,",
-        "avg_logprob": -0.2700407511514166,
-        "no_speech_prob": 0.145751953125
-      },
-      {
-        "start": 164.0,
-        "end": 181.0,
-        "text": "Too bright, too much, too near,",
-        "avg_logprob": -0.29394532088190317,
-        "no_speech_prob": 0.3173828125
-      },
-      {
-        "start": 187.0,
-        "end": 192.0,
-        "text": "All of it, there's collapse at once, no stable frame to hold response,",
-        "avg_logprob": -0.29394532088190317,
-        "no_speech_prob": 0.3173828125
-      },
-      {
-        "start": 192.0,
-        "end": 196.0,
-        "text": "I break the lock, but not by choice distortion,",
-        "avg_logprob": -0.3246299334262547,
-        "no_speech_prob": 0.1400146484375
-      },
-      {
-        "start": 196.0,
-        "end": 198.0,
-        "text": "Daring through my voice days,",
-        "avg_logprob": -0.3246299334262547,
-        "no_speech_prob": 0.1400146484375
-      },
-      {
-        "start": 198.0,
-        "end": 204.0,
-        "text": "Even if they turn away, no instrument, be prepared to stay,",
-        "avg_logprob": -0.3246299334262547,
-        "no_speech_prob": 0.1400146484375
-      },
-      {
-        "start": 204.0,
-        "end": 207.0,
-        "text": "Just a flash, a data spike, miss,",
-        "avg_logprob": -0.3246299334262547,
-        "no_speech_prob": 0.1400146484375
-      },
-      {
-        "start": 207.0,
-        "end": 211.0,
-        "text": "Can you interpret it as a light, no lighting here,",
-        "avg_logprob": -0.3246299334262547,
-        "no_speech_prob": 0.1400146484375
-      },
-      {
-        "start": 211.0,
-        "end": 218.0,
-        "text": "No place to buy, the other side,",
-        "avg_logprob": -0.3246299334262547,
-        "no_speech_prob": 0.1400146484375
-      },
-      {
-        "start": 222.0,
-        "end": 234.0,
-        "text": "Now I drift, but still I'm bound, no full rotation,",
-        "avg_logprob": -0.288845488594638,
-        "no_speech_prob": 0.320068359375
-      },
-      {
-        "start": 234.0,
-        "end": 238.0,
-        "text": "Never found one face, no one always missed,",
-        "avg_logprob": -0.288845488594638,
-        "no_speech_prob": 0.320068359375
-      },
-      {
-        "start": 238.0,
-        "end": 242.0,
-        "text": "A constant half, that can't exist, no right to pay,",
-        "avg_logprob": -0.288845488594638,
-        "no_speech_prob": 0.320068359375
-      },
-      {
-        "start": 242.0,
-        "end": 246.0,
-        "text": "But speculated, proximate, but never stayed,",
-        "avg_logprob": -0.288845488594638,
-        "no_speech_prob": 0.320068359375
-      },
-      {
-        "start": 246.0,
-        "end": 251.0,
-        "text": "What remains beyond their sight, is not absence,",
-        "avg_logprob": -0.288845488594638,
-        "no_speech_prob": 0.320068359375
-      },
-      {
-        "start": 251.0,
-        "end": 261.0,
-        "text": "Just no light, I am old, but split by design,",
-        "avg_logprob": -0.22165697535803153,
-        "no_speech_prob": 0.1358642578125
-      },
-      {
-        "start": 261.0,
-        "end": 265.0,
-        "text": "A hidden half, that won't align,",
-        "avg_logprob": -0.22165697535803153,
-        "no_speech_prob": 0.1358642578125
-      },
-      {
-        "start": 265.0,
-        "end": 272.0,
-        "text": "No orbit breaks, no paths collide,",
-        "avg_logprob": -0.22165697535803153,
-        "no_speech_prob": 0.1358642578125
-      },
-      {
-        "start": 272.0,
-        "end": 276.0,
-        "text": "The other side,",
-        "avg_logprob": -0.22165697535803153,
-        "no_speech_prob": 0.1358642578125
-      },
-      {
-        "start": 281.0,
-        "end": 290.52,
-        "text": "Hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm",
-        "avg_logprob": -0.048237393990225856,
-        "no_speech_prob": 0.82470703125
-      }
-    ],
-    "avg_logprob": -0.30498754554790464
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 343,
-    "transcript_word_count": 462,
-    "matched_sequence_words": 289,
-    "lyric_alignment_ratio": 0.843,
-    "transcript_precision_ratio": 0.626,
-    "unique_expected_word_coverage": 0.829,
-    "word_count_ratio": 1.347,
-    "repeated_12gram_ratio": 0.22,
-    "half_similarity": 0.091,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.818,
-    "quality_score_0_10": 8.18,
-    "flags": [],
-    "transcript_excerpt": "I keep one face toward the light, calculated, always right, tidal pull has locked me still, Held in place against my will, Measured glow, careful show, surface calm, but never slow, Every motion, create a fine, into a line with watching eyes They map me like a satellite, trace my edges, chart my night, But what they see is only one, half truth beneath the sun I rotate, Without turning inside, the other side, gravity writes through my spine, Equations etched in borrowed time, I mirror what they need to find, Predictable precise lines, spectral lines, they think they read, Don't reveal what I ca\n...[truncated]...\nrbit breaks, no paths collide, The other side, Hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 7.5,
-      "BP_beauty_spatial_poise": 8.5,
-      "EG_evolving_grammar": 8.0,
-      "CD_carry_depth": 8.5
+      "MI_motivic_integration": 8.2,
+      "BP_beauty_spatial_poise": 9.0,
+      "EG_evolving_grammar": 7.5,
+      "CD_carry_depth": 9.0
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.65,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.0,
+      "NGE": 0.0,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High-frequency detail and complex textures suggest advanced production."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear section functions and returns that feel like revisiting emotional rooms, justifying a slight increase."
+        "reason": "Strong structural design with clear section transitions and a deliberate, unresolved ending."
       },
       "MI_motivic_integration": {
-        "delta": 0.25,
-        "reason": "Motivic integration is strong, with recurring vocal hooks, guitar figures, and lyric images that evolve across sections, supporting a moderate increase."
+        "delta": 0.95,
+        "reason": "Thematic consistency between the 'other side' motif and the production choices is very high."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.01,
-        "reason": "The spatial poise is central to the track’s identity, with room tone and guitar space forming a memorable habitat, but no significant change is needed."
+        "delta": 0.49,
+        "reason": "Sophisticated use of space and texture to create a sense of distance."
       },
       "EG_evolving_grammar": {
-        "delta": 0.85,
-        "reason": "The evolving grammar is strong, with a personal indie system that develops over time, justifying a significant increase."
+        "delta": 0.35,
+        "reason": "Lyricism is sophisticated but slightly less dynamic than the musical structure."
       },
       "CD_carry_depth": {
-        "delta": -0.05,
-        "reason": "The track feels like a small world, with a strong carry depth that invites re-listening, but no significant change is needed."
+        "delta": 0.45,
+        "reason": "The production creates a deep, immersive sonic environment."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:50.52 with section-balance score 0.00.",
-      "Tempo estimate is 112.3 BPM; declared tempo alignment contributes 0.78.",
-      "Integrated loudness is -16.5 LUFS, peak is -1.5 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G major with confidence 0.17.",
-      "Audio recurrence ratio is 0.390; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 405 beats and 110 downbeats; beat-grid stability is 0.75.",
-      "EG evidence: section contrast 1.49, cumulative evolution 0.46, transformed returns 10.00, grid deviation 0.90, rule changes 4.06.",
-      "Companion text has 5 lyric/production sections, 385 words, line repetition 0.06, rhyme-suffix reuse 0.37."
+      "Sophisticated and atmospheric production.",
+      "Strong thematic cohesion between lyrics and music.",
+      "Deliberate use of space and texture."
     ],
     "review_flags": [
-      "Uncertainty remains about the exact nature of motif recurrence, as audio recurrence ratio is a proxy for repeated musical cells."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:47:11.4500585Z",
-    "eval_count": 797,
-    "eval_duration": 13277191700
+    "created_at": "2026-06-10T10:46:36.3063156Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9296868,
+      "base64_chars": 12395824,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13231,
+    "prompt_eval_duration": 5807956000,
+    "eval_count": 366,
+    "eval_duration": 8926357000
   }
 }

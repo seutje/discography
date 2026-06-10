@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T20:14:34",
+  "generated_at": "2026-06-10T12:29:38",
   "audio": {
     "path": "Net Worthless/audio/11 - Feel Good Remorse.mp3",
     "duration_seconds": 375.52,
@@ -1753,7 +1753,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1797,658 +1800,16 @@
       "beat_this detected 504 beats and 128 downbeats; beat-grid stability is 0.78.",
       "EG evidence: section contrast 1.56, cumulative evolution 0.56, transformed returns 10.00, grid deviation 0.68, rule changes 2.22.",
       "Companion text has 11 lyric/production sections, 909 words, line repetition 0.09, rhyme-suffix reuse 0.42.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00.",
-      "Transcription check: lyric alignment 0.86, unique-word coverage 0.91, word-count ratio 0.99, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I have a confession, which is annoying because lately, I've been trying not to turn every good day into a courtroom, but here it is, I feel good, suspicious, I know. Ten years back, I was basically a weather warning with shoes, low pressure in the hallway, heavy chances of not replying, small craft advisory fair, anyone trying to love me before noon, I wore the end of the world like a wink coat, buttoned it wrong, slept in it, called it realism and now, now I wake up and make little things, a tiny app for a friend who forgets their groceries, a dumb little game where the frog is sad, but financially responsible, a song like this, which is cheaper than therapy, and less likely To ask about my childhood with the clipboard And somehow that makes people nervous Like joy is only valid If it arrives by hand, covered in mud With references I know the room is wide I can hear the sirens hum But I found a little doorway Where I used to find a wall Maybe it's not on fire Maybe it's not all flood, maybe I'm allowed to feel I have without the train anyone Maybe I can keep my eyes open and still let the morning come Maybe it's not all ruined, maybe some things help someone I said maybe please lower the pitch fork to a conversational angle Everybody keeps telling me, be careful, which is fair, I am careful. I check the label, I check the lock, I check the thing that checks the thing that worry. The checker has hobbies, I don't trust the lad, just because it reaches higher, I test the wrong, I shake the frame, I keep one hand on ordinary doubt, but there's a difference between caution and throwing away the window because sunlight has a story even rude. They say it'll make you lazy, which is funny Because I have learned more in two strange years And funny respectable ones, where I sat politely Beside my own confusion, they call it discipline now And I don't understand something I can ask badly Repeatedly at midnight, with examples with follow-up questions That would make a teacher Stir out the window and reconsider cheese farming And yes, sometimes the answer wears a fake mustache So check, but sometimes it opens a door I didn't know had hinges Maybe it's not all fine or maybe it's not all flooded Maybe I'm allowed to feel lighter without betraying anyone Maybe I can keep my eyes open and still let the morning come Maybe it's not all ruined, maybe some things helps someone And yes, I hear the warnings, I hear the power bills, the server farms The men in expensive jackets are promising the future with very hydrated faces I hear the teachers die of the art, are scared, the workers asking if the latter is being pulled up While everyone claps with the elevator, I hear it I'm not asking you to stop worrying, I'm asking If there is room inside the world for one old and every person who was rounding quietly and found a tool that helped them breathe long enough to make something kind for somebody else is that allowed or do I need to be miserable again for the argument to stay tidy because I remember when everything felt finished not dramatic finished just dishes in the sink Finishing red message, finisher standing in a shop pile Holding two kinds of rice and feeling unqualified To continue as a person finished And now I make things small, things no empire, no prophecy No blowing portal, just a friend says Could it remind me and I say maybe Just the melody catches on the bat I'd have to know and I'll follow in Until the beam stops biting Just a question used to shame me It turns into a staircase, and I know stairs can lead anywhere The basement's included, so I bring a torch, I'm bringing that I bring the back of plans in the suspicious little face But I'm still going, not because everything is safe Because not everything that helps you has to be holy Not everything dangerous is useless Not every new door is a trap Just because the old runs were honest about hurting Maybe it's not all fire Maybe it's not all flood Maybe I'm allowed to feel fire Without betraying anyone Maybe I can keep my eyes open And still let them warn me to come Maybe it's not all ruined Maybe some things help someone Maybe it's not all feelings Maybe I'm not wrong For building little bridges Out of questions and sounds Maybe I can stay careful But still not come and done Maybe it's not all ruined Maybe some things help someone. So yes, I feel good. I'm a checking exits. I'm reading a small print. I'm keeping my doubts well-fed and hydrated, but for once, when the world says, be afraid. I can say, I am. And also, look what I made.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 9.36,
-        "text": "I have a confession, which is annoying because lately, I've been trying not to turn every",
-        "avg_logprob": -0.2376742164293925,
-        "no_speech_prob": 0.4188305139541626
-      },
-      {
-        "start": 9.36,
-        "end": 18.46,
-        "text": "good day into a courtroom, but here it is, I feel good, suspicious, I know.",
-        "avg_logprob": -0.2376742164293925,
-        "no_speech_prob": 0.4188305139541626
-      },
-      {
-        "start": 18.46,
-        "end": 24.56,
-        "text": "Ten years back, I was basically a weather warning with shoes, low pressure in the hallway,",
-        "avg_logprob": -0.2376742164293925,
-        "no_speech_prob": 0.4188305139541626
-      },
-      {
-        "start": 24.56,
-        "end": 29.22,
-        "text": "heavy chances of not replying, small craft advisory fair, anyone trying to love me",
-        "avg_logprob": -0.2889455482363701,
-        "no_speech_prob": 0.5076638460159302
-      },
-      {
-        "start": 29.22,
-        "end": 33.78,
-        "text": "before noon, I wore the end of the world like a wink coat, buttoned it wrong, slept",
-        "avg_logprob": -0.2889455482363701,
-        "no_speech_prob": 0.5076638460159302
-      },
-      {
-        "start": 33.78,
-        "end": 39.0,
-        "text": "in it, called it realism and now, now I wake up and make little things, a tiny app for",
-        "avg_logprob": -0.2889455482363701,
-        "no_speech_prob": 0.5076638460159302
-      },
-      {
-        "start": 39.0,
-        "end": 43.92,
-        "text": "a friend who forgets their groceries, a dumb little game where the frog is sad, but",
-        "avg_logprob": -0.2889455482363701,
-        "no_speech_prob": 0.5076638460159302
-      },
-      {
-        "start": 43.92,
-        "end": 49.84,
-        "text": "financially responsible, a song like this, which is cheaper than therapy, and less likely",
-        "avg_logprob": -0.2889455482363701,
-        "no_speech_prob": 0.5076638460159302
-      },
-      {
-        "start": 49.84,
-        "end": 52.68,
-        "text": "To ask about my childhood with the clipboard",
-        "avg_logprob": -0.2947601332383997,
-        "no_speech_prob": 0.13193610310554504
-      },
-      {
-        "start": 52.68,
-        "end": 55.84,
-        "text": "And somehow that makes people nervous",
-        "avg_logprob": -0.2947601332383997,
-        "no_speech_prob": 0.13193610310554504
-      },
-      {
-        "start": 55.84,
-        "end": 57.72,
-        "text": "Like joy is only valid",
-        "avg_logprob": -0.2947601332383997,
-        "no_speech_prob": 0.13193610310554504
-      },
-      {
-        "start": 57.72,
-        "end": 60.64,
-        "text": "If it arrives by hand, covered in mud",
-        "avg_logprob": -0.2947601332383997,
-        "no_speech_prob": 0.13193610310554504
-      },
-      {
-        "start": 60.64,
-        "end": 62.64,
-        "text": "With references",
-        "avg_logprob": -0.2947601332383997,
-        "no_speech_prob": 0.13193610310554504
-      },
-      {
-        "start": 62.64,
-        "end": 65.24,
-        "text": "I know the room is wide",
-        "avg_logprob": -0.2947601332383997,
-        "no_speech_prob": 0.13193610310554504
-      },
-      {
-        "start": 65.24,
-        "end": 68.08,
-        "text": "I can hear the sirens hum",
-        "avg_logprob": -0.2947601332383997,
-        "no_speech_prob": 0.13193610310554504
-      },
-      {
-        "start": 68.08,
-        "end": 70.6,
-        "text": "But I found a little doorway",
-        "avg_logprob": -0.2947601332383997,
-        "no_speech_prob": 0.13193610310554504
-      },
-      {
-        "start": 70.6,
-        "end": 74.6,
-        "text": "Where I used to find a wall",
-        "avg_logprob": -0.2947601332383997,
-        "no_speech_prob": 0.13193610310554504
-      },
-      {
-        "start": 74.6,
-        "end": 77.44,
-        "text": "Maybe it's not on fire",
-        "avg_logprob": -0.2947601332383997,
-        "no_speech_prob": 0.13193610310554504
-      },
-      {
-        "start": 77.44,
-        "end": 85.6,
-        "text": "Maybe it's not all flood, maybe I'm allowed to feel I have without the train anyone",
-        "avg_logprob": -0.2795727573223968,
-        "no_speech_prob": 0.27994853258132935
-      },
-      {
-        "start": 85.6,
-        "end": 91.84,
-        "text": "Maybe I can keep my eyes open and still let the morning come",
-        "avg_logprob": -0.2795727573223968,
-        "no_speech_prob": 0.27994853258132935
-      },
-      {
-        "start": 91.84,
-        "end": 97.04,
-        "text": "Maybe it's not all ruined, maybe some things help someone",
-        "avg_logprob": -0.2795727573223968,
-        "no_speech_prob": 0.27994853258132935
-      },
-      {
-        "start": 97.04,
-        "end": 101.92,
-        "text": "I said maybe please lower the pitch fork to a conversational angle",
-        "avg_logprob": -0.2795727573223968,
-        "no_speech_prob": 0.27994853258132935
-      },
-      {
-        "start": 101.92,
-        "end": 107.6,
-        "text": "Everybody keeps telling me, be careful, which is fair, I am careful.",
-        "avg_logprob": -0.305371955037117,
-        "no_speech_prob": 0.7579679489135742
-      },
-      {
-        "start": 107.6,
-        "end": 113.32,
-        "text": "I check the label, I check the lock, I check the thing that checks the thing that worry.",
-        "avg_logprob": -0.305371955037117,
-        "no_speech_prob": 0.7579679489135742
-      },
-      {
-        "start": 113.32,
-        "end": 118.28,
-        "text": "The checker has hobbies, I don't trust the lad, just because it reaches higher, I test",
-        "avg_logprob": -0.305371955037117,
-        "no_speech_prob": 0.7579679489135742
-      },
-      {
-        "start": 118.28,
-        "end": 122.44,
-        "text": "the wrong, I shake the frame, I keep one hand on ordinary doubt, but there's a difference",
-        "avg_logprob": -0.305371955037117,
-        "no_speech_prob": 0.7579679489135742
-      },
-      {
-        "start": 122.44,
-        "end": 127.52,
-        "text": "between caution and throwing away the window because sunlight has a story even rude.",
-        "avg_logprob": -0.305371955037117,
-        "no_speech_prob": 0.7579679489135742
-      },
-      {
-        "start": 127.52,
-        "end": 130.44,
-        "text": "They say it'll make you lazy, which is funny",
-        "avg_logprob": -0.29614442921130457,
-        "no_speech_prob": 0.4745141267776489
-      },
-      {
-        "start": 130.44,
-        "end": 133.56,
-        "text": "Because I have learned more in two strange years",
-        "avg_logprob": -0.29614442921130457,
-        "no_speech_prob": 0.4745141267776489
-      },
-      {
-        "start": 133.56,
-        "end": 136.76,
-        "text": "And funny respectable ones, where I sat politely",
-        "avg_logprob": -0.29614442921130457,
-        "no_speech_prob": 0.4745141267776489
-      },
-      {
-        "start": 136.76,
-        "end": 139.8,
-        "text": "Beside my own confusion, they call it discipline now",
-        "avg_logprob": -0.29614442921130457,
-        "no_speech_prob": 0.4745141267776489
-      },
-      {
-        "start": 139.8,
-        "end": 142.68,
-        "text": "And I don't understand something I can ask badly",
-        "avg_logprob": -0.29614442921130457,
-        "no_speech_prob": 0.4745141267776489
-      },
-      {
-        "start": 142.68,
-        "end": 146.36,
-        "text": "Repeatedly at midnight, with examples with follow-up questions",
-        "avg_logprob": -0.29614442921130457,
-        "no_speech_prob": 0.4745141267776489
-      },
-      {
-        "start": 146.36,
-        "end": 147.72,
-        "text": "That would make a teacher",
-        "avg_logprob": -0.29614442921130457,
-        "no_speech_prob": 0.4745141267776489
-      },
-      {
-        "start": 147.72,
-        "end": 150.72,
-        "text": "Stir out the window and reconsider cheese farming",
-        "avg_logprob": -0.29614442921130457,
-        "no_speech_prob": 0.4745141267776489
-      },
-      {
-        "start": 150.72,
-        "end": 153.92,
-        "text": "And yes, sometimes the answer wears a fake mustache",
-        "avg_logprob": -0.29614442921130457,
-        "no_speech_prob": 0.4745141267776489
-      },
-      {
-        "start": 153.92,
-        "end": 160.92,
-        "text": "So check, but sometimes it opens a door I didn't know had hinges",
-        "avg_logprob": -0.2148414871865703,
-        "no_speech_prob": 0.6809513568878174
-      },
-      {
-        "start": 160.92,
-        "end": 166.92,
-        "text": "Maybe it's not all fine or maybe it's not all flooded",
-        "avg_logprob": -0.2148414871865703,
-        "no_speech_prob": 0.6809513568878174
-      },
-      {
-        "start": 166.92,
-        "end": 172.92,
-        "text": "Maybe I'm allowed to feel lighter without betraying anyone",
-        "avg_logprob": -0.2148414871865703,
-        "no_speech_prob": 0.6809513568878174
-      },
-      {
-        "start": 172.92,
-        "end": 178.92,
-        "text": "Maybe I can keep my eyes open and still let the morning come",
-        "avg_logprob": -0.2148414871865703,
-        "no_speech_prob": 0.6809513568878174
-      },
-      {
-        "start": 178.92,
-        "end": 184.68,
-        "text": "Maybe it's not all ruined, maybe some things helps someone",
-        "avg_logprob": -0.31643113017082214,
-        "no_speech_prob": 0.5279377102851868
-      },
-      {
-        "start": 184.68,
-        "end": 189.52,
-        "text": "And yes, I hear the warnings, I hear the power bills, the server farms",
-        "avg_logprob": -0.31643113017082214,
-        "no_speech_prob": 0.5279377102851868
-      },
-      {
-        "start": 189.52,
-        "end": 195.72,
-        "text": "The men in expensive jackets are promising the future with very hydrated faces",
-        "avg_logprob": -0.31643113017082214,
-        "no_speech_prob": 0.5279377102851868
-      },
-      {
-        "start": 195.72,
-        "end": 201.32,
-        "text": "I hear the teachers die of the art, are scared, the workers asking if the latter is being pulled up",
-        "avg_logprob": -0.31643113017082214,
-        "no_speech_prob": 0.5279377102851868
-      },
-      {
-        "start": 201.32,
-        "end": 204.72,
-        "text": "While everyone claps with the elevator, I hear it",
-        "avg_logprob": -0.31643113017082214,
-        "no_speech_prob": 0.5279377102851868
-      },
-      {
-        "start": 204.72,
-        "end": 208.32,
-        "text": "I'm not asking you to stop worrying, I'm asking",
-        "avg_logprob": -0.31643113017082214,
-        "no_speech_prob": 0.5279377102851868
-      },
-      {
-        "start": 208.32,
-        "end": 213.72,
-        "text": "If there is room inside the world for one old and every person who was",
-        "avg_logprob": -0.2924713851549687,
-        "no_speech_prob": 0.4126422107219696
-      },
-      {
-        "start": 213.72,
-        "end": 218.96,
-        "text": "rounding quietly and found a tool that helped them breathe long enough to",
-        "avg_logprob": -0.2924713851549687,
-        "no_speech_prob": 0.4126422107219696
-      },
-      {
-        "start": 218.96,
-        "end": 225.6,
-        "text": "make something kind for somebody else is that allowed or do I need to be",
-        "avg_logprob": -0.2924713851549687,
-        "no_speech_prob": 0.4126422107219696
-      },
-      {
-        "start": 225.6,
-        "end": 233.96,
-        "text": "miserable again for the argument to stay tidy because I remember when",
-        "avg_logprob": -0.2924713851549687,
-        "no_speech_prob": 0.4126422107219696
-      },
-      {
-        "start": 233.96,
-        "end": 237.88,
-        "text": "everything felt finished not dramatic finished just dishes in the sink",
-        "avg_logprob": -0.2924713851549687,
-        "no_speech_prob": 0.4126422107219696
-      },
-      {
-        "start": 237.88,
-        "end": 241.64,
-        "text": "Finishing red message, finisher standing in a shop pile",
-        "avg_logprob": -0.3899504157984368,
-        "no_speech_prob": 0.7507997155189514
-      },
-      {
-        "start": 241.64,
-        "end": 244.92,
-        "text": "Holding two kinds of rice and feeling unqualified",
-        "avg_logprob": -0.3899504157984368,
-        "no_speech_prob": 0.7507997155189514
-      },
-      {
-        "start": 244.92,
-        "end": 247.56,
-        "text": "To continue as a person finished",
-        "avg_logprob": -0.3899504157984368,
-        "no_speech_prob": 0.7507997155189514
-      },
-      {
-        "start": 247.56,
-        "end": 252.04,
-        "text": "And now I make things small, things no empire, no prophecy",
-        "avg_logprob": -0.3899504157984368,
-        "no_speech_prob": 0.7507997155189514
-      },
-      {
-        "start": 252.04,
-        "end": 254.12,
-        "text": "No blowing portal, just a friend says",
-        "avg_logprob": -0.3899504157984368,
-        "no_speech_prob": 0.7507997155189514
-      },
-      {
-        "start": 254.12,
-        "end": 257.4,
-        "text": "Could it remind me and I say maybe",
-        "avg_logprob": -0.3899504157984368,
-        "no_speech_prob": 0.7507997155189514
-      },
-      {
-        "start": 257.4,
-        "end": 259.4,
-        "text": "Just the melody catches on the bat",
-        "avg_logprob": -0.3899504157984368,
-        "no_speech_prob": 0.7507997155189514
-      },
-      {
-        "start": 259.4,
-        "end": 261.64,
-        "text": "I'd have to know and I'll follow in",
-        "avg_logprob": -0.3899504157984368,
-        "no_speech_prob": 0.7507997155189514
-      },
-      {
-        "start": 261.64,
-        "end": 264.52,
-        "text": "Until the beam stops biting",
-        "avg_logprob": -0.3899504157984368,
-        "no_speech_prob": 0.7507997155189514
-      },
-      {
-        "start": 264.52,
-        "end": 266.76,
-        "text": "Just a question used to shame me",
-        "avg_logprob": -0.3899504157984368,
-        "no_speech_prob": 0.7507997155189514
-      },
-      {
-        "start": 266.76,
-        "end": 271.68,
-        "text": "It turns into a staircase, and I know stairs can lead anywhere",
-        "avg_logprob": -0.43298069208483153,
-        "no_speech_prob": 0.6272382140159607
-      },
-      {
-        "start": 271.68,
-        "end": 276.04,
-        "text": "The basement's included, so I bring a torch, I'm bringing that",
-        "avg_logprob": -0.43298069208483153,
-        "no_speech_prob": 0.6272382140159607
-      },
-      {
-        "start": 276.04,
-        "end": 280.44,
-        "text": "I bring the back of plans in the suspicious little face",
-        "avg_logprob": -0.43298069208483153,
-        "no_speech_prob": 0.6272382140159607
-      },
-      {
-        "start": 280.44,
-        "end": 285.88,
-        "text": "But I'm still going, not because everything is safe",
-        "avg_logprob": -0.43298069208483153,
-        "no_speech_prob": 0.6272382140159607
-      },
-      {
-        "start": 285.88,
-        "end": 292.04,
-        "text": "Because not everything that helps you has to be holy",
-        "avg_logprob": -0.43298069208483153,
-        "no_speech_prob": 0.6272382140159607
-      },
-      {
-        "start": 292.04,
-        "end": 295.48,
-        "text": "Not everything dangerous is useless",
-        "avg_logprob": -0.43298069208483153,
-        "no_speech_prob": 0.6272382140159607
-      },
-      {
-        "start": 295.48,
-        "end": 298.2,
-        "text": "Not every new door is a trap",
-        "avg_logprob": -0.34709488683276707,
-        "no_speech_prob": 0.42868292331695557
-      },
-      {
-        "start": 298.2,
-        "end": 303.08,
-        "text": "Just because the old runs were honest about hurting",
-        "avg_logprob": -0.34709488683276707,
-        "no_speech_prob": 0.42868292331695557
-      },
-      {
-        "start": 305.08,
-        "end": 308.28,
-        "text": "Maybe it's not all fire",
-        "avg_logprob": -0.34709488683276707,
-        "no_speech_prob": 0.42868292331695557
-      },
-      {
-        "start": 308.28,
-        "end": 310.68,
-        "text": "Maybe it's not all flood",
-        "avg_logprob": -0.34709488683276707,
-        "no_speech_prob": 0.42868292331695557
-      },
-      {
-        "start": 310.68,
-        "end": 314.28,
-        "text": "Maybe I'm allowed to feel fire",
-        "avg_logprob": -0.34709488683276707,
-        "no_speech_prob": 0.42868292331695557
-      },
-      {
-        "start": 314.28,
-        "end": 317.08,
-        "text": "Without betraying anyone",
-        "avg_logprob": -0.34709488683276707,
-        "no_speech_prob": 0.42868292331695557
-      },
-      {
-        "start": 317.08,
-        "end": 320.28,
-        "text": "Maybe I can keep my eyes open",
-        "avg_logprob": -0.34709488683276707,
-        "no_speech_prob": 0.42868292331695557
-      },
-      {
-        "start": 320.28,
-        "end": 323.48,
-        "text": "And still let them warn me to come",
-        "avg_logprob": -0.34709488683276707,
-        "no_speech_prob": 0.42868292331695557
-      },
-      {
-        "start": 323.48,
-        "end": 326.48,
-        "text": "Maybe it's not all ruined",
-        "avg_logprob": -0.2404534056344453,
-        "no_speech_prob": 0.5447075366973877
-      },
-      {
-        "start": 326.48,
-        "end": 329.48,
-        "text": "Maybe some things help someone",
-        "avg_logprob": -0.2404534056344453,
-        "no_speech_prob": 0.5447075366973877
-      },
-      {
-        "start": 329.48,
-        "end": 332.48,
-        "text": "Maybe it's not all feelings",
-        "avg_logprob": -0.2404534056344453,
-        "no_speech_prob": 0.5447075366973877
-      },
-      {
-        "start": 332.48,
-        "end": 335.48,
-        "text": "Maybe I'm not wrong",
-        "avg_logprob": -0.2404534056344453,
-        "no_speech_prob": 0.5447075366973877
-      },
-      {
-        "start": 335.48,
-        "end": 337.48,
-        "text": "For building little bridges",
-        "avg_logprob": -0.2404534056344453,
-        "no_speech_prob": 0.5447075366973877
-      },
-      {
-        "start": 337.48,
-        "end": 341.48,
-        "text": "Out of questions and sounds",
-        "avg_logprob": -0.2404534056344453,
-        "no_speech_prob": 0.5447075366973877
-      },
-      {
-        "start": 341.48,
-        "end": 344.48,
-        "text": "Maybe I can stay careful",
-        "avg_logprob": -0.2404534056344453,
-        "no_speech_prob": 0.5447075366973877
-      },
-      {
-        "start": 344.48,
-        "end": 347.48,
-        "text": "But still not come and done",
-        "avg_logprob": -0.2404534056344453,
-        "no_speech_prob": 0.5447075366973877
-      },
-      {
-        "start": 347.48,
-        "end": 351.48,
-        "text": "Maybe it's not all ruined",
-        "avg_logprob": -0.2404534056344453,
-        "no_speech_prob": 0.5447075366973877
-      },
-      {
-        "start": 351.48,
-        "end": 360.04,
-        "text": "Maybe some things help someone. So yes, I feel good. I'm a checking exits. I'm reading a small print.",
-        "avg_logprob": -0.35639299053541373,
-        "no_speech_prob": 0.09867643564939499
-      },
-      {
-        "start": 360.04,
-        "end": 366.6,
-        "text": "I'm keeping my doubts well-fed and hydrated, but for once, when the world says, be afraid.",
-        "avg_logprob": -0.35639299053541373,
-        "no_speech_prob": 0.09867643564939499
-      },
-      {
-        "start": 367.4,
-        "end": 374.28,
-        "text": "I can say, I am. And also, look what I made.",
-        "avg_logprob": -0.35639299053541373,
-        "no_speech_prob": 0.09867643564939499
-      }
-    ],
-    "avg_logprob": -0.30787990259416403
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 862,
-    "transcript_word_count": 851,
-    "matched_sequence_words": 739,
-    "lyric_alignment_ratio": 0.857,
-    "transcript_precision_ratio": 0.868,
-    "unique_expected_word_coverage": 0.905,
-    "word_count_ratio": 0.987,
-    "repeated_12gram_ratio": 0.015,
-    "half_similarity": 0.202,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.868,
-    "quality_score_0_10": 8.68,
-    "flags": [],
-    "transcript_excerpt": "I have a confession, which is annoying because lately, I've been trying not to turn every good day into a courtroom, but here it is, I feel good, suspicious, I know. Ten years back, I was basically a weather warning with shoes, low pressure in the hallway, heavy chances of not replying, small craft advisory fair, anyone trying to love me before noon, I wore the end of the world like a wink coat, buttoned it wrong, slept in it, called it realism and now, now I wake up and make little things, a tiny app for a friend who forgets their groceries, a dumb little game where the frog is sad, but finan\n...[truncated]...\nd Maybe I'm allowed to feel fire Without betraying anyone Maybe I can keep my eyes open And still let them warn me to come Maybe it's not all ruined Maybe some things help someone Maybe it's not all feelings Maybe I'm not wrong For building little bridges Out of questions and sounds Maybe I can stay careful But still not come and done Maybe it's not all ruined Maybe some things help someone. So yes, I feel good. I'm a checking exits. I'm reading a small print. I'm keeping my doubts well-fed and hydrated, but for once, when the world says, be afraid. I can say, I am. And also, look what I made."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 8.8,
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 10.0,
       "BP_beauty_spatial_poise": 8.56,
-      "EG_evolving_grammar": 7.4,
-      "CD_carry_depth": 9.1
+      "EG_evolving_grammar": 6.96,
+      "CD_carry_depth": 8.91
     },
     "core_metrics": {
       "CDPD": 0.978,
@@ -2456,52 +1817,59 @@
       "HMII_peak_estimate": 6
     },
     "rung_estimate": {
-      "number": 14,
-      "label": "Quiet twists & recursions",
-      "note": "Heuristic ceiling is conservative; tiers above 14 need close listening and stronger evidence of new grammar."
+      "number": 13,
+      "label": "Inhabited Form",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section lengths are proportionate, transitions feel designed, and the verse-hook ecosystem is clear. However, the final third lacks a strong outro function, slightly reducing structural coherence."
+        "delta": 0.0,
+        "reason": "Base score is high due to clear verse/hook/bridge structure; no significant variance detected."
       },
       "MI_motivic_integration": {
-        "delta": -1.2,
-        "reason": "Motifs from the hook recur in verses and ad-libs, with subtle transformations. The vocal flow and beat patterns show clear integration across sections."
+        "delta": 0.0,
+        "reason": "Strong vocal flow and hook consistency maintain base score."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The sonic habitat is consistently beautiful and coherent, with intentional use of reverb, delay, and stereo field to articulate sections."
+        "reason": "While the production is polished, the 'lo-fi' aesthetic slightly reduces the perceived spatial complexity compared to a high-fidelity studio pop track."
       },
       "EG_evolving_grammar": {
-        "delta": 0.44,
-        "reason": "While the track shows a personal system, the grammar evolves minimally. The beat and harmonic bed remain static, with limited development of the flow grammar."
+        "delta": 0.0,
+        "reason": "The transition between spoken word and melodic hook is consistent with established genre conventions."
       },
       "CD_carry_depth": {
-        "delta": 0.19,
-        "reason": "The track defines a recognisable emotional habitat and invites re-listening. The emotional arc is clear and memorably affecting."
+        "delta": 0.0,
+        "reason": "Melodic motifs in the 'hook' are clearly defined and repeated effectively."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 6:15.52 with section-balance score 0.42.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.59.",
-      "Integrated loudness is -18.6 LUFS, peak is -2.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G major with confidence 0.48.",
-      "Audio recurrence ratio is 0.329; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 504 beats and 128 downbeats; beat-grid stability is 0.78.",
-      "EG evidence: section contrast 1.56, cumulative evolution 0.56, transformed returns 10.00, grid deviation 0.68, rule changes 2.22.",
-      "Companion text has 11 lyric/production sections, 909 words, line repetition 0.09, rhyme-suffix reuse 0.42."
+      "Clear structural markers (verse/hook) provide high coherence.",
+      "Strong vocal performance and clear phrasing maintain motivation.",
+      "The track follows a consistent lo-fi aesthetic throughout.",
+      "Lyrics are well-structured for the genre."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the final third; stronger evidence needed for a clear outro function."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-07T18:14:34.9330783Z",
-    "eval_count": 808,
-    "eval_duration": 14379800000
+    "created_at": "2026-06-10T10:29:38.3536368Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 12016718,
+      "base64_chars": 16022292,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 15747,
+    "prompt_eval_duration": 7003823000,
+    "eval_count": 423,
+    "eval_duration": 10578726000
   }
 }

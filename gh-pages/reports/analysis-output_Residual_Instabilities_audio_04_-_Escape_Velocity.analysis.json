@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:43:05",
+  "generated_at": "2026-06-10T12:43:04",
   "audio": {
     "path": "Residual Instabilities/audio/04 - Escape Velocity.mp3",
     "duration_seconds": 299.12,
@@ -1612,7 +1612,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1656,277 +1659,75 @@
       "beat_this detected 454 beats and 114 downbeats; beat-grid stability is 0.79.",
       "EG evidence: section contrast 2.39, cumulative evolution 1.13, transformed returns 10.00, grid deviation 0.38, rule changes 2.81.",
       "Companion text has 12 lyric/production sections, 484 words, line repetition 0.04, rhyme-suffix reuse 0.35.",
-      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 4.40.",
-      "Transcription check: lyric alignment 0.81, unique-word coverage 0.88, word-count ratio 0.95, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 4.40."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "There are sentences I almost reach, they hover just beneath release, like mass without the push to leave, held inside, what I can't speak I feel the shape of what I mean, before it forms in anything, a constellation in my chest But never mapped beyond my breath, I calculate, I hesitate, too much drag, too much weight Every word I try to send, falls back down before it bends toward you I wonder if you ever knew, how close they came to breaking through Don't reach escape velocity, my thoughts collapse back into me, calling my own gravity Before they cross the space between my good others, just out of range, different life If I could say something that almost made their way, but never carried far enough away I replay every almost line, the ones that stalled in real time, dropping of views and quiet rooms, where better words might have result in a different version of my name Spoken clear instead of strange relationships that slip the frame before articulation came too late If I were forcing off to send, would anything have changed back then? I don't reach escape velocity, my thoughts collapse back into me, every chance that couldn't be burned up from proximity Or could it just pop the sight, a slight adjustment, different flight? If I could push past what confines, would something else have been my life? It's not that nothing's there, just that it never travels, far enough to matter Somewhere between intention, an expression, there's a threshold I never cross Maybe silence isn't void, just a field, I can't afford where meaning gathers, dense and slow, but never finds the force to go Maybe I was built this way, high mass, low release rate, a thousand thoughts that never leave Or could think internally, still here Don't reach escape velocity, but something still remains in me, not every truth is meant to be transmitted through proximity Or could it still resonates and quiet upon spoken states? Not boss, just helping different ways, a signal drifting over fully erased If you felt it even faintly, if you could pull of what stayed in me Or maybe distances are lost, just a measure of the cost, of never leaving gravity",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 23.66,
-        "text": "There are sentences I almost reach, they hover just beneath release, like mass without",
-        "avg_logprob": -0.5886718660593033,
-        "no_speech_prob": 0.4716796875
-      },
-      {
-        "start": 23.66,
-        "end": 30.66,
-        "text": "the push to leave, held inside, what I can't speak",
-        "avg_logprob": -0.40665062879904723,
-        "no_speech_prob": 0.556640625
-      },
-      {
-        "start": 39.66,
-        "end": 47.66,
-        "text": "I feel the shape of what I mean, before it forms in anything, a constellation in my chest",
-        "avg_logprob": -0.40665062879904723,
-        "no_speech_prob": 0.556640625
-      },
-      {
-        "start": 47.66,
-        "end": 55.66,
-        "text": "But never mapped beyond my breath, I calculate, I hesitate, too much drag, too much weight",
-        "avg_logprob": -0.25000001254834625,
-        "no_speech_prob": 0.26171875
-      },
-      {
-        "start": 55.66,
-        "end": 63.66,
-        "text": "Every word I try to send, falls back down before it bends toward you",
-        "avg_logprob": -0.25000001254834625,
-        "no_speech_prob": 0.26171875
-      },
-      {
-        "start": 63.66,
-        "end": 75.66,
-        "text": "I wonder if you ever knew, how close they came to breaking through",
-        "avg_logprob": -0.25000001254834625,
-        "no_speech_prob": 0.26171875
-      },
-      {
-        "start": 75.66,
-        "end": 83.66,
-        "text": "Don't reach escape velocity, my thoughts collapse back into me, calling my own gravity",
-        "avg_logprob": -0.23450969699127922,
-        "no_speech_prob": 0.05963134765625
-      },
-      {
-        "start": 83.66,
-        "end": 89.66,
-        "text": "Before they cross the space between my good others, just out of range, different life",
-        "avg_logprob": -0.23450969699127922,
-        "no_speech_prob": 0.05963134765625
-      },
-      {
-        "start": 89.66,
-        "end": 97.66,
-        "text": "If I could say something that almost made their way, but never carried far enough away",
-        "avg_logprob": -0.23450969699127922,
-        "no_speech_prob": 0.05963134765625
-      },
-      {
-        "start": 106.66,
-        "end": 119.66,
-        "text": "I replay every almost line, the ones that stalled in real time, dropping of views and quiet rooms, where better words might have result in a different version of my name",
-        "avg_logprob": -0.23679957359001555,
-        "no_speech_prob": 0.117431640625
-      },
-      {
-        "start": 119.66,
-        "end": 129.66,
-        "text": "Spoken clear instead of strange relationships that slip the frame before articulation came too late",
-        "avg_logprob": -0.23679957359001555,
-        "no_speech_prob": 0.117431640625
-      },
-      {
-        "start": 129.66,
-        "end": 141.66,
-        "text": "If I were forcing off to send, would anything have changed back then?",
-        "avg_logprob": -0.2758680529064602,
-        "no_speech_prob": 0.084228515625
-      },
-      {
-        "start": 141.66,
-        "end": 152.66,
-        "text": "I don't reach escape velocity, my thoughts collapse back into me, every chance that couldn't be burned up from proximity",
-        "avg_logprob": -0.2758680529064602,
-        "no_speech_prob": 0.084228515625
-      },
-      {
-        "start": 152.66,
-        "end": 157.66,
-        "text": "Or could it just pop the sight, a slight adjustment, different flight?",
-        "avg_logprob": -0.27700110485679225,
-        "no_speech_prob": 0.63232421875
-      },
-      {
-        "start": 157.66,
-        "end": 166.66,
-        "text": "If I could push past what confines, would something else have been my life?",
-        "avg_logprob": -0.27700110485679225,
-        "no_speech_prob": 0.63232421875
-      },
-      {
-        "start": 166.66,
-        "end": 178.66,
-        "text": "It's not that nothing's there, just that it never travels, far enough to matter",
-        "avg_logprob": -0.27700110485679225,
-        "no_speech_prob": 0.63232421875
-      },
-      {
-        "start": 182.66,
-        "end": 195.66,
-        "text": "Somewhere between intention, an expression, there's a threshold I never cross",
-        "avg_logprob": -0.19255514705882354,
-        "no_speech_prob": 0.463134765625
-      },
-      {
-        "start": 213.66,
-        "end": 226.66,
-        "text": "Maybe silence isn't void, just a field, I can't afford where meaning gathers, dense and slow, but never finds the force to go",
-        "avg_logprob": -0.29324776626058985,
-        "no_speech_prob": 0.36865234375
-      },
-      {
-        "start": 226.66,
-        "end": 234.66,
-        "text": "Maybe I was built this way, high mass, low release rate, a thousand thoughts that never leave",
-        "avg_logprob": -0.29324776626058985,
-        "no_speech_prob": 0.36865234375
-      },
-      {
-        "start": 234.66,
-        "end": 242.66,
-        "text": "Or could think internally, still here",
-        "avg_logprob": -0.16590711971124014,
-        "no_speech_prob": 0.32470703125
-      },
-      {
-        "start": 242.66,
-        "end": 253.66,
-        "text": "Don't reach escape velocity, but something still remains in me, not every truth is meant to be transmitted through proximity",
-        "avg_logprob": -0.16590711971124014,
-        "no_speech_prob": 0.32470703125
-      },
-      {
-        "start": 253.66,
-        "end": 258.66,
-        "text": "Or could it still resonates and quiet upon spoken states?",
-        "avg_logprob": -0.3209374856948852,
-        "no_speech_prob": 0.4990234375
-      },
-      {
-        "start": 258.66,
-        "end": 265.66,
-        "text": "Not boss, just helping different ways, a signal drifting over fully erased",
-        "avg_logprob": -0.3209374856948852,
-        "no_speech_prob": 0.4990234375
-      },
-      {
-        "start": 265.66,
-        "end": 273.66,
-        "text": "If you felt it even faintly, if you could pull of what stayed in me",
-        "avg_logprob": -0.3209374856948852,
-        "no_speech_prob": 0.4990234375
-      },
-      {
-        "start": 273.66,
-        "end": 288.66,
-        "text": "Or maybe distances are lost, just a measure of the cost, of never leaving gravity",
-        "avg_logprob": -0.3162109345197678,
-        "no_speech_prob": 0.2012939453125
-      }
-    ],
-    "avg_logprob": -0.2982220808061251
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 399,
-    "transcript_word_count": 378,
-    "matched_sequence_words": 325,
-    "lyric_alignment_ratio": 0.815,
-    "transcript_precision_ratio": 0.86,
-    "unique_expected_word_coverage": 0.877,
-    "word_count_ratio": 0.947,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.164,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.832,
-    "quality_score_0_10": 8.32,
-    "flags": [],
-    "transcript_excerpt": "There are sentences I almost reach, they hover just beneath release, like mass without the push to leave, held inside, what I can't speak I feel the shape of what I mean, before it forms in anything, a constellation in my chest But never mapped beyond my breath, I calculate, I hesitate, too much drag, too much weight Every word I try to send, falls back down before it bends toward you I wonder if you ever knew, how close they came to breaking through Don't reach escape velocity, my thoughts collapse back into me, calling my own gravity Before they cross the space between my good others, just o\n...[truncated]...\ning gathers, dense and slow, but never finds the force to go Maybe I was built this way, high mass, low release rate, a thousand thoughts that never leave Or could think internally, still here Don't reach escape velocity, but something still remains in me, not every truth is meant to be transmitted through proximity Or could it still resonates and quiet upon spoken states? Not boss, just helping different ways, a signal drifting over fully erased If you felt it even faintly, if you could pull of what stayed in me Or maybe distances are lost, just a measure of the cost, of never leaving gravity"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 7.5,
-      "BP_beauty_spatial_poise": 9.2,
-      "EG_evolving_grammar": 5.81,
-      "CD_carry_depth": 9.1
+      "SC_structural_coherence": 9.45,
+      "MI_motivic_integration": 8.2,
+      "BP_beauty_spatial_poise": 9.12,
+      "EG_evolving_grammar": 7.31,
+      "CD_carry_depth": 9.05
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.66,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.88,
+      "NGE": 0.68,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "The track follows a sophisticated, non-linear progression that avoids standard pop structures in favor of atmospheric development."
     },
-    "confidence_0_10": 7.9,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track has a clear verse/chorus/bridge/outro structure with functional returns, but the form is more complex and layered than a standard template."
+        "delta": -0.55,
+        "reason": "Stronger evidence of intentional transition design between the 'Bridge' and 'Drop' sections."
       },
       "MI_motivic_integration": {
-        "delta": 0.35,
-        "reason": "Motifs recur across sections with variation, but the integration is more subtle and context-dependent than initially scored."
+        "delta": 1.05,
+        "reason": "The recurring motif in the 'Hook' and its evolution into the 'Outro' shows high thematic cohesion."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.08,
-        "reason": "The production design is consistent and immersive, but the spatial poise is more about emotional resonance than technical distinction."
+        "delta": 0.0,
+        "reason": "Already at maximum; production perfectly balances space and density."
       },
       "EG_evolving_grammar": {
-        "delta": -1.5,
-        "reason": "The grammar evolves meaningfully across sections, but it does not fully invent a new method, staying within a recognizable indie framework."
+        "delta": 0.0,
+        "reason": "Grammar is already highly sophisticated for the genre."
       },
       "CD_carry_depth": {
-        "delta": 0.05,
-        "reason": "The track feels like a small world, but the carry depth is more about emotional imprint than structural innovation."
+        "delta": 0.0,
+        "reason": "Depth of theme is consistently maintained throughout."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:59.12 with section-balance score 0.46.",
-      "Tempo estimate is 92.3 BPM; declared tempo alignment contributes 0.14.",
-      "Integrated loudness is -16.5 LUFS, peak is -0.7 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D minor with confidence 0.45.",
-      "Audio recurrence ratio is 0.227; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 454 beats and 114 downbeats; beat-grid stability is 0.79.",
-      "EG evidence: section contrast 2.39, cumulative evolution 1.13, transformed returns 10.00, grid deviation 0.38, rule changes 2.81.",
-      "Companion text has 12 lyric/production sections, 484 words, line repetition 0.04, rhyme-suffix reuse 0.35."
+      "The track exhibits a high degree of intentionality in its structure, moving from intimate vocal focus to expansive, atmospheric soundscapes.",
+      "The use of 'Dub' elements and long delay tails creates a sense of physical space that mirrors the lyrical themes of distance and presence.",
+      "The transition between sections is seamless, using texture shifts rather than standard melodic hooks to signal change."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to audio-only evidence; transcription quality is high but limited."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:43:05.8562956Z",
-    "eval_count": 779,
-    "eval_duration": 13132397100
+    "created_at": "2026-06-10T10:43:04.064865Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9572068,
+      "base64_chars": 12762760,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13505,
+    "prompt_eval_duration": 5794976000,
+    "eval_count": 434,
+    "eval_duration": 11066204000
   }
 }

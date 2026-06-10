@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T21:54:47",
+  "generated_at": "2026-06-10T12:03:09",
   "audio": {
     "path": "Algorithmically Optimized Collection of Keywords/audio/09 - Missing Time.mp3",
     "duration_seconds": 292.88,
@@ -1639,7 +1639,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -1683,272 +1686,8 @@
       "beat_this detected 459 beats and 109 downbeats; beat-grid stability is 0.16.",
       "EG evidence: section contrast 2.88, cumulative evolution 0.98, transformed returns 10.00, grid deviation 0.72, rule changes 6.25.",
       "Companion text has 11 lyric/production sections, 408 words, line repetition 0.26, rhyme-suffix reuse 0.41.",
-      "Production/vocal notes contain transformation cues (density-change); intent score 2.85.",
-      "Transcription check: lyric alignment 0.82, unique-word coverage 0.84, word-count ratio 1.01, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change); intent score 2.85."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I know I was built there wide and wide, it's simple, but I can't wait to see what I can do. So I just built their white empire December flickers I would have seen Every tyrant's how to tie every clock forgets to blink Behind the names we can't pronounce on branches bending into glow Photographs the ones that still teach the room what they used to know Footsteps echo without feet, chairs remember waking Heat calendar dust on borrowed days the future stars the past decays If joy is just a borrowed sound why does it ache when it comes around? It's missing time the season sings a choir bells with broken strings We toast the air we set the place for everyone we couldn't save It's missing time the quiet kind the seconds we can't leave behind December knows our truest crime we keep on living Missing time Missing time Paper stars and paper skin we learn the shape of the end again Your life still sleeps in vinyl grooves one thin by hands we never use The snow keeps secrets we once said like prayers we meant but never read A living room of ghosts and light we learned to grieve in me on white If hope is just a delayed reply why does it rain when no one's alive It's missing time the season sings a choir bells with broken strings we toast the air we set the place for everyone we couldn't save It's missing time the quiet kind the seconds we can't leave behind December knows our truest crime we keep on living Missing time Missing time The snowfall loops like older frames the Europeans but not the names I trace the cracks in yesterday well after learned to slip away if heaven's just a feedback home then play it soft till morning comes Hold the silence let it breathe Count the gaps between the bees It's missing time the season sings a choir bells with broken strings we toast the air we set the place for everyone we couldn't save It's missing time the quiet kind the seconds we can't leave behind December knows our truest crime we keep on living Missing time When lights go out the darker lines with all the love we can't rewind if time is lost then let it rhyme with every name we hold Missing time",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 20.0,
-        "text": "I know I was built there wide and wide, it's simple, but I can't wait to see what I can do.",
-        "avg_logprob": -1.3458333134651184,
-        "no_speech_prob": 0.5224609375
-      },
-      {
-        "start": 20.0,
-        "end": 38.0,
-        "text": "So I just built their white empire December flickers I would have seen",
-        "avg_logprob": -0.5965909090909091,
-        "no_speech_prob": 0.712890625
-      },
-      {
-        "start": 38.0,
-        "end": 47.0,
-        "text": "Every tyrant's how to tie every clock forgets to blink",
-        "avg_logprob": -0.5965909090909091,
-        "no_speech_prob": 0.712890625
-      },
-      {
-        "start": 47.0,
-        "end": 52.0,
-        "text": "Behind the names we can't pronounce on branches bending into glow",
-        "avg_logprob": -0.3170021307670464,
-        "no_speech_prob": 0.459716796875
-      },
-      {
-        "start": 52.0,
-        "end": 57.0,
-        "text": "Photographs the ones that still teach the room what they used to know",
-        "avg_logprob": -0.3170021307670464,
-        "no_speech_prob": 0.459716796875
-      },
-      {
-        "start": 57.0,
-        "end": 62.0,
-        "text": "Footsteps echo without feet, chairs remember waking",
-        "avg_logprob": -0.3170021307670464,
-        "no_speech_prob": 0.459716796875
-      },
-      {
-        "start": 62.0,
-        "end": 68.0,
-        "text": "Heat calendar dust on borrowed days the future stars the past decays",
-        "avg_logprob": -0.3170021307670464,
-        "no_speech_prob": 0.459716796875
-      },
-      {
-        "start": 68.0,
-        "end": 78.0,
-        "text": "If joy is just a borrowed sound why does it ache when it comes around?",
-        "avg_logprob": -0.1695429175647337,
-        "no_speech_prob": 0.213623046875
-      },
-      {
-        "start": 78.0,
-        "end": 84.0,
-        "text": "It's missing time the season sings a choir bells with broken strings",
-        "avg_logprob": -0.1695429175647337,
-        "no_speech_prob": 0.213623046875
-      },
-      {
-        "start": 84.0,
-        "end": 89.0,
-        "text": "We toast the air we set the place for everyone we couldn't save",
-        "avg_logprob": -0.1695429175647337,
-        "no_speech_prob": 0.213623046875
-      },
-      {
-        "start": 89.0,
-        "end": 95.0,
-        "text": "It's missing time the quiet kind the seconds we can't leave behind",
-        "avg_logprob": -0.1695429175647337,
-        "no_speech_prob": 0.213623046875
-      },
-      {
-        "start": 95.0,
-        "end": 100.0,
-        "text": "December knows our truest crime we keep on living",
-        "avg_logprob": -0.23898237485152024,
-        "no_speech_prob": 0.0277862548828125
-      },
-      {
-        "start": 100.0,
-        "end": 103.0,
-        "text": "Missing time",
-        "avg_logprob": -0.23898237485152024,
-        "no_speech_prob": 0.0277862548828125
-      },
-      {
-        "start": 105.0,
-        "end": 108.0,
-        "text": "Missing time",
-        "avg_logprob": -0.23898237485152024,
-        "no_speech_prob": 0.0277862548828125
-      },
-      {
-        "start": 112.0,
-        "end": 120.0,
-        "text": "Paper stars and paper skin we learn the shape of the end again",
-        "avg_logprob": -0.23898237485152024,
-        "no_speech_prob": 0.0277862548828125
-      },
-      {
-        "start": 120.0,
-        "end": 131.0,
-        "text": "Your life still sleeps in vinyl grooves one thin by hands we never use",
-        "avg_logprob": -0.180138220007603,
-        "no_speech_prob": 0.056427001953125
-      },
-      {
-        "start": 131.0,
-        "end": 138.0,
-        "text": "The snow keeps secrets we once said like prayers we meant but never read",
-        "avg_logprob": -0.180138220007603,
-        "no_speech_prob": 0.056427001953125
-      },
-      {
-        "start": 138.0,
-        "end": 144.0,
-        "text": "A living room of ghosts and light we learned to grieve in me on white",
-        "avg_logprob": -0.180138220007603,
-        "no_speech_prob": 0.056427001953125
-      },
-      {
-        "start": 144.0,
-        "end": 154.0,
-        "text": "If hope is just a delayed reply why does it rain when no one's alive",
-        "avg_logprob": -0.05934495192307692,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 154.0,
-        "end": 165.0,
-        "text": "It's missing time the season sings a choir bells with broken strings we toast the air we set the place for everyone we couldn't save",
-        "avg_logprob": -0.05934495192307692,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 165.0,
-        "end": 170.0,
-        "text": "It's missing time the quiet kind the seconds we can't leave behind",
-        "avg_logprob": -0.05934495192307692,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 170.0,
-        "end": 175.0,
-        "text": "December knows our truest crime we keep on living",
-        "avg_logprob": -0.09256784696328013,
-        "no_speech_prob": 0.08612060546875
-      },
-      {
-        "start": 175.0,
-        "end": 179.0,
-        "text": "Missing time",
-        "avg_logprob": -0.09256784696328013,
-        "no_speech_prob": 0.08612060546875
-      },
-      {
-        "start": 179.0,
-        "end": 184.0,
-        "text": "Missing time",
-        "avg_logprob": -0.3448153341358358,
-        "no_speech_prob": 0.233154296875
-      },
-      {
-        "start": 198.0,
-        "end": 203.0,
-        "text": "The snowfall loops like older frames the Europeans but not the names",
-        "avg_logprob": -0.3448153341358358,
-        "no_speech_prob": 0.233154296875
-      },
-      {
-        "start": 203.0,
-        "end": 217.0,
-        "text": "I trace the cracks in yesterday well after learned to slip away if heaven's just a feedback home then play it soft till morning comes",
-        "avg_logprob": -0.2349917731787029,
-        "no_speech_prob": 0.33642578125
-      },
-      {
-        "start": 220.0,
-        "end": 227.0,
-        "text": "Hold the silence let it breathe",
-        "avg_logprob": -0.2349917731787029,
-        "no_speech_prob": 0.33642578125
-      },
-      {
-        "start": 227.0,
-        "end": 238.0,
-        "text": "Count the gaps between the bees",
-        "avg_logprob": -0.07882611873822334,
-        "no_speech_prob": 0.050323486328125
-      },
-      {
-        "start": 238.0,
-        "end": 249.0,
-        "text": "It's missing time the season sings a choir bells with broken strings we toast the air we set the place for everyone we couldn't save",
-        "avg_logprob": -0.07882611873822334,
-        "no_speech_prob": 0.050323486328125
-      },
-      {
-        "start": 249.0,
-        "end": 260.0,
-        "text": "It's missing time the quiet kind the seconds we can't leave behind December knows our truest crime we keep on living",
-        "avg_logprob": -0.1064749053030303,
-        "no_speech_prob": 0.27099609375
-      },
-      {
-        "start": 260.0,
-        "end": 264.0,
-        "text": "Missing time",
-        "avg_logprob": -0.1064749053030303,
-        "no_speech_prob": 0.27099609375
-      },
-      {
-        "start": 264.0,
-        "end": 281.0,
-        "text": "When lights go out the darker lines with all the love we can't rewind if time is lost then let it rhyme with every name we hold",
-        "avg_logprob": -0.11511230678297579,
-        "no_speech_prob": 0.086669921875
-      },
-      {
-        "start": 281.0,
-        "end": 286.0,
-        "text": "Missing time",
-        "avg_logprob": -0.25390625,
-        "no_speech_prob": 0.49951171875
-      }
-    ],
-    "avg_logprob": -0.30585591386065264
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 393,
-    "transcript_word_count": 399,
-    "matched_sequence_words": 324,
-    "lyric_alignment_ratio": 0.824,
-    "transcript_precision_ratio": 0.812,
-    "unique_expected_word_coverage": 0.844,
-    "word_count_ratio": 1.015,
-    "repeated_12gram_ratio": 0.196,
-    "half_similarity": 0.347,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.827,
-    "quality_score_0_10": 8.27,
-    "flags": [],
-    "transcript_excerpt": "I know I was built there wide and wide, it's simple, but I can't wait to see what I can do. So I just built their white empire December flickers I would have seen Every tyrant's how to tie every clock forgets to blink Behind the names we can't pronounce on branches bending into glow Photographs the ones that still teach the room what they used to know Footsteps echo without feet, chairs remember waking Heat calendar dust on borrowed days the future stars the past decays If joy is just a borrowed sound why does it ache when it comes around? It's missing time the season sings a choir bells with \n...[truncated]...\n trace the cracks in yesterday well after learned to slip away if heaven's just a feedback home then play it soft till morning comes Hold the silence let it breathe Count the gaps between the bees It's missing time the season sings a choir bells with broken strings we toast the air we set the place for everyone we couldn't save It's missing time the quiet kind the seconds we can't leave behind December knows our truest crime we keep on living Missing time When lights go out the darker lines with all the love we can't rewind if time is lost then let it rhyme with every name we hold Missing time"
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -1972,44 +1711,50 @@
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The piece exhibits strong structural coherence with 9 audio sections and a clear section-balance score of 0.26. The form holds across time with a consistent flow of development and return."
+        "reason": "Base score reflects strong structural cohesion across the multi-section layout."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motivic integration is strong, with repeated musical cells and variations across sections. The recurrence ratio of 0.309 and transformed returns with high harmonic and timbre similarity support this."
+        "reason": "Motivic integration is high due to consistent lyrical and melodic motifs throughout."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The piece maintains a high level of beauty and spatial poise, with rich harmonic textures, dynamic shifts, and a well-structured sonic space that supports the emotional and thematic journey."
+        "reason": "The production notes suggest a sophisticated, atmospheric sonic space."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar is evident through the high cumulative evolution score of 0.976 and the significant rule changes across sections. The piece develops internal rules and motifs without rupture."
+        "reason": "The 'evolution' of the vocal delivery from whispered incantations to resonant intensity provides significant evidence for evolving grammar."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The carry depth is strong, with emotional transport and re-listen pull evident in the lyrical and production elements. The piece creates a self-sustaining musical habitat that resonates beyond the initial listen."
+        "reason": "Lyrical depth is consistently high across all sections."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:52.88 with section-balance score 0.26.",
-      "Tempo estimate is 117.5 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -17.1 LUFS, peak is -1.1 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D minor with confidence 0.18.",
-      "Audio recurrence ratio is 0.309; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 459 beats and 109 downbeats; beat-grid stability is 0.16.",
-      "EG evidence: section contrast 2.88, cumulative evolution 0.98, transformed returns 10.00, grid deviation 0.72, rule changes 6.25.",
-      "Companion text has 11 lyric/production sections, 408 words, line repetition 0.26, rhyme-suffix reuse 0.41."
+      "The track demonstrates a sophisticated, ritualistic atmosphere as described in production notes.",
+      "The transition between 'whispered incantations' and 'resonant intensity' provides clear evidence of evolving musical grammar.",
+      "The recurring motif of 'missing time' serves as a strong structural anchor."
     ],
     "review_flags": [
-      "Uncertainty remains regarding the exact nature of motif recognition due to the audio recurrence ratio being a proxy for repeated musical cells."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T19:54:47.5639657Z",
-    "eval_count": 858,
-    "eval_duration": 14262099100
+    "created_at": "2026-06-10T10:03:09.542218Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9372386,
+      "base64_chars": 12496516,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13279,
+    "prompt_eval_duration": 5630536000,
+    "eval_count": 368,
+    "eval_duration": 9091224000
   }
 }

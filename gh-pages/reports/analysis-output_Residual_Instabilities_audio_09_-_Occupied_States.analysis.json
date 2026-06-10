@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:46:30",
+  "generated_at": "2026-06-10T12:46:03",
   "audio": {
     "path": "Residual Instabilities/audio/09 - Occupied States.mp3",
     "duration_seconds": 326.08,
@@ -2085,7 +2085,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -2129,445 +2132,20 @@
       "beat_this detected 638 beats and 162 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 1.48, cumulative evolution 0.48, transformed returns 10.00, grid deviation 0.41, rule changes 4.72.",
       "Companion text has 11 lyric/production sections, 428 words, line repetition 0.05, rhyme-suffix reuse 0.35.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 6.60.",
-      "Transcription check: lyric alignment 0.74, unique-word coverage 0.70, word-count ratio 1.03, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 6.60."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "To much weight in quiet space Something bending out of place Held together far too long Still insisting I am strong Layers crush but I don't fold Back so tight I turn to stone Every force that drags me in Meet so all beneath my skin Count the limits Count the strain Numbers whisper through the frame Polly's love beneath my breath Note to share the same descent I refuse the inward call Refuse the final fall Something builds without release Not surrender just And crease Push against the inward pull Fill the gaps until that fall Every state already claims Still I hold I still remain Hold it shells that will not break Every line begins to ache Fermi levels climbing high Still I will not simplify Clapsing Just come press Polly's love beneath my breath Note to share the same descent I refuse the inward call Refuse the final fall Every state already claims Still I hold I still remain Hold it shells that will not break Every line begins to ache Still I brace against the curve Every ounce of stubbornness I am in pressure without flame I persist without a name Something slips Through the seams Not failure Just egg streams Course so dense it starts to glow But there's nowhere left to go Repair through the field Repair overrule I have helped past every sign But the arc of space and time But the constant start to break Something has to give away Not done enduring Overdo White dwarf art accounting states No more room only weight I was now a man to us This fire Just a little more I can't hold it anymore All the pressure I became Turns to fire without a name Every now I try to keep Break support beneath the heat I was structured, I was full Now I fracture into stone Every limit I defy Comes undone at once inside Not resisting, I release Fragments drift where I want to stir Burning brighter than I should Not a failure Not a fall Just the end of holding up",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 23.0,
-        "text": "To much weight in quiet space Something bending out of place",
-        "avg_logprob": -0.6072916587193807,
-        "no_speech_prob": 0.5927734375
-      },
-      {
-        "start": 23.0,
-        "end": 33.0,
-        "text": "Held together far too long Still insisting I am strong",
-        "avg_logprob": -0.26108870631264103,
-        "no_speech_prob": 0.25537109375
-      },
-      {
-        "start": 33.0,
-        "end": 39.0,
-        "text": "Layers crush but I don't fold Back so tight I turn to stone",
-        "avg_logprob": -0.26108870631264103,
-        "no_speech_prob": 0.25537109375
-      },
-      {
-        "start": 39.0,
-        "end": 44.0,
-        "text": "Every force that drags me in Meet so all beneath my skin",
-        "avg_logprob": -0.26108870631264103,
-        "no_speech_prob": 0.25537109375
-      },
-      {
-        "start": 44.0,
-        "end": 50.0,
-        "text": "Count the limits Count the strain Numbers whisper through the frame",
-        "avg_logprob": -0.26108870631264103,
-        "no_speech_prob": 0.25537109375
-      },
-      {
-        "start": 50.0,
-        "end": 55.0,
-        "text": "Polly's love beneath my breath Note to share the same descent",
-        "avg_logprob": -0.3078124931880406,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 55.0,
-        "end": 66.0,
-        "text": "I refuse the inward call Refuse the final fall",
-        "avg_logprob": -0.3078124931880406,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 66.0,
-        "end": 76.0,
-        "text": "Something builds without release",
-        "avg_logprob": -0.3078124931880406,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 76.0,
-        "end": 84.0,
-        "text": "Not surrender just",
-        "avg_logprob": -0.3942057155072689,
-        "no_speech_prob": 0.029296875
-      },
-      {
-        "start": 84.0,
-        "end": 96.0,
-        "text": "And crease",
-        "avg_logprob": -0.3942057155072689,
-        "no_speech_prob": 0.029296875
-      },
-      {
-        "start": 96.0,
-        "end": 101.0,
-        "text": "Push against the inward pull Fill the gaps until that fall",
-        "avg_logprob": -0.3942057155072689,
-        "no_speech_prob": 0.029296875
-      },
-      {
-        "start": 101.0,
-        "end": 107.0,
-        "text": "Every state already claims Still I hold I still remain",
-        "avg_logprob": -0.31265944850688077,
-        "no_speech_prob": 0.173095703125
-      },
-      {
-        "start": 107.0,
-        "end": 112.0,
-        "text": "Hold it shells that will not break Every line begins to ache",
-        "avg_logprob": -0.31265944850688077,
-        "no_speech_prob": 0.173095703125
-      },
-      {
-        "start": 112.0,
-        "end": 118.0,
-        "text": "Fermi levels climbing high Still I will not simplify",
-        "avg_logprob": -0.31265944850688077,
-        "no_speech_prob": 0.173095703125
-      },
-      {
-        "start": 118.0,
-        "end": 122.0,
-        "text": "Clapsing",
-        "avg_logprob": -0.31265944850688077,
-        "no_speech_prob": 0.173095703125
-      },
-      {
-        "start": 122.0,
-        "end": 125.0,
-        "text": "Just come press",
-        "avg_logprob": -0.31265944850688077,
-        "no_speech_prob": 0.173095703125
-      },
-      {
-        "start": 131.0,
-        "end": 136.0,
-        "text": "Polly's love beneath my breath Note to share the same descent",
-        "avg_logprob": -0.3227272705598311,
-        "no_speech_prob": 0.0239715576171875
-      },
-      {
-        "start": 136.0,
-        "end": 141.0,
-        "text": "I refuse the inward call Refuse the final fall",
-        "avg_logprob": -0.3227272705598311,
-        "no_speech_prob": 0.0239715576171875
-      },
-      {
-        "start": 141.0,
-        "end": 147.0,
-        "text": "Every state already claims Still I hold I still remain",
-        "avg_logprob": -0.3227272705598311,
-        "no_speech_prob": 0.0239715576171875
-      },
-      {
-        "start": 147.0,
-        "end": 153.0,
-        "text": "Hold it shells that will not break Every line begins to ache",
-        "avg_logprob": -0.3227272705598311,
-        "no_speech_prob": 0.0239715576171875
-      },
-      {
-        "start": 153.0,
-        "end": 159.0,
-        "text": "Still I brace against the curve Every ounce of stubbornness",
-        "avg_logprob": -0.44196429529360365,
-        "no_speech_prob": 0.187255859375
-      },
-      {
-        "start": 159.0,
-        "end": 170.0,
-        "text": "I am in pressure without flame I persist without a name",
-        "avg_logprob": -0.44196429529360365,
-        "no_speech_prob": 0.187255859375
-      },
-      {
-        "start": 170.0,
-        "end": 176.0,
-        "text": "Something slips",
-        "avg_logprob": -0.2863897924360476,
-        "no_speech_prob": 0.46875
-      },
-      {
-        "start": 176.0,
-        "end": 180.0,
-        "text": "Through the seams",
-        "avg_logprob": -0.2863897924360476,
-        "no_speech_prob": 0.46875
-      },
-      {
-        "start": 180.0,
-        "end": 184.0,
-        "text": "Not failure",
-        "avg_logprob": -0.2863897924360476,
-        "no_speech_prob": 0.46875
-      },
-      {
-        "start": 184.0,
-        "end": 191.0,
-        "text": "Just egg streams",
-        "avg_logprob": -0.2863897924360476,
-        "no_speech_prob": 0.46875
-      },
-      {
-        "start": 191.0,
-        "end": 195.0,
-        "text": "Course so dense it starts to glow",
-        "avg_logprob": -0.2863897924360476,
-        "no_speech_prob": 0.46875
-      },
-      {
-        "start": 195.0,
-        "end": 198.0,
-        "text": "But there's nowhere left to go",
-        "avg_logprob": -0.2863897924360476,
-        "no_speech_prob": 0.46875
-      },
-      {
-        "start": 198.0,
-        "end": 200.0,
-        "text": "Repair through the field",
-        "avg_logprob": -0.5084325680657039,
-        "no_speech_prob": 0.40283203125
-      },
-      {
-        "start": 200.0,
-        "end": 203.0,
-        "text": "Repair overrule",
-        "avg_logprob": -0.5084325680657039,
-        "no_speech_prob": 0.40283203125
-      },
-      {
-        "start": 203.0,
-        "end": 205.0,
-        "text": "I have helped past every sign",
-        "avg_logprob": -0.5084325680657039,
-        "no_speech_prob": 0.40283203125
-      },
-      {
-        "start": 205.0,
-        "end": 208.0,
-        "text": "But the arc of space and time",
-        "avg_logprob": -0.5084325680657039,
-        "no_speech_prob": 0.40283203125
-      },
-      {
-        "start": 208.0,
-        "end": 211.0,
-        "text": "But the constant start to break",
-        "avg_logprob": -0.5084325680657039,
-        "no_speech_prob": 0.40283203125
-      },
-      {
-        "start": 211.0,
-        "end": 215.0,
-        "text": "Something has to give away",
-        "avg_logprob": -0.5084325680657039,
-        "no_speech_prob": 0.40283203125
-      },
-      {
-        "start": 215.0,
-        "end": 218.0,
-        "text": "Not done enduring",
-        "avg_logprob": -0.5084325680657039,
-        "no_speech_prob": 0.40283203125
-      },
-      {
-        "start": 218.0,
-        "end": 221.0,
-        "text": "Overdo",
-        "avg_logprob": -0.5084325680657039,
-        "no_speech_prob": 0.40283203125
-      },
-      {
-        "start": 221.0,
-        "end": 225.0,
-        "text": "White dwarf art accounting states",
-        "avg_logprob": -0.5084325680657039,
-        "no_speech_prob": 0.40283203125
-      },
-      {
-        "start": 225.0,
-        "end": 230.0,
-        "text": "No more room only weight",
-        "avg_logprob": -0.4385850826899211,
-        "no_speech_prob": 0.264404296875
-      },
-      {
-        "start": 230.0,
-        "end": 238.0,
-        "text": "I was now a man to us",
-        "avg_logprob": -0.4385850826899211,
-        "no_speech_prob": 0.264404296875
-      },
-      {
-        "start": 238.0,
-        "end": 242.0,
-        "text": "This fire",
-        "avg_logprob": -0.4385850826899211,
-        "no_speech_prob": 0.264404296875
-      },
-      {
-        "start": 242.0,
-        "end": 248.0,
-        "text": "Just a little more",
-        "avg_logprob": -0.4385850826899211,
-        "no_speech_prob": 0.264404296875
-      },
-      {
-        "start": 248.0,
-        "end": 252.0,
-        "text": "I can't hold it anymore",
-        "avg_logprob": -0.4385850826899211,
-        "no_speech_prob": 0.264404296875
-      },
-      {
-        "start": 252.0,
-        "end": 255.0,
-        "text": "All the pressure I became",
-        "avg_logprob": -0.24094741448523507,
-        "no_speech_prob": 0.29541015625
-      },
-      {
-        "start": 255.0,
-        "end": 258.0,
-        "text": "Turns to fire without a name",
-        "avg_logprob": -0.24094741448523507,
-        "no_speech_prob": 0.29541015625
-      },
-      {
-        "start": 258.0,
-        "end": 261.0,
-        "text": "Every now I try to keep",
-        "avg_logprob": -0.24094741448523507,
-        "no_speech_prob": 0.29541015625
-      },
-      {
-        "start": 261.0,
-        "end": 264.0,
-        "text": "Break support beneath the heat",
-        "avg_logprob": -0.24094741448523507,
-        "no_speech_prob": 0.29541015625
-      },
-      {
-        "start": 264.0,
-        "end": 267.0,
-        "text": "I was structured, I was full",
-        "avg_logprob": -0.24094741448523507,
-        "no_speech_prob": 0.29541015625
-      },
-      {
-        "start": 267.0,
-        "end": 270.0,
-        "text": "Now I fracture into stone",
-        "avg_logprob": -0.24094741448523507,
-        "no_speech_prob": 0.29541015625
-      },
-      {
-        "start": 270.0,
-        "end": 273.0,
-        "text": "Every limit I defy",
-        "avg_logprob": -0.24094741448523507,
-        "no_speech_prob": 0.29541015625
-      },
-      {
-        "start": 273.0,
-        "end": 279.0,
-        "text": "Comes undone at once inside",
-        "avg_logprob": -0.24094741448523507,
-        "no_speech_prob": 0.29541015625
-      },
-      {
-        "start": 279.0,
-        "end": 284.0,
-        "text": "Not resisting, I release",
-        "avg_logprob": -0.17293074324324326,
-        "no_speech_prob": 0.048675537109375
-      },
-      {
-        "start": 284.0,
-        "end": 291.0,
-        "text": "Fragments drift where I want to stir",
-        "avg_logprob": -0.17293074324324326,
-        "no_speech_prob": 0.048675537109375
-      },
-      {
-        "start": 291.0,
-        "end": 296.0,
-        "text": "Burning brighter than I should",
-        "avg_logprob": -0.17293074324324326,
-        "no_speech_prob": 0.048675537109375
-      },
-      {
-        "start": 296.0,
-        "end": 299.0,
-        "text": "Not a failure",
-        "avg_logprob": -0.17293074324324326,
-        "no_speech_prob": 0.048675537109375
-      },
-      {
-        "start": 299.0,
-        "end": 302.0,
-        "text": "Not a fall",
-        "avg_logprob": -0.17293074324324326,
-        "no_speech_prob": 0.048675537109375
-      },
-      {
-        "start": 302.0,
-        "end": 307.0,
-        "text": "Just the end of holding up",
-        "avg_logprob": -0.2532552083333333,
-        "no_speech_prob": 0.333251953125
-      }
-    ],
-    "avg_logprob": -0.3532566270897154
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 340,
-    "transcript_word_count": 350,
-    "matched_sequence_words": 253,
-    "lyric_alignment_ratio": 0.744,
-    "transcript_precision_ratio": 0.723,
-    "unique_expected_word_coverage": 0.705,
-    "word_count_ratio": 1.029,
-    "repeated_12gram_ratio": 0.062,
-    "half_similarity": 0.149,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.734,
-    "quality_score_0_10": 7.34,
-    "flags": [],
-    "transcript_excerpt": "To much weight in quiet space Something bending out of place Held together far too long Still insisting I am strong Layers crush but I don't fold Back so tight I turn to stone Every force that drags me in Meet so all beneath my skin Count the limits Count the strain Numbers whisper through the frame Polly's love beneath my breath Note to share the same descent I refuse the inward call Refuse the final fall Something builds without release Not surrender just And crease Push against the inward pull Fill the gaps until that fall Every state already claims Still I hold I still remain Hold it shell\n...[truncated]...\nthe arc of space and time But the constant start to break Something has to give away Not done enduring Overdo White dwarf art accounting states No more room only weight I was now a man to us This fire Just a little more I can't hold it anymore All the pressure I became Turns to fire without a name Every now I try to keep Break support beneath the heat I was structured, I was full Now I fracture into stone Every limit I defy Comes undone at once inside Not resisting, I release Fragments drift where I want to stir Burning brighter than I should Not a failure Not a fall Just the end of holding up"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 7.2,
-      "BP_beauty_spatial_poise": 8.9,
-      "EG_evolving_grammar": 8.5,
-      "CD_carry_depth": 9.1
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 6.88,
+      "BP_beauty_spatial_poise": 8.74,
+      "EG_evolving_grammar": 7.76,
+      "CD_carry_depth": 8.87
     },
     "core_metrics": {
-      "CDPD": 0.82,
-      "NGE": 0.69,
+      "CDPD": 0.837,
+      "NGE": 0.687,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
@@ -2575,48 +2153,54 @@
       "label": "Inhabited Form",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track exhibits strong section contrast (1.48) and cumulative evolution (0.48), with clear returns and rule changes (4.72). The form feels intentional and inhabited, justifying a slight increase."
+        "delta": 0.0,
+        "reason": "No change"
       },
       "MI_motivic_integration": {
-        "delta": 0.32,
-        "reason": "Motivic recurrence is evident in transformed returns (10.0) and repeated rule changes (4.72). The track integrates motifs across sections, justifying a moderate increase."
+        "delta": 0.0,
+        "reason": "No change"
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.16,
-        "reason": "The production notes and text features emphasize spatial and sonic habitat, with intentional room tone, reverb, and texture. This supports a slight increase in spatial beauty."
+        "delta": 0.0,
+        "reason": "No change"
       },
       "EG_evolving_grammar": {
-        "delta": 0.74,
-        "reason": "The evolving grammar is well-documented in the transformed returns and rule changes. The track develops a personal indie grammar over time, justifying a significant increase."
+        "delta": 0.0,
+        "reason": "No change"
       },
       "CD_carry_depth": {
-        "delta": 0.23,
-        "reason": "The track defines a recognizable emotional and sonic habitat, with a strong carry depth that invites re-listening. The final section’s release and emotional arc support a moderate increase."
+        "delta": 0.0,
+        "reason": "No change"
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:26.08 with section-balance score 0.31.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.41.",
-      "Integrated loudness is -16.5 LUFS, peak is -1.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is E minor with confidence 0.22.",
-      "Audio recurrence ratio is 0.263; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 638 beats and 162 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 1.48, cumulative evolution 0.48, transformed returns 10.00, grid deviation 0.41, rule changes 4.72.",
-      "Companion text has 11 lyric/production sections, 428 words, line repetition 0.05, rhyme-suffix reuse 0.35."
+      "The track exhibits a highly structured and intentional progression with clear demarcations between intro, verse-like sections (I & II), transitions, and an expansive climax. The production notes describe 'sudden dynamic expansions' and 'rhythmic collapse', which are reflected in the audio as distinct shifts in texture and density. The use of 'broken' and 'distorted' elements suggests a deliberate aesthetic choice rather than accidental artifacts.",
+      "The lyrical content follows a consistent arc from internal pressure to release, supporting the musical structure.",
+      "The transition between sections is marked by significant changes in timbre and rhythm (e.g., section 10 to 11), indicating high structural coherence."
     ],
     "review_flags": [
-      "Uncertainty remains around section detection and motif recognition, as audio recurrence ratio is a rough proxy."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:46:30.2852081Z",
-    "eval_count": 847,
-    "eval_duration": 14358939000
+    "created_at": "2026-06-10T10:46:03.2502367Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10434788,
+      "base64_chars": 13913052,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14531,
+    "prompt_eval_duration": 6367994000,
+    "eval_count": 442,
+    "eval_duration": 10984080000
   }
 }

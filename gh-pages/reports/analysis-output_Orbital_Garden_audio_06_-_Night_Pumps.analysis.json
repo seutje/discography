@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:37:29",
+  "generated_at": "2026-06-10T12:38:06",
   "audio": {
     "path": "Orbital Garden/audio/06 - Night Pumps.mp3",
     "duration_seconds": 231.6,
@@ -1363,7 +1363,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1407,256 +1410,76 @@
       "beat_this detected 397 beats and 100 downbeats; beat-grid stability is 0.92.",
       "EG evidence: section contrast 2.15, cumulative evolution 0.88, transformed returns 10.00, grid deviation 0.22, rule changes 1.67.",
       "Companion text has 8 lyric/production sections, 287 words, line repetition 0.19, rhyme-suffix reuse 0.28.",
-      "Production/vocal notes contain transformation cues (space-change); intent score 1.55.",
-      "Transcription check: lyric alignment 0.82, unique-word coverage 0.85, word-count ratio 1.07, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (space-change); intent score 1.55."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Can't hear a move and keep the roots fed, small amps burned over every bed. By the time they put the slept, I was listening for the vows, counting pressure from the pipes, reading trimmers and walls. Nothing filled with any drama, first it whispered then it leaned. So I learned a smaller warning's hidden in the daily green. Check the rest, watch the gauge ring. Work becomes a kind of prayer when the lily needs your care. My pumps under glass keep the garden from the cold. I am tired but I am present, I am careful with the load. Every root depends on rhythm, every chamber, trust the flow, no, no. Beauty is a living system, made of things that must be known. There were alarms I turned to music, little bells I learned to tune. There were cracks I sealed in silence underneath the waning moon. I stopped waiting for a rival stop pretending work would end. Back this is the same return with more attention than any other glass. Only air, the garden does not care what I intended. Only weather comes only weather morning finds it breathing steady still enough. My pumps under glass keep the garden from the cold. I am tired but I am present, I am careful with the load. Every root depends on rhythm, every chamber, trust the flow, no, no. Beauty is a living system, made of things that must be known. I am tired but I am present, I am careful with the load. I am tired but I am present, I am careful with the load.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 24.0,
-        "text": "Can't hear a move and keep the roots fed, small amps burned over every bed.",
-        "avg_logprob": -0.9903274263654437,
-        "no_speech_prob": 0.3935546875
-      },
-      {
-        "start": 30.0,
-        "end": 46.0,
-        "text": "By the time they put the slept, I was listening for the vows, counting pressure from the pipes, reading trimmers and walls.",
-        "avg_logprob": -0.4238591260380215,
-        "no_speech_prob": 0.68798828125
-      },
-      {
-        "start": 46.0,
-        "end": 51.0,
-        "text": "Nothing filled with any drama, first it whispered then it leaned.",
-        "avg_logprob": -0.4238591260380215,
-        "no_speech_prob": 0.68798828125
-      },
-      {
-        "start": 51.0,
-        "end": 56.0,
-        "text": "So I learned a smaller warning's hidden in the daily green.",
-        "avg_logprob": -0.4238591260380215,
-        "no_speech_prob": 0.68798828125
-      },
-      {
-        "start": 56.0,
-        "end": 64.0,
-        "text": "Check the rest, watch the gauge ring.",
-        "avg_logprob": -0.30003721444379716,
-        "no_speech_prob": 0.8046875
-      },
-      {
-        "start": 64.0,
-        "end": 74.0,
-        "text": "Work becomes a kind of prayer when the lily needs your care.",
-        "avg_logprob": -0.30003721444379716,
-        "no_speech_prob": 0.8046875
-      },
-      {
-        "start": 74.0,
-        "end": 82.0,
-        "text": "My pumps under glass keep the garden from the cold.",
-        "avg_logprob": -0.30003721444379716,
-        "no_speech_prob": 0.8046875
-      },
-      {
-        "start": 82.0,
-        "end": 91.0,
-        "text": "I am tired but I am present, I am careful with the load.",
-        "avg_logprob": -0.22916667190966783,
-        "no_speech_prob": 0.398193359375
-      },
-      {
-        "start": 91.0,
-        "end": 100.0,
-        "text": "Every root depends on rhythm, every chamber, trust the flow, no, no.",
-        "avg_logprob": -0.22916667190966783,
-        "no_speech_prob": 0.398193359375
-      },
-      {
-        "start": 100.0,
-        "end": 111.0,
-        "text": "Beauty is a living system, made of things that must be known.",
-        "avg_logprob": -0.22916667190966783,
-        "no_speech_prob": 0.398193359375
-      },
-      {
-        "start": 111.0,
-        "end": 123.0,
-        "text": "There were alarms I turned to music, little bells I learned to tune.",
-        "avg_logprob": -0.21907552207509676,
-        "no_speech_prob": 0.53125
-      },
-      {
-        "start": 123.0,
-        "end": 128.0,
-        "text": "There were cracks I sealed in silence underneath the waning moon.",
-        "avg_logprob": -0.21907552207509676,
-        "no_speech_prob": 0.53125
-      },
-      {
-        "start": 128.0,
-        "end": 133.0,
-        "text": "I stopped waiting for a rival stop pretending work would end.",
-        "avg_logprob": -0.21907552207509676,
-        "no_speech_prob": 0.53125
-      },
-      {
-        "start": 133.0,
-        "end": 142.0,
-        "text": "Back this is the same return with more attention than any other glass.",
-        "avg_logprob": -0.37719727400690317,
-        "no_speech_prob": 0.62744140625
-      },
-      {
-        "start": 142.0,
-        "end": 154.0,
-        "text": "Only air, the garden does not care what I intended.",
-        "avg_logprob": -0.37719727400690317,
-        "no_speech_prob": 0.62744140625
-      },
-      {
-        "start": 154.0,
-        "end": 166.0,
-        "text": "Only weather comes only weather morning finds it breathing steady still enough.",
-        "avg_logprob": -0.16705452064250378,
-        "no_speech_prob": 0.68994140625
-      },
-      {
-        "start": 166.0,
-        "end": 174.0,
-        "text": "My pumps under glass keep the garden from the cold.",
-        "avg_logprob": -0.16705452064250378,
-        "no_speech_prob": 0.68994140625
-      },
-      {
-        "start": 174.0,
-        "end": 181.0,
-        "text": "I am tired but I am present, I am careful with the load.",
-        "avg_logprob": -0.16705452064250378,
-        "no_speech_prob": 0.68994140625
-      },
-      {
-        "start": 181.0,
-        "end": 193.0,
-        "text": "Every root depends on rhythm, every chamber, trust the flow, no, no.",
-        "avg_logprob": -0.07611909105971053,
-        "no_speech_prob": 0.490478515625
-      },
-      {
-        "start": 193.0,
-        "end": 202.0,
-        "text": "Beauty is a living system, made of things that must be known.",
-        "avg_logprob": -0.07611909105971053,
-        "no_speech_prob": 0.490478515625
-      },
-      {
-        "start": 203.0,
-        "end": 212.0,
-        "text": "I am tired but I am present, I am careful with the load.",
-        "avg_logprob": -0.26294644049235755,
-        "no_speech_prob": 0.90087890625
-      },
-      {
-        "start": 212.0,
-        "end": 220.0,
-        "text": "I am tired but I am present, I am careful with the load.",
-        "avg_logprob": -0.26294644049235755,
-        "no_speech_prob": 0.90087890625
-      }
-    ],
-    "avg_logprob": -0.3406331608847277
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 251,
-    "transcript_word_count": 268,
-    "matched_sequence_words": 205,
-    "lyric_alignment_ratio": 0.817,
-    "transcript_precision_ratio": 0.765,
-    "unique_expected_word_coverage": 0.853,
-    "word_count_ratio": 1.068,
-    "repeated_12gram_ratio": 0.156,
-    "half_similarity": 0.418,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.819,
-    "quality_score_0_10": 8.19,
-    "flags": [],
-    "transcript_excerpt": "Can't hear a move and keep the roots fed, small amps burned over every bed. By the time they put the slept, I was listening for the vows, counting pressure from the pipes, reading trimmers and walls. Nothing filled with any drama, first it whispered then it leaned. So I learned a smaller warning's hidden in the daily green. Check the rest, watch the gauge ring. Work becomes a kind of prayer when the lily needs your care. My pumps under glass keep the garden from the cold. I am tired but I am present, I am careful with the load. Every root depends on rhythm, every chamber, trust the flow, no, n\n...[truncated]...\nfor a rival stop pretending work would end. Back this is the same return with more attention than any other glass. Only air, the garden does not care what I intended. Only weather comes only weather morning finds it breathing steady still enough. My pumps under glass keep the garden from the cold. I am tired but I am present, I am careful with the load. Every root depends on rhythm, every chamber, trust the flow, no, no. Beauty is a living system, made of things that must be known. I am tired but I am present, I am careful with the load. I am tired but I am present, I am careful with the load."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 8.2,
-      "BP_beauty_spatial_poise": 8.6,
-      "EG_evolving_grammar": 6.5,
-      "CD_carry_depth": 8.3
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.97,
+      "BP_beauty_spatial_poise": 8.8,
+      "EG_evolving_grammar": 5.98,
+      "CD_carry_depth": 8.17
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.54,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.872,
+      "NGE": 0.551,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
-      "number": 14,
-      "label": "Quiet Twists & Recursions",
+      "number": 12,
+      "label": "Recursion Threshold",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like revisiting emotional rooms."
+        "delta": 0.0,
+        "reason": "Base score reflects high structural coherence across the defined sections (Intro, Verse, Pre-Hook, Hook, Bridge, Outro)."
       },
       "MI_motivic_integration": {
-        "delta": 0.23,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong motivic integration."
+        "delta": 0.0,
+        "reason": "Motivic integration is well-supported by recurring musical motifs and consistent vocal delivery."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.2,
-        "reason": "The production maintains a consistent spatial identity with room tone and guitar space forming a memorable habitat."
+        "delta": 0.0,
+        "reason": "The production maintains a high level of aesthetic poise with intentional use of space and texture."
       },
       "EG_evolving_grammar": {
-        "delta": 0.52,
-        "reason": "While the track develops a personal indie grammar over time, it does not fully invent a new method, so the score is adjusted downward."
+        "delta": 0.0,
+        "reason": "Lyrics show significant evolution from descriptive imagery to more abstract/philosophical statements in the final hook."
       },
       "CD_carry_depth": {
-        "delta": 0.13,
-        "reason": "The track feels like a small world with a recognizable emotional and psychic habitat, inviting re-listening beyond mood-playlist utility."
+        "delta": 0.0,
+        "reason": "The lyrical depth is consistent with the 'focused' and 'responsible' mood descriptors."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:51.60 with section-balance score 0.53.",
-      "Tempo estimate is 103.4 BPM; declared tempo alignment contributes 0.79.",
-      "Integrated loudness is -17.2 LUFS, peak is -1.4 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is E minor with confidence 0.25.",
-      "Audio recurrence ratio is 0.318; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 397 beats and 100 downbeats; beat-grid stability is 0.92.",
-      "EG evidence: section contrast 2.15, cumulative evolution 0.88, transformed returns 10.00, grid deviation 0.22, rule changes 1.67.",
-      "Companion text has 8 lyric/production sections, 287 words, line repetition 0.19, rhyme-suffix reuse 0.28."
+      "Strong structural coherence across all sections.",
+      "Motivic integration supported by recurring motifs.",
+      "High aesthetic poise in production.",
+      "Lyric evolution from imagery to abstract concepts."
     ],
     "review_flags": [
-      "Uncertainty remains about the exact nature of motivic integration due to the lack of true motif recognition."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:37:29.559586Z",
-    "eval_count": 782,
-    "eval_duration": 12785476000
+    "created_at": "2026-06-10T10:38:06.736404Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7411278,
+      "base64_chars": 9881704,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 10817,
+    "prompt_eval_duration": 4532104000,
+    "eval_count": 418,
+    "eval_duration": 10258439000
   }
 }

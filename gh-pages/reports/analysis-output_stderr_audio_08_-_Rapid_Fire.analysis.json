@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T23:00:19",
+  "generated_at": "2026-06-10T12:58:18",
   "audio": {
     "path": "stderr/audio/08 - Rapid Fire.mp3",
     "duration_seconds": 179.96,
@@ -912,19 +912,22 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.59,
-      "MI_motivic_integration": 7.6,
-      "BP_beauty_spatial_poise": 8.68,
-      "EG_evolving_grammar": 5.99,
-      "CD_carry_depth": 6.43
+      "SC_structural_coherence": 9.11,
+      "MI_motivic_integration": 8.42,
+      "BP_beauty_spatial_poise": 8.91,
+      "EG_evolving_grammar": 6.4,
+      "CD_carry_depth": 7.66
     },
     "core_metrics": {
-      "CDPD": 0.771,
-      "NGE": 0.544,
+      "CDPD": 0.851,
+      "NGE": 0.564,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -937,9 +940,9 @@
       "overall_score": 2.974
     },
     "transcription_penalties": {
-      "alignment_penalty": 1.164,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 1.164
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 10,
@@ -956,432 +959,77 @@
       "beat_this detected 223 beats and 58 downbeats; beat-grid stability is 0.94.",
       "EG evidence: section contrast 2.01, cumulative evolution 0.95, transformed returns 7.73, grid deviation 0.69, rule changes 2.50.",
       "Companion text has 12 lyric/production sections, 784 words, line repetition 0.19, rhyme-suffix reuse 0.51.",
-      "Production/vocal notes contain transformation cues (density-change, dropout); intent score 2.45.",
-      "Transcription check: lyric alignment 0.53, unique-word coverage 0.68, word-count ratio 1.01, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 1.16, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (density-change, dropout); intent score 2.45."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Yeah, eh, anybody pointing fingers, nobody looking at me Fak You died at least the scene got a target, the blame got a more high ground But the dirt on shame caught loud on lack of dirt, don't shake like a handshake clean And the mess you made, you say they fix it, it's like they're wrong, right the whole damn care like your rage is a strong, but you could your own corners when it suits you need same moves, different foods to the same damn scene Cancel this castle that caught them out real quick, but you caught your people when it gets too big Screamer accountability, preach like a priest, think you lie to yourself, just to get some peace Point one, finna got three right back, but you never tell around, never face that fact Every shot, you fire, gotta recode true, but you duck that smoke, like it ain't about you You load out words, like a weapon in a fight, every sin in sharp, every post in a night But the mess they caught, you don't look too long, cause you know, get down, so I'm feelin' a little wrong Rep the fire, rep the tent, out of the tent, everybody shooting up and looking where they at Rep the tent, rep the tent, out of the tent, lifeline fans, but they don't want people back Rep the tent, rep the tent, out of the tent, you said they had a problem, what you remember it at Rep the tent, rep the tent, out of the tent, everybody guilty, just a dissonant You yelling at evil while you're about to pay, stick on your fox, then you truck that hate Said it cool, city wrongs, hit it full of sin, what the blood's still warm on the food you're wearing You drag your lines where it's easy to stand, pick your battles based on comfort Not a plan, you won't rely, what you don't participate, try to blind out, tell the things on your pay You call out, breathe with your cheeks, that check, say system, broken, but you still collect Said it a slip, said it blind, say they lost, but you know, I'm yourself, just to dodge your costs Convenient truth, the skill rate of you, what you hate, and it might be living in you Different massing, gangs to different role, you ain't fixing, living if you got your soul Every shot you take out ahead and trace to the same game, flawed it, you can't face You don't miss, but you don't sick clear, cause I talk to you, hate stay on way to near Rep it fire, rep the tent, out of the tent, everybody shouldn't ever look in what they at Rep the tent, rep the tent, out of the tent, lifeline fans, but they don't want people back Rep the tent, rep the tent, out of the tent, you said they had a problem, what you remember it at Rep the tent, rep the tent, out of the tent, everybody guilty, just a dissonant Yeah, yeah, yeah, yeah, all of it ain't just you, all of it's buzz We got the same contradiction as in the sky, different justification, safe type of lies We can choose what we want to defend, count the principles, better bends and bands We just creeps to feel no control, those stones just to cover our own We walk clean hands in a dirty game, so we shift that blame, rename the shame We talk like we better like we evolve, I have our belief, never get resolved We's gonna react and feed in the fire, calling out lies, no we just don't know why We hear that different from what we hate, just different flipels on the same damn peaks And human mess for the different spins and quiet guilt, we don't let sink in We load our words like we ready for war, but we don't even know what we're fighting for If we stop for a second, look inside, we see the same thing, we try to hide Rep the tent, rep the tent, everybody shootin' up and lookin' where we at Rep the tent, rep the tent, out of the tent, right of the tent, but they don't always double bad Rep the tent, rep the tent, out of the tent, we said they had a problem, but when you're at that Rep the tent, rep the tent, everybody galsy, just a different name Yeah, I went in just sitting in the crossfire, just cry to lies, a lot of ones",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 8.68,
-        "text": "Yeah, eh, anybody pointing fingers, nobody looking at me",
-        "avg_logprob": -0.8190440230008935,
-        "no_speech_prob": 0.461669921875
-      },
-      {
-        "start": 8.68,
-        "end": 10.48,
-        "text": "Fak",
-        "avg_logprob": -0.8190440230008935,
-        "no_speech_prob": 0.461669921875
-      },
-      {
-        "start": 10.48,
-        "end": 16.52,
-        "text": "You died at least the scene got a target, the blame got a more high ground",
-        "avg_logprob": -0.8190440230008935,
-        "no_speech_prob": 0.461669921875
-      },
-      {
-        "start": 16.52,
-        "end": 19.88,
-        "text": "But the dirt on shame caught loud on lack of dirt, don't shake like a handshake clean",
-        "avg_logprob": -0.8190440230008935,
-        "no_speech_prob": 0.461669921875
-      },
-      {
-        "start": 19.88,
-        "end": 23.0,
-        "text": "And the mess you made, you say they fix it, it's like they're wrong, right the whole",
-        "avg_logprob": -0.8190440230008935,
-        "no_speech_prob": 0.461669921875
-      },
-      {
-        "start": 23.0,
-        "end": 25.6,
-        "text": "damn care like your rage is a strong, but you could your own corners when it suits you",
-        "avg_logprob": -0.8190440230008935,
-        "no_speech_prob": 0.461669921875
-      },
-      {
-        "start": 25.6,
-        "end": 27.6,
-        "text": "need same moves, different foods to the same damn scene",
-        "avg_logprob": -0.8190440230008935,
-        "no_speech_prob": 0.461669921875
-      },
-      {
-        "start": 27.6,
-        "end": 30.76,
-        "text": "Cancel this castle that caught them out real quick, but you caught your people when it gets too big",
-        "avg_logprob": -0.4811557845853681,
-        "no_speech_prob": 0.5341796875
-      },
-      {
-        "start": 30.76,
-        "end": 34.04,
-        "text": "Screamer accountability, preach like a priest, think you lie to yourself, just to get some peace",
-        "avg_logprob": -0.4811557845853681,
-        "no_speech_prob": 0.5341796875
-      },
-      {
-        "start": 34.04,
-        "end": 37.16,
-        "text": "Point one, finna got three right back, but you never tell around, never face that fact",
-        "avg_logprob": -0.4811557845853681,
-        "no_speech_prob": 0.5341796875
-      },
-      {
-        "start": 37.16,
-        "end": 40.36,
-        "text": "Every shot, you fire, gotta recode true, but you duck that smoke, like it ain't about you",
-        "avg_logprob": -0.4811557845853681,
-        "no_speech_prob": 0.5341796875
-      },
-      {
-        "start": 40.36,
-        "end": 43.56,
-        "text": "You load out words, like a weapon in a fight, every sin in sharp, every post in a night",
-        "avg_logprob": -0.4811557845853681,
-        "no_speech_prob": 0.5341796875
-      },
-      {
-        "start": 43.56,
-        "end": 49.52,
-        "text": "But the mess they caught, you don't look too long, cause you know, get down, so I'm feelin' a little wrong",
-        "avg_logprob": -0.4811557845853681,
-        "no_speech_prob": 0.5341796875
-      },
-      {
-        "start": 49.52,
-        "end": 52.56,
-        "text": "Rep the fire, rep the tent, out of the tent, everybody shooting up and looking where they at",
-        "avg_logprob": -0.4811557845853681,
-        "no_speech_prob": 0.5341796875
-      },
-      {
-        "start": 52.56,
-        "end": 55.84,
-        "text": "Rep the tent, rep the tent, out of the tent, lifeline fans, but they don't want people back",
-        "avg_logprob": -0.4811557845853681,
-        "no_speech_prob": 0.5341796875
-      },
-      {
-        "start": 55.88,
-        "end": 59.08,
-        "text": "Rep the tent, rep the tent, out of the tent, you said they had a problem, what you remember it at",
-        "avg_logprob": -0.46664798206278024,
-        "no_speech_prob": 0.396728515625
-      },
-      {
-        "start": 59.08,
-        "end": 62.52,
-        "text": "Rep the tent, rep the tent, out of the tent, everybody guilty, just a dissonant",
-        "avg_logprob": -0.46664798206278024,
-        "no_speech_prob": 0.396728515625
-      },
-      {
-        "start": 62.52,
-        "end": 65.72,
-        "text": "You yelling at evil while you're about to pay, stick on your fox, then you truck that hate",
-        "avg_logprob": -0.46664798206278024,
-        "no_speech_prob": 0.396728515625
-      },
-      {
-        "start": 65.72,
-        "end": 69.12,
-        "text": "Said it cool, city wrongs, hit it full of sin, what the blood's still warm on the food you're wearing",
-        "avg_logprob": -0.46664798206278024,
-        "no_speech_prob": 0.396728515625
-      },
-      {
-        "start": 69.12,
-        "end": 71.72,
-        "text": "You drag your lines where it's easy to stand, pick your battles based on comfort",
-        "avg_logprob": -0.46664798206278024,
-        "no_speech_prob": 0.396728515625
-      },
-      {
-        "start": 71.72,
-        "end": 75.36,
-        "text": "Not a plan, you won't rely, what you don't participate, try to blind out, tell the things on your pay",
-        "avg_logprob": -0.46664798206278024,
-        "no_speech_prob": 0.396728515625
-      },
-      {
-        "start": 75.36,
-        "end": 78.56,
-        "text": "You call out, breathe with your cheeks, that check, say system, broken, but you still collect",
-        "avg_logprob": -0.46664798206278024,
-        "no_speech_prob": 0.396728515625
-      },
-      {
-        "start": 78.56,
-        "end": 81.92,
-        "text": "Said it a slip, said it blind, say they lost, but you know, I'm yourself, just to dodge your costs",
-        "avg_logprob": -0.46664798206278024,
-        "no_speech_prob": 0.396728515625
-      },
-      {
-        "start": 81.92,
-        "end": 85.04,
-        "text": "Convenient truth, the skill rate of you, what you hate, and it might be living in you",
-        "avg_logprob": -0.3467948739345257,
-        "no_speech_prob": 0.63427734375
-      },
-      {
-        "start": 85.04,
-        "end": 88.6,
-        "text": "Different massing, gangs to different role, you ain't fixing, living if you got your soul",
-        "avg_logprob": -0.3467948739345257,
-        "no_speech_prob": 0.63427734375
-      },
-      {
-        "start": 88.6,
-        "end": 91.88,
-        "text": "Every shot you take out ahead and trace to the same game, flawed it, you can't face",
-        "avg_logprob": -0.3467948739345257,
-        "no_speech_prob": 0.63427734375
-      },
-      {
-        "start": 91.88,
-        "end": 94.96,
-        "text": "You don't miss, but you don't sick clear, cause I talk to you, hate stay on way to near",
-        "avg_logprob": -0.3467948739345257,
-        "no_speech_prob": 0.63427734375
-      },
-      {
-        "start": 94.96,
-        "end": 99.2,
-        "text": "Rep it fire, rep the tent, out of the tent, everybody shouldn't ever look in what they at",
-        "avg_logprob": -0.3467948739345257,
-        "no_speech_prob": 0.63427734375
-      },
-      {
-        "start": 99.2,
-        "end": 102.56,
-        "text": "Rep the tent, rep the tent, out of the tent, lifeline fans, but they don't want people back",
-        "avg_logprob": -0.3467948739345257,
-        "no_speech_prob": 0.63427734375
-      },
-      {
-        "start": 102.56,
-        "end": 105.88,
-        "text": "Rep the tent, rep the tent, out of the tent, you said they had a problem, what you remember it at",
-        "avg_logprob": -0.3467948739345257,
-        "no_speech_prob": 0.63427734375
-      },
-      {
-        "start": 105.88,
-        "end": 109.36,
-        "text": "Rep the tent, rep the tent, out of the tent, everybody guilty, just a dissonant",
-        "avg_logprob": -0.3467948739345257,
-        "no_speech_prob": 0.63427734375
-      },
-      {
-        "start": 109.36,
-        "end": 113.4,
-        "text": "Yeah, yeah, yeah, yeah, all of it ain't just you, all of it's buzz",
-        "avg_logprob": -0.4144938734411462,
-        "no_speech_prob": 0.49462890625
-      },
-      {
-        "start": 113.4,
-        "end": 117.04,
-        "text": "We got the same contradiction as in the sky, different justification, safe type of lies",
-        "avg_logprob": -0.4144938734411462,
-        "no_speech_prob": 0.49462890625
-      },
-      {
-        "start": 117.04,
-        "end": 120.24,
-        "text": "We can choose what we want to defend, count the principles, better bends and bands",
-        "avg_logprob": -0.4144938734411462,
-        "no_speech_prob": 0.49462890625
-      },
-      {
-        "start": 120.24,
-        "end": 123.44,
-        "text": "We just creeps to feel no control, those stones just to cover our own",
-        "avg_logprob": -0.4144938734411462,
-        "no_speech_prob": 0.49462890625
-      },
-      {
-        "start": 123.44,
-        "end": 126.56,
-        "text": "We walk clean hands in a dirty game, so we shift that blame, rename the shame",
-        "avg_logprob": -0.4144938734411462,
-        "no_speech_prob": 0.49462890625
-      },
-      {
-        "start": 126.56,
-        "end": 129.76,
-        "text": "We talk like we better like we evolve, I have our belief, never get resolved",
-        "avg_logprob": -0.4144938734411462,
-        "no_speech_prob": 0.49462890625
-      },
-      {
-        "start": 129.76,
-        "end": 133.0,
-        "text": "We's gonna react and feed in the fire, calling out lies, no we just don't know why",
-        "avg_logprob": -0.4144938734411462,
-        "no_speech_prob": 0.49462890625
-      },
-      {
-        "start": 133.0,
-        "end": 136.12,
-        "text": "We hear that different from what we hate, just different flipels on the same damn peaks",
-        "avg_logprob": -0.4144938734411462,
-        "no_speech_prob": 0.49462890625
-      },
-      {
-        "start": 136.12,
-        "end": 139.36,
-        "text": "And human mess for the different spins and quiet guilt, we don't let sink in",
-        "avg_logprob": -0.35761442234818364,
-        "no_speech_prob": 0.20556640625
-      },
-      {
-        "start": 139.36,
-        "end": 145.16,
-        "text": "We load our words like we ready for war, but we don't even know what we're fighting for",
-        "avg_logprob": -0.35761442234818364,
-        "no_speech_prob": 0.20556640625
-      },
-      {
-        "start": 145.16,
-        "end": 152.32,
-        "text": "If we stop for a second, look inside, we see the same thing, we try to hide",
-        "avg_logprob": -0.35761442234818364,
-        "no_speech_prob": 0.20556640625
-      },
-      {
-        "start": 152.32,
-        "end": 155.6,
-        "text": "Rep the tent, rep the tent, everybody shootin' up and lookin' where we at",
-        "avg_logprob": -0.35761442234818364,
-        "no_speech_prob": 0.20556640625
-      },
-      {
-        "start": 155.6,
-        "end": 158.84,
-        "text": "Rep the tent, rep the tent, out of the tent, right of the tent, but they don't always double bad",
-        "avg_logprob": -0.35761442234818364,
-        "no_speech_prob": 0.20556640625
-      },
-      {
-        "start": 158.84,
-        "end": 162.08,
-        "text": "Rep the tent, rep the tent, out of the tent, we said they had a problem, but when you're at that",
-        "avg_logprob": -0.35761442234818364,
-        "no_speech_prob": 0.20556640625
-      },
-      {
-        "start": 162.8,
-        "end": 165.84,
-        "text": "Rep the tent, rep the tent, everybody galsy, just a different name",
-        "avg_logprob": -0.576308153396429,
-        "no_speech_prob": 0.154541015625
-      },
-      {
-        "start": 166.84,
-        "end": 174.64,
-        "text": "Yeah, I went in just sitting in the crossfire, just cry to lies, a lot of ones",
-        "avg_logprob": -0.576308153396429,
-        "no_speech_prob": 0.154541015625
-      }
-    ],
-    "avg_logprob": -0.48868420884691594
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 763,
-    "transcript_word_count": 773,
-    "matched_sequence_words": 401,
-    "lyric_alignment_ratio": 0.526,
-    "transcript_precision_ratio": 0.519,
-    "unique_expected_word_coverage": 0.684,
-    "word_count_ratio": 1.013,
-    "repeated_12gram_ratio": 0.059,
-    "half_similarity": 0.269,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.556,
-    "quality_score_0_10": 5.56,
-    "flags": [],
-    "transcript_excerpt": "Yeah, eh, anybody pointing fingers, nobody looking at me Fak You died at least the scene got a target, the blame got a more high ground But the dirt on shame caught loud on lack of dirt, don't shake like a handshake clean And the mess you made, you say they fix it, it's like they're wrong, right the whole damn care like your rage is a strong, but you could your own corners when it suits you need same moves, different foods to the same damn scene Cancel this castle that caught them out real quick, but you caught your people when it gets too big Screamer accountability, preach like a priest, thi\n...[truncated]...\n, we don't let sink in We load our words like we ready for war, but we don't even know what we're fighting for If we stop for a second, look inside, we see the same thing, we try to hide Rep the tent, rep the tent, everybody shootin' up and lookin' where we at Rep the tent, rep the tent, out of the tent, right of the tent, but they don't always double bad Rep the tent, rep the tent, out of the tent, we said they had a problem, but when you're at that Rep the tent, rep the tent, everybody galsy, just a different name Yeah, I went in just sitting in the crossfire, just cry to lies, a lot of ones"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.59,
-      "MI_motivic_integration": 7.6,
-      "BP_beauty_spatial_poise": 8.68,
-      "EG_evolving_grammar": 5.99,
-      "CD_carry_depth": 6.43
+      "SC_structural_coherence": 9.11,
+      "MI_motivic_integration": 8.42,
+      "BP_beauty_spatial_poise": 8.91,
+      "EG_evolving_grammar": 6.4,
+      "CD_carry_depth": 7.66
     },
     "core_metrics": {
-      "CDPD": 0.771,
-      "NGE": 0.544,
+      "CDPD": 0.851,
+      "NGE": 0.564,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High technical execution with complex internal rhyme schemes and rapid-fire delivery."
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track has 6 audio sections over 2:59.96 with a section-balance score of 0.17, and the section map aligns with the 12 lyric/production sections. Transitions feel designed, not DAW-copy-paste."
+        "reason": "The track follows a clear verse/hook structure with distinct transitions."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs from the hook (e.g., 'ra-ta-tat') recur in verses and ad-libs, and the beat cells (hi-hat triplets, distorted 808s) are transformed across sections. Cross-domain recursion is evident."
+        "reason": "Strong motif repetition in the 'Ra-ta-tat' hook and consistent flow cells."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The sonic habitat is consistently spacious with reverb/delay laws that vary by section. Subtle textures like vinyl crackle and room tone are intentional and legible."
+        "reason": "Effective use of beat dropouts and spatial contrast between verses/hook."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "While the beat and harmonic bed show some micro-variation, the core grammar remains static. The track piles layers on the same loop without meaningful development."
+        "reason": "High complexity in internal rhyme schemes and rapid-fire delivery techniques."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a recognisable emotional/psychic habitat of self-aware confrontation and introspection. It invites re-listening and can be narrated as an emotional arc."
+        "reason": "Strong thematic consistency regarding the 'crossfire' metaphor."
       }
     },
     "rationale": [
-      "Detected 6 audio sections over 2:59.96 with section-balance score 0.17.",
-      "Tempo estimate is 152.0 BPM; declared tempo alignment contributes 1.00.",
-      "Integrated loudness is -17.8 LUFS, peak is -1.1 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F major with confidence 0.18.",
-      "Audio recurrence ratio is 0.060; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 223 beats and 58 downbeats; beat-grid stability is 0.94.",
-      "EG evidence: section contrast 2.01, cumulative evolution 0.95, transformed returns 7.73, grid deviation 0.69, rule changes 2.50.",
-      "Companion text has 12 lyric/production sections, 784 words, line repetition 0.19, rhyme-suffix reuse 0.51."
+      "The track features highly sophisticated technical delivery with rapid-fire triplet flows.",
+      "The hook is a strong, percussive motif that provides clear structural anchors.",
+      "Dynamic contrast between the dense verse and the rhythmic chant of the chorus.",
+      "Complex internal rhyme schemes (e.g., 'different act', 'differently') elevate the lyricism."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the audio; section-balance score is low."
+      "High technicality",
+      "Strong motif integration"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T21:00:19.9499995Z",
-    "eval_count": 901,
-    "eval_duration": 14775493100
+    "created_at": "2026-06-10T10:58:18.239376Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 5758944,
+      "base64_chars": 7678592,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 9012,
+    "prompt_eval_duration": 4059382000,
+    "eval_count": 550,
+    "eval_duration": 13467936000
   }
 }

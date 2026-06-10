@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:07:42",
+  "generated_at": "2026-06-10T12:07:32",
   "audio": {
     "path": "Driftwood/audio/05 - The Cartographer Lied.mp3",
     "duration_seconds": 247.96,
@@ -1438,7 +1438,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1482,279 +1485,8 @@
       "beat_this detected 384 beats and 103 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 2.08, cumulative evolution 0.78, transformed returns 10.00, grid deviation 0.61, rule changes 4.64.",
       "Companion text has 10 lyric/production sections, 436 words, line repetition 0.12, rhyme-suffix reuse 0.32.",
-      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 7.50.",
-      "Transcription check: lyric alignment 0.91, unique-word coverage 0.90, word-count ratio 1.00, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 7.50."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Fold the chart, fold it wrong Every crease remembers a song Hinking the rain, fell on the mark North went missing after dark I kept a map beneath my coat Salt stained thin and overhead Every rooted careful ink Every danger neatly said It promised clothes with soft floors Fresh rope coiled near quiet stores A harbour drawn with little birds And welcome written with sauer's A paper loves a tidy coast It leaves out hunger thirst and ghosts It marks the rocks but not the hour Your own two hands forget their power The compass trembled and refused The pencil broke the margins bruised And every line I thought was long I was just a wish somebody saw The cartographer lied to me No safe clue where the reef should be No sheltered mouth, no gentle pen No marked return, no waiting friend the car The cartographer lied but still I kept the ore against my will If no one drew the stretch of foam Then I will earn it by the bone I passed the place the ships had crossed Well almost safe became a trade I found the smoke I left behind Still practicing the shape it made I thought a roof could make me clean about it mercy In between but no drawn arrow tells the truth Though what you carry from the roof So I tore the corner from the chart I wrapped it tight around my heart Not for faith, not for proof Just to keep the weather out The sea is grammar paper lies It changes tense behind your back To where you are and where you've been Both have to be forgiven The cartographer lied to me No safe clue where the reef should be No sheltered mouth, no gentle pen No marked return, no waiting friend the car The cartographer lied but still I kept the ore against my will If no one drew the stretch of foam Then I will earn it by the bone Maybe no one meant the harm Maybe every chart is poor Maybe those who made the marks never had to leave the shore But I did and I made the crossing with wet sleeves and no clear north So I marked the shallows with my scars These small warnings under stars Not to rule the waters will Only to tell the next one Still fold the chart Let it go, ink runs honest when it flows North when missing So I steer by what keeps moving under fear",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 10.0,
-        "text": "Fold the chart, fold it wrong Every crease remembers a song",
-        "avg_logprob": -0.34918478001718933,
-        "no_speech_prob": 0.49951171875
-      },
-      {
-        "start": 10.0,
-        "end": 22.0,
-        "text": "Hinking the rain, fell on the mark North went missing after dark",
-        "avg_logprob": -0.34918478001718933,
-        "no_speech_prob": 0.49951171875
-      },
-      {
-        "start": 22.0,
-        "end": 29.0,
-        "text": "I kept a map beneath my coat Salt stained thin and overhead",
-        "avg_logprob": -0.34918478001718933,
-        "no_speech_prob": 0.49951171875
-      },
-      {
-        "start": 29.0,
-        "end": 36.0,
-        "text": "Every rooted careful ink Every danger neatly said",
-        "avg_logprob": -0.325399705143862,
-        "no_speech_prob": 0.046630859375
-      },
-      {
-        "start": 36.0,
-        "end": 44.0,
-        "text": "It promised clothes with soft floors Fresh rope coiled near quiet stores",
-        "avg_logprob": -0.325399705143862,
-        "no_speech_prob": 0.046630859375
-      },
-      {
-        "start": 44.0,
-        "end": 52.0,
-        "text": "A harbour drawn with little birds And welcome written with sauer's",
-        "avg_logprob": -0.325399705143862,
-        "no_speech_prob": 0.046630859375
-      },
-      {
-        "start": 52.0,
-        "end": 59.0,
-        "text": "A paper loves a tidy coast It leaves out hunger thirst and ghosts",
-        "avg_logprob": -0.13536352040816327,
-        "no_speech_prob": 0.1922607421875
-      },
-      {
-        "start": 59.0,
-        "end": 68.0,
-        "text": "It marks the rocks but not the hour Your own two hands forget their power",
-        "avg_logprob": -0.13536352040816327,
-        "no_speech_prob": 0.1922607421875
-      },
-      {
-        "start": 68.0,
-        "end": 75.0,
-        "text": "The compass trembled and refused The pencil broke the margins bruised",
-        "avg_logprob": -0.13536352040816327,
-        "no_speech_prob": 0.1922607421875
-      },
-      {
-        "start": 75.0,
-        "end": 83.0,
-        "text": "And every line I thought was long I was just a wish somebody saw",
-        "avg_logprob": -0.24484080750987214,
-        "no_speech_prob": 0.329833984375
-      },
-      {
-        "start": 83.0,
-        "end": 90.0,
-        "text": "The cartographer lied to me No safe clue where the reef should be",
-        "avg_logprob": -0.24484080750987214,
-        "no_speech_prob": 0.329833984375
-      },
-      {
-        "start": 90.0,
-        "end": 99.0,
-        "text": "No sheltered mouth, no gentle pen No marked return, no waiting friend the car",
-        "avg_logprob": -0.24484080750987214,
-        "no_speech_prob": 0.329833984375
-      },
-      {
-        "start": 99.0,
-        "end": 106.0,
-        "text": "The cartographer lied but still I kept the ore against my will",
-        "avg_logprob": -0.20848651434860976,
-        "no_speech_prob": 0.10089111328125
-      },
-      {
-        "start": 106.0,
-        "end": 115.0,
-        "text": "If no one drew the stretch of foam Then I will earn it by the bone",
-        "avg_logprob": -0.20848651434860976,
-        "no_speech_prob": 0.10089111328125
-      },
-      {
-        "start": 115.0,
-        "end": 123.0,
-        "text": "I passed the place the ships had crossed Well almost safe became a trade",
-        "avg_logprob": -0.20848651434860976,
-        "no_speech_prob": 0.10089111328125
-      },
-      {
-        "start": 123.0,
-        "end": 130.0,
-        "text": "I found the smoke I left behind Still practicing the shape it made",
-        "avg_logprob": -0.2596293459104937,
-        "no_speech_prob": 0.60107421875
-      },
-      {
-        "start": 130.0,
-        "end": 136.0,
-        "text": "I thought a roof could make me clean about it mercy In between but no drawn arrow tells the truth",
-        "avg_logprob": -0.2596293459104937,
-        "no_speech_prob": 0.60107421875
-      },
-      {
-        "start": 136.0,
-        "end": 140.0,
-        "text": "Though what you carry from the roof So I tore the corner from the chart",
-        "avg_logprob": -0.2596293459104937,
-        "no_speech_prob": 0.60107421875
-      },
-      {
-        "start": 140.0,
-        "end": 144.0,
-        "text": "I wrapped it tight around my heart Not for faith, not for proof",
-        "avg_logprob": -0.2596293459104937,
-        "no_speech_prob": 0.60107421875
-      },
-      {
-        "start": 144.0,
-        "end": 150.0,
-        "text": "Just to keep the weather out The sea is grammar paper lies",
-        "avg_logprob": -0.2596293459104937,
-        "no_speech_prob": 0.60107421875
-      },
-      {
-        "start": 150.0,
-        "end": 156.0,
-        "text": "It changes tense behind your back To where you are and where you've been",
-        "avg_logprob": -0.0903560441048419,
-        "no_speech_prob": 0.046783447265625
-      },
-      {
-        "start": 156.0,
-        "end": 165.0,
-        "text": "Both have to be forgiven The cartographer lied to me",
-        "avg_logprob": -0.0903560441048419,
-        "no_speech_prob": 0.046783447265625
-      },
-      {
-        "start": 165.0,
-        "end": 168.0,
-        "text": "No safe clue where the reef should be",
-        "avg_logprob": -0.0903560441048419,
-        "no_speech_prob": 0.046783447265625
-      },
-      {
-        "start": 168.0,
-        "end": 177.0,
-        "text": "No sheltered mouth, no gentle pen No marked return, no waiting friend the car",
-        "avg_logprob": -0.0903560441048419,
-        "no_speech_prob": 0.046783447265625
-      },
-      {
-        "start": 177.0,
-        "end": 184.0,
-        "text": "The cartographer lied but still I kept the ore against my will",
-        "avg_logprob": -0.0597908258918793,
-        "no_speech_prob": 0.09765625
-      },
-      {
-        "start": 184.0,
-        "end": 193.0,
-        "text": "If no one drew the stretch of foam Then I will earn it by the bone",
-        "avg_logprob": -0.0597908258918793,
-        "no_speech_prob": 0.09765625
-      },
-      {
-        "start": 193.0,
-        "end": 197.0,
-        "text": "Maybe no one meant the harm Maybe every chart is poor",
-        "avg_logprob": -0.0597908258918793,
-        "no_speech_prob": 0.09765625
-      },
-      {
-        "start": 197.0,
-        "end": 201.0,
-        "text": "Maybe those who made the marks never had to leave the shore",
-        "avg_logprob": -0.0597908258918793,
-        "no_speech_prob": 0.09765625
-      },
-      {
-        "start": 201.0,
-        "end": 211.0,
-        "text": "But I did and I made the crossing with wet sleeves and no clear north",
-        "avg_logprob": -0.1865915711535964,
-        "no_speech_prob": 0.312255859375
-      },
-      {
-        "start": 211.0,
-        "end": 216.0,
-        "text": "So I marked the shallows with my scars",
-        "avg_logprob": -0.1865915711535964,
-        "no_speech_prob": 0.312255859375
-      },
-      {
-        "start": 216.0,
-        "end": 223.0,
-        "text": "These small warnings under stars Not to rule the waters will",
-        "avg_logprob": -0.1865915711535964,
-        "no_speech_prob": 0.312255859375
-      },
-      {
-        "start": 223.0,
-        "end": 228.0,
-        "text": "Only to tell the next one Still fold the chart",
-        "avg_logprob": -0.23337339285092476,
-        "no_speech_prob": 0.423095703125
-      },
-      {
-        "start": 228.0,
-        "end": 236.0,
-        "text": "Let it go, ink runs honest when it flows North when missing",
-        "avg_logprob": -0.23337339285092476,
-        "no_speech_prob": 0.423095703125
-      },
-      {
-        "start": 236.0,
-        "end": 242.0,
-        "text": "So I steer by what keeps moving under fear",
-        "avg_logprob": -0.23337339285092476,
-        "no_speech_prob": 0.423095703125
-      }
-    ],
-    "avg_logprob": -0.21085728476927465
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 421,
-    "transcript_word_count": 423,
-    "matched_sequence_words": 381,
-    "lyric_alignment_ratio": 0.905,
-    "transcript_precision_ratio": 0.901,
-    "unique_expected_word_coverage": 0.9,
-    "word_count_ratio": 1.005,
-    "repeated_12gram_ratio": 0.107,
-    "half_similarity": 0.351,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.903,
-    "quality_score_0_10": 9.03,
-    "flags": [],
-    "transcript_excerpt": "Fold the chart, fold it wrong Every crease remembers a song Hinking the rain, fell on the mark North went missing after dark I kept a map beneath my coat Salt stained thin and overhead Every rooted careful ink Every danger neatly said It promised clothes with soft floors Fresh rope coiled near quiet stores A harbour drawn with little birds And welcome written with sauer's A paper loves a tidy coast It leaves out hunger thirst and ghosts It marks the rocks but not the hour Your own two hands forget their power The compass trembled and refused The pencil broke the margins bruised And every line \n...[truncated]...\ned return, no waiting friend the car The cartographer lied but still I kept the ore against my will If no one drew the stretch of foam Then I will earn it by the bone Maybe no one meant the harm Maybe every chart is poor Maybe those who made the marks never had to leave the shore But I did and I made the crossing with wet sleeves and no clear north So I marked the shallows with my scars These small warnings under stars Not to rule the waters will Only to tell the next one Still fold the chart Let it go, ink runs honest when it flows North when missing So I steer by what keeps moving under fear"
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -1772,50 +1504,57 @@
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High-quality structure with distinct sections and a clear, evocative arc."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 8.4,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with consistent section functions and returns that feel like revisiting emotional rooms."
+        "reason": "Strong structural payoff in the 'Break' section leading into a definitive Outro."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong integration."
+        "reason": "The recurring motif of the 'Cartographer' and the physical act of marking/folding provides strong thematic cohesion."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The track’s sonic habitat—room tone, guitar space, reverb, and tape noise—forms a memorable and coherent indie world."
+        "reason": "Atmospheric production matches the nautical imagery well."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The grammar develops over time, with meaningful shifts in harmonic meaning, instrumental roles, and production texture."
+        "reason": "Sophisticated use of metaphor (scars as warnings, ink as honesty) elevates the lyricism."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a recognizable emotional habitat and invites re-listening, feeling like a small world rather than a playlist mood."
+        "reason": "The transition from literal navigation to internal emotional mapping is deeply realized."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:07.96 with section-balance score 0.39.",
-      "Tempo estimate is 123.0 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -17.1 LUFS, peak is -1.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G major with confidence 0.19.",
-      "Audio recurrence ratio is 0.284; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 384 beats and 103 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 2.08, cumulative evolution 0.78, transformed returns 10.00, grid deviation 0.61, rule changes 4.64.",
-      "Companion text has 10 lyric/production sections, 436 words, line repetition 0.12, rhyme-suffix reuse 0.32."
+      "Strong structural coherence with a clear progression from exploration to resolution.",
+      "Motivic integration is high due to consistent nautical and cartographic imagery throughout.",
+      "High production value in the 'Break' section provides a distinct shift in texture.",
+      "Lyric depth is reinforced by the contrast between physical maps and internal navigation."
     ],
     "review_flags": [
-      "Uncertainty about section detection: The audio has 8 sections, but the text has 10, which may suggest section detection is incomplete or overlapping."
+      ""
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:07:42.2756515Z",
-    "eval_count": 808,
-    "eval_duration": 14197749300
+    "created_at": "2026-06-10T10:07:32.5106563Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7934798,
+      "base64_chars": 10579732,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11754,
+    "prompt_eval_duration": 5332193000,
+    "eval_count": 373,
+    "eval_duration": 9433348000
   }
 }

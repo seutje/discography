@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T16:35:41",
+  "generated_at": "2026-06-10T12:22:46",
   "audio": {
     "path": "Lost Souls/audio/02 - Homeostasis.mp3",
     "duration_seconds": 231.12,
@@ -1189,7 +1189,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1252,50 +1255,57 @@
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural coherence and sophisticated lyrical imagery."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track maintains strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting emotional rooms."
+        "reason": "Base score accurately reflects the highly structured, multi-part arrangement with distinct sections (Verse, Chorus, Bridge, Outro)."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong motivic integration."
+        "reason": "The recurring 'I bend, I balance' mantra and consistent biological/chemical motifs provide strong motivic cohesion across transitions."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The sonic habitat is central to the track’s identity, with room tone and guitar space forming a memorable, coherent spatial poise."
+        "reason": "Production is highly intentional; the contrast between intimate vocals and expansive textures creates a sophisticated sonic space."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "While the track develops a personal indie grammar over time, it does not fully invent a new method, so the evolving grammar score is slightly reduced."
+        "reason": "The lyrical progression from internal biological struggle to external 'adjustment' shows significant thematic development."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a recognizable emotional habitat and feels like a small world, inviting re-listening and leaving a specific image or feeling."
+        "reason": "Lyrics maintain a consistent, high-concept metaphor (homeostasis/chemistry) throughout the piece."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:51.12 with section-balance score 0.32.",
-      "Tempo estimate is 152.0 BPM; declared tempo alignment contributes 0.91.",
-      "Integrated loudness is -16.4 LUFS, peak is -0.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G minor with confidence 0.28.",
-      "Audio recurrence ratio is 0.248; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 290 beats and 78 downbeats; beat-grid stability is 0.91.",
-      "EG evidence: section contrast 1.54, cumulative evolution 0.57, transformed returns 10.00, grid deviation 1.20, rule changes 3.33.",
-      "Companion text has 18 lyric/production sections, 498 words, line repetition 0.27, rhyme-suffix reuse 0.46."
+      "Strong structural design with clear transitions and an intentional outro.",
+      "Motif integration is reinforced by repetitive mantra-like phrasing in the chorus.",
+      "High production value creates a cohesive 'aqueous' sonic habitat.",
+      "Lyrics evolve from internal struggle to external adaptation."
     ],
     "review_flags": [
-      "Uncertainty about key confidence (0.28) and audio recurrence ratio (0.248) as proxy for motif recognition."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-09T14:35:41.8009087Z",
-    "eval_count": 774,
-    "eval_duration": 12826071000
+    "created_at": "2026-06-10T10:22:46.8988688Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7396064,
+      "base64_chars": 9861420,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11167,
+    "prompt_eval_duration": 4724425000,
+    "eval_count": 431,
+    "eval_duration": 10566865000
   }
 }

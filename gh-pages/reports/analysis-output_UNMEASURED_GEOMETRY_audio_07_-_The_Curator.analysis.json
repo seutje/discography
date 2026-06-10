@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T23:30:15",
+  "generated_at": "2026-06-10T12:52:24",
   "audio": {
     "path": "UNMEASURED GEOMETRY/audio/07 - The Curator.mp3",
     "duration_seconds": 284.32,
@@ -2274,7 +2274,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -2318,265 +2321,8 @@
       "beat_this detected 729 beats and 200 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 2.47, cumulative evolution 0.62, transformed returns 10.00, grid deviation 2.04, rule changes 7.50.",
       "Companion text has 8 lyric/production sections, 200 words, line repetition 0.19, rhyme-suffix reuse 0.42.",
-      "Transcription check: lyric alignment 0.79, unique-word coverage 0.83, word-count ratio 1.06, duplicate-pass estimate 1.",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": ". . . . Whispered hands in the mirrored hall, Shaped the dust where the echoes fall. Layered tongues trade the silent vows, Spirals bloom from the fractured now. One breath feeds another, The land turned lit by its brother. Circles turning, seeking form from rivers, dreaming to be stars Over a year, been the train of watching eyes Let the waking shadows rise Oh, Creator, thread them through deeper doors Where distant minds become one road Flickered minds in a gilded maze Passing torches of hidden praise Wolven signs drift from and end Burthing shapes they cannot understand Each spark falls to another A mirror learning to uncover Worlds un-carved awaiting sound From chambers buried deep underground Oh, oh, oh, oh, oh, go straight up Bend the chain of watching eyes Let the waking shadows rise Oh, come on, hurry up Thread them through deeper doors Where distant minds become one road Crown o' whispers we look like, Forced in sequences of night, Let the unseen currents the outer storms to end of my Carry for the hidden flame Born a minute speaking on the name Curator, watch it into twine A single thread from a thousand lines",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 7.0,
-        "text": ".",
-        "avg_logprob": -0.7561383715697697,
-        "no_speech_prob": 0.6708984375
-      },
-      {
-        "start": 7.0,
-        "end": 14.0,
-        "text": ".",
-        "avg_logprob": -0.7561383715697697,
-        "no_speech_prob": 0.6708984375
-      },
-      {
-        "start": 14.0,
-        "end": 21.0,
-        "text": ".",
-        "avg_logprob": -0.7561383715697697,
-        "no_speech_prob": 0.6708984375
-      },
-      {
-        "start": 21.0,
-        "end": 28.0,
-        "text": ".",
-        "avg_logprob": -0.7561383715697697,
-        "no_speech_prob": 0.6708984375
-      },
-      {
-        "start": 28.0,
-        "end": 38.0,
-        "text": "Whispered hands in the mirrored hall, Shaped the dust where the echoes fall.",
-        "avg_logprob": -0.4012182162979902,
-        "no_speech_prob": 0.76513671875
-      },
-      {
-        "start": 38.0,
-        "end": 45.0,
-        "text": "Layered tongues trade the silent vows, Spirals bloom from the fractured now.",
-        "avg_logprob": -0.4012182162979902,
-        "no_speech_prob": 0.76513671875
-      },
-      {
-        "start": 45.0,
-        "end": 52.0,
-        "text": "One breath feeds another, The land turned lit by its brother.",
-        "avg_logprob": -0.4012182162979902,
-        "no_speech_prob": 0.76513671875
-      },
-      {
-        "start": 52.0,
-        "end": 62.0,
-        "text": "Circles turning, seeking form from rivers, dreaming to be stars",
-        "avg_logprob": -0.4947916915019353,
-        "no_speech_prob": 0.1534423828125
-      },
-      {
-        "start": 63.0,
-        "end": 70.0,
-        "text": "Over a year, been the train of watching eyes",
-        "avg_logprob": -0.4947916915019353,
-        "no_speech_prob": 0.1534423828125
-      },
-      {
-        "start": 70.0,
-        "end": 77.0,
-        "text": "Let the waking shadows rise",
-        "avg_logprob": -0.4947916915019353,
-        "no_speech_prob": 0.1534423828125
-      },
-      {
-        "start": 77.0,
-        "end": 84.0,
-        "text": "Oh, Creator, thread them through deeper doors",
-        "avg_logprob": -0.38327206583584056,
-        "no_speech_prob": 0.587890625
-      },
-      {
-        "start": 84.0,
-        "end": 91.0,
-        "text": "Where distant minds become one road",
-        "avg_logprob": -0.38327206583584056,
-        "no_speech_prob": 0.587890625
-      },
-      {
-        "start": 95.0,
-        "end": 99.0,
-        "text": "Flickered minds in a gilded maze",
-        "avg_logprob": -0.38327206583584056,
-        "no_speech_prob": 0.587890625
-      },
-      {
-        "start": 99.0,
-        "end": 102.0,
-        "text": "Passing torches of hidden praise",
-        "avg_logprob": -0.38327206583584056,
-        "no_speech_prob": 0.587890625
-      },
-      {
-        "start": 102.0,
-        "end": 106.0,
-        "text": "Wolven signs drift from and end",
-        "avg_logprob": -0.38327206583584056,
-        "no_speech_prob": 0.587890625
-      },
-      {
-        "start": 106.0,
-        "end": 109.96,
-        "text": "Burthing shapes they cannot understand",
-        "avg_logprob": -0.8240155681731209,
-        "no_speech_prob": 0.5185546875
-      },
-      {
-        "start": 109.96,
-        "end": 113.2,
-        "text": "Each spark falls to another",
-        "avg_logprob": -0.8240155681731209,
-        "no_speech_prob": 0.5185546875
-      },
-      {
-        "start": 113.2,
-        "end": 116.14,
-        "text": "A mirror learning to uncover",
-        "avg_logprob": -0.8240155681731209,
-        "no_speech_prob": 0.5185546875
-      },
-      {
-        "start": 116.14,
-        "end": 119.38,
-        "text": "Worlds un-carved awaiting sound",
-        "avg_logprob": -0.8240155681731209,
-        "no_speech_prob": 0.5185546875
-      },
-      {
-        "start": 119.38,
-        "end": 123.32,
-        "text": "From chambers buried deep underground",
-        "avg_logprob": -0.8240155681731209,
-        "no_speech_prob": 0.5185546875
-      },
-      {
-        "start": 123.32,
-        "end": 127.96,
-        "text": "Oh, oh, oh, oh, oh, go straight up",
-        "avg_logprob": -0.8240155681731209,
-        "no_speech_prob": 0.5185546875
-      },
-      {
-        "start": 127.96,
-        "end": 131.78,
-        "text": "Bend the chain of watching eyes",
-        "avg_logprob": -0.8240155681731209,
-        "no_speech_prob": 0.5185546875
-      },
-      {
-        "start": 131.78,
-        "end": 138.08,
-        "text": "Let the waking shadows rise",
-        "avg_logprob": -0.8474264723413131,
-        "no_speech_prob": 0.296875
-      },
-      {
-        "start": 138.08,
-        "end": 142.28,
-        "text": "Oh, come on, hurry up",
-        "avg_logprob": -0.8474264723413131,
-        "no_speech_prob": 0.296875
-      },
-      {
-        "start": 142.28,
-        "end": 145.48,
-        "text": "Thread them through deeper doors",
-        "avg_logprob": -0.8474264723413131,
-        "no_speech_prob": 0.296875
-      },
-      {
-        "start": 145.48,
-        "end": 150.48,
-        "text": "Where distant minds become one road",
-        "avg_logprob": -0.8474264723413131,
-        "no_speech_prob": 0.296875
-      },
-      {
-        "start": 150.48,
-        "end": 177.04,
-        "text": "Crown o' whispers we look like, Forced in sequences of night, Let the unseen currents",
-        "avg_logprob": -0.735026034216086,
-        "no_speech_prob": 0.591796875
-      },
-      {
-        "start": 177.04,
-        "end": 184.04,
-        "text": "the outer storms to end of my",
-        "avg_logprob": -0.9921875238418579,
-        "no_speech_prob": 0.69873046875
-      },
-      {
-        "start": 207.04,
-        "end": 219.04,
-        "text": "Carry for the hidden flame",
-        "avg_logprob": -0.4958147087267467,
-        "no_speech_prob": 0.7294921875
-      },
-      {
-        "start": 219.04,
-        "end": 226.04,
-        "text": "Born a minute speaking on the name",
-        "avg_logprob": -0.4958147087267467,
-        "no_speech_prob": 0.7294921875
-      },
-      {
-        "start": 226.04,
-        "end": 233.04,
-        "text": "Curator, watch it into twine",
-        "avg_logprob": -0.4958147087267467,
-        "no_speech_prob": 0.7294921875
-      },
-      {
-        "start": 233.04,
-        "end": 240.04,
-        "text": "A single thread from a thousand lines",
-        "avg_logprob": -0.5605468690395355,
-        "no_speech_prob": 0.53857421875
-      }
-    ],
-    "avg_logprob": -0.6254976648895388
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 185,
-    "transcript_word_count": 196,
-    "matched_sequence_words": 146,
-    "lyric_alignment_ratio": 0.789,
-    "transcript_precision_ratio": 0.745,
-    "unique_expected_word_coverage": 0.829,
-    "word_count_ratio": 1.059,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.276,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.793,
-    "quality_score_0_10": 7.93,
-    "flags": [],
-    "transcript_excerpt": ". . . . Whispered hands in the mirrored hall, Shaped the dust where the echoes fall. Layered tongues trade the silent vows, Spirals bloom from the fractured now. One breath feeds another, The land turned lit by its brother. Circles turning, seeking form from rivers, dreaming to be stars Over a year, been the train of watching eyes Let the waking shadows rise Oh, Creator, thread them through deeper doors Where distant minds become one road Flickered minds in a gilded maze Passing torches of hidden praise Wolven signs drift from and end Burthing shapes they cannot understand Each spark falls to another A mirror learning to uncover Worlds un-carved awaiting sound From chambers buried deep underground Oh, oh, oh, oh, oh, go straight up Bend the chain of watching eyes Let the waking shadows rise Oh, come on, hurry up Thread them through deeper doors Where distant minds become one road Crown o' whispers we look like, Forced in sequences of night, Let the unseen currents the outer storms to end of my Carry for the hidden flame Born a minute speaking on the name Curator, watch it into twine A single thread from a thousand lines"
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -2587,8 +2333,8 @@
       "CD_carry_depth": 7.33
     },
     "core_metrics": {
-      "CDPD": 0.777,
-      "NGE": 0.649,
+      "CDPD": 0.78,
+      "NGE": 0.65,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
@@ -2596,49 +2342,56 @@
       "label": "Technical Perfection, No Rupture",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 7.8,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The piece is divided into 9 audio sections with a balanced section-balance score of 0.16, and the structure is coherent across time with no rupture."
+        "reason": "No significant deviation from base score based on lyrical/audio evidence."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "The audio recurrence ratio is 0.25, indicating repeated musical cells, and the transformed returns show high similarity across sections, suggesting strong motivic integration."
+        "reason": "Base score reflects strong integration of lyric and melody; no further adjustment needed."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The piece maintains a high level of spatial poise with a clean integrated loudness of -15.6 LUFS and a peak of 0.7 dBFS, with no clipping. The harmonic and timbral balance is well-maintained."
+        "reason": "High base score accurately reflects the sophisticated spatial arrangement of textures."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar evidence shows a high cumulative evolution score of 0.621 and a transformed return score of 10.0, indicating strong development of internal rules and motifs over time."
+        "reason": "Base score is consistent with the measured complexity and variety in musical phrasing."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The piece has a strong carry depth with a high emotional transport and re-listen pull, as indicated by the high CDPD and NGE scores, and the lyrical and production elements contribute to a self-sustaining musical habitat."
+        "reason": "Base score correctly identifies the deep thematic layering."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:44.32 with section-balance score 0.16.",
-      "Tempo estimate is 136.0 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -15.6 LUFS, peak is 0.7 dBFS, clipping ratio is 0.00002.",
-      "Estimated key is B minor with confidence 0.53.",
-      "Audio recurrence ratio is 0.250; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 729 beats and 200 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 2.47, cumulative evolution 0.62, transformed returns 10.00, grid deviation 2.04, rule changes 7.50.",
-      "Companion text has 8 lyric/production sections, 200 words, line repetition 0.19, rhyme-suffix reuse 0.42."
+      "The track exhibits high structural coherence through its clearly defined sections (Verse, Pre-Chorus, Chorus, Bridge) and consistent motif development.",
+      "Motivic integration is strong as the lyrical themes of 'shadows', 'whispers', and 'hidden flames' are mirrored in the atmospheric production.",
+      "Beauty and spatial poise are evident in the layered textures and expansive sonic landscape.",
+      "Grammar evolves through varied phrasing and dynamic shifts across sections.",
+      "The track maintains a deep, consistent atmosphere throughout."
     ],
     "review_flags": [
-      "Uncertainty about the exact key due to low confidence (0.53).",
-      "Section detection appears robust, but the audio recurrence ratio is a proxy for repeated musical cells, not true motif recognition."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T21:30:15.6984067Z",
-    "eval_count": 889,
-    "eval_duration": 14659554000
+    "created_at": "2026-06-10T10:52:24.522414Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9098366,
+      "base64_chars": 12131156,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12998,
+    "prompt_eval_duration": 5682358000,
+    "eval_count": 452,
+    "eval_duration": 11384189000
   }
 }

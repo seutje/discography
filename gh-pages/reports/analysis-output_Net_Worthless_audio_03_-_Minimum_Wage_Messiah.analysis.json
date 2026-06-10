@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:21:06",
+  "generated_at": "2026-06-10T12:24:37",
   "audio": {
     "path": "Net Worthless/audio/03 - Minimum Wage Messiah.mp3",
     "duration_seconds": 372.28,
@@ -1797,7 +1797,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1841,655 +1844,75 @@
       "beat_this detected 517 beats and 148 downbeats; beat-grid stability is 0.91.",
       "EG evidence: section contrast 1.34, cumulative evolution 0.44, transformed returns 10.00, grid deviation 1.06, rule changes 2.22.",
       "Companion text has 9 lyric/production sections, 842 words, line repetition 0.14, rhyme-suffix reuse 0.46.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00.",
-      "Transcription check: lyric alignment 0.85, unique-word coverage 0.91, word-count ratio 0.99, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "There's a man outside the shop with three coins, two carrier bags in his cigarette. He keeps forgetting to smoke. Someone asks him for change. He laughs, not because it's funny, because the till inside his chest already says no. Then he gives them one of the coins. Some people call that poor judgment. I call it theology. Minimum wage Messiah, with holes in his trainers, turning water into tap water, and still sharing later. He's got rent in the rears, bread reduced after eight, a phone with one percent and a crack little faith. But he'll split his sandwich like a sacred transaction, half for his hunger, half for compassion, no press, no plaque, no grateful committee, just kindness with a receipt to thin to claim back from the city meanwhile a man with seven spare houses says tax is a burden from one of his couches, says a wealth, needs freedom, says markets, needs air, says people should try being born with the chair and somewhere in town, a clean account pennies to buy someone tea, who was fewer than any, tell me again who the economy blesses, tell me again who keeps failing the test. Minimum wage Messiah, empty pockets, open hands, giving away nothing like its loaves upon the sand, those with everything keep asking what it costs, while the ones with almost nothing to pay the debt for all we've lost, if mercy had a pays lift, they'd be rich beyond belief, but the kindest little profits still kind of for relief, I've seen saints in supermarket uniforms, name tags, crookets, soles out worn, mothers at tills with feet full of thunder, scanning cheap pasta, and swallowing hunger, they round down prices when nobody sees slip extra napkins beside wheat coffees, they say don't worry love like it is inexpensive to sound that gentle, our life gets offensive in the rich, the rich have opinions about other people's fridges, they say work harder, they say spend less, from a lunch that could cover three months of stress, they call tax theft, with the straight little fix like survival is greedy and hoarding is grace, they got offshore islands for feelings and funds, little sunny accounts, web accountability runs, but us them to pay, so what kid can eat dinner, suddenly the mansion gets spiritually dinner. Mmm, the moment wage Messiah, empty pockets, soap and hands, giving away nothing like its loaves upon the sand, those with everything keep asking what it costs, while the ones with It was almost nothing to pay the debt for all we've lost It must have had a pay slip They'd be rich beyond belief But the kindness little profits still can't afford really And I know poverty isn't holy Let's not dress pain up and call it a lesson Nobody should have to become generous Because the system left them nothing else to give No romance and an empty meter No moral wisdom and choosing between heating and dinner But there is something almost impossible About a person counting their last coins Then looking up another person and thinking you first That should shame every golden tower in the skyline That should battle every lock draw Where the surplus sleeps, that should make the comfortable Feel audited Maybe holiness isn't thunder Maybe it's bus fare handed over by someone walking home Maybe it's a coat on the colder back of tea Paid forward, a tired nurse Smuggling a joke through a 12-hour shift Maybe grace is the minimum payment Made by people of regular drowning in interest Maybe love is the only currency that gets bigger when spent And maybe one day we start praising the poor Surviving the wound and start building a people Who sold us the night Until then, there's a man by the shop With two coins now, one carry a bag And no cigarettes, still laughing Still broke, still richer than the men Who could save the world and ask for a deduction In the home wage, Messiah, empty pockets open hands Giving away nothing like its loads upon the sand Those with everything, keep asking what it cost While the ones with almost nothing pay the debt for all we've lost If Messiah had a pay slip, they'd be rich beyond belief But the kindest little prophet still can't afford belief Minimum wage, Messiah, walking home beneath the rain Gave away his nothing and called it someone's gain The till says no, the heart says try anyway Somewhere, a building there is explainable fairness to a chandelier Somewhere else a hungry man breaks bread And the whole broken well, almost balances Almost balances",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 8.88,
-        "text": "There's a man outside the shop with three coins, two carrier bags in his cigarette.",
-        "avg_logprob": -0.2294642897588866,
-        "no_speech_prob": 0.463134765625
-      },
-      {
-        "start": 8.88,
-        "end": 11.6,
-        "text": "He keeps forgetting to smoke.",
-        "avg_logprob": -0.2294642897588866,
-        "no_speech_prob": 0.463134765625
-      },
-      {
-        "start": 11.6,
-        "end": 14.12,
-        "text": "Someone asks him for change.",
-        "avg_logprob": -0.2294642897588866,
-        "no_speech_prob": 0.463134765625
-      },
-      {
-        "start": 14.12,
-        "end": 22.32,
-        "text": "He laughs, not because it's funny, because the till inside his chest already says no.",
-        "avg_logprob": -0.2294642897588866,
-        "no_speech_prob": 0.463134765625
-      },
-      {
-        "start": 22.32,
-        "end": 26.24,
-        "text": "Then he gives them one of the coins.",
-        "avg_logprob": -0.2294642897588866,
-        "no_speech_prob": 0.463134765625
-      },
-      {
-        "start": 26.24,
-        "end": 30.96,
-        "text": "Some people call that poor judgment.",
-        "avg_logprob": -0.3779560798728788,
-        "no_speech_prob": 0.56201171875
-      },
-      {
-        "start": 30.96,
-        "end": 39.44,
-        "text": "I call it theology.",
-        "avg_logprob": -0.3779560798728788,
-        "no_speech_prob": 0.56201171875
-      },
-      {
-        "start": 39.44,
-        "end": 47.54,
-        "text": "Minimum wage Messiah, with holes in his trainers, turning water into tap water, and still",
-        "avg_logprob": -0.3779560798728788,
-        "no_speech_prob": 0.56201171875
-      },
-      {
-        "start": 47.54,
-        "end": 48.54,
-        "text": "sharing later.",
-        "avg_logprob": -0.3779560798728788,
-        "no_speech_prob": 0.56201171875
-      },
-      {
-        "start": 48.54,
-        "end": 53.16,
-        "text": "He's got rent in the rears, bread reduced after eight, a phone with one percent and a crack",
-        "avg_logprob": -0.3779560798728788,
-        "no_speech_prob": 0.56201171875
-      },
-      {
-        "start": 53.16,
-        "end": 54.16,
-        "text": "little faith.",
-        "avg_logprob": -0.3779560798728788,
-        "no_speech_prob": 0.56201171875
-      },
-      {
-        "start": 54.16,
-        "end": 59.16,
-        "text": "But he'll split his sandwich like a sacred transaction, half for his hunger, half for",
-        "avg_logprob": -0.3773584975948874,
-        "no_speech_prob": 0.58154296875
-      },
-      {
-        "start": 59.16,
-        "end": 64.32,
-        "text": "compassion, no press, no plaque, no grateful committee, just kindness with a receipt to thin",
-        "avg_logprob": -0.3773584975948874,
-        "no_speech_prob": 0.58154296875
-      },
-      {
-        "start": 64.32,
-        "end": 70.16,
-        "text": "to claim back from the city meanwhile a man with seven spare houses says tax is a burden",
-        "avg_logprob": -0.3773584975948874,
-        "no_speech_prob": 0.58154296875
-      },
-      {
-        "start": 70.16,
-        "end": 75.0,
-        "text": "from one of his couches, says a wealth, needs freedom, says markets, needs air, says people",
-        "avg_logprob": -0.3773584975948874,
-        "no_speech_prob": 0.58154296875
-      },
-      {
-        "start": 75.0,
-        "end": 80.0,
-        "text": "should try being born with the chair and somewhere in town, a clean account pennies",
-        "avg_logprob": -0.3773584975948874,
-        "no_speech_prob": 0.58154296875
-      },
-      {
-        "start": 80.0,
-        "end": 86.08,
-        "text": "to buy someone tea, who was fewer than any, tell me again who the economy blesses, tell",
-        "avg_logprob": -0.3215460400832327,
-        "no_speech_prob": 0.74755859375
-      },
-      {
-        "start": 86.08,
-        "end": 88.84,
-        "text": "me again who keeps failing the test.",
-        "avg_logprob": -0.3215460400832327,
-        "no_speech_prob": 0.74755859375
-      },
-      {
-        "start": 88.84,
-        "end": 97.76,
-        "text": "Minimum wage Messiah, empty pockets, open hands, giving away nothing like its loaves",
-        "avg_logprob": -0.3215460400832327,
-        "no_speech_prob": 0.74755859375
-      },
-      {
-        "start": 97.76,
-        "end": 105.96,
-        "text": "upon the sand, those with everything keep asking what it costs, while the ones with almost",
-        "avg_logprob": -0.3215460400832327,
-        "no_speech_prob": 0.74755859375
-      },
-      {
-        "start": 105.96,
-        "end": 113.76,
-        "text": "nothing to pay the debt for all we've lost, if mercy had a pays lift, they'd be rich",
-        "avg_logprob": -0.3434065803066715,
-        "no_speech_prob": 0.485595703125
-      },
-      {
-        "start": 113.76,
-        "end": 123.76,
-        "text": "beyond belief, but the kindest little profits still kind of for relief, I've seen saints",
-        "avg_logprob": -0.3434065803066715,
-        "no_speech_prob": 0.485595703125
-      },
-      {
-        "start": 123.76,
-        "end": 130.04,
-        "text": "in supermarket uniforms, name tags, crookets, soles out worn, mothers at tills with feet",
-        "avg_logprob": -0.3434065803066715,
-        "no_speech_prob": 0.485595703125
-      },
-      {
-        "start": 130.04,
-        "end": 135.24,
-        "text": "full of thunder, scanning cheap pasta, and swallowing hunger, they round down prices",
-        "avg_logprob": -0.3434065803066715,
-        "no_speech_prob": 0.485595703125
-      },
-      {
-        "start": 135.24,
-        "end": 140.84,
-        "text": "when nobody sees slip extra napkins beside wheat coffees, they say don't worry love",
-        "avg_logprob": -0.21314857773623377,
-        "no_speech_prob": 0.4013671875
-      },
-      {
-        "start": 140.84,
-        "end": 146.56,
-        "text": "like it is inexpensive to sound that gentle, our life gets offensive in the rich, the rich",
-        "avg_logprob": -0.21314857773623377,
-        "no_speech_prob": 0.4013671875
-      },
-      {
-        "start": 146.56,
-        "end": 153.76,
-        "text": "have opinions about other people's fridges, they say work harder, they say spend less,",
-        "avg_logprob": -0.21314857773623377,
-        "no_speech_prob": 0.4013671875
-      },
-      {
-        "start": 153.76,
-        "end": 158.68,
-        "text": "from a lunch that could cover three months of stress, they call tax theft, with the straight",
-        "avg_logprob": -0.21314857773623377,
-        "no_speech_prob": 0.4013671875
-      },
-      {
-        "start": 158.68,
-        "end": 164.56,
-        "text": "little fix like survival is greedy and hoarding is grace, they got offshore islands for feelings",
-        "avg_logprob": -0.21314857773623377,
-        "no_speech_prob": 0.4013671875
-      },
-      {
-        "start": 164.56,
-        "end": 170.32,
-        "text": "and funds, little sunny accounts, web accountability runs, but us them to pay, so what kid can",
-        "avg_logprob": -0.4891388944432705,
-        "no_speech_prob": 0.16748046875
-      },
-      {
-        "start": 170.32,
-        "end": 174.44,
-        "text": "eat dinner, suddenly the mansion gets spiritually dinner.",
-        "avg_logprob": -0.4891388944432705,
-        "no_speech_prob": 0.16748046875
-      },
-      {
-        "start": 174.44,
-        "end": 185.7,
-        "text": "Mmm, the moment wage Messiah, empty pockets, soap and hands, giving away nothing like its",
-        "avg_logprob": -0.4891388944432705,
-        "no_speech_prob": 0.16748046875
-      },
-      {
-        "start": 185.7,
-        "end": 194.0,
-        "text": "loaves upon the sand, those with everything keep asking what it costs, while the ones with",
-        "avg_logprob": -0.4891388944432705,
-        "no_speech_prob": 0.16748046875
-      },
-      {
-        "start": 194.0,
-        "end": 199.0,
-        "text": "It was almost nothing to pay the debt for all we've lost",
-        "avg_logprob": -0.19630028153287954,
-        "no_speech_prob": 0.35693359375
-      },
-      {
-        "start": 199.0,
-        "end": 202.0,
-        "text": "It must have had a pay slip",
-        "avg_logprob": -0.19630028153287954,
-        "no_speech_prob": 0.35693359375
-      },
-      {
-        "start": 202.0,
-        "end": 205.0,
-        "text": "They'd be rich beyond belief",
-        "avg_logprob": -0.19630028153287954,
-        "no_speech_prob": 0.35693359375
-      },
-      {
-        "start": 205.0,
-        "end": 211.0,
-        "text": "But the kindness little profits still can't afford really",
-        "avg_logprob": -0.19630028153287954,
-        "no_speech_prob": 0.35693359375
-      },
-      {
-        "start": 211.0,
-        "end": 214.0,
-        "text": "And I know poverty isn't holy",
-        "avg_logprob": -0.19630028153287954,
-        "no_speech_prob": 0.35693359375
-      },
-      {
-        "start": 214.0,
-        "end": 217.0,
-        "text": "Let's not dress pain up and call it a lesson",
-        "avg_logprob": -0.19630028153287954,
-        "no_speech_prob": 0.35693359375
-      },
-      {
-        "start": 217.0,
-        "end": 219.0,
-        "text": "Nobody should have to become generous",
-        "avg_logprob": -0.19630028153287954,
-        "no_speech_prob": 0.35693359375
-      },
-      {
-        "start": 219.0,
-        "end": 223.0,
-        "text": "Because the system left them nothing else to give",
-        "avg_logprob": -0.19630028153287954,
-        "no_speech_prob": 0.35693359375
-      },
-      {
-        "start": 223.0,
-        "end": 225.0,
-        "text": "No romance and an empty meter",
-        "avg_logprob": -0.1481681041333867,
-        "no_speech_prob": 0.04376220703125
-      },
-      {
-        "start": 225.0,
-        "end": 228.0,
-        "text": "No moral wisdom and choosing between heating and dinner",
-        "avg_logprob": -0.1481681041333867,
-        "no_speech_prob": 0.04376220703125
-      },
-      {
-        "start": 228.0,
-        "end": 231.0,
-        "text": "But there is something almost impossible",
-        "avg_logprob": -0.1481681041333867,
-        "no_speech_prob": 0.04376220703125
-      },
-      {
-        "start": 231.0,
-        "end": 234.0,
-        "text": "About a person counting their last coins",
-        "avg_logprob": -0.1481681041333867,
-        "no_speech_prob": 0.04376220703125
-      },
-      {
-        "start": 234.0,
-        "end": 238.0,
-        "text": "Then looking up another person and thinking you first",
-        "avg_logprob": -0.1481681041333867,
-        "no_speech_prob": 0.04376220703125
-      },
-      {
-        "start": 238.0,
-        "end": 242.0,
-        "text": "That should shame every golden tower in the skyline",
-        "avg_logprob": -0.1481681041333867,
-        "no_speech_prob": 0.04376220703125
-      },
-      {
-        "start": 242.0,
-        "end": 244.0,
-        "text": "That should battle every lock draw",
-        "avg_logprob": -0.1481681041333867,
-        "no_speech_prob": 0.04376220703125
-      },
-      {
-        "start": 244.0,
-        "end": 248.0,
-        "text": "Where the surplus sleeps, that should make the comfortable",
-        "avg_logprob": -0.1481681041333867,
-        "no_speech_prob": 0.04376220703125
-      },
-      {
-        "start": 248.0,
-        "end": 251.0,
-        "text": "Feel audited",
-        "avg_logprob": -0.1481681041333867,
-        "no_speech_prob": 0.04376220703125
-      },
-      {
-        "start": 251.0,
-        "end": 254.0,
-        "text": "Maybe holiness isn't thunder",
-        "avg_logprob": -0.16996173560619354,
-        "no_speech_prob": 0.089599609375
-      },
-      {
-        "start": 254.0,
-        "end": 258.0,
-        "text": "Maybe it's bus fare handed over by someone walking home",
-        "avg_logprob": -0.16996173560619354,
-        "no_speech_prob": 0.089599609375
-      },
-      {
-        "start": 258.0,
-        "end": 261.0,
-        "text": "Maybe it's a coat on the colder back of tea",
-        "avg_logprob": -0.16996173560619354,
-        "no_speech_prob": 0.089599609375
-      },
-      {
-        "start": 261.0,
-        "end": 263.0,
-        "text": "Paid forward, a tired nurse",
-        "avg_logprob": -0.16996173560619354,
-        "no_speech_prob": 0.089599609375
-      },
-      {
-        "start": 263.0,
-        "end": 266.0,
-        "text": "Smuggling a joke through a 12-hour shift",
-        "avg_logprob": -0.16996173560619354,
-        "no_speech_prob": 0.089599609375
-      },
-      {
-        "start": 266.0,
-        "end": 268.0,
-        "text": "Maybe grace is the minimum payment",
-        "avg_logprob": -0.16996173560619354,
-        "no_speech_prob": 0.089599609375
-      },
-      {
-        "start": 268.0,
-        "end": 270.0,
-        "text": "Made by people of regular drowning in interest",
-        "avg_logprob": -0.16996173560619354,
-        "no_speech_prob": 0.089599609375
-      },
-      {
-        "start": 270.0,
-        "end": 275.0,
-        "text": "Maybe love is the only currency that gets bigger when spent",
-        "avg_logprob": -0.16996173560619354,
-        "no_speech_prob": 0.089599609375
-      },
-      {
-        "start": 275.0,
-        "end": 278.0,
-        "text": "And maybe one day we start praising the poor",
-        "avg_logprob": -0.16996173560619354,
-        "no_speech_prob": 0.089599609375
-      },
-      {
-        "start": 278.0,
-        "end": 281.0,
-        "text": "Surviving the wound and start building a people",
-        "avg_logprob": -0.24473111123539681,
-        "no_speech_prob": 0.345458984375
-      },
-      {
-        "start": 281.0,
-        "end": 283.0,
-        "text": "Who sold us the night",
-        "avg_logprob": -0.24473111123539681,
-        "no_speech_prob": 0.345458984375
-      },
-      {
-        "start": 283.0,
-        "end": 286.0,
-        "text": "Until then, there's a man by the shop",
-        "avg_logprob": -0.24473111123539681,
-        "no_speech_prob": 0.345458984375
-      },
-      {
-        "start": 286.0,
-        "end": 289.0,
-        "text": "With two coins now, one carry a bag",
-        "avg_logprob": -0.24473111123539681,
-        "no_speech_prob": 0.345458984375
-      },
-      {
-        "start": 289.0,
-        "end": 291.0,
-        "text": "And no cigarettes, still laughing",
-        "avg_logprob": -0.24473111123539681,
-        "no_speech_prob": 0.345458984375
-      },
-      {
-        "start": 291.0,
-        "end": 293.0,
-        "text": "Still broke, still richer than the men",
-        "avg_logprob": -0.24473111123539681,
-        "no_speech_prob": 0.345458984375
-      },
-      {
-        "start": 293.0,
-        "end": 297.0,
-        "text": "Who could save the world and ask for a deduction",
-        "avg_logprob": -0.24473111123539681,
-        "no_speech_prob": 0.345458984375
-      },
-      {
-        "start": 299.0,
-        "end": 304.0,
-        "text": "In the home wage, Messiah, empty pockets open hands",
-        "avg_logprob": -0.24473111123539681,
-        "no_speech_prob": 0.345458984375
-      },
-      {
-        "start": 304.0,
-        "end": 309.0,
-        "text": "Giving away nothing like its loads upon the sand",
-        "avg_logprob": -0.24264706189141555,
-        "no_speech_prob": 0.57958984375
-      },
-      {
-        "start": 309.0,
-        "end": 314.0,
-        "text": "Those with everything, keep asking what it cost",
-        "avg_logprob": -0.24264706189141555,
-        "no_speech_prob": 0.57958984375
-      },
-      {
-        "start": 314.0,
-        "end": 320.0,
-        "text": "While the ones with almost nothing pay the debt for all we've lost",
-        "avg_logprob": -0.24264706189141555,
-        "no_speech_prob": 0.57958984375
-      },
-      {
-        "start": 320.0,
-        "end": 326.0,
-        "text": "If Messiah had a pay slip, they'd be rich beyond belief",
-        "avg_logprob": -0.24264706189141555,
-        "no_speech_prob": 0.57958984375
-      },
-      {
-        "start": 326.0,
-        "end": 332.0,
-        "text": "But the kindest little prophet still can't afford belief",
-        "avg_logprob": -0.24264706189141555,
-        "no_speech_prob": 0.57958984375
-      },
-      {
-        "start": 332.0,
-        "end": 338.0,
-        "text": "Minimum wage, Messiah, walking home beneath the rain",
-        "avg_logprob": -0.2589962021871047,
-        "no_speech_prob": 0.0282440185546875
-      },
-      {
-        "start": 338.0,
-        "end": 344.0,
-        "text": "Gave away his nothing and called it someone's gain",
-        "avg_logprob": -0.2589962021871047,
-        "no_speech_prob": 0.0282440185546875
-      },
-      {
-        "start": 344.0,
-        "end": 349.0,
-        "text": "The till says no, the heart says try anyway",
-        "avg_logprob": -0.2589962021871047,
-        "no_speech_prob": 0.0282440185546875
-      },
-      {
-        "start": 349.0,
-        "end": 354.0,
-        "text": "Somewhere, a building there is explainable fairness to a chandelier",
-        "avg_logprob": -0.2589962021871047,
-        "no_speech_prob": 0.0282440185546875
-      },
-      {
-        "start": 354.0,
-        "end": 358.0,
-        "text": "Somewhere else a hungry man breaks bread",
-        "avg_logprob": -0.2589962021871047,
-        "no_speech_prob": 0.0282440185546875
-      },
-      {
-        "start": 358.0,
-        "end": 363.0,
-        "text": "And the whole broken well, almost balances",
-        "avg_logprob": -0.2908854126930237,
-        "no_speech_prob": 0.06219482421875
-      },
-      {
-        "start": 367.0,
-        "end": 370.0,
-        "text": "Almost balances",
-        "avg_logprob": -0.2908854126930237,
-        "no_speech_prob": 0.06219482421875
-      }
-    ],
-    "avg_logprob": -0.27894422092671917
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 790,
-    "transcript_word_count": 781,
-    "matched_sequence_words": 670,
-    "lyric_alignment_ratio": 0.848,
-    "transcript_precision_ratio": 0.858,
-    "unique_expected_word_coverage": 0.908,
-    "word_count_ratio": 0.989,
-    "repeated_12gram_ratio": 0.014,
-    "half_similarity": 0.213,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.861,
-    "quality_score_0_10": 8.61,
-    "flags": [],
-    "transcript_excerpt": "There's a man outside the shop with three coins, two carrier bags in his cigarette. He keeps forgetting to smoke. Someone asks him for change. He laughs, not because it's funny, because the till inside his chest already says no. Then he gives them one of the coins. Some people call that poor judgment. I call it theology. Minimum wage Messiah, with holes in his trainers, turning water into tap water, and still sharing later. He's got rent in the rears, bread reduced after eight, a phone with one percent and a crack little faith. But he'll split his sandwich like a sacred transaction, half for h\n...[truncated]...\nn hands Giving away nothing like its loads upon the sand Those with everything, keep asking what it cost While the ones with almost nothing pay the debt for all we've lost If Messiah had a pay slip, they'd be rich beyond belief But the kindest little prophet still can't afford belief Minimum wage, Messiah, walking home beneath the rain Gave away his nothing and called it someone's gain The till says no, the heart says try anyway Somewhere, a building there is explainable fairness to a chandelier Somewhere else a hungry man breaks bread And the whole broken well, almost balances Almost balances"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 8.5,
-      "BP_beauty_spatial_poise": 9.0,
-      "EG_evolving_grammar": 7.5,
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 10.0,
+      "BP_beauty_spatial_poise": 9.03,
+      "EG_evolving_grammar": 6.87,
       "CD_carry_depth": 9.0
     },
     "core_metrics": {
-      "CDPD": 0.95,
-      "NGE": 0.6,
+      "CDPD": 0.98,
+      "NGE": 0.627,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
-      "number": 10,
-      "label": "Quiet Rap Craft",
-      "note": "Heuristic ceiling is conservative; tiers above 10 need stronger evidence of signature spatial or rhythmic fingerprint."
+      "number": 13,
+      "label": "Inhabited Form",
+      "note": "High complexity in structure and lyrical depth."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section lengths are proportionate, transitions feel designed, and the form is clean with a clear arc. However, the final third lacks a strong outro function, which slightly reduces the score."
+        "delta": 0.0,
+        "reason": "Base score is high due to clear verse/hook/bridge/outro architecture."
       },
       "MI_motivic_integration": {
-        "delta": -1.5,
-        "reason": "Motifs recur across sections (flow patterns, ad-libs, harmonic hits), but the integration is not as strong as in higher-tier tracks. Some motifs are repeated without transformation, which limits the score."
+        "delta": 0.0,
+        "reason": "Strong integration of spoken-word rap with melodic folk hooks."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.03,
-        "reason": "The sonic habitat is consistently beautiful and coherent, with intentional use of reverb, delay, and stereo field. The production design supports the emotional arc without being generic."
+        "delta": 0.0,
+        "reason": "While the production is high quality, the 'lo-fi' aesthetic slightly reduces the sense of polished spatial grandeur compared to a full studio pop track."
       },
       "EG_evolving_grammar": {
-        "delta": 0.63,
-        "reason": "The grammar evolves meaningfully over time, with changes in beat density, harmonic color, and flow density. However, the evolution is not as pronounced or distinctive as in higher-tier tracks."
+        "delta": 0.0,
+        "reason": "The transition from sardonic observation to empathetic plea is well-executed."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a recognizable emotional habitat and invites re-listening. The emotional arc is clear and memorable, with a strong sense of place and character."
+        "reason": "Lyrical themes of economic disparity and human connection are sustained throughout."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 6:12.28 with section-balance score 0.18.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.78.",
-      "Integrated loudness is -16.6 LUFS, peak is -0.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F major with confidence 0.27.",
-      "Audio recurrence ratio is 0.313; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 517 beats and 148 downbeats; beat-grid stability is 0.91.",
-      "EG evidence: section contrast 1.34, cumulative evolution 0.44, transformed returns 10.00, grid deviation 1.06, rule changes 2.22.",
-      "Companion text has 9 lyric/production sections, 842 words, line repetition 0.14, rhyme-suffix reuse 0.46."
+      "Clear structural divisions between spoken word and melodic hooks.",
+      "Strong emotional arc from social commentary to personal plea.",
+      "High production value in the acoustic/lo-fi blend."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the final third; stronger evidence needed for a higher rung."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:21:06.9740747Z",
-    "eval_count": 839,
-    "eval_duration": 15069743400
+    "created_at": "2026-06-10T10:24:37.2289542Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 11913194,
+      "base64_chars": 15884260,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 15620,
+    "prompt_eval_duration": 6762419000,
+    "eval_count": 396,
+    "eval_duration": 9824925000
   }
 }

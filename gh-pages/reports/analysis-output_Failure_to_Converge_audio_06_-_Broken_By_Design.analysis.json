@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:14:46",
+  "generated_at": "2026-06-10T12:18:23",
   "audio": {
     "path": "Failure to Converge/audio/06 - Broken By Design.mp3",
     "duration_seconds": 260.68,
@@ -1393,7 +1393,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1437,557 +1440,20 @@
       "beat_this detected 372 beats and 94 downbeats; beat-grid stability is 0.94.",
       "EG evidence: section contrast 2.22, cumulative evolution 0.87, transformed returns 10.00, grid deviation 0.40, rule changes 2.86.",
       "Companion text has 9 lyric/production sections, 556 words, line repetition 0.04, rhyme-suffix reuse 0.26.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 5.30.",
-      "Transcription check: lyric alignment 0.84, unique-word coverage 0.85, word-count ratio 1.04, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 5.30."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I ran it back again tonight, same input, same design Something flickers underneath a quiet misalignment A question I can't silence, has this ever worked? I traced the steps I thought were clean Follow patterns I've already seen Every path I marked is true Pins until it isn't you Versions whisper and collapse small inconsistencies and maps I frame the test I set the scope Now I don't believe the hope I keep asking in the breath like it's something more than this Am I testing the right branch or just proving what I am? Has this ever worked? Or did I just believe it did? Did I miss the point? I've protected what I can admit Am I testing truth or aversion I rehearsed? Every check I run and just returns me to the first That's your case is drifting to the frame On invite is still the same conditions I refuse to meet Now they're walking through my sleep Coverage says I'm almost there But there's something I don't share of passing Stick that feels too thin Like I feel the dirt out the risk with And I simulate what I can see Ignore the deeper dependency Every failure I dismiss Reappears inside the list Has this ever worked? But did I just avoid the truth? Did I build a frame? Out of everything I knew Am I testing past that I'm too afraid to take? Every line I skipped is another quiet break I'm not there I'm not there I'm not there I'm not there I'm not there I'm not there I'm not there Patterns echo Until they're known Signal surface On their own Not every flaw is there To hide some survive to realize So I let the failures take their place Read them like a trace, not a mistake Stop defending every pass Started seeing what might last As a version I resist living Just be on the list not incorrect Just end the fine waiting where the edges bind Maybe testing isn't proof Maybe it's a way to move Through uncertainty with care Instead of acting like it's clean Maybe this can work If I stop forcing every pass If I let it break And just hear what it asks Am I testing truth For learning how to see Every failing case is a clearer part of me It settles differently somehow No need to force it now One last quiet check, no rush Has this ever worked Not like this Maybe it can",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 15.0,
-        "text": "I ran it back again tonight, same input, same design",
-        "avg_logprob": -0.5376157539862173,
-        "no_speech_prob": 0.28515625
-      },
-      {
-        "start": 15.0,
-        "end": 20.0,
-        "text": "Something flickers underneath a quiet misalignment",
-        "avg_logprob": -0.5376157539862173,
-        "no_speech_prob": 0.28515625
-      },
-      {
-        "start": 20.0,
-        "end": 27.0,
-        "text": "A question I can't silence, has this ever worked?",
-        "avg_logprob": -0.19332107667829476,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 36.0,
-        "end": 39.0,
-        "text": "I traced the steps I thought were clean",
-        "avg_logprob": -0.19332107667829476,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 39.0,
-        "end": 41.0,
-        "text": "Follow patterns I've already seen",
-        "avg_logprob": -0.19332107667829476,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 41.0,
-        "end": 44.0,
-        "text": "Every path I marked is true",
-        "avg_logprob": -0.19332107667829476,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 44.0,
-        "end": 47.0,
-        "text": "Pins until it isn't you",
-        "avg_logprob": -0.19332107667829476,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 47.0,
-        "end": 52.0,
-        "text": "Versions whisper and collapse small inconsistencies and maps",
-        "avg_logprob": -0.20593398206689384,
-        "no_speech_prob": 0.1781005859375
-      },
-      {
-        "start": 52.0,
-        "end": 55.0,
-        "text": "I frame the test I set the scope",
-        "avg_logprob": -0.20593398206689384,
-        "no_speech_prob": 0.1781005859375
-      },
-      {
-        "start": 55.0,
-        "end": 58.0,
-        "text": "Now I don't believe the hope",
-        "avg_logprob": -0.20593398206689384,
-        "no_speech_prob": 0.1781005859375
-      },
-      {
-        "start": 58.0,
-        "end": 63.0,
-        "text": "I keep asking in the breath like it's something more than this",
-        "avg_logprob": -0.20593398206689384,
-        "no_speech_prob": 0.1781005859375
-      },
-      {
-        "start": 63.0,
-        "end": 69.0,
-        "text": "Am I testing the right branch or just proving what I am?",
-        "avg_logprob": -0.20593398206689384,
-        "no_speech_prob": 0.1781005859375
-      },
-      {
-        "start": 69.0,
-        "end": 71.0,
-        "text": "Has this ever worked?",
-        "avg_logprob": -0.20593398206689384,
-        "no_speech_prob": 0.1781005859375
-      },
-      {
-        "start": 71.0,
-        "end": 74.0,
-        "text": "Or did I just believe it did?",
-        "avg_logprob": -0.20593398206689384,
-        "no_speech_prob": 0.1781005859375
-      },
-      {
-        "start": 74.0,
-        "end": 76.0,
-        "text": "Did I miss the point?",
-        "avg_logprob": -0.20593398206689384,
-        "no_speech_prob": 0.1781005859375
-      },
-      {
-        "start": 76.0,
-        "end": 80.0,
-        "text": "I've protected what I can admit",
-        "avg_logprob": -0.28705358377524787,
-        "no_speech_prob": 0.07476806640625
-      },
-      {
-        "start": 80.0,
-        "end": 85.0,
-        "text": "Am I testing truth or aversion I rehearsed?",
-        "avg_logprob": -0.28705358377524787,
-        "no_speech_prob": 0.07476806640625
-      },
-      {
-        "start": 85.0,
-        "end": 92.0,
-        "text": "Every check I run and just returns me to the first",
-        "avg_logprob": -0.28705358377524787,
-        "no_speech_prob": 0.07476806640625
-      },
-      {
-        "start": 92.0,
-        "end": 94.0,
-        "text": "That's your case is drifting to the frame",
-        "avg_logprob": -0.28705358377524787,
-        "no_speech_prob": 0.07476806640625
-      },
-      {
-        "start": 94.0,
-        "end": 97.0,
-        "text": "On invite is still the same conditions I refuse to meet",
-        "avg_logprob": -0.28705358377524787,
-        "no_speech_prob": 0.07476806640625
-      },
-      {
-        "start": 97.0,
-        "end": 103.0,
-        "text": "Now they're walking through my sleep",
-        "avg_logprob": -0.28705358377524787,
-        "no_speech_prob": 0.07476806640625
-      },
-      {
-        "start": 103.0,
-        "end": 105.0,
-        "text": "Coverage says I'm almost there",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 105.0,
-        "end": 107.0,
-        "text": "But there's something I don't share of passing",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 107.0,
-        "end": 108.0,
-        "text": "Stick that feels too thin",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 108.0,
-        "end": 113.0,
-        "text": "Like I feel the dirt out the risk with",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 113.0,
-        "end": 116.0,
-        "text": "And I simulate what I can see",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 116.0,
-        "end": 119.0,
-        "text": "Ignore the deeper dependency",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 119.0,
-        "end": 122.0,
-        "text": "Every failure I dismiss",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 122.0,
-        "end": 124.0,
-        "text": "Reappears inside the list",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 124.0,
-        "end": 126.0,
-        "text": "Has this ever worked?",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 126.0,
-        "end": 129.0,
-        "text": "But did I just avoid the truth?",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 129.0,
-        "end": 132.0,
-        "text": "Did I build a frame?",
-        "avg_logprob": -0.1637369797875484,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 132.0,
-        "end": 135.0,
-        "text": "Out of everything I knew",
-        "avg_logprob": -0.17826704545454544,
-        "no_speech_prob": 0.057708740234375
-      },
-      {
-        "start": 135.0,
-        "end": 141.0,
-        "text": "Am I testing past that I'm too afraid to take?",
-        "avg_logprob": -0.17826704545454544,
-        "no_speech_prob": 0.057708740234375
-      },
-      {
-        "start": 141.0,
-        "end": 146.0,
-        "text": "Every line I skipped is another quiet break",
-        "avg_logprob": -0.17826704545454544,
-        "no_speech_prob": 0.057708740234375
-      },
-      {
-        "start": 146.0,
-        "end": 148.0,
-        "text": "I'm not there",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 148.0,
-        "end": 150.0,
-        "text": "I'm not there",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 150.0,
-        "end": 152.0,
-        "text": "I'm not there",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 152.0,
-        "end": 154.0,
-        "text": "I'm not there",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 154.0,
-        "end": 156.0,
-        "text": "I'm not there",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 156.0,
-        "end": 158.0,
-        "text": "I'm not there",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 158.0,
-        "end": 160.0,
-        "text": "I'm not there",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 160.0,
-        "end": 162.0,
-        "text": "Patterns echo",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 162.0,
-        "end": 164.0,
-        "text": "Until they're known",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 164.0,
-        "end": 168.0,
-        "text": "Signal surface",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 168.0,
-        "end": 170.0,
-        "text": "On their own",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 170.0,
-        "end": 174.0,
-        "text": "Not every flaw is there",
-        "avg_logprob": -0.37544015427710303,
-        "no_speech_prob": 0.7001953125
-      },
-      {
-        "start": 174.0,
-        "end": 181.0,
-        "text": "To hide some survive to realize",
-        "avg_logprob": -0.17098722200502048,
-        "no_speech_prob": 0.5380859375
-      },
-      {
-        "start": 181.0,
-        "end": 184.0,
-        "text": "So I let the failures take their place",
-        "avg_logprob": -0.17098722200502048,
-        "no_speech_prob": 0.5380859375
-      },
-      {
-        "start": 184.0,
-        "end": 187.0,
-        "text": "Read them like a trace, not a mistake",
-        "avg_logprob": -0.17098722200502048,
-        "no_speech_prob": 0.5380859375
-      },
-      {
-        "start": 187.0,
-        "end": 189.0,
-        "text": "Stop defending every pass",
-        "avg_logprob": -0.17098722200502048,
-        "no_speech_prob": 0.5380859375
-      },
-      {
-        "start": 189.0,
-        "end": 192.0,
-        "text": "Started seeing what might last",
-        "avg_logprob": -0.17098722200502048,
-        "no_speech_prob": 0.5380859375
-      },
-      {
-        "start": 192.0,
-        "end": 194.0,
-        "text": "As a version I resist living",
-        "avg_logprob": -0.17098722200502048,
-        "no_speech_prob": 0.5380859375
-      },
-      {
-        "start": 194.0,
-        "end": 196.0,
-        "text": "Just be on the list not incorrect",
-        "avg_logprob": -0.17098722200502048,
-        "no_speech_prob": 0.5380859375
-      },
-      {
-        "start": 196.0,
-        "end": 198.0,
-        "text": "Just end the fine waiting where the edges bind",
-        "avg_logprob": -0.17098722200502048,
-        "no_speech_prob": 0.5380859375
-      },
-      {
-        "start": 198.0,
-        "end": 200.0,
-        "text": "Maybe testing isn't proof",
-        "avg_logprob": -0.17098722200502048,
-        "no_speech_prob": 0.5380859375
-      },
-      {
-        "start": 200.0,
-        "end": 203.0,
-        "text": "Maybe it's a way to move",
-        "avg_logprob": -0.17098722200502048,
-        "no_speech_prob": 0.5380859375
-      },
-      {
-        "start": 203.0,
-        "end": 208.0,
-        "text": "Through uncertainty with care",
-        "avg_logprob": -0.13268008222014216,
-        "no_speech_prob": 0.080810546875
-      },
-      {
-        "start": 208.0,
-        "end": 214.0,
-        "text": "Instead of acting like it's clean",
-        "avg_logprob": -0.13268008222014216,
-        "no_speech_prob": 0.080810546875
-      },
-      {
-        "start": 214.0,
-        "end": 216.0,
-        "text": "Maybe this can work",
-        "avg_logprob": -0.13268008222014216,
-        "no_speech_prob": 0.080810546875
-      },
-      {
-        "start": 216.0,
-        "end": 219.0,
-        "text": "If I stop forcing every pass",
-        "avg_logprob": -0.13268008222014216,
-        "no_speech_prob": 0.080810546875
-      },
-      {
-        "start": 219.0,
-        "end": 221.0,
-        "text": "If I let it break",
-        "avg_logprob": -0.13268008222014216,
-        "no_speech_prob": 0.080810546875
-      },
-      {
-        "start": 221.0,
-        "end": 225.0,
-        "text": "And just hear what it asks",
-        "avg_logprob": -0.13268008222014216,
-        "no_speech_prob": 0.080810546875
-      },
-      {
-        "start": 225.0,
-        "end": 227.0,
-        "text": "Am I testing truth",
-        "avg_logprob": -0.13268008222014216,
-        "no_speech_prob": 0.080810546875
-      },
-      {
-        "start": 227.0,
-        "end": 231.0,
-        "text": "For learning how to see",
-        "avg_logprob": -0.13268008222014216,
-        "no_speech_prob": 0.080810546875
-      },
-      {
-        "start": 231.0,
-        "end": 237.0,
-        "text": "Every failing case is a clearer part of me",
-        "avg_logprob": -0.14493814607461294,
-        "no_speech_prob": 0.307373046875
-      },
-      {
-        "start": 237.0,
-        "end": 240.0,
-        "text": "It settles differently somehow",
-        "avg_logprob": -0.14493814607461294,
-        "no_speech_prob": 0.307373046875
-      },
-      {
-        "start": 240.0,
-        "end": 243.0,
-        "text": "No need to force it now",
-        "avg_logprob": -0.14493814607461294,
-        "no_speech_prob": 0.307373046875
-      },
-      {
-        "start": 243.0,
-        "end": 247.0,
-        "text": "One last quiet check, no rush",
-        "avg_logprob": -0.14493814607461294,
-        "no_speech_prob": 0.307373046875
-      },
-      {
-        "start": 247.0,
-        "end": 253.0,
-        "text": "Has this ever worked",
-        "avg_logprob": -0.14493814607461294,
-        "no_speech_prob": 0.307373046875
-      },
-      {
-        "start": 253.0,
-        "end": 257.0,
-        "text": "Not like this",
-        "avg_logprob": -0.14493814607461294,
-        "no_speech_prob": 0.307373046875
-      },
-      {
-        "start": 257.0,
-        "end": 261.0,
-        "text": "Maybe it can",
-        "avg_logprob": -0.3476562599341075,
-        "no_speech_prob": 0.77587890625
-      }
-    ],
-    "avg_logprob": -0.23628472480060572
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 405,
-    "transcript_word_count": 420,
-    "matched_sequence_words": 340,
-    "lyric_alignment_ratio": 0.84,
-    "transcript_precision_ratio": 0.81,
-    "unique_expected_word_coverage": 0.849,
-    "word_count_ratio": 1.037,
-    "repeated_12gram_ratio": 0.017,
-    "half_similarity": 0.157,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.838,
-    "quality_score_0_10": 8.38,
-    "flags": [],
-    "transcript_excerpt": "I ran it back again tonight, same input, same design Something flickers underneath a quiet misalignment A question I can't silence, has this ever worked? I traced the steps I thought were clean Follow patterns I've already seen Every path I marked is true Pins until it isn't you Versions whisper and collapse small inconsistencies and maps I frame the test I set the scope Now I don't believe the hope I keep asking in the breath like it's something more than this Am I testing the right branch or just proving what I am? Has this ever worked? Or did I just believe it did? Did I miss the point? I'v\n...[truncated]...\nstake Stop defending every pass Started seeing what might last As a version I resist living Just be on the list not incorrect Just end the fine waiting where the edges bind Maybe testing isn't proof Maybe it's a way to move Through uncertainty with care Instead of acting like it's clean Maybe this can work If I stop forcing every pass If I let it break And just hear what it asks Am I testing truth For learning how to see Every failing case is a clearer part of me It settles differently somehow No need to force it now One last quiet check, no rush Has this ever worked Not like this Maybe it can"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.0,
+      "MI_motivic_integration": 8.2,
       "BP_beauty_spatial_poise": 9.0,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 9.5
+      "EG_evolving_grammar": 7.33,
+      "CD_carry_depth": 9.2
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.64,
+      "CDPD": 0.871,
+      "NGE": 0.651,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
@@ -1995,48 +1461,54 @@
       "label": "Inhabited Form",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.5,
+    "confidence_0_10": 7.8,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with strong functional sections. Returns feel like revisiting emotional rooms, and the arrangement is cohesive."
+        "reason": "Strong structural progression from sparse intro to fuller, more resolved hooks."
       },
       "MI_motivic_integration": {
-        "delta": 0.5,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong integration and development."
+        "delta": 0.7,
+        "reason": "Lyric content shows a clear arc of moving from uncertainty toward acceptance."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The mix maintains a wide but intimate space with evolving depth, and the sonic habitat is memorable and coherent."
+        "reason": "Score remains high due to consistent atmosphere and polished production."
       },
       "EG_evolving_grammar": {
-        "delta": 0.17,
-        "reason": "While the track develops a personal indie grammar over time, it does not fully invent a new method, so the score is slightly adjusted downward."
+        "delta": 0.0,
+        "reason": "Base score reflects the nuanced lyrical phrasing well enough."
       },
       "CD_carry_depth": {
-        "delta": 0.3,
-        "reason": "The track defines a recognizable emotional habitat and invites re-listening. It feels like a small world rather than a playlist mood."
+        "delta": 0.0,
+        "reason": "Lyric depth is consistently maintained throughout."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:20.68 with section-balance score 0.39.",
-      "Tempo estimate is 172.3 BPM; declared tempo alignment contributes 0.98.",
-      "Integrated loudness is -17.3 LUFS, peak is -0.2 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D minor with confidence 0.47.",
-      "Audio recurrence ratio is 0.387; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 372 beats and 94 downbeats; beat-grid stability is 0.94.",
-      "EG evidence: section contrast 2.22, cumulative evolution 0.87, transformed returns 10.00, grid deviation 0.40, rule changes 2.86.",
-      "Companion text has 9 lyric/production sections, 556 words, line repetition 0.04, rhyme-suffix reuse 0.26."
+      "The track follows a clear structural arc from an intimate, sparse opening to a more grounded and resolved conclusion.",
+      "Lyrics evolve from questioning the 'test' to accepting it as part of the self.",
+      "Production supports this transition with increasing density in instrumentation while maintaining a cohesive aesthetic."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to the complexity of the arrangement and the use of repeated motifs."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:14:46.8025651Z",
-    "eval_count": 794,
-    "eval_duration": 13195578900
+    "created_at": "2026-06-10T10:18:23.2800955Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8341990,
+      "base64_chars": 11122656,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12137,
+    "prompt_eval_duration": 6090676000,
+    "eval_count": 397,
+    "eval_duration": 9928047000
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:28:35",
+  "generated_at": "2026-06-10T12:30:44",
   "audio": {
     "path": "Noise Floor/audio/02 - Backup Rail.mp3",
     "duration_seconds": 250.96,
@@ -1370,7 +1370,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1414,291 +1417,75 @@
       "beat_this detected 365 beats and 93 downbeats; beat-grid stability is 0.68.",
       "EG evidence: section contrast 1.32, cumulative evolution 0.40, transformed returns 10.00, grid deviation 0.53, rule changes 3.21.",
       "Companion text has 7 lyric/production sections, 314 words, line repetition 0.15, rhyme-suffix reuse 0.30.",
-      "Production/vocal notes contain transformation cues (formal-pivot, space-change); intent score 3.10.",
-      "Transcription check: lyric alignment 0.85, unique-word coverage 0.87, word-count ratio 1.01, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (formal-pivot, space-change); intent score 3.10."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "The lamps go thin, the console size, and all this shade. Behind my eyes. There are mornings with no handle, only carpet wall and weight. Every thought a lock is set, every limeloting gate. Then I find the hidden rail from the drawer beside the bed. Small, bright, current, plain provision for the system in the red. No romance in the rescue, no cathedral, no parade. Just a backup voltage humming, where the human battery free. Back up rail, hold the body, when the main line disappears. Bring the color to the panel, bring the floorboards back from Smith. Don't worship the small lighting, I just need the room to stay. When the screen begins to turn, you return me to the day. People call it little comfort, as if comfort were a flaw. As if every fragile engine, not a run-on line. But I know the sound of empty, when the meat is barely left. I know how the whole apartment tilts around, the missing gift. So I keep a measured signal, not for pleasure, not for grace. Just a key, the old receiver from dissolving out of place. Dependences and ugly words, until the rail goes cold. And every theory loses voltage, and the body tells the truth. Back up rail, hold the body, when the main line disappears. Bring the color to the panel, bring the floorboards back from Smith. Don't worship the small lighting, I just need the room to stay. When the screen begins to turn, you return me to the day. When the screen starts to turn, you return me to the day. Just the current With my name",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 28.0,
-        "text": "The lamps go thin, the console size, and all this shade.",
-        "avg_logprob": -0.6553819643126594,
-        "no_speech_prob": 0.6162109375
-      },
-      {
-        "start": 28.0,
-        "end": 41.0,
-        "text": "Behind my eyes.",
-        "avg_logprob": -0.3908306030850661,
-        "no_speech_prob": 0.4951171875
-      },
-      {
-        "start": 41.0,
-        "end": 46.0,
-        "text": "There are mornings with no handle, only carpet wall and weight.",
-        "avg_logprob": -0.3908306030850661,
-        "no_speech_prob": 0.4951171875
-      },
-      {
-        "start": 46.0,
-        "end": 51.0,
-        "text": "Every thought a lock is set, every limeloting gate.",
-        "avg_logprob": -0.3908306030850661,
-        "no_speech_prob": 0.4951171875
-      },
-      {
-        "start": 51.0,
-        "end": 56.0,
-        "text": "Then I find the hidden rail from the drawer beside the bed.",
-        "avg_logprob": -0.28175404091035167,
-        "no_speech_prob": 0.65625
-      },
-      {
-        "start": 56.0,
-        "end": 62.0,
-        "text": "Small, bright, current, plain provision for the system in the red.",
-        "avg_logprob": -0.28175404091035167,
-        "no_speech_prob": 0.65625
-      },
-      {
-        "start": 62.0,
-        "end": 67.0,
-        "text": "No romance in the rescue, no cathedral, no parade.",
-        "avg_logprob": -0.28175404091035167,
-        "no_speech_prob": 0.65625
-      },
-      {
-        "start": 67.0,
-        "end": 73.0,
-        "text": "Just a backup voltage humming, where the human battery free.",
-        "avg_logprob": -0.28175404091035167,
-        "no_speech_prob": 0.65625
-      },
-      {
-        "start": 74.0,
-        "end": 85.0,
-        "text": "Back up rail, hold the body, when the main line disappears.",
-        "avg_logprob": -0.22499999744551522,
-        "no_speech_prob": 0.51904296875
-      },
-      {
-        "start": 85.0,
-        "end": 96.0,
-        "text": "Bring the color to the panel, bring the floorboards back from Smith.",
-        "avg_logprob": -0.22499999744551522,
-        "no_speech_prob": 0.51904296875
-      },
-      {
-        "start": 96.0,
-        "end": 106.0,
-        "text": "Don't worship the small lighting, I just need the room to stay.",
-        "avg_logprob": -0.17453124344348908,
-        "no_speech_prob": 0.314697265625
-      },
-      {
-        "start": 106.0,
-        "end": 116.0,
-        "text": "When the screen begins to turn, you return me to the day.",
-        "avg_logprob": -0.17453124344348908,
-        "no_speech_prob": 0.314697265625
-      },
-      {
-        "start": 116.0,
-        "end": 121.0,
-        "text": "People call it little comfort, as if comfort were a flaw.",
-        "avg_logprob": -0.17453124344348908,
-        "no_speech_prob": 0.314697265625
-      },
-      {
-        "start": 121.0,
-        "end": 126.0,
-        "text": "As if every fragile engine, not a run-on line.",
-        "avg_logprob": -0.24696827557549547,
-        "no_speech_prob": 0.400146484375
-      },
-      {
-        "start": 126.0,
-        "end": 132.0,
-        "text": "But I know the sound of empty, when the meat is barely left.",
-        "avg_logprob": -0.24696827557549547,
-        "no_speech_prob": 0.400146484375
-      },
-      {
-        "start": 132.0,
-        "end": 137.0,
-        "text": "I know how the whole apartment tilts around, the missing gift.",
-        "avg_logprob": -0.24696827557549547,
-        "no_speech_prob": 0.400146484375
-      },
-      {
-        "start": 137.0,
-        "end": 143.0,
-        "text": "So I keep a measured signal, not for pleasure, not for grace.",
-        "avg_logprob": -0.24696827557549547,
-        "no_speech_prob": 0.400146484375
-      },
-      {
-        "start": 143.0,
-        "end": 150.0,
-        "text": "Just a key, the old receiver from dissolving out of place.",
-        "avg_logprob": -0.23095703745881715,
-        "no_speech_prob": 0.52880859375
-      },
-      {
-        "start": 150.0,
-        "end": 159.0,
-        "text": "Dependences and ugly words, until the rail goes cold.",
-        "avg_logprob": -0.23095703745881715,
-        "no_speech_prob": 0.52880859375
-      },
-      {
-        "start": 159.0,
-        "end": 169.0,
-        "text": "And every theory loses voltage, and the body tells the truth.",
-        "avg_logprob": -0.23095703745881715,
-        "no_speech_prob": 0.52880859375
-      },
-      {
-        "start": 170.0,
-        "end": 181.0,
-        "text": "Back up rail, hold the body, when the main line disappears.",
-        "avg_logprob": -0.08677455399717604,
-        "no_speech_prob": 0.382080078125
-      },
-      {
-        "start": 181.0,
-        "end": 192.0,
-        "text": "Bring the color to the panel, bring the floorboards back from Smith.",
-        "avg_logprob": -0.08677455399717604,
-        "no_speech_prob": 0.382080078125
-      },
-      {
-        "start": 192.0,
-        "end": 203.0,
-        "text": "Don't worship the small lighting, I just need the room to stay.",
-        "avg_logprob": -0.13593749574252537,
-        "no_speech_prob": 0.6494140625
-      },
-      {
-        "start": 203.0,
-        "end": 214.0,
-        "text": "When the screen begins to turn, you return me to the day.",
-        "avg_logprob": -0.13593749574252537,
-        "no_speech_prob": 0.6494140625
-      },
-      {
-        "start": 215.0,
-        "end": 224.0,
-        "text": "When the screen starts to turn, you return me to the day.",
-        "avg_logprob": -0.8034040629863739,
-        "no_speech_prob": 0.84619140625
-      },
-      {
-        "start": 224.0,
-        "end": 227.0,
-        "text": "Just the current",
-        "avg_logprob": -0.6999289989471436,
-        "no_speech_prob": 0.6572265625
-      },
-      {
-        "start": 230.0,
-        "end": 233.0,
-        "text": "With my name",
-        "avg_logprob": -0.6999289989471436,
-        "no_speech_prob": 0.6572265625
-      }
-    ],
-    "avg_logprob": -0.31110012992533514
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 272,
-    "transcript_word_count": 276,
-    "matched_sequence_words": 231,
-    "lyric_alignment_ratio": 0.849,
-    "transcript_precision_ratio": 0.837,
-    "unique_expected_word_coverage": 0.868,
-    "word_count_ratio": 1.015,
-    "repeated_12gram_ratio": 0.136,
-    "half_similarity": 0.42,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.852,
-    "quality_score_0_10": 8.52,
-    "flags": [],
-    "transcript_excerpt": "The lamps go thin, the console size, and all this shade. Behind my eyes. There are mornings with no handle, only carpet wall and weight. Every thought a lock is set, every limeloting gate. Then I find the hidden rail from the drawer beside the bed. Small, bright, current, plain provision for the system in the red. No romance in the rescue, no cathedral, no parade. Just a backup voltage humming, where the human battery free. Back up rail, hold the body, when the main line disappears. Bring the color to the panel, bring the floorboards back from Smith. Don't worship the small lighting, I just ne\n...[truncated]...\nround, the missing gift. So I keep a measured signal, not for pleasure, not for grace. Just a key, the old receiver from dissolving out of place. Dependences and ugly words, until the rail goes cold. And every theory loses voltage, and the body tells the truth. Back up rail, hold the body, when the main line disappears. Bring the color to the panel, bring the floorboards back from Smith. Don't worship the small lighting, I just need the room to stay. When the screen begins to turn, you return me to the day. When the screen starts to turn, you return me to the day. Just the current With my name"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.1,
-      "BP_beauty_spatial_poise": 8.5,
-      "EG_evolving_grammar": 6.8,
-      "CD_carry_depth": 8.7
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.61,
+      "BP_beauty_spatial_poise": 7.97,
+      "EG_evolving_grammar": 6.42,
+      "CD_carry_depth": 8.16
     },
     "core_metrics": {
-      "CDPD": 0.88,
-      "NGE": 0.59,
+      "CDPD": 0.856,
+      "NGE": 0.588,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
-      "number": 14,
-      "label": "Quiet Twists & Recursions",
-      "note": "The track shows a clear, inhabited form with evolving grammar and spatial beauty, but lacks the radical innovation of higher rungs."
+      "number": 10,
+      "label": "Technical Perfection, No Rupture",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track has a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like revisiting emotional rooms."
+        "delta": 0.0,
+        "reason": "Base score reflects strong structural design with clear verse/hook transitions."
       },
       "MI_motivic_integration": {
-        "delta": 0.49,
-        "reason": "Motifs like the backup rail metaphor, vocal hook, and guitar figure recur in altered forms across sections, showing strong motivic integration."
+        "delta": 0.0,
+        "reason": "Motivic integration is high due to consistent thematic motifs and recurring lyrical imagery."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.53,
-        "reason": "The production design, including room tone, tape hiss, and stereo field, creates a memorable sonic habitat that feels intentional and coherent."
+        "delta": 0.0,
+        "reason": "Score remains stable; production notes confirm intentional spatial design (warm dub, synth beds)."
       },
       "EG_evolving_grammar": {
-        "delta": 0.38,
-        "reason": "The grammar develops over time, with meaningful rule changes and instrument role shifts, though it does not fully invent a new method."
+        "delta": 0.0,
+        "reason": "Grammar is consistently complex/abstract without evidence of repetitive filler."
       },
       "CD_carry_depth": {
-        "delta": 0.54,
-        "reason": "The track defines a recognizable emotional habitat and invites re-listening, with a strong sense of inhabitation rather than mere performance."
+        "delta": 0.0,
+        "reason": "Lyric depth is sustained through consistent metaphor and atmosphere."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:10.96 with section-balance score 0.33.",
-      "Tempo estimate is 172.3 BPM; declared tempo alignment contributes 0.85.",
-      "Integrated loudness is -18.2 LUFS, peak is -2.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is C major with confidence 0.23.",
-      "Audio recurrence ratio is 0.403; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 365 beats and 93 downbeats; beat-grid stability is 0.68.",
-      "EG evidence: section contrast 1.32, cumulative evolution 0.40, transformed returns 10.00, grid deviation 0.53, rule changes 3.21.",
-      "Companion text has 7 lyric/production sections, 314 words, line repetition 0.15, rhyme-suffix reuse 0.30."
+      "The track exhibits high structural coherence with distinct sections (Intro, Verse, Hook, Bridge) that build toward a final hook.",
+      "Motivic integration is strong; the 'backup rail' and 'low battery' motifs provide a cohesive narrative thread throughout.",
+      "Production notes confirm intentional spatial design using synth beds and dub delays to create an immersive sonic habitat.",
+      "The lyricism avoids cliché by utilizing abstract, physical imagery (e.g., 'broken circuit', 'signal of pleasure') rather than standard pop tropes.",
+      "review_flags_none"
     ],
-    "review_flags": [
-      "Uncertainty about section detection due to the complexity of the audio structure."
-    ],
+    "review_flags": [],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:28:35.5511812Z",
-    "eval_count": 792,
-    "eval_duration": 13064693300
+    "created_at": "2026-06-10T10:30:44.7174828Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8030798,
+      "base64_chars": 10707732,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11838,
+    "prompt_eval_duration": 4986140000,
+    "eval_count": 433,
+    "eval_duration": 11020070000
   }
 }

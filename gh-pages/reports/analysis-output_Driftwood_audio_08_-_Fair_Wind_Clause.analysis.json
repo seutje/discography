@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:09:28",
+  "generated_at": "2026-06-10T12:09:12",
   "audio": {
     "path": "Driftwood/audio/08 - Fair Wind Clause.mp3",
     "duration_seconds": 247.16,
@@ -1376,7 +1376,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1420,287 +1423,16 @@
       "beat_this detected 364 beats and 96 downbeats; beat-grid stability is 0.66.",
       "EG evidence: section contrast 1.82, cumulative evolution 0.64, transformed returns 10.00, grid deviation 1.57, rule changes 4.29.",
       "Companion text has 10 lyric/production sections, 448 words, line repetition 0.25, rhyme-suffix reuse 0.42.",
-      "Production/vocal notes contain transformation cues (texture-change); intent score 2.20.",
-      "Transcription check: lyric alignment 0.85, unique-word coverage 0.87, word-count ratio 0.99, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (texture-change); intent score 2.20."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "If it comes, let it find the tired ones, loose rope, open palm, no one punished for the calm. By morning, we had patched the seam with sail cloth jokes and coffee steam. The child had named the battered bow, probably fine and careful strokes. We laughed because it might be true, the kind of truth that lends with you. Not brave enough to raise a flag, but strong enough to mend the bag. The old scarf tried along the rail, the fishers argued with the sail. The wind came shy then came again like someone learning how to mend. It doesn't have to roll to move, it doesn't have to ask for proof of kinder weather. When it starts, it still has to pass through guarded hearts. If the fair wind finds us, let it find us as we are. Salted every sleeve cup, splinters in the sport. If the fair wind carries, let it carry without doubt. Not every good thing coming needs a storm to earn it first. We shared the bread and uneven parts, one kept crusting on kept hearts. No one hung the crooked tune, the deck kept time with healing spoon. I thought of every bitter cup, every tide I drank enough and did not curse the angry me. For mistaking, thirst for mercy. The sea stayed sea, the rope stayed up the sky. They know a apology, but there was warmth along the planks and I let my soul proceed. It doesn't fix the ears behind, it doesn't make the old age kind. But joy can sit with soaked their feet and still be joy and still be sweet. If the fair wind finds us, let it find us as we are. Salted every sleeve cup, splinters in the sport. If the fair wind carries, let it carry without doubt. Not every good thing coming needs a storm to earn it first. Our kept waiting for the catch, the hidden reef, the closing hatch. Some days open without teeth, some hands offer and then leaving no ledger on the cabin wall. No lessen company, it all just weather turning from the west and tired lungs doing their best. If the fair wind finds us, let it find us as we are. Salted every sleeve cup, splinters in the sport. If the fair wind carries, let it carry without doubt. Not every good thing coming needs a storm to earn it first. If the fair wind finds us, let it find us as we are. Salted every sleeve cup, splinters in the sport.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 25.0,
-        "text": "If it comes, let it find the tired ones, loose rope, open palm, no one punished for the calm.",
-        "avg_logprob": -0.5574776785714286,
-        "no_speech_prob": 0.378662109375
-      },
-      {
-        "start": 26.0,
-        "end": 32.0,
-        "text": "By morning, we had patched the seam with sail cloth jokes and coffee steam.",
-        "avg_logprob": -0.21293218418004664,
-        "no_speech_prob": 0.787109375
-      },
-      {
-        "start": 32.0,
-        "end": 37.0,
-        "text": "The child had named the battered bow, probably fine and careful strokes.",
-        "avg_logprob": -0.21293218418004664,
-        "no_speech_prob": 0.787109375
-      },
-      {
-        "start": 37.0,
-        "end": 42.0,
-        "text": "We laughed because it might be true, the kind of truth that lends with you.",
-        "avg_logprob": -0.21293218418004664,
-        "no_speech_prob": 0.787109375
-      },
-      {
-        "start": 42.0,
-        "end": 47.0,
-        "text": "Not brave enough to raise a flag, but strong enough to mend the bag.",
-        "avg_logprob": -0.21293218418004664,
-        "no_speech_prob": 0.787109375
-      },
-      {
-        "start": 47.0,
-        "end": 52.0,
-        "text": "The old scarf tried along the rail, the fishers argued with the sail.",
-        "avg_logprob": -0.21293218418004664,
-        "no_speech_prob": 0.787109375
-      },
-      {
-        "start": 52.0,
-        "end": 58.0,
-        "text": "The wind came shy then came again like someone learning how to mend.",
-        "avg_logprob": -0.228040537922769,
-        "no_speech_prob": 0.49072265625
-      },
-      {
-        "start": 58.0,
-        "end": 65.0,
-        "text": "It doesn't have to roll to move, it doesn't have to ask for proof of kinder weather.",
-        "avg_logprob": -0.228040537922769,
-        "no_speech_prob": 0.49072265625
-      },
-      {
-        "start": 65.0,
-        "end": 70.0,
-        "text": "When it starts, it still has to pass through guarded hearts.",
-        "avg_logprob": -0.228040537922769,
-        "no_speech_prob": 0.49072265625
-      },
-      {
-        "start": 70.0,
-        "end": 76.0,
-        "text": "If the fair wind finds us, let it find us as we are.",
-        "avg_logprob": -0.228040537922769,
-        "no_speech_prob": 0.49072265625
-      },
-      {
-        "start": 76.0,
-        "end": 82.0,
-        "text": "Salted every sleeve cup, splinters in the sport.",
-        "avg_logprob": -0.2547123006411961,
-        "no_speech_prob": 0.429931640625
-      },
-      {
-        "start": 82.0,
-        "end": 86.0,
-        "text": "If the fair wind carries, let it carry without doubt.",
-        "avg_logprob": -0.2547123006411961,
-        "no_speech_prob": 0.429931640625
-      },
-      {
-        "start": 86.0,
-        "end": 94.0,
-        "text": "Not every good thing coming needs a storm to earn it first.",
-        "avg_logprob": -0.2547123006411961,
-        "no_speech_prob": 0.429931640625
-      },
-      {
-        "start": 97.0,
-        "end": 103.0,
-        "text": "We shared the bread and uneven parts, one kept crusting on kept hearts.",
-        "avg_logprob": -0.2547123006411961,
-        "no_speech_prob": 0.429931640625
-      },
-      {
-        "start": 103.0,
-        "end": 108.0,
-        "text": "No one hung the crooked tune, the deck kept time with healing spoon.",
-        "avg_logprob": -0.3159123707091671,
-        "no_speech_prob": 0.41845703125
-      },
-      {
-        "start": 108.0,
-        "end": 116.0,
-        "text": "I thought of every bitter cup, every tide I drank enough and did not curse the angry me.",
-        "avg_logprob": -0.3159123707091671,
-        "no_speech_prob": 0.41845703125
-      },
-      {
-        "start": 116.0,
-        "end": 119.0,
-        "text": "For mistaking, thirst for mercy.",
-        "avg_logprob": -0.3159123707091671,
-        "no_speech_prob": 0.41845703125
-      },
-      {
-        "start": 119.0,
-        "end": 122.0,
-        "text": "The sea stayed sea, the rope stayed up the sky.",
-        "avg_logprob": -0.3159123707091671,
-        "no_speech_prob": 0.41845703125
-      },
-      {
-        "start": 122.0,
-        "end": 132.0,
-        "text": "They know a apology, but there was warmth along the planks and I let my soul proceed.",
-        "avg_logprob": -0.3159123707091671,
-        "no_speech_prob": 0.41845703125
-      },
-      {
-        "start": 132.0,
-        "end": 137.0,
-        "text": "It doesn't fix the ears behind, it doesn't make the old age kind.",
-        "avg_logprob": -0.14359594650671514,
-        "no_speech_prob": 0.17578125
-      },
-      {
-        "start": 137.0,
-        "end": 145.0,
-        "text": "But joy can sit with soaked their feet and still be joy and still be sweet.",
-        "avg_logprob": -0.14359594650671514,
-        "no_speech_prob": 0.17578125
-      },
-      {
-        "start": 145.0,
-        "end": 151.0,
-        "text": "If the fair wind finds us, let it find us as we are.",
-        "avg_logprob": -0.14359594650671514,
-        "no_speech_prob": 0.17578125
-      },
-      {
-        "start": 151.0,
-        "end": 157.0,
-        "text": "Salted every sleeve cup, splinters in the sport.",
-        "avg_logprob": -0.14359594650671514,
-        "no_speech_prob": 0.17578125
-      },
-      {
-        "start": 157.0,
-        "end": 162.0,
-        "text": "If the fair wind carries, let it carry without doubt.",
-        "avg_logprob": -0.1728515656044086,
-        "no_speech_prob": 0.2177734375
-      },
-      {
-        "start": 162.0,
-        "end": 169.0,
-        "text": "Not every good thing coming needs a storm to earn it first.",
-        "avg_logprob": -0.1728515656044086,
-        "no_speech_prob": 0.2177734375
-      },
-      {
-        "start": 173.0,
-        "end": 179.0,
-        "text": "Our kept waiting for the catch, the hidden reef, the closing hatch.",
-        "avg_logprob": -0.1728515656044086,
-        "no_speech_prob": 0.2177734375
-      },
-      {
-        "start": 179.0,
-        "end": 187.0,
-        "text": "Some days open without teeth, some hands offer and then leaving no ledger on the cabin wall.",
-        "avg_logprob": -0.3208220231792201,
-        "no_speech_prob": 0.275390625
-      },
-      {
-        "start": 187.0,
-        "end": 198.0,
-        "text": "No lessen company, it all just weather turning from the west and tired lungs doing their best.",
-        "avg_logprob": -0.3208220231792201,
-        "no_speech_prob": 0.275390625
-      },
-      {
-        "start": 198.0,
-        "end": 204.0,
-        "text": "If the fair wind finds us, let it find us as we are.",
-        "avg_logprob": -0.051537297425731536,
-        "no_speech_prob": 0.232421875
-      },
-      {
-        "start": 204.0,
-        "end": 211.0,
-        "text": "Salted every sleeve cup, splinters in the sport.",
-        "avg_logprob": -0.051537297425731536,
-        "no_speech_prob": 0.232421875
-      },
-      {
-        "start": 211.0,
-        "end": 215.0,
-        "text": "If the fair wind carries, let it carry without doubt.",
-        "avg_logprob": -0.051537297425731536,
-        "no_speech_prob": 0.232421875
-      },
-      {
-        "start": 215.0,
-        "end": 222.0,
-        "text": "Not every good thing coming needs a storm to earn it first.",
-        "avg_logprob": -0.051537297425731536,
-        "no_speech_prob": 0.232421875
-      },
-      {
-        "start": 222.0,
-        "end": 228.0,
-        "text": "If the fair wind finds us, let it find us as we are.",
-        "avg_logprob": -0.22485351050272584,
-        "no_speech_prob": 0.33837890625
-      },
-      {
-        "start": 228.0,
-        "end": 234.0,
-        "text": "Salted every sleeve cup, splinters in the sport.",
-        "avg_logprob": -0.22485351050272584,
-        "no_speech_prob": 0.33837890625
-      }
-    ],
-    "avg_logprob": -0.2520030450321709
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 432,
-    "transcript_word_count": 429,
-    "matched_sequence_words": 367,
-    "lyric_alignment_ratio": 0.85,
-    "transcript_precision_ratio": 0.855,
-    "unique_expected_word_coverage": 0.867,
-    "word_count_ratio": 0.993,
-    "repeated_12gram_ratio": 0.177,
-    "half_similarity": 0.308,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.854,
-    "quality_score_0_10": 8.54,
-    "flags": [],
-    "transcript_excerpt": "If it comes, let it find the tired ones, loose rope, open palm, no one punished for the calm. By morning, we had patched the seam with sail cloth jokes and coffee steam. The child had named the battered bow, probably fine and careful strokes. We laughed because it might be true, the kind of truth that lends with you. Not brave enough to raise a flag, but strong enough to mend the bag. The old scarf tried along the rail, the fishers argued with the sail. The wind came shy then came again like someone learning how to mend. It doesn't have to roll to move, it doesn't have to ask for proof of kind\n...[truncated]...\n a storm to earn it first. Our kept waiting for the catch, the hidden reef, the closing hatch. Some days open without teeth, some hands offer and then leaving no ledger on the cabin wall. No lessen company, it all just weather turning from the west and tired lungs doing their best. If the fair wind finds us, let it find us as we are. Salted every sleeve cup, splinters in the sport. If the fair wind carries, let it carry without doubt. Not every good thing coming needs a storm to earn it first. If the fair wind finds us, let it find us as we are. Salted every sleeve cup, splinters in the sport."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.5,
-      "BP_beauty_spatial_poise": 9.2,
-      "EG_evolving_grammar": 7.0,
-      "CD_carry_depth": 9.5
+      "SC_structural_coherence": 9.8,
+      "MI_motivic_integration": 8.25,
+      "BP_beauty_spatial_poise": 9.4,
+      "EG_evolving_grammar": 7.13,
+      "CD_carry_depth": 9.33
     },
     "core_metrics": {
       "CDPD": 0.908,
@@ -1710,50 +1442,57 @@
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural complexity with clear thematic development."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with consistent returns and emotional payoff, supporting strong structural coherence."
+        "delta": -0.2,
+        "reason": "Strong verse/chorus structure and distinct outro section provide a solid architectural payoff."
       },
       "MI_motivic_integration": {
-        "delta": 0.25,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric images recur across sections in altered forms, showing strong motivic integration."
+        "delta": 0.0,
+        "reason": "Base score reflects strong thematic consistency across the lyric-melody interplay."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.2,
-        "reason": "The sonic habitat, including room tone and guitar space, is memorable but not uniquely distinctive, slightly lowering the spatial-poise score."
+        "delta": 0.0,
+        "reason": "Production and arrangement are well-balanced for the genre."
       },
       "EG_evolving_grammar": {
-        "delta": 0.07,
-        "reason": "While the track develops a personal indie grammar over time, it does not invent a new method, so the evolving-grammar score is adjusted downward."
+        "delta": 0.2,
+        "reason": "The transition from 'sea' imagery to internal reflection shows intentional lyrical progression."
       },
       "CD_carry_depth": {
-        "delta": 0.17,
-        "reason": "The track feels like a small world with a clear emotional arc and memorable sonic details, supporting a slightly higher carry-depth score."
+        "delta": 0.0,
+        "reason": "Lyrics maintain a consistent, evocative atmosphere throughout."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:07.16 with section-balance score 0.47.",
-      "Tempo estimate is 172.3 BPM; declared tempo alignment contributes 0.91.",
-      "Integrated loudness is -17.4 LUFS, peak is -0.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F major with confidence 0.47.",
-      "Audio recurrence ratio is 0.366; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 364 beats and 96 downbeats; beat-grid stability is 0.66.",
-      "EG evidence: section contrast 1.82, cumulative evolution 0.64, transformed returns 10.00, grid deviation 1.57, rule changes 4.29.",
-      "Companion text has 10 lyric/production sections, 448 words, line repetition 0.25, rhyme-suffix reuse 0.42."
+      "Strong structural coherence with clear transitions between verse and chorus.",
+      "Motivic integration is high due to the recurring 'fair wind' motif.",
+      "The production matches the 'warm indie' aesthetic perfectly.",
+      "Lyric progression shows intentional growth rather than repetition."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the final 13.845895691609968 seconds; audio-only evidence is weak."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:09:28.7783684Z",
-    "eval_count": 807,
-    "eval_duration": 13227107200
+    "created_at": "2026-06-10T10:09:12.499404Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7909198,
+      "base64_chars": 10545600,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11721,
+    "prompt_eval_duration": 5797845000,
+    "eval_count": 390,
+    "eval_duration": 10977362000
   }
 }

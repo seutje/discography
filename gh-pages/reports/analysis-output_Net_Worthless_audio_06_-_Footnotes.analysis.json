@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:23:54",
+  "generated_at": "2026-06-10T12:26:32",
   "audio": {
     "path": "Net Worthless/audio/06 - Footnotes.mp3",
     "duration_seconds": 358.9897505668934,
@@ -1765,7 +1765,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1809,474 +1812,75 @@
       "beat_this detected 501 beats and 137 downbeats; beat-grid stability is 0.65.",
       "EG evidence: section contrast 1.38, cumulative evolution 0.46, transformed returns 10.00, grid deviation 1.08, rule changes 2.78.",
       "Companion text has 11 lyric/production sections, 910 words, line repetition 0.07, rhyme-suffix reuse 0.40.",
-      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 3.10.",
-      "Transcription check: lyric alignment 0.89, unique-word coverage 0.93, word-count ratio 0.98, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 3.10."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Funny thing, everybody wants to be original, which is brave, considering most of us learned language from people who were already talking. Yeah, I've been stealing fire with her seats. I used to want my name carved deep in the door, big letter saying I was here before, not huge, not greedy, just, you know, tastefully immortal, a plaque would do, maybe brass, maybe somewhere near the snacks, because I worked on the thing till the thing worked back till my eyes went dry and my shoulders attacked. Till the song had teeth and the lion had feet till the tiny little engine could cross the street and then someone says nice, it moves on, three weeks of my life became six seconds and a thumb and a smile like thank you while inside a small account and set a fire to a chair, but I didn't build this from nothing at all, I borrowed the ladder, I borrowed the wall, I'm standing on shoulders and lending my bones, making a step out of the door, I own, maybe they won't know what it cost me to climb, but if they see further than the work did find, would still accept applause, I'm evolving, not dead, every song has ancestors humming in the floor, every painting has fingerprints under the door, every sentence I wrote has a village behind it, some teacher with patience, some poet with timing, some stranger online, who explained something twice while being called an idiot by a man named Iceman, this beautiful species, terrible comment sections of taken little pieces from a thousand kind hands of rhythm, from a busker, a wound from a friend of phrase from my father, a joke from regret, a chord from a song, I pretended to forget, none of it means the making was hollow, it means I was fed before I learned how to swallow, it means I found a path because others wore ground, means the map had names, even when I looked down, so yes, put me in the footnotes, small print, back page near the typo, I wave, I'm standing on shoulders and lending my bones, making a step out of all I own, maybe they won't know what it calls me to climb, but if they see further than the word did find, and I won't pretend it doesn't sting, of course it stings, I'm not among, I'm the tired little creature with the password manager, in the approval issues, I want someone to notice the hours, the ugly drafts, the line I cut that deserved the small funeral, the chorus I rebuilt so many times, it started asking, for union rights, I want them to know I care, that I didn't just toss it into the world, like loose change, I carried a badly sometimes with snacks, but I carried it, and still, maybe love is letting the thing go without stapling your whole face to the front of it, maybe I is not always a monument, sometimes it's a bridge, that thanks you, but I be in crust, I like the idea of the open door, the shared shelf, that take this, make more, a recipe passed on with sauce on the page, a little note saying careful here, this bit breaks, that feels honest, that feels clean, not mine forever, just mine in between, like I found a crack cup and filled it with rain and left it by the path for whoever came, and maybe some kid with the second hand might take one little line and make something bright, maybe they never know my name or my doubt, maybe they build a house where I only marked out one nail, one bank, one awkward suggestion, one baggy lid, answer to a private question, and maybe that's enough, God, I hate how mature that sounds tragic, growth is terrible branding, let the work travel, but the name travel less, let the heart leave a handle for whoever comes next, I'm standing on shoulders and lending my bones, making a step out of all I own, maybe they won't know what it costs me to climb, but if they see further, then the work did fine, I'm not the first fire, I'm not the last flame, I'm one little match in the long human shame, if I am forgotten, but the song still gets through, then I was at all late, and someone walked through, so no, I didn't make this from nothing, nobody does, I made it from everything that made me, from hands I never thank, from names I mispronounced, from Bible courage and return mistakes, and maybe someday someone will step on this, not cruelly, just naturally, on their way to somewhere better, and I hope it holds, I hope it helps, I hope they don't look down too long, I hope they keep going, because maybe the point was never, look at me, maybe the point was here, stand here, you can see a little further.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 11.16,
-        "text": "Funny thing, everybody wants to be original, which is brave, considering most of us learned",
-        "avg_logprob": -0.3274356473018141,
-        "no_speech_prob": 0.417236328125
-      },
-      {
-        "start": 11.16,
-        "end": 16.0,
-        "text": "language from people who were already talking.",
-        "avg_logprob": -0.3274356473018141,
-        "no_speech_prob": 0.417236328125
-      },
-      {
-        "start": 16.0,
-        "end": 22.76,
-        "text": "Yeah, I've been stealing fire with her seats.",
-        "avg_logprob": -0.3274356473018141,
-        "no_speech_prob": 0.417236328125
-      },
-      {
-        "start": 22.76,
-        "end": 28.46,
-        "text": "I used to want my name carved deep in the door, big letter saying I was here before, not",
-        "avg_logprob": -0.3274356473018141,
-        "no_speech_prob": 0.417236328125
-      },
-      {
-        "start": 28.46,
-        "end": 34.8,
-        "text": "huge, not greedy, just, you know, tastefully immortal, a plaque would do, maybe brass,",
-        "avg_logprob": -0.2627255252956115,
-        "no_speech_prob": 0.325927734375
-      },
-      {
-        "start": 34.8,
-        "end": 39.2,
-        "text": "maybe somewhere near the snacks, because I worked on the thing till the thing worked",
-        "avg_logprob": -0.2627255252956115,
-        "no_speech_prob": 0.325927734375
-      },
-      {
-        "start": 39.2,
-        "end": 45.46,
-        "text": "back till my eyes went dry and my shoulders attacked.",
-        "avg_logprob": -0.2627255252956115,
-        "no_speech_prob": 0.325927734375
-      },
-      {
-        "start": 45.46,
-        "end": 50.2,
-        "text": "Till the song had teeth and the lion had feet till the tiny little engine could cross",
-        "avg_logprob": -0.2627255252956115,
-        "no_speech_prob": 0.325927734375
-      },
-      {
-        "start": 50.2,
-        "end": 55.92,
-        "text": "the street and then someone says nice, it moves on, three weeks of my life became six",
-        "avg_logprob": -0.2627255252956115,
-        "no_speech_prob": 0.325927734375
-      },
-      {
-        "start": 55.92,
-        "end": 61.38,
-        "text": "seconds and a thumb and a smile like thank you while inside a small account and set",
-        "avg_logprob": -0.2765858066615774,
-        "no_speech_prob": 0.361083984375
-      },
-      {
-        "start": 61.38,
-        "end": 69.08,
-        "text": "a fire to a chair, but I didn't build this from nothing at all, I borrowed the ladder,",
-        "avg_logprob": -0.2765858066615774,
-        "no_speech_prob": 0.361083984375
-      },
-      {
-        "start": 69.08,
-        "end": 79.28,
-        "text": "I borrowed the wall, I'm standing on shoulders and lending my bones, making a step out of",
-        "avg_logprob": -0.2765858066615774,
-        "no_speech_prob": 0.361083984375
-      },
-      {
-        "start": 79.28,
-        "end": 90.24,
-        "text": "the door, I own, maybe they won't know what it cost me to climb, but if they see further",
-        "avg_logprob": -0.261082841559898,
-        "no_speech_prob": 0.452880859375
-      },
-      {
-        "start": 90.24,
-        "end": 98.4,
-        "text": "than the work did find, would still accept applause, I'm evolving, not dead, every song",
-        "avg_logprob": -0.261082841559898,
-        "no_speech_prob": 0.452880859375
-      },
-      {
-        "start": 98.4,
-        "end": 103.3,
-        "text": "has ancestors humming in the floor, every painting has fingerprints under the door, every",
-        "avg_logprob": -0.261082841559898,
-        "no_speech_prob": 0.452880859375
-      },
-      {
-        "start": 103.3,
-        "end": 108.34,
-        "text": "sentence I wrote has a village behind it, some teacher with patience, some poet with",
-        "avg_logprob": -0.261082841559898,
-        "no_speech_prob": 0.452880859375
-      },
-      {
-        "start": 108.34,
-        "end": 113.3,
-        "text": "timing, some stranger online, who explained something twice while being called an idiot",
-        "avg_logprob": -0.27889149650087897,
-        "no_speech_prob": 0.78564453125
-      },
-      {
-        "start": 113.3,
-        "end": 118.5,
-        "text": "by a man named Iceman, this beautiful species, terrible comment sections of taken little",
-        "avg_logprob": -0.27889149650087897,
-        "no_speech_prob": 0.78564453125
-      },
-      {
-        "start": 118.5,
-        "end": 123.7,
-        "text": "pieces from a thousand kind hands of rhythm, from a busker, a wound from a friend of phrase",
-        "avg_logprob": -0.27889149650087897,
-        "no_speech_prob": 0.78564453125
-      },
-      {
-        "start": 123.7,
-        "end": 129.86,
-        "text": "from my father, a joke from regret, a chord from a song, I pretended to forget, none of",
-        "avg_logprob": -0.27889149650087897,
-        "no_speech_prob": 0.78564453125
-      },
-      {
-        "start": 129.86,
-        "end": 134.62,
-        "text": "it means the making was hollow, it means I was fed before I learned how to swallow,",
-        "avg_logprob": -0.27889149650087897,
-        "no_speech_prob": 0.78564453125
-      },
-      {
-        "start": 134.62,
-        "end": 139.46,
-        "text": "it means I found a path because others wore ground, means the map had names, even when",
-        "avg_logprob": -0.27499999046325685,
-        "no_speech_prob": 0.1883544921875
-      },
-      {
-        "start": 139.46,
-        "end": 148.18,
-        "text": "I looked down, so yes, put me in the footnotes, small print, back page near the typo, I wave,",
-        "avg_logprob": -0.27499999046325685,
-        "no_speech_prob": 0.1883544921875
-      },
-      {
-        "start": 148.18,
-        "end": 159.98,
-        "text": "I'm standing on shoulders and lending my bones, making a step out of all I own, maybe",
-        "avg_logprob": -0.27499999046325685,
-        "no_speech_prob": 0.1883544921875
-      },
-      {
-        "start": 159.98,
-        "end": 168.9,
-        "text": "they won't know what it calls me to climb, but if they see further than the word did",
-        "avg_logprob": -0.23624320441614027,
-        "no_speech_prob": 0.779296875
-      },
-      {
-        "start": 168.9,
-        "end": 175.54,
-        "text": "find, and I won't pretend it doesn't sting, of course it stings, I'm not among, I'm",
-        "avg_logprob": -0.23624320441614027,
-        "no_speech_prob": 0.779296875
-      },
-      {
-        "start": 175.54,
-        "end": 181.18,
-        "text": "the tired little creature with the password manager, in the approval issues, I want someone",
-        "avg_logprob": -0.23624320441614027,
-        "no_speech_prob": 0.779296875
-      },
-      {
-        "start": 181.18,
-        "end": 186.3,
-        "text": "to notice the hours, the ugly drafts, the line I cut that deserved the small funeral,",
-        "avg_logprob": -0.23624320441614027,
-        "no_speech_prob": 0.779296875
-      },
-      {
-        "start": 186.3,
-        "end": 192.78,
-        "text": "the chorus I rebuilt so many times, it started asking, for union rights, I want them to",
-        "avg_logprob": -0.2073384898432185,
-        "no_speech_prob": 0.6591796875
-      },
-      {
-        "start": 192.78,
-        "end": 198.42,
-        "text": "know I care, that I didn't just toss it into the world, like loose change, I carried",
-        "avg_logprob": -0.2073384898432185,
-        "no_speech_prob": 0.6591796875
-      },
-      {
-        "start": 198.42,
-        "end": 204.38,
-        "text": "a badly sometimes with snacks, but I carried it, and still, maybe love is letting the",
-        "avg_logprob": -0.2073384898432185,
-        "no_speech_prob": 0.6591796875
-      },
-      {
-        "start": 204.38,
-        "end": 210.54,
-        "text": "thing go without stapling your whole face to the front of it, maybe I is not always",
-        "avg_logprob": -0.2073384898432185,
-        "no_speech_prob": 0.6591796875
-      },
-      {
-        "start": 210.54,
-        "end": 218.1,
-        "text": "a monument, sometimes it's a bridge, that thanks you, but I be in crust, I like the",
-        "avg_logprob": -0.293648097826087,
-        "no_speech_prob": 0.7158203125
-      },
-      {
-        "start": 218.1,
-        "end": 224.1,
-        "text": "idea of the open door, the shared shelf, that take this, make more, a recipe passed",
-        "avg_logprob": -0.293648097826087,
-        "no_speech_prob": 0.7158203125
-      },
-      {
-        "start": 224.1,
-        "end": 229.26,
-        "text": "on with sauce on the page, a little note saying careful here, this bit breaks, that feels",
-        "avg_logprob": -0.293648097826087,
-        "no_speech_prob": 0.7158203125
-      },
-      {
-        "start": 229.26,
-        "end": 234.86,
-        "text": "honest, that feels clean, not mine forever, just mine in between, like I found a crack",
-        "avg_logprob": -0.293648097826087,
-        "no_speech_prob": 0.7158203125
-      },
-      {
-        "start": 234.86,
-        "end": 240.62,
-        "text": "cup and filled it with rain and left it by the path for whoever came, and maybe some",
-        "avg_logprob": -0.27889149650087897,
-        "no_speech_prob": 0.462890625
-      },
-      {
-        "start": 240.62,
-        "end": 245.82,
-        "text": "kid with the second hand might take one little line and make something bright, maybe",
-        "avg_logprob": -0.27889149650087897,
-        "no_speech_prob": 0.462890625
-      },
-      {
-        "start": 245.82,
-        "end": 250.7,
-        "text": "they never know my name or my doubt, maybe they build a house where I only marked",
-        "avg_logprob": -0.27889149650087897,
-        "no_speech_prob": 0.462890625
-      },
-      {
-        "start": 250.7,
-        "end": 256.9,
-        "text": "out one nail, one bank, one awkward suggestion, one baggy lid, answer to a private question,",
-        "avg_logprob": -0.27889149650087897,
-        "no_speech_prob": 0.462890625
-      },
-      {
-        "start": 256.9,
-        "end": 264.74,
-        "text": "and maybe that's enough, God, I hate how mature that sounds tragic, growth is terrible",
-        "avg_logprob": -0.27889149650087897,
-        "no_speech_prob": 0.462890625
-      },
-      {
-        "start": 264.74,
-        "end": 275.3,
-        "text": "branding, let the work travel, but the name travel less, let the heart leave a handle",
-        "avg_logprob": -0.2306385905198429,
-        "no_speech_prob": 0.4453125
-      },
-      {
-        "start": 275.3,
-        "end": 287.1,
-        "text": "for whoever comes next, I'm standing on shoulders and lending my bones, making a step out of all",
-        "avg_logprob": -0.2306385905198429,
-        "no_speech_prob": 0.4453125
-      },
-      {
-        "start": 287.1,
-        "end": 297.5,
-        "text": "I own, maybe they won't know what it costs me to climb, but if they see further, then",
-        "avg_logprob": -0.28020834366480507,
-        "no_speech_prob": 0.787109375
-      },
-      {
-        "start": 297.5,
-        "end": 303.86,
-        "text": "the work did fine, I'm not the first fire, I'm not the last flame, I'm one little match",
-        "avg_logprob": -0.28020834366480507,
-        "no_speech_prob": 0.787109375
-      },
-      {
-        "start": 303.86,
-        "end": 309.66,
-        "text": "in the long human shame, if I am forgotten, but the song still gets through, then I was",
-        "avg_logprob": -0.28020834366480507,
-        "no_speech_prob": 0.787109375
-      },
-      {
-        "start": 309.66,
-        "end": 318.94,
-        "text": "at all late, and someone walked through, so no, I didn't make this from nothing, nobody",
-        "avg_logprob": -0.2645833439297146,
-        "no_speech_prob": 0.54833984375
-      },
-      {
-        "start": 318.94,
-        "end": 325.18,
-        "text": "does, I made it from everything that made me, from hands I never thank, from names I",
-        "avg_logprob": -0.2645833439297146,
-        "no_speech_prob": 0.54833984375
-      },
-      {
-        "start": 325.18,
-        "end": 331.86,
-        "text": "mispronounced, from Bible courage and return mistakes, and maybe someday someone will step",
-        "avg_logprob": -0.2645833439297146,
-        "no_speech_prob": 0.54833984375
-      },
-      {
-        "start": 331.86,
-        "end": 339.22,
-        "text": "on this, not cruelly, just naturally, on their way to somewhere better, and I hope",
-        "avg_logprob": -0.2645833439297146,
-        "no_speech_prob": 0.54833984375
-      },
-      {
-        "start": 339.22,
-        "end": 346.02,
-        "text": "it holds, I hope it helps, I hope they don't look down too long, I hope they keep going,",
-        "avg_logprob": -0.19719827046682095,
-        "no_speech_prob": 0.52880859375
-      },
-      {
-        "start": 346.02,
-        "end": 355.5,
-        "text": "because maybe the point was never, look at me, maybe the point was here, stand here, you",
-        "avg_logprob": -0.19719827046682095,
-        "no_speech_prob": 0.52880859375
-      },
-      {
-        "start": 355.5,
-        "end": 356.86,
-        "text": "can see a little further.",
-        "avg_logprob": -0.19719827046682095,
-        "no_speech_prob": 0.52880859375
-      }
-    ],
-    "avg_logprob": -0.2644776315520691
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 853,
-    "transcript_word_count": 839,
-    "matched_sequence_words": 758,
-    "lyric_alignment_ratio": 0.889,
-    "transcript_precision_ratio": 0.903,
-    "unique_expected_word_coverage": 0.926,
-    "word_count_ratio": 0.984,
-    "repeated_12gram_ratio": 0.016,
-    "half_similarity": 0.196,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.898,
-    "quality_score_0_10": 8.98,
-    "flags": [],
-    "transcript_excerpt": "Funny thing, everybody wants to be original, which is brave, considering most of us learned language from people who were already talking. Yeah, I've been stealing fire with her seats. I used to want my name carved deep in the door, big letter saying I was here before, not huge, not greedy, just, you know, tastefully immortal, a plaque would do, maybe brass, maybe somewhere near the snacks, because I worked on the thing till the thing worked back till my eyes went dry and my shoulders attacked. Till the song had teeth and the lion had feet till the tiny little engine could cross the street and\n...[truncated]...\ntten, but the song still gets through, then I was at all late, and someone walked through, so no, I didn't make this from nothing, nobody does, I made it from everything that made me, from hands I never thank, from names I mispronounced, from Bible courage and return mistakes, and maybe someday someone will step on this, not cruelly, just naturally, on their way to somewhere better, and I hope it holds, I hope it helps, I hope they don't look down too long, I hope they keep going, because maybe the point was never, look at me, maybe the point was here, stand here, you can see a little further."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 9.5,
-      "BP_beauty_spatial_poise": 9.0,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 9.2
+      "SC_structural_coherence": 9.5,
+      "MI_motivic_integration": 9.87,
+      "BP_beauty_spatial_poise": 9.37,
+      "EG_evolving_grammar": 6.88,
+      "CD_carry_depth": 9.03
     },
     "core_metrics": {
-      "CDPD": 0.95,
-      "NGE": 0.6,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.985,
+      "NGE": 0.632,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
-      "number": 11,
-      "label": "Quiet twists & recursions",
-      "note": "Strong section contrast and transformed returns suggest deeper structural engagement, but lack of clear motif integration and spatial signature keep it below 'Quiet twists & recursions' ceiling."
+      "number": 13,
+      "label": "Inhabited Form",
+      "note": "The track follows a clear narrative arc from introspection to communal legacy."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 9.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section contrast score of 1.383 and section-balance score of 0.34 suggest proportionate, intentional design, but the 10-section structure with uneven durations (e.g., 91.565s vs 10.24s) introduces uncertainty about section function and arc."
+        "delta": -0.5,
+        "reason": "While the structure is solid, the transition between Verse 2 and the Bridge is slightly abrupt in terms of production shift."
       },
       "MI_motivic_integration": {
-        "delta": -0.37,
-        "reason": "Transformed returns score of 10.0 and cross-domain recursion (e.g., hook rhythm in verse cadences) suggest strong motif integration, though no clear motif is identified in the text."
+        "delta": 0.0,
+        "reason": "The vocal flow remains highly consistent with the melodic hooks throughout."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.37,
-        "reason": "Production notes and text describe a roomy, human sonic habitat with intentional spatial design, but the audio features lack explicit evidence of reverb/delay law variation or stereo field intentionality."
+        "delta": 0.0,
+        "reason": "Production maintains a high level of atmosphere and space."
       },
       "EG_evolving_grammar": {
-        "delta": 0.62,
-        "reason": "Cumulative evolution score of 0.455 and rule changes of 2.778 suggest meaningful development, but the beat grid stability of 0.65 and consistent median beat intervals suggest limited structural evolution."
+        "delta": 0.0,
+        "reason": "Grammar is stable across sections despite the shift in delivery style."
       },
       "CD_carry_depth": {
-        "delta": 0.17,
-        "reason": "The lyrical arc from self-awareness to generosity and the emotional journey described in the text strongly support carry depth, though the audio features lack direct evidence of emotional imprint."
+        "delta": 0.0,
+        "reason": "The core theme of 'legacy' remains central to every section."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:58.99 with section-balance score 0.34.",
-      "Tempo estimate is 83.4 BPM; declared tempo alignment contributes 0.70.",
-      "Integrated loudness is -17.3 LUFS, peak is -0.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G major with confidence 0.50.",
-      "Audio recurrence ratio is 0.318; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 501 beats and 137 downbeats; beat-grid stability is 0.65.",
-      "EG evidence: section contrast 1.38, cumulative evolution 0.46, transformed returns 10.00, grid deviation 1.08, rule changes 2.78.",
-      "Companion text has 11 lyric/production sections, 910 words, line repetition 0.07, rhyme-suffix reuse 0.40."
+      "The track features a sophisticated interplay between spoken-word rap and melodic folk hooks.",
+      "The transition from personal struggle (Verse 1) to the collective history (Bridge/Final Hook) is well-executed.",
+      "The production builds organically, adding layers of instrumentation as the narrative expands."
     ],
     "review_flags": [
-      "Uncertain about section function due to uneven durations and lack of clear arc.",
-      "No clear motif identified in text or audio features."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:23:54.3988091Z",
-    "eval_count": 865,
-    "eval_duration": 14976265100
+    "created_at": "2026-06-10T10:26:32.4241261Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 11487894,
+      "base64_chars": 15317192,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 15290,
+    "prompt_eval_duration": 6528078000,
+    "eval_count": 409,
+    "eval_duration": 10110183000
   }
 }

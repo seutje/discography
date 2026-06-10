@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:36:57",
+  "generated_at": "2026-06-10T12:37:37",
   "audio": {
     "path": "Orbital Garden/audio/05 - Climate Rules.mp3",
     "duration_seconds": 213.76,
@@ -1251,7 +1251,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1296,160 +1299,8 @@
       "EG evidence: section contrast 2.67, cumulative evolution 1.08, transformed returns 10.00, grid deviation 0.91, rule changes 5.00.",
       "Companion text has 8 lyric/production sections, 290 words, line repetition 0.12, rhyme-suffix reuse 0.25.",
       "Production/vocal notes contain transformation cues (space-change, texture-change); intent score 3.75.",
-      "Transcription check: lyric alignment 0.77, unique-word coverage 0.83, word-count ratio 1.16, duplicate-pass estimate 1.",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Rain inside the upper ring, falls according to a rule, not a storm, a careful climb I'd made to keep the seedlings cool Rain inside the upper ring, falls according to a rule, not a storm, a careful climb I learned the worth of empty margins, how it channel guides the flow, how it color warns the chamber, how an error path can slow Nothing here was decoration, every shade adjusted breath, every gap allowed remaining space enough to not be pressed Air has fallen, form has waked, move the wall and thought can pass, move the lamp and green comes back Climb, rules invisible, turn the room from heart to client, shape the weather of attention, leave the crowded rush behind We call the surfaces, a garden for the eye, give them meaning, together give the living to rise But what the water trace the pain in columns, then refuse the perfect lane, I had planned a clean arrangement The leaves revised the rain, so I helped the grit more lightly, but the pattern be the part made a place where the fuck it settled Without losing its spark, not control, not display Starless climate, climate, teachers, we're to lean and we're to rest Care is often almost hidden, felt before it is expressed The walls invisible, turn the room from heart to client, shape the weather of attention, leave the crowded rush behind What we call the surfaces, a garden for the eye, give them meaning, together give the living room to rise The walls invisible, turn the room from heart to client, shape the weather of attention, leave the crowded rush behind What we call the surfaces, a garden for the eye, give them meaning, together give the living room to rise",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 20.32,
-        "text": "Rain inside the upper ring, falls according to a rule, not a storm, a careful climb",
-        "avg_logprob": -0.5978260869565217,
-        "no_speech_prob": 0.474609375
-      },
-      {
-        "start": 20.32,
-        "end": 24.32,
-        "text": "I'd made to keep the seedlings cool",
-        "avg_logprob": -0.7187499816601093,
-        "no_speech_prob": 0.2181396484375
-      },
-      {
-        "start": 24.32,
-        "end": 43.12,
-        "text": "Rain inside the upper ring, falls according to a rule, not a storm, a careful climb",
-        "avg_logprob": -0.4499421274220502,
-        "no_speech_prob": 0.3837890625
-      },
-      {
-        "start": 43.12,
-        "end": 53.12,
-        "text": "I learned the worth of empty margins, how it channel guides the flow, how it color warns the chamber, how an error path can slow",
-        "avg_logprob": -0.4499421274220502,
-        "no_speech_prob": 0.3837890625
-      },
-      {
-        "start": 53.12,
-        "end": 63.44,
-        "text": "Nothing here was decoration, every shade adjusted breath, every gap allowed remaining space enough to not be pressed",
-        "avg_logprob": -0.3265624976158142,
-        "no_speech_prob": 0.0511474609375
-      },
-      {
-        "start": 63.44,
-        "end": 76.88,
-        "text": "Air has fallen, form has waked, move the wall and thought can pass, move the lamp and green comes back",
-        "avg_logprob": -0.3265624976158142,
-        "no_speech_prob": 0.0511474609375
-      },
-      {
-        "start": 76.88,
-        "end": 87.68,
-        "text": "Climb, rules invisible, turn the room from heart to client, shape the weather of attention, leave the crowded rush behind",
-        "avg_logprob": -0.4800857866511625,
-        "no_speech_prob": 0.133056640625
-      },
-      {
-        "start": 87.68,
-        "end": 98.88,
-        "text": "We call the surfaces, a garden for the eye, give them meaning, together give the living to rise",
-        "avg_logprob": -0.4800857866511625,
-        "no_speech_prob": 0.133056640625
-      },
-      {
-        "start": 107.68,
-        "end": 116.32,
-        "text": "But what the water trace the pain in columns, then refuse the perfect lane, I had planned a clean arrangement",
-        "avg_logprob": -0.4243861511349678,
-        "no_speech_prob": 0.224365234375
-      },
-      {
-        "start": 116.32,
-        "end": 125.76,
-        "text": "The leaves revised the rain, so I helped the grit more lightly, but the pattern be the part made a place where the fuck it settled",
-        "avg_logprob": -0.4243861511349678,
-        "no_speech_prob": 0.224365234375
-      },
-      {
-        "start": 126.72,
-        "end": 133.68,
-        "text": "Without losing its spark, not control, not display",
-        "avg_logprob": -0.5377037823200226,
-        "no_speech_prob": 0.398193359375
-      },
-      {
-        "start": 139.68,
-        "end": 145.12,
-        "text": "Starless climate, climate, teachers, we're to lean and we're to rest",
-        "avg_logprob": -0.5377037823200226,
-        "no_speech_prob": 0.398193359375
-      },
-      {
-        "start": 145.12,
-        "end": 150.56,
-        "text": "Care is often almost hidden, felt before it is expressed",
-        "avg_logprob": -0.5377037823200226,
-        "no_speech_prob": 0.398193359375
-      },
-      {
-        "start": 151.52,
-        "end": 163.76,
-        "text": "The walls invisible, turn the room from heart to client, shape the weather of attention, leave the crowded rush behind",
-        "avg_logprob": -0.30637254901960786,
-        "no_speech_prob": 0.12420654296875
-      },
-      {
-        "start": 163.76,
-        "end": 178.56,
-        "text": "What we call the surfaces, a garden for the eye, give them meaning, together give the living room to rise",
-        "avg_logprob": -0.30637254901960786,
-        "no_speech_prob": 0.12420654296875
-      },
-      {
-        "start": 180.56,
-        "end": 202.0,
-        "text": "The walls invisible, turn the room from heart to client, shape the weather of attention, leave the crowded rush behind",
-        "avg_logprob": -0.5318286948733859,
-        "no_speech_prob": 0.5517578125
-      },
-      {
-        "start": 202.0,
-        "end": 212.0,
-        "text": "What we call the surfaces, a garden for the eye, give them meaning, together give the living room to rise",
-        "avg_logprob": -0.4182692330617171,
-        "no_speech_prob": 0.6796875
-      }
-    ],
-    "avg_logprob": -0.4523857714007218
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 255,
-    "transcript_word_count": 295,
-    "matched_sequence_words": 195,
-    "lyric_alignment_ratio": 0.765,
-    "transcript_precision_ratio": 0.661,
-    "unique_expected_word_coverage": 0.83,
-    "word_count_ratio": 1.157,
-    "repeated_12gram_ratio": 0.162,
-    "half_similarity": 0.34,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.767,
-    "quality_score_0_10": 7.67,
-    "flags": [],
-    "transcript_excerpt": "Rain inside the upper ring, falls according to a rule, not a storm, a careful climb I'd made to keep the seedlings cool Rain inside the upper ring, falls according to a rule, not a storm, a careful climb I learned the worth of empty margins, how it channel guides the flow, how it color warns the chamber, how an error path can slow Nothing here was decoration, every shade adjusted breath, every gap allowed remaining space enough to not be pressed Air has fallen, form has waked, move the wall and thought can pass, move the lamp and green comes back Climb, rules invisible, turn the room from hear\n...[truncated]...\nnot control, not display Starless climate, climate, teachers, we're to lean and we're to rest Care is often almost hidden, felt before it is expressed The walls invisible, turn the room from heart to client, shape the weather of attention, leave the crowded rush behind What we call the surfaces, a garden for the eye, give them meaning, together give the living room to rise The walls invisible, turn the room from heart to client, shape the weather of attention, leave the crowded rush behind What we call the surfaces, a garden for the eye, give them meaning, together give the living room to rise"
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -1473,44 +1324,51 @@
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track maintains strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting the same emotional room."
+        "reason": "Structure follows a clear, intentional progression from intro to outro with distinct sections."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong motivic integration."
+        "reason": "The repetition of the 'Climate' motif provides strong thematic anchoring across transitions."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The track’s spatial poise is central to its identity, with room tone and guitar space forming a memorable habitat."
+        "reason": "Production is polished and fits the 'liquid' aesthetic described in notes."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The grammar develops a personal indie system over time, but does not fully invent a new method."
+        "reason": "Lyricism moves from descriptive imagery to more abstract, poetic phrasing in the final hook."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track feels like a small world, with a recognizable emotional or psychic habitat and a memorable imprint."
+        "reason": "The recurring motif of 'climate' and 'garden' provides a consistent emotional core."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:33.76 with section-balance score 0.11.",
-      "Tempo estimate is 123.0 BPM; declared tempo alignment contributes 0.74.",
-      "Integrated loudness is -16.9 LUFS, peak is 0.2 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G minor with confidence 0.60.",
-      "Audio recurrence ratio is 0.324; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 317 beats and 91 downbeats; beat-grid stability is 0.58.",
-      "EG evidence: section contrast 2.67, cumulative evolution 1.08, transformed returns 10.00, grid deviation 0.91, rule changes 5.00.",
-      "Companion text has 8 lyric/production sections, 290 words, line repetition 0.12, rhyme-suffix reuse 0.25."
+      "The track features a well-defined structure with clear transitions between verse, pre-hook, and bridge sections.",
+      "Motivic integration is high due to the repeated lyrical themes and melodic motifs that reappear in different contexts.",
+      "Production quality is high, creating an immersive 'rain-chamber' atmosphere.",
+      "Lyricism shows growth from literal descriptions of weather to more metaphorical imagery."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to weak audio-only evidence."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:36:57.175513Z",
-    "eval_count": 790,
-    "eval_duration": 13172402500
+    "created_at": "2026-06-10T10:37:37.191248Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 6840398,
+      "base64_chars": 9120532,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 10646,
+    "prompt_eval_duration": 4712585000,
+    "eval_count": 393,
+    "eval_duration": 9625458000
   }
 }

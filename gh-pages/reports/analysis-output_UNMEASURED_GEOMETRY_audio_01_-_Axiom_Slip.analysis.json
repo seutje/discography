@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:49:14",
+  "generated_at": "2026-06-10T12:48:25",
   "audio": {
     "path": "UNMEASURED GEOMETRY/audio/01 - Axiom Slip.mp3",
     "duration_seconds": 366.44,
@@ -3146,19 +3146,22 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.93,
-      "MI_motivic_integration": 6.84,
-      "BP_beauty_spatial_poise": 9.26,
-      "EG_evolving_grammar": 6.8,
-      "CD_carry_depth": 7.79
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 6.95,
+      "BP_beauty_spatial_poise": 9.29,
+      "EG_evolving_grammar": 6.85,
+      "CD_carry_depth": 7.96
     },
     "core_metrics": {
-      "CDPD": 0.811,
-      "NGE": 0.669,
+      "CDPD": 0.822,
+      "NGE": 0.672,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -3171,9 +3174,9 @@
       "overall_score": 5.11
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.156,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.156
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 13,
@@ -3181,442 +3184,6 @@
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
     "confidence_0_10": 7.7,
-    "rationale": [
-      "Detected 10 audio sections over 6:06.44 with section-balance score 0.29.",
-      "Tempo estimate is 112.3 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -16.1 LUFS, peak is -1.5 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D#/Eb minor with confidence 0.44.",
-      "Audio recurrence ratio is 0.280; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 1053 beats and 390 downbeats; beat-grid stability is 0.44.",
-      "EG evidence: section contrast 3.04, cumulative evolution 1.24, transformed returns 10.00, grid deviation 3.45, rule changes 6.67.",
-      "Companion text has 8 lyric/production sections, 303 words, line repetition 0.04, rhyme-suffix reuse 0.23.",
-      "Transcription check: lyric alignment 0.69, unique-word coverage 0.71, word-count ratio 0.99, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.16, repeat 0.00)."
-    ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Everyone But the shape they draw around me Never finds a surface Oh I hear those stacking truths like stones Still it's real, they swear it's universal But my corner's been the other way A geometry, the mirror won't hold I am the shadow that refuses to anything When the sun commands obedience I am the riddle that answers nothing Unfolding under no one's doctrine They tend to roll the same But their mantras fall through me And then with holes too wide to catch my breathing I don't fit the circle, I don't feel the world They're actually inside of my skin Like rain on a closed-eye And truth is the cage of averages Then let me stay on measure Oh, they're blind, oh, they're blind Oh, broken by their clarity Blueprint profits speak in absolutes Painting halos on their common ground But I walk the negative space Place the language one name My pulse refuses their metronome I'm moving tights, they can not charge What they call everyone Echoes hollow in my rib cage Maybe I was caught from a crooked silence Born with a pattern breaks A fractal that forgot to repeat Instead, their current's pushed But I drift sideways, following code And it's etched in dream life When meaning sheds its skin And the self grows new I don't fit the circle, I don't feel the world The truth dissolves in my hands Like sand, remembering the ocean It's belonging to my surrender Then let me stay divergent Unheld the road I want him beyond their harmony In the hush between their identities I finally hear myself A quiet shifting resonance And that's a true notion And that's a true notion",
-    "segments": [
-      {
-        "start": 60.0,
-        "end": 61.0,
-        "text": "Everyone",
-        "avg_logprob": -0.6899670989889848,
-        "no_speech_prob": 0.6103515625
-      },
-      {
-        "start": 67.5,
-        "end": 72.5,
-        "text": "But the shape they draw around me",
-        "avg_logprob": -0.6899670989889848,
-        "no_speech_prob": 0.6103515625
-      },
-      {
-        "start": 78.0,
-        "end": 81.0,
-        "text": "Never finds a surface",
-        "avg_logprob": -0.6899670989889848,
-        "no_speech_prob": 0.6103515625
-      },
-      {
-        "start": 91.0,
-        "end": 92.0,
-        "text": "Oh",
-        "avg_logprob": -0.6298076647978562,
-        "no_speech_prob": 0.11700439453125
-      },
-      {
-        "start": 108.0,
-        "end": 111.0,
-        "text": "I hear those stacking truths like stones",
-        "avg_logprob": -0.6298076647978562,
-        "no_speech_prob": 0.11700439453125
-      },
-      {
-        "start": 113.0,
-        "end": 117.0,
-        "text": "Still it's real, they swear it's universal",
-        "avg_logprob": -0.6298076647978562,
-        "no_speech_prob": 0.11700439453125
-      },
-      {
-        "start": 117.0,
-        "end": 120.0,
-        "text": "But my corner's been the other way",
-        "avg_logprob": -0.24682203995979438,
-        "no_speech_prob": 0.034423828125
-      },
-      {
-        "start": 120.0,
-        "end": 125.0,
-        "text": "A geometry, the mirror won't hold",
-        "avg_logprob": -0.24682203995979438,
-        "no_speech_prob": 0.034423828125
-      },
-      {
-        "start": 126.0,
-        "end": 130.0,
-        "text": "I am the shadow that refuses to anything",
-        "avg_logprob": -0.24682203995979438,
-        "no_speech_prob": 0.034423828125
-      },
-      {
-        "start": 131.0,
-        "end": 135.0,
-        "text": "When the sun commands obedience",
-        "avg_logprob": -0.24682203995979438,
-        "no_speech_prob": 0.034423828125
-      },
-      {
-        "start": 136.0,
-        "end": 139.0,
-        "text": "I am the riddle that answers nothing",
-        "avg_logprob": -0.24682203995979438,
-        "no_speech_prob": 0.034423828125
-      },
-      {
-        "start": 140.0,
-        "end": 145.0,
-        "text": "Unfolding under no one's doctrine",
-        "avg_logprob": -0.24682203995979438,
-        "no_speech_prob": 0.034423828125
-      },
-      {
-        "start": 145.0,
-        "end": 149.0,
-        "text": "They tend to roll the same",
-        "avg_logprob": -0.36931817748329854,
-        "no_speech_prob": 0.0142822265625
-      },
-      {
-        "start": 150.0,
-        "end": 154.0,
-        "text": "But their mantras fall through me",
-        "avg_logprob": -0.36931817748329854,
-        "no_speech_prob": 0.0142822265625
-      },
-      {
-        "start": 155.0,
-        "end": 164.0,
-        "text": "And then with holes too wide to catch my breathing",
-        "avg_logprob": -0.36931817748329854,
-        "no_speech_prob": 0.0142822265625
-      },
-      {
-        "start": 165.0,
-        "end": 169.0,
-        "text": "I don't fit the circle, I don't feel the world",
-        "avg_logprob": -0.36931817748329854,
-        "no_speech_prob": 0.0142822265625
-      },
-      {
-        "start": 170.0,
-        "end": 174.0,
-        "text": "They're actually inside of my skin",
-        "avg_logprob": -0.36931817748329854,
-        "no_speech_prob": 0.0142822265625
-      },
-      {
-        "start": 174.0,
-        "end": 177.0,
-        "text": "Like rain on a closed-eye",
-        "avg_logprob": -0.36702805149311923,
-        "no_speech_prob": 0.0027942657470703125
-      },
-      {
-        "start": 177.0,
-        "end": 181.0,
-        "text": "And truth is the cage of averages",
-        "avg_logprob": -0.36702805149311923,
-        "no_speech_prob": 0.0027942657470703125
-      },
-      {
-        "start": 181.0,
-        "end": 184.0,
-        "text": "Then let me stay on measure",
-        "avg_logprob": -0.36702805149311923,
-        "no_speech_prob": 0.0027942657470703125
-      },
-      {
-        "start": 184.0,
-        "end": 189.0,
-        "text": "Oh, they're blind, oh, they're blind",
-        "avg_logprob": -0.36702805149311923,
-        "no_speech_prob": 0.0027942657470703125
-      },
-      {
-        "start": 189.0,
-        "end": 193.0,
-        "text": "Oh, broken by their clarity",
-        "avg_logprob": -0.36702805149311923,
-        "no_speech_prob": 0.0027942657470703125
-      },
-      {
-        "start": 193.0,
-        "end": 205.0,
-        "text": "Blueprint profits speak in absolutes",
-        "avg_logprob": -0.3133680423100789,
-        "no_speech_prob": 0.079345703125
-      },
-      {
-        "start": 205.0,
-        "end": 209.0,
-        "text": "Painting halos on their common ground",
-        "avg_logprob": -0.3133680423100789,
-        "no_speech_prob": 0.079345703125
-      },
-      {
-        "start": 210.0,
-        "end": 213.0,
-        "text": "But I walk the negative space",
-        "avg_logprob": -0.3133680423100789,
-        "no_speech_prob": 0.079345703125
-      },
-      {
-        "start": 213.0,
-        "end": 217.0,
-        "text": "Place the language one name",
-        "avg_logprob": -0.3133680423100789,
-        "no_speech_prob": 0.079345703125
-      },
-      {
-        "start": 218.0,
-        "end": 222.0,
-        "text": "My pulse refuses their metronome",
-        "avg_logprob": -0.2719726455397904,
-        "no_speech_prob": 0.1279296875
-      },
-      {
-        "start": 223.0,
-        "end": 227.0,
-        "text": "I'm moving tights, they can not charge",
-        "avg_logprob": -0.2719726455397904,
-        "no_speech_prob": 0.1279296875
-      },
-      {
-        "start": 228.0,
-        "end": 232.0,
-        "text": "What they call everyone",
-        "avg_logprob": -0.2719726455397904,
-        "no_speech_prob": 0.1279296875
-      },
-      {
-        "start": 232.0,
-        "end": 237.0,
-        "text": "Echoes hollow in my rib cage",
-        "avg_logprob": -0.2719726455397904,
-        "no_speech_prob": 0.1279296875
-      },
-      {
-        "start": 237.0,
-        "end": 240.0,
-        "text": "Maybe I was caught from a crooked silence",
-        "avg_logprob": -0.2719726455397904,
-        "no_speech_prob": 0.1279296875
-      },
-      {
-        "start": 240.0,
-        "end": 242.0,
-        "text": "Born with a pattern breaks",
-        "avg_logprob": -0.2719726455397904,
-        "no_speech_prob": 0.1279296875
-      },
-      {
-        "start": 242.0,
-        "end": 245.0,
-        "text": "A fractal that forgot to repeat",
-        "avg_logprob": -0.2719726455397904,
-        "no_speech_prob": 0.1279296875
-      },
-      {
-        "start": 245.0,
-        "end": 248.0,
-        "text": "Instead, their current's pushed",
-        "avg_logprob": -0.29237288438667686,
-        "no_speech_prob": 0.038970947265625
-      },
-      {
-        "start": 248.0,
-        "end": 251.0,
-        "text": "But I drift sideways, following code",
-        "avg_logprob": -0.29237288438667686,
-        "no_speech_prob": 0.038970947265625
-      },
-      {
-        "start": 251.0,
-        "end": 255.0,
-        "text": "And it's etched in dream life",
-        "avg_logprob": -0.29237288438667686,
-        "no_speech_prob": 0.038970947265625
-      },
-      {
-        "start": 256.0,
-        "end": 260.0,
-        "text": "When meaning sheds its skin",
-        "avg_logprob": -0.29237288438667686,
-        "no_speech_prob": 0.038970947265625
-      },
-      {
-        "start": 261.0,
-        "end": 266.0,
-        "text": "And the self grows new",
-        "avg_logprob": -0.29237288438667686,
-        "no_speech_prob": 0.038970947265625
-      },
-      {
-        "start": 267.0,
-        "end": 272.0,
-        "text": "I don't fit the circle, I don't feel the world",
-        "avg_logprob": -0.29237288438667686,
-        "no_speech_prob": 0.038970947265625
-      },
-      {
-        "start": 272.0,
-        "end": 276.0,
-        "text": "The truth dissolves in my hands",
-        "avg_logprob": -0.3457031312088172,
-        "no_speech_prob": 0.020172119140625
-      },
-      {
-        "start": 277.0,
-        "end": 280.0,
-        "text": "Like sand, remembering the ocean",
-        "avg_logprob": -0.3457031312088172,
-        "no_speech_prob": 0.020172119140625
-      },
-      {
-        "start": 280.0,
-        "end": 284.0,
-        "text": "It's belonging to my surrender",
-        "avg_logprob": -0.3457031312088172,
-        "no_speech_prob": 0.020172119140625
-      },
-      {
-        "start": 284.0,
-        "end": 287.0,
-        "text": "Then let me stay divergent",
-        "avg_logprob": -0.3457031312088172,
-        "no_speech_prob": 0.020172119140625
-      },
-      {
-        "start": 287.0,
-        "end": 291.0,
-        "text": "Unheld the road",
-        "avg_logprob": -0.3457031312088172,
-        "no_speech_prob": 0.020172119140625
-      },
-      {
-        "start": 291.0,
-        "end": 296.0,
-        "text": "I want him beyond their harmony",
-        "avg_logprob": -0.3457031312088172,
-        "no_speech_prob": 0.020172119140625
-      },
-      {
-        "start": 302.0,
-        "end": 322.0,
-        "text": "In the hush between their identities",
-        "avg_logprob": -0.305027160955512,
-        "no_speech_prob": 0.1827392578125
-      },
-      {
-        "start": 322.0,
-        "end": 327.0,
-        "text": "I finally hear myself",
-        "avg_logprob": -0.305027160955512,
-        "no_speech_prob": 0.1827392578125
-      },
-      {
-        "start": 327.0,
-        "end": 331.0,
-        "text": "A quiet shifting resonance",
-        "avg_logprob": -0.305027160955512,
-        "no_speech_prob": 0.1827392578125
-      },
-      {
-        "start": 331.0,
-        "end": 336.0,
-        "text": "And that's a true notion",
-        "avg_logprob": -0.6302083333333334,
-        "no_speech_prob": 0.0223388671875
-      },
-      {
-        "start": 361.0,
-        "end": 366.0,
-        "text": "And that's a true notion",
-        "avg_logprob": -0.7543402777777778,
-        "no_speech_prob": 0.7744140625
-      }
-    ],
-    "avg_logprob": -0.35672061489381524
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 288,
-    "transcript_word_count": 286,
-    "matched_sequence_words": 200,
-    "lyric_alignment_ratio": 0.694,
-    "transcript_precision_ratio": 0.699,
-    "unique_expected_word_coverage": 0.709,
-    "word_count_ratio": 0.993,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.21,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.698,
-    "quality_score_0_10": 6.98,
-    "flags": [],
-    "transcript_excerpt": "Everyone But the shape they draw around me Never finds a surface Oh I hear those stacking truths like stones Still it's real, they swear it's universal But my corner's been the other way A geometry, the mirror won't hold I am the shadow that refuses to anything When the sun commands obedience I am the riddle that answers nothing Unfolding under no one's doctrine They tend to roll the same But their mantras fall through me And then with holes too wide to catch my breathing I don't fit the circle, I don't feel the world They're actually inside of my skin Like rain on a closed-eye And truth is th\n...[truncated]...\ne I was caught from a crooked silence Born with a pattern breaks A fractal that forgot to repeat Instead, their current's pushed But I drift sideways, following code And it's etched in dream life When meaning sheds its skin And the self grows new I don't fit the circle, I don't feel the world The truth dissolves in my hands Like sand, remembering the ocean It's belonging to my surrender Then let me stay divergent Unheld the road I want him beyond their harmony In the hush between their identities I finally hear myself A quiet shifting resonance And that's a true notion And that's a true notion"
-  },
-  "llm_adjusted_scoring": {
-    "axes": {
-      "SC_structural_coherence": 9.93,
-      "MI_motivic_integration": 6.84,
-      "BP_beauty_spatial_poise": 9.26,
-      "EG_evolving_grammar": 6.8,
-      "CD_carry_depth": 7.79
-    },
-    "core_metrics": {
-      "CDPD": 0.811,
-      "NGE": 0.669,
-      "HMII_peak_estimate": 5
-    },
-    "rung_estimate": {
-      "number": 13,
-      "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
-    },
-    "confidence_0_10": 7.7,
-    "adjustments": {
-      "SC_structural_coherence": {
-        "delta": 0.0,
-        "reason": "The piece maintains a clear, multi-sectional form with strong section-balance and transitions, aligning with the 'Inhabited Form' label."
-      },
-      "MI_motivic_integration": {
-        "delta": 0.0,
-        "reason": "Motivic integration is limited, with few repeated motifs and more emphasis on thematic variation and harmonic development."
-      },
-      "BP_beauty_spatial_poise": {
-        "delta": 0.0,
-        "reason": "The piece exhibits strong spatial poise and harmonic beauty, with a consistent sonic architecture and phrasing."
-      },
-      "EG_evolving_grammar": {
-        "delta": 0.0,
-        "reason": "The evolving grammar is evident through the rule changes and section contrasts, though not at the level of higher rungs."
-      },
-      "CD_carry_depth": {
-        "delta": 0.0,
-        "reason": "The carry depth is strong, with emotional resonance and re-listen pull, though not at the level of the highest rungs."
-      }
-    },
     "rationale": [
       "Detected 10 audio sections over 6:06.44 with section-balance score 0.29.",
       "Tempo estimate is 112.3 BPM; declared tempo alignment contributes 0.00.",
@@ -3626,16 +3193,75 @@
       "beat_this detected 1053 beats and 390 downbeats; beat-grid stability is 0.44.",
       "EG evidence: section contrast 3.04, cumulative evolution 1.24, transformed returns 10.00, grid deviation 3.45, rule changes 6.67.",
       "Companion text has 8 lyric/production sections, 303 words, line repetition 0.04, rhyme-suffix reuse 0.23."
+    ]
+  },
+  "llm_adjusted_scoring": {
+    "axes": {
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 6.95,
+      "BP_beauty_spatial_poise": 9.29,
+      "EG_evolving_grammar": 6.85,
+      "CD_carry_depth": 7.96
+    },
+    "core_metrics": {
+      "CDPD": 0.822,
+      "NGE": 0.672,
+      "HMII_peak_estimate": 5
+    },
+    "rung_estimate": {
+      "number": 13,
+      "label": "Inhabited Form",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar"
+    },
+    "confidence_0_10": 7.7,
+    "adjustments": {
+      "SC_structural_coherence": {
+        "delta": 0.0,
+        "reason": "No change"
+      },
+      "MI_motivic_integration": {
+        "delta": 0.0,
+        "reason": "No change"
+      },
+      "BP_beauty_spatial_poise": {
+        "delta": 0.0,
+        "reason": "No change"
+      },
+      "EG_evolving_grammar": {
+        "delta": 0.0,
+        "reason": "No change"
+      },
+      "CD_carry_depth": {
+        "delta": 0.0,
+        "reason": "No change"
+      }
+    },
+    "rationale": [
+      "Return valid JSON only.",
+      "Use the base Python scores as the anchor; adjust only when the framework/text/evidence justifies.",
+      "If transcription_quality is available, treat low lyric alignment, sparse transcript, or probable full-song repetition as strong negative evidence.",
+      "Do not return keys outside the required JSON shape."
     ],
     "review_flags": [
-      "Uncertainty about the exact nature of motif recurrence; audio recurrence ratio may not equate to true motivic integration."
+      "No change"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:49:14.3064104Z",
-    "eval_count": 796,
-    "eval_duration": 13266930700
+    "created_at": "2026-06-10T10:48:25.9411584Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 11726206,
+      "base64_chars": 15634944,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 15388,
+    "prompt_eval_duration": 6767616000,
+    "eval_count": 385,
+    "eval_duration": 10549840000
   }
 }

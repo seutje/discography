@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:10:03",
+  "generated_at": "2026-06-10T12:09:50",
   "audio": {
     "path": "Driftwood/audio/09 - Breakwater Names.mp3",
     "duration_seconds": 246.4,
@@ -1335,7 +1335,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1379,375 +1382,76 @@
       "beat_this detected 342 beats and 86 downbeats; beat-grid stability is 0.65.",
       "EG evidence: section contrast 2.85, cumulative evolution 1.27, transformed returns 10.00, grid deviation 0.94, rule changes 4.64.",
       "Companion text has 10 lyric/production sections, 423 words, line repetition 0.10, rhyme-suffix reuse 0.39.",
-      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 6.85.",
-      "Transcription check: lyric alignment 0.88, unique-word coverage 0.88, word-count ratio 0.98, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 6.85."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Stone by stone, tied by tide, Something waits on the inside, harbor mouth, guarded breath, And can frighten more than death. We saw the breakwater at noon, A black arm under a silver spoon. The fishers cheered, the child stood tall. I felt my stomach start to fall. It should've looked like being spared, Like proof that someone's somewhere cared. But every stone along the pier looked like a question. The threshold, what if the land is two I am? Without the raft, without the jam, And swollen boards beneath my feet. Without this seed, I make me need. I learn the waters, rough and dry. I learn the storms, old tenderness, But harbor has its own demanded. Ask what you will do on land. Breakwater, don't name me yet. I am not finished with the wet, Let me circle once and twice. With salt still drying in my eyes, Breakwater, hold your stone. Do not promise me a throne, If I step down from this deck. Let me bring the wreckage back. The town was small, the girls were loud. Laundry lifted from the crowds, On body rang the dinner bell. Like ordinary was a spell, I saw window with warm bread. And nearly turned away instead, Because the hungry learned distrust of table set. Without a catch, no, not a catch, No price just fear. Looking for a rule to steer, You're the woman touched my sleeve. Said you can land, and still leave it doesn't end. Because you dock the body still, Expect the knock, the hand still reaches for the rail long after. Breakwater, don't name me yet. I am not finished with the wet, Let me circle once and twice. With salt still drying in my eyes, Breakwater, hold your stone. Do not promise me a throne, If I step down from this deck. Let me bring the wreckage back. I thought a rival meant to cure, A clean room and a closing door. But I have lived inside a way, And learned what even shelter craves. So right now ending on the cave, Leave the rope untied for me. I can touch the harbor wall, Without becoming less at all. Once around, one more turn. Let the landing learn, Stone by, Stone breath by breath. Land can frighten more than death, If I come in from the foam. Let it be as one who chose.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 25.52,
-        "text": "Stone by stone, tied by tide, Something waits on the inside, harbor mouth, guarded breath,",
-        "avg_logprob": -0.6025390848517418,
-        "no_speech_prob": 0.46142578125
-      },
-      {
-        "start": 25.52,
-        "end": 31.52,
-        "text": "And can frighten more than death.",
-        "avg_logprob": -0.30413732142515587,
-        "no_speech_prob": 0.1763916015625
-      },
-      {
-        "start": 33.52,
-        "end": 39.52,
-        "text": "We saw the breakwater at noon, A black arm under a silver spoon.",
-        "avg_logprob": -0.30413732142515587,
-        "no_speech_prob": 0.1763916015625
-      },
-      {
-        "start": 39.52,
-        "end": 42.52,
-        "text": "The fishers cheered, the child stood tall.",
-        "avg_logprob": -0.30413732142515587,
-        "no_speech_prob": 0.1763916015625
-      },
-      {
-        "start": 42.52,
-        "end": 45.52,
-        "text": "I felt my stomach start to fall.",
-        "avg_logprob": -0.30413732142515587,
-        "no_speech_prob": 0.1763916015625
-      },
-      {
-        "start": 45.52,
-        "end": 50.52,
-        "text": "It should've looked like being spared, Like proof that someone's somewhere cared.",
-        "avg_logprob": -0.30413732142515587,
-        "no_speech_prob": 0.1763916015625
-      },
-      {
-        "start": 50.52,
-        "end": 55.52,
-        "text": "But every stone along the pier looked like a question.",
-        "avg_logprob": -0.27761628461438553,
-        "no_speech_prob": 0.2369384765625
-      },
-      {
-        "start": 55.52,
-        "end": 59.52,
-        "text": "The threshold, what if the land is two I am?",
-        "avg_logprob": -0.27761628461438553,
-        "no_speech_prob": 0.2369384765625
-      },
-      {
-        "start": 59.52,
-        "end": 64.52,
-        "text": "Without the raft, without the jam, And swollen boards beneath my feet.",
-        "avg_logprob": -0.27761628461438553,
-        "no_speech_prob": 0.2369384765625
-      },
-      {
-        "start": 64.52,
-        "end": 67.52,
-        "text": "Without this seed, I make me need.",
-        "avg_logprob": -0.27761628461438553,
-        "no_speech_prob": 0.2369384765625
-      },
-      {
-        "start": 67.52,
-        "end": 70.52,
-        "text": "I learn the waters, rough and dry.",
-        "avg_logprob": -0.27761628461438553,
-        "no_speech_prob": 0.2369384765625
-      },
-      {
-        "start": 70.52,
-        "end": 76.52,
-        "text": "I learn the storms, old tenderness, But harbor has its own demanded.",
-        "avg_logprob": -0.27761628461438553,
-        "no_speech_prob": 0.2369384765625
-      },
-      {
-        "start": 76.52,
-        "end": 79.52,
-        "text": "Ask what you will do on land.",
-        "avg_logprob": -0.19510135678826152,
-        "no_speech_prob": 0.1407470703125
-      },
-      {
-        "start": 79.52,
-        "end": 83.52,
-        "text": "Breakwater, don't name me yet.",
-        "avg_logprob": -0.19510135678826152,
-        "no_speech_prob": 0.1407470703125
-      },
-      {
-        "start": 83.52,
-        "end": 88.52,
-        "text": "I am not finished with the wet, Let me circle once and twice.",
-        "avg_logprob": -0.19510135678826152,
-        "no_speech_prob": 0.1407470703125
-      },
-      {
-        "start": 88.52,
-        "end": 94.52,
-        "text": "With salt still drying in my eyes, Breakwater, hold your stone.",
-        "avg_logprob": -0.19510135678826152,
-        "no_speech_prob": 0.1407470703125
-      },
-      {
-        "start": 94.52,
-        "end": 100.52,
-        "text": "Do not promise me a throne, If I step down from this deck.",
-        "avg_logprob": -0.19510135678826152,
-        "no_speech_prob": 0.1407470703125
-      },
-      {
-        "start": 100.52,
-        "end": 103.52,
-        "text": "Let me bring the wreckage back.",
-        "avg_logprob": -0.2751266980493391,
-        "no_speech_prob": 0.1832275390625
-      },
-      {
-        "start": 109.52,
-        "end": 112.52,
-        "text": "The town was small, the girls were loud.",
-        "avg_logprob": -0.2751266980493391,
-        "no_speech_prob": 0.1832275390625
-      },
-      {
-        "start": 112.52,
-        "end": 117.52,
-        "text": "Laundry lifted from the crowds, On body rang the dinner bell.",
-        "avg_logprob": -0.2751266980493391,
-        "no_speech_prob": 0.1832275390625
-      },
-      {
-        "start": 117.52,
-        "end": 122.52,
-        "text": "Like ordinary was a spell, I saw window with warm bread.",
-        "avg_logprob": -0.2751266980493391,
-        "no_speech_prob": 0.1832275390625
-      },
-      {
-        "start": 122.52,
-        "end": 129.52,
-        "text": "And nearly turned away instead, Because the hungry learned distrust of table set.",
-        "avg_logprob": -0.2751266980493391,
-        "no_speech_prob": 0.1832275390625
-      },
-      {
-        "start": 129.52,
-        "end": 134.52,
-        "text": "Without a catch, no, not a catch, No price just fear.",
-        "avg_logprob": -0.2388091220243557,
-        "no_speech_prob": 0.10247802734375
-      },
-      {
-        "start": 134.52,
-        "end": 139.52,
-        "text": "Looking for a rule to steer, You're the woman touched my sleeve.",
-        "avg_logprob": -0.2388091220243557,
-        "no_speech_prob": 0.10247802734375
-      },
-      {
-        "start": 139.52,
-        "end": 143.52,
-        "text": "Said you can land, and still leave it doesn't end.",
-        "avg_logprob": -0.2388091220243557,
-        "no_speech_prob": 0.10247802734375
-      },
-      {
-        "start": 143.52,
-        "end": 152.52,
-        "text": "Because you dock the body still, Expect the knock, the hand still reaches for the rail long after.",
-        "avg_logprob": -0.2388091220243557,
-        "no_speech_prob": 0.10247802734375
-      },
-      {
-        "start": 152.52,
-        "end": 161.52,
-        "text": "Breakwater, don't name me yet.",
-        "avg_logprob": -0.07794189790729433,
-        "no_speech_prob": 0.448486328125
-      },
-      {
-        "start": 161.52,
-        "end": 166.52,
-        "text": "I am not finished with the wet, Let me circle once and twice.",
-        "avg_logprob": -0.07794189790729433,
-        "no_speech_prob": 0.448486328125
-      },
-      {
-        "start": 166.52,
-        "end": 173.52,
-        "text": "With salt still drying in my eyes, Breakwater, hold your stone.",
-        "avg_logprob": -0.07794189790729433,
-        "no_speech_prob": 0.448486328125
-      },
-      {
-        "start": 173.52,
-        "end": 179.52,
-        "text": "Do not promise me a throne, If I step down from this deck.",
-        "avg_logprob": -0.07794189790729433,
-        "no_speech_prob": 0.448486328125
-      },
-      {
-        "start": 179.52,
-        "end": 184.52,
-        "text": "Let me bring the wreckage back.",
-        "avg_logprob": -0.17380400940223975,
-        "no_speech_prob": 0.0880126953125
-      },
-      {
-        "start": 184.52,
-        "end": 190.52,
-        "text": "I thought a rival meant to cure, A clean room and a closing door.",
-        "avg_logprob": -0.17380400940223975,
-        "no_speech_prob": 0.0880126953125
-      },
-      {
-        "start": 190.52,
-        "end": 196.52,
-        "text": "But I have lived inside a way, And learned what even shelter craves.",
-        "avg_logprob": -0.17380400940223975,
-        "no_speech_prob": 0.0880126953125
-      },
-      {
-        "start": 196.52,
-        "end": 202.52,
-        "text": "So right now ending on the cave, Leave the rope untied for me.",
-        "avg_logprob": -0.17380400940223975,
-        "no_speech_prob": 0.0880126953125
-      },
-      {
-        "start": 202.52,
-        "end": 208.52,
-        "text": "I can touch the harbor wall, Without becoming less at all.",
-        "avg_logprob": -0.17380400940223975,
-        "no_speech_prob": 0.0880126953125
-      },
-      {
-        "start": 208.52,
-        "end": 215.52,
-        "text": "Once around, one more turn.",
-        "avg_logprob": -0.2148437432267449,
-        "no_speech_prob": 0.12335205078125
-      },
-      {
-        "start": 215.52,
-        "end": 224.52,
-        "text": "Let the landing learn, Stone by, Stone breath by breath.",
-        "avg_logprob": -0.2148437432267449,
-        "no_speech_prob": 0.12335205078125
-      },
-      {
-        "start": 224.52,
-        "end": 235.52,
-        "text": "Land can frighten more than death, If I come in from the foam.",
-        "avg_logprob": -0.2148437432267449,
-        "no_speech_prob": 0.12335205078125
-      },
-      {
-        "start": 235.52,
-        "end": 242.52,
-        "text": "Let it be as one who chose.",
-        "avg_logprob": -0.22247869860042224,
-        "no_speech_prob": 0.126220703125
-      }
-    ],
-    "avg_logprob": -0.25838229207005486
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 408,
-    "transcript_word_count": 401,
-    "matched_sequence_words": 360,
-    "lyric_alignment_ratio": 0.882,
-    "transcript_precision_ratio": 0.898,
-    "unique_expected_word_coverage": 0.877,
-    "word_count_ratio": 0.983,
-    "repeated_12gram_ratio": 0.095,
-    "half_similarity": 0.32,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.883,
-    "quality_score_0_10": 8.83,
-    "flags": [],
-    "transcript_excerpt": "Stone by stone, tied by tide, Something waits on the inside, harbor mouth, guarded breath, And can frighten more than death. We saw the breakwater at noon, A black arm under a silver spoon. The fishers cheered, the child stood tall. I felt my stomach start to fall. It should've looked like being spared, Like proof that someone's somewhere cared. But every stone along the pier looked like a question. The threshold, what if the land is two I am? Without the raft, without the jam, And swollen boards beneath my feet. Without this seed, I make me need. I learn the waters, rough and dry. I learn the\n...[truncated]...\ne and twice. With salt still drying in my eyes, Breakwater, hold your stone. Do not promise me a throne, If I step down from this deck. Let me bring the wreckage back. I thought a rival meant to cure, A clean room and a closing door. But I have lived inside a way, And learned what even shelter craves. So right now ending on the cave, Leave the rope untied for me. I can touch the harbor wall, Without becoming less at all. Once around, one more turn. Let the landing learn, Stone by, Stone breath by breath. Land can frighten more than death, If I come in from the foam. Let it be as one who chose."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.2,
-      "BP_beauty_spatial_poise": 9.0,
-      "EG_evolving_grammar": 8.5,
-      "CD_carry_depth": 9.0
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.78,
+      "BP_beauty_spatial_poise": 9.33,
+      "EG_evolving_grammar": 8.21,
+      "CD_carry_depth": 8.87
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.7,
+      "CDPD": 0.88,
+      "NGE": 0.72,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural complexity with distinct sections and thematic depth."
     },
-    "confidence_0_10": 8.5,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting emotional rooms."
+        "delta": 0.0,
+        "reason": "Structure is perfectly executed; the transition from verse to chorus and the spoken bridge provide clear navigation."
       },
       "MI_motivic_integration": {
-        "delta": 0.42,
-        "reason": "Motifs recur in altered forms across sections, with vocal hooks, guitar figures, and lyric images showing integration."
+        "delta": 0.0,
+        "reason": "The recurring 'Breakwater' motif provides strong thematic cohesion across all sections."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.33,
-        "reason": "The spatial poise is strong but not exceptional, with room tone and guitar space forming a memorable habitat."
+        "delta": 0.0,
+        "reason": "Production is highly intentional; the use of space and texture creates a cohesive atmosphere."
       },
       "EG_evolving_grammar": {
-        "delta": 0.29,
-        "reason": "The grammar develops a personal indie system over time, showing noticeable evolution in arrangement and production."
+        "delta": 0.0,
+        "reason": "The lyrical progression from internal fear to external acceptance shows sophisticated growth."
       },
       "CD_carry_depth": {
-        "delta": 0.13,
-        "reason": "The track feels like a small world, with a strong emotional arc and memorable sonic habitat."
+        "delta": 0.0,
+        "reason": "The metaphor of the 'breakwater' is sustained and deepened throughout the track."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:06.40 with section-balance score 0.30.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.86.",
-      "Integrated loudness is -17.7 LUFS, peak is -1.2 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is B minor with confidence 0.19.",
-      "Audio recurrence ratio is 0.403; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 342 beats and 86 downbeats; beat-grid stability is 0.65.",
-      "EG evidence: section contrast 2.85, cumulative evolution 1.27, transformed returns 10.00, grid deviation 0.94, rule changes 4.64.",
-      "Companion text has 10 lyric/production sections, 423 words, line repetition 0.10, rhyme-suffix reuse 0.39."
+      "The song exhibits high structural coherence with a clear progression from intimate verses to an expansive chorus.",
+      "Motivic integration is strong, anchored by the recurring 'Breakwater' motif which serves as both a literal and metaphorical anchor.",
+      "The production (spatial poise) effectively uses reverb and texture to create a sense of distance and intimacy.",
+      "Lyrical depth is sustained through consistent imagery of sea, stone, and safety."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to weak audio-only evidence."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:10:03.1466811Z",
-    "eval_count": 764,
-    "eval_duration": 12607102400
+    "created_at": "2026-06-10T10:09:50.5810859Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7884878,
+      "base64_chars": 10513172,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11735,
+    "prompt_eval_duration": 5768912000,
+    "eval_count": 559,
+    "eval_duration": 15705400000
   }
 }

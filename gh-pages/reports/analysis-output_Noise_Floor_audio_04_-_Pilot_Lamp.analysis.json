@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:29:45",
+  "generated_at": "2026-06-10T12:31:43",
   "audio": {
     "path": "Noise Floor/audio/04 - Pilot Lamp.mp3",
     "duration_seconds": 257.72,
@@ -1326,7 +1326,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1370,235 +1373,20 @@
       "beat_this detected 348 beats and 87 downbeats; beat-grid stability is 0.89.",
       "EG evidence: section contrast 1.62, cumulative evolution 0.56, transformed returns 10.00, grid deviation 0.21, rule changes 2.14.",
       "Companion text has 7 lyric/production sections, 302 words, line repetition 0.13, rhyme-suffix reuse 0.28.",
-      "Production/vocal notes contain transformation cues (space-change, texture-change); intent score 3.10.",
-      "Transcription check: lyric alignment 0.85, unique-word coverage 0.88, word-count ratio 1.05, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (space-change, texture-change); intent score 3.10."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "The pilot lamp was on already before I crossed the room A little amber witness in the belly of the tube I tell myself the ritual is only switching spot Only hands around are really going to be weather after dark But the chair has learned my outline and the window knows the cue Very even it drops the needle where the old instruction grew There is comfort in the filament, there is warning in the stain There is nothing very sudden the way I come again Pilot lamp, pilot lamp, small inevitable glow I can't turn from every door, it's still the hallway knows I know Pilot lamp, pilot lamp, bold machine beneath the ribs Not a thunder, not a promise just to pull that all the way The room gets softer at the edges and the ceiling low is down I can almost call it shelter if I'm never named the brown All the clocks keep compagiving all the mirrors lose their key While the coil writes its circle under every word I breathe and tomorrow has a service hatch With my fingerprints inside I will say I'm meant to close it I will leave it open wide No, no, no, grand collapse, no, no, right, along this varnish Slowly darkening on the same two fingers Pilot lamp, pilot lamp, small inevitable glow I can't leave the room and daylight still the socket hums below Pilot lamp, pilot lamp, bold machine beneath the ribs Not a thunder, not a promise just to pull that all the way The room gets softer at the edges and the ceiling low is down I can't wait",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 24.0,
-        "text": "The pilot lamp was on already before I crossed the room",
-        "avg_logprob": -0.5911458174387614,
-        "no_speech_prob": 0.521484375
-      },
-      {
-        "start": 24.0,
-        "end": 36.0,
-        "text": "A little amber witness in the belly of the tube",
-        "avg_logprob": -0.3776726871728897,
-        "no_speech_prob": 0.68896484375
-      },
-      {
-        "start": 36.0,
-        "end": 42.0,
-        "text": "I tell myself the ritual is only switching spot",
-        "avg_logprob": -0.3776726871728897,
-        "no_speech_prob": 0.68896484375
-      },
-      {
-        "start": 42.0,
-        "end": 48.0,
-        "text": "Only hands around are really going to be weather after dark",
-        "avg_logprob": -0.3776726871728897,
-        "no_speech_prob": 0.68896484375
-      },
-      {
-        "start": 48.0,
-        "end": 54.0,
-        "text": "But the chair has learned my outline and the window knows the cue",
-        "avg_logprob": -0.17132675229457386,
-        "no_speech_prob": 0.587890625
-      },
-      {
-        "start": 54.0,
-        "end": 60.0,
-        "text": "Very even it drops the needle where the old instruction grew",
-        "avg_logprob": -0.17132675229457386,
-        "no_speech_prob": 0.587890625
-      },
-      {
-        "start": 60.0,
-        "end": 66.0,
-        "text": "There is comfort in the filament, there is warning in the stain",
-        "avg_logprob": -0.17132675229457386,
-        "no_speech_prob": 0.587890625
-      },
-      {
-        "start": 66.0,
-        "end": 72.0,
-        "text": "There is nothing very sudden the way I come again",
-        "avg_logprob": -0.17132675229457386,
-        "no_speech_prob": 0.587890625
-      },
-      {
-        "start": 72.0,
-        "end": 82.0,
-        "text": "Pilot lamp, pilot lamp, small inevitable glow",
-        "avg_logprob": -0.30619959677419356,
-        "no_speech_prob": 0.1461181640625
-      },
-      {
-        "start": 82.0,
-        "end": 96.0,
-        "text": "I can't turn from every door, it's still the hallway knows I know",
-        "avg_logprob": -0.30619959677419356,
-        "no_speech_prob": 0.1461181640625
-      },
-      {
-        "start": 96.0,
-        "end": 106.0,
-        "text": "Pilot lamp, pilot lamp, bold machine beneath the ribs",
-        "avg_logprob": -0.2721774193548387,
-        "no_speech_prob": 0.051971435546875
-      },
-      {
-        "start": 106.0,
-        "end": 112.0,
-        "text": "Not a thunder, not a promise just to pull that all the way",
-        "avg_logprob": -0.2721774193548387,
-        "no_speech_prob": 0.051971435546875
-      },
-      {
-        "start": 112.0,
-        "end": 124.0,
-        "text": "The room gets softer at the edges and the ceiling low is down",
-        "avg_logprob": -0.2747395870586236,
-        "no_speech_prob": 0.38916015625
-      },
-      {
-        "start": 124.0,
-        "end": 130.0,
-        "text": "I can almost call it shelter if I'm never named the brown",
-        "avg_logprob": -0.2747395870586236,
-        "no_speech_prob": 0.38916015625
-      },
-      {
-        "start": 130.0,
-        "end": 136.0,
-        "text": "All the clocks keep compagiving all the mirrors lose their key",
-        "avg_logprob": -0.2747395870586236,
-        "no_speech_prob": 0.38916015625
-      },
-      {
-        "start": 136.0,
-        "end": 144.0,
-        "text": "While the coil writes its circle under every word I breathe and tomorrow has a service hatch",
-        "avg_logprob": -0.20401278307492082,
-        "no_speech_prob": 0.48046875
-      },
-      {
-        "start": 144.0,
-        "end": 150.0,
-        "text": "With my fingerprints inside I will say I'm meant to close it",
-        "avg_logprob": -0.20401278307492082,
-        "no_speech_prob": 0.48046875
-      },
-      {
-        "start": 150.0,
-        "end": 154.0,
-        "text": "I will leave it open wide",
-        "avg_logprob": -0.20401278307492082,
-        "no_speech_prob": 0.48046875
-      },
-      {
-        "start": 154.0,
-        "end": 162.0,
-        "text": "No, no, no, grand collapse, no, no, right, along this varnish",
-        "avg_logprob": -0.44693667748395133,
-        "no_speech_prob": 0.486328125
-      },
-      {
-        "start": 162.0,
-        "end": 172.0,
-        "text": "Slowly darkening on the same two fingers",
-        "avg_logprob": -0.44693667748395133,
-        "no_speech_prob": 0.486328125
-      },
-      {
-        "start": 172.0,
-        "end": 184.0,
-        "text": "Pilot lamp, pilot lamp, small inevitable glow",
-        "avg_logprob": -0.19110576923076922,
-        "no_speech_prob": 0.81494140625
-      },
-      {
-        "start": 184.0,
-        "end": 196.0,
-        "text": "I can't leave the room and daylight still the socket hums below",
-        "avg_logprob": -0.21887601383270755,
-        "no_speech_prob": 0.491455078125
-      },
-      {
-        "start": 196.0,
-        "end": 210.0,
-        "text": "Pilot lamp, pilot lamp, bold machine beneath the ribs",
-        "avg_logprob": -0.21887601383270755,
-        "no_speech_prob": 0.491455078125
-      },
-      {
-        "start": 210.0,
-        "end": 220.0,
-        "text": "Not a thunder, not a promise just to pull that all the way",
-        "avg_logprob": -0.0868598065442509,
-        "no_speech_prob": 0.17724609375
-      },
-      {
-        "start": 220.0,
-        "end": 238.0,
-        "text": "The room gets softer at the edges and the ceiling low is down",
-        "avg_logprob": -0.2688419117647059,
-        "no_speech_prob": 0.8408203125
-      },
-      {
-        "start": 238.0,
-        "end": 248.0,
-        "text": "I can't wait",
-        "avg_logprob": -0.34849331208637785,
-        "no_speech_prob": 0.89404296875
-      }
-    ],
-    "avg_logprob": -0.3006237369595353
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 262,
-    "transcript_word_count": 275,
-    "matched_sequence_words": 222,
-    "lyric_alignment_ratio": 0.847,
-    "transcript_precision_ratio": 0.807,
-    "unique_expected_word_coverage": 0.876,
-    "word_count_ratio": 1.05,
-    "repeated_12gram_ratio": 0.095,
-    "half_similarity": 0.372,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.849,
-    "quality_score_0_10": 8.49,
-    "flags": [],
-    "transcript_excerpt": "The pilot lamp was on already before I crossed the room A little amber witness in the belly of the tube I tell myself the ritual is only switching spot Only hands around are really going to be weather after dark But the chair has learned my outline and the window knows the cue Very even it drops the needle where the old instruction grew There is comfort in the filament, there is warning in the stain There is nothing very sudden the way I come again Pilot lamp, pilot lamp, small inevitable glow I can't turn from every door, it's still the hallway knows I know Pilot lamp, pilot lamp, bold machin\n...[truncated]...\nrors lose their key While the coil writes its circle under every word I breathe and tomorrow has a service hatch With my fingerprints inside I will say I'm meant to close it I will leave it open wide No, no, no, grand collapse, no, no, right, along this varnish Slowly darkening on the same two fingers Pilot lamp, pilot lamp, small inevitable glow I can't leave the room and daylight still the socket hums below Pilot lamp, pilot lamp, bold machine beneath the ribs Not a thunder, not a promise just to pull that all the way The room gets softer at the edges and the ceiling low is down I can't wait"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.3,
-      "BP_beauty_spatial_poise": 8.8,
-      "EG_evolving_grammar": 6.5,
-      "CD_carry_depth": 8.7
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.67,
+      "BP_beauty_spatial_poise": 8.5,
+      "EG_evolving_grammar": 6.25,
+      "CD_carry_depth": 8.2
     },
     "core_metrics": {
-      "CDPD": 0.86,
-      "NGE": 0.58,
+      "CDPD": 0.859,
+      "NGE": 0.57,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
@@ -1606,48 +1394,55 @@
       "label": "Recursion Threshold",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track has a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like revisiting emotional rooms."
+        "delta": 0.0,
+        "reason": "Base score reflects high structural coherence in the verse/chorus/bridge structure."
       },
       "MI_motivic_integration": {
-        "delta": 0.63,
-        "reason": "Motifs like the pilot lamp tone, vocal hook, and dusty organ recur across sections with meaningful variation, showing strong motivic integration."
+        "delta": 0.0,
+        "reason": "Motivic integration is well-supported by the recurring 'Pilot Lamp' motif and consistent production style."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.3,
-        "reason": "The sonic habitat is rich and intentional, with tape hiss, vinyl crackle, and a yellowed high end forming a memorable spatial identity."
+        "delta": 0.0,
+        "reason": "The sonic landscape is cohesive, with a clear sense of space and aesthetic intent."
       },
       "EG_evolving_grammar": {
-        "delta": 0.25,
-        "reason": "The grammar develops over time, with rule changes in timbre, rhythm, and texture, but it remains within the bounds of established indie conventions."
+        "delta": 0.0,
+        "reason": "Grammar evolves through texture shifts rather than complex linguistic variation."
       },
       "CD_carry_depth": {
-        "delta": 0.5,
-        "reason": "The track defines a recognizable emotional habitat and invites re-listening, with a strong sense of inhabitation and a memorable sonic world."
+        "delta": 0.0,
+        "reason": "Lyric depth is consistent throughout the track's progression."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:17.72 with section-balance score 0.30.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.76.",
-      "Integrated loudness is -16.8 LUFS, peak is -1.1 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F minor with confidence 0.43.",
-      "Audio recurrence ratio is 0.410; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 348 beats and 87 downbeats; beat-grid stability is 0.89.",
-      "EG evidence: section contrast 1.62, cumulative evolution 0.56, transformed returns 10.00, grid deviation 0.21, rule changes 2.14.",
-      "Companion text has 7 lyric/production sections, 302 words, line repetition 0.13, rhyme-suffix reuse 0.28."
+      "The song follows a clear, intentional structure with distinct sections (Intro, Verse, Hook, Bridge, Outro).",
+      "The 'Pilot Lamp' motif acts as a strong anchor for both lyrical and sonic identity.",
+      "Production elements like tape hiss and delay are integrated into the composition rather than being accidental artifacts.",
+      "The transition from the bridge to the final hook provides a satisfying emotional payoff."
     ],
     "review_flags": [
-      "Uncertainty about section detection: The 8 audio sections may not align perfectly with the 7 lyric/production sections, but the evidence supports a structured form."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:29:45.8582712Z",
-    "eval_count": 808,
-    "eval_duration": 13428349800
+    "created_at": "2026-06-10T10:31:43.964212Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8247118,
+      "base64_chars": 10996160,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11990,
+    "prompt_eval_duration": 5091805000,
+    "eval_count": 389,
+    "eval_duration": 9574301000
   }
 }

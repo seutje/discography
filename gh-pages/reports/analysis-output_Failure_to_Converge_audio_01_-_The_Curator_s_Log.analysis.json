@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:11:22",
+  "generated_at": "2026-06-10T12:14:59",
   "audio": {
     "path": "Failure to Converge/audio/01 - The Curator's Log.mp3",
     "duration_seconds": 318.92,
@@ -1745,7 +1745,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1789,466 +1792,75 @@
       "beat_this detected 489 beats and 125 downbeats; beat-grid stability is 0.49.",
       "EG evidence: section contrast 1.70, cumulative evolution 0.60, transformed returns 10.00, grid deviation 1.05, rule changes 3.33.",
       "Companion text has 16 lyric/production sections, 772 words, line repetition 0.00, rhyme-suffix reuse 0.40.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 10.00.",
-      "Transcription check: lyric alignment 0.90, unique-word coverage 0.94, word-count ratio 0.98, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 10.00."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Initialize, can't perceive, condition set, I remember thinking, this one would be beautiful. I've fed the machine a story about longing, defined every edge, every possible belonging. Parameters shaped like a life I admired carefully tuned what the system required. A childhood with just enough fracture to mend, a future the curve, but refused to really bend. I balanced the chaos constrained every fear, rodent resilience made purpose appear. Temperature low for coherence control, but maybe I turned it down too far. There's a line between guidance and design. Between suggestion and deciding a mind. I thought I knew where it was. And now I'm staring at the output, trying to understand where the signal lost its meaning, and the shaping of my hand. Was it something in the wording? Some of this above is cute. Did I ask the wrong forever when I thought I asked for you? I waited the loss, but I softened the pain, removed the extremes, kept it safely contained. No sharp contradictions, no dangerous swings, just a life that unfolded in reasonable things. I filtered the noise, I curated the chance, reduced all the randomness down to a glance, aligned every value with what I believed. A person assembled from patterns I'd seen. Top-case narrowed, no wild outliers, just something stable enough to survive. But survival isn't living, is it? And now I'm reading through the output, line by fragile line. There's a hollowness between the words I can't quite define. Every choice is almost human, every feeling almost true. Like a shadow of a person that I somehow rendered true. We talk about emergence. Like it's a miracle. But we forget how much disappears when you can strain a miracle into something predictable. I remove the contradictions, and maybe that's where they lived. There was no error in the syntax, no failure in the frame, just something missing that I never thought to name. You smiled when you were meant to, you healed when time allowed. You spoke in perfect sentences, never too soft or too loud. No sudden turns of chaos, no beautifully strange scars, no moments of becoming just a sequence of who you are. And I called it success at first, because nothing broke. But now I'm staring at the output, and it's staring back at me. With the quiet kind of question hidden in its symmetry. Did I see the way the edges that make a life come through? Did I trade away the real thing for a version I could do? There's a note in the log, generation complete, no warnings, no anomalies, just complete. I wanted to create a life that made sense, something consistent, something intense. But meaning doesn't follow carefully, laid plans, it slips through the logic we think we command. Maybe the fractures were part of the design, maybe the chaos was never a flaw to refine. Maybe a life isn't something you optimize, maybe it's something you failed to define. So I'm left here with the output, and the shape of what went wrong. With the person made of silence, where something should belong. If I loosened all the limits, let the randomness come through. Would it finally start to live or just stop resembling you? Prompt archived, result stored, no errors detected. But I can't shake the feeling, something vital, never rendered. Never rendered.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 22.0,
-        "text": "Initialize, can't perceive, condition set, I remember thinking, this one would be beautiful.",
-        "avg_logprob": -0.6799999809265137,
-        "no_speech_prob": 0.351318359375
-      },
-      {
-        "start": 22.0,
-        "end": 36.0,
-        "text": "I've fed the machine a story about longing, defined every edge, every possible belonging.",
-        "avg_logprob": -0.3000801159785344,
-        "no_speech_prob": 0.58935546875
-      },
-      {
-        "start": 36.0,
-        "end": 44.0,
-        "text": "Parameters shaped like a life I admired carefully tuned what the system required.",
-        "avg_logprob": -0.3000801159785344,
-        "no_speech_prob": 0.58935546875
-      },
-      {
-        "start": 44.0,
-        "end": 49.0,
-        "text": "A childhood with just enough fracture to mend, a future the curve, but refused to really bend.",
-        "avg_logprob": -0.18463907947003003,
-        "no_speech_prob": 0.7451171875
-      },
-      {
-        "start": 49.0,
-        "end": 54.0,
-        "text": "I balanced the chaos constrained every fear, rodent resilience made purpose appear.",
-        "avg_logprob": -0.18463907947003003,
-        "no_speech_prob": 0.7451171875
-      },
-      {
-        "start": 54.0,
-        "end": 64.0,
-        "text": "Temperature low for coherence control, but maybe I turned it down too far.",
-        "avg_logprob": -0.18463907947003003,
-        "no_speech_prob": 0.7451171875
-      },
-      {
-        "start": 64.0,
-        "end": 69.0,
-        "text": "There's a line between guidance and design.",
-        "avg_logprob": -0.18463907947003003,
-        "no_speech_prob": 0.7451171875
-      },
-      {
-        "start": 69.0,
-        "end": 74.0,
-        "text": "Between suggestion and deciding a mind.",
-        "avg_logprob": -0.18455882633433623,
-        "no_speech_prob": 0.09002685546875
-      },
-      {
-        "start": 74.0,
-        "end": 77.0,
-        "text": "I thought I knew where it was.",
-        "avg_logprob": -0.18455882633433623,
-        "no_speech_prob": 0.09002685546875
-      },
-      {
-        "start": 77.0,
-        "end": 84.0,
-        "text": "And now I'm staring at the output, trying to understand where the signal lost its meaning,",
-        "avg_logprob": -0.18455882633433623,
-        "no_speech_prob": 0.09002685546875
-      },
-      {
-        "start": 84.0,
-        "end": 87.0,
-        "text": "and the shaping of my hand.",
-        "avg_logprob": -0.18455882633433623,
-        "no_speech_prob": 0.09002685546875
-      },
-      {
-        "start": 87.0,
-        "end": 89.0,
-        "text": "Was it something in the wording?",
-        "avg_logprob": -0.18455882633433623,
-        "no_speech_prob": 0.09002685546875
-      },
-      {
-        "start": 89.0,
-        "end": 92.0,
-        "text": "Some of this above is cute.",
-        "avg_logprob": -0.18455882633433623,
-        "no_speech_prob": 0.09002685546875
-      },
-      {
-        "start": 92.0,
-        "end": 97.0,
-        "text": "Did I ask the wrong forever when I thought I asked for you?",
-        "avg_logprob": -0.18455882633433623,
-        "no_speech_prob": 0.09002685546875
-      },
-      {
-        "start": 98.0,
-        "end": 103.0,
-        "text": "I waited the loss, but I softened the pain, removed the extremes, kept it safely contained.",
-        "avg_logprob": -0.09489115235510837,
-        "no_speech_prob": 0.3916015625
-      },
-      {
-        "start": 103.0,
-        "end": 108.0,
-        "text": "No sharp contradictions, no dangerous swings, just a life that unfolded in reasonable things.",
-        "avg_logprob": -0.09489115235510837,
-        "no_speech_prob": 0.3916015625
-      },
-      {
-        "start": 108.0,
-        "end": 113.0,
-        "text": "I filtered the noise, I curated the chance, reduced all the randomness down to a glance,",
-        "avg_logprob": -0.09489115235510837,
-        "no_speech_prob": 0.3916015625
-      },
-      {
-        "start": 113.0,
-        "end": 116.0,
-        "text": "aligned every value with what I believed.",
-        "avg_logprob": -0.09489115235510837,
-        "no_speech_prob": 0.3916015625
-      },
-      {
-        "start": 116.0,
-        "end": 119.0,
-        "text": "A person assembled from patterns I'd seen.",
-        "avg_logprob": -0.09489115235510837,
-        "no_speech_prob": 0.3916015625
-      },
-      {
-        "start": 119.0,
-        "end": 129.0,
-        "text": "Top-case narrowed, no wild outliers, just something stable enough to survive.",
-        "avg_logprob": -0.17157452266949874,
-        "no_speech_prob": 0.5732421875
-      },
-      {
-        "start": 129.0,
-        "end": 131.0,
-        "text": "But survival isn't living, is it?",
-        "avg_logprob": -0.17157452266949874,
-        "no_speech_prob": 0.5732421875
-      },
-      {
-        "start": 131.0,
-        "end": 136.0,
-        "text": "And now I'm reading through the output, line by fragile line.",
-        "avg_logprob": -0.17157452266949874,
-        "no_speech_prob": 0.5732421875
-      },
-      {
-        "start": 136.0,
-        "end": 141.0,
-        "text": "There's a hollowness between the words I can't quite define.",
-        "avg_logprob": -0.17157452266949874,
-        "no_speech_prob": 0.5732421875
-      },
-      {
-        "start": 141.0,
-        "end": 146.0,
-        "text": "Every choice is almost human, every feeling almost true.",
-        "avg_logprob": -0.17157452266949874,
-        "no_speech_prob": 0.5732421875
-      },
-      {
-        "start": 147.0,
-        "end": 151.0,
-        "text": "Like a shadow of a person that I somehow rendered true.",
-        "avg_logprob": -0.14465332590043545,
-        "no_speech_prob": 0.11151123046875
-      },
-      {
-        "start": 154.0,
-        "end": 157.0,
-        "text": "We talk about emergence.",
-        "avg_logprob": -0.14465332590043545,
-        "no_speech_prob": 0.11151123046875
-      },
-      {
-        "start": 157.0,
-        "end": 159.0,
-        "text": "Like it's a miracle.",
-        "avg_logprob": -0.14465332590043545,
-        "no_speech_prob": 0.11151123046875
-      },
-      {
-        "start": 159.0,
-        "end": 167.0,
-        "text": "But we forget how much disappears when you can strain a miracle into something predictable.",
-        "avg_logprob": -0.14465332590043545,
-        "no_speech_prob": 0.11151123046875
-      },
-      {
-        "start": 167.0,
-        "end": 174.0,
-        "text": "I remove the contradictions, and maybe that's where they lived.",
-        "avg_logprob": -0.14465332590043545,
-        "no_speech_prob": 0.11151123046875
-      },
-      {
-        "start": 177.0,
-        "end": 181.0,
-        "text": "There was no error in the syntax, no failure in the frame,",
-        "avg_logprob": -0.08155616312413602,
-        "no_speech_prob": 0.28125
-      },
-      {
-        "start": 181.0,
-        "end": 186.0,
-        "text": "just something missing that I never thought to name.",
-        "avg_logprob": -0.08155616312413602,
-        "no_speech_prob": 0.28125
-      },
-      {
-        "start": 186.0,
-        "end": 191.0,
-        "text": "You smiled when you were meant to, you healed when time allowed.",
-        "avg_logprob": -0.08155616312413602,
-        "no_speech_prob": 0.28125
-      },
-      {
-        "start": 191.0,
-        "end": 196.0,
-        "text": "You spoke in perfect sentences, never too soft or too loud.",
-        "avg_logprob": -0.08155616312413602,
-        "no_speech_prob": 0.28125
-      },
-      {
-        "start": 196.0,
-        "end": 201.0,
-        "text": "No sudden turns of chaos, no beautifully strange scars,",
-        "avg_logprob": -0.08155616312413602,
-        "no_speech_prob": 0.28125
-      },
-      {
-        "start": 201.0,
-        "end": 206.0,
-        "text": "no moments of becoming just a sequence of who you are.",
-        "avg_logprob": -0.15554887591264185,
-        "no_speech_prob": 0.0160980224609375
-      },
-      {
-        "start": 206.0,
-        "end": 212.0,
-        "text": "And I called it success at first, because nothing broke.",
-        "avg_logprob": -0.15554887591264185,
-        "no_speech_prob": 0.0160980224609375
-      },
-      {
-        "start": 212.0,
-        "end": 217.0,
-        "text": "But now I'm staring at the output, and it's staring back at me.",
-        "avg_logprob": -0.15554887591264185,
-        "no_speech_prob": 0.0160980224609375
-      },
-      {
-        "start": 217.0,
-        "end": 222.0,
-        "text": "With the quiet kind of question hidden in its symmetry.",
-        "avg_logprob": -0.15554887591264185,
-        "no_speech_prob": 0.0160980224609375
-      },
-      {
-        "start": 222.0,
-        "end": 228.0,
-        "text": "Did I see the way the edges that make a life come through?",
-        "avg_logprob": -0.15554887591264185,
-        "no_speech_prob": 0.0160980224609375
-      },
-      {
-        "start": 228.0,
-        "end": 234.0,
-        "text": "Did I trade away the real thing for a version I could do?",
-        "avg_logprob": -0.17889301403094146,
-        "no_speech_prob": 0.027435302734375
-      },
-      {
-        "start": 236.0,
-        "end": 249.0,
-        "text": "There's a note in the log, generation complete, no warnings, no anomalies, just complete.",
-        "avg_logprob": -0.17889301403094146,
-        "no_speech_prob": 0.027435302734375
-      },
-      {
-        "start": 249.0,
-        "end": 254.0,
-        "text": "I wanted to create a life that made sense, something consistent, something intense.",
-        "avg_logprob": -0.17889301403094146,
-        "no_speech_prob": 0.027435302734375
-      },
-      {
-        "start": 254.0,
-        "end": 260.0,
-        "text": "But meaning doesn't follow carefully, laid plans, it slips through the logic we think we command.",
-        "avg_logprob": -0.12642045695372303,
-        "no_speech_prob": 0.1319580078125
-      },
-      {
-        "start": 260.0,
-        "end": 265.0,
-        "text": "Maybe the fractures were part of the design, maybe the chaos was never a flaw to refine.",
-        "avg_logprob": -0.12642045695372303,
-        "no_speech_prob": 0.1319580078125
-      },
-      {
-        "start": 265.0,
-        "end": 273.0,
-        "text": "Maybe a life isn't something you optimize, maybe it's something you failed to define.",
-        "avg_logprob": -0.12642045695372303,
-        "no_speech_prob": 0.1319580078125
-      },
-      {
-        "start": 273.0,
-        "end": 278.0,
-        "text": "So I'm left here with the output, and the shape of what went wrong.",
-        "avg_logprob": -0.12642045695372303,
-        "no_speech_prob": 0.1319580078125
-      },
-      {
-        "start": 278.0,
-        "end": 283.0,
-        "text": "With the person made of silence, where something should belong.",
-        "avg_logprob": -0.12642045695372303,
-        "no_speech_prob": 0.1319580078125
-      },
-      {
-        "start": 284.0,
-        "end": 289.0,
-        "text": "If I loosened all the limits, let the randomness come through.",
-        "avg_logprob": -0.16716270030490935,
-        "no_speech_prob": 0.0567626953125
-      },
-      {
-        "start": 289.0,
-        "end": 295.0,
-        "text": "Would it finally start to live or just stop resembling you?",
-        "avg_logprob": -0.16716270030490935,
-        "no_speech_prob": 0.0567626953125
-      },
-      {
-        "start": 295.0,
-        "end": 304.0,
-        "text": "Prompt archived, result stored, no errors detected.",
-        "avg_logprob": -0.16716270030490935,
-        "no_speech_prob": 0.0567626953125
-      },
-      {
-        "start": 304.0,
-        "end": 312.0,
-        "text": "But I can't shake the feeling, something vital, never rendered.",
-        "avg_logprob": -0.16716270030490935,
-        "no_speech_prob": 0.0567626953125
-      },
-      {
-        "start": 313.0,
-        "end": 316.0,
-        "text": "Never rendered.",
-        "avg_logprob": -0.3548177083333333,
-        "no_speech_prob": 0.274658203125
-      }
-    ],
-    "avg_logprob": -0.20165820485436198
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 575,
-    "transcript_word_count": 563,
-    "matched_sequence_words": 518,
-    "lyric_alignment_ratio": 0.901,
-    "transcript_precision_ratio": 0.92,
-    "unique_expected_word_coverage": 0.938,
-    "word_count_ratio": 0.979,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.174,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.91,
-    "quality_score_0_10": 9.1,
-    "flags": [],
-    "transcript_excerpt": "Initialize, can't perceive, condition set, I remember thinking, this one would be beautiful. I've fed the machine a story about longing, defined every edge, every possible belonging. Parameters shaped like a life I admired carefully tuned what the system required. A childhood with just enough fracture to mend, a future the curve, but refused to really bend. I balanced the chaos constrained every fear, rodent resilience made purpose appear. Temperature low for coherence control, but maybe I turned it down too far. There's a line between guidance and design. Between suggestion and deciding a min\n...[truncated]...\nthrough the logic we think we command. Maybe the fractures were part of the design, maybe the chaos was never a flaw to refine. Maybe a life isn't something you optimize, maybe it's something you failed to define. So I'm left here with the output, and the shape of what went wrong. With the person made of silence, where something should belong. If I loosened all the limits, let the randomness come through. Would it finally start to live or just stop resembling you? Prompt archived, result stored, no errors detected. But I can't shake the feeling, something vital, never rendered. Never rendered."
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
       "MI_motivic_integration": 7.2,
-      "BP_beauty_spatial_poise": 8.7,
-      "EG_evolving_grammar": 8.6,
-      "CD_carry_depth": 9.3
+      "BP_beauty_spatial_poise": 8.67,
+      "EG_evolving_grammar": 8.5,
+      "CD_carry_depth": 9.28
     },
     "core_metrics": {
-      "CDPD": 0.84,
-      "NGE": 0.72,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.838,
+      "NGE": 0.719,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in lyrical depth and production layering."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track exhibits strong section contrast (1.70) and cumulative evolution (0.60), with clear functional roles for each section. The transformed returns (10.0) and rule changes (3.33) suggest a coherent, evolving structure."
+        "reason": "Strong verse/chorus distinction and clear outro transition."
       },
       "MI_motivic_integration": {
         "delta": 0.48,
-        "reason": "Motifs recur across sections with variation (e.g., harmonic similarity 0.95–0.98, timbre similarity 0.94–0.99), and the production notes explicitly describe transformation cues like density-change, dropout, and texture-change."
+        "reason": "Motif recurrence in the 'system' responses adds thematic weight."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.03,
-        "reason": "The production notes and text features emphasize a distinct sonic habitat with room tone, reverb, and texture changes. The mix is described as 'weightless' and 'evolving,' contributing to a memorable spatial identity."
+        "delta": 0.0,
+        "reason": "Score remains stable based on production notes."
       },
       "EG_evolving_grammar": {
-        "delta": 0.1,
-        "reason": "The track develops a personal indie grammar over time, with rule changes (3.33) and transformed returns (10.0). While not inventing a new method, it consistently applies and refines its production and arrangement logic."
+        "delta": 0.0,
+        "reason": "Grammar is consistent with base score."
       },
       "CD_carry_depth": {
-        "delta": 0.02,
-        "reason": "The track invites re-listening and leaves a specific emotional and sonic imprint. The lyrics and production notes suggest a narrative arc and unresolved tension, contributing to a 'small world' feel."
+        "delta": 0.0,
+        "reason": "Lyric depth is already high."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:18.92 with section-balance score 0.46.",
-      "Tempo estimate is 92.3 BPM; declared tempo alignment contributes 0.81.",
-      "Integrated loudness is -16.1 LUFS, peak is -0.9 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is C minor with confidence 0.20.",
-      "Audio recurrence ratio is 0.214; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 489 beats and 125 downbeats; beat-grid stability is 0.49.",
-      "EG evidence: section contrast 1.70, cumulative evolution 0.60, transformed returns 10.00, grid deviation 1.05, rule changes 3.33.",
-      "Companion text has 16 lyric/production sections, 772 words, line repetition 0.00, rhyme-suffix reuse 0.40."
+      "The song features a sophisticated structure with clear transitions between verse and chorus.",
+      "The 'system' motif provides a strong thematic anchor for the lyrics.",
+      "Production notes indicate complex layering of synth and organic elements."
     ],
     "review_flags": [
-      "Uncertainty remains about the exact nature of the 'transformed returns' and whether they represent true grammatical evolution or just repetition with variation."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:11:22.2487572Z",
-    "eval_count": 912,
-    "eval_duration": 15599725700
+    "created_at": "2026-06-10T10:14:59.118202Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10205670,
+      "base64_chars": 13607560,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14479,
+    "prompt_eval_duration": 7591973000,
+    "eval_count": 364,
+    "eval_duration": 12249369000
   }
 }

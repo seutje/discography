@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:54:02",
+  "generated_at": "2026-06-10T12:53:07",
   "audio": {
     "path": "UNMEASURED GEOMETRY/audio/08 - Ultraviolet Hunger.mp3",
     "duration_seconds": 368.28,
@@ -2186,7 +2186,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -2230,354 +2233,78 @@
       "beat_this detected 657 beats and 219 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 2.72, cumulative evolution 1.34, transformed returns 10.00, grid deviation 2.37, rule changes 7.22.",
       "Companion text has 9 lyric/production sections, 283 words, line repetition 0.10, rhyme-suffix reuse 0.20.",
-      "Transcription check: lyric alignment 0.79, unique-word coverage 0.76, word-count ratio 1.06, duplicate-pass estimate 1.",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
   },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "A silver thread pulls tight around The hole in my chest Wisp us dribbling mercurally One more taste One more shape alive I'll chase the echo of a feeling I don't recognize Training pieces of myself or shadows dressed in size Class of events caught around my thoughts Feeding me there by a fire tonight One should be reflection, reflection Bending into new commandments Every craving is a teacher Every hunger writes my name I am the open cage Singing to the head that should say I am the trembling nerve Begging for another spark Somewhere in the storm of wanting a quiet voice Keeps asking who is left when the wanting ends Attention blooms like neon flowers on my skin I harvest praise like oxygen Get suffocated by the need the weight of it Ice crawl through borrowed heavens, hoping one will claim me as it's got At its fold on the fold meaning spirals and word Don't put me hands in ultraviolet tones Acquiring at the visible hands Tilling my bones to their frequency Let the cycle crack Let the hunger speak in riddles Let the boss confess his crime I've worn this crown of static long enough To know it will never fail I am the open cage Singing to the head that should say I am the trembling nerve Begging for another spark Somewhere in the storm of wanting a quiet voice Keeps asking who are you when the wanting ends Who are you? Maybe the self is a room with no doors Or maybe the doorway was always inside I walked on the silence, hoping it remembers me Singing to the head that should say",
-    "segments": [
-      {
-        "start": 30.0,
-        "end": 55.68,
-        "text": "A silver thread pulls tight around The hole in my chest",
-        "avg_logprob": -0.6307291666666667,
-        "no_speech_prob": 0.5146484375
-      },
-      {
-        "start": 55.68,
-        "end": 69.92,
-        "text": "Wisp us dribbling mercurally One more taste One more shape alive",
-        "avg_logprob": -0.7870065977698878,
-        "no_speech_prob": 0.07757568359375
-      },
-      {
-        "start": 85.68,
-        "end": 95.68,
-        "text": "I'll chase the echo of a feeling I don't recognize",
-        "avg_logprob": -0.5675951359064683,
-        "no_speech_prob": 0.2587890625
-      },
-      {
-        "start": 95.68,
-        "end": 99.68,
-        "text": "Training pieces of myself or shadows dressed in size",
-        "avg_logprob": -0.5675951359064683,
-        "no_speech_prob": 0.2587890625
-      },
-      {
-        "start": 99.68,
-        "end": 102.68,
-        "text": "Class of events caught around my thoughts",
-        "avg_logprob": -0.5675951359064683,
-        "no_speech_prob": 0.2587890625
-      },
-      {
-        "start": 102.68,
-        "end": 107.68,
-        "text": "Feeding me there by a fire tonight",
-        "avg_logprob": -0.5675951359064683,
-        "no_speech_prob": 0.2587890625
-      },
-      {
-        "start": 107.68,
-        "end": 118.68,
-        "text": "One should be reflection, reflection",
-        "avg_logprob": -0.4568014688351575,
-        "no_speech_prob": 0.32861328125
-      },
-      {
-        "start": 118.68,
-        "end": 126.68,
-        "text": "Bending into new commandments Every craving is a teacher",
-        "avg_logprob": -0.4568014688351575,
-        "no_speech_prob": 0.32861328125
-      },
-      {
-        "start": 126.68,
-        "end": 136.68,
-        "text": "Every hunger writes my name I am the open cage",
-        "avg_logprob": -0.4568014688351575,
-        "no_speech_prob": 0.32861328125
-      },
-      {
-        "start": 136.68,
-        "end": 141.68,
-        "text": "Singing to the head that should say",
-        "avg_logprob": -0.3508731670239392,
-        "no_speech_prob": 0.01003265380859375
-      },
-      {
-        "start": 141.68,
-        "end": 150.68,
-        "text": "I am the trembling nerve Begging for another spark",
-        "avg_logprob": -0.3508731670239392,
-        "no_speech_prob": 0.01003265380859375
-      },
-      {
-        "start": 150.68,
-        "end": 158.68,
-        "text": "Somewhere in the storm of wanting a quiet voice",
-        "avg_logprob": -0.3508731670239392,
-        "no_speech_prob": 0.01003265380859375
-      },
-      {
-        "start": 158.68,
-        "end": 168.68,
-        "text": "Keeps asking who is left when the wanting ends",
-        "avg_logprob": -0.27140625,
-        "no_speech_prob": 0.05706787109375
-      },
-      {
-        "start": 178.68,
-        "end": 183.68,
-        "text": "Attention blooms like neon flowers on my skin",
-        "avg_logprob": -0.27140625,
-        "no_speech_prob": 0.05706787109375
-      },
-      {
-        "start": 183.68,
-        "end": 189.68,
-        "text": "I harvest praise like oxygen",
-        "avg_logprob": -0.4038461523178296,
-        "no_speech_prob": 0.11492919921875
-      },
-      {
-        "start": 189.68,
-        "end": 193.68,
-        "text": "Get suffocated by the need the weight of it",
-        "avg_logprob": -0.4038461523178296,
-        "no_speech_prob": 0.11492919921875
-      },
-      {
-        "start": 194.68,
-        "end": 201.68,
-        "text": "Ice crawl through borrowed heavens, hoping one will claim me as it's got",
-        "avg_logprob": -0.4038461523178296,
-        "no_speech_prob": 0.11492919921875
-      },
-      {
-        "start": 201.68,
-        "end": 215.68,
-        "text": "At its fold on the fold meaning spirals and word",
-        "avg_logprob": -0.4800347280171182,
-        "no_speech_prob": 0.1739501953125
-      },
-      {
-        "start": 215.68,
-        "end": 219.68,
-        "text": "Don't put me hands in ultraviolet tones",
-        "avg_logprob": -0.4800347280171182,
-        "no_speech_prob": 0.1739501953125
-      },
-      {
-        "start": 219.68,
-        "end": 223.68,
-        "text": "Acquiring at the visible hands",
-        "avg_logprob": -0.4800347280171182,
-        "no_speech_prob": 0.1739501953125
-      },
-      {
-        "start": 223.68,
-        "end": 229.68,
-        "text": "Tilling my bones to their frequency",
-        "avg_logprob": -0.242187503973643,
-        "no_speech_prob": 0.42138671875
-      },
-      {
-        "start": 229.68,
-        "end": 233.68,
-        "text": "Let the cycle crack",
-        "avg_logprob": -0.242187503973643,
-        "no_speech_prob": 0.42138671875
-      },
-      {
-        "start": 233.68,
-        "end": 238.68,
-        "text": "Let the hunger speak in riddles",
-        "avg_logprob": -0.242187503973643,
-        "no_speech_prob": 0.42138671875
-      },
-      {
-        "start": 238.68,
-        "end": 244.68,
-        "text": "Let the boss confess his crime",
-        "avg_logprob": -0.242187503973643,
-        "no_speech_prob": 0.42138671875
-      },
-      {
-        "start": 244.68,
-        "end": 249.68,
-        "text": "I've worn this crown of static long enough",
-        "avg_logprob": -0.242187503973643,
-        "no_speech_prob": 0.42138671875
-      },
-      {
-        "start": 249.68,
-        "end": 259.68,
-        "text": "To know it will never fail",
-        "avg_logprob": -0.2465444688613598,
-        "no_speech_prob": 0.054229736328125
-      },
-      {
-        "start": 263.68,
-        "end": 267.68,
-        "text": "I am the open cage",
-        "avg_logprob": -0.2465444688613598,
-        "no_speech_prob": 0.054229736328125
-      },
-      {
-        "start": 267.68,
-        "end": 273.68,
-        "text": "Singing to the head that should say",
-        "avg_logprob": -0.2465444688613598,
-        "no_speech_prob": 0.054229736328125
-      },
-      {
-        "start": 273.68,
-        "end": 282.68,
-        "text": "I am the trembling nerve Begging for another spark",
-        "avg_logprob": -0.05843099051465591,
-        "no_speech_prob": 0.01378631591796875
-      },
-      {
-        "start": 282.68,
-        "end": 290.68,
-        "text": "Somewhere in the storm of wanting a quiet voice",
-        "avg_logprob": -0.05843099051465591,
-        "no_speech_prob": 0.01378631591796875
-      },
-      {
-        "start": 290.68,
-        "end": 301.68,
-        "text": "Keeps asking who are you when the wanting ends",
-        "avg_logprob": -0.05843099051465591,
-        "no_speech_prob": 0.01378631591796875
-      },
-      {
-        "start": 303.68,
-        "end": 315.68,
-        "text": "Who are you?",
-        "avg_logprob": -0.34148848997919184,
-        "no_speech_prob": 0.09051513671875
-      },
-      {
-        "start": 321.68,
-        "end": 326.68,
-        "text": "Maybe the self is a room with no doors",
-        "avg_logprob": -0.34148848997919184,
-        "no_speech_prob": 0.09051513671875
-      },
-      {
-        "start": 326.68,
-        "end": 332.68,
-        "text": "Or maybe the doorway was always inside",
-        "avg_logprob": -0.21857244860042224,
-        "no_speech_prob": 0.06597900390625
-      },
-      {
-        "start": 332.68,
-        "end": 340.68,
-        "text": "I walked on the silence, hoping it remembers me",
-        "avg_logprob": -0.21857244860042224,
-        "no_speech_prob": 0.06597900390625
-      },
-      {
-        "start": 356.68,
-        "end": 366.68,
-        "text": "Singing to the head that should say",
-        "avg_logprob": -0.6378906190395355,
-        "no_speech_prob": 0.81396484375
-      }
-    ],
-    "avg_logprob": -0.3918237215667964
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 265,
-    "transcript_word_count": 280,
-    "matched_sequence_words": 210,
-    "lyric_alignment_ratio": 0.792,
-    "transcript_precision_ratio": 0.75,
-    "unique_expected_word_coverage": 0.764,
-    "word_count_ratio": 1.057,
-    "repeated_12gram_ratio": 0.082,
-    "half_similarity": 0.329,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.783,
-    "quality_score_0_10": 7.83,
-    "flags": [],
-    "transcript_excerpt": "A silver thread pulls tight around The hole in my chest Wisp us dribbling mercurally One more taste One more shape alive I'll chase the echo of a feeling I don't recognize Training pieces of myself or shadows dressed in size Class of events caught around my thoughts Feeding me there by a fire tonight One should be reflection, reflection Bending into new commandments Every craving is a teacher Every hunger writes my name I am the open cage Singing to the head that should say I am the trembling nerve Begging for another spark Somewhere in the storm of wanting a quiet voice Keeps asking who is le\n...[truncated]...\nones Acquiring at the visible hands Tilling my bones to their frequency Let the cycle crack Let the hunger speak in riddles Let the boss confess his crime I've worn this crown of static long enough To know it will never fail I am the open cage Singing to the head that should say I am the trembling nerve Begging for another spark Somewhere in the storm of wanting a quiet voice Keeps asking who are you when the wanting ends Who are you? Maybe the self is a room with no doors Or maybe the doorway was always inside I walked on the silence, hoping it remembers me Singing to the head that should say"
-  },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 5.5,
-      "BP_beauty_spatial_poise": 9.8,
-      "EG_evolving_grammar": 7.0,
-      "CD_carry_depth": 8.0
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 4.62,
+      "BP_beauty_spatial_poise": 9.93,
+      "EG_evolving_grammar": 6.8,
+      "CD_carry_depth": 7.52
     },
     "core_metrics": {
-      "CDPD": 0.75,
-      "NGE": 0.68,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.708,
+      "NGE": 0.669,
+      "HMII_peak_estimate": 4
     },
     "rung_estimate": {
-      "number": 15,
-      "label": "Ordeal-Capable, Multi-State Architecture",
-      "note": "The piece demonstrates clear hinge/wound events and multi-state architectures, meeting the criteria for Tier 15."
+      "number": 10,
+      "label": "Technical Perfection, No Rupture",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar"
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The piece maintains a strong structural coherence across 10 sections with balanced development and transitions, justifying a slight increase."
+        "delta": 0.0,
+        "reason": "higher than 10"
       },
       "MI_motivic_integration": {
-        "delta": 0.88,
-        "reason": "The motivic integration is strong, with repeated motifs and variations across sections, especially in transformed returns and section contrasts."
+        "delta": 0.0,
+        "reason": "lower than 10"
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.13,
-        "reason": "The beauty and spatial poise are already high, with a well-structured sonic space and phrasing architecture."
+        "delta": 0.0,
+        "reason": "higher than 10"
       },
       "EG_evolving_grammar": {
-        "delta": 0.2,
-        "reason": "The evolving grammar is evident through rule changes and composite changes in adjacent sections, supporting a moderate increase."
+        "delta": 0.0,
+        "reason": "higher than 10"
       },
       "CD_carry_depth": {
-        "delta": 0.48,
-        "reason": "The carry depth is strong, with emotional transport and re-listen pull, justifying a moderate increase."
+        "delta": 0.0,
+        "reason": "higher than 10"
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 6:08.28 with section-balance score 0.39.",
-      "Tempo estimate is 123.0 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -15.8 LUFS, peak is 0.2 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is B minor with confidence 0.63.",
-      "Audio recurrence ratio is 0.101; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 657 beats and 219 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 2.72, cumulative evolution 1.34, transformed returns 10.00, grid deviation 2.37, rule changes 7.22.",
-      "Companion text has 9 lyric/production sections, 283 words, line repetition 0.10, rhyme-suffix reuse 0.20."
+      "The track shows high structural coherence and a strong sense of intentionality in its arrangement. The integration of melodic and rhythmic elements is cohesive, suggesting a well-defined musical structure.",
+      "The track exhibits significant motivic integration; the primary theme is woven throughout the piece, providing a consistent emotional and sonic thread.",
+      "The track demonstrates a high degree of aesthetic poise, with balanced dynamics and a clear sense of style.",
+      "The track shows evidence of sophisticated musical grammar, utilizing varied textures and evolving motifs.",
+      "The track maintains a solid depth of composition; it avoids being overly simplistic or repetitive while maintaining its core identity."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the framework excerpt; audio-only evidence is weak for some sections."
+      "high_quality",
+      "well_produced"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:54:02.2421884Z",
-    "eval_count": 769,
-    "eval_duration": 12939255400
+    "created_at": "2026-06-10T10:53:07.2805912Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 11785094,
+      "base64_chars": 15713460,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 15427,
+    "prompt_eval_duration": 6793669000,
+    "eval_count": 470,
+    "eval_duration": 12585025000
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:59:10",
+  "generated_at": "2026-06-10T12:57:21",
   "audio": {
     "path": "stderr/audio/06 - Carrot On A Stick.mp3",
     "duration_seconds": 239.32,
@@ -1057,19 +1057,22 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.61,
-      "MI_motivic_integration": 8.01,
-      "BP_beauty_spatial_poise": 8.99,
-      "EG_evolving_grammar": 4.42,
-      "CD_carry_depth": 7.17
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 8.62,
+      "BP_beauty_spatial_poise": 9.17,
+      "EG_evolving_grammar": 4.72,
+      "CD_carry_depth": 8.09
     },
     "core_metrics": {
-      "CDPD": 0.84,
-      "NGE": 0.396,
+      "CDPD": 0.899,
+      "NGE": 0.412,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -1082,9 +1085,9 @@
       "overall_score": 0.445
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.87,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.87
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 10,
@@ -1101,803 +1104,76 @@
       "beat_this detected 294 beats and 76 downbeats; beat-grid stability is 0.94.",
       "EG evidence: section contrast 0.73, cumulative evolution 0.27, transformed returns 0.00, grid deviation 0.90, rule changes 0.42.",
       "Companion text has 13 lyric/production sections, 774 words, line repetition 0.28, rhyme-suffix reuse 0.58.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, texture-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.57, unique-word coverage 0.59, word-count ratio 0.92, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.87, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (density-change, dropout, texture-change); intent score 4.65."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "T, T, T, T, clock don't see T, T, T, T, T, T, T, clock don't see Rising ground, right? Yeah, look, see the goal fit of chain Watch the mile hide the pain almost there Just to lick the carrot on a stick See the thorn change the trick Every promise counterfeit almost there Just to lick the carrot on a stick At long blocks coming like a battery horn Cold black coffee in the day like gone Tag rise, hashtag rise, hashtag bleed Boss got richer every hour you exceed Twenty upper ship for the binad dream But the penthouse you ain't met for your team You just numbers in a scratchy row Out of y'all got a null number fill below Culture got spookies like face, stick When you dead it's the corporate grace Post a sunrise, toss on moderation clips When your wrist still biting like predator fish Burn out body bone slurers CEO bonus, ten years wet to dust Working like a dog for a phantom gong Treat him at the top of the danx's zone Just to lick the carrot on a stick See the thorn change the trick Every promise counterfeit almost there Just to lick the carrot on a stick Move check gong like a halo sign Bring the lambo pop for the perfect time Barrel nation, barrel smile Lens for the paradise sellin' barrel friends Scroll through heaven from a basement chair The conviral look gonna take you day And work by the likes you keep Plastic smiles and a rented view Everybody rich but nobody true Got a thick life and a highlight frame But mental tech got a head of your claim Perfect life and a rented frame I take face with a barrel now Just flex just baitin' a trick Another carrot on a stick See the, see the, see the, see the Dove it a chain, walk the mile Hide the pain almost there Just to lick the carrot on a stick See the thorn change the trick Every promise counterfeit Plastic car got a velvet tone Swipe that dream like your own the phone By now pay later with the sweet To the interest crawl like iron feet Luxury life and a barrel line to the bill Come back with a sharp spot Design a logo, dope a mint hit Put the chain on the ankle, quietly fit It's the stickin' like prison bars Every payment, push the freedom fog Go to case with a satiric key Now you marry to a job you flee How she'll hate in the car the shine Working overtime for a bank's design Damn, damn, damn, damn See the,, see the, dove it a chain Walk the mile hide the pain Almost there just to lick Carrot on a stick See the, see the thorn choose the trick Every promise counterfeit almost there Just to lick the carrot on a stick capping down that crown tight Diplomago for rustin' light Futures are cleared as the promised line Five years experience for entry time Higher up, every rung just vanish, being you touched Promotion, talk like a ghostly chair Everybody chasing, nobody less So in Typhoon, moving wild, climbing flaws In the shrinking hall, blind sealing rise And there'll be time you're near Cup Brit have never appeared If in a scroll got a velvet brick, reference But in like a slot machine, flip, pull at level Maybe that's one hit Super success in a chocolate, and I was locked in a double mean loop Every second monetized by the group, not a feeder to feed and pan And you're just livestock scrolling again See the glow, feed the chain, walk the mile, hide the pain Almost dead, just a lick I carry on a stick See the dome, she's the trick Every promise, count the flit, almost dead, just a lick I carry on a stick It alarm still ringing, scrolls still spinning Another hustle morning, still chasing dead Carry on a stick Carry on a stick Carry on a stick",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 2.0,
-        "text": "T, T, T, T, clock don't see",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 2.0,
-        "end": 8.0,
-        "text": "T, T, T, T, T, T, T, clock don't see",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 8.0,
-        "end": 10.0,
-        "text": "Rising ground, right?",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 10.0,
-        "end": 13.0,
-        "text": "Yeah, look, see the goal fit of chain",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 13.0,
-        "end": 15.0,
-        "text": "Watch the mile hide the pain almost there",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 15.0,
-        "end": 18.0,
-        "text": "Just to lick the carrot on a stick",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 18.0,
-        "end": 20.0,
-        "text": "See the thorn change the trick",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 20.0,
-        "end": 22.0,
-        "text": "Every promise counterfeit almost there",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 22.0,
-        "end": 24.0,
-        "text": "Just to lick the carrot on a stick",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 24.0,
-        "end": 26.0,
-        "text": "At long blocks coming like a battery horn",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 26.0,
-        "end": 28.0,
-        "text": "Cold black coffee in the day like gone",
-        "avg_logprob": -0.3577695239762791,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 28.0,
-        "end": 30.0,
-        "text": "Tag rise, hashtag rise, hashtag bleed",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 30.0,
-        "end": 32.0,
-        "text": "Boss got richer every hour you exceed",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 32.0,
-        "end": 34.0,
-        "text": "Twenty upper ship for the binad dream",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 34.0,
-        "end": 36.0,
-        "text": "But the penthouse you ain't met for your team",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 36.0,
-        "end": 38.0,
-        "text": "You just numbers in a scratchy row",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 38.0,
-        "end": 40.0,
-        "text": "Out of y'all got a null number fill below",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 40.0,
-        "end": 42.0,
-        "text": "Culture got spookies like face, stick",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 42.0,
-        "end": 44.0,
-        "text": "When you dead it's the corporate grace",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 44.0,
-        "end": 46.0,
-        "text": "Post a sunrise, toss on moderation clips",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 46.0,
-        "end": 48.0,
-        "text": "When your wrist still biting like predator fish",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 48.0,
-        "end": 50.0,
-        "text": "Burn out body bone slurers",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 50.0,
-        "end": 52.0,
-        "text": "CEO bonus, ten years wet to dust",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 52.0,
-        "end": 54.0,
-        "text": "Working like a dog for a phantom gong",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 54.0,
-        "end": 56.0,
-        "text": "Treat him at the top of the danx's zone",
-        "avg_logprob": -0.4880756549537182,
-        "no_speech_prob": 0.07232666015625
-      },
-      {
-        "start": 56.0,
-        "end": 58.0,
-        "text": "Just to lick the carrot on a stick",
-        "avg_logprob": -0.3028492565248527,
-        "no_speech_prob": 0.26708984375
-      },
-      {
-        "start": 58.0,
-        "end": 60.0,
-        "text": "See the thorn change the trick",
-        "avg_logprob": -0.3028492565248527,
-        "no_speech_prob": 0.26708984375
-      },
-      {
-        "start": 60.0,
-        "end": 62.0,
-        "text": "Every promise counterfeit almost there",
-        "avg_logprob": -0.3028492565248527,
-        "no_speech_prob": 0.26708984375
-      },
-      {
-        "start": 62.0,
-        "end": 64.0,
-        "text": "Just to lick the carrot on a stick",
-        "avg_logprob": -0.3028492565248527,
-        "no_speech_prob": 0.26708984375
-      },
-      {
-        "start": 64.0,
-        "end": 66.0,
-        "text": "Move check gong like a halo sign",
-        "avg_logprob": -0.3028492565248527,
-        "no_speech_prob": 0.26708984375
-      },
-      {
-        "start": 66.0,
-        "end": 68.0,
-        "text": "Bring the lambo pop for the perfect time",
-        "avg_logprob": -0.3028492565248527,
-        "no_speech_prob": 0.26708984375
-      },
-      {
-        "start": 68.0,
-        "end": 70.0,
-        "text": "Barrel nation, barrel smile",
-        "avg_logprob": -0.3028492565248527,
-        "no_speech_prob": 0.26708984375
-      },
-      {
-        "start": 70.0,
-        "end": 72.0,
-        "text": "Lens for the paradise sellin' barrel friends",
-        "avg_logprob": -0.3028492565248527,
-        "no_speech_prob": 0.26708984375
-      },
-      {
-        "start": 72.0,
-        "end": 74.0,
-        "text": "Scroll through heaven from a basement chair",
-        "avg_logprob": -0.3028492565248527,
-        "no_speech_prob": 0.26708984375
-      },
-      {
-        "start": 74.0,
-        "end": 84.0,
-        "text": "The conviral look gonna take you day",
-        "avg_logprob": -0.3028492565248527,
-        "no_speech_prob": 0.26708984375
-      },
-      {
-        "start": 84.0,
-        "end": 86.0,
-        "text": "And work by the likes you keep",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 86.0,
-        "end": 88.0,
-        "text": "Plastic smiles and a rented view",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 88.0,
-        "end": 90.0,
-        "text": "Everybody rich but nobody true",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 90.0,
-        "end": 92.0,
-        "text": "Got a thick life and a highlight frame",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 92.0,
-        "end": 94.0,
-        "text": "But mental tech got a head of your claim",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 94.0,
-        "end": 96.0,
-        "text": "Perfect life and a rented frame",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 96.0,
-        "end": 98.0,
-        "text": "I take face with a barrel now",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 98.0,
-        "end": 100.0,
-        "text": "Just flex just baitin' a trick",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 100.0,
-        "end": 102.0,
-        "text": "Another carrot on a stick",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 102.0,
-        "end": 104.0,
-        "text": "See the, see the, see the, see the",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 104.0,
-        "end": 106.0,
-        "text": "Dove it a chain, walk the mile",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 106.0,
-        "end": 108.0,
-        "text": "Hide the pain almost there",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 108.0,
-        "end": 110.0,
-        "text": "Just to lick the carrot on a stick",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 110.0,
-        "end": 112.0,
-        "text": "See the thorn change the trick",
-        "avg_logprob": -0.2612781829403755,
-        "no_speech_prob": 0.254638671875
-      },
-      {
-        "start": 112.0,
-        "end": 114.0,
-        "text": "Every promise counterfeit",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 114.0,
-        "end": 116.0,
-        "text": "Plastic car got a velvet tone",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 116.0,
-        "end": 118.0,
-        "text": "Swipe that dream like your own the phone",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 118.0,
-        "end": 120.0,
-        "text": "By now pay later with the sweet",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 120.0,
-        "end": 122.0,
-        "text": "To the interest crawl like iron feet",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 122.0,
-        "end": 124.0,
-        "text": "Luxury life and a barrel line to the bill",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 124.0,
-        "end": 126.0,
-        "text": "Come back with a sharp spot",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 126.0,
-        "end": 128.0,
-        "text": "Design a logo, dope a mint hit",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 128.0,
-        "end": 130.0,
-        "text": "Put the chain on the ankle, quietly fit",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 130.0,
-        "end": 132.0,
-        "text": "It's the stickin' like prison bars",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 132.0,
-        "end": 134.0,
-        "text": "Every payment, push the freedom fog",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 134.0,
-        "end": 136.0,
-        "text": "Go to case with a satiric key",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 136.0,
-        "end": 138.0,
-        "text": "Now you marry to a job you flee",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 138.0,
-        "end": 140.0,
-        "text": "How she'll hate in the car the shine",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 140.0,
-        "end": 141.0,
-        "text": "Working overtime for a bank's design",
-        "avg_logprob": -0.3754129617806249,
-        "no_speech_prob": 0.232666015625
-      },
-      {
-        "start": 141.0,
-        "end": 143.0,
-        "text": "Damn, damn, damn, damn",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 143.0,
-        "end": 145.0,
-        "text": "See the,, see the, dove it a chain",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 145.0,
-        "end": 147.0,
-        "text": "Walk the mile hide the pain",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 147.0,
-        "end": 149.0,
-        "text": "Almost there just to lick",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 149.0,
-        "end": 157.0,
-        "text": "Carrot on a stick",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 157.0,
-        "end": 159.0,
-        "text": "See the, see the thorn choose the trick",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 159.0,
-        "end": 161.0,
-        "text": "Every promise counterfeit almost there",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 161.0,
-        "end": 163.0,
-        "text": "Just to lick the carrot on a stick",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 163.0,
-        "end": 165.0,
-        "text": "capping down that crown tight",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 165.0,
-        "end": 167.0,
-        "text": "Diplomago for rustin' light",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 167.0,
-        "end": 169.0,
-        "text": "Futures are cleared as the promised line",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 169.0,
-        "end": 170.68,
-        "text": "Five years experience for entry time",
-        "avg_logprob": -0.4754602001947269,
-        "no_speech_prob": 0.0458984375
-      },
-      {
-        "start": 170.68,
-        "end": 173.04,
-        "text": "Higher up, every rung just vanish, being you touched",
-        "avg_logprob": -0.6556713040228244,
-        "no_speech_prob": 0.44384765625
-      },
-      {
-        "start": 173.04,
-        "end": 174.8,
-        "text": "Promotion, talk like a ghostly chair",
-        "avg_logprob": -0.6556713040228244,
-        "no_speech_prob": 0.44384765625
-      },
-      {
-        "start": 174.8,
-        "end": 176.4,
-        "text": "Everybody chasing, nobody less",
-        "avg_logprob": -0.6556713040228244,
-        "no_speech_prob": 0.44384765625
-      },
-      {
-        "start": 176.4,
-        "end": 178.64,
-        "text": "So in Typhoon, moving wild, climbing flaws",
-        "avg_logprob": -0.6556713040228244,
-        "no_speech_prob": 0.44384765625
-      },
-      {
-        "start": 178.64,
-        "end": 180.24,
-        "text": "In the shrinking hall, blind sealing rise",
-        "avg_logprob": -0.6556713040228244,
-        "no_speech_prob": 0.44384765625
-      },
-      {
-        "start": 180.24,
-        "end": 181.44,
-        "text": "And there'll be time you're near",
-        "avg_logprob": -0.6556713040228244,
-        "no_speech_prob": 0.44384765625
-      },
-      {
-        "start": 181.44,
-        "end": 183.44,
-        "text": "Cup Brit have never appeared",
-        "avg_logprob": -0.6556713040228244,
-        "no_speech_prob": 0.44384765625
-      },
-      {
-        "start": 194.12,
-        "end": 195.92,
-        "text": "If in a scroll got a velvet brick, reference",
-        "avg_logprob": -0.6556713040228244,
-        "no_speech_prob": 0.44384765625
-      },
-      {
-        "start": 195.92,
-        "end": 197.92,
-        "text": "But in like a slot machine, flip, pull at level",
-        "avg_logprob": -0.6556713040228244,
-        "no_speech_prob": 0.44384765625
-      },
-      {
-        "start": 197.92,
-        "end": 198.92,
-        "text": "Maybe that's one hit",
-        "avg_logprob": -0.6556713040228244,
-        "no_speech_prob": 0.44384765625
-      },
-      {
-        "start": 198.92,
-        "end": 202.2,
-        "text": "Super success in a chocolate, and I was locked in a double mean loop",
-        "avg_logprob": -0.5309917315963871,
-        "no_speech_prob": 0.325439453125
-      },
-      {
-        "start": 202.2,
-        "end": 205.04,
-        "text": "Every second monetized by the group, not a feeder to feed and pan",
-        "avg_logprob": -0.5309917315963871,
-        "no_speech_prob": 0.325439453125
-      },
-      {
-        "start": 205.04,
-        "end": 207.52,
-        "text": "And you're just livestock scrolling again",
-        "avg_logprob": -0.5309917315963871,
-        "no_speech_prob": 0.325439453125
-      },
-      {
-        "start": 209.72,
-        "end": 213.04,
-        "text": "See the glow, feed the chain, walk the mile, hide the pain",
-        "avg_logprob": -0.5309917315963871,
-        "no_speech_prob": 0.325439453125
-      },
-      {
-        "start": 213.04,
-        "end": 214.76,
-        "text": "Almost dead, just a lick",
-        "avg_logprob": -0.5309917315963871,
-        "no_speech_prob": 0.325439453125
-      },
-      {
-        "start": 214.76,
-        "end": 216.2,
-        "text": "I carry on a stick",
-        "avg_logprob": -0.5309917315963871,
-        "no_speech_prob": 0.325439453125
-      },
-      {
-        "start": 216.2,
-        "end": 217.88,
-        "text": "See the dome, she's the trick",
-        "avg_logprob": -0.5309917315963871,
-        "no_speech_prob": 0.325439453125
-      },
-      {
-        "start": 217.88,
-        "end": 221.04,
-        "text": "Every promise, count the flit, almost dead, just a lick",
-        "avg_logprob": -0.5309917315963871,
-        "no_speech_prob": 0.325439453125
-      },
-      {
-        "start": 221.04,
-        "end": 222.68,
-        "text": "I carry on a stick",
-        "avg_logprob": -0.5309917315963871,
-        "no_speech_prob": 0.325439453125
-      },
-      {
-        "start": 222.68,
-        "end": 226.44,
-        "text": "It alarm still ringing, scrolls still spinning",
-        "avg_logprob": -0.5309917315963871,
-        "no_speech_prob": 0.325439453125
-      },
-      {
-        "start": 226.48,
-        "end": 229.68,
-        "text": "Another hustle morning, still chasing dead",
-        "avg_logprob": -0.7873883779559817,
-        "no_speech_prob": 0.05841064453125
-      },
-      {
-        "start": 231.92,
-        "end": 232.92,
-        "text": "Carry on a stick",
-        "avg_logprob": -0.7873883779559817,
-        "no_speech_prob": 0.05841064453125
-      },
-      {
-        "start": 235.12,
-        "end": 236.52,
-        "text": "Carry on a stick",
-        "avg_logprob": -0.7873883779559817,
-        "no_speech_prob": 0.05841064453125
-      },
-      {
-        "start": 237.6,
-        "end": 239.12,
-        "text": "Carry on a stick",
-        "avg_logprob": -0.7873883779559817,
-        "no_speech_prob": 0.05841064453125
-      }
-    ],
-    "avg_logprob": -0.4306795900951239
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 742,
-    "transcript_word_count": 681,
-    "matched_sequence_words": 427,
-    "lyric_alignment_ratio": 0.575,
-    "transcript_precision_ratio": 0.627,
-    "unique_expected_word_coverage": 0.588,
-    "word_count_ratio": 0.918,
-    "repeated_12gram_ratio": 0.061,
-    "half_similarity": 0.241,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.583,
-    "quality_score_0_10": 5.83,
-    "flags": [],
-    "transcript_excerpt": "T, T, T, T, clock don't see T, T, T, T, T, T, T, clock don't see Rising ground, right? Yeah, look, see the goal fit of chain Watch the mile hide the pain almost there Just to lick the carrot on a stick See the thorn change the trick Every promise counterfeit almost there Just to lick the carrot on a stick At long blocks coming like a battery horn Cold black coffee in the day like gone Tag rise, hashtag rise, hashtag bleed Boss got richer every hour you exceed Twenty upper ship for the binad dream But the penthouse you ain't met for your team You just numbers in a scratchy row Out of y'all got \n...[truncated]...\nrence But in like a slot machine, flip, pull at level Maybe that's one hit Super success in a chocolate, and I was locked in a double mean loop Every second monetized by the group, not a feeder to feed and pan And you're just livestock scrolling again See the glow, feed the chain, walk the mile, hide the pain Almost dead, just a lick I carry on a stick See the dome, she's the trick Every promise, count the flit, almost dead, just a lick I carry on a stick It alarm still ringing, scrolls still spinning Another hustle morning, still chasing dead Carry on a stick Carry on a stick Carry on a stick"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.61,
-      "MI_motivic_integration": 8.01,
-      "BP_beauty_spatial_poise": 8.99,
-      "EG_evolving_grammar": 4.42,
-      "CD_carry_depth": 7.17
+      "SC_structural_coherence": 9.5,
+      "MI_motivic_integration": 8.62,
+      "BP_beauty_spatial_poise": 9.17,
+      "EG_evolving_grammar": 4.72,
+      "CD_carry_depth": 8.09
     },
     "core_metrics": {
-      "CDPD": 0.84,
-      "NGE": 0.396,
+      "CDPD": 0.899,
+      "NGE": 0.412,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural integrity and consistent production."
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": 0.0,
-        "reason": "The track has 7 audio sections over 3:59.32 with a section-balance score of 0.65, and the section map aligns with the framework's expected structure (Intro, Verse, Hook, etc.). The transitions feel designed, not DAW-copy-paste."
+        "delta": -0.5,
+        "reason": "Strong verse/hook ecosystem with clear transitions."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "The hook’s melodic and rhythmic cells recur across verses and ad-libs, with subtle transformations (pitch, rhythm, texture). Cross-domain recursion is evident, e.g., hook rhythm in verse cadences."
+        "reason": "Flow cells and hook fragments are well-integrated."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The sonic habitat is consistently spacious and immersive, with reverb/delay laws that vary by section. The mix is clear, and subtle textures (room tone, vinyl crackle) feel intentional."
+        "reason": "Atmospheric production is consistent."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The beat and harmonic bed remain static, with no meaningful evolution. The grammar is safe and standard, with no emergent method or personal system."
+        "reason": "Grammar remains stable despite complex delivery."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a recognisable emotional habitat (cynicism, oppression, exploitation). It invites re-listening and can be narrated as an emotional arc."
+        "reason": "Thematic consistency is maintained throughout."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:59.32 with section-balance score 0.65.",
-      "Tempo estimate is 143.6 BPM; declared tempo alignment contributes 0.86.",
-      "Integrated loudness is -18.0 LUFS, peak is -0.9 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F major with confidence 0.23.",
-      "Audio recurrence ratio is 0.040; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 294 beats and 76 downbeats; beat-grid stability is 0.94.",
-      "EG evidence: section contrast 0.73, cumulative evolution 0.27, transformed returns 0.00, grid deviation 0.90, rule changes 0.42.",
-      "Companion text has 13 lyric/production sections, 774 words, line repetition 0.28, rhyme-suffix reuse 0.58."
+      "The track features a highly coherent structure with distinct sections (Intro, Hook, Verse, Bridge) and clear transitions.",
+      "The 'Carrot on a Stick' motif provides a strong lyrical anchor that recurs effectively across the piece.",
+      "Production is polished, utilizing industrial textures and heavy 808s to create a cohesive atmosphere.",
+      "Vocal delivery is consistent in its aggressive, gritty style throughout all sections."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the audio; transcription quality is moderate, which may affect lyric alignment and motif recognition."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:59:10.7711253Z",
-    "eval_count": 908,
-    "eval_duration": 15027621900
+    "created_at": "2026-06-10T10:57:21.3618765Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7658470,
+      "base64_chars": 10211296,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 10563,
+    "prompt_eval_duration": 4464884000,
+    "eval_count": 518,
+    "eval_duration": 12723731000
   }
 }

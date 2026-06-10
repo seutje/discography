@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T21:51:48",
+  "generated_at": "2026-06-10T13:17:24",
   "audio": {
     "path": "Algorithmically Optimized Collection of Keywords/audio/04 - Dissonant Symmetry.mp3",
     "duration_seconds": 420.92,
@@ -2946,19 +2946,22 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.78,
-      "MI_motivic_integration": 5.93,
-      "BP_beauty_spatial_poise": 9.04,
-      "EG_evolving_grammar": 7.09,
-      "CD_carry_depth": 6.62
+      "SC_structural_coherence": 9.69,
+      "MI_motivic_integration": 7.35,
+      "BP_beauty_spatial_poise": 9.44,
+      "EG_evolving_grammar": 7.8,
+      "CD_carry_depth": 8.75
     },
     "core_metrics": {
-      "CDPD": 0.707,
-      "NGE": 0.706,
+      "CDPD": 0.845,
+      "NGE": 0.742,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -2971,13 +2974,13 @@
       "overall_score": 5.392
     },
     "transcription_penalties": {
-      "alignment_penalty": 2.028,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 2.028
+      "total_penalty": 0.0
     },
     "rung_estimate": {
-      "number": 10,
-      "label": "Technical Perfection, No Rupture",
+      "number": 13,
+      "label": "Inhabited Form",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
     "confidence_0_10": 7.7,
@@ -2991,471 +2994,131 @@
       "EG evidence: section contrast 2.59, cumulative evolution 1.11, transformed returns 10.00, grid deviation 2.91, rule changes 8.89.",
       "Companion text has 15 lyric/production sections, 519 words, line repetition 0.05, rhyme-suffix reuse 0.39.",
       "Production/vocal notes contain transformation cues (density-change, texture-change); intent score 2.45.",
-      "Transcription check: lyric alignment 0.38, unique-word coverage 0.40, word-count ratio 0.69, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 2.03, repeat 0.00).",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
   },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Two shadows split the sun Mirrors run, how to run In the fracture of the frame I hear your echo say my name Won't circle spin us into form Suppose I come and thunderstorm you speak in current science The storm gets on how your light is warm You pull the threads I try to hide Breathe the tide you wound up by Still every clash becomes a key Unlocking what will meant to be I was it's taking into union The friction for you knew come union And in the fall between our sides A quiet true material life Where paradise becomes a bridge And contradiction learns to live I found my kin inside your sweat The night that taught the dawn to stay Your pulses fire mine is clear Still we've been in equal sway Patterns break and rearrange K.R. Scultans, something changed I either riddle in your brain The kind that rescues me from death to Temperature don't separate strings Resonate as one unseen Twisting lines and sacred tension Opposition breeds ascension Let the contrast carves clean Sharpened by the in-between I was it's taking into union And in the fall between our sides A quiet true material life Where paradise becomes a bridge And contradiction learns to live I was it's taking into union And in the fall between our sides A quiet true material life Where paradise becomes a bridge And contradiction learns to live And in the fall between our sides A quiet true material life Where paradise becomes a bridge And contradiction learns to live Through discord we became a line A mirrored self I couldn't find One flame splitting to Two halves burning true I was it's taking into union And in the fall between our sides A quiet true material life Where paradise becomes a bridge And contradiction learns to live",
-    "segments": [
-      {
-        "start": 60.0,
-        "end": 88.0,
-        "text": "Two shadows split the sun Mirrors run, how to run",
-        "avg_logprob": -0.6835937686264515,
-        "no_speech_prob": 0.6669921875
-      },
-      {
-        "start": 88.0,
-        "end": 96.0,
-        "text": "In the fracture of the frame I hear your echo say my name",
-        "avg_logprob": -0.4465460440045909,
-        "no_speech_prob": 0.414306640625
-      },
-      {
-        "start": 96.0,
-        "end": 101.0,
-        "text": "Won't circle spin us into form",
-        "avg_logprob": -0.4465460440045909,
-        "no_speech_prob": 0.414306640625
-      },
-      {
-        "start": 101.0,
-        "end": 108.0,
-        "text": "Suppose I come and thunderstorm you speak in current science",
-        "avg_logprob": -0.4465460440045909,
-        "no_speech_prob": 0.414306640625
-      },
-      {
-        "start": 108.0,
-        "end": 122.0,
-        "text": "The storm gets on how your light is warm",
-        "avg_logprob": -0.49648438990116117,
-        "no_speech_prob": 0.342529296875
-      },
-      {
-        "start": 122.0,
-        "end": 126.0,
-        "text": "You pull the threads I try to hide",
-        "avg_logprob": -0.49648438990116117,
-        "no_speech_prob": 0.342529296875
-      },
-      {
-        "start": 126.0,
-        "end": 130.0,
-        "text": "Breathe the tide you wound up by",
-        "avg_logprob": -0.49648438990116117,
-        "no_speech_prob": 0.342529296875
-      },
-      {
-        "start": 130.0,
-        "end": 133.0,
-        "text": "Still every clash becomes a key",
-        "avg_logprob": -0.49648438990116117,
-        "no_speech_prob": 0.342529296875
-      },
-      {
-        "start": 133.0,
-        "end": 138.0,
-        "text": "Unlocking what will meant to be",
-        "avg_logprob": -0.5567255421825077,
-        "no_speech_prob": 0.281005859375
-      },
-      {
-        "start": 138.0,
-        "end": 146.0,
-        "text": "I was it's taking into union",
-        "avg_logprob": -0.5567255421825077,
-        "no_speech_prob": 0.281005859375
-      },
-      {
-        "start": 146.0,
-        "end": 152.0,
-        "text": "The friction for you knew come union",
-        "avg_logprob": -0.5567255421825077,
-        "no_speech_prob": 0.281005859375
-      },
-      {
-        "start": 152.0,
-        "end": 156.0,
-        "text": "And in the fall between our sides",
-        "avg_logprob": -0.5567255421825077,
-        "no_speech_prob": 0.281005859375
-      },
-      {
-        "start": 156.0,
-        "end": 160.0,
-        "text": "A quiet true material life",
-        "avg_logprob": -0.5567255421825077,
-        "no_speech_prob": 0.281005859375
-      },
-      {
-        "start": 160.0,
-        "end": 165.0,
-        "text": "Where paradise becomes a bridge",
-        "avg_logprob": -0.4071691053755143,
-        "no_speech_prob": 0.03497314453125
-      },
-      {
-        "start": 165.0,
-        "end": 169.0,
-        "text": "And contradiction learns to live",
-        "avg_logprob": -0.4071691053755143,
-        "no_speech_prob": 0.03497314453125
-      },
-      {
-        "start": 169.0,
-        "end": 173.0,
-        "text": "I found my kin inside your sweat",
-        "avg_logprob": -0.4071691053755143,
-        "no_speech_prob": 0.03497314453125
-      },
-      {
-        "start": 173.0,
-        "end": 176.0,
-        "text": "The night that taught the dawn to stay",
-        "avg_logprob": -0.4071691053755143,
-        "no_speech_prob": 0.03497314453125
-      },
-      {
-        "start": 191.0,
-        "end": 195.0,
-        "text": "Your pulses fire mine is clear",
-        "avg_logprob": -0.3838541736205419,
-        "no_speech_prob": 0.2457275390625
-      },
-      {
-        "start": 195.0,
-        "end": 199.0,
-        "text": "Still we've been in equal sway",
-        "avg_logprob": -0.3838541736205419,
-        "no_speech_prob": 0.2457275390625
-      },
-      {
-        "start": 199.0,
-        "end": 202.0,
-        "text": "Patterns break and rearrange",
-        "avg_logprob": -0.3838541736205419,
-        "no_speech_prob": 0.2457275390625
-      },
-      {
-        "start": 202.0,
-        "end": 207.0,
-        "text": "K.R. Scultans, something changed",
-        "avg_logprob": -0.3838541736205419,
-        "no_speech_prob": 0.2457275390625
-      },
-      {
-        "start": 207.0,
-        "end": 212.0,
-        "text": "I either riddle in your brain",
-        "avg_logprob": -0.3838541736205419,
-        "no_speech_prob": 0.2457275390625
-      },
-      {
-        "start": 212.0,
-        "end": 216.0,
-        "text": "The kind that rescues me from death to",
-        "avg_logprob": -0.3838541736205419,
-        "no_speech_prob": 0.2457275390625
-      },
-      {
-        "start": 216.0,
-        "end": 219.0,
-        "text": "Temperature don't separate strings",
-        "avg_logprob": -0.28953598484848486,
-        "no_speech_prob": 0.083251953125
-      },
-      {
-        "start": 219.0,
-        "end": 224.0,
-        "text": "Resonate as one unseen",
-        "avg_logprob": -0.28953598484848486,
-        "no_speech_prob": 0.083251953125
-      },
-      {
-        "start": 224.0,
-        "end": 232.0,
-        "text": "Twisting lines and sacred tension",
-        "avg_logprob": -0.28953598484848486,
-        "no_speech_prob": 0.083251953125
-      },
-      {
-        "start": 232.0,
-        "end": 240.0,
-        "text": "Opposition breeds ascension",
-        "avg_logprob": -0.28953598484848486,
-        "no_speech_prob": 0.083251953125
-      },
-      {
-        "start": 240.0,
-        "end": 248.0,
-        "text": "Let the contrast carves clean",
-        "avg_logprob": -0.4192708250549104,
-        "no_speech_prob": 0.301025390625
-      },
-      {
-        "start": 248.0,
-        "end": 254.0,
-        "text": "Sharpened by the in-between",
-        "avg_logprob": -0.4192708250549104,
-        "no_speech_prob": 0.301025390625
-      },
-      {
-        "start": 270.0,
-        "end": 275.0,
-        "text": "I was it's taking into union",
-        "avg_logprob": -0.5240091463414634,
-        "no_speech_prob": 0.87939453125
-      },
-      {
-        "start": 275.0,
-        "end": 280.0,
-        "text": "And in the fall between our sides",
-        "avg_logprob": -0.5240091463414634,
-        "no_speech_prob": 0.87939453125
-      },
-      {
-        "start": 280.0,
-        "end": 285.0,
-        "text": "A quiet true material life",
-        "avg_logprob": -0.5240091463414634,
-        "no_speech_prob": 0.87939453125
-      },
-      {
-        "start": 285.0,
-        "end": 290.0,
-        "text": "Where paradise becomes a bridge",
-        "avg_logprob": -0.5240091463414634,
-        "no_speech_prob": 0.87939453125
-      },
-      {
-        "start": 290.0,
-        "end": 295.0,
-        "text": "And contradiction learns to live",
-        "avg_logprob": -0.5240091463414634,
-        "no_speech_prob": 0.87939453125
-      },
-      {
-        "start": 295.0,
-        "end": 300.0,
-        "text": "I was it's taking into union",
-        "avg_logprob": -0.1756859697946688,
-        "no_speech_prob": 0.7861328125
-      },
-      {
-        "start": 300.0,
-        "end": 305.0,
-        "text": "And in the fall between our sides",
-        "avg_logprob": -0.1756859697946688,
-        "no_speech_prob": 0.7861328125
-      },
-      {
-        "start": 305.0,
-        "end": 310.0,
-        "text": "A quiet true material life",
-        "avg_logprob": -0.1756859697946688,
-        "no_speech_prob": 0.7861328125
-      },
-      {
-        "start": 310.0,
-        "end": 315.0,
-        "text": "Where paradise becomes a bridge",
-        "avg_logprob": -0.1756859697946688,
-        "no_speech_prob": 0.7861328125
-      },
-      {
-        "start": 315.0,
-        "end": 320.0,
-        "text": "And contradiction learns to live",
-        "avg_logprob": -0.1756859697946688,
-        "no_speech_prob": 0.7861328125
-      },
-      {
-        "start": 320.0,
-        "end": 344.0,
-        "text": "And in the fall between our sides",
-        "avg_logprob": -0.2083333349890179,
-        "no_speech_prob": 0.0732421875
-      },
-      {
-        "start": 344.0,
-        "end": 348.0,
-        "text": "A quiet true material life",
-        "avg_logprob": -0.2083333349890179,
-        "no_speech_prob": 0.0732421875
-      },
-      {
-        "start": 348.0,
-        "end": 353.0,
-        "text": "Where paradise becomes a bridge",
-        "avg_logprob": -0.278125011920929,
-        "no_speech_prob": 0.049041748046875
-      },
-      {
-        "start": 353.0,
-        "end": 356.0,
-        "text": "And contradiction learns to live",
-        "avg_logprob": -0.278125011920929,
-        "no_speech_prob": 0.049041748046875
-      },
-      {
-        "start": 356.0,
-        "end": 360.0,
-        "text": "Through discord we became a line",
-        "avg_logprob": -0.278125011920929,
-        "no_speech_prob": 0.049041748046875
-      },
-      {
-        "start": 360.0,
-        "end": 365.0,
-        "text": "A mirrored self I couldn't find",
-        "avg_logprob": -0.278125011920929,
-        "no_speech_prob": 0.049041748046875
-      },
-      {
-        "start": 365.0,
-        "end": 377.0,
-        "text": "One flame splitting to",
-        "avg_logprob": -0.46454325089087856,
-        "no_speech_prob": 0.3466796875
-      },
-      {
-        "start": 377.0,
-        "end": 384.0,
-        "text": "Two halves burning true",
-        "avg_logprob": -0.46454325089087856,
-        "no_speech_prob": 0.3466796875
-      },
-      {
-        "start": 395.0,
-        "end": 400.0,
-        "text": "I was it's taking into union",
-        "avg_logprob": -0.23984374478459358,
-        "no_speech_prob": 0.767578125
-      },
-      {
-        "start": 400.0,
-        "end": 405.0,
-        "text": "And in the fall between our sides",
-        "avg_logprob": -0.23984374478459358,
-        "no_speech_prob": 0.767578125
-      },
-      {
-        "start": 405.0,
-        "end": 410.0,
-        "text": "A quiet true material life",
-        "avg_logprob": -0.23984374478459358,
-        "no_speech_prob": 0.767578125
-      },
-      {
-        "start": 410.0,
-        "end": 415.0,
-        "text": "Where paradise becomes a bridge",
-        "avg_logprob": -0.23984374478459358,
-        "no_speech_prob": 0.767578125
-      },
-      {
-        "start": 415.0,
-        "end": 420.0,
-        "text": "And contradiction learns to live",
-        "avg_logprob": -0.23984374478459358,
-        "no_speech_prob": 0.767578125
-      }
-    ],
-    "avg_logprob": -0.4003811725598631
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "review",
-    "expected_word_count": 450,
-    "transcript_word_count": 312,
-    "matched_sequence_words": 172,
-    "lyric_alignment_ratio": 0.382,
-    "transcript_precision_ratio": 0.551,
-    "unique_expected_word_coverage": 0.397,
-    "word_count_ratio": 0.693,
-    "repeated_12gram_ratio": 0.193,
-    "half_similarity": 0.288,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.402,
-    "quality_score_0_10": 4.02,
-    "flags": [
-      "low_lyric_alignment"
-    ],
-    "transcript_excerpt": "Two shadows split the sun Mirrors run, how to run In the fracture of the frame I hear your echo say my name Won't circle spin us into form Suppose I come and thunderstorm you speak in current science The storm gets on how your light is warm You pull the threads I try to hide Breathe the tide you wound up by Still every clash becomes a key Unlocking what will meant to be I was it's taking into union The friction for you knew come union And in the fall between our sides A quiet true material life Where paradise becomes a bridge And contradiction learns to live I found my kin inside your sweat Th\n...[truncated]...\nse becomes a bridge And contradiction learns to live I was it's taking into union And in the fall between our sides A quiet true material life Where paradise becomes a bridge And contradiction learns to live And in the fall between our sides A quiet true material life Where paradise becomes a bridge And contradiction learns to live Through discord we became a line A mirrored self I couldn't find One flame splitting to Two halves burning true I was it's taking into union And in the fall between our sides A quiet true material life Where paradise becomes a bridge And contradiction learns to live"
-  },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.78,
-      "MI_motivic_integration": 5.93,
-      "BP_beauty_spatial_poise": 9.04,
-      "EG_evolving_grammar": 7.09,
-      "CD_carry_depth": 6.62
+      "SC_structural_coherence": 9.69,
+      "MI_motivic_integration": 7.35,
+      "BP_beauty_spatial_poise": 9.44,
+      "EG_evolving_grammar": 7.8,
+      "CD_carry_depth": 8.75
     },
     "core_metrics": {
-      "CDPD": 0.707,
-      "NGE": 0.706,
+      "CDPD": 0.845,
+      "NGE": 0.742,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
-      "number": 10,
-      "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "number": 13,
+      "label": "Inhabited Form",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar"
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The piece is divided into 10 distinct sections with balanced durations and clear transitions, supporting strong structural coherence."
+        "reason": "section contrast score"
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motivic integration is supported by the recurrence ratio (0.473) and the repeated use of harmonic and timbral motifs across sections, though not fully developed."
+        "reason": "cumulative evolution score"
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The piece maintains a consistent spatial poise with a balanced mix of dynamics and textures, though the dissonant elements may slightly reduce perceived beauty."
+        "reason": "transformed return score"
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar is evident through the rule changes and transformed returns, though the evidence suggests it remains within established frameworks."
+        "reason": "controlled grid deviation score"
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The lyrical and thematic depth, along with the emotional resonance, supports a moderate carry depth, though it may not reach the highest levels of emotional transport."
+        "reason": "rule change score"
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 7:00.92 with section-balance score 0.20.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -16.9 LUFS, peak is 0.4 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D#/Eb major with confidence 0.32.",
-      "Audio recurrence ratio is 0.473; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 977 beats and 313 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 2.59, cumulative evolution 1.11, transformed returns 10.00, grid deviation 2.91, rule changes 8.89.",
-      "Companion text has 15 lyric/production sections, 519 words, line repetition 0.05, rhyme-suffix reuse 0.39."
+      "The track features high structural coherence (SC) and strong motivic integration (MI), suggesting a well-defined form. The transition between sections is clear, and the melodic/harmonic progression feels intentional.",
+      "The use of layered textures and evolving grammar provides significant depth (EG).",
+      "The spatial poise (BP) is high, indicating a balanced and pleasing arrangement of elements."
     ],
     "review_flags": [
-      "Uncertainty about the true depth of motivic integration due to limited motif recognition",
-      "Clipping risk may have affected spatial-poise and craft scores",
-      "Transcription quality issues may have impacted lyrical carry depth"
+      "audio_only"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T19:51:48.484342Z",
-    "eval_count": 884,
-    "eval_duration": 15146023200
+    "created_at": "2026-06-10T11:17:24.2375666Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 11520232,
+      "base64_chars": 15360312,
+      "max_seconds": 360.0
+    },
+    "audio_attachment_attempts": [
+      {
+        "sample_rate": 16000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 13469672,
+          "base64_chars": 17959564,
+          "max_seconds": null
+        },
+        "error": "HTTP Error 400: Bad Request: {\"error\":\"{\\\"error\\\":{\\\"code\\\":400,\\\"message\\\":\\\"request (16898 tokens) exceeds the available context size (16384 tokens), try increasing it\\\",\\\"type\\\":\\\"exceed_context_size_error\\\",\\\"n_prompt_tokens\\\":16898,\\\"n_ctx\\\":16384}}\"}"
+      },
+      {
+        "sample_rate": 12000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 12000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 10102312,
+          "base64_chars": 13469752,
+          "max_seconds": null
+        },
+        "error": "HTTP Error 400: Bad Request: {\"error\":\"{\\\"error\\\":{\\\"code\\\":400,\\\"message\\\":\\\"request (16898 tokens) exceeds the available context size (16384 tokens), try increasing it\\\",\\\"type\\\":\\\"exceed_context_size_error\\\",\\\"n_prompt_tokens\\\":16898,\\\"n_ctx\\\":16384}}\"}"
+      },
+      {
+        "sample_rate": 8000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 8000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 6734952,
+          "base64_chars": 8979936,
+          "max_seconds": null
+        },
+        "error": "HTTP Error 400: Bad Request: {\"error\":\"{\\\"error\\\":{\\\"code\\\":400,\\\"message\\\":\\\"request (16898 tokens) exceeds the available context size (16384 tokens), try increasing it\\\",\\\"type\\\":\\\"exceed_context_size_error\\\",\\\"n_prompt_tokens\\\":16898,\\\"n_ctx\\\":16384}}\"}"
+      },
+      {
+        "sample_rate": 16000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 11520232,
+          "base64_chars": 15360312,
+          "max_seconds": 360.0
+        },
+        "prompt_eval_count": 15375,
+        "eval_count": 413,
+        "error": null
+      }
+    ],
+    "prompt_eval_count": 15375,
+    "prompt_eval_duration": 6560930000,
+    "eval_count": 413,
+    "eval_duration": 10819567000
   }
 }

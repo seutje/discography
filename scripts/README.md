@@ -61,9 +61,19 @@ python scripts/analyze_collection.py "stderr" \
   --ollama-model qwen3:8b
 ```
 
-The LLM does not analyze raw audio. It receives the measured features, lyrics/production notes, framework excerpt, and Python base scoring, then returns bounded score adjustments plus rationale. Axis changes are limited to `--llm-max-axis-delta` from the Python score by default.
+By default, the LLM does not analyze raw audio. It receives the measured features, lyrics/production notes, framework excerpt, and Python base scoring, then returns bounded score adjustments plus rationale. Axis changes are limited to `--llm-max-axis-delta` from the Python score by default.
 
 When a compact rubric exists at `analyzer/summaries/<framework-stem>.summary.txt`, the LLM adjustment uses that summary instead of a truncated slice of the full framework file. The full framework remains the canonical human document and is still recorded in the report; the report also records the LLM prompt source and character count.
+
+For multimodal Ollama models that accept the audio-as-image path, attach a 16 kHz mono WAV payload through the `images` field:
+
+```bash
+python scripts/analyze_track.py "Closed Doors/audio/11 - Residual Instability.mp3" \
+  --ollama-model gemma4:12b \
+  --ollama-audio-image
+```
+
+Audio-attached runs automatically retry long or near-context tracks at 12 kHz and then 8 kHz if 16 kHz exceeds the context window or leaves too little response room.
 
 ## Transcription Quality Gate
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:22:10",
+  "generated_at": "2026-06-10T12:25:14",
   "audio": {
     "path": "Net Worthless/audio/04 - Rabbit-hole Romance.mp3",
     "duration_seconds": 340.24,
@@ -1672,7 +1672,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1716,662 +1719,75 @@
       "beat_this detected 462 beats and 129 downbeats; beat-grid stability is 0.84.",
       "EG evidence: section contrast 1.07, cumulative evolution 0.30, transformed returns 10.00, grid deviation 1.67, rule changes 1.94.",
       "Companion text has 13 lyric/production sections, 865 words, line repetition 0.09, rhyme-suffix reuse 0.42.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00.",
-      "Transcription check: lyric alignment 0.85, unique-word coverage 0.86, word-count ratio 0.99, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "For my next trick, I will attempt to become lovable, while following the instructions I was not given. Please watch closely, apparently, that helps. I arrived with flowers, but not too many flowers, because too many flowers says future shed. I arrived with questions, but not interview questions, because nothing kills romance, like a man with follow ups and a moral spreadsheet. I said, you look lovely, then panicked, because lovely felt old-fashioned, so I added in a very current way, which helped no one. I remembered I contacted, not too much, I contacted, and forgot where I was going. They are off duty, I laughed at the joke, correct volume, acceptable duration, no visible subtitles, honestly. There should have been applause, I had the cards, I had the dove, I had the line. I had the cue, I just never had the trick explained to me. Rabbit hole romance, watch me disappear. You said the night was magic, and left me standing here. No trap door, no reveal, no little note to say, what real just a hat on the table and the shape of where you were, rabbit hole romance. I still don't know the term, which is fine. I've only checked, 17 possible reasons this morning. Dating apps or talent shows for people with lighting. Everyone says just be yourself, then immediately adds filters, be honest. But breezy, be keen, but hydrated, be available, but not like a shop, be funny. But don't make the wound do all the catering, so I built a profile like a tiny museum of acceptable strangeness. One joke, one dog adjacent photo, one sentence imply in depth without causing paperwork. I wrote, I like knowing exactly what time we are leaving, deleted it. Too honest, I wrote, ask me about my special interest. Then imagine the stranger's thumb hovering above my entire personality like a judge with excellent nails. Tick the box for stable, tick the box for charming, tick the box for not too much and pass the morning, mask it with the green packet and let's hit say the right thing with the wrong face again. Every smart compassion needs a risk assessment. Love is apparently a group presentation. Rabbit hole romance, watch me disappear. You said the night was magic, then you left me standing here. No trap door, no reveal, no little note to say what's real, just a hat on the table and the shape of where you were. Rabbit hole romance, I still don't know the term. And the worst part is, I could take rejection, probably with water and a chair and three to five working days. What breaks me is the vanishing, the little puff of smoke where a reason should be, because the night become detective, suspecturably jammed your anger, rabbit, was it the joke about the trains? Was I too eager to careful, to exact, too soft, too much? Somewhere between the first drink, and let's do this again. There must be a small mechanical click where I stop being possible. I've been the third body, a table's built for two drifting through perfectly the orbits with my coats still on. I've been in second best weather, the useful kind of rain outside. No one else is summer, I've been the almost and nearly. The man people crossed with their own living room, this but my first Sunday morning. And still, I keep bringing a lantern, a grave little aviator playing with you. It's because beneath the edited message that rehearsed. Hello, the handheld still. So he doesn't flat his biography across the table. There is a person, not the puzzle box, not the train, not the lessons and patience with cheap bones. A person who wants to be chosen. Before he has to provide a glossary. Watch closely. This is the part where I stop, sewing myself in half to prove. I can fit inside the cabinet, a rabbit hole, no mess, I've made this a deal. But not ever missing and suggest to keep me living here. I know, no trap door, no reveal, no final proof to make it real. Just my hands on the table and the truth I didn't learn. Rabbit hole, romance, I still don't know the term. Rabbit hole, romance, maybe that's the thing. Some people leave the theater before the heart learns how to sing. No white love, no grand design, my perfect reason. I can find if they won't show the trick. Above call myself the error in the term. For my final trick, I will not text again. I will not write a twelve-part theory with citations. I will stand here, awkwardly, shown me. Rabbit in one hand, flowers in the other. And when the lights come up, I will bow. Without the apologizing for the magic, they walked out on.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 9.0,
-        "text": "For my next trick, I will attempt to become lovable, while following the instructions I was not given.",
-        "avg_logprob": -0.20572917222976683,
-        "no_speech_prob": 0.304931640625
-      },
-      {
-        "start": 9.0,
-        "end": 14.0,
-        "text": "Please watch closely, apparently, that helps.",
-        "avg_logprob": -0.20572917222976683,
-        "no_speech_prob": 0.304931640625
-      },
-      {
-        "start": 14.0,
-        "end": 20.0,
-        "text": "I arrived with flowers, but not too many flowers, because too many flowers says future shed.",
-        "avg_logprob": -0.20572917222976683,
-        "no_speech_prob": 0.304931640625
-      },
-      {
-        "start": 20.0,
-        "end": 25.0,
-        "text": "I arrived with questions, but not interview questions, because nothing kills romance,",
-        "avg_logprob": -0.20572917222976683,
-        "no_speech_prob": 0.304931640625
-      },
-      {
-        "start": 25.0,
-        "end": 28.0,
-        "text": "like a man with follow ups and a moral spreadsheet.",
-        "avg_logprob": -0.18071208442332315,
-        "no_speech_prob": 0.88427734375
-      },
-      {
-        "start": 28.0,
-        "end": 32.0,
-        "text": "I said, you look lovely, then panicked, because lovely felt old-fashioned,",
-        "avg_logprob": -0.18071208442332315,
-        "no_speech_prob": 0.88427734375
-      },
-      {
-        "start": 32.0,
-        "end": 36.0,
-        "text": "so I added in a very current way, which helped no one.",
-        "avg_logprob": -0.18071208442332315,
-        "no_speech_prob": 0.88427734375
-      },
-      {
-        "start": 36.0,
-        "end": 41.0,
-        "text": "I remembered I contacted, not too much, I contacted, and forgot where I was going.",
-        "avg_logprob": -0.18071208442332315,
-        "no_speech_prob": 0.88427734375
-      },
-      {
-        "start": 41.0,
-        "end": 46.0,
-        "text": "They are off duty, I laughed at the joke, correct volume, acceptable duration,",
-        "avg_logprob": -0.18071208442332315,
-        "no_speech_prob": 0.88427734375
-      },
-      {
-        "start": 46.0,
-        "end": 49.0,
-        "text": "no visible subtitles, honestly.",
-        "avg_logprob": -0.18071208442332315,
-        "no_speech_prob": 0.88427734375
-      },
-      {
-        "start": 49.0,
-        "end": 53.0,
-        "text": "There should have been applause, I had the cards, I had the dove, I had the line.",
-        "avg_logprob": -0.18071208442332315,
-        "no_speech_prob": 0.88427734375
-      },
-      {
-        "start": 53.0,
-        "end": 58.0,
-        "text": "I had the cue, I just never had the trick explained to me.",
-        "avg_logprob": -0.17779605263157894,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 58.0,
-        "end": 63.0,
-        "text": "Rabbit hole romance, watch me disappear.",
-        "avg_logprob": -0.17779605263157894,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 63.0,
-        "end": 69.0,
-        "text": "You said the night was magic, and left me standing here.",
-        "avg_logprob": -0.17779605263157894,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 69.0,
-        "end": 74.0,
-        "text": "No trap door, no reveal, no little note to say, what real just a hat on the table",
-        "avg_logprob": -0.17779605263157894,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 74.0,
-        "end": 77.0,
-        "text": "and the shape of where you were, rabbit hole romance.",
-        "avg_logprob": -0.17779605263157894,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 77.0,
-        "end": 80.0,
-        "text": "I still don't know the term, which is fine.",
-        "avg_logprob": -0.17779605263157894,
-        "no_speech_prob": 0.3896484375
-      },
-      {
-        "start": 80.0,
-        "end": 85.0,
-        "text": "I've only checked, 17 possible reasons this morning.",
-        "avg_logprob": -0.16887626322832974,
-        "no_speech_prob": 0.82861328125
-      },
-      {
-        "start": 85.0,
-        "end": 89.0,
-        "text": "Dating apps or talent shows for people with lighting.",
-        "avg_logprob": -0.16887626322832974,
-        "no_speech_prob": 0.82861328125
-      },
-      {
-        "start": 89.0,
-        "end": 94.0,
-        "text": "Everyone says just be yourself, then immediately adds filters, be honest.",
-        "avg_logprob": -0.16887626322832974,
-        "no_speech_prob": 0.82861328125
-      },
-      {
-        "start": 94.0,
-        "end": 99.0,
-        "text": "But breezy, be keen, but hydrated, be available, but not like a shop, be funny.",
-        "avg_logprob": -0.16887626322832974,
-        "no_speech_prob": 0.82861328125
-      },
-      {
-        "start": 99.0,
-        "end": 104.0,
-        "text": "But don't make the wound do all the catering, so I built a profile like a tiny museum",
-        "avg_logprob": -0.16887626322832974,
-        "no_speech_prob": 0.82861328125
-      },
-      {
-        "start": 104.0,
-        "end": 107.0,
-        "text": "of acceptable strangeness.",
-        "avg_logprob": -0.16887626322832974,
-        "no_speech_prob": 0.82861328125
-      },
-      {
-        "start": 107.0,
-        "end": 112.0,
-        "text": "One joke, one dog adjacent photo, one sentence imply in depth without causing paperwork.",
-        "avg_logprob": -0.1517059970266965,
-        "no_speech_prob": 0.66259765625
-      },
-      {
-        "start": 112.0,
-        "end": 117.0,
-        "text": "I wrote, I like knowing exactly what time we are leaving, deleted it.",
-        "avg_logprob": -0.1517059970266965,
-        "no_speech_prob": 0.66259765625
-      },
-      {
-        "start": 117.0,
-        "end": 121.0,
-        "text": "Too honest, I wrote, ask me about my special interest.",
-        "avg_logprob": -0.1517059970266965,
-        "no_speech_prob": 0.66259765625
-      },
-      {
-        "start": 121.0,
-        "end": 127.0,
-        "text": "Then imagine the stranger's thumb hovering above my entire personality",
-        "avg_logprob": -0.1517059970266965,
-        "no_speech_prob": 0.66259765625
-      },
-      {
-        "start": 127.0,
-        "end": 131.0,
-        "text": "like a judge with excellent nails.",
-        "avg_logprob": -0.1517059970266965,
-        "no_speech_prob": 0.66259765625
-      },
-      {
-        "start": 131.0,
-        "end": 136.0,
-        "text": "Tick the box for stable, tick the box for charming, tick the box for not too much",
-        "avg_logprob": -0.1517059970266965,
-        "no_speech_prob": 0.66259765625
-      },
-      {
-        "start": 136.0,
-        "end": 139.0,
-        "text": "and pass the morning, mask it with the green packet",
-        "avg_logprob": -0.2746710553765297,
-        "no_speech_prob": 0.42041015625
-      },
-      {
-        "start": 139.0,
-        "end": 143.0,
-        "text": "and let's hit say the right thing with the wrong face again.",
-        "avg_logprob": -0.2746710553765297,
-        "no_speech_prob": 0.42041015625
-      },
-      {
-        "start": 143.0,
-        "end": 146.0,
-        "text": "Every smart compassion needs a risk assessment.",
-        "avg_logprob": -0.2746710553765297,
-        "no_speech_prob": 0.42041015625
-      },
-      {
-        "start": 146.0,
-        "end": 150.0,
-        "text": "Love is apparently a group presentation.",
-        "avg_logprob": -0.2746710553765297,
-        "no_speech_prob": 0.42041015625
-      },
-      {
-        "start": 150.0,
-        "end": 155.0,
-        "text": "Rabbit hole romance, watch me disappear.",
-        "avg_logprob": -0.2746710553765297,
-        "no_speech_prob": 0.42041015625
-      },
-      {
-        "start": 155.0,
-        "end": 162.0,
-        "text": "You said the night was magic, then you left me standing here.",
-        "avg_logprob": -0.2746710553765297,
-        "no_speech_prob": 0.42041015625
-      },
-      {
-        "start": 162.0,
-        "end": 165.0,
-        "text": "No trap door, no reveal, no little note to say what's real,",
-        "avg_logprob": -0.22973632207140326,
-        "no_speech_prob": 0.50390625
-      },
-      {
-        "start": 165.0,
-        "end": 168.0,
-        "text": "just a hat on the table and the shape of where you were.",
-        "avg_logprob": -0.22973632207140326,
-        "no_speech_prob": 0.50390625
-      },
-      {
-        "start": 168.0,
-        "end": 172.0,
-        "text": "Rabbit hole romance, I still don't know the term.",
-        "avg_logprob": -0.22973632207140326,
-        "no_speech_prob": 0.50390625
-      },
-      {
-        "start": 172.0,
-        "end": 178.0,
-        "text": "And the worst part is, I could take rejection, probably with water and a chair",
-        "avg_logprob": -0.22973632207140326,
-        "no_speech_prob": 0.50390625
-      },
-      {
-        "start": 178.0,
-        "end": 180.0,
-        "text": "and three to five working days.",
-        "avg_logprob": -0.22973632207140326,
-        "no_speech_prob": 0.50390625
-      },
-      {
-        "start": 180.0,
-        "end": 184.0,
-        "text": "What breaks me is the vanishing, the little puff of smoke",
-        "avg_logprob": -0.22973632207140326,
-        "no_speech_prob": 0.50390625
-      },
-      {
-        "start": 184.0,
-        "end": 187.0,
-        "text": "where a reason should be, because the night become detective,",
-        "avg_logprob": -0.22973632207140326,
-        "no_speech_prob": 0.50390625
-      },
-      {
-        "start": 187.0,
-        "end": 191.0,
-        "text": "suspecturably jammed your anger, rabbit, was it the joke about the trains?",
-        "avg_logprob": -0.22973632207140326,
-        "no_speech_prob": 0.50390625
-      },
-      {
-        "start": 191.0,
-        "end": 197.0,
-        "text": "Was I too eager to careful, to exact, too soft, too much?",
-        "avg_logprob": -0.1517269680374547,
-        "no_speech_prob": 0.2451171875
-      },
-      {
-        "start": 197.0,
-        "end": 203.0,
-        "text": "Somewhere between the first drink, and let's do this again.",
-        "avg_logprob": -0.1517269680374547,
-        "no_speech_prob": 0.2451171875
-      },
-      {
-        "start": 203.0,
-        "end": 210.0,
-        "text": "There must be a small mechanical click where I stop being possible.",
-        "avg_logprob": -0.1517269680374547,
-        "no_speech_prob": 0.2451171875
-      },
-      {
-        "start": 210.0,
-        "end": 214.0,
-        "text": "I've been the third body, a table's built for two drifting through perfectly",
-        "avg_logprob": -0.1517269680374547,
-        "no_speech_prob": 0.2451171875
-      },
-      {
-        "start": 214.0,
-        "end": 216.0,
-        "text": "the orbits with my coats still on.",
-        "avg_logprob": -0.1517269680374547,
-        "no_speech_prob": 0.2451171875
-      },
-      {
-        "start": 216.0,
-        "end": 220.0,
-        "text": "I've been in second best weather, the useful kind of rain outside.",
-        "avg_logprob": -0.1517269680374547,
-        "no_speech_prob": 0.2451171875
-      },
-      {
-        "start": 220.0,
-        "end": 224.0,
-        "text": "No one else is summer, I've been the almost and nearly.",
-        "avg_logprob": -0.32556818344376304,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 224.0,
-        "end": 227.0,
-        "text": "The man people crossed with their own living room,",
-        "avg_logprob": -0.32556818344376304,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 227.0,
-        "end": 229.0,
-        "text": "this but my first Sunday morning.",
-        "avg_logprob": -0.32556818344376304,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 229.0,
-        "end": 235.0,
-        "text": "And still, I keep bringing a lantern, a grave little aviator playing with you.",
-        "avg_logprob": -0.32556818344376304,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 235.0,
-        "end": 239.0,
-        "text": "It's because beneath the edited message that rehearsed.",
-        "avg_logprob": -0.32556818344376304,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 239.0,
-        "end": 241.0,
-        "text": "Hello, the handheld still.",
-        "avg_logprob": -0.32556818344376304,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 241.0,
-        "end": 245.0,
-        "text": "So he doesn't flat his biography across the table.",
-        "avg_logprob": -0.32556818344376304,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 245.0,
-        "end": 248.0,
-        "text": "There is a person, not the puzzle box, not the train,",
-        "avg_logprob": -0.32556818344376304,
-        "no_speech_prob": 0.416015625
-      },
-      {
-        "start": 248.0,
-        "end": 251.0,
-        "text": "not the lessons and patience with cheap bones.",
-        "avg_logprob": -0.187386779681496,
-        "no_speech_prob": 0.1422119140625
-      },
-      {
-        "start": 251.0,
-        "end": 255.0,
-        "text": "A person who wants to be chosen.",
-        "avg_logprob": -0.187386779681496,
-        "no_speech_prob": 0.1422119140625
-      },
-      {
-        "start": 255.0,
-        "end": 261.0,
-        "text": "Before he has to provide a glossary.",
-        "avg_logprob": -0.187386779681496,
-        "no_speech_prob": 0.1422119140625
-      },
-      {
-        "start": 261.0,
-        "end": 263.0,
-        "text": "Watch closely.",
-        "avg_logprob": -0.187386779681496,
-        "no_speech_prob": 0.1422119140625
-      },
-      {
-        "start": 263.0,
-        "end": 268.0,
-        "text": "This is the part where I stop, sewing myself in half to prove.",
-        "avg_logprob": -0.187386779681496,
-        "no_speech_prob": 0.1422119140625
-      },
-      {
-        "start": 268.0,
-        "end": 273.0,
-        "text": "I can fit inside the cabinet, a rabbit hole,",
-        "avg_logprob": -0.187386779681496,
-        "no_speech_prob": 0.1422119140625
-      },
-      {
-        "start": 273.0,
-        "end": 276.0,
-        "text": "no mess, I've made this a deal.",
-        "avg_logprob": -0.23729556186176906,
-        "no_speech_prob": 0.5595703125
-      },
-      {
-        "start": 276.0,
-        "end": 282.0,
-        "text": "But not ever missing and suggest to keep me living here.",
-        "avg_logprob": -0.23729556186176906,
-        "no_speech_prob": 0.5595703125
-      },
-      {
-        "start": 282.0,
-        "end": 287.0,
-        "text": "I know, no trap door, no reveal, no final proof to make it real.",
-        "avg_logprob": -0.23729556186176906,
-        "no_speech_prob": 0.5595703125
-      },
-      {
-        "start": 287.0,
-        "end": 290.0,
-        "text": "Just my hands on the table and the truth I didn't learn.",
-        "avg_logprob": -0.23729556186176906,
-        "no_speech_prob": 0.5595703125
-      },
-      {
-        "start": 290.0,
-        "end": 294.0,
-        "text": "Rabbit hole, romance, I still don't know the term.",
-        "avg_logprob": -0.23729556186176906,
-        "no_speech_prob": 0.5595703125
-      },
-      {
-        "start": 294.0,
-        "end": 297.0,
-        "text": "Rabbit hole, romance, maybe that's the thing.",
-        "avg_logprob": -0.23729556186176906,
-        "no_speech_prob": 0.5595703125
-      },
-      {
-        "start": 297.0,
-        "end": 301.0,
-        "text": "Some people leave the theater before the heart learns how to sing.",
-        "avg_logprob": -0.23729556186176906,
-        "no_speech_prob": 0.5595703125
-      },
-      {
-        "start": 301.0,
-        "end": 304.0,
-        "text": "No white love, no grand design, my perfect reason.",
-        "avg_logprob": -0.20698924218454667,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 304.0,
-        "end": 308.0,
-        "text": "I can find if they won't show the trick.",
-        "avg_logprob": -0.20698924218454667,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 308.0,
-        "end": 312.0,
-        "text": "Above call myself the error in the term.",
-        "avg_logprob": -0.20698924218454667,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 312.0,
-        "end": 316.0,
-        "text": "For my final trick, I will not text again.",
-        "avg_logprob": -0.20698924218454667,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 316.0,
-        "end": 320.0,
-        "text": "I will not write a twelve-part theory with citations.",
-        "avg_logprob": -0.20698924218454667,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 320.0,
-        "end": 324.0,
-        "text": "I will stand here, awkwardly, shown me.",
-        "avg_logprob": -0.20698924218454667,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 324.0,
-        "end": 327.0,
-        "text": "Rabbit in one hand, flowers in the other.",
-        "avg_logprob": -0.20698924218454667,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 327.0,
-        "end": 331.0,
-        "text": "And when the lights come up, I will bow.",
-        "avg_logprob": -0.2746975710315089,
-        "no_speech_prob": 0.79931640625
-      },
-      {
-        "start": 331.0,
-        "end": 335.0,
-        "text": "Without the apologizing for the magic,",
-        "avg_logprob": -0.2746975710315089,
-        "no_speech_prob": 0.79931640625
-      },
-      {
-        "start": 335.0,
-        "end": 339.0,
-        "text": "they walked out on.",
-        "avg_logprob": -0.2746975710315089,
-        "no_speech_prob": 0.79931640625
-      }
-    ],
-    "avg_logprob": -0.21029387160561736
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 816,
-    "transcript_word_count": 812,
-    "matched_sequence_words": 692,
-    "lyric_alignment_ratio": 0.848,
-    "transcript_precision_ratio": 0.852,
-    "unique_expected_word_coverage": 0.86,
-    "word_count_ratio": 0.995,
-    "repeated_12gram_ratio": 0.02,
-    "half_similarity": 0.177,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.851,
-    "quality_score_0_10": 8.51,
-    "flags": [],
-    "transcript_excerpt": "For my next trick, I will attempt to become lovable, while following the instructions I was not given. Please watch closely, apparently, that helps. I arrived with flowers, but not too many flowers, because too many flowers says future shed. I arrived with questions, but not interview questions, because nothing kills romance, like a man with follow ups and a moral spreadsheet. I said, you look lovely, then panicked, because lovely felt old-fashioned, so I added in a very current way, which helped no one. I remembered I contacted, not too much, I contacted, and forgot where I was going. They ar\n...[truncated]...\nhe truth I didn't learn. Rabbit hole, romance, I still don't know the term. Rabbit hole, romance, maybe that's the thing. Some people leave the theater before the heart learns how to sing. No white love, no grand design, my perfect reason. I can find if they won't show the trick. Above call myself the error in the term. For my final trick, I will not text again. I will not write a twelve-part theory with citations. I will stand here, awkwardly, shown me. Rabbit in one hand, flowers in the other. And when the lights come up, I will bow. Without the apologizing for the magic, they walked out on."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
+      "SC_structural_coherence": 9.5,
       "MI_motivic_integration": 8.5,
-      "BP_beauty_spatial_poise": 9.18,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 9.04
+      "BP_beauty_spatial_poise": 9.4,
+      "EG_evolving_grammar": 7.1,
+      "CD_carry_depth": 9.3
     },
     "core_metrics": {
-      "CDPD": 0.981,
-      "NGE": 0.63,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.06,
+      "NGE": 0.58,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
-      "number": 13,
+      "number": 14,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "Strong narrative arc with distinct sections and clear thematic progression."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section-balance score 0.45 suggests uneven distribution, but the 13-section structure with clear functional roles (Intro, Verse, Hook, Bridge, Outro) and consistent transitions (drops, fills, hook entries) support a coherent arc. The 10.0 transformed_return_score and 3.185 EG evidence suggest a well-structured, intentional form."
+        "delta": -0.5,
+        "reason": "Clear distinction between spoken rap verses, melodic hooks, and a definitive outro."
       },
       "MI_motivic_integration": {
         "delta": -1.5,
-        "reason": "While the text features show a strong motif (‘Rabbit-hole romance’), the audio evidence (recurrence ratio 0.311, section contrast 1.073) suggests limited motif recurrence. The transformed_returns and rule_changes indicate some integration, but not the dense, multi-scale motif web expected for a higher MI score."
+        "reason": "While the flow is strong, some rapid-fire sections lack consistent rhythmic motif across the transition to hook."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.0,
-        "reason": "The production notes and audio features (spectral centroid, flatness, reverb/delay laws) suggest a consistent, intentional spatial design. The ‘lo-fi brushed drums, hand taps, warm upright bass’ and ‘raw close mix with room tone’ support a beautiful, coherent sonic habitat."
+        "delta": 0.22,
+        "reason": "The production creates a very intimate and intentional space for the performance."
       },
       "EG_evolving_grammar": {
-        "delta": 0.54,
-        "reason": "The evolving_grammar evidence (section contrast 1.073, cumulative evolution 0.303, rule changes 1.944) shows clear development of beat, harmonic, and flow grammar. The transformed_returns and production_transform score 4.0 suggest meaningful evolution across sections."
+        "delta": 0.14,
+        "reason": "Consistent use of internal rhyme and wordplay throughout spoken sections."
       },
       "CD_carry_depth": {
-        "delta": 0.0,
-        "reason": "The emotional arc from ‘witty, anxious, vulnerable’ to ‘quietly defiant’ is clearly defined. The lyrical and production details (‘card flicks, coin rolls, stage creaks’) and the final ‘bow without apologizing’ suggest a deep, memorable emotional habitat."
+        "delta": 0.26,
+        "reason": "Thematic weight builds effectively from the initial 'dating' premise to the final 'no more tricks'."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:40.24 with section-balance score 0.45.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.59.",
-      "Integrated loudness is -16.9 LUFS, peak is -0.3 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F major with confidence 0.41.",
-      "Audio recurrence ratio is 0.311; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 462 beats and 129 downbeats; beat-grid stability is 0.84.",
-      "EG evidence: section contrast 1.07, cumulative evolution 0.30, transformed returns 10.00, grid deviation 1.67, rule changes 1.94.",
-      "Companion text has 13 lyric/production sections, 865 words, line repetition 0.09, rhyme-suffix reuse 0.42."
+      "Strong narrative arc with clear distinction between spoken rap verses, melodic hooks, and a definitive outro.",
+      "Intimate production creates an intentional space for the performance.",
+      "Consistent use of internal rhyme and wordplay throughout spoken sections."
     ],
     "review_flags": [
-      "Uncertainty about motif recurrence; audio-only evidence is weak."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:22:10.1414839Z",
-    "eval_count": 987,
-    "eval_duration": 18303528000
+    "created_at": "2026-06-10T10:25:14.8147611Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10887912,
+      "base64_chars": 14517216,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14837,
+    "prompt_eval_duration": 6541816000,
+    "eval_count": 399,
+    "eval_duration": 9847325000
   }
 }

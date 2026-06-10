@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T23:00:55",
+  "generated_at": "2026-06-10T12:58:47",
   "audio": {
     "path": "stderr/audio/09 - Why You Maldin.mp3",
     "duration_seconds": 194.68,
@@ -1021,19 +1021,22 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.88,
-      "MI_motivic_integration": 6.89,
-      "BP_beauty_spatial_poise": 9.25,
-      "EG_evolving_grammar": 6.74,
-      "CD_carry_depth": 7.02
+      "SC_structural_coherence": 9.12,
+      "MI_motivic_integration": 7.26,
+      "BP_beauty_spatial_poise": 9.36,
+      "EG_evolving_grammar": 6.93,
+      "CD_carry_depth": 7.58
     },
     "core_metrics": {
-      "CDPD": 0.761,
-      "NGE": 0.605,
+      "CDPD": 0.797,
+      "NGE": 0.614,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -1046,9 +1049,9 @@
       "overall_score": 4.101
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.534,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.534
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 10,
@@ -1066,957 +1069,78 @@
       "EG evidence: section contrast 1.93, cumulative evolution 0.76, transformed returns 10.00, grid deviation 1.50, rule changes 5.00.",
       "Companion text has 9 lyric/production sections, 531 words, line repetition 0.14, rhyme-suffix reuse 0.37.",
       "Production/vocal notes contain transformation cues (density-change); intent score 1.55.",
-      "Transcription check: lyric alignment 0.63, unique-word coverage 0.65, word-count ratio 1.07, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.53, repeat 0.00).",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
   },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Yeah Yeah Yeah Yeah Yeah Yeah Yeah Don't want to run like Why everybody mad We living good right now Yeah Scrolls to the feet everybody Do them in the comments Rates on the feet A whole timeline Look like a storm in the jaw But step outside And it ain't that hard Crown way lower than deck is fast Curves coming quicker Let's move in fast Spawn point Never met a less than now We're all living up and out Hey, I did your kids That are cold in the night Knowledge a lot every skill on tech Whole world leveling up Like a man Being wild folks on lines You collapse Tapping in caps at the sky Just crack Coming to sunlight What you hold a fan? Why you mad when the grab go bang More light, more light More minds getting free A lot of doors got digital keys Future look right from where I'm standing So I keep asking what they demand Then why you mauled it? Yeah Why you so pressed? Yeah World keeps spinning And it's getting its best Why you mauled it? Yeah Why the despair? Yeah Look at the progress Floating in the air Yeah People can't cure Oh How can't clean? Kids learn anything off a tiny screen Hey I'm just vibing Feeling upset Happy as I've ever Been in this world So tell me again Why you mauled it? Why you mauled Dr. Prin and Morgan's in labs now? So long Roots are sliding Old town Bro, by doing word that was breaking our back She was got time just to breathe and relax Need my kids learning a week from your seat From as you said a life ten in a week Knowledge once locked in the ivory halls Now it's a click and it falls to a saw People online still scream It's doomed Let the planet bow to its flow by noon But I see kids wouldn't start us in class So folks spinning galaxies on glass If the rewild we survive the worst Was in pleasure to bury the earth Now we're curring things they fear for Years till everybody crying out at tears Every new break, do drop like a spark Letting upgrade in a digital door Future revolving faster than planned I'm just grinning like y'all don't understand Yeah Why you mauled it? Why you so stressed? Worky leveling Y'all has no space Yeah Why you mauled it? Why the despair? Opportunity floating everywhere Brains online Dreams go global Kids from nowhere building something no boy I'm just having Feeling upset Happy is out there Been in this world so tell me again Why you mauled it? Y'all Maybe rage is louder than hope Maybe calm, don't trend in the scope Maybe good news travel too slow While the panic algorithm glow But I'm out here breathing in the air Watching the future build everywhere Left on the timeline scream that we fall Cause I can see we rising through it all Yeah We're still turning brighter than before Every year opening one more door So if you see me smile upside Why the comments burning the blood Don't ask what I'm celebrating for Just ask it so Why you mauled it? Why you mauled it?",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 1.0,
-        "text": "Yeah",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 1.0,
-        "end": 2.0,
-        "text": "Yeah",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 2.0,
-        "end": 3.0,
-        "text": "Yeah",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 3.0,
-        "end": 4.0,
-        "text": "Yeah",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 4.0,
-        "end": 5.0,
-        "text": "Yeah",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 5.0,
-        "end": 6.0,
-        "text": "Yeah",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 6.0,
-        "end": 7.0,
-        "text": "Yeah",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 7.0,
-        "end": 9.0,
-        "text": "Don't want to run like",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 9.0,
-        "end": 11.0,
-        "text": "Why everybody mad",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 11.0,
-        "end": 13.0,
-        "text": "We living good right now",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 13.0,
-        "end": 14.0,
-        "text": "Yeah",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 14.0,
-        "end": 15.0,
-        "text": "Scrolls to the feet everybody",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 15.0,
-        "end": 16.0,
-        "text": "Do them in the comments",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 16.0,
-        "end": 17.0,
-        "text": "Rates on the feet",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 17.0,
-        "end": 18.0,
-        "text": "A whole timeline",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 18.0,
-        "end": 19.0,
-        "text": "Look like a storm in the jaw",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 19.0,
-        "end": 20.0,
-        "text": "But step outside",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 20.0,
-        "end": 21.0,
-        "text": "And it ain't that hard",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 21.0,
-        "end": 22.0,
-        "text": "Crown way lower than deck is fast",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 22.0,
-        "end": 23.0,
-        "text": "Curves coming quicker",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 23.0,
-        "end": 24.0,
-        "text": "Let's move in fast",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 24.0,
-        "end": 25.0,
-        "text": "Spawn point",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 25.0,
-        "end": 26.0,
-        "text": "Never met a less than now",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 26.0,
-        "end": 27.0,
-        "text": "We're all living up and out",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 27.0,
-        "end": 28.0,
-        "text": "Hey, I did your kids",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 28.0,
-        "end": 29.0,
-        "text": "That are cold in the night",
-        "avg_logprob": -0.43149038767203307,
-        "no_speech_prob": 0.630859375
-      },
-      {
-        "start": 29.0,
-        "end": 31.0,
-        "text": "Knowledge a lot every skill on tech",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 31.0,
-        "end": 32.0,
-        "text": "Whole world leveling up",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 32.0,
-        "end": 33.0,
-        "text": "Like a man",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 33.0,
-        "end": 34.0,
-        "text": "Being wild folks on lines",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 34.0,
-        "end": 35.0,
-        "text": "You collapse",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 35.0,
-        "end": 36.0,
-        "text": "Tapping in caps at the sky",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 36.0,
-        "end": 37.0,
-        "text": "Just crack",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 37.0,
-        "end": 38.0,
-        "text": "Coming to sunlight",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 38.0,
-        "end": 39.0,
-        "text": "What you hold a fan?",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 39.0,
-        "end": 40.0,
-        "text": "Why you mad when the grab go bang",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 40.0,
-        "end": 41.0,
-        "text": "More light, more light",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 41.0,
-        "end": 43.0,
-        "text": "More minds getting free",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 43.0,
-        "end": 46.0,
-        "text": "A lot of doors got digital keys",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 46.0,
-        "end": 49.0,
-        "text": "Future look right from where I'm standing",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 49.0,
-        "end": 51.0,
-        "text": "So I keep asking what they demand",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 51.0,
-        "end": 53.0,
-        "text": "Then why you mauled it?",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 53.0,
-        "end": 54.0,
-        "text": "Yeah",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 54.0,
-        "end": 55.0,
-        "text": "Why you so pressed?",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 55.0,
-        "end": 56.0,
-        "text": "Yeah",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 56.0,
-        "end": 57.0,
-        "text": "World keeps spinning",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 57.0,
-        "end": 58.0,
-        "text": "And it's getting its best",
-        "avg_logprob": -0.3704741379310345,
-        "no_speech_prob": 0.1510009765625
-      },
-      {
-        "start": 58.0,
-        "end": 59.0,
-        "text": "Why you mauled it?",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 59.0,
-        "end": 60.0,
-        "text": "Yeah",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 60.0,
-        "end": 61.0,
-        "text": "Why the despair?",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 61.0,
-        "end": 62.0,
-        "text": "Yeah",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 62.0,
-        "end": 63.0,
-        "text": "Look at the progress",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 63.0,
-        "end": 64.0,
-        "text": "Floating in the air",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 64.0,
-        "end": 65.0,
-        "text": "Yeah",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 65.0,
-        "end": 66.0,
-        "text": "People can't cure",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 66.0,
-        "end": 67.0,
-        "text": "Oh",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 67.0,
-        "end": 68.0,
-        "text": "How can't clean?",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 68.0,
-        "end": 71.0,
-        "text": "Kids learn anything off a tiny screen",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 71.0,
-        "end": 73.0,
-        "text": "Hey I'm just vibing",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 73.0,
-        "end": 74.0,
-        "text": "Feeling upset",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 74.0,
-        "end": 76.0,
-        "text": "Happy as I've ever",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 76.0,
-        "end": 77.0,
-        "text": "Been in this world",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 77.0,
-        "end": 79.0,
-        "text": "So tell me again",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 79.0,
-        "end": 81.0,
-        "text": "Why you mauled it?",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 81.0,
-        "end": 84.0,
-        "text": "Why you mauled Dr. Prin and Morgan's in labs now?",
-        "avg_logprob": -0.18091647868199198,
-        "no_speech_prob": 0.05755615234375
-      },
-      {
-        "start": 85.0,
-        "end": 86.0,
-        "text": "So long",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 86.0,
-        "end": 87.0,
-        "text": "Roots are sliding",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 87.0,
-        "end": 88.0,
-        "text": "Old town",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 88.0,
-        "end": 91.0,
-        "text": "Bro, by doing word that was breaking our back",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 91.0,
-        "end": 93.0,
-        "text": "She was got time just to breathe and relax",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 93.0,
-        "end": 94.0,
-        "text": "Need my kids learning a week from your seat",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 94.0,
-        "end": 96.0,
-        "text": "From as you said a life ten in a week",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 96.0,
-        "end": 97.0,
-        "text": "Knowledge once locked in the ivory halls",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 97.0,
-        "end": 99.0,
-        "text": "Now it's a click and it falls to a saw",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 99.0,
-        "end": 100.0,
-        "text": "People online still scream",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 100.0,
-        "end": 101.0,
-        "text": "It's doomed",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 101.0,
-        "end": 102.0,
-        "text": "Let the planet bow to its flow by noon",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 102.0,
-        "end": 104.0,
-        "text": "But I see kids wouldn't start us in class",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 104.0,
-        "end": 106.0,
-        "text": "So folks spinning galaxies on glass",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 106.0,
-        "end": 107.0,
-        "text": "If the rewild we survive the worst",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 107.0,
-        "end": 109.0,
-        "text": "Was in pleasure to bury the earth",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 109.0,
-        "end": 110.0,
-        "text": "Now we're curring things they fear for",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 110.0,
-        "end": 112.0,
-        "text": "Years till everybody crying out at tears",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 112.0,
-        "end": 113.0,
-        "text": "Every new break, do drop like a spark",
-        "avg_logprob": -0.426906768885036,
-        "no_speech_prob": 0.65966796875
-      },
-      {
-        "start": 113.0,
-        "end": 115.0,
-        "text": "Letting upgrade in a digital door",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 115.0,
-        "end": 117.0,
-        "text": "Future revolving faster than planned",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 117.0,
-        "end": 118.0,
-        "text": "I'm just grinning like y'all don't understand",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 118.0,
-        "end": 119.0,
-        "text": "Yeah",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 119.0,
-        "end": 120.0,
-        "text": "Why you mauled it?",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 120.0,
-        "end": 121.0,
-        "text": "Why you so stressed?",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 121.0,
-        "end": 123.0,
-        "text": "Worky leveling",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 123.0,
-        "end": 124.0,
-        "text": "Y'all has no space",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 124.0,
-        "end": 125.0,
-        "text": "Yeah",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 125.0,
-        "end": 126.0,
-        "text": "Why you mauled it?",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 126.0,
-        "end": 128.0,
-        "text": "Why the despair?",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 128.0,
-        "end": 131.0,
-        "text": "Opportunity floating everywhere",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 131.0,
-        "end": 133.0,
-        "text": "Brains online",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 133.0,
-        "end": 135.0,
-        "text": "Dreams go global",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 135.0,
-        "end": 138.0,
-        "text": "Kids from nowhere building something no boy",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 138.0,
-        "end": 139.0,
-        "text": "I'm just having",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 139.0,
-        "end": 141.0,
-        "text": "Feeling upset",
-        "avg_logprob": -0.3318965435028076,
-        "no_speech_prob": 0.1434326171875
-      },
-      {
-        "start": 141.0,
-        "end": 143.0,
-        "text": "Happy is out there",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 143.0,
-        "end": 146.0,
-        "text": "Been in this world so tell me again",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 146.0,
-        "end": 148.0,
-        "text": "Why you mauled it?",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 148.0,
-        "end": 149.0,
-        "text": "Y'all",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 149.0,
-        "end": 151.0,
-        "text": "Maybe rage is louder than hope",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 151.0,
-        "end": 152.0,
-        "text": "Maybe calm, don't trend in the scope",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 152.0,
-        "end": 154.0,
-        "text": "Maybe good news travel too slow",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 154.0,
-        "end": 155.0,
-        "text": "While the panic algorithm glow",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 155.0,
-        "end": 157.0,
-        "text": "But I'm out here breathing in the air",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 157.0,
-        "end": 159.0,
-        "text": "Watching the future build everywhere",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 159.0,
-        "end": 160.0,
-        "text": "Left on the timeline scream that we fall",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 160.0,
-        "end": 162.0,
-        "text": "Cause I can see we rising through it all",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 162.0,
-        "end": 164.0,
-        "text": "Yeah",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 164.0,
-        "end": 167.0,
-        "text": "We're still turning brighter than before",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 167.0,
-        "end": 170.0,
-        "text": "Every year opening one more door",
-        "avg_logprob": -0.24067541019570443,
-        "no_speech_prob": 0.11553955078125
-      },
-      {
-        "start": 170.0,
-        "end": 172.0,
-        "text": "So if you see me smile upside",
-        "avg_logprob": -0.23875000298023225,
-        "no_speech_prob": 0.0152740478515625
-      },
-      {
-        "start": 172.0,
-        "end": 174.0,
-        "text": "Why the comments burning the blood",
-        "avg_logprob": -0.23875000298023225,
-        "no_speech_prob": 0.0152740478515625
-      },
-      {
-        "start": 174.0,
-        "end": 176.0,
-        "text": "Don't ask what I'm celebrating for",
-        "avg_logprob": -0.23875000298023225,
-        "no_speech_prob": 0.0152740478515625
-      },
-      {
-        "start": 176.0,
-        "end": 177.0,
-        "text": "Just ask it so",
-        "avg_logprob": -0.23875000298023225,
-        "no_speech_prob": 0.0152740478515625
-      },
-      {
-        "start": 177.0,
-        "end": 179.0,
-        "text": "Why you mauled it?",
-        "avg_logprob": -0.23875000298023225,
-        "no_speech_prob": 0.0152740478515625
-      },
-      {
-        "start": 179.0,
-        "end": 180.0,
-        "text": "Why you mauled it?",
-        "avg_logprob": -0.23875000298023225,
-        "no_speech_prob": 0.0152740478515625
-      }
-    ],
-    "avg_logprob": -0.32723116961205645
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 517,
-    "transcript_word_count": 552,
-    "matched_sequence_words": 326,
-    "lyric_alignment_ratio": 0.631,
-    "transcript_precision_ratio": 0.591,
-    "unique_expected_word_coverage": 0.645,
-    "word_count_ratio": 1.068,
-    "repeated_12gram_ratio": 0.002,
-    "half_similarity": 0.203,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.63,
-    "quality_score_0_10": 6.3,
-    "flags": [],
-    "transcript_excerpt": "Yeah Yeah Yeah Yeah Yeah Yeah Yeah Don't want to run like Why everybody mad We living good right now Yeah Scrolls to the feet everybody Do them in the comments Rates on the feet A whole timeline Look like a storm in the jaw But step outside And it ain't that hard Crown way lower than deck is fast Curves coming quicker Let's move in fast Spawn point Never met a less than now We're all living up and out Hey, I did your kids That are cold in the night Knowledge a lot every skill on tech Whole world leveling up Like a man Being wild folks on lines You collapse Tapping in caps at the sky Just crack\n...[truncated]...\n Happy is out there Been in this world so tell me again Why you mauled it? Y'all Maybe rage is louder than hope Maybe calm, don't trend in the scope Maybe good news travel too slow While the panic algorithm glow But I'm out here breathing in the air Watching the future build everywhere Left on the timeline scream that we fall Cause I can see we rising through it all Yeah We're still turning brighter than before Every year opening one more door So if you see me smile upside Why the comments burning the blood Don't ask what I'm celebrating for Just ask it so Why you mauled it? Why you mauled it?"
-  },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.88,
-      "MI_motivic_integration": 6.89,
-      "BP_beauty_spatial_poise": 9.25,
-      "EG_evolving_grammar": 6.74,
-      "CD_carry_depth": 7.02
+      "SC_structural_coherence": 9.12,
+      "MI_motivic_integration": 7.26,
+      "BP_beauty_spatial_poise": 9.36,
+      "EG_evolving_grammar": 6.93,
+      "CD_carry_depth": 7.58
     },
     "core_metrics": {
-      "CDPD": 0.761,
-      "NGE": 0.605,
+      "CDPD": 0.797,
+      "NGE": 0.614,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural integrity and clear sectioning."
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track has 6 audio sections over 3:14.68 with a section-balance score of 0.52, and the section map aligns with the 9 lyric/production sections. The structure is clean and proportionate, with no filler 8s."
+        "reason": "The track follows a standard verse-prechorus-hook structure with clear transitions."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs are present but not deeply integrated. The track has clear recurrence of vocal and beat cells, but they are mostly repeated rather than transformed across sections."
+        "reason": "Stronger integration of the 'Why You Maldin' hook as a recurring motif throughout the piece."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The sonic habitat is consistently spacious and well-balanced, with a clear spatial design that supports the emotional arc. The mix is clean and intentional."
+        "reason": "Production notes confirm high-quality spatial design and atmospheric elements."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The grammar is static and follows standard quiet-rap conventions. While there are some minor variations, the track does not develop a strong, distinctive method over time."
+        "reason": "The contrast between the rapid triplet flow in verses and melodic hooks shows significant evolution."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a recognizable emotional habitat and invites re-listening. It feels like a little world with a clear arc and emotional depth."
+        "reason": "The recurring 'Maldin' theme provides a consistent thematic anchor across sections."
       }
     },
     "rationale": [
-      "Detected 6 audio sections over 3:14.68 with section-balance score 0.52.",
-      "Tempo estimate is 143.6 BPM; declared tempo alignment contributes 0.86.",
-      "Integrated loudness is -17.1 LUFS, peak is 0.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G major with confidence 0.50.",
-      "Audio recurrence ratio is 0.095; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 245 beats and 65 downbeats; beat-grid stability is 0.50.",
-      "EG evidence: section contrast 1.93, cumulative evolution 0.76, transformed returns 10.00, grid deviation 1.50, rule changes 5.00.",
-      "Companion text has 9 lyric/production sections, 531 words, line repetition 0.14, rhyme-suffix reuse 0.37."
+      "Strong structural coherence with distinct section transitions.",
+      "High production value and spatial design noted in the track description.",
+      "Dynamic contrast between verse flow and melodic hooks enhances musical interest.",
+      "Consistent lyrical motif provides depth across the song's arc."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to weak audio-only evidence."
+      "None",
+      "N/A",
+      "N/A"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T21:00:55.9643159Z",
-    "eval_count": 882,
-    "eval_duration": 14544275500
+    "created_at": "2026-06-10T10:58:47.9685234Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 6229988,
+      "base64_chars": 8306652,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 9706,
+    "prompt_eval_duration": 4111442000,
+    "eval_count": 540,
+    "eval_duration": 13111861000
   }
 }

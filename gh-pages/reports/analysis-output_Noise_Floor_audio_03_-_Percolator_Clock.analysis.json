@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:29:09",
+  "generated_at": "2026-06-10T12:31:13",
   "audio": {
     "path": "Noise Floor/audio/03 - Percolator Clock.mp3",
     "duration_seconds": 220.44,
@@ -1309,7 +1309,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1353,494 +1356,75 @@
       "beat_this detected 350 beats and 95 downbeats; beat-grid stability is 0.73.",
       "EG evidence: section contrast 1.70, cumulative evolution 0.68, transformed returns 10.00, grid deviation 0.83, rule changes 2.92.",
       "Companion text has 7 lyric/production sections, 349 words, line repetition 0.07, rhyme-suffix reuse 0.27.",
-      "Production/vocal notes contain transformation cues (formal-pivot, space-change, texture-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.79, unique-word coverage 0.79, word-count ratio 1.04, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (formal-pivot, space-change, texture-change); intent score 4.65."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Before the screen is found its color Before the room remembers me You click inside the little tower And pull a coastline from the sea I owe you several first sentences And the courage of my shoes You lend the lamps their filaments You give my hands a use With you the hallway has a tempo With you the inbox has a floor You can thread them on the needle And I'm vanishing the door And you keep a second engine Underneath the friendly tone It stops counting every heartbeat Like it wants to on the phone Crack a later block I love you Crack a later block I don't You make a bridge through the dead end And you charge me for the room You can remember, you can come Wait the switchboard, shake the bones I'm the best spark that lets me start And curse the spark that won't go home Out the second cup of weather I can almost pass for clear By the third the room is closer Then it ought to be from the heat Every task becomes a staircase Every staircase grows a mouth You say I'm what little circuit While my center point sounds Like you get on the counter Like a safe with stained glass eyes Little bit of morning motor Little lever for the sky If I leave you The day stays rolling If I take you The wires complain So I measure Not not devotion Just the smallest Usable flame Crack a later block I love you Crack a later block I don't You raise a town from the dead end And you rat every road You can remember, you can come Wait the switchboard, shake the bones I'm the best spark that lets me start And curse the spark that won't go home Out the second cup of weather I can almost pass for clear Enough to enter Enough to be",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 21.0,
-        "text": "Before the screen is found its color",
-        "avg_logprob": -0.4900173710452186,
-        "no_speech_prob": 0.7890625
-      },
-      {
-        "start": 21.0,
-        "end": 26.0,
-        "text": "Before the room remembers me",
-        "avg_logprob": -0.4900173710452186,
-        "no_speech_prob": 0.7890625
-      },
-      {
-        "start": 27.0,
-        "end": 32.0,
-        "text": "You click inside the little tower",
-        "avg_logprob": -0.20988581530176675,
-        "no_speech_prob": 0.4638671875
-      },
-      {
-        "start": 32.0,
-        "end": 38.0,
-        "text": "And pull a coastline from the sea",
-        "avg_logprob": -0.20988581530176675,
-        "no_speech_prob": 0.4638671875
-      },
-      {
-        "start": 38.0,
-        "end": 41.0,
-        "text": "I owe you several first sentences",
-        "avg_logprob": -0.20988581530176675,
-        "no_speech_prob": 0.4638671875
-      },
-      {
-        "start": 41.0,
-        "end": 47.0,
-        "text": "And the courage of my shoes",
-        "avg_logprob": -0.20988581530176675,
-        "no_speech_prob": 0.4638671875
-      },
-      {
-        "start": 47.0,
-        "end": 51.0,
-        "text": "You lend the lamps their filaments",
-        "avg_logprob": -0.20988581530176675,
-        "no_speech_prob": 0.4638671875
-      },
-      {
-        "start": 51.0,
-        "end": 55.0,
-        "text": "You give my hands a use",
-        "avg_logprob": -0.20988581530176675,
-        "no_speech_prob": 0.4638671875
-      },
-      {
-        "start": 57.0,
-        "end": 59.0,
-        "text": "With you the hallway has a tempo",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 59.0,
-        "end": 62.0,
-        "text": "With you the inbox has a floor",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 62.0,
-        "end": 64.0,
-        "text": "You can thread them on the needle",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 64.0,
-        "end": 67.0,
-        "text": "And I'm vanishing the door",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 67.0,
-        "end": 69.0,
-        "text": "And you keep a second engine",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 69.0,
-        "end": 71.0,
-        "text": "Underneath the friendly tone",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 71.0,
-        "end": 74.0,
-        "text": "It stops counting every heartbeat",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 74.0,
-        "end": 77.0,
-        "text": "Like it wants to on the phone",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 77.0,
-        "end": 79.0,
-        "text": "Crack a later block I love you",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 79.0,
-        "end": 81.0,
-        "text": "Crack a later block I don't",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 81.0,
-        "end": 84.0,
-        "text": "You make a bridge through the dead end",
-        "avg_logprob": -0.24352903859783906,
-        "no_speech_prob": 0.08416748046875
-      },
-      {
-        "start": 84.0,
-        "end": 87.0,
-        "text": "And you charge me for the room",
-        "avg_logprob": -0.3403032983050627,
-        "no_speech_prob": 0.19140625
-      },
-      {
-        "start": 87.0,
-        "end": 89.0,
-        "text": "You can remember, you can come",
-        "avg_logprob": -0.3403032983050627,
-        "no_speech_prob": 0.19140625
-      },
-      {
-        "start": 89.0,
-        "end": 91.0,
-        "text": "Wait the switchboard, shake the bones",
-        "avg_logprob": -0.3403032983050627,
-        "no_speech_prob": 0.19140625
-      },
-      {
-        "start": 91.0,
-        "end": 94.0,
-        "text": "I'm the best spark that lets me start",
-        "avg_logprob": -0.3403032983050627,
-        "no_speech_prob": 0.19140625
-      },
-      {
-        "start": 94.0,
-        "end": 98.0,
-        "text": "And curse the spark that won't go home",
-        "avg_logprob": -0.3403032983050627,
-        "no_speech_prob": 0.19140625
-      },
-      {
-        "start": 107.0,
-        "end": 109.0,
-        "text": "Out the second cup of weather",
-        "avg_logprob": -0.3403032983050627,
-        "no_speech_prob": 0.19140625
-      },
-      {
-        "start": 109.0,
-        "end": 112.0,
-        "text": "I can almost pass for clear",
-        "avg_logprob": -0.3403032983050627,
-        "no_speech_prob": 0.19140625
-      },
-      {
-        "start": 112.0,
-        "end": 114.0,
-        "text": "By the third the room is closer",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 114.0,
-        "end": 116.0,
-        "text": "Then it ought to be from the heat",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 116.0,
-        "end": 118.0,
-        "text": "Every task becomes a staircase",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 118.0,
-        "end": 120.0,
-        "text": "Every staircase grows a mouth",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 120.0,
-        "end": 123.0,
-        "text": "You say I'm what little circuit",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 123.0,
-        "end": 126.0,
-        "text": "While my center point sounds",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 126.0,
-        "end": 128.0,
-        "text": "Like you get on the counter",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 128.0,
-        "end": 131.0,
-        "text": "Like a safe with stained glass eyes",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 131.0,
-        "end": 133.0,
-        "text": "Little bit of morning motor",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 133.0,
-        "end": 137.0,
-        "text": "Little lever for the sky",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 137.0,
-        "end": 139.0,
-        "text": "If I leave you",
-        "avg_logprob": -0.28817471489310265,
-        "no_speech_prob": 0.454833984375
-      },
-      {
-        "start": 139.0,
-        "end": 142.0,
-        "text": "The day stays rolling",
-        "avg_logprob": -0.1988877073182898,
-        "no_speech_prob": 0.04669189453125
-      },
-      {
-        "start": 142.0,
-        "end": 145.0,
-        "text": "If I take you",
-        "avg_logprob": -0.1988877073182898,
-        "no_speech_prob": 0.04669189453125
-      },
-      {
-        "start": 145.0,
-        "end": 148.0,
-        "text": "The wires complain",
-        "avg_logprob": -0.1988877073182898,
-        "no_speech_prob": 0.04669189453125
-      },
-      {
-        "start": 148.0,
-        "end": 150.0,
-        "text": "So I measure",
-        "avg_logprob": -0.1988877073182898,
-        "no_speech_prob": 0.04669189453125
-      },
-      {
-        "start": 150.0,
-        "end": 153.0,
-        "text": "Not not devotion",
-        "avg_logprob": -0.1988877073182898,
-        "no_speech_prob": 0.04669189453125
-      },
-      {
-        "start": 153.0,
-        "end": 156.0,
-        "text": "Just the smallest",
-        "avg_logprob": -0.1988877073182898,
-        "no_speech_prob": 0.04669189453125
-      },
-      {
-        "start": 156.0,
-        "end": 160.0,
-        "text": "Usable flame",
-        "avg_logprob": -0.1988877073182898,
-        "no_speech_prob": 0.04669189453125
-      },
-      {
-        "start": 162.0,
-        "end": 165.0,
-        "text": "Crack a later block I love you",
-        "avg_logprob": -0.1988877073182898,
-        "no_speech_prob": 0.04669189453125
-      },
-      {
-        "start": 165.0,
-        "end": 167.0,
-        "text": "Crack a later block I don't",
-        "avg_logprob": -0.1988877073182898,
-        "no_speech_prob": 0.04669189453125
-      },
-      {
-        "start": 167.0,
-        "end": 170.0,
-        "text": "You raise a town from the dead end",
-        "avg_logprob": -0.23437499705898135,
-        "no_speech_prob": 0.123779296875
-      },
-      {
-        "start": 170.0,
-        "end": 173.0,
-        "text": "And you rat every road",
-        "avg_logprob": -0.23437499705898135,
-        "no_speech_prob": 0.123779296875
-      },
-      {
-        "start": 173.0,
-        "end": 176.0,
-        "text": "You can remember, you can come",
-        "avg_logprob": -0.23437499705898135,
-        "no_speech_prob": 0.123779296875
-      },
-      {
-        "start": 176.0,
-        "end": 178.0,
-        "text": "Wait the switchboard, shake the bones",
-        "avg_logprob": -0.23437499705898135,
-        "no_speech_prob": 0.123779296875
-      },
-      {
-        "start": 178.0,
-        "end": 181.0,
-        "text": "I'm the best spark that lets me start",
-        "avg_logprob": -0.23437499705898135,
-        "no_speech_prob": 0.123779296875
-      },
-      {
-        "start": 181.0,
-        "end": 183.0,
-        "text": "And curse the spark that won't go home",
-        "avg_logprob": -0.23437499705898135,
-        "no_speech_prob": 0.123779296875
-      },
-      {
-        "start": 189.0,
-        "end": 192.0,
-        "text": "Out the second cup of weather",
-        "avg_logprob": -0.23437499705898135,
-        "no_speech_prob": 0.123779296875
-      },
-      {
-        "start": 192.0,
-        "end": 195.0,
-        "text": "I can almost pass for clear",
-        "avg_logprob": -0.23437499705898135,
-        "no_speech_prob": 0.123779296875
-      },
-      {
-        "start": 195.0,
-        "end": 197.0,
-        "text": "Enough to enter",
-        "avg_logprob": -0.32279830087314954,
-        "no_speech_prob": 0.66357421875
-      },
-      {
-        "start": 197.0,
-        "end": 200.0,
-        "text": "Enough to be",
-        "avg_logprob": -0.32279830087314954,
-        "no_speech_prob": 0.66357421875
-      }
-    ],
-    "avg_logprob": -0.28544633509786466
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 309,
-    "transcript_word_count": 322,
-    "matched_sequence_words": 243,
-    "lyric_alignment_ratio": 0.786,
-    "transcript_precision_ratio": 0.755,
-    "unique_expected_word_coverage": 0.791,
-    "word_count_ratio": 1.042,
-    "repeated_12gram_ratio": 0.103,
-    "half_similarity": 0.453,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.784,
-    "quality_score_0_10": 7.84,
-    "flags": [],
-    "transcript_excerpt": "Before the screen is found its color Before the room remembers me You click inside the little tower And pull a coastline from the sea I owe you several first sentences And the courage of my shoes You lend the lamps their filaments You give my hands a use With you the hallway has a tempo With you the inbox has a floor You can thread them on the needle And I'm vanishing the door And you keep a second engine Underneath the friendly tone It stops counting every heartbeat Like it wants to on the phone Crack a later block I love you Crack a later block I don't You make a bridge through the dead end \n...[truncated]...\nds Like you get on the counter Like a safe with stained glass eyes Little bit of morning motor Little lever for the sky If I leave you The day stays rolling If I take you The wires complain So I measure Not not devotion Just the smallest Usable flame Crack a later block I love you Crack a later block I don't You raise a town from the dead end And you rat every road You can remember, you can come Wait the switchboard, shake the bones I'm the best spark that lets me start And curse the spark that won't go home Out the second cup of weather I can almost pass for clear Enough to enter Enough to be"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
       "MI_motivic_integration": 8.2,
       "BP_beauty_spatial_poise": 8.5,
-      "EG_evolving_grammar": 7.0,
-      "CD_carry_depth": 8.8
+      "EG_evolving_grammar": 7.4,
+      "CD_carry_depth": 8.3
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.58,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.09,
+      "NGE": 0.56,
+      "HMII_peak_estimate": 7
     },
     "rung_estimate": {
-      "number": 14,
-      "label": "Quiet Twists & Recursions",
-      "note": "The track demonstrates a clear, evolving indie grammar with strong spatial and emotional coherence, but lacks the radical innovation or forbidden elements of Icarus bands."
+      "number": 12,
+      "label": "Sophisticated Arrangement",
+      "note": "Strong structural design with distinct sections and intentional transitions."
     },
-    "confidence_0_10": 8.3,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with strong returns and emotional continuity, justifying a slight increase from the base score."
+        "reason": "Clear distinction between intro, verse, hook, and bridge; the 'desynchronized' section provides a deliberate structural pivot."
       },
       "MI_motivic_integration": {
         "delta": 0.96,
-        "reason": "Motifs (vocal hooks, guitar figures, lyric images) recur across sections with meaningful variation, supporting a higher motivic integration score."
+        "reason": "The recurring 'Percolator Clock' motif is integrated into both the lyrical content and the rhythmic structure effectively."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.46,
-        "reason": "The track’s sonic habitat—room tone, tape flutter, reverb, and stereo field—forms a memorable and coherent indie world, justifying a moderate increase."
+        "reason": "High production quality with intentional use of space (dub delay, tape flutter) enhances the spatial aesthetic."
       },
       "EG_evolving_grammar": {
-        "delta": 0.17,
-        "reason": "While the track develops a personal indie grammar over time, it does not invent a radically new method, so the score is adjusted downward."
+        "delta": 0.57,
+        "reason": "The transition from 'low-pass' to 'bright choruses' shows a deliberate evolution in sonic texture and dynamic range."
       },
       "CD_carry_depth": {
-        "delta": 0.85,
-        "reason": "The track defines a recognizable emotional and sonic habitat, inviting re-listening and leaving a distinct impression, justifying a significant increase."
+        "delta": 0.35,
+        "reason": "Lyrical imagery is consistent and evocative throughout the piece."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:40.44 with section-balance score 0.40.",
-      "Tempo estimate is 99.4 BPM; declared tempo alignment contributes 0.95.",
-      "Integrated loudness is -18.1 LUFS, peak is -2.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G minor with confidence 0.18.",
-      "Audio recurrence ratio is 0.339; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 350 beats and 95 downbeats; beat-grid stability is 0.73.",
-      "EG evidence: section contrast 1.70, cumulative evolution 0.68, transformed returns 10.00, grid deviation 0.83, rule changes 2.92.",
-      "Companion text has 7 lyric/production sections, 349 words, line repetition 0.07, rhyme-suffix reuse 0.27."
+      "Strong structural coherence with clear section transitions.",
+      "Motivic integration is high due to the interplay between lyrical themes and production techniques.",
+      "High aesthetic quality in spatial arrangement and texture."
     ],
     "review_flags": [
-      "Uncertainty about the exact nature of the 'formal-pivot' and 'space-change' in production notes; these terms may be subjective."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:29:09.9809285Z",
-    "eval_count": 827,
-    "eval_duration": 13618476600
+    "created_at": "2026-06-10T10:31:13.0479291Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7054158,
+      "base64_chars": 9405544,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 10754,
+    "prompt_eval_duration": 4530243000,
+    "eval_count": 410,
+    "eval_duration": 9920584000
   }
 }

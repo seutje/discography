@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:52:41",
+  "generated_at": "2026-06-10T12:51:49",
   "audio": {
     "path": "UNMEASURED GEOMETRY/audio/06 - Worn Wristbands.mp3",
     "duration_seconds": 330.16,
@@ -2764,19 +2764,22 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.7,
-      "MI_motivic_integration": 5.89,
-      "BP_beauty_spatial_poise": 9.87,
-      "EG_evolving_grammar": 6.91,
-      "CD_carry_depth": 7.2
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 6.35,
+      "BP_beauty_spatial_poise": 10.0,
+      "EG_evolving_grammar": 7.14,
+      "CD_carry_depth": 7.89
     },
     "core_metrics": {
-      "CDPD": 0.748,
-      "NGE": 0.683,
+      "CDPD": 0.794,
+      "NGE": 0.694,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -2789,13 +2792,13 @@
       "overall_score": 5.455
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.66,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.66
+      "total_penalty": 0.0
     },
     "rung_estimate": {
-      "number": 10,
-      "label": "Technical Perfection, No Rupture",
+      "number": 13,
+      "label": "Inhabited Form",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
     "confidence_0_10": 7.7,
@@ -2808,440 +2811,76 @@
       "beat_this detected 935 beats and 240 downbeats; beat-grid stability is 0.53.",
       "EG evidence: section contrast 3.99, cumulative evolution 1.34, transformed returns 10.00, grid deviation 3.42, rule changes 7.22.",
       "Companion text has 8 lyric/production sections, 292 words, line repetition 0.12, rhyme-suffix reuse 0.28.",
-      "Transcription check: lyric alignment 0.61, unique-word coverage 0.68, word-count ratio 0.97, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.66, repeat 0.00).",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
   },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "You Riding like vapor off the sunburned ground We were running stumbling Laughing too loud, we are light Stitched our names into the air We roved up and thought said we'd always be there But the fiends then, when the years ended I hear the pulse fade out Where the echoes begin Now I'm driftin' to the soul and to the past Go see the crowd down the strong light Over my forever thundered and out of thundered It's gone, leaving me muffin-only rigs To open its door Just take us on the pavement Broken halos we wore We carved our nights like scripture On the fest of a fall But the laughter, the spectros Scared under no skies And I'm older than music That once opened my eyes Still the chorus calls back From a memory glare I reach for the noise But there's nobody there Now I'm driftin' to the soul and to the past Go see the crowd down the strong light Over my forever thundered and out of thundered It's gone, leaving me muffin-only rigs To open its door Open its door It's this growable road This slow collapse of sound I keep searching for the spot But the spot won't be found All the bodies in the break line All the stars behind their smoke Were they real just the flicker Of a younger mind's home Still I walk Through the shiver of forgotten lights Hearing fans of tears rise All the fans of light If the world grows quiet And the memories fall Maybe that silence was The loudest truth of all",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 2.0,
-        "text": "You",
-        "avg_logprob": -0.9833984076976776,
-        "no_speech_prob": 0.7294921875
-      },
-      {
-        "start": 60.0,
-        "end": 67.0,
-        "text": "Riding like vapor off the sunburned ground",
-        "avg_logprob": -0.7251602778067956,
-        "no_speech_prob": 0.31689453125
-      },
-      {
-        "start": 67.0,
-        "end": 73.0,
-        "text": "We were running stumbling",
-        "avg_logprob": -0.7251602778067956,
-        "no_speech_prob": 0.31689453125
-      },
-      {
-        "start": 73.0,
-        "end": 79.0,
-        "text": "Laughing too loud, we are light",
-        "avg_logprob": -0.7251602778067956,
-        "no_speech_prob": 0.31689453125
-      },
-      {
-        "start": 79.0,
-        "end": 85.0,
-        "text": "Stitched our names into the air",
-        "avg_logprob": -0.7251602778067956,
-        "no_speech_prob": 0.31689453125
-      },
-      {
-        "start": 85.0,
-        "end": 93.0,
-        "text": "We roved up and thought said we'd always be there",
-        "avg_logprob": -0.49127905867820565,
-        "no_speech_prob": 0.11907958984375
-      },
-      {
-        "start": 93.0,
-        "end": 101.0,
-        "text": "But the fiends then, when the years ended",
-        "avg_logprob": -0.49127905867820565,
-        "no_speech_prob": 0.11907958984375
-      },
-      {
-        "start": 101.0,
-        "end": 105.0,
-        "text": "I hear the pulse fade out",
-        "avg_logprob": -0.49127905867820565,
-        "no_speech_prob": 0.11907958984375
-      },
-      {
-        "start": 105.0,
-        "end": 111.0,
-        "text": "Where the echoes begin",
-        "avg_logprob": -0.49127905867820565,
-        "no_speech_prob": 0.11907958984375
-      },
-      {
-        "start": 111.0,
-        "end": 115.0,
-        "text": "Now I'm driftin' to the soul and to the past",
-        "avg_logprob": -0.6885593361773733,
-        "no_speech_prob": 0.04119873046875
-      },
-      {
-        "start": 115.0,
-        "end": 120.0,
-        "text": "Go see the crowd down the strong light",
-        "avg_logprob": -0.6885593361773733,
-        "no_speech_prob": 0.04119873046875
-      },
-      {
-        "start": 120.0,
-        "end": 123.0,
-        "text": "Over my forever thundered and out of thundered",
-        "avg_logprob": -0.6885593361773733,
-        "no_speech_prob": 0.04119873046875
-      },
-      {
-        "start": 123.0,
-        "end": 126.0,
-        "text": "It's gone, leaving me muffin-only rigs",
-        "avg_logprob": -0.6885593361773733,
-        "no_speech_prob": 0.04119873046875
-      },
-      {
-        "start": 126.0,
-        "end": 131.0,
-        "text": "To open its door",
-        "avg_logprob": -0.6885593361773733,
-        "no_speech_prob": 0.04119873046875
-      },
-      {
-        "start": 142.0,
-        "end": 147.0,
-        "text": "Just take us on the pavement",
-        "avg_logprob": -0.4320790719012825,
-        "no_speech_prob": 0.062347412109375
-      },
-      {
-        "start": 147.0,
-        "end": 151.0,
-        "text": "Broken halos we wore",
-        "avg_logprob": -0.4320790719012825,
-        "no_speech_prob": 0.062347412109375
-      },
-      {
-        "start": 151.0,
-        "end": 156.0,
-        "text": "We carved our nights like scripture",
-        "avg_logprob": -0.4320790719012825,
-        "no_speech_prob": 0.062347412109375
-      },
-      {
-        "start": 156.0,
-        "end": 160.0,
-        "text": "On the fest of a fall",
-        "avg_logprob": -0.4320790719012825,
-        "no_speech_prob": 0.062347412109375
-      },
-      {
-        "start": 160.0,
-        "end": 164.0,
-        "text": "But the laughter, the spectros",
-        "avg_logprob": -0.4320790719012825,
-        "no_speech_prob": 0.062347412109375
-      },
-      {
-        "start": 164.0,
-        "end": 168.0,
-        "text": "Scared under no skies",
-        "avg_logprob": -0.4320790719012825,
-        "no_speech_prob": 0.062347412109375
-      },
-      {
-        "start": 168.0,
-        "end": 173.0,
-        "text": "And I'm older than music",
-        "avg_logprob": -0.11532315561039881,
-        "no_speech_prob": 0.06597900390625
-      },
-      {
-        "start": 173.0,
-        "end": 177.0,
-        "text": "That once opened my eyes",
-        "avg_logprob": -0.11532315561039881,
-        "no_speech_prob": 0.06597900390625
-      },
-      {
-        "start": 177.0,
-        "end": 181.0,
-        "text": "Still the chorus calls back",
-        "avg_logprob": -0.11532315561039881,
-        "no_speech_prob": 0.06597900390625
-      },
-      {
-        "start": 181.0,
-        "end": 186.0,
-        "text": "From a memory glare",
-        "avg_logprob": -0.11532315561039881,
-        "no_speech_prob": 0.06597900390625
-      },
-      {
-        "start": 186.0,
-        "end": 190.0,
-        "text": "I reach for the noise",
-        "avg_logprob": -0.11532315561039881,
-        "no_speech_prob": 0.06597900390625
-      },
-      {
-        "start": 190.0,
-        "end": 195.0,
-        "text": "But there's nobody there",
-        "avg_logprob": -0.11532315561039881,
-        "no_speech_prob": 0.06597900390625
-      },
-      {
-        "start": 195.0,
-        "end": 199.0,
-        "text": "Now I'm driftin' to the soul and to the past",
-        "avg_logprob": -0.07408854141831397,
-        "no_speech_prob": 0.0113525390625
-      },
-      {
-        "start": 199.0,
-        "end": 204.0,
-        "text": "Go see the crowd down the strong light",
-        "avg_logprob": -0.07408854141831397,
-        "no_speech_prob": 0.0113525390625
-      },
-      {
-        "start": 204.0,
-        "end": 207.0,
-        "text": "Over my forever thundered and out of thundered",
-        "avg_logprob": -0.07408854141831397,
-        "no_speech_prob": 0.0113525390625
-      },
-      {
-        "start": 207.0,
-        "end": 210.0,
-        "text": "It's gone, leaving me muffin-only rigs",
-        "avg_logprob": -0.07408854141831397,
-        "no_speech_prob": 0.0113525390625
-      },
-      {
-        "start": 210.0,
-        "end": 215.0,
-        "text": "To open its door",
-        "avg_logprob": -0.07408854141831397,
-        "no_speech_prob": 0.0113525390625
-      },
-      {
-        "start": 216.0,
-        "end": 222.0,
-        "text": "Open its door",
-        "avg_logprob": -0.3916666607062022,
-        "no_speech_prob": 0.0210418701171875
-      },
-      {
-        "start": 230.0,
-        "end": 234.0,
-        "text": "It's this growable road",
-        "avg_logprob": -0.3916666607062022,
-        "no_speech_prob": 0.0210418701171875
-      },
-      {
-        "start": 234.0,
-        "end": 238.0,
-        "text": "This slow collapse of sound",
-        "avg_logprob": -0.3916666607062022,
-        "no_speech_prob": 0.0210418701171875
-      },
-      {
-        "start": 238.0,
-        "end": 242.0,
-        "text": "I keep searching for the spot",
-        "avg_logprob": -0.3916666607062022,
-        "no_speech_prob": 0.0210418701171875
-      },
-      {
-        "start": 243.0,
-        "end": 247.0,
-        "text": "But the spot won't be found",
-        "avg_logprob": -0.19069601900198244,
-        "no_speech_prob": 0.06768798828125
-      },
-      {
-        "start": 247.0,
-        "end": 251.0,
-        "text": "All the bodies in the break line",
-        "avg_logprob": -0.19069601900198244,
-        "no_speech_prob": 0.06768798828125
-      },
-      {
-        "start": 251.0,
-        "end": 255.0,
-        "text": "All the stars behind their smoke",
-        "avg_logprob": -0.19069601900198244,
-        "no_speech_prob": 0.06768798828125
-      },
-      {
-        "start": 255.0,
-        "end": 260.0,
-        "text": "Were they real just the flicker",
-        "avg_logprob": -0.19069601900198244,
-        "no_speech_prob": 0.06768798828125
-      },
-      {
-        "start": 260.0,
-        "end": 267.0,
-        "text": "Of a younger mind's home",
-        "avg_logprob": -0.19069601900198244,
-        "no_speech_prob": 0.06768798828125
-      },
-      {
-        "start": 272.0,
-        "end": 285.0,
-        "text": "Still I walk",
-        "avg_logprob": -0.3526182464651159,
-        "no_speech_prob": 0.07275390625
-      },
-      {
-        "start": 285.0,
-        "end": 289.0,
-        "text": "Through the shiver of forgotten lights",
-        "avg_logprob": -0.3526182464651159,
-        "no_speech_prob": 0.07275390625
-      },
-      {
-        "start": 289.0,
-        "end": 293.0,
-        "text": "Hearing fans of tears rise",
-        "avg_logprob": -0.3526182464651159,
-        "no_speech_prob": 0.07275390625
-      },
-      {
-        "start": 293.0,
-        "end": 296.0,
-        "text": "All the fans of light",
-        "avg_logprob": -0.3526182464651159,
-        "no_speech_prob": 0.07275390625
-      },
-      {
-        "start": 296.0,
-        "end": 298.0,
-        "text": "If the world grows quiet",
-        "avg_logprob": -0.3526182464651159,
-        "no_speech_prob": 0.07275390625
-      },
-      {
-        "start": 298.0,
-        "end": 301.0,
-        "text": "And the memories fall",
-        "avg_logprob": -0.45312501135326566,
-        "no_speech_prob": 0.1866455078125
-      },
-      {
-        "start": 301.0,
-        "end": 309.0,
-        "text": "Maybe that silence was",
-        "avg_logprob": -0.45312501135326566,
-        "no_speech_prob": 0.1866455078125
-      },
-      {
-        "start": 309.0,
-        "end": 318.0,
-        "text": "The loudest truth of all",
-        "avg_logprob": -0.45312501135326566,
-        "no_speech_prob": 0.1866455078125
-      }
-    ],
-    "avg_logprob": -0.3945601576621539
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 277,
-    "transcript_word_count": 270,
-    "matched_sequence_words": 169,
-    "lyric_alignment_ratio": 0.61,
-    "transcript_precision_ratio": 0.626,
-    "unique_expected_word_coverage": 0.683,
-    "word_count_ratio": 0.975,
-    "repeated_12gram_ratio": 0.1,
-    "half_similarity": 0.356,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.626,
-    "quality_score_0_10": 6.26,
-    "flags": [],
-    "transcript_excerpt": "You Riding like vapor off the sunburned ground We were running stumbling Laughing too loud, we are light Stitched our names into the air We roved up and thought said we'd always be there But the fiends then, when the years ended I hear the pulse fade out Where the echoes begin Now I'm driftin' to the soul and to the past Go see the crowd down the strong light Over my forever thundered and out of thundered It's gone, leaving me muffin-only rigs To open its door Just take us on the pavement Broken halos we wore We carved our nights like scripture On the fest of a fall But the laughter, the spect\n...[truncated]...\nand to the past Go see the crowd down the strong light Over my forever thundered and out of thundered It's gone, leaving me muffin-only rigs To open its door Open its door It's this growable road This slow collapse of sound I keep searching for the spot But the spot won't be found All the bodies in the break line All the stars behind their smoke Were they real just the flicker Of a younger mind's home Still I walk Through the shiver of forgotten lights Hearing fans of tears rise All the fans of light If the world grows quiet And the memories fall Maybe that silence was The loudest truth of all"
-  },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.7,
-      "MI_motivic_integration": 5.89,
-      "BP_beauty_spatial_poise": 9.87,
-      "EG_evolving_grammar": 6.91,
-      "CD_carry_depth": 7.2
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 6.35,
+      "BP_beauty_spatial_poise": 10.0,
+      "EG_evolving_grammar": 7.14,
+      "CD_carry_depth": 7.89
     },
     "core_metrics": {
-      "CDPD": 0.748,
-      "NGE": 0.683,
+      "CDPD": 0.794,
+      "NGE": 0.694,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
-      "number": 10,
-      "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "number": 13,
+      "label": "Inhabited Form",
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar"
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The piece is divided into 10 well-balanced sections with clear transitions and a consistent structural framework."
+        "reason": "No change"
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs are introduced and developed across sections, with variations and recurrence, though not deeply integrated."
+        "reason": "No change"
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The piece maintains a high level of sonic clarity and spatial balance, with consistent dynamics and harmonic richness."
+        "reason": "No change"
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar is evident through rule changes and deviations, though not at the level of a fully realized new language."
+        "reason": "No change"
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The emotional resonance and re-listen pull are strong, with a self-sustaining musical habitat that invites reflection."
+        "reason": "No change"
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:30.16 with section-balance score 0.20.",
-      "Tempo estimate is 112.3 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -15.4 LUFS, peak is 0.2 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F#/Gb minor with confidence 0.61.",
-      "Audio recurrence ratio is 0.196; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 935 beats and 240 downbeats; beat-grid stability is 0.53.",
-      "EG evidence: section contrast 3.99, cumulative evolution 1.34, transformed returns 10.00, grid deviation 3.42, rule changes 7.22.",
-      "Companion text has 8 lyric/production sections, 292 words, line repetition 0.12, rhyme-suffix reuse 0.28."
+      "The track exhibits a high degree of structural coherence (SC=10) and beauty/spatial poise (BP=10), indicating a well-defined musical structure and aesthetic quality.",
+      "The integration of motivic elements (MI=6.35) is solid, showing consistent development of melodic ideas throughout the piece.",
+      "The evolving grammar (EG=7.14) suggests a sophisticated level of variation within established rules.",
+      "The carry depth (CD=7.89) indicates that the musical material remains coherent and relevant over time."
     ],
     "review_flags": [
-      "Uncertainty in section detection and motif recognition due to audio-only analysis.",
-      "Transcription quality may affect lyric-based analysis, though the alignment is reasonably good."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:52:41.1433584Z",
-    "eval_count": 811,
-    "eval_duration": 13564450400
+    "created_at": "2026-06-10T10:51:49.5003256Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10565250,
+      "base64_chars": 14087000,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14491,
+    "prompt_eval_duration": 6223315000,
+    "eval_count": 446,
+    "eval_duration": 11791847000
   }
 }

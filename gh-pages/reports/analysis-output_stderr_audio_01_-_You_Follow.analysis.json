@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:56:06",
+  "generated_at": "2026-06-10T12:54:49",
   "audio": {
     "path": "stderr/audio/01 - You Follow.mp3",
     "duration_seconds": 177.76,
@@ -886,19 +886,22 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.85,
-      "MI_motivic_integration": 8.34,
-      "BP_beauty_spatial_poise": 9.08,
-      "EG_evolving_grammar": 5.49,
-      "CD_carry_depth": 6.77
+      "SC_structural_coherence": 9.18,
+      "MI_motivic_integration": 8.86,
+      "BP_beauty_spatial_poise": 9.23,
+      "EG_evolving_grammar": 5.75,
+      "CD_carry_depth": 7.55
     },
     "core_metrics": {
-      "CDPD": 0.82,
-      "NGE": 0.474,
+      "CDPD": 0.871,
+      "NGE": 0.487,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -911,9 +914,9 @@
       "overall_score": 1.926
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.744,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.744
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 10,
@@ -930,362 +933,77 @@
       "beat_this detected 219 beats and 55 downbeats; beat-grid stability is 0.86.",
       "EG evidence: section contrast 1.14, cumulative evolution 0.42, transformed returns 7.13, grid deviation 0.20, rule changes 0.00.",
       "Companion text has 9 lyric/production sections, 457 words, line repetition 0.20, rhyme-suffix reuse 0.41.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 5.30.",
-      "Transcription check: lyric alignment 0.60, unique-word coverage 0.63, word-count ratio 1.03, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.74, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 5.30."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Yeah Yeah Listen close Actually don't bother You won't catch it anyway You follow Yeah, I guess man I was in a bar perfect the phrase and trickle-on time with destruction amazing and turn around chains Pat on the line and meaning in the markets the rhythm and trying and syllable stitching the cadence precise every time In the land and like cutting with ice all they lay a metaphors deep in the mix hidden little puzzles inside of the script at the first eight seconds Don't grab your brain. It's over before the first explains. Nobody's digging through bars that deep at the intro and catchy enough to repeat you You think they listen to the lines now they listen to the vibes words could be brilliant clacks for fun But the bounce the size of the life Yeah, so first meaning later hook loud Truth gets fatal you could read a masterpiece. Nobody hits it at the beat and greater Intro catch I go with the mind numbers rise. They think you're a guy right four weeks I let you to grab the first 10 seconds at the pet you follow You follow I Seen versus car like sculpture and stone every brown place like a gear in the dome market that you're hitting inside of the sound But nobody know this is one since around they just not when our high heads get it They don't care what the words even matter cadence hypnotic the rhythm and tag Liar is good vanishing nothing retries you could wrap up by nothing at all just bubble Cushion bounce in the wall feel like a kiss and then bounce like a drum people go crazy lace on them profile Meaning option over the required truth is buried in the amplifier you follow Versus the core I was clapping with the pen is full but the system don't measure the art in the pages to hook the survives to the scroll of the age Age Meaning later hook loud truth gets faint you could read a masterpiece. Nobody hits it at the beat and greater Intro catch I go with the mind numbers rise. They think you're a guy right four weeks polished the crap But the first 10 seconds is up at you follow Follow This ain't bitter is basic design sound hits fess of them reading a line Bring grabs with them before we grab sense emotional rise before consequence of the verse of beaching years later And then still drowning the kicking of bass suspense Yeah, so yeah Stack every round like a fortress you made, but if they injured on started playing nobody listening in any way you Follow You follow",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 2.0,
-        "text": "Yeah",
-        "avg_logprob": -0.5937500195256595,
-        "no_speech_prob": 0.5419921875
-      },
-      {
-        "start": 6.64,
-        "end": 8.64,
-        "text": "Yeah",
-        "avg_logprob": -0.5937500195256595,
-        "no_speech_prob": 0.5419921875
-      },
-      {
-        "start": 9.88,
-        "end": 11.88,
-        "text": "Listen close",
-        "avg_logprob": -0.5937500195256595,
-        "no_speech_prob": 0.5419921875
-      },
-      {
-        "start": 11.88,
-        "end": 13.88,
-        "text": "Actually don't bother",
-        "avg_logprob": -0.5937500195256595,
-        "no_speech_prob": 0.5419921875
-      },
-      {
-        "start": 14.32,
-        "end": 16.32,
-        "text": "You won't catch it anyway",
-        "avg_logprob": -0.5937500195256595,
-        "no_speech_prob": 0.5419921875
-      },
-      {
-        "start": 16.96,
-        "end": 18.96,
-        "text": "You follow",
-        "avg_logprob": -0.5937500195256595,
-        "no_speech_prob": 0.5419921875
-      },
-      {
-        "start": 19.32,
-        "end": 24.68,
-        "text": "Yeah, I guess man I was in a bar perfect the phrase and trickle-on time with destruction amazing and turn around chains",
-        "avg_logprob": -0.5937500195256595,
-        "no_speech_prob": 0.5419921875
-      },
-      {
-        "start": 24.68,
-        "end": 29.12,
-        "text": "Pat on the line and meaning in the markets the rhythm and trying and syllable stitching the cadence precise every time",
-        "avg_logprob": -0.5549242293292825,
-        "no_speech_prob": 0.1591796875
-      },
-      {
-        "start": 29.12,
-        "end": 34.48,
-        "text": "In the land and like cutting with ice all they lay a metaphors deep in the mix hidden little puzzles inside of the script at the first eight seconds",
-        "avg_logprob": -0.5549242293292825,
-        "no_speech_prob": 0.1591796875
-      },
-      {
-        "start": 34.48,
-        "end": 40.32,
-        "text": "Don't grab your brain. It's over before the first explains. Nobody's digging through bars that deep at the intro and catchy enough to repeat you",
-        "avg_logprob": -0.5549242293292825,
-        "no_speech_prob": 0.1591796875
-      },
-      {
-        "start": 41.68,
-        "end": 46.36,
-        "text": "You think they listen to the lines now they listen to the vibes words could be brilliant clacks for fun",
-        "avg_logprob": -0.5549242293292825,
-        "no_speech_prob": 0.1591796875
-      },
-      {
-        "start": 46.36,
-        "end": 48.88,
-        "text": "But the bounce the size of the life",
-        "avg_logprob": -0.5549242293292825,
-        "no_speech_prob": 0.1591796875
-      },
-      {
-        "start": 49.48,
-        "end": 52.44,
-        "text": "Yeah, so first meaning later hook loud",
-        "avg_logprob": -0.5549242293292825,
-        "no_speech_prob": 0.1591796875
-      },
-      {
-        "start": 52.44,
-        "end": 56.08,
-        "text": "Truth gets fatal you could read a masterpiece. Nobody hits it at the beat and greater",
-        "avg_logprob": -0.7137097062603119,
-        "no_speech_prob": 0.03155517578125
-      },
-      {
-        "start": 56.08,
-        "end": 60.16,
-        "text": "Intro catch I go with the mind numbers rise. They think you're a guy right four weeks",
-        "avg_logprob": -0.7137097062603119,
-        "no_speech_prob": 0.03155517578125
-      },
-      {
-        "start": 60.16,
-        "end": 63.16,
-        "text": "I let you to grab the first 10 seconds at the pet you follow",
-        "avg_logprob": -0.7137097062603119,
-        "no_speech_prob": 0.03155517578125
-      },
-      {
-        "start": 72.12,
-        "end": 74.12,
-        "text": "You follow",
-        "avg_logprob": -0.7137097062603119,
-        "no_speech_prob": 0.03155517578125
-      },
-      {
-        "start": 74.12,
-        "end": 76.12,
-        "text": "I",
-        "avg_logprob": -0.599905307094256,
-        "no_speech_prob": 0.09893798828125
-      },
-      {
-        "start": 79.32,
-        "end": 84.32,
-        "text": "Seen versus car like sculpture and stone every brown place like a gear in the dome market that you're hitting inside of the sound",
-        "avg_logprob": -0.599905307094256,
-        "no_speech_prob": 0.09893798828125
-      },
-      {
-        "start": 84.32,
-        "end": 87.56,
-        "text": "But nobody know this is one since around they just not when our high heads get it",
-        "avg_logprob": -0.599905307094256,
-        "no_speech_prob": 0.09893798828125
-      },
-      {
-        "start": 87.56,
-        "end": 90.8,
-        "text": "They don't care what the words even matter cadence hypnotic the rhythm and tag",
-        "avg_logprob": -0.599905307094256,
-        "no_speech_prob": 0.09893798828125
-      },
-      {
-        "start": 90.8,
-        "end": 94.56,
-        "text": "Liar is good vanishing nothing retries you could wrap up by nothing at all just bubble",
-        "avg_logprob": -0.599905307094256,
-        "no_speech_prob": 0.09893798828125
-      },
-      {
-        "start": 94.56,
-        "end": 98.48,
-        "text": "Cushion bounce in the wall feel like a kiss and then bounce like a drum people go crazy lace on them profile",
-        "avg_logprob": -0.599905307094256,
-        "no_speech_prob": 0.09893798828125
-      },
-      {
-        "start": 98.48,
-        "end": 102.6,
-        "text": "Meaning option over the required truth is buried in the amplifier you follow",
-        "avg_logprob": -0.599905307094256,
-        "no_speech_prob": 0.09893798828125
-      },
-      {
-        "start": 104.24,
-        "end": 109.96,
-        "text": "Versus the core I was clapping with the pen is full but the system don't measure the art in the pages to hook the survives to the scroll of the age",
-        "avg_logprob": -0.47608417333388814,
-        "no_speech_prob": 0.08709716796875
-      },
-      {
-        "start": 110.96,
-        "end": 112.96,
-        "text": "Age",
-        "avg_logprob": -0.47608417333388814,
-        "no_speech_prob": 0.08709716796875
-      },
-      {
-        "start": 112.96,
-        "end": 118.12,
-        "text": "Meaning later hook loud truth gets faint you could read a masterpiece. Nobody hits it at the beat and greater",
-        "avg_logprob": -0.47608417333388814,
-        "no_speech_prob": 0.08709716796875
-      },
-      {
-        "start": 118.12,
-        "end": 123.04,
-        "text": "Intro catch I go with the mind numbers rise. They think you're a guy right four weeks polished the crap",
-        "avg_logprob": -0.47608417333388814,
-        "no_speech_prob": 0.08709716796875
-      },
-      {
-        "start": 123.04,
-        "end": 125.04,
-        "text": "But the first 10 seconds is up at you follow",
-        "avg_logprob": -0.47608417333388814,
-        "no_speech_prob": 0.08709716796875
-      },
-      {
-        "start": 135.12,
-        "end": 137.12,
-        "text": "Follow",
-        "avg_logprob": -0.7235294201794793,
-        "no_speech_prob": 0.1260986328125
-      },
-      {
-        "start": 138.12,
-        "end": 141.44,
-        "text": "This ain't bitter is basic design sound hits fess of them reading a line",
-        "avg_logprob": -0.7235294201794793,
-        "no_speech_prob": 0.1260986328125
-      },
-      {
-        "start": 141.44,
-        "end": 146.0,
-        "text": "Bring grabs with them before we grab sense emotional rise before consequence of the verse of beaching years later",
-        "avg_logprob": -0.7235294201794793,
-        "no_speech_prob": 0.1260986328125
-      },
-      {
-        "start": 146.0,
-        "end": 148.0,
-        "text": "And then still drowning the kicking of bass suspense",
-        "avg_logprob": -0.7235294201794793,
-        "no_speech_prob": 0.1260986328125
-      },
-      {
-        "start": 150.8,
-        "end": 152.8,
-        "text": "Yeah, so yeah",
-        "avg_logprob": -0.7235294201794793,
-        "no_speech_prob": 0.1260986328125
-      },
-      {
-        "start": 152.8,
-        "end": 157.88,
-        "text": "Stack every round like a fortress you made, but if they injured on started playing nobody listening in any way you",
-        "avg_logprob": -0.7235294201794793,
-        "no_speech_prob": 0.1260986328125
-      },
-      {
-        "start": 164.12,
-        "end": 166.12,
-        "text": "Follow",
-        "avg_logprob": -0.7734375223517418,
-        "no_speech_prob": 0.298095703125
-      },
-      {
-        "start": 176.52,
-        "end": 178.52,
-        "text": "You follow",
-        "avg_logprob": -0.7734375223517418,
-        "no_speech_prob": 0.298095703125
-      }
-    ],
-    "avg_logprob": -0.6060916204862475
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 443,
-    "transcript_word_count": 455,
-    "matched_sequence_words": 264,
-    "lyric_alignment_ratio": 0.596,
-    "transcript_precision_ratio": 0.58,
-    "unique_expected_word_coverage": 0.627,
-    "word_count_ratio": 1.027,
-    "repeated_12gram_ratio": 0.043,
-    "half_similarity": 0.322,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.601,
-    "quality_score_0_10": 6.01,
-    "flags": [],
-    "transcript_excerpt": "Yeah Yeah Listen close Actually don't bother You won't catch it anyway You follow Yeah, I guess man I was in a bar perfect the phrase and trickle-on time with destruction amazing and turn around chains Pat on the line and meaning in the markets the rhythm and trying and syllable stitching the cadence precise every time In the land and like cutting with ice all they lay a metaphors deep in the mix hidden little puzzles inside of the script at the first eight seconds Don't grab your brain. It's over before the first explains. Nobody's digging through bars that deep at the intro and catchy enough\n...[truncated]...\nead a masterpiece. Nobody hits it at the beat and greater Intro catch I go with the mind numbers rise. They think you're a guy right four weeks polished the crap But the first 10 seconds is up at you follow Follow This ain't bitter is basic design sound hits fess of them reading a line Bring grabs with them before we grab sense emotional rise before consequence of the verse of beaching years later And then still drowning the kicking of bass suspense Yeah, so yeah Stack every round like a fortress you made, but if they injured on started playing nobody listening in any way you Follow You follow"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.85,
-      "MI_motivic_integration": 8.34,
-      "BP_beauty_spatial_poise": 9.08,
-      "EG_evolving_grammar": 5.49,
-      "CD_carry_depth": 6.77
+      "SC_structural_coherence": 9.18,
+      "MI_motivic_integration": 8.86,
+      "BP_beauty_spatial_poise": 9.23,
+      "EG_evolving_grammar": 5.75,
+      "CD_carry_depth": 7.55
     },
     "core_metrics": {
-      "CDPD": 0.82,
-      "NGE": 0.474,
+      "CDPD": 0.871,
+      "NGE": 0.487,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural integrity and consistent motif integration."
     },
-    "confidence_0_10": 7.69,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "Section-balance score 0.24 and 6 distinct audio sections over 2:57.76 suggest a clean, proportionate layout with no filler 8s. Transitions feel designed, not DAW-copy-paste."
+        "reason": "The structure is highly deliberate with clear transitions and a recurring hook."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs (flow tics, ad-libs, harmonic hits) recur across verses and hooks. Cross-domain recursion is evident, e.g., hook rhythm shows up in verse cadences."
+        "reason": "Strong integration of the 'You follow?' motif as both a rhythmic anchor and thematic pivot."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "Sonic habitat is consistently beautiful and coherent. Reverb/delay law is varied by section, and subtle details like vinyl crackle and room tone feel intentional."
+        "reason": "The production notes confirm high-quality spatial design with intentional dropouts."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "Grammar evolves meaningfully: same loop reharmonised, beat thinned/expanded in meaningful ways, flows shift density to mark emotional hinges."
+        "reason": "While the core grammar is repetitive by design, the contrast between spoken asides and dense verse lines shows deliberate variation."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "Track defines a recognisable emotional/psychic habitat. It invites re-listening beyond mood-playlist utility, and its emotional arc is narratable."
+        "reason": "The 'Bridge' section provides a meta-commentary on the craft that deepens the lyrical intent."
       }
     },
     "rationale": [
-      "Detected 6 audio sections over 2:57.76 with section-balance score 0.24.",
-      "Tempo estimate is 143.6 BPM; declared tempo alignment contributes 0.86.",
-      "Integrated loudness is -17.6 LUFS, peak is -1.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is E minor with confidence 0.21.",
-      "Audio recurrence ratio is 0.137; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 219 beats and 55 downbeats; beat-grid stability is 0.86.",
-      "EG evidence: section contrast 1.14, cumulative evolution 0.42, transformed returns 7.13, grid deviation 0.20, rule changes 0.00.",
-      "Companion text has 9 lyric/production sections, 457 words, line repetition 0.20, rhyme-suffix reuse 0.41."
+      "The track utilizes a sophisticated interplay between dense, technical lyricism and minimalist, repetitive hooks.",
+      "The 'You follow?' motif serves as an effective structural anchor, creating a distinct sense of space in the industrial production.",
+      "The transition from complex internal rhymes to the starker bridge shows high intentionality in lyrical progression.",
+      "Production elements like beat dropouts and texture shifts are well-aligned with the narrative arc."
     ],
     "review_flags": [
-      "Uncertainty about section detection in audio; transcription quality is moderate but not poor."
+      "None",
+      "High confidence due to clear production notes and distinct sectioning."
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:56:06.5464782Z",
-    "eval_count": 875,
-    "eval_duration": 14310012300
+    "created_at": "2026-06-10T10:54:49.1058044Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 5688544,
+      "base64_chars": 7584728,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 8845,
+    "prompt_eval_duration": 3743137000,
+    "eval_count": 585,
+    "eval_duration": 14301049000
   }
 }

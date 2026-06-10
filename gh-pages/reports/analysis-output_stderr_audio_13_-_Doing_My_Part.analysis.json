@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T23:03:14",
+  "generated_at": "2026-06-10T13:00:37",
   "audio": {
     "path": "stderr/audio/13 - Doing My Part.mp3",
     "duration_seconds": 189.08,
@@ -960,7 +960,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1004,313 +1007,77 @@
       "beat_this detected 231 beats and 59 downbeats; beat-grid stability is 0.64.",
       "EG evidence: section contrast 2.33, cumulative evolution 1.31, transformed returns 10.00, grid deviation 1.29, rule changes 3.50.",
       "Companion text has 9 lyric/production sections, 473 words, line repetition 0.12, rhyme-suffix reuse 0.50.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 8.15.",
-      "Transcription check: lyric alignment 0.73, unique-word coverage 0.75, word-count ratio 0.95, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 8.15."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "yeah look close if you need a villain a volunteer walking the room and attention rise like the air itself recognize something crooked under the skin something broken walking and try to be decent try to be fair still leave damage everywhere if a good move I try to make got a shadow dragging in my way smile on but the wire is wrong like the static inside of some words come on sharpest strange every kind of smile rearrange people flinch when the silence falls like they really make through the walls I can see it before they speak they're quite a little shift in the cheek yeah try to change your shape I'm in five the edges off the sun but every fixers proves the chart I'm still doing my part if you need some wonder blame tonight put my face under like point and say don't grow that hard look at him he's doing his part if you need proof what around looks like I can live inside of like put me up like warning on yeah I'm doing my part me talking hard to stand every floor and high demand every memory and review every arm I ever thought I meant well every time still the algorithm is like crime intentions rest the moment they start like the blueprint my friends get tired of the same one track same apology coming back same profession same regret same mistake now finish yet even when I try to step aside still the fault I'm going side like gravity and uniform every system out the form try to walk a cleaner line try to quarantine up but the math don't fall apart I'm still doing my part if you need some wonder blame tonight put my face under like point and say don't grow that hard look at him he's doing his part if you need proof what around looks like I can live inside of like put me up like warning on yeah I'm doing my part it's got sitting deep in the chest like a parasite need a rest every breath you're second like the every check the man if this poison in the well I can't hear it when they tell you're the variable in the chart you're the one doing the part maybe every system needs one example when it bleeds one bad shape in human eyes so the rest don't let it start if you search for the scar for the place things fall apart you don't have to look at the heart I'm right here doing my part",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 14.04,
-        "text": "yeah look close if you need a villain a volunteer walking the room and",
-        "avg_logprob": -0.3612689380392884,
-        "no_speech_prob": 0.662109375
-      },
-      {
-        "start": 14.04,
-        "end": 18.12,
-        "text": "attention rise like the air itself recognize something crooked under the skin",
-        "avg_logprob": -0.3612689380392884,
-        "no_speech_prob": 0.662109375
-      },
-      {
-        "start": 18.12,
-        "end": 21.8,
-        "text": "something broken walking and try to be decent try to be fair still leave",
-        "avg_logprob": -0.3612689380392884,
-        "no_speech_prob": 0.662109375
-      },
-      {
-        "start": 21.8,
-        "end": 26.0,
-        "text": "damage everywhere if a good move I try to make got a shadow dragging in my",
-        "avg_logprob": -0.3612689380392884,
-        "no_speech_prob": 0.662109375
-      },
-      {
-        "start": 26.0,
-        "end": 30.48,
-        "text": "way smile on but the wire is wrong like the static inside of some words come on",
-        "avg_logprob": -0.4697473347187042,
-        "no_speech_prob": 0.1357421875
-      },
-      {
-        "start": 30.48,
-        "end": 34.28,
-        "text": "sharpest strange every kind of smile rearrange people flinch when the silence",
-        "avg_logprob": -0.4697473347187042,
-        "no_speech_prob": 0.1357421875
-      },
-      {
-        "start": 34.28,
-        "end": 37.8,
-        "text": "falls like they really make through the walls I can see it before they speak",
-        "avg_logprob": -0.4697473347187042,
-        "no_speech_prob": 0.1357421875
-      },
-      {
-        "start": 37.8,
-        "end": 42.92,
-        "text": "they're quite a little shift in the cheek yeah try to change your shape I'm in",
-        "avg_logprob": -0.4697473347187042,
-        "no_speech_prob": 0.1357421875
-      },
-      {
-        "start": 42.92,
-        "end": 49.84,
-        "text": "five the edges off the sun but every fixers proves the chart I'm still doing my",
-        "avg_logprob": -0.4697473347187042,
-        "no_speech_prob": 0.1357421875
-      },
-      {
-        "start": 49.84,
-        "end": 59.36,
-        "text": "part if you need some wonder blame tonight put my face under like point and say",
-        "avg_logprob": -0.444010429084301,
-        "no_speech_prob": 0.1270751953125
-      },
-      {
-        "start": 59.36,
-        "end": 66.36,
-        "text": "don't grow that hard look at him he's doing his part if you need proof what",
-        "avg_logprob": -0.444010429084301,
-        "no_speech_prob": 0.1270751953125
-      },
-      {
-        "start": 66.36,
-        "end": 76.28,
-        "text": "around looks like I can live inside of like put me up like warning on yeah I'm",
-        "avg_logprob": -0.444010429084301,
-        "no_speech_prob": 0.1270751953125
-      },
-      {
-        "start": 76.28,
-        "end": 81.4,
-        "text": "doing my part me talking hard to stand every",
-        "avg_logprob": -0.47673612270090315,
-        "no_speech_prob": 0.1307373046875
-      },
-      {
-        "start": 81.4,
-        "end": 85.56,
-        "text": "floor and high demand every memory and review every arm I ever",
-        "avg_logprob": -0.47673612270090315,
-        "no_speech_prob": 0.1307373046875
-      },
-      {
-        "start": 85.56,
-        "end": 89.72,
-        "text": "thought I meant well every time still the algorithm is like crime intentions",
-        "avg_logprob": -0.47673612270090315,
-        "no_speech_prob": 0.1307373046875
-      },
-      {
-        "start": 89.72,
-        "end": 93.44,
-        "text": "rest the moment they start like the blueprint my friends get tired of the",
-        "avg_logprob": -0.47673612270090315,
-        "no_speech_prob": 0.1307373046875
-      },
-      {
-        "start": 93.44,
-        "end": 98.16,
-        "text": "same one track same apology coming back same profession same regret same mistake",
-        "avg_logprob": -0.47673612270090315,
-        "no_speech_prob": 0.1307373046875
-      },
-      {
-        "start": 98.16,
-        "end": 101.68,
-        "text": "now finish yet even when I try to step aside still the fault I'm",
-        "avg_logprob": -0.47673612270090315,
-        "no_speech_prob": 0.1307373046875
-      },
-      {
-        "start": 101.68,
-        "end": 106.96,
-        "text": "going side like gravity and uniform every system out the form try to walk a",
-        "avg_logprob": -0.40953947786699263,
-        "no_speech_prob": 0.230224609375
-      },
-      {
-        "start": 106.96,
-        "end": 115.96,
-        "text": "cleaner line try to quarantine up but the math don't fall apart I'm still doing my",
-        "avg_logprob": -0.40953947786699263,
-        "no_speech_prob": 0.230224609375
-      },
-      {
-        "start": 115.96,
-        "end": 125.48,
-        "text": "part if you need some wonder blame tonight put my face under like point and say",
-        "avg_logprob": -0.40953947786699263,
-        "no_speech_prob": 0.230224609375
-      },
-      {
-        "start": 125.48,
-        "end": 132.56,
-        "text": "don't grow that hard look at him he's doing his part if you need proof what",
-        "avg_logprob": -0.32812498641919485,
-        "no_speech_prob": 0.48291015625
-      },
-      {
-        "start": 132.56,
-        "end": 142.48,
-        "text": "around looks like I can live inside of like put me up like warning on yeah I'm",
-        "avg_logprob": -0.32812498641919485,
-        "no_speech_prob": 0.48291015625
-      },
-      {
-        "start": 142.48,
-        "end": 149.2,
-        "text": "doing my part it's got sitting deep in the chest like a parasite need a rest",
-        "avg_logprob": -0.32812498641919485,
-        "no_speech_prob": 0.48291015625
-      },
-      {
-        "start": 149.2,
-        "end": 153.8,
-        "text": "every breath you're second like the every check the man if this poison in the",
-        "avg_logprob": -0.32812498641919485,
-        "no_speech_prob": 0.48291015625
-      },
-      {
-        "start": 153.8,
-        "end": 157.96,
-        "text": "well I can't hear it when they tell you're the variable in the chart you're the",
-        "avg_logprob": -0.41583333174387616,
-        "no_speech_prob": 0.061737060546875
-      },
-      {
-        "start": 157.96,
-        "end": 162.08,
-        "text": "one doing the part maybe every system needs one example when it",
-        "avg_logprob": -0.41583333174387616,
-        "no_speech_prob": 0.061737060546875
-      },
-      {
-        "start": 162.08,
-        "end": 166.22,
-        "text": "bleeds one bad shape in human eyes so the rest don't let it start if you",
-        "avg_logprob": -0.41583333174387616,
-        "no_speech_prob": 0.061737060546875
-      },
-      {
-        "start": 166.22,
-        "end": 170.18,
-        "text": "search for the scar for the place things fall apart you don't have to look",
-        "avg_logprob": -0.41583333174387616,
-        "no_speech_prob": 0.061737060546875
-      },
-      {
-        "start": 170.18,
-        "end": 177.18,
-        "text": "at the heart I'm right here doing my part",
-        "avg_logprob": -0.8191105952629676,
-        "no_speech_prob": 0.458984375
-      }
-    ],
-    "avg_logprob": -0.4290843517312267
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 459,
-    "transcript_word_count": 435,
-    "matched_sequence_words": 334,
-    "lyric_alignment_ratio": 0.728,
-    "transcript_precision_ratio": 0.768,
-    "unique_expected_word_coverage": 0.751,
-    "word_count_ratio": 0.948,
-    "repeated_12gram_ratio": 0.106,
-    "half_similarity": 0.359,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.736,
-    "quality_score_0_10": 7.36,
-    "flags": [],
-    "transcript_excerpt": "yeah look close if you need a villain a volunteer walking the room and attention rise like the air itself recognize something crooked under the skin something broken walking and try to be decent try to be fair still leave damage everywhere if a good move I try to make got a shadow dragging in my way smile on but the wire is wrong like the static inside of some words come on sharpest strange every kind of smile rearrange people flinch when the silence falls like they really make through the walls I can see it before they speak they're quite a little shift in the cheek yeah try to change your sh\n...[truncated]...\n his part if you need proof what around looks like I can live inside of like put me up like warning on yeah I'm doing my part it's got sitting deep in the chest like a parasite need a rest every breath you're second like the every check the man if this poison in the well I can't hear it when they tell you're the variable in the chart you're the one doing the part maybe every system needs one example when it bleeds one bad shape in human eyes so the rest don't let it start if you search for the scar for the place things fall apart you don't have to look at the heart I'm right here doing my part"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.84,
-      "MI_motivic_integration": 8.13,
-      "BP_beauty_spatial_poise": 8.63,
-      "EG_evolving_grammar": 8.43,
-      "CD_carry_depth": 7.25
+      "SC_structural_coherence": 9.34,
+      "MI_motivic_integration": 8.43,
+      "BP_beauty_spatial_poise": 8.73,
+      "EG_evolving_grammar": 7.93,
+      "CD_carry_depth": 7.45
     },
     "core_metrics": {
-      "CDPD": 0.82,
-      "NGE": 0.64,
-      "HMII_peak_estimate": 3
+      "CDPD": 0.855,
+      "NGE": 0.668,
+      "HMII_peak_estimate": 5
     },
     "rung_estimate": {
-      "number": 11,
-      "label": "Quiet Twists & Recursions",
-      "note": "Strong motif recurrence and spatial design, but limited harmonic evolution. Fits between template-based and Icarus-level innovation."
+      "number": 13,
+      "label": "Inhabited Form",
+      "note": "The track exhibits a sophisticated structure with distinct sections and clear thematic progression."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "Section lengths are proportionate, but transitions feel more DAW-paste than designed. The intro and outro are slightly overlong, and the bridge lacks a clear function."
+        "delta": 0.0,
+        "reason": "The track follows a standard but effective verse/hook structure with clear transitions."
       },
       "MI_motivic_integration": {
-        "delta": -0.3,
-        "reason": "Motifs recur across sections (e.g., vocal cadences, beat textures), but they are mostly transformed only in register or timbre, not in rhythm or structure. Cross-domain recursion is minimal."
+        "delta": 0.0,
+        "reason": "Stronger-than-average flow variation and rhythmic shifts between the verses and hooks."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.1,
-        "reason": "Sonic habitat is consistently spacious and quiet, with intentional reverb and stereo field. However, the mix occasionally masks important details, reducing clarity."
+        "delta": 0.0,
+        "reason": "Effective use of space and atmosphere to define section boundaries."
       },
       "EG_evolving_grammar": {
-        "delta": 0.5,
-        "reason": "Grammar evolves through subtle changes in beat density, harmonic color, and flow density. However, the core rules remain largely intact, with limited personal system development."
+        "delta": 0.0,
+        "reason": "The contrast between the sparse verse delivery and the dense hook creates a strong evolution."
       },
       "CD_carry_depth": {
-        "delta": -0.2,
-        "reason": "Emotional arc is present and introspective, but the track lacks a strong narrative or psychological habitat. It feels more like a mood than a world."
+        "delta": 0.0,
+        "reason": "Consistent lyrical motifs (the 'part', 'system') provide meaningful depth across sections."
       }
     },
     "rationale": [
-      "Detected 6 audio sections over 3:09.08 with section-balance score 0.50. Section transitions feel more DAW-paste than designed, reducing structural coherence.",
-      "Tempo estimate is 143.6 BPM; declared tempo alignment contributes 0.89. Beat-grid stability is 0.64, suggesting some rhythmic variation but not deep evolution.",
-      "Integrated loudness is -16.7 LUFS, peak is -2.4 dBFS, clipping ratio is 0.00000. Audio recurrence ratio is 0.128, suggesting repeated musical cells but not true motif recognition.",
-      "Estimated key is E minor with confidence 0.38. Harmonic evolution is limited, with only minor color changes.",
-      "EG evidence: section contrast 2.33, cumulative evolution 1.31, transformed returns 10.00, grid deviation 1.29, rule changes 3.50. Grammar evolves through subtle changes but lacks a strong personal system.",
-      "Companion text has 9 lyric/production sections, 473 words, line repetition 0.12, rhyme-suffix reuse 0.50. Motifs recur across sections but are mostly transformed in register or timbre.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 8.15. Spatial design is intentional but lacks deeper structural meaning.",
-      "Transcription check: lyric alignment 0.73, unique-word coverage 0.75, word-count ratio 0.95, duplicate-pass estimate 1. Lyric alignment is strong, but transcript is sparse and likely incomplete."
+      "The track excels in its contrast between the sparse, introspective verses and the more intense, dense hooks.",
+      "The production effectively uses texture changes to signal transitions without relying on generic loops.",
+      "Lyrical motifs regarding 'doing my part' provide a cohesive narrative thread throughout the piece."
     ],
     "review_flags": [
-      "Uncertainty about section detection: audio sections and text sections do not perfectly align, suggesting possible transcription or sectioning errors.",
-      "Limited harmonic evolution: only minor color changes in harmony, suggesting the track remains within a static minor loop."
+      "None",
+      "None",
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T21:03:14.2737949Z",
-    "eval_count": 926,
-    "eval_duration": 15463774900
+    "created_at": "2026-06-10T11:00:37.702575Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 6050786,
+      "base64_chars": 8067716,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 9325,
+    "prompt_eval_duration": 3907526000,
+    "eval_count": 543,
+    "eval_duration": 13125533000
   }
 }

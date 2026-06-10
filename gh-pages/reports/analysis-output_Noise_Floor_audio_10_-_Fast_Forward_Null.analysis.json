@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:33:17",
+  "generated_at": "2026-06-10T12:34:38",
   "audio": {
     "path": "Noise Floor/audio/10 - Fast Forward Null.mp3",
     "duration_seconds": 223.32,
@@ -1442,7 +1442,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1486,245 +1489,16 @@
       "beat_this detected 407 beats and 104 downbeats; beat-grid stability is 0.91.",
       "EG evidence: section contrast 1.64, cumulative evolution 0.59, transformed returns 10.00, grid deviation 0.81, rule changes 2.50.",
       "Companion text has 9 lyric/production sections, 393 words, line repetition 0.11, rhyme-suffix reuse 0.29.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, formal-pivot, space-change, texture-change); intent score 10.00.",
-      "Transcription check: lyric alignment 0.81, unique-word coverage 0.81, word-count ratio 1.13, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, formal-pivot, space-change, texture-change); intent score 10.00."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "The wheels spin clean, the counterlight, skip, drag, land, all that motion No arrival I thought the transport had an answer, shove the ribbon through the head Skip the dull parts, skip the waiting, make a run, way out of dread But the tape begins to wrinkle, and the picture doesn't change Same old room, a double motion, same old lock and shop the grain There is metal on the vowel, there is chop behind the grin Every short cut tastes like soder, and the song won't let me in Skip the hollow, we drag the frame, land and place, and call it change Fast forward, no pressure, no purr Fast forward, no just a motor to infer Run the wheel until it screams, still the door stays square, it's good Nothing gained by going quicker, when the quicker tastes this bad Now the phrases drift their back, it's now the snare arrives to soon, now the friendly little engine turns the hallway into new nav, can rush the conversation, can count if it is fine, but the contact comes avalo, like a jack without a lot, if it promises a fish and everything out from says race, just to burn the little driven, it held too long behind the taste, fast forward, no, skip the brief and keep the stain, fast forward, no, track the room through every frame, run the reel until it buckles, still the door refuses gone, nothing gained by going quicker, no good drags me out, oh, oh, oh, oh, oh, oh, stop the reels, hit the capston, lose its teeth, skip, no, drag, no, let the hurry, fall out backward, let me hear the room beneath, worthless, little acceleration, chip creative moving parts, you don't open human channels, you just overclock the dark, I would rather take the long way with my ardent careful hands, then arrive as bitter filings in a place that never lands, skip the price, drag the doubt, land inside, and wait it out, the counter rests, the ribbon slackens, bad taste fading, no prize missing, skip, drag, I land, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am,",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 29.52,
-        "text": "The wheels spin clean, the counterlight, skip, drag, land, all that motion",
-        "avg_logprob": -0.5138494345274839,
-        "no_speech_prob": 0.421630859375
-      },
-      {
-        "start": 29.52,
-        "end": 34.56,
-        "text": "No arrival",
-        "avg_logprob": -0.3179424237669184,
-        "no_speech_prob": 0.421630859375
-      },
-      {
-        "start": 34.56,
-        "end": 38.56,
-        "text": "I thought the transport had an answer, shove the ribbon through the head",
-        "avg_logprob": -0.3179424237669184,
-        "no_speech_prob": 0.421630859375
-      },
-      {
-        "start": 38.56,
-        "end": 43.04,
-        "text": "Skip the dull parts, skip the waiting, make a run, way out of dread",
-        "avg_logprob": -0.3179424237669184,
-        "no_speech_prob": 0.421630859375
-      },
-      {
-        "start": 43.04,
-        "end": 47.36,
-        "text": "But the tape begins to wrinkle, and the picture doesn't change",
-        "avg_logprob": -0.3179424237669184,
-        "no_speech_prob": 0.421630859375
-      },
-      {
-        "start": 47.36,
-        "end": 51.76,
-        "text": "Same old room, a double motion, same old lock and shop the grain",
-        "avg_logprob": -0.3179424237669184,
-        "no_speech_prob": 0.421630859375
-      },
-      {
-        "start": 51.76,
-        "end": 56.24,
-        "text": "There is metal on the vowel, there is chop behind the grin",
-        "avg_logprob": -0.3179424237669184,
-        "no_speech_prob": 0.421630859375
-      },
-      {
-        "start": 56.24,
-        "end": 60.16,
-        "text": "Every short cut tastes like soder, and the song won't let me in",
-        "avg_logprob": -0.6826009316288907,
-        "no_speech_prob": 0.1614990234375
-      },
-      {
-        "start": 60.16,
-        "end": 65.12,
-        "text": "Skip the hollow, we drag the frame, land and place, and call it change",
-        "avg_logprob": -0.6826009316288907,
-        "no_speech_prob": 0.1614990234375
-      },
-      {
-        "start": 65.12,
-        "end": 70.0,
-        "text": "Fast forward, no pressure, no purr",
-        "avg_logprob": -0.6826009316288907,
-        "no_speech_prob": 0.1614990234375
-      },
-      {
-        "start": 70.0,
-        "end": 74.4,
-        "text": "Fast forward, no just a motor to infer",
-        "avg_logprob": -0.6826009316288907,
-        "no_speech_prob": 0.1614990234375
-      },
-      {
-        "start": 74.4,
-        "end": 78.96,
-        "text": "Run the wheel until it screams, still the door stays square, it's good",
-        "avg_logprob": -0.6826009316288907,
-        "no_speech_prob": 0.1614990234375
-      },
-      {
-        "start": 78.96,
-        "end": 83.6,
-        "text": "Nothing gained by going quicker, when the quicker tastes this bad",
-        "avg_logprob": -0.6826009316288907,
-        "no_speech_prob": 0.1614990234375
-      },
-      {
-        "start": 86.24,
-        "end": 96.48,
-        "text": "Now the phrases drift their back, it's now the snare arrives to soon, now the friendly",
-        "avg_logprob": -0.5175189177195231,
-        "no_speech_prob": 0.88232421875
-      },
-      {
-        "start": 96.48,
-        "end": 102.86,
-        "text": "little engine turns the hallway into new nav, can rush the conversation, can count",
-        "avg_logprob": -0.5175189177195231,
-        "no_speech_prob": 0.88232421875
-      },
-      {
-        "start": 102.86,
-        "end": 109.98,
-        "text": "if it is fine, but the contact comes avalo, like a jack without a lot, if it promises",
-        "avg_logprob": -0.5175189177195231,
-        "no_speech_prob": 0.88232421875
-      },
-      {
-        "start": 109.98,
-        "end": 115.94,
-        "text": "a fish and everything out from says race, just to burn the little driven, it held too long",
-        "avg_logprob": -0.5742984870258643,
-        "no_speech_prob": 0.8642578125
-      },
-      {
-        "start": 115.94,
-        "end": 125.18,
-        "text": "behind the taste, fast forward, no, skip the brief and keep the stain, fast forward, no, track",
-        "avg_logprob": -0.5742984870258643,
-        "no_speech_prob": 0.8642578125
-      },
-      {
-        "start": 125.18,
-        "end": 131.02,
-        "text": "the room through every frame, run the reel until it buckles, still the door refuses",
-        "avg_logprob": -0.5742984870258643,
-        "no_speech_prob": 0.8642578125
-      },
-      {
-        "start": 131.02,
-        "end": 139.3,
-        "text": "gone, nothing gained by going quicker, no good drags me out, oh, oh, oh, oh, oh, oh,",
-        "avg_logprob": -0.5742984870258643,
-        "no_speech_prob": 0.8642578125
-      },
-      {
-        "start": 139.3,
-        "end": 150.42,
-        "text": "stop the reels, hit the capston, lose its teeth, skip, no, drag, no, let the hurry, fall",
-        "avg_logprob": -0.3497767720903669,
-        "no_speech_prob": 0.0499267578125
-      },
-      {
-        "start": 150.42,
-        "end": 159.82,
-        "text": "out backward, let me hear the room beneath, worthless, little acceleration, chip",
-        "avg_logprob": -0.3497767720903669,
-        "no_speech_prob": 0.0499267578125
-      },
-      {
-        "start": 159.82,
-        "end": 165.98,
-        "text": "creative moving parts, you don't open human channels, you just overclock the dark, I",
-        "avg_logprob": -0.3497767720903669,
-        "no_speech_prob": 0.0499267578125
-      },
-      {
-        "start": 165.98,
-        "end": 171.38,
-        "text": "would rather take the long way with my ardent careful hands, then arrive as bitter",
-        "avg_logprob": -0.43359376015988266,
-        "no_speech_prob": 0.6591796875
-      },
-      {
-        "start": 171.38,
-        "end": 180.98,
-        "text": "filings in a place that never lands, skip the price, drag the doubt, land inside, and",
-        "avg_logprob": -0.43359376015988266,
-        "no_speech_prob": 0.6591796875
-      },
-      {
-        "start": 180.98,
-        "end": 200.54,
-        "text": "wait it out, the counter rests, the ribbon slackens, bad taste fading, no prize missing, skip,",
-        "avg_logprob": -0.37149783352325705,
-        "no_speech_prob": 0.662109375
-      },
-      {
-        "start": 200.54,
-        "end": 208.06,
-        "text": "drag, I land, where I am, where I am, where I am, where I am, where I am, where I am,",
-        "avg_logprob": -0.37149783352325705,
-        "no_speech_prob": 0.662109375
-      },
-      {
-        "start": 208.06,
-        "end": 216.98,
-        "text": "where I am, where I am, where I am, where I am, where I am, where I am, where I am,",
-        "avg_logprob": -0.14339911296228658,
-        "no_speech_prob": 0.94970703125
-      }
-    ],
-    "avg_logprob": -0.4602023943600461
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 343,
-    "transcript_word_count": 389,
-    "matched_sequence_words": 277,
-    "lyric_alignment_ratio": 0.808,
-    "transcript_precision_ratio": 0.712,
-    "unique_expected_word_coverage": 0.814,
-    "word_count_ratio": 1.134,
-    "repeated_12gram_ratio": 0.066,
-    "half_similarity": 0.165,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.799,
-    "quality_score_0_10": 7.99,
-    "flags": [],
-    "transcript_excerpt": "The wheels spin clean, the counterlight, skip, drag, land, all that motion No arrival I thought the transport had an answer, shove the ribbon through the head Skip the dull parts, skip the waiting, make a run, way out of dread But the tape begins to wrinkle, and the picture doesn't change Same old room, a double motion, same old lock and shop the grain There is metal on the vowel, there is chop behind the grin Every short cut tastes like soder, and the song won't let me in Skip the hollow, we drag the frame, land and place, and call it change Fast forward, no pressure, no purr Fast forward, no\n...[truncated]...\n out backward, let me hear the room beneath, worthless, little acceleration, chip creative moving parts, you don't open human channels, you just overclock the dark, I would rather take the long way with my ardent careful hands, then arrive as bitter filings in a place that never lands, skip the price, drag the doubt, land inside, and wait it out, the counter rests, the ribbon slackens, bad taste fading, no prize missing, skip, drag, I land, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am, where I am,"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.2,
-      "BP_beauty_spatial_poise": 8.8,
-      "EG_evolving_grammar": 8.5,
-      "CD_carry_depth": 8.7
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.72,
+      "BP_beauty_spatial_poise": 8.76,
+      "EG_evolving_grammar": 7.93,
+      "CD_carry_depth": 8.45
     },
     "core_metrics": {
       "CDPD": 0.866,
@@ -1734,50 +1508,57 @@
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High score justified by complex, non-linear structure and sophisticated production."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track maintains a clear form with distinct sections, and the returns feel like revisiting emotional rooms. The section-balance score of 0.33 and stable beat-grid stability (0.91) support strong structural coherence."
+        "delta": 0.0,
+        "reason": "Base score reflects high structural integrity; the 'skip-drag-land' motif provides a clear, recurring architectural anchor."
       },
       "MI_motivic_integration": {
-        "delta": 0.48,
-        "reason": "Motifs like the 'skip-drag-land' cell recur across sections with altered forms, and the production cues (density-change, dropout, formal-pivot) suggest a high level of motivic integration."
+        "delta": 0.0,
+        "reason": "The interplay between the rhythmic 'skittering' and the lyrical focus on mechanical failure creates a cohesive thematic arc."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.04,
-        "reason": "The track’s sonic habitat, including tape noise, reverb, and stereo field, creates a memorable and coherent space. The spatial poise is central to the track’s identity."
+        "delta": 0.0,
+        "reason": "Production is highly intentional, using tape artifacts as deliberate aesthetic choices rather than flaws."
       },
       "EG_evolving_grammar": {
-        "delta": 0.57,
-        "reason": "The grammar evolves over time with meaningful rule changes (e.g., texture-law-shift, rhythmic-law-shift) and transformed returns. The track develops a personal indie grammar, though it does not fully invent a new method."
+        "delta": 0.0,
+        "reason": "The shift from 'rushing' to 'slow/dry' in the final verse shows a sophisticated evolution of both lyrical and musical delivery."
       },
       "CD_carry_depth": {
-        "delta": 0.25,
-        "reason": "The track defines a recognizable emotional habitat and invites re-listening. It leaves behind a specific image, phrase, and feeling, making it feel like a small world rather than a playlist mood."
+        "delta": 0.0,
+        "reason": "The recurring motif of the 'broken tape' provides deep thematic weight throughout the piece."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:43.32 with section-balance score 0.33.",
-      "Tempo estimate is 107.7 BPM; declared tempo alignment contributes 0.93.",
-      "Integrated loudness is -18.0 LUFS, peak is -1.7 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D major with confidence 0.26.",
-      "Audio recurrence ratio is 0.352; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 407 beats and 104 downbeats; beat-grid stability is 0.91.",
-      "EG evidence: section contrast 1.64, cumulative evolution 0.59, transformed returns 10.00, grid deviation 0.81, rule changes 2.50.",
-      "Companion text has 9 lyric/production sections, 393 words, line repetition 0.11, rhyme-suffix reuse 0.29."
+      "Strong structural coherence via the 'skip-drag-land' refrain as a rhythmic anchor.",
+      "Motivic integration is high; the mechanical sounds (tape clicks, hiss) are integral to the theme of failing technology.",
+      "Sophisticated production uses wow/flutter and filter sweeps to create a distinct sonic habitat.",
+      "The transition from frantic energy to the 'slow, dry' final verse provides a satisfying emotional payoff."
     ],
     "review_flags": [
-      "Uncertainty about the exact nature of the 'skip-drag-land' cell as a true motif, since audio recurrence ratio is a proxy for repeated musical cells."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:33:17.6258073Z",
-    "eval_count": 891,
-    "eval_duration": 14745182700
+    "created_at": "2026-06-10T10:34:38.6302972Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7146318,
+      "base64_chars": 9528424,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 10935,
+    "prompt_eval_duration": 4575712000,
+    "eval_count": 424,
+    "eval_duration": 10263889000
   }
 }

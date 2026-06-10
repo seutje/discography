@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:13:25",
+  "generated_at": "2026-06-10T12:17:07",
   "audio": {
     "path": "Failure to Converge/audio/04 - Third Body Problem.mp3",
     "duration_seconds": 266.04,
@@ -1522,7 +1522,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1566,333 +1569,76 @@
       "beat_this detected 422 beats and 111 downbeats; beat-grid stability is 0.42.",
       "EG evidence: section contrast 2.21, cumulative evolution 1.14, transformed returns 10.00, grid deviation 1.08, rule changes 4.29.",
       "Companion text has 10 lyric/production sections, 537 words, line repetition 0.13, rhyme-suffix reuse 0.38.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 6.60.",
-      "Transcription check: lyric alignment 0.89, unique-word coverage 0.94, word-count ratio 1.01, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 6.60."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Zero one, zero one, everything resolves, interpairs, except me. Two bodies bending space and symmetry, perfect ellipsis drawn so easily. Every streetlight hums in harmony, paired reflections staring back at me. Table set for two, tickets printed clean, every algorithm knows what. I have never been, I drift between the numbers, never quite assigned. An unpaired remainder in a system well defined, you orbit your line. Like gravity was always kind to signals intertwined, while I flicker out of time. Zero looking for one, but I'm neither never done just noise between the lines. Binary logic built into the walls, left side, right side, rise and fall. Magnetic poles that always choose, attract, repel, no room to lose. North, south, without a doubt, everything knows what it's about. Meanwhile, I'm, ba, ba, ba, compass spinning in a room with no field. Trying to feel what everyone else seems, pre-wired to feel. Even silence comes into, echo answering what it knew. But my voice just dissipates before it can be returned to you. Orbit you align, code it deep in your design. Two currents intertwined, close circuits every time. Zero reaching for one, but I glitch before become undefined. In a binary star system, everything makes sense. Two masses, locked in motion, each shaping the other's path, predictable, beautiful, inevitable. But introduce a third, and suddenly, nothing resolves. I am that third body, not enough to belong too much to ignore. I watch the pairs like constellations, perfect in their repetitions. Every orbit writes a story, balanced, held in quite glory. And I try to map my place, and they're synchronized embrace, but my trajectory just breaks. Every pattern I can trace, maybe I'm not meant to bind. To a single mirrored mine, maybe I'm the shifting frame, but no system can contain you. Orbit you align, but your gravity's not mine too. Signals intertwined, I dissolve between the signs. Zero never was a one, still the code keeps running on, and I'm somewhere in the soul. Zero one, zero one, the universe refers, a pair, but I remain unresolved. A third body, drifting through perfect systems that were never designed for me. A third body, drifting through perfect systems that were never designed for me.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 23.0,
-        "text": "Zero one, zero one, everything resolves, interpairs, except me.",
-        "avg_logprob": -0.6409970351627895,
-        "no_speech_prob": 0.459228515625
-      },
-      {
-        "start": 23.0,
-        "end": 33.0,
-        "text": "Two bodies bending space and symmetry, perfect ellipsis drawn so easily.",
-        "avg_logprob": -0.25871394058832753,
-        "no_speech_prob": 0.13525390625
-      },
-      {
-        "start": 33.0,
-        "end": 42.0,
-        "text": "Every streetlight hums in harmony, paired reflections staring back at me.",
-        "avg_logprob": -0.25871394058832753,
-        "no_speech_prob": 0.13525390625
-      },
-      {
-        "start": 42.0,
-        "end": 50.0,
-        "text": "Table set for two, tickets printed clean, every algorithm knows what.",
-        "avg_logprob": -0.25871394058832753,
-        "no_speech_prob": 0.13525390625
-      },
-      {
-        "start": 50.0,
-        "end": 57.0,
-        "text": "I have never been, I drift between the numbers, never quite assigned.",
-        "avg_logprob": -0.23012610067401015,
-        "no_speech_prob": 0.0204620361328125
-      },
-      {
-        "start": 57.0,
-        "end": 65.0,
-        "text": "An unpaired remainder in a system well defined, you orbit your line.",
-        "avg_logprob": -0.23012610067401015,
-        "no_speech_prob": 0.0204620361328125
-      },
-      {
-        "start": 65.0,
-        "end": 72.0,
-        "text": "Like gravity was always kind to signals intertwined, while I flicker out of time.",
-        "avg_logprob": -0.23012610067401015,
-        "no_speech_prob": 0.0204620361328125
-      },
-      {
-        "start": 72.0,
-        "end": 83.0,
-        "text": "Zero looking for one, but I'm neither never done just noise between the lines.",
-        "avg_logprob": -0.16477273114315874,
-        "no_speech_prob": 0.022430419921875
-      },
-      {
-        "start": 83.0,
-        "end": 88.0,
-        "text": "Binary logic built into the walls, left side, right side, rise and fall.",
-        "avg_logprob": -0.16477273114315874,
-        "no_speech_prob": 0.022430419921875
-      },
-      {
-        "start": 88.0,
-        "end": 93.0,
-        "text": "Magnetic poles that always choose, attract, repel, no room to lose.",
-        "avg_logprob": -0.16477273114315874,
-        "no_speech_prob": 0.022430419921875
-      },
-      {
-        "start": 93.0,
-        "end": 99.0,
-        "text": "North, south, without a doubt, everything knows what it's about.",
-        "avg_logprob": -0.16477273114315874,
-        "no_speech_prob": 0.022430419921875
-      },
-      {
-        "start": 99.0,
-        "end": 105.0,
-        "text": "Meanwhile, I'm, ba, ba, ba, compass spinning in a room with no field.",
-        "avg_logprob": -0.26116071811744146,
-        "no_speech_prob": 0.141357421875
-      },
-      {
-        "start": 105.0,
-        "end": 111.0,
-        "text": "Trying to feel what everyone else seems, pre-wired to feel.",
-        "avg_logprob": -0.26116071811744146,
-        "no_speech_prob": 0.141357421875
-      },
-      {
-        "start": 111.0,
-        "end": 117.0,
-        "text": "Even silence comes into, echo answering what it knew.",
-        "avg_logprob": -0.26116071811744146,
-        "no_speech_prob": 0.141357421875
-      },
-      {
-        "start": 117.0,
-        "end": 122.0,
-        "text": "But my voice just dissipates before it can be returned to you.",
-        "avg_logprob": -0.26116071811744146,
-        "no_speech_prob": 0.141357421875
-      },
-      {
-        "start": 122.0,
-        "end": 127.0,
-        "text": "Orbit you align, code it deep in your design.",
-        "avg_logprob": -0.25795201904007364,
-        "no_speech_prob": 0.178466796875
-      },
-      {
-        "start": 127.0,
-        "end": 132.0,
-        "text": "Two currents intertwined, close circuits every time.",
-        "avg_logprob": -0.25795201904007364,
-        "no_speech_prob": 0.178466796875
-      },
-      {
-        "start": 132.0,
-        "end": 141.0,
-        "text": "Zero reaching for one, but I glitch before become undefined.",
-        "avg_logprob": -0.25795201904007364,
-        "no_speech_prob": 0.178466796875
-      },
-      {
-        "start": 144.0,
-        "end": 151.0,
-        "text": "In a binary star system, everything makes sense.",
-        "avg_logprob": -0.25795201904007364,
-        "no_speech_prob": 0.178466796875
-      },
-      {
-        "start": 151.0,
-        "end": 162.0,
-        "text": "Two masses, locked in motion, each shaping the other's path, predictable, beautiful, inevitable.",
-        "avg_logprob": -0.1572443181818182,
-        "no_speech_prob": 0.0428466796875
-      },
-      {
-        "start": 162.0,
-        "end": 171.0,
-        "text": "But introduce a third, and suddenly, nothing resolves.",
-        "avg_logprob": -0.1572443181818182,
-        "no_speech_prob": 0.0428466796875
-      },
-      {
-        "start": 171.0,
-        "end": 179.0,
-        "text": "I am that third body, not enough to belong too much to ignore.",
-        "avg_logprob": -0.1572443181818182,
-        "no_speech_prob": 0.0428466796875
-      },
-      {
-        "start": 180.0,
-        "end": 185.0,
-        "text": "I watch the pairs like constellations, perfect in their repetitions.",
-        "avg_logprob": -0.1915147625323799,
-        "no_speech_prob": 0.19921875
-      },
-      {
-        "start": 185.0,
-        "end": 190.0,
-        "text": "Every orbit writes a story, balanced, held in quite glory.",
-        "avg_logprob": -0.1915147625323799,
-        "no_speech_prob": 0.19921875
-      },
-      {
-        "start": 190.0,
-        "end": 197.0,
-        "text": "And I try to map my place, and they're synchronized embrace, but my trajectory just breaks.",
-        "avg_logprob": -0.1915147625323799,
-        "no_speech_prob": 0.19921875
-      },
-      {
-        "start": 197.0,
-        "end": 202.0,
-        "text": "Every pattern I can trace, maybe I'm not meant to bind.",
-        "avg_logprob": -0.1915147625323799,
-        "no_speech_prob": 0.19921875
-      },
-      {
-        "start": 202.0,
-        "end": 210.0,
-        "text": "To a single mirrored mine, maybe I'm the shifting frame, but no system can contain you.",
-        "avg_logprob": -0.17835115033544993,
-        "no_speech_prob": 0.308837890625
-      },
-      {
-        "start": 210.0,
-        "end": 215.0,
-        "text": "Orbit you align, but your gravity's not mine too.",
-        "avg_logprob": -0.17835115033544993,
-        "no_speech_prob": 0.308837890625
-      },
-      {
-        "start": 215.0,
-        "end": 220.0,
-        "text": "Signals intertwined, I dissolve between the signs.",
-        "avg_logprob": -0.17835115033544993,
-        "no_speech_prob": 0.308837890625
-      },
-      {
-        "start": 220.0,
-        "end": 229.0,
-        "text": "Zero never was a one, still the code keeps running on, and I'm somewhere in the soul.",
-        "avg_logprob": -0.17835115033544993,
-        "no_speech_prob": 0.308837890625
-      },
-      {
-        "start": 230.0,
-        "end": 243.0,
-        "text": "Zero one, zero one, the universe refers, a pair, but I remain unresolved.",
-        "avg_logprob": -0.2878906287252903,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 243.0,
-        "end": 255.0,
-        "text": "A third body, drifting through perfect systems that were never designed for me.",
-        "avg_logprob": -0.2878906287252903,
-        "no_speech_prob": 0.077392578125
-      },
-      {
-        "start": 259.0,
-        "end": 265.0,
-        "text": "A third body, drifting through perfect systems that were never designed for me.",
-        "avg_logprob": -0.4908008608553145,
-        "no_speech_prob": 0.89111328125
-      }
-    ],
-    "avg_logprob": -0.26377739374683656
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 373,
-    "transcript_word_count": 376,
-    "matched_sequence_words": 332,
-    "lyric_alignment_ratio": 0.89,
-    "transcript_precision_ratio": 0.883,
-    "unique_expected_word_coverage": 0.94,
-    "word_count_ratio": 1.008,
-    "repeated_12gram_ratio": 0.005,
-    "half_similarity": 0.138,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.899,
-    "quality_score_0_10": 8.99,
-    "flags": [],
-    "transcript_excerpt": "Zero one, zero one, everything resolves, interpairs, except me. Two bodies bending space and symmetry, perfect ellipsis drawn so easily. Every streetlight hums in harmony, paired reflections staring back at me. Table set for two, tickets printed clean, every algorithm knows what. I have never been, I drift between the numbers, never quite assigned. An unpaired remainder in a system well defined, you orbit your line. Like gravity was always kind to signals intertwined, while I flicker out of time. Zero looking for one, but I'm neither never done just noise between the lines. Binary logic built \n...[truncated]...\nace, but my trajectory just breaks. Every pattern I can trace, maybe I'm not meant to bind. To a single mirrored mine, maybe I'm the shifting frame, but no system can contain you. Orbit you align, but your gravity's not mine too. Signals intertwined, I dissolve between the signs. Zero never was a one, still the code keeps running on, and I'm somewhere in the soul. Zero one, zero one, the universe refers, a pair, but I remain unresolved. A third body, drifting through perfect systems that were never designed for me. A third body, drifting through perfect systems that were never designed for me."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.93,
-      "MI_motivic_integration": 7.73,
-      "BP_beauty_spatial_poise": 8.2,
-      "EG_evolving_grammar": 7.96,
-      "CD_carry_depth": 9.16
+      "SC_structural_coherence": 9.85,
+      "MI_motivic_integration": 7.6,
+      "BP_beauty_spatial_poise": 8.3,
+      "EG_evolving_grammar": 8.1,
+      "CD_carry_depth": 9.2
     },
     "core_metrics": {
-      "CDPD": 0.879,
-      "NGE": 0.686,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.85,
+      "NGE": 0.7,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "The track exhibits high complexity in both lyrical and musical structure, utilizing sophisticated metaphors and a non-linear narrative that suggests an advanced level of songwriting."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": 0.0,
-        "reason": "The track maintains strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting the same emotional room."
+        "delta": -0.08,
+        "reason": "The transition from the 'Third Body' concept to the final outro is well-paced and intentional."
       },
       "MI_motivic_integration": {
-        "delta": 0.0,
-        "reason": "Motivic integration is strong, with recurring vocal hooks, guitar figures, and lyric images that evolve across sections."
+        "delta": -0.13,
+        "reason": "While the motif of duality is strong, some sections lean heavily on atmosphere over melodic progression."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.0,
-        "reason": "The sonic habitat is central to the track’s identity, with room tone, stereo panning, and tape warble forming a memorable spatial experience."
+        "delta": 0.1,
+        "reason": "The spatial arrangement described in production notes aligns well with the 'binary' theme."
       },
       "EG_evolving_grammar": {
-        "delta": 0.0,
-        "reason": "The grammar develops over time, with meaningful shifts in rhythm, texture, and arrangement that avoid simple layering."
+        "delta": 0.14,
+        "reason": "The use of technical/scientific terminology (orbit, gravity, binary) is integrated seamlessly into the poetic structure."
       },
       "CD_carry_depth": {
-        "delta": 0.0,
-        "reason": "The track feels like a small world, with a clear emotional arc and lasting imprint on the listener."
+        "delta": 0.04,
+        "reason": "The lyrical depth remains consistent throughout the track."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:26.04 with section-balance score 0.13.",
-      "Tempo estimate is 95.7 BPM; declared tempo alignment contributes 0.98.",
-      "Integrated loudness is -17.1 LUFS, peak is -1.1 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D#/Eb major with confidence 0.38.",
-      "Audio recurrence ratio is 0.373; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 422 beats and 111 downbeats; beat-grid stability is 0.42.",
-      "EG evidence: section contrast 2.21, cumulative evolution 1.14, transformed returns 10.00, grid deviation 1.08, rule changes 4.29.",
-      "Companion text has 10 lyric/production sections, 537 words, line repetition 0.13, rhyme-suffix reuse 0.38."
+      "The song uses a sophisticated 'Third Body' metaphor to explore isolation within systems of duality.",
+      "The production notes indicate intentional use of space and texture to mirror the lyrical themes of distance and alignment.",
+      "The structure follows a clear arc from introduction to a complex, layered hook before settling into a minimalist outro."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the final 15 seconds; audio-only evidence is weak."
+      "high_complexity",
+      "sophisticated_metaphor"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:13:25.094844Z",
-    "eval_count": 791,
-    "eval_duration": 13185016800
+    "created_at": "2026-06-10T10:17:07.4959939Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8513512,
+      "base64_chars": 11351352,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12351,
+    "prompt_eval_duration": 8146878000,
+    "eval_count": 449,
+    "eval_duration": 20073652000
   }
 }

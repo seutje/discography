@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:58:28",
+  "generated_at": "2026-06-10T12:56:49",
   "audio": {
     "path": "stderr/audio/05 - Dear Mr Weaver.mp3",
     "duration_seconds": 230.84,
@@ -1295,7 +1295,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1339,348 +1342,78 @@
       "beat_this detected 346 beats and 89 downbeats; beat-grid stability is 0.94.",
       "EG evidence: section contrast 1.56, cumulative evolution 0.41, transformed returns 10.00, grid deviation 0.56, rule changes 2.08.",
       "Companion text has 10 lyric/production sections, 470 words, line repetition 0.08, rhyme-suffix reuse 0.38.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.91, unique-word coverage 0.92, word-count ratio 0.99, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.65."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "The Mr. Weaver, I hope this letter finds you well or at least comfortable enough to hear what the city has to tell. The Mr. Weaver, you speak of a fracture, say the whole country's held back by its structure, you point at the ceiling, the pipes in the floor, and quietly sell off the house to the store. You talk about freedom, efficiency, speed, but markets grow fat while the six start to bleed. The clinics grow thinner, the waiting rooms long, your towers grow higher where developers throng, you split up the tenants, divide up the blame, and somehow the landlord walks out winning the game. The Mr. Weaver, who holds your thread, who profits quietly from the words you said. The fear Mr. Weaver, the pattern is clear, the cloth gets thinner every single year. You preach about order, discipline law, about moral decay that you swear that you saw. You chase after smoke in a teenager's hand while powder rise by the tongue to the land. Your harbor stays busy, your speeches stay neat, the gangs grow louder in every street. The sirens keep singing, a midnight refrain, but press rooms insist everything's under control. Again, the rules are strict for the week who survived, but strangely flexible for money that thrives. And of course, the sausages, every delay, every bill, every fall, there's always a sausage responsible for it all. Remarkable creatures, they seem to control half the parliament hall. You miss the Weaver, your loom spins fast, but thread pull tight, we'll snap at last. You miss the Weaver, your cloth may tear, when too many hands find nothing there. Strange little shadows stitched into the past, old flags that certain families cast. You say that history's buried and gone, yet echo still hum in the songs you lean on. Your party denies every whisper and claim, but sometimes the smoke looks a lot like a flame. The slogans feel older than most will admit, just polished and tailored to better fit. A suit and a tie can soften a creed, but underneath fabric, the stitches still bleed. Sell the rail, sell the care, sell the future piece by piece, if it's there. Balanced the books, tightened the road, privatized daylight, and then voiced the hoe. Dear Mr Weaver, answer me true, who keeps the country well losing to you. Dear Mr Weaver, the pattern shows, the richer the towers, the poorer it grows. Dear Mr Weaver, you keep weaving the story, that everything's fine, but the people you're threading are starting to read between the lines.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 17.94,
-        "text": "The Mr. Weaver, I hope this letter finds you well or at least comfortable enough to",
-        "avg_logprob": -0.36951318691516744,
-        "no_speech_prob": 0.38330078125
-      },
-      {
-        "start": 17.94,
-        "end": 21.46,
-        "text": "hear what the city has to tell.",
-        "avg_logprob": -0.36951318691516744,
-        "no_speech_prob": 0.38330078125
-      },
-      {
-        "start": 21.46,
-        "end": 26.56,
-        "text": "The Mr. Weaver, you speak of a fracture, say the whole country's held back by its structure,",
-        "avg_logprob": -0.36951318691516744,
-        "no_speech_prob": 0.38330078125
-      },
-      {
-        "start": 26.56,
-        "end": 31.02,
-        "text": "you point at the ceiling, the pipes in the floor, and quietly sell off the house to",
-        "avg_logprob": -0.253794630084719,
-        "no_speech_prob": 0.161376953125
-      },
-      {
-        "start": 31.02,
-        "end": 32.02,
-        "text": "the store.",
-        "avg_logprob": -0.253794630084719,
-        "no_speech_prob": 0.161376953125
-      },
-      {
-        "start": 32.02,
-        "end": 36.5,
-        "text": "You talk about freedom, efficiency, speed, but markets grow fat while the six start",
-        "avg_logprob": -0.253794630084719,
-        "no_speech_prob": 0.161376953125
-      },
-      {
-        "start": 36.5,
-        "end": 37.5,
-        "text": "to bleed.",
-        "avg_logprob": -0.253794630084719,
-        "no_speech_prob": 0.161376953125
-      },
-      {
-        "start": 37.5,
-        "end": 41.78,
-        "text": "The clinics grow thinner, the waiting rooms long, your towers grow higher where developers",
-        "avg_logprob": -0.253794630084719,
-        "no_speech_prob": 0.161376953125
-      },
-      {
-        "start": 41.78,
-        "end": 46.94,
-        "text": "throng, you split up the tenants, divide up the blame, and somehow the landlord walks",
-        "avg_logprob": -0.34314903444968736,
-        "no_speech_prob": 0.2330322265625
-      },
-      {
-        "start": 46.94,
-        "end": 53.26,
-        "text": "out winning the game.",
-        "avg_logprob": -0.34314903444968736,
-        "no_speech_prob": 0.2330322265625
-      },
-      {
-        "start": 53.26,
-        "end": 63.78,
-        "text": "The Mr. Weaver, who holds your thread, who profits quietly from the words you said.",
-        "avg_logprob": -0.34314903444968736,
-        "no_speech_prob": 0.2330322265625
-      },
-      {
-        "start": 63.78,
-        "end": 74.58,
-        "text": "The fear Mr. Weaver, the pattern is clear, the cloth gets thinner every single year.",
-        "avg_logprob": -0.25202205461614274,
-        "no_speech_prob": 0.347412109375
-      },
-      {
-        "start": 74.58,
-        "end": 79.9,
-        "text": "You preach about order, discipline law, about moral decay that you swear that you saw.",
-        "avg_logprob": -0.25202205461614274,
-        "no_speech_prob": 0.347412109375
-      },
-      {
-        "start": 79.9,
-        "end": 85.18,
-        "text": "You chase after smoke in a teenager's hand while powder rise by the tongue to the land.",
-        "avg_logprob": -0.25202205461614274,
-        "no_speech_prob": 0.347412109375
-      },
-      {
-        "start": 85.18,
-        "end": 90.54,
-        "text": "Your harbor stays busy, your speeches stay neat, the gangs grow louder in every street.",
-        "avg_logprob": -0.25202205461614274,
-        "no_speech_prob": 0.347412109375
-      },
-      {
-        "start": 90.54,
-        "end": 95.08,
-        "text": "The sirens keep singing, a midnight refrain, but press rooms insist everything's under",
-        "avg_logprob": -0.2745768195018172,
-        "no_speech_prob": 0.60791015625
-      },
-      {
-        "start": 95.08,
-        "end": 96.08,
-        "text": "control.",
-        "avg_logprob": -0.2745768195018172,
-        "no_speech_prob": 0.60791015625
-      },
-      {
-        "start": 96.08,
-        "end": 100.94,
-        "text": "Again, the rules are strict for the week who survived, but strangely flexible for money",
-        "avg_logprob": -0.2745768195018172,
-        "no_speech_prob": 0.60791015625
-      },
-      {
-        "start": 100.94,
-        "end": 102.18,
-        "text": "that thrives.",
-        "avg_logprob": -0.2745768195018172,
-        "no_speech_prob": 0.60791015625
-      },
-      {
-        "start": 102.18,
-        "end": 110.94,
-        "text": "And of course, the sausages, every delay, every bill, every fall, there's always a sausage",
-        "avg_logprob": -0.2745768195018172,
-        "no_speech_prob": 0.60791015625
-      },
-      {
-        "start": 110.94,
-        "end": 114.18,
-        "text": "responsible for it all.",
-        "avg_logprob": -0.2745768195018172,
-        "no_speech_prob": 0.60791015625
-      },
-      {
-        "start": 114.18,
-        "end": 119.82,
-        "text": "Remarkable creatures, they seem to control half the parliament hall.",
-        "avg_logprob": -0.2745768195018172,
-        "no_speech_prob": 0.60791015625
-      },
-      {
-        "start": 119.82,
-        "end": 129.82,
-        "text": "You miss the Weaver, your loom spins fast, but thread pull tight, we'll snap at last.",
-        "avg_logprob": -0.3548076923076923,
-        "no_speech_prob": 0.498046875
-      },
-      {
-        "start": 129.82,
-        "end": 141.62,
-        "text": "You miss the Weaver, your cloth may tear, when too many hands find nothing there.",
-        "avg_logprob": -0.3548076923076923,
-        "no_speech_prob": 0.498046875
-      },
-      {
-        "start": 141.62,
-        "end": 146.58,
-        "text": "Strange little shadows stitched into the past, old flags that certain families cast.",
-        "avg_logprob": -0.3548076923076923,
-        "no_speech_prob": 0.498046875
-      },
-      {
-        "start": 146.58,
-        "end": 151.9,
-        "text": "You say that history's buried and gone, yet echo still hum in the songs you lean on.",
-        "avg_logprob": -0.2915483039211143,
-        "no_speech_prob": 0.72509765625
-      },
-      {
-        "start": 151.9,
-        "end": 157.26,
-        "text": "Your party denies every whisper and claim, but sometimes the smoke looks a lot like a flame.",
-        "avg_logprob": -0.2915483039211143,
-        "no_speech_prob": 0.72509765625
-      },
-      {
-        "start": 157.26,
-        "end": 162.5,
-        "text": "The slogans feel older than most will admit, just polished and tailored to better fit.",
-        "avg_logprob": -0.2915483039211143,
-        "no_speech_prob": 0.72509765625
-      },
-      {
-        "start": 162.5,
-        "end": 173.38,
-        "text": "A suit and a tie can soften a creed, but underneath fabric, the stitches still bleed.",
-        "avg_logprob": -0.2915483039211143,
-        "no_speech_prob": 0.72509765625
-      },
-      {
-        "start": 173.38,
-        "end": 183.38,
-        "text": "Sell the rail, sell the care, sell the future piece by piece, if it's there.",
-        "avg_logprob": -0.342708330684238,
-        "no_speech_prob": 0.40625
-      },
-      {
-        "start": 183.38,
-        "end": 194.26,
-        "text": "Balanced the books, tightened the road, privatized daylight, and then voiced the hoe.",
-        "avg_logprob": -0.342708330684238,
-        "no_speech_prob": 0.40625
-      },
-      {
-        "start": 194.26,
-        "end": 205.02,
-        "text": "Dear Mr Weaver, answer me true, who keeps the country well losing to you.",
-        "avg_logprob": -0.2714389659637629,
-        "no_speech_prob": 0.6337890625
-      },
-      {
-        "start": 205.02,
-        "end": 216.82,
-        "text": "Dear Mr Weaver, the pattern shows, the richer the towers, the poorer it grows.",
-        "avg_logprob": -0.2714389659637629,
-        "no_speech_prob": 0.6337890625
-      },
-      {
-        "start": 216.82,
-        "end": 225.18,
-        "text": "Dear Mr Weaver, you keep weaving the story, that everything's fine, but the people you're",
-        "avg_logprob": -0.25625000953674315,
-        "no_speech_prob": 0.477783203125
-      },
-      {
-        "start": 225.18,
-        "end": 230.62,
-        "text": "threading are starting to read between the lines.",
-        "avg_logprob": -0.41346152929159313,
-        "no_speech_prob": 0.7939453125
-      }
-    ],
-    "avg_logprob": -0.30781833724713
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 437,
-    "transcript_word_count": 433,
-    "matched_sequence_words": 396,
-    "lyric_alignment_ratio": 0.906,
-    "transcript_precision_ratio": 0.915,
-    "unique_expected_word_coverage": 0.924,
-    "word_count_ratio": 0.991,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.181,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.911,
-    "quality_score_0_10": 9.11,
-    "flags": [],
-    "transcript_excerpt": "The Mr. Weaver, I hope this letter finds you well or at least comfortable enough to hear what the city has to tell. The Mr. Weaver, you speak of a fracture, say the whole country's held back by its structure, you point at the ceiling, the pipes in the floor, and quietly sell off the house to the store. You talk about freedom, efficiency, speed, but markets grow fat while the six start to bleed. The clinics grow thinner, the waiting rooms long, your towers grow higher where developers throng, you split up the tenants, divide up the blame, and somehow the landlord walks out winning the game. The\n...[truncated]...\nmost will admit, just polished and tailored to better fit. A suit and a tie can soften a creed, but underneath fabric, the stitches still bleed. Sell the rail, sell the care, sell the future piece by piece, if it's there. Balanced the books, tightened the road, privatized daylight, and then voiced the hoe. Dear Mr Weaver, answer me true, who keeps the country well losing to you. Dear Mr Weaver, the pattern shows, the richer the towers, the poorer it grows. Dear Mr Weaver, you keep weaving the story, that everything's fine, but the people you're threading are starting to read between the lines."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 8.5,
-      "BP_beauty_spatial_poise": 9.2,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 8.5
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 9.5,
+      "BP_beauty_spatial_poise": 9.21,
+      "EG_evolving_grammar": 6.84,
+      "CD_carry_depth": 8.22
     },
     "core_metrics": {
-      "CDPD": 0.96,
-      "NGE": 0.61,
-      "HMII_peak_estimate": 6
+      "CDPD": 0.964,
+      "NGE": 0.605,
+      "HMII_peak_estimate": 7
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "The track maintains a consistent atmosphere while evolving through distinct sections."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "7 distinct audio sections with balanced durations and clear transitions (section-balance score 0.57), and a well-defined section map (Intro–Verse–Hook–Verse–Hook–Bridge–Hook–Outro)."
+        "delta": 0.0,
+        "reason": "Structure is perfectly coherent with a clear verse-hook-bridge progression."
       },
       "MI_motivic_integration": {
-        "delta": -1.5,
-        "reason": "Motifs are present but not deeply integrated across sections; some recurrence but limited transformation (e.g., hook rhythm appears in verse cadences, but not fully developed)."
+        "delta": -0.5,
+        "reason": "While the hook is strong, some spoken sections are less rhythmically integrated than the musical parts."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.01,
-        "reason": "Consistent spatial design with vinyl crackle, room ambience, and intentional stereo field, maintaining a raw protest-song atmosphere."
+        "delta": 0.0,
+        "reason": "The production maintains a high level of spatial clarity and aesthetic consistency."
       },
       "EG_evolving_grammar": {
-        "delta": 0.66,
-        "reason": "Grammar evolves minimally; while there are rule changes (e.g., bar-grid-deviation, timbre-law-shift), the overall method remains static with limited development."
+        "delta": 0.0,
+        "reason": "The lyrical progression from 'weaving' to 'reading between the lines' shows strong thematic evolution."
       },
       "CD_carry_depth": {
-        "delta": 0.28,
-        "reason": "Track defines a recognizable emotional habitat with a clear arc from confrontation to reflection, inviting re-listening beyond mood-playlist utility."
+        "delta": 0.0,
+        "reason": "The imagery of weaving and unraveling provides significant depth."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:50.84 with section-balance score 0.57.",
-      "Tempo estimate is 89.1 BPM; declared tempo alignment contributes 0.93.",
-      "Integrated loudness is -16.5 LUFS, peak is -0.4 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D major with confidence 0.35.",
-      "Audio recurrence ratio is 0.361; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 346 beats and 89 downbeats; beat-grid stability is 0.94.",
-      "EG evidence: section contrast 1.56, cumulative evolution 0.41, transformed returns 10.00, grid deviation 0.56, rule changes 2.08.",
-      "Companion text has 10 lyric/production sections, 470 words, line repetition 0.08, rhyme-suffix reuse 0.38."
+      "The track features a sophisticated interplay between spoken word and melodic hooks.",
+      "The 'weaving' metaphor is consistently developed throughout the piece.",
+      "Production values are high, with clear spatial separation of instruments.",
+      "The transition from protest-style delivery to more melodic sections provides good dynamic contrast."
     ],
     "review_flags": [
-      "Uncertainty about motif recognition due to audio recurrence ratio not matching true motif detection.",
-      "Section detection appears consistent, but section-balance score suggests potential padding."
+      "None",
+      "None",
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:58:28.018807Z",
-    "eval_count": 835,
-    "eval_duration": 13959028600
+    "created_at": "2026-06-10T10:56:49.0568983Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7387108,
+      "base64_chars": 9849480,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11064,
+    "prompt_eval_duration": 4889423000,
+    "eval_count": 541,
+    "eval_duration": 13134684000
   }
 }

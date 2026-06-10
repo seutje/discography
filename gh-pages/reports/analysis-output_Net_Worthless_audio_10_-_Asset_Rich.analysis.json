@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:26:52",
+  "generated_at": "2026-06-10T12:28:57",
   "audio": {
     "path": "Net Worthless/audio/10 - Asset Rich.mp3",
     "duration_seconds": 324.64,
@@ -1644,7 +1644,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1688,452 +1691,77 @@
       "beat_this detected 460 beats and 115 downbeats; beat-grid stability is 0.93.",
       "EG evidence: section contrast 1.58, cumulative evolution 0.41, transformed returns 10.00, grid deviation 0.20, rule changes 1.39.",
       "Companion text has 11 lyric/production sections, 862 words, line repetition 0.11, rhyme-suffix reuse 0.43.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.91, unique-word coverage 0.91, word-count ratio 1.03, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.65."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "My bank had passed if I wanted. Financial insights, bold. I said, mate, I've got insights. What I need is money. I'm asset rich in cash poor, which means I can explain the entire machine. I'm standing in the kitchen, calculating the cheese. I've got skills like emergency candles, bright useful, mostly used when something is failed. I know how to fix three broken systems, four sad people, and one router by threat, and then it gently I can write the email that makes the room behave. I can read the silence in a meeting in here, who is about to quit. I can turn a wound into a chorus, a panic attack, into a plan, a cheap guitar, into a small republic for the overdrawn. Still, the boiler blinks like a moral question, the rent arise with this little crown on. The fridge contains mustard light and the idea of dinner. I count what I know, when the numbers don't line, golden my head, and dust in my hand. I'm asset rich, cash poor, still holding the door, got a fortune in nerve, and a bill on the floor. Made through class roof, with the weather coming through, I own what I learned. But the bank owns the view, if wisdom paid rent, I'd be hard to ignore, but I'm asset rich, cash poor, diversified portfolio, one useful brain, three mugs, and a cardigan with leadership potential. They told us knowledge was allowed to climb and earn it be clever, so my climb till my hands went numb, but a nice little view of everyone below me, also climbing, also renting, also one bad month from becoming a cautionary linked in post-app. I did the courses, read the books, learn the language of rooms or glass walls, stay cold, a pipeline, resilience, tiny spell words for people who were tired, but laminated. And yes, I'm comfortable, comparatively, I've got heeding most days, a dentist, I avoid for emotional reasons and coffee, that cost enough to have opinions, so I won't pretend I'm at the bottom, I'm just close enough to hear it breathing, close enough to know the floor, it's not a floor, it's a subscription, am I set rich, cash poor still holding the door, I've got a fortune in a van, a bill on the floor, it look like a roof with the weather coming through, I own what I learned, but the bank owns the view, if wisdom paid rent, I'd be hard to ignore, but I'm a set rich, cash poor, and the cruel joke is, I do feel rich, not always, not when the car makes a sound like a bag of color would be enjudged, not when the invoice sits in my inbox with its shoes on, but sometimes when a friend says, how did you know what I meant? When a line arrives clean and true after weeks of scraping fuck, when I fix something with patience instead of panic, when the small room fills with people who trust me enough to be tired, then I feel rich, disgustingly rich, I'm sure I count in the sole private island if not giving up, and no, that does not pay the council tax, I have checked repeatedly, but it means the ledger is incomplete, it means the market is terrible, eyesight, it means some forms of wealth, refused to behave like wealth, maybe that's the trick at the end of the album, not pretending broke as holy, not calling pressure character, because someone rich needs the story tidy, but refusing to let the till name every treasurer I have been porting cash and obscene in questions, then in savings, ever with songs, one foot in the middle class, one foot over the drop door, both hands full of things I couldn't sell without becoming less alive, so let the spreadsheet shake its head, let me out for insights, let the landlord call it passive income, like my boss is an active expense, I am still here, still learning, still useful, still making soup, from weather and wider, my set rich cash pours still hold in the door, got a fortune in nerve and a bill on the floor, made the class roof with the weather coming through our own, what I learned, but the bank owns the view with wisdom paid rent, I'd be hard to ignore, but I'm our set rich, cash pour, I'm dead to wear hope, so I'm still singing for more, got a heart in the red and a light in the store, if love had a wage, we'd all make it through, so I count what is left and I share it with you, my bank app says I'm spending too much on groceries fare, but tonight, there are four people at my table, laughing, like the rent can't hear a sin for once, the numbers can't wait outside, hmmm.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 14.56,
-        "text": "My bank had passed if I wanted. Financial insights, bold. I said, mate, I've got insights.",
-        "avg_logprob": -0.358934847401901,
-        "no_speech_prob": 0.330322265625
-      },
-      {
-        "start": 14.56,
-        "end": 19.96,
-        "text": "What I need is money. I'm asset rich in cash poor, which means I can explain the entire",
-        "avg_logprob": -0.358934847401901,
-        "no_speech_prob": 0.330322265625
-      },
-      {
-        "start": 19.96,
-        "end": 28.44,
-        "text": "machine. I'm standing in the kitchen, calculating the cheese. I've got skills like emergency",
-        "avg_logprob": -0.358934847401901,
-        "no_speech_prob": 0.330322265625
-      },
-      {
-        "start": 28.44,
-        "end": 34.64,
-        "text": "candles, bright useful, mostly used when something is failed. I know how to fix three broken",
-        "avg_logprob": -0.2801724060856063,
-        "no_speech_prob": 0.38671875
-      },
-      {
-        "start": 34.64,
-        "end": 39.52,
-        "text": "systems, four sad people, and one router by threat, and then it gently I can write the",
-        "avg_logprob": -0.2801724060856063,
-        "no_speech_prob": 0.38671875
-      },
-      {
-        "start": 39.52,
-        "end": 45.36,
-        "text": "email that makes the room behave. I can read the silence in a meeting in here, who is",
-        "avg_logprob": -0.2801724060856063,
-        "no_speech_prob": 0.38671875
-      },
-      {
-        "start": 45.36,
-        "end": 50.92,
-        "text": "about to quit. I can turn a wound into a chorus, a panic attack, into a plan, a cheap",
-        "avg_logprob": -0.2801724060856063,
-        "no_speech_prob": 0.38671875
-      },
-      {
-        "start": 50.92,
-        "end": 58.28,
-        "text": "guitar, into a small republic for the overdrawn. Still, the boiler blinks like a moral question,",
-        "avg_logprob": -0.2801724060856063,
-        "no_speech_prob": 0.38671875
-      },
-      {
-        "start": 58.28,
-        "end": 63.6,
-        "text": "the rent arise with this little crown on. The fridge contains mustard light and the idea",
-        "avg_logprob": -0.33323597128146165,
-        "no_speech_prob": 0.1324462890625
-      },
-      {
-        "start": 63.6,
-        "end": 68.44,
-        "text": "of dinner. I count what I know, when the numbers don't",
-        "avg_logprob": -0.33323597128146165,
-        "no_speech_prob": 0.1324462890625
-      },
-      {
-        "start": 68.44,
-        "end": 74.48,
-        "text": "line, golden my head, and dust in my hand. I'm asset rich, cash poor, still holding",
-        "avg_logprob": -0.33323597128146165,
-        "no_speech_prob": 0.1324462890625
-      },
-      {
-        "start": 74.48,
-        "end": 79.56,
-        "text": "the door, got a fortune in nerve, and a bill on the floor. Made through class roof, with",
-        "avg_logprob": -0.33323597128146165,
-        "no_speech_prob": 0.1324462890625
-      },
-      {
-        "start": 79.56,
-        "end": 84.24,
-        "text": "the weather coming through, I own what I learned. But the bank owns the view, if wisdom",
-        "avg_logprob": -0.33323597128146165,
-        "no_speech_prob": 0.1324462890625
-      },
-      {
-        "start": 84.24,
-        "end": 94.6,
-        "text": "paid rent, I'd be hard to ignore, but I'm asset rich, cash poor, diversified portfolio,",
-        "avg_logprob": -0.24354619403248248,
-        "no_speech_prob": 0.2484130859375
-      },
-      {
-        "start": 94.6,
-        "end": 101.04,
-        "text": "one useful brain, three mugs, and a cardigan with leadership potential. They told us knowledge",
-        "avg_logprob": -0.24354619403248248,
-        "no_speech_prob": 0.2484130859375
-      },
-      {
-        "start": 101.04,
-        "end": 105.56,
-        "text": "was allowed to climb and earn it be clever, so my climb till my hands went numb, but a",
-        "avg_logprob": -0.24354619403248248,
-        "no_speech_prob": 0.2484130859375
-      },
-      {
-        "start": 105.56,
-        "end": 110.84,
-        "text": "nice little view of everyone below me, also climbing, also renting, also one bad month",
-        "avg_logprob": -0.24354619403248248,
-        "no_speech_prob": 0.2484130859375
-      },
-      {
-        "start": 110.84,
-        "end": 116.0,
-        "text": "from becoming a cautionary linked in post-app. I did the courses, read the books, learn",
-        "avg_logprob": -0.2903761061946903,
-        "no_speech_prob": 0.7802734375
-      },
-      {
-        "start": 116.0,
-        "end": 120.76,
-        "text": "the language of rooms or glass walls, stay cold, a pipeline, resilience, tiny spell",
-        "avg_logprob": -0.2903761061946903,
-        "no_speech_prob": 0.7802734375
-      },
-      {
-        "start": 120.76,
-        "end": 126.92,
-        "text": "words for people who were tired, but laminated. And yes, I'm comfortable, comparatively,",
-        "avg_logprob": -0.2903761061946903,
-        "no_speech_prob": 0.7802734375
-      },
-      {
-        "start": 126.92,
-        "end": 132.36,
-        "text": "I've got heeding most days, a dentist, I avoid for emotional reasons and coffee, that",
-        "avg_logprob": -0.2903761061946903,
-        "no_speech_prob": 0.7802734375
-      },
-      {
-        "start": 132.36,
-        "end": 139.2,
-        "text": "cost enough to have opinions, so I won't pretend I'm at the bottom, I'm just close",
-        "avg_logprob": -0.2903761061946903,
-        "no_speech_prob": 0.7802734375
-      },
-      {
-        "start": 139.2,
-        "end": 146.4,
-        "text": "enough to hear it breathing, close enough to know the floor, it's not a floor, it's",
-        "avg_logprob": -0.3013853191100445,
-        "no_speech_prob": 0.135986328125
-      },
-      {
-        "start": 146.4,
-        "end": 151.68,
-        "text": "a subscription, am I set rich, cash poor still holding the door, I've got a fortune",
-        "avg_logprob": -0.3013853191100445,
-        "no_speech_prob": 0.135986328125
-      },
-      {
-        "start": 151.68,
-        "end": 157.12,
-        "text": "in a van, a bill on the floor, it look like a roof with the weather coming through, I own",
-        "avg_logprob": -0.3013853191100445,
-        "no_speech_prob": 0.135986328125
-      },
-      {
-        "start": 157.12,
-        "end": 162.28,
-        "text": "what I learned, but the bank owns the view, if wisdom paid rent, I'd be hard to ignore,",
-        "avg_logprob": -0.3013853191100445,
-        "no_speech_prob": 0.135986328125
-      },
-      {
-        "start": 162.28,
-        "end": 172.08,
-        "text": "but I'm a set rich, cash poor, and the cruel joke is, I do feel rich, not always, not",
-        "avg_logprob": -0.2214604604000948,
-        "no_speech_prob": 0.33935546875
-      },
-      {
-        "start": 172.08,
-        "end": 177.68,
-        "text": "when the car makes a sound like a bag of color would be enjudged, not when the invoice sits",
-        "avg_logprob": -0.2214604604000948,
-        "no_speech_prob": 0.33935546875
-      },
-      {
-        "start": 177.68,
-        "end": 185.56,
-        "text": "in my inbox with its shoes on, but sometimes when a friend says, how did you know what I meant?",
-        "avg_logprob": -0.2214604604000948,
-        "no_speech_prob": 0.33935546875
-      },
-      {
-        "start": 185.56,
-        "end": 191.12,
-        "text": "When a line arrives clean and true after weeks of scraping fuck, when I fix something with",
-        "avg_logprob": -0.2214604604000948,
-        "no_speech_prob": 0.33935546875
-      },
-      {
-        "start": 191.12,
-        "end": 196.68,
-        "text": "patience instead of panic, when the small room fills with people who trust me enough",
-        "avg_logprob": -0.23630618647243198,
-        "no_speech_prob": 0.70556640625
-      },
-      {
-        "start": 196.68,
-        "end": 203.56,
-        "text": "to be tired, then I feel rich, disgustingly rich, I'm sure I count in the sole private",
-        "avg_logprob": -0.23630618647243198,
-        "no_speech_prob": 0.70556640625
-      },
-      {
-        "start": 203.56,
-        "end": 210.4,
-        "text": "island if not giving up, and no, that does not pay the council tax, I have checked repeatedly,",
-        "avg_logprob": -0.23630618647243198,
-        "no_speech_prob": 0.70556640625
-      },
-      {
-        "start": 210.4,
-        "end": 215.48,
-        "text": "but it means the ledger is incomplete, it means the market is terrible, eyesight, it",
-        "avg_logprob": -0.23630618647243198,
-        "no_speech_prob": 0.70556640625
-      },
-      {
-        "start": 215.48,
-        "end": 223.12,
-        "text": "means some forms of wealth, refused to behave like wealth, maybe that's the trick at",
-        "avg_logprob": -0.2957974185888795,
-        "no_speech_prob": 0.5087890625
-      },
-      {
-        "start": 223.12,
-        "end": 228.4,
-        "text": "the end of the album, not pretending broke as holy, not calling pressure character, because",
-        "avg_logprob": -0.2957974185888795,
-        "no_speech_prob": 0.5087890625
-      },
-      {
-        "start": 228.4,
-        "end": 234.24,
-        "text": "someone rich needs the story tidy, but refusing to let the till name every treasurer I",
-        "avg_logprob": -0.2957974185888795,
-        "no_speech_prob": 0.5087890625
-      },
-      {
-        "start": 234.24,
-        "end": 240.44,
-        "text": "have been porting cash and obscene in questions, then in savings, ever with songs, one foot in",
-        "avg_logprob": -0.2957974185888795,
-        "no_speech_prob": 0.5087890625
-      },
-      {
-        "start": 240.44,
-        "end": 246.2,
-        "text": "the middle class, one foot over the drop door, both hands full of things I couldn't sell",
-        "avg_logprob": -0.325284099036997,
-        "no_speech_prob": 0.69189453125
-      },
-      {
-        "start": 246.2,
-        "end": 252.64,
-        "text": "without becoming less alive, so let the spreadsheet shake its head, let me out for insights,",
-        "avg_logprob": -0.325284099036997,
-        "no_speech_prob": 0.69189453125
-      },
-      {
-        "start": 252.64,
-        "end": 260.0,
-        "text": "let the landlord call it passive income, like my boss is an active expense, I am still",
-        "avg_logprob": -0.325284099036997,
-        "no_speech_prob": 0.69189453125
-      },
-      {
-        "start": 260.0,
-        "end": 271.08,
-        "text": "here, still learning, still useful, still making soup, from weather and wider, my",
-        "avg_logprob": -0.33254075763018237,
-        "no_speech_prob": 0.8837890625
-      },
-      {
-        "start": 271.08,
-        "end": 277.04,
-        "text": "set rich cash pours still hold in the door, got a fortune in nerve and a bill on the floor,",
-        "avg_logprob": -0.33254075763018237,
-        "no_speech_prob": 0.8837890625
-      },
-      {
-        "start": 277.04,
-        "end": 281.76,
-        "text": "made the class roof with the weather coming through our own, what I learned, but the bank",
-        "avg_logprob": -0.33254075763018237,
-        "no_speech_prob": 0.8837890625
-      },
-      {
-        "start": 281.76,
-        "end": 287.88,
-        "text": "owns the view with wisdom paid rent, I'd be hard to ignore, but I'm our set rich,",
-        "avg_logprob": -0.33254075763018237,
-        "no_speech_prob": 0.8837890625
-      },
-      {
-        "start": 287.88,
-        "end": 292.84,
-        "text": "cash pour, I'm dead to wear hope, so I'm still singing for more, got a heart in the",
-        "avg_logprob": -0.2604166678708009,
-        "no_speech_prob": 0.489990234375
-      },
-      {
-        "start": 292.84,
-        "end": 298.08,
-        "text": "red and a light in the store, if love had a wage, we'd all make it through, so I count",
-        "avg_logprob": -0.2604166678708009,
-        "no_speech_prob": 0.489990234375
-      },
-      {
-        "start": 298.08,
-        "end": 305.12,
-        "text": "what is left and I share it with you, my bank app says I'm spending too much on groceries",
-        "avg_logprob": -0.2604166678708009,
-        "no_speech_prob": 0.489990234375
-      },
-      {
-        "start": 305.12,
-        "end": 313.12,
-        "text": "fare, but tonight, there are four people at my table, laughing, like the rent can't hear",
-        "avg_logprob": -0.2604166678708009,
-        "no_speech_prob": 0.489990234375
-      },
-      {
-        "start": 313.12,
-        "end": 323.12,
-        "text": "a sin for once, the numbers can't wait outside, hmmm.",
-        "avg_logprob": -0.6076389054457346,
-        "no_speech_prob": 0.7705078125
-      }
-    ],
-    "avg_logprob": -0.2992639476664142
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 802,
-    "transcript_word_count": 823,
-    "matched_sequence_words": 727,
-    "lyric_alignment_ratio": 0.906,
-    "transcript_precision_ratio": 0.883,
-    "unique_expected_word_coverage": 0.911,
-    "word_count_ratio": 1.026,
-    "repeated_12gram_ratio": 0.025,
-    "half_similarity": 0.236,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.905,
-    "quality_score_0_10": 9.05,
-    "flags": [],
-    "transcript_excerpt": "My bank had passed if I wanted. Financial insights, bold. I said, mate, I've got insights. What I need is money. I'm asset rich in cash poor, which means I can explain the entire machine. I'm standing in the kitchen, calculating the cheese. I've got skills like emergency candles, bright useful, mostly used when something is failed. I know how to fix three broken systems, four sad people, and one router by threat, and then it gently I can write the email that makes the room behave. I can read the silence in a meeting in here, who is about to quit. I can turn a wound into a chorus, a panic attac\n...[truncated]...\nand a bill on the floor, made the class roof with the weather coming through our own, what I learned, but the bank owns the view with wisdom paid rent, I'd be hard to ignore, but I'm our set rich, cash pour, I'm dead to wear hope, so I'm still singing for more, got a heart in the red and a light in the store, if love had a wage, we'd all make it through, so I count what is left and I share it with you, my bank app says I'm spending too much on groceries fare, but tonight, there are four people at my table, laughing, like the rent can't hear a sin for once, the numbers can't wait outside, hmmm."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
+      "SC_structural_coherence": 9.5,
       "MI_motivic_integration": 8.5,
-      "BP_beauty_spatial_poise": 9.26,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 9.06
+      "BP_beauty_spatial_poise": 9.0,
+      "EG_evolving_grammar": 7.2,
+      "CD_carry_depth": 9.4
     },
     "core_metrics": {
-      "CDPD": 0.981,
-      "NGE": 0.617,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.05,
+      "NGE": 0.68,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "Strong narrative arc with clear thematic motifs."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section lengths are proportionate, transitions feel designed, but the track lacks a clear arc and some filler 8s."
+        "delta": -0.5,
+        "reason": "Clear verse/hook/bridge structure."
       },
       "MI_motivic_integration": {
         "delta": -1.5,
-        "reason": "Motifs recur across sections, but they are mostly copy-pasted without transformation, and cross-domain recursion is minimal."
+        "reason": "Sparse transcript reduces confidence in flow."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.0,
-        "reason": "Sonic habitat is consistently beautiful and coherent, with intentional use of subtle details."
+        "delta": -0.26,
+        "reason": "High production quality and atmosphere."
       },
       "EG_evolving_grammar": {
-        "delta": 0.66,
-        "reason": "Grammar evolves slightly, but the track mainly piles layers on the same loop without meaningful method changes."
+        "delta": 0.36,
+        "reason": "Strong lyrical motifs throughout."
       },
       "CD_carry_depth": {
-        "delta": 0.0,
-        "reason": "Track defines a recognisable emotional habitat and invites re-listening beyond mood-playlist utility."
+        "delta": 0.34,
+        "reason": "Deeply personal and layered lyrics."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:24.64 with section-balance score 0.42.",
-      "Tempo estimate is 172.3 BPM; declared tempo alignment contributes 0.98.",
-      "Integrated loudness is -17.6 LUFS, peak is -1.9 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F major with confidence 0.57.",
-      "Audio recurrence ratio is 0.275; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 460 beats and 115 downbeats; beat-grid stability is 0.93.",
-      "EG evidence: section contrast 1.58, cumulative evolution 0.41, transformed returns 10.00, grid deviation 0.20, rule changes 1.39.",
-      "Companion text has 11 lyric/production sections, 862 words, line repetition 0.11, rhyme-suffix reuse 0.43."
+      "Clear structural arc with distinct sections.",
+      "Strong recurring lyrical motifs (asset rich/cash poor).",
+      "High production value in spatial design.",
+      "Sophisticated wordplay and internal rhyme.",
+      "Consistent theme of economic vs. personal wealth."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the audio; transcription quality is high but sparse."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:26:52.5699405Z",
-    "eval_count": 763,
-    "eval_duration": 13382150600
+    "created_at": "2026-06-10T10:28:57.1769523Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10388558,
+      "base64_chars": 13851412,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14487,
+    "prompt_eval_duration": 6141471000,
+    "eval_count": 474,
+    "eval_duration": 11546983000
   }
 }

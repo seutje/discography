@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:48:30",
+  "generated_at": "2026-06-10T12:47:45",
   "audio": {
     "path": "Residual Instabilities/audio/12 - Afterglow.mp3",
     "duration_seconds": 319.6,
@@ -2033,7 +2033,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -2077,397 +2080,75 @@
       "beat_this detected 615 beats and 160 downbeats; beat-grid stability is 0.12.",
       "EG evidence: section contrast 1.89, cumulative evolution 0.83, transformed returns 10.00, grid deviation 1.16, rule changes 4.17.",
       "Companion text has 12 lyric/production sections, 468 words, line repetition 0.15, rhyme-suffix reuse 0.42.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 8.55.",
-      "Transcription check: lyric alignment 0.72, unique-word coverage 0.78, word-count ratio 1.10, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 8.55."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "A temperature that never falls I always was stretched across it all Residual it stains the frame Before I thought to have a name always there For the fear There's a background in my chest Not loud enough to call on rest Just constant like a hidden thread, thread, thread, thread Running underneath the set Every room I measure tone I calibrate it as my own I thought the spikes were what I feared But it's the baseline That's it here, I don't know right I just remain We say it's quiet out in space But something lingers in that place Like a relic from the start Let's buy my effort bar Not to sit in the light in you Just the ground beneath the roof No waste present Never gone a loop on anything after song No, no, no, no, no, no, no, no, no, no, no, no, no, no, no Nothing did in the sky once Said it proved where we began Ancient light still passing through long after its origin I feel that same resistance here A fossil underneath the fear Every man's a trace remains If something older than my name And if they do the lens just right What I scatter into life Every secret leaves a trace Every silence holds a shit Like a relic from the start Let's buy my effort bar Not to sit in the light in you Just the ground beneath the roof No waste present Never gone a loop on anything after song If everything holds a record If everything leaves a scar Then what am I broadcasting from where I am If someone listen, he's closing us Come on, we're dead I love it I love it I love it Every moment archived in radiation On the skin Every version still exists And the background in the mix I can feel it lead across Every boundary I emboss Not a past that left behind Just a few that can't come and find It's expanding, it's exposed Like a relic from the start Let's buy my effort bar Not to sit in the light in you Just the ground beneath the roof No waste present Never gone a loop on anything after song From this all alone Let, let, let, let, let, let, let, let me Let it show Every trace I tried to slow If I'm only what remains And let them read me in the ways Always present Always known I am not hidden I am shown",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 18.8,
-        "text": "A temperature that never falls I always was stretched across it all",
-        "avg_logprob": -0.45450366244596596,
-        "no_speech_prob": 0.60205078125
-      },
-      {
-        "start": 18.8,
-        "end": 29.6,
-        "text": "Residual it stains the frame Before I thought to have a name always there",
-        "avg_logprob": -0.45450366244596596,
-        "no_speech_prob": 0.60205078125
-      },
-      {
-        "start": 29.6,
-        "end": 34.6,
-        "text": "For the fear",
-        "avg_logprob": -0.424418615740399,
-        "no_speech_prob": 0.229736328125
-      },
-      {
-        "start": 42.6,
-        "end": 49.6,
-        "text": "There's a background in my chest Not loud enough to call on rest",
-        "avg_logprob": -0.424418615740399,
-        "no_speech_prob": 0.229736328125
-      },
-      {
-        "start": 49.6,
-        "end": 53.6,
-        "text": "Just constant like a hidden thread, thread, thread, thread",
-        "avg_logprob": -0.424418615740399,
-        "no_speech_prob": 0.229736328125
-      },
-      {
-        "start": 53.6,
-        "end": 57.6,
-        "text": "Running underneath the set",
-        "avg_logprob": -0.424418615740399,
-        "no_speech_prob": 0.229736328125
-      },
-      {
-        "start": 57.6,
-        "end": 64.6,
-        "text": "Every room I measure tone I calibrate it as my own",
-        "avg_logprob": -0.2472826158222945,
-        "no_speech_prob": 0.01580810546875
-      },
-      {
-        "start": 64.6,
-        "end": 69.6,
-        "text": "I thought the spikes were what I feared But it's the baseline",
-        "avg_logprob": -0.2472826158222945,
-        "no_speech_prob": 0.01580810546875
-      },
-      {
-        "start": 69.6,
-        "end": 78.6,
-        "text": "That's it here, I don't know right I just remain",
-        "avg_logprob": -0.2472826158222945,
-        "no_speech_prob": 0.01580810546875
-      },
-      {
-        "start": 79.6,
-        "end": 88.6,
-        "text": "We say it's quiet out in space But something lingers in that place",
-        "avg_logprob": -0.32187500715255735,
-        "no_speech_prob": 0.11077880859375
-      },
-      {
-        "start": 88.6,
-        "end": 95.6,
-        "text": "Like a relic from the start Let's buy my effort bar",
-        "avg_logprob": -0.32187500715255735,
-        "no_speech_prob": 0.11077880859375
-      },
-      {
-        "start": 95.6,
-        "end": 103.6,
-        "text": "Not to sit in the light in you Just the ground beneath the roof",
-        "avg_logprob": -0.32187500715255735,
-        "no_speech_prob": 0.11077880859375
-      },
-      {
-        "start": 103.6,
-        "end": 110.6,
-        "text": "No waste present Never gone a loop on anything after song",
-        "avg_logprob": -0.33255208283662796,
-        "no_speech_prob": 0.0732421875
-      },
-      {
-        "start": 110.6,
-        "end": 118.6,
-        "text": "No, no, no, no, no, no, no, no, no, no, no, no, no, no, no",
-        "avg_logprob": -0.33255208283662796,
-        "no_speech_prob": 0.0732421875
-      },
-      {
-        "start": 118.6,
-        "end": 125.6,
-        "text": "Nothing did in the sky once Said it proved where we began",
-        "avg_logprob": -0.33255208283662796,
-        "no_speech_prob": 0.0732421875
-      },
-      {
-        "start": 125.6,
-        "end": 133.6,
-        "text": "Ancient light still passing through long after its origin",
-        "avg_logprob": -0.31051134954799303,
-        "no_speech_prob": 0.10858154296875
-      },
-      {
-        "start": 133.6,
-        "end": 137.6,
-        "text": "I feel that same resistance here A fossil underneath the fear",
-        "avg_logprob": -0.31051134954799303,
-        "no_speech_prob": 0.10858154296875
-      },
-      {
-        "start": 137.6,
-        "end": 141.6,
-        "text": "Every man's a trace remains If something older than my name",
-        "avg_logprob": -0.31051134954799303,
-        "no_speech_prob": 0.10858154296875
-      },
-      {
-        "start": 141.6,
-        "end": 148.6,
-        "text": "And if they do the lens just right What I scatter into life",
-        "avg_logprob": -0.31051134954799303,
-        "no_speech_prob": 0.10858154296875
-      },
-      {
-        "start": 148.6,
-        "end": 157.6,
-        "text": "Every secret leaves a trace Every silence holds a shit",
-        "avg_logprob": -0.10156250331136915,
-        "no_speech_prob": 0.1387939453125
-      },
-      {
-        "start": 157.6,
-        "end": 165.6,
-        "text": "Like a relic from the start Let's buy my effort bar",
-        "avg_logprob": -0.10156250331136915,
-        "no_speech_prob": 0.1387939453125
-      },
-      {
-        "start": 165.6,
-        "end": 172.6,
-        "text": "Not to sit in the light in you Just the ground beneath the roof",
-        "avg_logprob": -0.10156250331136915,
-        "no_speech_prob": 0.1387939453125
-      },
-      {
-        "start": 172.6,
-        "end": 187.6,
-        "text": "No waste present Never gone a loop on anything after song",
-        "avg_logprob": -0.16970485559216253,
-        "no_speech_prob": 0.1199951171875
-      },
-      {
-        "start": 187.6,
-        "end": 195.6,
-        "text": "If everything holds a record If everything leaves a scar",
-        "avg_logprob": -0.16970485559216253,
-        "no_speech_prob": 0.1199951171875
-      },
-      {
-        "start": 195.6,
-        "end": 202.6,
-        "text": "Then what am I broadcasting from where I am If someone listen, he's closing us",
-        "avg_logprob": -0.3764204592867331,
-        "no_speech_prob": 0.415771484375
-      },
-      {
-        "start": 202.6,
-        "end": 204.6,
-        "text": "Come on, we're dead",
-        "avg_logprob": -0.3764204592867331,
-        "no_speech_prob": 0.415771484375
-      },
-      {
-        "start": 207.6,
-        "end": 208.6,
-        "text": "I love it",
-        "avg_logprob": -0.3764204592867331,
-        "no_speech_prob": 0.415771484375
-      },
-      {
-        "start": 211.6,
-        "end": 212.6,
-        "text": "I love it",
-        "avg_logprob": -0.3764204592867331,
-        "no_speech_prob": 0.415771484375
-      },
-      {
-        "start": 215.6,
-        "end": 216.6,
-        "text": "I love it",
-        "avg_logprob": -0.3764204592867331,
-        "no_speech_prob": 0.415771484375
-      },
-      {
-        "start": 216.6,
-        "end": 227.6,
-        "text": "Every moment archived in radiation On the skin",
-        "avg_logprob": -0.30994316989725285,
-        "no_speech_prob": 0.385009765625
-      },
-      {
-        "start": 227.6,
-        "end": 231.6,
-        "text": "Every version still exists And the background in the mix",
-        "avg_logprob": -0.30994316989725285,
-        "no_speech_prob": 0.385009765625
-      },
-      {
-        "start": 231.6,
-        "end": 235.6,
-        "text": "I can feel it lead across Every boundary I emboss",
-        "avg_logprob": -0.30994316989725285,
-        "no_speech_prob": 0.385009765625
-      },
-      {
-        "start": 235.6,
-        "end": 240.6,
-        "text": "Not a past that left behind Just a few that can't come and find",
-        "avg_logprob": -0.30994316989725285,
-        "no_speech_prob": 0.385009765625
-      },
-      {
-        "start": 240.6,
-        "end": 247.6,
-        "text": "It's expanding, it's exposed",
-        "avg_logprob": -0.17130682305856185,
-        "no_speech_prob": 0.184814453125
-      },
-      {
-        "start": 247.6,
-        "end": 255.6,
-        "text": "Like a relic from the start Let's buy my effort bar",
-        "avg_logprob": -0.17130682305856185,
-        "no_speech_prob": 0.184814453125
-      },
-      {
-        "start": 255.6,
-        "end": 263.6,
-        "text": "Not to sit in the light in you Just the ground beneath the roof",
-        "avg_logprob": -0.17130682305856185,
-        "no_speech_prob": 0.184814453125
-      },
-      {
-        "start": 263.6,
-        "end": 269.6,
-        "text": "No waste present Never gone a loop on anything after song",
-        "avg_logprob": -0.17130682305856185,
-        "no_speech_prob": 0.184814453125
-      },
-      {
-        "start": 269.6,
-        "end": 276.6,
-        "text": "From this all alone",
-        "avg_logprob": -0.25145348975824755,
-        "no_speech_prob": 0.09393310546875
-      },
-      {
-        "start": 278.6,
-        "end": 283.6,
-        "text": "Let, let, let, let, let, let, let, let me Let it show",
-        "avg_logprob": -0.25145348975824755,
-        "no_speech_prob": 0.09393310546875
-      },
-      {
-        "start": 283.6,
-        "end": 291.6,
-        "text": "Every trace I tried to slow If I'm only what remains",
-        "avg_logprob": -0.25145348975824755,
-        "no_speech_prob": 0.09393310546875
-      },
-      {
-        "start": 292.6,
-        "end": 298.6,
-        "text": "And let them read me in the ways Always present",
-        "avg_logprob": -0.2972005195915699,
-        "no_speech_prob": 0.2017822265625
-      },
-      {
-        "start": 300.6,
-        "end": 310.6,
-        "text": "Always known I am not hidden I am shown",
-        "avg_logprob": -0.2972005195915699,
-        "no_speech_prob": 0.2017822265625
-      }
-    ],
-    "avg_logprob": -0.2863911405199709
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 382,
-    "transcript_word_count": 420,
-    "matched_sequence_words": 276,
-    "lyric_alignment_ratio": 0.723,
-    "transcript_precision_ratio": 0.657,
-    "unique_expected_word_coverage": 0.775,
-    "word_count_ratio": 1.099,
-    "repeated_12gram_ratio": 0.13,
-    "half_similarity": 0.29,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.726,
-    "quality_score_0_10": 7.26,
-    "flags": [],
-    "transcript_excerpt": "A temperature that never falls I always was stretched across it all Residual it stains the frame Before I thought to have a name always there For the fear There's a background in my chest Not loud enough to call on rest Just constant like a hidden thread, thread, thread, thread Running underneath the set Every room I measure tone I calibrate it as my own I thought the spikes were what I feared But it's the baseline That's it here, I don't know right I just remain We say it's quiet out in space But something lingers in that place Like a relic from the start Let's buy my effort bar Not to sit in\n...[truncated]...\nOn the skin Every version still exists And the background in the mix I can feel it lead across Every boundary I emboss Not a past that left behind Just a few that can't come and find It's expanding, it's exposed Like a relic from the start Let's buy my effort bar Not to sit in the light in you Just the ground beneath the roof No waste present Never gone a loop on anything after song From this all alone Let, let, let, let, let, let, let, let me Let it show Every trace I tried to slow If I'm only what remains And let them read me in the ways Always present Always known I am not hidden I am shown"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
       "MI_motivic_integration": 7.2,
-      "BP_beauty_spatial_poise": 9.0,
-      "EG_evolving_grammar": 8.5,
-      "CD_carry_depth": 9.3
+      "BP_beauty_spatial_poise": 8.5,
+      "EG_evolving_grammar": 8.0,
+      "CD_carry_depth": 9.5
     },
     "core_metrics": {
-      "CDPD": 0.82,
-      "NGE": 0.71,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.86,
+      "NGE": 0.74,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High count suggests complex structure; high confidence in intentional design."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting emotional rooms. Section-balance score 0.56 and section contrast score 1.89 support this."
+        "reason": "The transition from 'Pre-Hook' to 'Hook' is very distinct and well-defined by the bass entry."
       },
       "MI_motivic_integration": {
         "delta": 0.43,
-        "reason": "Motivic integration is strong, with recurring vocal hooks, guitar figures, and lyric images that evolve across sections. The transformed return score of 10.0 and rule changes of 4.17 indicate deep integration."
+        "reason": "The repetition of the 'Like a relic' motif provides strong thematic continuity across sections."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.07,
-        "reason": "The spatial poise is strong, with a memorable sonic habitat formed by room tone, guitar space, and reverb. However, the mix is functional but lacks the distinctiveness to score higher."
+        "delta": -0.43,
+        "reason": "While the arrangement is dense, some transitions feel slightly abrupt in terms of spatial depth."
       },
       "EG_evolving_grammar": {
-        "delta": 0.13,
-        "reason": "The grammar evolves over time, with meaningful changes in harmonic meaning, instrument roles, and production motifs. The rule changes and transformed returns support this."
+        "delta": -0.37,
+        "reason": "The lyrical progression is somewhat repetitive in the final third."
       },
       "CD_carry_depth": {
-        "delta": 0.07,
-        "reason": "The track feels like a small world with a clear emotional arc and memorable sonic details. The carry depth is strong enough to justify a slightly higher score."
+        "delta": 0.27,
+        "reason": "Depth and atmosphere are consistently maintained throughout."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:19.60 with section-balance score 0.56.",
-      "Tempo estimate is 123.0 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -16.2 LUFS, peak is -0.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is E minor with confidence 0.25.",
-      "Audio recurrence ratio is 0.204; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 615 beats and 160 downbeats; beat-grid stability is 0.12.",
-      "EG evidence: section contrast 1.89, cumulative evolution 0.83, transformed returns 10.00, grid deviation 1.16, rule changes 4.17.",
-      "Companion text has 12 lyric/production sections, 468 words, line repetition 0.15, rhyme-suffix reuse 0.42."
+      "The track follows a clear structural arc: Intro -> Verse -> Pre-Hook -> Hook -> Build -> Drop -> Verse -> Final Hook -> Outro.",
+      "The 'relentless' bass line provides a consistent sonic anchor that drives the progression.",
+      "The lyrical motif of being 'always present' and 'not hidden' creates a strong sense of identity throughout."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to weak audio-only evidence.",
-      "Transcription quality is moderate, with some lyric alignment issues."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:48:30.1091037Z",
-    "eval_count": 864,
-    "eval_duration": 14661918100
+    "created_at": "2026-06-10T10:47:45.6391808Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10227422,
+      "base64_chars": 13636564,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14437,
+    "prompt_eval_duration": 6311609000,
+    "eval_count": 428,
+    "eval_duration": 10691592000
   }
 }

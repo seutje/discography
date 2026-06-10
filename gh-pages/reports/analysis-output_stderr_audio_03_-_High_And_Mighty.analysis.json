@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:57:16",
+  "generated_at": "2026-06-10T12:55:47",
   "audio": {
     "path": "stderr/audio/03 - High And Mighty.mp3",
     "duration_seconds": 264.88,
@@ -1302,19 +1302,22 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.53,
-      "MI_motivic_integration": 7.69,
-      "BP_beauty_spatial_poise": 9.05,
-      "EG_evolving_grammar": 7.59,
-      "CD_carry_depth": 7.2
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 8.42,
+      "BP_beauty_spatial_poise": 9.26,
+      "EG_evolving_grammar": 7.95,
+      "CD_carry_depth": 8.29
     },
     "core_metrics": {
-      "CDPD": 0.824,
-      "NGE": 0.67,
+      "CDPD": 0.895,
+      "NGE": 0.688,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -1327,9 +1330,9 @@
       "overall_score": 4.266
     },
     "transcription_penalties": {
-      "alignment_penalty": 1.044,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 1.044
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 13,
@@ -1346,397 +1349,75 @@
       "beat_this detected 324 beats and 82 downbeats; beat-grid stability is 0.94.",
       "EG evidence: section contrast 3.21, cumulative evolution 1.18, transformed returns 10.00, grid deviation 0.30, rule changes 5.00.",
       "Companion text has 12 lyric/production sections, 752 words, line repetition 0.14, rhyme-suffix reuse 0.40.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, texture-change); intent score 5.30.",
-      "Transcription check: lyric alignment 0.55, unique-word coverage 0.59, word-count ratio 0.91, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 1.04, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (density-change, dropout, texture-change); intent score 5.30."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Yeah Yeah Yeah, they say I cheated say the machine or the lens like a tool in my hands. I'm already on my spine I go up yesterday never bluff a design like the code of my base. I've been in my whole life Been building since crayons and cardboard for us before broadband wires ran under the floors before the fees before the strings before your creative Economy dreams open source nights with a screen glow bluish and code of 3M to the web Good moon. No paywalls. No crowns. No stone acclaim. Just pull the course rain works in the username It breaks in the row. You walk in the day where you lecture me now. I'm an artist to play money. All things come the letters I made then spit on the hands of the summer the stage Yeah, everybody holy when the comments ignite sunny every critic is a night and white tools change No, they act like it's heresy. Same man. Same. I'm just better machinery I am mighty looking now from the gate saying that in art. That's a short car. You take same mouth to consume everything that I gave Now they question a craft when the tools are great Every bridge in the net knows I can have all my life I am mighty I will make a strange world when I barely could read little kid, but in systems out of scraps and I did sketchbook snow books Keyboards and schemes don't go for your algorithm learn what all means but I they put in fingers like a courtroom trial So I'm validation with a righteous smile like a hammer in the hammer with the ceiling proof like a lens in the lens of the glass Got to and every ever got profits. God in the gate every gate keep it to the five tools mutate All painters hate the cameras in the day now that's like a wolf piece with a new name that hate you worship the Brand-ham but they know where we got what we're for the craft thousands of nights. Just chasing the spark number plug in the piece and suddenly it ain't art That's rich Funny how to mouth against history quick if you two ones look like a head trick same fear same sermon different Disguise ain't from Berlin throwing the future arrives. I am mighty looking now from the gate Saying that in art. That's a short car. You take same mouth that consumed everything that I gave now They question a craft when the tools are great Judges I gave the coat away free Gave the scaffold in the libraries the keys watch the world stack fortunes on the bones of the product cars are through into the commons alone Of the loo. Yeah, not a craft screen fraud from a digital phone built on the physics. I just wrote in the code That's a punchline nobody want show you living in the house that I built on my stones to the same kid scribbling dreams in the dark Just the toolbox we get then it was at a star still chasing the ugly still been in the frame still what you're doing Sparks in the language of flame but the priest security shopping in eyes because ever lose friends and narrative lives If I'm only sick of when you say the same then progress is something so I'm gonna go clean So I'll never discern in the pro clutch choir every fake artist come and fuel in the fire cuz I feature don't ask for the old God's vote it's just the upbeat in the country reload I am mighty standing tall on the garden yesterday's rules with religious But the same open roads that you travel to that came from man's your pretending never paid I might scream and fraud at the sky From the work you tonight Is a shopper set of tools and a longer Funny",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 2.0,
-        "text": "Yeah",
-        "avg_logprob": -0.6803571258272444,
-        "no_speech_prob": 0.311279296875
-      },
-      {
-        "start": 5.36,
-        "end": 7.36,
-        "text": "Yeah",
-        "avg_logprob": -0.6803571258272444,
-        "no_speech_prob": 0.311279296875
-      },
-      {
-        "start": 25.2,
-        "end": 29.4,
-        "text": "Yeah, they say I cheated say the machine or the lens like a tool in my hands. I'm already on my spine",
-        "avg_logprob": -0.6803571258272444,
-        "no_speech_prob": 0.311279296875
-      },
-      {
-        "start": 29.4,
-        "end": 32.68,
-        "text": "I go up yesterday never bluff a design like the code of my base. I've been in my whole life",
-        "avg_logprob": -0.5970982369922456,
-        "no_speech_prob": 0.0867919921875
-      },
-      {
-        "start": 32.68,
-        "end": 38.48,
-        "text": "Been building since crayons and cardboard for us before broadband wires ran under the floors before the fees before the strings before your creative",
-        "avg_logprob": -0.5970982369922456,
-        "no_speech_prob": 0.0867919921875
-      },
-      {
-        "start": 38.48,
-        "end": 42.02,
-        "text": "Economy dreams open source nights with a screen glow bluish and code of 3M to the web",
-        "avg_logprob": -0.5970982369922456,
-        "no_speech_prob": 0.0867919921875
-      },
-      {
-        "start": 42.02,
-        "end": 45.68,
-        "text": "Good moon. No paywalls. No crowns. No stone acclaim. Just pull the course rain works in the username",
-        "avg_logprob": -0.5970982369922456,
-        "no_speech_prob": 0.0867919921875
-      },
-      {
-        "start": 45.68,
-        "end": 50.28,
-        "text": "It breaks in the row. You walk in the day where you lecture me now. I'm an artist to play money. All things come the letters",
-        "avg_logprob": -0.5970982369922456,
-        "no_speech_prob": 0.0867919921875
-      },
-      {
-        "start": 50.28,
-        "end": 52.28,
-        "text": "I made then spit on the hands of the summer the stage",
-        "avg_logprob": -0.5970982369922456,
-        "no_speech_prob": 0.0867919921875
-      },
-      {
-        "start": 54.12,
-        "end": 58.7,
-        "text": "Yeah, everybody holy when the comments ignite sunny every critic is a night and white tools change",
-        "avg_logprob": -0.5970982369922456,
-        "no_speech_prob": 0.0867919921875
-      },
-      {
-        "start": 58.7,
-        "end": 61.7,
-        "text": "No, they act like it's heresy. Same man. Same. I'm just better machinery",
-        "avg_logprob": -0.771484375,
-        "no_speech_prob": 0.05010986328125
-      },
-      {
-        "start": 62.7,
-        "end": 72.1,
-        "text": "I am mighty looking now from the gate saying that in art. That's a short car. You take same mouth to consume everything that I gave",
-        "avg_logprob": -0.771484375,
-        "no_speech_prob": 0.05010986328125
-      },
-      {
-        "start": 72.1,
-        "end": 75.3,
-        "text": "Now they question a craft when the tools are great",
-        "avg_logprob": -0.771484375,
-        "no_speech_prob": 0.05010986328125
-      },
-      {
-        "start": 78.7,
-        "end": 82.54,
-        "text": "Every bridge in the net knows I can have all my life",
-        "avg_logprob": -0.771484375,
-        "no_speech_prob": 0.05010986328125
-      },
-      {
-        "start": 89.7,
-        "end": 91.7,
-        "text": "I am mighty",
-        "avg_logprob": -0.6258865282045188,
-        "no_speech_prob": 0.1702880859375
-      },
-      {
-        "start": 93.7,
-        "end": 98.34,
-        "text": "I will make a strange world when I barely could read little kid, but in systems out of scraps and I did sketchbook snow books",
-        "avg_logprob": -0.6258865282045188,
-        "no_speech_prob": 0.1702880859375
-      },
-      {
-        "start": 98.34,
-        "end": 102.4,
-        "text": "Keyboards and schemes don't go for your algorithm learn what all means but I they put in fingers like a courtroom trial",
-        "avg_logprob": -0.6258865282045188,
-        "no_speech_prob": 0.1702880859375
-      },
-      {
-        "start": 102.4,
-        "end": 106.9,
-        "text": "So I'm validation with a righteous smile like a hammer in the hammer with the ceiling proof like a lens in the lens of the glass",
-        "avg_logprob": -0.6258865282045188,
-        "no_speech_prob": 0.1702880859375
-      },
-      {
-        "start": 106.9,
-        "end": 110.56,
-        "text": "Got to and every ever got profits. God in the gate every gate keep it to the five tools mutate",
-        "avg_logprob": -0.6258865282045188,
-        "no_speech_prob": 0.1702880859375
-      },
-      {
-        "start": 110.56,
-        "end": 114.38,
-        "text": "All painters hate the cameras in the day now that's like a wolf piece with a new name that hate you worship the",
-        "avg_logprob": -0.6258865282045188,
-        "no_speech_prob": 0.1702880859375
-      },
-      {
-        "start": 114.88,
-        "end": 120.34,
-        "text": "Brand-ham but they know where we got what we're for the craft thousands of nights. Just chasing the spark number plug in the piece and suddenly it ain't art",
-        "avg_logprob": -0.6429303112577219,
-        "no_speech_prob": 0.053314208984375
-      },
-      {
-        "start": 120.34,
-        "end": 122.34,
-        "text": "That's rich",
-        "avg_logprob": -0.6429303112577219,
-        "no_speech_prob": 0.053314208984375
-      },
-      {
-        "start": 122.98,
-        "end": 127.62,
-        "text": "Funny how to mouth against history quick if you two ones look like a head trick same fear same sermon different",
-        "avg_logprob": -0.6429303112577219,
-        "no_speech_prob": 0.053314208984375
-      },
-      {
-        "start": 127.62,
-        "end": 133.3,
-        "text": "Disguise ain't from Berlin throwing the future arrives. I am mighty looking now from the gate",
-        "avg_logprob": -0.6429303112577219,
-        "no_speech_prob": 0.053314208984375
-      },
-      {
-        "start": 134.02,
-        "end": 140.54,
-        "text": "Saying that in art. That's a short car. You take same mouth that consumed everything that I gave now",
-        "avg_logprob": -0.6429303112577219,
-        "no_speech_prob": 0.053314208984375
-      },
-      {
-        "start": 140.54,
-        "end": 143.42,
-        "text": "They question a craft when the tools are great",
-        "avg_logprob": -0.6429303112577219,
-        "no_speech_prob": 0.053314208984375
-      },
-      {
-        "start": 144.46,
-        "end": 146.46,
-        "text": "Judges",
-        "avg_logprob": -0.8125,
-        "no_speech_prob": 0.1513671875
-      },
-      {
-        "start": 169.98,
-        "end": 171.82,
-        "text": "I gave the coat away free",
-        "avg_logprob": -0.8125,
-        "no_speech_prob": 0.1513671875
-      },
-      {
-        "start": 171.82,
-        "end": 179.82,
-        "text": "Gave the scaffold in the libraries the keys watch the world stack fortunes on the bones of the product cars are through into the commons alone",
-        "avg_logprob": -0.6481643181580764,
-        "no_speech_prob": 0.06536865234375
-      },
-      {
-        "start": 179.82,
-        "end": 184.74,
-        "text": "Of the loo. Yeah, not a craft screen fraud from a digital phone built on the physics. I just wrote in the code",
-        "avg_logprob": -0.6481643181580764,
-        "no_speech_prob": 0.06536865234375
-      },
-      {
-        "start": 184.74,
-        "end": 190.02,
-        "text": "That's a punchline nobody want show you living in the house that I built on my stones to the same kid scribbling dreams in the dark",
-        "avg_logprob": -0.6481643181580764,
-        "no_speech_prob": 0.06536865234375
-      },
-      {
-        "start": 190.02,
-        "end": 193.86,
-        "text": "Just the toolbox we get then it was at a star still chasing the ugly still been in the frame still what you're doing",
-        "avg_logprob": -0.6481643181580764,
-        "no_speech_prob": 0.06536865234375
-      },
-      {
-        "start": 193.86,
-        "end": 198.12,
-        "text": "Sparks in the language of flame but the priest security shopping in eyes because ever lose friends and narrative lives",
-        "avg_logprob": -0.6481643181580764,
-        "no_speech_prob": 0.06536865234375
-      },
-      {
-        "start": 198.12,
-        "end": 201.36,
-        "text": "If I'm only sick of when you say the same then progress is something so I'm gonna go clean",
-        "avg_logprob": -0.6814159292035398,
-        "no_speech_prob": 0.109375
-      },
-      {
-        "start": 201.36,
-        "end": 205.8,
-        "text": "So I'll never discern in the pro clutch choir every fake artist come and fuel in the fire cuz I feature don't ask for the old",
-        "avg_logprob": -0.6814159292035398,
-        "no_speech_prob": 0.109375
-      },
-      {
-        "start": 205.8,
-        "end": 207.8,
-        "text": "God's vote it's just the upbeat in the country reload",
-        "avg_logprob": -0.6814159292035398,
-        "no_speech_prob": 0.109375
-      },
-      {
-        "start": 211.8,
-        "end": 217.36,
-        "text": "I am mighty standing tall on the garden yesterday's rules with religious",
-        "avg_logprob": -0.6814159292035398,
-        "no_speech_prob": 0.109375
-      },
-      {
-        "start": 217.88,
-        "end": 223.72,
-        "text": "But the same open roads that you travel to that came from man's your pretending never paid",
-        "avg_logprob": -0.6814159292035398,
-        "no_speech_prob": 0.109375
-      },
-      {
-        "start": 224.76,
-        "end": 227.24,
-        "text": "I might scream and fraud at the sky",
-        "avg_logprob": -0.6814159292035398,
-        "no_speech_prob": 0.109375
-      },
-      {
-        "start": 228.68,
-        "end": 230.68,
-        "text": "From the work you tonight",
-        "avg_logprob": -0.9484375059604645,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 233.88,
-        "end": 236.88,
-        "text": "Is a shopper set of tools and a longer",
-        "avg_logprob": -0.9484375059604645,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 258.12,
-        "end": 260.96,
-        "text": "Funny",
-        "avg_logprob": -0.6186523586511612,
-        "no_speech_prob": 0.1878662109375
-      }
-    ],
-    "avg_logprob": -0.6688462202835931
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 732,
-    "transcript_word_count": 668,
-    "matched_sequence_words": 400,
-    "lyric_alignment_ratio": 0.546,
-    "transcript_precision_ratio": 0.599,
-    "unique_expected_word_coverage": 0.593,
-    "word_count_ratio": 0.913,
-    "repeated_12gram_ratio": 0.018,
-    "half_similarity": 0.216,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.561,
-    "quality_score_0_10": 5.61,
-    "flags": [],
-    "transcript_excerpt": "Yeah Yeah Yeah, they say I cheated say the machine or the lens like a tool in my hands. I'm already on my spine I go up yesterday never bluff a design like the code of my base. I've been in my whole life Been building since crayons and cardboard for us before broadband wires ran under the floors before the fees before the strings before your creative Economy dreams open source nights with a screen glow bluish and code of 3M to the web Good moon. No paywalls. No crowns. No stone acclaim. Just pull the course rain works in the username It breaks in the row. You walk in the day where you lecture \n...[truncated]...\nping in eyes because ever lose friends and narrative lives If I'm only sick of when you say the same then progress is something so I'm gonna go clean So I'll never discern in the pro clutch choir every fake artist come and fuel in the fire cuz I feature don't ask for the old God's vote it's just the upbeat in the country reload I am mighty standing tall on the garden yesterday's rules with religious But the same open roads that you travel to that came from man's your pretending never paid I might scream and fraud at the sky From the work you tonight Is a shopper set of tools and a longer Funny"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.53,
-      "MI_motivic_integration": 7.69,
-      "BP_beauty_spatial_poise": 9.05,
-      "EG_evolving_grammar": 7.59,
-      "CD_carry_depth": 7.2
+      "SC_structural_coherence": 9.5,
+      "MI_motivic_integration": 8.42,
+      "BP_beauty_spatial_poise": 9.26,
+      "EG_evolving_grammar": 7.95,
+      "CD_carry_depth": 8.29
     },
     "core_metrics": {
-      "CDPD": 0.824,
-      "NGE": 0.67,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.1,
+      "NGE": 0.688,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity with distinct structural markers."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": 0.0,
-        "reason": "The track has 8 distinct audio sections with balanced durations and clear transitions, supporting a strong structural coherence."
+        "delta": -0.5,
+        "reason": "Strong verse/hook ecosystem and clear section transitions."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs from the hook and vocal flow recur in verses and ad-libs, with some transformation, but not full integration across domains."
+        "reason": "Base score is already high; flow is consistent with the theme."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The production maintains a consistent, spacious sonic habitat with intentional reverb and stereo field, even during intense emotional moments."
+        "reason": "Production and spatial design are well-executed."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "While the beat and harmonic bed show some evolution, the overall grammar remains largely static, with limited deepening of rules."
+        "reason": "Grammar remains stable across sections."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track presents a clear emotional arc and invites re-listening, though it does not reach the level of iconic depth."
+        "reason": "Thematic depth is consistent."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:24.88 with section-balance score 0.46.",
-      "Tempo estimate is 143.6 BPM; declared tempo alignment contributes 0.70.",
-      "Integrated loudness is -17.2 LUFS, peak is -1.7 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F minor with confidence 0.29.",
-      "Audio recurrence ratio is 0.094; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 324 beats and 82 downbeats; beat-grid stability is 0.94.",
-      "EG evidence: section contrast 3.21, cumulative evolution 1.18, transformed returns 10.00, grid deviation 0.30, rule changes 5.00.",
-      "Companion text has 12 lyric/production sections, 752 words, line repetition 0.14, rhyme-suffix reuse 0.40."
+      "Strong structural coherence with clear verse/hook distinctions.",
+      "High motivic integration through repetitive but evolving hook phrases.",
+      "Sophisticated production and spatial design."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the audio; transcription quality is moderate, which may affect motif recognition."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:57:16.6154234Z",
-    "eval_count": 816,
-    "eval_duration": 14004058500
+    "created_at": "2026-06-10T10:55:47.0084087Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8476388,
+      "base64_chars": 11301852,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12332,
+    "prompt_eval_duration": 5361769000,
+    "eval_count": 348,
+    "eval_duration": 8823703000
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:50:38",
+  "generated_at": "2026-06-10T12:49:49",
   "audio": {
     "path": "UNMEASURED GEOMETRY/audio/03 - If Then Els.mp3",
     "duration_seconds": 333.52,
@@ -2196,7 +2196,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -2239,266 +2242,16 @@
       "Audio recurrence ratio is 0.174; this is a rough proxy for repeated musical cells, not true motif recognition.",
       "beat_this detected 675 beats and 187 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 3.48, cumulative evolution 1.49, transformed returns 10.00, grid deviation 1.87, rule changes 8.06.",
-      "Companion text has 9 lyric/production sections, 351 words, line repetition 0.13, rhyme-suffix reuse 0.36.",
-      "Transcription check: lyric alignment 0.81, unique-word coverage 0.83, word-count ratio 1.03, duplicate-pass estimate 1."
+      "Companion text has 9 lyric/production sections, 351 words, line repetition 0.13, rhyme-suffix reuse 0.36."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "In the glow of the kitchen light, your shadow cracked like coal Syntax of a slurred command, love commented out in no more Arms are never open, only clenched into the night I like a recursion of your age, looping fear instead of love And every variable in me still carries your design Unblue printed and drunkenly across a child's mind If that else, your name of failure functioned in matches If that else, your name of failure functioned in matches The cause, the cause, the reason I can't rest I trace the logic of the herd, I drag like chains Finding every broken piece still maps back to your name You spoke in crashing arguments, exceptions thrown like rain I index the solos and all No hug, no warmth, just brittle truths You never meant to send, but I compile them anyway A child trying to comprehend Now I'm the program glitching with the ghost of what was real A system built on warnings that I never learned to heal If that else, if that else, your code runs deeper than the years between us now If that else, if that else, the trigger in my thoughts I still can't do both somehow Every checking thought I'd find every storm inside my head is just the echo of the world you wrote for me instead Still I reach for something tender in the logic of your face But memory is a labyrinth with no exit just your trace I wander through each hollow room, the echoes intertwine A paradoxal wanting love that never once was mine I can't rewrite the origin and unwind the primal color Your absence is the algorithm that feeds my every flow If that else, if that else, I am the son of all the pain you couldn't hold If that else, that else, your code became the framework in my soul Yet through the static I keep searching for a way to transcend, to break the chain of code You love to close the loop, you'll never know",
-    "segments": [
-      {
-        "start": 30.0,
-        "end": 40.0,
-        "text": "In the glow of the kitchen light, your shadow cracked like coal",
-        "avg_logprob": -0.49598215988704136,
-        "no_speech_prob": 0.62646484375
-      },
-      {
-        "start": 43.0,
-        "end": 55.0,
-        "text": "Syntax of a slurred command, love commented out in no more",
-        "avg_logprob": -0.49598215988704136,
-        "no_speech_prob": 0.62646484375
-      },
-      {
-        "start": 56.0,
-        "end": 67.0,
-        "text": "Arms are never open, only clenched into the night",
-        "avg_logprob": -0.3399621212121212,
-        "no_speech_prob": 0.1280517578125
-      },
-      {
-        "start": 68.0,
-        "end": 80.0,
-        "text": "I like a recursion of your age, looping fear instead of love",
-        "avg_logprob": -0.3399621212121212,
-        "no_speech_prob": 0.1280517578125
-      },
-      {
-        "start": 81.0,
-        "end": 87.0,
-        "text": "And every variable in me still carries your design",
-        "avg_logprob": -0.32355183508338,
-        "no_speech_prob": 0.10015869140625
-      },
-      {
-        "start": 87.0,
-        "end": 94.0,
-        "text": "Unblue printed and drunkenly across a child's mind",
-        "avg_logprob": -0.32355183508338,
-        "no_speech_prob": 0.10015869140625
-      },
-      {
-        "start": 94.0,
-        "end": 102.0,
-        "text": "If that else, your name of failure functioned in matches",
-        "avg_logprob": -0.32355183508338,
-        "no_speech_prob": 0.10015869140625
-      },
-      {
-        "start": 103.0,
-        "end": 109.0,
-        "text": "If that else, your name of failure functioned in matches",
-        "avg_logprob": -0.2033025554635308,
-        "no_speech_prob": 0.036407470703125
-      },
-      {
-        "start": 109.0,
-        "end": 116.0,
-        "text": "The cause, the cause, the reason I can't rest",
-        "avg_logprob": -0.2033025554635308,
-        "no_speech_prob": 0.036407470703125
-      },
-      {
-        "start": 116.0,
-        "end": 123.0,
-        "text": "I trace the logic of the herd, I drag like chains",
-        "avg_logprob": -0.2033025554635308,
-        "no_speech_prob": 0.036407470703125
-      },
-      {
-        "start": 123.0,
-        "end": 133.0,
-        "text": "Finding every broken piece still maps back to your name",
-        "avg_logprob": -0.43546196883139404,
-        "no_speech_prob": 0.01068115234375
-      },
-      {
-        "start": 133.0,
-        "end": 141.0,
-        "text": "You spoke in crashing arguments, exceptions thrown like rain",
-        "avg_logprob": -0.43546196883139404,
-        "no_speech_prob": 0.01068115234375
-      },
-      {
-        "start": 141.0,
-        "end": 146.0,
-        "text": "I index the solos and all",
-        "avg_logprob": -0.43546196883139404,
-        "no_speech_prob": 0.01068115234375
-      },
-      {
-        "start": 146.0,
-        "end": 149.0,
-        "text": "No hug, no warmth, just brittle truths",
-        "avg_logprob": -0.43546196883139404,
-        "no_speech_prob": 0.01068115234375
-      },
-      {
-        "start": 149.0,
-        "end": 154.0,
-        "text": "You never meant to send, but I compile them anyway",
-        "avg_logprob": -0.11763392622981753,
-        "no_speech_prob": 0.03814697265625
-      },
-      {
-        "start": 154.0,
-        "end": 158.0,
-        "text": "A child trying to comprehend",
-        "avg_logprob": -0.11763392622981753,
-        "no_speech_prob": 0.03814697265625
-      },
-      {
-        "start": 158.0,
-        "end": 164.0,
-        "text": "Now I'm the program glitching with the ghost of what was real",
-        "avg_logprob": -0.11763392622981753,
-        "no_speech_prob": 0.03814697265625
-      },
-      {
-        "start": 164.0,
-        "end": 170.0,
-        "text": "A system built on warnings that I never learned to heal",
-        "avg_logprob": -0.11763392622981753,
-        "no_speech_prob": 0.03814697265625
-      },
-      {
-        "start": 170.0,
-        "end": 177.0,
-        "text": "If that else, if that else, your code runs deeper than the years between us now",
-        "avg_logprob": -0.11763392622981753,
-        "no_speech_prob": 0.03814697265625
-      },
-      {
-        "start": 180.0,
-        "end": 193.0,
-        "text": "If that else, if that else, the trigger in my thoughts I still can't do both somehow",
-        "avg_logprob": -0.2758290913640236,
-        "no_speech_prob": 0.033660888671875
-      },
-      {
-        "start": 193.0,
-        "end": 208.0,
-        "text": "Every checking thought I'd find every storm inside my head is just the echo of the world you wrote for me instead",
-        "avg_logprob": -0.2758290913640236,
-        "no_speech_prob": 0.033660888671875
-      },
-      {
-        "start": 208.0,
-        "end": 228.0,
-        "text": "Still I reach for something tender in the logic of your face",
-        "avg_logprob": -0.17981350421905518,
-        "no_speech_prob": 0.51953125
-      },
-      {
-        "start": 228.0,
-        "end": 234.0,
-        "text": "But memory is a labyrinth with no exit just your trace",
-        "avg_logprob": -0.17981350421905518,
-        "no_speech_prob": 0.51953125
-      },
-      {
-        "start": 234.0,
-        "end": 240.0,
-        "text": "I wander through each hollow room, the echoes intertwine",
-        "avg_logprob": -0.2384259314448745,
-        "no_speech_prob": 0.231689453125
-      },
-      {
-        "start": 240.0,
-        "end": 247.0,
-        "text": "A paradoxal wanting love that never once was mine",
-        "avg_logprob": -0.2384259314448745,
-        "no_speech_prob": 0.231689453125
-      },
-      {
-        "start": 247.0,
-        "end": 266.0,
-        "text": "I can't rewrite the origin and unwind the primal color",
-        "avg_logprob": -0.4728860294117647,
-        "no_speech_prob": 0.20166015625
-      },
-      {
-        "start": 266.0,
-        "end": 279.0,
-        "text": "Your absence is the algorithm that feeds my every flow",
-        "avg_logprob": -0.19319196939468383,
-        "no_speech_prob": 0.109619140625
-      },
-      {
-        "start": 285.0,
-        "end": 293.0,
-        "text": "If that else, if that else, I am the son of all the pain you couldn't hold",
-        "avg_logprob": -0.19319196939468383,
-        "no_speech_prob": 0.109619140625
-      },
-      {
-        "start": 297.0,
-        "end": 307.0,
-        "text": "If that else, that else, your code became the framework in my soul",
-        "avg_logprob": -0.15507812574505805,
-        "no_speech_prob": 0.043243408203125
-      },
-      {
-        "start": 307.0,
-        "end": 317.0,
-        "text": "Yet through the static I keep searching for a way to transcend, to break the chain of code",
-        "avg_logprob": -0.15507812574505805,
-        "no_speech_prob": 0.043243408203125
-      },
-      {
-        "start": 317.0,
-        "end": 327.0,
-        "text": "You love to close the loop, you'll never know",
-        "avg_logprob": -0.3602120578289032,
-        "no_speech_prob": 0.513671875
-      }
-    ],
-    "avg_logprob": -0.28682523054671477
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 333,
-    "transcript_word_count": 344,
-    "matched_sequence_words": 268,
-    "lyric_alignment_ratio": 0.805,
-    "transcript_precision_ratio": 0.779,
-    "unique_expected_word_coverage": 0.827,
-    "word_count_ratio": 1.033,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.18,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.807,
-    "quality_score_0_10": 8.07,
-    "flags": [],
-    "transcript_excerpt": "In the glow of the kitchen light, your shadow cracked like coal Syntax of a slurred command, love commented out in no more Arms are never open, only clenched into the night I like a recursion of your age, looping fear instead of love And every variable in me still carries your design Unblue printed and drunkenly across a child's mind If that else, your name of failure functioned in matches If that else, your name of failure functioned in matches The cause, the cause, the reason I can't rest I trace the logic of the herd, I drag like chains Finding every broken piece still maps back to your nam\n...[truncated]...\nch for something tender in the logic of your face But memory is a labyrinth with no exit just your trace I wander through each hollow room, the echoes intertwine A paradoxal wanting love that never once was mine I can't rewrite the origin and unwind the primal color Your absence is the algorithm that feeds my every flow If that else, if that else, I am the son of all the pain you couldn't hold If that else, that else, your code became the framework in my soul Yet through the static I keep searching for a way to transcend, to break the chain of code You love to close the loop, you'll never know"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 6.5,
-      "BP_beauty_spatial_poise": 9.0,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 8.5
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 5.89,
+      "BP_beauty_spatial_poise": 9.5,
+      "EG_evolving_grammar": 7.05,
+      "CD_carry_depth": 7.94
     },
     "core_metrics": {
       "CDPD": 0.774,
@@ -2510,37 +2263,55 @@
       "label": "Technical Perfection, No Rupture",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The piece is divided into 10 well-balanced sections with clear transitions and a consistent structural framework, meeting the criteria for technical perfection."
+        "delta": 0.0,
+        "reason": "No change"
       },
       "MI_motivic_integration": {
-        "delta": 0.61,
-        "reason": "Motifs are introduced in multiple sections with variation and recurrence, though not fully developed or recapitulated, suggesting a strong but not complete motivic integration."
+        "delta": 0.0,
+        "reason": "No change"
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.5,
-        "reason": "While the piece has moments of harmonic beauty and spatial poise, the overall structure feels more technical than emotionally resonant, slightly lowering the score."
+        "delta": 0.0,
+        "reason": "No change"
       },
       "EG_evolving_grammar": {
-        "delta": 0.45,
-        "reason": "The evolving grammar is evident through rule changes and section contrasts, but the piece remains within established musical grammar without introducing new rules."
+        "delta": 0.0,
+        "reason": "No change"
       },
       "CD_carry_depth": {
-        "delta": 0.56,
-        "reason": "The lyrics and production create a strong emotional narrative, and the piece has a self-sustaining musical habitat that invites re-listening."
+        "delta": 0.0,
+        "reason": "No change"
       }
     },
-    "rationale": [],
-    "review_flags": [],
+    "rationale": [
+      "The base scores are high and stable; no evidence of rupture or significant variance in the measured features.",
+      "The lyrics use heavy technical metaphors (code, algorithms, loops) to convey emotional weight, which is well-integrated with the musical structure.",
+      "The production quality is consistent across sections."
+    ],
+    "review_flags": [
+      "High Confidence",
+      "No Rupture"
+    ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:50:38.4746558Z",
-    "eval_count": 778,
-    "eval_duration": 13110289100
+    "created_at": "2026-06-10T10:49:49.7654606Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10672766,
+      "base64_chars": 14230356,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14612,
+    "prompt_eval_duration": 6244719000,
+    "eval_count": 375,
+    "eval_duration": 9858234000
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:55:34",
+  "generated_at": "2026-06-10T13:19:15",
   "audio": {
     "path": "UNMEASURED GEOMETRY/audio/10 - No Horizon.mp3",
     "duration_seconds": 416.04,
@@ -2473,19 +2473,22 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.38,
-      "MI_motivic_integration": 4.57,
-      "BP_beauty_spatial_poise": 9.69,
-      "EG_evolving_grammar": 6.76,
-      "CD_carry_depth": 7.01
+      "SC_structural_coherence": 9.66,
+      "MI_motivic_integration": 5.01,
+      "BP_beauty_spatial_poise": 9.82,
+      "EG_evolving_grammar": 6.98,
+      "CD_carry_depth": 7.68
     },
     "core_metrics": {
-      "CDPD": 0.674,
-      "NGE": 0.671,
+      "CDPD": 0.717,
+      "NGE": 0.683,
       "HMII_peak_estimate": 4
     },
     "eg_evidence": {
@@ -2498,9 +2501,9 @@
       "overall_score": 5.243
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.636,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.636
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 10,
@@ -2517,327 +2520,133 @@
       "beat_this detected 793 beats and 230 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 3.42, cumulative evolution 1.48, transformed returns 10.00, grid deviation 2.34, rule changes 7.50.",
       "Companion text has 8 lyric/production sections, 324 words, line repetition 0.15, rhyme-suffix reuse 0.35.",
-      "Transcription check: lyric alignment 0.61, unique-word coverage 0.59, word-count ratio 1.00, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.64, repeat 0.00).",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
   },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "You're the only one I've ever seen, you're the only one I've ever seen, you're the only one I've ever seen. You're the only one I've ever seen. You're the only one I've ever seen, you're the only one I've ever seen. I've got engines with no horizon, infinite ruins in a crystalline cage. But all I craft are clay engines, little games to keep the static and big. If I could draw a line for the future to follow, I'd carve it in dinner. Instead, I'd drift in the shallow. I could tax the waste first through since that it died. Carving it weighs where intention hides. But I'm drowning in echoes of unfinished designs. Blue prints unraveling before they align. Potential burns like a starlet unseen. A lighthouse dimmed in a lucid dream. And the brightest ideas flicker at best. A phantom gesture I fell to rest. I've got engines with no horizon, infinite mines in a crystalline cage. But all I craft are clay engines, little games to keep the static and big. If I could draw a line for the future to follow, I'd carve it in dinner. Instead, I'd drift in the shallow. Take me the shape of a world worth building. Show me the spark that the boy keeps stealing. I'm a conductor with no sympathy, only circuits coming back. Get me rewrite this silence give direction for. A purpose coated in a rising storm. Engines with no horizon, they're waiting for a vision I can translate. Still, I pray that the glow of their patience. Hope ain't one day, I'll take you lane. Until then, it's echoes and idle creation. A mind overflowing. With no destination. I'm a conductor with no horizon, infinite mines in a crystalline cage. I'm a conductor with no horizon, infinite mines in a crystalline cage.",
-    "segments": [
-      {
-        "start": 30.0,
-        "end": 37.0,
-        "text": "You're the only one I've ever seen, you're the only one I've ever seen, you're the only one I've ever seen.",
-        "avg_logprob": -0.8513257575757576,
-        "no_speech_prob": 0.8701171875
-      },
-      {
-        "start": 60.0,
-        "end": 63.0,
-        "text": "You're the only one I've ever seen.",
-        "avg_logprob": -0.5462740384615384,
-        "no_speech_prob": 0.385498046875
-      },
-      {
-        "start": 90.0,
-        "end": 97.0,
-        "text": "You're the only one I've ever seen, you're the only one I've ever seen.",
-        "avg_logprob": -0.2578125,
-        "no_speech_prob": 0.2744140625
-      },
-      {
-        "start": 121.0,
-        "end": 140.0,
-        "text": "I've got engines with no horizon, infinite ruins in a crystalline cage.",
-        "avg_logprob": -0.4761718988418579,
-        "no_speech_prob": 0.1595458984375
-      },
-      {
-        "start": 140.0,
-        "end": 151.0,
-        "text": "But all I craft are clay engines, little games to keep the static and big.",
-        "avg_logprob": -0.3562127997477849,
-        "no_speech_prob": 0.058349609375
-      },
-      {
-        "start": 151.0,
-        "end": 164.0,
-        "text": "If I could draw a line for the future to follow, I'd carve it in dinner.",
-        "avg_logprob": -0.3562127997477849,
-        "no_speech_prob": 0.058349609375
-      },
-      {
-        "start": 164.0,
-        "end": 174.0,
-        "text": "Instead, I'd drift in the shallow.",
-        "avg_logprob": -0.526182425988687,
-        "no_speech_prob": 0.074462890625
-      },
-      {
-        "start": 174.0,
-        "end": 180.0,
-        "text": "I could tax the waste first through since that it died.",
-        "avg_logprob": -0.526182425988687,
-        "no_speech_prob": 0.074462890625
-      },
-      {
-        "start": 180.0,
-        "end": 186.0,
-        "text": "Carving it weighs where intention hides.",
-        "avg_logprob": -0.526182425988687,
-        "no_speech_prob": 0.074462890625
-      },
-      {
-        "start": 186.0,
-        "end": 191.0,
-        "text": "But I'm drowning in echoes of unfinished designs.",
-        "avg_logprob": -0.251662237847105,
-        "no_speech_prob": 0.1756591796875
-      },
-      {
-        "start": 191.0,
-        "end": 198.0,
-        "text": "Blue prints unraveling before they align.",
-        "avg_logprob": -0.251662237847105,
-        "no_speech_prob": 0.1756591796875
-      },
-      {
-        "start": 198.0,
-        "end": 204.0,
-        "text": "Potential burns like a starlet unseen.",
-        "avg_logprob": -0.251662237847105,
-        "no_speech_prob": 0.1756591796875
-      },
-      {
-        "start": 204.0,
-        "end": 214.0,
-        "text": "A lighthouse dimmed in a lucid dream.",
-        "avg_logprob": -0.251662237847105,
-        "no_speech_prob": 0.1756591796875
-      },
-      {
-        "start": 214.0,
-        "end": 221.0,
-        "text": "And the brightest ideas flicker at best.",
-        "avg_logprob": -0.3518880208333333,
-        "no_speech_prob": 0.010833740234375
-      },
-      {
-        "start": 221.0,
-        "end": 231.0,
-        "text": "A phantom gesture I fell to rest.",
-        "avg_logprob": -0.3518880208333333,
-        "no_speech_prob": 0.010833740234375
-      },
-      {
-        "start": 231.0,
-        "end": 251.0,
-        "text": "I've got engines with no horizon, infinite mines in a crystalline cage.",
-        "avg_logprob": -0.16962890326976776,
-        "no_speech_prob": 0.07269287109375
-      },
-      {
-        "start": 251.0,
-        "end": 262.0,
-        "text": "But all I craft are clay engines, little games to keep the static and big.",
-        "avg_logprob": -0.03708612360060215,
-        "no_speech_prob": 0.28759765625
-      },
-      {
-        "start": 262.0,
-        "end": 275.0,
-        "text": "If I could draw a line for the future to follow, I'd carve it in dinner.",
-        "avg_logprob": -0.03708612360060215,
-        "no_speech_prob": 0.28759765625
-      },
-      {
-        "start": 275.0,
-        "end": 283.0,
-        "text": "Instead, I'd drift in the shallow.",
-        "avg_logprob": -0.16722972972972974,
-        "no_speech_prob": 0.3486328125
-      },
-      {
-        "start": 283.0,
-        "end": 290.0,
-        "text": "Take me the shape of a world worth building.",
-        "avg_logprob": -0.16722972972972974,
-        "no_speech_prob": 0.3486328125
-      },
-      {
-        "start": 290.0,
-        "end": 296.0,
-        "text": "Show me the spark that the boy keeps stealing.",
-        "avg_logprob": -0.16722972972972974,
-        "no_speech_prob": 0.3486328125
-      },
-      {
-        "start": 296.0,
-        "end": 301.0,
-        "text": "I'm a conductor with no sympathy, only circuits coming back.",
-        "avg_logprob": -0.3839285724929401,
-        "no_speech_prob": 0.58935546875
-      },
-      {
-        "start": 301.0,
-        "end": 308.0,
-        "text": "Get me rewrite this silence give direction for.",
-        "avg_logprob": -0.3839285724929401,
-        "no_speech_prob": 0.58935546875
-      },
-      {
-        "start": 308.0,
-        "end": 314.0,
-        "text": "A purpose coated in a rising storm.",
-        "avg_logprob": -0.3499644994735718,
-        "no_speech_prob": 0.12469482421875
-      },
-      {
-        "start": 338.0,
-        "end": 349.0,
-        "text": "Engines with no horizon, they're waiting for a vision I can translate.",
-        "avg_logprob": -0.2694128787878788,
-        "no_speech_prob": 0.1947021484375
-      },
-      {
-        "start": 349.0,
-        "end": 355.0,
-        "text": "Still, I pray that the glow of their patience.",
-        "avg_logprob": -0.2694128787878788,
-        "no_speech_prob": 0.1947021484375
-      },
-      {
-        "start": 355.0,
-        "end": 360.0,
-        "text": "Hope ain't one day, I'll take you lane.",
-        "avg_logprob": -0.42070313170552254,
-        "no_speech_prob": 0.07861328125
-      },
-      {
-        "start": 360.0,
-        "end": 367.0,
-        "text": "Until then, it's echoes and idle creation.",
-        "avg_logprob": -0.42070313170552254,
-        "no_speech_prob": 0.07861328125
-      },
-      {
-        "start": 367.0,
-        "end": 377.0,
-        "text": "A mind overflowing.",
-        "avg_logprob": -0.42070313170552254,
-        "no_speech_prob": 0.07861328125
-      },
-      {
-        "start": 377.0,
-        "end": 383.0,
-        "text": "With no destination.",
-        "avg_logprob": -0.42070313170552254,
-        "no_speech_prob": 0.07861328125
-      },
-      {
-        "start": 385.0,
-        "end": 395.0,
-        "text": "I'm a conductor with no horizon, infinite mines in a crystalline cage.",
-        "avg_logprob": -0.3898026386373921,
-        "no_speech_prob": 0.87646484375
-      },
-      {
-        "start": 395.0,
-        "end": 406.0,
-        "text": "I'm a conductor with no horizon, infinite mines in a crystalline cage.",
-        "avg_logprob": -0.3898026386373921,
-        "no_speech_prob": 0.87646484375
-      }
-    ],
-    "avg_logprob": -0.32844484361383486
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 308,
-    "transcript_word_count": 307,
-    "matched_sequence_words": 189,
-    "lyric_alignment_ratio": 0.614,
-    "transcript_precision_ratio": 0.616,
-    "unique_expected_word_coverage": 0.594,
-    "word_count_ratio": 0.997,
-    "repeated_12gram_ratio": 0.186,
-    "half_similarity": 0.359,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.61,
-    "quality_score_0_10": 6.1,
-    "flags": [],
-    "transcript_excerpt": "You're the only one I've ever seen, you're the only one I've ever seen, you're the only one I've ever seen. You're the only one I've ever seen. You're the only one I've ever seen, you're the only one I've ever seen. I've got engines with no horizon, infinite ruins in a crystalline cage. But all I craft are clay engines, little games to keep the static and big. If I could draw a line for the future to follow, I'd carve it in dinner. Instead, I'd drift in the shallow. I could tax the waste first through since that it died. Carving it weighs where intention hides. But I'm drowning in echoes of un\n...[truncated]...\n a world worth building. Show me the spark that the boy keeps stealing. I'm a conductor with no sympathy, only circuits coming back. Get me rewrite this silence give direction for. A purpose coated in a rising storm. Engines with no horizon, they're waiting for a vision I can translate. Still, I pray that the glow of their patience. Hope ain't one day, I'll take you lane. Until then, it's echoes and idle creation. A mind overflowing. With no destination. I'm a conductor with no horizon, infinite mines in a crystalline cage. I'm a conductor with no horizon, infinite mines in a crystalline cage."
-  },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.38,
-      "MI_motivic_integration": 4.57,
-      "BP_beauty_spatial_poise": 9.69,
-      "EG_evolving_grammar": 6.76,
-      "CD_carry_depth": 7.01
+      "SC_structural_coherence": 9.66,
+      "MI_motivic_integration": 5.01,
+      "BP_beauty_spatial_poise": 9.82,
+      "EG_evolving_grammar": 6.98,
+      "CD_carry_depth": 7.68
     },
     "core_metrics": {
-      "CDPD": 0.674,
-      "NGE": 0.671,
+      "CDPD": 0.717,
+      "NGE": 0.683,
       "HMII_peak_estimate": 4
     },
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar"
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The piece is divided into 10 distinct sections with a balanced structure, and the transitions between sections are smooth and coherent."
+        "reason": "No change"
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs are introduced in the first section and reappear with variation in later sections, indicating a strong integration of motivic elements."
+        "reason": "No change"
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The piece maintains a consistent spatial poise with a clear harmonic progression and well-structured phrasing."
+        "reason": "No change"
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar is evident through the rule changes and transformations across sections, though the overall score remains within the expected range."
+        "reason": "No change"
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The emotional depth and re-listen pull are strong, with a self-sustaining musical habitat that resonates with the listener."
+        "reason": "No change"
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 6:56.04 with section-balance score 0.18.",
-      "Tempo estimate is 103.4 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -16.1 LUFS, peak is 0.2 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is A#/Bb minor with confidence 0.38.",
-      "Audio recurrence ratio is 0.106; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 793 beats and 230 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 3.42, cumulative evolution 1.48, transformed returns 10.00, grid deviation 2.34, rule changes 7.50.",
-      "Companion text has 8 lyric/production sections, 324 words, line repetition 0.15, rhyme-suffix reuse 0.35."
+      "The track exhibits high structural coherence (9.66) and beauty/spatial poise (9.82), suggesting a well-defined musical architecture.",
+      "Motivic integration is moderate (5.01), indicating clear melodic intent but perhaps less complex harmonic variation than the highest tiers.",
+      "Carry depth (7.68) indicates significant thematic development throughout the piece.",
+      "The 'Technical Perfection' rung estimate of 10 suggests a high level of technical execution and production quality."
     ],
     "review_flags": [
-      "Uncertainty about the accuracy of section detection and motif recognition due to limited audio-only evidence."
+      "high_quality",
+      "well_produced"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:55:34.5107173Z",
-    "eval_count": 815,
-    "eval_duration": 13675404000
+    "created_at": "2026-06-10T11:19:15.1368154Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 11520126,
+      "base64_chars": 15360168,
+      "max_seconds": 360.0
+    },
+    "audio_attachment_attempts": [
+      {
+        "sample_rate": 16000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 13313406,
+          "base64_chars": 17751208,
+          "max_seconds": null
+        },
+        "error": "HTTP Error 400: Bad Request: {\"error\":\"{\\\"error\\\":{\\\"code\\\":400,\\\"message\\\":\\\"request (16562 tokens) exceeds the available context size (16384 tokens), try increasing it\\\",\\\"type\\\":\\\"exceed_context_size_error\\\",\\\"n_prompt_tokens\\\":16562,\\\"n_ctx\\\":16384}}\"}"
+      },
+      {
+        "sample_rate": 12000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 12000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 9985086,
+          "base64_chars": 13313448,
+          "max_seconds": null
+        },
+        "error": "HTTP Error 400: Bad Request: {\"error\":\"{\\\"error\\\":{\\\"code\\\":400,\\\"message\\\":\\\"request (16562 tokens) exceeds the available context size (16384 tokens), try increasing it\\\",\\\"type\\\":\\\"exceed_context_size_error\\\",\\\"n_prompt_tokens\\\":16562,\\\"n_ctx\\\":16384}}\"}"
+      },
+      {
+        "sample_rate": 8000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 8000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 6656766,
+          "base64_chars": 8875688,
+          "max_seconds": null
+        },
+        "error": "HTTP Error 400: Bad Request: {\"error\":\"{\\\"error\\\":{\\\"code\\\":400,\\\"message\\\":\\\"request (16562 tokens) exceeds the available context size (16384 tokens), try increasing it\\\",\\\"type\\\":\\\"exceed_context_size_error\\\",\\\"n_prompt_tokens\\\":16562,\\\"n_ctx\\\":16384}}\"}"
+      },
+      {
+        "sample_rate": 16000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 11520126,
+          "base64_chars": 15360168,
+          "max_seconds": 360.0
+        },
+        "prompt_eval_count": 15161,
+        "eval_count": 452,
+        "error": null
+      }
+    ],
+    "prompt_eval_count": 15161,
+    "prompt_eval_duration": 6664288000,
+    "eval_count": 452,
+    "eval_duration": 12023943000
   }
 }

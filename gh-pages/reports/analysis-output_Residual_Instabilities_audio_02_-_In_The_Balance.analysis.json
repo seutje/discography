@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:41:50",
+  "generated_at": "2026-06-10T12:41:56",
   "audio": {
     "path": "Residual Instabilities/audio/02 - In The Balance.mp3",
     "duration_seconds": 327.8,
@@ -1670,7 +1670,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1714,689 +1717,19 @@
       "beat_this detected 462 beats and 116 downbeats; beat-grid stability is 0.93.",
       "EG evidence: section contrast 1.79, cumulative evolution 0.74, transformed returns 10.00, grid deviation 0.37, rule changes 1.94.",
       "Companion text has 13 lyric/production sections, 552 words, line repetition 0.13, rhyme-suffix reuse 0.38.",
-      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 8.80.",
-      "Transcription check: lyric alignment 0.84, unique-word coverage 0.90, word-count ratio 0.97, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 8.80."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I trace your light from far away I'm not cold enough to turn to stone I'm not close enough to burn away I keep a path I've always known A careful line I never cross Never leave I measure distance in my range In micro shifts I can't arrange Every move of fragile thread Too much weight and it might shred You shift I recalibrate A silent unseen counterweight I read the silence in your tone Like gravity I can't outrun And I stay within the range You need But never take the lead Not too near, not too gone I adjust carry on In the balance I remain so glint Through pulling strain in your orbit Holding place never lost But never phased If I drift that disappear If I stay I'm too severe So I hover undefined In the balance Every time Every time Every word a careful step Place where tension hasn't crept I soften edges of my voice Like presence is a measured choice You move closer I receive Just enough to let you breathe But if you fade beyond my sight I feel the pull to realize It's never still It's never free This constant tuning inside me A fragile zone I orbit through Defined by you, defined by you In the balance I remain so glint Through pulling strain in your orbit Holding place never lost But never phased If I drift that disappear If I stay I'm too severe So I hover undefined In the balance Every time Every word a careful step There's a line I cannot see But I feel it pulling me closer Closer If I cross it something breaks If I don't, it slowly aches I was never meant to stay there still Just suspended Just control Just stars Closer now I feel the heat Holding back and seeing these Every orbit pulls me in Every cycle works within I can't keep this perfect space Without erasing what I crave I let the distance collapse at last Then break the line I held so fast No more careful measure to spin I fall directly into close now I feel the flame no safe Distance left in name But for once I don't retreat I stay I stay Out of balance I descend Pass the place I used to bend No more orbit no return I accept the way I burn If I vanish let it be At least I moved honestly No more hovering between I choose the fall I choose the scene No more distance left to hold No more careful no more control Just a cool Just a flame Into me Into me",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 7.0,
-        "text": "I trace your light from far away",
-        "avg_logprob": -0.3011532702616283,
-        "no_speech_prob": 0.7275390625
-      },
-      {
-        "start": 7.0,
-        "end": 12.0,
-        "text": "I'm not cold enough to turn to stone",
-        "avg_logprob": -0.3011532702616283,
-        "no_speech_prob": 0.7275390625
-      },
-      {
-        "start": 12.0,
-        "end": 18.0,
-        "text": "I'm not close enough to burn away",
-        "avg_logprob": -0.3011532702616283,
-        "no_speech_prob": 0.7275390625
-      },
-      {
-        "start": 18.0,
-        "end": 24.0,
-        "text": "I keep a path I've always known",
-        "avg_logprob": -0.3011532702616283,
-        "no_speech_prob": 0.7275390625
-      },
-      {
-        "start": 25.0,
-        "end": 31.0,
-        "text": "A careful line",
-        "avg_logprob": -0.5224609561264515,
-        "no_speech_prob": 0.081787109375
-      },
-      {
-        "start": 31.0,
-        "end": 37.0,
-        "text": "I never cross",
-        "avg_logprob": -0.5224609561264515,
-        "no_speech_prob": 0.081787109375
-      },
-      {
-        "start": 37.0,
-        "end": 49.0,
-        "text": "Never leave",
-        "avg_logprob": -0.5224609561264515,
-        "no_speech_prob": 0.081787109375
-      },
-      {
-        "start": 49.0,
-        "end": 52.0,
-        "text": "I measure distance in my range",
-        "avg_logprob": -0.1773726792983067,
-        "no_speech_prob": 0.29443359375
-      },
-      {
-        "start": 52.0,
-        "end": 54.0,
-        "text": "In micro shifts I can't arrange",
-        "avg_logprob": -0.1773726792983067,
-        "no_speech_prob": 0.29443359375
-      },
-      {
-        "start": 54.0,
-        "end": 57.0,
-        "text": "Every move of fragile thread",
-        "avg_logprob": -0.1773726792983067,
-        "no_speech_prob": 0.29443359375
-      },
-      {
-        "start": 57.0,
-        "end": 60.0,
-        "text": "Too much weight and it might shred",
-        "avg_logprob": -0.1773726792983067,
-        "no_speech_prob": 0.29443359375
-      },
-      {
-        "start": 60.0,
-        "end": 63.0,
-        "text": "You shift I recalibrate",
-        "avg_logprob": -0.1773726792983067,
-        "no_speech_prob": 0.29443359375
-      },
-      {
-        "start": 63.0,
-        "end": 65.0,
-        "text": "A silent unseen counterweight",
-        "avg_logprob": -0.1773726792983067,
-        "no_speech_prob": 0.29443359375
-      },
-      {
-        "start": 65.0,
-        "end": 68.0,
-        "text": "I read the silence in your tone",
-        "avg_logprob": -0.1773726792983067,
-        "no_speech_prob": 0.29443359375
-      },
-      {
-        "start": 68.0,
-        "end": 70.0,
-        "text": "Like gravity I can't outrun",
-        "avg_logprob": -0.1773726792983067,
-        "no_speech_prob": 0.29443359375
-      },
-      {
-        "start": 70.0,
-        "end": 73.0,
-        "text": "And I stay within the range",
-        "avg_logprob": -0.1773726792983067,
-        "no_speech_prob": 0.29443359375
-      },
-      {
-        "start": 73.0,
-        "end": 76.0,
-        "text": "You need",
-        "avg_logprob": -0.1773726792983067,
-        "no_speech_prob": 0.29443359375
-      },
-      {
-        "start": 76.0,
-        "end": 83.0,
-        "text": "But never take the lead",
-        "avg_logprob": -0.260714282308306,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 83.0,
-        "end": 86.0,
-        "text": "Not too near, not too gone",
-        "avg_logprob": -0.260714282308306,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 86.0,
-        "end": 89.0,
-        "text": "I adjust carry on",
-        "avg_logprob": -0.260714282308306,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 89.0,
-        "end": 92.0,
-        "text": "In the balance I remain so glint",
-        "avg_logprob": -0.260714282308306,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 92.0,
-        "end": 95.0,
-        "text": "Through pulling strain in your orbit",
-        "avg_logprob": -0.260714282308306,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 95.0,
-        "end": 98.0,
-        "text": "Holding place never lost",
-        "avg_logprob": -0.260714282308306,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 98.0,
-        "end": 100.0,
-        "text": "But never phased",
-        "avg_logprob": -0.260714282308306,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 100.0,
-        "end": 102.0,
-        "text": "If I drift that disappear",
-        "avg_logprob": -0.260714282308306,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 102.0,
-        "end": 105.0,
-        "text": "If I stay I'm too severe",
-        "avg_logprob": -0.260714282308306,
-        "no_speech_prob": 0.0193634033203125
-      },
-      {
-        "start": 105.0,
-        "end": 108.0,
-        "text": "So I hover undefined",
-        "avg_logprob": -0.19417614178224044,
-        "no_speech_prob": 0.01235198974609375
-      },
-      {
-        "start": 108.0,
-        "end": 110.0,
-        "text": "In the balance",
-        "avg_logprob": -0.19417614178224044,
-        "no_speech_prob": 0.01235198974609375
-      },
-      {
-        "start": 110.0,
-        "end": 117.0,
-        "text": "Every time",
-        "avg_logprob": -0.19417614178224044,
-        "no_speech_prob": 0.01235198974609375
-      },
-      {
-        "start": 117.0,
-        "end": 123.0,
-        "text": "Every time",
-        "avg_logprob": -0.19417614178224044,
-        "no_speech_prob": 0.01235198974609375
-      },
-      {
-        "start": 123.0,
-        "end": 125.0,
-        "text": "Every word a careful step",
-        "avg_logprob": -0.19417614178224044,
-        "no_speech_prob": 0.01235198974609375
-      },
-      {
-        "start": 125.0,
-        "end": 128.0,
-        "text": "Place where tension hasn't crept",
-        "avg_logprob": -0.19417614178224044,
-        "no_speech_prob": 0.01235198974609375
-      },
-      {
-        "start": 128.0,
-        "end": 131.0,
-        "text": "I soften edges of my voice",
-        "avg_logprob": -0.19417614178224044,
-        "no_speech_prob": 0.01235198974609375
-      },
-      {
-        "start": 131.0,
-        "end": 134.0,
-        "text": "Like presence is a measured choice",
-        "avg_logprob": -0.19417614178224044,
-        "no_speech_prob": 0.01235198974609375
-      },
-      {
-        "start": 134.0,
-        "end": 137.0,
-        "text": "You move closer I receive",
-        "avg_logprob": -0.1463468309859155,
-        "no_speech_prob": 0.048980712890625
-      },
-      {
-        "start": 137.0,
-        "end": 139.0,
-        "text": "Just enough to let you breathe",
-        "avg_logprob": -0.1463468309859155,
-        "no_speech_prob": 0.048980712890625
-      },
-      {
-        "start": 139.0,
-        "end": 142.0,
-        "text": "But if you fade beyond my sight",
-        "avg_logprob": -0.1463468309859155,
-        "no_speech_prob": 0.048980712890625
-      },
-      {
-        "start": 142.0,
-        "end": 145.0,
-        "text": "I feel the pull to realize",
-        "avg_logprob": -0.1463468309859155,
-        "no_speech_prob": 0.048980712890625
-      },
-      {
-        "start": 145.0,
-        "end": 147.0,
-        "text": "It's never still",
-        "avg_logprob": -0.1463468309859155,
-        "no_speech_prob": 0.048980712890625
-      },
-      {
-        "start": 147.0,
-        "end": 150.0,
-        "text": "It's never free",
-        "avg_logprob": -0.1463468309859155,
-        "no_speech_prob": 0.048980712890625
-      },
-      {
-        "start": 150.0,
-        "end": 156.0,
-        "text": "This constant tuning inside me",
-        "avg_logprob": -0.1463468309859155,
-        "no_speech_prob": 0.048980712890625
-      },
-      {
-        "start": 156.0,
-        "end": 159.0,
-        "text": "A fragile zone I orbit through",
-        "avg_logprob": -0.1463468309859155,
-        "no_speech_prob": 0.048980712890625
-      },
-      {
-        "start": 159.0,
-        "end": 162.0,
-        "text": "Defined by you, defined by you",
-        "avg_logprob": -0.1463468309859155,
-        "no_speech_prob": 0.048980712890625
-      },
-      {
-        "start": 162.0,
-        "end": 166.0,
-        "text": "In the balance I remain so glint",
-        "avg_logprob": -0.0764423076923077,
-        "no_speech_prob": 0.04766845703125
-      },
-      {
-        "start": 166.0,
-        "end": 169.0,
-        "text": "Through pulling strain in your orbit",
-        "avg_logprob": -0.0764423076923077,
-        "no_speech_prob": 0.04766845703125
-      },
-      {
-        "start": 169.0,
-        "end": 172.0,
-        "text": "Holding place never lost",
-        "avg_logprob": -0.0764423076923077,
-        "no_speech_prob": 0.04766845703125
-      },
-      {
-        "start": 172.0,
-        "end": 174.0,
-        "text": "But never phased",
-        "avg_logprob": -0.0764423076923077,
-        "no_speech_prob": 0.04766845703125
-      },
-      {
-        "start": 174.0,
-        "end": 176.0,
-        "text": "If I drift that disappear",
-        "avg_logprob": -0.0764423076923077,
-        "no_speech_prob": 0.04766845703125
-      },
-      {
-        "start": 176.0,
-        "end": 179.0,
-        "text": "If I stay I'm too severe",
-        "avg_logprob": -0.0764423076923077,
-        "no_speech_prob": 0.04766845703125
-      },
-      {
-        "start": 179.0,
-        "end": 182.0,
-        "text": "So I hover undefined",
-        "avg_logprob": -0.0764423076923077,
-        "no_speech_prob": 0.04766845703125
-      },
-      {
-        "start": 182.0,
-        "end": 184.0,
-        "text": "In the balance",
-        "avg_logprob": -0.0764423076923077,
-        "no_speech_prob": 0.04766845703125
-      },
-      {
-        "start": 184.0,
-        "end": 191.0,
-        "text": "Every time",
-        "avg_logprob": -0.0764423076923077,
-        "no_speech_prob": 0.04766845703125
-      },
-      {
-        "start": 191.0,
-        "end": 196.0,
-        "text": "Every word a careful step",
-        "avg_logprob": -0.17109375298023224,
-        "no_speech_prob": 0.0511474609375
-      },
-      {
-        "start": 196.0,
-        "end": 199.0,
-        "text": "There's a line I cannot see",
-        "avg_logprob": -0.17109375298023224,
-        "no_speech_prob": 0.0511474609375
-      },
-      {
-        "start": 199.0,
-        "end": 204.0,
-        "text": "But I feel it pulling me closer",
-        "avg_logprob": -0.17109375298023224,
-        "no_speech_prob": 0.0511474609375
-      },
-      {
-        "start": 204.0,
-        "end": 207.0,
-        "text": "Closer",
-        "avg_logprob": -0.17109375298023224,
-        "no_speech_prob": 0.0511474609375
-      },
-      {
-        "start": 207.0,
-        "end": 210.0,
-        "text": "If I cross it something breaks",
-        "avg_logprob": -0.17109375298023224,
-        "no_speech_prob": 0.0511474609375
-      },
-      {
-        "start": 210.0,
-        "end": 213.0,
-        "text": "If I don't, it slowly aches",
-        "avg_logprob": -0.17109375298023224,
-        "no_speech_prob": 0.0511474609375
-      },
-      {
-        "start": 213.0,
-        "end": 218.0,
-        "text": "I was never meant to stay there still",
-        "avg_logprob": -0.17109375298023224,
-        "no_speech_prob": 0.0511474609375
-      },
-      {
-        "start": 218.0,
-        "end": 221.0,
-        "text": "Just suspended",
-        "avg_logprob": -0.22786457960804304,
-        "no_speech_prob": 0.035888671875
-      },
-      {
-        "start": 221.0,
-        "end": 223.0,
-        "text": "Just control",
-        "avg_logprob": -0.22786457960804304,
-        "no_speech_prob": 0.035888671875
-      },
-      {
-        "start": 223.0,
-        "end": 226.0,
-        "text": "Just stars",
-        "avg_logprob": -0.22786457960804304,
-        "no_speech_prob": 0.035888671875
-      },
-      {
-        "start": 226.0,
-        "end": 228.0,
-        "text": "Closer now I feel the heat",
-        "avg_logprob": -0.22786457960804304,
-        "no_speech_prob": 0.035888671875
-      },
-      {
-        "start": 228.0,
-        "end": 231.0,
-        "text": "Holding back and seeing these",
-        "avg_logprob": -0.22786457960804304,
-        "no_speech_prob": 0.035888671875
-      },
-      {
-        "start": 231.0,
-        "end": 234.0,
-        "text": "Every orbit pulls me in",
-        "avg_logprob": -0.22786457960804304,
-        "no_speech_prob": 0.035888671875
-      },
-      {
-        "start": 234.0,
-        "end": 237.0,
-        "text": "Every cycle works within",
-        "avg_logprob": -0.22786457960804304,
-        "no_speech_prob": 0.035888671875
-      },
-      {
-        "start": 237.0,
-        "end": 240.0,
-        "text": "I can't keep this perfect space",
-        "avg_logprob": -0.22786457960804304,
-        "no_speech_prob": 0.035888671875
-      },
-      {
-        "start": 240.0,
-        "end": 247.0,
-        "text": "Without erasing what I crave",
-        "avg_logprob": -0.22786457960804304,
-        "no_speech_prob": 0.035888671875
-      },
-      {
-        "start": 247.0,
-        "end": 250.0,
-        "text": "I let the distance collapse at last",
-        "avg_logprob": -0.1677334283489779,
-        "no_speech_prob": 0.0318603515625
-      },
-      {
-        "start": 250.0,
-        "end": 253.0,
-        "text": "Then break the line I held so fast",
-        "avg_logprob": -0.1677334283489779,
-        "no_speech_prob": 0.0318603515625
-      },
-      {
-        "start": 253.0,
-        "end": 256.0,
-        "text": "No more careful measure to spin",
-        "avg_logprob": -0.1677334283489779,
-        "no_speech_prob": 0.0318603515625
-      },
-      {
-        "start": 256.0,
-        "end": 259.0,
-        "text": "I fall directly into close now",
-        "avg_logprob": -0.1677334283489779,
-        "no_speech_prob": 0.0318603515625
-      },
-      {
-        "start": 259.0,
-        "end": 262.0,
-        "text": "I feel the flame no safe",
-        "avg_logprob": -0.1677334283489779,
-        "no_speech_prob": 0.0318603515625
-      },
-      {
-        "start": 262.0,
-        "end": 264.0,
-        "text": "Distance left in name",
-        "avg_logprob": -0.1677334283489779,
-        "no_speech_prob": 0.0318603515625
-      },
-      {
-        "start": 264.0,
-        "end": 267.0,
-        "text": "But for once I don't retreat",
-        "avg_logprob": -0.1677334283489779,
-        "no_speech_prob": 0.0318603515625
-      },
-      {
-        "start": 267.0,
-        "end": 270.0,
-        "text": "I stay I stay",
-        "avg_logprob": -0.1677334283489779,
-        "no_speech_prob": 0.0318603515625
-      },
-      {
-        "start": 270.0,
-        "end": 273.0,
-        "text": "Out of balance I descend",
-        "avg_logprob": -0.1677334283489779,
-        "no_speech_prob": 0.0318603515625
-      },
-      {
-        "start": 273.0,
-        "end": 275.0,
-        "text": "Pass the place I used to bend",
-        "avg_logprob": -0.1677334283489779,
-        "no_speech_prob": 0.0318603515625
-      },
-      {
-        "start": 275.0,
-        "end": 278.0,
-        "text": "No more orbit no return",
-        "avg_logprob": -0.14075970315727696,
-        "no_speech_prob": 0.051300048828125
-      },
-      {
-        "start": 278.0,
-        "end": 281.0,
-        "text": "I accept the way I burn",
-        "avg_logprob": -0.14075970315727696,
-        "no_speech_prob": 0.051300048828125
-      },
-      {
-        "start": 281.0,
-        "end": 284.0,
-        "text": "If I vanish let it be",
-        "avg_logprob": -0.14075970315727696,
-        "no_speech_prob": 0.051300048828125
-      },
-      {
-        "start": 284.0,
-        "end": 287.0,
-        "text": "At least I moved honestly",
-        "avg_logprob": -0.14075970315727696,
-        "no_speech_prob": 0.051300048828125
-      },
-      {
-        "start": 287.0,
-        "end": 289.0,
-        "text": "No more hovering between",
-        "avg_logprob": -0.14075970315727696,
-        "no_speech_prob": 0.051300048828125
-      },
-      {
-        "start": 289.0,
-        "end": 292.0,
-        "text": "I choose the fall",
-        "avg_logprob": -0.14075970315727696,
-        "no_speech_prob": 0.051300048828125
-      },
-      {
-        "start": 292.0,
-        "end": 297.0,
-        "text": "I choose the scene",
-        "avg_logprob": -0.14075970315727696,
-        "no_speech_prob": 0.051300048828125
-      },
-      {
-        "start": 297.0,
-        "end": 302.0,
-        "text": "No more distance left to hold",
-        "avg_logprob": -0.14075970315727696,
-        "no_speech_prob": 0.051300048828125
-      },
-      {
-        "start": 302.0,
-        "end": 307.0,
-        "text": "No more careful no more control",
-        "avg_logprob": -0.22337963514857823,
-        "no_speech_prob": 0.103271484375
-      },
-      {
-        "start": 307.0,
-        "end": 310.0,
-        "text": "Just a cool",
-        "avg_logprob": -0.22337963514857823,
-        "no_speech_prob": 0.103271484375
-      },
-      {
-        "start": 310.0,
-        "end": 313.0,
-        "text": "Just a flame",
-        "avg_logprob": -0.22337963514857823,
-        "no_speech_prob": 0.103271484375
-      },
-      {
-        "start": 313.0,
-        "end": 316.0,
-        "text": "Into me",
-        "avg_logprob": -0.22337963514857823,
-        "no_speech_prob": 0.103271484375
-      },
-      {
-        "start": 316.0,
-        "end": 319.0,
-        "text": "Into me",
-        "avg_logprob": -0.22337963514857823,
-        "no_speech_prob": 0.103271484375
-      }
-    ],
-    "avg_logprob": -0.21252915150729515
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 458,
-    "transcript_word_count": 446,
-    "matched_sequence_words": 386,
-    "lyric_alignment_ratio": 0.843,
-    "transcript_precision_ratio": 0.865,
-    "unique_expected_word_coverage": 0.896,
-    "word_count_ratio": 0.974,
-    "repeated_12gram_ratio": 0.069,
-    "half_similarity": 0.224,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.856,
-    "quality_score_0_10": 8.56,
-    "flags": [],
-    "transcript_excerpt": "I trace your light from far away I'm not cold enough to turn to stone I'm not close enough to burn away I keep a path I've always known A careful line I never cross Never leave I measure distance in my range In micro shifts I can't arrange Every move of fragile thread Too much weight and it might shred You shift I recalibrate A silent unseen counterweight I read the silence in your tone Like gravity I can't outrun And I stay within the range You need But never take the lead Not too near, not too gone I adjust carry on In the balance I remain so glint Through pulling strain in your orbit Holdin\n...[truncated]...\nI can't keep this perfect space Without erasing what I crave I let the distance collapse at last Then break the line I held so fast No more careful measure to spin I fall directly into close now I feel the flame no safe Distance left in name But for once I don't retreat I stay I stay Out of balance I descend Pass the place I used to bend No more orbit no return I accept the way I burn If I vanish let it be At least I moved honestly No more hovering between I choose the fall I choose the scene No more distance left to hold No more careful no more control Just a cool Just a flame Into me Into me"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 6.5,
-      "BP_beauty_spatial_poise": 8.9,
-      "EG_evolving_grammar": 8.2,
-      "CD_carry_depth": 9.5
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 6.26,
+      "BP_beauty_spatial_poise": 8.94,
+      "EG_evolving_grammar": 7.94,
+      "CD_carry_depth": 9.45
     },
     "core_metrics": {
-      "CDPD": 0.82,
+      "CDPD": 0.821,
       "NGE": 0.68,
       "HMII_peak_estimate": 5
     },
@@ -2405,48 +1738,55 @@
       "label": "Inhabited Form",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting emotional rooms. Section-balance score 0.53 and beat-grid stability 0.93 support this."
+        "delta": 0.0,
+        "reason": "Base score is high and no conflicting evidence found."
       },
       "MI_motivic_integration": {
-        "delta": 0.24,
-        "reason": "Motivic integration is solid, with recurring vocal hooks, guitar figures, and lyric images that evolve across sections. The recurrence ratio of 0.121 and transformed returns score of 10.0 suggest intentional motif development."
+        "delta": 0.0,
+        "reason": "The repetitive nature of the 'I stay' refrain slightly lowers the integration score compared to a more linear narrative progression."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.04,
-        "reason": "The spatial poise is central to the track’s identity, with room tone and guitar space forming a memorable habitat. The production notes and spectral centroid mean of 2687.77 support this."
+        "delta": 0.0,
+        "reason": "Base score is high and no conflicting evidence found."
       },
       "EG_evolving_grammar": {
-        "delta": 0.26,
-        "reason": "The grammar develops a personal indie system over time, with rule changes and transformed returns. The production transform score of 8.8 and cumulative evolution score of 0.74 justify this."
+        "delta": 0.0,
+        "reason": "The lyrical structure becomes highly repetitive in the final third, which slightly lowers the 'evolution' of grammar compared to a more varied poetic progression."
       },
       "CD_carry_depth": {
-        "delta": 0.05,
-        "reason": "The track feels like a small world, with a strong emotional arc and memorable sonic habitat. The production notes and lyric repetition of 0.13 support this."
+        "delta": 0.0,
+        "reason": "Base score is high and no conflicting evidence found."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:27.80 with section-balance score 0.53.",
-      "Tempo estimate is 112.3 BPM; declared tempo alignment contributes 0.98.",
-      "Integrated loudness is -16.1 LUFS, peak is -1.5 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D major with confidence 0.20.",
-      "Audio recurrence ratio is 0.121; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 462 beats and 116 downbeats; beat-grid stability is 0.93.",
-      "EG evidence: section contrast 1.79, cumulative evolution 0.74, transformed returns 10.00, grid deviation 0.37, rule changes 1.94.",
-      "Companion text has 13 lyric/production sections, 552 words, line repetition 0.13, rhyme-suffix reuse 0.38."
+      "The track features a clear structure with distinct sections (Intro, Verse, Pre-Hook, Hook, Bridge, Build, Drop, Final Verse/Release).",
+      "The 'I stay' refrain provides a strong thematic anchor that integrates well with the atmospheric production.",
+      "The spatial arrangement of vocals and synths creates an immersive environment.",
+      "The final section significantly deviates from the established structure to provide a sense of release."
     ],
     "review_flags": [
-      "Uncertainty remains about the exact nature of motif recurrence, as the recurrence ratio is a proxy for repeated musical cells."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:41:50.2722884Z",
-    "eval_count": 883,
-    "eval_duration": 15093982700
+    "created_at": "2026-06-10T10:41:56.2087006Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10489828,
+      "base64_chars": 13986440,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14614,
+    "prompt_eval_duration": 6202064000,
+    "eval_count": 454,
+    "eval_duration": 11374865000
   }
 }

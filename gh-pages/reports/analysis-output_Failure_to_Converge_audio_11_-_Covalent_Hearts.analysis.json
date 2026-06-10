@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:18:06",
+  "generated_at": "2026-06-10T12:21:11",
   "audio": {
     "path": "Failure to Converge/audio/11 - Covalent Hearts.mp3",
     "duration_seconds": 255.44,
@@ -1456,7 +1456,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1500,312 +1503,75 @@
       "beat_this detected 400 beats and 100 downbeats; beat-grid stability is 0.91.",
       "EG evidence: section contrast 2.10, cumulative evolution 0.95, transformed returns 10.00, grid deviation 0.23, rule changes 2.86.",
       "Companion text has 11 lyric/production sections, 442 words, line repetition 0.05, rhyme-suffix reuse 0.33.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 5.95.",
-      "Transcription check: lyric alignment 0.88, unique-word coverage 0.90, word-count ratio 1.00, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 5.95."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "We were drifting and charged particles in a quiet field No orbit, no language, just a distance that felt like truth I was alone, like drunk, circling a thing, a question without a frame You were a frequency I couldn't measure, but somehow I felt your name And the static of crowded rooms and the blur of passing light There was something unfinished waiting to ignite Fallen is open and just white, we were incomplete by design We don't fall, we rearrange, share the space, reshape the same, no dividing line apart Just a visible architecture, we are covalent hearts No collision, no explosion, just a quiet overlap You held part of my silence, I held part of your past And the world kept spinning unaware of the bond forming in thin air Not force, not fate, just balance, we both kept there No excess, no lack, just enough to bring us back We don't break, we combine, trace the dark We define every fracture plays a part in this shared equation We are covalent hearts Not fusion, not fire, no burning collapse Just a gentle agreement between what we lacked If the universe scattered us into separate frames We'd still find symmetry in different names Bound by nothing held by choice Every silence finds a fool We don't end, we transform, shift the shape Keep the form, every distance leaves a mark That pulls us back together, we are covalent hearts No edges, no just shared space No, before your separate place Only us, only us In quiet orbit we adjust",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 24.0,
-        "text": "We were drifting and charged particles in a quiet field",
-        "avg_logprob": -0.5426897406578064,
-        "no_speech_prob": 0.348388671875
-      },
-      {
-        "start": 24.0,
-        "end": 34.0,
-        "text": "No orbit, no language, just a distance that felt like truth",
-        "avg_logprob": -0.3912760441501935,
-        "no_speech_prob": 0.2418212890625
-      },
-      {
-        "start": 34.0,
-        "end": 44.0,
-        "text": "I was alone, like drunk, circling a thing, a question without a frame",
-        "avg_logprob": -0.3912760441501935,
-        "no_speech_prob": 0.2418212890625
-      },
-      {
-        "start": 44.0,
-        "end": 52.0,
-        "text": "You were a frequency I couldn't measure, but somehow I felt your name",
-        "avg_logprob": -0.20777529584509985,
-        "no_speech_prob": 0.36279296875
-      },
-      {
-        "start": 53.0,
-        "end": 58.0,
-        "text": "And the static of crowded rooms and the blur of passing light",
-        "avg_logprob": -0.20777529584509985,
-        "no_speech_prob": 0.36279296875
-      },
-      {
-        "start": 58.0,
-        "end": 64.0,
-        "text": "There was something unfinished waiting to ignite",
-        "avg_logprob": -0.20777529584509985,
-        "no_speech_prob": 0.36279296875
-      },
-      {
-        "start": 65.0,
-        "end": 70.0,
-        "text": "Fallen is open and just white, we were incomplete by design",
-        "avg_logprob": -0.2880108069915038,
-        "no_speech_prob": 0.2161865234375
-      },
-      {
-        "start": 70.0,
-        "end": 81.0,
-        "text": "We don't fall, we rearrange, share the space, reshape the same, no dividing line apart",
-        "avg_logprob": -0.2880108069915038,
-        "no_speech_prob": 0.2161865234375
-      },
-      {
-        "start": 81.0,
-        "end": 90.0,
-        "text": "Just a visible architecture, we are covalent hearts",
-        "avg_logprob": -0.2880108069915038,
-        "no_speech_prob": 0.2161865234375
-      },
-      {
-        "start": 94.0,
-        "end": 108.0,
-        "text": "No collision, no explosion, just a quiet overlap",
-        "avg_logprob": -0.16662176107538157,
-        "no_speech_prob": 0.09503173828125
-      },
-      {
-        "start": 108.0,
-        "end": 118.0,
-        "text": "You held part of my silence, I held part of your past",
-        "avg_logprob": -0.16662176107538157,
-        "no_speech_prob": 0.09503173828125
-      },
-      {
-        "start": 119.0,
-        "end": 124.0,
-        "text": "And the world kept spinning unaware of the bond forming in thin air",
-        "avg_logprob": -0.1818061369960591,
-        "no_speech_prob": 0.419921875
-      },
-      {
-        "start": 124.0,
-        "end": 129.0,
-        "text": "Not force, not fate, just balance, we both kept there",
-        "avg_logprob": -0.1818061369960591,
-        "no_speech_prob": 0.419921875
-      },
-      {
-        "start": 130.0,
-        "end": 135.0,
-        "text": "No excess, no lack, just enough to bring us back",
-        "avg_logprob": -0.1818061369960591,
-        "no_speech_prob": 0.419921875
-      },
-      {
-        "start": 135.0,
-        "end": 142.0,
-        "text": "We don't break, we combine, trace the dark",
-        "avg_logprob": -0.1818061369960591,
-        "no_speech_prob": 0.419921875
-      },
-      {
-        "start": 142.0,
-        "end": 150.0,
-        "text": "We define every fracture plays a part in this shared equation",
-        "avg_logprob": -0.23777174042618793,
-        "no_speech_prob": 0.039764404296875
-      },
-      {
-        "start": 150.0,
-        "end": 156.0,
-        "text": "We are covalent hearts",
-        "avg_logprob": -0.23777174042618793,
-        "no_speech_prob": 0.039764404296875
-      },
-      {
-        "start": 157.0,
-        "end": 170.0,
-        "text": "Not fusion, not fire, no burning collapse",
-        "avg_logprob": -0.15234375,
-        "no_speech_prob": 0.308837890625
-      },
-      {
-        "start": 170.0,
-        "end": 175.0,
-        "text": "Just a gentle agreement between what we lacked",
-        "avg_logprob": -0.15234375,
-        "no_speech_prob": 0.308837890625
-      },
-      {
-        "start": 175.0,
-        "end": 182.0,
-        "text": "If the universe scattered us into separate frames",
-        "avg_logprob": -0.15234375,
-        "no_speech_prob": 0.308837890625
-      },
-      {
-        "start": 182.0,
-        "end": 189.0,
-        "text": "We'd still find symmetry in different names",
-        "avg_logprob": -0.19131097851729975,
-        "no_speech_prob": 0.043731689453125
-      },
-      {
-        "start": 189.0,
-        "end": 194.0,
-        "text": "Bound by nothing held by choice",
-        "avg_logprob": -0.19131097851729975,
-        "no_speech_prob": 0.043731689453125
-      },
-      {
-        "start": 194.0,
-        "end": 201.0,
-        "text": "Every silence finds a fool",
-        "avg_logprob": -0.19131097851729975,
-        "no_speech_prob": 0.043731689453125
-      },
-      {
-        "start": 201.0,
-        "end": 208.0,
-        "text": "We don't end, we transform, shift the shape",
-        "avg_logprob": -0.19131097851729975,
-        "no_speech_prob": 0.043731689453125
-      },
-      {
-        "start": 209.0,
-        "end": 213.0,
-        "text": "Keep the form, every distance leaves a mark",
-        "avg_logprob": -0.15277778315875265,
-        "no_speech_prob": 0.050994873046875
-      },
-      {
-        "start": 213.0,
-        "end": 222.0,
-        "text": "That pulls us back together, we are covalent hearts",
-        "avg_logprob": -0.15277778315875265,
-        "no_speech_prob": 0.050994873046875
-      },
-      {
-        "start": 225.0,
-        "end": 230.0,
-        "text": "No edges, no just shared space",
-        "avg_logprob": -0.15277778315875265,
-        "no_speech_prob": 0.050994873046875
-      },
-      {
-        "start": 230.0,
-        "end": 234.0,
-        "text": "No, before your separate place",
-        "avg_logprob": -0.444633152173913,
-        "no_speech_prob": 0.341796875
-      },
-      {
-        "start": 234.0,
-        "end": 240.0,
-        "text": "Only us, only us",
-        "avg_logprob": -0.444633152173913,
-        "no_speech_prob": 0.341796875
-      },
-      {
-        "start": 240.0,
-        "end": 245.0,
-        "text": "In quiet orbit we adjust",
-        "avg_logprob": -0.444633152173913,
-        "no_speech_prob": 0.341796875
-      }
-    ],
-    "avg_logprob": -0.26520566237603804
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 261,
-    "transcript_word_count": 262,
-    "matched_sequence_words": 230,
-    "lyric_alignment_ratio": 0.881,
-    "transcript_precision_ratio": 0.878,
-    "unique_expected_word_coverage": 0.895,
-    "word_count_ratio": 1.004,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.176,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.884,
-    "quality_score_0_10": 8.84,
-    "flags": [],
-    "transcript_excerpt": "We were drifting and charged particles in a quiet field No orbit, no language, just a distance that felt like truth I was alone, like drunk, circling a thing, a question without a frame You were a frequency I couldn't measure, but somehow I felt your name And the static of crowded rooms and the blur of passing light There was something unfinished waiting to ignite Fallen is open and just white, we were incomplete by design We don't fall, we rearrange, share the space, reshape the same, no dividing line apart Just a visible architecture, we are covalent hearts No collision, no explosion, just a\n...[truncated]...\nk, we combine, trace the dark We define every fracture plays a part in this shared equation We are covalent hearts Not fusion, not fire, no burning collapse Just a gentle agreement between what we lacked If the universe scattered us into separate frames We'd still find symmetry in different names Bound by nothing held by choice Every silence finds a fool We don't end, we transform, shift the shape Keep the form, every distance leaves a mark That pulls us back together, we are covalent hearts No edges, no just shared space No, before your separate place Only us, only us In quiet orbit we adjust"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 7.5,
+      "MI_motivic_integration": 7.2,
       "BP_beauty_spatial_poise": 9.0,
-      "EG_evolving_grammar": 7.0,
-      "CD_carry_depth": 8.5
+      "EG_evolving_grammar": 8.1,
+      "CD_carry_depth": 8.6
     },
     "core_metrics": {
-      "CDPD": 0.82,
-      "NGE": 0.65,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.05,
+      "NGE": 0.48,
+      "HMII_peak_estimate": 7
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in both lyrical abstraction and production layering."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track has a clear verse/chorus/bridge/outro structure with defined roles, and returns feel like revisiting emotional rooms. Section contrast and cumulative evolution scores support strong structural coherence."
+        "reason": "Strong structural progression from intro to final chorus with clear functional transitions."
       },
       "MI_motivic_integration": {
-        "delta": 0.81,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric images recur in altered forms across sections, showing deep integration. The transformed returns and rule changes reinforce this."
+        "delta": 0.51,
+        "reason": "Repetitive lyrical motifs and recurring musical themes create a cohesive narrative arc."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.07,
-        "reason": "While the production has a memorable sonic habitat, the mix is functional rather than distinct. The spatial elements are consistent but not uniquely defining."
+        "reason": "Production is polished with intentional use of space and texture."
       },
       "EG_evolving_grammar": {
-        "delta": -0.4,
-        "reason": "The grammar develops over time but does not fully invent a new method. It builds on a personal indie system, which is strong but not groundbreaking."
+        "delta": 0.7,
+        "reason": "Lyrics move from abstract imagery to more intimate, grounded declarations in the final third."
       },
       "CD_carry_depth": {
-        "delta": -0.07,
-        "reason": "The track feels like a small world with a clear emotional arc and memorable sonic elements. It invites re-listening and leaves a specific image or feeling."
+        "delta": 0.03,
+        "reason": "Thematic depth is consistent throughout the track."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:15.44 with section-balance score 0.33.",
-      "Tempo estimate is 95.7 BPM; declared tempo alignment contributes 0.98.",
-      "Integrated loudness is -15.7 LUFS, peak is -0.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is C major with confidence 0.38.",
-      "Audio recurrence ratio is 0.188; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 400 beats and 100 downbeats; beat-grid stability is 0.91.",
-      "EG evidence: section contrast 2.10, cumulative evolution 0.95, transformed returns 10.00, grid deviation 0.23, rule changes 2.86.",
-      "Companion text has 11 lyric/production sections, 442 words, line repetition 0.05, rhyme-suffix reuse 0.33."
+      "The song exhibits high structural coherence with a clear progression of intensity and texture.",
+      "Lyrical motifs are well-integrated into the musical arc, particularly in the 'Covalent Hearts' refrain.",
+      "Production utilizes space effectively to create an immersive atmosphere."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the audio; section-balance score is low."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:18:06.5381364Z",
-    "eval_count": 815,
-    "eval_duration": 14157311100
+    "created_at": "2026-06-10T10:21:11.8131054Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8174308,
+      "base64_chars": 10899080,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12076,
+    "prompt_eval_duration": 5389070000,
+    "eval_count": 389,
+    "eval_duration": 9552264000
   }
 }

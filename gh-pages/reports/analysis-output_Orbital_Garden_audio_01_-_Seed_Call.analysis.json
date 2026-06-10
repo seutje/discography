@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:34:33",
+  "generated_at": "2026-06-10T12:35:43",
   "audio": {
     "path": "Orbital Garden/audio/01 - Seed Call.mp3",
     "duration_seconds": 264.64,
@@ -1298,7 +1298,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1342,403 +1345,75 @@
       "beat_this detected 329 beats and 84 downbeats; beat-grid stability is 0.93.",
       "EG evidence: section contrast 1.88, cumulative evolution 0.81, transformed returns 10.00, grid deviation 0.57, rule changes 3.57.",
       "Companion text has 8 lyric/production sections, 308 words, line repetition 0.14, rhyme-suffix reuse 0.27.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 5.95.",
-      "Transcription check: lyric alignment 0.77, unique-word coverage 0.77, word-count ratio 1.02, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 5.95."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "First there was a waiting hole Garden sealed above the cloud bank Seeds are sleeping copper loam Dreaming roots beneath the metal I kept my hands beside the soil Counted breaths between the dooms Every call arrived in fragments small enough to enter bones Something tapped beneath the casing Not a voice and not a prayer Just a post that asked for patience Just enough to wait the air I did not rush I did not reach The dark gave up a little warmth One thin thread from left to right Open slowly a seat of calling Skip the shell without a long Let the first green and such empty let the room remember once I can meet through fraction air I can't even but barely start Seventy garden has a threshold Every threshold has a heart Roots unfolded through the panel Silver tendrils careful reach nothing blue By me foster only by the space between I was younger than me or be That was older than the spark Learning how a distant garden here's always spoken The dark not to command Just consent Before the bloom there is permission Before the stone there is a door Before I knew what I was making I learned to listen to the floor Slowly a seat of calling Skip the shell without a long Let the first green and such empty let the room remember once I can wait through fraction air I can't even but barely start Seventy garden has a threshold Every threshold has a heart Roots unfolded through the panel Roots unfolded through the panel Every time",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 22.8,
-        "text": "First there was a waiting hole Garden sealed above the cloud bank",
-        "avg_logprob": -0.6181640736758709,
-        "no_speech_prob": 0.38623046875
-      },
-      {
-        "start": 22.8,
-        "end": 29.52,
-        "text": "Seeds are sleeping copper loam",
-        "avg_logprob": -0.5318877551020408,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 29.52,
-        "end": 37.52,
-        "text": "Dreaming roots beneath the metal",
-        "avg_logprob": -0.5318877551020408,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 37.52,
-        "end": 40.72,
-        "text": "I kept my hands beside the soil",
-        "avg_logprob": -0.5318877551020408,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 40.72,
-        "end": 43.92,
-        "text": "Counted breaths between the dooms",
-        "avg_logprob": -0.5318877551020408,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 43.92,
-        "end": 50.0,
-        "text": "Every call arrived in fragments small enough to enter bones",
-        "avg_logprob": -0.5318877551020408,
-        "no_speech_prob": 0.21044921875
-      },
-      {
-        "start": 50.0,
-        "end": 53.2,
-        "text": "Something tapped beneath the casing",
-        "avg_logprob": -0.2954799069889954,
-        "no_speech_prob": 0.033538818359375
-      },
-      {
-        "start": 53.2,
-        "end": 56.32,
-        "text": "Not a voice and not a prayer",
-        "avg_logprob": -0.2954799069889954,
-        "no_speech_prob": 0.033538818359375
-      },
-      {
-        "start": 56.32,
-        "end": 59.52,
-        "text": "Just a post that asked for patience",
-        "avg_logprob": -0.2954799069889954,
-        "no_speech_prob": 0.033538818359375
-      },
-      {
-        "start": 59.52,
-        "end": 62.56,
-        "text": "Just enough to wait the air",
-        "avg_logprob": -0.2954799069889954,
-        "no_speech_prob": 0.033538818359375
-      },
-      {
-        "start": 62.56,
-        "end": 63.76,
-        "text": "I did not rush",
-        "avg_logprob": -0.2954799069889954,
-        "no_speech_prob": 0.033538818359375
-      },
-      {
-        "start": 65.76,
-        "end": 67.04,
-        "text": "I did not reach",
-        "avg_logprob": -0.2954799069889954,
-        "no_speech_prob": 0.033538818359375
-      },
-      {
-        "start": 68.96,
-        "end": 71.92,
-        "text": "The dark gave up a little warmth",
-        "avg_logprob": -0.2954799069889954,
-        "no_speech_prob": 0.033538818359375
-      },
-      {
-        "start": 71.92,
-        "end": 75.2,
-        "text": "One thin thread from left to right",
-        "avg_logprob": -0.6707031458616257,
-        "no_speech_prob": 0.02734375
-      },
-      {
-        "start": 79.92,
-        "end": 83.36,
-        "text": "Open slowly a seat of calling",
-        "avg_logprob": -0.6707031458616257,
-        "no_speech_prob": 0.02734375
-      },
-      {
-        "start": 83.36,
-        "end": 86.16,
-        "text": "Skip the shell without a long",
-        "avg_logprob": -0.6707031458616257,
-        "no_speech_prob": 0.02734375
-      },
-      {
-        "start": 92.64,
-        "end": 99.12,
-        "text": "Let the first green and such empty let the room remember once",
-        "avg_logprob": -0.6707031458616257,
-        "no_speech_prob": 0.02734375
-      },
-      {
-        "start": 102.88,
-        "end": 106.88,
-        "text": "I can meet through fraction air",
-        "avg_logprob": -0.6741071632930211,
-        "no_speech_prob": 0.04931640625
-      },
-      {
-        "start": 106.88,
-        "end": 109.92,
-        "text": "I can't even but barely start",
-        "avg_logprob": -0.6741071632930211,
-        "no_speech_prob": 0.04931640625
-      },
-      {
-        "start": 109.92,
-        "end": 113.92,
-        "text": "Seventy garden has a threshold",
-        "avg_logprob": -0.6741071632930211,
-        "no_speech_prob": 0.04931640625
-      },
-      {
-        "start": 113.92,
-        "end": 117.92,
-        "text": "Every threshold has a heart",
-        "avg_logprob": -0.6741071632930211,
-        "no_speech_prob": 0.04931640625
-      },
-      {
-        "start": 117.92,
-        "end": 133.04,
-        "text": "Roots unfolded through the panel",
-        "avg_logprob": -0.5208333174387614,
-        "no_speech_prob": 0.110595703125
-      },
-      {
-        "start": 133.04,
-        "end": 137.52,
-        "text": "Silver tendrils careful reach nothing blue",
-        "avg_logprob": -0.5208333174387614,
-        "no_speech_prob": 0.110595703125
-      },
-      {
-        "start": 137.52,
-        "end": 143.12,
-        "text": "By me foster only by the space between",
-        "avg_logprob": -0.5208333174387614,
-        "no_speech_prob": 0.110595703125
-      },
-      {
-        "start": 143.12,
-        "end": 145.76,
-        "text": "I was younger than me or be",
-        "avg_logprob": -0.4837372351665886,
-        "no_speech_prob": 0.0098419189453125
-      },
-      {
-        "start": 145.76,
-        "end": 148.72,
-        "text": "That was older than the spark",
-        "avg_logprob": -0.4837372351665886,
-        "no_speech_prob": 0.0098419189453125
-      },
-      {
-        "start": 148.72,
-        "end": 154.0,
-        "text": "Learning how a distant garden here's always spoken",
-        "avg_logprob": -0.4837372351665886,
-        "no_speech_prob": 0.0098419189453125
-      },
-      {
-        "start": 154.0,
-        "end": 158.32,
-        "text": "The dark not to command",
-        "avg_logprob": -0.4837372351665886,
-        "no_speech_prob": 0.0098419189453125
-      },
-      {
-        "start": 158.32,
-        "end": 163.2,
-        "text": "Just consent",
-        "avg_logprob": -0.4837372351665886,
-        "no_speech_prob": 0.0098419189453125
-      },
-      {
-        "start": 163.2,
-        "end": 169.68,
-        "text": "Before the bloom there is permission",
-        "avg_logprob": -0.4837372351665886,
-        "no_speech_prob": 0.0098419189453125
-      },
-      {
-        "start": 169.68,
-        "end": 176.24,
-        "text": "Before the stone there is a door",
-        "avg_logprob": -0.4019396469510835,
-        "no_speech_prob": 0.00745391845703125
-      },
-      {
-        "start": 176.24,
-        "end": 182.8,
-        "text": "Before I knew what I was making",
-        "avg_logprob": -0.4019396469510835,
-        "no_speech_prob": 0.00745391845703125
-      },
-      {
-        "start": 182.8,
-        "end": 190.0,
-        "text": "I learned to listen to the floor",
-        "avg_logprob": -0.4019396469510835,
-        "no_speech_prob": 0.00745391845703125
-      },
-      {
-        "start": 190.0,
-        "end": 192.88,
-        "text": "Slowly a seat of calling",
-        "avg_logprob": -0.39222757785748213,
-        "no_speech_prob": 0.029571533203125
-      },
-      {
-        "start": 192.88,
-        "end": 195.68,
-        "text": "Skip the shell without a long",
-        "avg_logprob": -0.39222757785748213,
-        "no_speech_prob": 0.029571533203125
-      },
-      {
-        "start": 202.16,
-        "end": 208.8,
-        "text": "Let the first green and such empty let the room remember once",
-        "avg_logprob": -0.39222757785748213,
-        "no_speech_prob": 0.029571533203125
-      },
-      {
-        "start": 213.44,
-        "end": 216.72,
-        "text": "I can wait through fraction air",
-        "avg_logprob": -0.39222757785748213,
-        "no_speech_prob": 0.029571533203125
-      },
-      {
-        "start": 216.72,
-        "end": 219.92,
-        "text": "I can't even but barely start",
-        "avg_logprob": -0.39668366373801717,
-        "no_speech_prob": 0.014617919921875
-      },
-      {
-        "start": 219.92,
-        "end": 225.28,
-        "text": "Seventy garden has a threshold",
-        "avg_logprob": -0.39668366373801717,
-        "no_speech_prob": 0.014617919921875
-      },
-      {
-        "start": 225.28,
-        "end": 228.16,
-        "text": "Every threshold has a heart",
-        "avg_logprob": -0.39668366373801717,
-        "no_speech_prob": 0.014617919921875
-      },
-      {
-        "start": 228.16,
-        "end": 231.44,
-        "text": "Roots unfolded through the panel",
-        "avg_logprob": -0.39668366373801717,
-        "no_speech_prob": 0.014617919921875
-      },
-      {
-        "start": 231.44,
-        "end": 234.72,
-        "text": "Roots unfolded through the panel",
-        "avg_logprob": -0.39668366373801717,
-        "no_speech_prob": 0.014617919921875
-      },
-      {
-        "start": 234.72,
-        "end": 238.0,
-        "text": "Every time",
-        "avg_logprob": -0.39668366373801717,
-        "no_speech_prob": 0.014617919921875
-      }
-    ],
-    "avg_logprob": -0.4973586585795648
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 262,
-    "transcript_word_count": 268,
-    "matched_sequence_words": 202,
-    "lyric_alignment_ratio": 0.771,
-    "transcript_precision_ratio": 0.754,
-    "unique_expected_word_coverage": 0.772,
-    "word_count_ratio": 1.023,
-    "repeated_12gram_ratio": 0.105,
-    "half_similarity": 0.403,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.769,
-    "quality_score_0_10": 7.69,
-    "flags": [],
-    "transcript_excerpt": "First there was a waiting hole Garden sealed above the cloud bank Seeds are sleeping copper loam Dreaming roots beneath the metal I kept my hands beside the soil Counted breaths between the dooms Every call arrived in fragments small enough to enter bones Something tapped beneath the casing Not a voice and not a prayer Just a post that asked for patience Just enough to wait the air I did not rush I did not reach The dark gave up a little warmth One thin thread from left to right Open slowly a seat of calling Skip the shell without a long Let the first green and such empty let the room remember\n...[truncated]...\nween I was younger than me or be That was older than the spark Learning how a distant garden here's always spoken The dark not to command Just consent Before the bloom there is permission Before the stone there is a door Before I knew what I was making I learned to listen to the floor Slowly a seat of calling Skip the shell without a long Let the first green and such empty let the room remember once I can wait through fraction air I can't even but barely start Seventy garden has a threshold Every threshold has a heart Roots unfolded through the panel Roots unfolded through the panel Every time"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
       "MI_motivic_integration": 8.2,
-      "BP_beauty_spatial_poise": 9.3,
-      "EG_evolving_grammar": 7.8,
-      "CD_carry_depth": 8.6
+      "BP_beauty_spatial_poise": 9.18,
+      "EG_evolving_grammar": 8.4,
+      "CD_carry_depth": 8.4
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.63,
-      "HMII_peak_estimate": 6
+      "CDPD": 0.866,
+      "NGE": 0.649,
+      "HMII_peak_estimate": 7
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "The track follows a sophisticated, non-linear progression that avoids repetitive loops in favor of evolving textures and atmospheric depth."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track has a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like revisiting emotional rooms."
+        "reason": "Strong structural design with distinct sections (Intro, Verse, Pre-Hook, Hook) that evolve in texture rather than just repeating a loop."
       },
       "MI_motivic_integration": {
         "delta": 0.46,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong motivic integration."
+        "reason": "The lyrical content is deeply integrated with the production's 'meditative greenhouse' atmosphere, creating a cohesive emotional arc."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.12,
-        "reason": "The track’s sonic habitat, including room tone and guitar space, forms a memorable and coherent spatial identity."
+        "delta": 0.0,
+        "reason": "Base score already reflects high aesthetic quality and spatial depth."
       },
       "EG_evolving_grammar": {
-        "delta": 0.46,
-        "reason": "The grammar develops over time with meaningful changes in texture, rhythm, and timbre, though it does not fully invent a new method."
+        "delta": 1.06,
+        "reason": "The transition from 'sparse' to 'blooming' textures provides a clear sense of musical evolution."
       },
       "CD_carry_depth": {
-        "delta": 0.2,
-        "reason": "The track feels like a small world with a clear emotional arc and memorable sonic details."
+        "delta": 0.0,
+        "reason": "Base score already reflects the depth and atmospheric weight of the production."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:24.64 with section-balance score 0.44.",
-      "Tempo estimate is 152.0 BPM; declared tempo alignment contributes 0.92.",
-      "Integrated loudness is -17.1 LUFS, peak is -0.8 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F minor with confidence 0.30.",
-      "Audio recurrence ratio is 0.310; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 329 beats and 84 downbeats; beat-grid stability is 0.93.",
-      "EG evidence: section contrast 1.88, cumulative evolution 0.81, transformed returns 10.00, grid deviation 0.57, rule changes 3.57.",
-      "Companion text has 8 lyric/production sections, 308 words, line repetition 0.14, rhyme-suffix reuse 0.27."
+      "The track demonstrates high structural coherence through its deliberate movement from sparse, intimate beginnings to expansive, harmonically rich finales.",
+      "Motivic integration is strong as the 'seed' metaphor in the lyrics mirrors the sonic growth of the arrangement.",
+      "The evolution of grammar is notably high due to the significant shift in texture and density between sections 1-4 and 6-8."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to weak audio-only evidence."
+      "high_confidence"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:34:33.6244398Z",
-    "eval_count": 772,
-    "eval_duration": 12855450500
+    "created_at": "2026-06-10T10:35:43.5734233Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8468558,
+      "base64_chars": 11291412,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12228,
+    "prompt_eval_duration": 5335984000,
+    "eval_count": 464,
+    "eval_duration": 11519369000
   }
 }

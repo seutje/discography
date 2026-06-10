@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:26:09",
+  "generated_at": "2026-06-10T12:28:19",
   "audio": {
     "path": "Net Worthless/audio/09 - Too Many Windows.mp3",
     "duration_seconds": 327.28,
@@ -1665,7 +1665,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1709,473 +1712,75 @@
       "beat_this detected 466 beats and 118 downbeats; beat-grid stability is 0.55.",
       "EG evidence: section contrast 1.57, cumulative evolution 0.67, transformed returns 10.00, grid deviation 1.56, rule changes 2.50.",
       "Companion text has 11 lyric/production sections, 880 words, line repetition 0.13, rhyme-suffix reuse 0.42.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00.",
-      "Transcription check: lyric alignment 0.95, unique-word coverage 0.96, word-count ratio 1.01, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I opened my laptop to answer one email, reasonable, adult, very brief. Forty-seven minutes later, I was reading public fountain history in Prague, because someone wrote, just circling back, and my brain said, lovely, let's build a civilization. I've got too many windows open in my skull, each one playing audio at a tasteful volume. There's a tab for rent, and a tab for shame, a tab where I prove I'm not to blame, a tab where I rehearse, one joke from Tuesday, and another where I search is tired of personality. Thinking six thoughts with no permission, one says text your friend back, one says invent a better tax system, one says, remember that time in 2009, you said you two to await a who told you to enjoy your meal, important archive, national shame, I can see every angle except the plain ones, so imagine every course before the case comes, call it intelligence if you want the nice word, mostly it's a knife drawer in a bouncy castle, I know too much about things I can't change. I name every cloud, but still stand in the rain, too many windows too much light, I can see the whole map and still miss the right, come back to the room, come back to the floor, the world is not asking for one thought more, if I go quiet I'm not leaving you, I'm sorting the noise from the signal and blue, too many windows open at once, and one small heart trying to answer the front. Also, if genius was the plan, someone should have included a bit of laundry module. People say you think too much like I do it for the aesthetic, like I wake up stretch and choose premium anxiety with unlimited tabs, I would love to have one thought, one clean thought like toast, not toast as evidence of agricultural history, be childhood safety, late capitalism and how I still don't own a proper but a dish, I'm not a party by the coats again, performing normal, for some almost friends, they talk about holidays, houses, dogs, I talk for three minutes about train, platform acoustics, then watch my sentence landing in the room like a chair thrown by a ghost, nobody's cruel, that's the worst bit, they're kind, they nod, they do that little smile that says, this person is a podcast which choose, so I laugh first, make it tidy, turn the wound into a party trick, say sorry, brain's a bit loud today, as if today is the outlier, bless. Too many windows too much light, I can see the whole map and still miss the right, come back to the room, come back to the floor, the world is not asking for one thought more, if I go quiet I'm not leaving you, I'm sorting the noise from the signal and blue, too many windows open at once and one small heart trying to answer the front. Yeah, here is the lonely part, not dramatic lonely, no black coat, no cliff, no rain behaving symbolically, just the quiet little distance between what I mean and what arrives I can explain a feeling, so precisely it dies of paperwork, I can build a palace round the wound and forget to let anyone in, I have frightened people with the speed and my care and I have corrected a detail in a story, when the correct answer was clearly, hold their hands, you absolute spreadsheet, and I'm trying truly, I am trying to be less brilliant, to be in elsewhere, less fluent in escape, more present in the stupid, holy room where someone says you're right, and the miracle answer is not a diagram, it's not really can you sit with me, maybe the mind isn't a courtroom, maybe it's just a crowded flat with bad wiring and good intentions, maybe not every thought needs entered into evidence, maybe I can leave some tabs on the soul, let broad keep its mountains, let twos, they keep its joke, let the old embarrassment retire by the coast, maybe clever, isn't always climbing, maybe clever is noticing, the guitar and the corn and the tea going cold, the friend on the sofa wait and through my weather, maybe love is not impressed by processing speed, maybe love is the hand, the closes three windows and says look, the room survived without your supervision, too many windows too much light, I can see the whole map and still miss the right, come back to the room, come back to the floor, the world is not asking for one for more, if I go quiet, just stay nearby, I'm running the shape of a simpler sky, too many windows don't went open door, and one small heart coming back to the floor, I answered the email by the way, eventually, it said, sounds good, two words, 47 minutes, honestly, it's efficiency, if you include the fountains.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 9.32,
-        "text": "I opened my laptop to answer one email, reasonable, adult, very brief.",
-        "avg_logprob": -0.3175403105635797,
-        "no_speech_prob": 0.22216796875
-      },
-      {
-        "start": 9.32,
-        "end": 16.36,
-        "text": "Forty-seven minutes later, I was reading public fountain history in Prague, because someone",
-        "avg_logprob": -0.3175403105635797,
-        "no_speech_prob": 0.22216796875
-      },
-      {
-        "start": 16.36,
-        "end": 27.12,
-        "text": "wrote, just circling back, and my brain said, lovely, let's build a civilization.",
-        "avg_logprob": -0.3175403105635797,
-        "no_speech_prob": 0.22216796875
-      },
-      {
-        "start": 27.12,
-        "end": 35.56,
-        "text": "I've got too many windows open in my skull, each one playing audio at a tasteful volume.",
-        "avg_logprob": -0.24401596061726835,
-        "no_speech_prob": 0.7373046875
-      },
-      {
-        "start": 35.56,
-        "end": 41.08,
-        "text": "There's a tab for rent, and a tab for shame, a tab where I prove I'm not to blame, a tab",
-        "avg_logprob": -0.24401596061726835,
-        "no_speech_prob": 0.7373046875
-      },
-      {
-        "start": 41.08,
-        "end": 47.28,
-        "text": "where I rehearse, one joke from Tuesday, and another where I search is tired of personality.",
-        "avg_logprob": -0.24401596061726835,
-        "no_speech_prob": 0.7373046875
-      },
-      {
-        "start": 47.28,
-        "end": 52.84,
-        "text": "Thinking six thoughts with no permission, one says text your friend back, one says invent",
-        "avg_logprob": -0.24401596061726835,
-        "no_speech_prob": 0.7373046875
-      },
-      {
-        "start": 52.84,
-        "end": 59.4,
-        "text": "a better tax system, one says, remember that time in 2009, you said you two to await",
-        "avg_logprob": -0.312340573388703,
-        "no_speech_prob": 0.0714111328125
-      },
-      {
-        "start": 59.4,
-        "end": 66.76,
-        "text": "a who told you to enjoy your meal, important archive, national shame, I can see every",
-        "avg_logprob": -0.312340573388703,
-        "no_speech_prob": 0.0714111328125
-      },
-      {
-        "start": 66.76,
-        "end": 72.68,
-        "text": "angle except the plain ones, so imagine every course before the case comes, call it intelligence",
-        "avg_logprob": -0.312340573388703,
-        "no_speech_prob": 0.0714111328125
-      },
-      {
-        "start": 72.68,
-        "end": 77.68,
-        "text": "if you want the nice word, mostly it's a knife drawer in a bouncy castle, I know too",
-        "avg_logprob": -0.312340573388703,
-        "no_speech_prob": 0.0714111328125
-      },
-      {
-        "start": 77.68,
-        "end": 82.36,
-        "text": "much about things I can't change.",
-        "avg_logprob": -0.312340573388703,
-        "no_speech_prob": 0.0714111328125
-      },
-      {
-        "start": 82.36,
-        "end": 90.88,
-        "text": "I name every cloud, but still stand in the rain, too many windows too much light, I can",
-        "avg_logprob": -0.26592838359110565,
-        "no_speech_prob": 0.2127685546875
-      },
-      {
-        "start": 90.88,
-        "end": 96.28,
-        "text": "see the whole map and still miss the right, come back to the room, come back to the floor,",
-        "avg_logprob": -0.26592838359110565,
-        "no_speech_prob": 0.2127685546875
-      },
-      {
-        "start": 96.28,
-        "end": 101.88,
-        "text": "the world is not asking for one thought more, if I go quiet I'm not leaving you, I'm",
-        "avg_logprob": -0.26592838359110565,
-        "no_speech_prob": 0.2127685546875
-      },
-      {
-        "start": 101.88,
-        "end": 108.12,
-        "text": "sorting the noise from the signal and blue, too many windows open at once, and one small",
-        "avg_logprob": -0.26592838359110565,
-        "no_speech_prob": 0.2127685546875
-      },
-      {
-        "start": 108.12,
-        "end": 110.32,
-        "text": "heart trying to answer the front.",
-        "avg_logprob": -0.26592838359110565,
-        "no_speech_prob": 0.2127685546875
-      },
-      {
-        "start": 110.32,
-        "end": 118.24,
-        "text": "Also, if genius was the plan, someone should have included a bit of laundry module.",
-        "avg_logprob": -0.20818452835083007,
-        "no_speech_prob": 0.8701171875
-      },
-      {
-        "start": 118.24,
-        "end": 122.48,
-        "text": "People say you think too much like I do it for the aesthetic, like I wake up stretch and",
-        "avg_logprob": -0.20818452835083007,
-        "no_speech_prob": 0.8701171875
-      },
-      {
-        "start": 122.48,
-        "end": 127.56,
-        "text": "choose premium anxiety with unlimited tabs, I would love to have one thought, one clean",
-        "avg_logprob": -0.20818452835083007,
-        "no_speech_prob": 0.8701171875
-      },
-      {
-        "start": 127.56,
-        "end": 133.04,
-        "text": "thought like toast, not toast as evidence of agricultural history, be childhood safety,",
-        "avg_logprob": -0.20818452835083007,
-        "no_speech_prob": 0.8701171875
-      },
-      {
-        "start": 133.04,
-        "end": 138.44,
-        "text": "late capitalism and how I still don't own a proper but a dish, I'm not a party by the",
-        "avg_logprob": -0.20818452835083007,
-        "no_speech_prob": 0.8701171875
-      },
-      {
-        "start": 138.44,
-        "end": 144.8,
-        "text": "coats again, performing normal, for some almost friends, they talk about holidays, houses,",
-        "avg_logprob": -0.26700774758262974,
-        "no_speech_prob": 0.7705078125
-      },
-      {
-        "start": 144.8,
-        "end": 149.36,
-        "text": "dogs, I talk for three minutes about train, platform acoustics, then watch my sentence",
-        "avg_logprob": -0.26700774758262974,
-        "no_speech_prob": 0.7705078125
-      },
-      {
-        "start": 149.36,
-        "end": 154.56,
-        "text": "landing in the room like a chair thrown by a ghost, nobody's cruel, that's the worst",
-        "avg_logprob": -0.26700774758262974,
-        "no_speech_prob": 0.7705078125
-      },
-      {
-        "start": 154.56,
-        "end": 160.28,
-        "text": "bit, they're kind, they nod, they do that little smile that says, this person is a podcast",
-        "avg_logprob": -0.26700774758262974,
-        "no_speech_prob": 0.7705078125
-      },
-      {
-        "start": 160.28,
-        "end": 167.72,
-        "text": "which choose, so I laugh first, make it tidy, turn the wound into a party trick, say sorry,",
-        "avg_logprob": -0.26700774758262974,
-        "no_speech_prob": 0.7705078125
-      },
-      {
-        "start": 167.72,
-        "end": 172.32,
-        "text": "brain's a bit loud today, as if today is the outlier, bless.",
-        "avg_logprob": -0.23992406542056074,
-        "no_speech_prob": 0.468994140625
-      },
-      {
-        "start": 172.32,
-        "end": 177.72,
-        "text": "Too many windows too much light, I can see the whole map and still miss the right, come",
-        "avg_logprob": -0.23992406542056074,
-        "no_speech_prob": 0.468994140625
-      },
-      {
-        "start": 177.72,
-        "end": 183.32,
-        "text": "back to the room, come back to the floor, the world is not asking for one thought more,",
-        "avg_logprob": -0.23992406542056074,
-        "no_speech_prob": 0.468994140625
-      },
-      {
-        "start": 183.32,
-        "end": 189.04,
-        "text": "if I go quiet I'm not leaving you, I'm sorting the noise from the signal and blue,",
-        "avg_logprob": -0.23992406542056074,
-        "no_speech_prob": 0.468994140625
-      },
-      {
-        "start": 189.04,
-        "end": 194.12,
-        "text": "too many windows open at once and one small heart trying to answer the front.",
-        "avg_logprob": -0.23992406542056074,
-        "no_speech_prob": 0.468994140625
-      },
-      {
-        "start": 194.12,
-        "end": 199.88,
-        "text": "Yeah, here is the lonely part, not dramatic lonely, no black coat, no cliff, no rain behaving",
-        "avg_logprob": -0.26704546917568556,
-        "no_speech_prob": 0.81103515625
-      },
-      {
-        "start": 199.88,
-        "end": 204.8,
-        "text": "symbolically, just the quiet little distance between what I mean and what arrives I can explain",
-        "avg_logprob": -0.26704546917568556,
-        "no_speech_prob": 0.81103515625
-      },
-      {
-        "start": 204.8,
-        "end": 210.72,
-        "text": "a feeling, so precisely it dies of paperwork, I can build a palace round the wound and forget",
-        "avg_logprob": -0.26704546917568556,
-        "no_speech_prob": 0.81103515625
-      },
-      {
-        "start": 210.72,
-        "end": 215.52,
-        "text": "to let anyone in, I have frightened people with the speed and my care and I have corrected",
-        "avg_logprob": -0.26704546917568556,
-        "no_speech_prob": 0.81103515625
-      },
-      {
-        "start": 215.52,
-        "end": 222.56,
-        "text": "a detail in a story, when the correct answer was clearly, hold their hands, you absolute",
-        "avg_logprob": -0.26704546917568556,
-        "no_speech_prob": 0.81103515625
-      },
-      {
-        "start": 222.56,
-        "end": 230.16,
-        "text": "spreadsheet, and I'm trying truly, I am trying to be less brilliant, to be in elsewhere,",
-        "avg_logprob": -0.2553819388151169,
-        "no_speech_prob": 0.65771484375
-      },
-      {
-        "start": 230.16,
-        "end": 235.76,
-        "text": "less fluent in escape, more present in the stupid, holy room where someone says you're",
-        "avg_logprob": -0.2553819388151169,
-        "no_speech_prob": 0.65771484375
-      },
-      {
-        "start": 235.76,
-        "end": 243.76,
-        "text": "right, and the miracle answer is not a diagram, it's not really can you sit with me, maybe",
-        "avg_logprob": -0.2553819388151169,
-        "no_speech_prob": 0.65771484375
-      },
-      {
-        "start": 243.76,
-        "end": 248.12,
-        "text": "the mind isn't a courtroom, maybe it's just a crowded flat with bad wiring and good",
-        "avg_logprob": -0.2553819388151169,
-        "no_speech_prob": 0.65771484375
-      },
-      {
-        "start": 248.12,
-        "end": 253.36,
-        "text": "intentions, maybe not every thought needs entered into evidence, maybe I can leave some",
-        "avg_logprob": -0.2885315481898854,
-        "no_speech_prob": 0.84521484375
-      },
-      {
-        "start": 253.36,
-        "end": 258.36,
-        "text": "tabs on the soul, let broad keep its mountains, let twos, they keep its joke, let the old",
-        "avg_logprob": -0.2885315481898854,
-        "no_speech_prob": 0.84521484375
-      },
-      {
-        "start": 258.36,
-        "end": 264.64,
-        "text": "embarrassment retire by the coast, maybe clever, isn't always climbing, maybe clever is",
-        "avg_logprob": -0.2885315481898854,
-        "no_speech_prob": 0.84521484375
-      },
-      {
-        "start": 264.64,
-        "end": 270.52,
-        "text": "noticing, the guitar and the corn and the tea going cold, the friend on the sofa wait",
-        "avg_logprob": -0.2885315481898854,
-        "no_speech_prob": 0.84521484375
-      },
-      {
-        "start": 270.52,
-        "end": 276.72,
-        "text": "and through my weather, maybe love is not impressed by processing speed, maybe love",
-        "avg_logprob": -0.2885315481898854,
-        "no_speech_prob": 0.84521484375
-      },
-      {
-        "start": 276.72,
-        "end": 284.28,
-        "text": "is the hand, the closes three windows and says look, the room survived without your",
-        "avg_logprob": -0.2614583373069763,
-        "no_speech_prob": 0.849609375
-      },
-      {
-        "start": 284.28,
-        "end": 290.48,
-        "text": "supervision, too many windows too much light, I can see the whole map and still miss the",
-        "avg_logprob": -0.2614583373069763,
-        "no_speech_prob": 0.849609375
-      },
-      {
-        "start": 290.48,
-        "end": 295.8,
-        "text": "right, come back to the room, come back to the floor, the world is not asking for one",
-        "avg_logprob": -0.2614583373069763,
-        "no_speech_prob": 0.849609375
-      },
-      {
-        "start": 295.8,
-        "end": 302.96,
-        "text": "for more, if I go quiet, just stay nearby, I'm running the shape of a simpler sky, too",
-        "avg_logprob": -0.2614583373069763,
-        "no_speech_prob": 0.849609375
-      },
-      {
-        "start": 302.96,
-        "end": 310.36,
-        "text": "many windows don't went open door, and one small heart coming back to the floor, I answered",
-        "avg_logprob": -0.32373046937088173,
-        "no_speech_prob": 0.1688232421875
-      },
-      {
-        "start": 310.36,
-        "end": 320.28,
-        "text": "the email by the way, eventually, it said, sounds good, two words, 47 minutes, honestly,",
-        "avg_logprob": -0.32373046937088173,
-        "no_speech_prob": 0.1688232421875
-      },
-      {
-        "start": 320.28,
-        "end": 323.68,
-        "text": "it's efficiency, if you include the fountains.",
-        "avg_logprob": -0.5106770753860473,
-        "no_speech_prob": 0.77099609375
-      }
-    ],
-    "avg_logprob": -0.2722685507575466
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 821,
-    "transcript_word_count": 831,
-    "matched_sequence_words": 780,
-    "lyric_alignment_ratio": 0.95,
-    "transcript_precision_ratio": 0.939,
-    "unique_expected_word_coverage": 0.959,
-    "word_count_ratio": 1.012,
-    "repeated_12gram_ratio": 0.098,
-    "half_similarity": 0.236,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.951,
-    "quality_score_0_10": 9.51,
-    "flags": [],
-    "transcript_excerpt": "I opened my laptop to answer one email, reasonable, adult, very brief. Forty-seven minutes later, I was reading public fountain history in Prague, because someone wrote, just circling back, and my brain said, lovely, let's build a civilization. I've got too many windows open in my skull, each one playing audio at a tasteful volume. There's a tab for rent, and a tab for shame, a tab where I prove I'm not to blame, a tab where I rehearse, one joke from Tuesday, and another where I search is tired of personality. Thinking six thoughts with no permission, one says text your friend back, one says i\n...[truncated]...\nocessing speed, maybe love is the hand, the closes three windows and says look, the room survived without your supervision, too many windows too much light, I can see the whole map and still miss the right, come back to the room, come back to the floor, the world is not asking for one for more, if I go quiet, just stay nearby, I'm running the shape of a simpler sky, too many windows don't went open door, and one small heart coming back to the floor, I answered the email by the way, eventually, it said, sounds good, two words, 47 minutes, honestly, it's efficiency, if you include the fountains."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 8.5,
-      "BP_beauty_spatial_poise": 8.24,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 8.84
+      "SC_structural_coherence": 9.45,
+      "MI_motivic_integration": 8.72,
+      "BP_beauty_spatial_poise": 8.61,
+      "EG_evolving_grammar": 8.34,
+      "CD_carry_depth": 9.02
     },
     "core_metrics": {
-      "CDPD": 0.977,
-      "NGE": 0.648,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.05,
+      "NGE": 0.78,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
-      "number": 13,
+      "number": 16,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "Complex interplay of spoken word and folk-melody."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section-balance score 0.59 suggests uneven distribution, but the 10-section structure with clear functional roles (Intro, Verse, Hook, Bridge, Outro) and intentional transitions (drops, fills, hook entries) support a coherent arc. The track avoids filler 8s and maintains a clear verse–hook ecosystem."
+        "delta": -0.55,
+        "reason": "Strong verse/hook/bridge structure with distinct sections."
       },
       "MI_motivic_integration": {
-        "delta": -1.5,
-        "reason": "While there are recurring motifs (e.g., 'too many windows' vocal line, rhythmic patterns in the hook), the integration is limited. Motifs do not saturate the piece at multiple scales, and cross-domain recursion is minimal. The track leans on repetition rather than transformation."
+        "delta": -1.28,
+        "reason": "Spoken word segments are less melodic but highly rhythmic."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.0,
-        "reason": "The sonic habitat is consistently beautiful and coherent, with intentional use of reverb, delay, and stereo field. The mix avoids masking important elements, and subtle textures (room tone, vinyl crackle) feel legible and intentional."
+        "delta": 0.37,
+        "reason": "High production quality and clear spatial separation."
       },
       "EG_evolving_grammar": {
-        "delta": 0.36,
-        "reason": "The track demonstrates a noticeable personal system that develops over time. Beat micro-variation (drops/mutes/ghost notes) underpins vocal structure, and harmonic and rhythmic rules evolve meaningfully to mark emotional hinges."
+        "delta": 1.2,
+        "reason": "Dynamic shift from rapid-fire rap to slow folk hook."
       },
       "CD_carry_depth": {
-        "delta": 0.0,
-        "reason": "The track defines a recognisable emotional/psychic habitat, with a clear arc from hyper-verbal self-mockery to tender acceptance. It invites re-listening beyond mood-playlist utility, and the emotional arc is narratable."
+        "delta": 0.18,
+        "reason": "Consistent thematic depth throughout."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:27.28 with section-balance score 0.59.",
-      "Tempo estimate is 172.3 BPM; declared tempo alignment contributes 0.73.",
-      "Integrated loudness is -18.6 LUFS, peak is -2.9 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G major with confidence 0.53.",
-      "Audio recurrence ratio is 0.355; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 466 beats and 118 downbeats; beat-grid stability is 0.55.",
-      "EG evidence: section contrast 1.57, cumulative evolution 0.67, transformed returns 10.00, grid deviation 1.56, rule changes 2.50.",
-      "Companion text has 11 lyric/production sections, 880 words, line repetition 0.13, rhyme-suffix reuse 0.42."
+      "Clear structural arc with distinct sections.",
+      "Strong contrast between spoken and sung parts.",
+      "High production quality."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the audio; section-balance score 0.59 suggests uneven distribution."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:26:09.74724Z",
-    "eval_count": 930,
-    "eval_duration": 16208117300
+    "created_at": "2026-06-10T10:28:19.5172522Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10473038,
+      "base64_chars": 13964052,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14542,
+    "prompt_eval_duration": 6186358000,
+    "eval_count": 348,
+    "eval_duration": 8594171000
   }
 }

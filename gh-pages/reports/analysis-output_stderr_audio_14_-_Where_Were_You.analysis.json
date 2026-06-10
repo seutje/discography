@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T23:03:53",
+  "generated_at": "2026-06-10T13:01:10",
   "audio": {
     "path": "stderr/audio/14 - Where Were You.mp3",
     "duration_seconds": 291.28,
@@ -1542,7 +1542,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1586,522 +1589,75 @@
       "beat_this detected 419 beats and 114 downbeats; beat-grid stability is 0.66.",
       "EG evidence: section contrast 1.68, cumulative evolution 0.59, transformed returns 10.00, grid deviation 1.20, rule changes 2.50.",
       "Companion text has 12 lyric/production sections, 570 words, line repetition 0.06, rhyme-suffix reuse 0.34.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 6.20.",
-      "Transcription check: lyric alignment 0.93, unique-word coverage 0.91, word-count ratio 1.02, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 6.20."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "They used to ask me, where were you? Like absence was a decision, like I misplaced my childhood between bus tickets and unfamiliar ceilings. I never stayed anywhere long enough for the furniture to remember my shape, another eye of dress, another hallway, another temporary name. Suitcases learned my way before people did. Every door opened halfway then quietly hit. Label stick faster than kindness ever could. Problem child stamped in the splinter wood, bought in homes like stations on a line with no end. Carotakers changed before they could pretend that I was anything more than a file in a drawer. A storm someone else was responsible for. I learned early, not to finish sentences, because goodbye always interrupted them. Where were you when the night stretched then? When silence spoke louder and skinned? Where were you when the years felt through? Like coins in a well I never knew. I memorized exits before I memorized faces. Friends were temporary, weather patterns. By the time someone learned how I took my coffee, I was already gone. Teachers spoke about potential, like it was a crime scene. Counselors asked questions with answers that had nowhere to live in. Somewhere between behavioral reporting, we'll place them somewhere else. I learned how to disappear while standing in the room. Where were you when the winter stayed? Inside the bones I never outcrew. Where were you in the endless blue of days and nobody walked through? Funny thing about loneliness, you stopped believing the universe misplaced you. Like you're an extra page in a book that was already finished, but then one day in the middle of a very ordinary moment, the room changed shape. There you were, like a lighthouse. I'ma forgot to mention, quiet gravity, gentle intervention, no thunder, no grand design. Just your voice and hey, you doing alright and something ancient in the dark of my mind. Shifting an inch toward life for the first time. Like maybe the years weren't only debris. Maybe they were roads that were leading to me. Standing exactly where I needed to be. There you are, where the lost roads been. Where the broken years make sense again. There you are, in the quiet view of a light fire almost never knew. If we had met sooner, maybe the map would look different. Maybe the winner's would have been shorter. Maybe the boy who kept leaving places would have learned how to stay. But then again, maybe every wrong turn, every borrow bedroom, every labeled mistake was just time, taking a long way, so that one day I could finally say where you are. Where the darkness ends, where a stranger finally finds a friend. There you are, in the over-to-blue of a life that almost lost its view. All those years, they kept asking me, where are you? Funny thing is, I was just waiting to ask the same thing when I found you. When I found you.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 5.68,
-        "text": "They used to ask me, where were you?",
-        "avg_logprob": -0.22218276153911243,
-        "no_speech_prob": 0.025848388671875
-      },
-      {
-        "start": 5.68,
-        "end": 11.76,
-        "text": "Like absence was a decision, like I misplaced my childhood",
-        "avg_logprob": -0.22218276153911243,
-        "no_speech_prob": 0.025848388671875
-      },
-      {
-        "start": 11.76,
-        "end": 17.32,
-        "text": "between bus tickets and unfamiliar ceilings.",
-        "avg_logprob": -0.22218276153911243,
-        "no_speech_prob": 0.025848388671875
-      },
-      {
-        "start": 17.32,
-        "end": 20.48,
-        "text": "I never stayed anywhere long enough for the furniture",
-        "avg_logprob": -0.22218276153911243,
-        "no_speech_prob": 0.025848388671875
-      },
-      {
-        "start": 20.48,
-        "end": 27.88,
-        "text": "to remember my shape, another eye of dress, another hallway,",
-        "avg_logprob": -0.22218276153911243,
-        "no_speech_prob": 0.025848388671875
-      },
-      {
-        "start": 27.88,
-        "end": 33.44,
-        "text": "another temporary name.",
-        "avg_logprob": -0.23642676556953277,
-        "no_speech_prob": 0.0271148681640625
-      },
-      {
-        "start": 33.44,
-        "end": 36.36,
-        "text": "Suitcases learned my way before people did.",
-        "avg_logprob": -0.23642676556953277,
-        "no_speech_prob": 0.0271148681640625
-      },
-      {
-        "start": 36.36,
-        "end": 39.44,
-        "text": "Every door opened halfway then quietly hit.",
-        "avg_logprob": -0.23642676556953277,
-        "no_speech_prob": 0.0271148681640625
-      },
-      {
-        "start": 39.44,
-        "end": 42.24,
-        "text": "Label stick faster than kindness ever could.",
-        "avg_logprob": -0.23642676556953277,
-        "no_speech_prob": 0.0271148681640625
-      },
-      {
-        "start": 42.24,
-        "end": 44.68,
-        "text": "Problem child stamped in the splinter wood,",
-        "avg_logprob": -0.23642676556953277,
-        "no_speech_prob": 0.0271148681640625
-      },
-      {
-        "start": 44.68,
-        "end": 47.84,
-        "text": "bought in homes like stations on a line with no end.",
-        "avg_logprob": -0.23642676556953277,
-        "no_speech_prob": 0.0271148681640625
-      },
-      {
-        "start": 47.84,
-        "end": 50.12,
-        "text": "Carotakers changed before they could pretend",
-        "avg_logprob": -0.23642676556953277,
-        "no_speech_prob": 0.0271148681640625
-      },
-      {
-        "start": 50.12,
-        "end": 53.28,
-        "text": "that I was anything more than a file in a drawer.",
-        "avg_logprob": -0.23642676556953277,
-        "no_speech_prob": 0.0271148681640625
-      },
-      {
-        "start": 53.28,
-        "end": 56.4,
-        "text": "A storm someone else was responsible for.",
-        "avg_logprob": -0.23642676556953277,
-        "no_speech_prob": 0.0271148681640625
-      },
-      {
-        "start": 56.4,
-        "end": 62.0,
-        "text": "I learned early, not to finish sentences,",
-        "avg_logprob": -0.3387381985502423,
-        "no_speech_prob": 0.010406494140625
-      },
-      {
-        "start": 62.0,
-        "end": 67.36,
-        "text": "because goodbye always interrupted them.",
-        "avg_logprob": -0.3387381985502423,
-        "no_speech_prob": 0.010406494140625
-      },
-      {
-        "start": 67.36,
-        "end": 73.28,
-        "text": "Where were you when the night stretched then?",
-        "avg_logprob": -0.3387381985502423,
-        "no_speech_prob": 0.010406494140625
-      },
-      {
-        "start": 73.28,
-        "end": 78.48,
-        "text": "When silence spoke louder and skinned?",
-        "avg_logprob": -0.3387381985502423,
-        "no_speech_prob": 0.010406494140625
-      },
-      {
-        "start": 78.48,
-        "end": 84.4,
-        "text": "Where were you when the years felt through?",
-        "avg_logprob": -0.3387381985502423,
-        "no_speech_prob": 0.010406494140625
-      },
-      {
-        "start": 84.4,
-        "end": 89.48,
-        "text": "Like coins in a well I never knew.",
-        "avg_logprob": -0.24927325200202854,
-        "no_speech_prob": 0.07403564453125
-      },
-      {
-        "start": 89.48,
-        "end": 93.12,
-        "text": "I memorized exits before I memorized faces.",
-        "avg_logprob": -0.24927325200202854,
-        "no_speech_prob": 0.07403564453125
-      },
-      {
-        "start": 93.12,
-        "end": 95.6,
-        "text": "Friends were temporary, weather patterns.",
-        "avg_logprob": -0.24927325200202854,
-        "no_speech_prob": 0.07403564453125
-      },
-      {
-        "start": 95.6,
-        "end": 100.44,
-        "text": "By the time someone learned how I took my coffee, I was already gone.",
-        "avg_logprob": -0.24927325200202854,
-        "no_speech_prob": 0.07403564453125
-      },
-      {
-        "start": 100.44,
-        "end": 103.64,
-        "text": "Teachers spoke about potential, like it was a crime scene.",
-        "avg_logprob": -0.24927325200202854,
-        "no_speech_prob": 0.07403564453125
-      },
-      {
-        "start": 103.64,
-        "end": 107.08,
-        "text": "Counselors asked questions with answers that had nowhere to live in.",
-        "avg_logprob": -0.24927325200202854,
-        "no_speech_prob": 0.07403564453125
-      },
-      {
-        "start": 107.08,
-        "end": 110.12,
-        "text": "Somewhere between behavioral reporting,",
-        "avg_logprob": -0.24927325200202854,
-        "no_speech_prob": 0.07403564453125
-      },
-      {
-        "start": 110.12,
-        "end": 111.6,
-        "text": "we'll place them somewhere else.",
-        "avg_logprob": -0.29520090403301374,
-        "no_speech_prob": 0.11138916015625
-      },
-      {
-        "start": 111.6,
-        "end": 117.56,
-        "text": "I learned how to disappear while standing in the room.",
-        "avg_logprob": -0.29520090403301374,
-        "no_speech_prob": 0.11138916015625
-      },
-      {
-        "start": 117.56,
-        "end": 122.8,
-        "text": "Where were you when the winter stayed?",
-        "avg_logprob": -0.29520090403301374,
-        "no_speech_prob": 0.11138916015625
-      },
-      {
-        "start": 122.8,
-        "end": 128.72,
-        "text": "Inside the bones I never outcrew.",
-        "avg_logprob": -0.29520090403301374,
-        "no_speech_prob": 0.11138916015625
-      },
-      {
-        "start": 128.72,
-        "end": 135.6,
-        "text": "Where were you in the endless blue of days",
-        "avg_logprob": -0.29520090403301374,
-        "no_speech_prob": 0.11138916015625
-      },
-      {
-        "start": 135.6,
-        "end": 139.56,
-        "text": "and nobody walked through?",
-        "avg_logprob": -0.27446544876224116,
-        "no_speech_prob": 0.438720703125
-      },
-      {
-        "start": 139.56,
-        "end": 142.88,
-        "text": "Funny thing about loneliness,",
-        "avg_logprob": -0.27446544876224116,
-        "no_speech_prob": 0.438720703125
-      },
-      {
-        "start": 142.88,
-        "end": 147.8,
-        "text": "you stopped believing the universe misplaced you.",
-        "avg_logprob": -0.27446544876224116,
-        "no_speech_prob": 0.438720703125
-      },
-      {
-        "start": 147.8,
-        "end": 151.44,
-        "text": "Like you're an extra page in a book that was already finished,",
-        "avg_logprob": -0.27446544876224116,
-        "no_speech_prob": 0.438720703125
-      },
-      {
-        "start": 151.44,
-        "end": 159.32,
-        "text": "but then one day in the middle of a very ordinary moment,",
-        "avg_logprob": -0.27446544876224116,
-        "no_speech_prob": 0.438720703125
-      },
-      {
-        "start": 159.32,
-        "end": 162.6,
-        "text": "the room changed shape.",
-        "avg_logprob": -0.27446544876224116,
-        "no_speech_prob": 0.438720703125
-      },
-      {
-        "start": 162.6,
-        "end": 164.4,
-        "text": "There you were, like a lighthouse.",
-        "avg_logprob": -0.27446544876224116,
-        "no_speech_prob": 0.438720703125
-      },
-      {
-        "start": 164.4,
-        "end": 167.04,
-        "text": "I'ma forgot to mention, quiet gravity,",
-        "avg_logprob": -0.2863609813084112,
-        "no_speech_prob": 0.362548828125
-      },
-      {
-        "start": 167.04,
-        "end": 170.92,
-        "text": "gentle intervention, no thunder, no grand design.",
-        "avg_logprob": -0.2863609813084112,
-        "no_speech_prob": 0.362548828125
-      },
-      {
-        "start": 170.92,
-        "end": 173.64,
-        "text": "Just your voice and hey, you doing alright",
-        "avg_logprob": -0.2863609813084112,
-        "no_speech_prob": 0.362548828125
-      },
-      {
-        "start": 173.64,
-        "end": 176.08,
-        "text": "and something ancient in the dark of my mind.",
-        "avg_logprob": -0.2863609813084112,
-        "no_speech_prob": 0.362548828125
-      },
-      {
-        "start": 176.08,
-        "end": 178.8,
-        "text": "Shifting an inch toward life for the first time.",
-        "avg_logprob": -0.2863609813084112,
-        "no_speech_prob": 0.362548828125
-      },
-      {
-        "start": 178.8,
-        "end": 181.72,
-        "text": "Like maybe the years weren't only debris.",
-        "avg_logprob": -0.2863609813084112,
-        "no_speech_prob": 0.362548828125
-      },
-      {
-        "start": 181.72,
-        "end": 184.4,
-        "text": "Maybe they were roads that were leading to me.",
-        "avg_logprob": -0.2863609813084112,
-        "no_speech_prob": 0.362548828125
-      },
-      {
-        "start": 184.4,
-        "end": 187.28,
-        "text": "Standing exactly where I needed to be.",
-        "avg_logprob": -0.2863609813084112,
-        "no_speech_prob": 0.362548828125
-      },
-      {
-        "start": 187.28,
-        "end": 193.2,
-        "text": "There you are, where the lost roads been.",
-        "avg_logprob": -0.2863609813084112,
-        "no_speech_prob": 0.362548828125
-      },
-      {
-        "start": 193.2,
-        "end": 198.44,
-        "text": "Where the broken years make sense again.",
-        "avg_logprob": -0.21419270440108246,
-        "no_speech_prob": 0.004673004150390625
-      },
-      {
-        "start": 198.44,
-        "end": 209.44,
-        "text": "There you are, in the quiet view of a light fire almost never knew.",
-        "avg_logprob": -0.21419270440108246,
-        "no_speech_prob": 0.004673004150390625
-      },
-      {
-        "start": 209.44,
-        "end": 213.24,
-        "text": "If we had met sooner, maybe the map would look different.",
-        "avg_logprob": -0.21419270440108246,
-        "no_speech_prob": 0.004673004150390625
-      },
-      {
-        "start": 213.24,
-        "end": 216.04,
-        "text": "Maybe the winner's would have been shorter.",
-        "avg_logprob": -0.21419270440108246,
-        "no_speech_prob": 0.004673004150390625
-      },
-      {
-        "start": 216.04,
-        "end": 220.6,
-        "text": "Maybe the boy who kept leaving places would have learned how to stay.",
-        "avg_logprob": -0.21419270440108246,
-        "no_speech_prob": 0.004673004150390625
-      },
-      {
-        "start": 220.64,
-        "end": 224.64,
-        "text": "But then again, maybe every wrong turn, every borrow bedroom,",
-        "avg_logprob": -0.23320312524835268,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 224.64,
-        "end": 227.72,
-        "text": "every labeled mistake was just time,",
-        "avg_logprob": -0.23320312524835268,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 227.72,
-        "end": 234.36,
-        "text": "taking a long way, so that one day I could finally say where you are.",
-        "avg_logprob": -0.23320312524835268,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 234.36,
-        "end": 243.08,
-        "text": "Where the darkness ends, where a stranger finally finds a friend.",
-        "avg_logprob": -0.23320312524835268,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 243.08,
-        "end": 254.28,
-        "text": "There you are, in the over-to-blue of a life that almost lost its view.",
-        "avg_logprob": -0.22871767857979083,
-        "no_speech_prob": 0.0418701171875
-      },
-      {
-        "start": 254.28,
-        "end": 259.12,
-        "text": "All those years, they kept asking me, where are you?",
-        "avg_logprob": -0.22871767857979083,
-        "no_speech_prob": 0.0418701171875
-      },
-      {
-        "start": 259.12,
-        "end": 267.12,
-        "text": "Funny thing is, I was just waiting to ask the same thing when I found you.",
-        "avg_logprob": -0.22871767857979083,
-        "no_speech_prob": 0.0418701171875
-      },
-      {
-        "start": 273.08,
-        "end": 280.08,
-        "text": "When I found you.",
-        "avg_logprob": -0.9169921576976776,
-        "no_speech_prob": 0.62060546875
-      }
-    ],
-    "avg_logprob": -0.27556232083899984
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 488,
-    "transcript_word_count": 498,
-    "matched_sequence_words": 452,
-    "lyric_alignment_ratio": 0.926,
-    "transcript_precision_ratio": 0.908,
-    "unique_expected_word_coverage": 0.908,
-    "word_count_ratio": 1.02,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.173,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.921,
-    "quality_score_0_10": 9.21,
-    "flags": [],
-    "transcript_excerpt": "They used to ask me, where were you? Like absence was a decision, like I misplaced my childhood between bus tickets and unfamiliar ceilings. I never stayed anywhere long enough for the furniture to remember my shape, another eye of dress, another hallway, another temporary name. Suitcases learned my way before people did. Every door opened halfway then quietly hit. Label stick faster than kindness ever could. Problem child stamped in the splinter wood, bought in homes like stations on a line with no end. Carotakers changed before they could pretend that I was anything more than a file in a dra\n...[truncated]...\nybe the map would look different. Maybe the winner's would have been shorter. Maybe the boy who kept leaving places would have learned how to stay. But then again, maybe every wrong turn, every borrow bedroom, every labeled mistake was just time, taking a long way, so that one day I could finally say where you are. Where the darkness ends, where a stranger finally finds a friend. There you are, in the over-to-blue of a life that almost lost its view. All those years, they kept asking me, where are you? Funny thing is, I was just waiting to ask the same thing when I found you. When I found you."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 9.2,
-      "BP_beauty_spatial_poise": 9.1,
-      "EG_evolving_grammar": 7.8,
-      "CD_carry_depth": 8.9
+      "SC_structural_coherence": 9.8,
+      "MI_motivic_integration": 9.4,
+      "BP_beauty_spatial_poise": 9.2,
+      "EG_evolving_grammar": 7.5,
+      "CD_carry_depth": 8.6
     },
     "core_metrics": {
-      "CDPD": 0.92,
-      "NGE": 0.62,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.98,
+      "NGE": 0.68,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
-      "number": 14,
+      "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "The track follows a clear narrative arc from isolation to connection."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section lengths are proportionate, transitions feel designed, but the track lacks a clear arc and some filler 8s."
+        "delta": -0.2,
+        "reason": "Clear verse/hook structure with distinct sections and an outro."
       },
       "MI_motivic_integration": {
-        "delta": -0.42,
-        "reason": "Motifs recur across sections with transformation, but the integration is not as dense or multi-scaled as the base score suggests."
+        "delta": -0.22,
+        "reason": "Strong lyrical flow but some spoken parts are less melodic."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.2,
-        "reason": "Sonic habitat is consistently beautiful and coherent, with intentional textures and spatial design."
+        "delta": 0.3,
+        "reason": "High production quality and intentional use of space."
       },
       "EG_evolving_grammar": {
-        "delta": 0.41,
-        "reason": "Grammar evolves with meaningful changes in harmonic bed, beat law, and flow density, but not as strongly as the base score implies."
+        "delta": 0.11,
+        "reason": "Consistent poetic imagery throughout."
       },
       "CD_carry_depth": {
-        "delta": 0.17,
-        "reason": "Track defines a recognisable emotional habitat and invites re-listening, with a clear emotional arc."
+        "delta": -0.13,
+        "reason": "Strong themes but some repetition in the hook."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:51.28 with section-balance score 0.56.",
-      "Tempo estimate is 172.3 BPM; declared tempo alignment contributes 0.69.",
-      "Integrated loudness is -17.6 LUFS, peak is -2.1 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is E minor with confidence 0.40.",
-      "Audio recurrence ratio is 0.381; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 419 beats and 114 downbeats; beat-grid stability is 0.66.",
-      "EG evidence: section contrast 1.68, cumulative evolution 0.59, transformed returns 10.00, grid deviation 1.20, rule changes 2.50.",
-      "Companion text has 12 lyric/production sections, 570 words, line repetition 0.06, rhyme-suffix reuse 0.34."
+      "The track features a well-defined structure with clear transitions between spoken word and melodic hooks.",
+      "The lyrical content is deeply introspective and maintains a consistent theme of searching for identity.",
+      "The production uses space effectively to create an intimate, atmospheric feel."
     ],
     "review_flags": [
-      "Uncertainty in section detection; audio-only evidence weak for some transformations."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T21:03:53.9711142Z",
-    "eval_count": 765,
-    "eval_duration": 13348094100
+    "created_at": "2026-06-10T11:01:10.8517761Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9321188,
+      "base64_chars": 12428252,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13325,
+    "prompt_eval_duration": 5671131000,
+    "eval_count": 369,
+    "eval_duration": 9138750000
   }
 }

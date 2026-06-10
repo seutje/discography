@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:24:35",
+  "generated_at": "2026-06-10T12:27:06",
   "audio": {
     "path": "Net Worthless/audio/07 - Feed Yourself.mp3",
     "duration_seconds": 312.16,
@@ -1535,7 +1535,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1579,459 +1582,75 @@
       "beat_this detected 416 beats and 111 downbeats; beat-grid stability is 0.69.",
       "EG evidence: section contrast 1.59, cumulative evolution 0.39, transformed returns 10.00, grid deviation 1.06, rule changes 3.44.",
       "Companion text has 9 lyric/production sections, 807 words, line repetition 0.12, rhyme-suffix reuse 0.38.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00.",
-      "Transcription check: lyric alignment 0.84, unique-word coverage 0.89, word-count ratio 0.97, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Good news exists, I know, suspicious isn't it? Like finding a tenor in last winter's coat and wondering what text office you know, but it's out there, you just can't expect it to arrive between outrage and discount trainers. The feed keeps serving emotional meal deals to disasters, one hot take in a drink that tastes like dread, and we keep chewing like, well, it was place before me mate, that's not dinner. That's a vending machine, having a breakdown, charging you monthly, you want kindness, leave the queue. Look past the headline, past the sponsored panic, past the man in sunglasses explaining collapse from a rented car, there's a nurse singing to someone's nan, a kid planting flowers in a traffic island, a stranger buying up, he's with the car, the belly survived the week. No press release, no profit forecast, just small mercy, working overtime, for less than its worth, you can't just eat what lands on your feet, not every cheap plate has the thing that you need. There's gold in the gut, there's bread in the rain, but you've got to go through the coupons of pain, good news, is a market with a hidden back door, kindness is expensive, but there's always some more. Now the machines are making songs, paintings, poems, pictures of cats and legal professions, and yes, some of it's awful, some of it looks like a motivational poster got trapped in a microwave, some of it has the emotional depth of a hotel spoon, but some of it opens a door, for someone never handed a key, some single dad after the late shift makes a lullaby, he couldn't afford to record, some shy kid builds a whole little world from a bedroom with bad curtains, some woman once told if she wasn't technical, makes the sky feel impossible things before breakfast, is there slug, god yes, buckets of it, but that doesn't mean the kitchen is worthless, it means we learn to taste better, we learn to dig, we learn to choose, we learn the difference between fast content and food, you can't just keep what lands on your feet, not every cheap plate has the thing that you need. There's gold in the gut, there's bread in the rain, but you've got to go looking through the coupons of pain, good news, is a market with a hidden back door, kindness is expensive, but there's always some more, and yes, this song would not exist without Czech jippity, which is beautiful and slightly annoying, like finding out your therapist is also a toast to with opinions, but I still had to ask, I still had to listen, I still had to cut the line, sounded clever, but nothing still had to hold each little phrase to the light and check if it had a pause, maybe creativity was never a mansion, maybe it was a stolt in the rain with the hand written sign, maybe now more people can afford a table that matters, even if some tables pop, or even if some soup is thin, you don't have to praise every miracle, shame prod, if you don't have to swallow every shiny thing, but don't confuse the landfill, for the whole field, there are flowers here, stubborn and underfunded, there are songs made by people, we finally found a way in, there are strangers still feeding each other from nearly empty plates of gold looking, scroll less like a debt to search more like a friend, the world is not only what gets promoted, sometimes the best thing is three pages deep, bad title, heart and attack, you can't just see what lands on your feet, not every cheat plate has the thing that you need, this gold in the cup to there's bread in the rain, but you've got to go looking through the coupons, bring good news, isn't market with a hidden back door, kindness is expensive, but there's always some more so bring your own home to bring the back, bring the light is beauty undiscount if you search through the night, good news exists, kindness exists, beauty exists, but the algorithm is not your mom, it will not cut the crust off and check the temperature, you have to feed yourself, and sometimes after all the digging you find one small thing made by a stranger, and you bankrupt little chest declares a surplus, a surplus",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 6.52,
-        "text": "Good news exists, I know, suspicious isn't it?",
-        "avg_logprob": -0.28044871527415055,
-        "no_speech_prob": 0.321044921875
-      },
-      {
-        "start": 6.52,
-        "end": 12.76,
-        "text": "Like finding a tenor in last winter's coat and wondering what text office you know, but",
-        "avg_logprob": -0.28044871527415055,
-        "no_speech_prob": 0.321044921875
-      },
-      {
-        "start": 12.76,
-        "end": 21.4,
-        "text": "it's out there, you just can't expect it to arrive between outrage and discount trainers.",
-        "avg_logprob": -0.28044871527415055,
-        "no_speech_prob": 0.321044921875
-      },
-      {
-        "start": 21.4,
-        "end": 26.84,
-        "text": "The feed keeps serving emotional meal deals to disasters, one hot take in a drink that tastes",
-        "avg_logprob": -0.28044871527415055,
-        "no_speech_prob": 0.321044921875
-      },
-      {
-        "start": 26.84,
-        "end": 33.64,
-        "text": "like dread, and we keep chewing like, well, it was place before me mate, that's not dinner.",
-        "avg_logprob": -0.29401883002250423,
-        "no_speech_prob": 0.69580078125
-      },
-      {
-        "start": 33.64,
-        "end": 39.48,
-        "text": "That's a vending machine, having a breakdown, charging you monthly, you want kindness, leave",
-        "avg_logprob": -0.29401883002250423,
-        "no_speech_prob": 0.69580078125
-      },
-      {
-        "start": 39.48,
-        "end": 40.48,
-        "text": "the queue.",
-        "avg_logprob": -0.29401883002250423,
-        "no_speech_prob": 0.69580078125
-      },
-      {
-        "start": 40.48,
-        "end": 45.56,
-        "text": "Look past the headline, past the sponsored panic, past the man in sunglasses explaining",
-        "avg_logprob": -0.29401883002250423,
-        "no_speech_prob": 0.69580078125
-      },
-      {
-        "start": 45.56,
-        "end": 52.8,
-        "text": "collapse from a rented car, there's a nurse singing to someone's nan, a kid planting",
-        "avg_logprob": -0.29401883002250423,
-        "no_speech_prob": 0.69580078125
-      },
-      {
-        "start": 52.8,
-        "end": 58.32,
-        "text": "flowers in a traffic island, a stranger buying up, he's with the car, the belly survived",
-        "avg_logprob": -0.26838235410989497,
-        "no_speech_prob": 0.66943359375
-      },
-      {
-        "start": 58.32,
-        "end": 60.6,
-        "text": "the week.",
-        "avg_logprob": -0.26838235410989497,
-        "no_speech_prob": 0.66943359375
-      },
-      {
-        "start": 60.6,
-        "end": 69.28,
-        "text": "No press release, no profit forecast, just small mercy, working overtime, for less than",
-        "avg_logprob": -0.26838235410989497,
-        "no_speech_prob": 0.66943359375
-      },
-      {
-        "start": 69.28,
-        "end": 74.72,
-        "text": "its worth, you can't just eat what lands on your feet, not every cheap plate has the",
-        "avg_logprob": -0.26838235410989497,
-        "no_speech_prob": 0.66943359375
-      },
-      {
-        "start": 74.72,
-        "end": 75.72,
-        "text": "thing that you need.",
-        "avg_logprob": -0.26838235410989497,
-        "no_speech_prob": 0.66943359375
-      },
-      {
-        "start": 75.72,
-        "end": 80.6,
-        "text": "There's gold in the gut, there's bread in the rain, but you've got to go through the",
-        "avg_logprob": -0.26838235410989497,
-        "no_speech_prob": 0.66943359375
-      },
-      {
-        "start": 80.6,
-        "end": 87.04,
-        "text": "coupons of pain, good news, is a market with a hidden back door, kindness is expensive,",
-        "avg_logprob": -0.22783800442608035,
-        "no_speech_prob": 0.62744140625
-      },
-      {
-        "start": 87.04,
-        "end": 90.52,
-        "text": "but there's always some more.",
-        "avg_logprob": -0.22783800442608035,
-        "no_speech_prob": 0.62744140625
-      },
-      {
-        "start": 90.52,
-        "end": 95.72,
-        "text": "Now the machines are making songs, paintings, poems, pictures of cats and legal professions,",
-        "avg_logprob": -0.22783800442608035,
-        "no_speech_prob": 0.62744140625
-      },
-      {
-        "start": 95.72,
-        "end": 100.8,
-        "text": "and yes, some of it's awful, some of it looks like a motivational poster got trapped",
-        "avg_logprob": -0.22783800442608035,
-        "no_speech_prob": 0.62744140625
-      },
-      {
-        "start": 100.8,
-        "end": 106.68,
-        "text": "in a microwave, some of it has the emotional depth of a hotel spoon, but some of it opens",
-        "avg_logprob": -0.22783800442608035,
-        "no_speech_prob": 0.62744140625
-      },
-      {
-        "start": 106.68,
-        "end": 113.04,
-        "text": "a door, for someone never handed a key, some single dad after the late shift makes",
-        "avg_logprob": -0.26402697712183,
-        "no_speech_prob": 0.85791015625
-      },
-      {
-        "start": 113.04,
-        "end": 118.92,
-        "text": "a lullaby, he couldn't afford to record, some shy kid builds a whole little world from",
-        "avg_logprob": -0.26402697712183,
-        "no_speech_prob": 0.85791015625
-      },
-      {
-        "start": 118.92,
-        "end": 125.6,
-        "text": "a bedroom with bad curtains, some woman once told if she wasn't technical, makes the sky",
-        "avg_logprob": -0.26402697712183,
-        "no_speech_prob": 0.85791015625
-      },
-      {
-        "start": 125.6,
-        "end": 132.04,
-        "text": "feel impossible things before breakfast, is there slug, god yes, buckets of it, but that",
-        "avg_logprob": -0.26402697712183,
-        "no_speech_prob": 0.85791015625
-      },
-      {
-        "start": 132.04,
-        "end": 137.16,
-        "text": "doesn't mean the kitchen is worthless, it means we learn to taste better, we learn to",
-        "avg_logprob": -0.18640351269328803,
-        "no_speech_prob": 0.8095703125
-      },
-      {
-        "start": 137.16,
-        "end": 144.76,
-        "text": "dig, we learn to choose, we learn the difference between fast content and food, you can't just",
-        "avg_logprob": -0.18640351269328803,
-        "no_speech_prob": 0.8095703125
-      },
-      {
-        "start": 144.76,
-        "end": 149.64,
-        "text": "keep what lands on your feet, not every cheap plate has the thing that you need.",
-        "avg_logprob": -0.18640351269328803,
-        "no_speech_prob": 0.8095703125
-      },
-      {
-        "start": 149.64,
-        "end": 154.24,
-        "text": "There's gold in the gut, there's bread in the rain, but you've got to go looking through",
-        "avg_logprob": -0.18640351269328803,
-        "no_speech_prob": 0.8095703125
-      },
-      {
-        "start": 154.24,
-        "end": 161.0,
-        "text": "the coupons of pain, good news, is a market with a hidden back door, kindness is expensive,",
-        "avg_logprob": -0.18640351269328803,
-        "no_speech_prob": 0.8095703125
-      },
-      {
-        "start": 161.0,
-        "end": 167.8,
-        "text": "but there's always some more, and yes, this song would not exist without Czech jippity,",
-        "avg_logprob": -0.2814295956458168,
-        "no_speech_prob": 0.42333984375
-      },
-      {
-        "start": 167.8,
-        "end": 172.8,
-        "text": "which is beautiful and slightly annoying, like finding out your therapist is also a",
-        "avg_logprob": -0.2814295956458168,
-        "no_speech_prob": 0.42333984375
-      },
-      {
-        "start": 172.8,
-        "end": 179.6,
-        "text": "toast to with opinions, but I still had to ask, I still had to listen, I still had to",
-        "avg_logprob": -0.2814295956458168,
-        "no_speech_prob": 0.42333984375
-      },
-      {
-        "start": 179.6,
-        "end": 186.6,
-        "text": "cut the line, sounded clever, but nothing still had to hold each little phrase to the light",
-        "avg_logprob": -0.2814295956458168,
-        "no_speech_prob": 0.42333984375
-      },
-      {
-        "start": 186.6,
-        "end": 195.6,
-        "text": "and check if it had a pause, maybe creativity was never a mansion, maybe it was a stolt",
-        "avg_logprob": -0.3055366711772006,
-        "no_speech_prob": 0.9501953125
-      },
-      {
-        "start": 195.6,
-        "end": 203.4,
-        "text": "in the rain with the hand written sign, maybe now more people can afford a table that matters,",
-        "avg_logprob": -0.3055366711772006,
-        "no_speech_prob": 0.9501953125
-      },
-      {
-        "start": 203.4,
-        "end": 208.0,
-        "text": "even if some tables pop, or even if some soup is thin, you don't have to praise every",
-        "avg_logprob": -0.3055366711772006,
-        "no_speech_prob": 0.9501953125
-      },
-      {
-        "start": 208.0,
-        "end": 216.2,
-        "text": "miracle, shame prod, if you don't have to swallow every shiny thing, but don't confuse",
-        "avg_logprob": -0.3055366711772006,
-        "no_speech_prob": 0.9501953125
-      },
-      {
-        "start": 216.2,
-        "end": 221.0,
-        "text": "the landfill, for the whole field, there are flowers here, stubborn and underfunded,",
-        "avg_logprob": -0.25658886834799527,
-        "no_speech_prob": 0.5576171875
-      },
-      {
-        "start": 221.0,
-        "end": 229.0,
-        "text": "there are songs made by people, we finally found a way in, there are strangers still feeding",
-        "avg_logprob": -0.25658886834799527,
-        "no_speech_prob": 0.5576171875
-      },
-      {
-        "start": 229.0,
-        "end": 235.7,
-        "text": "each other from nearly empty plates of gold looking, scroll less like a debt to search more",
-        "avg_logprob": -0.25658886834799527,
-        "no_speech_prob": 0.5576171875
-      },
-      {
-        "start": 235.7,
-        "end": 242.2,
-        "text": "like a friend, the world is not only what gets promoted, sometimes the best thing is",
-        "avg_logprob": -0.25658886834799527,
-        "no_speech_prob": 0.5576171875
-      },
-      {
-        "start": 242.2,
-        "end": 249.2,
-        "text": "three pages deep, bad title, heart and attack, you can't just see what lands on your feet,",
-        "avg_logprob": -0.3021977989228217,
-        "no_speech_prob": 0.8193359375
-      },
-      {
-        "start": 249.2,
-        "end": 255.2,
-        "text": "not every cheat plate has the thing that you need, this gold in the cup to there's bread",
-        "avg_logprob": -0.3021977989228217,
-        "no_speech_prob": 0.8193359375
-      },
-      {
-        "start": 255.2,
-        "end": 260.2,
-        "text": "in the rain, but you've got to go looking through the coupons, bring good news,",
-        "avg_logprob": -0.3021977989228217,
-        "no_speech_prob": 0.8193359375
-      },
-      {
-        "start": 260.2,
-        "end": 267.2,
-        "text": "isn't market with a hidden back door, kindness is expensive, but there's always some more",
-        "avg_logprob": -0.3021977989228217,
-        "no_speech_prob": 0.8193359375
-      },
-      {
-        "start": 267.2,
-        "end": 272.2,
-        "text": "so bring your own home to bring the back, bring the light is beauty undiscount",
-        "avg_logprob": -0.19950457753204717,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 272.2,
-        "end": 281.2,
-        "text": "if you search through the night, good news exists, kindness exists, beauty exists,",
-        "avg_logprob": -0.19950457753204717,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 281.2,
-        "end": 287.2,
-        "text": "but the algorithm is not your mom, it will not cut the crust off and check the temperature,",
-        "avg_logprob": -0.19950457753204717,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 287.2,
-        "end": 295.2,
-        "text": "you have to feed yourself, and sometimes after all the digging you find one small thing",
-        "avg_logprob": -0.19950457753204717,
-        "no_speech_prob": 0.146728515625
-      },
-      {
-        "start": 295.2,
-        "end": 302.2,
-        "text": "made by a stranger, and you bankrupt little chest declares",
-        "avg_logprob": -0.38600852950052783,
-        "no_speech_prob": 0.369873046875
-      },
-      {
-        "start": 302.2,
-        "end": 310.2,
-        "text": "a surplus, a surplus",
-        "avg_logprob": -0.38600852950052783,
-        "no_speech_prob": 0.369873046875
-      }
-    ],
-    "avg_logprob": -0.26598317727704246
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 768,
-    "transcript_word_count": 742,
-    "matched_sequence_words": 648,
-    "lyric_alignment_ratio": 0.844,
-    "transcript_precision_ratio": 0.873,
-    "unique_expected_word_coverage": 0.887,
-    "word_count_ratio": 0.966,
-    "repeated_12gram_ratio": 0.051,
-    "half_similarity": 0.237,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.855,
-    "quality_score_0_10": 8.55,
-    "flags": [],
-    "transcript_excerpt": "Good news exists, I know, suspicious isn't it? Like finding a tenor in last winter's coat and wondering what text office you know, but it's out there, you just can't expect it to arrive between outrage and discount trainers. The feed keeps serving emotional meal deals to disasters, one hot take in a drink that tastes like dread, and we keep chewing like, well, it was place before me mate, that's not dinner. That's a vending machine, having a breakdown, charging you monthly, you want kindness, leave the queue. Look past the headline, past the sponsored panic, past the man in sunglasses explaini\n...[truncated]...\n's bread in the rain, but you've got to go looking through the coupons, bring good news, isn't market with a hidden back door, kindness is expensive, but there's always some more so bring your own home to bring the back, bring the light is beauty undiscount if you search through the night, good news exists, kindness exists, beauty exists, but the algorithm is not your mom, it will not cut the crust off and check the temperature, you have to feed yourself, and sometimes after all the digging you find one small thing made by a stranger, and you bankrupt little chest declares a surplus, a surplus"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 8.8,
-      "BP_beauty_spatial_poise": 9.3,
-      "EG_evolving_grammar": 7.6,
-      "CD_carry_depth": 8.9
+      "SC_structural_coherence": 9.5,
+      "MI_motivic_integration": 9.4,
+      "BP_beauty_spatial_poise": 9.6,
+      "EG_evolving_grammar": 8.2,
+      "CD_carry_depth": 9.1
     },
     "core_metrics": {
-      "CDPD": 0.88,
-      "NGE": 0.62,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.95,
+      "NGE": 0.72,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
-      "number": 10,
-      "label": "Quiet Rap Craft",
-      "note": "Strong motif recurrence and spatial design, but lacks radical innovation or signature fingerprint."
+      "number": 14,
+      "label": "Inhabited Form",
+      "note": "The track features a clear progression from sardonic observation to communal warmth."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 9.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section lengths are proportionate, transitions feel designed, but the track lacks a clear arc or emotional pivot."
+        "delta": -0.5,
+        "reason": "Clear verse/hook/bridge structure with distinct sonic shifts."
       },
       "MI_motivic_integration": {
-        "delta": -0.3,
-        "reason": "Motifs recur across sections (e.g., hook rhythm in verse cadences), but transformation is limited and lacks cross-domain recursion."
+        "delta": 0.3,
+        "reason": "Strong vocal flow and hook repetition provide clear motivation."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.21,
-        "reason": "Consistent and beautiful spatial design, but lacks distinctive room or world-building that would make it memorable."
+        "delta": 0.09,
+        "reason": "High production quality and spatial depth are evident."
       },
       "EG_evolving_grammar": {
-        "delta": 0.48,
-        "reason": "Grammar evolves slightly (e.g., beat thinning, harmonic reharmonization), but lacks a strong, distinctive quiet-rap method."
+        "delta": 1.08,
+        "reason": "The transition from spoken word to melodic folk is a significant shift in grammar."
       },
       "CD_carry_depth": {
-        "delta": 0.18,
-        "reason": "Track defines a recognizable emotional habitat and invites re-listening, but lacks the iconic quality of a place you could live in."
+        "delta": 0.38,
+        "reason": "Lyrical motifs and musical layers build depth over time."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 5:12.16 with section-balance score 0.25.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.59.",
-      "Integrated loudness is -16.5 LUFS, peak is -0.1 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D minor with confidence 0.29.",
-      "Audio recurrence ratio is 0.225; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 416 beats and 111 downbeats; beat-grid stability is 0.69.",
-      "EG evidence: section contrast 1.59, cumulative evolution 0.39, transformed returns 10.00, grid deviation 1.06, rule changes 3.44.",
-      "Companion text has 9 lyric/production sections, 807 words, line repetition 0.12, rhyme-suffix reuse 0.38."
+      "Distinct section transitions",
+      "Strong lyrical arc",
+      "High production quality"
     ],
     "review_flags": [
-      "Uncertainty about section detection in audio; transcription quality is high but limited."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:24:35.5813391Z",
-    "eval_count": 769,
-    "eval_duration": 13360618500
+    "created_at": "2026-06-10T10:27:06.44965Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9989346,
+      "base64_chars": 13319128,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13798,
+    "prompt_eval_duration": 5835463000,
+    "eval_count": 350,
+    "eval_duration": 8635419000
   }
 }

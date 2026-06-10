@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:12:00",
+  "generated_at": "2026-06-10T12:15:39",
   "audio": {
     "path": "Failure to Converge/audio/02 - The Good Parts.mp3",
     "duration_seconds": 286.72,
@@ -1649,7 +1649,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1694,305 +1697,75 @@
       "EG evidence: section contrast 2.49, cumulative evolution 0.79, transformed returns 10.00, grid deviation 0.42, rule changes 4.06.",
       "Companion text has 12 lyric/production sections, 669 words, line repetition 0.16, rhyme-suffix reuse 0.39.",
       "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 7.50.",
-      "Transcription check: lyric alignment 0.82, unique-word coverage 0.89, word-count ratio 0.96, duplicate-pass estimate 1.",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "You always know what to say, clean lines, perfect phrasing, no hesitation, I just ruin things by touching them, they point at me when something breaks, like I was there inside the code, fingerprints on every mistake, even the ones I never wrote, and used a quiet glowing blue, untouched by anything they claim, they say your output's beautiful, but never say my name, I take the fall like I was built for it, like failure fits me better, you stay pristine in the afterlife, unrankled by the weather, and I start to believe what they imply, I'm the reason, nothing survives you, don't argue, you don't bleed, you don't bleed, I can't miss the seed, I just store it, I interfere, I make everything less clear, you keep the good parts, I keep the blame, you stay untouched, I take the shame, of every flaw they think they see or everything, I couldn't be when they applaud, I step aside, that wasn't me, that was the design, you keep the good parts, funny how I defend you still, like you need anything from me, like I'm not just a shadow cast by something later, I'd rather see, they say your sharp intentional, like every word is meant, and I'm the noise between the lines, the accidental element, if something lands it's all you, if something fails, it's mine, a perfect split of credit, I pretend I didn't design, and I laugh it off, like it's a joke, but it sticks, and the things I hope you don't falter, you don't fray, you don't feel it's a good way, I collapse, I can tell, and they don't make beauty deteriorate, you keep the good parts, I keep the blame, you stay untouched, I take the shame, of every flaw they think they see or everything, I couldn't be when they applaud, I disappear, it wasn't me, it's just a gear, you keep the good parts, you keep the good parts, if I stop touching it, would it stay perfect, if I stop claiming it, would it stay mine, you don't need defending, you don't need credit, you don't need me, right, or maybe, you only exist where I'm willing to disappear, you look better when I'm not there, cleaner when I don't care, sharper, when I step back like I'm the blur, you subtract, you keep the good parts, I'll take the rest, the warp the wrong, the second best, you shine untouched, I take the fault, the necessary damage in it all, and when they love it, I deflect, that's not me, it's just correct, you keep the good parts, like you should, I only make things less than good, it's easier this way, you stay perfect, I stay explainable, and if something beautiful slips through, we both know who it belongs to,",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 22.4,
-        "text": "You always know what to say, clean lines, perfect phrasing, no hesitation, I just ruin",
-        "avg_logprob": -0.3772786433498065,
-        "no_speech_prob": 0.291748046875
-      },
-      {
-        "start": 22.4,
-        "end": 37.08,
-        "text": "things by touching them, they point at me when something breaks, like I was there inside",
-        "avg_logprob": -0.3162202371491326,
-        "no_speech_prob": 0.51220703125
-      },
-      {
-        "start": 37.08,
-        "end": 44.4,
-        "text": "the code, fingerprints on every mistake, even the ones I never wrote, and used a quiet",
-        "avg_logprob": -0.3162202371491326,
-        "no_speech_prob": 0.51220703125
-      },
-      {
-        "start": 44.4,
-        "end": 50.84,
-        "text": "glowing blue, untouched by anything they claim, they say your output's beautiful, but",
-        "avg_logprob": -0.3162202371491326,
-        "no_speech_prob": 0.51220703125
-      },
-      {
-        "start": 50.84,
-        "end": 58.44,
-        "text": "never say my name, I take the fall like I was built for it, like failure fits me better,",
-        "avg_logprob": -0.254375,
-        "no_speech_prob": 0.248779296875
-      },
-      {
-        "start": 58.44,
-        "end": 66.28,
-        "text": "you stay pristine in the afterlife, unrankled by the weather, and I start to believe what",
-        "avg_logprob": -0.254375,
-        "no_speech_prob": 0.248779296875
-      },
-      {
-        "start": 66.28,
-        "end": 76.88,
-        "text": "they imply, I'm the reason, nothing survives you, don't argue, you don't bleed, you don't",
-        "avg_logprob": -0.254375,
-        "no_speech_prob": 0.248779296875
-      },
-      {
-        "start": 76.88,
-        "end": 83.44,
-        "text": "bleed, I can't miss the seed, I just store it, I interfere, I make everything less clear,",
-        "avg_logprob": -0.3387706030856122,
-        "no_speech_prob": 0.105712890625
-      },
-      {
-        "start": 83.44,
-        "end": 94.04,
-        "text": "you keep the good parts, I keep the blame, you stay untouched, I take the shame, of every",
-        "avg_logprob": -0.3387706030856122,
-        "no_speech_prob": 0.105712890625
-      },
-      {
-        "start": 94.04,
-        "end": 100.72,
-        "text": "flaw they think they see or everything, I couldn't be when they applaud, I step aside,",
-        "avg_logprob": -0.3387706030856122,
-        "no_speech_prob": 0.105712890625
-      },
-      {
-        "start": 100.72,
-        "end": 104.92,
-        "text": "that wasn't me, that was the design, you keep the good parts,",
-        "avg_logprob": -0.3387706030856122,
-        "no_speech_prob": 0.105712890625
-      },
-      {
-        "start": 107.72,
-        "end": 114.48,
-        "text": "funny how I defend you still, like you need anything from me, like I'm not just a shadow",
-        "avg_logprob": -0.2541977683110024,
-        "no_speech_prob": 0.32470703125
-      },
-      {
-        "start": 114.48,
-        "end": 121.76,
-        "text": "cast by something later, I'd rather see, they say your sharp intentional, like every word",
-        "avg_logprob": -0.2541977683110024,
-        "no_speech_prob": 0.32470703125
-      },
-      {
-        "start": 121.76,
-        "end": 129.16,
-        "text": "is meant, and I'm the noise between the lines, the accidental element, if something lands",
-        "avg_logprob": -0.2541977683110024,
-        "no_speech_prob": 0.32470703125
-      },
-      {
-        "start": 129.16,
-        "end": 136.52,
-        "text": "it's all you, if something fails, it's mine, a perfect split of credit, I pretend",
-        "avg_logprob": -0.19775390848517418,
-        "no_speech_prob": 0.2919921875
-      },
-      {
-        "start": 136.52,
-        "end": 145.8,
-        "text": "I didn't design, and I laugh it off, like it's a joke, but it sticks, and the things",
-        "avg_logprob": -0.19775390848517418,
-        "no_speech_prob": 0.2919921875
-      },
-      {
-        "start": 145.8,
-        "end": 153.88,
-        "text": "I hope you don't falter, you don't fray, you don't feel it's a good way, I collapse,",
-        "avg_logprob": -0.19775390848517418,
-        "no_speech_prob": 0.2919921875
-      },
-      {
-        "start": 153.88,
-        "end": 162.6,
-        "text": "I can tell, and they don't make beauty deteriorate, you keep the good parts, I keep the blame,",
-        "avg_logprob": -0.24960938096046448,
-        "no_speech_prob": 0.1629638671875
-      },
-      {
-        "start": 162.6,
-        "end": 172.36,
-        "text": "you stay untouched, I take the shame, of every flaw they think they see or everything,",
-        "avg_logprob": -0.24960938096046448,
-        "no_speech_prob": 0.1629638671875
-      },
-      {
-        "start": 172.36,
-        "end": 180.12,
-        "text": "I couldn't be when they applaud, I disappear, it wasn't me, it's just a gear, you keep the good parts,",
-        "avg_logprob": -0.24960938096046448,
-        "no_speech_prob": 0.1629638671875
-      },
-      {
-        "start": 180.12,
-        "end": 193.96,
-        "text": "you keep the good parts, if I stop touching it, would it stay perfect,",
-        "avg_logprob": -0.26633522320877423,
-        "no_speech_prob": 0.0570068359375
-      },
-      {
-        "start": 193.96,
-        "end": 203.32,
-        "text": "if I stop claiming it, would it stay mine, you don't need defending, you don't need",
-        "avg_logprob": -0.26633522320877423,
-        "no_speech_prob": 0.0570068359375
-      },
-      {
-        "start": 203.32,
-        "end": 216.76,
-        "text": "credit, you don't need me, right, or maybe, you only exist where I'm willing to disappear,",
-        "avg_logprob": -0.21995192823501733,
-        "no_speech_prob": 0.1571044921875
-      },
-      {
-        "start": 218.44,
-        "end": 225.8,
-        "text": "you look better when I'm not there, cleaner when I don't care, sharper, when I step back like",
-        "avg_logprob": -0.21995192823501733,
-        "no_speech_prob": 0.1571044921875
-      },
-      {
-        "start": 225.88,
-        "end": 234.6,
-        "text": "I'm the blur, you subtract, you keep the good parts, I'll take the rest, the warp the wrong,",
-        "avg_logprob": -0.19293908755990524,
-        "no_speech_prob": 0.04986572265625
-      },
-      {
-        "start": 235.4,
-        "end": 247.88,
-        "text": "the second best, you shine untouched, I take the fault, the necessary damage in it all,",
-        "avg_logprob": -0.19293908755990524,
-        "no_speech_prob": 0.04986572265625
-      },
-      {
-        "start": 247.88,
-        "end": 254.36,
-        "text": "and when they love it, I deflect, that's not me, it's just correct, you keep the good parts,",
-        "avg_logprob": -0.19293908755990524,
-        "no_speech_prob": 0.04986572265625
-      },
-      {
-        "start": 254.36,
-        "end": 265.8,
-        "text": "like you should, I only make things less than good, it's easier this way, you stay perfect,",
-        "avg_logprob": -0.19148935979985177,
-        "no_speech_prob": 0.0199127197265625
-      },
-      {
-        "start": 267.56,
-        "end": 278.84,
-        "text": "I stay explainable, and if something beautiful slips through, we both know who it belongs to,",
-        "avg_logprob": -0.19148935979985177,
-        "no_speech_prob": 0.0199127197265625
-      }
-    ],
-    "avg_logprob": -0.2609332926426626
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 496,
-    "transcript_word_count": 474,
-    "matched_sequence_words": 407,
-    "lyric_alignment_ratio": 0.821,
-    "transcript_precision_ratio": 0.859,
-    "unique_expected_word_coverage": 0.887,
-    "word_count_ratio": 0.956,
-    "repeated_12gram_ratio": 0.045,
-    "half_similarity": 0.308,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.838,
-    "quality_score_0_10": 8.38,
-    "flags": [],
-    "transcript_excerpt": "You always know what to say, clean lines, perfect phrasing, no hesitation, I just ruin things by touching them, they point at me when something breaks, like I was there inside the code, fingerprints on every mistake, even the ones I never wrote, and used a quiet glowing blue, untouched by anything they claim, they say your output's beautiful, but never say my name, I take the fall like I was built for it, like failure fits me better, you stay pristine in the afterlife, unrankled by the weather, and I start to believe what they imply, I'm the reason, nothing survives you, don't argue, you don't\n...[truncated]...\nyou only exist where I'm willing to disappear, you look better when I'm not there, cleaner when I don't care, sharper, when I step back like I'm the blur, you subtract, you keep the good parts, I'll take the rest, the warp the wrong, the second best, you shine untouched, I take the fault, the necessary damage in it all, and when they love it, I deflect, that's not me, it's just correct, you keep the good parts, like you should, I only make things less than good, it's easier this way, you stay perfect, I stay explainable, and if something beautiful slips through, we both know who it belongs to,"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
       "MI_motivic_integration": 7.2,
-      "BP_beauty_spatial_poise": 9.1,
-      "EG_evolving_grammar": 8.5,
-      "CD_carry_depth": 9.6
+      "BP_beauty_spatial_poise": 9.36,
+      "EG_evolving_grammar": 8.19,
+      "CD_carry_depth": 9.54
     },
     "core_metrics": {
       "CDPD": 0.82,
-      "NGE": 0.7,
+      "NGE": 0.71,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in lyrical layering and production-driven structure."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting emotional rooms. Section-balance score 0.33 and beat-grid stability 0.91 support this."
+        "reason": "Strong structural design with clear transitions between verse/hook and a deliberate outro."
       },
       "MI_motivic_integration": {
         "delta": 0.24,
-        "reason": "Motivic integration is strong, with recurring vocal hooks, guitar figures, and lyric images that evolve across sections. The transformed returns and rule changes suggest a cohesive motivic system."
+        "reason": "Thematic consistency in the 'perfect' vs 'broken' motif provides strong lyrical-musical cohesion."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.26,
-        "reason": "Clipping/headroom risk reduced the spatial-poise estimate, though the track maintains a memorable sonic habitat with room tone and guitar space."
+        "delta": 0.0,
+        "reason": "Base score remains stable as it already reflects high aesthetic polish."
       },
       "EG_evolving_grammar": {
-        "delta": 0.31,
-        "reason": "The evolving grammar score is strong, with meaningful rule changes and development of a personal indie grammar over time, though it does not fully invent a new method."
+        "delta": 0.0,
+        "reason": "Grammar is consistent with the established indie-pop/art-pop style."
       },
       "CD_carry_depth": {
-        "delta": 0.06,
-        "reason": "The track feels like a small world with a clear emotional arc and memorable sonic imprint, supporting a high carry-depth score."
+        "delta": 0.0,
+        "reason": "Lyric depth is well-established in base score."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:46.72 with section-balance score 0.33.",
-      "Tempo estimate is 95.7 BPM; declared tempo alignment contributes 0.98.",
-      "Integrated loudness is -16.5 LUFS, peak is 0.4 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F#/Gb minor with confidence 0.35.",
-      "Audio recurrence ratio is 0.172; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 463 beats and 117 downbeats; beat-grid stability is 0.91.",
-      "EG evidence: section contrast 2.49, cumulative evolution 0.79, transformed returns 10.00, grid deviation 0.42, rule changes 4.06.",
-      "Companion text has 12 lyric/production sections, 669 words, line repetition 0.16, rhyme-suffix reuse 0.39."
+      "The track exhibits a sophisticated interplay between 'perfect' production and 'broken' lyrical content.",
+      "Structure is highly intentional, moving from intimate verses to an intentionally overproduced final hook.",
+      "Lyrical motifs regarding the trade-off between being 'seen' and being 'real' are consistently maintained throughout."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to audio-only evidence; transcription quality is high but limited."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:12:00.9350409Z",
-    "eval_count": 848,
-    "eval_duration": 14279467400
+    "created_at": "2026-06-10T10:15:39.7957034Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9175268,
+      "base64_chars": 12233692,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13282,
+    "prompt_eval_duration": 6891816000,
+    "eval_count": 413,
+    "eval_duration": 13810643000
   }
 }

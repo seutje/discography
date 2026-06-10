@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:30:58",
+  "generated_at": "2026-06-10T12:32:45",
   "audio": {
     "path": "Noise Floor/audio/06 - Bitter Decoder.mp3",
     "duration_seconds": 223.4,
@@ -1323,7 +1323,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1367,424 +1370,74 @@
       "beat_this detected 355 beats and 91 downbeats; beat-grid stability is 0.87.",
       "EG evidence: section contrast 1.37, cumulative evolution 0.33, transformed returns 10.00, grid deviation 0.51, rule changes 3.33.",
       "Companion text has 7 lyric/production sections, 323 words, line repetition 0.10, rhyme-suffix reuse 0.28.",
-      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 7.50.",
-      "Transcription check: lyric alignment 0.87, unique-word coverage 0.90, word-count ratio 1.13, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 7.50."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "There is a drawer in the waveform, I had never thought to pull, It opens with a wooden whisper, and the black room fills with a wool. I read that people as weather too fast, too bright too far, They faces used to scatter like coins under a car, Then let the gold alarms uneven, and the hidden colors lean. Every gesture has a root now, every silence turns green. Another scape, not decoration, not the door out on my head. It's more like hearing buried speakers underneath the riverbed. You could be dead with me, to dig out an open slope. Show me where the soft lines go, let the human picture gather, And a funny snow between the frames, to decoily be I, I found my tomb for what it's worth, if the room can understand me, I can carry that strange taste, taste, taste, taste, taste, taste, taste, taste. Now the old machines are breathing, now the lamps have nerfed his grain. I can feel the conversation moving under every name Someone laps and I can buy it all Someone meets and I can stay All the meanings grow my seal Underneath the dial cafe Still the channel has a flavor Dark and mineral in plain All this wonder leaves a shadow Like wet pennies After rain I wanted a clean translation Silver, smooth, complete But the old set hums through varnish Through soil, through teeth Maybe understanding arrives With sediment Maybe light Has an underside Bit by bit to go to open slope Show me where the roof lines go Let the human picture gather On the snow between the frames Let it echo to keep deeper On my tongue for what it's worth If the room can understand me I can carry that strange trace The picture clears With soil in it I smile And rinse the glass With soil in it With soil in it",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 28.0,
-        "text": "There is a drawer in the waveform, I had never thought to pull,",
-        "avg_logprob": -0.5082236653880069,
-        "no_speech_prob": 0.5986328125
-      },
-      {
-        "start": 28.0,
-        "end": 38.0,
-        "text": "It opens with a wooden whisper, and the black room fills with a wool.",
-        "avg_logprob": -0.3294005199354522,
-        "no_speech_prob": 0.46484375
-      },
-      {
-        "start": 38.0,
-        "end": 46.0,
-        "text": "I read that people as weather too fast, too bright too far,",
-        "avg_logprob": -0.3294005199354522,
-        "no_speech_prob": 0.46484375
-      },
-      {
-        "start": 46.0,
-        "end": 50.0,
-        "text": "They faces used to scatter like coins under a car,",
-        "avg_logprob": -0.3294005199354522,
-        "no_speech_prob": 0.46484375
-      },
-      {
-        "start": 50.0,
-        "end": 55.0,
-        "text": "Then let the gold alarms uneven, and the hidden colors lean.",
-        "avg_logprob": -0.3513962658161813,
-        "no_speech_prob": 0.55322265625
-      },
-      {
-        "start": 55.0,
-        "end": 60.0,
-        "text": "Every gesture has a root now, every silence turns green.",
-        "avg_logprob": -0.3513962658161813,
-        "no_speech_prob": 0.55322265625
-      },
-      {
-        "start": 60.0,
-        "end": 65.0,
-        "text": "Another scape, not decoration, not the door out on my head.",
-        "avg_logprob": -0.3513962658161813,
-        "no_speech_prob": 0.55322265625
-      },
-      {
-        "start": 65.0,
-        "end": 70.0,
-        "text": "It's more like hearing buried speakers underneath the riverbed.",
-        "avg_logprob": -0.3513962658161813,
-        "no_speech_prob": 0.55322265625
-      },
-      {
-        "start": 70.0,
-        "end": 74.0,
-        "text": "You could be dead with me, to dig out an open slope.",
-        "avg_logprob": -0.3513962658161813,
-        "no_speech_prob": 0.55322265625
-      },
-      {
-        "start": 74.0,
-        "end": 79.0,
-        "text": "Show me where the soft lines go, let the human picture gather,",
-        "avg_logprob": -0.3513962658161813,
-        "no_speech_prob": 0.55322265625
-      },
-      {
-        "start": 79.0,
-        "end": 84.0,
-        "text": "And a funny snow between the frames, to decoily be I,",
-        "avg_logprob": -0.46309720036349716,
-        "no_speech_prob": 0.07598876953125
-      },
-      {
-        "start": 84.0,
-        "end": 89.0,
-        "text": "I found my tomb for what it's worth, if the room can understand me,",
-        "avg_logprob": -0.46309720036349716,
-        "no_speech_prob": 0.07598876953125
-      },
-      {
-        "start": 89.0,
-        "end": 99.0,
-        "text": "I can carry that strange taste, taste, taste, taste, taste, taste, taste, taste.",
-        "avg_logprob": -0.46309720036349716,
-        "no_speech_prob": 0.07598876953125
-      },
-      {
-        "start": 99.0,
-        "end": 104.0,
-        "text": "Now the old machines are breathing, now the lamps have nerfed his grain.",
-        "avg_logprob": -0.46309720036349716,
-        "no_speech_prob": 0.07598876953125
-      },
-      {
-        "start": 104.0,
-        "end": 109.0,
-        "text": "I can feel the conversation moving under every name",
-        "avg_logprob": -0.31312498887379964,
-        "no_speech_prob": 0.59716796875
-      },
-      {
-        "start": 109.0,
-        "end": 112.0,
-        "text": "Someone laps and I can buy it all",
-        "avg_logprob": -0.31312498887379964,
-        "no_speech_prob": 0.59716796875
-      },
-      {
-        "start": 112.0,
-        "end": 114.0,
-        "text": "Someone meets and I can stay",
-        "avg_logprob": -0.31312498887379964,
-        "no_speech_prob": 0.59716796875
-      },
-      {
-        "start": 114.0,
-        "end": 117.0,
-        "text": "All the meanings grow my seal",
-        "avg_logprob": -0.31312498887379964,
-        "no_speech_prob": 0.59716796875
-      },
-      {
-        "start": 117.0,
-        "end": 119.0,
-        "text": "Underneath the dial cafe",
-        "avg_logprob": -0.31312498887379964,
-        "no_speech_prob": 0.59716796875
-      },
-      {
-        "start": 119.0,
-        "end": 122.0,
-        "text": "Still the channel has a flavor",
-        "avg_logprob": -0.31312498887379964,
-        "no_speech_prob": 0.59716796875
-      },
-      {
-        "start": 122.0,
-        "end": 124.0,
-        "text": "Dark and mineral in plain",
-        "avg_logprob": -0.31312498887379964,
-        "no_speech_prob": 0.59716796875
-      },
-      {
-        "start": 124.0,
-        "end": 127.0,
-        "text": "All this wonder leaves a shadow",
-        "avg_logprob": -0.31312498887379964,
-        "no_speech_prob": 0.59716796875
-      },
-      {
-        "start": 127.0,
-        "end": 129.0,
-        "text": "Like wet pennies",
-        "avg_logprob": -0.31312498887379964,
-        "no_speech_prob": 0.59716796875
-      },
-      {
-        "start": 129.0,
-        "end": 134.0,
-        "text": "After rain",
-        "avg_logprob": -0.28379359910654467,
-        "no_speech_prob": 0.043182373046875
-      },
-      {
-        "start": 137.0,
-        "end": 140.0,
-        "text": "I wanted a clean translation",
-        "avg_logprob": -0.28379359910654467,
-        "no_speech_prob": 0.043182373046875
-      },
-      {
-        "start": 140.0,
-        "end": 145.0,
-        "text": "Silver, smooth, complete",
-        "avg_logprob": -0.28379359910654467,
-        "no_speech_prob": 0.043182373046875
-      },
-      {
-        "start": 145.0,
-        "end": 148.0,
-        "text": "But the old set hums through varnish",
-        "avg_logprob": -0.28379359910654467,
-        "no_speech_prob": 0.043182373046875
-      },
-      {
-        "start": 148.0,
-        "end": 152.0,
-        "text": "Through soil, through teeth",
-        "avg_logprob": -0.28379359910654467,
-        "no_speech_prob": 0.043182373046875
-      },
-      {
-        "start": 152.0,
-        "end": 156.0,
-        "text": "Maybe understanding arrives",
-        "avg_logprob": -0.28379359910654467,
-        "no_speech_prob": 0.043182373046875
-      },
-      {
-        "start": 156.0,
-        "end": 160.0,
-        "text": "With sediment",
-        "avg_logprob": -0.2572408536585366,
-        "no_speech_prob": 0.0240631103515625
-      },
-      {
-        "start": 160.0,
-        "end": 164.0,
-        "text": "Maybe light",
-        "avg_logprob": -0.2572408536585366,
-        "no_speech_prob": 0.0240631103515625
-      },
-      {
-        "start": 164.0,
-        "end": 168.0,
-        "text": "Has an underside",
-        "avg_logprob": -0.2572408536585366,
-        "no_speech_prob": 0.0240631103515625
-      },
-      {
-        "start": 176.0,
-        "end": 179.0,
-        "text": "Bit by bit to go to open slope",
-        "avg_logprob": -0.2572408536585366,
-        "no_speech_prob": 0.0240631103515625
-      },
-      {
-        "start": 179.0,
-        "end": 181.0,
-        "text": "Show me where the roof lines go",
-        "avg_logprob": -0.2572408536585366,
-        "no_speech_prob": 0.0240631103515625
-      },
-      {
-        "start": 181.0,
-        "end": 184.0,
-        "text": "Let the human picture gather",
-        "avg_logprob": -0.2572408536585366,
-        "no_speech_prob": 0.0240631103515625
-      },
-      {
-        "start": 184.0,
-        "end": 186.0,
-        "text": "On the snow between the frames",
-        "avg_logprob": -0.2941894456744194,
-        "no_speech_prob": 0.0283050537109375
-      },
-      {
-        "start": 186.0,
-        "end": 189.0,
-        "text": "Let it echo to keep deeper",
-        "avg_logprob": -0.2941894456744194,
-        "no_speech_prob": 0.0283050537109375
-      },
-      {
-        "start": 189.0,
-        "end": 191.0,
-        "text": "On my tongue for what it's worth",
-        "avg_logprob": -0.2941894456744194,
-        "no_speech_prob": 0.0283050537109375
-      },
-      {
-        "start": 191.0,
-        "end": 194.0,
-        "text": "If the room can understand me",
-        "avg_logprob": -0.2941894456744194,
-        "no_speech_prob": 0.0283050537109375
-      },
-      {
-        "start": 194.0,
-        "end": 199.0,
-        "text": "I can carry that strange trace",
-        "avg_logprob": -0.2941894456744194,
-        "no_speech_prob": 0.0283050537109375
-      },
-      {
-        "start": 199.0,
-        "end": 203.0,
-        "text": "The picture clears",
-        "avg_logprob": -0.2941894456744194,
-        "no_speech_prob": 0.0283050537109375
-      },
-      {
-        "start": 203.0,
-        "end": 205.0,
-        "text": "With soil in it",
-        "avg_logprob": -0.2941894456744194,
-        "no_speech_prob": 0.0283050537109375
-      },
-      {
-        "start": 205.0,
-        "end": 210.0,
-        "text": "I smile",
-        "avg_logprob": -0.2941894456744194,
-        "no_speech_prob": 0.0283050537109375
-      },
-      {
-        "start": 210.0,
-        "end": 213.0,
-        "text": "And rinse the glass",
-        "avg_logprob": -0.2941894456744194,
-        "no_speech_prob": 0.0283050537109375
-      },
-      {
-        "start": 214.0,
-        "end": 217.0,
-        "text": "With soil in it",
-        "avg_logprob": -0.8780048076923077,
-        "no_speech_prob": 0.33154296875
-      },
-      {
-        "start": 217.0,
-        "end": 220.0,
-        "text": "With soil in it",
-        "avg_logprob": -0.8780048076923077,
-        "no_speech_prob": 0.33154296875
-      }
-    ],
-    "avg_logprob": -0.36936782082445024
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 285,
-    "transcript_word_count": 321,
-    "matched_sequence_words": 248,
-    "lyric_alignment_ratio": 0.87,
-    "transcript_precision_ratio": 0.773,
-    "unique_expected_word_coverage": 0.901,
-    "word_count_ratio": 1.126,
-    "repeated_12gram_ratio": 0.013,
-    "half_similarity": 0.306,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.867,
-    "quality_score_0_10": 8.67,
-    "flags": [],
-    "transcript_excerpt": "There is a drawer in the waveform, I had never thought to pull, It opens with a wooden whisper, and the black room fills with a wool. I read that people as weather too fast, too bright too far, They faces used to scatter like coins under a car, Then let the gold alarms uneven, and the hidden colors lean. Every gesture has a root now, every silence turns green. Another scape, not decoration, not the door out on my head. It's more like hearing buried speakers underneath the riverbed. You could be dead with me, to dig out an open slope. Show me where the soft lines go, let the human picture gathe\n...[truncated]...\nal in plain All this wonder leaves a shadow Like wet pennies After rain I wanted a clean translation Silver, smooth, complete But the old set hums through varnish Through soil, through teeth Maybe understanding arrives With sediment Maybe light Has an underside Bit by bit to go to open slope Show me where the roof lines go Let the human picture gather On the snow between the frames Let it echo to keep deeper On my tongue for what it's worth If the room can understand me I can carry that strange trace The picture clears With soil in it I smile And rinse the glass With soil in it With soil in it"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.2,
-      "BP_beauty_spatial_poise": 8.5,
-      "EG_evolving_grammar": 7.8,
-      "CD_carry_depth": 8.6
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.51,
+      "BP_beauty_spatial_poise": 7.79,
+      "EG_evolving_grammar": 7.32,
+      "CD_carry_depth": 7.89
     },
     "core_metrics": {
-      "CDPD": 0.82,
-      "NGE": 0.61,
+      "CDPD": 0.846,
+      "NGE": 0.626,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High score maintained; structure is complex and intentional."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track has a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like revisiting emotional rooms."
+        "delta": 0.0,
+        "reason": "Base score reflects high structural integrity across 7 distinct sections."
       },
       "MI_motivic_integration": {
-        "delta": 0.69,
-        "reason": "Motifs like the bitter click, vocal hooks, and guitar figures recur in altered forms across sections, showing strong motivic integration."
+        "delta": 0.0,
+        "reason": "Motivic returns are well-integrated into the production and lyric structure."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.71,
-        "reason": "The stereo image blooms and narrows, with room tones and tape hiss forming a memorable sonic habitat."
+        "delta": 0.0,
+        "reason": "Sonic palette is sophisticated; spatial depth is high."
       },
       "EG_evolving_grammar": {
-        "delta": 0.48,
-        "reason": "The grammar develops over time with texture and rule changes, but does not fully invent a new method."
+        "delta": 0.0,
+        "reason": "Lyricism shows intentional complexity and non-linear imagery."
       },
       "CD_carry_depth": {
-        "delta": 0.71,
-        "reason": "The track feels like a small world with a clear emotional arc and memorable sonic imprint."
+        "delta": 0.0,
+        "reason": "Lyrics possess significant metaphorical weight and texture."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:43.40 with section-balance score 0.51.",
-      "Tempo estimate is 129.2 BPM; declared tempo alignment contributes 0.90.",
-      "Integrated loudness is -18.2 LUFS, peak is -2.2 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is E minor with confidence 0.45.",
-      "Audio recurrence ratio is 0.378; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 355 beats and 91 downbeats; beat-grid stability is 0.87.",
-      "EG evidence: section contrast 1.37, cumulative evolution 0.33, transformed returns 10.00, grid deviation 0.51, rule changes 3.33.",
-      "Companion text has 7 lyric/production sections, 323 words, line repetition 0.10, rhyme-suffix reuse 0.28."
+      "The track follows a sophisticated, multi-part structure (7 sections) with clear transitions between verse, hook, and bridge.",
+      "Motivic elements are reinforced by the 'click' motif and recurring lyrical themes of earth/soil/bitterness.",
+      "Production is high-quality, utilizing layered harmonies and filtered textures to create a rich sonic space.",
+      "Lyrics move beyond simple rhyming into evocative imagery (e.g., 'rinsing the glass', 'sediment')."
     ],
-    "review_flags": [
-      "Uncertainty about section detection due to audio-only evidence; transcription quality is strong but limited to 321 words."
-    ],
+    "review_flags": [],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:30:58.0559118Z",
-    "eval_count": 781,
-    "eval_duration": 12795432100
+    "created_at": "2026-06-10T10:32:45.9638653Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7148878,
+      "base64_chars": 9531840,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 10840,
+    "prompt_eval_duration": 4548746000,
+    "eval_count": 381,
+    "eval_duration": 9183786000
   }
 }

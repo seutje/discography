@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:32:38",
+  "generated_at": "2026-06-10T12:34:09",
   "audio": {
     "path": "Noise Floor/audio/09 - Peak Hold Circuit.mp3",
     "duration_seconds": 210.88,
@@ -1348,7 +1348,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1392,270 +1395,75 @@
       "beat_this detected 365 beats and 103 downbeats; beat-grid stability is 0.84.",
       "EG evidence: section contrast 1.12, cumulative evolution 0.34, transformed returns 10.00, grid deviation 0.90, rule changes 1.25.",
       "Companion text has 10 lyric/production sections, 403 words, line repetition 0.09, rhyme-suffix reuse 0.31.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, formal-pivot, space-change, texture-change); intent score 10.00.",
-      "Transcription check: lyric alignment 0.82, unique-word coverage 0.81, word-count ratio 1.10, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, formal-pivot, space-change, texture-change); intent score 10.00."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Red lamp, red lamp, green lamp, little snaps away, catch, hold, wait, someone fed the console too much day break, every surface sounds reporting, every shadow files are claimed, tiny errors turned fluorescent with my number and my name, I can sort the room in pieces, I can hear the suckets blink, but the more the circuit flatters, the less room I have to think there is no clean invitation, only doors that talk too fast, only mirrors, checking mirrors only proof that doesn't last, catch the spike, hold the light, call it signal, call it the right, be cold circuit, don't let go, catch the spike and make it grow, every breath becomes a test, every kind of sounds a step slightly, a flinging useless crown, run me, and grind me down, if this signal cut the feet, I don't want what it does to me, now my job becomes a metronome, now my hands forget their skin, every friendly constellation turns the cameras and make them, who keeps promise in precision, but it only sells alarm, I can feel the hidden soda, overheating in my arms, catch the smile, hold the breath, name the danger, call it death, cold circuit, change the life, show the feet, can show the fly, every answer overlaps, keeps the question under rest, by lit up, ending coming down, strip the shine out of the crown, if this signal break, believe it, I don't want what it makes, left hand, check the light, right hand, check the face, left hand, check the sentence, right hand, leave the place, catch, hold, catch, hold, wait, wait, wait, wait, wait, release, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, I pulled a plug on the altar, let the folks sundrain away, keep yourself a little thunder, keep the teeth behind the day, I would rather be uncertain, I would rather move off grid, then be polished into panic, buy a light that calls me fix, catch the spike, name the cost, open the hand, let it be long, red lamp dark, green lamp gone, finally wrong, get picking the quieter, catch, hold, release, release, oh, oh, oh, oh, oh, oh, oh, oh, oh, well,",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 17.04,
-        "text": "Red lamp, red lamp, green lamp, little snaps away, catch, hold, wait, someone fed",
-        "avg_logprob": -0.5312500119209289,
-        "no_speech_prob": 0.86328125
-      },
-      {
-        "start": 17.04,
-        "end": 29.96,
-        "text": "the console too much day break, every surface sounds reporting, every",
-        "avg_logprob": -0.5312500119209289,
-        "no_speech_prob": 0.86328125
-      },
-      {
-        "start": 29.96,
-        "end": 35.36,
-        "text": "shadow files are claimed, tiny errors turned fluorescent with my number and",
-        "avg_logprob": -0.35395409166812897,
-        "no_speech_prob": 0.1412353515625
-      },
-      {
-        "start": 35.36,
-        "end": 41.4,
-        "text": "my name, I can sort the room in pieces, I can hear the suckets blink, but the",
-        "avg_logprob": -0.35395409166812897,
-        "no_speech_prob": 0.1412353515625
-      },
-      {
-        "start": 41.4,
-        "end": 46.4,
-        "text": "more the circuit flatters, the less room I have to think there is no clean",
-        "avg_logprob": -0.35395409166812897,
-        "no_speech_prob": 0.1412353515625
-      },
-      {
-        "start": 46.4,
-        "end": 52.48,
-        "text": "invitation, only doors that talk too fast, only mirrors, checking mirrors only",
-        "avg_logprob": -0.35395409166812897,
-        "no_speech_prob": 0.1412353515625
-      },
-      {
-        "start": 52.48,
-        "end": 58.4,
-        "text": "proof that doesn't last, catch the spike, hold the light, call it signal, call it",
-        "avg_logprob": -0.35395409166812897,
-        "no_speech_prob": 0.1412353515625
-      },
-      {
-        "start": 58.4,
-        "end": 67.24,
-        "text": "the right, be cold circuit, don't let go, catch the spike and make it grow, every breath",
-        "avg_logprob": -0.5141666873296102,
-        "no_speech_prob": 0.302001953125
-      },
-      {
-        "start": 67.24,
-        "end": 74.28,
-        "text": "becomes a test, every kind of sounds a step slightly, a flinging useless crown, run me,",
-        "avg_logprob": -0.5141666873296102,
-        "no_speech_prob": 0.302001953125
-      },
-      {
-        "start": 74.28,
-        "end": 84.52,
-        "text": "and grind me down, if this signal cut the feet, I don't want what it does to me, now my",
-        "avg_logprob": -0.5141666873296102,
-        "no_speech_prob": 0.302001953125
-      },
-      {
-        "start": 84.52,
-        "end": 91.08,
-        "text": "job becomes a metronome, now my hands forget their skin, every friendly constellation turns",
-        "avg_logprob": -0.3697331433885553,
-        "no_speech_prob": 0.1961669921875
-      },
-      {
-        "start": 91.08,
-        "end": 97.32,
-        "text": "the cameras and make them, who keeps promise in precision, but it only sells alarm,",
-        "avg_logprob": -0.3697331433885553,
-        "no_speech_prob": 0.1961669921875
-      },
-      {
-        "start": 97.32,
-        "end": 104.88,
-        "text": "I can feel the hidden soda, overheating in my arms, catch the smile, hold the breath, name",
-        "avg_logprob": -0.3697331433885553,
-        "no_speech_prob": 0.1961669921875
-      },
-      {
-        "start": 104.88,
-        "end": 111.24,
-        "text": "the danger, call it death, cold circuit, change the life, show the feet, can show the",
-        "avg_logprob": -0.3697331433885553,
-        "no_speech_prob": 0.1961669921875
-      },
-      {
-        "start": 111.24,
-        "end": 117.8,
-        "text": "fly, every answer overlaps, keeps the question under rest, by lit up, ending",
-        "avg_logprob": -0.3759282060188822,
-        "no_speech_prob": 0.69921875
-      },
-      {
-        "start": 117.8,
-        "end": 124.12,
-        "text": "coming down, strip the shine out of the crown, if this signal break, believe it, I don't want",
-        "avg_logprob": -0.3759282060188822,
-        "no_speech_prob": 0.69921875
-      },
-      {
-        "start": 124.12,
-        "end": 132.16,
-        "text": "what it makes, left hand, check the light, right hand, check the face, left hand, check the",
-        "avg_logprob": -0.3759282060188822,
-        "no_speech_prob": 0.69921875
-      },
-      {
-        "start": 132.16,
-        "end": 138.96,
-        "text": "sentence, right hand, leave the place, catch, hold, catch, hold, wait, wait, wait, wait, wait,",
-        "avg_logprob": -0.3759282060188822,
-        "no_speech_prob": 0.69921875
-      },
-      {
-        "start": 138.96,
-        "end": 149.28,
-        "text": "release, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh,",
-        "avg_logprob": -0.29632351819206687,
-        "no_speech_prob": 0.85107421875
-      },
-      {
-        "start": 149.28,
-        "end": 155.52,
-        "text": "I pulled a plug on the altar, let the folks sundrain away, keep yourself a little thunder,",
-        "avg_logprob": -0.29632351819206687,
-        "no_speech_prob": 0.85107421875
-      },
-      {
-        "start": 155.52,
-        "end": 162.0,
-        "text": "keep the teeth behind the day, I would rather be uncertain, I would rather move off",
-        "avg_logprob": -0.29632351819206687,
-        "no_speech_prob": 0.85107421875
-      },
-      {
-        "start": 162.0,
-        "end": 170.12,
-        "text": "grid, then be polished into panic, buy a light that calls me fix, catch the spike, name",
-        "avg_logprob": -0.33624998569488523,
-        "no_speech_prob": 0.75146484375
-      },
-      {
-        "start": 170.12,
-        "end": 187.6,
-        "text": "the cost, open the hand, let it be long, red lamp dark, green lamp gone, finally wrong,",
-        "avg_logprob": -0.33624998569488523,
-        "no_speech_prob": 0.75146484375
-      },
-      {
-        "start": 187.6,
-        "end": 191.76,
-        "text": "get picking the quieter, catch, hold, release, release, oh, oh, oh, oh, oh, oh, oh, oh, oh, well,",
-        "avg_logprob": -0.8888664096593857,
-        "no_speech_prob": 0.460693359375
-      }
-    ],
-    "avg_logprob": -0.4111687307913275
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 342,
-    "transcript_word_count": 378,
-    "matched_sequence_words": 279,
-    "lyric_alignment_ratio": 0.816,
-    "transcript_precision_ratio": 0.738,
-    "unique_expected_word_coverage": 0.81,
-    "word_count_ratio": 1.105,
-    "repeated_12gram_ratio": 0.016,
-    "half_similarity": 0.132,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.807,
-    "quality_score_0_10": 8.07,
-    "flags": [],
-    "transcript_excerpt": "Red lamp, red lamp, green lamp, little snaps away, catch, hold, wait, someone fed the console too much day break, every surface sounds reporting, every shadow files are claimed, tiny errors turned fluorescent with my number and my name, I can sort the room in pieces, I can hear the suckets blink, but the more the circuit flatters, the less room I have to think there is no clean invitation, only doors that talk too fast, only mirrors, checking mirrors only proof that doesn't last, catch the spike, hold the light, call it signal, call it the right, be cold circuit, don't let go, catch the spike \n...[truncated]...\nave the place, catch, hold, catch, hold, wait, wait, wait, wait, wait, release, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, I pulled a plug on the altar, let the folks sundrain away, keep yourself a little thunder, keep the teeth behind the day, I would rather be uncertain, I would rather move off grid, then be polished into panic, buy a light that calls me fix, catch the spike, name the cost, open the hand, let it be long, red lamp dark, green lamp gone, finally wrong, get picking the quieter, catch, hold, release, release, oh, oh, oh, oh, oh, oh, oh, oh, oh, well,"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 7.5,
-      "BP_beauty_spatial_poise": 8.5,
-      "EG_evolving_grammar": 8.0,
-      "CD_carry_depth": 8.5
+      "MI_motivic_integration": 8.2,
+      "BP_beauty_spatial_poise": 8.21,
+      "EG_evolving_grammar": 8.4,
+      "CD_carry_depth": 8.17
     },
     "core_metrics": {
-      "CDPD": 0.82,
-      "NGE": 0.63,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.09,
+      "NGE": 0.58,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High confidence in structural intent and motif development."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like revisiting emotional rooms."
+        "reason": "Strongly defined sections (Intro, Verse, Hook, Bridge) with clear functional transitions."
       },
       "MI_motivic_integration": {
-        "delta": 0.64,
-        "reason": "Motifs like the 'catch-hold-release' cell recur across sections with altered forms, and the vocal hook, guitar figure, and lyric images are tightly integrated."
+        "delta": 1.34,
+        "reason": "High motif recurrence and 'transformed returns' in production notes support strong integration."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.29,
-        "reason": "The track’s sonic habitat—narrow stereo, tape hiss, reverb shifts, and low-end exposure—forms a memorable and coherent indie world."
+        "delta": 0.0,
+        "reason": "Base score reflects high-quality spatial design and polished atmosphere."
       },
       "EG_evolving_grammar": {
-        "delta": 0.37,
-        "reason": "The grammar develops over time, with texture changes, bar-grid deviations, and formal pivots that suggest a personal indie method."
+        "delta": 0.77,
+        "reason": "Lyric imagery is sophisticated; 'filtered reprise' and 'low hum' indicate intentional evolution."
       },
       "CD_carry_depth": {
-        "delta": 0.33,
-        "reason": "The track feels like a small world with a clear emotional arc, leaving behind a specific image, phrase, and sonic imprint."
+        "delta": 0.0,
+        "reason": "Base score accurately reflects the depth of the lyrical narrative."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:30.88 with section-balance score 0.63.",
-      "Tempo estimate is 103.4 BPM; declared tempo alignment contributes 0.62.",
-      "Integrated loudness is -18.0 LUFS, peak is -1.4 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is B minor with confidence 0.23.",
-      "Audio recurrence ratio is 0.222; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 365 beats and 103 downbeats; beat-grid stability is 0.84.",
-      "EG evidence: section contrast 1.12, cumulative evolution 0.34, transformed returns 10.00, grid deviation 0.90, rule changes 1.25.",
-      "Companion text has 10 lyric/production sections, 403 words, line repetition 0.09, rhyme-suffix reuse 0.31."
+      "Strong structural design with distinct functional sections.",
+      "High motif integration evidenced by production notes and recurring motifs.",
+      "Sophisticated lyric imagery and intentional sonic evolution."
     ],
     "review_flags": [
-      "Uncertainty about section detection: audio sections are 7, but text sections are 10. This may suggest a mismatch or section overlap."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:32:38.6852551Z",
-    "eval_count": 825,
-    "eval_duration": 13652390100
+    "created_at": "2026-06-10T10:34:09.8381665Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 6748238,
+      "base64_chars": 8997652,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 10571,
+    "prompt_eval_duration": 4623650000,
+    "eval_count": 378,
+    "eval_duration": 9253348000
   }
 }

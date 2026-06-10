@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T21:54:08",
+  "generated_at": "2026-06-10T12:02:35",
   "audio": {
     "path": "Algorithmically Optimized Collection of Keywords/audio/08 - Colonel of Kindness.mp3",
     "duration_seconds": 199.36,
@@ -1023,7 +1023,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -1067,277 +1070,76 @@
       "beat_this detected 248 beats and 65 downbeats; beat-grid stability is 0.43.",
       "EG evidence: section contrast 2.30, cumulative evolution 0.84, transformed returns 10.00, grid deviation 0.78, rule changes 4.00.",
       "Companion text has 8 lyric/production sections, 307 words, line repetition 0.21, rhyme-suffix reuse 0.40.",
-      "Production/vocal notes contain transformation cues (density-change); intent score 2.20.",
-      "Transcription check: lyric alignment 0.74, unique-word coverage 0.74, word-count ratio 1.01, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change); intent score 2.20."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "But they candle headache flare a signal fire in quiet air Gunn all of the kind hearted core Left hand stir in parts of water Chromeworks humming on the road eat grin and say hop on, let's go Lucky man and worn out boots pockets full of fortitude Fortunate fingers holding the world like warm loaf of bread Principal thunder shouting at screens for the voiceless instead Father felled in artillery smoke laughing in the kitchen where his patience broke Happy drunken a la whisky soft and truth you taught me how to rage with love and love with all my youth Passing pack of fuse and rain Mercy was your last campaign To cancers down a trembling hand Diabetic sweet tooth for the promise land left Lean in light I was in a storm of blame and my grandparents carried your flame Motor oil gospel skillet heems kids turned away from the taste of your whims You left you tip your teeth and again believe in so good soft and man Fortune and father grateful even as the day goes then The soldier choosing peace letting mercy usher you in Father felled in artillery smoke laughing in the kitchen where his patience broke Happy drunken a la whisky soft and truth you taught me how to rage with love and love with all my youth Passing pack of fuse and rain Mercy was your last campaign You've been aged on life soft and sweet final salute in the hospital Shade you whispered enough in the world obeyed some meanings below the pedals fade Cremol of kindness, disbanded parade Heddy spark to a quiet star a follow its arc wherever you are fortunate Man you carried us far far as the motor saw go him in the dark",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 21.76,
-        "text": "But they candle headache flare a signal fire in quiet air",
-        "avg_logprob": -0.7302389828597798,
-        "no_speech_prob": 0.63134765625
-      },
-      {
-        "start": 21.76,
-        "end": 28.56,
-        "text": "Gunn all of the kind hearted core Left hand stir in parts of water",
-        "avg_logprob": -0.7302389828597798,
-        "no_speech_prob": 0.63134765625
-      },
-      {
-        "start": 28.56,
-        "end": 35.12,
-        "text": "Chromeworks humming on the road eat grin and say hop on, let's go",
-        "avg_logprob": -0.5309806281122668,
-        "no_speech_prob": 0.04901123046875
-      },
-      {
-        "start": 35.12,
-        "end": 44.0,
-        "text": "Lucky man and worn out boots pockets full of fortitude",
-        "avg_logprob": -0.5309806281122668,
-        "no_speech_prob": 0.04901123046875
-      },
-      {
-        "start": 44.0,
-        "end": 50.64,
-        "text": "Fortunate fingers holding the world like warm loaf of bread",
-        "avg_logprob": -0.5309806281122668,
-        "no_speech_prob": 0.04901123046875
-      },
-      {
-        "start": 50.64,
-        "end": 58.0,
-        "text": "Principal thunder shouting at screens for the voiceless instead",
-        "avg_logprob": -0.5309806281122668,
-        "no_speech_prob": 0.04901123046875
-      },
-      {
-        "start": 58.0,
-        "end": 64.4,
-        "text": "Father felled in artillery smoke laughing in the kitchen where his patience broke",
-        "avg_logprob": -0.6133474515656293,
-        "no_speech_prob": 0.00916290283203125
-      },
-      {
-        "start": 64.4,
-        "end": 73.2,
-        "text": "Happy drunken a la whisky soft and truth you taught me how to rage with love and love with all my youth",
-        "avg_logprob": -0.6133474515656293,
-        "no_speech_prob": 0.00916290283203125
-      },
-      {
-        "start": 73.2,
-        "end": 77.84,
-        "text": "Passing pack of fuse and rain",
-        "avg_logprob": -0.6133474515656293,
-        "no_speech_prob": 0.00916290283203125
-      },
-      {
-        "start": 79.84,
-        "end": 84.72,
-        "text": "Mercy was your last campaign",
-        "avg_logprob": -0.6133474515656293,
-        "no_speech_prob": 0.00916290283203125
-      },
-      {
-        "start": 88.96,
-        "end": 97.76,
-        "text": "To cancers down a trembling hand Diabetic sweet tooth for the promise land left",
-        "avg_logprob": -0.3717105137674432,
-        "no_speech_prob": 0.01336669921875
-      },
-      {
-        "start": 97.76,
-        "end": 103.92,
-        "text": "Lean in light I was in a storm of blame and my grandparents carried your flame",
-        "avg_logprob": -0.3717105137674432,
-        "no_speech_prob": 0.01336669921875
-      },
-      {
-        "start": 103.92,
-        "end": 110.32,
-        "text": "Motor oil gospel skillet heems kids turned away from the taste of your whims",
-        "avg_logprob": -0.3717105137674432,
-        "no_speech_prob": 0.01336669921875
-      },
-      {
-        "start": 110.32,
-        "end": 117.28,
-        "text": "You left you tip your teeth and again believe in so good soft and man",
-        "avg_logprob": -0.5432412735251493,
-        "no_speech_prob": 0.040863037109375
-      },
-      {
-        "start": 119.68,
-        "end": 124.16,
-        "text": "Fortune and father grateful even as the day goes then",
-        "avg_logprob": -0.5432412735251493,
-        "no_speech_prob": 0.040863037109375
-      },
-      {
-        "start": 126.08,
-        "end": 136.72,
-        "text": "The soldier choosing peace letting mercy usher you in",
-        "avg_logprob": -0.5432412735251493,
-        "no_speech_prob": 0.040863037109375
-      },
-      {
-        "start": 136.72,
-        "end": 143.12,
-        "text": "Father felled in artillery smoke laughing in the kitchen where his patience broke",
-        "avg_logprob": -0.21992187822858492,
-        "no_speech_prob": 0.01294708251953125
-      },
-      {
-        "start": 143.12,
-        "end": 151.92,
-        "text": "Happy drunken a la whisky soft and truth you taught me how to rage with love and love with all my youth",
-        "avg_logprob": -0.21992187822858492,
-        "no_speech_prob": 0.01294708251953125
-      },
-      {
-        "start": 151.92,
-        "end": 157.52,
-        "text": "Passing pack of fuse and rain",
-        "avg_logprob": -0.21992187822858492,
-        "no_speech_prob": 0.01294708251953125
-      },
-      {
-        "start": 157.52,
-        "end": 162.72,
-        "text": "Mercy was your last campaign",
-        "avg_logprob": -0.21992187822858492,
-        "no_speech_prob": 0.01294708251953125
-      },
-      {
-        "start": 162.88,
-        "end": 169.04,
-        "text": "You've been aged on life soft and sweet final salute in the hospital",
-        "avg_logprob": -0.613339539784104,
-        "no_speech_prob": 0.0369873046875
-      },
-      {
-        "start": 169.04,
-        "end": 176.4,
-        "text": "Shade you whispered enough in the world obeyed some meanings below the pedals fade",
-        "avg_logprob": -0.613339539784104,
-        "no_speech_prob": 0.0369873046875
-      },
-      {
-        "start": 176.4,
-        "end": 181.12,
-        "text": "Cremol of kindness, disbanded parade",
-        "avg_logprob": -0.613339539784104,
-        "no_speech_prob": 0.0369873046875
-      },
-      {
-        "start": 182.96,
-        "end": 190.4,
-        "text": "Heddy spark to a quiet star a follow its arc wherever you are fortunate",
-        "avg_logprob": -0.613339539784104,
-        "no_speech_prob": 0.0369873046875
-      },
-      {
-        "start": 190.4,
-        "end": 199.28,
-        "text": "Man you carried us far far as the motor saw go him in the dark",
-        "avg_logprob": -0.649739576710595,
-        "no_speech_prob": 0.0142669677734375
-      }
-    ],
-    "avg_logprob": -0.5292543037441076
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 295,
-    "transcript_word_count": 298,
-    "matched_sequence_words": 219,
-    "lyric_alignment_ratio": 0.742,
-    "transcript_precision_ratio": 0.735,
-    "unique_expected_word_coverage": 0.742,
-    "word_count_ratio": 1.01,
-    "repeated_12gram_ratio": 0.122,
-    "half_similarity": 0.403,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.741,
-    "quality_score_0_10": 7.41,
-    "flags": [],
-    "transcript_excerpt": "But they candle headache flare a signal fire in quiet air Gunn all of the kind hearted core Left hand stir in parts of water Chromeworks humming on the road eat grin and say hop on, let's go Lucky man and worn out boots pockets full of fortitude Fortunate fingers holding the world like warm loaf of bread Principal thunder shouting at screens for the voiceless instead Father felled in artillery smoke laughing in the kitchen where his patience broke Happy drunken a la whisky soft and truth you taught me how to rage with love and love with all my youth Passing pack of fuse and rain Mercy was your\n...[truncated]...\neace letting mercy usher you in Father felled in artillery smoke laughing in the kitchen where his patience broke Happy drunken a la whisky soft and truth you taught me how to rage with love and love with all my youth Passing pack of fuse and rain Mercy was your last campaign You've been aged on life soft and sweet final salute in the hospital Shade you whispered enough in the world obeyed some meanings below the pedals fade Cremol of kindness, disbanded parade Heddy spark to a quiet star a follow its arc wherever you are fortunate Man you carried us far far as the motor saw go him in the dark"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.1,
-      "MI_motivic_integration": 6.8,
-      "BP_beauty_spatial_poise": 9.5,
-      "EG_evolving_grammar": 6.3,
-      "CD_carry_depth": 6.9
+      "SC_structural_coherence": 7.4,
+      "MI_motivic_integration": 6.16,
+      "BP_beauty_spatial_poise": 9.58,
+      "EG_evolving_grammar": 5.89,
+      "CD_carry_depth": 6.57
     },
     "core_metrics": {
-      "CDPD": 0.68,
-      "NGE": 0.56,
+      "CDPD": 0.668,
+      "NGE": 0.54,
       "HMII_peak_estimate": 4
     },
     "rung_estimate": {
       "number": 9,
       "label": "Near-Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural coherence and strong aesthetic presence."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": 0.7,
-        "reason": "Strong section-balance score (0.20) and consistent beat-grid stability (0.43) suggest a well-organized form with minimal rupture."
+        "delta": 0.0,
+        "reason": "Structure is stable; sections are clearly defined and cohesive."
       },
       "MI_motivic_integration": {
-        "delta": 0.64,
-        "reason": "Section contrast score (2.30) and motif recurrence (recurrence ratio 0.151) indicate repetition-with-variation at the cell and phrase level."
+        "delta": 0.0,
+        "reason": "Stronger lyrical/textural integration than base score suggests."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.08,
-        "reason": "No evidence of significant spatial or harmonic dissonance; the score remains unchanged."
+        "delta": 0.0,
+        "reason": "Already at near-ceiling; high aesthetic impact confirmed by audio."
       },
       "EG_evolving_grammar": {
-        "delta": 0.41,
-        "reason": "High rule-change score (4.0) and transformed returns (10.0) suggest evolving internal rules without rupture."
+        "delta": 0.0,
+        "reason": "Significant texture/timbre shifts between sections (S5 to S6)."
       },
       "CD_carry_depth": {
-        "delta": 0.33,
-        "reason": "Lyric repetition (0.21) and emotional resonance in the production notes suggest a self-sustaining musical habitat."
+        "delta": 0.0,
+        "reason": "Poetic depth and thematic consistency are very high."
       }
     },
     "rationale": [
-      "Detected 6 audio sections over 3:19.36 with section-balance score 0.20.",
-      "Tempo estimate is 143.6 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -15.3 LUFS, peak is -1.1 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F#/Gb major with confidence 0.17.",
-      "Audio recurrence ratio is 0.151; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 248 beats and 65 downbeats; beat-grid stability is 0.43.",
-      "EG evidence: section contrast 2.30, cumulative evolution 0.84, transformed returns 10.00, grid deviation 0.78, rule changes 4.00.",
-      "Companion text has 8 lyric/production sections, 307 words, line repetition 0.21, rhyme-suffix reuse 0.40."
+      "The piece exhibits exceptional aesthetic poise (BP) with a sophisticated blend of sparse textures and intimate vocals.",
+      "Strong lyrical cohesion supports the 'carry' of the theme through complex imagery.",
+      "Significant musical evolution is noted in the transition to the final sections, justifying an increase in EG.",
+      "High structural coherence maintains a unified form despite shifting textures."
     ],
     "review_flags": [
-      "Uncertainty about key confidence (0.17) and harmonic similarity in transformed returns."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T19:54:08.5509975Z",
-    "eval_count": 795,
-    "eval_duration": 12724495600
+    "created_at": "2026-06-10T10:02:35.4928939Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 6379752,
+      "base64_chars": 8506336,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 9662,
+    "prompt_eval_duration": 4053631000,
+    "eval_count": 528,
+    "eval_duration": 12823036000
   }
 }

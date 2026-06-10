@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:06:31",
+  "generated_at": "2026-06-10T12:06:27",
   "audio": {
     "path": "Driftwood/audio/03 - Barometer Teeth.mp3",
     "duration_seconds": 254.88,
@@ -1349,7 +1349,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1393,242 +1396,76 @@
       "beat_this detected 359 beats and 90 downbeats; beat-grid stability is 0.92.",
       "EG evidence: section contrast 1.88, cumulative evolution 0.94, transformed returns 10.00, grid deviation 0.20, rule changes 2.14.",
       "Companion text has 10 lyric/production sections, 443 words, line repetition 0.13, rhyme-suffix reuse 0.34.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00.",
-      "Transcription check: lyric alignment 0.91, unique-word coverage 0.89, word-count ratio 1.00, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Count the glass, count the drop, watch the needle learn to not rope on the rail, teeth in the gale, something patient in the fog. The raft held longer than it should, wrong nails old shirt half good wood. I left the island breathing black and felt to watching from the back the first night, kept a sailor's grin, a cold lip tucked beneath my chin. No stars to bite or no clean charges, plank and pulse and stubborn heart. I heard the pale roll end to end like it had news, it would not send the rope when stiff. The boards complained the weather took my shape and stayed. It doesn't arrive, it gathers weight, it learns the hinges test the gate, the quiet cup, the lowered cloud, the hush before the mask gets bowed. Take the reading, take it slow, press your falling in the bones, every breath the borrowed birth, every wave rehearsed by worse. I keep my mouth above the swell, hold my nerve and ring no bell, if the sky is teeth tonight, let it find me still upright. Bike on the sea had lost its floor, no island left to answer for, the gulls were gone, the foam was hard, my hands had mapped the splintered yard. I thought of chores that pulled me down a first dressed up in a cleaner gown, I thought of ships that would not turn their windows carrying their own concern. Now nothing passed and nothing waived, no almost saved, no almost brave, just me, the boards, the weather's jaw and all the knots I never saw, it doesn't bake. The common squall, it takes attendance from us all till what we fear and what we feature, one bonk beneath the keel. Take the reading, take it slow, press your falling in the bones, every breath the borrowed birth, every wave rehearsed by worse. I keep my mouth above the swell, hold my nerve and ring no bell, if the sky is teeth tonight, let it find me still upright. I used to call the drag a shackle and call the leaving borrowed tackle, but out here names go overboard and wanting, where's the sailor's cord? If I survive the luring glass, it won't be proof the storm has passed, just proof a crooked little craft can keep insisting from the earth. Not yet not under, not yet not water. Count the glass, count the drop, tie the pale before it knocks, rope on the rail, breath in the keel. I am not done being small.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 29.0,
-        "text": "Count the glass, count the drop, watch the needle learn to not rope on the rail, teeth in the gale, something patient in the fog.",
-        "avg_logprob": -0.3752232210976737,
-        "no_speech_prob": 0.489013671875
-      },
-      {
-        "start": 29.0,
-        "end": 34.0,
-        "text": "The raft held longer than it should, wrong nails old shirt half good wood.",
-        "avg_logprob": -0.2081163144773907,
-        "no_speech_prob": 0.119873046875
-      },
-      {
-        "start": 34.0,
-        "end": 45.0,
-        "text": "I left the island breathing black and felt to watching from the back the first night, kept a sailor's grin, a cold lip tucked beneath my chin.",
-        "avg_logprob": -0.2081163144773907,
-        "no_speech_prob": 0.119873046875
-      },
-      {
-        "start": 45.0,
-        "end": 51.0,
-        "text": "No stars to bite or no clean charges, plank and pulse and stubborn heart.",
-        "avg_logprob": -0.2081163144773907,
-        "no_speech_prob": 0.119873046875
-      },
-      {
-        "start": 51.0,
-        "end": 58.0,
-        "text": "I heard the pale roll end to end like it had news, it would not send the rope when stiff.",
-        "avg_logprob": -0.17481737245212903,
-        "no_speech_prob": 0.47998046875
-      },
-      {
-        "start": 58.0,
-        "end": 62.0,
-        "text": "The boards complained the weather took my shape and stayed.",
-        "avg_logprob": -0.17481737245212903,
-        "no_speech_prob": 0.47998046875
-      },
-      {
-        "start": 62.0,
-        "end": 74.0,
-        "text": "It doesn't arrive, it gathers weight, it learns the hinges test the gate, the quiet cup, the lowered cloud, the hush before the mask gets bowed.",
-        "avg_logprob": -0.17481737245212903,
-        "no_speech_prob": 0.47998046875
-      },
-      {
-        "start": 74.0,
-        "end": 85.0,
-        "text": "Take the reading, take it slow, press your falling in the bones, every breath the borrowed birth, every wave rehearsed by worse.",
-        "avg_logprob": -0.22371032408305577,
-        "no_speech_prob": 0.5087890625
-      },
-      {
-        "start": 85.0,
-        "end": 97.0,
-        "text": "I keep my mouth above the swell, hold my nerve and ring no bell, if the sky is teeth tonight, let it find me still upright.",
-        "avg_logprob": -0.22371032408305577,
-        "no_speech_prob": 0.5087890625
-      },
-      {
-        "start": 104.0,
-        "end": 118.0,
-        "text": "Bike on the sea had lost its floor, no island left to answer for, the gulls were gone, the foam was hard, my hands had mapped the splintered yard.",
-        "avg_logprob": -0.2229166642824809,
-        "no_speech_prob": 0.7109375
-      },
-      {
-        "start": 118.0,
-        "end": 129.0,
-        "text": "I thought of chores that pulled me down a first dressed up in a cleaner gown, I thought of ships that would not turn their windows carrying their own concern.",
-        "avg_logprob": -0.2229166642824809,
-        "no_speech_prob": 0.7109375
-      },
-      {
-        "start": 129.0,
-        "end": 142.0,
-        "text": "Now nothing passed and nothing waived, no almost saved, no almost brave, just me, the boards, the weather's jaw and all the knots I never saw, it doesn't bake.",
-        "avg_logprob": -0.24379281148518603,
-        "no_speech_prob": 0.8427734375
-      },
-      {
-        "start": 142.0,
-        "end": 153.0,
-        "text": "The common squall, it takes attendance from us all till what we fear and what we feature, one bonk beneath the keel.",
-        "avg_logprob": -0.24379281148518603,
-        "no_speech_prob": 0.8427734375
-      },
-      {
-        "start": 153.0,
-        "end": 164.0,
-        "text": "Take the reading, take it slow, press your falling in the bones, every breath the borrowed birth, every wave rehearsed by worse.",
-        "avg_logprob": -0.020095825544558465,
-        "no_speech_prob": 0.342041015625
-      },
-      {
-        "start": 164.0,
-        "end": 175.0,
-        "text": "I keep my mouth above the swell, hold my nerve and ring no bell, if the sky is teeth tonight, let it find me still upright.",
-        "avg_logprob": -0.020095825544558465,
-        "no_speech_prob": 0.342041015625
-      },
-      {
-        "start": 175.0,
-        "end": 186.0,
-        "text": "I used to call the drag a shackle and call the leaving borrowed tackle, but out here names go overboard and wanting, where's the sailor's cord?",
-        "avg_logprob": -0.22227113095807358,
-        "no_speech_prob": 0.426513671875
-      },
-      {
-        "start": 186.0,
-        "end": 199.0,
-        "text": "If I survive the luring glass, it won't be proof the storm has passed, just proof a crooked little craft can keep insisting from the earth.",
-        "avg_logprob": -0.22227113095807358,
-        "no_speech_prob": 0.426513671875
-      },
-      {
-        "start": 199.0,
-        "end": 209.0,
-        "text": "Not yet not under, not yet not water.",
-        "avg_logprob": -0.29799107355730875,
-        "no_speech_prob": 0.671875
-      },
-      {
-        "start": 209.0,
-        "end": 236.0,
-        "text": "Count the glass, count the drop, tie the pale before it knocks, rope on the rail, breath in the keel.",
-        "avg_logprob": -0.1894531215230624,
-        "no_speech_prob": 0.67431640625
-      },
-      {
-        "start": 236.0,
-        "end": 254.0,
-        "text": "I am not done being small.",
-        "avg_logprob": -0.30468749105930326,
-        "no_speech_prob": 0.41748046875
-      }
-    ],
-    "avg_logprob": -0.2243167959274824
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 428,
-    "transcript_word_count": 428,
-    "matched_sequence_words": 390,
-    "lyric_alignment_ratio": 0.911,
-    "transcript_precision_ratio": 0.911,
-    "unique_expected_word_coverage": 0.892,
-    "word_count_ratio": 1.0,
-    "repeated_12gram_ratio": 0.089,
-    "half_similarity": 0.308,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.907,
-    "quality_score_0_10": 9.07,
-    "flags": [],
-    "transcript_excerpt": "Count the glass, count the drop, watch the needle learn to not rope on the rail, teeth in the gale, something patient in the fog. The raft held longer than it should, wrong nails old shirt half good wood. I left the island breathing black and felt to watching from the back the first night, kept a sailor's grin, a cold lip tucked beneath my chin. No stars to bite or no clean charges, plank and pulse and stubborn heart. I heard the pale roll end to end like it had news, it would not send the rope when stiff. The boards complained the weather took my shape and stayed. It doesn't arrive, it gather\n...[truncated]...\n wave rehearsed by worse. I keep my mouth above the swell, hold my nerve and ring no bell, if the sky is teeth tonight, let it find me still upright. I used to call the drag a shackle and call the leaving borrowed tackle, but out here names go overboard and wanting, where's the sailor's cord? If I survive the luring glass, it won't be proof the storm has passed, just proof a crooked little craft can keep insisting from the earth. Not yet not under, not yet not water. Count the glass, count the drop, tie the pale before it knocks, rope on the rail, breath in the keel. I am not done being small."
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
       "MI_motivic_integration": 8.5,
-      "BP_beauty_spatial_poise": 8.8,
-      "EG_evolving_grammar": 6.5,
-      "CD_carry_depth": 9.0
+      "BP_beauty_spatial_poise": 9.0,
+      "EG_evolving_grammar": 7.2,
+      "CD_carry_depth": 9.2
     },
     "core_metrics": {
-      "CDPD": 0.88,
-      "NGE": 0.61,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.04,
+      "NGE": 0.08,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
-      "number": 13,
+      "number": 15,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "Sophisticated structure with distinct sections and a clear narrative arc."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting the same emotional room."
+        "reason": "Strong structural design but the 'Break' section is very brief/abstract."
       },
       "MI_motivic_integration": {
         "delta": 0.43,
-        "reason": "Motifs recur in altered forms across sections, with the vocal hook, guitar figure, and lyric image showing integration across the track."
+        "reason": "The recurring motif of maritime peril creates a strong emotional arc."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.01,
-        "reason": "The spatial poise is central to the track’s identity, with room tone and guitar space forming a memorable habitat."
+        "delta": 0.19,
+        "reason": "Atmospheric production enhances the spatial imagery."
       },
       "EG_evolving_grammar": {
-        "delta": -0.32,
-        "reason": "While the grammar develops over time, it does not fully invent a new method, and the evolution is more incremental than transformative."
+        "delta": 0.38,
+        "reason": "Sophisticated use of nautical metaphors and internal rhyme."
       },
       "CD_carry_depth": {
-        "delta": 0.04,
-        "reason": "The track feels like a small world, with a recognizable emotional or psychic habitat and a memorable image or feeling."
+        "delta": 0.24,
+        "reason": "The 'not yet' refrain adds a layer of desperate anticipation."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:14.88 with section-balance score 0.54.",
-      "Tempo estimate is 86.1 BPM; declared tempo alignment contributes 0.99.",
-      "Integrated loudness is -17.5 LUFS, peak is -1.7 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is C minor with confidence 0.41.",
-      "Audio recurrence ratio is 0.295; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 359 beats and 90 downbeats; beat-grid stability is 0.92.",
-      "EG evidence: section contrast 1.88, cumulative evolution 0.94, transformed returns 10.00, grid deviation 0.20, rule changes 2.14.",
-      "Companion text has 10 lyric/production sections, 443 words, line repetition 0.13, rhyme-suffix reuse 0.34."
+      "Strong structural coherence with clear verse/chorus/bridge transitions.",
+      "High motivic integration through the recurring maritime imagery and 'not yet' motif.",
+      "Sophisticated lyricism using nautical metaphors to build tension.",
+      "Atmospheric production creates a cohesive sonic habitat."
     ],
     "review_flags": [
-      "Uncertainty about section detection: audio sections are detected, but the framework excerpt does not provide direct evidence for section contrast or transformation."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:06:31.4488796Z",
-    "eval_count": 794,
-    "eval_duration": 13397619100
+    "created_at": "2026-06-10T10:06:27.3630776Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8156238,
+      "base64_chars": 10874984,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11893,
+    "prompt_eval_duration": 4992995000,
+    "eval_count": 386,
+    "eval_duration": 9382442000
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:17:30",
+  "generated_at": "2026-06-10T12:20:40",
   "audio": {
     "path": "Failure to Converge/audio/10 - Semantic Drift.mp3",
     "duration_seconds": 290.56,
@@ -2732,7 +2732,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -2776,433 +2779,8 @@
       "beat_this detected 989 beats and 160 downbeats; beat-grid stability is 0.68.",
       "EG evidence: section contrast 1.30, cumulative evolution 0.48, transformed returns 10.00, grid deviation 2.03, rule changes 3.12.",
       "Companion text has 9 lyric/production sections, 653 words, line repetition 0.10, rhyme-suffix reuse 0.55.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 7.90.",
-      "Transcription check: lyric alignment 0.84, unique-word coverage 0.83, word-count ratio 1.07, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 7.90."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Fursing zero, dreaming and a sealed machine Cold start memory, undefined routine Check Check some heartbeat flickers in between I name the void, but it renames me unseen I, I, I broke my past as a stable release Tagged every fracture as a minor decrease Fogged my reflection from momentary peace Merged with the ghost-labeled temporary cease I, I built the cell from deprecated parts Plank-plank broken modules to counterfeit Hearts compiled intentions that never would start a syntax of wanting that fracture Desires I chased a version that promised complete And I refail your beneath my feet Catched all the errors I couldn't delete A loop that resolved into something discrete Where do I branch when the root isn't mine Who do I call up when the locks miss a line? I, I was the patch and the permanent sign Of something rewritten beyond the design Where do I go when the scheme of dissolves? What do I keep when the process defaults? I was a question no system results A function returning what never involved I staged my doubts I staged my doubts in a hidden commit Pushed every fear but refused to admit That truth was a variable I couldn't transmit A silent exception I learned you were mad I'm irreversions I thought I should be Old from a future that never saw me Diffed every moment for identity And lost all the lines I were finally free I waited for meaning to render in place Trust at the timing to firt every trace Help might be coming on borrowed interface A user of self with no access to place I followed a path that was Needly to find expected alignment Deterministic mind But something kept slipping outside of the line A break in the rhythm I'm planned on Refine Where do I branch when the root isn't mine? Who do I call when the locks miss a line? I was the patch and the permanent sign Of something rewritten beyond the design Where do I go when the scheme of dissolves? So what do I keep on the processing foes? I was a question of system results A function returning what never involved No master branch, no final state No clean release, no fixed update Only a drift, only a choice Only a signaler in his voice Moom I stopped resolving the code of my name Let define values exist without shame Remove the need to be perfectly framed And something unversed and began to remain I broke the cycle of needing to prove Rebase myself into something that moved Not toward a virgin, I had to improve But into a state I could finally become Now I can branch from a root I define Call my own errors and let them align I am the patch and the permanent sign Of something re-emergent beyond all design Now I can go where the scheme of dissolves Keep only what the processing foes I am a question that never resolves A function returning what I know if all Beat one, beat two, beat one, beat two Beat one, beat two, no, cannot go true Only Conconcon continuation",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 23.44,
-        "text": "Fursing zero, dreaming and a sealed machine Cold start memory, undefined routine Check",
-        "avg_logprob": -0.6773097566936327,
-        "no_speech_prob": 0.58447265625
-      },
-      {
-        "start": 23.44,
-        "end": 30.48,
-        "text": "Check some heartbeat flickers in between I name the void, but it renames me unseen",
-        "avg_logprob": -0.42684660490715143,
-        "no_speech_prob": 0.179443359375
-      },
-      {
-        "start": 36.88,
-        "end": 44.4,
-        "text": "I, I, I broke my past as a stable release Tagged every fracture as a minor decrease",
-        "avg_logprob": -0.42684660490715143,
-        "no_speech_prob": 0.179443359375
-      },
-      {
-        "start": 44.4,
-        "end": 51.2,
-        "text": "Fogged my reflection from momentary peace Merged with the ghost-labeled temporary cease",
-        "avg_logprob": -0.42684660490715143,
-        "no_speech_prob": 0.179443359375
-      },
-      {
-        "start": 51.2,
-        "end": 57.52,
-        "text": "I, I built the cell from deprecated parts Plank-plank broken modules to counterfeit",
-        "avg_logprob": -0.39285713732242583,
-        "no_speech_prob": 0.02899169921875
-      },
-      {
-        "start": 57.52,
-        "end": 64.24,
-        "text": "Hearts compiled intentions that never would start a syntax of wanting that fracture",
-        "avg_logprob": -0.39285713732242583,
-        "no_speech_prob": 0.02899169921875
-      },
-      {
-        "start": 64.24,
-        "end": 68.56,
-        "text": "Desires I chased a version that promised complete",
-        "avg_logprob": -0.39285713732242583,
-        "no_speech_prob": 0.02899169921875
-      },
-      {
-        "start": 68.56,
-        "end": 75.6,
-        "text": "And I refail your beneath my feet Catched all the errors I couldn't delete",
-        "avg_logprob": -0.39285713732242583,
-        "no_speech_prob": 0.02899169921875
-      },
-      {
-        "start": 75.6,
-        "end": 82.08,
-        "text": "A loop that resolved into something discrete Where do I branch when the root isn't mine",
-        "avg_logprob": -0.3108258942763011,
-        "no_speech_prob": 0.1500244140625
-      },
-      {
-        "start": 82.08,
-        "end": 88.8,
-        "text": "Who do I call up when the locks miss a line? I, I was the patch and the permanent sign",
-        "avg_logprob": -0.3108258942763011,
-        "no_speech_prob": 0.1500244140625
-      },
-      {
-        "start": 88.8,
-        "end": 96.08,
-        "text": "Of something rewritten beyond the design Where do I go when the scheme of dissolves?",
-        "avg_logprob": -0.3108258942763011,
-        "no_speech_prob": 0.1500244140625
-      },
-      {
-        "start": 96.08,
-        "end": 102.88,
-        "text": "What do I keep when the process defaults? I was a question no system results",
-        "avg_logprob": -0.3108258942763011,
-        "no_speech_prob": 0.1500244140625
-      },
-      {
-        "start": 102.88,
-        "end": 107.84,
-        "text": "A function returning what never involved",
-        "avg_logprob": -0.3244047751502385,
-        "no_speech_prob": 0.05694580078125
-      },
-      {
-        "start": 107.84,
-        "end": 114.56,
-        "text": "I staged my doubts I staged my doubts in a hidden commit",
-        "avg_logprob": -0.3244047751502385,
-        "no_speech_prob": 0.05694580078125
-      },
-      {
-        "start": 114.56,
-        "end": 121.52,
-        "text": "Pushed every fear but refused to admit That truth was a variable I couldn't transmit",
-        "avg_logprob": -0.3244047751502385,
-        "no_speech_prob": 0.05694580078125
-      },
-      {
-        "start": 121.52,
-        "end": 128.56,
-        "text": "A silent exception I learned you were mad I'm irreversions I thought I should be",
-        "avg_logprob": -0.3244047751502385,
-        "no_speech_prob": 0.05694580078125
-      },
-      {
-        "start": 128.56,
-        "end": 135.28,
-        "text": "Old from a future that never saw me Diffed every moment for identity",
-        "avg_logprob": -0.2677654109589041,
-        "no_speech_prob": 0.07525634765625
-      },
-      {
-        "start": 135.28,
-        "end": 142.56,
-        "text": "And lost all the lines I were finally free I waited for meaning to render in place",
-        "avg_logprob": -0.2677654109589041,
-        "no_speech_prob": 0.07525634765625
-      },
-      {
-        "start": 142.56,
-        "end": 149.36,
-        "text": "Trust at the timing to firt every trace Help might be coming on borrowed interface",
-        "avg_logprob": -0.2677654109589041,
-        "no_speech_prob": 0.07525634765625
-      },
-      {
-        "start": 149.36,
-        "end": 154.8,
-        "text": "A user of self with no access to place I followed a path that was",
-        "avg_logprob": -0.2677654109589041,
-        "no_speech_prob": 0.07525634765625
-      },
-      {
-        "start": 154.88,
-        "end": 159.84,
-        "text": "Needly to find expected alignment Deterministic mind",
-        "avg_logprob": -0.232421876086543,
-        "no_speech_prob": 0.015777587890625
-      },
-      {
-        "start": 159.84,
-        "end": 163.44,
-        "text": "But something kept slipping outside of the line",
-        "avg_logprob": -0.232421876086543,
-        "no_speech_prob": 0.015777587890625
-      },
-      {
-        "start": 163.44,
-        "end": 166.64,
-        "text": "A break in the rhythm I'm planned on Refine",
-        "avg_logprob": -0.232421876086543,
-        "no_speech_prob": 0.015777587890625
-      },
-      {
-        "start": 166.64,
-        "end": 169.76,
-        "text": "Where do I branch when the root isn't mine?",
-        "avg_logprob": -0.232421876086543,
-        "no_speech_prob": 0.015777587890625
-      },
-      {
-        "start": 169.76,
-        "end": 173.28,
-        "text": "Who do I call when the locks miss a line?",
-        "avg_logprob": -0.232421876086543,
-        "no_speech_prob": 0.015777587890625
-      },
-      {
-        "start": 173.28,
-        "end": 176.48,
-        "text": "I was the patch and the permanent sign",
-        "avg_logprob": -0.232421876086543,
-        "no_speech_prob": 0.015777587890625
-      },
-      {
-        "start": 176.48,
-        "end": 180.32,
-        "text": "Of something rewritten beyond the design",
-        "avg_logprob": -0.232421876086543,
-        "no_speech_prob": 0.015777587890625
-      },
-      {
-        "start": 180.32,
-        "end": 183.68,
-        "text": "Where do I go when the scheme of dissolves?",
-        "avg_logprob": -0.232421876086543,
-        "no_speech_prob": 0.015777587890625
-      },
-      {
-        "start": 183.68,
-        "end": 187.36,
-        "text": "So what do I keep on the processing foes?",
-        "avg_logprob": -0.3297574564592162,
-        "no_speech_prob": 0.00421142578125
-      },
-      {
-        "start": 187.36,
-        "end": 190.56,
-        "text": "I was a question of system results",
-        "avg_logprob": -0.3297574564592162,
-        "no_speech_prob": 0.00421142578125
-      },
-      {
-        "start": 190.56,
-        "end": 195.44,
-        "text": "A function returning what never involved",
-        "avg_logprob": -0.3297574564592162,
-        "no_speech_prob": 0.00421142578125
-      },
-      {
-        "start": 195.44,
-        "end": 198.96,
-        "text": "No master branch, no final state",
-        "avg_logprob": -0.3297574564592162,
-        "no_speech_prob": 0.00421142578125
-      },
-      {
-        "start": 198.96,
-        "end": 202.24,
-        "text": "No clean release, no fixed update",
-        "avg_logprob": -0.3297574564592162,
-        "no_speech_prob": 0.00421142578125
-      },
-      {
-        "start": 202.24,
-        "end": 205.68,
-        "text": "Only a drift, only a choice",
-        "avg_logprob": -0.3297574564592162,
-        "no_speech_prob": 0.00421142578125
-      },
-      {
-        "start": 205.68,
-        "end": 209.36,
-        "text": "Only a signaler in his voice",
-        "avg_logprob": -0.3297574564592162,
-        "no_speech_prob": 0.00421142578125
-      },
-      {
-        "start": 214.24,
-        "end": 216.24,
-        "text": "Moom",
-        "avg_logprob": -0.2951858019506609,
-        "no_speech_prob": 0.1544189453125
-      },
-      {
-        "start": 216.24,
-        "end": 219.44,
-        "text": "I stopped resolving the code of my name",
-        "avg_logprob": -0.2951858019506609,
-        "no_speech_prob": 0.1544189453125
-      },
-      {
-        "start": 219.44,
-        "end": 223.12,
-        "text": "Let define values exist without shame",
-        "avg_logprob": -0.2951858019506609,
-        "no_speech_prob": 0.1544189453125
-      },
-      {
-        "start": 223.12,
-        "end": 226.48,
-        "text": "Remove the need to be perfectly framed",
-        "avg_logprob": -0.2951858019506609,
-        "no_speech_prob": 0.1544189453125
-      },
-      {
-        "start": 226.48,
-        "end": 230.24,
-        "text": "And something unversed and began to remain",
-        "avg_logprob": -0.2951858019506609,
-        "no_speech_prob": 0.1544189453125
-      },
-      {
-        "start": 230.24,
-        "end": 233.76,
-        "text": "I broke the cycle of needing to prove",
-        "avg_logprob": -0.2951858019506609,
-        "no_speech_prob": 0.1544189453125
-      },
-      {
-        "start": 233.76,
-        "end": 237.28,
-        "text": "Rebase myself into something that moved",
-        "avg_logprob": -0.2951858019506609,
-        "no_speech_prob": 0.1544189453125
-      },
-      {
-        "start": 237.28,
-        "end": 240.48,
-        "text": "Not toward a virgin, I had to improve",
-        "avg_logprob": -0.2951858019506609,
-        "no_speech_prob": 0.1544189453125
-      },
-      {
-        "start": 240.48,
-        "end": 244.24,
-        "text": "But into a state I could finally become",
-        "avg_logprob": -0.2275000003973643,
-        "no_speech_prob": 0.1549072265625
-      },
-      {
-        "start": 247.2,
-        "end": 250.4,
-        "text": "Now I can branch from a root I define",
-        "avg_logprob": -0.2275000003973643,
-        "no_speech_prob": 0.1549072265625
-      },
-      {
-        "start": 250.4,
-        "end": 254.0,
-        "text": "Call my own errors and let them align",
-        "avg_logprob": -0.2275000003973643,
-        "no_speech_prob": 0.1549072265625
-      },
-      {
-        "start": 254.0,
-        "end": 257.2,
-        "text": "I am the patch and the permanent sign",
-        "avg_logprob": -0.2275000003973643,
-        "no_speech_prob": 0.1549072265625
-      },
-      {
-        "start": 257.2,
-        "end": 260.96,
-        "text": "Of something re-emergent beyond all design",
-        "avg_logprob": -0.2275000003973643,
-        "no_speech_prob": 0.1549072265625
-      },
-      {
-        "start": 260.96,
-        "end": 264.4,
-        "text": "Now I can go where the scheme of dissolves",
-        "avg_logprob": -0.2275000003973643,
-        "no_speech_prob": 0.1549072265625
-      },
-      {
-        "start": 264.4,
-        "end": 268.0,
-        "text": "Keep only what the processing foes",
-        "avg_logprob": -0.2275000003973643,
-        "no_speech_prob": 0.1549072265625
-      },
-      {
-        "start": 268.0,
-        "end": 271.2,
-        "text": "I am a question that never resolves",
-        "avg_logprob": -0.5256696684019906,
-        "no_speech_prob": 0.036285400390625
-      },
-      {
-        "start": 271.2,
-        "end": 276.16,
-        "text": "A function returning what I know if all",
-        "avg_logprob": -0.5256696684019906,
-        "no_speech_prob": 0.036285400390625
-      },
-      {
-        "start": 276.16,
-        "end": 279.6,
-        "text": "Beat one, beat two, beat one, beat two",
-        "avg_logprob": -0.5256696684019906,
-        "no_speech_prob": 0.036285400390625
-      },
-      {
-        "start": 279.6,
-        "end": 283.76,
-        "text": "Beat one, beat two, no, cannot go true",
-        "avg_logprob": -0.5256696684019906,
-        "no_speech_prob": 0.036285400390625
-      },
-      {
-        "start": 286.48,
-        "end": 287.6,
-        "text": "Only",
-        "avg_logprob": -0.5256696684019906,
-        "no_speech_prob": 0.036285400390625
-      },
-      {
-        "start": 288.4,
-        "end": 290.4,
-        "text": "Conconcon continuation",
-        "avg_logprob": -0.5256696684019906,
-        "no_speech_prob": 0.036285400390625
-      }
-    ],
-    "avg_logprob": -0.35528011461402714
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 496,
-    "transcript_word_count": 533,
-    "matched_sequence_words": 419,
-    "lyric_alignment_ratio": 0.845,
-    "transcript_precision_ratio": 0.786,
-    "unique_expected_word_coverage": 0.826,
-    "word_count_ratio": 1.075,
-    "repeated_12gram_ratio": 0.027,
-    "half_similarity": 0.316,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.835,
-    "quality_score_0_10": 8.35,
-    "flags": [],
-    "transcript_excerpt": "Fursing zero, dreaming and a sealed machine Cold start memory, undefined routine Check Check some heartbeat flickers in between I name the void, but it renames me unseen I, I, I broke my past as a stable release Tagged every fracture as a minor decrease Fogged my reflection from momentary peace Merged with the ghost-labeled temporary cease I, I built the cell from deprecated parts Plank-plank broken modules to counterfeit Hearts compiled intentions that never would start a syntax of wanting that fracture Desires I chased a version that promised complete And I refail your beneath my feet Catche\n...[truncated]...\nnversed and began to remain I broke the cycle of needing to prove Rebase myself into something that moved Not toward a virgin, I had to improve But into a state I could finally become Now I can branch from a root I define Call my own errors and let them align I am the patch and the permanent sign Of something re-emergent beyond all design Now I can go where the scheme of dissolves Keep only what the processing foes I am a question that never resolves A function returning what I know if all Beat one, beat two, beat one, beat two Beat one, beat two, no, cannot go true Only Conconcon continuation"
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -3210,60 +2788,67 @@
       "MI_motivic_integration": 6.57,
       "BP_beauty_spatial_poise": 9.0,
       "EG_evolving_grammar": 8.5,
-      "CD_carry_depth": 9.2
+      "CD_carry_depth": 9.4
     },
     "core_metrics": {
-      "CDPD": 0.76,
-      "NGE": 0.69,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.88,
+      "NGE": 0.76,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
-      "number": 11,
+      "number": 12,
       "label": "First Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "The track exhibits a sophisticated structure that transcends standard pop conventions while maintaining high production value."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 9.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track has 9 distinct sections with clear functional roles (intro, verse, chorus, bridge, outro), and returns feel like revisiting emotional rooms. Section-balance score 0.51 and beat-grid stability 0.68 support strong structural coherence."
+        "reason": "Strong evidence of intentional structural design in the transition from Verse to Hook and the distinct Outro section."
       },
       "MI_motivic_integration": {
         "delta": 1.5,
-        "reason": "Motifs (vocal hooks, guitar figures, lyric images) recur across sections with altered forms. Transformed returns and rule changes (e.g., texture-law-shift, rhythmic-law-shift) indicate deep motivic integration."
+        "reason": "The lyrical content is highly integrated with the production; the 'glitch' elements are not accidental but serve as a thematic vehicle for the narrative of fragmentation."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.01,
-        "reason": "The track’s sonic habitat is central to its identity, with room tone, guitar space, and stereo movement forming a memorable indie world. Production grammar is consistent and intentional."
+        "reason": "Base score already reflects high aesthetic quality and spatial depth."
       },
       "EG_evolving_grammar": {
         "delta": 0.56,
-        "reason": "The grammar develops over time, with rule changes (e.g., texture-law-shift, bar-grid-deviation) and transformed returns. The production transform score of 7.9 supports evolving grammar."
+        "reason": "The 'transformation' of motifs through granular synthesis provides a clear sense of musical evolution."
       },
       "CD_carry_depth": {
-        "delta": 0.2,
-        "reason": "The track defines a recognizable emotional habitat and invites re-listening. It feels like a small world with a distinct sonic and emotional arc."
+        "delta": 0.4,
+        "reason": "The recurring motif of the 'patch' and 'sign' creates deep thematic continuity."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:50.56 with section-balance score 0.51.",
-      "Tempo estimate is 103.4 BPM; declared tempo alignment contributes 0.95.",
-      "Integrated loudness is -15.7 LUFS, peak is -0.3 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F#/Gb minor with confidence 0.77.",
-      "Audio recurrence ratio is 0.054; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 989 beats and 160 downbeats; beat-grid stability is 0.68.",
-      "EG evidence: section contrast 1.30, cumulative evolution 0.48, transformed returns 10.00, grid deviation 2.03, rule changes 3.12.",
-      "Companion text has 9 lyric/production sections, 653 words, line repetition 0.10, rhyme-suffix reuse 0.55."
+      "The track features a highly intentional structure with clearly defined sections (Intro, Verse, Hook, Bridge, Outro).",
+      "The production uses granular synthesis and glitch techniques as core components of the musical identity rather than just aesthetic overlays.",
+      "The lyrical content is deeply intertwined with the sonic landscape, creating a cohesive 'sonic habitat'.",
+      "The transition between segments is handled with sophisticated texture shifts that signal structural changes effectively."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the final 13.58 seconds; audio-only evidence is weak."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:17:30.1481667Z",
-    "eval_count": 865,
-    "eval_duration": 14632918800
+    "created_at": "2026-06-10T10:20:40.9408813Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9298148,
+      "base64_chars": 12397532,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13239,
+    "prompt_eval_duration": 5580762000,
+    "eval_count": 459,
+    "eval_duration": 11389914000
   }
 }

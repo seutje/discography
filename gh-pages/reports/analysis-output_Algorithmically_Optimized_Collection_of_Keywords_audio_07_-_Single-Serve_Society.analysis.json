@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T21:53:37",
+  "generated_at": "2026-06-10T12:02:05",
   "audio": {
     "path": "Algorithmically Optimized Collection of Keywords/audio/07 - Single-Serve Society.mp3",
     "duration_seconds": 238.32,
@@ -1258,7 +1258,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -1303,256 +1306,13 @@
       "EG evidence: section contrast 4.06, cumulative evolution 1.70, transformed returns 10.00, grid deviation 2.21, rule changes 7.50.",
       "Companion text has 9 lyric/production sections, 379 words, line repetition 0.03, rhyme-suffix reuse 0.33.",
       "Production/vocal notes contain transformation cues (density-change); intent score 2.85.",
-      "Transcription check: lyric alignment 0.86, unique-word coverage 0.89, word-count ratio 0.99, duplicate-pass estimate 1.",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "you, a cursor blinks like a light house, for ships that never left the room. I render thoughts in real time, just to watch them lose their bloom. I built a song inside an evening, folded code into a rhyme. Presta export on a feeling, stamp created over time. There's no crowd behind the curtain, just a mirror dressed as you. Every click a small assertion that I'm really fine-consumed. Is this voice a single or a nervous habit dressed as art? If no one hears the waveform, does it still fracture my heart? Am I making this for someone, or am I feeding the machine? Everything is single serve, now disappear before it's seen. I pour myself into the render, watch it vanish when it's done. Tell me what's the point of making if I'm both a crowd and the one. Perhaps like paper cups of meaning, songs that melt before they land. Infinite beginnings ending in the palm of my own hand. We ought to make the spark itself until it barely makes a sound. An ocean made of throw away wells, too shallow to let it go strung. I asked the future what it wanted, it said faster less again. So I split my doubt in versions, and I cut the bill by ten. Is this waste a form of prayer, or just noise I call belief? Am I chasing something out there, or just begging for relief? Metrics bloom, and then decay like flowers grown in cash delay. If meaning's cheap and always near, why does it cost me every year? Am I making this for someone, or rehearsing me in a light? Every art of fact is possible, every proof was soft now to buy. I press publish like a reflex like a flare into the sun. Tell me what's the point of making if I'm the audience or one. When the server lights go silent, and the copies all expire, Will there be a trace of wanting in the ash of my desire? If creation's just a habit, and I can't stop when I'm done, I'll keep singing to the void until it sings back as someone.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 16.0,
-        "text": "you, a cursor blinks like a light house, for ships that never left the room.",
-        "avg_logprob": -0.42265624478459357,
-        "no_speech_prob": 0.52490234375
-      },
-      {
-        "start": 16.0,
-        "end": 26.0,
-        "text": "I render thoughts in real time, just to watch them lose their bloom.",
-        "avg_logprob": -0.42265624478459357,
-        "no_speech_prob": 0.52490234375
-      },
-      {
-        "start": 26.0,
-        "end": 33.0,
-        "text": "I built a song inside an evening, folded code into a rhyme.",
-        "avg_logprob": -0.20324336872859436,
-        "no_speech_prob": 0.0731201171875
-      },
-      {
-        "start": 33.0,
-        "end": 39.0,
-        "text": "Presta export on a feeling, stamp created over time.",
-        "avg_logprob": -0.20324336872859436,
-        "no_speech_prob": 0.0731201171875
-      },
-      {
-        "start": 39.0,
-        "end": 45.0,
-        "text": "There's no crowd behind the curtain, just a mirror dressed as you.",
-        "avg_logprob": -0.20324336872859436,
-        "no_speech_prob": 0.0731201171875
-      },
-      {
-        "start": 45.0,
-        "end": 54.0,
-        "text": "Every click a small assertion that I'm really fine-consumed.",
-        "avg_logprob": -0.20324336872859436,
-        "no_speech_prob": 0.0731201171875
-      },
-      {
-        "start": 54.0,
-        "end": 61.0,
-        "text": "Is this voice a single or a nervous habit dressed as art?",
-        "avg_logprob": -0.09638073979591837,
-        "no_speech_prob": 0.11114501953125
-      },
-      {
-        "start": 61.0,
-        "end": 70.0,
-        "text": "If no one hears the waveform, does it still fracture my heart?",
-        "avg_logprob": -0.09638073979591837,
-        "no_speech_prob": 0.11114501953125
-      },
-      {
-        "start": 70.0,
-        "end": 77.0,
-        "text": "Am I making this for someone, or am I feeding the machine?",
-        "avg_logprob": -0.09638073979591837,
-        "no_speech_prob": 0.11114501953125
-      },
-      {
-        "start": 77.0,
-        "end": 83.0,
-        "text": "Everything is single serve, now disappear before it's seen.",
-        "avg_logprob": -0.15182782456559954,
-        "no_speech_prob": 0.222900390625
-      },
-      {
-        "start": 83.0,
-        "end": 89.0,
-        "text": "I pour myself into the render, watch it vanish when it's done.",
-        "avg_logprob": -0.15182782456559954,
-        "no_speech_prob": 0.222900390625
-      },
-      {
-        "start": 89.0,
-        "end": 97.0,
-        "text": "Tell me what's the point of making if I'm both a crowd and the one.",
-        "avg_logprob": -0.15182782456559954,
-        "no_speech_prob": 0.222900390625
-      },
-      {
-        "start": 98.0,
-        "end": 104.0,
-        "text": "Perhaps like paper cups of meaning, songs that melt before they land.",
-        "avg_logprob": -0.18690813784346436,
-        "no_speech_prob": 0.68017578125
-      },
-      {
-        "start": 104.0,
-        "end": 110.0,
-        "text": "Infinite beginnings ending in the palm of my own hand.",
-        "avg_logprob": -0.18690813784346436,
-        "no_speech_prob": 0.68017578125
-      },
-      {
-        "start": 110.0,
-        "end": 116.0,
-        "text": "We ought to make the spark itself until it barely makes a sound.",
-        "avg_logprob": -0.18690813784346436,
-        "no_speech_prob": 0.68017578125
-      },
-      {
-        "start": 116.0,
-        "end": 123.0,
-        "text": "An ocean made of throw away wells, too shallow to let it go strung.",
-        "avg_logprob": -0.18690813784346436,
-        "no_speech_prob": 0.68017578125
-      },
-      {
-        "start": 123.0,
-        "end": 129.0,
-        "text": "I asked the future what it wanted, it said faster less again.",
-        "avg_logprob": -0.11925551613025806,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 129.0,
-        "end": 135.0,
-        "text": "So I split my doubt in versions, and I cut the bill by ten.",
-        "avg_logprob": -0.11925551613025806,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 135.0,
-        "end": 141.0,
-        "text": "Is this waste a form of prayer, or just noise I call belief?",
-        "avg_logprob": -0.11925551613025806,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 141.0,
-        "end": 149.0,
-        "text": "Am I chasing something out there, or just begging for relief?",
-        "avg_logprob": -0.11925551613025806,
-        "no_speech_prob": 0.33349609375
-      },
-      {
-        "start": 149.0,
-        "end": 155.0,
-        "text": "Metrics bloom, and then decay like flowers grown in cash delay.",
-        "avg_logprob": -0.27790178188255854,
-        "no_speech_prob": 0.05242919921875
-      },
-      {
-        "start": 155.0,
-        "end": 163.0,
-        "text": "If meaning's cheap and always near, why does it cost me every year?",
-        "avg_logprob": -0.27790178188255854,
-        "no_speech_prob": 0.05242919921875
-      },
-      {
-        "start": 163.0,
-        "end": 169.0,
-        "text": "Am I making this for someone, or rehearsing me in a light?",
-        "avg_logprob": -0.27790178188255854,
-        "no_speech_prob": 0.05242919921875
-      },
-      {
-        "start": 169.0,
-        "end": 176.0,
-        "text": "Every art of fact is possible, every proof was soft now to buy.",
-        "avg_logprob": -0.27790178188255854,
-        "no_speech_prob": 0.05242919921875
-      },
-      {
-        "start": 176.0,
-        "end": 182.0,
-        "text": "I press publish like a reflex like a flare into the sun.",
-        "avg_logprob": -0.2024356639560531,
-        "no_speech_prob": 0.09210205078125
-      },
-      {
-        "start": 182.0,
-        "end": 189.0,
-        "text": "Tell me what's the point of making if I'm the audience or one.",
-        "avg_logprob": -0.2024356639560531,
-        "no_speech_prob": 0.09210205078125
-      },
-      {
-        "start": 206.0,
-        "end": 218.0,
-        "text": "When the server lights go silent, and the copies all expire,",
-        "avg_logprob": -0.19486177225525564,
-        "no_speech_prob": 0.71142578125
-      },
-      {
-        "start": 218.0,
-        "end": 224.0,
-        "text": "Will there be a trace of wanting in the ash of my desire?",
-        "avg_logprob": -0.19486177225525564,
-        "no_speech_prob": 0.71142578125
-      },
-      {
-        "start": 224.0,
-        "end": 230.0,
-        "text": "If creation's just a habit, and I can't stop when I'm done,",
-        "avg_logprob": -0.19486177225525564,
-        "no_speech_prob": 0.71142578125
-      },
-      {
-        "start": 230.0,
-        "end": 238.0,
-        "text": "I'll keep singing to the void until it sings back as someone.",
-        "avg_logprob": -0.09196920955882353,
-        "no_speech_prob": 0.6416015625
-      }
-    ],
-    "avg_logprob": -0.20569993188066363
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 367,
-    "transcript_word_count": 364,
-    "matched_sequence_words": 316,
-    "lyric_alignment_ratio": 0.861,
-    "transcript_precision_ratio": 0.868,
-    "unique_expected_word_coverage": 0.888,
-    "word_count_ratio": 0.992,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.242,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.867,
-    "quality_score_0_10": 8.67,
-    "flags": [],
-    "transcript_excerpt": "you, a cursor blinks like a light house, for ships that never left the room. I render thoughts in real time, just to watch them lose their bloom. I built a song inside an evening, folded code into a rhyme. Presta export on a feeling, stamp created over time. There's no crowd behind the curtain, just a mirror dressed as you. Every click a small assertion that I'm really fine-consumed. Is this voice a single or a nervous habit dressed as art? If no one hears the waveform, does it still fracture my heart? Am I making this for someone, or am I feeding the machine? Everything is single serve, now d\n...[truncated]...\nand then decay like flowers grown in cash delay. If meaning's cheap and always near, why does it cost me every year? Am I making this for someone, or rehearsing me in a light? Every art of fact is possible, every proof was soft now to buy. I press publish like a reflex like a flare into the sun. Tell me what's the point of making if I'm the audience or one. When the server lights go silent, and the copies all expire, Will there be a trace of wanting in the ash of my desire? If creation's just a habit, and I can't stop when I'm done, I'll keep singing to the void until it sings back as someone."
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 8.47,
-      "MI_motivic_integration": 7.7,
+      "MI_motivic_integration": 7.2,
       "BP_beauty_spatial_poise": 9.24,
       "EG_evolving_grammar": 7.51,
       "CD_carry_depth": 7.28
@@ -1565,50 +1325,57 @@
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural coherence and consistent motivic development across sections."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.5,
-        "reason": "The piece exhibits a clear, multi-section structure with balanced section durations and a strong sense of form. The section-balance score of 0.17 and the presence of 7 distinct sections suggest a high level of structural coherence."
+        "reason": "Stronger sense of closure in the outro section."
       },
       "MI_motivic_integration": {
-        "delta": 0.5,
-        "reason": "The piece shows strong motivic integration through repeated motifs with variation, as evidenced by the transformed return scores and the presence of recurring harmonic and timbral similarities across sections."
+        "delta": 0.0,
+        "reason": "Base score reflects consistent lyrical and melodic motifs."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The beauty and spatial poise score remains unchanged as the piece maintains a consistent sonic space and phrasing architecture, with no evidence of degradation due to clipping or headroom issues."
+        "reason": "No evidence to adjust."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar score remains unchanged as the piece demonstrates a clear progression of internal rules and motifs without rupture, as indicated by the cumulative evolution score and transformed return scores."
+        "reason": "Base score accurately captures the evolving texture."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The carry depth score remains unchanged as the piece maintains emotional transport and re-listen pull, with a strong sense of self-sustaining musical habitat."
+        "reason": "Lyrics maintain a consistent emotional arc."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:58.32 with section-balance score 0.17.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -16.1 LUFS, peak is 0.4 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is C minor with confidence 0.33.",
-      "Audio recurrence ratio is 0.387; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 316 beats and 88 downbeats; beat-grid stability is 0.47.",
-      "EG evidence: section contrast 4.06, cumulative evolution 1.70, transformed returns 10.00, grid deviation 2.21, rule changes 7.50.",
-      "Companion text has 9 lyric/production sections, 379 words, line repetition 0.03, rhyme-suffix reuse 0.33."
+      "The track exhibits strong structural coherence with clear transitions between verse, chorus, and bridge sections.",
+      "Lyrical content is deeply introspective, maintaining a consistent theme of artistic isolation and the nature of creation.",
+      "Musical texture evolves consistently from whispered incantations to more resonant intensity as described in production notes.",
+      "The transition into the outro provides a satisfying sense of closure."
     ],
     "review_flags": [
-      "Uncertainty remains regarding the exact nature of the motivic integration due to the lack of true motif recognition, only recurrence ratio."
+      ""
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T19:53:37.8759276Z",
-    "eval_count": 864,
-    "eval_duration": 14041929900
+    "created_at": "2026-06-10T10:02:05.4175776Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7626474,
+      "base64_chars": 10168632,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11221,
+    "prompt_eval_duration": 4773993000,
+    "eval_count": 341,
+    "eval_duration": 8385564000
   }
 }

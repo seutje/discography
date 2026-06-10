@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:49:58",
+  "generated_at": "2026-06-10T12:49:12",
   "audio": {
     "path": "UNMEASURED GEOMETRY/audio/02 - The Exception.mp3",
     "duration_seconds": 339.28,
@@ -2449,7 +2449,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -2492,307 +2495,8 @@
       "Audio recurrence ratio is 0.153; this is a rough proxy for repeated musical cells, not true motif recognition.",
       "beat_this detected 763 beats and 265 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 3.41, cumulative evolution 1.33, transformed returns 10.00, grid deviation 2.41, rule changes 8.06.",
-      "Companion text has 8 lyric/production sections, 256 words, line repetition 0.03, rhyme-suffix reuse 0.05.",
-      "Transcription check: lyric alignment 0.75, unique-word coverage 0.77, word-count ratio 1.03, duplicate-pass estimate 1."
+      "Companion text has 8 lyric/production sections, 256 words, line repetition 0.03, rhyme-suffix reuse 0.05."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "You And tell me everyone fits inside But my edges keep dissolving Drifting past your patient definitions I wear the shape you cannot hold I'm moving, breathing, you're quiet geometry You're speaking maxims as if the sky obeys the fences you raise But I hear the cracks bend with your certainty Like you're clicking through the seams Why fall outside the light you change? In the negative space you never leave Your universal truth pass through me like light through a finished storm And still you tell me all things apply They don't, not here You chart the paths of common souls Confident in their obedient spirals But I fracture the compass Let it spin out its tri-blank confession And the anomaly you overlook On the theorem forgot to buy Your claim is all Whenever they rage my skin Your every one was never meant Do we clue the ones who listen in war? I fall outside the light you cherish A quiet refusal in human form Your inherited wisdom slips from my hands Never feeding the beggars you swear we shall If I told you like the ones you scripted Am I the error? Are the unwritten proof Your truth must pay to each name Was it truth? That all So speak your absolute again I'll let them pass like distant weather I remain the shifting Glip you still can transform I'll let them pass like distant weather I'll let them pass like distant weather",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 2.0,
-        "text": "You",
-        "avg_logprob": -1.2784118950366974,
-        "no_speech_prob": 0.5576171875
-      },
-      {
-        "start": 90.0,
-        "end": 100.0,
-        "text": "And tell me everyone fits inside But my edges keep dissolving",
-        "avg_logprob": -0.23248487903225806,
-        "no_speech_prob": 0.75
-      },
-      {
-        "start": 100.0,
-        "end": 108.0,
-        "text": "Drifting past your patient definitions I wear the shape you cannot hold",
-        "avg_logprob": -0.23248487903225806,
-        "no_speech_prob": 0.75
-      },
-      {
-        "start": 108.0,
-        "end": 121.0,
-        "text": "I'm moving, breathing, you're quiet geometry",
-        "avg_logprob": -0.42485119260492776,
-        "no_speech_prob": 0.05340576171875
-      },
-      {
-        "start": 121.0,
-        "end": 127.0,
-        "text": "You're speaking maxims as if the sky obeys the fences you raise",
-        "avg_logprob": -0.42485119260492776,
-        "no_speech_prob": 0.05340576171875
-      },
-      {
-        "start": 127.0,
-        "end": 134.0,
-        "text": "But I hear the cracks bend with your certainty",
-        "avg_logprob": -0.42485119260492776,
-        "no_speech_prob": 0.05340576171875
-      },
-      {
-        "start": 134.0,
-        "end": 138.0,
-        "text": "Like you're clicking through the seams",
-        "avg_logprob": -0.4649884303410848,
-        "no_speech_prob": 0.0914306640625
-      },
-      {
-        "start": 138.0,
-        "end": 141.0,
-        "text": "Why fall outside the light you change?",
-        "avg_logprob": -0.4649884303410848,
-        "no_speech_prob": 0.0914306640625
-      },
-      {
-        "start": 141.0,
-        "end": 146.0,
-        "text": "In the negative space you never leave",
-        "avg_logprob": -0.4649884303410848,
-        "no_speech_prob": 0.0914306640625
-      },
-      {
-        "start": 146.0,
-        "end": 157.0,
-        "text": "Your universal truth pass through me like light through a finished storm",
-        "avg_logprob": -0.4649884303410848,
-        "no_speech_prob": 0.0914306640625
-      },
-      {
-        "start": 157.0,
-        "end": 162.0,
-        "text": "And still you tell me all things apply",
-        "avg_logprob": -0.4649884303410848,
-        "no_speech_prob": 0.0914306640625
-      },
-      {
-        "start": 162.0,
-        "end": 169.0,
-        "text": "They don't, not here",
-        "avg_logprob": -0.3554687562741731,
-        "no_speech_prob": 0.0083770751953125
-      },
-      {
-        "start": 184.0,
-        "end": 188.0,
-        "text": "You chart the paths of common souls",
-        "avg_logprob": -0.3554687562741731,
-        "no_speech_prob": 0.0083770751953125
-      },
-      {
-        "start": 188.0,
-        "end": 193.0,
-        "text": "Confident in their obedient spirals",
-        "avg_logprob": -0.3210069497426351,
-        "no_speech_prob": 0.113525390625
-      },
-      {
-        "start": 193.0,
-        "end": 196.0,
-        "text": "But I fracture the compass",
-        "avg_logprob": -0.3210069497426351,
-        "no_speech_prob": 0.113525390625
-      },
-      {
-        "start": 196.0,
-        "end": 200.0,
-        "text": "Let it spin out its tri-blank confession",
-        "avg_logprob": -0.3210069497426351,
-        "no_speech_prob": 0.113525390625
-      },
-      {
-        "start": 200.0,
-        "end": 206.0,
-        "text": "And the anomaly you overlook",
-        "avg_logprob": -0.3210069497426351,
-        "no_speech_prob": 0.113525390625
-      },
-      {
-        "start": 206.0,
-        "end": 216.0,
-        "text": "On the theorem forgot to buy",
-        "avg_logprob": -0.3210069497426351,
-        "no_speech_prob": 0.113525390625
-      },
-      {
-        "start": 216.0,
-        "end": 218.0,
-        "text": "Your claim is all",
-        "avg_logprob": -0.23104508880709038,
-        "no_speech_prob": 0.0034503936767578125
-      },
-      {
-        "start": 218.0,
-        "end": 222.0,
-        "text": "Whenever they rage my skin",
-        "avg_logprob": -0.23104508880709038,
-        "no_speech_prob": 0.0034503936767578125
-      },
-      {
-        "start": 222.0,
-        "end": 226.0,
-        "text": "Your every one was never meant",
-        "avg_logprob": -0.23104508880709038,
-        "no_speech_prob": 0.0034503936767578125
-      },
-      {
-        "start": 226.0,
-        "end": 233.0,
-        "text": "Do we clue the ones who listen in war?",
-        "avg_logprob": -0.23104508880709038,
-        "no_speech_prob": 0.0034503936767578125
-      },
-      {
-        "start": 233.0,
-        "end": 237.0,
-        "text": "I fall outside the light you cherish",
-        "avg_logprob": -0.23104508880709038,
-        "no_speech_prob": 0.0034503936767578125
-      },
-      {
-        "start": 237.0,
-        "end": 241.0,
-        "text": "A quiet refusal in human form",
-        "avg_logprob": -0.23104508880709038,
-        "no_speech_prob": 0.0034503936767578125
-      },
-      {
-        "start": 241.0,
-        "end": 245.0,
-        "text": "Your inherited wisdom slips from my hands",
-        "avg_logprob": -0.23104508880709038,
-        "no_speech_prob": 0.0034503936767578125
-      },
-      {
-        "start": 245.0,
-        "end": 251.0,
-        "text": "Never feeding the beggars you swear we shall",
-        "avg_logprob": -0.5150463249948289,
-        "no_speech_prob": 0.00957489013671875
-      },
-      {
-        "start": 253.0,
-        "end": 258.0,
-        "text": "If I told you like the ones you scripted",
-        "avg_logprob": -0.5150463249948289,
-        "no_speech_prob": 0.00957489013671875
-      },
-      {
-        "start": 258.0,
-        "end": 261.0,
-        "text": "Am I the error?",
-        "avg_logprob": -0.5150463249948289,
-        "no_speech_prob": 0.00957489013671875
-      },
-      {
-        "start": 261.0,
-        "end": 264.0,
-        "text": "Are the unwritten proof",
-        "avg_logprob": -0.5150463249948289,
-        "no_speech_prob": 0.00957489013671875
-      },
-      {
-        "start": 264.0,
-        "end": 268.0,
-        "text": "Your truth must pay to each name",
-        "avg_logprob": -0.5150463249948289,
-        "no_speech_prob": 0.00957489013671875
-      },
-      {
-        "start": 268.0,
-        "end": 272.0,
-        "text": "Was it truth?",
-        "avg_logprob": -0.5150463249948289,
-        "no_speech_prob": 0.00957489013671875
-      },
-      {
-        "start": 272.0,
-        "end": 282.0,
-        "text": "That all",
-        "avg_logprob": -0.33763588252274884,
-        "no_speech_prob": 0.11724853515625
-      },
-      {
-        "start": 288.0,
-        "end": 292.0,
-        "text": "So speak your absolute again",
-        "avg_logprob": -0.33763588252274884,
-        "no_speech_prob": 0.11724853515625
-      },
-      {
-        "start": 292.0,
-        "end": 297.0,
-        "text": "I'll let them pass like distant weather",
-        "avg_logprob": -0.33763588252274884,
-        "no_speech_prob": 0.11724853515625
-      },
-      {
-        "start": 297.0,
-        "end": 301.0,
-        "text": "I remain the shifting",
-        "avg_logprob": -0.5625000238418579,
-        "no_speech_prob": 0.0711669921875
-      },
-      {
-        "start": 301.0,
-        "end": 309.0,
-        "text": "Glip you still can transform",
-        "avg_logprob": -0.5625000238418579,
-        "no_speech_prob": 0.0711669921875
-      },
-      {
-        "start": 327.0,
-        "end": 332.0,
-        "text": "I'll let them pass like distant weather",
-        "avg_logprob": -0.5412946428571429,
-        "no_speech_prob": 0.7421875
-      },
-      {
-        "start": 332.0,
-        "end": 338.0,
-        "text": "I'll let them pass like distant weather",
-        "avg_logprob": -0.5412946428571429,
-        "no_speech_prob": 0.7421875
-      }
-    ],
-    "avg_logprob": -0.39426554261952945
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 239,
-    "transcript_word_count": 247,
-    "matched_sequence_words": 180,
-    "lyric_alignment_ratio": 0.753,
-    "transcript_precision_ratio": 0.729,
-    "unique_expected_word_coverage": 0.774,
-    "word_count_ratio": 1.033,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.171,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.755,
-    "quality_score_0_10": 7.55,
-    "flags": [],
-    "transcript_excerpt": "You And tell me everyone fits inside But my edges keep dissolving Drifting past your patient definitions I wear the shape you cannot hold I'm moving, breathing, you're quiet geometry You're speaking maxims as if the sky obeys the fences you raise But I hear the cracks bend with your certainty Like you're clicking through the seams Why fall outside the light you change? In the negative space you never leave Your universal truth pass through me like light through a finished storm And still you tell me all things apply They don't, not here You chart the paths of common souls Confident in their ob\n...[truncated]...\nclaim is all Whenever they rage my skin Your every one was never meant Do we clue the ones who listen in war? I fall outside the light you cherish A quiet refusal in human form Your inherited wisdom slips from my hands Never feeding the beggars you swear we shall If I told you like the ones you scripted Am I the error? Are the unwritten proof Your truth must pay to each name Was it truth? That all So speak your absolute again I'll let them pass like distant weather I remain the shifting Glip you still can transform I'll let them pass like distant weather I'll let them pass like distant weather"
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -2810,50 +2514,68 @@
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar"
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The piece is divided into 10 well-balanced sections with clear transitions and a consistent structural framework. The section-balance score of 0.16 indicates a strong sense of form and coherence."
+        "reason": "section map, pacing, transitions, closure, and whether the piece holds as one form."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motivic integration is limited due to the lack of clear repetition or variation of musical cells. The recurrence ratio of 0.153 suggests minimal motif development, and the framework excerpt emphasizes the need for repetition-with-variation at cell, theme, and phrase levels."
+        "reason": "recurrence and transformation of melodic, harmonic, rhythmic, lyrical, textur\n...[truncated]..."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The piece exhibits a high level of spatial poise and harmonic beauty, with a consistent spectral centroid and flatness. The production quality is excellent, and the sonic space is well-structured."
+        "reason": "No evidence."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar score is moderate, with a cumulative evolution score of 1.33 and a rule change score of 8.06. The piece shows a significant amount of rule changes and transformations, indicating a complex and evolving musical grammar."
+        "reason": "section contrast score is low; rule change score is high."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The carry depth is strong, with a high emotional transport and re-listen pull. The lyrics and production are well-crafted, and the piece leaves a lasting impression on the listener."
+        "reason": "No evidence."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:39.28 with section-balance score 0.16.",
-      "Tempo estimate is 117.5 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -16.7 LUFS, peak is -2.5 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is C#/Db major with confidence 0.46.",
-      "Audio recurrence ratio is 0.153; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 763 beats and 265 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 3.41, cumulative evolution 1.33, transformed returns 10.00, grid deviation 2.41, rule changes 8.06.",
-      "Companion text has 8 lyric/production sections, 256 words, line repetition 0.03, rhyme-suffix reuse 0.05."
+      "Return valid JSON only.",
+      "Use the base Python scores as the anchor; adjust only when the framework/text/evidence justifies it.",
+      "If transcription_quality is available, treat low lyric alignment, sparse transcription, or probable full-song repetition as strong negative evidence.",
+      "Treat section detection as uncertain when audio-only evidence is weak or section detection looks suspicious; flag rather than over-correct.",
+      "Do not return keys outside the required JSON shape.",
+      "Ensure all axes are floats from 0..10.",
+      "Prefer deltas within +/-1.5 of base axis scores.",
+      "Larger moves require explicit evidence."
     ],
     "review_flags": [
-      "Uncertainty about the true extent of motivic integration due to limited motif recognition."
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:49:58.3930882Z",
-    "eval_count": 864,
-    "eval_duration": 14457662800
+    "created_at": "2026-06-10T10:49:12.3991522Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10857088,
+      "base64_chars": 14476120,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14743,
+    "prompt_eval_duration": 6537526000,
+    "eval_count": 729,
+    "eval_duration": 18675605000
   }
 }

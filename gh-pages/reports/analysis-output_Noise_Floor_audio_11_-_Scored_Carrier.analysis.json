@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:33:57",
+  "generated_at": "2026-06-10T12:35:10",
   "audio": {
     "path": "Noise Floor/audio/11 - Scored Carrier.mp3",
     "duration_seconds": 264.8,
@@ -1550,19 +1550,22 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.87,
-      "MI_motivic_integration": 7.21,
-      "BP_beauty_spatial_poise": 9.27,
-      "EG_evolving_grammar": 6.83,
-      "CD_carry_depth": 8.73
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.42,
+      "BP_beauty_spatial_poise": 9.33,
+      "EG_evolving_grammar": 6.93,
+      "CD_carry_depth": 9.05
     },
     "core_metrics": {
-      "CDPD": 0.845,
-      "NGE": 0.611,
+      "CDPD": 0.865,
+      "NGE": 0.616,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -1575,9 +1578,9 @@
       "overall_score": 3.315
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.3,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.3
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 13,
@@ -1594,369 +1597,76 @@
       "beat_this detected 440 beats and 120 downbeats; beat-grid stability is 0.88.",
       "EG evidence: section contrast 1.72, cumulative evolution 0.51, transformed returns 10.00, grid deviation 0.59, rule changes 2.50.",
       "Companion text has 10 lyric/production sections, 474 words, line repetition 0.12, rhyme-suffix reuse 0.31.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.67, unique-word coverage 0.73, word-count ratio 1.05, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.30, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 4.65."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "A little mark across the center Like a secret in the shell One fine grove in all the white plastic Where the separate circuits dwell There's the room big things to soften If I hide in any edge But by ditching every corner How to lean instead of bake I can feel the carry horizon Of the floorboards to my palms Every guided little relay Starts releasing into combat There's heat behind the meters There's silver in the white Not a mask in a erasure Just the body catching fire After how the line remembers How a split thing can connect Please score career up in the journal Bring the five sides into phase Let the party mind drop closer With the over and get the way I'm hearing all my stresses I haven't shitted and I am fine Every contact feels more human When the break becomes a line And the climb gets a little glassy And the laps lean into near For a breath I've checked the exits For a fault that isn't here Is my face arranged correctly On my hands too much to eat Because the console on my secret Does the booten expect a fee The fear is just a flutter In a transformer under load One small traveller In the ribbon not the ending of the cold So I'll stay with the signal Let it crest and let it pass All the locked up little switches Turning gold behind the glass The score career up in the journal Through the whole room into phase Left the party mind drop closer Everybody, every phase I am hearing all my stresses I haven't shitted and I am fine Every contact turns to current Every window that's me I've been so sick in the circuit dream I feel unastainable here No corruption, no apology Just the red divide in me Love, love, love, love, love, love, love, love Now I'm just knocking gold Just turned in love to feel the groove No borrowed shape No better face Just my own signal So I'll stay with the signal Let it crest and let it pass The score career up in the journal Through the whole room into phase Left the party mind drop closer Everybody, every phase I am hearing all my stresses I haven't shitted and I am fine Every contact turns to current Every window that's me If the mark was made for the party Then the party didn't learn to sing Then the small haves be come up course And the chorus welcomes everything Life through center Room made hope Warm receiver Open soul",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 27.12,
-        "text": "A little mark across the center Like a secret in the shell",
-        "avg_logprob": -0.46337890438735485,
-        "no_speech_prob": 0.7783203125
-      },
-      {
-        "start": 27.12,
-        "end": 36.56,
-        "text": "One fine grove in all the white plastic Where the separate circuits dwell",
-        "avg_logprob": -0.4568452276880779,
-        "no_speech_prob": 0.294677734375
-      },
-      {
-        "start": 36.56,
-        "end": 41.2,
-        "text": "There's the room big things to soften If I hide in any edge",
-        "avg_logprob": -0.4568452276880779,
-        "no_speech_prob": 0.294677734375
-      },
-      {
-        "start": 41.2,
-        "end": 45.76,
-        "text": "But by ditching every corner How to lean instead of bake",
-        "avg_logprob": -0.4568452276880779,
-        "no_speech_prob": 0.294677734375
-      },
-      {
-        "start": 45.76,
-        "end": 50.64,
-        "text": "I can feel the carry horizon Of the floorboards to my palms",
-        "avg_logprob": -0.4568452276880779,
-        "no_speech_prob": 0.294677734375
-      },
-      {
-        "start": 50.64,
-        "end": 55.44,
-        "text": "Every guided little relay Starts releasing into combat",
-        "avg_logprob": -0.47509058489315753,
-        "no_speech_prob": 0.083984375
-      },
-      {
-        "start": 55.44,
-        "end": 60.16,
-        "text": "There's heat behind the meters There's silver in the white",
-        "avg_logprob": -0.47509058489315753,
-        "no_speech_prob": 0.083984375
-      },
-      {
-        "start": 60.16,
-        "end": 64.96,
-        "text": "Not a mask in a erasure Just the body catching fire",
-        "avg_logprob": -0.47509058489315753,
-        "no_speech_prob": 0.083984375
-      },
-      {
-        "start": 64.96,
-        "end": 74.16,
-        "text": "After how the line remembers How a split thing can connect",
-        "avg_logprob": -0.47509058489315753,
-        "no_speech_prob": 0.083984375
-      },
-      {
-        "start": 74.16,
-        "end": 79.76,
-        "text": "Please score career up in the journal Bring the five sides into phase",
-        "avg_logprob": -0.47509058489315753,
-        "no_speech_prob": 0.083984375
-      },
-      {
-        "start": 79.76,
-        "end": 84.08,
-        "text": "Let the party mind drop closer With the over and get the way",
-        "avg_logprob": -0.6030585309292408,
-        "no_speech_prob": 0.03594970703125
-      },
-      {
-        "start": 84.08,
-        "end": 88.96,
-        "text": "I'm hearing all my stresses I haven't shitted and I am fine",
-        "avg_logprob": -0.6030585309292408,
-        "no_speech_prob": 0.03594970703125
-      },
-      {
-        "start": 88.96,
-        "end": 94.0,
-        "text": "Every contact feels more human When the break becomes a line",
-        "avg_logprob": -0.6030585309292408,
-        "no_speech_prob": 0.03594970703125
-      },
-      {
-        "start": 94.0,
-        "end": 107.28,
-        "text": "And the climb gets a little glassy And the laps lean into near",
-        "avg_logprob": -0.38500976376235485,
-        "no_speech_prob": 0.449951171875
-      },
-      {
-        "start": 107.28,
-        "end": 112.0,
-        "text": "For a breath I've checked the exits For a fault that isn't here",
-        "avg_logprob": -0.38500976376235485,
-        "no_speech_prob": 0.449951171875
-      },
-      {
-        "start": 112.0,
-        "end": 116.56,
-        "text": "Is my face arranged correctly On my hands too much to eat",
-        "avg_logprob": -0.38500976376235485,
-        "no_speech_prob": 0.449951171875
-      },
-      {
-        "start": 116.56,
-        "end": 121.44,
-        "text": "Because the console on my secret Does the booten expect a fee",
-        "avg_logprob": -0.38500976376235485,
-        "no_speech_prob": 0.449951171875
-      },
-      {
-        "start": 121.68,
-        "end": 126.0,
-        "text": "The fear is just a flutter In a transformer under load",
-        "avg_logprob": -0.34937500953674316,
-        "no_speech_prob": 0.020965576171875
-      },
-      {
-        "start": 126.0,
-        "end": 130.8,
-        "text": "One small traveller In the ribbon not the ending of the cold",
-        "avg_logprob": -0.34937500953674316,
-        "no_speech_prob": 0.020965576171875
-      },
-      {
-        "start": 130.8,
-        "end": 136.16,
-        "text": "So I'll stay with the signal Let it crest and let it pass",
-        "avg_logprob": -0.34937500953674316,
-        "no_speech_prob": 0.020965576171875
-      },
-      {
-        "start": 136.16,
-        "end": 143.92,
-        "text": "All the locked up little switches Turning gold behind the glass",
-        "avg_logprob": -0.34937500953674316,
-        "no_speech_prob": 0.020965576171875
-      },
-      {
-        "start": 143.92,
-        "end": 148.8,
-        "text": "The score career up in the journal Through the whole room into phase",
-        "avg_logprob": -0.34937500953674316,
-        "no_speech_prob": 0.020965576171875
-      },
-      {
-        "start": 148.8,
-        "end": 153.44,
-        "text": "Left the party mind drop closer Everybody, every phase",
-        "avg_logprob": -0.5409628321995607,
-        "no_speech_prob": 0.0266571044921875
-      },
-      {
-        "start": 153.44,
-        "end": 158.0,
-        "text": "I am hearing all my stresses I haven't shitted and I am fine",
-        "avg_logprob": -0.5409628321995607,
-        "no_speech_prob": 0.0266571044921875
-      },
-      {
-        "start": 158.0,
-        "end": 163.28,
-        "text": "Every contact turns to current Every window that's me",
-        "avg_logprob": -0.5409628321995607,
-        "no_speech_prob": 0.0266571044921875
-      },
-      {
-        "start": 163.28,
-        "end": 167.92,
-        "text": "I've been so sick in the circuit dream I feel unastainable here",
-        "avg_logprob": -0.5409628321995607,
-        "no_speech_prob": 0.0266571044921875
-      },
-      {
-        "start": 167.92,
-        "end": 172.96,
-        "text": "No corruption, no apology Just the red divide in me",
-        "avg_logprob": -0.5409628321995607,
-        "no_speech_prob": 0.0266571044921875
-      },
-      {
-        "start": 173.04,
-        "end": 177.84,
-        "text": "Love, love, love, love, love, love, love, love",
-        "avg_logprob": -0.5146276316744216,
-        "no_speech_prob": 0.0579833984375
-      },
-      {
-        "start": 177.84,
-        "end": 186.48,
-        "text": "Now I'm just knocking gold Just turned in love to feel the groove",
-        "avg_logprob": -0.5146276316744216,
-        "no_speech_prob": 0.0579833984375
-      },
-      {
-        "start": 186.48,
-        "end": 194.88,
-        "text": "No borrowed shape No better face Just my own signal",
-        "avg_logprob": -0.5146276316744216,
-        "no_speech_prob": 0.0579833984375
-      },
-      {
-        "start": 194.88,
-        "end": 203.12,
-        "text": "So I'll stay with the signal Let it crest and let it pass",
-        "avg_logprob": -0.4350694338480631,
-        "no_speech_prob": 0.30712890625
-      },
-      {
-        "start": 212.32,
-        "end": 217.36,
-        "text": "The score career up in the journal Through the whole room into phase",
-        "avg_logprob": -0.4350694338480631,
-        "no_speech_prob": 0.30712890625
-      },
-      {
-        "start": 217.36,
-        "end": 222.0,
-        "text": "Left the party mind drop closer Everybody, every phase",
-        "avg_logprob": -0.4350694338480631,
-        "no_speech_prob": 0.30712890625
-      },
-      {
-        "start": 222.08,
-        "end": 226.96,
-        "text": "I am hearing all my stresses I haven't shitted and I am fine",
-        "avg_logprob": -0.386126899357998,
-        "no_speech_prob": 0.08392333984375
-      },
-      {
-        "start": 226.96,
-        "end": 232.24,
-        "text": "Every contact turns to current Every window that's me",
-        "avg_logprob": -0.386126899357998,
-        "no_speech_prob": 0.08392333984375
-      },
-      {
-        "start": 232.24,
-        "end": 236.72,
-        "text": "If the mark was made for the party Then the party didn't learn to sing",
-        "avg_logprob": -0.386126899357998,
-        "no_speech_prob": 0.08392333984375
-      },
-      {
-        "start": 236.72,
-        "end": 242.0,
-        "text": "Then the small haves be come up course And the chorus welcomes everything",
-        "avg_logprob": -0.386126899357998,
-        "no_speech_prob": 0.08392333984375
-      },
-      {
-        "start": 242.0,
-        "end": 255.52,
-        "text": "Life through center Room made hope Warm receiver Open soul",
-        "avg_logprob": -0.9681490384615384,
-        "no_speech_prob": 0.5771484375
-      }
-    ],
-    "avg_logprob": -0.48251602847464475
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 418,
-    "transcript_word_count": 439,
-    "matched_sequence_words": 280,
-    "lyric_alignment_ratio": 0.67,
-    "transcript_precision_ratio": 0.638,
-    "unique_expected_word_coverage": 0.733,
-    "word_count_ratio": 1.05,
-    "repeated_12gram_ratio": 0.086,
-    "half_similarity": 0.237,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.679,
-    "quality_score_0_10": 6.79,
-    "flags": [],
-    "transcript_excerpt": "A little mark across the center Like a secret in the shell One fine grove in all the white plastic Where the separate circuits dwell There's the room big things to soften If I hide in any edge But by ditching every corner How to lean instead of bake I can feel the carry horizon Of the floorboards to my palms Every guided little relay Starts releasing into combat There's heat behind the meters There's silver in the white Not a mask in a erasure Just the body catching fire After how the line remembers How a split thing can connect Please score career up in the journal Bring the five sides into p\n...[truncated]...\ning gold Just turned in love to feel the groove No borrowed shape No better face Just my own signal So I'll stay with the signal Let it crest and let it pass The score career up in the journal Through the whole room into phase Left the party mind drop closer Everybody, every phase I am hearing all my stresses I haven't shitted and I am fine Every contact turns to current Every window that's me If the mark was made for the party Then the party didn't learn to sing Then the small haves be come up course And the chorus welcomes everything Life through center Room made hope Warm receiver Open soul"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.87,
-      "MI_motivic_integration": 7.21,
-      "BP_beauty_spatial_poise": 9.27,
-      "EG_evolving_grammar": 6.83,
-      "CD_carry_depth": 8.73
+      "SC_structural_coherence": 9.5,
+      "MI_motivic_integration": 8.2,
+      "BP_beauty_spatial_poise": 9.33,
+      "EG_evolving_grammar": 7.4,
+      "CD_carry_depth": 9.05
     },
     "core_metrics": {
-      "CDPD": 0.845,
-      "NGE": 0.611,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.88,
+      "NGE": 0.65,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in structure and lyrical depth."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": 0.0,
-        "reason": "The track maintains strong structural coherence with clear section functions and returns that revisit emotional rooms."
+        "delta": -0.5,
+        "reason": "Stronger evidence of intentional transition design between sections."
       },
       "MI_motivic_integration": {
-        "delta": 0.0,
-        "reason": "Motifs like the scored-line click and vocal hooks recur in altered forms across sections, showing strong motivic integration."
+        "delta": 0.78,
+        "reason": "Lyric imagery and repetition suggest a more cohesive thematic arc than base score implies."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The stereo field and sonic habitat (narrow pulse to wide saturation) form a memorable and spatially coherent environment."
+        "reason": "Base score is already high; no evidence of poor spatial arrangement."
       },
       "EG_evolving_grammar": {
-        "delta": 0.0,
-        "reason": "While the track develops a personal indie grammar over time, it does not fully invent a new method, so the score is slightly adjusted downward."
+        "delta": 0.47,
+        "reason": "The lyrical progression from 'strangeness' to 'chorus' shows intentional growth in scope."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track feels like a small world with a clear emotional arc and memorable sonic imprint."
+        "reason": "Base score is already high; no evidence of lack of depth."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:24.80 with section-balance score 0.37.",
-      "Tempo estimate is 99.4 BPM; declared tempo alignment contributes 0.67.",
-      "Integrated loudness is -17.6 LUFS, peak is -1.5 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is A#/Bb minor with confidence 0.34.",
-      "Audio recurrence ratio is 0.256; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 440 beats and 120 downbeats; beat-grid stability is 0.88.",
-      "EG evidence: section contrast 1.72, cumulative evolution 0.51, transformed returns 10.00, grid deviation 0.59, rule changes 2.50.",
-      "Companion text has 10 lyric/production sections, 474 words, line repetition 0.12, rhyme-suffix reuse 0.31."
+      "Strong structural coherence with clear transitions and a defined outro.",
+      "Motivic integration is high due to the recurring 'carrier' motif and consistent imagery.",
+      "High production value in arrangement architecture.",
+      "Lyrics show significant thematic development."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the audio; section-balance score is low, suggesting uneven distribution."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:33:57.4596075Z",
-    "eval_count": 811,
-    "eval_duration": 15180705100
+    "created_at": "2026-06-10T10:35:10.2030231Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8473678,
+      "base64_chars": 11298240,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12244,
+    "prompt_eval_duration": 5311476000,
+    "eval_count": 392,
+    "eval_duration": 9746738000
   }
 }

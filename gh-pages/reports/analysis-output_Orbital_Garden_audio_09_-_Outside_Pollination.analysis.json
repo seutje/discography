@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:39:09",
+  "generated_at": "2026-06-10T12:39:34",
   "audio": {
     "path": "Orbital Garden/audio/09 - Outside Pollination.mp3",
     "duration_seconds": 209.64,
@@ -1328,19 +1328,22 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 7.74,
-      "MI_motivic_integration": 7.07,
-      "BP_beauty_spatial_poise": 7.99,
-      "EG_evolving_grammar": 8.08,
-      "CD_carry_depth": 6.98
+      "SC_structural_coherence": 7.83,
+      "MI_motivic_integration": 7.21,
+      "BP_beauty_spatial_poise": 8.03,
+      "EG_evolving_grammar": 8.15,
+      "CD_carry_depth": 7.18
     },
     "core_metrics": {
-      "CDPD": 0.729,
-      "NGE": 0.698,
+      "CDPD": 0.742,
+      "NGE": 0.702,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -1353,9 +1356,9 @@
       "overall_score": 4.985
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.198,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.198
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 10,
@@ -1372,313 +1375,75 @@
       "beat_this detected 379 beats and 100 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 2.12, cumulative evolution 1.03, transformed returns 10.00, grid deviation 2.33, rule changes 8.00.",
       "Companion text has 8 lyric/production sections, 289 words, line repetition 0.14, rhyme-suffix reuse 0.36.",
-      "Production/vocal notes contain transformation cues (dropout, formal-pivot, space-change); intent score 5.30.",
-      "Transcription check: lyric alignment 0.69, unique-word coverage 0.75, word-count ratio 1.14, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.20, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (dropout, formal-pivot, space-change); intent score 5.30."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "How outside the glass, the flowers turn, small wings crossing, where they burn. I built the body out of focus, made it light enough to trust and to do the outer trail. It's where the petals held their dust. No room left for in the chat, then no spare time to pull apart. Only breath the name, they're changing only weather through the heart. Fast and low, wide and near. Speed can make a sudden hush when the winder becomes the blue. No thoughts are full throttle, only cord and glass than air. I'll be on the moving question. I'll be on the line, I'll be on the safer walkway. Cast the rail and do this work. I can feel the flowers and several, and I carry gold away. Sometimes I talk to patients, sometimes pieces talk me crap. I will gather up the lesson from the floor and build it back. Flight was never pure escape, it was a tension on the strain. How to lose myself completely in my darkness, all in greens. Break, repair, rise, revive. The body learns what fear cannot explain. The hand goes quiet, the path gets bright. One cleans again, I am only what the dawner needs to fly. No thoughts are full throttle, only cord and glass than air. I'll be on the moving question. I'll be on the line, I'll be on the safer walkway. Cast the rail and do this work. I can feel the flowers and several, and I carry gold away. Sometimes I talk to patients, sometimes pieces talk me crap. I'll be on the line, I'll be on the road. I'll be on the road. I'll be on the road. I'll be on the road.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 28.0,
-        "text": "How outside the glass, the flowers turn, small wings crossing, where they burn.",
-        "avg_logprob": -0.7842262018294561,
-        "no_speech_prob": 0.32666015625
-      },
-      {
-        "start": 28.0,
-        "end": 47.0,
-        "text": "I built the body out of focus, made it light enough to trust and to do the outer trail.",
-        "avg_logprob": -0.45717593365245396,
-        "no_speech_prob": 0.375
-      },
-      {
-        "start": 47.0,
-        "end": 49.0,
-        "text": "It's where the petals held their dust.",
-        "avg_logprob": -0.45717593365245396,
-        "no_speech_prob": 0.375
-      },
-      {
-        "start": 49.0,
-        "end": 52.0,
-        "text": "No room left for in the chat, then no spare time to pull apart.",
-        "avg_logprob": -0.45717593365245396,
-        "no_speech_prob": 0.375
-      },
-      {
-        "start": 52.0,
-        "end": 56.0,
-        "text": "Only breath the name, they're changing only weather through the heart.",
-        "avg_logprob": -0.3851562514901161,
-        "no_speech_prob": 0.7158203125
-      },
-      {
-        "start": 56.0,
-        "end": 62.0,
-        "text": "Fast and low, wide and near.",
-        "avg_logprob": -0.3851562514901161,
-        "no_speech_prob": 0.7158203125
-      },
-      {
-        "start": 62.0,
-        "end": 69.0,
-        "text": "Speed can make a sudden hush when the winder becomes the blue.",
-        "avg_logprob": -0.3851562514901161,
-        "no_speech_prob": 0.7158203125
-      },
-      {
-        "start": 69.0,
-        "end": 76.0,
-        "text": "No thoughts are full throttle, only cord and glass than air.",
-        "avg_logprob": -0.3851562514901161,
-        "no_speech_prob": 0.7158203125
-      },
-      {
-        "start": 76.0,
-        "end": 79.0,
-        "text": "I'll be on the moving question.",
-        "avg_logprob": -0.31529017058866365,
-        "no_speech_prob": 0.56884765625
-      },
-      {
-        "start": 79.0,
-        "end": 86.0,
-        "text": "I'll be on the line, I'll be on the safer walkway.",
-        "avg_logprob": -0.31529017058866365,
-        "no_speech_prob": 0.56884765625
-      },
-      {
-        "start": 86.0,
-        "end": 89.0,
-        "text": "Cast the rail and do this work.",
-        "avg_logprob": -0.31529017058866365,
-        "no_speech_prob": 0.56884765625
-      },
-      {
-        "start": 89.0,
-        "end": 103.0,
-        "text": "I can feel the flowers and several, and I carry gold away.",
-        "avg_logprob": -0.31529017058866365,
-        "no_speech_prob": 0.56884765625
-      },
-      {
-        "start": 103.0,
-        "end": 107.0,
-        "text": "Sometimes I talk to patients, sometimes pieces talk me crap.",
-        "avg_logprob": -0.3315135398543025,
-        "no_speech_prob": 0.357177734375
-      },
-      {
-        "start": 107.0,
-        "end": 110.0,
-        "text": "I will gather up the lesson from the floor and build it back.",
-        "avg_logprob": -0.3315135398543025,
-        "no_speech_prob": 0.357177734375
-      },
-      {
-        "start": 110.0,
-        "end": 114.0,
-        "text": "Flight was never pure escape, it was a tension on the strain.",
-        "avg_logprob": -0.3315135398543025,
-        "no_speech_prob": 0.357177734375
-      },
-      {
-        "start": 114.0,
-        "end": 118.0,
-        "text": "How to lose myself completely in my darkness, all in greens.",
-        "avg_logprob": -0.3315135398543025,
-        "no_speech_prob": 0.357177734375
-      },
-      {
-        "start": 118.0,
-        "end": 124.0,
-        "text": "Break, repair, rise, revive.",
-        "avg_logprob": -0.3315135398543025,
-        "no_speech_prob": 0.357177734375
-      },
-      {
-        "start": 124.0,
-        "end": 129.0,
-        "text": "The body learns what fear cannot explain.",
-        "avg_logprob": -0.3315135398543025,
-        "no_speech_prob": 0.357177734375
-      },
-      {
-        "start": 129.0,
-        "end": 132.0,
-        "text": "The hand goes quiet, the path gets bright.",
-        "avg_logprob": -0.19277871581348213,
-        "no_speech_prob": 0.11468505859375
-      },
-      {
-        "start": 132.0,
-        "end": 141.0,
-        "text": "One cleans again, I am only what the dawner needs to fly.",
-        "avg_logprob": -0.19277871581348213,
-        "no_speech_prob": 0.11468505859375
-      },
-      {
-        "start": 141.0,
-        "end": 148.0,
-        "text": "No thoughts are full throttle, only cord and glass than air.",
-        "avg_logprob": -0.19277871581348213,
-        "no_speech_prob": 0.11468505859375
-      },
-      {
-        "start": 148.0,
-        "end": 152.0,
-        "text": "I'll be on the moving question.",
-        "avg_logprob": -0.19277871581348213,
-        "no_speech_prob": 0.11468505859375
-      },
-      {
-        "start": 152.0,
-        "end": 157.0,
-        "text": "I'll be on the line, I'll be on the safer walkway.",
-        "avg_logprob": -0.19277871581348213,
-        "no_speech_prob": 0.11468505859375
-      },
-      {
-        "start": 158.0,
-        "end": 162.0,
-        "text": "Cast the rail and do this work.",
-        "avg_logprob": -0.2113415940568365,
-        "no_speech_prob": 0.37841796875
-      },
-      {
-        "start": 162.0,
-        "end": 171.0,
-        "text": "I can feel the flowers and several, and I carry gold away.",
-        "avg_logprob": -0.2113415940568365,
-        "no_speech_prob": 0.37841796875
-      },
-      {
-        "start": 171.0,
-        "end": 178.0,
-        "text": "Sometimes I talk to patients, sometimes pieces talk me crap.",
-        "avg_logprob": -0.2113415940568365,
-        "no_speech_prob": 0.37841796875
-      },
-      {
-        "start": 178.0,
-        "end": 186.0,
-        "text": "I'll be on the line, I'll be on the road.",
-        "avg_logprob": -0.2113415940568365,
-        "no_speech_prob": 0.37841796875
-      },
-      {
-        "start": 186.0,
-        "end": 193.0,
-        "text": "I'll be on the road.",
-        "avg_logprob": -0.510907307267189,
-        "no_speech_prob": 0.81298828125
-      },
-      {
-        "start": 193.0,
-        "end": 200.0,
-        "text": "I'll be on the road.",
-        "avg_logprob": -0.510907307267189,
-        "no_speech_prob": 0.81298828125
-      },
-      {
-        "start": 200.0,
-        "end": 209.0,
-        "text": "I'll be on the road.",
-        "avg_logprob": -0.510907307267189,
-        "no_speech_prob": 0.81298828125
-      }
-    ],
-    "avg_logprob": -0.39602273788589665
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 252,
-    "transcript_word_count": 288,
-    "matched_sequence_words": 173,
-    "lyric_alignment_ratio": 0.687,
-    "transcript_precision_ratio": 0.601,
-    "unique_expected_word_coverage": 0.754,
-    "word_count_ratio": 1.143,
-    "repeated_12gram_ratio": 0.181,
-    "half_similarity": 0.458,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.691,
-    "quality_score_0_10": 6.91,
-    "flags": [],
-    "transcript_excerpt": "How outside the glass, the flowers turn, small wings crossing, where they burn. I built the body out of focus, made it light enough to trust and to do the outer trail. It's where the petals held their dust. No room left for in the chat, then no spare time to pull apart. Only breath the name, they're changing only weather through the heart. Fast and low, wide and near. Speed can make a sudden hush when the winder becomes the blue. No thoughts are full throttle, only cord and glass than air. I'll be on the moving question. I'll be on the line, I'll be on the safer walkway. Cast the rail and do t\n...[truncated]...\nmy darkness, all in greens. Break, repair, rise, revive. The body learns what fear cannot explain. The hand goes quiet, the path gets bright. One cleans again, I am only what the dawner needs to fly. No thoughts are full throttle, only cord and glass than air. I'll be on the moving question. I'll be on the line, I'll be on the safer walkway. Cast the rail and do this work. I can feel the flowers and several, and I carry gold away. Sometimes I talk to patients, sometimes pieces talk me crap. I'll be on the line, I'll be on the road. I'll be on the road. I'll be on the road. I'll be on the road."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.24,
-      "MI_motivic_integration": 7.57,
-      "BP_beauty_spatial_poise": 8.49,
-      "EG_evolving_grammar": 8.08,
-      "CD_carry_depth": 7.48
+      "SC_structural_coherence": 8.45,
+      "MI_motivic_integration": 7.21,
+      "BP_beauty_spatial_poise": 8.03,
+      "EG_evolving_grammar": 8.15,
+      "CD_carry_depth": 7.18
     },
     "core_metrics": {
-      "CDPD": 0.729,
-      "NGE": 0.698,
+      "CDPD": 0.742,
+      "NGE": 0.702,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
-      "number": 13,
-      "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "number": 10,
+      "label": "Technical Perfection, No Rupture",
+      "note": "High production value and clear structural transitions."
     },
-    "confidence_0_10": 8.7,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": 0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting the same emotional room."
+        "delta": 0.62,
+        "reason": "Strongly defined sections (Intro, Verse, Pre-Hook, Hook) with distinct sonic shifts."
       },
       "MI_motivic_integration": {
-        "delta": 0.5,
-        "reason": "Motivic integration is high: the vocal hook, guitar figure, and lyric image recur in altered forms across sections."
+        "delta": 0.0,
+        "reason": "Base score remains accurate for the consistent melodic motif."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.5,
-        "reason": "The track’s spatial poise is central to its identity, with room tone and guitar space forming a memorable habitat."
+        "delta": 0.0,
+        "reason": "Production is polished and spatially balanced."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "EG does not fully invent a new method, but it develops a personal indie grammar over time."
+        "reason": "Lyric progression follows a clear arc from observation to internal state."
       },
       "CD_carry_depth": {
-        "delta": 0.5,
-        "reason": "CD is strong enough that the song feels like a small world rather than a playlist mood."
+        "delta": 0.0,
+        "reason": "Thematic depth is consistent with the 'Indietronica' aesthetic."
       }
     },
     "rationale": [
-      "Detected 6 audio sections over 3:29.64 with section-balance score 0.27.",
-      "Tempo estimate is 136.0 BPM; declared tempo alignment contributes 0.53.",
-      "Integrated loudness is -18.4 LUFS, peak is -2.1 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is C minor with confidence 0.55.",
-      "Audio recurrence ratio is 0.320; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 379 beats and 100 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 2.12, cumulative evolution 1.03, transformed returns 10.00, grid deviation 2.33, rule changes 8.00.",
-      "Companion text has 8 lyric/production sections, 289 words, line repetition 0.14, rhyme-suffix reuse 0.36."
+      "Strong structural definition through contrast between tight verses and expansive hooks.",
+      "Effective use of production shifts (dub delay, synth sub) to signal transitions.",
+      "Lyrical imagery ('bloom', 'orbit') creates a cohesive atmosphere."
     ],
     "review_flags": [
-      "Uncertainty remains about the exact nature of the harmonic and motivic integration due to the lack of direct motif recognition."
+      ""
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:39:09.4376161Z",
-    "eval_count": 815,
-    "eval_duration": 13199474600
+    "created_at": "2026-06-10T10:39:34.9580594Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 6708558,
+      "base64_chars": 8944744,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 10065,
+    "prompt_eval_duration": 4219682000,
+    "eval_count": 388,
+    "eval_duration": 9467333000
   }
 }

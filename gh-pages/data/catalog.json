@@ -1,6 +1,11 @@
 {
-  "generated_at": "2026-06-09T15:04:40Z",
+  "generated_at": "2026-06-10T11:22:13Z",
   "news": [
+    {
+      "title": "Catalogue re-analyzed with upgraded review model",
+      "datetime": "2026-06-10T10:30:00+02:00",
+      "body": "Fixed an analyzer issue, switched the LLM adjustment pass to Gemma 4 12B with audio-aware review, and re-analyzed every song in the catalogue. Song scores and report details now reflect the refreshed analysis."
+    },
     {
       "title": "Report assets restored for source previews",
       "datetime": "2026-06-09T00:30:48+02:00",

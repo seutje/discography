@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:51:18",
+  "generated_at": "2026-06-10T12:50:28",
   "audio": {
     "path": "UNMEASURED GEOMETRY/audio/04 - Maybe's Marathon.mp3",
     "duration_seconds": 312.76,
@@ -2110,7 +2110,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -2153,503 +2156,8 @@
       "Audio recurrence ratio is 0.152; this is a rough proxy for repeated musical cells, not true motif recognition.",
       "beat_this detected 650 beats and 185 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 4.26, cumulative evolution 2.25, transformed returns 10.00, grid deviation 2.43, rule changes 8.75.",
-      "Companion text has 9 lyric/production sections, 376 words, line repetition 0.06, rhyme-suffix reuse 0.20.",
-      "Transcription check: lyric alignment 0.75, unique-word coverage 0.78, word-count ratio 1.03, duplicate-pass estimate 1."
+      "Companion text has 9 lyric/production sections, 376 words, line repetition 0.06, rhyme-suffix reuse 0.20."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I was thrown through other hallways Paper names pinned to my skin Don't know me cause cold me broken But I was only chewing it Every threshold felt like exile Every silence I've been seeing How do you learn to run a lifetime When you're born without the wheels But the world keeps shouting faster As I dragged life and some peace They messed up the sparks for failure Why smuggled in the heat Was a man to cross the horizons On a marathon over Legally saw a starting light Still convinced I'd get somewhere The winds had been more gently If I had an steady line Would I be another story Or the ghost of what alive I was coated in mosaics Shards of weightlessness perceived They kept patching me with diagnosis That my in a post refused to breathe Shuffled like a quiet cipher Through the gates of borrowed time But even fractured engines whispered Dreams that never learned to rise Still the chorus of the normal Try to script my every movement How you trust the compass When the needle was never proven Was a man to cross the horizons On a marathon over Legally saw a starting light Still convinced I'd get somewhere If the ties had leaned toward mercy If I spark and let my flame Would I stand on new accounts And then sort of sold it to the same I called the track I can't sir calls A ceremony of unseen bones Tracking futures made of An answer dial of tones But somewhere in the static I still hear the version mean The one who learned to levitate Where lies were never meant to be I was running through the ages On the path that never stayed Carrying invisible victories No stopwatch ever weighed If the world had offered shelter If the sky had cracked a sign Would I rise this evolution Or remain the shadowed spine Still I moved without the legs They swore I'd need To hell I'll breathe a marathon Of a single speed Still I ask what's shaped like Their engines were light Still I run across the dark That made me bright Talk that made me bright I'm high",
-    "segments": [
-      {
-        "start": 30.0,
-        "end": 40.0,
-        "text": "I was thrown through other hallways",
-        "avg_logprob": -0.5270270463582631,
-        "no_speech_prob": 0.6953125
-      },
-      {
-        "start": 40.0,
-        "end": 45.0,
-        "text": "Paper names pinned to my skin",
-        "avg_logprob": -0.5270270463582631,
-        "no_speech_prob": 0.6953125
-      },
-      {
-        "start": 45.0,
-        "end": 50.0,
-        "text": "Don't know me cause cold me broken",
-        "avg_logprob": -0.5270270463582631,
-        "no_speech_prob": 0.6953125
-      },
-      {
-        "start": 50.0,
-        "end": 56.0,
-        "text": "But I was only chewing it",
-        "avg_logprob": -0.5270270463582631,
-        "no_speech_prob": 0.6953125
-      },
-      {
-        "start": 57.0,
-        "end": 62.0,
-        "text": "Every threshold felt like exile",
-        "avg_logprob": -0.3110795481638475,
-        "no_speech_prob": 0.06524658203125
-      },
-      {
-        "start": 62.0,
-        "end": 67.0,
-        "text": "Every silence I've been seeing",
-        "avg_logprob": -0.3110795481638475,
-        "no_speech_prob": 0.06524658203125
-      },
-      {
-        "start": 67.0,
-        "end": 70.0,
-        "text": "How do you learn to run a lifetime",
-        "avg_logprob": -0.3110795481638475,
-        "no_speech_prob": 0.06524658203125
-      },
-      {
-        "start": 70.0,
-        "end": 75.0,
-        "text": "When you're born without the wheels",
-        "avg_logprob": -0.3110795481638475,
-        "no_speech_prob": 0.06524658203125
-      },
-      {
-        "start": 75.0,
-        "end": 80.0,
-        "text": "But the world keeps shouting faster",
-        "avg_logprob": -0.3110795481638475,
-        "no_speech_prob": 0.06524658203125
-      },
-      {
-        "start": 81.0,
-        "end": 86.0,
-        "text": "As I dragged life and some peace",
-        "avg_logprob": -0.310194658451393,
-        "no_speech_prob": 0.098388671875
-      },
-      {
-        "start": 86.0,
-        "end": 91.0,
-        "text": "They messed up the sparks for failure",
-        "avg_logprob": -0.310194658451393,
-        "no_speech_prob": 0.098388671875
-      },
-      {
-        "start": 91.0,
-        "end": 96.0,
-        "text": "Why smuggled in the heat",
-        "avg_logprob": -0.310194658451393,
-        "no_speech_prob": 0.098388671875
-      },
-      {
-        "start": 96.0,
-        "end": 99.0,
-        "text": "Was a man to cross the horizons",
-        "avg_logprob": -0.310194658451393,
-        "no_speech_prob": 0.098388671875
-      },
-      {
-        "start": 99.0,
-        "end": 102.0,
-        "text": "On a marathon over",
-        "avg_logprob": -0.310194658451393,
-        "no_speech_prob": 0.098388671875
-      },
-      {
-        "start": 102.0,
-        "end": 104.0,
-        "text": "Legally saw a starting light",
-        "avg_logprob": -0.310194658451393,
-        "no_speech_prob": 0.098388671875
-      },
-      {
-        "start": 104.0,
-        "end": 107.0,
-        "text": "Still convinced I'd get somewhere",
-        "avg_logprob": -0.310194658451393,
-        "no_speech_prob": 0.098388671875
-      },
-      {
-        "start": 107.0,
-        "end": 109.0,
-        "text": "The winds had been more gently",
-        "avg_logprob": -0.2976562577486038,
-        "no_speech_prob": 0.00542449951171875
-      },
-      {
-        "start": 109.0,
-        "end": 112.0,
-        "text": "If I had an steady line",
-        "avg_logprob": -0.2976562577486038,
-        "no_speech_prob": 0.00542449951171875
-      },
-      {
-        "start": 112.0,
-        "end": 114.0,
-        "text": "Would I be another story",
-        "avg_logprob": -0.2976562577486038,
-        "no_speech_prob": 0.00542449951171875
-      },
-      {
-        "start": 114.0,
-        "end": 121.0,
-        "text": "Or the ghost of what alive",
-        "avg_logprob": -0.2976562577486038,
-        "no_speech_prob": 0.00542449951171875
-      },
-      {
-        "start": 124.0,
-        "end": 128.0,
-        "text": "I was coated in mosaics",
-        "avg_logprob": -0.2976562577486038,
-        "no_speech_prob": 0.00542449951171875
-      },
-      {
-        "start": 128.0,
-        "end": 133.0,
-        "text": "Shards of weightlessness perceived",
-        "avg_logprob": -0.2976562577486038,
-        "no_speech_prob": 0.00542449951171875
-      },
-      {
-        "start": 133.0,
-        "end": 137.0,
-        "text": "They kept patching me with diagnosis",
-        "avg_logprob": -0.19280849358974358,
-        "no_speech_prob": 0.256591796875
-      },
-      {
-        "start": 137.0,
-        "end": 143.0,
-        "text": "That my in a post refused to breathe",
-        "avg_logprob": -0.19280849358974358,
-        "no_speech_prob": 0.256591796875
-      },
-      {
-        "start": 143.0,
-        "end": 146.0,
-        "text": "Shuffled like a quiet cipher",
-        "avg_logprob": -0.19280849358974358,
-        "no_speech_prob": 0.256591796875
-      },
-      {
-        "start": 146.0,
-        "end": 148.0,
-        "text": "Through the gates of borrowed time",
-        "avg_logprob": -0.19280849358974358,
-        "no_speech_prob": 0.256591796875
-      },
-      {
-        "start": 148.0,
-        "end": 151.0,
-        "text": "But even fractured engines whispered",
-        "avg_logprob": -0.19280849358974358,
-        "no_speech_prob": 0.256591796875
-      },
-      {
-        "start": 151.0,
-        "end": 153.0,
-        "text": "Dreams that never learned to rise",
-        "avg_logprob": -0.19280849358974358,
-        "no_speech_prob": 0.256591796875
-      },
-      {
-        "start": 153.0,
-        "end": 156.0,
-        "text": "Still the chorus of the normal",
-        "avg_logprob": -0.19280849358974358,
-        "no_speech_prob": 0.256591796875
-      },
-      {
-        "start": 156.0,
-        "end": 158.0,
-        "text": "Try to script my every movement",
-        "avg_logprob": -0.19280849358974358,
-        "no_speech_prob": 0.256591796875
-      },
-      {
-        "start": 158.0,
-        "end": 160.0,
-        "text": "How you trust the compass",
-        "avg_logprob": -0.19280849358974358,
-        "no_speech_prob": 0.256591796875
-      },
-      {
-        "start": 160.0,
-        "end": 163.0,
-        "text": "When the needle was never proven",
-        "avg_logprob": -0.24058493551535484,
-        "no_speech_prob": 0.061279296875
-      },
-      {
-        "start": 163.0,
-        "end": 165.0,
-        "text": "Was a man to cross the horizons",
-        "avg_logprob": -0.24058493551535484,
-        "no_speech_prob": 0.061279296875
-      },
-      {
-        "start": 165.0,
-        "end": 168.0,
-        "text": "On a marathon over",
-        "avg_logprob": -0.24058493551535484,
-        "no_speech_prob": 0.061279296875
-      },
-      {
-        "start": 168.0,
-        "end": 171.0,
-        "text": "Legally saw a starting light",
-        "avg_logprob": -0.24058493551535484,
-        "no_speech_prob": 0.061279296875
-      },
-      {
-        "start": 171.0,
-        "end": 173.0,
-        "text": "Still convinced I'd get somewhere",
-        "avg_logprob": -0.24058493551535484,
-        "no_speech_prob": 0.061279296875
-      },
-      {
-        "start": 173.0,
-        "end": 176.0,
-        "text": "If the ties had leaned toward mercy",
-        "avg_logprob": -0.24058493551535484,
-        "no_speech_prob": 0.061279296875
-      },
-      {
-        "start": 176.0,
-        "end": 178.0,
-        "text": "If I spark and let my flame",
-        "avg_logprob": -0.24058493551535484,
-        "no_speech_prob": 0.061279296875
-      },
-      {
-        "start": 178.0,
-        "end": 180.0,
-        "text": "Would I stand on new accounts",
-        "avg_logprob": -0.24058493551535484,
-        "no_speech_prob": 0.061279296875
-      },
-      {
-        "start": 180.0,
-        "end": 185.0,
-        "text": "And then sort of sold it to the same",
-        "avg_logprob": -0.24058493551535484,
-        "no_speech_prob": 0.061279296875
-      },
-      {
-        "start": 190.0,
-        "end": 209.0,
-        "text": "I called the track I can't sir calls",
-        "avg_logprob": -0.7192731036080254,
-        "no_speech_prob": 0.1126708984375
-      },
-      {
-        "start": 209.0,
-        "end": 214.0,
-        "text": "A ceremony of unseen bones",
-        "avg_logprob": -0.7192731036080254,
-        "no_speech_prob": 0.1126708984375
-      },
-      {
-        "start": 214.0,
-        "end": 219.0,
-        "text": "Tracking futures made of",
-        "avg_logprob": -0.7192731036080254,
-        "no_speech_prob": 0.1126708984375
-      },
-      {
-        "start": 219.0,
-        "end": 224.0,
-        "text": "An answer dial of tones",
-        "avg_logprob": -0.224062502682209,
-        "no_speech_prob": 0.04425048828125
-      },
-      {
-        "start": 224.0,
-        "end": 229.0,
-        "text": "But somewhere in the static",
-        "avg_logprob": -0.224062502682209,
-        "no_speech_prob": 0.04425048828125
-      },
-      {
-        "start": 229.0,
-        "end": 234.0,
-        "text": "I still hear the version mean",
-        "avg_logprob": -0.224062502682209,
-        "no_speech_prob": 0.04425048828125
-      },
-      {
-        "start": 234.0,
-        "end": 239.0,
-        "text": "The one who learned to levitate",
-        "avg_logprob": -0.224062502682209,
-        "no_speech_prob": 0.04425048828125
-      },
-      {
-        "start": 239.0,
-        "end": 245.0,
-        "text": "Where lies were never meant to be",
-        "avg_logprob": -0.224062502682209,
-        "no_speech_prob": 0.04425048828125
-      },
-      {
-        "start": 245.0,
-        "end": 247.0,
-        "text": "I was running through the ages",
-        "avg_logprob": -0.224062502682209,
-        "no_speech_prob": 0.04425048828125
-      },
-      {
-        "start": 247.0,
-        "end": 250.0,
-        "text": "On the path that never stayed",
-        "avg_logprob": -0.19817341171519856,
-        "no_speech_prob": 0.51708984375
-      },
-      {
-        "start": 250.0,
-        "end": 252.0,
-        "text": "Carrying invisible victories",
-        "avg_logprob": -0.19817341171519856,
-        "no_speech_prob": 0.51708984375
-      },
-      {
-        "start": 252.0,
-        "end": 255.0,
-        "text": "No stopwatch ever weighed",
-        "avg_logprob": -0.19817341171519856,
-        "no_speech_prob": 0.51708984375
-      },
-      {
-        "start": 255.0,
-        "end": 257.0,
-        "text": "If the world had offered shelter",
-        "avg_logprob": -0.19817341171519856,
-        "no_speech_prob": 0.51708984375
-      },
-      {
-        "start": 257.0,
-        "end": 260.0,
-        "text": "If the sky had cracked a sign",
-        "avg_logprob": -0.19817341171519856,
-        "no_speech_prob": 0.51708984375
-      },
-      {
-        "start": 260.0,
-        "end": 262.0,
-        "text": "Would I rise this evolution",
-        "avg_logprob": -0.19817341171519856,
-        "no_speech_prob": 0.51708984375
-      },
-      {
-        "start": 262.0,
-        "end": 269.0,
-        "text": "Or remain the shadowed spine",
-        "avg_logprob": -0.19817341171519856,
-        "no_speech_prob": 0.51708984375
-      },
-      {
-        "start": 269.0,
-        "end": 272.0,
-        "text": "Still I moved without the legs",
-        "avg_logprob": -0.19817341171519856,
-        "no_speech_prob": 0.51708984375
-      },
-      {
-        "start": 272.0,
-        "end": 274.0,
-        "text": "They swore I'd need",
-        "avg_logprob": -0.19817341171519856,
-        "no_speech_prob": 0.51708984375
-      },
-      {
-        "start": 274.0,
-        "end": 277.0,
-        "text": "To hell I'll breathe a marathon",
-        "avg_logprob": -0.39003538860465,
-        "no_speech_prob": 0.035491943359375
-      },
-      {
-        "start": 277.0,
-        "end": 279.0,
-        "text": "Of a single speed",
-        "avg_logprob": -0.39003538860465,
-        "no_speech_prob": 0.035491943359375
-      },
-      {
-        "start": 279.0,
-        "end": 282.0,
-        "text": "Still I ask what's shaped like",
-        "avg_logprob": -0.39003538860465,
-        "no_speech_prob": 0.035491943359375
-      },
-      {
-        "start": 282.0,
-        "end": 284.0,
-        "text": "Their engines were light",
-        "avg_logprob": -0.39003538860465,
-        "no_speech_prob": 0.035491943359375
-      },
-      {
-        "start": 284.0,
-        "end": 287.0,
-        "text": "Still I run across the dark",
-        "avg_logprob": -0.39003538860465,
-        "no_speech_prob": 0.035491943359375
-      },
-      {
-        "start": 287.0,
-        "end": 294.0,
-        "text": "That made me bright",
-        "avg_logprob": -0.39003538860465,
-        "no_speech_prob": 0.035491943359375
-      },
-      {
-        "start": 294.0,
-        "end": 302.0,
-        "text": "Talk that made me bright",
-        "avg_logprob": -0.39003538860465,
-        "no_speech_prob": 0.035491943359375
-      },
-      {
-        "start": 302.0,
-        "end": 307.0,
-        "text": "I'm high",
-        "avg_logprob": -0.9153646230697632,
-        "no_speech_prob": 0.666015625
-      }
-    ],
-    "avg_logprob": -0.35569403283958195
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 359,
-    "transcript_word_count": 371,
-    "matched_sequence_words": 270,
-    "lyric_alignment_ratio": 0.752,
-    "transcript_precision_ratio": 0.728,
-    "unique_expected_word_coverage": 0.782,
-    "word_count_ratio": 1.033,
-    "repeated_12gram_ratio": 0.028,
-    "half_similarity": 0.222,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.756,
-    "quality_score_0_10": 7.56,
-    "flags": [],
-    "transcript_excerpt": "I was thrown through other hallways Paper names pinned to my skin Don't know me cause cold me broken But I was only chewing it Every threshold felt like exile Every silence I've been seeing How do you learn to run a lifetime When you're born without the wheels But the world keeps shouting faster As I dragged life and some peace They messed up the sparks for failure Why smuggled in the heat Was a man to cross the horizons On a marathon over Legally saw a starting light Still convinced I'd get somewhere The winds had been more gently If I had an steady line Would I be another story Or the ghost \n...[truncated]...\ns But somewhere in the static I still hear the version mean The one who learned to levitate Where lies were never meant to be I was running through the ages On the path that never stayed Carrying invisible victories No stopwatch ever weighed If the world had offered shelter If the sky had cracked a sign Would I rise this evolution Or remain the shadowed spine Still I moved without the legs They swore I'd need To hell I'll breathe a marathon Of a single speed Still I ask what's shaped like Their engines were light Still I run across the dark That made me bright Talk that made me bright I'm high"
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -2667,50 +2175,65 @@
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar"
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The piece is divided into 9 well-balanced sections with clear transitions, maintaining structural coherence throughout."
+        "reason": "No change."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motivic integration is limited due to the lack of clear motif repetition with variation across the piece."
+        "reason": "No change."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The piece maintains a high level of beauty and spatial poise, with rich harmonic textures and well-structured phrasing."
+        "reason": "No change."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar is evident through the rule changes and transformations across sections, though it remains within established frameworks."
+        "reason": "No change."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The carry depth is strong, with emotional resonance and a self-sustaining musical habitat that invites re-listening."
+        "reason": "No change."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 5:12.76 with section-balance score 0.34.",
-      "Tempo estimate is 123.0 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -15.3 LUFS, peak is -1.3 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is B minor with confidence 0.40.",
-      "Audio recurrence ratio is 0.152; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 650 beats and 185 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 4.26, cumulative evolution 2.25, transformed returns 10.00, grid deviation 2.43, rule changes 8.75.",
-      "Companion text has 9 lyric/production sections, 376 words, line repetition 0.06, rhyme-suffix reuse 0.20."
+      "Return valid JSON only.",
+      "Use the base Python scores as the anchor; adjust only when the framework/text/evidence justifies it.",
+      "If transcription_quality is available, treat low lyric alignment, sparse transcript, or probable full-song repetition as strong negative evidence.",
+      "Ax scores must be floats from 0 to 10.",
+      "Prefer deltas within +/-1.5 of base axes scores.",
+      "Larger moves require explicit evidence.",
+      "Do not infer high rung from ambition, mood tags, titles, or production notes alone.",
+      "Penalize clipping, weak lyric alignment, probable full-song repetition, sparse transcript, and static loops."
     ],
     "review_flags": [
-      "Uncertainty in motif recognition due to low key confidence and audio recurrence ratio."
+      "No_Clipping",
+      "No_Weak_Lyric_Alignment",
+      "No_Probable_Full_Song_Repetition",
+      "No_Sparse_Transcript",
+      "No_Static_Loops"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:51:18.5744738Z",
-    "eval_count": 748,
-    "eval_duration": 12457026000
+    "created_at": "2026-06-10T10:50:28.2895554Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10008452,
+      "base64_chars": 13344604,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13657,
+    "prompt_eval_duration": 5809318000,
+    "eval_count": 500,
+    "eval_duration": 13005462000
   }
 }

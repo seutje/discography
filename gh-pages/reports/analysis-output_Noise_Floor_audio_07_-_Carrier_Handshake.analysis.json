@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:31:29",
+  "generated_at": "2026-06-10T12:33:13",
   "audio": {
     "path": "Noise Floor/audio/07 - Carrier Handshake.mp3",
     "duration_seconds": 210.72,
@@ -1275,7 +1275,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1319,242 +1322,20 @@
       "beat_this detected 333 beats and 84 downbeats; beat-grid stability is 0.93.",
       "EG evidence: section contrast 2.09, cumulative evolution 0.68, transformed returns 10.00, grid deviation 0.21, rule changes 5.00.",
       "Companion text has 8 lyric/production sections, 344 words, line repetition 0.03, rhyme-suffix reuse 0.23.",
-      "Production/vocal notes contain transformation cues (formal-pivot, space-change, texture-change); intent score 3.35.",
-      "Transcription check: lyric alignment 0.89, unique-word coverage 0.90, word-count ratio 1.01, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (formal-pivot, space-change, texture-change); intent score 3.35."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I send a lamp to copper weather Three small pulses then a pause No one answers in the meter On the dust behind the walls Every table has a timing Every laugh arrives on rails I keep missing where the door is When the sentence lifts its veil So I build a little protocol From breath until it dies Check the checksum of a shoulder Read the voltage and replies But the channel keeps refusing My uncommon envelope I can hear the room assembling While I stand outside the code then you tap back Not in words Just the rhythm I heard Carry a head shape, hold the line From out wither in your wire Not a cure and not a mask Just a circuit asking back You don't smooth the stranger way You make room around it shaping Echo something lens Like a language with a hand Now the static has a contour Now the pauses have a floor All the signals I was hiding Open slowly less unsure There is color in the timing There is kindness in the leg You let me know blue sideways From the margins of the track I don't have to fake the weather I don't have to trim the frame You receive the long transmission And repeat it without shame This is not escape From the room This is finding one to an instrument Inside it If I overload you don't vanish You'll lower the gain instead Carry a head shape, hold the line Spread my weather through your wire Every fragment Every flare has a landing over there You don't name the strangest noise You hear pattern in the voice And the echo something stands Like a language with a hand Three small pulses that you knew Not decoded just let through",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 16.0,
-        "text": "I send a lamp to copper weather Three small pulses then a pause",
-        "avg_logprob": -0.43876007679970036,
-        "no_speech_prob": 0.56640625
-      },
-      {
-        "start": 16.0,
-        "end": 26.0,
-        "text": "No one answers in the meter On the dust behind the walls",
-        "avg_logprob": -0.43876007679970036,
-        "no_speech_prob": 0.56640625
-      },
-      {
-        "start": 26.0,
-        "end": 34.0,
-        "text": "Every table has a timing Every laugh arrives on rails",
-        "avg_logprob": -0.13257576434901266,
-        "no_speech_prob": 0.400390625
-      },
-      {
-        "start": 34.0,
-        "end": 39.0,
-        "text": "I keep missing where the door is When the sentence lifts its veil",
-        "avg_logprob": -0.13257576434901266,
-        "no_speech_prob": 0.400390625
-      },
-      {
-        "start": 39.0,
-        "end": 44.0,
-        "text": "So I build a little protocol From breath until it dies",
-        "avg_logprob": -0.13257576434901266,
-        "no_speech_prob": 0.400390625
-      },
-      {
-        "start": 44.0,
-        "end": 49.0,
-        "text": "Check the checksum of a shoulder Read the voltage and replies",
-        "avg_logprob": -0.13257576434901266,
-        "no_speech_prob": 0.400390625
-      },
-      {
-        "start": 49.0,
-        "end": 54.0,
-        "text": "But the channel keeps refusing My uncommon envelope",
-        "avg_logprob": -0.13257576434901266,
-        "no_speech_prob": 0.400390625
-      },
-      {
-        "start": 54.0,
-        "end": 61.0,
-        "text": "I can hear the room assembling While I stand outside the code then you tap back",
-        "avg_logprob": -0.2228483606557377,
-        "no_speech_prob": 0.0975341796875
-      },
-      {
-        "start": 61.0,
-        "end": 69.0,
-        "text": "Not in words Just the rhythm I heard",
-        "avg_logprob": -0.2228483606557377,
-        "no_speech_prob": 0.0975341796875
-      },
-      {
-        "start": 69.0,
-        "end": 74.0,
-        "text": "Carry a head shape, hold the line From out wither in your wire",
-        "avg_logprob": -0.2228483606557377,
-        "no_speech_prob": 0.0975341796875
-      },
-      {
-        "start": 74.0,
-        "end": 79.0,
-        "text": "Not a cure and not a mask Just a circuit asking back",
-        "avg_logprob": -0.2228483606557377,
-        "no_speech_prob": 0.0975341796875
-      },
-      {
-        "start": 79.0,
-        "end": 85.0,
-        "text": "You don't smooth the stranger way You make room around it shaping",
-        "avg_logprob": -0.22438227021416954,
-        "no_speech_prob": 0.277099609375
-      },
-      {
-        "start": 85.0,
-        "end": 99.0,
-        "text": "Echo something lens Like a language with a hand",
-        "avg_logprob": -0.22438227021416954,
-        "no_speech_prob": 0.277099609375
-      },
-      {
-        "start": 99.0,
-        "end": 104.0,
-        "text": "Now the static has a contour Now the pauses have a floor",
-        "avg_logprob": -0.22438227021416954,
-        "no_speech_prob": 0.277099609375
-      },
-      {
-        "start": 104.0,
-        "end": 109.0,
-        "text": "All the signals I was hiding Open slowly less unsure",
-        "avg_logprob": -0.1348741294609176,
-        "no_speech_prob": 0.25244140625
-      },
-      {
-        "start": 109.0,
-        "end": 114.0,
-        "text": "There is color in the timing There is kindness in the leg",
-        "avg_logprob": -0.1348741294609176,
-        "no_speech_prob": 0.25244140625
-      },
-      {
-        "start": 114.0,
-        "end": 119.0,
-        "text": "You let me know blue sideways From the margins of the track",
-        "avg_logprob": -0.1348741294609176,
-        "no_speech_prob": 0.25244140625
-      },
-      {
-        "start": 119.0,
-        "end": 124.0,
-        "text": "I don't have to fake the weather I don't have to trim the frame",
-        "avg_logprob": -0.1348741294609176,
-        "no_speech_prob": 0.25244140625
-      },
-      {
-        "start": 124.0,
-        "end": 131.0,
-        "text": "You receive the long transmission And repeat it without shame",
-        "avg_logprob": -0.1348741294609176,
-        "no_speech_prob": 0.25244140625
-      },
-      {
-        "start": 131.0,
-        "end": 140.0,
-        "text": "This is not escape From the room This is finding one to an instrument",
-        "avg_logprob": -0.23897059407888674,
-        "no_speech_prob": 0.356201171875
-      },
-      {
-        "start": 140.0,
-        "end": 152.0,
-        "text": "Inside it If I overload you don't vanish You'll lower the gain instead",
-        "avg_logprob": -0.23897059407888674,
-        "no_speech_prob": 0.356201171875
-      },
-      {
-        "start": 152.0,
-        "end": 157.0,
-        "text": "Carry a head shape, hold the line Spread my weather through your wire",
-        "avg_logprob": -0.23897059407888674,
-        "no_speech_prob": 0.356201171875
-      },
-      {
-        "start": 157.0,
-        "end": 162.0,
-        "text": "Every fragment Every flare has a landing over there",
-        "avg_logprob": -0.1806175545567558,
-        "no_speech_prob": 0.1868896484375
-      },
-      {
-        "start": 162.0,
-        "end": 167.0,
-        "text": "You don't name the strangest noise You hear pattern in the voice",
-        "avg_logprob": -0.1806175545567558,
-        "no_speech_prob": 0.1868896484375
-      },
-      {
-        "start": 167.0,
-        "end": 181.0,
-        "text": "And the echo something stands Like a language with a hand",
-        "avg_logprob": -0.1806175545567558,
-        "no_speech_prob": 0.1868896484375
-      },
-      {
-        "start": 181.0,
-        "end": 191.0,
-        "text": "Three small pulses that you knew",
-        "avg_logprob": -0.32628676470588236,
-        "no_speech_prob": 0.68994140625
-      },
-      {
-        "start": 191.0,
-        "end": 196.0,
-        "text": "Not decoded just let through",
-        "avg_logprob": -0.32628676470588236,
-        "no_speech_prob": 0.68994140625
-      }
-    ],
-    "avg_logprob": -0.23155412699876762
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 299,
-    "transcript_word_count": 301,
-    "matched_sequence_words": 266,
-    "lyric_alignment_ratio": 0.89,
-    "transcript_precision_ratio": 0.884,
-    "unique_expected_word_coverage": 0.897,
-    "word_count_ratio": 1.007,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.273,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.891,
-    "quality_score_0_10": 8.91,
-    "flags": [],
-    "transcript_excerpt": "I send a lamp to copper weather Three small pulses then a pause No one answers in the meter On the dust behind the walls Every table has a timing Every laugh arrives on rails I keep missing where the door is When the sentence lifts its veil So I build a little protocol From breath until it dies Check the checksum of a shoulder Read the voltage and replies But the channel keeps refusing My uncommon envelope I can hear the room assembling While I stand outside the code then you tap back Not in words Just the rhythm I heard Carry a head shape, hold the line From out wither in your wire Not a cure\n...[truncated]...\nm the margins of the track I don't have to fake the weather I don't have to trim the frame You receive the long transmission And repeat it without shame This is not escape From the room This is finding one to an instrument Inside it If I overload you don't vanish You'll lower the gain instead Carry a head shape, hold the line Spread my weather through your wire Every fragment Every flare has a landing over there You don't name the strangest noise You hear pattern in the voice And the echo something stands Like a language with a hand Three small pulses that you knew Not decoded just let through"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.2,
-      "BP_beauty_spatial_poise": 8.8,
-      "EG_evolving_grammar": 7.3,
-      "CD_carry_depth": 8.5
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.41,
+      "BP_beauty_spatial_poise": 8.61,
+      "EG_evolving_grammar": 7.01,
+      "CD_carry_depth": 8.02
     },
     "core_metrics": {
-      "CDPD": 0.82,
-      "NGE": 0.61,
+      "CDPD": 0.844,
+      "NGE": 0.636,
       "HMII_peak_estimate": 6
     },
     "rung_estimate": {
@@ -1562,48 +1343,55 @@
       "label": "Inhabited Form",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting the same emotional room."
+        "delta": 0.0,
+        "reason": "Structure follows a clear, intentional arc from sparse intro to dense, layered finale."
       },
       "MI_motivic_integration": {
-        "delta": 0.79,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong motivic integration."
+        "delta": 0.0,
+        "reason": "The 'Carrier Handshake' motif and recurring lyrical imagery provide strong thematic cohesion across sections."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.19,
-        "reason": "The track’s spatial poise is central to its identity, with room tone and guitar space forming a memorable habitat."
+        "delta": 0.0,
+        "reason": "Production notes confirm intentional spatial placement of vocals and textures."
       },
       "EG_evolving_grammar": {
-        "delta": 0.29,
-        "reason": "The grammar develops a personal indie system over time, though it does not fully invent a new method."
+        "delta": 0.0,
+        "reason": "Lyricism evolves from technical/literal descriptions to more abstract, poetic imagery in the final hook."
       },
       "CD_carry_depth": {
-        "delta": 0.48,
-        "reason": "The track feels like a small world rather than a playlist mood, with a strong emotional arc and lasting image."
+        "delta": 0.0,
+        "reason": "The transition from 'signal' talk to 'language with a hand' adds significant emotional weight."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:30.72 with section-balance score 0.53.",
-      "Tempo estimate is 95.7 BPM; declared tempo alignment contributes 0.98.",
-      "Integrated loudness is -17.4 LUFS, peak is -2.2 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is C major with confidence 0.43.",
-      "Audio recurrence ratio is 0.339; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 333 beats and 84 downbeats; beat-grid stability is 0.93.",
-      "EG evidence: section contrast 2.09, cumulative evolution 0.68, transformed returns 10.00, grid deviation 0.21, rule changes 5.00.",
-      "Companion text has 8 lyric/production sections, 344 words, line repetition 0.03, rhyme-suffix reuse 0.23."
+      "The track exhibits high structural coherence through its deliberate build-up and clear section transitions.",
+      "Motivic integration is bolstered by the recurring 'handshake' metaphor and consistent sonic palette.",
+      "Grammar evolves significantly in the final hook, moving from technical jargon to evocative imagery.",
+      "Confidence is high due to strong production notes and distinct musical shifts."
     ],
     "review_flags": [
-      "Uncertainty remains about section detection and whether the track fully invents a new grammar."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:31:29.525187Z",
-    "eval_count": 782,
-    "eval_duration": 12860555800
+    "created_at": "2026-06-10T10:33:13.4056547Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 6743118,
+      "base64_chars": 8990824,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 10579,
+    "prompt_eval_duration": 4545685000,
+    "eval_count": 393,
+    "eval_duration": 9592927000
   }
 }

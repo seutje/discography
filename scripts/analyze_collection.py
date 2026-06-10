@@ -22,6 +22,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--ollama-url", default="http://localhost:11434", help="Ollama base URL.")
     parser.add_argument("--ollama-timeout", type=float, default=240.0, help="Seconds to wait for each Ollama adjustment.")
     parser.add_argument("--ollama-num-ctx", type=int, default=16384, help="Ollama context window for each scoring adjustment.")
+    parser.add_argument("--ollama-audio-image", action="store_true", help="Attach a 16 kHz mono WAV through Ollama's images field for multimodal models.")
+    parser.add_argument("--ollama-audio-sample-rate", type=int, default=16000, help="Sample rate for --ollama-audio-image WAV conversion.")
+    parser.add_argument("--ollama-audio-max-seconds", type=float, help="Optional duration cap for --ollama-audio-image smoke/debug runs.")
     parser.add_argument("--llm-max-axis-delta", type=float, default=1.5, help="Maximum LLM adjustment per axis around the Python score.")
     parser.add_argument(
         "--transcription-backend",
@@ -85,6 +88,16 @@ def main() -> int:
                     str(args.llm_max_axis_delta),
                 ]
             )
+            if args.ollama_audio_image:
+                cmd.extend(
+                    [
+                        "--ollama-audio-image",
+                        "--ollama-audio-sample-rate",
+                        str(args.ollama_audio_sample_rate),
+                    ]
+                )
+                if args.ollama_audio_max_seconds:
+                    cmd.extend(["--ollama-audio-max-seconds", str(args.ollama_audio_max_seconds)])
         if args.transcription_backend != "none":
             cmd.extend(
                 [

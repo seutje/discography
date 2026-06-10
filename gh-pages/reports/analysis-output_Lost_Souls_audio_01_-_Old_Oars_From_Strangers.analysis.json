@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T15:59:43",
+  "generated_at": "2026-06-10T12:22:16",
   "audio": {
     "path": "Lost Souls/audio/01 - Old Oars From Strangers.mp3",
     "duration_seconds": 246.52,
@@ -1325,7 +1325,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1374,64 +1377,72 @@
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 8.5,
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 10.0,
       "BP_beauty_spatial_poise": 9.74,
-      "EG_evolving_grammar": 7.5,
+      "EG_evolving_grammar": 7.16,
       "CD_carry_depth": 8.73
     },
     "core_metrics": {
-      "CDPD": 0.975,
+      "CDPD": 0.0,
       "NGE": 0.633,
       "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in narrative structure and production."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section lengths are proportionate, but transitions feel designed rather than DAW-copy-paste. The track has a clear arc with a satisfying intro-outro flow."
+        "delta": 0.0,
+        "reason": "Perfect score maintained; clear verse/hook/bridge structure."
       },
       "MI_motivic_integration": {
-        "delta": -1.5,
-        "reason": "Motifs (e.g., the 'pass the oar' hook) recur across sections with transformation (register, rhythm, texture), but cross-domain recursion is limited."
+        "delta": 0.0,
+        "reason": "High integration of spoken word and melodic hook."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "Sonic habitat is consistently beautiful and coherent, with intentional use of room tone, wooden creaks, and stereo field."
+        "reason": "Atmospheric production supports the narrative well."
       },
       "EG_evolving_grammar": {
-        "delta": 0.34,
-        "reason": "Grammar evolves with meaningful changes in harmonic bed, beat law, and flow density, especially in the bridge and final hook."
+        "delta": 0.0,
+        "reason": "Stronger evidence of evolving grammar in spoken sections."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "Track defines a recognisable emotional habitat and invites re-listening, with a clear arc from isolation to communal warmth."
+        "reason": "Consistent thematic depth throughout the track."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:06.52 with section-balance score 0.52.",
-      "Tempo estimate is 172.3 BPM; declared tempo alignment contributes 0.78.",
-      "Integrated loudness is -18.0 LUFS, peak is -0.7 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F major with confidence 0.70.",
-      "Audio recurrence ratio is 0.347; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 345 beats and 89 downbeats; beat-grid stability is 0.89.",
-      "EG evidence: section contrast 1.59, cumulative evolution 0.62, transformed returns 10.00, grid deviation 0.66, rule changes 2.14.",
-      "Companion text has 11 lyric/production sections, 526 words, line repetition 0.14, rhyme-suffix reuse 0.36."
+      "The track features a sophisticated interplay between spoken-word rap and folk-inspired hooks.",
+      "Structural coherence is high due to distinct section transitions (Verse/Hook/Bridge).",
+      "Motivic integration is strong as the 'Pass the oar' hook provides a recurring emotional anchor.",
+      "Evolution of grammar is notable in the shift from narrative spoken word to melodic folk-style singing.",
+      "The production uses space and texture effectively to define different sections."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the final third; audio-only evidence is weak."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-09T13:59:43.3718408Z",
-    "eval_count": 765,
-    "eval_duration": 13546655000
+    "created_at": "2026-06-10T10:22:16.8207432Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7888718,
+      "base64_chars": 10518292,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11815,
+    "prompt_eval_duration": 5285460000,
+    "eval_count": 532,
+    "eval_duration": 13014633000
   }
 }

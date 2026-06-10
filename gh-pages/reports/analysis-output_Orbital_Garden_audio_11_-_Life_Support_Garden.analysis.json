@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:40:26",
+  "generated_at": "2026-06-10T12:40:42",
   "audio": {
     "path": "Orbital Garden/audio/11 - Life Support Garden.mp3",
     "duration_seconds": 264.8,
@@ -1498,7 +1498,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1542,230 +1545,8 @@
       "beat_this detected 404 beats and 102 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 2.87, cumulative evolution 0.86, transformed returns 10.00, grid deviation 1.00, rule changes 8.93.",
       "Companion text has 8 lyric/production sections, 305 words, line repetition 0.14, rhyme-suffix reuse 0.27.",
-      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.81, unique-word coverage 0.83, word-count ratio 1.04, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change, texture-change); intent score 4.65."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "All the rooms are breathin' now Seedin' rootin' rain together Every chamber in the ring keeps its own interior climate The first course still lives in soil Faint beneath the newer leaves Barrowed suns still warm The trellis transparent veins still teach belief Pumps remember sleepless hands Moths remember's open rules Out of flowers keep that pollen But kids keep them moving There's nothing lost Only placed Every season has its chamber Everyone can feed a bloom This is life's support For the air inside my chest Not escaping, not arrival Just a way to keep it fresh I have laid a breathing garden From the phases I survived Every sun becomes a chamber Where the inner, where the thrives I used to call creation proof Something bright enough to show Now I know it as a climate Something tended so I grow There are days the glass feels heavy Day the orbit pulls me thin And then I hear the rules feel Moving patiently within no grand end No closed gate A life is not a straight line It is circulation A song is not a trophy It is atmosphere The garden does not finish It keeps breathing Because I keep retired This is life's support For the air inside my chest Not escaping, not arrival Just a way to keep it fresh I have laid a breathing garden From the phases I survived Every sun becomes a chamber Where the inner, where the thrives I used to call creation proof Something bright enough to show Now I know it as a climate Something bright enough to show Now I know it as a climate Something bright enough to show",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 26.0,
-        "text": "All the rooms are breathin' now Seedin' rootin' rain together",
-        "avg_logprob": -0.6335565589723133,
-        "no_speech_prob": 0.5830078125
-      },
-      {
-        "start": 26.0,
-        "end": 42.0,
-        "text": "Every chamber in the ring keeps its own interior climate",
-        "avg_logprob": -0.2912946471146175,
-        "no_speech_prob": 0.2178955078125
-      },
-      {
-        "start": 42.0,
-        "end": 52.0,
-        "text": "The first course still lives in soil Faint beneath the newer leaves",
-        "avg_logprob": -0.4269770505476971,
-        "no_speech_prob": 0.435302734375
-      },
-      {
-        "start": 52.0,
-        "end": 59.0,
-        "text": "Barrowed suns still warm The trellis transparent veins still teach belief",
-        "avg_logprob": -0.4269770505476971,
-        "no_speech_prob": 0.435302734375
-      },
-      {
-        "start": 59.0,
-        "end": 66.0,
-        "text": "Pumps remember sleepless hands Moths remember's open rules",
-        "avg_logprob": -0.4269770505476971,
-        "no_speech_prob": 0.435302734375
-      },
-      {
-        "start": 66.0,
-        "end": 72.0,
-        "text": "Out of flowers keep that pollen But kids keep them moving",
-        "avg_logprob": -0.3375000034059797,
-        "no_speech_prob": 0.1661376953125
-      },
-      {
-        "start": 72.0,
-        "end": 80.0,
-        "text": "There's nothing lost Only placed",
-        "avg_logprob": -0.3375000034059797,
-        "no_speech_prob": 0.1661376953125
-      },
-      {
-        "start": 80.0,
-        "end": 88.0,
-        "text": "Every season has its chamber Everyone can feed a bloom",
-        "avg_logprob": -0.3375000034059797,
-        "no_speech_prob": 0.1661376953125
-      },
-      {
-        "start": 88.0,
-        "end": 94.0,
-        "text": "This is life's support For the air inside my chest",
-        "avg_logprob": -0.18563987846885407,
-        "no_speech_prob": 0.07440185546875
-      },
-      {
-        "start": 94.0,
-        "end": 100.0,
-        "text": "Not escaping, not arrival Just a way to keep it fresh",
-        "avg_logprob": -0.18563987846885407,
-        "no_speech_prob": 0.07440185546875
-      },
-      {
-        "start": 100.0,
-        "end": 108.0,
-        "text": "I have laid a breathing garden From the phases I survived",
-        "avg_logprob": -0.18563987846885407,
-        "no_speech_prob": 0.07440185546875
-      },
-      {
-        "start": 108.0,
-        "end": 114.0,
-        "text": "Every sun becomes a chamber Where the inner, where the thrives",
-        "avg_logprob": -0.298295451158827,
-        "no_speech_prob": 0.197509765625
-      },
-      {
-        "start": 122.0,
-        "end": 128.0,
-        "text": "I used to call creation proof Something bright enough to show",
-        "avg_logprob": -0.298295451158827,
-        "no_speech_prob": 0.197509765625
-      },
-      {
-        "start": 128.0,
-        "end": 135.0,
-        "text": "Now I know it as a climate Something tended so I grow",
-        "avg_logprob": -0.298295451158827,
-        "no_speech_prob": 0.197509765625
-      },
-      {
-        "start": 135.0,
-        "end": 141.0,
-        "text": "There are days the glass feels heavy Day the orbit pulls me thin",
-        "avg_logprob": -0.2962372351665886,
-        "no_speech_prob": 0.07318115234375
-      },
-      {
-        "start": 141.0,
-        "end": 151.0,
-        "text": "And then I hear the rules feel Moving patiently within no grand end",
-        "avg_logprob": -0.2962372351665886,
-        "no_speech_prob": 0.07318115234375
-      },
-      {
-        "start": 151.0,
-        "end": 157.0,
-        "text": "No closed gate",
-        "avg_logprob": -0.2962372351665886,
-        "no_speech_prob": 0.07318115234375
-      },
-      {
-        "start": 157.0,
-        "end": 164.0,
-        "text": "A life is not a straight line It is circulation",
-        "avg_logprob": -0.2962372351665886,
-        "no_speech_prob": 0.07318115234375
-      },
-      {
-        "start": 164.0,
-        "end": 178.0,
-        "text": "A song is not a trophy It is atmosphere The garden does not finish",
-        "avg_logprob": -0.20891203041429873,
-        "no_speech_prob": 0.02313232421875
-      },
-      {
-        "start": 178.0,
-        "end": 186.0,
-        "text": "It keeps breathing Because I keep retired",
-        "avg_logprob": -0.20891203041429873,
-        "no_speech_prob": 0.02313232421875
-      },
-      {
-        "start": 186.0,
-        "end": 198.0,
-        "text": "This is life's support For the air inside my chest",
-        "avg_logprob": -0.09458705428100768,
-        "no_speech_prob": 0.208740234375
-      },
-      {
-        "start": 198.0,
-        "end": 206.0,
-        "text": "Not escaping, not arrival Just a way to keep it fresh",
-        "avg_logprob": -0.09458705428100768,
-        "no_speech_prob": 0.208740234375
-      },
-      {
-        "start": 206.0,
-        "end": 213.0,
-        "text": "I have laid a breathing garden From the phases I survived",
-        "avg_logprob": -0.09458705428100768,
-        "no_speech_prob": 0.208740234375
-      },
-      {
-        "start": 213.0,
-        "end": 219.0,
-        "text": "Every sun becomes a chamber Where the inner, where the thrives",
-        "avg_logprob": -0.187769397836307,
-        "no_speech_prob": 0.1597900390625
-      },
-      {
-        "start": 219.0,
-        "end": 225.0,
-        "text": "I used to call creation proof Something bright enough to show",
-        "avg_logprob": -0.187769397836307,
-        "no_speech_prob": 0.1597900390625
-      },
-      {
-        "start": 225.0,
-        "end": 231.0,
-        "text": "Now I know it as a climate Something bright enough to show",
-        "avg_logprob": -0.187769397836307,
-        "no_speech_prob": 0.1597900390625
-      },
-      {
-        "start": 231.0,
-        "end": 237.0,
-        "text": "Now I know it as a climate Something bright enough to show",
-        "avg_logprob": -0.187769397836307,
-        "no_speech_prob": 0.1597900390625
-      }
-    ],
-    "avg_logprob": -0.2988353965903464
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 269,
-    "transcript_word_count": 281,
-    "matched_sequence_words": 218,
-    "lyric_alignment_ratio": 0.81,
-    "transcript_precision_ratio": 0.776,
-    "unique_expected_word_coverage": 0.826,
-    "word_count_ratio": 1.045,
-    "repeated_12gram_ratio": 0.211,
-    "half_similarity": 0.493,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.81,
-    "quality_score_0_10": 8.1,
-    "flags": [],
-    "transcript_excerpt": "All the rooms are breathin' now Seedin' rootin' rain together Every chamber in the ring keeps its own interior climate The first course still lives in soil Faint beneath the newer leaves Barrowed suns still warm The trellis transparent veins still teach belief Pumps remember sleepless hands Moths remember's open rules Out of flowers keep that pollen But kids keep them moving There's nothing lost Only placed Every season has its chamber Everyone can feed a bloom This is life's support For the air inside my chest Not escaping, not arrival Just a way to keep it fresh I have laid a breathing garde\n...[truncated]...\nly within no grand end No closed gate A life is not a straight line It is circulation A song is not a trophy It is atmosphere The garden does not finish It keeps breathing Because I keep retired This is life's support For the air inside my chest Not escaping, not arrival Just a way to keep it fresh I have laid a breathing garden From the phases I survived Every sun becomes a chamber Where the inner, where the thrives I used to call creation proof Something bright enough to show Now I know it as a climate Something bright enough to show Now I know it as a climate Something bright enough to show"
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -1789,41 +1570,50 @@
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track maintains a clear section structure with defined verse, chorus, bridge, and outro logic. Returns feel like revisiting emotional rooms, and the form is consistent with the framework's 'Inhabited Form' criteria."
+        "reason": "Base score reflects strong structural design with clear verse/chorus/bridge/outro transitions."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs (vocal hooks, guitar figures, lyric images) recur across sections in altered forms, showing integration and development. The framework's 'Inhabited Form' aligns with this level of motivic integration."
+        "reason": "Motivic integration is high due to the recurring 'motif' and 'garden' imagery throughout."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The sonic habitat is central to the track's identity, with room tone, guitar space, and reverb forming a memorable and coherent spatial environment. This matches the 'Inhabited Form' criteria for spatial poise."
+        "reason": "High score reflects sophisticated spatial arrangement of textures and vocals."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The track develops a personal indie grammar over time, with meaningful changes in harmonic, rhythmic, and textural rules. This aligns with the 'Inhabited Form' level of evolving grammar."
+        "reason": "Grammar is consistent with the 'chamber indie' aesthetic; high scores are maintained."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a recognizable emotional and psychic habitat, inviting re-listening and leaving a specific image or feeling. This matches the 'Inhabited Form' criteria for carry depth."
+        "reason": "Lyric depth is sustained through consistent metaphor of internal space."
       }
     },
     "rationale": [
-      "The track maintains a clear section structure with defined verse, chorus, bridge, and outro logic. Returns feel like revisiting emotional rooms, and the form is consistent with the framework's 'Inhabited Form' criteria.",
-      "Motifs (vocal hooks, guitar figures, lyric images) recur across sections in altered forms, showing integration and development. The framework's 'Inhabited Form' aligns with this level of motivic integration.",
-      "The sonic habitat is central to the track's identity, with room tone, guitar space, and reverb forming a memorable and coherent spatial environment. This matches the 'Inhabited Form' criteria for spatial poise.",
-      "The track develops a personal indie grammar over time, with meaningful changes in harmonic, rhythmic, and textural rules. This aligns with the 'Inhabited Form' level of evolving grammar.",
-      "The track defines a recognizable emotional and psychic habitat, inviting re-listening and leaving a specific image or feeling. This matches the 'Inhabited Form' criteria for carry depth."
+      "The track exhibits a highly sophisticated structure for its genre, utilizing recurring motifs and a clear progression from intimate introspection to expansive atmosphere.",
+      "Vocal delivery is steady and well-integrated with the production's spatial design.",
+      "Lyrics are deeply evocative, using 'garden', 'chamber', and 'breathing' as consistent metaphors for internal state."
     ],
     "review_flags": [
-      "Uncertainty about the exact nature of the 'Inhabited Form' rung's criteria, but the evidence strongly supports its placement."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:40:26.648117Z",
-    "eval_count": 795,
-    "eval_duration": 13161589500
+    "created_at": "2026-06-10T10:40:42.0014148Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8473678,
+      "base64_chars": 11298240,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12365,
+    "prompt_eval_duration": 5210107000,
+    "eval_count": 436,
+    "eval_duration": 10751364000
   }
 }

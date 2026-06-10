@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:43:48",
+  "generated_at": "2026-06-10T12:43:39",
   "audio": {
     "path": "Residual Instabilities/audio/05 - Deferred.mp3",
     "duration_seconds": 302.36,
@@ -1562,7 +1562,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1606,613 +1609,76 @@
       "beat_this detected 412 beats and 128 downbeats; beat-grid stability is 0.95.",
       "EG evidence: section contrast 1.61, cumulative evolution 0.65, transformed returns 10.00, grid deviation 1.54, rule changes 4.38.",
       "Companion text has 12 lyric/production sections, 472 words, line repetition 0.01, rhyme-suffix reuse 0.34.",
-      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 7.50.",
-      "Transcription check: lyric alignment 0.82, unique-word coverage 0.85, word-count ratio 1.00, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change, texture-change); intent score 7.50."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "When it's color of the edge, Never landing, never set Something waiting to begin Held somewhere beneath the skin I divide the hour again into smaller pieces then Watch them slip between my hands Like they follow other plans Every moment leans away Just a fraction past the frame I can feel it bending thin Where I stop and should begin There's a way I never live Like a constant subtle drift Time expands when I wait Not a pause just to stay I defer into the stretch Where the present disconnects Every second pulls apart Before it ever fully starts Not refusal just to lay Like I'm face to step away I can see it, I can feel But it never turns to real Conversations start to slow Where to arrive but never flow By the time I try to speak They've already grown too weak Every action held in place Buying and seeing kind of breaks Future self is always like copy Hinder shifting Get I'm not still Do, do, do, do, do, do, I'm displaced Clocks don't break They just bend when the star won't descend I defer into the stretch Where intention never set Every motion half-alive Never fully erased Not avoidance just to slide Through a widening insight I'm adjacent to the flow But I never fully go It's not that I wanna move Is that the moment Moves first And I follow after What if delay is an absence But distance What if now is elastic I'm in my mind Miss a line I can feel the tension ease when I stop dividing me Let the seconds fall as one instead of something to run There's no future I must chase Just a shift in our workplace Where I stand inside the drift Not resisting what won't fix Not behind Not ahead I release into the frame Where the moment stays the same Not extended, not confined Just a steady or kind of time I don't force it into place I just meet it where it stays In the slowing I can find I was never left behind No more splitting No more weight Just a quiet, halted state Time was never running first I was off set from the past Wooo",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 18.5,
-        "text": "When it's color of the edge, Never landing, never set",
-        "avg_logprob": -0.8295036764705882,
-        "no_speech_prob": 0.427734375
-      },
-      {
-        "start": 18.5,
-        "end": 23.5,
-        "text": "Something waiting to begin",
-        "avg_logprob": -0.32637116373801717,
-        "no_speech_prob": 0.302001953125
-      },
-      {
-        "start": 23.5,
-        "end": 31.5,
-        "text": "Held somewhere beneath the skin",
-        "avg_logprob": -0.32637116373801717,
-        "no_speech_prob": 0.302001953125
-      },
-      {
-        "start": 31.5,
-        "end": 36.5,
-        "text": "I divide the hour again into smaller pieces then",
-        "avg_logprob": -0.32637116373801717,
-        "no_speech_prob": 0.302001953125
-      },
-      {
-        "start": 36.5,
-        "end": 39.5,
-        "text": "Watch them slip between my hands",
-        "avg_logprob": -0.32637116373801717,
-        "no_speech_prob": 0.302001953125
-      },
-      {
-        "start": 39.5,
-        "end": 42.5,
-        "text": "Like they follow other plans",
-        "avg_logprob": -0.32637116373801717,
-        "no_speech_prob": 0.302001953125
-      },
-      {
-        "start": 42.5,
-        "end": 45.5,
-        "text": "Every moment leans away",
-        "avg_logprob": -0.32637116373801717,
-        "no_speech_prob": 0.302001953125
-      },
-      {
-        "start": 46.0,
-        "end": 48.5,
-        "text": "Just a fraction past the frame",
-        "avg_logprob": -0.1682438397071731,
-        "no_speech_prob": 0.031402587890625
-      },
-      {
-        "start": 48.5,
-        "end": 51.5,
-        "text": "I can feel it bending thin",
-        "avg_logprob": -0.1682438397071731,
-        "no_speech_prob": 0.031402587890625
-      },
-      {
-        "start": 51.5,
-        "end": 54.5,
-        "text": "Where I stop and should begin",
-        "avg_logprob": -0.1682438397071731,
-        "no_speech_prob": 0.031402587890625
-      },
-      {
-        "start": 54.5,
-        "end": 57.5,
-        "text": "There's a way I never live",
-        "avg_logprob": -0.1682438397071731,
-        "no_speech_prob": 0.031402587890625
-      },
-      {
-        "start": 57.5,
-        "end": 60.5,
-        "text": "Like a constant subtle drift",
-        "avg_logprob": -0.1682438397071731,
-        "no_speech_prob": 0.031402587890625
-      },
-      {
-        "start": 60.5,
-        "end": 63.5,
-        "text": "Time expands when I wait",
-        "avg_logprob": -0.1682438397071731,
-        "no_speech_prob": 0.031402587890625
-      },
-      {
-        "start": 63.5,
-        "end": 66.5,
-        "text": "Not a pause just to stay",
-        "avg_logprob": -0.1682438397071731,
-        "no_speech_prob": 0.031402587890625
-      },
-      {
-        "start": 66.5,
-        "end": 69.5,
-        "text": "I defer into the stretch",
-        "avg_logprob": -0.1682438397071731,
-        "no_speech_prob": 0.031402587890625
-      },
-      {
-        "start": 69.5,
-        "end": 72.5,
-        "text": "Where the present disconnects",
-        "avg_logprob": -0.1682438397071731,
-        "no_speech_prob": 0.031402587890625
-      },
-      {
-        "start": 72.5,
-        "end": 75.5,
-        "text": "Every second pulls apart",
-        "avg_logprob": -0.1686662874583687,
-        "no_speech_prob": 0.012481689453125
-      },
-      {
-        "start": 75.5,
-        "end": 78.5,
-        "text": "Before it ever fully starts",
-        "avg_logprob": -0.1686662874583687,
-        "no_speech_prob": 0.012481689453125
-      },
-      {
-        "start": 78.5,
-        "end": 81.5,
-        "text": "Not refusal just to lay",
-        "avg_logprob": -0.1686662874583687,
-        "no_speech_prob": 0.012481689453125
-      },
-      {
-        "start": 81.5,
-        "end": 84.5,
-        "text": "Like I'm face to step away",
-        "avg_logprob": -0.1686662874583687,
-        "no_speech_prob": 0.012481689453125
-      },
-      {
-        "start": 84.5,
-        "end": 87.5,
-        "text": "I can see it, I can feel",
-        "avg_logprob": -0.1686662874583687,
-        "no_speech_prob": 0.012481689453125
-      },
-      {
-        "start": 87.5,
-        "end": 90.5,
-        "text": "But it never turns to real",
-        "avg_logprob": -0.1686662874583687,
-        "no_speech_prob": 0.012481689453125
-      },
-      {
-        "start": 97.5,
-        "end": 99.5,
-        "text": "Conversations start to slow",
-        "avg_logprob": -0.1686662874583687,
-        "no_speech_prob": 0.012481689453125
-      },
-      {
-        "start": 99.5,
-        "end": 102.5,
-        "text": "Where to arrive but never flow",
-        "avg_logprob": -0.26835936717689035,
-        "no_speech_prob": 0.048431396484375
-      },
-      {
-        "start": 102.5,
-        "end": 105.5,
-        "text": "By the time I try to speak",
-        "avg_logprob": -0.26835936717689035,
-        "no_speech_prob": 0.048431396484375
-      },
-      {
-        "start": 105.5,
-        "end": 108.5,
-        "text": "They've already grown too weak",
-        "avg_logprob": -0.26835936717689035,
-        "no_speech_prob": 0.048431396484375
-      },
-      {
-        "start": 108.5,
-        "end": 111.5,
-        "text": "Every action held in place",
-        "avg_logprob": -0.26835936717689035,
-        "no_speech_prob": 0.048431396484375
-      },
-      {
-        "start": 111.5,
-        "end": 114.5,
-        "text": "Buying and seeing kind of breaks",
-        "avg_logprob": -0.26835936717689035,
-        "no_speech_prob": 0.048431396484375
-      },
-      {
-        "start": 114.5,
-        "end": 117.5,
-        "text": "Future self is always like copy",
-        "avg_logprob": -0.26835936717689035,
-        "no_speech_prob": 0.048431396484375
-      },
-      {
-        "start": 117.5,
-        "end": 119.5,
-        "text": "Hinder shifting",
-        "avg_logprob": -0.26835936717689035,
-        "no_speech_prob": 0.048431396484375
-      },
-      {
-        "start": 119.5,
-        "end": 120.5,
-        "text": "Get I'm not still",
-        "avg_logprob": -0.26835936717689035,
-        "no_speech_prob": 0.048431396484375
-      },
-      {
-        "start": 120.5,
-        "end": 124.5,
-        "text": "Do, do, do, do, do, do, I'm displaced",
-        "avg_logprob": -0.26835936717689035,
-        "no_speech_prob": 0.048431396484375
-      },
-      {
-        "start": 124.5,
-        "end": 126.5,
-        "text": "Clocks don't break",
-        "avg_logprob": -0.22452445220256198,
-        "no_speech_prob": 0.09234619140625
-      },
-      {
-        "start": 126.5,
-        "end": 130.5,
-        "text": "They just bend when the star won't descend",
-        "avg_logprob": -0.22452445220256198,
-        "no_speech_prob": 0.09234619140625
-      },
-      {
-        "start": 130.5,
-        "end": 133.5,
-        "text": "I defer into the stretch",
-        "avg_logprob": -0.22452445220256198,
-        "no_speech_prob": 0.09234619140625
-      },
-      {
-        "start": 133.5,
-        "end": 136.5,
-        "text": "Where intention never set",
-        "avg_logprob": -0.22452445220256198,
-        "no_speech_prob": 0.09234619140625
-      },
-      {
-        "start": 136.5,
-        "end": 139.5,
-        "text": "Every motion half-alive",
-        "avg_logprob": -0.22452445220256198,
-        "no_speech_prob": 0.09234619140625
-      },
-      {
-        "start": 139.5,
-        "end": 142.5,
-        "text": "Never fully erased",
-        "avg_logprob": -0.22452445220256198,
-        "no_speech_prob": 0.09234619140625
-      },
-      {
-        "start": 142.5,
-        "end": 145.5,
-        "text": "Not avoidance just to slide",
-        "avg_logprob": -0.22452445220256198,
-        "no_speech_prob": 0.09234619140625
-      },
-      {
-        "start": 145.5,
-        "end": 148.5,
-        "text": "Through a widening insight",
-        "avg_logprob": -0.22452445220256198,
-        "no_speech_prob": 0.09234619140625
-      },
-      {
-        "start": 148.5,
-        "end": 151.5,
-        "text": "I'm adjacent to the flow",
-        "avg_logprob": -0.22452445220256198,
-        "no_speech_prob": 0.09234619140625
-      },
-      {
-        "start": 151.5,
-        "end": 154.5,
-        "text": "But I never fully go",
-        "avg_logprob": -0.22108314075955637,
-        "no_speech_prob": 0.0853271484375
-      },
-      {
-        "start": 159.5,
-        "end": 161.5,
-        "text": "It's not that I wanna move",
-        "avg_logprob": -0.22108314075955637,
-        "no_speech_prob": 0.0853271484375
-      },
-      {
-        "start": 163.5,
-        "end": 165.5,
-        "text": "Is that the moment",
-        "avg_logprob": -0.22108314075955637,
-        "no_speech_prob": 0.0853271484375
-      },
-      {
-        "start": 165.5,
-        "end": 167.5,
-        "text": "Moves first",
-        "avg_logprob": -0.22108314075955637,
-        "no_speech_prob": 0.0853271484375
-      },
-      {
-        "start": 167.5,
-        "end": 170.5,
-        "text": "And I follow after",
-        "avg_logprob": -0.22108314075955637,
-        "no_speech_prob": 0.0853271484375
-      },
-      {
-        "start": 170.5,
-        "end": 172.5,
-        "text": "What if delay is an absence",
-        "avg_logprob": -0.22108314075955637,
-        "no_speech_prob": 0.0853271484375
-      },
-      {
-        "start": 172.5,
-        "end": 174.5,
-        "text": "But distance",
-        "avg_logprob": -0.22108314075955637,
-        "no_speech_prob": 0.0853271484375
-      },
-      {
-        "start": 174.5,
-        "end": 177.5,
-        "text": "What if now is elastic",
-        "avg_logprob": -0.22108314075955637,
-        "no_speech_prob": 0.0853271484375
-      },
-      {
-        "start": 177.5,
-        "end": 179.5,
-        "text": "I'm in my mind",
-        "avg_logprob": -1.1275735071727209,
-        "no_speech_prob": 0.4580078125
-      },
-      {
-        "start": 182.7,
-        "end": 184.7,
-        "text": "Miss a line",
-        "avg_logprob": -1.1275735071727209,
-        "no_speech_prob": 0.4580078125
-      },
-      {
-        "start": 184.7,
-        "end": 212.7,
-        "text": "I can feel the tension ease when I stop dividing me",
-        "avg_logprob": -0.47734375794728595,
-        "no_speech_prob": 0.7412109375
-      },
-      {
-        "start": 212.7,
-        "end": 217.7,
-        "text": "Let the seconds fall as one instead of something to run",
-        "avg_logprob": -0.21791294350155763,
-        "no_speech_prob": 0.5322265625
-      },
-      {
-        "start": 217.7,
-        "end": 220.7,
-        "text": "There's no future I must chase",
-        "avg_logprob": -0.21791294350155763,
-        "no_speech_prob": 0.5322265625
-      },
-      {
-        "start": 220.7,
-        "end": 223.7,
-        "text": "Just a shift in our workplace",
-        "avg_logprob": -0.21791294350155763,
-        "no_speech_prob": 0.5322265625
-      },
-      {
-        "start": 223.7,
-        "end": 226.7,
-        "text": "Where I stand inside the drift",
-        "avg_logprob": -0.21791294350155763,
-        "no_speech_prob": 0.5322265625
-      },
-      {
-        "start": 226.7,
-        "end": 229.7,
-        "text": "Not resisting what won't fix",
-        "avg_logprob": -0.21791294350155763,
-        "no_speech_prob": 0.5322265625
-      },
-      {
-        "start": 229.7,
-        "end": 232.7,
-        "text": "Not behind",
-        "avg_logprob": -0.21791294350155763,
-        "no_speech_prob": 0.5322265625
-      },
-      {
-        "start": 232.7,
-        "end": 235.7,
-        "text": "Not ahead",
-        "avg_logprob": -0.21791294350155763,
-        "no_speech_prob": 0.5322265625
-      },
-      {
-        "start": 235.7,
-        "end": 238.7,
-        "text": "I release into the frame",
-        "avg_logprob": -0.18643466586416418,
-        "no_speech_prob": 0.043670654296875
-      },
-      {
-        "start": 238.7,
-        "end": 241.7,
-        "text": "Where the moment stays the same",
-        "avg_logprob": -0.18643466586416418,
-        "no_speech_prob": 0.043670654296875
-      },
-      {
-        "start": 241.7,
-        "end": 244.7,
-        "text": "Not extended, not confined",
-        "avg_logprob": -0.18643466586416418,
-        "no_speech_prob": 0.043670654296875
-      },
-      {
-        "start": 244.7,
-        "end": 247.7,
-        "text": "Just a steady or kind of time",
-        "avg_logprob": -0.18643466586416418,
-        "no_speech_prob": 0.043670654296875
-      },
-      {
-        "start": 247.7,
-        "end": 250.7,
-        "text": "I don't force it into place",
-        "avg_logprob": -0.18643466586416418,
-        "no_speech_prob": 0.043670654296875
-      },
-      {
-        "start": 250.7,
-        "end": 253.7,
-        "text": "I just meet it where it stays",
-        "avg_logprob": -0.18643466586416418,
-        "no_speech_prob": 0.043670654296875
-      },
-      {
-        "start": 253.7,
-        "end": 256.7,
-        "text": "In the slowing I can find",
-        "avg_logprob": -0.18643466586416418,
-        "no_speech_prob": 0.043670654296875
-      },
-      {
-        "start": 256.7,
-        "end": 261.7,
-        "text": "I was never left behind",
-        "avg_logprob": -0.18643466586416418,
-        "no_speech_prob": 0.043670654296875
-      },
-      {
-        "start": 262.7,
-        "end": 265.7,
-        "text": "No more splitting",
-        "avg_logprob": -0.24175347139437994,
-        "no_speech_prob": 0.1336669921875
-      },
-      {
-        "start": 265.7,
-        "end": 268.7,
-        "text": "No more weight",
-        "avg_logprob": -0.24175347139437994,
-        "no_speech_prob": 0.1336669921875
-      },
-      {
-        "start": 268.7,
-        "end": 274.7,
-        "text": "Just a quiet, halted state",
-        "avg_logprob": -0.24175347139437994,
-        "no_speech_prob": 0.1336669921875
-      },
-      {
-        "start": 274.7,
-        "end": 278.7,
-        "text": "Time was never running first",
-        "avg_logprob": -0.24175347139437994,
-        "no_speech_prob": 0.1336669921875
-      },
-      {
-        "start": 278.7,
-        "end": 284.7,
-        "text": "I was off set from the past",
-        "avg_logprob": -0.24175347139437994,
-        "no_speech_prob": 0.1336669921875
-      },
-      {
-        "start": 291.7,
-        "end": 293.7,
-        "text": "Wooo",
-        "avg_logprob": -1.05078125,
-        "no_speech_prob": 0.58251953125
-      }
-    ],
-    "avg_logprob": -0.3138683139375304
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 380,
-    "transcript_word_count": 379,
-    "matched_sequence_words": 312,
-    "lyric_alignment_ratio": 0.821,
-    "transcript_precision_ratio": 0.823,
-    "unique_expected_word_coverage": 0.846,
-    "word_count_ratio": 0.997,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.185,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.826,
-    "quality_score_0_10": 8.26,
-    "flags": [],
-    "transcript_excerpt": "When it's color of the edge, Never landing, never set Something waiting to begin Held somewhere beneath the skin I divide the hour again into smaller pieces then Watch them slip between my hands Like they follow other plans Every moment leans away Just a fraction past the frame I can feel it bending thin Where I stop and should begin There's a way I never live Like a constant subtle drift Time expands when I wait Not a pause just to stay I defer into the stretch Where the present disconnects Every second pulls apart Before it ever fully starts Not refusal just to lay Like I'm face to step away\n...[truncated]...\na line I can feel the tension ease when I stop dividing me Let the seconds fall as one instead of something to run There's no future I must chase Just a shift in our workplace Where I stand inside the drift Not resisting what won't fix Not behind Not ahead I release into the frame Where the moment stays the same Not extended, not confined Just a steady or kind of time I don't force it into place I just meet it where it stays In the slowing I can find I was never left behind No more splitting No more weight Just a quiet, halted state Time was never running first I was off set from the past Wooo"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.14,
-      "BP_beauty_spatial_poise": 8.3,
-      "EG_evolving_grammar": 8.2,
-      "CD_carry_depth": 9.1
+      "MI_motivic_integration": 8.2,
+      "BP_beauty_spatial_poise": 8.04,
+      "EG_evolving_grammar": 8.12,
+      "CD_carry_depth": 8.83
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.71,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.87,
+      "NGE": 0.704,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in both lyrical and production layers."
     },
     "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like emotional revisits."
+        "reason": "Strong structural progression from minimal verse to expansive hook."
       },
       "MI_motivic_integration": {
-        "delta": 0.5,
-        "reason": "Motifs (vocal hooks, guitar figures, lyric images) recur across sections with meaningful variation, suggesting deep integration."
+        "delta": 0.56,
+        "reason": "Motif-like lyrical imagery (frame, stretch) integrates well with the production's delay/space effects."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.26,
-        "reason": "The sonic habitat (room tone, guitar space, reverb, tape hiss) is consistent and memorable, forming a distinct indie world."
+        "delta": 0.0,
+        "reason": "Score remains stable as it already reflects high aesthetic value."
       },
       "EG_evolving_grammar": {
-        "delta": 0.08,
-        "reason": "While the grammar develops over time, it does not fully invent a new method, so the score is slightly adjusted downward."
+        "delta": 0.0,
+        "reason": "Grammar is consistent with the 'stretched' theme of the track."
       },
       "CD_carry_depth": {
-        "delta": 0.27,
-        "reason": "The track defines a recognizable emotional habitat and invites re-listening, with a strong sense of inhabitation."
+        "delta": 0.0,
+        "reason": "Depth is well-established by the production notes and lyricism."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 5:02.36 with section-balance score 0.40.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.92.",
-      "Integrated loudness is -17.1 LUFS, peak is -1.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D minor with confidence 0.34.",
-      "Audio recurrence ratio is 0.440; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 412 beats and 128 downbeats; beat-grid stability is 0.95.",
-      "EG evidence: section contrast 1.61, cumulative evolution 0.65, transformed returns 10.00, grid deviation 1.54, rule changes 4.38.",
-      "Companion text has 12 lyric/production sections, 472 words, line repetition 0.01, rhyme-suffix reuse 0.34."
+      "The song features a sophisticated interplay between lyrical themes of time/space and the sonic application of delay/reverb.",
+      "Structure moves from intimate, restricted verses to expansive, 'unfolded' choruses.",
+      "Production techniques (dub delays, tape saturation) are directly mirrored in the lyricism regarding 'stretching' and 'frames'.",
+      "The ending is well-designed, transitioning into a 'dissolving' dub atmosphere."
     ],
     "review_flags": [
-      "Uncertainty remains about the exact nature of the 'transformed returns' due to limited audio-only evidence."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:43:48.7890513Z",
-    "eval_count": 796,
-    "eval_duration": 13491777900
+    "created_at": "2026-06-10T10:43:39.8540406Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9675742,
+      "base64_chars": 12900992,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13729,
+    "prompt_eval_duration": 5990947000,
+    "eval_count": 436,
+    "eval_duration": 10740470000
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T23:02:39",
+  "generated_at": "2026-06-10T13:00:08",
   "audio": {
     "path": "stderr/audio/12 - That's Why.mp3",
     "duration_seconds": 129.72,
@@ -677,19 +677,22 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.07,
-      "MI_motivic_integration": 7.66,
-      "BP_beauty_spatial_poise": 8.5,
-      "EG_evolving_grammar": 5.71,
-      "CD_carry_depth": 6.45
+      "SC_structural_coherence": 9.38,
+      "MI_motivic_integration": 8.15,
+      "BP_beauty_spatial_poise": 8.64,
+      "EG_evolving_grammar": 5.96,
+      "CD_carry_depth": 7.19
     },
     "core_metrics": {
-      "CDPD": 0.791,
-      "NGE": 0.476,
+      "CDPD": 0.839,
+      "NGE": 0.488,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -702,9 +705,9 @@
       "overall_score": 2.774
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.702,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.702
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 10,
@@ -721,488 +724,77 @@
       "beat_this detected 162 beats and 41 downbeats; beat-grid stability is 0.95.",
       "EG evidence: section contrast 1.81, cumulative evolution 0.84, transformed returns 7.50, grid deviation 0.15, rule changes 2.50.",
       "Companion text has 9 lyric/production sections, 510 words, line repetition 0.13, rhyme-suffix reuse 0.29.",
-      "Production/vocal notes contain transformation cues (density-change, dropout); intent score 3.10.",
-      "Transcription check: lyric alignment 0.60, unique-word coverage 0.64, word-count ratio 0.86, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.70, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (density-change, dropout); intent score 3.10."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Yeah Yeah Hey, boy, where the shouting on stuff? Yeah, keep up that fee Bunger to clinger to glass in the sink In the sting of the gym, my mother would drink Mama like thunder, her voice like a whip Every small thing made the silence go split Young is a fool on a war and a haw Every broken place, I'm on my fault Trip, trip, trip and down flights of the stairs Burn the stone fence, like I was in there They call me the problem to kill at the start But nobody asked why the room felt dark But the home was different doors every year Different beds, but the same kind of fit Different faces, same look, and I lie there Already knew I was troubled inside Why do I feel like a stranger with friends? Why do the nights never see that? Why do I reach for a drink or a fix? Any small things just to silence a mix? Why do I roam when somebody gets close? Why do I freeze and they need me to moat? Why do I feel like a Martin Joe? All right, that's what they made of the book This is the rhythm when the room was beat Nobody knew what was under the skin Just a weird kid, dripping deeper than an undiagnosed Lable to mess, every confusion, turning the stress Left with the crap of the left, your stage Like a mess that I hold on my faith See even with people like drifts of the side Like I'm watching my life from my side Boarding holes by like a highway line Small little bag every couple months' time Every goodbye, it's another reset Every hello, another regret Why do I feel like a stranger with friends? Why do the nights never see that? Everybody gets close? Why do I freeze and they need me to moat? Why do I feel like a Martin Joe? All right, that's what they made of the book Million editions just holding me up Smoke on my lungs and I'm feeling the cup Anything just required to know it Anything just come for the voice Someone someone gonna hear this and say That ain't even him that made it that way Like the words in the track and the scars on my skin Like the pain in the buzz and the life I was in For all those old echoes living in me Fists in the past that I still can't leave Still tryna rebuild that boy",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 2.0,
-        "text": "Yeah",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 2.0,
-        "end": 4.0,
-        "text": "Yeah",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 4.0,
-        "end": 8.0,
-        "text": "Hey, boy, where the shouting on stuff?",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 8.0,
-        "end": 12.0,
-        "text": "Yeah, keep up that fee",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 12.0,
-        "end": 14.0,
-        "text": "Bunger to clinger to glass in the sink",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 14.0,
-        "end": 16.0,
-        "text": "In the sting of the gym, my mother would drink",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 16.0,
-        "end": 18.0,
-        "text": "Mama like thunder, her voice like a whip",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 18.0,
-        "end": 20.0,
-        "text": "Every small thing made the silence go split",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 20.0,
-        "end": 22.0,
-        "text": "Young is a fool on a war and a haw",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 22.0,
-        "end": 24.0,
-        "text": "Every broken place, I'm on my fault",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 24.0,
-        "end": 26.0,
-        "text": "Trip, trip, trip and down flights of the stairs",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 26.0,
-        "end": 28.0,
-        "text": "Burn the stone fence, like I was in there",
-        "avg_logprob": -0.5396341385880137,
-        "no_speech_prob": 0.6064453125
-      },
-      {
-        "start": 28.0,
-        "end": 30.0,
-        "text": "They call me the problem to kill at the start",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 30.0,
-        "end": 32.0,
-        "text": "But nobody asked why the room felt dark",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 32.0,
-        "end": 34.0,
-        "text": "But the home was different doors every year",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 34.0,
-        "end": 36.0,
-        "text": "Different beds, but the same kind of fit",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 36.0,
-        "end": 38.0,
-        "text": "Different faces, same look, and I lie there",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 38.0,
-        "end": 40.0,
-        "text": "Already knew I was troubled inside",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 40.0,
-        "end": 42.0,
-        "text": "Why do I feel like a stranger with friends?",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 42.0,
-        "end": 44.0,
-        "text": "Why do the nights never see that?",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 44.0,
-        "end": 46.0,
-        "text": "Why do I reach for a drink or a fix?",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 46.0,
-        "end": 48.0,
-        "text": "Any small things just to silence a mix?",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 48.0,
-        "end": 50.0,
-        "text": "Why do I roam when somebody gets close?",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 50.0,
-        "end": 52.0,
-        "text": "Why do I freeze and they need me to moat?",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 52.0,
-        "end": 54.0,
-        "text": "Why do I feel like a Martin Joe?",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 54.0,
-        "end": 56.0,
-        "text": "All right, that's what they made of the book",
-        "avg_logprob": -0.2666015613824129,
-        "no_speech_prob": 0.25830078125
-      },
-      {
-        "start": 56.0,
-        "end": 58.0,
-        "text": "This is the rhythm when the room was beat",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 58.0,
-        "end": 60.0,
-        "text": "Nobody knew what was under the skin",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 60.0,
-        "end": 62.0,
-        "text": "Just a weird kid, dripping deeper than an undiagnosed",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 62.0,
-        "end": 64.0,
-        "text": "Lable to mess, every confusion, turning the stress",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 64.0,
-        "end": 66.0,
-        "text": "Left with the crap of the left, your stage",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 66.0,
-        "end": 68.0,
-        "text": "Like a mess that I hold on my faith",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 68.0,
-        "end": 70.0,
-        "text": "See even with people like drifts of the side",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 70.0,
-        "end": 72.0,
-        "text": "Like I'm watching my life from my side",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 72.0,
-        "end": 74.0,
-        "text": "Boarding holes by like a highway line",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 74.0,
-        "end": 76.0,
-        "text": "Small little bag every couple months' time",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 76.0,
-        "end": 78.0,
-        "text": "Every goodbye, it's another reset",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 78.0,
-        "end": 80.0,
-        "text": "Every hello, another regret",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 80.0,
-        "end": 82.0,
-        "text": "Why do I feel like a stranger with friends?",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 82.0,
-        "end": 84.0,
-        "text": "Why do the nights never see that?",
-        "avg_logprob": -0.3060064826692854,
-        "no_speech_prob": 0.5556640625
-      },
-      {
-        "start": 84.0,
-        "end": 86.0,
-        "text": "Everybody gets close?",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 86.0,
-        "end": 88.0,
-        "text": "Why do I freeze and they need me to moat?",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 88.0,
-        "end": 90.0,
-        "text": "Why do I feel like a Martin Joe?",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 90.0,
-        "end": 92.0,
-        "text": "All right, that's what they made of the book",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 92.0,
-        "end": 94.0,
-        "text": "Million editions just holding me up",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 94.0,
-        "end": 96.0,
-        "text": "Smoke on my lungs and I'm feeling the cup",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 96.0,
-        "end": 98.0,
-        "text": "Anything just required to know it",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 98.0,
-        "end": 100.0,
-        "text": "Anything just come for the voice",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 100.0,
-        "end": 102.0,
-        "text": "Someone someone gonna hear this and say",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 102.0,
-        "end": 104.0,
-        "text": "That ain't even him that made it that way",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 104.0,
-        "end": 106.0,
-        "text": "Like the words in the track and the scars on my skin",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 106.0,
-        "end": 108.0,
-        "text": "Like the pain in the buzz and the life I was in",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 108.0,
-        "end": 110.0,
-        "text": "For all those old echoes living in me",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 110.0,
-        "end": 112.0,
-        "text": "Fists in the past that I still can't leave",
-        "avg_logprob": -0.2073863623784734,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 112.0,
-        "end": 114.0,
-        "text": "Still tryna rebuild that boy",
-        "avg_logprob": -0.2049560584127903,
-        "no_speech_prob": 0.076904296875
-      }
-    ],
-    "avg_logprob": -0.3277150120818836
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 496,
-    "transcript_word_count": 426,
-    "matched_sequence_words": 299,
-    "lyric_alignment_ratio": 0.603,
-    "transcript_precision_ratio": 0.702,
-    "unique_expected_word_coverage": 0.637,
-    "word_count_ratio": 0.859,
-    "repeated_12gram_ratio": 0.055,
-    "half_similarity": 0.296,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.62,
-    "quality_score_0_10": 6.2,
-    "flags": [],
-    "transcript_excerpt": "Yeah Yeah Hey, boy, where the shouting on stuff? Yeah, keep up that fee Bunger to clinger to glass in the sink In the sting of the gym, my mother would drink Mama like thunder, her voice like a whip Every small thing made the silence go split Young is a fool on a war and a haw Every broken place, I'm on my fault Trip, trip, trip and down flights of the stairs Burn the stone fence, like I was in there They call me the problem to kill at the start But nobody asked why the room felt dark But the home was different doors every year Different beds, but the same kind of fit Different faces, same loo\n...[truncated]...\nghts never see that? Everybody gets close? Why do I freeze and they need me to moat? Why do I feel like a Martin Joe? All right, that's what they made of the book Million editions just holding me up Smoke on my lungs and I'm feeling the cup Anything just required to know it Anything just come for the voice Someone someone gonna hear this and say That ain't even him that made it that way Like the words in the track and the scars on my skin Like the pain in the buzz and the life I was in For all those old echoes living in me Fists in the past that I still can't leave Still tryna rebuild that boy"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.07,
-      "MI_motivic_integration": 7.66,
-      "BP_beauty_spatial_poise": 8.5,
-      "EG_evolving_grammar": 5.71,
-      "CD_carry_depth": 6.45
+      "SC_structural_coherence": 9.38,
+      "MI_motivic_integration": 8.15,
+      "BP_beauty_spatial_poise": 8.64,
+      "EG_evolving_grammar": 5.96,
+      "CD_carry_depth": 7.19
     },
     "core_metrics": {
-      "CDPD": 0.791,
-      "NGE": 0.476,
+      "CDPD": 0.839,
+      "NGE": 0.488,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural coherence and clear section transitions."
     },
     "confidence_0_10": 7.09,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track has 4 audio sections with balanced durations and clear section functions (Intro, Verse, Chorus, Bridge). Transitions feel intentional, and no filler 8s are present."
+        "reason": "Structure is well-defined with distinct verse/hook transitions."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs (e.g., triplet flows, vocal cadences, harmonic shifts) recur across sections, though not deeply developed. Cross-domain recursion is limited."
+        "reason": "Strong motif repetition in the hook and recurring lyrical themes."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The sonic habitat is consistently spacious with reverb and delay, though not uniquely fingerprinted. It supports the introspective mood without overcomplicating."
+        "reason": "Effective use of space/drops to emphasize key lines."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The beat and harmonic grammar remain static, with no meaningful evolution. The track relies on repetition rather than structural development."
+        "reason": "Significant contrast between verse and hook textures (rhythmic shift)."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a clear emotional habitat of self-criticism and introspection. It invites re-listening and feels like a 'little world' of internal conflict."
+        "reason": "Strong emotional weight in the outro's reflective lyrics."
       }
     },
     "rationale": [
-      "Detected 4 audio sections over 2:09.72 with section-balance score 0.86.",
-      "Tempo estimate is 152.0 BPM; declared tempo alignment contributes 1.00.",
-      "Integrated loudness is -15.6 LUFS, peak is -2.3 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F minor with confidence 0.49.",
-      "Audio recurrence ratio is 0.127; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 162 beats and 41 downbeats; beat-grid stability is 0.95.",
-      "EG evidence: section contrast 1.81, cumulative evolution 0.84, transformed returns 7.50, grid deviation 0.15, rule changes 2.50.",
-      "Companion text has 9 lyric/production sections, 510 words, line repetition 0.13, rhyme-suffix reuse 0.29."
+      "The track features a clear structural arc with distinct sections.",
+      "Motivic integration is high due to consistent hook phrasing and thematic depth.",
+      "Grammar evolves significantly between the verse (dense) and hook (sparse/chanted).",
+      "Production transitions clearly mark section changes."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the framework excerpt; audio evidence suggests 4 sections, but framework mentions 9 lyric/production sections."
+      "High confidence in structure.",
+      "Clear contrast in vocal delivery styles."
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T21:02:39.3107977Z",
-    "eval_count": 859,
-    "eval_duration": 14184742200
+    "created_at": "2026-06-10T11:00:08.4281151Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 4151264,
+      "base64_chars": 5535020,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 6908,
+    "prompt_eval_duration": 2902013000,
+    "eval_count": 523,
+    "eval_duration": 12642217000
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:19:30",
+  "generated_at": "2026-06-10T12:23:22",
   "audio": {
     "path": "Net Worthless/audio/01 - Main Character Morning.mp3",
     "duration_seconds": 322.96,
@@ -1625,7 +1625,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1670,501 +1673,75 @@
       "EG evidence: section contrast 1.22, cumulative evolution 0.39, transformed returns 10.00, grid deviation 0.31, rule changes 1.39.",
       "Companion text has 10 lyric/production sections, 824 words, line repetition 0.10, rhyme-suffix reuse 0.38.",
       "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.78, unique-word coverage 0.85, word-count ratio 0.97, duplicate-pass estimate 1.",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
   },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "There's a man at the traffic light, staring into his phone, like God just messaged him, you up, the light is green, behind him 12 cars are becoming monks, one woman whispers, go, he doesn't, because clearly the city has paused for his thumb. I've met the stars of tiny films shun entirely in their heads, they walk through crowds like part and seas, except nobody has moved yet. Headphones in, face up to brave, like every pavement is a stage, and we're rolled background actors with no right to complain. There's a bloke on the left of the escalator, standing like a man you needn't to pull, behaviour you say, excuse me, he sighs like a saint, as if stepping aside, as a moral complaint, and I get it mate, life is hard, you got a tote bag in emotional scars, but some of us have trains and knees and rage in the me, and it started three minutes ago, stand on the right, walk on the left, it's not a poem, it's just respect. Everybody starring in a film no one bought tickets for, main character morning with your bag across the corridor, look up for a second, there are people in your frame, the world doesn't end when it isn't saying your name. Controversial, might lose followers, there's a lift at the office door, slide wide, and before you can leave, they're already inside, like salmon upstream, but with perfume marching straight into a two-metre brim, I'm holding the laptop, a coffee get opened, a loss, and thread of a civic oath, they push through smiling like sorry, just me, which is exactly the problem philosophically, you can't enter a space before space is been made, that's not etiquette, that's primary grade, green means go, doors mean wait, pavements are shared, and cues have a shape, but lately it feels like I need to get lost, sorry means I'm doing it more. Everybody starring in a film no one bought tickets for, main character morning with your bag across the corridor, look up for a second, there are people in the frame, the world doesn't end when it isn't saying your name, and here's the ugly bit, I'm scared, I'm one of them, not sometimes often, I check my phone and hate phone people, I block an aisle while judging the aisle blockers, I take up space with my bag, I move my undress or childish, and the pastry, I build a courtroom in my skull and the point myself judge, but because it's easier than it I'm terrified of being a careless, terrified that my kindness is just mans with good light, and can terrified that I only know the selfishness when the inconvenience is me, maybe this whole song isn't a sermon, maybe it's a panic attack with the guitar, maybe I point at strangers because I'm begging myself don't become that, don't become that, don't become that, because most people aren't evil, they're late, they're sad, they're on the sled, they got bent in their chest, and the mess is they regret, they're carrying fathers, but test breakups, and lunch is left on the counter, they're not thinking, how can I ruin this strange morning, they're thinking, please let me survive mine, I'm still, move right on the escalator, the left people out of the left green means go, a doorway is not a place to discover, you're in the weather, there's a quiet contract, threaten nowhere, signed by everyone in tiny daily choices, hold the door, make room look up, step aside, small mercies and not small, when everyone is drowning inside, everybody's starting, I feel no one bought tickets for main character, morning with your bag of crops, the corridor, on look up for a second, there are people in the free, the world doesn't end when it isn't saying your name, everybody's carrying a world behind their eyes, like the kindness, a little miracle is making room in mine, so move the river, let the tide wander through, the world doesn't spin, only for you, the light's still green, by the way, he looks up, finally drives, before team people forgive him in different languages, using those who they are ones, and somewhere on the escalator, man's down tonight, not because he's perfect, because for one small second, he remembers, other people are also trying to get somewhere, for his thumb, man.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 5.92,
-        "text": "There's a man at the traffic light, staring into his phone, like God just messaged him,",
-        "avg_logprob": -0.2605421557483903,
-        "no_speech_prob": 0.10467529296875
-      },
-      {
-        "start": 5.92,
-        "end": 11.28,
-        "text": "you up, the light is green, behind him 12 cars are becoming monks,",
-        "avg_logprob": -0.2605421557483903,
-        "no_speech_prob": 0.10467529296875
-      },
-      {
-        "start": 12.16,
-        "end": 19.84,
-        "text": "one woman whispers, go, he doesn't, because clearly the city has paused for his thumb.",
-        "avg_logprob": -0.2605421557483903,
-        "no_speech_prob": 0.10467529296875
-      },
-      {
-        "start": 21.84,
-        "end": 24.88,
-        "text": "I've met the stars of tiny films shun entirely in their heads,",
-        "avg_logprob": -0.2605421557483903,
-        "no_speech_prob": 0.10467529296875
-      },
-      {
-        "start": 24.88,
-        "end": 30.64,
-        "text": "they walk through crowds like part and seas, except nobody has moved yet.",
-        "avg_logprob": -0.32449775535081116,
-        "no_speech_prob": 0.25244140625
-      },
-      {
-        "start": 32.48,
-        "end": 36.08,
-        "text": "Headphones in, face up to brave, like every pavement is a stage, and we're rolled",
-        "avg_logprob": -0.32449775535081116,
-        "no_speech_prob": 0.25244140625
-      },
-      {
-        "start": 36.08,
-        "end": 41.04,
-        "text": "background actors with no right to complain. There's a bloke on the left of the escalator,",
-        "avg_logprob": -0.32449775535081116,
-        "no_speech_prob": 0.25244140625
-      },
-      {
-        "start": 41.04,
-        "end": 46.56,
-        "text": "standing like a man you needn't to pull, behaviour you say, excuse me, he sighs like a saint,",
-        "avg_logprob": -0.32449775535081116,
-        "no_speech_prob": 0.25244140625
-      },
-      {
-        "start": 46.56,
-        "end": 51.44,
-        "text": "as if stepping aside, as a moral complaint, and I get it mate, life is hard,",
-        "avg_logprob": -0.32449775535081116,
-        "no_speech_prob": 0.25244140625
-      },
-      {
-        "start": 51.44,
-        "end": 57.2,
-        "text": "you got a tote bag in emotional scars, but some of us have trains and knees and rage in the",
-        "avg_logprob": -0.2233664786273783,
-        "no_speech_prob": 0.0247039794921875
-      },
-      {
-        "start": 57.2,
-        "end": 63.84,
-        "text": "me, and it started three minutes ago, stand on the right, walk on the left, it's not a poem,",
-        "avg_logprob": -0.2233664786273783,
-        "no_speech_prob": 0.0247039794921875
-      },
-      {
-        "start": 63.84,
-        "end": 69.84,
-        "text": "it's just respect. Everybody starring in a film no one bought tickets for,",
-        "avg_logprob": -0.2233664786273783,
-        "no_speech_prob": 0.0247039794921875
-      },
-      {
-        "start": 70.96,
-        "end": 78.24,
-        "text": "main character morning with your bag across the corridor, look up for a second,",
-        "avg_logprob": -0.2233664786273783,
-        "no_speech_prob": 0.0247039794921875
-      },
-      {
-        "start": 78.24,
-        "end": 86.24,
-        "text": "there are people in your frame, the world doesn't end when it isn't saying your name.",
-        "avg_logprob": -0.2867353789983912,
-        "no_speech_prob": 0.06683349609375
-      },
-      {
-        "start": 87.6,
-        "end": 94.56,
-        "text": "Controversial, might lose followers, there's a lift at the office door, slide wide, and before",
-        "avg_logprob": -0.2867353789983912,
-        "no_speech_prob": 0.06683349609375
-      },
-      {
-        "start": 94.56,
-        "end": 100.4,
-        "text": "you can leave, they're already inside, like salmon upstream, but with perfume marching straight",
-        "avg_logprob": -0.2867353789983912,
-        "no_speech_prob": 0.06683349609375
-      },
-      {
-        "start": 100.4,
-        "end": 105.6,
-        "text": "into a two-metre brim, I'm holding the laptop, a coffee get opened, a loss,",
-        "avg_logprob": -0.2867353789983912,
-        "no_speech_prob": 0.06683349609375
-      },
-      {
-        "start": 105.6,
-        "end": 110.56,
-        "text": "and thread of a civic oath, they push through smiling like sorry, just me,",
-        "avg_logprob": -0.274553571783361,
-        "no_speech_prob": 0.115234375
-      },
-      {
-        "start": 110.56,
-        "end": 115.68,
-        "text": "which is exactly the problem philosophically, you can't enter a space before space is",
-        "avg_logprob": -0.274553571783361,
-        "no_speech_prob": 0.115234375
-      },
-      {
-        "start": 115.68,
-        "end": 120.56,
-        "text": "been made, that's not etiquette, that's primary grade, green means go,",
-        "avg_logprob": -0.274553571783361,
-        "no_speech_prob": 0.115234375
-      },
-      {
-        "start": 120.56,
-        "end": 126.88,
-        "text": "doors mean wait, pavements are shared, and cues have a shape, but lately it feels like I need",
-        "avg_logprob": -0.274553571783361,
-        "no_speech_prob": 0.115234375
-      },
-      {
-        "start": 126.88,
-        "end": 134.64,
-        "text": "to get lost, sorry means I'm doing it more. Everybody starring in a film no one bought tickets for,",
-        "avg_logprob": -0.2649253846994087,
-        "no_speech_prob": 0.404296875
-      },
-      {
-        "start": 135.84,
-        "end": 143.28,
-        "text": "main character morning with your bag across the corridor, look up for a second,",
-        "avg_logprob": -0.2649253846994087,
-        "no_speech_prob": 0.404296875
-      },
-      {
-        "start": 143.28,
-        "end": 152.0,
-        "text": "there are people in the frame, the world doesn't end when it isn't saying your name,",
-        "avg_logprob": -0.2649253846994087,
-        "no_speech_prob": 0.404296875
-      },
-      {
-        "start": 152.0,
-        "end": 156.48,
-        "text": "and here's the ugly bit, I'm scared, I'm one of them, not sometimes often,",
-        "avg_logprob": -0.24175824208573982,
-        "no_speech_prob": 0.529296875
-      },
-      {
-        "start": 157.04,
-        "end": 161.76,
-        "text": "I check my phone and hate phone people, I block an aisle while judging the aisle blockers,",
-        "avg_logprob": -0.24175824208573982,
-        "no_speech_prob": 0.529296875
-      },
-      {
-        "start": 161.76,
-        "end": 167.52,
-        "text": "I take up space with my bag, I move my undress or childish, and the pastry,",
-        "avg_logprob": -0.24175824208573982,
-        "no_speech_prob": 0.529296875
-      },
-      {
-        "start": 167.52,
-        "end": 172.56,
-        "text": "I build a courtroom in my skull and the point myself judge, but because it's easier than it",
-        "avg_logprob": -0.24175824208573982,
-        "no_speech_prob": 0.529296875
-      },
-      {
-        "start": 173.2,
-        "end": 180.32,
-        "text": "I'm terrified of being a careless, terrified that my kindness is just mans with good light,",
-        "avg_logprob": -0.2821691162445966,
-        "no_speech_prob": 0.759765625
-      },
-      {
-        "start": 180.32,
-        "end": 185.84,
-        "text": "and can terrified that I only know the selfishness when the inconvenience is me,",
-        "avg_logprob": -0.2821691162445966,
-        "no_speech_prob": 0.759765625
-      },
-      {
-        "start": 187.68,
-        "end": 194.56,
-        "text": "maybe this whole song isn't a sermon, maybe it's a panic attack with the guitar, maybe",
-        "avg_logprob": -0.2821691162445966,
-        "no_speech_prob": 0.759765625
-      },
-      {
-        "start": 194.56,
-        "end": 200.4,
-        "text": "I point at strangers because I'm begging myself don't become that, don't become that,",
-        "avg_logprob": -0.2821691162445966,
-        "no_speech_prob": 0.759765625
-      },
-      {
-        "start": 200.4,
-        "end": 205.2,
-        "text": "don't become that, because most people aren't evil, they're late, they're sad,",
-        "avg_logprob": -0.31039663318258065,
-        "no_speech_prob": 0.07000732421875
-      },
-      {
-        "start": 205.2,
-        "end": 209.04,
-        "text": "they're on the sled, they got bent in their chest, and the mess is they regret,",
-        "avg_logprob": -0.31039663318258065,
-        "no_speech_prob": 0.07000732421875
-      },
-      {
-        "start": 209.04,
-        "end": 214.0,
-        "text": "they're carrying fathers, but test breakups, and lunch is left on the counter,",
-        "avg_logprob": -0.31039663318258065,
-        "no_speech_prob": 0.07000732421875
-      },
-      {
-        "start": 214.0,
-        "end": 219.28,
-        "text": "they're not thinking, how can I ruin this strange morning, they're thinking,",
-        "avg_logprob": -0.31039663318258065,
-        "no_speech_prob": 0.07000732421875
-      },
-      {
-        "start": 219.28,
-        "end": 225.44,
-        "text": "please let me survive mine, I'm still, move right on the escalator,",
-        "avg_logprob": -0.31039663318258065,
-        "no_speech_prob": 0.07000732421875
-      },
-      {
-        "start": 225.44,
-        "end": 230.96,
-        "text": "the left people out of the left green means go, a doorway is not a place to discover,",
-        "avg_logprob": -0.3002232217362949,
-        "no_speech_prob": 0.60009765625
-      },
-      {
-        "start": 230.96,
-        "end": 233.6,
-        "text": "you're in the weather, there's a quiet contract,",
-        "avg_logprob": -0.3002232217362949,
-        "no_speech_prob": 0.60009765625
-      },
-      {
-        "start": 233.6,
-        "end": 237.76,
-        "text": "threaten nowhere, signed by everyone in tiny daily choices,",
-        "avg_logprob": -0.3002232217362949,
-        "no_speech_prob": 0.60009765625
-      },
-      {
-        "start": 237.76,
-        "end": 243.36,
-        "text": "hold the door, make room look up, step aside, small mercies and not small,",
-        "avg_logprob": -0.3002232217362949,
-        "no_speech_prob": 0.60009765625
-      },
-      {
-        "start": 243.36,
-        "end": 249.84,
-        "text": "when everyone is drowning inside, everybody's starting,",
-        "avg_logprob": -0.3002232217362949,
-        "no_speech_prob": 0.60009765625
-      },
-      {
-        "start": 249.84,
-        "end": 254.88,
-        "text": "I feel no one bought tickets for main character,",
-        "avg_logprob": -0.3444393426179886,
-        "no_speech_prob": 0.25634765625
-      },
-      {
-        "start": 254.88,
-        "end": 258.56,
-        "text": "morning with your bag of crops, the corridor,",
-        "avg_logprob": -0.3444393426179886,
-        "no_speech_prob": 0.25634765625
-      },
-      {
-        "start": 258.56,
-        "end": 265.44,
-        "text": "on look up for a second, there are people in the free,",
-        "avg_logprob": -0.3444393426179886,
-        "no_speech_prob": 0.25634765625
-      },
-      {
-        "start": 265.44,
-        "end": 271.6,
-        "text": "the world doesn't end when it isn't saying your name,",
-        "avg_logprob": -0.3444393426179886,
-        "no_speech_prob": 0.25634765625
-      },
-      {
-        "start": 271.6,
-        "end": 277.12,
-        "text": "everybody's carrying a world behind their eyes,",
-        "avg_logprob": -0.3444393426179886,
-        "no_speech_prob": 0.25634765625
-      },
-      {
-        "start": 277.12,
-        "end": 282.24,
-        "text": "like the kindness, a little miracle is making room in mine,",
-        "avg_logprob": -0.24001736525032255,
-        "no_speech_prob": 0.0245819091796875
-      },
-      {
-        "start": 282.24,
-        "end": 288.48,
-        "text": "so move the river, let the tide wander through,",
-        "avg_logprob": -0.24001736525032255,
-        "no_speech_prob": 0.0245819091796875
-      },
-      {
-        "start": 288.48,
-        "end": 294.0,
-        "text": "the world doesn't spin, only for you,",
-        "avg_logprob": -0.24001736525032255,
-        "no_speech_prob": 0.0245819091796875
-      },
-      {
-        "start": 294.0,
-        "end": 298.64,
-        "text": "the light's still green, by the way, he looks up, finally drives,",
-        "avg_logprob": -0.24001736525032255,
-        "no_speech_prob": 0.0245819091796875
-      },
-      {
-        "start": 298.64,
-        "end": 301.44,
-        "text": "before team people forgive him in different languages,",
-        "avg_logprob": -0.24001736525032255,
-        "no_speech_prob": 0.0245819091796875
-      },
-      {
-        "start": 301.44,
-        "end": 305.68,
-        "text": "using those who they are ones, and somewhere on the escalator,",
-        "avg_logprob": -0.35364582637945813,
-        "no_speech_prob": 0.341064453125
-      },
-      {
-        "start": 305.68,
-        "end": 310.4,
-        "text": "man's down tonight, not because he's perfect,",
-        "avg_logprob": -0.35364582637945813,
-        "no_speech_prob": 0.341064453125
-      },
-      {
-        "start": 310.4,
-        "end": 314.32,
-        "text": "because for one small second, he remembers,",
-        "avg_logprob": -0.35364582637945813,
-        "no_speech_prob": 0.341064453125
-      },
-      {
-        "start": 314.32,
-        "end": 319.36,
-        "text": "other people are also trying to get somewhere,",
-        "avg_logprob": -0.35364582637945813,
-        "no_speech_prob": 0.341064453125
-      },
-      {
-        "start": 319.36,
-        "end": 322.96,
-        "text": "for his thumb, man.",
-        "avg_logprob": -0.35364582637945813,
-        "no_speech_prob": 0.341064453125
-      }
-    ],
-    "avg_logprob": -0.28587871045689955
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 768,
-    "transcript_word_count": 742,
-    "matched_sequence_words": 597,
-    "lyric_alignment_ratio": 0.777,
-    "transcript_precision_ratio": 0.805,
-    "unique_expected_word_coverage": 0.848,
-    "word_count_ratio": 0.966,
-    "repeated_12gram_ratio": 0.023,
-    "half_similarity": 0.199,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.794,
-    "quality_score_0_10": 7.94,
-    "flags": [],
-    "transcript_excerpt": "There's a man at the traffic light, staring into his phone, like God just messaged him, you up, the light is green, behind him 12 cars are becoming monks, one woman whispers, go, he doesn't, because clearly the city has paused for his thumb. I've met the stars of tiny films shun entirely in their heads, they walk through crowds like part and seas, except nobody has moved yet. Headphones in, face up to brave, like every pavement is a stage, and we're rolled background actors with no right to complain. There's a bloke on the left of the escalator, standing like a man you needn't to pull, behavio\n...[truncated]...\nn the free, the world doesn't end when it isn't saying your name, everybody's carrying a world behind their eyes, like the kindness, a little miracle is making room in mine, so move the river, let the tide wander through, the world doesn't spin, only for you, the light's still green, by the way, he looks up, finally drives, before team people forgive him in different languages, using those who they are ones, and somewhere on the escalator, man's down tonight, not because he's perfect, because for one small second, he remembers, other people are also trying to get somewhere, for his thumb, man."
-  },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.5,
-      "MI_motivic_integration": 9.2,
-      "BP_beauty_spatial_poise": 9.0,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 9.0
+      "SC_structural_coherence": 9.85,
+      "MI_motivic_integration": 9.42,
+      "BP_beauty_spatial_poise": 9.31,
+      "EG_evolving_grammar": 7.65,
+      "CD_carry_depth": 9.08
     },
     "core_metrics": {
-      "CDPD": 0.92,
-      "NGE": 0.58,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.04,
+      "NGE": 0.52,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
-      "number": 11,
-      "label": "Quiet twists & recursions",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "number": 13,
+      "label": "Inhabited Form",
+      "note": "Strong narrative arc with distinct spoken/sung transitions."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 9.4,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -1.5,
-        "reason": "Section lengths are proportionate, but transitions feel designed rather than DAW-copy-paste. The track has a clear arc with a reflective bridge and emotional resolution."
+        "delta": -0.15,
+        "reason": "Clear verse-hook-bridge structure."
       },
       "MI_motivic_integration": {
-        "delta": -0.44,
-        "reason": "Motifs from the hook recur in verses and ad-libs, but the integration is not as dense as the base score suggests. Cross-domain recursion is present but not dominant."
+        "delta": -0.22,
+        "reason": "Spoken sections are slightly less fluid than sung hooks."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.49,
-        "reason": "The sonic habitat is consistently beautiful and coherent, but the production lacks a distinctive spatial signature that would elevate it further."
+        "delta": -0.18,
+        "reason": "Already high; production is clean and spacious."
       },
       "EG_evolving_grammar": {
-        "delta": 0.78,
-        "reason": "The grammar evolves meaningfully, with changes in beat density, harmonic color, and flow density. However, the evolution is not as pronounced as the base score suggests."
+        "delta": 0.93,
+        "reason": "Strong contrast between spoken rap and melodic folk hook."
       },
       "CD_carry_depth": {
-        "delta": 0.03,
-        "reason": "The track defines a recognisable emotional/psychic habitat and invites re-listening. It feels like a little world with a clear emotional arc."
+        "delta": 0.11,
+        "reason": "Thematic depth is consistent across all sections."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:22.96 with section-balance score 0.27.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.61.",
-      "Integrated loudness is -16.3 LUFS, peak is 0.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G minor with confidence 0.17.",
-      "Audio recurrence ratio is 0.243; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 451 beats and 112 downbeats; beat-grid stability is 0.78.",
-      "EG evidence: section contrast 1.22, cumulative evolution 0.39, transformed returns 10.00, grid deviation 0.31, rule changes 1.39.",
-      "Companion text has 10 lyric/production sections, 824 words, line repetition 0.10, rhyme-suffix reuse 0.38."
+      "Clear distinction between spoken-word rap and sung folk hooks.",
+      "Dynamic range in delivery (from sardonic to reflective).",
+      "Strong thematic cohesion regarding urban isolation."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the final third; stronger evidence needed for new grammar."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:19:30.3049079Z",
-    "eval_count": 829,
-    "eval_duration": 15420086700
+    "created_at": "2026-06-10T10:23:22.2538068Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10334956,
+      "base64_chars": 13779944,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14406,
+    "prompt_eval_duration": 6344033000,
+    "eval_count": 361,
+    "eval_duration": 8827242000
   }
 }

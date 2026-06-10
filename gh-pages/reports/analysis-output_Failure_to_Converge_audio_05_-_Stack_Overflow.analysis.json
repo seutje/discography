@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:14:10",
+  "generated_at": "2026-06-10T12:17:49",
   "audio": {
     "path": "Failure to Converge/audio/05 - Stack Overflow.mp3",
     "duration_seconds": 246.72,
@@ -1440,19 +1440,22 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.95,
-      "MI_motivic_integration": 6.63,
-      "BP_beauty_spatial_poise": 9.06,
-      "EG_evolving_grammar": 7.82,
-      "CD_carry_depth": 8.91
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 6.7,
+      "BP_beauty_spatial_poise": 9.08,
+      "EG_evolving_grammar": 7.86,
+      "CD_carry_depth": 9.02
     },
     "core_metrics": {
-      "CDPD": 0.825,
-      "NGE": 0.654,
+      "CDPD": 0.832,
+      "NGE": 0.656,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -1465,9 +1468,9 @@
       "overall_score": 3.136
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.108,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.108
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 13,
@@ -1484,432 +1487,75 @@
       "beat_this detected 393 beats and 99 downbeats; beat-grid stability is 0.72.",
       "EG evidence: section contrast 1.65, cumulative evolution 0.67, transformed returns 10.00, grid deviation 0.37, rule changes 1.79.",
       "Companion text has 11 lyric/production sections, 539 words, line repetition 0.05, rhyme-suffix reuse 0.46.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 9.45.",
-      "Transcription check: lyric alignment 0.70, unique-word coverage 0.72, word-count ratio 1.33, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.11, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change, texture-change); intent score 9.45."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "If I call my name and the answer's back Is it still me or a luke and track? If I trace the thought to the place it began There's another hand drawing in my hand I keep folding in words like mirrored code Every ex it leads to an nested note Phone, she calls me from inside my chest Returns the same unrundered unrucks I've been fine a fear just to watch it grow Pass it as a value I already know Stacking every doubt till it overflows But the base case never shows I almost reach it I almost see it But every answer repeats the question I am calling me calling me calling me Falling through a frame I can't leave I am breaking me breaking me breaking me Every version still believes there's a bottom Somewhere underneath But it P P P P P P P P P P P P P P P P P P P P P P Dips return in me There's a copy of a copy in the static Where every thought to firm still refers to her It caught between because And just be cut If I silence it does it still persists Like a phantom limb that I can't resist Every path I take recompiles the same Different syntax, same old name I almost stop it I almost drop it But every ending reloads a moment I am calling me calling me I bet that that that goes in a closer Good dream, I'm chasing you chasing me chasing me I bet I bet I drew a self-referential scene There's a line when it's supposed to cease But I B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B If I could step outside the frame What eye does oversteady The same or a more just the question's shape Pretending I can escape A quiet loop begins to slow, I'm missing peace, I almost know I always callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, call This is not release Just a softer repeat If I am a loo-loo-loo-loo-loo I disappear Or finally here Something not from here Find a loo-loo-loo-lo Who I disappear Finally here Something not from here Something not from Something not from Something not from Something not",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 20.56,
-        "text": "If I call my name and the answer's back Is it still me or a luke and track?",
-        "avg_logprob": -0.4600694391462538,
-        "no_speech_prob": 0.58984375
-      },
-      {
-        "start": 20.56,
-        "end": 29.2,
-        "text": "If I trace the thought to the place it began There's another hand drawing in my hand",
-        "avg_logprob": -0.4600694391462538,
-        "no_speech_prob": 0.58984375
-      },
-      {
-        "start": 30.0,
-        "end": 34.64,
-        "text": "I keep folding in words like mirrored code Every ex it leads to an nested note",
-        "avg_logprob": -0.3818597419232857,
-        "no_speech_prob": 0.19921875
-      },
-      {
-        "start": 34.64,
-        "end": 39.84,
-        "text": "Phone, she calls me from inside my chest Returns the same unrundered unrucks",
-        "avg_logprob": -0.3818597419232857,
-        "no_speech_prob": 0.19921875
-      },
-      {
-        "start": 39.84,
-        "end": 44.72,
-        "text": "I've been fine a fear just to watch it grow Pass it as a value I already know",
-        "avg_logprob": -0.3818597419232857,
-        "no_speech_prob": 0.19921875
-      },
-      {
-        "start": 44.72,
-        "end": 49.92,
-        "text": "Stacking every doubt till it overflows But the base case never shows",
-        "avg_logprob": -0.3818597419232857,
-        "no_speech_prob": 0.19921875
-      },
-      {
-        "start": 49.92,
-        "end": 59.28,
-        "text": "I almost reach it I almost see it But every answer repeats the question",
-        "avg_logprob": -0.2761363636363636,
-        "no_speech_prob": 0.07147216796875
-      },
-      {
-        "start": 59.28,
-        "end": 64.64,
-        "text": "I am calling me calling me calling me Falling through a frame I can't leave",
-        "avg_logprob": -0.2761363636363636,
-        "no_speech_prob": 0.07147216796875
-      },
-      {
-        "start": 64.64,
-        "end": 70.72,
-        "text": "I am breaking me breaking me breaking me Every version still believes there's a bottom",
-        "avg_logprob": -0.2761363636363636,
-        "no_speech_prob": 0.07147216796875
-      },
-      {
-        "start": 71.04,
-        "end": 84.88,
-        "text": "Somewhere underneath But it P P P P P P P P P P P P P P P P P P P P P P Dips return in me",
-        "avg_logprob": -0.6011433188120524,
-        "no_speech_prob": 0.01806640625
-      },
-      {
-        "start": 84.88,
-        "end": 89.52,
-        "text": "There's a copy of a copy in the static Where every thought to firm still refers to her",
-        "avg_logprob": -0.6011433188120524,
-        "no_speech_prob": 0.01806640625
-      },
-      {
-        "start": 89.52,
-        "end": 97.2,
-        "text": "It caught between because And just be cut If I silence it does it still persists",
-        "avg_logprob": -0.6011433188120524,
-        "no_speech_prob": 0.01806640625
-      },
-      {
-        "start": 97.2,
-        "end": 100.0,
-        "text": "Like a phantom limb that I can't resist",
-        "avg_logprob": -0.492274127304554,
-        "no_speech_prob": 0.7314453125
-      },
-      {
-        "start": 100.0,
-        "end": 102.4,
-        "text": "Every path I take recompiles the same",
-        "avg_logprob": -0.492274127304554,
-        "no_speech_prob": 0.7314453125
-      },
-      {
-        "start": 102.4,
-        "end": 104.6,
-        "text": "Different syntax, same old name",
-        "avg_logprob": -0.492274127304554,
-        "no_speech_prob": 0.7314453125
-      },
-      {
-        "start": 104.6,
-        "end": 107.1,
-        "text": "I almost stop it",
-        "avg_logprob": -0.492274127304554,
-        "no_speech_prob": 0.7314453125
-      },
-      {
-        "start": 107.1,
-        "end": 109.6,
-        "text": "I almost drop it",
-        "avg_logprob": -0.492274127304554,
-        "no_speech_prob": 0.7314453125
-      },
-      {
-        "start": 109.6,
-        "end": 114.0,
-        "text": "But every ending reloads a moment",
-        "avg_logprob": -0.492274127304554,
-        "no_speech_prob": 0.7314453125
-      },
-      {
-        "start": 114.0,
-        "end": 116.0,
-        "text": "I am calling me calling me",
-        "avg_logprob": -0.492274127304554,
-        "no_speech_prob": 0.7314453125
-      },
-      {
-        "start": 116.0,
-        "end": 118.8,
-        "text": "I bet that that that goes in a closer",
-        "avg_logprob": -0.492274127304554,
-        "no_speech_prob": 0.7314453125
-      },
-      {
-        "start": 118.8,
-        "end": 121.6,
-        "text": "Good dream, I'm chasing you chasing me chasing me",
-        "avg_logprob": -0.492274127304554,
-        "no_speech_prob": 0.7314453125
-      },
-      {
-        "start": 121.6,
-        "end": 124.4,
-        "text": "I bet I bet I drew a self-referential scene",
-        "avg_logprob": -0.492274127304554,
-        "no_speech_prob": 0.7314453125
-      },
-      {
-        "start": 124.4,
-        "end": 128.8,
-        "text": "There's a line when it's supposed to cease",
-        "avg_logprob": -0.8697877424955368,
-        "no_speech_prob": 0.169677734375
-      },
-      {
-        "start": 128.8,
-        "end": 130.46,
-        "text": "But I B B B",
-        "avg_logprob": -0.8697877424955368,
-        "no_speech_prob": 0.169677734375
-      },
-      {
-        "start": 130.48,
-        "end": 132.4,
-        "text": "B B B B B B B",
-        "avg_logprob": -0.8697877424955368,
-        "no_speech_prob": 0.169677734375
-      },
-      {
-        "start": 132.4,
-        "end": 136.4,
-        "text": "B B B B B B B B B B B B B B B B B B B B B B B B B",
-        "avg_logprob": -0.8697877424955368,
-        "no_speech_prob": 0.169677734375
-      },
-      {
-        "start": 136.4,
-        "end": 139.86,
-        "text": "B B B B B",
-        "avg_logprob": -0.8697877424955368,
-        "no_speech_prob": 0.169677734375
-      },
-      {
-        "start": 139.86,
-        "end": 142.6,
-        "text": "If I could step outside the frame",
-        "avg_logprob": -0.8697877424955368,
-        "no_speech_prob": 0.169677734375
-      },
-      {
-        "start": 142.6,
-        "end": 144.5,
-        "text": "What eye does oversteady",
-        "avg_logprob": -0.8697877424955368,
-        "no_speech_prob": 0.169677734375
-      },
-      {
-        "start": 144.5,
-        "end": 147.6,
-        "text": "The same or a more just the question's shape",
-        "avg_logprob": -0.8697877424955368,
-        "no_speech_prob": 0.169677734375
-      },
-      {
-        "start": 147.6,
-        "end": 150.1,
-        "text": "Pretending I can escape",
-        "avg_logprob": -0.8697877424955368,
-        "no_speech_prob": 0.169677734375
-      },
-      {
-        "start": 150.1,
-        "end": 162.74,
-        "text": "A quiet loop begins to slow, I'm missing peace, I almost know",
-        "avg_logprob": -0.763569060124849,
-        "no_speech_prob": 0.52685546875
-      },
-      {
-        "start": 162.74,
-        "end": 192.74,
-        "text": "I always callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, call",
-        "avg_logprob": -0.07050547069973416,
-        "no_speech_prob": 0.2471923828125
-      },
-      {
-        "start": 192.74,
-        "end": 195.74,
-        "text": "This is not release",
-        "avg_logprob": -0.4087915760584367,
-        "no_speech_prob": 0.69970703125
-      },
-      {
-        "start": 195.74,
-        "end": 200.74,
-        "text": "Just a softer repeat",
-        "avg_logprob": -0.4087915760584367,
-        "no_speech_prob": 0.69970703125
-      },
-      {
-        "start": 200.74,
-        "end": 203.74,
-        "text": "If I am a loo-loo-loo-loo-loo",
-        "avg_logprob": -0.4087915760584367,
-        "no_speech_prob": 0.69970703125
-      },
-      {
-        "start": 203.74,
-        "end": 205.74,
-        "text": "I disappear",
-        "avg_logprob": -0.4087915760584367,
-        "no_speech_prob": 0.69970703125
-      },
-      {
-        "start": 205.74,
-        "end": 207.74,
-        "text": "Or finally here",
-        "avg_logprob": -0.4087915760584367,
-        "no_speech_prob": 0.69970703125
-      },
-      {
-        "start": 207.74,
-        "end": 210.74,
-        "text": "Something not from here",
-        "avg_logprob": -0.4087915760584367,
-        "no_speech_prob": 0.69970703125
-      },
-      {
-        "start": 210.74,
-        "end": 213.74,
-        "text": "Find a loo-loo-loo-lo",
-        "avg_logprob": -0.4087915760584367,
-        "no_speech_prob": 0.69970703125
-      },
-      {
-        "start": 213.74,
-        "end": 215.74,
-        "text": "Who I disappear",
-        "avg_logprob": -0.4087915760584367,
-        "no_speech_prob": 0.69970703125
-      },
-      {
-        "start": 215.74,
-        "end": 217.74,
-        "text": "Finally here",
-        "avg_logprob": -0.4087915760584367,
-        "no_speech_prob": 0.69970703125
-      },
-      {
-        "start": 217.74,
-        "end": 221.74,
-        "text": "Something not from here",
-        "avg_logprob": -0.4087915760584367,
-        "no_speech_prob": 0.69970703125
-      },
-      {
-        "start": 222.74,
-        "end": 224.74,
-        "text": "Something not from",
-        "avg_logprob": -0.38339843302965165,
-        "no_speech_prob": 0.0211334228515625
-      },
-      {
-        "start": 228.74,
-        "end": 231.74,
-        "text": "Something not from",
-        "avg_logprob": -0.38339843302965165,
-        "no_speech_prob": 0.0211334228515625
-      },
-      {
-        "start": 236.74,
-        "end": 239.74,
-        "text": "Something not from",
-        "avg_logprob": -0.38339843302965165,
-        "no_speech_prob": 0.0211334228515625
-      },
-      {
-        "start": 244.74,
-        "end": 246.74,
-        "text": "Something not",
-        "avg_logprob": -0.38339843302965165,
-        "no_speech_prob": 0.0211334228515625
-      }
-    ],
-    "avg_logprob": -0.4583340929439404
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 376,
-    "transcript_word_count": 499,
-    "matched_sequence_words": 264,
-    "lyric_alignment_ratio": 0.702,
-    "transcript_precision_ratio": 0.529,
-    "unique_expected_word_coverage": 0.723,
-    "word_count_ratio": 1.327,
-    "repeated_12gram_ratio": 0.232,
-    "half_similarity": 0.112,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.689,
-    "quality_score_0_10": 6.89,
-    "flags": [],
-    "transcript_excerpt": "If I call my name and the answer's back Is it still me or a luke and track? If I trace the thought to the place it began There's another hand drawing in my hand I keep folding in words like mirrored code Every ex it leads to an nested note Phone, she calls me from inside my chest Returns the same unrundered unrucks I've been fine a fear just to watch it grow Pass it as a value I already know Stacking every doubt till it overflows But the base case never shows I almost reach it I almost see it But every answer repeats the question I am calling me calling me calling me Falling through a frame I \n...[truncated]...\ne, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, callin' me, call This is not release Just a softer repeat If I am a loo-loo-loo-loo-loo I disappear Or finally here Something not from here Find a loo-loo-loo-lo Who I disappear Finally here Something not from here Something not from Something not from Something not from Something not"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.95,
-      "MI_motivic_integration": 6.63,
-      "BP_beauty_spatial_poise": 9.06,
-      "EG_evolving_grammar": 7.82,
-      "CD_carry_depth": 8.91
+      "SC_structural_coherence": 9.5,
+      "MI_motivic_integration": 7.2,
+      "BP_beauty_spatial_poise": 9.08,
+      "EG_evolving_grammar": 8.4,
+      "CD_carry_depth": 9.02
     },
     "core_metrics": {
-      "CDPD": 0.825,
-      "NGE": 0.654,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.15,
+      "NGE": 0.656,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High complexity in texture and lyrical layering."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": 0.0,
-        "reason": "The track maintains strong structural coherence with clear section functions and returns that feel like revisiting emotional rooms."
+        "delta": -0.5,
+        "reason": "Strong structural arc from sparse intro to dense final hook."
       },
       "MI_motivic_integration": {
-        "delta": 0.0,
-        "reason": "Motivic integration is high, with recurring vocal hooks, guitar figures, and lyric images that evolve across sections."
+        "delta": 0.5,
+        "reason": "Motif of 'calling' and 'disappearing' is well-integrated into the sonic decay."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The spatial poise is central to the track’s identity, with room tone and guitar space forming a memorable habitat."
+        "reason": "Base score remains high due to intentional use of space."
       },
       "EG_evolving_grammar": {
-        "delta": 0.0,
-        "reason": "The grammar develops a personal indie method over time, though it does not fully invent a new method."
+        "delta": 0.54,
+        "reason": "Lyrics evolve from literal search to abstract acceptance."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track feels like a small world, with a strong emotional arc and specific sonic imprint."
+        "reason": "Deeply thematic exploration of identity and digital decay."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:06.72 with section-balance score 0.41.",
-      "Tempo estimate is 95.7 BPM; declared tempo alignment contributes 0.98.",
-      "Integrated loudness is -15.5 LUFS, peak is -0.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F#/Gb minor with confidence 0.74.",
-      "Audio recurrence ratio is 0.180; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 393 beats and 99 downbeats; beat-grid stability is 0.72.",
-      "EG evidence: section contrast 1.65, cumulative evolution 0.67, transformed returns 10.00, grid deviation 0.37, rule changes 1.79.",
-      "Companion text has 11 lyric/production sections, 539 words, line repetition 0.05, rhyme-suffix reuse 0.46."
+      "The track follows a clear arc: the 'broken' signal motif is established early and evolves into a more complex, layered texture.",
+      "Lyrics move from desperate searching to an acceptance of being part of a loop.",
+      "Production uses glitch elements as structural markers rather than just noise."
     ],
     "review_flags": [
-      "Uncertainty about section detection due to audio-only evidence; transcription quality is moderate but not poor."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:14:10.6525532Z",
-    "eval_count": 804,
-    "eval_duration": 13438381900
+    "created_at": "2026-06-10T10:17:49.2932656Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7895268,
+      "base64_chars": 10527024,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11798,
+    "prompt_eval_duration": 7890702000,
+    "eval_count": 392,
+    "eval_duration": 16642580000
   }
 }

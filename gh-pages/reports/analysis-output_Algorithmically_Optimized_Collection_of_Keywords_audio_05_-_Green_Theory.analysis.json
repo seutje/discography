@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T21:52:16",
+  "generated_at": "2026-06-10T12:00:59",
   "audio": {
     "path": "Algorithmically Optimized Collection of Keywords/audio/05 - Green Theory.mp3",
     "duration_seconds": 172.88,
@@ -1017,7 +1017,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1060,193 +1063,75 @@
       "Audio recurrence ratio is 0.212; this is a rough proxy for repeated musical cells, not true motif recognition.",
       "beat_this detected 286 beats and 70 downbeats; beat-grid stability is 0.91.",
       "EG evidence: section contrast 2.70, cumulative evolution 0.91, transformed returns 10.00, grid deviation 0.25, rule changes 3.12.",
-      "Companion text has 7 lyric/production sections, 236 words, line repetition 0.00, rhyme-suffix reuse 0.36.",
-      "Transcription check: lyric alignment 0.78, unique-word coverage 0.78, word-count ratio 0.95, duplicate-pass estimate 1."
+      "Companion text has 7 lyric/production sections, 236 words, line repetition 0.00, rhyme-suffix reuse 0.36."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Wish I was dimmer, a lantern with a paper-skinned glow-trembling thin thoughts folded like ore-gummering My mind's a loom of restless threads spinning riddles weaving dreads I long to be the plunter blade a soft mistake the dawn has made if I were dull a fog-bound member I'd forget the things I remember drift and simpler hues lose the needle keep the bruise but the head-homes heavy a hive of bright fang bees carving rooms in daylight troubling the breeze all the dresses greener when you don't know what green implies I'm tangled in the knowing root deep under overwise let me be dim dimmer a slow light swimmer and heavy nice hives where the shallow river glimmers they swore a little smoke of something with sandy edges of my mind let thoughts dissolve to harmless power to leave sharp breaks behind but in magnify the corners made the quiet angels shout a promise often thinking turned to riddles twisting out I felt the bargain break a counterfeit escape green grass gleams on the further hill be less fine more still I chased the mutant miracle the hollowed out the miracle to trade the burden thunder for a sweeter smaller wonder may be then the sky would finally lie",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 12.0,
-        "text": "Wish I was dimmer, a lantern with a paper-skinned glow-trembling thin thoughts folded like ore-gummering",
-        "avg_logprob": -0.6273674242424242,
-        "no_speech_prob": 0.27685546875
-      },
-      {
-        "start": 12.0,
-        "end": 27.52,
-        "text": "My mind's a loom of restless threads spinning riddles weaving dreads I long to be the plunter",
-        "avg_logprob": -0.41613050331087675,
-        "no_speech_prob": 0.351318359375
-      },
-      {
-        "start": 27.52,
-        "end": 34.2,
-        "text": "blade a soft mistake the dawn has made if I were dull a fog-bound member I'd forget",
-        "avg_logprob": -0.41613050331087675,
-        "no_speech_prob": 0.351318359375
-      },
-      {
-        "start": 34.2,
-        "end": 40.56,
-        "text": "the things I remember drift and simpler hues lose the needle keep the bruise but the",
-        "avg_logprob": -0.41613050331087675,
-        "no_speech_prob": 0.351318359375
-      },
-      {
-        "start": 40.56,
-        "end": 52.88,
-        "text": "head-homes heavy a hive of bright fang bees carving rooms in daylight troubling the breeze",
-        "avg_logprob": -0.4280523228090863,
-        "no_speech_prob": 0.0743408203125
-      },
-      {
-        "start": 52.88,
-        "end": 59.04,
-        "text": "all the dresses greener when you don't know what green implies I'm tangled in the",
-        "avg_logprob": -0.4280523228090863,
-        "no_speech_prob": 0.0743408203125
-      },
-      {
-        "start": 59.04,
-        "end": 67.04,
-        "text": "knowing root deep under overwise let me be dim dimmer a slow light swimmer",
-        "avg_logprob": -0.7159926295280457,
-        "no_speech_prob": 0.06475830078125
-      },
-      {
-        "start": 67.04,
-        "end": 75.04,
-        "text": "and heavy nice hives where the shallow river glimmers",
-        "avg_logprob": -0.7159926295280457,
-        "no_speech_prob": 0.06475830078125
-      },
-      {
-        "start": 75.04,
-        "end": 91.04,
-        "text": "they swore a little smoke of something with sandy edges of my mind let thoughts dissolve to harmless power to leave sharp breaks behind",
-        "avg_logprob": -0.3596754876466898,
-        "no_speech_prob": 0.0927734375
-      },
-      {
-        "start": 91.04,
-        "end": 103.04,
-        "text": "but in magnify the corners made the quiet angels shout a promise often thinking turned to riddles twisting out",
-        "avg_logprob": -0.3596754876466898,
-        "no_speech_prob": 0.0927734375
-      },
-      {
-        "start": 103.04,
-        "end": 125.04,
-        "text": "I felt the bargain break a counterfeit escape green grass gleams on the further hill be less fine more still",
-        "avg_logprob": -0.3398437626086749,
-        "no_speech_prob": 0.2496337890625
-      },
-      {
-        "start": 125.04,
-        "end": 145.04,
-        "text": "I chased the mutant miracle the hollowed out the miracle to trade the burden thunder for a sweeter smaller wonder",
-        "avg_logprob": -0.35312499046325685,
-        "no_speech_prob": 0.28759765625
-      },
-      {
-        "start": 145.04,
-        "end": 155.04,
-        "text": "may be then the sky would finally lie",
-        "avg_logprob": -0.43181817639957776,
-        "no_speech_prob": 0.8544921875
-      }
-    ],
-    "avg_logprob": -0.4367101603985258
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 226,
-    "transcript_word_count": 214,
-    "matched_sequence_words": 176,
-    "lyric_alignment_ratio": 0.779,
-    "transcript_precision_ratio": 0.822,
-    "unique_expected_word_coverage": 0.776,
-    "word_count_ratio": 0.947,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.159,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.783,
-    "quality_score_0_10": 7.83,
-    "flags": [],
-    "transcript_excerpt": "Wish I was dimmer, a lantern with a paper-skinned glow-trembling thin thoughts folded like ore-gummering My mind's a loom of restless threads spinning riddles weaving dreads I long to be the plunter blade a soft mistake the dawn has made if I were dull a fog-bound member I'd forget the things I remember drift and simpler hues lose the needle keep the bruise but the head-homes heavy a hive of bright fang bees carving rooms in daylight troubling the breeze all the dresses greener when you don't know what green implies I'm tangled in the knowing root deep under overwise let me be dim dimmer a slow light swimmer and heavy nice hives where the shallow river glimmers they swore a little smoke of something with sandy edges of my mind let thoughts dissolve to harmless power to leave sharp breaks behind but in magnify the corners made the quiet angels shout a promise often thinking turned to riddles twisting out I felt the bargain break a counterfeit escape green grass gleams on the further hill be less fine more still I chased the mutant miracle the hollowed out the miracle to trade the burden thunder for a sweeter smaller wonder may be then the sky would finally lie"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 8.1,
-      "MI_motivic_integration": 6.8,
-      "BP_beauty_spatial_poise": 9.3,
-      "EG_evolving_grammar": 4.34,
-      "CD_carry_depth": 6.9
+      "SC_structural_coherence": 8.4,
+      "MI_motivic_integration": 7.2,
+      "BP_beauty_spatial_poise": 9.54,
+      "EG_evolving_grammar": 6.3,
+      "CD_carry_depth": 7.1
     },
     "core_metrics": {
-      "CDPD": 0.71,
-      "NGE": 0.54,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.08,
+      "NGE": 0.534,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
-      "number": 12,
-      "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "number": 10,
+      "label": "High Quality",
+      "note": "Strong structural design and poetic depth."
     },
-    "confidence_0_10": 7.5,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": 0.2,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like revisiting emotional rooms."
+        "delta": 0.5,
+        "reason": "Clear progression from intro to bridge/outro with distinct functional shifts."
       },
       "MI_motivic_integration": {
-        "delta": 0.24,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric images recur in altered forms across sections, showing strong motivic integration."
+        "delta": 0.64,
+        "reason": "Motifs like 'riddles' and 'hues' recur meaningfully across sections."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.24,
-        "reason": "The production is consistent and functional, but lacks the distinct, memorable sonic habitat that would push it to a higher score."
+        "delta": 0.0,
+        "reason": "Base score reflects high production polish and atmosphere."
       },
       "EG_evolving_grammar": {
-        "delta": -1.5,
-        "reason": "While the track develops a personal indie grammar over time, it does not invent a strong, distinctive method that defines the track's identity."
+        "delta": 0.46,
+        "reason": "Sophisticated imagery (origami, loom) provides strong lyrical texture."
       },
       "CD_carry_depth": {
-        "delta": 0.17,
-        "reason": "The track feels like a small world with a recognizable emotional and sonic habitat, inviting re-listening beyond mood-playlist utility."
+        "delta": 0.37,
+        "reason": "Thematic depth regarding memory and simplicity is well-sustained."
       }
     },
     "rationale": [
-      "Detected 5 audio sections over 2:52.88 with section-balance score 0.34.",
-      "Tempo estimate is 99.4 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -17.4 LUFS, peak is -0.7 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is A#/Bb minor with confidence 0.41.",
-      "Audio recurrence ratio is 0.212; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 286 beats and 70 downbeats; beat-grid stability is 0.91.",
-      "EG evidence: section contrast 2.70, cumulative evolution 0.91, transformed returns 10.00, grid deviation 0.25, rule changes 3.12.",
-      "Companion text has 7 lyric/production sections, 236 words, line repetition 0.00, rhyme-suffix reuse 0.36."
+      "Strong structural coherence with a clear arc from introspection to 'muted miracle'.",
+      "Motivic integration is high due to recurring imagery of riddles/weaving.",
+      "Poetic density in lyrics provides significant weight beyond standard indie tropes."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the audio; section-balance score is low, suggesting uneven distribution."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T19:52:16.0148373Z",
-    "eval_count": 770,
-    "eval_duration": 12120498500
+    "created_at": "2026-06-10T10:00:59.0014859Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 5532386,
+      "base64_chars": 7376516,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 8354,
+    "prompt_eval_duration": 3810000000,
+    "eval_count": 384,
+    "eval_duration": 9432569000
   }
 }

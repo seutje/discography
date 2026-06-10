@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:20:15",
+  "generated_at": "2026-06-10T12:23:57",
   "audio": {
     "path": "Net Worthless/audio/02 - Sadness With a Tax.mp3",
     "duration_seconds": 275.24,
@@ -1370,7 +1370,10 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
@@ -1414,405 +1417,8 @@
       "beat_this detected 366 beats and 92 downbeats; beat-grid stability is 0.83.",
       "EG evidence: section contrast 1.58, cumulative evolution 0.54, transformed returns 10.00, grid deviation 0.52, rule changes 2.50.",
       "Companion text has 9 lyric/production sections, 676 words, line repetition 0.09, rhyme-suffix reuse 0.36.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.65.",
-      "Transcription check: lyric alignment 0.83, unique-word coverage 0.93, word-count ratio 0.98, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.65."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I'll check my emotional balance this morning, in sufficient funds, which is rude, because I distinctly remember having a life, a couch, a plant, three mugs, with different levels of personality, technically, I'm thriving, terms and conditions apply. Ramp went up, red went up, gas went up, my little public smile got hit with a service charge, I'm in the supermarket doing mass with my soul, can I afford joy, or just something joy adjacent with the damaged box, I used to feel things wholesale, wondering bulk sadness by the kilo, hope with no receipt. Now every ache has a handling fee, and grief comes wrapped in plastic security tape, I'm window shopping happiness behind glass, the tag says peace of mind, reduced from being loved properly, still too much, so I cut coupons of meaning from old conversations by one purpose, get one crisis free, I'm still alive, just priced out of feeling, smiling in the storm, as while the ceiling keeps peeling, when window shopping joy, like it's locked behind glass, can't afford the present, so I joke about the past, if sadness had a tax, I'll be owing by the minute, I'm bankrupting the chest, but I'm still living in it, hey, hey, hey, hey, hey, hey everyone's brought, but nobody dresses like it, fake Gucci smiles on clearance, bad faces, walking through town like sponsored replacements, they say, how are you! with Premium teeth, I say, I can't complain, which is basically fraud because I can complain at length with supporting documents, but who can't afford honesty in this economy, who's got the budget for a full breakdown, with heating on, so we off of online, under And the fluorescent lights Laughing like rent isn't living in our lungs I keep importing hope with extra tariffs Customs hold it for weeks Then charges me storage by the time it arrives It's smaller than advertised Some assembly required No batteries, no returns Oh, I'm still alive Just priced out of feeling Smiling in the storm It's while the ceiling keeps appealing Wind of shopping joy Like it's locked behind glass Can't default the present So I'll choke about the past The sadness had attacks I'll be owing by the minute I'm bankrupt in the chest But I'm still living in it I miss being sad for free I miss crying without checking if I had the time Now falling apart Feels like a luxury subscription With a free trial I forgot to cancel A schedule to spare Between laundry and emails Then hit snooze Because I'm tired from pretending I'm economically viable As a person Sometimes I think the world doesn't want us happy It just wants us functional Low battery High brightness still scrolling But yesterday I saw a man give half His sandwich to a stranger, no camera, no caption Just Brad moving from one hunger to another and for The second my chest Remember it was not a bank, it was a room Messy, bad, wide room One window painted shot, but still a room Maybe meaning isn't something we buy Maybe it's the receipt we keep finding in our pockets Proof that somewhere somehow We paid attention, we're still alive Just priced out of feeling Smiling in and storm as well The ceiling keeps peeling When the shop enjoy but the glass starts to crack Can't afford the future but we're walking toward it back If sadness has attacked Let them send me the letter I'm bankrupt in the chest But I'm getting there better So yes, I'm fine But not in the way they mean it Fine, like a coat with one button left Still here, still technically alive Still checking the reduced section for something That looks enough like hope to take home",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 10.6,
-        "text": "I'll check my emotional balance this morning, in sufficient funds, which is rude, because",
-        "avg_logprob": -0.2904411876902861,
-        "no_speech_prob": 0.47412109375
-      },
-      {
-        "start": 10.6,
-        "end": 15.52,
-        "text": "I distinctly remember having a life, a couch, a plant, three mugs, with different levels",
-        "avg_logprob": -0.2904411876902861,
-        "no_speech_prob": 0.47412109375
-      },
-      {
-        "start": 15.52,
-        "end": 23.8,
-        "text": "of personality, technically, I'm thriving, terms and conditions apply.",
-        "avg_logprob": -0.2904411876902861,
-        "no_speech_prob": 0.47412109375
-      },
-      {
-        "start": 23.8,
-        "end": 28.24,
-        "text": "Ramp went up, red went up, gas went up, my little public smile got hit with a service",
-        "avg_logprob": -0.2904411876902861,
-        "no_speech_prob": 0.47412109375
-      },
-      {
-        "start": 28.24,
-        "end": 33.32,
-        "text": "charge, I'm in the supermarket doing mass with my soul, can I afford joy, or just",
-        "avg_logprob": -0.2805586325383819,
-        "no_speech_prob": 0.65380859375
-      },
-      {
-        "start": 33.32,
-        "end": 38.32,
-        "text": "something joy adjacent with the damaged box, I used to feel things wholesale, wondering",
-        "avg_logprob": -0.2805586325383819,
-        "no_speech_prob": 0.65380859375
-      },
-      {
-        "start": 38.32,
-        "end": 41.92,
-        "text": "bulk sadness by the kilo, hope with no receipt.",
-        "avg_logprob": -0.2805586325383819,
-        "no_speech_prob": 0.65380859375
-      },
-      {
-        "start": 41.92,
-        "end": 46.76,
-        "text": "Now every ache has a handling fee, and grief comes wrapped in plastic security tape,",
-        "avg_logprob": -0.2805586325383819,
-        "no_speech_prob": 0.65380859375
-      },
-      {
-        "start": 46.76,
-        "end": 52.12,
-        "text": "I'm window shopping happiness behind glass, the tag says peace of mind, reduced from",
-        "avg_logprob": -0.2805586325383819,
-        "no_speech_prob": 0.65380859375
-      },
-      {
-        "start": 52.12,
-        "end": 58.2,
-        "text": "being loved properly, still too much, so I cut coupons of meaning from old conversations",
-        "avg_logprob": -0.2805586325383819,
-        "no_speech_prob": 0.65380859375
-      },
-      {
-        "start": 58.2,
-        "end": 66.8,
-        "text": "by one purpose, get one crisis free, I'm still alive, just priced out of feeling, smiling",
-        "avg_logprob": -0.28972739742157305,
-        "no_speech_prob": 0.061492919921875
-      },
-      {
-        "start": 66.8,
-        "end": 70.8,
-        "text": "in the storm, as while the ceiling keeps peeling, when window shopping joy, like it's",
-        "avg_logprob": -0.28972739742157305,
-        "no_speech_prob": 0.061492919921875
-      },
-      {
-        "start": 70.8,
-        "end": 75.84,
-        "text": "locked behind glass, can't afford the present, so I joke about the past, if sadness had",
-        "avg_logprob": -0.28972739742157305,
-        "no_speech_prob": 0.061492919921875
-      },
-      {
-        "start": 75.84,
-        "end": 84.68,
-        "text": "a tax, I'll be owing by the minute, I'm bankrupting the chest, but I'm still living",
-        "avg_logprob": -0.28972739742157305,
-        "no_speech_prob": 0.061492919921875
-      },
-      {
-        "start": 84.68,
-        "end": 87.62,
-        "text": "in it, hey, hey, hey, hey, hey, hey",
-        "avg_logprob": -0.6533940770045048,
-        "no_speech_prob": 0.81298828125
-      },
-      {
-        "start": 87.62,
-        "end": 92.78,
-        "text": "everyone's brought, but nobody dresses like it, fake Gucci smiles on clearance, bad",
-        "avg_logprob": -0.6533940770045048,
-        "no_speech_prob": 0.81298828125
-      },
-      {
-        "start": 92.78,
-        "end": 97.4,
-        "text": "faces, walking through town like sponsored replacements, they say, how are you!",
-        "avg_logprob": -0.6533940770045048,
-        "no_speech_prob": 0.81298828125
-      },
-      {
-        "start": 97.4,
-        "end": 104.02,
-        "text": "with Premium teeth, I say, I can't complain, which is basically fraud because I can complain",
-        "avg_logprob": -0.6533940770045048,
-        "no_speech_prob": 0.81298828125
-      },
-      {
-        "start": 104.02,
-        "end": 108.46,
-        "text": "at length with supporting documents, but who can't afford honesty in this economy,",
-        "avg_logprob": -0.6533940770045048,
-        "no_speech_prob": 0.81298828125
-      },
-      {
-        "start": 108.46,
-        "end": 114.0,
-        "text": "who's got the budget for a full breakdown, with heating on, so we off of online, under",
-        "avg_logprob": -0.6533940770045048,
-        "no_speech_prob": 0.81298828125
-      },
-      {
-        "start": 114.0,
-        "end": 118.36,
-        "text": "And the fluorescent lights Laughing like rent isn't living in our lungs",
-        "avg_logprob": -0.4274305641651154,
-        "no_speech_prob": 0.6435546875
-      },
-      {
-        "start": 118.36,
-        "end": 122.12,
-        "text": "I keep importing hope with extra tariffs Customs hold it for weeks",
-        "avg_logprob": -0.4274305641651154,
-        "no_speech_prob": 0.6435546875
-      },
-      {
-        "start": 122.12,
-        "end": 128.96,
-        "text": "Then charges me storage by the time it arrives It's smaller than advertised",
-        "avg_logprob": -0.4274305641651154,
-        "no_speech_prob": 0.6435546875
-      },
-      {
-        "start": 128.96,
-        "end": 134.84,
-        "text": "Some assembly required No batteries, no returns",
-        "avg_logprob": -0.4274305641651154,
-        "no_speech_prob": 0.6435546875
-      },
-      {
-        "start": 134.84,
-        "end": 139.68,
-        "text": "Oh, I'm still alive Just priced out of feeling Smiling in the storm",
-        "avg_logprob": -0.4274305641651154,
-        "no_speech_prob": 0.6435546875
-      },
-      {
-        "start": 139.68,
-        "end": 142.84,
-        "text": "It's while the ceiling keeps appealing Wind of shopping joy",
-        "avg_logprob": -0.4274305641651154,
-        "no_speech_prob": 0.6435546875
-      },
-      {
-        "start": 142.84,
-        "end": 145.88,
-        "text": "Like it's locked behind glass Can't default the present",
-        "avg_logprob": -0.31284339807845735,
-        "no_speech_prob": 0.071044921875
-      },
-      {
-        "start": 145.88,
-        "end": 150.28,
-        "text": "So I'll choke about the past The sadness had attacks",
-        "avg_logprob": -0.31284339807845735,
-        "no_speech_prob": 0.071044921875
-      },
-      {
-        "start": 150.28,
-        "end": 155.68,
-        "text": "I'll be owing by the minute I'm bankrupt in the chest",
-        "avg_logprob": -0.31284339807845735,
-        "no_speech_prob": 0.071044921875
-      },
-      {
-        "start": 155.68,
-        "end": 159.48,
-        "text": "But I'm still living in it",
-        "avg_logprob": -0.31284339807845735,
-        "no_speech_prob": 0.071044921875
-      },
-      {
-        "start": 159.48,
-        "end": 165.48,
-        "text": "I miss being sad for free I miss crying without checking if I had the time",
-        "avg_logprob": -0.31284339807845735,
-        "no_speech_prob": 0.071044921875
-      },
-      {
-        "start": 165.48,
-        "end": 168.68,
-        "text": "Now falling apart Feels like a luxury subscription",
-        "avg_logprob": -0.31284339807845735,
-        "no_speech_prob": 0.071044921875
-      },
-      {
-        "start": 168.68,
-        "end": 171.96,
-        "text": "With a free trial I forgot to cancel",
-        "avg_logprob": -0.31284339807845735,
-        "no_speech_prob": 0.071044921875
-      },
-      {
-        "start": 171.96,
-        "end": 176.28,
-        "text": "A schedule to spare Between laundry and emails Then hit snooze",
-        "avg_logprob": -0.2848557791648767,
-        "no_speech_prob": 0.0014286041259765625
-      },
-      {
-        "start": 176.28,
-        "end": 180.84,
-        "text": "Because I'm tired from pretending I'm economically viable",
-        "avg_logprob": -0.2848557791648767,
-        "no_speech_prob": 0.0014286041259765625
-      },
-      {
-        "start": 180.84,
-        "end": 186.6,
-        "text": "As a person Sometimes I think the world doesn't want us happy",
-        "avg_logprob": -0.2848557791648767,
-        "no_speech_prob": 0.0014286041259765625
-      },
-      {
-        "start": 186.6,
-        "end": 193.48,
-        "text": "It just wants us functional Low battery High brightness still scrolling",
-        "avg_logprob": -0.2848557791648767,
-        "no_speech_prob": 0.0014286041259765625
-      },
-      {
-        "start": 193.48,
-        "end": 199.24,
-        "text": "But yesterday I saw a man give half His sandwich to a stranger, no camera, no caption",
-        "avg_logprob": -0.2848557791648767,
-        "no_speech_prob": 0.0014286041259765625
-      },
-      {
-        "start": 199.24,
-        "end": 202.36,
-        "text": "Just Brad moving from one hunger to another and for",
-        "avg_logprob": -0.27808780577920733,
-        "no_speech_prob": 0.0170135498046875
-      },
-      {
-        "start": 202.36,
-        "end": 206.76,
-        "text": "The second my chest Remember it was not a bank, it was a room",
-        "avg_logprob": -0.27808780577920733,
-        "no_speech_prob": 0.0170135498046875
-      },
-      {
-        "start": 206.76,
-        "end": 212.12,
-        "text": "Messy, bad, wide room One window painted shot, but still a room",
-        "avg_logprob": -0.27808780577920733,
-        "no_speech_prob": 0.0170135498046875
-      },
-      {
-        "start": 212.12,
-        "end": 219.08,
-        "text": "Maybe meaning isn't something we buy Maybe it's the receipt we keep finding in our pockets",
-        "avg_logprob": -0.27808780577920733,
-        "no_speech_prob": 0.0170135498046875
-      },
-      {
-        "start": 219.08,
-        "end": 226.2,
-        "text": "Proof that somewhere somehow We paid attention, we're still alive",
-        "avg_logprob": -0.27808780577920733,
-        "no_speech_prob": 0.0170135498046875
-      },
-      {
-        "start": 226.2,
-        "end": 229.32,
-        "text": "Just priced out of feeling Smiling in and storm as well",
-        "avg_logprob": -0.2823033815019586,
-        "no_speech_prob": 0.25927734375
-      },
-      {
-        "start": 229.32,
-        "end": 233.96,
-        "text": "The ceiling keeps peeling When the shop enjoy but the glass starts to crack",
-        "avg_logprob": -0.2823033815019586,
-        "no_speech_prob": 0.25927734375
-      },
-      {
-        "start": 233.96,
-        "end": 236.84,
-        "text": "Can't afford the future but we're walking toward it back",
-        "avg_logprob": -0.2823033815019586,
-        "no_speech_prob": 0.25927734375
-      },
-      {
-        "start": 236.84,
-        "end": 242.92,
-        "text": "If sadness has attacked Let them send me the letter",
-        "avg_logprob": -0.2823033815019586,
-        "no_speech_prob": 0.25927734375
-      },
-      {
-        "start": 242.92,
-        "end": 248.76,
-        "text": "I'm bankrupt in the chest But I'm getting there better",
-        "avg_logprob": -0.2823033815019586,
-        "no_speech_prob": 0.25927734375
-      },
-      {
-        "start": 248.76,
-        "end": 254.04,
-        "text": "So yes, I'm fine But not in the way they mean it",
-        "avg_logprob": -0.2823033815019586,
-        "no_speech_prob": 0.25927734375
-      },
-      {
-        "start": 254.04,
-        "end": 259.8,
-        "text": "Fine, like a coat with one button left Still here, still technically alive",
-        "avg_logprob": -0.30616554698428594,
-        "no_speech_prob": 0.230712890625
-      },
-      {
-        "start": 259.8,
-        "end": 263.8,
-        "text": "Still checking the reduced section for something",
-        "avg_logprob": -0.30616554698428594,
-        "no_speech_prob": 0.230712890625
-      },
-      {
-        "start": 263.8,
-        "end": 268.6,
-        "text": "That looks enough like hope to take home",
-        "avg_logprob": -0.30616554698428594,
-        "no_speech_prob": 0.230712890625
-      }
-    ],
-    "avg_logprob": -0.34422709687199016
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 646,
-    "transcript_word_count": 632,
-    "matched_sequence_words": 539,
-    "lyric_alignment_ratio": 0.834,
-    "transcript_precision_ratio": 0.853,
-    "unique_expected_word_coverage": 0.926,
-    "word_count_ratio": 0.978,
-    "repeated_12gram_ratio": 0.002,
-    "half_similarity": 0.203,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.855,
-    "quality_score_0_10": 8.55,
-    "flags": [],
-    "transcript_excerpt": "I'll check my emotional balance this morning, in sufficient funds, which is rude, because I distinctly remember having a life, a couch, a plant, three mugs, with different levels of personality, technically, I'm thriving, terms and conditions apply. Ramp went up, red went up, gas went up, my little public smile got hit with a service charge, I'm in the supermarket doing mass with my soul, can I afford joy, or just something joy adjacent with the damaged box, I used to feel things wholesale, wondering bulk sadness by the kilo, hope with no receipt. Now every ache has a handling fee, and grief c\n...[truncated]...\np finding in our pockets Proof that somewhere somehow We paid attention, we're still alive Just priced out of feeling Smiling in and storm as well The ceiling keeps peeling When the shop enjoy but the glass starts to crack Can't afford the future but we're walking toward it back If sadness has attacked Let them send me the letter I'm bankrupt in the chest But I'm getting there better So yes, I'm fine But not in the way they mean it Fine, like a coat with one button left Still here, still technically alive Still checking the reduced section for something That looks enough like hope to take home"
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -1830,51 +1436,57 @@
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural complexity with distinct verse/hook/bridge architecture."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track has 8 audio sections with balanced durations and clear section functions (Intro, Verse, Hook, Bridge, Outro). Transitions feel intentional, and the form is consistent with the framework's 'Inhabited Form' label."
+        "reason": "Strongly defined sections with clear transitions."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs from the hook and vocal flow recur in verses and ad-libs, with subtle transformations (rhythm tweaks, register shifts). Cross-domain recursion is evident, such as hook rhythms echoing in verse cadences."
+        "reason": "Hook and verse motifs are distinct and well-integrated."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The sonic habitat is consistently spacious and intimate, with intentional reverb/delay laws and stereo field use. The mix is clear, and subtle textures (room tone, vinyl crackle) feel legible and intentional."
+        "reason": "Production is polished with intentional spatial depth."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "While the track has a strong rhythmic and harmonic foundation, the grammar remains largely static. The beat and harmonic bed do not evolve meaningfully across sections, and the flow grammar stays consistent without deeper development."
+        "reason": "Strong lyrical evolution from sardonic to vulnerable."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a clear emotional habitat, moving from sardonic detachment to vulnerability and quiet defiance. It invites re-listening and feels like a 'little world' with a distinct emotional arc."
+        "reason": "Thematic depth is consistent throughout the track."
       }
     },
     "rationale": [
-      "Detected 8 audio sections over 4:35.24 with section-balance score 0.24.",
-      "Tempo estimate is 152.0 BPM; declared tempo alignment contributes 0.41.",
-      "Integrated loudness is -16.6 LUFS, peak is -0.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F major with confidence 0.29.",
-      "Audio recurrence ratio is 0.222; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 366 beats and 92 downbeats; beat-grid stability is 0.83.",
-      "EG evidence: section contrast 1.58, cumulative evolution 0.54, transformed returns 10.00, grid deviation 0.52, rule changes 2.50.",
-      "Companion text has 9 lyric/production sections, 676 words, line repetition 0.09, rhyme-suffix reuse 0.36."
+      "Clear structural arc with distinct verse/hook/bridge sections.",
+      "Strong lyrical progression from sardonic humor to raw vulnerability.",
+      "High production quality with intentional spatial design and texture shifts.",
+      "Consistent thematic depth regarding economic anxiety and emotional cost."
     ],
     "review_flags": [
-      "Uncertainty about the declared key (F major) due to low confidence (0.29).",
-      "Section detection appears robust, but the framework's 'Inhabited Form' label is conservative and may require closer listening for higher rungs."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:20:15.6377928Z",
-    "eval_count": 912,
-    "eval_duration": 16655186300
+    "created_at": "2026-06-10T10:23:57.3252153Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 8807912,
+      "base64_chars": 11743884,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 12500,
+    "prompt_eval_duration": 5556761000,
+    "eval_count": 491,
+    "eval_duration": 12111858000
   }
 }

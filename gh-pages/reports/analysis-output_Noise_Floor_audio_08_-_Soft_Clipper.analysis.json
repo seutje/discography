@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:32:02",
+  "generated_at": "2026-06-10T12:33:42",
   "audio": {
     "path": "Noise Floor/audio/08 - Soft Clipper.mp3",
     "duration_seconds": 230.0,
@@ -1294,7 +1294,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1338,256 +1341,13 @@
       "beat_this detected 348 beats and 87 downbeats; beat-grid stability is 0.90.",
       "EG evidence: section contrast 1.85, cumulative evolution 0.67, transformed returns 10.00, grid deviation 0.19, rule changes 2.50.",
       "Companion text has 9 lyric/production sections, 425 words, line repetition 0.10, rhyme-suffix reuse 0.32.",
-      "Production/vocal notes contain transformation cues (formal-pivot, space-change, texture-change); intent score 5.30.",
-      "Transcription check: lyric alignment 0.87, unique-word coverage 0.87, word-count ratio 1.02, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (formal-pivot, space-change, texture-change); intent score 5.30."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "The room is teeth, until a meter close, I touch the knob, and all the corners fold, one beat gone, and everybody knows I keep a drawer of borrow gestures, buy the input near the door, gently laugh a slower answer Less of what I meant before, when the needle warms the amber, I can pass for afternoon All my angles tucked their shoulders, all my clocks agree with you Nobody asked about the wiring, when the trouble has been shaped out It'll become an easier station, with the difficult parts to lay Around the corner, say the spark, around the sentence I hide, the marks off Clip around me over, pick the spike out of my name Make me warm enough, strangers make me simple in the frame I can laugh a little later, I can miss a little less Soft clipper, keep me so short, with the fog light in my chest There is mercy in the smoothing end of the building beneath the tone Every joke gets through the speaker, but it doesn't sound like home I can sit inside the chatter, I can sway and knock a cube Still the true part waits and stand by with both hands around the route By the second one revision, I am everyone's soft friend, by the third The backing heels off the little names I need again Soft clipper, around me over, leave the spark, but change the shape Let the room of the club be answered All the questions stays awake, I can laugh a little later I can miss a little less, so soft, clipper, keep me welcome with the fog light in my chest Turn it off, hear the corner, not ugly, just exact Turn it on, watch the rest, I hate how well it acts Soft clipper, around me over, but don't take the spike away Let it press beneath the chorus, like a name I mean to say I can laugh a little later, I can miss a still confess Soft clipper, leave me welcome with the fog light in my chest When the room goes quiet, I come back sharp One beat gone, I count what I kept",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 25.68,
-        "text": "The room is teeth, until a meter close, I touch the knob, and all the corners",
-        "avg_logprob": -0.5067934938099073,
-        "no_speech_prob": 0.54248046875
-      },
-      {
-        "start": 25.68,
-        "end": 40.88,
-        "text": "fold, one beat gone, and everybody knows",
-        "avg_logprob": -0.5089285646166121,
-        "no_speech_prob": 0.53857421875
-      },
-      {
-        "start": 40.88,
-        "end": 48.68,
-        "text": "I keep a drawer of borrow gestures, buy the input near the door, gently laugh a slower answer",
-        "avg_logprob": -0.5089285646166121,
-        "no_speech_prob": 0.53857421875
-      },
-      {
-        "start": 48.68,
-        "end": 56.28,
-        "text": "Less of what I meant before, when the needle warms the amber, I can pass for afternoon",
-        "avg_logprob": -0.37590578846309497,
-        "no_speech_prob": 0.85498046875
-      },
-      {
-        "start": 56.28,
-        "end": 61.28,
-        "text": "All my angles tucked their shoulders, all my clocks agree with you",
-        "avg_logprob": -0.37590578846309497,
-        "no_speech_prob": 0.85498046875
-      },
-      {
-        "start": 61.28,
-        "end": 66.88,
-        "text": "Nobody asked about the wiring, when the trouble has been shaped out",
-        "avg_logprob": -0.37590578846309497,
-        "no_speech_prob": 0.85498046875
-      },
-      {
-        "start": 66.88,
-        "end": 71.88,
-        "text": "It'll become an easier station, with the difficult parts to lay",
-        "avg_logprob": -0.37590578846309497,
-        "no_speech_prob": 0.85498046875
-      },
-      {
-        "start": 72.88,
-        "end": 82.88,
-        "text": "Around the corner, say the spark, around the sentence I hide, the marks off",
-        "avg_logprob": -0.29254807692307694,
-        "no_speech_prob": 0.448974609375
-      },
-      {
-        "start": 82.88,
-        "end": 86.88,
-        "text": "Clip around me over, pick the spike out of my name",
-        "avg_logprob": -0.29254807692307694,
-        "no_speech_prob": 0.448974609375
-      },
-      {
-        "start": 86.88,
-        "end": 91.88,
-        "text": "Make me warm enough, strangers make me simple in the frame",
-        "avg_logprob": -0.29254807692307694,
-        "no_speech_prob": 0.448974609375
-      },
-      {
-        "start": 91.88,
-        "end": 96.88,
-        "text": "I can laugh a little later, I can miss a little less",
-        "avg_logprob": -0.29254807692307694,
-        "no_speech_prob": 0.448974609375
-      },
-      {
-        "start": 97.88,
-        "end": 103.88,
-        "text": "Soft clipper, keep me so short, with the fog light in my chest",
-        "avg_logprob": -0.26268114559892297,
-        "no_speech_prob": 0.08001708984375
-      },
-      {
-        "start": 108.88,
-        "end": 113.88,
-        "text": "There is mercy in the smoothing end of the building beneath the tone",
-        "avg_logprob": -0.26268114559892297,
-        "no_speech_prob": 0.08001708984375
-      },
-      {
-        "start": 113.88,
-        "end": 118.88,
-        "text": "Every joke gets through the speaker, but it doesn't sound like home",
-        "avg_logprob": -0.26268114559892297,
-        "no_speech_prob": 0.08001708984375
-      },
-      {
-        "start": 118.88,
-        "end": 123.88,
-        "text": "I can sit inside the chatter, I can sway and knock a cube",
-        "avg_logprob": -0.26268114559892297,
-        "no_speech_prob": 0.08001708984375
-      },
-      {
-        "start": 123.88,
-        "end": 128.88,
-        "text": "Still the true part waits and stand by with both hands around the route",
-        "avg_logprob": -0.2706597129503886,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 128.88,
-        "end": 135.88,
-        "text": "By the second one revision, I am everyone's soft friend, by the third",
-        "avg_logprob": -0.2706597129503886,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 135.88,
-        "end": 139.88,
-        "text": "The backing heels off the little names I need again",
-        "avg_logprob": -0.2706597129503886,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 139.88,
-        "end": 144.88,
-        "text": "Soft clipper, around me over, leave the spark, but change the shape",
-        "avg_logprob": -0.2706597129503886,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 144.88,
-        "end": 147.88,
-        "text": "Let the room of the club be answered",
-        "avg_logprob": -0.2706597129503886,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 147.88,
-        "end": 152.88,
-        "text": "All the questions stays awake, I can laugh a little later",
-        "avg_logprob": -0.2706597129503886,
-        "no_speech_prob": 0.044647216796875
-      },
-      {
-        "start": 152.88,
-        "end": 164.88,
-        "text": "I can miss a little less, so soft, clipper, keep me welcome with the fog light in my chest",
-        "avg_logprob": -0.16015625411066517,
-        "no_speech_prob": 0.057403564453125
-      },
-      {
-        "start": 166.88,
-        "end": 171.88,
-        "text": "Turn it off, hear the corner, not ugly, just exact",
-        "avg_logprob": -0.16015625411066517,
-        "no_speech_prob": 0.057403564453125
-      },
-      {
-        "start": 171.88,
-        "end": 179.88,
-        "text": "Turn it on, watch the rest, I hate how well it acts",
-        "avg_logprob": -0.16015625411066517,
-        "no_speech_prob": 0.057403564453125
-      },
-      {
-        "start": 179.88,
-        "end": 185.88,
-        "text": "Soft clipper, around me over, but don't take the spike away",
-        "avg_logprob": -0.1607481028997537,
-        "no_speech_prob": 0.2354736328125
-      },
-      {
-        "start": 185.88,
-        "end": 190.88,
-        "text": "Let it press beneath the chorus, like a name I mean to say",
-        "avg_logprob": -0.1607481028997537,
-        "no_speech_prob": 0.2354736328125
-      },
-      {
-        "start": 190.88,
-        "end": 196.88,
-        "text": "I can laugh a little later, I can miss a still confess",
-        "avg_logprob": -0.1607481028997537,
-        "no_speech_prob": 0.2354736328125
-      },
-      {
-        "start": 196.88,
-        "end": 204.88,
-        "text": "Soft clipper, leave me welcome with the fog light in my chest",
-        "avg_logprob": -0.1607481028997537,
-        "no_speech_prob": 0.2354736328125
-      },
-      {
-        "start": 205.88,
-        "end": 214.88,
-        "text": "When the room goes quiet, I come back sharp",
-        "avg_logprob": -0.3173828100164731,
-        "no_speech_prob": 0.296142578125
-      },
-      {
-        "start": 217.88,
-        "end": 224.88,
-        "text": "One beat gone, I count what I kept",
-        "avg_logprob": -0.3173828100164731,
-        "no_speech_prob": 0.296142578125
-      }
-    ],
-    "avg_logprob": -0.315877627262511
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 357,
-    "transcript_word_count": 366,
-    "matched_sequence_words": 309,
-    "lyric_alignment_ratio": 0.866,
-    "transcript_precision_ratio": 0.844,
-    "unique_expected_word_coverage": 0.873,
-    "word_count_ratio": 1.025,
-    "repeated_12gram_ratio": 0.003,
-    "half_similarity": 0.262,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.865,
-    "quality_score_0_10": 8.65,
-    "flags": [],
-    "transcript_excerpt": "The room is teeth, until a meter close, I touch the knob, and all the corners fold, one beat gone, and everybody knows I keep a drawer of borrow gestures, buy the input near the door, gently laugh a slower answer Less of what I meant before, when the needle warms the amber, I can pass for afternoon All my angles tucked their shoulders, all my clocks agree with you Nobody asked about the wiring, when the trouble has been shaped out It'll become an easier station, with the difficult parts to lay Around the corner, say the spark, around the sentence I hide, the marks off Clip around me over, pick\n...[truncated]...\n the room of the club be answered All the questions stays awake, I can laugh a little later I can miss a little less, so soft, clipper, keep me welcome with the fog light in my chest Turn it off, hear the corner, not ugly, just exact Turn it on, watch the rest, I hate how well it acts Soft clipper, around me over, but don't take the spike away Let it press beneath the chorus, like a name I mean to say I can laugh a little later, I can miss a still confess Soft clipper, leave me welcome with the fog light in my chest When the room goes quiet, I come back sharp One beat gone, I count what I kept"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.96,
-      "MI_motivic_integration": 8.22,
+      "MI_motivic_integration": 7.82,
       "BP_beauty_spatial_poise": 8.12,
       "EG_evolving_grammar": 6.97,
       "CD_carry_depth": 8.45
@@ -1600,50 +1360,56 @@
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural coherence and clear motif repetition."
     },
-    "confidence_0_10": 7.7,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track maintains strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting the same emotional room."
+        "reason": "Base score accurately reflects the distinct verse/chorus/bridge structure and intentional outro."
       },
       "MI_motivic_integration": {
-        "delta": 0.4,
-        "reason": "Motivic integration is strong, with recurring vocal hooks, guitar figures, and lyric images that evolve across sections."
+        "delta": 0.0,
+        "reason": "The 'round me over' motif is a strong recurring melodic/lyrical anchor across sections."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The track’s spatial poise is central to its identity, with a memorable room tone and guitar space forming a distinct habitat."
+        "reason": "Production notes confirm intentional spatial design (widening/thinning) and texture-focused mixing."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The grammar develops over time, with meaningful shifts in rhythm, texture, and vocal delivery, but does not fully invent a new method."
+        "reason": "The shift from literal narrative in verses to abstract imagery in hooks shows deliberate stylistic evolution."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track feels like a small world, with a strong emotional arc and memorable sonic details that invite re-listening."
+        "reason": "Lyric repetition of 'Soft Clipper' functions as a thematic anchor rather than filler."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:50.00 with section-balance score 0.18.",
-      "Tempo estimate is 92.3 BPM; declared tempo alignment contributes 0.98.",
-      "Integrated loudness is -18.2 LUFS, peak is -1.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is G minor with confidence 0.29.",
-      "Audio recurrence ratio is 0.352; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 348 beats and 87 downbeats; beat-grid stability is 0.90.",
-      "EG evidence: section contrast 1.85, cumulative evolution 0.67, transformed returns 10.00, grid deviation 0.19, rule changes 2.50.",
-      "Companion text has 9 lyric/production sections, 425 words, line repetition 0.10, rhyme-suffix reuse 0.32."
+      "Strong structural design with clear transitions.",
+      "Motif-driven lyricism provides cohesive identity.",
+      "Production reflects the 'Indie Electrona' aesthetic well."
     ],
     "review_flags": [
-      "Uncertainty about section detection: audio sections and text sections are aligned but not perfectly matched."
+      ""
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:32:02.5111385Z",
-    "eval_count": 793,
-    "eval_duration": 13077641000
+    "created_at": "2026-06-10T10:33:42.4416705Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7360078,
+      "base64_chars": 9813440,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11084,
+    "prompt_eval_duration": 4636600000,
+    "eval_count": 396,
+    "eval_duration": 9552647000
   }
 }

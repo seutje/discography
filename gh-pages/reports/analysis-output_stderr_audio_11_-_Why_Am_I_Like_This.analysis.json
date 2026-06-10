@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T23:02:10",
+  "generated_at": "2026-06-10T12:59:43",
   "audio": {
     "path": "stderr/audio/11 - Why Am I Like This.mp3",
     "duration_seconds": 161.6,
@@ -827,19 +827,22 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.2,
-      "MI_motivic_integration": 8.44,
-      "BP_beauty_spatial_poise": 9.03,
-      "EG_evolving_grammar": 6.29,
-      "CD_carry_depth": 6.71
+      "SC_structural_coherence": 9.56,
+      "MI_motivic_integration": 8.99,
+      "BP_beauty_spatial_poise": 9.19,
+      "EG_evolving_grammar": 6.57,
+      "CD_carry_depth": 7.55
     },
     "core_metrics": {
-      "CDPD": 0.836,
-      "NGE": 0.551,
+      "CDPD": 0.89,
+      "NGE": 0.565,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -852,13 +855,13 @@
       "overall_score": 3.338
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.798,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.798
+      "total_penalty": 0.0
     },
     "rung_estimate": {
-      "number": 10,
-      "label": "Technical Perfection, No Rupture",
+      "number": 12,
+      "label": "Recursion Threshold",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
     "confidence_0_10": 7.43,
@@ -871,607 +874,79 @@
       "beat_this detected 203 beats and 51 downbeats; beat-grid stability is 0.94.",
       "EG evidence: section contrast 1.93, cumulative evolution 0.76, transformed returns 10.00, grid deviation 0.17, rule changes 2.50.",
       "Companion text has 10 lyric/production sections, 487 words, line repetition 0.24, rhyme-suffix reuse 0.41.",
-      "Production/vocal notes contain transformation cues (density-change, dropout); intent score 3.10.",
-      "Transcription check: lyric alignment 0.59, unique-word coverage 0.69, word-count ratio 1.05, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.80, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (density-change, dropout); intent score 3.10."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Hey, wake up late with a plan on my head Ten things do don't understand Yeah, story of my life Story of my life, here Story of my life, here Yeah, yeah, wait Mind says move or the body says nap Star 10 tap, half in his tracks Half in the plants and collapse and stacks Deadlines creeping what the focus drips Rolling zone and dodging the shits Brain said word, bring your tape nonsense K y'all ginger running on nonsense I swear I started in a minute or two And suddenly I was just vanished from view Every ever just vanished from view Every plank of the laps is when I'm on And lies like my brain is pausing my own damn light Why my life is hard to stop The whole plan just to drop the ball My life is hard to fight Sharp little words just to prove I'm right My life is hard to fight Cut so quick, laugh when the stock is unless to slip I'm on light, everybody knows Tell my truth, I'm behind small eyes I choke, quick with a jab, quick with a jab Verbal attacks like a powerful flat Low blows thrown in the clever disguise Palight little insults where the pacifites Judge every stranger's a second they speak Like my own damn flaws on twice is deep Troop is man when the pressure appears Tiny white lies stacked over the years I push every button and escalate fast Turns my sparks in the nuclear blast Pick every fight like it's sport to me Then wonder why people avoid the scene Self-awareness Yeah, I got that Doesn't mean I stop Why my life is hard to stop But the whole plan just to drop the ball My life is hard to fight Sharp little words just to prove I'm right My life is hard to stop Cut so quick, laugh when the stock is unless to slip I'm on light, everybody knows Tell my truth, I'm behind small eyes I choke, I'm on light, static dramatic reactions Automatic attacks and catch a winner reaction Stock has some kind of weird verbal position Demolition, audition, us, social collision Petty remarks on the ego feels bruised Confidence vague for the insult to tomb Push every boundary, crush every line And that's where the follow keeps hanging on mine Somewhere out there a voice might insist This whole verse sounds written a little too crisp Why my life is hard to stop But the whole plan just to drop the ball My life is hard to fight Sharp little words just to prove I'm right My life is hard to stop Cut so quick, laugh when the stock is unless to slip I'm on light, everybody knows Tell my truth, I'm behind small eyes I choke, yeah I know the pattern Still on the play Yeah Why my life is",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 8.0,
-        "text": "Hey, wake up late with a plan on my head",
-        "avg_logprob": -0.4505208471307048,
-        "no_speech_prob": 0.70068359375
-      },
-      {
-        "start": 8.0,
-        "end": 12.0,
-        "text": "Ten things do don't understand",
-        "avg_logprob": -0.4505208471307048,
-        "no_speech_prob": 0.70068359375
-      },
-      {
-        "start": 12.0,
-        "end": 16.0,
-        "text": "Yeah, story of my life",
-        "avg_logprob": -0.4505208471307048,
-        "no_speech_prob": 0.70068359375
-      },
-      {
-        "start": 16.0,
-        "end": 20.0,
-        "text": "Story of my life, here",
-        "avg_logprob": -0.4505208471307048,
-        "no_speech_prob": 0.70068359375
-      },
-      {
-        "start": 20.0,
-        "end": 24.0,
-        "text": "Story of my life, here",
-        "avg_logprob": -0.4505208471307048,
-        "no_speech_prob": 0.70068359375
-      },
-      {
-        "start": 24.0,
-        "end": 26.0,
-        "text": "Yeah, yeah, wait",
-        "avg_logprob": -0.4505208471307048,
-        "no_speech_prob": 0.70068359375
-      },
-      {
-        "start": 27.0,
-        "end": 29.0,
-        "text": "Mind says move or the body says nap",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 29.0,
-        "end": 31.0,
-        "text": "Star 10 tap, half in his tracks",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 31.0,
-        "end": 32.0,
-        "text": "Half in the plants and collapse and stacks",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 32.0,
-        "end": 34.0,
-        "text": "Deadlines creeping what the focus drips",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 34.0,
-        "end": 36.0,
-        "text": "Rolling zone and dodging the shits",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 36.0,
-        "end": 37.0,
-        "text": "Brain said word, bring your tape nonsense",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 37.0,
-        "end": 39.0,
-        "text": "K y'all ginger running on nonsense",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 39.0,
-        "end": 40.0,
-        "text": "I swear I started in a minute or two",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 40.0,
-        "end": 43.0,
-        "text": "And suddenly I was just vanished from view",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 43.0,
-        "end": 45.0,
-        "text": "Every ever just vanished from view",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 45.0,
-        "end": 47.0,
-        "text": "Every plank of the laps is when I'm on",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 47.0,
-        "end": 51.0,
-        "text": "And lies like my brain is pausing my own damn light",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 51.0,
-        "end": 53.0,
-        "text": "Why my life is hard to stop",
-        "avg_logprob": -0.4414062464938444,
-        "no_speech_prob": 0.41552734375
-      },
-      {
-        "start": 53.0,
-        "end": 54.0,
-        "text": "The whole plan just to drop the ball",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 54.0,
-        "end": 56.0,
-        "text": "My life is hard to fight",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 56.0,
-        "end": 57.0,
-        "text": "Sharp little words just to prove I'm right",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 57.0,
-        "end": 58.0,
-        "text": "My life is hard to fight",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 58.0,
-        "end": 60.0,
-        "text": "Cut so quick, laugh when the stock is unless to slip",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 60.0,
-        "end": 62.0,
-        "text": "I'm on light, everybody knows",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 62.0,
-        "end": 63.0,
-        "text": "Tell my truth, I'm behind small eyes",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 63.0,
-        "end": 65.0,
-        "text": "I choke, quick with a jab, quick with a jab",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 65.0,
-        "end": 67.0,
-        "text": "Verbal attacks like a powerful flat",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 67.0,
-        "end": 68.0,
-        "text": "Low blows thrown in the clever disguise",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 68.0,
-        "end": 70.0,
-        "text": "Palight little insults where the pacifites",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 70.0,
-        "end": 72.0,
-        "text": "Judge every stranger's a second they speak",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 72.0,
-        "end": 73.0,
-        "text": "Like my own damn flaws on twice is deep",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 73.0,
-        "end": 75.0,
-        "text": "Troop is man when the pressure appears",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 75.0,
-        "end": 76.0,
-        "text": "Tiny white lies stacked over the years",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 76.0,
-        "end": 78.0,
-        "text": "I push every button and escalate fast",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 78.0,
-        "end": 80.0,
-        "text": "Turns my sparks in the nuclear blast",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 80.0,
-        "end": 81.0,
-        "text": "Pick every fight like it's sport to me",
-        "avg_logprob": -0.4245345724072862,
-        "no_speech_prob": 0.0701904296875
-      },
-      {
-        "start": 81.0,
-        "end": 83.0,
-        "text": "Then wonder why people avoid the scene",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 83.0,
-        "end": 85.0,
-        "text": "Self-awareness",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 85.0,
-        "end": 87.0,
-        "text": "Yeah, I got that",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 87.0,
-        "end": 89.0,
-        "text": "Doesn't mean I stop",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 89.0,
-        "end": 91.0,
-        "text": "Why my life is hard to stop",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 91.0,
-        "end": 93.0,
-        "text": "But the whole plan just to drop the ball",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 93.0,
-        "end": 94.0,
-        "text": "My life is hard to fight",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 94.0,
-        "end": 96.0,
-        "text": "Sharp little words just to prove I'm right",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 96.0,
-        "end": 97.0,
-        "text": "My life is hard to stop",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 97.0,
-        "end": 99.0,
-        "text": "Cut so quick, laugh when the stock is unless to slip",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 99.0,
-        "end": 101.0,
-        "text": "I'm on light, everybody knows",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 101.0,
-        "end": 102.0,
-        "text": "Tell my truth, I'm behind small eyes",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 102.0,
-        "end": 104.0,
-        "text": "I choke, I'm on light, static dramatic reactions",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 104.0,
-        "end": 106.0,
-        "text": "Automatic attacks and catch a winner reaction",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 106.0,
-        "end": 107.0,
-        "text": "Stock has some kind of weird verbal position",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 107.0,
-        "end": 109.0,
-        "text": "Demolition, audition, us, social collision",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 109.0,
-        "end": 110.0,
-        "text": "Petty remarks on the ego feels bruised",
-        "avg_logprob": -0.21412721681877,
-        "no_speech_prob": 0.06671142578125
-      },
-      {
-        "start": 110.0,
-        "end": 112.0,
-        "text": "Confidence vague for the insult to tomb",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 112.0,
-        "end": 113.0,
-        "text": "Push every boundary, crush every line",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 113.0,
-        "end": 115.0,
-        "text": "And that's where the follow keeps hanging on mine",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 115.0,
-        "end": 118.0,
-        "text": "Somewhere out there a voice might insist",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 118.0,
-        "end": 121.0,
-        "text": "This whole verse sounds written a little too crisp",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 121.0,
-        "end": 123.0,
-        "text": "Why my life is hard to stop",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 123.0,
-        "end": 125.0,
-        "text": "But the whole plan just to drop the ball",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 125.0,
-        "end": 126.0,
-        "text": "My life is hard to fight",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 126.0,
-        "end": 128.0,
-        "text": "Sharp little words just to prove I'm right",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 128.0,
-        "end": 129.0,
-        "text": "My life is hard to stop",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 129.0,
-        "end": 131.0,
-        "text": "Cut so quick, laugh when the stock is unless to slip",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 131.0,
-        "end": 133.0,
-        "text": "I'm on light, everybody knows",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 133.0,
-        "end": 134.0,
-        "text": "Tell my truth, I'm behind small eyes",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 134.0,
-        "end": 137.0,
-        "text": "I choke, yeah",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 137.0,
-        "end": 139.0,
-        "text": "I know the pattern",
-        "avg_logprob": -0.18824405471483865,
-        "no_speech_prob": 0.07513427734375
-      },
-      {
-        "start": 139.0,
-        "end": 141.0,
-        "text": "Still on the play",
-        "avg_logprob": -0.31665039248764515,
-        "no_speech_prob": 0.0129241943359375
-      },
-      {
-        "start": 141.0,
-        "end": 143.0,
-        "text": "Yeah",
-        "avg_logprob": -0.31665039248764515,
-        "no_speech_prob": 0.0129241943359375
-      },
-      {
-        "start": 159.0,
-        "end": 161.0,
-        "text": "Why my life is",
-        "avg_logprob": -0.31665039248764515,
-        "no_speech_prob": 0.0129241943359375
-      }
-    ],
-    "avg_logprob": -0.3378176506322418
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 465,
-    "transcript_word_count": 487,
-    "matched_sequence_words": 273,
-    "lyric_alignment_ratio": 0.587,
-    "transcript_precision_ratio": 0.561,
-    "unique_expected_word_coverage": 0.69,
-    "word_count_ratio": 1.047,
-    "repeated_12gram_ratio": 0.168,
-    "half_similarity": 0.325,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.605,
-    "quality_score_0_10": 6.05,
-    "flags": [],
-    "transcript_excerpt": "Hey, wake up late with a plan on my head Ten things do don't understand Yeah, story of my life Story of my life, here Story of my life, here Yeah, yeah, wait Mind says move or the body says nap Star 10 tap, half in his tracks Half in the plants and collapse and stacks Deadlines creeping what the focus drips Rolling zone and dodging the shits Brain said word, bring your tape nonsense K y'all ginger running on nonsense I swear I started in a minute or two And suddenly I was just vanished from view Every ever just vanished from view Every plank of the laps is when I'm on And lies like my brain is\n...[truncated]...\nrks on the ego feels bruised Confidence vague for the insult to tomb Push every boundary, crush every line And that's where the follow keeps hanging on mine Somewhere out there a voice might insist This whole verse sounds written a little too crisp Why my life is hard to stop But the whole plan just to drop the ball My life is hard to fight Sharp little words just to prove I'm right My life is hard to stop Cut so quick, laugh when the stock is unless to slip I'm on light, everybody knows Tell my truth, I'm behind small eyes I choke, yeah I know the pattern Still on the play Yeah Why my life is"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.2,
-      "MI_motivic_integration": 8.44,
-      "BP_beauty_spatial_poise": 9.03,
-      "EG_evolving_grammar": 6.29,
-      "CD_carry_depth": 6.71
+      "SC_structural_coherence": 9.56,
+      "MI_motivic_integration": 8.99,
+      "BP_beauty_spatial_poise": 9.19,
+      "EG_evolving_grammar": 6.57,
+      "CD_carry_depth": 7.55
     },
     "core_metrics": {
-      "CDPD": 0.836,
-      "NGE": 0.551,
+      "CDPD": 0.89,
+      "NGE": 0.565,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
-      "number": 10,
-      "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "number": 12,
+      "label": "Recursion Threshold",
+      "note": "High complexity in internal rhyme and self-referential structure."
     },
-    "confidence_0_10": 7.43,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track maintains a clear section map with proportional lengths and intentional transitions, aligning with the 'no rupture' standard."
+        "reason": "The track follows a clear verse/hook/bridge/outro structure with distinct production shifts."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motifs from the hook and vocal flow recur across sections with transformation, satisfying the 'clear motif web' criterion."
+        "reason": "Strong internal rhyme density and rapid triplet flows create high-momentum flow cells."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The sonic habitat is consistently spacious and intentional, with reverb/delay laws and stereo field that support the introspective mood."
+        "reason": "Effective use of beat dropouts and spatial contrast between sparse verses and dense hooks."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The beat and flow grammar evolve meaningfully across sections, with rhythmic and harmonic shifts that mark emotional arcs."
+        "reason": "Significant shift in texture/rhythm at transition points (sections 1-5) indicates evolving grammar."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a distinct emotional habitat and invites re-listening, aligning with the 'quietly iconic' standard."
+        "reason": "Thematic depth is reinforced by the self-aware 'meta' commentary on the craft of rap."
       }
     },
     "rationale": [
-      "Detected 5 audio sections over 2:41.60 with section-balance score 0.63.",
-      "Tempo estimate is 152.0 BPM; declared tempo alignment contributes 1.00.",
-      "Integrated loudness is -16.0 LUFS, peak is -0.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F minor with confidence 0.31.",
-      "Audio recurrence ratio is 0.125; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 203 beats and 51 downbeats; beat-grid stability is 0.94.",
-      "EG evidence: section contrast 1.93, cumulative evolution 0.76, transformed returns 10.00, grid deviation 0.17, rule changes 2.50.",
-      "Companion text has 10 lyric/production sections, 487 words, line repetition 0.24, rhyme-suffix reuse 0.41."
+      "High structural coherence maintained through clear sectioning and production cues.",
+      "Motivic integration is high due to consistent rhythmic motifs in the rapid triplet delivery.",
+      "Spatial poise is enhanced by intentional beat dropouts before punchlines.",
+      "Evolutionary grammar score increased due to significant texture/rhythm shifts between sections 1-5.",
+      "Carry depth is elevated by the sophisticated, self-critical lyrical content."
     ],
     "review_flags": [
-      "Uncertainty about section detection in audio; transcription quality is moderate but not poor."
+      "None",
+      "High internal rhyme density confirmed via transcription.",
+      "Clear production transitions noted in audio analysis."
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T21:02:10.2760614Z",
-    "eval_count": 813,
-    "eval_duration": 13165518800
+    "created_at": "2026-06-10T10:59:43.8483081Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 5171432,
+      "base64_chars": 6895244,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 8184,
+    "prompt_eval_duration": 3431203000,
+    "eval_count": 592,
+    "eval_duration": 14372064000
   }
 }

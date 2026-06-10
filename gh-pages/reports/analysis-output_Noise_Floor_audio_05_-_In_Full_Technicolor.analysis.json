@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:30:23",
+  "generated_at": "2026-06-10T12:32:18",
   "audio": {
     "path": "Noise Floor/audio/05 - In Full Technicolor.mp3",
     "duration_seconds": 297.08,
@@ -1712,7 +1712,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1756,249 +1759,75 @@
       "beat_this detected 495 beats and 125 downbeats; beat-grid stability is 0.93.",
       "EG evidence: section contrast 1.92, cumulative evolution 0.74, transformed returns 10.00, grid deviation 0.36, rule changes 3.44.",
       "Companion text has 11 lyric/production sections, 345 words, line repetition 0.03, rhyme-suffix reuse 0.25.",
-      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 4.40.",
-      "Transcription check: lyric alignment 0.87, unique-word coverage 0.91, word-count ratio 0.97, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 4.40."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "I flicker in the frame, I have remembered you, I turn the dial again, until the edges come through there's a language in the air tonight not spoken just revealed every line begins to realign into something I can't feel frequencies I never named, now settle into place a quiet architecture forms behind the human face I was searching in the haze for something out of phase now I'm tuning into the nexus letting every color bloom all the fragments fall together in a living room of truth every shadow finds its contour every signal finds its cue I had just until it holds me in full technical review a subtle shift in density like a depth I couldn't see expanding past the surface lines into continuity the boundaries grow permeable but nothing slips away it's not escape or leaving here just seeing it this way not distortion, not disguise just another way to sway I'm tuning into the nexus where the hidden threads align every moment feels connected through a pattern I can't define there's a warmth beneath the structure like a pulse that carries through and it studies as I find it in full technical review a molecule of meaning unfolding in the mind not louder just clearer like sight refined no need to hold it tightly it's already intertwined I stop resisting in the picture unwinds still tuning into the nexus the signals always spin in the space between perception and the shape of what was seen every color now is anchored every edges gently true I don't chase it anymore it arrives in front of me in full technical review turn the dial just enough and it finds you",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 23.32,
-        "text": "I flicker in the frame, I have remembered you, I turn the dial again, until the edges come",
-        "avg_logprob": -0.459435095007603,
-        "no_speech_prob": 0.3525390625
-      },
-      {
-        "start": 23.32,
-        "end": 41.76,
-        "text": "through there's a language in the air tonight not spoken just revealed",
-        "avg_logprob": -0.42003676908857684,
-        "no_speech_prob": 0.2393798828125
-      },
-      {
-        "start": 41.76,
-        "end": 48.44,
-        "text": "every line begins to realign into something I can't feel frequencies I never",
-        "avg_logprob": -0.42003676908857684,
-        "no_speech_prob": 0.2393798828125
-      },
-      {
-        "start": 48.44,
-        "end": 56.92,
-        "text": "named, now settle into place a quiet architecture forms behind the human face",
-        "avg_logprob": -0.4741210890933871,
-        "no_speech_prob": 0.399169921875
-      },
-      {
-        "start": 56.92,
-        "end": 66.56,
-        "text": "I was searching in the haze for something out of phase",
-        "avg_logprob": -0.4741210890933871,
-        "no_speech_prob": 0.399169921875
-      },
-      {
-        "start": 66.56,
-        "end": 85.24,
-        "text": "now I'm tuning into the nexus letting every color bloom all the fragments fall together in a living room of truth",
-        "avg_logprob": -0.40653933860637526,
-        "no_speech_prob": 0.09490966796875
-      },
-      {
-        "start": 86.24,
-        "end": 105.24,
-        "text": "every shadow finds its contour every signal finds its cue I had just until it holds me in full technical review",
-        "avg_logprob": -0.549375,
-        "no_speech_prob": 0.131103515625
-      },
-      {
-        "start": 105.24,
-        "end": 118.24,
-        "text": "a subtle shift in density like a depth I couldn't see expanding past the surface lines into continuity",
-        "avg_logprob": -0.26800270961678546,
-        "no_speech_prob": 0.350830078125
-      },
-      {
-        "start": 118.24,
-        "end": 128.24,
-        "text": "the boundaries grow permeable but nothing slips away it's not escape or leaving here just seeing it this way",
-        "avg_logprob": -0.26800270961678546,
-        "no_speech_prob": 0.350830078125
-      },
-      {
-        "start": 129.24,
-        "end": 148.24,
-        "text": "not distortion, not disguise just another way to sway I'm tuning into the nexus where the hidden threads align",
-        "avg_logprob": -0.14072515337895125,
-        "no_speech_prob": 0.0634765625
-      },
-      {
-        "start": 148.24,
-        "end": 157.24,
-        "text": "every moment feels connected through a pattern I can't define",
-        "avg_logprob": -0.14072515337895125,
-        "no_speech_prob": 0.0634765625
-      },
-      {
-        "start": 157.24,
-        "end": 166.24,
-        "text": "there's a warmth beneath the structure like a pulse that carries through",
-        "avg_logprob": -0.19765624304612478,
-        "no_speech_prob": 0.00640106201171875
-      },
-      {
-        "start": 166.24,
-        "end": 177.24,
-        "text": "and it studies as I find it in full technical review",
-        "avg_logprob": -0.19765624304612478,
-        "no_speech_prob": 0.00640106201171875
-      },
-      {
-        "start": 177.24,
-        "end": 195.24,
-        "text": "a molecule of meaning unfolding in the mind not louder just clearer like sight refined",
-        "avg_logprob": -0.22229003999382257,
-        "no_speech_prob": 0.72509765625
-      },
-      {
-        "start": 195.24,
-        "end": 204.24,
-        "text": "no need to hold it tightly it's already intertwined",
-        "avg_logprob": -0.22229003999382257,
-        "no_speech_prob": 0.72509765625
-      },
-      {
-        "start": 204.24,
-        "end": 228.24,
-        "text": "I stop resisting in the picture unwinds",
-        "avg_logprob": -0.33683893313774693,
-        "no_speech_prob": 0.176513671875
-      },
-      {
-        "start": 228.24,
-        "end": 238.24,
-        "text": "still tuning into the nexus the signals always spin",
-        "avg_logprob": -0.14899554210049765,
-        "no_speech_prob": 0.08514404296875
-      },
-      {
-        "start": 238.24,
-        "end": 247.24,
-        "text": "in the space between perception and the shape of what was seen",
-        "avg_logprob": -0.14899554210049765,
-        "no_speech_prob": 0.08514404296875
-      },
-      {
-        "start": 247.24,
-        "end": 257.24,
-        "text": "every color now is anchored every edges gently true",
-        "avg_logprob": -0.12127684988081455,
-        "no_speech_prob": 0.34326171875
-      },
-      {
-        "start": 257.24,
-        "end": 274.24,
-        "text": "I don't chase it anymore it arrives in front of me in full technical review",
-        "avg_logprob": -0.12127684988081455,
-        "no_speech_prob": 0.34326171875
-      },
-      {
-        "start": 274.24,
-        "end": 284.24,
-        "text": "turn the dial just enough and it finds you",
-        "avg_logprob": -0.3343099082509677,
-        "no_speech_prob": 0.8232421875
-      }
-    ],
-    "avg_logprob": -0.30286511591440296
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 293,
-    "transcript_word_count": 283,
-    "matched_sequence_words": 255,
-    "lyric_alignment_ratio": 0.87,
-    "transcript_precision_ratio": 0.901,
-    "unique_expected_word_coverage": 0.911,
-    "word_count_ratio": 0.966,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.213,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.881,
-    "quality_score_0_10": 8.81,
-    "flags": [],
-    "transcript_excerpt": "I flicker in the frame, I have remembered you, I turn the dial again, until the edges come through there's a language in the air tonight not spoken just revealed every line begins to realign into something I can't feel frequencies I never named, now settle into place a quiet architecture forms behind the human face I was searching in the haze for something out of phase now I'm tuning into the nexus letting every color bloom all the fragments fall together in a living room of truth every shadow finds its contour every signal finds its cue I had just until it holds me in full technical review a \n...[truncated]...\n't define there's a warmth beneath the structure like a pulse that carries through and it studies as I find it in full technical review a molecule of meaning unfolding in the mind not louder just clearer like sight refined no need to hold it tightly it's already intertwined I stop resisting in the picture unwinds still tuning into the nexus the signals always spin in the space between perception and the shape of what was seen every color now is anchored every edges gently true I don't chase it anymore it arrives in front of me in full technical review turn the dial just enough and it finds you"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
       "MI_motivic_integration": 8.2,
-      "BP_beauty_spatial_poise": 8.8,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 8.7
+      "BP_beauty_spatial_poise": 9.1,
+      "EG_evolving_grammar": 7.45,
+      "CD_carry_depth": 8.6
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.64,
-      "HMII_peak_estimate": 6
+      "CDPD": 0.0,
+      "NGE": 0.0,
+      "HMII_peak_estimate": 8
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High confidence in sophisticated structure and lyrical depth."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like revisiting emotional rooms."
+        "reason": "Strong structural design with clear transitions (Intro, Verse, Pre-Hook, Hook) and a deliberate outro."
       },
       "MI_motivic_integration": {
         "delta": 0.54,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric images recur in altered forms across sections, showing strong integration."
+        "reason": "Lyrics are highly integrated with the production's 'evolving' nature; consistent imagery of light/color/frequency."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.1,
-        "reason": "The track’s sonic habitat, including room tone and guitar space, forms a memorable and coherent spatial identity."
+        "delta": 0.4,
+        "reason": "The spatial arrangement described in notes and heard in audio (layered harmonies, wide-panned whispers) creates a high sense of poise."
       },
       "EG_evolving_grammar": {
-        "delta": 0.35,
-        "reason": "The grammar develops over time, with meaningful shifts in rhythm, texture, and timbre, but does not fully invent a new method."
+        "delta": 0.3,
+        "reason": "Lyrics evolve from internal observation to external 'technicolor' expansion."
       },
       "CD_carry_depth": {
-        "delta": 0.25,
-        "reason": "The track feels like a small world, with a strong emotional arc and lasting imprint, even if it does not reach iconic status."
+        "delta": 0.15,
+        "reason": "Thematic depth is consistent throughout the track."
       }
     },
     "rationale": [
-      "Detected 9 audio sections over 4:57.08 with section-balance score 0.61.",
-      "Tempo estimate is 99.4 BPM; declared tempo alignment contributes 0.83.",
-      "Integrated loudness is -16.8 LUFS, peak is -1.9 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is E major with confidence 0.52.",
-      "Audio recurrence ratio is 0.335; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 495 beats and 125 downbeats; beat-grid stability is 0.93.",
-      "EG evidence: section contrast 1.92, cumulative evolution 0.74, transformed returns 10.00, grid deviation 0.36, rule changes 3.44.",
-      "Companion text has 11 lyric/production sections, 345 words, line repetition 0.03, rhyme-suffix reuse 0.25."
+      "Strongly structured arrangement with distinct sections.",
+      "Lyrically cohesive and evocative imagery.",
+      "High production quality and intentional spatial design."
     ],
     "review_flags": [
-      "Uncertainty remains about the exact nature of motif recurrence, as audio-only evidence is limited."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:30:23.0170093Z",
-    "eval_count": 783,
-    "eval_duration": 13029503900
+    "created_at": "2026-06-10T10:32:18.2223308Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 9506792,
+      "base64_chars": 12675724,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 13399,
+    "prompt_eval_duration": 5738810000,
+    "eval_count": 391,
+    "eval_duration": 9706468000
   }
 }

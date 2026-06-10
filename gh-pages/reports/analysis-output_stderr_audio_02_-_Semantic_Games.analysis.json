@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:56:38",
+  "generated_at": "2026-06-10T12:55:16",
   "audio": {
     "path": "stderr/audio/02 - Semantic Games.mp3",
     "duration_seconds": 148.72,
@@ -789,19 +789,22 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.03,
-      "MI_motivic_integration": 8.12,
-      "BP_beauty_spatial_poise": 8.71,
-      "EG_evolving_grammar": 6.75,
-      "CD_carry_depth": 7.09
+      "SC_structural_coherence": 9.21,
+      "MI_motivic_integration": 8.4,
+      "BP_beauty_spatial_poise": 8.79,
+      "EG_evolving_grammar": 6.89,
+      "CD_carry_depth": 7.52
     },
     "core_metrics": {
-      "CDPD": 0.823,
-      "NGE": 0.564,
+      "CDPD": 0.851,
+      "NGE": 0.572,
       "HMII_peak_estimate": 5
     },
     "eg_evidence": {
@@ -814,13 +817,13 @@
       "overall_score": 3.154
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.408,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.408
+      "total_penalty": 0.0
     },
     "rung_estimate": {
-      "number": 10,
-      "label": "Technical Perfection, No Rupture",
+      "number": 12,
+      "label": "Recursion Threshold",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
     "confidence_0_10": 7.36,
@@ -833,362 +836,78 @@
       "beat_this detected 186 beats and 48 downbeats; beat-grid stability is 0.95.",
       "EG evidence: section contrast 2.45, cumulative evolution 1.19, transformed returns 7.40, grid deviation 0.54, rule changes 3.12.",
       "Companion text has 9 lyric/production sections, 637 words, line repetition 0.14, rhyme-suffix reuse 0.38.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, texture-change); intent score 5.95.",
-      "Transcription check: lyric alignment 0.65, unique-word coverage 0.71, word-count ratio 1.03, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.41, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (density-change, dropout, texture-change); intent score 5.95."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Yeah Funny thing about words everybody garden addiction area like it's property Pain on the canvas like you win the artist art is friday for the arm chest martis piloted out when the crowds are barking They frame my work, but they never see the art in blue print mind when I put a machine still not an engineer If you ain't got the degree degrees of a race between doing degree to decree what I be but they ain't never me Kick flip logic concrete fell out of fee skateboard. How you don't make you escape to see? Yeah, the symmetric select trucks on a rail they grind different inches while they tighten the scale Game in the night heads of mic on a lame or touch grass kid. You ain't really a gamer game To replay with a garden name they playing games about the name of the game facts work police patrol and every syllable And badge made a jargon coughs made a name every title turned to a border. They claim little kings playing rule and semantic Game so many games they move in the dough post say I can't claim it unless I'm the most Most liberal like down like a game with a code but I pay the road to patrol in the most So many games was in a phrase if I do the thing they say not the same gatekeepers garden addiction every throne But a word and a cage and a craft in a loan. They say all the stomachs of the arm must be pain But if the check clear then the yard ain't the same with official standards draw shop in the sand The hand made the peace and the peace made the manager didn't mean that is it out of your name But the engine still spin when I'm soft on the frame frame to claim like a law in the core of the torque and the thoughts They'll been in the form skater skate through the categories quick kick flip rhetoric definition gets flipped Crypt teap logic what a syntax later be line grinding rails on the edge of pride gamer game in the middle of speech What they guard in the title like a beach but the game of the game is the name to defend and the wind conditions pretending to end down They keep gays at the gate got a gate every libel just a lock and a crate every crate full of words to debate what the work's still happening outside the gate Gate gate gate gate Semantic games they move in the dough post say I can't claim it unless I'm the most most they were locked down like a game with a code But I pay the road to patrol in the most so many games to the phrase if I do the thing they say not the same Gays keep a guard in a nation every home but a word in a cage and a craft in a loan Oli Oli Oli Oli Oli Yeah, funny how the title always travels up hill if you build you and build it till they say you build If you paint you and painted it a crowd say skill if you skate you and skate it till you beat for the thrill But the thrill of the drill of the skill of the trait still happening whether they're bad You just play the police in the language with a language of all every problem they got already halfway solved Gate gate gate They play a semi-game with a ruler and pen You're all the brown words I can paint them a man But the truth of the fun and craft in the act of proclaim if you do the damn thing Damn thing You're already the name Oli",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 2.0,
-        "text": "Yeah",
-        "avg_logprob": -0.6026422822378515,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 7.8,
-        "end": 11.48,
-        "text": "Funny thing about words everybody garden addiction area like it's property",
-        "avg_logprob": -0.6026422822378515,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 13.2,
-        "end": 18.24,
-        "text": "Pain on the canvas like you win the artist art is friday for the arm chest martis piloted out when the crowds are barking",
-        "avg_logprob": -0.6026422822378515,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 18.24,
-        "end": 22.04,
-        "text": "They frame my work, but they never see the art in blue print mind when I put a machine still not an engineer",
-        "avg_logprob": -0.6026422822378515,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 22.04,
-        "end": 26.0,
-        "text": "If you ain't got the degree degrees of a race between doing degree to decree what I be but they ain't never me",
-        "avg_logprob": -0.6026422822378515,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 26.0,
-        "end": 29.24,
-        "text": "Kick flip logic concrete fell out of fee skateboard. How you don't make you escape to see?",
-        "avg_logprob": -0.6026422822378515,
-        "no_speech_prob": 0.393310546875
-      },
-      {
-        "start": 29.24,
-        "end": 32.52,
-        "text": "Yeah, the symmetric select trucks on a rail they grind different inches while they tighten the scale",
-        "avg_logprob": -0.5883264541625977,
-        "no_speech_prob": 0.050201416015625
-      },
-      {
-        "start": 32.52,
-        "end": 36.08,
-        "text": "Game in the night heads of mic on a lame or touch grass kid. You ain't really a gamer game",
-        "avg_logprob": -0.5883264541625977,
-        "no_speech_prob": 0.050201416015625
-      },
-      {
-        "start": 36.08,
-        "end": 41.6,
-        "text": "To replay with a garden name they playing games about the name of the game facts work police patrol and every syllable",
-        "avg_logprob": -0.5883264541625977,
-        "no_speech_prob": 0.050201416015625
-      },
-      {
-        "start": 41.6,
-        "end": 50.92,
-        "text": "And badge made a jargon coughs made a name every title turned to a border. They claim little kings playing rule and semantic",
-        "avg_logprob": -0.5883264541625977,
-        "no_speech_prob": 0.050201416015625
-      },
-      {
-        "start": 50.92,
-        "end": 54.44,
-        "text": "Game so many games they move in the dough post say I can't claim it unless I'm the most",
-        "avg_logprob": -0.5883264541625977,
-        "no_speech_prob": 0.050201416015625
-      },
-      {
-        "start": 54.44,
-        "end": 57.68,
-        "text": "Most liberal like down like a game with a code but I pay the road to patrol in the most",
-        "avg_logprob": -0.4985379893877353,
-        "no_speech_prob": 0.168212890625
-      },
-      {
-        "start": 57.68,
-        "end": 62.48,
-        "text": "So many games was in a phrase if I do the thing they say not the same gatekeepers garden addiction every throne",
-        "avg_logprob": -0.4985379893877353,
-        "no_speech_prob": 0.168212890625
-      },
-      {
-        "start": 62.48,
-        "end": 66.08,
-        "text": "But a word and a cage and a craft in a loan. They say all the stomachs of the arm must be pain",
-        "avg_logprob": -0.4985379893877353,
-        "no_speech_prob": 0.168212890625
-      },
-      {
-        "start": 66.08,
-        "end": 69.3,
-        "text": "But if the check clear then the yard ain't the same with official standards draw shop in the sand",
-        "avg_logprob": -0.4985379893877353,
-        "no_speech_prob": 0.168212890625
-      },
-      {
-        "start": 69.3,
-        "end": 72.44,
-        "text": "The hand made the peace and the peace made the manager didn't mean that is it out of your name",
-        "avg_logprob": -0.4985379893877353,
-        "no_speech_prob": 0.168212890625
-      },
-      {
-        "start": 72.44,
-        "end": 76.44,
-        "text": "But the engine still spin when I'm soft on the frame frame to claim like a law in the core of the torque and the thoughts",
-        "avg_logprob": -0.4985379893877353,
-        "no_speech_prob": 0.168212890625
-      },
-      {
-        "start": 76.44,
-        "end": 80.48,
-        "text": "They'll been in the form skater skate through the categories quick kick flip rhetoric definition gets flipped",
-        "avg_logprob": -0.4985379893877353,
-        "no_speech_prob": 0.168212890625
-      },
-      {
-        "start": 80.48,
-        "end": 85.28,
-        "text": "Crypt teap logic what a syntax later be line grinding rails on the edge of pride gamer game in the middle of speech",
-        "avg_logprob": -0.457947521114055,
-        "no_speech_prob": 0.2298583984375
-      },
-      {
-        "start": 85.28,
-        "end": 90.08,
-        "text": "What they guard in the title like a beach but the game of the game is the name to defend and the wind conditions pretending to end down",
-        "avg_logprob": -0.457947521114055,
-        "no_speech_prob": 0.2298583984375
-      },
-      {
-        "start": 90.08,
-        "end": 96.48,
-        "text": "They keep gays at the gate got a gate every libel just a lock and a crate every crate full of words to debate what the work's still happening outside the gate",
-        "avg_logprob": -0.457947521114055,
-        "no_speech_prob": 0.2298583984375
-      },
-      {
-        "start": 96.48,
-        "end": 98.48,
-        "text": "Gate gate gate gate",
-        "avg_logprob": -0.457947521114055,
-        "no_speech_prob": 0.2298583984375
-      },
-      {
-        "start": 98.48,
-        "end": 104.08,
-        "text": "Semantic games they move in the dough post say I can't claim it unless I'm the most most they were locked down like a game with a code",
-        "avg_logprob": -0.457947521114055,
-        "no_speech_prob": 0.2298583984375
-      },
-      {
-        "start": 104.08,
-        "end": 108.96,
-        "text": "But I pay the road to patrol in the most so many games to the phrase if I do the thing they say not the same",
-        "avg_logprob": -0.457947521114055,
-        "no_speech_prob": 0.2298583984375
-      },
-      {
-        "start": 108.96,
-        "end": 112.16,
-        "text": "Gays keep a guard in a nation every home but a word in a cage and a craft in a loan",
-        "avg_logprob": -0.43179899272886485,
-        "no_speech_prob": 0.04803466796875
-      },
-      {
-        "start": 112.16,
-        "end": 113.76,
-        "text": "Oli Oli Oli Oli Oli",
-        "avg_logprob": -0.43179899272886485,
-        "no_speech_prob": 0.04803466796875
-      },
-      {
-        "start": 113.76,
-        "end": 117.28,
-        "text": "Yeah, funny how the title always travels up hill if you build you and build it till they say you build",
-        "avg_logprob": -0.43179899272886485,
-        "no_speech_prob": 0.04803466796875
-      },
-      {
-        "start": 117.28,
-        "end": 120.4,
-        "text": "If you paint you and painted it a crowd say skill if you skate you and skate it till you beat for the thrill",
-        "avg_logprob": -0.43179899272886485,
-        "no_speech_prob": 0.04803466796875
-      },
-      {
-        "start": 120.4,
-        "end": 123.2,
-        "text": "But the thrill of the drill of the skill of the trait still happening whether they're bad",
-        "avg_logprob": -0.43179899272886485,
-        "no_speech_prob": 0.04803466796875
-      },
-      {
-        "start": 123.2,
-        "end": 126.96,
-        "text": "You just play the police in the language with a language of all every problem they got already halfway solved",
-        "avg_logprob": -0.43179899272886485,
-        "no_speech_prob": 0.04803466796875
-      },
-      {
-        "start": 126.96,
-        "end": 128.4,
-        "text": "Gate gate gate",
-        "avg_logprob": -0.43179899272886485,
-        "no_speech_prob": 0.04803466796875
-      },
-      {
-        "start": 128.4,
-        "end": 131.2,
-        "text": "They play a semi-game with a ruler and pen",
-        "avg_logprob": -0.43179899272886485,
-        "no_speech_prob": 0.04803466796875
-      },
-      {
-        "start": 131.44,
-        "end": 134.64,
-        "text": "You're all the brown words I can paint them a man",
-        "avg_logprob": -0.6014092880136827,
-        "no_speech_prob": 0.30615234375
-      },
-      {
-        "start": 134.64,
-        "end": 139.44,
-        "text": "But the truth of the fun and craft in the act of proclaim if you do the damn thing",
-        "avg_logprob": -0.6014092880136827,
-        "no_speech_prob": 0.30615234375
-      },
-      {
-        "start": 139.44,
-        "end": 140.24,
-        "text": "Damn thing",
-        "avg_logprob": -0.6014092880136827,
-        "no_speech_prob": 0.30615234375
-      },
-      {
-        "start": 140.24,
-        "end": 141.84,
-        "text": "You're already the name",
-        "avg_logprob": -0.6014092880136827,
-        "no_speech_prob": 0.30615234375
-      },
-      {
-        "start": 141.84,
-        "end": 142.16,
-        "text": "Oli",
-        "avg_logprob": -0.6014092880136827,
-        "no_speech_prob": 0.30615234375
-      }
-    ],
-    "avg_logprob": -0.5207575061449786
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 624,
-    "transcript_word_count": 646,
-    "matched_sequence_words": 407,
-    "lyric_alignment_ratio": 0.652,
-    "transcript_precision_ratio": 0.63,
-    "unique_expected_word_coverage": 0.706,
-    "word_count_ratio": 1.035,
-    "repeated_12gram_ratio": 0.024,
-    "half_similarity": 0.316,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.661,
-    "quality_score_0_10": 6.61,
-    "flags": [],
-    "transcript_excerpt": "Yeah Funny thing about words everybody garden addiction area like it's property Pain on the canvas like you win the artist art is friday for the arm chest martis piloted out when the crowds are barking They frame my work, but they never see the art in blue print mind when I put a machine still not an engineer If you ain't got the degree degrees of a race between doing degree to decree what I be but they ain't never me Kick flip logic concrete fell out of fee skateboard. How you don't make you escape to see? Yeah, the symmetric select trucks on a rail they grind different inches while they tigh\n...[truncated]...\nup hill if you build you and build it till they say you build If you paint you and painted it a crowd say skill if you skate you and skate it till you beat for the thrill But the thrill of the drill of the skill of the trait still happening whether they're bad You just play the police in the language with a language of all every problem they got already halfway solved Gate gate gate They play a semi-game with a ruler and pen You're all the brown words I can paint them a man But the truth of the fun and craft in the act of proclaim if you do the damn thing Damn thing You're already the name Oli"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.03,
-      "MI_motivic_integration": 8.12,
-      "BP_beauty_spatial_poise": 8.71,
-      "EG_evolving_grammar": 6.75,
-      "CD_carry_depth": 7.09
+      "SC_structural_coherence": 9.25,
+      "MI_motivic_integration": 8.6,
+      "BP_beauty_spatial_poise": 8.75,
+      "EG_evolving_grammar": 7.1,
+      "CD_carry_depth": 7.8
     },
     "core_metrics": {
-      "CDPD": 0.823,
-      "NGE": 0.564,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.86,
+      "NGE": 0.59,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
-      "number": 10,
-      "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "number": 12,
+      "label": "Recursion Threshold",
+      "note": "High complexity in wordplay and internal rhyme structure."
     },
-    "confidence_0_10": 7.36,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": 0.0,
-        "reason": "The track has 5 audio sections over 2:28.72 with a balanced section-balance score of 0.53. Section transitions are designed, not DAW-copy-paste, and each section earns its span. The structure is clean and arc-driven."
+        "delta": 0.04,
+        "reason": "Strong verse/hook ecosystem with clear transitions and distinct sections."
       },
       "MI_motivic_integration": {
-        "delta": 0.0,
-        "reason": "Motifs from the hook (e.g., 'Gate! / Keep!') recur in verses and ad-libs. The flow patterns and rhythmic cells are consistent across sections, with some transformation (pitch, rhythm, texture). Cross-domain recursion is evident, e.g., hook rhythm in verse cadences."
+        "delta": 0.2,
+        "reason": "Dense internal rhymes and rapid triplet flows create high-momentum flow cells."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.0,
-        "reason": "The sonic habitat is consistently spacious and immersive, with a balance of dry intimacy and distant textures. Reverb/delay laws are varied by section, and subtle details like vinyl crackle and room tone are intentional and legible."
+        "delta": -0.04,
+        "reason": "Slightly lower due to aggressive industrial textures, but still highly poised."
       },
       "EG_evolving_grammar": {
-        "delta": 0.0,
-        "reason": "The beat law and harmonic bed evolve meaningfully over time. The track deepens its rhythmic and harmonic rules, with subtle variations in density and texture. The grammar is personal and develops over the course of the piece."
+        "delta": 0.21,
+        "reason": "Significant use of wordplay and internal rhyme schemes that evolve across sections."
       },
       "CD_carry_depth": {
-        "delta": 0.0,
-        "reason": "The track defines a recognisable emotional/psychic habitat, with a clear arc from confrontation to intellectual reflection. It invites re-listening and feels like a 'little world' with a distinct emotional tone."
+        "delta": 0.28,
+        "reason": "Deep thematic exploration of 'semantic games' and the nature of craft/identity."
       }
     },
     "rationale": [
-      "Detected 5 audio sections over 2:28.72 with section-balance score 0.53.",
-      "Tempo estimate is 152.0 BPM; declared tempo alignment contributes 1.00.",
-      "Integrated loudness is -17.5 LUFS, peak is -2.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F minor with confidence 0.36.",
-      "Audio recurrence ratio is 0.130; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 186 beats and 48 downbeats; beat-grid stability is 0.95.",
-      "EG evidence: section contrast 2.45, cumulative evolution 1.19, transformed returns 7.40, grid deviation 0.54, rule changes 3.12.",
-      "Companion text has 9 lyric/production sections, 637 words, line repetition 0.14, rhyme-suffix reuse 0.38."
+      "The track features a sophisticated interplay between dense lyrical content and industrial production.",
+      "High structural coherence is evidenced by clear section transitions (Verse, Pre-Chorus, Chorus).",
+      "Motivic integration is high due to the rapid triplet flow and consistent internal rhyme schemes.",
+      "Evolutionary grammar is bolstered by the 'semantic games' theme where words are treated as tools of craft.",
+      "The production utilizes industrial textures effectively to frame the aggressive delivery."
     ],
     "review_flags": [
-      "Uncertainty about section detection in the framework excerpt; audio-only evidence is weak for some transitions."
+      "High lyrical density",
+      "Complex internal rhyme structure"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:56:38.3572031Z",
-    "eval_count": 949,
-    "eval_duration": 15432349700
+    "created_at": "2026-06-10T10:55:16.1377576Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 4759268,
+      "base64_chars": 6345692,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 7765,
+    "prompt_eval_duration": 3316797000,
+    "eval_count": 567,
+    "eval_duration": 13694034000
   }
 }

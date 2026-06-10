@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import json
 import math
 import re
@@ -75,6 +76,60 @@ TRANSFORMATION_TERMS = {
     "harmonies",
 }
 WORD_RE = re.compile(r"[A-Za-z0-9']+")
+SCORING_AXES = (
+    "SC_structural_coherence",
+    "MI_motivic_integration",
+    "BP_beauty_spatial_poise",
+    "EG_evolving_grammar",
+    "CD_carry_depth",
+)
+OLLAMA_SCORING_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "axes": {
+            "type": "object",
+            "properties": {axis: {"type": "number"} for axis in SCORING_AXES},
+            "required": list(SCORING_AXES),
+        },
+        "core_metrics": {
+            "type": "object",
+            "properties": {
+                "CDPD": {"type": "number"},
+                "NGE": {"type": "number"},
+                "HMII_peak_estimate": {"type": "integer"},
+            },
+            "required": ["CDPD", "NGE", "HMII_peak_estimate"],
+        },
+        "rung_estimate": {
+            "type": "object",
+            "properties": {
+                "number": {"type": "integer"},
+                "label": {"type": "string"},
+                "note": {"type": "string"},
+            },
+            "required": ["number", "label", "note"],
+        },
+        "confidence_0_10": {"type": "number"},
+        "adjustments": {
+            "type": "object",
+            "properties": {
+                axis: {
+                    "type": "object",
+                    "properties": {
+                        "delta": {"type": "number"},
+                        "reason": {"type": "string"},
+                    },
+                    "required": ["delta", "reason"],
+                }
+                for axis in SCORING_AXES
+            },
+            "required": list(SCORING_AXES),
+        },
+        "rationale": {"type": "array", "items": {"type": "string"}},
+        "review_flags": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["axes", "core_metrics", "rung_estimate", "confidence_0_10", "adjustments", "rationale", "review_flags"],
+}
 
 
 @dataclass(frozen=True)
@@ -1315,12 +1370,50 @@ def estimate_rung(axis_avg: float, cdpd: float, nge: float, hmii: int, clipping_
     }
 
 
-def compact_audio_for_llm(audio: dict[str, Any]) -> dict[str, Any]:
+def compact_audio_for_llm(audio: dict[str, Any], lean: bool = False) -> dict[str, Any]:
     beat_this = dict(audio.get("beat_this") or {})
     beat_this.pop("beats", None)
     beat_this.pop("beat_positions", None)
     beat_this.pop("downbeats", None)
     ffprobe = audio.get("ffprobe") or {}
+    if lean:
+        section_spans = [
+            {
+                "start": round(safe_float(section.get("start")), 2),
+                "end": round(safe_float(section.get("end")), 2),
+                "duration": round(safe_float(section.get("duration")), 2),
+            }
+            for section in audio.get("detected_sections", [])
+        ]
+        return {
+            "path": audio["path"],
+            "duration": audio["duration"],
+            "tempo_bpm": round(audio["tempo_bpm"], 2),
+            "estimated_key": audio["estimated_key"],
+            "key_confidence": round(audio["key_confidence"], 3),
+            "integrated_lufs": round(audio["integrated_lufs"], 2),
+            "peak_dbfs": round(audio["peak_dbfs"], 2),
+            "crest_factor_db": round(audio["crest_factor_db"], 2),
+            "clipping_ratio": audio["clipping_ratio"],
+            "onset_rate_per_second": round(audio["onset_rate_per_second"], 3),
+            "recurrence_ratio": round(audio["recurrence_ratio"], 3),
+            "detected_section_count": len(section_spans),
+            "detected_section_spans": section_spans,
+            "beat_this": {
+                key: beat_this.get(key)
+                for key in (
+                    "available",
+                    "beat_count",
+                    "downbeat_count",
+                    "tempo_bpm",
+                    "beat_grid_stability",
+                    "bar_grid_stability",
+                )
+                if key in beat_this
+            },
+            "evolving_grammar": audio.get("evolving_grammar"),
+            "ffprobe_streams": ffprobe.get("streams", [])[:1],
+        }
     return {
         "path": audio["path"],
         "duration": audio["duration"],
@@ -1345,6 +1438,19 @@ def compact_audio_for_llm(audio: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def compact_scoring_for_llm(scoring: dict[str, Any], lean: bool = False) -> dict[str, Any]:
+    if not lean:
+        return scoring
+    return {
+        "axes": scoring.get("axes"),
+        "core_metrics": scoring.get("core_metrics"),
+        "eg_evidence": scoring.get("eg_evidence"),
+        "transcription_penalties": scoring.get("transcription_penalties"),
+        "rung_estimate": scoring.get("rung_estimate"),
+        "confidence_0_10": scoring.get("confidence_0_10"),
+    }
+
+
 def build_ollama_prompt(
     audio: dict[str, Any],
     text: dict[str, Any],
@@ -1352,28 +1458,27 @@ def build_ollama_prompt(
     framework_raw: str,
     track_text: TrackText,
     transcription_quality: dict[str, Any] | None,
+    has_audio_attachment: bool = False,
     max_framework_chars: int = 9000,
     max_lyrics_chars: int = 6500,
 ) -> list[dict[str, str]]:
-    payload = {
-        "task": "Adjust the framework scoring using the measured audio/text evidence. Do not invent unmeasured facts.",
-        "base_scoring": scoring,
-        "audio_features": compact_audio_for_llm(audio),
-        "text_features": text,
-        "transcription_quality": transcription_quality,
-        "lyrics_and_notes_excerpt": truncate_text(track_text.raw, max_lyrics_chars),
-        "framework_excerpt": truncate_text(framework_raw, max_framework_chars),
-        "rules": [
-            "Return valid JSON only.",
-            "Use the base Python scores as the anchor; adjust only when the framework/text/evidence justifies it.",
-            "If transcription_quality is available, treat low lyric alignment, sparse transcript, or probable full-song repetition as strong negative evidence.",
-            "Axis scores must be floats from 0 to 10.",
-            "Prefer deltas within +/-1.5 of base axis scores. Larger moves require explicit evidence.",
-            "Core metrics CDPD and NGE must be 0..1; HMII_peak_estimate must be an integer 1..10.",
-            "Give concise evidence-backed reasons, not generic praise.",
-            "Flag uncertainty where audio-only evidence is weak or section detection looks suspicious.",
-        ],
-        "required_json_shape": {
+    audio_task_note = (
+        "A 16 kHz mono WAV version of the track is attached through the user message images field. "
+        "Use it as additional listening evidence, but keep the measured features and base scores as anchors."
+        if has_audio_attachment
+        else "You cannot hear the audio directly; use only the measured features, text, and framework evidence."
+    )
+    required_json_shape: Any
+    if has_audio_attachment:
+        required_json_shape = (
+            "Return an object with: axes for SC_structural_coherence, MI_motivic_integration, "
+            "BP_beauty_spatial_poise, EG_evolving_grammar, CD_carry_depth as floats 0..10; "
+            "core_metrics with CDPD and NGE floats 0..1 plus HMII_peak_estimate integer 1..10; "
+            "rung_estimate {number 1..23, label, note}; confidence_0_10 float 0..10; "
+            "adjustments for each axis as {delta, reason}; rationale string list; review_flags string list."
+        )
+    else:
+        required_json_shape = {
             "axes": {
                 "SC_structural_coherence": "float 0..10",
                 "MI_motivic_integration": "float 0..10",
@@ -1397,19 +1502,84 @@ def build_ollama_prompt(
             },
             "rationale": ["string"],
             "review_flags": ["string"],
+        }
+    payload = {
+        "task": "Adjust the framework scoring using the measured audio/text evidence. Do not invent unmeasured facts.",
+        "audio_attachment": {
+            "available": has_audio_attachment,
+            "format": "16 kHz mono WAV encoded as base64 in the Ollama images field" if has_audio_attachment else None,
         },
+        "base_scoring": compact_scoring_for_llm(scoring, lean=has_audio_attachment),
+        "audio_features": compact_audio_for_llm(audio, lean=has_audio_attachment),
+        "text_features": text,
+        "transcription_quality": transcription_quality,
+        "lyrics_and_notes_excerpt": truncate_text(track_text.raw, max_lyrics_chars),
+        "framework_excerpt": truncate_text(framework_raw, max_framework_chars),
+        "rules": [
+            "Return valid JSON only.",
+            "Use the base Python scores as the anchor; adjust only when the framework/text/evidence justifies it.",
+            "If transcription_quality is available, treat low lyric alignment, sparse transcript, or probable full-song repetition as strong negative evidence.",
+            "Axis scores must be floats from 0 to 10.",
+            "Prefer deltas within +/-1.5 of base axis scores. Larger moves require explicit evidence.",
+            "Core metrics CDPD and NGE must be 0..1; HMII_peak_estimate must be an integer 1..10.",
+            "Give concise evidence-backed reasons, not generic praise.",
+            "Flag uncertainty where audio-only evidence is weak or section detection looks suspicious.",
+            "Keep every string under 160 characters; rationale and review_flags must have at most 3 items each.",
+            "Do not return keys outside the required JSON shape.",
+        ],
+        "required_json_shape": required_json_shape,
     }
     return [
         {
             "role": "system",
             "content": (
                 "You are a cautious music-analysis rubric judge. You receive measured audio features, "
-                "lyrics/production notes, and a framework excerpt. You cannot hear the audio directly. "
-                "Calibrate scores from evidence and preserve uncertainty."
+                "lyrics/production notes, and a framework excerpt. "
+                f"{audio_task_note} Calibrate scores from evidence and preserve uncertainty."
             ),
         },
         {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
     ]
+
+
+def encode_audio_as_ollama_wav_image(audio_path: Path, sample_rate: int, max_seconds: float | None = None) -> tuple[str, dict[str, Any]]:
+    if not shutil.which("ffmpeg"):
+        raise RuntimeError("ffmpeg is required for --ollama-audio-image")
+
+    with tempfile.TemporaryDirectory(prefix="ollama-audio-") as tmpdir:
+        wav_path = Path(tmpdir) / "audio-16k-mono.wav"
+        command = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error"]
+        if max_seconds:
+            command.extend(["-t", str(max_seconds)])
+        command.extend(
+            [
+                "-i",
+                str(audio_path),
+                "-ac",
+                "1",
+                "-ar",
+                str(sample_rate),
+                "-sample_fmt",
+                "s16",
+                str(wav_path),
+            ]
+        )
+        try:
+            subprocess.run(command, check=True, capture_output=True, text=True)
+        except (FileNotFoundError, subprocess.CalledProcessError) as exc:
+            stderr = getattr(exc, "stderr", "") or str(exc)
+            raise RuntimeError(f"Could not convert audio for Ollama: {stderr.strip()}") from exc
+
+        wav_bytes = wav_path.read_bytes()
+    return base64.b64encode(wav_bytes).decode("ascii"), {
+        "format": "wav",
+        "sample_rate": sample_rate,
+        "channels": 1,
+        "sample_format": "s16",
+        "bytes": len(wav_bytes),
+        "base64_chars": int(math.ceil(len(wav_bytes) / 3) * 4),
+        "max_seconds": max_seconds,
+    }
 
 
 def extract_json_object(content: str) -> dict[str, Any]:
@@ -1430,6 +1600,29 @@ def extract_json_object(content: str) -> dict[str, Any]:
 def normalize_llm_scoring(raw: dict[str, Any], base: dict[str, Any], max_axis_delta: float) -> dict[str, Any]:
     base_axes = base["axes"]
     raw_axes = raw.get("axes") or {}
+    if isinstance(raw_axes, list):
+        mapped_axes = {}
+        for item in raw_axes:
+            if not isinstance(item, dict):
+                continue
+            axis_name = item.get("axis") or item.get("name") or item.get("key")
+            if axis_name:
+                mapped_axes[str(axis_name)] = item.get("score", item.get("value"))
+        raw_axes = mapped_axes
+    if not isinstance(raw_axes, dict):
+        raw_axes = {}
+    raw_adjustments = raw.get("adjustments") or {}
+    if isinstance(raw_adjustments, list):
+        mapped_adjustments = {}
+        for item in raw_adjustments:
+            if not isinstance(item, dict):
+                continue
+            axis_name = item.get("axis") or item.get("name") or item.get("key")
+            if axis_name:
+                mapped_adjustments[str(axis_name)] = item
+        raw_adjustments = mapped_adjustments
+    if not isinstance(raw_adjustments, dict):
+        raw_adjustments = {}
     axes: dict[str, float] = {}
     adjustments: dict[str, dict[str, Any]] = {}
     for axis, base_value in base_axes.items():
@@ -1438,7 +1631,7 @@ def normalize_llm_scoring(raw: dict[str, Any], base: dict[str, Any], max_axis_de
         bounded = round(clamp(bounded), 2)
         axes[axis] = bounded
 
-        raw_adjustment = (raw.get("adjustments") or {}).get(axis) or {}
+        raw_adjustment = raw_adjustments.get(axis) or {}
         reason = str(raw_adjustment.get("reason") or "LLM adjusted from measured evidence.").strip()
         adjustments[axis] = {
             "delta": round(bounded - base_value, 2),
@@ -1479,6 +1672,7 @@ def normalize_llm_scoring(raw: dict[str, Any], base: dict[str, Any], max_axis_de
 def call_ollama_adjuster(
     model: str,
     ollama_url: str,
+    audio_path: Path,
     audio: dict[str, Any],
     text: dict[str, Any],
     scoring: dict[str, Any],
@@ -1488,62 +1682,180 @@ def call_ollama_adjuster(
     timeout: float,
     num_ctx: int,
     max_axis_delta: float,
+    include_audio_image: bool,
+    audio_image_sample_rate: int,
+    audio_image_max_seconds: float | None,
 ) -> dict[str, Any]:
-    messages = build_ollama_prompt(audio, text, scoring, framework_raw, track_text, transcription_quality)
-    body = {
+    sample_rates = [audio_image_sample_rate]
+    if include_audio_image:
+        sample_rates.extend([12000, 8000])
+    sample_rates = list(dict.fromkeys(rate for rate in sample_rates if rate and rate > 0))
+    attempt_specs = [(rate, audio_image_max_seconds) for rate in sample_rates]
+    if include_audio_image and audio_image_max_seconds is None:
+        attempt_specs.extend([(audio_image_sample_rate, 360.0), (audio_image_sample_rate, 300.0)])
+    attempts: list[dict[str, Any]] = []
+
+    for attempt_index, (sample_rate, max_seconds) in enumerate(attempt_specs):
+        audio_image = None
+        audio_image_metadata = None
+        if include_audio_image:
+            try:
+                audio_image, audio_image_metadata = encode_audio_as_ollama_wav_image(audio_path, sample_rate, max_seconds)
+            except RuntimeError as exc:
+                return {
+                    "available": False,
+                    "model": model,
+                    "url": ollama_url,
+                    "error": str(exc),
+                    "audio_attachment_attempts": attempts,
+                }
+
+        messages = build_ollama_prompt(
+            audio,
+            text,
+            scoring,
+            framework_raw,
+            track_text,
+            transcription_quality,
+            has_audio_attachment=include_audio_image,
+            max_framework_chars=1000 if include_audio_image else 9000,
+            max_lyrics_chars=1000 if include_audio_image else 6500,
+        )
+        if audio_image:
+            messages[-1]["images"] = [audio_image]
+        body = {
+            "model": model,
+            "messages": messages,
+            "stream": False,
+            "format": OLLAMA_SCORING_SCHEMA,
+            "think": False,
+            "options": {
+                "temperature": 0.1,
+                "top_p": 0.9,
+                "num_ctx": num_ctx,
+            },
+        }
+        endpoint = ollama_url.rstrip("/") + "/api/chat"
+        request = urllib.request.Request(
+            endpoint,
+            data=json.dumps(body).encode("utf-8"),
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                response_body = json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            try:
+                error_body = exc.read().decode("utf-8", errors="replace")
+            except OSError:
+                error_body = str(exc)
+            error = f"{exc}: {truncate_text(error_body, 1200)}"
+            attempts.append(
+                {
+                    "sample_rate": sample_rate if include_audio_image else None,
+                    "audio_attachment": audio_image_metadata,
+                    "error": error,
+                }
+            )
+            if include_audio_image and "exceeds the available context size" in error and attempt_index < len(attempt_specs) - 1:
+                continue
+            return {
+                "available": False,
+                "model": model,
+                "url": ollama_url,
+                "error": error,
+                "audio_attachment": audio_image_metadata,
+                "audio_attachment_attempts": attempts,
+            }
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+            error = str(exc)
+            attempts.append(
+                {
+                    "sample_rate": sample_rate if include_audio_image else None,
+                    "audio_attachment": audio_image_metadata,
+                    "error": error,
+                }
+            )
+            return {
+                "available": False,
+                "model": model,
+                "url": ollama_url,
+                "error": error,
+                "audio_attachment": audio_image_metadata,
+                "audio_attachment_attempts": attempts,
+            }
+
+        content = (response_body.get("message") or {}).get("content", "")
+        prompt_eval_count = response_body.get("prompt_eval_count")
+        try:
+            raw = extract_json_object(content)
+            normalized = normalize_llm_scoring(raw, scoring, max_axis_delta=max_axis_delta)
+        except (AttributeError, json.JSONDecodeError, TypeError, ValueError) as exc:
+            error = f"Could not parse Ollama JSON response: {exc}"
+            attempts.append(
+                {
+                    "sample_rate": sample_rate if include_audio_image else None,
+                    "audio_attachment": audio_image_metadata,
+                    "prompt_eval_count": prompt_eval_count,
+                    "eval_count": response_body.get("eval_count"),
+                    "error": error,
+                }
+            )
+            if (
+                include_audio_image
+                and isinstance(prompt_eval_count, int)
+                and prompt_eval_count >= num_ctx - 800
+                and attempt_index < len(attempt_specs) - 1
+            ):
+                continue
+            return {
+                "available": False,
+                "model": model,
+                "url": ollama_url,
+                "error": error,
+                "raw_content": truncate_text(content, 4000),
+                "audio_attachment": audio_image_metadata,
+                "audio_attachment_attempts": attempts,
+                "created_at": response_body.get("created_at"),
+                "prompt_eval_count": prompt_eval_count,
+                "prompt_eval_duration": response_body.get("prompt_eval_duration"),
+                "eval_count": response_body.get("eval_count"),
+                "eval_duration": response_body.get("eval_duration"),
+            }
+
+        attempts.append(
+            {
+                "sample_rate": sample_rate if include_audio_image else None,
+                "audio_attachment": audio_image_metadata,
+                "prompt_eval_count": prompt_eval_count,
+                "eval_count": response_body.get("eval_count"),
+                "error": None,
+            }
+        )
+        normalized.update(
+            {
+                "available": True,
+                "model": model,
+                "url": ollama_url,
+                "created_at": response_body.get("created_at"),
+                "audio_attachment": audio_image_metadata,
+                "audio_attachment_attempts": attempts,
+                "prompt_eval_count": prompt_eval_count,
+                "prompt_eval_duration": response_body.get("prompt_eval_duration"),
+                "eval_count": response_body.get("eval_count"),
+                "eval_duration": response_body.get("eval_duration"),
+            }
+        )
+        return normalized
+
+    return {
+        "available": False,
         "model": model,
-        "messages": messages,
-        "stream": False,
-        "format": "json",
-        "think": False,
-        "options": {
-            "temperature": 0.1,
-            "top_p": 0.9,
-            "num_ctx": num_ctx,
-        },
+        "url": ollama_url,
+        "error": "No Ollama audio sample-rate attempts were available.",
+        "audio_attachment_attempts": attempts,
     }
-    endpoint = ollama_url.rstrip("/") + "/api/chat"
-    request = urllib.request.Request(
-        endpoint,
-        data=json.dumps(body).encode("utf-8"),
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
-            response_body = json.loads(response.read().decode("utf-8"))
-    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
-        return {
-            "available": False,
-            "model": model,
-            "url": ollama_url,
-            "error": str(exc),
-        }
-
-    content = (response_body.get("message") or {}).get("content", "")
-    try:
-        raw = extract_json_object(content)
-        normalized = normalize_llm_scoring(raw, scoring, max_axis_delta=max_axis_delta)
-    except (json.JSONDecodeError, TypeError, ValueError) as exc:
-        return {
-            "available": False,
-            "model": model,
-            "url": ollama_url,
-            "error": f"Could not parse Ollama JSON response: {exc}",
-            "raw_content": truncate_text(content, 4000),
-        }
-
-    normalized.update(
-        {
-            "available": True,
-            "model": model,
-            "url": ollama_url,
-            "created_at": response_body.get("created_at"),
-            "eval_count": response_body.get("eval_count"),
-            "eval_duration": response_body.get("eval_duration"),
-        }
-    )
-    return normalized
 
 
 def build_rationale(
@@ -1809,6 +2121,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--ollama-url", default="http://localhost:11434", help="Ollama base URL.")
     parser.add_argument("--ollama-timeout", type=float, default=240.0, help="Seconds to wait for the Ollama adjustment.")
     parser.add_argument("--ollama-num-ctx", type=int, default=16384, help="Ollama context window for scoring adjustment.")
+    parser.add_argument("--ollama-audio-image", action="store_true", help="Attach a 16 kHz mono WAV through Ollama's images field for multimodal models.")
+    parser.add_argument("--ollama-audio-sample-rate", type=int, default=16000, help="Sample rate for --ollama-audio-image WAV conversion.")
+    parser.add_argument("--ollama-audio-max-seconds", type=float, help="Optional duration cap for --ollama-audio-image smoke/debug runs.")
     parser.add_argument("--llm-max-axis-delta", type=float, default=1.5, help="Maximum LLM adjustment per axis around the Python score.")
     parser.add_argument(
         "--transcription-backend",
@@ -1865,6 +2180,7 @@ def main() -> int:
         llm_scoring = call_ollama_adjuster(
             model=args.ollama_model,
             ollama_url=args.ollama_url,
+            audio_path=audio_path,
             audio=audio,
             text=text,
             scoring=scoring,
@@ -1874,6 +2190,9 @@ def main() -> int:
             timeout=args.ollama_timeout,
             num_ctx=args.ollama_num_ctx,
             max_axis_delta=args.llm_max_axis_delta,
+            include_audio_image=args.ollama_audio_image,
+            audio_image_sample_rate=args.ollama_audio_sample_rate,
+            audio_image_max_seconds=args.ollama_audio_max_seconds,
         )
 
     report = {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:54:46",
+  "generated_at": "2026-06-10T12:53:52",
   "audio": {
     "path": "UNMEASURED GEOMETRY/audio/09 - Merchant of Division.mp3",
     "duration_seconds": 383.0,
@@ -2313,7 +2313,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -2356,375 +2359,76 @@
       "Audio recurrence ratio is 0.147; this is a rough proxy for repeated musical cells, not true motif recognition.",
       "beat_this detected 712 beats and 227 downbeats; beat-grid stability is 0.00.",
       "EG evidence: section contrast 2.97, cumulative evolution 1.46, transformed returns 10.00, grid deviation 1.67, rule changes 8.06.",
-      "Companion text has 10 lyric/production sections, 336 words, line repetition 0.11, rhyme-suffix reuse 0.32.",
-      "Transcription check: lyric alignment 0.79, unique-word coverage 0.77, word-count ratio 1.11, duplicate-pass estimate 1."
+      "Companion text has 10 lyric/production sections, 336 words, line repetition 0.11, rhyme-suffix reuse 0.32."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "The marionette dawn bends and I'll crook it all A voice of splintered banners hiding in the dark Echoes of a promise fracture circle in the haze A crown of silent embers feeding on the maze He walks the spiral staircase, caught from borrowstone A whisper shaping boy who's claiming they were his own With tongue of guilt it's underheated eyes, the faithful choir Selling midnight sovereignty to any passing buyer In the skyline bed, a lattice built on phantom heads Wherever he holds his sword it's all like salt and sand Oh, oh, the architect of shadow speaks in fractured light Preaching purity while feeding on the blind With open palms he barter's faith for silver fields And a covenant of all just circling over sealed up deals He strikes a pact of convenience with distant iron towers Blessing storms of fire as if they were blooming flowers And as he wears a legion, stitched from borrow crown Each mile acquired tyrant, pulling lesser kingdoms down Yet the skyline beds a citadel of whispered sins Where truth is just a rumor folded deep within Oh, the architect of shadow speaks in fractured light Preaching purity while feeding on the blind With open palms he barter's faith for silver fields And a covenant of all just circling over sealed up deals Here by the hands of the choir to savor Was it by the nameless dreamer? A mafrey rips and in the furnace glimps I treasured by those who never truly care The merchants of division count as ghostly time The measuring of future where no living truth survive Oh, the architect of shadows range in fairer dark Shatching hands of unity while forging tighter locks A kingdom built on murmurs drifting in the gale The weight of all his echoes cracked the final veil And in the embered silence all the illusions start to fall The fractured crown returns to dust revealing nothing after all The fractured crown returns to dust A kingdom built on murmurs drifting in fairer dark Shatching hands of unity while forging tighter locks",
-    "segments": [
-      {
-        "start": 30.0,
-        "end": 50.0,
-        "text": "The marionette dawn bends and I'll crook it all",
-        "avg_logprob": -0.6733870890832716,
-        "no_speech_prob": 0.53759765625
-      },
-      {
-        "start": 50.0,
-        "end": 57.0,
-        "text": "A voice of splintered banners hiding in the dark",
-        "avg_logprob": -0.6733870890832716,
-        "no_speech_prob": 0.53759765625
-      },
-      {
-        "start": 58.0,
-        "end": 64.0,
-        "text": "Echoes of a promise fracture circle in the haze",
-        "avg_logprob": -0.3524639423076923,
-        "no_speech_prob": 0.1685791015625
-      },
-      {
-        "start": 64.0,
-        "end": 70.0,
-        "text": "A crown of silent embers feeding on the maze",
-        "avg_logprob": -0.3524639423076923,
-        "no_speech_prob": 0.1685791015625
-      },
-      {
-        "start": 70.0,
-        "end": 76.0,
-        "text": "He walks the spiral staircase, caught from borrowstone",
-        "avg_logprob": -0.3524639423076923,
-        "no_speech_prob": 0.1685791015625
-      },
-      {
-        "start": 76.0,
-        "end": 82.0,
-        "text": "A whisper shaping boy who's claiming they were his own",
-        "avg_logprob": -0.3524639423076923,
-        "no_speech_prob": 0.1685791015625
-      },
-      {
-        "start": 82.0,
-        "end": 89.0,
-        "text": "With tongue of guilt it's underheated eyes, the faithful choir",
-        "avg_logprob": -0.4058866223623586,
-        "no_speech_prob": 0.048797607421875
-      },
-      {
-        "start": 89.0,
-        "end": 97.0,
-        "text": "Selling midnight sovereignty to any passing buyer",
-        "avg_logprob": -0.4058866223623586,
-        "no_speech_prob": 0.048797607421875
-      },
-      {
-        "start": 97.0,
-        "end": 108.0,
-        "text": "In the skyline bed, a lattice built on phantom heads",
-        "avg_logprob": -0.4058866223623586,
-        "no_speech_prob": 0.048797607421875
-      },
-      {
-        "start": 109.0,
-        "end": 119.0,
-        "text": "Wherever he holds his sword it's all like salt and sand",
-        "avg_logprob": -0.5152438908088498,
-        "no_speech_prob": 0.05609130859375
-      },
-      {
-        "start": 119.0,
-        "end": 125.0,
-        "text": "Oh, oh, the architect of shadow speaks in fractured light",
-        "avg_logprob": -0.5152438908088498,
-        "no_speech_prob": 0.05609130859375
-      },
-      {
-        "start": 125.0,
-        "end": 132.0,
-        "text": "Preaching purity while feeding on the blind",
-        "avg_logprob": -0.5152438908088498,
-        "no_speech_prob": 0.05609130859375
-      },
-      {
-        "start": 132.0,
-        "end": 138.0,
-        "text": "With open palms he barter's faith for silver fields",
-        "avg_logprob": -0.48356678568083666,
-        "no_speech_prob": 0.11724853515625
-      },
-      {
-        "start": 138.0,
-        "end": 147.0,
-        "text": "And a covenant of all just circling over sealed up deals",
-        "avg_logprob": -0.48356678568083666,
-        "no_speech_prob": 0.11724853515625
-      },
-      {
-        "start": 147.0,
-        "end": 164.0,
-        "text": "He strikes a pact of convenience with distant iron towers",
-        "avg_logprob": -0.22222222332601194,
-        "no_speech_prob": 0.2117919921875
-      },
-      {
-        "start": 164.0,
-        "end": 170.0,
-        "text": "Blessing storms of fire as if they were blooming flowers",
-        "avg_logprob": -0.22222222332601194,
-        "no_speech_prob": 0.2117919921875
-      },
-      {
-        "start": 170.0,
-        "end": 176.0,
-        "text": "And as he wears a legion, stitched from borrow crown",
-        "avg_logprob": -0.47730654336157297,
-        "no_speech_prob": 0.1405029296875
-      },
-      {
-        "start": 176.0,
-        "end": 185.0,
-        "text": "Each mile acquired tyrant, pulling lesser kingdoms down",
-        "avg_logprob": -0.47730654336157297,
-        "no_speech_prob": 0.1405029296875
-      },
-      {
-        "start": 185.0,
-        "end": 196.0,
-        "text": "Yet the skyline beds a citadel of whispered sins",
-        "avg_logprob": -0.47730654336157297,
-        "no_speech_prob": 0.1405029296875
-      },
-      {
-        "start": 196.0,
-        "end": 206.0,
-        "text": "Where truth is just a rumor folded deep within",
-        "avg_logprob": -0.10210503203173478,
-        "no_speech_prob": 0.0150146484375
-      },
-      {
-        "start": 206.0,
-        "end": 213.0,
-        "text": "Oh, the architect of shadow speaks in fractured light",
-        "avg_logprob": -0.10210503203173478,
-        "no_speech_prob": 0.0150146484375
-      },
-      {
-        "start": 213.0,
-        "end": 219.0,
-        "text": "Preaching purity while feeding on the blind",
-        "avg_logprob": -0.10210503203173478,
-        "no_speech_prob": 0.0150146484375
-      },
-      {
-        "start": 219.0,
-        "end": 225.0,
-        "text": "With open palms he barter's faith for silver fields",
-        "avg_logprob": -0.08634159277225363,
-        "no_speech_prob": 0.1734619140625
-      },
-      {
-        "start": 225.0,
-        "end": 232.0,
-        "text": "And a covenant of all just circling over sealed up deals",
-        "avg_logprob": -0.08634159277225363,
-        "no_speech_prob": 0.1734619140625
-      },
-      {
-        "start": 232.0,
-        "end": 248.0,
-        "text": "Here by the hands of the choir to savor",
-        "avg_logprob": -0.5367647199069753,
-        "no_speech_prob": 0.44921875
-      },
-      {
-        "start": 248.0,
-        "end": 251.0,
-        "text": "Was it by the nameless dreamer?",
-        "avg_logprob": -0.5367647199069753,
-        "no_speech_prob": 0.44921875
-      },
-      {
-        "start": 251.0,
-        "end": 255.0,
-        "text": "A mafrey rips and in the furnace glimps",
-        "avg_logprob": -0.5367647199069753,
-        "no_speech_prob": 0.44921875
-      },
-      {
-        "start": 255.0,
-        "end": 258.0,
-        "text": "I treasured by those who never truly care",
-        "avg_logprob": -0.5367647199069753,
-        "no_speech_prob": 0.44921875
-      },
-      {
-        "start": 258.0,
-        "end": 268.0,
-        "text": "The merchants of division count as ghostly time",
-        "avg_logprob": -0.44805741954494166,
-        "no_speech_prob": 0.046630859375
-      },
-      {
-        "start": 271.0,
-        "end": 280.0,
-        "text": "The measuring of future where no living truth survive",
-        "avg_logprob": -0.44805741954494166,
-        "no_speech_prob": 0.046630859375
-      },
-      {
-        "start": 280.0,
-        "end": 286.0,
-        "text": "Oh, the architect of shadows range in fairer dark",
-        "avg_logprob": -0.44805741954494166,
-        "no_speech_prob": 0.046630859375
-      },
-      {
-        "start": 286.0,
-        "end": 293.0,
-        "text": "Shatching hands of unity while forging tighter locks",
-        "avg_logprob": -0.4021990873195507,
-        "no_speech_prob": 0.00982666015625
-      },
-      {
-        "start": 293.0,
-        "end": 299.0,
-        "text": "A kingdom built on murmurs drifting in the gale",
-        "avg_logprob": -0.4021990873195507,
-        "no_speech_prob": 0.00982666015625
-      },
-      {
-        "start": 299.0,
-        "end": 313.0,
-        "text": "The weight of all his echoes cracked the final veil",
-        "avg_logprob": -0.32932693224686843,
-        "no_speech_prob": 0.451904296875
-      },
-      {
-        "start": 330.0,
-        "end": 340.0,
-        "text": "And in the embered silence all the illusions start to fall",
-        "avg_logprob": -0.3019935262614283,
-        "no_speech_prob": 0.084228515625
-      },
-      {
-        "start": 342.0,
-        "end": 355.0,
-        "text": "The fractured crown returns to dust revealing nothing after all",
-        "avg_logprob": -0.3019935262614283,
-        "no_speech_prob": 0.084228515625
-      },
-      {
-        "start": 359.0,
-        "end": 366.0,
-        "text": "The fractured crown returns to dust",
-        "avg_logprob": -0.3959821513720921,
-        "no_speech_prob": 0.85791015625
-      },
-      {
-        "start": 366.0,
-        "end": 374.0,
-        "text": "A kingdom built on murmurs drifting in fairer dark",
-        "avg_logprob": -0.3959821513720921,
-        "no_speech_prob": 0.85791015625
-      },
-      {
-        "start": 374.0,
-        "end": 382.0,
-        "text": "Shatching hands of unity while forging tighter locks",
-        "avg_logprob": -0.3959821513720921,
-        "no_speech_prob": 0.85791015625
-      }
-    ],
-    "avg_logprob": -0.3961099109905091
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 314,
-    "transcript_word_count": 349,
-    "matched_sequence_words": 248,
-    "lyric_alignment_ratio": 0.79,
-    "transcript_precision_ratio": 0.711,
-    "unique_expected_word_coverage": 0.765,
-    "word_count_ratio": 1.111,
-    "repeated_12gram_ratio": 0.074,
-    "half_similarity": 0.259,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.777,
-    "quality_score_0_10": 7.77,
-    "flags": [],
-    "transcript_excerpt": "The marionette dawn bends and I'll crook it all A voice of splintered banners hiding in the dark Echoes of a promise fracture circle in the haze A crown of silent embers feeding on the maze He walks the spiral staircase, caught from borrowstone A whisper shaping boy who's claiming they were his own With tongue of guilt it's underheated eyes, the faithful choir Selling midnight sovereignty to any passing buyer In the skyline bed, a lattice built on phantom heads Wherever he holds his sword it's all like salt and sand Oh, oh, the architect of shadow speaks in fractured light Preaching purity whi\n...[truncated]...\ned by those who never truly care The merchants of division count as ghostly time The measuring of future where no living truth survive Oh, the architect of shadows range in fairer dark Shatching hands of unity while forging tighter locks A kingdom built on murmurs drifting in the gale The weight of all his echoes cracked the final veil And in the embered silence all the illusions start to fall The fractured crown returns to dust revealing nothing after all The fractured crown returns to dust A kingdom built on murmurs drifting in fairer dark Shatching hands of unity while forging tighter locks"
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 5.8,
-      "BP_beauty_spatial_poise": 9.3,
-      "EG_evolving_grammar": 6.5,
-      "CD_carry_depth": 7.6
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 5.48,
+      "BP_beauty_spatial_poise": 9.62,
+      "EG_evolving_grammar": 6.95,
+      "CD_carry_depth": 7.81
     },
     "core_metrics": {
-      "CDPD": 0.76,
-      "NGE": 0.68,
+      "CDPD": 0.753,
+      "NGE": 0.676,
       "HMII_peak_estimate": 4
     },
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar"
     },
-    "confidence_0_10": 7.9,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "10 distinct sections with balanced durations and clear transitions, consistent with technical perfection."
+        "delta": 0.0,
+        "reason": "No change."
       },
       "MI_motivic_integration": {
-        "delta": 0.32,
-        "reason": "High recurrence ratio (0.147) and multiple transformed returns with high harmonic/timbre similarity suggest strong motivic integration."
+        "delta": 0.0,
+        "reason": "No change."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.32,
-        "reason": "While the piece is technically precise, the lyrical and harmonic complexity may not fully align with the spatial poise expected at this tier."
+        "delta": 0.0,
+        "reason": "No change."
       },
       "EG_evolving_grammar": {
-        "delta": -0.45,
-        "reason": "The evolving grammar is evident through rule changes and transformed returns, but the lack of clear new grammar or rupture suggests it remains within established frameworks."
+        "delta": 0.0,
+        "reason": "No change."
       },
       "CD_carry_depth": {
-        "delta": -0.21,
-        "reason": "The emotional depth and re-listen pull are strong, but the piece does not fully transcend genre expectations, keeping it within the technical perfection tier."
+        "delta": 0.0,
+        "reason": "No change."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 6:23.00 with section-balance score 0.51.",
-      "Tempo estimate is 103.4 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -16.3 LUFS, peak is -2.0 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F#/Gb minor with confidence 0.55.",
-      "Audio recurrence ratio is 0.147; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 712 beats and 227 downbeats; beat-grid stability is 0.00.",
-      "EG evidence: section contrast 2.97, cumulative evolution 1.46, transformed returns 10.00, grid deviation 1.67, rule changes 8.06.",
-      "Companion text has 10 lyric/production sections, 336 words, line repetition 0.11, rhyme-suffix reuse 0.32."
+      "The track is a high-quality production with clear structure and consistent instrumentation.",
+      "The vocal performance is stable and well-integrated into the mix.",
+      "The arrangement follows a coherent progression from intro to outro.",
+      "The audio quality is clean with no significant artifacts."
     ],
     "review_flags": [
-      "Uncertainty in section detection due to beat-grid instability and potential transcription artifacts."
+      "No issues found."
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:54:46.3834503Z",
-    "eval_count": 768,
-    "eval_duration": 13225227200
+    "created_at": "2026-06-10T10:53:52.0230101Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 12256136,
+      "base64_chars": 16341516,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 15841,
+    "prompt_eval_duration": 6799915000,
+    "eval_count": 509,
+    "eval_duration": 13644944000
   }
 }

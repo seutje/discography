@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:57:51",
+  "generated_at": "2026-06-10T12:56:16",
   "audio": {
     "path": "stderr/audio/04 - Gilded Lies.mp3",
     "duration_seconds": 186.0,
@@ -972,19 +972,22 @@
   "framework": {
     "path": "analyzer/Hip hop & rap.txt",
     "name": "Hip hop & rap.txt",
-    "characters_loaded": 16431
+    "characters_loaded": 16431,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Hip hop & rap.summary.txt",
+    "llm_prompt_characters": 5291
   },
   "framework_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.55,
-      "MI_motivic_integration": 6.55,
-      "BP_beauty_spatial_poise": 8.64,
-      "EG_evolving_grammar": 6.99,
-      "CD_carry_depth": 6.99
+      "SC_structural_coherence": 9.79,
+      "MI_motivic_integration": 6.92,
+      "BP_beauty_spatial_poise": 8.75,
+      "EG_evolving_grammar": 7.18,
+      "CD_carry_depth": 7.56
     },
     "core_metrics": {
-      "CDPD": 0.769,
-      "NGE": 0.613,
+      "CDPD": 0.805,
+      "NGE": 0.622,
       "HMII_peak_estimate": 4
     },
     "eg_evidence": {
@@ -997,9 +1000,9 @@
       "overall_score": 3.719
     },
     "transcription_penalties": {
-      "alignment_penalty": 0.534,
+      "alignment_penalty": 0.0,
       "repetition_penalty": 0.0,
-      "total_penalty": 0.534
+      "total_penalty": 0.0
     },
     "rung_estimate": {
       "number": 10,
@@ -1016,439 +1019,76 @@
       "beat_this detected 231 beats and 60 downbeats; beat-grid stability is 0.96.",
       "EG evidence: section contrast 2.70, cumulative evolution 1.03, transformed returns 10.00, grid deviation 0.51, rule changes 3.00.",
       "Companion text has 10 lyric/production sections, 649 words, line repetition 0.17, rhyme-suffix reuse 0.28.",
-      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00.",
-      "Transcription check: lyric alignment 0.63, unique-word coverage 0.60, word-count ratio 1.05, duplicate-pass estimate 1.",
-      "Transcription penalties reduced scores for unintelligible or repeated lyrics (alignment 0.53, repeat 0.00)."
+      "Production/vocal notes contain transformation cues (density-change, dropout, space-change); intent score 4.00."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Come on, so smooths, smooths, newsroom views, but the truth gets bruised when the cash gets used. Yeah, let's talk about it. Hey, go talk low, what about blocks, rock slow, rock slow, stop slow. Smooth talk, stock drops, now your profits just grow. Hey bro, that room contracts, contacts, stacks in the safe, flash, fags, fags, tracks, when the lobby is paid. Reach, reach, reach, reach, reach, rise, get the streets to be lies, mean wide-read fees deals with the cameras disguised. But you cut certain slashes, public classes collapsed, but the tax backstacks you passed to the banks. Woo, woo, woo, woo, you champ. Fix a bling, sting back, throw a grin, but the sense in the wind, when the gun is large and say, drank in the bell, but the most they sell for the health gets sell for the help yourself. Have you clear speech leaks when the fine prince beaks every log is bought by the suit in the meat? Gilded lies in the velvet tone, silver scripts from a mumble from lies, layered in the phrase. Spin, grin, win, why the trolls get erased. Gilded lies in the polish, please, say, serve the people, why you serve the elite. Lies, lies, everybody knows, names in the files, but nobody shows. Blacksack waste theater, fear-based preacher, crab gets loud, but the cash gets deeper. Crimesime, headlines, punsime, panic, meanwhile, white color crimes, they vangous, skin stats, thin facts, six syntax, big donas, fresh policy, with big contacts, a whisper from wealth tends to build to a law by the call from the straight, never weep to the floor. Gilded in the broke for the cracks and collects, but the stacks for the draft, but the suit and got naft, every scale handle, but a scale proof script, every watchdog talk, so what about a clique? Trains, parents, seren, accountability, nice words. When nobody's watching the box, I, Gilded lies in the velvet tone, silver scripts from a mumble from lies, layered in the phrase. Spin, grin, win, why the trolls get erased. Gilded lies in the polish, please, say, serve the people, why you serve the elite. Lies, lies, everybody knows, names in the files, but nobody shows. Stay, stay, rip major, the pads in the pouch, sound body fights, a grip time, time out, we divide the crowd, make the outrage, lie to what the boardroom deals, stack higher, then tell us, been fools, big size, whipping eyes to devile it, the headlines, call out what the pipelines get signed, move face, same g, same game, same race, same donas in the quarter, pull the strings in the place, hit my crypt politics, polish the shine, moral corpse, black corp, it's fine, every election reflection repeats, fresh voice, same choice, same cash, and the seat size. Gilded lies in the velvet tone, silver scripts from a mumble from lies, layered in again, spin, grin, win, why the trolls get erased. Gilded lies in the polish, please, say, serve the people, why you serve the elite. Lies, lies, everybody knows, names in the files, but nobody shows. When the sermon sounds perfect, and the promise sounds pure, check the purse, check the people they serve.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 9.44,
-        "text": "Come on, so smooths, smooths, newsroom views, but the truth gets bruised when the cash gets",
-        "avg_logprob": -0.5740427917188352,
-        "no_speech_prob": 0.6025390625
-      },
-      {
-        "start": 9.44,
-        "end": 10.44,
-        "text": "used.",
-        "avg_logprob": -0.5740427917188352,
-        "no_speech_prob": 0.6025390625
-      },
-      {
-        "start": 10.44,
-        "end": 13.24,
-        "text": "Yeah, let's talk about it.",
-        "avg_logprob": -0.5740427917188352,
-        "no_speech_prob": 0.6025390625
-      },
-      {
-        "start": 13.24,
-        "end": 16.4,
-        "text": "Hey, go talk low, what about blocks, rock slow, rock slow, stop slow.",
-        "avg_logprob": -0.5740427917188352,
-        "no_speech_prob": 0.6025390625
-      },
-      {
-        "start": 16.4,
-        "end": 18.36,
-        "text": "Smooth talk, stock drops, now your profits just grow.",
-        "avg_logprob": -0.5740427917188352,
-        "no_speech_prob": 0.6025390625
-      },
-      {
-        "start": 18.36,
-        "end": 23.44,
-        "text": "Hey bro, that room contracts, contacts, stacks in the safe, flash, fags, fags, tracks,",
-        "avg_logprob": -0.5740427917188352,
-        "no_speech_prob": 0.6025390625
-      },
-      {
-        "start": 23.44,
-        "end": 25.44,
-        "text": "when the lobby is paid.",
-        "avg_logprob": -0.5740427917188352,
-        "no_speech_prob": 0.6025390625
-      },
-      {
-        "start": 25.44,
-        "end": 28.0,
-        "text": "Reach, reach, reach, reach, reach, rise, get the streets to be lies, mean wide-read",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 28.0,
-        "end": 29.6,
-        "text": "fees deals with the cameras disguised.",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 29.6,
-        "end": 33.92,
-        "text": "But you cut certain slashes, public classes collapsed, but the tax backstacks you passed",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 33.92,
-        "end": 34.92,
-        "text": "to the banks.",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 34.92,
-        "end": 35.92,
-        "text": "Woo, woo, woo, woo, you champ.",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 35.92,
-        "end": 38.32,
-        "text": "Fix a bling, sting back, throw a grin, but the sense in the wind, when the gun is",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 38.32,
-        "end": 41.2,
-        "text": "large and say, drank in the bell, but the most they sell for the health gets sell for",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 41.2,
-        "end": 42.2,
-        "text": "the help yourself.",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 42.2,
-        "end": 44.72,
-        "text": "Have you clear speech leaks when the fine prince beaks every log is bought by the suit",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 44.72,
-        "end": 45.72,
-        "text": "in the meat?",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 45.72,
-        "end": 53.28,
-        "text": "Gilded lies in the velvet tone, silver scripts from a mumble from lies, layered in the",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 53.28,
-        "end": 54.28,
-        "text": "phrase.",
-        "avg_logprob": -0.5676229651508435,
-        "no_speech_prob": 0.69677734375
-      },
-      {
-        "start": 54.28,
-        "end": 58.52,
-        "text": "Spin, grin, win, why the trolls get erased.",
-        "avg_logprob": -0.5689515905995522,
-        "no_speech_prob": 0.32568359375
-      },
-      {
-        "start": 58.52,
-        "end": 63.52,
-        "text": "Gilded lies in the polish, please, say, serve the people, why you serve the elite.",
-        "avg_logprob": -0.5689515905995522,
-        "no_speech_prob": 0.32568359375
-      },
-      {
-        "start": 63.52,
-        "end": 70.76,
-        "text": "Lies, lies, everybody knows, names in the files, but nobody shows.",
-        "avg_logprob": -0.5689515905995522,
-        "no_speech_prob": 0.32568359375
-      },
-      {
-        "start": 70.76,
-        "end": 74.12,
-        "text": "Blacksack waste theater, fear-based preacher, crab gets loud, but the cash gets deeper.",
-        "avg_logprob": -0.5689515905995522,
-        "no_speech_prob": 0.32568359375
-      },
-      {
-        "start": 74.12,
-        "end": 77.8,
-        "text": "Crimesime, headlines, punsime, panic, meanwhile, white color crimes, they vangous, skin stats,",
-        "avg_logprob": -0.5689515905995522,
-        "no_speech_prob": 0.32568359375
-      },
-      {
-        "start": 77.8,
-        "end": 81.08,
-        "text": "thin facts, six syntax, big donas, fresh policy, with big contacts, a whisper from wealth",
-        "avg_logprob": -0.5689515905995522,
-        "no_speech_prob": 0.32568359375
-      },
-      {
-        "start": 81.08,
-        "end": 83.6,
-        "text": "tends to build to a law by the call from the straight, never weep to the floor.",
-        "avg_logprob": -0.5689515905995522,
-        "no_speech_prob": 0.32568359375
-      },
-      {
-        "start": 83.72,
-        "end": 86.04,
-        "text": "Gilded in the broke for the cracks and collects, but the stacks for the draft, but the",
-        "avg_logprob": -0.5015495591912388,
-        "no_speech_prob": 0.29248046875
-      },
-      {
-        "start": 86.04,
-        "end": 89.04,
-        "text": "suit and got naft, every scale handle, but a scale proof script, every watchdog talk,",
-        "avg_logprob": -0.5015495591912388,
-        "no_speech_prob": 0.29248046875
-      },
-      {
-        "start": 89.04,
-        "end": 90.56,
-        "text": "so what about a clique?",
-        "avg_logprob": -0.5015495591912388,
-        "no_speech_prob": 0.29248046875
-      },
-      {
-        "start": 90.56,
-        "end": 94.4,
-        "text": "Trains, parents, seren, accountability, nice words.",
-        "avg_logprob": -0.5015495591912388,
-        "no_speech_prob": 0.29248046875
-      },
-      {
-        "start": 94.4,
-        "end": 101.04,
-        "text": "When nobody's watching the box, I, Gilded lies in the velvet tone, silver scripts from",
-        "avg_logprob": -0.5015495591912388,
-        "no_speech_prob": 0.29248046875
-      },
-      {
-        "start": 101.04,
-        "end": 105.64,
-        "text": "a mumble from lies, layered in the phrase.",
-        "avg_logprob": -0.5015495591912388,
-        "no_speech_prob": 0.29248046875
-      },
-      {
-        "start": 105.64,
-        "end": 109.8,
-        "text": "Spin, grin, win, why the trolls get erased.",
-        "avg_logprob": -0.5015495591912388,
-        "no_speech_prob": 0.29248046875
-      },
-      {
-        "start": 109.8,
-        "end": 114.52,
-        "text": "Gilded lies in the polish, please, say, serve the people, why you serve the elite.",
-        "avg_logprob": -0.5324367371541036,
-        "no_speech_prob": 0.61474609375
-      },
-      {
-        "start": 114.52,
-        "end": 121.36,
-        "text": "Lies, lies, everybody knows, names in the files, but nobody shows.",
-        "avg_logprob": -0.5324367371541036,
-        "no_speech_prob": 0.61474609375
-      },
-      {
-        "start": 121.36,
-        "end": 125.12,
-        "text": "Stay, stay, rip major, the pads in the pouch, sound body fights, a grip time, time out,",
-        "avg_logprob": -0.5324367371541036,
-        "no_speech_prob": 0.61474609375
-      },
-      {
-        "start": 125.12,
-        "end": 127.92,
-        "text": "we divide the crowd, make the outrage, lie to what the boardroom deals, stack higher,",
-        "avg_logprob": -0.5324367371541036,
-        "no_speech_prob": 0.61474609375
-      },
-      {
-        "start": 127.92,
-        "end": 130.4,
-        "text": "then tell us, been fools, big size, whipping eyes to devile it, the headlines,",
-        "avg_logprob": -0.5324367371541036,
-        "no_speech_prob": 0.61474609375
-      },
-      {
-        "start": 130.4,
-        "end": 133.44,
-        "text": "call out what the pipelines get signed, move face, same g, same game, same race,",
-        "avg_logprob": -0.5324367371541036,
-        "no_speech_prob": 0.61474609375
-      },
-      {
-        "start": 133.44,
-        "end": 136.08,
-        "text": "same donas in the quarter, pull the strings in the place, hit my crypt politics,",
-        "avg_logprob": -0.5324367371541036,
-        "no_speech_prob": 0.61474609375
-      },
-      {
-        "start": 136.08,
-        "end": 140.24,
-        "text": "polish the shine, moral corpse, black corp, it's fine, every election reflection repeats,",
-        "avg_logprob": -0.43629808953175175,
-        "no_speech_prob": 0.251220703125
-      },
-      {
-        "start": 140.24,
-        "end": 145.56,
-        "text": "fresh voice, same choice, same cash, and the seat size.",
-        "avg_logprob": -0.43629808953175175,
-        "no_speech_prob": 0.251220703125
-      },
-      {
-        "start": 145.56,
-        "end": 155.28,
-        "text": "Gilded lies in the velvet tone, silver scripts from a mumble from lies, layered in again,",
-        "avg_logprob": -0.43629808953175175,
-        "no_speech_prob": 0.251220703125
-      },
-      {
-        "start": 155.28,
-        "end": 159.32,
-        "text": "spin, grin, win, why the trolls get erased.",
-        "avg_logprob": -0.43629808953175175,
-        "no_speech_prob": 0.251220703125
-      },
-      {
-        "start": 159.32,
-        "end": 164.04,
-        "text": "Gilded lies in the polish, please, say, serve the people, why you serve the elite.",
-        "avg_logprob": -0.2954326923076923,
-        "no_speech_prob": 0.53271484375
-      },
-      {
-        "start": 164.04,
-        "end": 172.28,
-        "text": "Lies, lies, everybody knows, names in the files, but nobody shows.",
-        "avg_logprob": -0.2954326923076923,
-        "no_speech_prob": 0.53271484375
-      },
-      {
-        "start": 172.28,
-        "end": 179.32,
-        "text": "When the sermon sounds perfect, and the promise sounds pure, check the purse, check the",
-        "avg_logprob": -0.2954326923076923,
-        "no_speech_prob": 0.53271484375
-      },
-      {
-        "start": 179.32,
-        "end": 184.32,
-        "text": "people they serve.",
-        "avg_logprob": -0.921875034059797,
-        "no_speech_prob": 0.77392578125
-      }
-    ],
-    "avg_logprob": -0.5178393167532273
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 517,
-    "transcript_word_count": 542,
-    "matched_sequence_words": 326,
-    "lyric_alignment_ratio": 0.631,
-    "transcript_precision_ratio": 0.601,
-    "unique_expected_word_coverage": 0.604,
-    "word_count_ratio": 1.048,
-    "repeated_12gram_ratio": 0.126,
-    "half_similarity": 0.295,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.622,
-    "quality_score_0_10": 6.22,
-    "flags": [],
-    "transcript_excerpt": "Come on, so smooths, smooths, newsroom views, but the truth gets bruised when the cash gets used. Yeah, let's talk about it. Hey, go talk low, what about blocks, rock slow, rock slow, stop slow. Smooth talk, stock drops, now your profits just grow. Hey bro, that room contracts, contacts, stacks in the safe, flash, fags, fags, tracks, when the lobby is paid. Reach, reach, reach, reach, reach, rise, get the streets to be lies, mean wide-read fees deals with the cameras disguised. But you cut certain slashes, public classes collapsed, but the tax backstacks you passed to the banks. Woo, woo, woo,\n...[truncated]...\n quarter, pull the strings in the place, hit my crypt politics, polish the shine, moral corpse, black corp, it's fine, every election reflection repeats, fresh voice, same choice, same cash, and the seat size. Gilded lies in the velvet tone, silver scripts from a mumble from lies, layered in again, spin, grin, win, why the trolls get erased. Gilded lies in the polish, please, say, serve the people, why you serve the elite. Lies, lies, everybody knows, names in the files, but nobody shows. When the sermon sounds perfect, and the promise sounds pure, check the purse, check the people they serve."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.55,
-      "MI_motivic_integration": 6.55,
-      "BP_beauty_spatial_poise": 8.64,
-      "EG_evolving_grammar": 6.99,
-      "CD_carry_depth": 6.99
+      "SC_structural_coherence": 9.79,
+      "MI_motivic_integration": 6.92,
+      "BP_beauty_spatial_poise": 8.75,
+      "EG_evolving_grammar": 7.18,
+      "CD_carry_depth": 7.56
     },
     "core_metrics": {
-      "CDPD": 0.769,
-      "NGE": 0.613,
+      "CDPD": 0.805,
+      "NGE": 0.622,
       "HMII_peak_estimate": 4
     },
     "rung_estimate": {
       "number": 10,
       "label": "Technical Perfection, No Rupture",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High structural coherence and clear sectioning."
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The track has 6 audio sections over 3:06.00 with a balanced section-balance score of 0.50. The section contrast score of 2.696 and cumulative evolution score of 1.029 suggest a well-structured, coherent form with clear transitions and no filler 8s."
+        "reason": "The structure is highly coherent with distinct verse/hook transitions and a clear arc."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motivic integration is limited by the lack of clear, recurring motifs across sections. While there are some rhythmic and harmonic similarities (e.g., transformed returns), the track does not exhibit the deep, web-like motif integration seen in higher-tier tracks."
+        "reason": "Stronger integration of the 'Lies!' chant as a recurring motif that drives the hook's energy."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The sonic habitat is consistently spacious and well-balanced, with a clear spatial design that supports the emotional intensity without overwhelming the listener. The production notes and audio features confirm a strong spatial poise."
+        "reason": "The production uses space effectively to highlight vocal shifts and beat drops."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar is evident in the section contrast and cumulative evolution scores, but the track does not introduce new grammatical rules or significantly alter the core structure. It maintains a consistent method without radical innovation."
+        "reason": "Sophisticated internal rhyme schemes and varied vocabulary in the verses."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The track defines a clear emotional/psychic habitat and invites re-listening. The lyrical and production depth, combined with the structured form, suggests a memorable, affecting experience."
+        "reason": "Thematic consistency regarding political critique is maintained throughout."
       }
     },
     "rationale": [
-      "Detected 6 audio sections over 3:06.00 with section-balance score 0.50.",
-      "Tempo estimate is 152.0 BPM; declared tempo alignment contributes 1.00.",
-      "Integrated loudness is -14.8 LUFS, peak is -0.6 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F minor with confidence 0.33.",
-      "Audio recurrence ratio is 0.028; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 231 beats and 60 downbeats; beat-grid stability is 0.96.",
-      "EG evidence: section contrast 2.70, cumulative evolution 1.03, transformed returns 10.00, grid deviation 0.51, rule changes 3.00.",
-      "Companion text has 10 lyric/production sections, 649 words, line repetition 0.17, rhyme-suffix reuse 0.28."
+      "The track features a highly structured arrangement with clear demarcations between verses and hooks.",
+      "The 'Lies!' chant serves as an effective recurring motif that anchors the hook's identity.",
+      "Lyricism shows high technical proficiency through internal rhymes (e.g., 'suit-spin', 'gold-standard').",
+      "Production utilizes dynamic shifts to emphasize structural transitions."
     ],
     "review_flags": [
-      "Uncertainty about the exact nature of motif integration due to limited audio-only evidence."
+      "None"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:57:51.6991996Z",
-    "eval_count": 933,
-    "eval_duration": 15444245200
+    "created_at": "2026-06-10T10:56:16.41779Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 5952224,
+      "base64_chars": 7936300,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 9388,
+    "prompt_eval_duration": 3943133000,
+    "eval_count": 544,
+    "eval_duration": 13317236000
   }
 }

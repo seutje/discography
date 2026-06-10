@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:38:03",
+  "generated_at": "2026-06-10T12:38:37",
   "audio": {
     "path": "Orbital Garden/audio/07 - Small Bloom Ledger.mp3",
     "duration_seconds": 237.32,
@@ -1485,7 +1485,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1529,270 +1532,76 @@
       "beat_this detected 436 beats and 110 downbeats; beat-grid stability is 0.92.",
       "EG evidence: section contrast 1.64, cumulative evolution 0.68, transformed returns 10.00, grid deviation 0.35, rule changes 2.08.",
       "Companion text has 8 lyric/production sections, 290 words, line repetition 0.18, rhyme-suffix reuse 0.32.",
-      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 3.10.",
-      "Transcription check: lyric alignment 0.84, unique-word coverage 0.86, word-count ratio 1.14, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 3.10."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "One small bloom, and then another, brief gold face above the cover. I stopped asking for a thunder clap, stopped waiting for the gates. Learn to mark the smallest turn and learn to trust the tiny gates. One adjustment in the daylight, one repairing the leaves. One more way the room goes kinder, one more reason to believe. Little steps, living proof, not a crown, not a place, just a flower for the day. Open a small bloom ledger, count the car I did not see. Every quiet act of tending, that's a pedal to the stem. I am not one sudden harvest, I am not a finish wall. I am worried, turns each morning with the lantern in the hole. Some improvements barely shimmer, some are only felt by roots. Some will never draw witness, still they change the living truth. I have learned joy or less, when less is shaped with honest hands. How a patient little opening can revise the wider land, no grand speech, only growth. A flower does not brag about becoming, it just derives where care was kept. I keep a record made of mornings, not a glory but a bread. Open a small bloom ledger, count the car I did not see. Every quiet act of tending, that's a pedal to the stem. I am not one sudden harvest, I am not a finish wall. I am worried, turns each morning with the lantern in the hole. One small bloom ledger, count the car I did not see. I am worried, turns each morning with the lantern in the hole. I am worried, turns each morning with the lantern in the hole. I am worried, turns each morning with the lantern in the hole.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 24.0,
-        "text": "One small bloom, and then another, brief gold face above the cover.",
-        "avg_logprob": -0.8256579072851884,
-        "no_speech_prob": 0.50927734375
-      },
-      {
-        "start": 24.0,
-        "end": 39.0,
-        "text": "I stopped asking for a thunder clap, stopped waiting for the gates.",
-        "avg_logprob": -0.23598345500581405,
-        "no_speech_prob": 0.343505859375
-      },
-      {
-        "start": 39.0,
-        "end": 48.0,
-        "text": "Learn to mark the smallest turn and learn to trust the tiny gates.",
-        "avg_logprob": -0.23598345500581405,
-        "no_speech_prob": 0.343505859375
-      },
-      {
-        "start": 48.0,
-        "end": 56.0,
-        "text": "One adjustment in the daylight, one repairing the leaves.",
-        "avg_logprob": -0.18713379465043545,
-        "no_speech_prob": 0.38916015625
-      },
-      {
-        "start": 56.0,
-        "end": 64.0,
-        "text": "One more way the room goes kinder, one more reason to believe.",
-        "avg_logprob": -0.18713379465043545,
-        "no_speech_prob": 0.38916015625
-      },
-      {
-        "start": 64.0,
-        "end": 82.0,
-        "text": "Little steps, living proof, not a crown, not a place, just a flower for the day.",
-        "avg_logprob": -0.27362350551854997,
-        "no_speech_prob": 0.6279296875
-      },
-      {
-        "start": 82.0,
-        "end": 90.0,
-        "text": "Open a small bloom ledger, count the car I did not see.",
-        "avg_logprob": -0.27362350551854997,
-        "no_speech_prob": 0.6279296875
-      },
-      {
-        "start": 90.0,
-        "end": 98.0,
-        "text": "Every quiet act of tending, that's a pedal to the stem.",
-        "avg_logprob": -0.2697610387615129,
-        "no_speech_prob": 0.36181640625
-      },
-      {
-        "start": 98.0,
-        "end": 107.0,
-        "text": "I am not one sudden harvest, I am not a finish wall.",
-        "avg_logprob": -0.2697610387615129,
-        "no_speech_prob": 0.36181640625
-      },
-      {
-        "start": 107.0,
-        "end": 116.0,
-        "text": "I am worried, turns each morning with the lantern in the hole.",
-        "avg_logprob": -0.2697610387615129,
-        "no_speech_prob": 0.36181640625
-      },
-      {
-        "start": 117.0,
-        "end": 125.0,
-        "text": "Some improvements barely shimmer, some are only felt by roots.",
-        "avg_logprob": -0.16998488095498854,
-        "no_speech_prob": 0.239990234375
-      },
-      {
-        "start": 125.0,
-        "end": 134.0,
-        "text": "Some will never draw witness, still they change the living truth.",
-        "avg_logprob": -0.16998488095498854,
-        "no_speech_prob": 0.239990234375
-      },
-      {
-        "start": 134.0,
-        "end": 141.0,
-        "text": "I have learned joy or less, when less is shaped with honest hands.",
-        "avg_logprob": -0.29947917125163936,
-        "no_speech_prob": 0.482421875
-      },
-      {
-        "start": 141.0,
-        "end": 154.0,
-        "text": "How a patient little opening can revise the wider land, no grand speech, only growth.",
-        "avg_logprob": -0.29947917125163936,
-        "no_speech_prob": 0.482421875
-      },
-      {
-        "start": 155.0,
-        "end": 164.0,
-        "text": "A flower does not brag about becoming, it just derives where care was kept.",
-        "avg_logprob": -0.14815341450951316,
-        "no_speech_prob": 0.7421875
-      },
-      {
-        "start": 164.0,
-        "end": 172.0,
-        "text": "I keep a record made of mornings, not a glory but a bread.",
-        "avg_logprob": -0.14815341450951316,
-        "no_speech_prob": 0.7421875
-      },
-      {
-        "start": 172.0,
-        "end": 181.0,
-        "text": "Open a small bloom ledger, count the car I did not see.",
-        "avg_logprob": -0.14815341450951316,
-        "no_speech_prob": 0.7421875
-      },
-      {
-        "start": 181.0,
-        "end": 189.0,
-        "text": "Every quiet act of tending, that's a pedal to the stem.",
-        "avg_logprob": -0.05411305190885768,
-        "no_speech_prob": 0.1300048828125
-      },
-      {
-        "start": 189.0,
-        "end": 198.0,
-        "text": "I am not one sudden harvest, I am not a finish wall.",
-        "avg_logprob": -0.05411305190885768,
-        "no_speech_prob": 0.1300048828125
-      },
-      {
-        "start": 198.0,
-        "end": 206.0,
-        "text": "I am worried, turns each morning with the lantern in the hole.",
-        "avg_logprob": -0.05411305190885768,
-        "no_speech_prob": 0.1300048828125
-      },
-      {
-        "start": 207.0,
-        "end": 216.0,
-        "text": "One small bloom ledger, count the car I did not see.",
-        "avg_logprob": -0.2671875113248825,
-        "no_speech_prob": 0.49072265625
-      },
-      {
-        "start": 216.0,
-        "end": 224.0,
-        "text": "I am worried, turns each morning with the lantern in the hole.",
-        "avg_logprob": -0.2671875113248825,
-        "no_speech_prob": 0.49072265625
-      },
-      {
-        "start": 224.0,
-        "end": 232.0,
-        "text": "I am worried, turns each morning with the lantern in the hole.",
-        "avg_logprob": -0.2671875113248825,
-        "no_speech_prob": 0.49072265625
-      },
-      {
-        "start": 232.0,
-        "end": 242.0,
-        "text": "I am worried, turns each morning with the lantern in the hole.",
-        "avg_logprob": -0.3640903024112477,
-        "no_speech_prob": 0.74169921875
-      }
-    ],
-    "avg_logprob": -0.28036093658637484
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 255,
-    "transcript_word_count": 291,
-    "matched_sequence_words": 214,
-    "lyric_alignment_ratio": 0.839,
-    "transcript_precision_ratio": 0.735,
-    "unique_expected_word_coverage": 0.856,
-    "word_count_ratio": 1.141,
-    "repeated_12gram_ratio": 0.179,
-    "half_similarity": 0.386,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.832,
-    "quality_score_0_10": 8.32,
-    "flags": [],
-    "transcript_excerpt": "One small bloom, and then another, brief gold face above the cover. I stopped asking for a thunder clap, stopped waiting for the gates. Learn to mark the smallest turn and learn to trust the tiny gates. One adjustment in the daylight, one repairing the leaves. One more way the room goes kinder, one more reason to believe. Little steps, living proof, not a crown, not a place, just a flower for the day. Open a small bloom ledger, count the car I did not see. Every quiet act of tending, that's a pedal to the stem. I am not one sudden harvest, I am not a finish wall. I am worried, turns each morni\n...[truncated]...\nower does not brag about becoming, it just derives where care was kept. I keep a record made of mornings, not a glory but a bread. Open a small bloom ledger, count the car I did not see. Every quiet act of tending, that's a pedal to the stem. I am not one sudden harvest, I am not a finish wall. I am worried, turns each morning with the lantern in the hole. One small bloom ledger, count the car I did not see. I am worried, turns each morning with the lantern in the hole. I am worried, turns each morning with the lantern in the hole. I am worried, turns each morning with the lantern in the hole."
   },
   "llm_adjusted_scoring": {
     "axes": {
-      "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.5,
-      "BP_beauty_spatial_poise": 9.2,
-      "EG_evolving_grammar": 6.8,
-      "CD_carry_depth": 8.6
+      "SC_structural_coherence": 10.0,
+      "MI_motivic_integration": 7.99,
+      "BP_beauty_spatial_poise": 9.53,
+      "EG_evolving_grammar": 6.29,
+      "CD_carry_depth": 8.31
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.55,
-      "HMII_peak_estimate": 5
+      "CDPD": 0.876,
+      "NGE": 0.57,
+      "HMII_peak_estimate": 6
     },
     "rung_estimate": {
       "number": 12,
       "label": "Recursion Threshold",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
-        "delta": -0.5,
-        "reason": "The track exhibits strong structural coherence with clear verse/chorus/bridge/outro logic, and returns feel like revisiting emotional rooms. Section contrast and cumulative evolution scores support this."
+        "delta": 0.0,
+        "reason": "Base score reflects high structural coherence across the 8-section layout."
       },
       "MI_motivic_integration": {
-        "delta": 0.51,
-        "reason": "Motivic integration is strong, with recurring vocal hooks, guitar figures, and lyric images that evolve across sections. The transformed returns and rule changes indicate a cohesive motivic system."
+        "delta": 0.0,
+        "reason": "Motivic integration is strong, supported by consistent production shifts and clear thematic progression."
       },
       "BP_beauty_spatial_poise": {
-        "delta": -0.33,
-        "reason": "While the production has a memorable sonic habitat, the spatial poise is slightly less distinct than the base score suggests, with some generic reverb and delay use."
+        "delta": 0.0,
+        "reason": "The arrangement maintains a high level of spatial poise throughout the transition from indietronica to electrodub."
       },
       "EG_evolving_grammar": {
-        "delta": 0.51,
-        "reason": "The evolving grammar is evident, with meaningful rule changes across sections and a personal indie grammar that develops over time, though not fully inventing new methods."
+        "delta": 0.0,
+        "reason": "Lyrics show significant growth in imagery and complexity, moving from simple observations to more evocative metaphors."
       },
       "CD_carry_depth": {
-        "delta": 0.29,
-        "reason": "The track carries emotional depth, inviting re-listening and leaving a specific image or feeling. It feels like a small world rather than a generic playlist mood."
+        "delta": 0.0,
+        "reason": "The depth of the lyrical content is well-sustained across the track."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:57.32 with section-balance score 0.31.",
-      "Tempo estimate is 112.3 BPM; declared tempo alignment contributes 0.97.",
-      "Integrated loudness is -18.0 LUFS, peak is -0.9 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is B major with confidence 0.25.",
-      "Audio recurrence ratio is 0.290; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 436 beats and 110 downbeats; beat-grid stability is 0.92.",
-      "EG evidence: section contrast 1.64, cumulative evolution 0.68, transformed returns 10.00, grid deviation 0.35, rule changes 2.08.",
-      "Companion text has 8 lyric/production sections, 290 words, line repetition 0.18, rhyme-suffix reuse 0.32."
+      "The song follows a clear, intentional structure with distinct sections (Intro, Verse, Pre-Hook, Hook, Bridge, Outro) that evolve in both production and lyricism.",
+      "The transition from 'indietronica' to 'electrodub' is handled with sophisticated texture shifts rather than abrupt changes.",
+      "Lyrics move from literal descriptions of nature to more abstract, poetic imagery ('I am not a finished wall', 'a flower does not brag about becoming').",
+      "The production notes indicate intentional layering and 'wider, brighter' textures in the final hook."
     ],
     "review_flags": [
-      "Uncertainty about section detection: audio sections are detected, but the framework excerpt suggests a different section count. Section detection may need closer listening."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:38:03.892757Z",
-    "eval_count": 830,
-    "eval_duration": 13640527200
+    "created_at": "2026-06-10T10:38:37.4874697Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7594318,
+      "base64_chars": 10125760,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11156,
+    "prompt_eval_duration": 4947232000,
+    "eval_count": 436,
+    "eval_duration": 10688451000
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T21:53:02",
+  "generated_at": "2026-06-10T13:18:22",
   "audio": {
     "path": "Algorithmically Optimized Collection of Keywords/audio/06 - Minor Gods.mp3",
     "duration_seconds": 401.08,
@@ -1893,7 +1893,10 @@
   "framework": {
     "path": "analyzer/Sorelian.txt",
     "name": "Sorelian.txt",
-    "characters_loaded": 97335
+    "characters_loaded": 97335,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Sorelian.summary.txt",
+    "llm_prompt_characters": 4547
   },
   "framework_scoring": {
     "axes": {
@@ -1938,272 +1941,8 @@
       "EG evidence: section contrast 2.43, cumulative evolution 0.85, transformed returns 10.00, grid deviation 1.72, rule changes 5.83.",
       "Companion text has 8 lyric/production sections, 321 words, line repetition 0.18, rhyme-suffix reuse 0.27.",
       "Production/vocal notes contain transformation cues (density-change); intent score 2.85.",
-      "Transcription check: lyric alignment 0.87, unique-word coverage 0.84, word-count ratio 1.18, duplicate-pass estimate 1.",
       "Clipping/headroom risk reduced the craft and spatial-poise estimates."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": ". Noted wires in my pocket Yet the constellations speak my name A parcel in geometry But choke on folding paper cranes A titan in the labyrinth A child before an open door I lift the world with quiet fingers Can't turn the key I've turned before Little motions Tiny burdens Rise like mountains I can't climb But give me chaos Give me storms I rearrange the shape of time Oh, the simple breaks me open Oh, the vast becomes my home I solve the riddle of the cosmos But forget to pick up the phone Every minor spark consumes me Yet the stars obey my hand Tell me why the smallest footsteps All the hardest ones to stay My mind is sacred engine honing Slicing shadows into form Yet dishes glare like profits Judging every half remembered nor I summon maps of revelation Charging futures from aside Believe the curtains closed for days I'm sure of how old I am One more moment One more fracture splits the will I thought was mine Still I wonder Still I fathom Still I hold the grand ease Oh, the simple breaks me open Oh, the vast becomes my home I solve the riddle of the cosmos But forget to pick up the phone Every minor spark consumes me Yet the stars obey my hand Tell me why the smallest footsteps All the hardest ones to stay Let the thunder teach the language That my heart we can't pronounce Let intention find its anchor Let inertia be renowned In the mirror stands a giant Track by threads around its wrist The world awaits its motion But the moment never shes I could bend the sky to reason Draw the contours of the dawn Yet the weight of one small action Keeps me still until it's gone Let the thunder teach the language That my heart we can't pronounce Let intention find its anchor Let inertia be renowned Let the thunder teach the language That my heart we can't pronounce Let intention find its anchor Let inertia be renowned Let the thunder teach the language That my heart we can't pronounce Let intention find its anchor Let inertia be renowned",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 7.0,
-        "text": ".",
-        "avg_logprob": -1.3649292290210724,
-        "no_speech_prob": 0.57470703125
-      },
-      {
-        "start": 60.0,
-        "end": 87.6,
-        "text": "Noted wires in my pocket Yet the constellations speak my name",
-        "avg_logprob": -0.6038602941176471,
-        "no_speech_prob": 0.7177734375
-      },
-      {
-        "start": 87.6,
-        "end": 93.6,
-        "text": "A parcel in geometry But choke on folding paper cranes",
-        "avg_logprob": -0.263104832941486,
-        "no_speech_prob": 0.1484375
-      },
-      {
-        "start": 93.6,
-        "end": 99.6,
-        "text": "A titan in the labyrinth A child before an open door",
-        "avg_logprob": -0.263104832941486,
-        "no_speech_prob": 0.1484375
-      },
-      {
-        "start": 99.6,
-        "end": 105.6,
-        "text": "I lift the world with quiet fingers Can't turn the key I've turned before",
-        "avg_logprob": -0.263104832941486,
-        "no_speech_prob": 0.1484375
-      },
-      {
-        "start": 105.6,
-        "end": 111.6,
-        "text": "Little motions Tiny burdens Rise like mountains I can't climb",
-        "avg_logprob": -0.263104832941486,
-        "no_speech_prob": 0.1484375
-      },
-      {
-        "start": 111.6,
-        "end": 121.6,
-        "text": "But give me chaos Give me storms I rearrange the shape of time",
-        "avg_logprob": -0.22253787878787878,
-        "no_speech_prob": 0.2061767578125
-      },
-      {
-        "start": 129.6,
-        "end": 139.6,
-        "text": "Oh, the simple breaks me open Oh, the vast becomes my home",
-        "avg_logprob": -0.22253787878787878,
-        "no_speech_prob": 0.2061767578125
-      },
-      {
-        "start": 139.6,
-        "end": 145.6,
-        "text": "I solve the riddle of the cosmos But forget to pick up the phone",
-        "avg_logprob": -0.19038723376782044,
-        "no_speech_prob": 0.1300048828125
-      },
-      {
-        "start": 145.6,
-        "end": 151.6,
-        "text": "Every minor spark consumes me Yet the stars obey my hand",
-        "avg_logprob": -0.19038723376782044,
-        "no_speech_prob": 0.1300048828125
-      },
-      {
-        "start": 151.6,
-        "end": 161.6,
-        "text": "Tell me why the smallest footsteps All the hardest ones to stay",
-        "avg_logprob": -0.19038723376782044,
-        "no_speech_prob": 0.1300048828125
-      },
-      {
-        "start": 161.6,
-        "end": 171.6,
-        "text": "My mind is sacred engine honing Slicing shadows into form",
-        "avg_logprob": -0.32219827688973524,
-        "no_speech_prob": 0.4462890625
-      },
-      {
-        "start": 171.6,
-        "end": 177.6,
-        "text": "Yet dishes glare like profits Judging every half remembered nor",
-        "avg_logprob": -0.32219827688973524,
-        "no_speech_prob": 0.4462890625
-      },
-      {
-        "start": 177.6,
-        "end": 183.6,
-        "text": "I summon maps of revelation Charging futures from aside",
-        "avg_logprob": -0.32219827688973524,
-        "no_speech_prob": 0.4462890625
-      },
-      {
-        "start": 183.6,
-        "end": 189.6,
-        "text": "Believe the curtains closed for days I'm sure of how old I am",
-        "avg_logprob": -0.32219827688973524,
-        "no_speech_prob": 0.4462890625
-      },
-      {
-        "start": 189.6,
-        "end": 195.6,
-        "text": "One more moment One more fracture splits the will I thought was mine",
-        "avg_logprob": -0.3255208333333333,
-        "no_speech_prob": 0.084716796875
-      },
-      {
-        "start": 195.6,
-        "end": 209.6,
-        "text": "Still I wonder Still I fathom Still I hold the grand ease",
-        "avg_logprob": -0.3255208333333333,
-        "no_speech_prob": 0.084716796875
-      },
-      {
-        "start": 209.6,
-        "end": 223.6,
-        "text": "Oh, the simple breaks me open Oh, the vast becomes my home",
-        "avg_logprob": -0.019612631062045693,
-        "no_speech_prob": 0.271728515625
-      },
-      {
-        "start": 223.6,
-        "end": 229.6,
-        "text": "I solve the riddle of the cosmos But forget to pick up the phone",
-        "avg_logprob": -0.019612631062045693,
-        "no_speech_prob": 0.271728515625
-      },
-      {
-        "start": 229.6,
-        "end": 235.6,
-        "text": "Every minor spark consumes me Yet the stars obey my hand",
-        "avg_logprob": -0.019612631062045693,
-        "no_speech_prob": 0.271728515625
-      },
-      {
-        "start": 235.6,
-        "end": 245.6,
-        "text": "Tell me why the smallest footsteps All the hardest ones to stay",
-        "avg_logprob": -0.035384116073449455,
-        "no_speech_prob": 0.18212890625
-      },
-      {
-        "start": 265.6,
-        "end": 275.6,
-        "text": "Let the thunder teach the language That my heart we can't pronounce",
-        "avg_logprob": -0.20450366945827708,
-        "no_speech_prob": 0.5537109375
-      },
-      {
-        "start": 275.6,
-        "end": 285.6,
-        "text": "Let intention find its anchor Let inertia be renowned In the mirror stands a giant",
-        "avg_logprob": -0.20450366945827708,
-        "no_speech_prob": 0.5537109375
-      },
-      {
-        "start": 285.6,
-        "end": 291.6,
-        "text": "Track by threads around its wrist The world awaits its motion",
-        "avg_logprob": -0.34578804866127344,
-        "no_speech_prob": 0.2232666015625
-      },
-      {
-        "start": 291.6,
-        "end": 301.6,
-        "text": "But the moment never shes",
-        "avg_logprob": -0.34578804866127344,
-        "no_speech_prob": 0.2232666015625
-      },
-      {
-        "start": 301.6,
-        "end": 317.6,
-        "text": "I could bend the sky to reason Draw the contours of the dawn",
-        "avg_logprob": -0.16863839626312255,
-        "no_speech_prob": 0.2177734375
-      },
-      {
-        "start": 317.6,
-        "end": 329.6,
-        "text": "Yet the weight of one small action Keeps me still until it's gone",
-        "avg_logprob": -0.16863839626312255,
-        "no_speech_prob": 0.2177734375
-      },
-      {
-        "start": 329.6,
-        "end": 339.6,
-        "text": "Let the thunder teach the language That my heart we can't pronounce",
-        "avg_logprob": -0.369140625,
-        "no_speech_prob": 0.791015625
-      },
-      {
-        "start": 339.6,
-        "end": 349.6,
-        "text": "Let intention find its anchor Let inertia be renowned",
-        "avg_logprob": -0.369140625,
-        "no_speech_prob": 0.791015625
-      },
-      {
-        "start": 349.6,
-        "end": 359.6,
-        "text": "Let the thunder teach the language That my heart we can't pronounce",
-        "avg_logprob": -0.31285511499101465,
-        "no_speech_prob": 0.93017578125
-      },
-      {
-        "start": 359.6,
-        "end": 369.6,
-        "text": "Let intention find its anchor Let inertia be renowned",
-        "avg_logprob": -0.2668269230769231,
-        "no_speech_prob": 0.88671875
-      },
-      {
-        "start": 369.6,
-        "end": 379.6,
-        "text": "Let the thunder teach the language That my heart we can't pronounce",
-        "avg_logprob": -0.22863051470588236,
-        "no_speech_prob": 0.8994140625
-      },
-      {
-        "start": 379.6,
-        "end": 399.6,
-        "text": "Let intention find its anchor Let inertia be renowned",
-        "avg_logprob": -0.4000651016831398,
-        "no_speech_prob": 0.7958984375
-      }
-    ],
-    "avg_logprob": -0.2993797135671096
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 309,
-    "transcript_word_count": 366,
-    "matched_sequence_words": 268,
-    "lyric_alignment_ratio": 0.867,
-    "transcript_precision_ratio": 0.732,
-    "unique_expected_word_coverage": 0.843,
-    "word_count_ratio": 1.184,
-    "repeated_12gram_ratio": 0.223,
-    "half_similarity": 0.311,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.849,
-    "quality_score_0_10": 8.49,
-    "flags": [],
-    "transcript_excerpt": ". Noted wires in my pocket Yet the constellations speak my name A parcel in geometry But choke on folding paper cranes A titan in the labyrinth A child before an open door I lift the world with quiet fingers Can't turn the key I've turned before Little motions Tiny burdens Rise like mountains I can't climb But give me chaos Give me storms I rearrange the shape of time Oh, the simple breaks me open Oh, the vast becomes my home I solve the riddle of the cosmos But forget to pick up the phone Every minor spark consumes me Yet the stars obey my hand Tell me why the smallest footsteps All the harde\n...[truncated]...\nrror stands a giant Track by threads around its wrist The world awaits its motion But the moment never shes I could bend the sky to reason Draw the contours of the dawn Yet the weight of one small action Keeps me still until it's gone Let the thunder teach the language That my heart we can't pronounce Let intention find its anchor Let inertia be renowned Let the thunder teach the language That my heart we can't pronounce Let intention find its anchor Let inertia be renowned Let the thunder teach the language That my heart we can't pronounce Let intention find its anchor Let inertia be renowned"
   },
   "llm_adjusted_scoring": {
     "axes": {
@@ -2214,57 +1953,126 @@
       "CD_carry_depth": 8.1
     },
     "core_metrics": {
-      "CDPD": 0.839,
-      "NGE": 0.662,
+      "CDPD": 0.84,
+      "NGE": 0.66,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar"
     },
     "confidence_0_10": 7.7,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": 0.0,
-        "reason": "The piece exhibits 10 distinct audio sections with balanced distribution and clear transitions, supporting high structural coherence."
+        "reason": "Base score is already at maximum."
       },
       "MI_motivic_integration": {
         "delta": 0.0,
-        "reason": "Motivic integration is supported by the recurrence ratio (0.484) and the repeated use of motifs across sections, though not at the level of true motif recognition."
+        "reason": "Base score is already at maximum."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The piece maintains a consistent spatial poise with a well-balanced dynamic range and harmonic structure, though clipping risk slightly limits its perceived beauty."
+        "reason": "Base score is already at maximum."
       },
       "EG_evolving_grammar": {
         "delta": 0.0,
-        "reason": "The evolving grammar is evident through the high rule change score (5.83) and the complex interplay of harmonic, timbral, and rhythmic transformations across sections."
+        "reason": "Evidence of repetitive grammar and lack of distinct progression in the final third suggests a lower score for evolving grammar."
       },
       "CD_carry_depth": {
         "delta": 0.0,
-        "reason": "The carry depth is strong, with emotional resonance and thematic repetition that supports re-listening and emotional transport."
+        "reason": "Base score is already at maximum."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 6:41.08 with section-balance score 0.35.",
-      "Tempo estimate is 161.5 BPM; declared tempo alignment contributes 0.00.",
-      "Integrated loudness is -17.7 LUFS, peak is 0.1 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F#/Gb minor with confidence 0.30.",
-      "Audio recurrence ratio is 0.484; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 546 beats and 151 downbeats; beat-grid stability is 0.13.",
-      "EG evidence: section contrast 2.43, cumulative evolution 0.85, transformed returns 10.00, grid deviation 1.72, rule changes 5.83.",
-      "Companion text has 8 lyric/production sections, 321 words, line repetition 0.18, rhyme-suffix reuse 0.27."
+      "The track features highly coherent structure with clear transitions between sections (verse, pre-chorus, chorus).",
+      "The lyrical content and production style suggest a strong integration of motive and musical form.",
+      "The spatial arrangement of sounds is aesthetically pleasing and well-balanced.",
+      "The final third of the song shows less evidence of evolving grammar compared to the first two-thirds."
     ],
     "review_flags": [
-      "Uncertainty in motif recognition due to audio recurrence ratio proxy."
+      "High Confidence"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T19:53:02.7025422Z",
-    "eval_count": 812,
-    "eval_duration": 13520803000
+    "created_at": "2026-06-10T11:18:22.7143043Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 11520224,
+      "base64_chars": 15360300,
+      "max_seconds": 360.0
+    },
+    "audio_attachment_attempts": [
+      {
+        "sample_rate": 16000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 12834784,
+          "base64_chars": 17113048,
+          "max_seconds": null
+        },
+        "prompt_eval_count": 16291,
+        "eval_count": 93,
+        "error": "Could not parse Ollama JSON response: Expecting ',' delimiter: line 8 column 6 (char 187)"
+      },
+      {
+        "sample_rate": 12000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 12000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 9626144,
+          "base64_chars": 12834860,
+          "max_seconds": null
+        },
+        "prompt_eval_count": 16291,
+        "eval_count": 93,
+        "error": "Could not parse Ollama JSON response: Expecting ',' delimiter: line 1 column 159 (char 158)"
+      },
+      {
+        "sample_rate": 8000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 8000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 6417504,
+          "base64_chars": 8556672,
+          "max_seconds": null
+        },
+        "prompt_eval_count": 16291,
+        "eval_count": 93,
+        "error": "Could not parse Ollama JSON response: Expecting ',' delimiter: line 1 column 159 (char 158)"
+      },
+      {
+        "sample_rate": 16000,
+        "audio_attachment": {
+          "format": "wav",
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_format": "s16",
+          "bytes": 11520224,
+          "base64_chars": 15360300,
+          "max_seconds": 360.0
+        },
+        "prompt_eval_count": 15264,
+        "eval_count": 414,
+        "error": null
+      }
+    ],
+    "prompt_eval_count": 15264,
+    "prompt_eval_duration": 6738467000,
+    "eval_count": 414,
+    "eval_duration": 11153758000
   }
 }

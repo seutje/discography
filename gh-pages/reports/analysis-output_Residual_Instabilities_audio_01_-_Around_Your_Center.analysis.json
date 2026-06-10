@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:41:07",
+  "generated_at": "2026-06-10T12:41:18",
   "audio": {
     "path": "Residual Instabilities/audio/01 - Around Your Center.mp3",
     "duration_seconds": 317.12,
@@ -1513,7 +1513,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1557,326 +1560,20 @@
       "beat_this detected 387 beats and 105 downbeats; beat-grid stability is 0.94.",
       "EG evidence: section contrast 2.12, cumulative evolution 0.70, transformed returns 10.00, grid deviation 0.65, rule changes 3.33.",
       "Companion text has 12 lyric/production sections, 504 words, line repetition 0.01, rhyme-suffix reuse 0.27.",
-      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 5.05.",
-      "Transcription check: lyric alignment 0.81, unique-word coverage 0.86, word-count ratio 0.98, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, space-change); intent score 5.05."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Two bodies and a quiet bind One defines the frame of time I trace a curve I never chose Hold and pass your mask composed I was given last hold, less inertia in my role Every step I try to take Turns around your heavy awake You don't move the way I do You just start and die a crew Every shift and every bend As if you were origin I recall You remain, center drifts but not for me I translate you just be I circle with the downslings Closer and not just between Every arc I try to claim Fools back into your domain Now buy for second resist Just buy scale by who persists I am pulled into the proof Of how much I depend on you There's a center we both trace Had too deep within your space I can map it, I can see It's not place for symmetry You define the common ground I just trace what falls around Every cycle that I keep writes your name And where I sweep you don't chase You don't strain, master sides What aligns? I adjust every time I circle with the downslings Never equal, never clean Every path I try to hold It'll store your manifold Not devotion, not a choice Just the shape of lesser force I'm the go of a frame That was never set the same You don't need to move To keep me moving You don't need to call I'm already falling What we share is not divided It's weighted What if center isn't mutual Just inherited it I begin to feel the strain Of revolving in your name Not a prison, not a fraud Just a fundamental law If I slip that from your spin You'd forget I'd ever been But if you were pulled away I would lose my frame to stay I'm defined by your mass I remain where balance lies Even skewed, it still survives Not as equal, not as free But consistent in its need I don't know if I feel where it bends I just follow where it ends In the orbit I can see You are more than I can ever be No escape, no demand Just a curfew I understand Not abandoned, not undone Just the lesser of the sons You are more than I can ever be",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 21.0,
-        "text": "Two bodies and a quiet bind One defines the frame of time",
-        "avg_logprob": -0.49281251907348633,
-        "no_speech_prob": 0.410888671875
-      },
-      {
-        "start": 21.0,
-        "end": 28.0,
-        "text": "I trace a curve I never chose",
-        "avg_logprob": -0.49281251907348633,
-        "no_speech_prob": 0.410888671875
-      },
-      {
-        "start": 28.0,
-        "end": 46.0,
-        "text": "Hold and pass your mask composed",
-        "avg_logprob": -0.5163043685581373,
-        "no_speech_prob": 0.2293701171875
-      },
-      {
-        "start": 46.0,
-        "end": 52.0,
-        "text": "I was given last hold, less inertia in my role",
-        "avg_logprob": -0.5163043685581373,
-        "no_speech_prob": 0.2293701171875
-      },
-      {
-        "start": 52.0,
-        "end": 58.0,
-        "text": "Every step I try to take Turns around your heavy awake",
-        "avg_logprob": -0.22673233209744745,
-        "no_speech_prob": 0.257080078125
-      },
-      {
-        "start": 58.0,
-        "end": 64.0,
-        "text": "You don't move the way I do You just start and die a crew",
-        "avg_logprob": -0.22673233209744745,
-        "no_speech_prob": 0.257080078125
-      },
-      {
-        "start": 64.0,
-        "end": 76.0,
-        "text": "Every shift and every bend As if you were origin I recall",
-        "avg_logprob": -0.22673233209744745,
-        "no_speech_prob": 0.257080078125
-      },
-      {
-        "start": 76.0,
-        "end": 86.0,
-        "text": "You remain, center drifts but not for me",
-        "avg_logprob": -0.37700893708637784,
-        "no_speech_prob": 0.085205078125
-      },
-      {
-        "start": 86.0,
-        "end": 97.0,
-        "text": "I translate you just be",
-        "avg_logprob": -0.37700893708637784,
-        "no_speech_prob": 0.085205078125
-      },
-      {
-        "start": 97.0,
-        "end": 103.0,
-        "text": "I circle with the downslings Closer and not just between",
-        "avg_logprob": -0.37700893708637784,
-        "no_speech_prob": 0.085205078125
-      },
-      {
-        "start": 103.0,
-        "end": 110.0,
-        "text": "Every arc I try to claim Fools back into your domain",
-        "avg_logprob": -0.28194445239173044,
-        "no_speech_prob": 0.044525146484375
-      },
-      {
-        "start": 110.0,
-        "end": 116.0,
-        "text": "Now buy for second resist Just buy scale by who persists",
-        "avg_logprob": -0.28194445239173044,
-        "no_speech_prob": 0.044525146484375
-      },
-      {
-        "start": 116.0,
-        "end": 124.0,
-        "text": "I am pulled into the proof Of how much I depend on you",
-        "avg_logprob": -0.28194445239173044,
-        "no_speech_prob": 0.044525146484375
-      },
-      {
-        "start": 124.0,
-        "end": 134.0,
-        "text": "There's a center we both trace Had too deep within your space",
-        "avg_logprob": -0.20288086286745965,
-        "no_speech_prob": 0.1741943359375
-      },
-      {
-        "start": 134.0,
-        "end": 137.0,
-        "text": "I can map it, I can see It's not place for symmetry",
-        "avg_logprob": -0.20288086286745965,
-        "no_speech_prob": 0.1741943359375
-      },
-      {
-        "start": 137.0,
-        "end": 140.0,
-        "text": "You define the common ground I just trace what falls around",
-        "avg_logprob": -0.20288086286745965,
-        "no_speech_prob": 0.1741943359375
-      },
-      {
-        "start": 140.0,
-        "end": 145.0,
-        "text": "Every cycle that I keep writes your name And where I sweep you don't chase",
-        "avg_logprob": -0.20288086286745965,
-        "no_speech_prob": 0.1741943359375
-      },
-      {
-        "start": 145.0,
-        "end": 155.0,
-        "text": "You don't strain, master sides What aligns?",
-        "avg_logprob": -0.24121093265712262,
-        "no_speech_prob": 0.279052734375
-      },
-      {
-        "start": 155.0,
-        "end": 165.0,
-        "text": "I adjust every time I circle with the downslings",
-        "avg_logprob": -0.24121093265712262,
-        "no_speech_prob": 0.279052734375
-      },
-      {
-        "start": 165.0,
-        "end": 172.0,
-        "text": "Never equal, never clean Every path I try to hold",
-        "avg_logprob": -0.24121093265712262,
-        "no_speech_prob": 0.279052734375
-      },
-      {
-        "start": 172.0,
-        "end": 178.0,
-        "text": "It'll store your manifold Not devotion, not a choice",
-        "avg_logprob": -0.15527344308793545,
-        "no_speech_prob": 0.028167724609375
-      },
-      {
-        "start": 178.0,
-        "end": 185.0,
-        "text": "Just the shape of lesser force I'm the go of a frame",
-        "avg_logprob": -0.15527344308793545,
-        "no_speech_prob": 0.028167724609375
-      },
-      {
-        "start": 185.0,
-        "end": 193.0,
-        "text": "That was never set the same You don't need to move",
-        "avg_logprob": -0.15527344308793545,
-        "no_speech_prob": 0.028167724609375
-      },
-      {
-        "start": 193.0,
-        "end": 199.0,
-        "text": "To keep me moving You don't need to call",
-        "avg_logprob": -0.15527344308793545,
-        "no_speech_prob": 0.028167724609375
-      },
-      {
-        "start": 199.0,
-        "end": 206.0,
-        "text": "I'm already falling What we share is not divided",
-        "avg_logprob": -0.19342672002726588,
-        "no_speech_prob": 0.1361083984375
-      },
-      {
-        "start": 206.0,
-        "end": 211.0,
-        "text": "It's weighted What if center isn't mutual",
-        "avg_logprob": -0.19342672002726588,
-        "no_speech_prob": 0.1361083984375
-      },
-      {
-        "start": 211.0,
-        "end": 216.0,
-        "text": "Just inherited it",
-        "avg_logprob": -0.19342672002726588,
-        "no_speech_prob": 0.1361083984375
-      },
-      {
-        "start": 229.0,
-        "end": 244.0,
-        "text": "I begin to feel the strain Of revolving in your name",
-        "avg_logprob": -0.1376302110652129,
-        "no_speech_prob": 0.257080078125
-      },
-      {
-        "start": 244.0,
-        "end": 247.0,
-        "text": "Not a prison, not a fraud Just a fundamental law",
-        "avg_logprob": -0.1376302110652129,
-        "no_speech_prob": 0.257080078125
-      },
-      {
-        "start": 247.0,
-        "end": 250.0,
-        "text": "If I slip that from your spin You'd forget I'd ever been",
-        "avg_logprob": -0.1376302110652129,
-        "no_speech_prob": 0.257080078125
-      },
-      {
-        "start": 250.0,
-        "end": 255.0,
-        "text": "But if you were pulled away I would lose my frame to stay",
-        "avg_logprob": -0.1376302110652129,
-        "no_speech_prob": 0.257080078125
-      },
-      {
-        "start": 255.0,
-        "end": 263.0,
-        "text": "I'm defined by your mass I remain where balance lies",
-        "avg_logprob": -0.1677167300255068,
-        "no_speech_prob": 0.06463623046875
-      },
-      {
-        "start": 263.0,
-        "end": 269.0,
-        "text": "Even skewed, it still survives Not as equal, not as free",
-        "avg_logprob": -0.1677167300255068,
-        "no_speech_prob": 0.06463623046875
-      },
-      {
-        "start": 269.0,
-        "end": 276.0,
-        "text": "But consistent in its need I don't know if I feel where it bends",
-        "avg_logprob": -0.1677167300255068,
-        "no_speech_prob": 0.06463623046875
-      },
-      {
-        "start": 276.0,
-        "end": 282.0,
-        "text": "I just follow where it ends In the orbit I can see",
-        "avg_logprob": -0.1677167300255068,
-        "no_speech_prob": 0.06463623046875
-      },
-      {
-        "start": 283.0,
-        "end": 291.0,
-        "text": "You are more than I can ever be No escape, no demand",
-        "avg_logprob": -0.24158653158407944,
-        "no_speech_prob": 0.18505859375
-      },
-      {
-        "start": 291.0,
-        "end": 297.0,
-        "text": "Just a curfew I understand Not abandoned, not undone",
-        "avg_logprob": -0.24158653158407944,
-        "no_speech_prob": 0.18505859375
-      },
-      {
-        "start": 297.0,
-        "end": 300.0,
-        "text": "Just the lesser of the sons",
-        "avg_logprob": -0.24158653158407944,
-        "no_speech_prob": 0.18505859375
-      },
-      {
-        "start": 312.0,
-        "end": 317.0,
-        "text": "You are more than I can ever be",
-        "avg_logprob": -0.8309659090909091,
-        "no_speech_prob": 0.89599609375
-      }
-    ],
-    "avg_logprob": -0.2830036922265122
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 402,
-    "transcript_word_count": 394,
-    "matched_sequence_words": 327,
-    "lyric_alignment_ratio": 0.813,
-    "transcript_precision_ratio": 0.83,
-    "unique_expected_word_coverage": 0.861,
-    "word_count_ratio": 0.98,
-    "repeated_12gram_ratio": 0.0,
-    "half_similarity": 0.168,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.825,
-    "quality_score_0_10": 8.25,
-    "flags": [],
-    "transcript_excerpt": "Two bodies and a quiet bind One defines the frame of time I trace a curve I never chose Hold and pass your mask composed I was given last hold, less inertia in my role Every step I try to take Turns around your heavy awake You don't move the way I do You just start and die a crew Every shift and every bend As if you were origin I recall You remain, center drifts but not for me I translate you just be I circle with the downslings Closer and not just between Every arc I try to claim Fools back into your domain Now buy for second resist Just buy scale by who persists I am pulled into the proof Of\n...[truncated]...\nto feel the strain Of revolving in your name Not a prison, not a fraud Just a fundamental law If I slip that from your spin You'd forget I'd ever been But if you were pulled away I would lose my frame to stay I'm defined by your mass I remain where balance lies Even skewed, it still survives Not as equal, not as free But consistent in its need I don't know if I feel where it bends I just follow where it ends In the orbit I can see You are more than I can ever be No escape, no demand Just a curfew I understand Not abandoned, not undone Just the lesser of the sons You are more than I can ever be"
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.1,
-      "BP_beauty_spatial_poise": 8.6,
-      "EG_evolving_grammar": 7.8,
-      "CD_carry_depth": 9.3
+      "MI_motivic_integration": 8.2,
+      "BP_beauty_spatial_poise": 8.31,
+      "EG_evolving_grammar": 7.46,
+      "CD_carry_depth": 9.19
     },
     "core_metrics": {
-      "CDPD": 0.85,
-      "NGE": 0.67,
+      "CDPD": 0.874,
+      "NGE": 0.669,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
@@ -1884,48 +1581,54 @@
       "label": "Inhabited Form",
       "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
     },
-    "confidence_0_10": 8.1,
+    "confidence_0_10": 9.2,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track maintains a clear form with distinct sections, each contributing to a cohesive emotional arc. The returns feel like revisiting the same emotional room, reinforcing structural coherence."
+        "reason": "Strong structural design with clear transitions between intro, verse, pre-hook, and a distinct 'Drop' section."
       },
       "MI_motivic_integration": {
-        "delta": 0.55,
-        "reason": "Motifs recur across sections in altered forms, such as the vocal hook, guitar figure, and lyric image. These elements are integrated and evolve meaningfully, enhancing motivic integration."
+        "delta": 0.65,
+        "reason": "The lyrical progression from physical weight to orbital mechanics creates a cohesive thematic arc."
       },
       "BP_beauty_spatial_poise": {
-        "delta": 0.29,
-        "reason": "The production creates a memorable sonic habitat with intentional room tone and guitar space. The mix is coherent and spatially rich, contributing to a strong beauty-spatial poise."
+        "delta": 0.0,
+        "reason": "Score remains stable as the production matches the spatial imagery of 'orbit' and 'center'."
       },
       "EG_evolving_grammar": {
-        "delta": 0.34,
-        "reason": "The track develops a personal indie grammar over time, with meaningful changes in arrangement, harmony, and production. While not inventing a new method, it shows a distinct and evolving system."
+        "delta": 0.0,
+        "reason": "The grammar is consistent with the established indie/ambient aesthetic."
       },
       "CD_carry_depth": {
-        "delta": 0.11,
-        "reason": "The track feels like a small world, with a recognizable emotional and psychic habitat. It invites re-listening and leaves behind a specific image, phrase, or feeling."
+        "delta": 0.0,
+        "reason": "Lyrics maintain a high level of abstract depth throughout."
       }
     },
     "rationale": [
-      "Detected 10 audio sections over 5:17.12 with section-balance score 0.52.",
-      "Tempo estimate is 143.6 BPM; declared tempo alignment contributes 0.93.",
-      "Integrated loudness is -15.4 LUFS, peak is -0.7 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is F#/Gb minor with confidence 0.61.",
-      "Audio recurrence ratio is 0.284; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 387 beats and 105 downbeats; beat-grid stability is 0.94.",
-      "EG evidence: section contrast 2.12, cumulative evolution 0.70, transformed returns 10.00, grid deviation 0.65, rule changes 3.33.",
-      "Companion text has 12 lyric/production sections, 504 words, line repetition 0.01, rhyme-suffix reuse 0.27."
+      "The track exhibits sophisticated structural design with clear functional sections.",
+      "Lyrical content uses complex metaphors (orbital mechanics) to convey emotional weight.",
+      "Production matches the 'space' theme well."
     ],
     "review_flags": [
-      "Uncertainty remains around the exact nature of the harmonic and motivic integration due to the abstract and metaphorical nature of the lyrics and production cues."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:41:07.1717771Z",
-    "eval_count": 847,
-    "eval_duration": 14451973900
+    "created_at": "2026-06-10T10:41:18.0598816Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 10148072,
+      "base64_chars": 13530764,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 14408,
+    "prompt_eval_duration": 6306323000,
+    "eval_count": 408,
+    "eval_duration": 10180022000
   }
 }

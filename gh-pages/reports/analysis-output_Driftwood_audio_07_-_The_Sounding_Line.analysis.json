@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:08:53",
+  "generated_at": "2026-06-10T12:08:37",
   "audio": {
     "path": "Driftwood/audio/07 - The Sounding Line.mp3",
     "duration_seconds": 233.76,
@@ -1259,7 +1259,10 @@
   "framework": {
     "path": "analyzer/Indie.txt",
     "name": "Indie.txt",
-    "characters_loaded": 26670
+    "characters_loaded": 26670,
+    "llm_prompt_kind": "summary",
+    "llm_prompt_path": "analyzer/summaries/Indie.summary.txt",
+    "llm_prompt_characters": 4988
   },
   "framework_scoring": {
     "axes": {
@@ -1303,236 +1306,76 @@
       "beat_this detected 325 beats and 82 downbeats; beat-grid stability is 0.94.",
       "EG evidence: section contrast 1.87, cumulative evolution 0.45, transformed returns 10.00, grid deviation 0.19, rule changes 4.58.",
       "Companion text has 10 lyric/production sections, 424 words, line repetition 0.13, rhyme-suffix reuse 0.41.",
-      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change); intent score 5.95.",
-      "Transcription check: lyric alignment 0.88, unique-word coverage 0.86, word-count ratio 1.00, duplicate-pass estimate 1."
+      "Production/vocal notes contain transformation cues (density-change, formal-pivot, space-change); intent score 5.95."
     ]
-  },
-  "transcription": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "language": "en",
-    "language_probability": 1.0,
-    "text": "Dark the learn, let it sink, knuckles wide around the brink, leading twine, marked by mark, find the bottom in the dark. The fish has taught me depth by touch, what not to keep in careful count, no grand advice, no silver face. Just touch in patience, keep in place, I let it slip through thumb and thumb. About the seagull cold and calm, every feather took a thread from things I thought were better dead. There was the island, there the pale, there the shirt that failed to sail, there the mouth that called it neat. While quietly teaching me to bleed, some depth sensor when you ask, some keep wearing their old masks, some return of grain of sand and ice. Like what else your grip is hiding, sound it out, don't drag it up, not every bottom wants a cup, mark the depth and let it be. There are truths beneath the sea, sound it out, then give it slack, something speak by, not coming back. If I must cross what I don't see, let my hands remember me. At 20 marks the water cooled, at 30 I stopped feeling fooled, at 40 something and me knew the old egg had an underside too, it wasn't just the anchors pulled. It wasn't only hunger's hollow, it was the fear of open drift, of having no excuse to lift. The line came back with clay and shells, small proof from where the quiet settled, I held it like a rough command and rinsed the clay from every knuckle it doesn't vanish. When it's named it doesn't owe you any change, but what you measure without pride can stop deciding from inside. Sound it out, don't drag it up, not every bottom wants a cup, mark the depth and let it be. There are truths beneath the sea, sound it out, then give it slack, something speak by, not coming back. If I must cross what I don't see, let my hands remember me. No cure, no ink or no final word, I let that first become absurd, no blessed turn, no clean design, just wet, broke measure through my grip. And if I shake, let me shake, if I learn, let it take mark by mark, not too fast, depth is not averted. Drop the line, let it sink, leave some room around the brink, lead in twine, palm and breath, I can cross without a myth.",
-    "segments": [
-      {
-        "start": 0.0,
-        "end": 15.0,
-        "text": "Dark the learn, let it sink, knuckles wide around the brink, leading twine, marked by mark, find the bottom in the dark.",
-        "avg_logprob": -0.48214285373687743,
-        "no_speech_prob": 0.458984375
-      },
-      {
-        "start": 15.0,
-        "end": 33.0,
-        "text": "The fish has taught me depth by touch, what not to keep in careful count, no grand advice, no silver face.",
-        "avg_logprob": -0.3903061224489796,
-        "no_speech_prob": 0.495361328125
-      },
-      {
-        "start": 33.0,
-        "end": 39.0,
-        "text": "Just touch in patience, keep in place, I let it slip through thumb and thumb.",
-        "avg_logprob": -0.3903061224489796,
-        "no_speech_prob": 0.495361328125
-      },
-      {
-        "start": 39.0,
-        "end": 47.0,
-        "text": "About the seagull cold and calm, every feather took a thread from things I thought were better dead.",
-        "avg_logprob": -0.2613970630309161,
-        "no_speech_prob": 0.724609375
-      },
-      {
-        "start": 47.0,
-        "end": 55.0,
-        "text": "There was the island, there the pale, there the shirt that failed to sail, there the mouth that called it neat.",
-        "avg_logprob": -0.2613970630309161,
-        "no_speech_prob": 0.724609375
-      },
-      {
-        "start": 55.0,
-        "end": 68.0,
-        "text": "While quietly teaching me to bleed, some depth sensor when you ask, some keep wearing their old masks, some return of grain of sand and ice.",
-        "avg_logprob": -0.2613970630309161,
-        "no_speech_prob": 0.724609375
-      },
-      {
-        "start": 68.0,
-        "end": 79.0,
-        "text": "Like what else your grip is hiding, sound it out, don't drag it up, not every bottom wants a cup, mark the depth and let it be.",
-        "avg_logprob": -0.21589781320284282,
-        "no_speech_prob": 0.3125
-      },
-      {
-        "start": 79.0,
-        "end": 87.0,
-        "text": "There are truths beneath the sea, sound it out, then give it slack, something speak by, not coming back.",
-        "avg_logprob": -0.21589781320284282,
-        "no_speech_prob": 0.3125
-      },
-      {
-        "start": 87.0,
-        "end": 95.0,
-        "text": "If I must cross what I don't see, let my hands remember me.",
-        "avg_logprob": -0.1771484412252903,
-        "no_speech_prob": 0.49609375
-      },
-      {
-        "start": 95.0,
-        "end": 117.0,
-        "text": "At 20 marks the water cooled, at 30 I stopped feeling fooled, at 40 something and me knew the old egg had an underside too, it wasn't just the anchors pulled.",
-        "avg_logprob": -0.35080031650822335,
-        "no_speech_prob": 0.611328125
-      },
-      {
-        "start": 117.0,
-        "end": 126.0,
-        "text": "It wasn't only hunger's hollow, it was the fear of open drift, of having no excuse to lift.",
-        "avg_logprob": -0.13855698529411764,
-        "no_speech_prob": 0.89306640625
-      },
-      {
-        "start": 126.0,
-        "end": 139.0,
-        "text": "The line came back with clay and shells, small proof from where the quiet settled, I held it like a rough command and rinsed the clay from every knuckle it doesn't vanish.",
-        "avg_logprob": -0.13855698529411764,
-        "no_speech_prob": 0.89306640625
-      },
-      {
-        "start": 139.0,
-        "end": 150.0,
-        "text": "When it's named it doesn't owe you any change, but what you measure without pride can stop deciding from inside.",
-        "avg_logprob": -0.06438210173086686,
-        "no_speech_prob": 0.8916015625
-      },
-      {
-        "start": 150.0,
-        "end": 158.0,
-        "text": "Sound it out, don't drag it up, not every bottom wants a cup, mark the depth and let it be.",
-        "avg_logprob": -0.06438210173086686,
-        "no_speech_prob": 0.8916015625
-      },
-      {
-        "start": 158.0,
-        "end": 167.0,
-        "text": "There are truths beneath the sea, sound it out, then give it slack, something speak by, not coming back.",
-        "avg_logprob": -0.07124659969754842,
-        "no_speech_prob": 0.34521484375
-      },
-      {
-        "start": 167.0,
-        "end": 173.0,
-        "text": "If I must cross what I don't see, let my hands remember me.",
-        "avg_logprob": -0.07124659969754842,
-        "no_speech_prob": 0.34521484375
-      },
-      {
-        "start": 173.0,
-        "end": 185.0,
-        "text": "No cure, no ink or no final word, I let that first become absurd, no blessed turn, no clean design, just wet, broke measure through my grip.",
-        "avg_logprob": -0.2868009782151172,
-        "no_speech_prob": 0.66259765625
-      },
-      {
-        "start": 185.0,
-        "end": 207.0,
-        "text": "And if I shake, let me shake, if I learn, let it take mark by mark, not too fast, depth is not averted.",
-        "avg_logprob": -0.16145833333333334,
-        "no_speech_prob": 0.5283203125
-      },
-      {
-        "start": 215.0,
-        "end": 233.0,
-        "text": "Drop the line, let it sink, leave some room around the brink, lead in twine, palm and breath, I can cross without a myth.",
-        "avg_logprob": -0.12578125596046447,
-        "no_speech_prob": 0.353515625
-      }
-    ],
-    "avg_logprob": -0.23117701244704839
-  },
-  "transcription_quality": {
-    "available": true,
-    "backend": "faster-whisper",
-    "model": "base",
-    "status": "ok",
-    "expected_word_count": 409,
-    "transcript_word_count": 409,
-    "matched_sequence_words": 360,
-    "lyric_alignment_ratio": 0.88,
-    "transcript_precision_ratio": 0.88,
-    "unique_expected_word_coverage": 0.862,
-    "word_count_ratio": 1.0,
-    "repeated_12gram_ratio": 0.103,
-    "half_similarity": 0.343,
-    "likely_duplicate_passes": 1,
-    "repetition_penalty_0_1": 0.0,
-    "intelligibility_alignment_0_1": 0.877,
-    "quality_score_0_10": 8.77,
-    "flags": [],
-    "transcript_excerpt": "Dark the learn, let it sink, knuckles wide around the brink, leading twine, marked by mark, find the bottom in the dark. The fish has taught me depth by touch, what not to keep in careful count, no grand advice, no silver face. Just touch in patience, keep in place, I let it slip through thumb and thumb. About the seagull cold and calm, every feather took a thread from things I thought were better dead. There was the island, there the pale, there the shirt that failed to sail, there the mouth that called it neat. While quietly teaching me to bleed, some depth sensor when you ask, some keep wea\n...[truncated]...\ng it up, not every bottom wants a cup, mark the depth and let it be. There are truths beneath the sea, sound it out, then give it slack, something speak by, not coming back. If I must cross what I don't see, let my hands remember me. No cure, no ink or no final word, I let that first become absurd, no blessed turn, no clean design, just wet, broke measure through my grip. And if I shake, let me shake, if I learn, let it take mark by mark, not too fast, depth is not averted. Drop the line, let it sink, leave some room around the brink, lead in twine, palm and breath, I can cross without a myth."
   },
   "llm_adjusted_scoring": {
     "axes": {
       "SC_structural_coherence": 9.5,
-      "MI_motivic_integration": 8.5,
+      "MI_motivic_integration": 8.2,
       "BP_beauty_spatial_poise": 8.75,
-      "EG_evolving_grammar": 7.5,
-      "CD_carry_depth": 8.75
+      "EG_evolving_grammar": 7.49,
+      "CD_carry_depth": 8.71
     },
     "core_metrics": {
-      "CDPD": 0.89,
-      "NGE": 0.65,
+      "CDPD": 0.893,
+      "NGE": 0.652,
       "HMII_peak_estimate": 5
     },
     "rung_estimate": {
       "number": 13,
       "label": "Inhabited Form",
-      "note": "Heuristic ceiling is conservative; tiers above 13 need close listening and stronger evidence of new grammar."
+      "note": "High confidence in structure; clear distinction between verse/chorus and bridge."
     },
-    "confidence_0_10": 8.2,
+    "confidence_0_10": 8.5,
     "adjustments": {
       "SC_structural_coherence": {
         "delta": -0.5,
-        "reason": "The track maintains a clear verse/chorus/bridge/outro structure with strong section contrast and returns that feel like emotional revisits."
+        "reason": "Strong structural payoff with a distinct bridge and outro that functions as a thematic resolution."
       },
       "MI_motivic_integration": {
-        "delta": 0.3,
-        "reason": "Motifs like the vocal hook, guitar figure, and lyric image recur in altered forms across sections, showing strong integration."
+        "delta": 0.0,
+        "reason": "Base score reflects strong motif integration across the core structure."
       },
       "BP_beauty_spatial_poise": {
         "delta": 0.0,
-        "reason": "The spatial poise is central to the track’s identity, with room tone and guitar space forming a memorable habitat."
+        "reason": "Score remains stable; production notes confirm a spacious, intentional sonic habitat."
       },
       "EG_evolving_grammar": {
-        "delta": 0.01,
-        "reason": "The grammar develops a personal indie system over time, though it does not fully invent a new method."
+        "delta": 0.0,
+        "reason": "Base score reflects consistent lyrical evolution and sophisticated imagery."
       },
       "CD_carry_depth": {
-        "delta": 0.04,
-        "reason": "The track feels like a small world, with a strong emotional arc and memorable sonic imprint."
+        "delta": 0.0,
+        "reason": "Lyrics maintain high emotional weight and thematic consistency throughout."
       }
     },
     "rationale": [
-      "Detected 7 audio sections over 3:53.76 with section-balance score 0.45.",
-      "Tempo estimate is 112.3 BPM; declared tempo alignment contributes 0.86.",
-      "Integrated loudness is -17.3 LUFS, peak is -0.9 dBFS, clipping ratio is 0.00000.",
-      "Estimated key is D major with confidence 0.18.",
-      "Audio recurrence ratio is 0.413; this is a rough proxy for repeated musical cells, not true motif recognition.",
-      "beat_this detected 325 beats and 82 downbeats; beat-grid stability is 0.94.",
-      "EG evidence: section contrast 1.87, cumulative evolution 0.45, transformed returns 10.00, grid deviation 0.19, rule changes 4.58.",
-      "Companion text has 10 lyric/production sections, 424 words, line repetition 0.13, rhyme-suffix reuse 0.41."
+      "The track exhibits a highly intentional structure with clear demarcations between sections.",
+      "The 'Bridge' provides a significant shift in texture (almost a cappella) that builds tension before the final resolution.",
+      "Lyricism is sophisticated, utilizing recurring motifs ('mark by mark', 'depth') to create a sense of depth and interiority.",
+      "Production notes confirm a deliberate use of space and contrast as structural tools."
     ],
     "review_flags": [
-      "Uncertainty about the declared key (D major) due to low confidence (0.18).",
-      "Section detection appears consistent, but further listening may be needed for higher rungs."
+      "none"
     ],
     "model_note": "Axis deltas bounded to +/-1.5 around Python base scores.",
     "available": true,
-    "model": "qwen3:8b",
+    "model": "gemma4:12b",
     "url": "http://localhost:11434",
-    "created_at": "2026-06-03T20:08:53.6697091Z",
-    "eval_count": 796,
-    "eval_duration": 12949971600
+    "created_at": "2026-06-10T10:08:37.7173295Z",
+    "audio_attachment": {
+      "format": "wav",
+      "sample_rate": 16000,
+      "channels": 1,
+      "sample_format": "s16",
+      "bytes": 7480398,
+      "base64_chars": 9973864,
+      "max_seconds": null
+    },
+    "prompt_eval_count": 11107,
+    "prompt_eval_duration": 5257054000,
+    "eval_count": 425,
+    "eval_duration": 11610615000
   }
 }

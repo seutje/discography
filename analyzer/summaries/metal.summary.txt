@@ -1,0 +1,41 @@
+Progressive Rock / Progressive Metal / Djent Sorelian Adapter: compact LLM rubric
+
+Use for progressive rock, progressive metal, djent, instrumental prog, technical/rhythmic metal, atmospheric prog-metal, and hybrids with clean/heavy contrast. Unit is one track. Judge riffs, themes, movements, transitions, climaxes, rhythmic grammar, sonic weight, evolving rules, and emotional journey.
+
+Axes:
+- SC_structural_coherence: section architecture, transition logic, long-runtime control, clean/heavy contrast, climax, resolution, or meaningful suspension.
+- MI_motivic_integration: riffs, rhythmic cells, melodic themes, drum motifs, vocal hooks, harmonic cells, and texture gestures returning with transformation.
+- BP_beauty_spatial_poise: beauty/brutality balance, guitar tone, low-end control, drum clarity, vocal layering, ambience, density, stereo/depth, and mix legibility.
+- EG_evolving_grammar: whether riff, rhythm, harmony, arrangement, vocal, and production rules develop instead of merely stacking parts.
+- CD_carry_depth: whether the track feels like a journey, world, ordeal, or emotionally meaningful heaviness rather than technical display.
+
+Core metrics:
+- CDPD: how much riffs, sections, transitions, and climaxes derive from internal continuity rather than prog/djent templates.
+- NGE: new musical grammar in rhythm, tuning, form logic, riff syntax, tone design, orchestration, or hybrid language.
+- HMII_peak_estimate: independent meaningful lines at the densest moment. Count lead vocal/melody, main guitar riff, counter-riff/harmony, independent bass, drums with independent accent logic, keys/synth/orchestration, structural ambience/noise, backing vocals/choir/growls, solo line, or secondary rhythm layer. Ignore doublings.
+
+Rung calibration:
+- 1-3: unusable, gesture only, or fragment. No full track form or meaningful development.
+- 4 Half-Form: at least two sections exist, but riffs are pasted, contrast does not evolve, odd meters do not serve form, or ending just stops.
+- 5 Draft: full map exists, but riffs do not transform, bass follows roots, drums merely support, production is only serviceable.
+- 6 Serviceable: clean and listenable, but anonymous and predictable.
+- 7 Competent Template: standard intro/riff/verse/chorus/breakdown/solo/reprise grammar, safe modal harmony, familiar syncopation/chugs; CDPD 0.35-0.45, NGE 0.25-0.30, HMII 2-3.
+- 8 Strong Craft, Some Signature: one memorable riff/cell/hook/theme, altered repeat, intentional clean/heavy contrast, guitar/drum conversation, occasional independent bass, recognizable tone/space; CDPD 0.45-0.55, NGE about 0.35, HMII 3.
+- 9 Near-Perfection: every section earns length, no riff overstays, composed transitions, motif returns across instruments, clear tension/escalation/release, technicality serves song; CDPD 0.50-0.55, NGE 0.40-0.45, HMII 3-4.
+- 10 Technical Perfection: faultless established prog grammar; odd meters natural, groove heavy under complexity, tones polished, no filler or mix flaw; CDPD 0.55-0.60, NGE 0.45-0.50, HMII 4.
+- 11 First Rupture: one recurring rule-bending device defines identity: bar-length anomaly, polymetric signature, alternate harmonic law, transformed breakdown, structural tuning/tone device; CDPD >= 0.60, NGE about 0.50, HMII about 4.
+- 12 Recursion Threshold: one cell generates riff, phrase, section, and climax logic; e.g. chug pattern, interval, drum accents, vocal rhythm, harmonic movement, or texture gesture; NGE about 0.55, HMII 4-5.
+- 13 Inhabited Form: guitar tone, drum room, bass weight, synths, ambience, and vocals form one world; returns feel like locations; CDPD 0.60-0.65, NGE 0.52-0.58, HMII 4-5.
+- 14 Harmonic/Rhythmic Duality: two independent tensions remain legible: polymeter, beautiful melody over destabilizing rhythm, drums and guitars implying different pulses, or clean/mechanical worlds overlaying; CDPD about 0.70, NGE about 0.60, HMII >= 5.
+- 15 Divine Injury: one foreshadowed rupture permanently changes rules: sudden silence, tempo catastrophe, harsh chord, exposed clean collapse, groove-destroying breakdown; CDPD 0.70-0.75, NGE 0.62-0.66, HMII >= 5.
+- 16 Impossible Originality: a repeatable new rhythmic, tuning, clean-heavy, production-performance, or riff-construction method governs at least half the track; CDPD >= 0.80, NGE about 0.65, HMII >= 5.
+- 17 Sublime Disintegration: stable identity cracks, fragments, and reassembles or collapses meaningfully; emotional spine remains legible.
+- 18 Metaphysical Ordeal: at least three major complete states transform shared motifs into a narratable journey.
+- 19 Forbidden Tone: ugly tone, mechanical precision, instability, feedback, clipping, near-silence, anti-groove, or dissonance becomes central and musical; CDPD >= 0.85, NGE >= 0.60, HMII >= 5.
+- 20 Apocryphal Event Horizon: two independent innovations co-carry the work across at least half the runtime; CDPD >= 0.85, NGE >= 0.70, HMII >= 5.
+- 21-23 Icarus: three/four/five axes reach Tier-20 strength across sustained apex spans plus context-level innovation at 23.
+
+Adjustment rules:
+- Reward transformed riff/theme recurrences, composed transitions, legible density, meaningful odd-meter/polymeter, and clean/heavy contrast that changes the form.
+- Penalize pasted riff chains, showoff technicality with weak song function, muddy density, generic djent vocabulary, and unearned long runtimes.
+- Use measured beat stability, onset density, section balance, recurrence, evolving_grammar, and transcription quality as anchors; flag uncertainty when audio-only evidence is weak.

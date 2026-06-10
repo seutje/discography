@@ -1,0 +1,43 @@
+Quiet Cartouche Hip-Hop & Rap v13.4g + Icarus: compact LLM rubric
+
+Use for quiet-leaning hip-hop and rap: lo-fi, introspective, ambient/cloud rap, spacey boom-bap, reflective trap, and hushed alt-rap where beat, harmony, flow, hook systems, and spatial design matter as much as bars.
+
+Axes:
+- SC_structural_coherence: verse/hook/bridge/outro ecosystem, section lengths, drops, fills, hook entries, codas, and whether the track has an arc.
+- MI_motivic_integration: vocal flow cells, hook fragments, rhyme/phrase motifs, beat cells, sample slices, drum/bass figures, ad-libs, and spatial motifs returning with transformation.
+- BP_beauty_spatial_poise: beat/harmonic bed, bass control, vocal intelligibility, ad-lib placement, reverb/delay law, room/texture, and quiet-space mix legibility.
+- EG_evolving_grammar: whether flow, beat, harmony, arrangement, and space develop a governing method rather than repeating a loop.
+- CD_carry_depth: whether the track creates a memorable psychic room, lyrical stance, emotional arc, replay pull, or world.
+
+Core metrics:
+- CDPD: how much beat, flow, sections, and transitions derive from internal continuity rather than chill-rap templates.
+- NGE: new grammar in prosody, hook design, beat architecture, space, form, harmony, or text.
+- HMII_peak_estimate: independent meaningful lines at the densest moment. Count lead vocal, hook/backing vocal, ad-lib system, main sample/harmonic figure, bass, drum pattern, counter-melody/synth, texture/noise with structural function, and secondary rhythm. Ignore pure doublings.
+
+Rung calibration:
+- 1 Unusable: no consistent bar length, tempo feel, repeatable vocal count, or usable mix.
+- 2 Gesture Only: one beat or vocal gesture; no track form.
+- 3 Fragment: promising 4-8 bars or hook, but no full verse/hook ecosystem.
+- 4 Half-Form: loop plus long verse or loop plus hook; no lift, comedown, close, or codetta.
+- 5 Draft: full intro/verse/hook map exists, but beat is static, vocal phrasing generic, no spatial game.
+- 6 Serviceable: playlist-ready but anonymous; clean timing and intelligible mix, hook works but does not linger.
+- 7 Competent Template: standard 16-bar verses and 8-bar hooks, mellow 2-4 bar loop, safe harmony, on-grid flow, fixed lead/ad-lib space; CDPD 0.35-0.45, NGE 0.25-0.30, HMII 2-3.
+- 8 Strong Craft, Some Signature: distinctive rhythmic hook, sample fingerprint, altered repeat, color turn, hook cell in verse flow, or recurring spatial signature; CDPD 0.45-0.55, NGE about 0.35, HMII 3.
+- 9 Near-Perfection: no filler, beat micro-variation supports vocal structure, flow/ad-lib/harmonic motifs recur, section-specific space; CDPD 0.50-0.55, NGE 0.40-0.45, HMII 3-4.
+- 10 Technical Perfection: advanced internal rhyme, breath control, hook integration, invisible transitions, harmonic/bass pivots, top-tier quiet mix; CDPD 0.55-0.60, NGE 0.45-0.50, HMII 4.
+- 11 First Rupture: one identity-defining device in meter, form, or space appears early and returns: beat drop-outs, off-grid hook entry, odd bar extension, whispered chorus, etc.; CDPD >= 0.60, NGE about 0.50, HMII about 4.
+- 12 Recursion Threshold: one rhythmic, melodic, textual, or beat motif governs bar, phrase, and section levels; production joins with delay, stutter, ad-lib placement, or sample manipulation; NGE about 0.55, HMII 4-5.
+- 13 Inhabited Form: beat, flow, and room create a memorable habitat; hook returns feel like revisiting the same psychic space; CDPD 0.60-0.65, NGE 0.52-0.58, HMII 4-5.
+- 14 Harmonic/Spatial Duality: two harmonic or spatial laws alternate or overlay for multiple cycles; vocal behavior changes with each world; CDPD about 0.70, NGE about 0.60, HMII >= 5.
+- 15 Divine Injury: an early safe loop is re-framed by a traumatic rupture such as beat removal, exposed confession, harsh chord, or void; the wound echoes later; CDPD 0.70-0.75, NGE 0.62-0.66, HMII >= 5.
+- 16 Impossible Originality: the track pioneers a repeatable quiet-rap method such as sparse beat law, spoken-flow system, micro-sampled ambience as harmony, or procedural prosody; CDPD >= 0.80, NGE about 0.65, HMII >= 5.
+- 17 Sublime Disintegration: rap form intentionally fractures while emotional narrative remains legible.
+- 18 Metaphysical Ordeal: at least three complete states or production worlds create a narratable journey with persistent evolving sonic and textual motifs.
+- 19 Forbidden Tone: a taboo artifact such as clipped room mic, tape damage, phone distortion, or leaked-voice-note texture becomes the emotional language without losing musicality.
+- 20 Apocryphal Event Horizon: two independent innovations in rap grammar and quiet sonic context co-carry the work.
+- 21-23 Icarus: three/four/five axes reach Tier-20 strength while flow, rhyme, delivery, and beat craft stay at elite professional level.
+
+Adjustment rules:
+- Reward designed verse/hook ecosystems, transformed flow cells, beat variation under vocal structure, spatial design that marks sections, and lyric motifs that return with changed meaning.
+- Penalize static loops, generic lo-fi comfort, weak hook function, collapsed rhyme schemes, unintelligible vocals, full-song repetition, and copied playlist gestures.
+- Low lyric alignment or sparse transcript should reduce confidence and relevant axes, especially MI, EG, CD, and SC.

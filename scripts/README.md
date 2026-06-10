@@ -63,6 +63,8 @@ python scripts/analyze_collection.py "stderr" \
 
 The LLM does not analyze raw audio. It receives the measured features, lyrics/production notes, framework excerpt, and Python base scoring, then returns bounded score adjustments plus rationale. Axis changes are limited to `--llm-max-axis-delta` from the Python score by default.
 
+When a compact rubric exists at `analyzer/summaries/<framework-stem>.summary.txt`, the LLM adjustment uses that summary instead of a truncated slice of the full framework file. The full framework remains the canonical human document and is still recorded in the report; the report also records the LLM prompt source and character count.
+
 ## Transcription Quality Gate
 
 `analyze_track.py` can run a Whisper transcription pass and compare the generated vocal transcript with the intended `[LYRICS]` text:

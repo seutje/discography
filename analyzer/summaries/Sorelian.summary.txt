@@ -1,0 +1,48 @@
+Quiet Sorelian v13.4g + Icarus: compact LLM rubric
+
+Use for quiet, harmonic-motivic, ambient, art-song, classical-adjacent, and composition-first tracks where form, motif, harmonic beauty, sonic space, evolving internal rules, and emotional carry matter more than genre display.
+
+Axes:
+- SC_structural_coherence: section map, pacing, transitions, closure, and whether the piece holds as one form.
+- MI_motivic_integration: recurrence and transformation of melodic, harmonic, rhythmic, lyrical, textural, or production cells.
+- BP_beauty_spatial_poise: harmonic grace, timbral beauty, dynamic control, stereo/depth design, phrasing, and legible sonic habitat.
+- EG_evolving_grammar: whether the track develops its own rules over time through transformations, returns, dual laws, rupture, or multi-state design.
+- CD_carry_depth: replay pull, emotional transport, inhabitable world, and whether the track leaves a durable image or feeling.
+
+Core metrics:
+- CDPD: 0..1, how much the form derives from its own continuity rather than stock templates.
+- NGE: 0..1, how much new musical grammar appears across motif, harmony, texture, arrangement, or form.
+- HMII_peak_estimate: 1..10, count independent meaningful lines at the densest moment. Do not count pure doublings.
+
+Rung bands:
+- 1-6: sub-craft or pre-template. Incomplete, unstable, anonymous, or only serviceable.
+- 7-10: strong craft inside known grammar. No rupture; quality rises from competent template to technical perfection.
+- 11-14: first new-grammar behavior. One rule bends, recurs, or creates a memorable habitat while the piece stays stable.
+- 15-18: ordeal-capable design. A wound, original method, controlled disintegration, or multi-state journey changes the work.
+- 19-20: forbidden/event-level innovation. A normally wrong element becomes formal law, or two independent innovations co-carry the track.
+- 21-23: Icarus apex. Three, four, or five axes sustain Tier-20 strength across an extended apex span.
+
+Rung calibration:
+- 4 Half-Form: some sections exist, but transitions, returns, or closure are missing.
+- 5 Draft: full map exists, but harmony, motifs, and production feel generic.
+- 6 Serviceable: listenable and coherent, but anonymous.
+- 7 Competent Template: standard form mastered; CDPD about 0.35-0.45, NGE about 0.25-0.30, HMII 2-3.
+- 8 Strong Craft, Some Signature: memorable motif, color turn, altered repeat, or sonic fingerprint; CDPD about 0.45-0.55, NGE about 0.35, HMII 3.
+- 9 Near-Perfection: nearly faultless known grammar, strong pacing and motif returns; CDPD about 0.50-0.55, NGE about 0.40-0.45, HMII 3-4.
+- 10 Technical Perfection: flawless execution inside familiar grammar; CDPD about 0.55-0.60, NGE about 0.45-0.50, HMII 4.
+- 11 First Rupture: one clear rule-bending device defines identity; CDPD >= 0.60, NGE about 0.50, HMII about 4.
+- 12 Recursion Threshold: one cell governs bar, phrase, and form levels; NGE about 0.55, HMII 4-5.
+- 13 Inhabited Form: the track feels like a world or place; CDPD about 0.60-0.65, NGE about 0.52-0.58, HMII 4-5.
+- 14 Duality: two harmonic, spatial, rhythmic, or emotional laws alternate or overlay clearly; CDPD about 0.70, NGE about 0.60, HMII >= 5.
+- 15 Divine Injury: one foreshadowed rupture permanently changes the track; CDPD about 0.70-0.75, NGE about 0.62-0.66, HMII >= 5.
+- 16 Impossible Originality: a repeatable personal method governs much of the piece; CDPD >= 0.80, NGE about 0.65, HMII >= 5.
+- 17 Sublime Disintegration: form breaks apart intentionally while emotional meaning remains legible; CDPD about 0.78-0.82, NGE about 0.66-0.70, HMII >= 5.
+- 18 Metaphysical Ordeal: at least three complete states form a narratable journey; NGE about 0.68-0.70, HMII >= 5.
+- 19 Forbidden Tone: a normally avoided sound or behavior becomes the emotional grammar without losing musicality; CDPD >= 0.85, NGE >= 0.60, HMII >= 5.
+- 20 Apocryphal Event Horizon: two independent innovations operate across the work and all axes stay extremely high; CDPD >= 0.85, NGE >= 0.70, HMII >= 5.
+
+Adjustment rules:
+- Anchor to the Python base scores. Raise only when measured sections, recurrence, evolving_grammar evidence, lyrics/notes, and transcript quality support it.
+- Do not infer high rungs from ambition, mood tags, titles, or production notes alone.
+- Penalize clipping, weak lyric alignment, probable full-song repetition, sparse transcript, pasted sections, static loops, and generic use of genre presets.
+- Treat section detection as uncertain when sections look suspicious; flag rather than over-correct.

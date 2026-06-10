@@ -556,6 +556,16 @@ def choose_framework(audio_path: Path, text: TrackText, explicit: Path | None) -
     return None
 
 
+def framework_prompt_source(framework_path: Path | None, framework_raw: str) -> tuple[Path | None, str, str]:
+    if not framework_path:
+        return None, "", "none"
+
+    summary_path = framework_path.parent / "summaries" / f"{framework_path.stem}.summary.txt"
+    if summary_path.exists():
+        return summary_path, summary_path.read_text(encoding="utf-8"), "summary"
+    return framework_path, framework_raw, "framework"
+
+
 def estimate_key(chroma: np.ndarray) -> tuple[str, float]:
     vector = np.mean(chroma, axis=1)
     if np.linalg.norm(vector) == 0:
@@ -1829,6 +1839,7 @@ def main() -> int:
     track_text = read_track_text(text_path)
     framework_path = choose_framework(audio_path, track_text, args.framework)
     framework_raw = framework_path.read_text(encoding="utf-8") if framework_path and framework_path.exists() else ""
+    framework_prompt_path, framework_prompt_raw, framework_prompt_kind = framework_prompt_source(framework_path, framework_raw)
 
     audio = analyze_audio(audio_path, sample_rate=args.sample_rate, beat_file=args.beat_file)
     text = lyric_metrics(track_text)
@@ -1857,7 +1868,7 @@ def main() -> int:
             audio=audio,
             text=text,
             scoring=scoring,
-            framework_raw=framework_raw,
+            framework_raw=framework_prompt_raw,
             track_text=track_text,
             transcription_quality=transcription_quality,
             timeout=args.ollama_timeout,
@@ -1874,6 +1885,9 @@ def main() -> int:
             "path": str(framework_path) if framework_path else None,
             "name": framework_name,
             "characters_loaded": len(framework_raw),
+            "llm_prompt_kind": framework_prompt_kind,
+            "llm_prompt_path": str(framework_prompt_path) if framework_prompt_path else None,
+            "llm_prompt_characters": len(framework_prompt_raw),
         },
         "framework_scoring": scoring,
     }

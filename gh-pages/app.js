@@ -77,6 +77,31 @@ function updateRoute(route, { replace = false } = {}) {
   window.history[method](null, '', nextUrl);
 }
 
+function routeUrlFromLink(link) {
+  if (!link || link.hasAttribute('download')) return null;
+  const target = (link.getAttribute('target') || '').toLowerCase();
+  if (target && target !== '_self') return null;
+
+  let url;
+  try {
+    url = new URL(link.getAttribute('href') || '', window.location.href);
+  } catch {
+    return null;
+  }
+
+  if (url.origin !== window.location.origin || url.pathname !== window.location.pathname) return null;
+  const params = url.searchParams;
+  if (!params.has('album') && !params.has('song') && !params.has('report') && !params.has('view')) return null;
+  return url;
+}
+
+async function navigateToRouteUrl(url) {
+  if (url.href !== window.location.href) {
+    window.history.pushState(null, '', url);
+  }
+  await applyRouteFromUrl({ replace: true });
+}
+
 function recordForRouteSong(song, album = '') {
   return state.records.find(record => record.report_path === song) ||
     state.records.find(record =>
@@ -1903,6 +1928,20 @@ $('globalAudio').addEventListener('seeked', updateKaraokeLines);
 $('karaokePrevBtn').addEventListener('click', () => shiftManualLyric(-1));
 $('karaokeNextBtn').addEventListener('click', () => shiftManualLyric(1));
 document.addEventListener('click', async event => {
+  const routedNewsLink = event.target.closest('.news-body a[href]');
+  const routedNewsUrl = routeUrlFromLink(routedNewsLink);
+  if (
+    routedNewsUrl &&
+    event.button === 0 &&
+    !event.altKey &&
+    !event.ctrlKey &&
+    !event.metaKey &&
+    !event.shiftKey
+  ) {
+    event.preventDefault();
+    await navigateToRouteUrl(routedNewsUrl);
+    return;
+  }
   const copyLinkButton = event.target.closest('[data-copy-album-link], [data-copy-report-link], [data-copy-track-title]');
   if (copyLinkButton) {
     await copyRouteFromButton(copyLinkButton);

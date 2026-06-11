@@ -1,0 +1,1158 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Broken Temple",
+  "title": "Sea Salt Anchor",
+  "text_path": "Broken Temple/08 - Sea Salt Anchor.txt",
+  "audio_path": "Broken Temple/audio/08 - Sea Salt Anchor.mp3",
+  "duration_seconds": 298.52,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 116,
+    "reference_word_count": 395,
+    "observed_word_count": 388,
+    "matched_word_count": 310,
+    "matched_word_ratio": 0.785,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 4.66,
+      "end": 23.58,
+      "text": "So don't glass, line something, old-time knocking, I'm looking,"
+    },
+    {
+      "start": 26.76,
+      "end": 45.56,
+      "text": "Hold it down, hold it still, same old room, the sharp will."
+    },
+    {
+      "start": 52.28,
+      "end": 59.08,
+      "text": "I wrote once about an anchor salt water in the throat,"
+    },
+    {
+      "start": 63.64,
+      "end": 71.12,
+      "text": "However pure can pull you under our pretending with the conflote."
+    },
+    {
+      "start": 73.66,
+      "end": 82.14,
+      "text": "Here's when I got clever, change the cup, we're finding the harm called a hunger by new weather."
+    },
+    {
+      "start": 82.56,
+      "end": 90.42,
+      "text": "Healed the coast along my arm, my chore, and I'm a member, little harbor, bitterspark."
+    },
+    {
+      "start": 90.42,
+      "end": 103.78,
+      "text": "I said it was only sea salt for the country after dark, not a wave, not a dream, just a tight eye."
+    },
+    {
+      "start": 103.78,
+      "end": 118.04,
+      "text": "I chose to think, I snorted sea salt like an anchor said to cut the wreckage near every grain became a border, every border disappeared."
+    },
+    {
+      "start": 118.04,
+      "end": 130.92,
+      "text": "It's a water anchor, old companion, new coast under old and need, I was not chasing ever, now I was teaching, A to feed."
+    },
+    {
+      "start": 135.94,
+      "end": 152.38,
+      "text": "Cocaine has a clean white sermon for the man who wants control, it says the body is a nation, you cannot keep high by nose, it builds a flag inside the bloodstream, raises troops behind the eye,"
+    },
+    {
+      "start": 152.38,
+      "end": 178.42,
+      "text": "it's for one hour, all the ruins stand at attention and comply, and the morning comes unarmed more than the mouth is full of sand, then the country asks the body who is governed by command, not a cure, not a crown, just the old poor, remaining ground."
+    },
+    {
+      "start": 178.42,
+      "end": 190.76,
+      "text": "I snorted sea salt like an anchor said to cut the wreckage near every grain became a border, every border disappeared."
+    },
+    {
+      "start": 190.76,
+      "end": 203.5,
+      "text": "It's a water anchor, old companion, new coast under old and need, I was not chasing ever, now I was teaching, A to feed."
+    },
+    {
+      "start": 208.1,
+      "end": 232.44,
+      "text": "If I cut it loose tonight, will the floor still know my way? If I leave the salt untouched will my hands begin to shake, I am footies wanting, stacked in jars along the wall, once there's smoke, once there's powder, once there's nothing much at all."
+    },
+    {
+      "start": 252.68,
+      "end": 262.2,
+      "text": "I snorted sea salt like an anchor to the harbor lost its name, now I stand beside the mirror,"
+    },
+    {
+      "start": 262.2,
+      "end": 290.02,
+      "text": "with no mercy and no blame, so water anchor, some weights pretend to hold you while they carry you away, salt on glass, hand with drunk, old times speaking past the dawn, hold it down,"
+    },
+    {
+      "start": 290.02,
+      "end": 298.52,
+      "text": "let it go, I am tired of sinking myself."
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - grain clicks | low undertow",
+      "start": 6.78,
+      "end": 8.06,
+      "text": "Salt on glass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 1,
+      "section": "Intro - grain clicks | low undertow",
+      "start": 8.58,
+      "end": 11.66,
+      "text": "line drawn thin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 2,
+      "section": "Intro - grain clicks | low undertow",
+      "start": 15.88,
+      "end": 19.0,
+      "text": "old tide knocking",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 3,
+      "section": "Intro - grain clicks | low undertow",
+      "start": 19.0,
+      "end": 26.76,
+      "text": "under skin",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 4,
+      "section": "Intro - grain clicks | low undertow",
+      "start": 26.76,
+      "end": 30.0,
+      "text": "Hold it down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 5,
+      "section": "Intro - grain clicks | low undertow",
+      "start": 30.0,
+      "end": 33.8,
+      "text": "hold it still",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 6,
+      "section": "Intro - grain clicks | low undertow",
+      "start": 35.94,
+      "end": 39.64,
+      "text": "same old rope",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 7,
+      "section": "Intro - grain clicks | low undertow",
+      "start": 44.94,
+      "end": 45.56,
+      "text": "a sharper will",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 52.28,
+      "end": 54.16,
+      "text": "I wrote once",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 54.16,
+      "end": 55.96,
+      "text": "about an anchor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 55.96,
+      "end": 57.42,
+      "text": "salt water",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 57.42,
+      "end": 59.08,
+      "text": "in the throat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 59.08,
+      "end": 65.48,
+      "text": "How every cure",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 65.48,
+      "end": 67.1,
+      "text": "can pull you under",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 67.54,
+      "end": 68.42,
+      "text": "while pretending",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 68.42,
+      "end": 71.54,
+      "text": "it can float",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 71.54,
+      "end": 74.66,
+      "text": "Years went by",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 74.66,
+      "end": 76.68,
+      "text": "and I got clever",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 77.32,
+      "end": 77.92,
+      "text": "changed the cup",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 78.62,
+      "end": 79.38,
+      "text": "refined the harm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 79.38,
+      "end": 80.78,
+      "text": "Called the hunger",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 80.78,
+      "end": 82.14,
+      "text": "by new weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 82.86,
+      "end": 83.56,
+      "text": "held the coast",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 83.56,
+      "end": 85.04,
+      "text": "along my arm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 85.04,
+      "end": 86.96,
+      "text": "White shoreline",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 86.96,
+      "end": 87.26,
+      "text": "on a mirror",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 88.16,
+      "end": 89.08,
+      "text": "little harbor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 89.08,
+      "end": 90.42,
+      "text": "bitter spark",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 90.42,
+      "end": 91.88,
+      "text": "I said it was",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 91.88,
+      "end": 93.42,
+      "text": "only sea salt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 93.42,
+      "end": 94.66,
+      "text": "for the country",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 - minimal pulse | dry vocal",
+      "start": 94.66,
+      "end": 95.94,
+      "text": "after dark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 32,
+      "section": "Pre-Hook - delay tightens",
+      "start": 96.0,
+      "end": 97.56,
+      "text": "Not a wave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 33,
+      "section": "Pre-Hook - delay tightens",
+      "start": 97.84,
+      "end": 99.8,
+      "text": "not a drink",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 34,
+      "section": "Pre-Hook - delay tightens",
+      "start": 100.64,
+      "end": 102.46,
+      "text": "just a tide",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Pre-Hook - delay tightens",
+      "start": 103.78,
+      "end": 106.16,
+      "text": "I chose to think",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 36,
+      "section": "Hook - heavy sub | strained harmony",
+      "start": 106.96,
+      "end": 110.14,
+      "text": "I snorted sea salt like an anchor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 37,
+      "section": "Hook - heavy sub | strained harmony",
+      "start": 110.14,
+      "end": 112.74,
+      "text": "said it kept the wreckage near",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 38,
+      "section": "Hook - heavy sub | strained harmony",
+      "start": 112.74,
+      "end": 115.64,
+      "text": "every grain became a border",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 39,
+      "section": "Hook - heavy sub | strained harmony",
+      "start": 115.68,
+      "end": 118.04,
+      "text": "every border disappeared",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 40,
+      "section": "Hook - heavy sub | strained harmony",
+      "start": 118.66,
+      "end": 119.88,
+      "text": "Salt water anchor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 41,
+      "section": "Hook - heavy sub | strained harmony",
+      "start": 119.88,
+      "end": 121.04,
+      "text": "old companion",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 42,
+      "section": "Hook - heavy sub | strained harmony",
+      "start": 121.6,
+      "end": 123.68,
+      "text": "new coast under older need",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Hook - heavy sub | strained harmony",
+      "start": 123.9,
+      "end": 126.1,
+      "text": "I was not chasing heaven",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 44,
+      "section": "Hook - heavy sub | strained harmony",
+      "start": 127.28,
+      "end": 130.92,
+      "text": "I was teaching ache to feed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 45,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 135.94,
+      "end": 137.06,
+      "text": "Cocaine has",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 46,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 137.06,
+      "end": 138.72,
+      "text": "a clean white sermon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 47,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 138.72,
+      "end": 139.88,
+      "text": "for the man",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 48,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 139.88,
+      "end": 141.42,
+      "text": "who wants control",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 49,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 141.68,
+      "end": 143.38,
+      "text": "It says the body",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 50,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 143.38,
+      "end": 144.54,
+      "text": "is a nation",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 144.82,
+      "end": 144.92,
+      "text": "you can occupy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 52,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 146.16,
+      "end": 146.94,
+      "text": "by nose",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 53,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 147.2,
+      "end": 148.24,
+      "text": "It builds a flag",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 54,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 148.24,
+      "end": 149.98,
+      "text": "inside the bloodstream",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 55,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 150.16,
+      "end": 150.98,
+      "text": "raises troops",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 150.98,
+      "end": 151.94,
+      "text": "behind the eyes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 152.66,
+      "end": 153.72,
+      "text": "For one hour",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 153.72,
+      "end": 154.64,
+      "text": "all the ruins",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 154.64,
+      "end": 156.28,
+      "text": "stand at attention",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 156.28,
+      "end": 157.52,
+      "text": "and comply",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 158.24,
+      "end": 159.0,
+      "text": "Then the morning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 159.0,
+      "end": 159.58,
+      "text": "comes unarmored",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 160.8,
+      "end": 161.32,
+      "text": "then the mouth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 161.32,
+      "end": 162.9,
+      "text": "is full of sand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 163.38,
+      "end": 164.6,
+      "text": "Then the country",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 164.6,
+      "end": 165.82,
+      "text": "asks the body",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 165.82,
+      "end": 167.12,
+      "text": "who has governed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 - dub echoes | wide spatial depth",
+      "start": 167.12,
+      "end": 168.6,
+      "text": "by command",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 69,
+      "section": "Pre-Hook - low octave shadow",
+      "start": 168.92,
+      "end": 169.96,
+      "text": "Not a cure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 70,
+      "section": "Pre-Hook - low octave shadow",
+      "start": 170.36,
+      "end": 172.9,
+      "text": "not a crown",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Pre-Hook - low octave shadow",
+      "start": 174.1,
+      "end": 175.46,
+      "text": "just the old pull",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 72,
+      "section": "Pre-Hook - low octave shadow",
+      "start": 176.96,
+      "end": 178.42,
+      "text": "renamed and ground",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 73,
+      "section": "Hook - fuller, unstable texture",
+      "start": 178.42,
+      "end": 182.68,
+      "text": "I snorted sea salt like an anchor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 74,
+      "section": "Hook - fuller, unstable texture",
+      "start": 182.68,
+      "end": 185.28,
+      "text": "said it kept the wreckage near",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 75,
+      "section": "Hook - fuller, unstable texture",
+      "start": 185.28,
+      "end": 188.44,
+      "text": "every grain became a border",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 76,
+      "section": "Hook - fuller, unstable texture",
+      "start": 188.5,
+      "end": 190.76,
+      "text": "every border disappeared",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 77,
+      "section": "Hook - fuller, unstable texture",
+      "start": 191.36,
+      "end": 192.6,
+      "text": "Salt water anchor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 78,
+      "section": "Hook - fuller, unstable texture",
+      "start": 192.6,
+      "end": 193.74,
+      "text": "old companion",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 79,
+      "section": "Hook - fuller, unstable texture",
+      "start": 194.24,
+      "end": 196.66,
+      "text": "new coast under older need",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 80,
+      "section": "Hook - fuller, unstable texture",
+      "start": 196.94,
+      "end": 198.98,
+      "text": "I was not chasing heaven",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 81,
+      "section": "Hook - fuller, unstable texture",
+      "start": 200.14,
+      "end": 203.5,
+      "text": "I was teaching ache to feed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 82,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 208.1,
+      "end": 210.14,
+      "text": "If I cut it loose",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 83,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 210.14,
+      "end": 210.84,
+      "text": "tonight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 84,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 211.1,
+      "end": 212.24,
+      "text": "will the floor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 85,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 212.24,
+      "end": 213.18,
+      "text": "still know my weight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 86,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 214.44,
+      "end": 215.82,
+      "text": "If I leave the salt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 87,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 215.82,
+      "end": 216.72,
+      "text": "untouched",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 88,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 216.72,
+      "end": 217.98,
+      "text": "will my hands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 89,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 217.98,
+      "end": 219.36,
+      "text": "begin to shake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 90,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 219.64,
+      "end": 220.42,
+      "text": "I am forty years",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 91,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 221.32,
+      "end": 222.16,
+      "text": "of wanting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 92,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 222.68,
+      "end": 223.72,
+      "text": "stacked in jars",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 93,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 223.72,
+      "end": 225.04,
+      "text": "along the wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 94,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 226.16,
+      "end": 226.42,
+      "text": "one says smoke",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 95,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 227.62,
+      "end": 228.12,
+      "text": "one says powder",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 96,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 229.38,
+      "end": 230.08,
+      "text": "one says nothing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 97,
+      "section": "Bridge - percussion drop | vacuum space",
+      "start": 230.08,
+      "end": 232.44,
+      "text": "much at all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 98,
+      "section": "Rupture - heavy sub hit | sudden silence",
+      "start": 232.44,
+      "end": 242.56,
+      "text": "I called it anchor",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 99,
+      "section": "Rupture - heavy sub hit | sudden silence",
+      "start": 242.56,
+      "end": 252.68,
+      "text": "It called me back",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 100,
+      "section": "Final Hook - percussion removed | raw/thin vocal",
+      "start": 252.68,
+      "end": 256.74,
+      "text": "I snorted sea salt like an anchor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 101,
+      "section": "Final Hook - percussion removed | raw/thin vocal",
+      "start": 257.26,
+      "end": 259.22,
+      "text": "until the harbor lost its name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 102,
+      "section": "Final Hook - percussion removed | raw/thin vocal",
+      "start": 259.22,
+      "end": 262.2,
+      "text": "now I stand beside the mirror",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 103,
+      "section": "Final Hook - percussion removed | raw/thin vocal",
+      "start": 262.2,
+      "end": 264.84,
+      "text": "with no mercy and no blame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 104,
+      "section": "Final Hook - percussion removed | raw/thin vocal",
+      "start": 265.36,
+      "end": 266.8,
+      "text": "Salt water anchor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 105,
+      "section": "Final Hook - percussion removed | raw/thin vocal",
+      "start": 266.8,
+      "end": 267.36,
+      "text": "(the first song's truth)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 106,
+      "section": "Final Hook - percussion removed | raw/thin vocal",
+      "start": 267.36,
+      "end": 271.2,
+      "text": "some weights pretend to hold you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 107,
+      "section": "Final Hook - percussion removed | raw/thin vocal",
+      "start": 271.2,
+      "end": 274.96,
+      "text": "while they carry you away",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 108,
+      "section": "Outro - breath & sub-bass | long delay tail",
+      "start": 275.22,
+      "end": 278.86,
+      "text": "Salt on glass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 109,
+      "section": "Outro - breath & sub-bass | long delay tail",
+      "start": 280.04,
+      "end": 281.28,
+      "text": "hand withdrawn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 110,
+      "section": "Outro - breath & sub-bass | long delay tail",
+      "start": 283.44,
+      "end": 285.64,
+      "text": "old tide speaking",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 111,
+      "section": "Outro - breath & sub-bass | long delay tail",
+      "start": 285.64,
+      "end": 288.04,
+      "text": "past the dawn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 112,
+      "section": "Outro - breath & sub-bass | long delay tail",
+      "start": 288.46,
+      "end": 290.02,
+      "text": "Hold it down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 113,
+      "section": "Outro - breath & sub-bass | long delay tail",
+      "start": 290.02,
+      "end": 292.44,
+      "text": "let it go",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 114,
+      "section": "Outro - breath & sub-bass | long delay tail",
+      "start": 292.68,
+      "end": 295.8,
+      "text": "I am tired",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 115,
+      "section": "Outro - breath & sub-bass | long delay tail",
+      "start": 295.8,
+      "end": 297.48,
+      "text": "of sinking slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    }
+  ]
+}

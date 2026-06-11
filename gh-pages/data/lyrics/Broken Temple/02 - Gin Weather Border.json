@@ -1,0 +1,1310 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Broken Temple",
+  "title": "Gin Weather Border",
+  "text_path": "Broken Temple/02 - Gin Weather Border.txt",
+  "audio_path": "Broken Temple/audio/02 - Gin Weather Border.mp3",
+  "duration_seconds": 268.54,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 114,
+    "reference_word_count": 385,
+    "observed_word_count": 378,
+    "matched_word_count": 319,
+    "matched_word_ratio": 0.829,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 30.0,
+      "end": 33.46,
+      "text": "I read the sink, I learned the clouds by the cupboard hinge"
+    },
+    {
+      "start": 33.46,
+      "end": 36.16,
+      "text": "By the way her hand forgot to think"
+    },
+    {
+      "start": 36.16,
+      "end": 39.08,
+      "text": "Some nights she sang to an empty room"
+    },
+    {
+      "start": 39.08,
+      "end": 42.28,
+      "text": "Some nights the walls reassigned their sight"
+    },
+    {
+      "start": 42.28,
+      "end": 47.86,
+      "text": "I kept my passport under my tongue and crossed the border inside"
+    },
+    {
+      "start": 49.12,
+      "end": 51.46,
+      "text": "The ass straight feel like winter love"
+    },
+    {
+      "start": 52.08,
+      "end": 54.4,
+      "text": "Do cigarettes and shade commander"
+    },
+    {
+      "start": 55.04,
+      "end": 60.32,
+      "text": "Read the empire second hand and called it ordinary land"
+    },
+    {
+      "start": 60.32,
+      "end": 65.02,
+      "text": "Children write the barometer before the late"
+    },
+    {
+      "start": 65.02,
+      "end": 71.9,
+      "text": "They feel pressure entering and make themselves small ways"
+    },
+    {
+      "start": 71.9,
+      "end": 77.34,
+      "text": "Get weather on the border, rain in inside the bone"
+    },
+    {
+      "start": 78.08,
+      "end": 80.72,
+      "text": "I wasn't trying to keep one"
+    },
+    {
+      "start": 80.72,
+      "end": 83.92,
+      "text": "Drowning some of my own mother"
+    },
+    {
+      "start": 83.92,
+      "end": 88.24,
+      "text": "I can name it now and naming is not blame"
+    },
+    {
+      "start": 88.8,
+      "end": 95.54,
+      "text": "Some countries shut their villages and still keep someone's name"
+    },
+    {
+      "start": 105.8,
+      "end": 108.7,
+      "text": "Morning came and cared for parts"
+    },
+    {
+      "start": 108.7,
+      "end": 111.62,
+      "text": "Serial school bag practiced face"
+    },
+    {
+      "start": 111.62,
+      "end": 114.26,
+      "text": "Nothing broken in the report"
+    },
+    {
+      "start": 114.9,
+      "end": 117.44,
+      "text": "Nothing marked in the right place"
+    },
+    {
+      "start": 117.44,
+      "end": 118.82,
+      "text": "But the body keeps its legend"
+    },
+    {
+      "start": 118.82,
+      "end": 121.54,
+      "text": "Nothing worse but in a jar every flinch"
+    },
+    {
+      "start": 121.54,
+      "end": 127.68,
+      "text": "It comes a treaty signed before you read the law"
+    },
+    {
+      "start": 129.38,
+      "end": 131.56,
+      "text": "I loved her from the doorway"
+    },
+    {
+      "start": 131.56,
+      "end": 134.86,
+      "text": "Well loving had a safer age"
+    },
+    {
+      "start": 134.86,
+      "end": 138.12,
+      "text": "A child can miss the person there"
+    },
+    {
+      "start": 138.12,
+      "end": 141.3,
+      "text": "Still fear the weather change"
+    },
+    {
+      "start": 141.3,
+      "end": 143.84,
+      "text": "No verdict, no trying"
+    },
+    {
+      "start": 143.84,
+      "end": 146.82,
+      "text": "Just flood plain and high a line"
+    },
+    {
+      "start": 147.46,
+      "end": 149.72,
+      "text": "No hard enough ground"
+    },
+    {
+      "start": 149.72,
+      "end": 153.26,
+      "text": "Just the map of what went down"
+    },
+    {
+      "start": 154.1,
+      "end": 159.18,
+      "text": "Jam weather on the border, rain inside the bone"
+    },
+    {
+      "start": 160.1,
+      "end": 162.56,
+      "text": "I was trying to keep one"
+    },
+    {
+      "start": 162.56,
+      "end": 165.96,
+      "text": "Drowning some of my own mother"
+    },
+    {
+      "start": 165.96,
+      "end": 170.36,
+      "text": "I can name it now and naming is not blame"
+    },
+    {
+      "start": 171.14,
+      "end": 176.8,
+      "text": "Some countries flood their villages and still keep someone's name"
+    },
+    {
+      "start": 182.36,
+      "end": 188.2,
+      "text": "If I smoke, is it inheritance or a match I chose to strike"
+    },
+    {
+      "start": 188.8,
+      "end": 194.18,
+      "text": "If I drink, is it geography or a road I walk at night"
+    },
+    {
+      "start": 194.18,
+      "end": 199.84,
+      "text": "I carry her as weather, not sentence, not crown"
+    },
+    {
+      "start": 200.64,
+      "end": 203.2,
+      "text": "Just the lowland in my body"
+    },
+    {
+      "start": 203.2,
+      "end": 206.96,
+      "text": "Where the first rain settled down"
+    },
+    {
+      "start": 207.6,
+      "end": 213.06,
+      "text": "Jam weather on the border, still the river knows my name"
+    },
+    {
+      "start": 213.6,
+      "end": 217.08,
+      "text": "I can build above the border without denying"
+    },
+    {
+      "start": 217.6,
+      "end": 221.72,
+      "text": "Where it came mother, I can name it now"
+    },
+    {
+      "start": 221.72,
+      "end": 223.96,
+      "text": "The name does not absorb"
+    },
+    {
+      "start": 224.64,
+      "end": 227.6,
+      "text": "But the child beneath the stairwell"
+    },
+    {
+      "start": 227.6,
+      "end": 230.22,
+      "text": "Is a country that evil"
+    },
+    {
+      "start": 232.96,
+      "end": 237.4,
+      "text": "Clutch on wood, morning after"
+    },
+    {
+      "start": 238.96,
+      "end": 243.42,
+      "text": "Clouds and dun, but never gone"
+    },
+    {
+      "start": 244.88,
+      "end": 251.52,
+      "text": "Small dry place, hand on border, I am here"
+    },
+    {
+      "start": 253.92,
+      "end": 255.82,
+      "text": "I carry it on"
+    },
+    {
+      "start": 267.12,
+      "end": 268.54,
+      "text": "Clutch on wood"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - filtered rain taps | low sub pressure",
+      "start": 0.0,
+      "end": 5.659,
+      "text": "Glass on wood",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 1,
+      "section": "Intro - filtered rain taps | low sub pressure",
+      "start": 5.659,
+      "end": 9.431,
+      "text": "weather coming",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 2,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 9.431,
+      "end": 16.976,
+      "text": "Mother was a country",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 3,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 16.976,
+      "end": 22.635,
+      "text": "of sudden rain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 4,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 22.635,
+      "end": 30.18,
+      "text": "gin in the lowlands",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 5,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 30.18,
+      "end": 30.64,
+      "text": "thunder at the sink",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 30.88,
+      "end": 32.12,
+      "text": "I learned the clouds",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 32.12,
+      "end": 33.46,
+      "text": "by the cupboard hinge",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 33.46,
+      "end": 35.08,
+      "text": "by the way her hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 35.08,
+      "end": 36.16,
+      "text": "forgot to think",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 36.16,
+      "end": 37.7,
+      "text": "Some nights she sang",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 37.7,
+      "end": 39.08,
+      "text": "to an empty room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 39.08,
+      "end": 40.62,
+      "text": "some nights the walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 40.62,
+      "end": 41.74,
+      "text": "reassigned their side",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 42.28,
+      "end": 43.74,
+      "text": "I kept my passport",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 43.74,
+      "end": 45.06,
+      "text": "under my tongue",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 45.06,
+      "end": 46.44,
+      "text": "and crossed the border",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 46.44,
+      "end": 47.86,
+      "text": "inside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 48.98,
+      "end": 49.36,
+      "text": "The ashtray filled",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 50.26,
+      "end": 50.9,
+      "text": "like winter law",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 52.2,
+      "end": 52.74,
+      "text": "two cigarettes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 52.74,
+      "end": 55.28,
+      "text": "in shared command",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 55.28,
+      "end": 55.98,
+      "text": "I breathed the empire",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 55.98,
+      "end": 57.0,
+      "text": "second-hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 57.0,
+      "end": 58.12,
+      "text": "and called it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - tight dry mix | intimate vocal",
+      "start": 58.12,
+      "end": 60.32,
+      "text": "ordinary land",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 26,
+      "section": "Pre-Hook - delay widens | spatial expansion",
+      "start": 60.32,
+      "end": 61.14,
+      "text": "Children read",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 27,
+      "section": "Pre-Hook - delay widens | spatial expansion",
+      "start": 61.82,
+      "end": 63.0,
+      "text": "the barometer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 28,
+      "section": "Pre-Hook - delay widens | spatial expansion",
+      "start": 63.0,
+      "end": 63.52,
+      "text": "before",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 29,
+      "section": "Pre-Hook - delay widens | spatial expansion",
+      "start": 63.52,
+      "end": 64.12,
+      "text": "the date",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 30,
+      "section": "Pre-Hook - delay widens | spatial expansion",
+      "start": 65.02,
+      "end": 66.88,
+      "text": "They feel pressure",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 31,
+      "section": "Pre-Hook - delay widens | spatial expansion",
+      "start": 66.88,
+      "end": 68.2,
+      "text": "entering",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 32,
+      "section": "Pre-Hook - delay widens | spatial expansion",
+      "start": 68.2,
+      "end": 69.26,
+      "text": "and make themselves",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 33,
+      "section": "Pre-Hook - delay widens | spatial expansion",
+      "start": 69.26,
+      "end": 70.28,
+      "text": "small weight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 34,
+      "section": "Hook - sub bloom | doubled harmony",
+      "start": 72.64,
+      "end": 74.54,
+      "text": "Gin weather on the border",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 35,
+      "section": "Hook - sub bloom | doubled harmony",
+      "start": 74.54,
+      "end": 77.34,
+      "text": "rain inside the bone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 36,
+      "section": "Hook - sub bloom | doubled harmony",
+      "start": 77.9,
+      "end": 80.06,
+      "text": "I was trying to keep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 37,
+      "section": "Hook - sub bloom | doubled harmony",
+      "start": 80.06,
+      "end": 83.14,
+      "text": "one dry province of my own",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 38,
+      "section": "Hook - sub bloom | doubled harmony",
+      "start": 83.14,
+      "end": 86.02,
+      "text": "Mother, I can name it now",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 39,
+      "section": "Hook - sub bloom | doubled harmony",
+      "start": 86.02,
+      "end": 88.24,
+      "text": "and naming is not blame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 40,
+      "section": "Hook - sub bloom | doubled harmony",
+      "start": 88.74,
+      "end": 91.5,
+      "text": "some countries flood their villages",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Hook - sub bloom | doubled harmony",
+      "start": 91.5,
+      "end": 95.54,
+      "text": "and still keep someone's name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 42,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 105.8,
+      "end": 107.12,
+      "text": "Morning came",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 43,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 108.08,
+      "end": 108.7,
+      "text": "in careful parts",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 44,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 108.7,
+      "end": 110.34,
+      "text": "cereal, schoolbag",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 45,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 110.34,
+      "end": 111.62,
+      "text": "practiced face",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 46,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 111.62,
+      "end": 112.82,
+      "text": "Nothing broken",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 47,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 112.82,
+      "end": 114.26,
+      "text": "in the report",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 48,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 114.81,
+      "end": 115.78,
+      "text": "nothing marked",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 49,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 115.78,
+      "end": 117.44,
+      "text": "in the right place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 50,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 117.44,
+      "end": 118.4,
+      "text": "But the body keeps",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 51,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 118.4,
+      "end": 118.56,
+      "text": "its ledger",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 52,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 118.56,
+      "end": 119.58,
+      "text": "not in words",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 53,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 119.58,
+      "end": 120.26,
+      "text": "but in the jaw",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 54,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 120.54,
+      "end": 121.54,
+      "text": "Every flinch",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 55,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 122.0,
+      "end": 122.48,
+      "text": "becomes a treaty",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 122.48,
+      "end": 124.02,
+      "text": "signed before",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 124.02,
+      "end": 127.68,
+      "text": "you read the law",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 129.12,
+      "end": 130.06,
+      "text": "I loved her",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 130.06,
+      "end": 131.56,
+      "text": "from the doorway",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 132.08,
+      "end": 132.78,
+      "text": "where loving had",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 132.78,
+      "end": 133.58,
+      "text": "a safer range",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 134.86,
+      "end": 136.36,
+      "text": "A child can miss",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 136.36,
+      "end": 138.12,
+      "text": "the person there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 138.12,
+      "end": 139.42,
+      "text": "and still fear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - dub echoes | spacious texture",
+      "start": 139.42,
+      "end": 141.3,
+      "text": "the weather change",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 66,
+      "section": "Pre-Hook - low-end swell | heavy texture",
+      "start": 141.3,
+      "end": 142.54,
+      "text": "No verdict",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 67,
+      "section": "Pre-Hook - low-end swell | heavy texture",
+      "start": 142.8,
+      "end": 143.14,
+      "text": "no shrine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 68,
+      "section": "Pre-Hook - low-end swell | heavy texture",
+      "start": 143.84,
+      "end": 144.46,
+      "text": "just floodplain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 69,
+      "section": "Pre-Hook - low-end swell | heavy texture",
+      "start": 145.3,
+      "end": 146.82,
+      "text": "and higher line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 70,
+      "section": "Pre-Hook - low-end swell | heavy texture",
+      "start": 147.3,
+      "end": 147.78,
+      "text": "No pardon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 71,
+      "section": "Pre-Hook - low-end swell | heavy texture",
+      "start": 147.78,
+      "end": 149.72,
+      "text": "no crown",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 72,
+      "section": "Pre-Hook - low-end swell | heavy texture",
+      "start": 149.72,
+      "end": 151.02,
+      "text": "just the map",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 73,
+      "section": "Pre-Hook - low-end swell | heavy texture",
+      "start": 151.02,
+      "end": 153.26,
+      "text": "of what went down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 74,
+      "section": "Hook - fuller, polished mix",
+      "start": 154.46,
+      "end": 156.48,
+      "text": "Gin weather on the border",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 75,
+      "section": "Hook - fuller, polished mix",
+      "start": 157.28,
+      "end": 159.18,
+      "text": "rain inside the bone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 76,
+      "section": "Hook - fuller, polished mix",
+      "start": 159.86,
+      "end": 161.98,
+      "text": "I was trying to keep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 77,
+      "section": "Hook - fuller, polished mix",
+      "start": 161.98,
+      "end": 165.14,
+      "text": "one dry province of my own",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 78,
+      "section": "Hook - fuller, polished mix",
+      "start": 165.14,
+      "end": 168.02,
+      "text": "Mother, I can name it now",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 79,
+      "section": "Hook - fuller, polished mix",
+      "start": 168.02,
+      "end": 170.36,
+      "text": "and naming is not blame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 80,
+      "section": "Hook - fuller, polished mix",
+      "start": 170.96,
+      "end": 173.7,
+      "text": "some countries flood their villages",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 81,
+      "section": "Hook - fuller, polished mix",
+      "start": 173.7,
+      "end": 176.8,
+      "text": "and still keep someone's name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 82,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 182.36,
+      "end": 183.72,
+      "text": "If I smoke",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 83,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 184.12,
+      "end": 185.44,
+      "text": "is it inheritance",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 84,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 185.44,
+      "end": 186.58,
+      "text": "or a match",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 85,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 186.58,
+      "end": 188.2,
+      "text": "I chose to strike",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 86,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 188.76,
+      "end": 189.76,
+      "text": "If I drink",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 87,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 190.12,
+      "end": 191.26,
+      "text": "is it geography",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 88,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 191.26,
+      "end": 192.52,
+      "text": "or a road",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 89,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 192.52,
+      "end": 194.18,
+      "text": "I walk at night",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 90,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 194.18,
+      "end": 195.48,
+      "text": "I carry her",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 91,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 195.48,
+      "end": 196.82,
+      "text": "as weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 92,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 197.02,
+      "end": 198.86,
+      "text": "not sentence",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 93,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 199.22,
+      "end": 199.84,
+      "text": "not crown",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 94,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 200.4,
+      "end": 202.06,
+      "text": "just the lowland",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 95,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 202.06,
+      "end": 203.2,
+      "text": "in my body",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 96,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 203.2,
+      "end": 204.74,
+      "text": "where the first rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 97,
+      "section": "Bridge - percussion drops | layered textures",
+      "start": 204.74,
+      "end": 206.96,
+      "text": "settled down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 98,
+      "section": "Final Hook - warm pads | G major lift",
+      "start": 208.06,
+      "end": 209.96,
+      "text": "Gin weather on the border",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 99,
+      "section": "Final Hook - warm pads | G major lift",
+      "start": 209.96,
+      "end": 213.06,
+      "text": "still the river knows my name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 100,
+      "section": "Final Hook - warm pads | G major lift",
+      "start": 213.44,
+      "end": 215.46,
+      "text": "I can build above the water",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 101,
+      "section": "Final Hook - warm pads | G major lift",
+      "start": 215.92,
+      "end": 218.68,
+      "text": "without denying where it came",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 102,
+      "section": "Final Hook - warm pads | G major lift",
+      "start": 218.68,
+      "end": 221.72,
+      "text": "Mother, I can name it now",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 103,
+      "section": "Final Hook - warm pads | G major lift",
+      "start": 221.72,
+      "end": 223.24,
+      "text": "the name does not absolve",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 104,
+      "section": "Final Hook - warm pads | G major lift",
+      "start": 224.58,
+      "end": 227.6,
+      "text": "but the child beneath the stairwell",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 105,
+      "section": "Final Hook - warm pads | G major lift",
+      "start": 227.6,
+      "end": 229.54,
+      "text": "is a country that evolved",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 106,
+      "section": "Outro - distant glass tap | fading sub",
+      "start": 233.6,
+      "end": 234.44,
+      "text": "Glass on wood",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 107,
+      "section": "Outro - distant glass tap | fading sub",
+      "start": 234.44,
+      "end": 237.4,
+      "text": "morning after",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 108,
+      "section": "Outro - distant glass tap | fading sub",
+      "start": 238.92,
+      "end": 239.56,
+      "text": "clouds undone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 109,
+      "section": "Outro - distant glass tap | fading sub",
+      "start": 241.04,
+      "end": 243.42,
+      "text": "but never gone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 110,
+      "section": "Outro - distant glass tap | fading sub",
+      "start": 244.64,
+      "end": 246.84,
+      "text": "Small dry place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 111,
+      "section": "Outro - distant glass tap | fading sub",
+      "start": 247.48,
+      "end": 249.42,
+      "text": "hand on border",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 112,
+      "section": "Outro - distant glass tap | fading sub",
+      "start": 250.2,
+      "end": 251.52,
+      "text": "I am here",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 113,
+      "section": "Outro - distant glass tap | fading sub",
+      "start": 253.5,
+      "end": 255.82,
+      "text": "I carried on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    }
+  ]
+}

@@ -1,0 +1,1343 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Broken Temple",
+  "title": "Couches Across America",
+  "text_path": "Broken Temple/09 - Couches Across America.txt",
+  "audio_path": "Broken Temple/audio/09 - Couches Across America.mp3",
+  "duration_seconds": 268.79,
+  "model": "base",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 111,
+    "reference_word_count": 366,
+    "observed_word_count": 366,
+    "matched_word_count": 312,
+    "matched_word_ratio": 0.852,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 4.84,
+      "end": 10.0,
+      "text": "Take a red eye down"
+    },
+    {
+      "start": 14.76,
+      "end": 23.68,
+      "text": "Back half-packed and touching down"
+    },
+    {
+      "start": 24.68,
+      "end": 32.26,
+      "text": "No gold room, no marble bed"
+    },
+    {
+      "start": 34.3,
+      "end": 44.1,
+      "text": "Friends old couch beneath my head"
+    },
+    {
+      "start": 45.78,
+      "end": 49.12,
+      "text": "Across the ocean, for spare blankets"
+    },
+    {
+      "start": 49.12,
+      "end": 52.22,
+      "text": "For kitchens where the kettle knew"
+    },
+    {
+      "start": 56.38,
+      "end": 63.84,
+      "text": "I would rather sleep near laughter than any polished room"
+    },
+    {
+      "start": 66.48,
+      "end": 70.2,
+      "text": "America came through doorways not as flags"
+    },
+    {
+      "start": 71.2,
+      "end": 73.84,
+      "text": "Our hotel floors"
+    },
+    {
+      "start": 77.2,
+      "end": 80.16,
+      "text": "But socks beside a borrowed sofa"
+    },
+    {
+      "start": 80.16,
+      "end": 84.34,
+      "text": "And a friend who said of course"
+    },
+    {
+      "start": 87.9,
+      "end": 92.02,
+      "text": "The body country found a never seen"
+    },
+    {
+      "start": 92.02,
+      "end": 94.14,
+      "text": "The dip between two seats"
+    },
+    {
+      "start": 94.14,
+      "end": 96.92,
+      "text": "Somewhere west of my old trouble"
+    },
+    {
+      "start": 96.92,
+      "end": 99.58,
+      "text": "Someone made the exile of brief"
+    },
+    {
+      "start": 100.7,
+      "end": 103.32,
+      "text": "No bell hop, no receipt"
+    },
+    {
+      "start": 103.92,
+      "end": 106.18,
+      "text": "Just a pillow and relief"
+    },
+    {
+      "start": 106.92,
+      "end": 110.58,
+      "text": "Couches across America's soft trip"
+    },
+    {
+      "start": 110.58,
+      "end": 112.56,
+      "text": "Public's after dark"
+    },
+    {
+      "start": 112.56,
+      "end": 115.76,
+      "text": "I was left in living rooms and walking"
+    },
+    {
+      "start": 115.76,
+      "end": 117.64,
+      "text": "With a steady heart"
+    },
+    {
+      "start": 117.64,
+      "end": 120.62,
+      "text": "Couches across America"
+    },
+    {
+      "start": 120.62,
+      "end": 123.2,
+      "text": "Not glamorous, not grand"
+    },
+    {
+      "start": 123.2,
+      "end": 128.88,
+      "text": "But a country can be landed by the offer of a hand"
+    },
+    {
+      "start": 133.12,
+      "end": 138.66,
+      "text": "I have known the foreign Boston known as Bearkey in LA"
+    },
+    {
+      "start": 138.66,
+      "end": 141.48,
+      "text": "Known in the Midwest, morning coffee"
+    },
+    {
+      "start": 141.48,
+      "end": 144.1,
+      "text": "And the port at end of day"
+    },
+    {
+      "start": 144.1,
+      "end": 146.82,
+      "text": "Every city had it to weather"
+    },
+    {
+      "start": 146.82,
+      "end": 149.2,
+      "text": "Every friend had private scars"
+    },
+    {
+      "start": 149.61,
+      "end": 154.61,
+      "text": "We compared the broken temples under ordinary stars"
+    },
+    {
+      "start": 155.17,
+      "end": 160.73,
+      "text": "I did not need the perfect mattress or the towel full of tight"
+    },
+    {
+      "start": 160.73,
+      "end": 163.65,
+      "text": "I needed someone in the next room"
+    },
+    {
+      "start": 163.65,
+      "end": 166.53,
+      "text": "Making breakfast out of light"
+    },
+    {
+      "start": 167.71,
+      "end": 170.47,
+      "text": "Old child near the door"
+    },
+    {
+      "start": 170.47,
+      "end": 173.55,
+      "text": "Finds a place not paid for"
+    },
+    {
+      "start": 173.55,
+      "end": 177.73,
+      "text": "Couches across America's soft trip"
+    },
+    {
+      "start": 177.73,
+      "end": 179.53,
+      "text": "Public's after dark"
+    },
+    {
+      "start": 179.53,
+      "end": 183.01,
+      "text": "I have slept in living rooms and walking"
+    },
+    {
+      "start": 183.01,
+      "end": 184.89,
+      "text": "With a steady heart"
+    },
+    {
+      "start": 184.89,
+      "end": 188.05,
+      "text": "Couches across America"
+    },
+    {
+      "start": 188.05,
+      "end": 190.51,
+      "text": "Not glamorous, not grand"
+    },
+    {
+      "start": 190.51,
+      "end": 196.43,
+      "text": "But a country can be landed by the offer of a hand"
+    },
+    {
+      "start": 196.43,
+      "end": 199.39,
+      "text": "Maybe all those boarding houses"
+    },
+    {
+      "start": 199.39,
+      "end": 201.97,
+      "text": "Talk me how to travel lean"
+    },
+    {
+      "start": 202.73,
+      "end": 204.87,
+      "text": "Maybe friendship is the border"
+    },
+    {
+      "start": 204.87,
+      "end": 208.53,
+      "text": "Where the old rep turns green, I don't need"
+    },
+    {
+      "start": 208.53,
+      "end": 211.49,
+      "text": "A room to own me, I don't need"
+    },
+    {
+      "start": 211.49,
+      "end": 213.45,
+      "text": "A perfect view"
+    },
+    {
+      "start": 213.45,
+      "end": 216.35,
+      "text": "Just a couch that says the body"
+    },
+    {
+      "start": 216.87,
+      "end": 220.03,
+      "text": "Can stop marching for a few"
+    },
+    {
+      "start": 222.69,
+      "end": 226.73,
+      "text": "Couches across America's small cathedrals"
+    },
+    {
+      "start": 226.73,
+      "end": 230.85,
+      "text": "Made a friend, I have crossed the sea for people"
+    },
+    {
+      "start": 230.85,
+      "end": 233.95,
+      "text": "Not for monuments or benches"
+    },
+    {
+      "start": 234.85,
+      "end": 237.81,
+      "text": "Across America's semi-home"
+    },
+    {
+      "start": 237.81,
+      "end": 242.59,
+      "text": "But leave a mark every borrowed living room"
+    },
+    {
+      "start": 242.59,
+      "end": 245.59,
+      "text": "Captured to limp inside the dark"
+    },
+    {
+      "start": 245.59,
+      "end": 247.67,
+      "text": "Gate call"
+    },
+    {
+      "start": 248.85,
+      "end": 250.37,
+      "text": "Morning plain"
+    },
+    {
+      "start": 250.37,
+      "end": 255.95,
+      "text": "Same old body changed terrain"
+    },
+    {
+      "start": 256.85,
+      "end": 259.21,
+      "text": "No gold room"
+    },
+    {
+      "start": 260.21,
+      "end": 262.31,
+      "text": "One good friend"
+    },
+    {
+      "start": 263.21,
+      "end": 265.77,
+      "text": "Sometimes exile"
+    },
+    {
+      "start": 267.21,
+      "end": 268.79,
+      "text": "Learns an end"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - gate chime | couch spring | soft sub",
+      "start": 0.0,
+      "end": 6.94,
+      "text": "Gate call",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 1,
+      "section": "Intro - gate chime | couch spring | soft sub",
+      "start": 6.94,
+      "end": 9.9,
+      "text": "red-eye town",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 2,
+      "section": "Intro - gate chime | couch spring | soft sub",
+      "start": 16.16,
+      "end": 18.84,
+      "text": "bag half packed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 3,
+      "section": "Intro - gate chime | couch spring | soft sub",
+      "start": 18.84,
+      "end": 20.12,
+      "text": "and touching down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 4,
+      "section": "Intro - gate chime | couch spring | soft sub",
+      "start": 24.62,
+      "end": 27.28,
+      "text": "No gold room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 5,
+      "section": "Intro - gate chime | couch spring | soft sub",
+      "start": 27.28,
+      "end": 30.72,
+      "text": "no marble bed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 6,
+      "section": "Intro - gate chime | couch spring | soft sub",
+      "start": 35.7,
+      "end": 37.08,
+      "text": "friend's old couch",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 7,
+      "section": "Intro - gate chime | couch spring | soft sub",
+      "start": 37.08,
+      "end": 40.76,
+      "text": "beneath my head",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 46.86,
+      "end": 47.74,
+      "text": "I crossed the ocean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 48.08,
+      "end": 49.12,
+      "text": "for spare blankets",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 49.12,
+      "end": 50.62,
+      "text": "for kitchens where",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 50.62,
+      "end": 52.22,
+      "text": "the kettle knew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 56.38,
+      "end": 58.14,
+      "text": "I would rather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 58.14,
+      "end": 59.72,
+      "text": "sleep near laughter",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 59.72,
+      "end": 60.98,
+      "text": "than in any",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 60.98,
+      "end": 63.84,
+      "text": "polished room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 66.48,
+      "end": 68.12,
+      "text": "America came",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 68.12,
+      "end": 69.18,
+      "text": "through doorways",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 69.18,
+      "end": 70.2,
+      "text": "not as flags",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 72.32,
+      "end": 73.84,
+      "text": "or hotel floors",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 77.09,
+      "end": 78.74,
+      "text": "but socks beside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 78.74,
+      "end": 80.16,
+      "text": "a borrowed sofa",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 80.16,
+      "end": 82.04,
+      "text": "and a friend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 82.04,
+      "end": 84.34,
+      "text": "who said of course",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 87.9,
+      "end": 90.24,
+      "text": "The body-country",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 90.24,
+      "end": 90.78,
+      "text": "found an embassy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 92.02,
+      "end": 92.66,
+      "text": "in the dip",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 92.66,
+      "end": 94.14,
+      "text": "between two seats",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 94.14,
+      "end": 95.56,
+      "text": "Somewhere west",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 95.56,
+      "end": 96.92,
+      "text": "of my old trouble",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 96.92,
+      "end": 97.98,
+      "text": "someone made",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 - warm pulse | close vocal",
+      "start": 97.98,
+      "end": 99.58,
+      "text": "the exile brief",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 32,
+      "section": "Pre-Hook - delay opens",
+      "start": 100.7,
+      "end": 101.66,
+      "text": "No bellhop",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 33,
+      "section": "Pre-Hook - delay opens",
+      "start": 102.64,
+      "end": 103.32,
+      "text": "no receipt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 34,
+      "section": "Pre-Hook - delay opens",
+      "start": 103.92,
+      "end": 105.0,
+      "text": "just a pillow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 35,
+      "section": "Pre-Hook - delay opens",
+      "start": 105.0,
+      "end": 106.18,
+      "text": "and relief",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 36,
+      "section": "Hook - warm bass | soft harmony",
+      "start": 106.92,
+      "end": 108.82,
+      "text": "Couches across America",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 37,
+      "section": "Hook - warm bass | soft harmony",
+      "start": 110.2,
+      "end": 112.56,
+      "text": "soft republics after dark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 38,
+      "section": "Hook - warm bass | soft harmony",
+      "start": 112.56,
+      "end": 114.96,
+      "text": "I have slept in living rooms",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 39,
+      "section": "Hook - warm bass | soft harmony",
+      "start": 114.96,
+      "end": 117.64,
+      "text": "and woken with a steadier heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "Hook - warm bass | soft harmony",
+      "start": 117.64,
+      "end": 120.62,
+      "text": "Couches across America",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 41,
+      "section": "Hook - warm bass | soft harmony",
+      "start": 120.62,
+      "end": 123.2,
+      "text": "not glamorous, not grand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 42,
+      "section": "Hook - warm bass | soft harmony",
+      "start": 123.2,
+      "end": 125.44,
+      "text": "but a country can be mended",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 43,
+      "section": "Hook - warm bass | soft harmony",
+      "start": 125.8,
+      "end": 128.88,
+      "text": "by the offer of a hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 44,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 133.12,
+      "end": 134.56,
+      "text": "I have known",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 45,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 134.56,
+      "end": 136.18,
+      "text": "the floor in Boston",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 46,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 136.18,
+      "end": 136.76,
+      "text": "known the spare key",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 47,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 137.74,
+      "end": 138.16,
+      "text": "in L.A.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 48,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 138.66,
+      "end": 140.24,
+      "text": "Known the Midwest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 49,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 140.76,
+      "end": 141.48,
+      "text": "morning coffee",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 50,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 141.48,
+      "end": 142.28,
+      "text": "and the porch",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 51,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 142.62,
+      "end": 144.1,
+      "text": "at end of day",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 52,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 144.1,
+      "end": 145.48,
+      "text": "Every city",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 53,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 145.48,
+      "end": 146.82,
+      "text": "had its weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 54,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 146.82,
+      "end": 148.08,
+      "text": "every friend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 55,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 148.56,
+      "end": 149.61,
+      "text": "their private scars",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 149.61,
+      "end": 150.89,
+      "text": "We compared",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 150.89,
+      "end": 152.41,
+      "text": "the broken temples",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 152.41,
+      "end": 154.69,
+      "text": "under ordinary stars",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 155.17,
+      "end": 156.47,
+      "text": "I did not need",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 156.47,
+      "end": 158.15,
+      "text": "the perfect mattress",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 158.15,
+      "end": 159.41,
+      "text": "or the towel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 160.35,
+      "end": 160.73,
+      "text": "folded tight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 160.73,
+      "end": 162.21,
+      "text": "I needed someone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 162.21,
+      "end": 163.65,
+      "text": "in the next room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 163.65,
+      "end": 164.91,
+      "text": "making breakfast",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 - wider room | gentle motion",
+      "start": 164.91,
+      "end": 166.53,
+      "text": "out of light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 67,
+      "section": "Pre-Hook - low room tone",
+      "start": 167.71,
+      "end": 169.27,
+      "text": "Old child",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 68,
+      "section": "Pre-Hook - low room tone",
+      "start": 169.27,
+      "end": 170.47,
+      "text": "near the door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 69,
+      "section": "Pre-Hook - low room tone",
+      "start": 170.47,
+      "end": 171.75,
+      "text": "finds a place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 70,
+      "section": "Pre-Hook - low room tone",
+      "start": 171.75,
+      "end": 173.55,
+      "text": "not paid for",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Hook - fuller low end | relaxed",
+      "start": 173.55,
+      "end": 175.89,
+      "text": "Couches across America",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 72,
+      "section": "Hook - fuller low end | relaxed",
+      "start": 177.29,
+      "end": 179.53,
+      "text": "soft republics after dark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 73,
+      "section": "Hook - fuller low end | relaxed",
+      "start": 179.53,
+      "end": 182.45,
+      "text": "I have slept in living rooms",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 74,
+      "section": "Hook - fuller low end | relaxed",
+      "start": 182.45,
+      "end": 184.89,
+      "text": "and woken with a steadier heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 75,
+      "section": "Hook - fuller low end | relaxed",
+      "start": 184.89,
+      "end": 188.05,
+      "text": "Couches across America",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 76,
+      "section": "Hook - fuller low end | relaxed",
+      "start": 188.05,
+      "end": 190.51,
+      "text": "not glamorous, not grand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 77,
+      "section": "Hook - fuller low end | relaxed",
+      "start": 190.51,
+      "end": 192.89,
+      "text": "but a country can be mended",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 78,
+      "section": "Hook - fuller low end | relaxed",
+      "start": 193.51,
+      "end": 196.43,
+      "text": "by the offer of a hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 79,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 196.43,
+      "end": 198.07,
+      "text": "Maybe all those",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 80,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 198.07,
+      "end": 199.39,
+      "text": "boarding houses",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 81,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 200.09,
+      "end": 200.57,
+      "text": "taught me how",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 82,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 200.57,
+      "end": 201.97,
+      "text": "to travel lean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 83,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 202.55,
+      "end": 203.59,
+      "text": "Maybe friendship",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 84,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 203.59,
+      "end": 204.87,
+      "text": "is the border",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 85,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 204.87,
+      "end": 206.27,
+      "text": "where the old route",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 86,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 206.51,
+      "end": 207.49,
+      "text": "turns green",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 87,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 207.61,
+      "end": 208.53,
+      "text": "I don't need",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 88,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 208.53,
+      "end": 210.67,
+      "text": "a room to own me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 89,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 210.67,
+      "end": 211.49,
+      "text": "I don't need",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 90,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 211.49,
+      "end": 213.45,
+      "text": "a perfect view",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 91,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 213.45,
+      "end": 214.87,
+      "text": "just a couch",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 92,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 214.87,
+      "end": 216.35,
+      "text": "that says the body",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 93,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 216.57,
+      "end": 218.13,
+      "text": "can stop marching",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 94,
+      "section": "Bridge - beat softens | spoken edges",
+      "start": 218.13,
+      "end": 220.03,
+      "text": "for a few",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 95,
+      "section": "Final Hook - gentle harmony | open room",
+      "start": 222.69,
+      "end": 224.15,
+      "text": "Couches across America",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 96,
+      "section": "Final Hook - gentle harmony | open room",
+      "start": 225.69,
+      "end": 227.21,
+      "text": "small cathedrals made of thread",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 97,
+      "section": "Final Hook - gentle harmony | open room",
+      "start": 227.83,
+      "end": 230.85,
+      "text": "I have crossed the sea for people",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 98,
+      "section": "Final Hook - gentle harmony | open room",
+      "start": 230.85,
+      "end": 233.27,
+      "text": "not for monuments or beds",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 99,
+      "section": "Final Hook - gentle harmony | open room",
+      "start": 234.85,
+      "end": 235.67,
+      "text": "Couches across America",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 100,
+      "section": "Final Hook - gentle harmony | open room",
+      "start": 237.55,
+      "end": 239.31,
+      "text": "send me home but leave a mark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 101,
+      "section": "Final Hook - gentle harmony | open room",
+      "start": 239.31,
+      "end": 242.59,
+      "text": "every borrowed living room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 102,
+      "section": "Final Hook - gentle harmony | open room",
+      "start": 243.75,
+      "end": 245.59,
+      "text": "kept a lamp inside the dark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 103,
+      "section": "Outro - room tone | distant airport fragment",
+      "start": 245.59,
+      "end": 247.67,
+      "text": "Gate call",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 104,
+      "section": "Outro - room tone | distant airport fragment",
+      "start": 248.85,
+      "end": 249.69,
+      "text": "morning plane",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 105,
+      "section": "Outro - room tone | distant airport fragment",
+      "start": 250.37,
+      "end": 253.49,
+      "text": "same old body",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 106,
+      "section": "Outro - room tone | distant airport fragment",
+      "start": 253.49,
+      "end": 255.95,
+      "text": "changed terrain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 107,
+      "section": "Outro - room tone | distant airport fragment",
+      "start": 256.85,
+      "end": 259.21,
+      "text": "No gold room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 108,
+      "section": "Outro - room tone | distant airport fragment",
+      "start": 260.21,
+      "end": 262.31,
+      "text": "one good friend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 109,
+      "section": "Outro - room tone | distant airport fragment",
+      "start": 263.21,
+      "end": 265.77,
+      "text": "sometimes exile",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 110,
+      "section": "Outro - room tone | distant airport fragment",
+      "start": 267.21,
+      "end": 268.79,
+      "text": "learns an end",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

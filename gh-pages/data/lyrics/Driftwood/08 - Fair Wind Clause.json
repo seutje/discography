@@ -4,252 +4,387 @@
   "title": "Fair Wind Clause",
   "text_path": "Driftwood/08 - Fair Wind Clause.txt",
   "audio_path": "Driftwood/audio/08 - Fair Wind Clause.mp3",
-  "duration_seconds": 234.46,
+  "duration_seconds": 242.86,
   "model": "base",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 72,
     "reference_word_count": 432,
-    "observed_word_count": 1144,
-    "matched_word_count": 65,
-    "matched_word_ratio": 0.15,
-    "inserted_adlib_count": 0
+    "observed_word_count": 430,
+    "matched_word_count": 360,
+    "matched_word_ratio": 0.833,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 17.74,
+      "start": 11.94,
+      "end": 17.1,
       "text": "Ferry wind, if it comes, let it find the tired ones."
     },
     {
-      "start": 17.74,
-      "end": 47.74,
-      "text": "The wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is"
+      "start": 17.1,
+      "end": 22.52,
+      "text": "Loose rope, open palm, no one punished for the calm."
     },
     {
-      "start": 47.74,
-      "end": 77.74,
-      "text": "blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing"
+      "start": 26.82,
+      "end": 32.28,
+      "text": "By morning we had patched the seam with sail cloth jokes and coffee steam."
     },
     {
-      "start": 77.74,
-      "end": 107.74,
-      "text": "the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the"
+      "start": 32.58,
+      "end": 37.68,
+      "text": "The child didn't aim the battered bow, probably fine and careful strokes."
     },
     {
-      "start": 107.74,
-      "end": 137.74,
-      "text": "wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind"
+      "start": 37.8,
+      "end": 42.58,
+      "text": "We laughed because it might be true, the kind of truth that lends with you."
     },
     {
-      "start": 137.74,
-      "end": 167.74,
-      "text": "Joy can sit with so through feet and still be joy and still be sweet It's the fair wind finds us let it find us as we are, soft in every sleeve cuff splinter pops in the spurns, it's the power and carry, let it carry without death, not every good thing coming needs a storm to earn it, for the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the"
+      "start": 42.58,
+      "end": 47.86,
+      "text": "Not brave enough to aim to flag, but strong enough to mend a bag."
     },
     {
-      "start": 167.74,
-      "end": 197.74,
-      "text": "storm is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind is blowing, the wind"
+      "start": 48.06,
+      "end": 52.96,
+      "text": "The old scarf tried along the rail, the fishers argued with the sail."
     },
     {
-      "start": 197.74,
-      "end": 223.34,
-      "text": "If the fair wind finds us, let it find us as we are salt in every sleeve cuff splinters in the spot The fair wind carries, let it carry the mountain, not every good thing common means a storm to burn and first fell in"
+      "start": 53.24,
+      "end": 58.04,
+      "text": "The wind came shy then came again like someone learning how to mend."
     },
     {
-      "start": 223.34,
-      "end": 234.46,
-      "text": "If it stays, let it join in a bitter days, loose rope, open palm, no one punished for the calm"
+      "start": 58.56,
+      "end": 64.74,
+      "text": "It doesn't have to roll to move, it doesn't have to ask for proof or kinder weather."
+    },
+    {
+      "start": 65.28,
+      "end": 68.74,
+      "text": "When it starts still has to pass through guarded hearts."
+    },
+    {
+      "start": 70.54,
+      "end": 75.96,
+      "text": "If the fair wind finds us, let it find us as we are."
+    },
+    {
+      "start": 76.26,
+      "end": 81.86,
+      "text": "Salted in every sleeve cup splinters in the sport."
+    },
+    {
+      "start": 82.48,
+      "end": 86.36,
+      "text": "If the fair wind carries, let it carry without doubt."
+    },
+    {
+      "start": 86.56,
+      "end": 92.9,
+      "text": "Not every good thing coming needs a storm to earn it first."
+    },
+    {
+      "start": 96.8,
+      "end": 102.64,
+      "text": "We shared the bread and uneven parts, one kept crusting on kept hearts."
+    },
+    {
+      "start": 102.94,
+      "end": 107.68,
+      "text": "Someone hung a crooked tune, the deck kept time with healing spoon."
+    },
+    {
+      "start": 107.96,
+      "end": 113.42,
+      "text": "I thought of every bitter cup, every tide I drank and offended."
+    },
+    {
+      "start": 113.98,
+      "end": 118.32,
+      "text": "No curse, they hungry for mistaken, first for mercy."
+    },
+    {
+      "start": 118.32,
+      "end": 121.66,
+      "text": "The sea stayed sea, the robstay of the sky."
+    },
+    {
+      "start": 121.98,
+      "end": 129.62,
+      "text": "They know a apology, but there was warmth along the planks and I let my soul proceed."
+    },
+    {
+      "start": 131.78,
+      "end": 137.44,
+      "text": "It doesn't fix these behind, it doesn't make the old age kind."
+    },
+    {
+      "start": 137.66,
+      "end": 143.54,
+      "text": "But joy can sit with so clear feet and still be joy and still be sweet."
+    },
+    {
+      "start": 145.04,
+      "end": 150.72,
+      "text": "If the fair wind finds us, let it find us as we are."
+    },
+    {
+      "start": 151.04,
+      "end": 156.68,
+      "text": "Salted in every sleeve cup splinters in the sport."
+    },
+    {
+      "start": 157.12,
+      "end": 161.28,
+      "text": "If the fair wind carries, let it carry without doubt."
+    },
+    {
+      "start": 161.5,
+      "end": 167.92,
+      "text": "Not every good thing coming needs a storm to earn it first."
+    },
+    {
+      "start": 173.54,
+      "end": 178.44,
+      "text": "Our kept waiting for the catch, the hidden reef, the closing hatch."
+    },
+    {
+      "start": 178.78,
+      "end": 186.92,
+      "text": "But some days open without teeth, some hands offer and then leave an old ledger on the cabin wall."
+    },
+    {
+      "start": 187.28,
+      "end": 196.78,
+      "text": "No less than a cup beneath it, all just weather, turning from the west and tired lungs, doing their best."
+    },
+    {
+      "start": 198.06,
+      "end": 203.96,
+      "text": "If the fair wind finds us, let it find us as we are."
+    },
+    {
+      "start": 204.34,
+      "end": 210.58,
+      "text": "Salted in every sleeve cup splinters in the sport."
+    },
+    {
+      "start": 211.16,
+      "end": 215.08,
+      "text": "If the fair wind carries, let it carry without doubt."
+    },
+    {
+      "start": 215.18,
+      "end": 222.08,
+      "text": "Not every good thing coming needs a storm to earn it first."
+    },
+    {
+      "start": 222.08,
+      "end": 225.0,
+      "text": "If the fair wind finds us as we are."
+    },
+    {
+      "start": 225.0,
+      "end": 242.86,
+      "text": "Salted in every sleeve cup splinter in the sport."
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro",
-      "start": 1.613,
-      "end": 6.451,
+      "start": 12.72,
+      "end": 14.56,
       "text": "Fair wind... if it comes...",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 1,
-      "section": "Intro",
-      "start": 8.064,
-      "end": 14.515,
-      "text": "Let it find the tired ones",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
     {
+      "index": 1,
+      "section": "Intro",
+      "start": 14.98,
+      "end": 17.1,
+      "text": "Let it find the tired ones",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
       "index": 2,
       "section": "Intro",
-      "start": 14.515,
-      "end": 147.519,
+      "start": 17.1,
+      "end": 19.38,
       "text": "Loose rope... open palm...",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 3,
       "section": "Intro",
-      "start": 147.519,
-      "end": 147.85,
+      "start": 19.74,
+      "end": 22.52,
       "text": "No one punished for the calm",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 6
     },
     {
       "index": 4,
       "section": "Verse 1",
-      "start": 147.85,
-      "end": 147.95,
+      "start": 26.82,
+      "end": 29.74,
       "text": "By morning we had patched the seam",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 5,
       "section": "Verse 1",
-      "start": 147.95,
-      "end": 148.05,
+      "start": 29.74,
+      "end": 32.28,
       "text": "With sailcloth, jokes, and coffee steam",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 6,
       "section": "Verse 1",
-      "start": 148.05,
-      "end": 148.15,
+      "start": 32.58,
+      "end": 34.84,
       "text": "The child had named the battered bow",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 7,
       "section": "Verse 1",
-      "start": 148.15,
-      "end": 148.25,
+      "start": 35.5,
+      "end": 37.68,
       "text": "\"Probably Fine\" in careful strokes",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 8,
       "section": "Verse 1",
-      "start": 148.25,
-      "end": 148.35,
+      "start": 37.8,
+      "end": 40.04,
       "text": "We laughed because it might be true",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 9,
       "section": "Verse 1",
-      "start": 148.35,
-      "end": 148.45,
+      "start": 40.3,
+      "end": 42.58,
       "text": "The kind of truth that limps with you",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 10,
       "section": "Verse 1",
-      "start": 148.45,
-      "end": 148.55,
+      "start": 42.58,
+      "end": 45.22,
       "text": "Not brave enough to raise a flag",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 11,
       "section": "Verse 1",
-      "start": 148.55,
-      "end": 148.65,
+      "start": 45.46,
+      "end": 47.86,
       "text": "But strong enough to mend a bag",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 12,
       "section": "Verse 1",
-      "start": 148.65,
-      "end": 148.75,
+      "start": 48.06,
+      "end": 50.36,
       "text": "The old scarf dried along the rail",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 13,
       "section": "Verse 1",
-      "start": 148.75,
-      "end": 148.85,
+      "start": 50.66,
+      "end": 52.96,
       "text": "The fishers argued with the sail",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 14,
       "section": "Verse 1",
-      "start": 148.85,
-      "end": 148.95,
+      "start": 53.24,
+      "end": 55.46,
       "text": "The wind came shy, then came again",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 7
     },
     {
       "index": 15,
       "section": "Verse 1",
-      "start": 148.95,
-      "end": 157.599,
+      "start": 55.46,
+      "end": 58.04,
       "text": "Like someone learning how to mend",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 16,
       "section": "Pre-Chorus",
-      "start": 157.599,
-      "end": 168.006,
+      "start": 58.56,
+      "end": 60.82,
       "text": "It doesn't have to roar to move",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 17,
       "section": "Pre-Chorus",
-      "start": 168.006,
-      "end": 178.413,
+      "start": 60.98,
+      "end": 63.44,
       "text": "It doesn't have to ask for proof",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 18,
       "section": "Pre-Chorus",
-      "start": 178.413,
-      "end": 187.333,
+      "start": 63.74,
+      "end": 65.82,
       "text": "A kinder weather, when it starts",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 19,
       "section": "Pre-Chorus",
-      "start": 187.333,
-      "end": 197.74,
+      "start": 65.82,
+      "end": 68.74,
       "text": "Still has to pass through guarded hearts",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 20,
       "section": "Chorus",
-      "start": 197.74,
-      "end": 201.153,
+      "start": 70.54,
+      "end": 73.7,
       "text": "If the fair wind finds us",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -257,8 +392,8 @@
     {
       "index": 21,
       "section": "Chorus",
-      "start": 201.153,
-      "end": 205.136,
+      "start": 73.7,
+      "end": 75.96,
       "text": "Let it find us as we are",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -266,17 +401,17 @@
     {
       "index": 22,
       "section": "Chorus",
-      "start": 205.136,
-      "end": 207.98,
+      "start": 76.74,
+      "end": 78.44,
       "text": "Salt in every sleeve cuff",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 23,
       "section": "Chorus",
-      "start": 207.98,
-      "end": 209.687,
+      "start": 78.84,
+      "end": 81.3,
       "text": "Splinters in the spar",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -284,434 +419,434 @@
     {
       "index": 24,
       "section": "Chorus",
-      "start": 210.256,
-      "end": 212.531,
+      "start": 82.48,
+      "end": 84.04,
       "text": "If the fair wind carries",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 25,
       "section": "Chorus",
-      "start": 212.531,
-      "end": 214.238,
+      "start": 84.32,
+      "end": 85.78,
       "text": "Let it carry without debt",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 26,
       "section": "Chorus",
-      "start": 215.376,
-      "end": 217.651,
+      "start": 86.56,
+      "end": 88.92,
       "text": "Not every good thing coming",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 27,
       "section": "Chorus",
-      "start": 218.789,
-      "end": 222.202,
+      "start": 88.92,
+      "end": 92.9,
       "text": "Needs a storm to earn it first",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 7
     },
     {
       "index": 28,
       "section": "Verse 2",
-      "start": 222.771,
-      "end": 223.34,
+      "start": 96.8,
+      "end": 100.0,
       "text": "We shared the bread in uneven parts",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 6
     },
     {
       "index": 29,
       "section": "Verse 2",
-      "start": 223.34,
-      "end": 223.44,
+      "start": 100.02,
+      "end": 102.16,
       "text": "One kept crust and one kept heart",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 30,
-      "section": "Verse 2",
-      "start": 223.44,
-      "end": 223.54,
-      "text": "Someone hummed a crooked tune",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 31,
-      "section": "Verse 2",
-      "start": 223.54,
-      "end": 223.64,
-      "text": "The deck kept time with heel and spoon",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 32,
-      "section": "Verse 2",
-      "start": 223.64,
-      "end": 223.74,
-      "text": "I thought of every bitter cup",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 33,
-      "section": "Verse 2",
-      "start": 223.74,
-      "end": 223.84,
-      "text": "Every tide I drank enough",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 34,
-      "section": "Verse 2",
-      "start": 223.84,
-      "end": 223.94,
-      "text": "And did not curse the younger me",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 35,
-      "section": "Verse 2",
-      "start": 223.94,
-      "end": 224.04,
-      "text": "For mistaking thirst for mercy",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 36,
-      "section": "Verse 2",
-      "start": 224.04,
-      "end": 224.14,
-      "text": "The sea stayed sea, the ropes stayed rough",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 37,
-      "section": "Verse 2",
-      "start": 224.14,
-      "end": 224.24,
-      "text": "The sky made no apology",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 38,
-      "section": "Verse 2",
-      "start": 224.24,
-      "end": 224.34,
-      "text": "But there was warmth along the planks",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 39,
-      "section": "Verse 2",
-      "start": 224.34,
-      "end": 224.44,
-      "text": "And I let myself receive",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 40,
-      "section": "Pre-Chorus 2",
-      "start": 224.44,
-      "end": 224.54,
-      "text": "It doesn't fix the years behind",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 41,
-      "section": "Pre-Chorus 2",
-      "start": 224.54,
-      "end": 224.64,
-      "text": "It doesn't make the old ache kind",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 42,
-      "section": "Pre-Chorus 2",
-      "start": 224.64,
-      "end": 224.74,
-      "text": "But joy can sit with soaked-through feet",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 43,
-      "section": "Pre-Chorus 2",
-      "start": 224.74,
-      "end": 224.84,
-      "text": "And still be joy, and still be sweet",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 44,
-      "section": "Chorus",
-      "start": 224.84,
-      "end": 224.94,
-      "text": "If the fair wind finds us",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 45,
-      "section": "Chorus",
-      "start": 224.94,
-      "end": 225.04,
-      "text": "Let it find us as we are",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 46,
-      "section": "Chorus",
-      "start": 225.04,
-      "end": 225.14,
-      "text": "Salt in every sleeve cuff",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 47,
-      "section": "Chorus",
-      "start": 225.14,
-      "end": 225.24,
-      "text": "Splinters in the spar",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 48,
-      "section": "Chorus",
-      "start": 225.24,
-      "end": 225.34,
-      "text": "If the fair wind carries",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 49,
-      "section": "Chorus",
-      "start": 225.34,
-      "end": 225.44,
-      "text": "Let it carry without debt",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 50,
-      "section": "Chorus",
-      "start": 225.44,
-      "end": 225.54,
-      "text": "Not every good thing coming",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 51,
-      "section": "Chorus",
-      "start": 225.54,
-      "end": 225.64,
-      "text": "Needs a storm to earn it first",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 52,
-      "section": "Bridge",
-      "start": 225.64,
-      "end": 225.74,
-      "text": "I kept waiting for the catch",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 53,
-      "section": "Bridge",
-      "start": 225.74,
-      "end": 225.84,
-      "text": "The hidden reef, the closing hatch",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 54,
-      "section": "Bridge",
-      "start": 225.84,
-      "end": 225.94,
-      "text": "But some days open without teeth",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 55,
-      "section": "Bridge",
-      "start": 225.94,
-      "end": 226.04,
-      "text": "Some hands offer and then leave",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 56,
-      "section": "Bridge",
-      "start": 226.04,
-      "end": 226.14,
-      "text": "No ledger on the cabin wall",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 57,
-      "section": "Bridge",
-      "start": 226.14,
-      "end": 226.24,
-      "text": "No lesson carved beneath it all",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 58,
-      "section": "Bridge",
-      "start": 226.24,
-      "end": 226.34,
-      "text": "Just weather turning from the west",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 59,
-      "section": "Bridge",
-      "start": 226.34,
-      "end": 226.44,
-      "text": "And tired lungs doing their best",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 60,
-      "section": "Final Chorus",
-      "start": 226.44,
-      "end": 226.54,
-      "text": "If the fair wind finds us",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 61,
-      "section": "Final Chorus",
-      "start": 226.54,
-      "end": 226.64,
-      "text": "Let it find us as we are",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 62,
-      "section": "Final Chorus",
-      "start": 226.64,
-      "end": 226.74,
-      "text": "Salt in every sleeve cuff",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 63,
-      "section": "Final Chorus",
-      "start": 226.74,
-      "end": 226.84,
-      "text": "Splinters in the spar",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 64,
-      "section": "Final Chorus",
-      "start": 226.84,
-      "end": 226.94,
-      "text": "If the fair wind carries",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 65,
-      "section": "Final Chorus",
-      "start": 226.94,
-      "end": 227.04,
-      "text": "Let it carry without debt",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 66,
-      "section": "Final Chorus",
-      "start": 227.04,
-      "end": 227.14,
-      "text": "Not every good thing coming",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 67,
-      "section": "Final Chorus",
-      "start": 227.14,
-      "end": 227.24,
-      "text": "Needs a storm to earn it first",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 68,
-      "section": "Outro",
-      "start": 227.24,
-      "end": 227.34,
-      "text": "Fair wind... if it stays...",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
     {
-      "index": 69,
-      "section": "Outro",
-      "start": 227.34,
-      "end": 228.9,
-      "text": "Let it shorten bitter days",
+      "index": 30,
+      "section": "Verse 2",
+      "start": 102.94,
+      "end": 105.2,
+      "text": "Someone hummed a crooked tune",
       "timing_source": "whisper-aligned",
       "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 105.44,
+      "end": 107.68,
+      "text": "The deck kept time with heel and spoon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 107.96,
+      "end": 110.32,
+      "text": "I thought of every bitter cup",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 110.88,
+      "end": 112.46,
+      "text": "Every tide I drank enough",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 112.46,
+      "end": 114.48,
+      "text": "And did not curse the younger me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 115.16,
+      "end": 118.32,
+      "text": "For mistaking thirst for mercy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 118.32,
+      "end": 120.06,
+      "text": "The sea stayed sea, the ropes stayed rough",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 120.88,
+      "end": 123.48,
+      "text": "The sky made no apology",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 123.8,
+      "end": 126.42,
+      "text": "But there was warmth along the planks",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 126.42,
+      "end": 127.16,
+      "text": "And I let myself receive",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 131.78,
+      "end": 134.48,
+      "text": "It doesn't fix the years behind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 134.86,
+      "end": 137.44,
+      "text": "It doesn't make the old ache kind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 137.66,
+      "end": 140.04,
+      "text": "But joy can sit with soaked-through feet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 140.04,
+      "end": 143.54,
+      "text": "And still be joy, and still be sweet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 145.04,
+      "end": 148.42,
+      "text": "If the fair wind finds us",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 148.42,
+      "end": 150.72,
+      "text": "Let it find us as we are",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 151.5,
+      "end": 153.2,
+      "text": "Salt in every sleeve cuff",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 153.84,
+      "end": 156.16,
+      "text": "Splinters in the spar",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 157.12,
+      "end": 158.96,
+      "text": "If the fair wind carries",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 159.26,
+      "end": 160.72,
+      "text": "Let it carry without debt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 161.5,
+      "end": 164.06,
+      "text": "Not every good thing coming",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 164.06,
+      "end": 167.92,
+      "text": "Needs a storm to earn it first",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 173.66,
+      "end": 175.7,
+      "text": "I kept waiting for the catch",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 175.96,
+      "end": 178.44,
+      "text": "The hidden reef, the closing hatch",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 178.78,
+      "end": 181.54,
+      "text": "But some days open without teeth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 181.88,
+      "end": 184.12,
+      "text": "Some hands offer and then leave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 184.58,
+      "end": 186.92,
+      "text": "No ledger on the cabin wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 187.28,
+      "end": 189.8,
+      "text": "No lesson carved beneath it all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 189.8,
+      "end": 192.86,
+      "text": "Just weather turning from the west",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 192.86,
+      "end": 196.78,
+      "text": "And tired lungs doing their best",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 60,
+      "section": "Final Chorus",
+      "start": 198.06,
+      "end": 201.54,
+      "text": "If the fair wind finds us",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 61,
+      "section": "Final Chorus",
+      "start": 201.68,
+      "end": 203.96,
+      "text": "Let it find us as we are",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 62,
+      "section": "Final Chorus",
+      "start": 204.78,
+      "end": 206.64,
+      "text": "Salt in every sleeve cuff",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 63,
+      "section": "Final Chorus",
+      "start": 207.16,
+      "end": 209.86,
+      "text": "Splinters in the spar",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 64,
+      "section": "Final Chorus",
+      "start": 211.16,
+      "end": 212.78,
+      "text": "If the fair wind carries",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 65,
+      "section": "Final Chorus",
+      "start": 213.12,
+      "end": 214.66,
+      "text": "Let it carry without debt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 66,
+      "section": "Final Chorus",
+      "start": 215.18,
+      "end": 218.06,
+      "text": "Not every good thing coming",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 67,
+      "section": "Final Chorus",
+      "start": 218.06,
+      "end": 222.08,
+      "text": "Needs a storm to earn it first",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 68,
+      "section": "Outro",
+      "start": 222.48,
+      "end": 223.02,
+      "text": "Fair wind... if it stays...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 69,
+      "section": "Outro",
+      "start": 223.02,
+      "end": 229.633,
+      "text": "Let it shorten bitter days",
+      "timing_source": "interpolated",
+      "matched_words": 0
     },
     {
       "index": 70,
       "section": "Outro",
-      "start": 228.9,
-      "end": 231.124,
+      "start": 229.633,
+      "end": 234.924,
       "text": "Loose rope... open palm...",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "timing_source": "interpolated",
+      "matched_words": 0
     },
     {
       "index": 71,
       "section": "Outro",
-      "start": 231.124,
-      "end": 234.46,
+      "start": 234.924,
+      "end": 242.86,
       "text": "No one punished for the calm",
-      "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "timing_source": "interpolated",
+      "matched_words": 0
     }
   ]
 }

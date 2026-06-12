@@ -2,6 +2,11 @@
   "generated_at": "2026-06-10T21:52:17Z",
   "news": [
     {
+      "title": "Misfiled Weather timed lyrics cleaned up",
+      "datetime": "2026-06-13T00:36:58+02:00",
+      "body": "Cleaned up the timed lyrics for [Misfiled Weather](?album=Broken%20Temple&song=Misfiled%20Weather) so repeated transcription ad-libs no longer appear in its lyric data.\n\nAdded scoped timing anchors for the same track so Verse 2 continues advancing smoothly instead of pausing and then skipping ahead.\n\nAdjusted the bridge timing so \"ASD came later\" waits until the vocal arrives instead of advancing during the preceding ad-lib gap."
+    },
+    {
       "title": "News links keep playback running",
       "datetime": "2026-06-11T02:00:39+02:00",
       "body": "News article links now use the site's in-page routing, so opening albums or songs from News no longer reloads the page or interrupts the player.\n\nFixed the timed lyrics for [Fair Wind Clause](?album=Driftwood&song=Fair%20Wind%20Clause) with word-level alignment, so lyric highlighting follows the song more accurately.\n\nAdded [Broken Temple](?album=Broken%20Temple) to the catalogue with analysis reports and timed lyrics."

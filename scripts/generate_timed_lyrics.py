@@ -102,7 +102,7 @@ def alignment_token_indices(tokens: list[str]) -> list[int]:
     index = 0
     while index < len(tokens):
         best_loop: tuple[int, int] | None = None
-        for size in range(1, min(4, len(tokens) - index) + 1):
+        for size in range(1, min(8, len(tokens) - index) + 1):
             phrase = tokens[index : index + size]
             repeats = 1
             while tokens[index + repeats * size : index + (repeats + 1) * size] == phrase:
@@ -162,6 +162,10 @@ def split_metadata_list(value: str) -> list[str]:
     return [item.strip() for item in re.split(r"[;\n|]+", value) if item.strip()]
 
 
+def split_timing_metadata_list(value: str) -> list[str]:
+    return [item.strip() for item in re.split(r"[;\n]+", value) if item.strip()]
+
+
 def timing_lines(lines: list[LyricLine], metadata: dict[str, str]) -> tuple[list[LyricLine], dict[str, Any]]:
     skipped_sections = set(split_metadata_list(metadata.get("TIMING_SKIP_SECTIONS", "")))
     if not skipped_sections:
@@ -183,7 +187,7 @@ def timing_lines(lines: list[LyricLine], metadata: dict[str, str]) -> tuple[list
 
 def timing_section_starts(metadata: dict[str, str]) -> dict[str, float]:
     starts: dict[str, float] = {}
-    for item in split_metadata_list(metadata.get("TIMING_SECTION_STARTS", "")):
+    for item in split_timing_metadata_list(metadata.get("TIMING_SECTION_STARTS", "")):
         section, separator, value = item.partition("=")
         if not separator:
             continue
@@ -196,7 +200,7 @@ def timing_section_starts(metadata: dict[str, str]) -> dict[str, float]:
 
 def timing_line_starts(metadata: dict[str, str]) -> list[dict[str, str | float | None]]:
     starts: list[dict[str, str | float | None]] = []
-    for item in split_metadata_list(metadata.get("TIMING_LINE_STARTS", "")):
+    for item in split_timing_metadata_list(metadata.get("TIMING_LINE_STARTS", "")):
         text, separator, value = item.partition("=")
         if not separator:
             continue
@@ -649,15 +653,45 @@ def align_lines(
     return output_lines, diagnostics
 
 
-def concise_segments(transcript: dict[str, Any]) -> list[dict[str, Any]]:
+def concise_segments(segments: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return [
         {
             "start": round(float(segment.get("start", 0)), 3),
             "end": round(float(segment.get("end", 0)), 3),
             "text": str(segment.get("text") or "").strip(),
         }
-        for segment in transcript.get("segments") or []
+        for segment in segments
     ]
+
+
+def filtered_transcript_segments(transcript: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    """Return transcript segments with repeated low-information ad-lib loops removed."""
+    filtered: list[dict[str, Any]] = []
+    removed_token_count = 0
+    dropped_segment_count = 0
+    for segment in transcript.get("segments") or []:
+        tokens = normalize_tokens(str(segment.get("text") or ""))
+        kept_indices = alignment_token_indices(tokens)
+        if not kept_indices:
+            if tokens:
+                dropped_segment_count += 1
+                removed_token_count += len(tokens)
+            continue
+
+        kept_tokens = [tokens[index] for index in kept_indices]
+        removed_token_count += len(tokens) - len(kept_tokens)
+        filtered.append(
+            {
+                "start": segment.get("start", 0),
+                "end": segment.get("end", 0),
+                "text": " ".join(kept_tokens),
+            }
+        )
+
+    return filtered, {
+        "ignored_adlib_segment_count": dropped_segment_count,
+        "filtered_adlib_token_count": removed_token_count,
+    }
 
 
 def repeated_short_line_candidates(lines: list[LyricLine]) -> dict[tuple[str, ...], str]:
@@ -756,17 +790,16 @@ def build_payload(text_path: Path, audio_path: Path, args: argparse.Namespace, m
     lines, timing_line_diagnostics = timing_lines(parsed_lines, metadata)
     transcript = transcribe(model, audio_path, args.language, args.word_timestamps)
     total_duration = max((float(segment.get("end", 0)) for segment in transcript.get("segments") or []), default=0)
-    alignable_segments = alignment_segments(transcript)
-    transcript_segments = concise_segments(transcript)
-    alignment_transcript_segments = concise_segments({"segments": alignable_segments})
+    filtered_segments, transcript_filter_diagnostics = filtered_transcript_segments(transcript)
+    transcript_segments = concise_segments(filtered_segments)
     words = observed_words(transcript)
-    timed_lines, diagnostics = align_lines(lines, words, max(0.1, total_duration or 0.1), alignment_transcript_segments)
+    timed_lines, diagnostics = align_lines(lines, words, max(0.1, total_duration or 0.1), transcript_segments)
     diagnostics.update(apply_section_start_overrides(timed_lines, metadata, max(0.1, total_duration or 0.1)))
     diagnostics.update(apply_line_start_overrides(timed_lines, metadata))
     timed_lines, inserted_adlibs = insert_repeated_adlibs(timed_lines, lines, transcript)
     diagnostics.update(timing_line_diagnostics)
     diagnostics["inserted_adlib_count"] = inserted_adlibs
-    diagnostics["ignored_adlib_segment_count"] = len(transcript.get("segments") or []) - len(alignable_segments)
+    diagnostics.update(transcript_filter_diagnostics)
     return {
         "schema": "discography-timed-lyrics-v1",
         "album": text_path.parent.name,

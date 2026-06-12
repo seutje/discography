@@ -12,91 +12,117 @@
   "diagnostics": {
     "line_count": 113,
     "reference_word_count": 369,
-    "observed_word_count": 437,
+    "observed_word_count": 287,
     "matched_word_count": 230,
     "matched_word_ratio": 0.623,
     "section_start_overrides": {},
-    "line_start_overrides": {},
+    "line_start_overrides": {
+      "Hook - bass bloom | wide melodic arc | spatial expansion::They named the weather badly": 65.7,
+      "Hook - bass bloom | wide melodic arc | spatial expansion::and sent me out in rain": 68.4,
+      "Hook - bass bloom | wide melodic arc | spatial expansion::no coat for what was coming": 71.0,
+      "Hook - bass bloom | wide melodic arc | spatial expansion::no word for why it pained": 73.2,
+      "Hook - bass bloom | wide melodic arc | spatial expansion::They saw the running river": 75.4,
+      "Hook - bass bloom | wide melodic arc | spatial expansion::missed the pressure in the ground": 78.1,
+      "Hook - bass bloom | wide melodic arc | spatial expansion::called the border disobedient": 81.1,
+      "Hook - bass bloom | wide melodic arc | spatial expansion::when the map was upside down": 83.4,
+      "Verse 2 - dub echoes | textured space | rhythmic shift::I climbed because": 86.4,
+      "Verse 2 - dub echoes | textured space | rhythmic shift::Stone did not require": 93.6,
+      "Verse 2 - dub echoes | textured space | rhythmic shift::I ran because": 99.8,
+      "Verse 2 - dub echoes | textured space | rhythmic shift::No hidden rule": 104.8,
+      "Verse 2 - dub echoes | textured space | rhythmic shift::But classrooms held": 109.3,
+      "Verse 2 - dub echoes | textured space | rhythmic shift::So I became": 114.0,
+      "Pre-Hook - delay textures | evolving motif::Wrong folder": 120.0,
+      "Hook - fuller, steady pulse | deep low-end focus::They named the weather badly": 131.3,
+      "Hook - fuller, steady pulse | deep low-end focus::and sent me out in rain": 134.56,
+      "Hook - fuller, steady pulse | deep low-end focus::no coat for what was coming": 135.78,
+      "Hook - fuller, steady pulse | deep low-end focus::no word for why it pained": 139.24,
+      "Hook - fuller, steady pulse | deep low-end focus::They saw the running river": 141.96,
+      "Hook - fuller, steady pulse | deep low-end focus::missed the pressure in the ground": 145.54,
+      "Hook - fuller, steady pulse | deep low-end focus::called the border disobedient": 148.06,
+      "Hook - fuller, steady pulse | deep low-end focus::when the map was upside down": 150.58,
+      "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift::ASD came later": 166.5,
+      "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift::Not a cure": 172.8,
+      "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift::I looked back": 176.66,
+      "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift::and every rough": 181.7,
+      "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift::finally had": 185.42,
+      "Final Hook - wide open | rich low-end | peak texture::They named the weather badly": 189.22
+    },
     "skipped_line_count": 0,
     "skipped_sections": [],
     "inserted_adlib_count": 0,
-    "ignored_adlib_segment_count": 1
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 518
   },
   "transcript_segments": [
     {
       "start": 11.78,
       "end": 26.88,
-      "text": "Rung folder, right storm, paper says the child won't form, quick fee, crowded head,"
+      "text": "rung folder right storm paper says the child won't form quick fee crowded head"
     },
     {
       "start": 28.36,
       "end": 37.04,
-      "text": "no one reads the road ahead, they measured me in moving parts how I ran, how fast I"
+      "text": "no one reads the road ahead they measured me in moving parts how i ran how fast i"
     },
     {
       "start": 37.04,
       "end": 42.82,
-      "text": "messed up, how my hands kept finding edges, how my thoughts came crunched in lists,"
+      "text": "messed up how my hands kept finding edges how my thoughts came crunched in lists"
     },
     {
       "start": 44.16,
       "end": 48.88,
-      "text": "ADHD, they wrote it cleanly like the label closed the case but the country underneath me had"
+      "text": "adhd they wrote it cleanly like the label closed the case but the country underneath me had"
     },
     {
       "start": 48.88,
       "end": 52.54,
-      "text": "a different kind of place, I was not only speeding, scattering out a spark that would not sit,"
+      "text": "a different kind of place i was not only speeding scattering out a spark that would not sit"
     },
     {
       "start": 52.54,
       "end": 60.98,
-      "text": "I was reading every border and exhausting all of it wrong folder, right storm, I kept"
+      "text": "i was reading every border and exhausting all of it wrong folder right storm i kept"
     },
     {
       "start": 60.98,
       "end": 81.3,
-      "text": "trying to perform, then in the weather badly, it sent me out in rain, y'all go for what was"
+      "text": "trying to perform then in the weather badly it sent me out in rain y'all go for what was"
     },
     {
       "start": 81.3,
       "end": 109.26,
-      "text": "the border, it's so bein', when the map was upside down, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+      "text": "the border it's so bein when the map was upside down"
     },
     {
       "start": 109.26,
       "end": 139.24,
-      "text": "But the classrooms held a hundred where the maps none of them formed me So I became a faulty forecast in the country hard to see Roundfolder, Roundfolder, right storm, not broken just a moon in sudden times They named the weather badly, you, set me up in rain and you, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+      "text": "but the classrooms held a hundred where the maps none of them formed me so i became a faulty forecast in the country hard to see roundfolder roundfolder right storm not broken just a moon in sudden times they named the weather badly you set me up in rain and you"
     },
     {
       "start": 139.24,
       "end": 169.22,
-      "text": "No word for why it came, they saw the running river Mr. Pressure in the ground, call the board of disobedience when the map was upside No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,"
+      "text": "no word for why it came they saw the running river mr pressure in the ground call the board of disobedience when the map was upside"
     },
     {
       "start": 176.66,
       "end": 189.22,
-      "text": "I looked back at the child, this foul, the new blame, and every rough translation finally had a name,"
+      "text": "i looked back at the child this foul the new blame and every rough translation finally had a name"
     },
     {
       "start": 193.94,
       "end": 219.2,
-      "text": "but the weather still was real, every country needs a season, it is allowed to feel, I was the running river, I was the mountain ground, not the failure of a border, but a border never found, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+      "text": "but the weather still was real every country needs a season it is allowed to feel i was the running river i was the mountain ground not the failure of a border but a border never found"
     },
     {
       "start": 219.2,
       "end": 238.3,
-      "text": "white storm, late note enters, changed unborn, quick feet, crowded head, now I read what was unsaid"
+      "text": "white storm late note enters changed unborn quick feet crowded head now i read what was unsaid"
     },
     {
       "start": 249.2,
       "end": 249.86,
-      "text": "and I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what was unsaid, I read what"
-    },
-    {
-      "start": 249.84,
-      "end": 249.84,
-      "text": ""
+      "text": "and i read what was unsaid i read what"
     }
   ],
   "lines": [
@@ -427,352 +453,352 @@
     {
       "index": 36,
       "section": "Hook - bass bloom | wide melodic arc | spatial expansion",
-      "start": 65.76,
-      "end": 67.1,
+      "start": 65.7,
+      "end": 68.4,
       "text": "They named the weather badly",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 37,
       "section": "Hook - bass bloom | wide melodic arc | spatial expansion",
-      "start": 68.26,
-      "end": 69.56,
+      "start": 68.4,
+      "end": 71.0,
       "text": "and sent me out in rain",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 5
     },
     {
       "index": 38,
       "section": "Hook - bass bloom | wide melodic arc | spatial expansion",
-      "start": 71.04,
-      "end": 71.24,
+      "start": 71.0,
+      "end": 73.2,
       "text": "no coat for what was coming",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 1
     },
     {
       "index": 39,
       "section": "Hook - bass bloom | wide melodic arc | spatial expansion",
-      "start": 71.24,
-      "end": 74.791,
+      "start": 73.2,
+      "end": 75.4,
       "text": "no word for why it pained",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 40,
       "section": "Hook - bass bloom | wide melodic arc | spatial expansion",
-      "start": 74.791,
-      "end": 77.749,
+      "start": 75.4,
+      "end": 78.1,
       "text": "They saw the running river",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 41,
       "section": "Hook - bass bloom | wide melodic arc | spatial expansion",
-      "start": 77.749,
-      "end": 81.3,
+      "start": 78.1,
+      "end": 81.1,
       "text": "missed the pressure in the ground",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 42,
       "section": "Hook - bass bloom | wide melodic arc | spatial expansion",
-      "start": 81.3,
-      "end": 81.82,
+      "start": 81.1,
+      "end": 83.4,
       "text": "called the border disobedient",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 2
     },
     {
       "index": 43,
       "section": "Hook - bass bloom | wide melodic arc | spatial expansion",
-      "start": 83.5,
-      "end": 85.76,
+      "start": 83.4,
+      "end": 86.4,
       "text": "when the map was upside down",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 6
     },
     {
       "index": 44,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 85.76,
-      "end": 109.6,
+      "start": 86.4,
+      "end": 88.2,
       "text": "I climbed because",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 45,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 109.6,
-      "end": 109.92,
+      "start": 88.2,
+      "end": 90.6,
       "text": "the world made sense",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 1
     },
     {
       "index": 46,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 109.92,
-      "end": 110.02,
+      "start": 90.6,
+      "end": 92.4,
       "text": "when every grip",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 47,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 110.02,
-      "end": 110.12,
+      "start": 92.4,
+      "end": 93.6,
       "text": "was true",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 48,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 110.12,
-      "end": 110.22,
+      "start": 93.6,
+      "end": 95.855,
       "text": "Stone did not require",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 49,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 110.22,
-      "end": 110.32,
+      "start": 95.855,
+      "end": 96.982,
       "text": "small talk",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 50,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 110.32,
-      "end": 110.42,
+      "start": 96.982,
+      "end": 98.109,
       "text": "branches never",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 51,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 110.42,
-      "end": 110.52,
+      "start": 98.109,
+      "end": 99.8,
       "text": "asked for proof",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 52,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 110.52,
-      "end": 110.62,
+      "start": 99.8,
+      "end": 100.954,
       "text": "I ran because",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 53,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 110.62,
-      "end": 110.72,
+      "start": 100.954,
+      "end": 102.492,
       "text": "the route was honest",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 54,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 110.72,
-      "end": 110.82,
+      "start": 102.492,
+      "end": 103.262,
       "text": "one lung",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 55,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 110.82,
-      "end": 110.92,
+      "start": 103.262,
+      "end": 104.031,
       "text": "one field",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 56,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 110.92,
-      "end": 111.02,
+      "start": 104.031,
+      "end": 104.8,
       "text": "one hill",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 57,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 111.02,
-      "end": 111.12,
+      "start": 104.8,
+      "end": 106.15,
       "text": "No hidden rule",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 58,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 111.12,
-      "end": 111.22,
+      "start": 106.15,
+      "end": 107.5,
       "text": "beneath the sentence",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 59,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 111.22,
-      "end": 111.32,
+      "start": 107.5,
+      "end": 108.85,
       "text": "no face demanding",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 60,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 111.32,
-      "end": 111.42,
+      "start": 108.85,
+      "end": 109.3,
       "text": "skill",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 61,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 111.42,
-      "end": 111.52,
+      "start": 109.3,
+      "end": 110.475,
       "text": "But classrooms held",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 2
     },
     {
       "index": 62,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 111.52,
-      "end": 112.32,
+      "start": 110.475,
+      "end": 112.042,
       "text": "a hundred weather maps",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 63,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 112.32,
-      "end": 113.02,
+      "start": 112.042,
+      "end": 113.217,
       "text": "none of them",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 64,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 113.5,
-      "end": 114.02,
+      "start": 113.217,
+      "end": 114.0,
       "text": "for me",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 1
     },
     {
       "index": 65,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 114.02,
-      "end": 114.98,
+      "start": 114.0,
+      "end": 115.5,
       "text": "So I became",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 66,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 114.98,
-      "end": 116.72,
+      "start": 115.5,
+      "end": 117.0,
       "text": "a faulty forecast",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 67,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 116.72,
-      "end": 118.1,
+      "start": 117.0,
+      "end": 118.5,
       "text": "in a country",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 2
     },
     {
       "index": 68,
       "section": "Verse 2 - dub echoes | textured space | rhythmic shift",
-      "start": 118.1,
+      "start": 118.5,
       "end": 120.0,
       "text": "hard to see",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 69,
       "section": "Pre-Hook - delay textures | evolving motif",
       "start": 120.0,
-      "end": 123.56,
+      "end": 122.055,
       "text": "Wrong folder",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 70,
       "section": "Pre-Hook - delay textures | evolving motif",
-      "start": 123.56,
-      "end": 124.44,
+      "start": 122.055,
+      "end": 124.109,
       "text": "right storm",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 2
     },
     {
       "index": 71,
       "section": "Pre-Hook - delay textures | evolving motif",
-      "start": 124.66,
-      "end": 125.96,
+      "start": 124.109,
+      "end": 126.164,
       "text": "not broken",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 2
     },
     {
       "index": 72,
       "section": "Pre-Hook - delay textures | evolving motif",
-      "start": 125.96,
-      "end": 126.44,
+      "start": 126.164,
+      "end": 128.218,
       "text": "just unborn",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 1
     },
     {
       "index": 73,
       "section": "Pre-Hook - delay textures | evolving motif",
-      "start": 126.44,
+      "start": 128.218,
       "end": 131.3,
       "text": "inside their terms",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 74,
       "section": "Hook - fuller, steady pulse | deep low-end focus",
       "start": 131.3,
-      "end": 133.16,
+      "end": 134.56,
       "text": "They named the weather badly",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 5
     },
     {
@@ -781,7 +807,7 @@
       "start": 134.56,
       "end": 135.78,
       "text": "and sent me out in rain",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
@@ -790,259 +816,259 @@
       "start": 135.78,
       "end": 139.24,
       "text": "no coat for what was coming",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 77,
       "section": "Hook - fuller, steady pulse | deep low-end focus",
       "start": 139.24,
-      "end": 141.14,
+      "end": 141.96,
       "text": "no word for why it pained",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 5
     },
     {
       "index": 78,
       "section": "Hook - fuller, steady pulse | deep low-end focus",
       "start": 141.96,
-      "end": 144.48,
+      "end": 145.54,
       "text": "They saw the running river",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 5
     },
     {
       "index": 79,
       "section": "Hook - fuller, steady pulse | deep low-end focus",
       "start": 145.54,
-      "end": 147.2,
+      "end": 148.06,
       "text": "missed the pressure in the ground",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 4
     },
     {
       "index": 80,
       "section": "Hook - fuller, steady pulse | deep low-end focus",
       "start": 148.06,
-      "end": 148.26,
+      "end": 150.58,
       "text": "called the border disobedient",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 1
     },
     {
       "index": 81,
       "section": "Hook - fuller, steady pulse | deep low-end focus",
       "start": 150.58,
-      "end": 152.26,
+      "end": 166.5,
       "text": "when the map was upside down",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 5
     },
     {
       "index": 82,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 152.26,
-      "end": 155.92,
+      "start": 166.5,
+      "end": 168.863,
       "text": "ASD came later",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 83,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 155.92,
-      "end": 159.58,
+      "start": 168.863,
+      "end": 171.225,
       "text": "like a harbor",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 84,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 159.58,
-      "end": 162.02,
+      "start": 171.225,
+      "end": 172.8,
       "text": "after years",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 85,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 162.02,
-      "end": 165.68,
+      "start": 172.8,
+      "end": 173.765,
       "text": "Not a cure",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 86,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 165.68,
-      "end": 169.34,
+      "start": 173.765,
+      "end": 174.73,
       "text": "not a pardon",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 87,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 169.34,
-      "end": 173.0,
+      "start": 174.73,
+      "end": 175.695,
       "text": "just a chart",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 88,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 173.0,
+      "start": 175.695,
       "end": 176.66,
       "text": "for older fears",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 89,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
       "start": 176.66,
-      "end": 178.56,
+      "end": 178.34,
       "text": "I looked back",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 90,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 178.56,
-      "end": 179.42,
+      "start": 178.34,
+      "end": 180.02,
       "text": "at the child",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 91,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 179.42,
-      "end": 180.8,
+      "start": 180.02,
+      "end": 180.58,
       "text": "misfiled",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 92,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 180.8,
-      "end": 181.36,
+      "start": 180.58,
+      "end": 181.7,
       "text": "under blame",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 1
     },
     {
       "index": 93,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
       "start": 181.7,
-      "end": 184.54,
+      "end": 184.49,
       "text": "and every rough",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 94,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 184.54,
+      "start": 184.49,
       "end": 185.42,
       "text": "translation",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 1
     },
     {
       "index": 95,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
       "start": 185.42,
-      "end": 188.32,
+      "end": 187.32,
       "text": "finally had",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 2
     },
     {
       "index": 96,
       "section": "Bridge - filter opens | warm, expansive texture | B-flat Lydian shift",
-      "start": 188.32,
+      "start": 187.32,
       "end": 189.22,
       "text": "a name",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 2
     },
     {
       "index": 97,
       "section": "Final Hook - wide open | rich low-end | peak texture",
       "start": 189.22,
-      "end": 193.94,
+      "end": 192.187,
       "text": "They named the weather badly",
-      "timing_source": "interpolated",
+      "timing_source": "interpolated-line-override",
       "matched_words": 0
     },
     {
       "index": 98,
       "section": "Final Hook - wide open | rich low-end | peak texture",
-      "start": 193.94,
-      "end": 196.66,
+      "start": 192.187,
+      "end": 195.747,
       "text": "but the weather still was real",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 6
     },
     {
       "index": 99,
       "section": "Final Hook - wide open | rich low-end | peak texture",
-      "start": 196.68,
-      "end": 199.68,
+      "start": 195.747,
+      "end": 198.713,
       "text": "every country needs a season",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 5
     },
     {
       "index": 100,
       "section": "Final Hook - wide open | rich low-end | peak texture",
-      "start": 200.32,
-      "end": 202.28,
+      "start": 198.713,
+      "end": 201.68,
       "text": "it is allowed to feel",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 5
     },
     {
       "index": 101,
       "section": "Final Hook - wide open | rich low-end | peak texture",
-      "start": 203.0,
-      "end": 205.38,
+      "start": 201.68,
+      "end": 204.647,
       "text": "I was the running river",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 5
     },
     {
       "index": 102,
       "section": "Final Hook - wide open | rich low-end | peak texture",
-      "start": 205.68,
-      "end": 208.42,
+      "start": 204.647,
+      "end": 207.613,
       "text": "I was the mountain ground",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 5
     },
     {
       "index": 103,
       "section": "Final Hook - wide open | rich low-end | peak texture",
-      "start": 209.0,
-      "end": 211.42,
+      "start": 207.613,
+      "end": 211.173,
       "text": "not the failure of a border",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 6
     },
     {
       "index": 104,
       "section": "Final Hook - wide open | rich low-end | peak texture",
-      "start": 211.78,
+      "start": 211.173,
       "end": 214.14,
       "text": "but a border never found",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 5
     },
     {

@@ -4,264 +4,490 @@
   "title": "Asset Rich",
   "text_path": "Net Worthless/10 - Asset Rich.txt",
   "audio_path": "Net Worthless/audio/10 - Asset Rich.mp3",
-  "duration_seconds": 322.76,
-  "model": "base",
+  "duration_seconds": 317.86,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 247,
     "reference_word_count": 802,
-    "observed_word_count": 813,
-    "matched_word_count": 715,
-    "matched_word_ratio": 0.892,
-    "inserted_adlib_count": 0
+    "observed_word_count": 809,
+    "matched_word_count": 769,
+    "matched_word_ratio": 0.959,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
       "start": 0.0,
-      "end": 13.84,
-      "text": "My bank had passed if I wanted financial insights bold I said mate I've got insights"
+      "end": 6.34,
+      "text": "my bank app asked if i wanted financial insights bold"
     },
     {
-      "start": 13.84,
-      "end": 18.72,
-      "text": "what I need is money I'm asset rich in cash port which means I can"
+      "start": 8.0,
+      "end": 15.54,
+      "text": "i said mate i've got insights what i need is money"
     },
     {
-      "start": 18.72,
-      "end": 24.6,
-      "text": "explain the entire machine while standing in the kitchen calculating the"
+      "start": 15.54,
+      "end": 20.68,
+      "text": "i'm asset rich and cash poor which means i can explain the entire machine"
     },
     {
-      "start": 24.6,
-      "end": 31.12,
-      "text": "cheese I got skills like emergency candles bright useful mostly used when"
+      "start": 20.68,
+      "end": 25.24,
+      "text": "whilst standing in the kitchen calculating the cheese"
     },
     {
-      "start": 31.12,
-      "end": 36.2,
-      "text": "something is failed I know how to fix three broken systems four sad people"
+      "start": 26.46,
+      "end": 30.92,
+      "text": "i've got skills like emergency candles bright useful mostly used"
     },
     {
-      "start": 36.2,
-      "end": 40.44,
-      "text": "and one route a by thread and then it gently I can write the email that makes"
+      "start": 30.92,
+      "end": 33.88,
+      "text": "when something is failed i know how to fix"
     },
     {
-      "start": 40.44,
-      "end": 45.92,
-      "text": "the room behave I can read the silence in a meeting in here who is about to"
+      "start": 33.88,
+      "end": 36.48,
+      "text": "three broken systems four sad people"
     },
     {
-      "start": 45.92,
-      "end": 50.84,
-      "text": "quit I can turn a wound into a chorus a panic attack into a plan a cheap"
+      "start": 36.48,
+      "end": 38.84,
+      "text": "and one router by threatening it gently"
     },
     {
-      "start": 50.84,
-      "end": 56.96,
-      "text": "pitarin to a small republic for the over drawn still the boiler blinks like a"
+      "start": 38.84,
+      "end": 41.48,
+      "text": "i can write the email that makes the room behave"
     },
     {
-      "start": 56.96,
-      "end": 61.48,
-      "text": "moral question the rent arise with this little crown on the fridge contains"
+      "start": 41.48,
+      "end": 46.32,
+      "text": "i can read the silence in a meeting and hear who is about to quit"
     },
     {
-      "start": 61.48,
-      "end": 68.36,
-      "text": "mustard light and the idea of dinner I count what I know when the numbers don't"
+      "start": 46.32,
+      "end": 50.52,
+      "text": "i can turn a wound into a chorus a panic attack into a plan"
     },
     {
-      "start": 68.36,
-      "end": 74.48,
-      "text": "line golden my head and dust in my hand I'm asset rich cash port still holding"
+      "start": 50.52,
+      "end": 54.08,
+      "text": "a cheap guitar into a small republic for the overdrawn"
     },
     {
-      "start": 74.48,
-      "end": 79.72,
-      "text": "door got a fortune in nerve and a bill on the floor made the class roof with the"
+      "start": 54.08,
+      "end": 57.86,
+      "text": "and still the boiler blinks like a moral question"
     },
     {
-      "start": 79.72,
-      "end": 84.24,
-      "text": "weather coming through our own what I learned the bank on the view if wisdom"
+      "start": 57.86,
+      "end": 60.46,
+      "text": "the rent arrives with its little crown on"
     },
     {
-      "start": 84.24,
-      "end": 93.56,
-      "text": "paid rent I'd be hard to ignore but I'm asset rich cash port diversified portfolio"
+      "start": 60.46,
+      "end": 64.32,
+      "text": "the fridge contains mustard light and the idea of dinner"
     },
     {
-      "start": 93.56,
-      "end": 100.6,
-      "text": "one useful brain three mugs and a cardigan with leadership potential they told"
+      "start": 65.66,
+      "end": 68.96,
+      "text": "i count what i know when the numbers don't land"
     },
     {
-      "start": 100.6,
-      "end": 104.56,
-      "text": "us knowledge was a lab a climate earn it be clever so I climb till my hands"
+      "start": 68.96,
+      "end": 71.82,
+      "text": "gold in my head and dust in my hand"
     },
     {
-      "start": 104.56,
-      "end": 109.36,
-      "text": "went numb a nice little view of everyone below me also climate also rent"
+      "start": 71.82,
+      "end": 75.04,
+      "text": "i'm asset rich cash poor still holding the door"
     },
     {
-      "start": 109.36,
-      "end": 114.72,
-      "text": "and also one bad month from the common a cautionary linked in post I did the"
+      "start": 75.04,
+      "end": 77.84,
+      "text": "got a fortune in nerve and a bill on the floor"
     },
     {
-      "start": 114.72,
-      "end": 118.44,
-      "text": "courses read the books learn the language of rooms or glass wall stay cold"
+      "start": 77.84,
+      "end": 80.74,
+      "text": "middle class roof with the weather coming through"
     },
     {
-      "start": 118.44,
-      "end": 123.16,
-      "text": "a pipeline resilience tiny spell words for people who were tired but"
+      "start": 80.74,
+      "end": 83.54,
+      "text": "i own what i learned but the bank owns the view"
     },
     {
-      "start": 123.16,
-      "end": 128.12,
-      "text": "laminated and yes uncomfortable comparatively I've got heeding most days"
+      "start": 83.54,
+      "end": 86.36,
+      "text": "if wisdom paid rent i'd be hard to ignore"
     },
     {
-      "start": 128.12,
-      "end": 133.56,
-      "text": "a dentist I avoid for emotional reasons and coffee that cost enough to have"
+      "start": 86.36,
+      "end": 89.7,
+      "text": "but i'm asset rich cash poor"
     },
     {
-      "start": 133.56,
-      "end": 139.88,
-      "text": "opinions so I won't pretend I'm at the bottom I'm just close enough to hear"
+      "start": 92.26,
+      "end": 95.58,
+      "text": "diversified portfolio one useful brain"
     },
     {
-      "start": 139.88,
-      "end": 147.44,
-      "text": "it breathing close enough to know the floor is not a floor it's a subscription"
+      "start": 95.58,
+      "end": 99.2,
+      "text": "three mugs and a cardigan with leadership potential"
     },
     {
-      "start": 147.44,
-      "end": 153.48,
-      "text": "asset rich cash port still holding the door got a fortune in nerve and a bill on the floor"
+      "start": 99.84,
+      "end": 103.12,
+      "text": "they told us knowledge was a lie but climate earn it be clever"
     },
     {
-      "start": 153.48,
-      "end": 158.12,
-      "text": "made the class roof with the weather coming through our own what I learned but"
+      "start": 103.12,
+      "end": 105.24,
+      "text": "so i climbed till my hands went numb"
     },
     {
-      "start": 158.12,
-      "end": 165.12,
-      "text": "the bank owns the view if wisdom paid rent I'd be hard to ignore but I'm asset rich cash port"
+      "start": 105.24,
+      "end": 108.04,
+      "text": "but a nice little view of everyone below me"
     },
     {
-      "start": 165.12,
-      "end": 173.2,
-      "text": "and the cruel joke is I do feel rich not always not when the car makes a sound"
+      "start": 108.04,
+      "end": 111.6,
+      "text": "also climbing also renting also one bad month from becoming"
     },
     {
-      "start": 173.2,
-      "end": 178.8,
-      "text": "like a bag of color it being judged not when the invoice sits in my inbox with"
+      "start": 111.6,
+      "end": 113.86,
+      "text": "a cautionary linkedin post it"
     },
     {
-      "start": 178.8,
-      "end": 184.6,
-      "text": "its shoes on but sometimes when a friend says how did you know what I meant"
+      "start": 113.86,
+      "end": 117.04,
+      "text": "i did the courses read the books learned the language of rooms"
     },
     {
-      "start": 185.28,
-      "end": 190.36,
-      "text": "when a line arrives clean and true after weeks of scraping fork when I fix"
+      "start": 117.04,
+      "end": 119.84,
+      "text": "with glass walls stakeholder pipeline resilience"
     },
     {
-      "start": 190.36,
-      "end": 195.36,
-      "text": "something with patients instead of panic when the small room fills with people"
+      "start": 119.84,
+      "end": 123.96,
+      "text": "tiny spell words for people who were tired but laminated"
     },
     {
-      "start": 195.36,
-      "end": 201.6,
-      "text": "who trust me enough to be tired then I feel rich disgustingly rich I'll sure"
+      "start": 123.96,
+      "end": 128.26,
+      "text": "and yes i'm comfortable comparatively i've got heat in most days"
     },
     {
-      "start": 201.6,
-      "end": 206.48,
-      "text": "account in the sole private island if not giving up and know that does not pay"
+      "start": 128.26,
+      "end": 131.4,
+      "text": "a dentist i avoid for emotional reasons"
     },
     {
-      "start": 206.48,
-      "end": 212.76,
-      "text": "the council tax I have checked repeatedly but it means the ledger is incomplete"
+      "start": 131.4,
+      "end": 134.42,
+      "text": "and coffee that cost enough to have opinions"
     },
     {
-      "start": 212.76,
-      "end": 221.76,
-      "text": "it means the market is terrible eyesight it means some forms of wealth refuse to behave like wealth"
+      "start": 135.06,
+      "end": 137.62,
+      "text": "so i won't pretend i'm at the bottom"
     },
     {
-      "start": 221.76,
-      "end": 227.76,
-      "text": "maybe that's the trick at the end of the album not pretending broke his holy not calling pressure character"
+      "start": 138.26,
+      "end": 140.62,
+      "text": "i'm just close enough to hear it breathing"
     },
     {
-      "start": 227.76,
-      "end": 233.76,
-      "text": "because someone rich needs the story tidy but refusing to let the till name every treasurer"
+      "start": 140.62,
+      "end": 144.94,
+      "text": "close enough to know the floor is not a floor"
     },
     {
-      "start": 233.76,
-      "end": 240.76,
-      "text": "I have been porting cash and obscene questions then and savings every with songs one foot in the middle class"
+      "start": 145.86,
+      "end": 148.74,
+      "text": "it's a subscription i'm asset rich"
     },
     {
-      "start": 240.76,
-      "end": 247.76,
-      "text": "one foot over the drop door both hands full of things I couldn't sell without becoming less alive"
+      "start": 148.74,
+      "end": 150.8,
+      "text": "cash poor still holding the door"
     },
     {
-      "start": 247.76,
-      "end": 255.76,
-      "text": "so let the spreadsheet shake its head let be up offer insights let the landlord call it passive income"
+      "start": 150.8,
+      "end": 153.64,
+      "text": "got a fortune in nerve and a bill on the floor"
     },
     {
-      "start": 255.76,
-      "end": 266.76,
-      "text": "like my boss isn't active expense I am still here still learning still useful still making soup"
+      "start": 153.64,
+      "end": 156.54,
+      "text": "middle class roof with the weather coming through"
     },
     {
-      "start": 266.76,
-      "end": 276.76,
-      "text": "from weather and why are my set rich cash pours still hold in the door got a fortune in nerve and a bill on the floor"
+      "start": 156.54,
+      "end": 159.36,
+      "text": "i own what i learned but the bank owns the view"
     },
     {
-      "start": 276.76,
-      "end": 283.76,
-      "text": "made the class roof with the weather coming through our own what I learned but the bank owns the view with wisdom paid rent"
+      "start": 159.36,
+      "end": 162.24,
+      "text": "if wisdom paid rent i'd be hard to ignore"
     },
     {
-      "start": 283.76,
-      "end": 291.76,
-      "text": "I'd be hard to ignore but I'm our set rich cash pour I'm dead to wear hope source still singing for more"
+      "start": 162.24,
+      "end": 165.42,
+      "text": "but i'm asset rich cash poor"
     },
     {
-      "start": 291.76,
-      "end": 301.76,
-      "text": "I'm a hard in the red and a light in the store if love had a wage we don't make it through so I count what is left and I share it with you"
+      "start": 166.56,
+      "end": 171.32,
+      "text": "and the cruel joke is i do feel rich not always"
     },
     {
-      "start": 301.76,
-      "end": 315.76,
-      "text": "my bank app says I'm spending too much on groceries fair but tonight there are four people at my table laughing like the rent can't hear us and for once"
+      "start": 171.32,
+      "end": 175.4,
+      "text": "not when the car makes a sound like a bag of cutlery being judged"
     },
     {
-      "start": 315.76,
-      "end": 322.76,
-      "text": "the numbers can't wait outside"
+      "start": 176.1,
+      "end": 179.8,
+      "text": "not when the invoice sits in my inbox with its shoes on"
+    },
+    {
+      "start": 180.66,
+      "end": 184.76,
+      "text": "but sometimes when a friend says how did you know what i meant"
+    },
+    {
+      "start": 185.44,
+      "end": 189.48,
+      "text": "when a lion arrives clean and true after weeks of scraping fog"
+    },
+    {
+      "start": 189.48,
+      "end": 192.9,
+      "text": "when i fix something with patience instead of panic"
+    },
+    {
+      "start": 192.9,
+      "end": 197.92,
+      "text": "when the small room fills with people who trust me enough to be tired"
+    },
+    {
+      "start": 197.92,
+      "end": 201.08,
+      "text": "then i feel rich disgustingly rich"
+    },
+    {
+      "start": 201.08,
+      "end": 205.16,
+      "text": "offshore account in this whole private island of not giving up"
+    },
+    {
+      "start": 205.16,
+      "end": 207.98,
+      "text": "but know that does not pay the council tax"
+    },
+    {
+      "start": 207.98,
+      "end": 209.68,
+      "text": "i have checked repeatedly"
+    },
+    {
+      "start": 209.68,
+      "end": 212.72,
+      "text": "but it means the ledger is incomplete"
+    },
+    {
+      "start": 212.72,
+      "end": 215.36,
+      "text": "it means the market is terrible eyesight"
+    },
+    {
+      "start": 215.36,
+      "end": 218.2,
+      "text": "it means some forms of wealth"
+    },
+    {
+      "start": 218.2,
+      "end": 221.22,
+      "text": "refuse to behave like wealth"
+    },
+    {
+      "start": 221.22,
+      "end": 224.06,
+      "text": "maybe that's the trick at the end of the album"
+    },
+    {
+      "start": 224.06,
+      "end": 226.26,
+      "text": "not pretending broke is holy"
+    },
+    {
+      "start": 226.26,
+      "end": 227.9,
+      "text": "not calling pressure character"
+    },
+    {
+      "start": 227.9,
+      "end": 230.76,
+      "text": "because someone rich needs the story tidy"
+    },
+    {
+      "start": 230.76,
+      "end": 234.1,
+      "text": "but refusing to let the till name every treasure"
+    },
+    {
+      "start": 234.1,
+      "end": 237.02,
+      "text": "i have been pouring cash and obscene in questions"
+    },
+    {
+      "start": 237.02,
+      "end": 239.28,
+      "text": "then in savings heavy with songs"
+    },
+    {
+      "start": 239.28,
+      "end": 241.36,
+      "text": "one foot in the middle class"
+    },
+    {
+      "start": 241.36,
+      "end": 243.24,
+      "text": "one foot over the trapdoor"
+    },
+    {
+      "start": 243.24,
+      "end": 246.1,
+      "text": "both hands full of things i couldn't sell"
+    },
+    {
+      "start": 246.1,
+      "end": 247.92,
+      "text": "without becoming less alive"
+    },
+    {
+      "start": 247.92,
+      "end": 250.36,
+      "text": "so let the spreadsheet shake its head"
+    },
+    {
+      "start": 250.36,
+      "end": 252.36,
+      "text": "let me have offering insights"
+    },
+    {
+      "start": 252.36,
+      "end": 255.64,
+      "text": "let the landlord call it passive income"
+    },
+    {
+      "start": 255.64,
+      "end": 259.04,
+      "text": "like my pulse is an active expense"
+    },
+    {
+      "start": 259.04,
+      "end": 260.66,
+      "text": "i am still here"
+    },
+    {
+      "start": 260.66,
+      "end": 263.54,
+      "text": "still learning still useful"
+    },
+    {
+      "start": 264.1,
+      "end": 269.68,
+      "text": "still making soup from weather and wire"
+    },
+    {
+      "start": 269.68,
+      "end": 273.86,
+      "text": "on my set rich cash pour still holding the door"
+    },
+    {
+      "start": 273.86,
+      "end": 276.74,
+      "text": "got a fortune in nerve and a bill on the floor"
+    },
+    {
+      "start": 276.74,
+      "end": 279.62,
+      "text": "middle class roof with the weather coming through"
+    },
+    {
+      "start": 279.62,
+      "end": 282.46,
+      "text": "i own what i learned but the bank owns the view"
+    },
+    {
+      "start": 282.46,
+      "end": 285.3,
+      "text": "if wisdom paid rent i'd be hard to ignore"
+    },
+    {
+      "start": 285.3,
+      "end": 288.54,
+      "text": "but i'm offset rich cash pour"
+    },
+    {
+      "start": 288.54,
+      "end": 291.58,
+      "text": "i'm debt to wear hope so i still sing it for more"
+    },
+    {
+      "start": 291.58,
+      "end": 294.34,
+      "text": "got a heart in the red and a light in the store"
+    },
+    {
+      "start": 294.34,
+      "end": 297.2,
+      "text": "if love had a wage we'd all make it through"
+    },
+    {
+      "start": 297.2,
+      "end": 300.36,
+      "text": "so i count what is left and i share it with you"
+    },
+    {
+      "start": 301.88,
+      "end": 305.56,
+      "text": "my band cap says i'm spending too much on groceries fare"
+    },
+    {
+      "start": 306.22,
+      "end": 309.76,
+      "text": "but tonight there are four people at my table"
+    },
+    {
+      "start": 309.76,
+      "end": 313.4,
+      "text": "laughing like the rent can't hear us"
+    },
+    {
+      "start": 313.4,
+      "end": 317.86,
+      "text": "and for once the numbers can wait outside"
     }
   ],
   "lines": [
@@ -269,16 +495,16 @@
       "index": 0,
       "section": "Intro - spoken | dry, close-mic | sparse guitar",
       "start": 0.0,
-      "end": 1.73,
+      "end": 1.96,
       "text": "My bank app asked",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 1,
       "section": "Intro - spoken | dry, close-mic | sparse guitar",
-      "start": 3.46,
-      "end": 6.055,
+      "start": 1.96,
+      "end": 2.64,
       "text": "if I wanted",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -286,8 +512,8 @@
     {
       "index": 2,
       "section": "Intro - spoken | dry, close-mic | sparse guitar",
-      "start": 6.055,
-      "end": 7.785,
+      "start": 2.64,
+      "end": 5.74,
       "text": "financial insights.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -295,8 +521,8 @@
     {
       "index": 3,
       "section": "Intro - spoken | dry, close-mic | sparse guitar",
-      "start": 7.785,
-      "end": 8.65,
+      "start": 5.78,
+      "end": 6.34,
       "text": "Bold.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -304,8 +530,8 @@
     {
       "index": 4,
       "section": "Intro - spoken | dry, close-mic | sparse guitar",
-      "start": 8.65,
-      "end": 10.38,
+      "start": 7.79,
+      "end": 8.36,
       "text": "I said,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -313,8 +539,8 @@
     {
       "index": 5,
       "section": "Intro - spoken | dry, close-mic | sparse guitar",
-      "start": 10.38,
-      "end": 11.245,
+      "start": 8.74,
+      "end": 9.06,
       "text": "Mate,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -322,8 +548,8 @@
     {
       "index": 6,
       "section": "Intro - spoken | dry, close-mic | sparse guitar",
-      "start": 11.245,
-      "end": 13.84,
+      "start": 9.98,
+      "end": 11.76,
       "text": "I've got insights.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -331,8 +557,8 @@
     {
       "index": 7,
       "section": "Intro - spoken | dry, close-mic | sparse guitar",
-      "start": 13.84,
-      "end": 14.816,
+      "start": 12.58,
+      "end": 14.94,
       "text": "What I need",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -340,8 +566,8 @@
     {
       "index": 8,
       "section": "Intro - spoken | dry, close-mic | sparse guitar",
-      "start": 14.816,
-      "end": 15.467,
+      "start": 14.94,
+      "end": 15.54,
       "text": "is money.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -349,8 +575,8 @@
     {
       "index": 9,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 15.467,
-      "end": 16.443,
+      "start": 15.54,
+      "end": 17.14,
       "text": "I'm asset rich",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -358,17 +584,17 @@
     {
       "index": 10,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 16.768,
-      "end": 17.093,
+      "start": 17.14,
+      "end": 17.92,
       "text": "and cash poor,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 11,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 17.419,
-      "end": 19.255,
+      "start": 18.14,
+      "end": 19.24,
       "text": "which means I can explain",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -376,8 +602,8 @@
     {
       "index": 12,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 19.255,
-      "end": 20.858,
+      "start": 19.24,
+      "end": 20.68,
       "text": "the entire machine",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -385,17 +611,17 @@
     {
       "index": 13,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 20.858,
-      "end": 23.531,
+      "start": 21.72,
+      "end": 22.86,
       "text": "while standing in the kitchen",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 14,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 23.531,
-      "end": 25.143,
+      "start": 22.86,
+      "end": 25.24,
       "text": "calculating cheese.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -403,17 +629,17 @@
     {
       "index": 15,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 25.687,
-      "end": 26.773,
+      "start": 26.46,
+      "end": 27.6,
       "text": "I've got skills",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 16,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 26.773,
-      "end": 28.403,
+      "start": 27.6,
+      "end": 29.04,
       "text": "like emergency candles:",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -421,8 +647,8 @@
     {
       "index": 17,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 28.403,
-      "end": 28.947,
+      "start": 29.2,
+      "end": 29.38,
       "text": "bright,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -430,8 +656,8 @@
     {
       "index": 18,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 28.947,
-      "end": 29.49,
+      "start": 29.38,
+      "end": 29.88,
       "text": "useful,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -439,8 +665,8 @@
     {
       "index": 19,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 29.49,
-      "end": 30.577,
+      "start": 30.04,
+      "end": 30.92,
       "text": "mostly used",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -448,8 +674,8 @@
     {
       "index": 20,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 30.577,
-      "end": 32.209,
+      "start": 30.92,
+      "end": 32.56,
       "text": "when something has failed.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -457,8 +683,8 @@
     {
       "index": 21,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 32.209,
-      "end": 34.023,
+      "start": 32.74,
+      "end": 33.88,
       "text": "I know how to fix",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -466,8 +692,8 @@
     {
       "index": 22,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 34.023,
-      "end": 35.111,
+      "start": 33.88,
+      "end": 35.2,
       "text": "three broken systems,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -475,8 +701,8 @@
     {
       "index": 23,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 35.111,
-      "end": 36.2,
+      "start": 35.5,
+      "end": 36.48,
       "text": "four sad people,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -484,26 +710,26 @@
     {
       "index": 24,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 36.2,
-      "end": 36.699,
+      "start": 36.48,
+      "end": 37.38,
       "text": "and one router",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
-    },
-    {
-      "index": 25,
-      "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 37.198,
-      "end": 38.694,
-      "text": "by threatening it gently.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
     {
+      "index": 25,
+      "section": "Verse 1 - spoken rap | light guitar groove",
+      "start": 37.38,
+      "end": 38.84,
+      "text": "by threatening it gently.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
       "index": 26,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 38.694,
-      "end": 39.941,
+      "start": 38.84,
+      "end": 40.04,
       "text": "I can write the email",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -511,8 +737,8 @@
     {
       "index": 27,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 39.941,
-      "end": 41.407,
+      "start": 40.04,
+      "end": 41.48,
       "text": "that makes the room behave.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -520,8 +746,8 @@
     {
       "index": 28,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 41.407,
-      "end": 43.019,
+      "start": 41.48,
+      "end": 43.08,
       "text": "I can read the silence",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -529,8 +755,8 @@
     {
       "index": 29,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 43.019,
-      "end": 43.986,
+      "start": 43.08,
+      "end": 43.88,
       "text": "in a meeting",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -538,17 +764,17 @@
     {
       "index": 30,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 43.986,
-      "end": 44.631,
+      "start": 43.88,
+      "end": 44.46,
       "text": "and hear",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 31,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 44.631,
-      "end": 46.209,
+      "start": 44.46,
+      "end": 46.32,
       "text": "who is about to quit.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -556,8 +782,8 @@
     {
       "index": 32,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 46.209,
-      "end": 47.656,
+      "start": 46.32,
+      "end": 47.76,
       "text": "I can turn a wound",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -565,8 +791,8 @@
     {
       "index": 33,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 47.656,
-      "end": 48.525,
+      "start": 47.76,
+      "end": 48.56,
       "text": "into a chorus,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -574,8 +800,8 @@
     {
       "index": 34,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 48.525,
-      "end": 49.393,
+      "start": 48.72,
+      "end": 49.54,
       "text": "a panic attack",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -583,8 +809,8 @@
     {
       "index": 35,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 49.393,
-      "end": 50.261,
+      "start": 49.54,
+      "end": 50.52,
       "text": "into a plan,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -592,44 +818,44 @@
     {
       "index": 36,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 50.261,
-      "end": 50.84,
+      "start": 50.52,
+      "end": 51.24,
       "text": "a cheap guitar",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
-    },
-    {
-      "index": 37,
-      "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 51.656,
-      "end": 52.88,
-      "text": "into a small republic",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
     {
+      "index": 37,
+      "section": "Verse 1 - spoken rap | light guitar groove",
+      "start": 51.24,
+      "end": 52.68,
+      "text": "into a small republic",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
       "index": 38,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 52.88,
-      "end": 53.696,
+      "start": 52.68,
+      "end": 54.08,
       "text": "for the overdrawn.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 39,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 54.512,
-      "end": 54.92,
+      "start": 54.08,
+      "end": 55.5,
       "text": "And still,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 40,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 54.92,
-      "end": 56.144,
+      "start": 55.74,
+      "end": 56.58,
       "text": "the boiler blinks",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -637,8 +863,8 @@
     {
       "index": 41,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 56.144,
-      "end": 57.655,
+      "start": 56.58,
+      "end": 57.86,
       "text": "like a moral question.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -646,26 +872,26 @@
     {
       "index": 42,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 57.655,
-      "end": 58.351,
+      "start": 57.86,
+      "end": 59.02,
       "text": "The rent arrives",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 43,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 58.698,
-      "end": 60.437,
+      "start": 59.02,
+      "end": 60.46,
       "text": "with its little crown on.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 44,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 60.437,
-      "end": 61.48,
+      "start": 60.46,
+      "end": 61.62,
       "text": "The fridge contains",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -673,8 +899,8 @@
     {
       "index": 45,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 61.48,
-      "end": 61.91,
+      "start": 61.62,
+      "end": 62.18,
       "text": "mustard,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -682,8 +908,8 @@
     {
       "index": 46,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 61.91,
-      "end": 62.34,
+      "start": 62.18,
+      "end": 62.58,
       "text": "light,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -691,8 +917,8 @@
     {
       "index": 47,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 62.34,
-      "end": 63.63,
+      "start": 62.58,
+      "end": 63.54,
       "text": "and the idea",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -700,8 +926,8 @@
     {
       "index": 48,
       "section": "Verse 1 - spoken rap | light guitar groove",
-      "start": 63.63,
-      "end": 64.49,
+      "start": 63.54,
+      "end": 64.32,
       "text": "of dinner.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -709,8 +935,8 @@
     {
       "index": 49,
       "section": "Pre-Hook - half-sung",
-      "start": 64.49,
-      "end": 66.64,
+      "start": 65.66,
+      "end": 67.36,
       "text": "I count what I know",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -718,26 +944,26 @@
     {
       "index": 50,
       "section": "Pre-Hook - half-sung",
-      "start": 66.64,
-      "end": 68.36,
+      "start": 67.36,
+      "end": 68.96,
       "text": "when the numbers don't land",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 51,
       "section": "Pre-Hook - half-sung",
-      "start": 69.125,
-      "end": 69.89,
+      "start": 68.96,
+      "end": 70.24,
       "text": "gold in my head",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 52,
       "section": "Pre-Hook - half-sung",
-      "start": 69.89,
-      "end": 71.803,
+      "start": 70.24,
+      "end": 71.82,
       "text": "and dust in my hand",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -745,8 +971,8 @@
     {
       "index": 53,
       "section": "Hook - soft sung folk melody",
-      "start": 71.803,
-      "end": 72.95,
+      "start": 71.82,
+      "end": 73.0,
       "text": "I'm asset rich,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -754,26 +980,26 @@
     {
       "index": 54,
       "section": "Hook - soft sung folk melody",
-      "start": 72.95,
-      "end": 73.333,
+      "start": 73.1,
+      "end": 73.7,
       "text": "cash poor,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 55,
       "section": "Hook - soft sung folk melody",
-      "start": 73.715,
-      "end": 74.771,
+      "start": 73.8,
+      "end": 75.04,
       "text": "still holding the door",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 56,
       "section": "Hook - soft sung folk melody",
-      "start": 74.771,
-      "end": 76.227,
+      "start": 75.04,
+      "end": 76.58,
       "text": "Got a fortune in nerve",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -781,8 +1007,8 @@
     {
       "index": 57,
       "section": "Hook - soft sung folk melody",
-      "start": 76.227,
-      "end": 77.973,
+      "start": 76.58,
+      "end": 77.84,
       "text": "and a bill on the floor",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -790,17 +1016,17 @@
     {
       "index": 58,
       "section": "Hook - soft sung folk melody",
-      "start": 78.556,
-      "end": 79.138,
+      "start": 77.84,
+      "end": 79.32,
       "text": "Middle-class roof",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 59,
       "section": "Hook - soft sung folk melody",
-      "start": 79.138,
-      "end": 80.624,
+      "start": 79.32,
+      "end": 80.74,
       "text": "with the weather coming through",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -808,26 +1034,26 @@
     {
       "index": 60,
       "section": "Hook - soft sung folk melody",
-      "start": 80.925,
-      "end": 82.131,
+      "start": 80.74,
+      "end": 82.16,
       "text": "I own what I learned",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 61,
       "section": "Hook - soft sung folk melody",
-      "start": 82.131,
-      "end": 83.637,
+      "start": 82.16,
+      "end": 83.54,
       "text": "but the bank owns the view",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 62,
       "section": "Hook - soft sung folk melody",
-      "start": 83.637,
-      "end": 85.483,
+      "start": 83.54,
+      "end": 84.9,
       "text": "If wisdom paid rent",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -835,8 +1061,8 @@
     {
       "index": 63,
       "section": "Hook - soft sung folk melody",
-      "start": 85.483,
-      "end": 88.589,
+      "start": 85.14,
+      "end": 86.36,
       "text": "I'd be hard to ignore",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -844,8 +1070,8 @@
     {
       "index": 64,
       "section": "Hook - soft sung folk melody",
-      "start": 88.589,
-      "end": 91.075,
+      "start": 86.36,
+      "end": 88.04,
       "text": "But I'm asset rich,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -853,17 +1079,17 @@
     {
       "index": 65,
       "section": "Hook - soft sung folk melody",
-      "start": 91.075,
-      "end": 91.696,
+      "start": 88.74,
+      "end": 89.7,
       "text": "cash poor",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 66,
       "section": "Post-Hook - spoken aside",
-      "start": 92.317,
-      "end": 93.56,
+      "start": 92.26,
+      "end": 93.38,
       "text": "Diversified portfolio:",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -871,8 +1097,8 @@
     {
       "index": 67,
       "section": "Post-Hook - spoken aside",
-      "start": 93.56,
-      "end": 95.185,
+      "start": 94.44,
+      "end": 95.58,
       "text": "one useful brain,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -880,8 +1106,8 @@
     {
       "index": 68,
       "section": "Post-Hook - spoken aside",
-      "start": 95.185,
-      "end": 96.268,
+      "start": 95.58,
+      "end": 96.64,
       "text": "three mugs,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -889,8 +1115,8 @@
     {
       "index": 69,
       "section": "Post-Hook - spoken aside",
-      "start": 96.268,
-      "end": 97.892,
+      "start": 96.64,
+      "end": 97.74,
       "text": "and a cardigan",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -898,8 +1124,8 @@
     {
       "index": 70,
       "section": "Post-Hook - spoken aside",
-      "start": 97.892,
-      "end": 99.517,
+      "start": 97.74,
+      "end": 99.2,
       "text": "with leadership potential.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -907,8 +1133,8 @@
     {
       "index": 71,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 99.517,
-      "end": 101.066,
+      "start": 99.84,
+      "end": 101.02,
       "text": "They told us knowledge",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -916,8 +1142,8 @@
     {
       "index": 72,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 101.066,
-      "end": 101.532,
+      "start": 101.02,
+      "end": 101.56,
       "text": "was a ladder.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -925,8 +1151,8 @@
     {
       "index": 73,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 101.532,
-      "end": 102.231,
+      "start": 101.56,
+      "end": 102.12,
       "text": "Climb it.",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -934,8 +1160,8 @@
     {
       "index": 74,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 102.231,
-      "end": 102.696,
+      "start": 102.12,
+      "end": 102.54,
       "text": "Earn it.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -943,8 +1169,8 @@
     {
       "index": 75,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 102.696,
-      "end": 103.162,
+      "start": 102.54,
+      "end": 103.12,
       "text": "Be clever.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -952,17 +1178,17 @@
     {
       "index": 76,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 103.162,
-      "end": 103.628,
+      "start": 103.12,
+      "end": 103.84,
       "text": "So I climbed",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 77,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 103.861,
-      "end": 105.246,
+      "start": 103.84,
+      "end": 105.24,
       "text": "till my hands went numb,",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -970,8 +1196,8 @@
     {
       "index": 78,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 105.246,
-      "end": 106.617,
+      "start": 105.48,
+      "end": 106.56,
       "text": "got a nice little view",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -979,8 +1205,8 @@
     {
       "index": 79,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 106.617,
-      "end": 107.989,
+      "start": 106.56,
+      "end": 108.04,
       "text": "of everyone below me",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -988,26 +1214,26 @@
     {
       "index": 80,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 107.989,
-      "end": 108.331,
+      "start": 108.04,
+      "end": 108.78,
       "text": "also climbing,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 81,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 108.674,
-      "end": 109.017,
+      "start": 108.96,
+      "end": 109.42,
       "text": "also renting,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 82,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 109.695,
-      "end": 111.035,
+      "start": 109.76,
+      "end": 110.82,
       "text": "also one bad month",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1015,26 +1241,26 @@
     {
       "index": 83,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 111.035,
-      "end": 111.37,
+      "start": 110.82,
+      "end": 111.6,
       "text": "from becoming",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 84,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 112.04,
-      "end": 113.715,
+      "start": 111.6,
+      "end": 113.7,
       "text": "a cautionary LinkedIn post.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 85,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 113.715,
-      "end": 114.986,
+      "start": 113.86,
+      "end": 115.06,
       "text": "I did the courses.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1042,8 +1268,8 @@
     {
       "index": 86,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 114.986,
-      "end": 115.783,
+      "start": 115.08,
+      "end": 115.76,
       "text": "Read the books.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1051,35 +1277,35 @@
     {
       "index": 87,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 116.049,
-      "end": 116.58,
+      "start": 115.9,
+      "end": 116.48,
       "text": "Learned the language",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
-    },
-    {
-      "index": 88,
-      "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 116.58,
-      "end": 117.643,
-      "text": "of rooms with glass walls.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
     {
+      "index": 88,
+      "section": "Verse 2 - spoken rap | brushed snare enters",
+      "start": 116.48,
+      "end": 117.78,
+      "text": "of rooms with glass walls.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
       "index": 89,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 117.643,
-      "end": 118.833,
+      "start": 118.2,
+      "end": 118.58,
       "text": "Stakeholder.",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 90,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 118.833,
-      "end": 119.227,
+      "start": 118.58,
+      "end": 119.18,
       "text": "Pipeline.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1087,8 +1313,8 @@
     {
       "index": 91,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 119.227,
-      "end": 119.62,
+      "start": 119.32,
+      "end": 119.84,
       "text": "Resilience.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1096,8 +1322,8 @@
     {
       "index": 92,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 119.62,
-      "end": 120.8,
+      "start": 119.84,
+      "end": 121.22,
       "text": "Tiny spell words",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1105,8 +1331,8 @@
     {
       "index": 93,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 120.8,
-      "end": 121.587,
+      "start": 121.22,
+      "end": 121.92,
       "text": "for people",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1114,8 +1340,8 @@
     {
       "index": 94,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 121.587,
-      "end": 122.767,
+      "start": 121.92,
+      "end": 122.9,
       "text": "who are tired",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1123,8 +1349,8 @@
     {
       "index": 95,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 122.767,
-      "end": 123.656,
+      "start": 122.9,
+      "end": 123.96,
       "text": "but laminated.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1132,8 +1358,8 @@
     {
       "index": 96,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 123.656,
-      "end": 124.648,
+      "start": 123.96,
+      "end": 125.08,
       "text": "And yes,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1141,17 +1367,17 @@
     {
       "index": 97,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 124.648,
-      "end": 125.144,
+      "start": 125.08,
+      "end": 125.78,
       "text": "I'm comfortable.",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 98,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 125.144,
-      "end": 125.64,
+      "start": 125.92,
+      "end": 126.46,
       "text": "Comparatively.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1159,8 +1385,8 @@
     {
       "index": 99,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 125.64,
-      "end": 126.632,
+      "start": 126.94,
+      "end": 127.24,
       "text": "I've got heating",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1168,8 +1394,8 @@
     {
       "index": 100,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 127.128,
-      "end": 128.12,
+      "start": 127.64,
+      "end": 128.26,
       "text": "most days,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1177,8 +1403,8 @@
     {
       "index": 101,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 128.12,
-      "end": 129.674,
+      "start": 128.26,
+      "end": 129.6,
       "text": "a dentist I avoid",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1186,8 +1412,8 @@
     {
       "index": 102,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 129.674,
-      "end": 130.84,
+      "start": 129.6,
+      "end": 131.4,
       "text": "for emotional reasons,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1195,8 +1421,8 @@
     {
       "index": 103,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 130.84,
-      "end": 131.617,
+      "start": 131.4,
+      "end": 132.06,
       "text": "and coffee",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1204,8 +1430,8 @@
     {
       "index": 104,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 131.617,
-      "end": 132.783,
+      "start": 132.06,
+      "end": 133.1,
       "text": "that costs enough",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1213,8 +1439,8 @@
     {
       "index": 105,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 132.783,
-      "end": 133.981,
+      "start": 133.1,
+      "end": 134.42,
       "text": "to have opinions.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1222,8 +1448,8 @@
     {
       "index": 106,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 133.981,
-      "end": 135.667,
+      "start": 135.06,
+      "end": 136.72,
       "text": "So I won't pretend",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1231,8 +1457,8 @@
     {
       "index": 107,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 135.667,
-      "end": 137.352,
+      "start": 136.72,
+      "end": 137.62,
       "text": "I'm at the bottom.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1240,8 +1466,8 @@
     {
       "index": 108,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 137.352,
-      "end": 139.037,
+      "start": 138.26,
+      "end": 139.52,
       "text": "I'm just close enough",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1249,8 +1475,8 @@
     {
       "index": 109,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 139.037,
-      "end": 140.888,
+      "start": 139.52,
+      "end": 140.62,
       "text": "to hear it breathing.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1258,8 +1484,8 @@
     {
       "index": 110,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 140.888,
-      "end": 141.896,
+      "start": 140.62,
+      "end": 142.12,
       "text": "Close enough",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1267,8 +1493,8 @@
     {
       "index": 111,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 141.896,
-      "end": 142.904,
+      "start": 142.12,
+      "end": 142.92,
       "text": "to know",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1276,8 +1502,8 @@
     {
       "index": 112,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 142.904,
-      "end": 143.912,
+      "start": 142.92,
+      "end": 143.7,
       "text": "the floor",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1285,8 +1511,8 @@
     {
       "index": 113,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 143.912,
-      "end": 145.928,
+      "start": 143.7,
+      "end": 144.94,
       "text": "is not a floor.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1294,8 +1520,8 @@
     {
       "index": 114,
       "section": "Verse 2 - spoken rap | brushed snare enters",
-      "start": 145.928,
-      "end": 147.44,
+      "start": 145.86,
+      "end": 147.4,
       "text": "It's a subscription.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1303,26 +1529,26 @@
     {
       "index": 115,
       "section": "Hook - fuller, warmer",
-      "start": 147.44,
-      "end": 148.076,
+      "start": 147.74,
+      "end": 148.74,
       "text": "I'm asset rich,",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 116,
       "section": "Hook - fuller, warmer",
-      "start": 148.076,
-      "end": 148.394,
+      "start": 148.74,
+      "end": 149.44,
       "text": "cash poor,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 117,
       "section": "Hook - fuller, warmer",
-      "start": 148.712,
-      "end": 149.983,
+      "start": 149.58,
+      "end": 150.8,
       "text": "still holding the door",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1330,8 +1556,8 @@
     {
       "index": 118,
       "section": "Hook - fuller, warmer",
-      "start": 149.983,
-      "end": 151.573,
+      "start": 150.8,
+      "end": 152.36,
       "text": "Got a fortune in nerve",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1339,8 +1565,8 @@
     {
       "index": 119,
       "section": "Hook - fuller, warmer",
-      "start": 151.573,
-      "end": 153.48,
+      "start": 152.36,
+      "end": 153.64,
       "text": "and a bill on the floor",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1348,17 +1574,17 @@
     {
       "index": 120,
       "section": "Hook - fuller, warmer",
-      "start": 154.099,
-      "end": 154.717,
+      "start": 153.64,
+      "end": 155.06,
       "text": "Middle-class roof",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 121,
       "section": "Hook - fuller, warmer",
-      "start": 154.717,
-      "end": 156.264,
+      "start": 155.06,
+      "end": 156.54,
       "text": "with the weather coming through",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1366,17 +1592,17 @@
     {
       "index": 122,
       "section": "Hook - fuller, warmer",
-      "start": 156.573,
-      "end": 157.811,
+      "start": 156.54,
+      "end": 157.96,
       "text": "I own what I learned",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 123,
       "section": "Hook - fuller, warmer",
-      "start": 157.811,
-      "end": 159.87,
+      "start": 157.96,
+      "end": 159.36,
       "text": "but the bank owns the view",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1384,8 +1610,8 @@
     {
       "index": 124,
       "section": "Hook - fuller, warmer",
-      "start": 159.87,
-      "end": 161.27,
+      "start": 159.36,
+      "end": 160.76,
       "text": "If wisdom paid rent",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1393,8 +1619,8 @@
     {
       "index": 125,
       "section": "Hook - fuller, warmer",
-      "start": 161.27,
-      "end": 163.02,
+      "start": 160.96,
+      "end": 162.24,
       "text": "I'd be hard to ignore",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1402,8 +1628,8 @@
     {
       "index": 126,
       "section": "Hook - fuller, warmer",
-      "start": 163.02,
-      "end": 164.42,
+      "start": 162.24,
+      "end": 163.9,
       "text": "But I'm asset rich,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1411,17 +1637,17 @@
     {
       "index": 127,
       "section": "Hook - fuller, warmer",
-      "start": 164.42,
-      "end": 164.77,
+      "start": 164.58,
+      "end": 165.42,
       "text": "cash poor",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 128,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 165.12,
-      "end": 167.364,
+      "start": 166.56,
+      "end": 168.16,
       "text": "And the cruel joke is:",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1429,8 +1655,8 @@
     {
       "index": 129,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 167.364,
-      "end": 169.16,
+      "start": 168.68,
+      "end": 170.04,
       "text": "I do feel rich.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1438,8 +1664,8 @@
     {
       "index": 130,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 169.16,
-      "end": 170.058,
+      "start": 170.64,
+      "end": 171.32,
       "text": "Not always.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1447,8 +1673,8 @@
     {
       "index": 131,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 170.058,
-      "end": 171.853,
+      "start": 171.32,
+      "end": 172.56,
       "text": "Not when the car",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1456,8 +1682,8 @@
     {
       "index": 132,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 171.853,
-      "end": 173.2,
+      "start": 172.56,
+      "end": 173.42,
       "text": "makes a sound",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1465,17 +1691,17 @@
     {
       "index": 133,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 173.2,
-      "end": 174.518,
+      "start": 173.42,
+      "end": 174.68,
       "text": "like a bag of cutlery",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 134,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 175.176,
-      "end": 175.835,
+      "start": 174.68,
+      "end": 175.4,
       "text": "being judged.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1483,8 +1709,8 @@
     {
       "index": 135,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 175.835,
-      "end": 177.153,
+      "start": 176.1,
+      "end": 177.32,
       "text": "Not when the invoice",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1492,8 +1718,8 @@
     {
       "index": 136,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 177.153,
-      "end": 178.471,
+      "start": 177.32,
+      "end": 178.52,
       "text": "sits in my inbox",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1501,8 +1727,8 @@
     {
       "index": 137,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 178.471,
-      "end": 179.888,
+      "start": 178.52,
+      "end": 179.8,
       "text": "with its shoes on.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1510,8 +1736,8 @@
     {
       "index": 138,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 179.888,
-      "end": 180.613,
+      "start": 180.66,
+      "end": 181.76,
       "text": "But sometimes.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1519,8 +1745,8 @@
     {
       "index": 139,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 180.613,
-      "end": 182.062,
+      "start": 181.76,
+      "end": 182.88,
       "text": "When a friend says,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1528,8 +1754,8 @@
     {
       "index": 140,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 182.062,
-      "end": 183.512,
+      "start": 183.42,
+      "end": 184.1,
       "text": "\"How did you know",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1537,8 +1763,8 @@
     {
       "index": 141,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 183.512,
-      "end": 184.6,
+      "start": 184.1,
+      "end": 184.76,
       "text": "what I meant?\"",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1546,17 +1772,17 @@
     {
       "index": 142,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 185.28,
-      "end": 186.635,
+      "start": 185.44,
+      "end": 186.42,
       "text": "When a line arrives",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 143,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 186.635,
-      "end": 187.651,
+      "start": 186.42,
+      "end": 187.36,
       "text": "clean and true",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1564,8 +1790,8 @@
     {
       "index": 144,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 187.651,
-      "end": 188.328,
+      "start": 187.36,
+      "end": 188.18,
       "text": "after weeks",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1573,17 +1799,17 @@
     {
       "index": 145,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 188.328,
-      "end": 189.005,
+      "start": 188.18,
+      "end": 189.48,
       "text": "of scraping fog.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 146,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 189.344,
-      "end": 190.745,
+      "start": 189.48,
+      "end": 190.9,
       "text": "When I fix something",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1591,17 +1817,17 @@
     {
       "index": 147,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 190.745,
-      "end": 191.129,
+      "start": 190.9,
+      "end": 191.7,
       "text": "with patience",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 148,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 191.514,
-      "end": 192.668,
+      "start": 191.7,
+      "end": 192.9,
       "text": "instead of panic.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1609,8 +1835,8 @@
     {
       "index": 149,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 192.668,
-      "end": 194.206,
+      "start": 192.9,
+      "end": 194.3,
       "text": "When the small room",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1618,8 +1844,8 @@
     {
       "index": 150,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 194.206,
-      "end": 195.36,
+      "start": 194.3,
+      "end": 195.38,
       "text": "fills with people",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1627,8 +1853,8 @@
     {
       "index": 151,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 195.36,
-      "end": 197.024,
+      "start": 195.38,
+      "end": 196.7,
       "text": "who trust me enough",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1636,8 +1862,8 @@
     {
       "index": 152,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 197.024,
-      "end": 198.272,
+      "start": 196.7,
+      "end": 197.92,
       "text": "to be tired.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1645,8 +1871,8 @@
     {
       "index": 153,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 198.272,
-      "end": 199.936,
+      "start": 197.92,
+      "end": 199.66,
       "text": "Then I feel rich.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1654,8 +1880,8 @@
     {
       "index": 154,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 199.936,
-      "end": 200.768,
+      "start": 199.92,
+      "end": 201.08,
       "text": "Disgustingly rich.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1663,26 +1889,26 @@
     {
       "index": 155,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 201.6,
-      "end": 201.905,
+      "start": 201.08,
+      "end": 202.12,
       "text": "Offshore account",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 156,
-      "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 201.905,
-      "end": 202.515,
-      "text": "in the soul.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 156,
+      "section": "Bridge - beat drops | spoken, vulnerable",
+      "start": 202.12,
+      "end": 202.68,
+      "text": "in the soul.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
       "index": 157,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 202.82,
-      "end": 203.43,
+      "start": 203.14,
+      "end": 203.88,
       "text": "Private island",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1690,26 +1916,26 @@
     {
       "index": 158,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 203.735,
-      "end": 204.65,
+      "start": 203.88,
+      "end": 205.16,
       "text": "of not giving up.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 159,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 204.65,
-      "end": 204.955,
+      "start": 205.16,
+      "end": 205.54,
       "text": "And no,",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "interpolated",
+      "matched_words": 0
     },
     {
       "index": 160,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 205.26,
-      "end": 206.48,
+      "start": 205.54,
+      "end": 206.62,
       "text": "that does not pay",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1717,8 +1943,8 @@
     {
       "index": 161,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 206.48,
-      "end": 207.826,
+      "start": 206.62,
+      "end": 207.98,
       "text": "the council tax.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1726,8 +1952,8 @@
     {
       "index": 162,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 207.826,
-      "end": 209.171,
+      "start": 207.98,
+      "end": 208.94,
       "text": "I have checked.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1735,8 +1961,8 @@
     {
       "index": 163,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 209.171,
-      "end": 209.62,
+      "start": 208.94,
+      "end": 209.68,
       "text": "Repeatedly.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1744,8 +1970,8 @@
     {
       "index": 164,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 209.62,
-      "end": 210.966,
+      "start": 209.68,
+      "end": 210.94,
       "text": "But it means",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1753,8 +1979,8 @@
     {
       "index": 165,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 210.966,
-      "end": 212.76,
+      "start": 210.94,
+      "end": 212.72,
       "text": "the ledger is incomplete.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1762,8 +1988,8 @@
     {
       "index": 166,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 212.76,
-      "end": 214.76,
+      "start": 212.72,
+      "end": 213.9,
       "text": "It means the market",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1771,8 +1997,8 @@
     {
       "index": 167,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 215.26,
-      "end": 216.26,
+      "start": 214.16,
+      "end": 215.36,
       "text": "has terrible eyesight.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1780,8 +2006,8 @@
     {
       "index": 168,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 216.26,
-      "end": 218.26,
+      "start": 215.36,
+      "end": 217.28,
       "text": "It means some forms",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1789,8 +2015,8 @@
     {
       "index": 169,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 218.26,
-      "end": 219.26,
+      "start": 217.28,
+      "end": 218.2,
       "text": "of wealth",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1798,8 +2024,8 @@
     {
       "index": 170,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 219.26,
-      "end": 220.76,
+      "start": 218.2,
+      "end": 220.24,
       "text": "refuse to behave",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1807,8 +2033,8 @@
     {
       "index": 171,
       "section": "Bridge - beat drops | spoken, vulnerable",
-      "start": 220.76,
-      "end": 221.76,
+      "start": 220.24,
+      "end": 221.22,
       "text": "like wealth.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1816,8 +2042,8 @@
     {
       "index": 172,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 221.76,
-      "end": 223.023,
+      "start": 221.22,
+      "end": 222.98,
       "text": "Maybe that's the trick",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1825,8 +2051,8 @@
     {
       "index": 173,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 223.023,
-      "end": 224.918,
+      "start": 222.98,
+      "end": 224.06,
       "text": "at the end of the album.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1834,8 +2060,8 @@
     {
       "index": 174,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 224.918,
-      "end": 225.549,
+      "start": 224.06,
+      "end": 225.1,
       "text": "Not pretending",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1843,17 +2069,17 @@
     {
       "index": 175,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 225.549,
-      "end": 226.497,
+      "start": 225.1,
+      "end": 226.26,
       "text": "broke is holy.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 176,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 226.497,
-      "end": 227.444,
+      "start": 226.26,
+      "end": 227.26,
       "text": "Not calling pressure",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1861,8 +2087,8 @@
     {
       "index": 177,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 227.444,
-      "end": 227.76,
+      "start": 227.26,
+      "end": 227.9,
       "text": "character",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1870,8 +2096,8 @@
     {
       "index": 178,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 227.76,
-      "end": 228.885,
+      "start": 227.9,
+      "end": 229.26,
       "text": "because someone rich",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1879,8 +2105,8 @@
     {
       "index": 179,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 228.885,
-      "end": 230.385,
+      "start": 229.26,
+      "end": 230.76,
       "text": "needs the story tidy.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1888,8 +2114,8 @@
     {
       "index": 180,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 230.385,
-      "end": 231.135,
+      "start": 230.76,
+      "end": 231.92,
       "text": "But refusing",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1897,8 +2123,8 @@
     {
       "index": 181,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 231.135,
-      "end": 232.635,
+      "start": 231.92,
+      "end": 232.82,
       "text": "to let the till",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1906,17 +2132,17 @@
     {
       "index": 182,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 232.635,
-      "end": 233.385,
+      "start": 232.82,
+      "end": 234.1,
       "text": "name every treasure.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 183,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 233.76,
-      "end": 234.81,
+      "start": 234.1,
+      "end": 234.68,
       "text": "I have been poor",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1924,8 +2150,8 @@
     {
       "index": 184,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 235.16,
-      "end": 235.51,
+      "start": 235.06,
+      "end": 235.52,
       "text": "in cash",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1933,8 +2159,8 @@
     {
       "index": 185,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 235.51,
-      "end": 236.21,
+      "start": 235.52,
+      "end": 236.18,
       "text": "and obscene",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1942,35 +2168,35 @@
     {
       "index": 186,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 236.21,
-      "end": 236.56,
+      "start": 236.18,
+      "end": 237.02,
       "text": "in questions.",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 187,
-      "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 237.26,
-      "end": 237.61,
-      "text": "Thin in savings,",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 188,
-      "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 237.96,
-      "end": 238.66,
-      "text": "heavy with songs.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 187,
+      "section": "Verse 3 - warmer spoken rap | piano enters lightly",
+      "start": 237.32,
+      "end": 238.1,
+      "text": "Thin in savings,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 188,
+      "section": "Verse 3 - warmer spoken rap | piano enters lightly",
+      "start": 238.1,
+      "end": 239.28,
+      "text": "heavy with songs.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
       "index": 189,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 238.66,
-      "end": 239.36,
+      "start": 239.28,
+      "end": 240.18,
       "text": "One foot",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1978,8 +2204,8 @@
     {
       "index": 190,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 239.36,
-      "end": 240.76,
+      "start": 240.18,
+      "end": 241.36,
       "text": "in the middle class,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1987,8 +2213,8 @@
     {
       "index": 191,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 240.76,
-      "end": 241.538,
+      "start": 241.36,
+      "end": 242.0,
       "text": "one foot",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1996,17 +2222,17 @@
     {
       "index": 192,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 241.538,
-      "end": 242.316,
+      "start": 242.0,
+      "end": 243.24,
       "text": "over the trapdoor,",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 193,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 243.093,
-      "end": 244.26,
+      "start": 243.24,
+      "end": 244.4,
       "text": "both hands full",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2014,8 +2240,8 @@
     {
       "index": 194,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 244.26,
-      "end": 245.038,
+      "start": 244.4,
+      "end": 244.92,
       "text": "of things",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2023,8 +2249,8 @@
     {
       "index": 195,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 245.038,
-      "end": 246.204,
+      "start": 244.92,
+      "end": 246.1,
       "text": "I couldn't sell",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2032,8 +2258,8 @@
     {
       "index": 196,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 246.204,
-      "end": 246.982,
+      "start": 246.1,
+      "end": 246.98,
       "text": "without becoming",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2041,8 +2267,8 @@
     {
       "index": 197,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 246.982,
-      "end": 247.76,
+      "start": 246.98,
+      "end": 247.92,
       "text": "less alive.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2050,8 +2276,8 @@
     {
       "index": 198,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 247.76,
-      "end": 249.444,
+      "start": 247.92,
+      "end": 249.32,
       "text": "So let the spreadsheet",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2059,8 +2285,8 @@
     {
       "index": 199,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 249.444,
-      "end": 250.707,
+      "start": 249.32,
+      "end": 250.36,
       "text": "shake its head.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2068,8 +2294,8 @@
     {
       "index": 200,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 250.707,
-      "end": 251.128,
+      "start": 250.36,
+      "end": 250.64,
       "text": "Let the app",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -2077,17 +2303,17 @@
     {
       "index": 201,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 251.971,
-      "end": 252.813,
+      "start": 251.74,
+      "end": 252.36,
       "text": "offer insights.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 202,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 252.813,
-      "end": 254.076,
+      "start": 252.36,
+      "end": 253.6,
       "text": "Let the landlord",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2095,8 +2321,8 @@
     {
       "index": 203,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 254.076,
-      "end": 255.76,
+      "start": 253.6,
+      "end": 255.64,
       "text": "call it passive income",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2104,26 +2330,26 @@
     {
       "index": 204,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 255.76,
-      "end": 257.054,
+      "start": 255.64,
+      "end": 257.38,
       "text": "like my pulse",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
-    },
-    {
-      "index": 205,
-      "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 257.701,
-      "end": 259.642,
-      "text": "isn't active expense.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
     {
+      "index": 205,
+      "section": "Verse 3 - warmer spoken rap | piano enters lightly",
+      "start": 258.0,
+      "end": 259.04,
+      "text": "isn't active expense.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
       "index": 206,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 259.642,
-      "end": 262.231,
+      "start": 259.04,
+      "end": 260.66,
       "text": "I am still here.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2131,8 +2357,8 @@
     {
       "index": 207,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 262.231,
-      "end": 263.525,
+      "start": 260.66,
+      "end": 262.14,
       "text": "Still learning.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2140,8 +2366,8 @@
     {
       "index": 208,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 263.525,
-      "end": 264.819,
+      "start": 262.7,
+      "end": 263.54,
       "text": "Still useful.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2149,8 +2375,8 @@
     {
       "index": 209,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 264.819,
-      "end": 266.76,
+      "start": 264.1,
+      "end": 266.36,
       "text": "Still making soup",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2158,8 +2384,8 @@
     {
       "index": 210,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 266.76,
-      "end": 267.529,
+      "start": 266.36,
+      "end": 267.68,
       "text": "from weather",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2167,17 +2393,17 @@
     {
       "index": 211,
       "section": "Verse 3 - warmer spoken rap | piano enters lightly",
-      "start": 267.529,
-      "end": 267.914,
+      "start": 267.68,
+      "end": 269.68,
       "text": "and wire.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 212,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 269.452,
-      "end": 269.837,
+      "start": 271.42,
+      "end": 271.82,
       "text": "I'm asset rich,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -2185,8 +2411,8 @@
     {
       "index": 213,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 269.837,
-      "end": 270.222,
+      "start": 271.82,
+      "end": 272.16,
       "text": "cash poor,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -2194,17 +2420,17 @@
     {
       "index": 214,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 270.606,
-      "end": 272.529,
+      "start": 272.48,
+      "end": 273.86,
       "text": "still holding the door",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 215,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 272.529,
-      "end": 274.452,
+      "start": 273.86,
+      "end": 275.4,
       "text": "Got a fortune in nerve",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2212,8 +2438,8 @@
     {
       "index": 216,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 274.452,
-      "end": 276.76,
+      "start": 275.4,
+      "end": 276.74,
       "text": "and a bill on the floor",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -2221,17 +2447,17 @@
     {
       "index": 217,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 277.343,
-      "end": 277.927,
+      "start": 276.74,
+      "end": 278.14,
       "text": "Middle-class roof",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 218,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 277.927,
-      "end": 279.385,
+      "start": 278.14,
+      "end": 279.62,
       "text": "with the weather coming through",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2239,17 +2465,17 @@
     {
       "index": 219,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 279.677,
-      "end": 280.843,
+      "start": 279.62,
+      "end": 281.04,
       "text": "I own what I learned",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 220,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 280.843,
-      "end": 282.593,
+      "start": 281.04,
+      "end": 282.46,
       "text": "but the bank owns the view",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -2257,17 +2483,17 @@
     {
       "index": 221,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 282.885,
-      "end": 283.76,
+      "start": 282.46,
+      "end": 283.8,
       "text": "If wisdom paid rent",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 222,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 283.76,
-      "end": 285.578,
+      "start": 283.8,
+      "end": 285.3,
       "text": "I'd be hard to ignore",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2275,8 +2501,8 @@
     {
       "index": 223,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 285.578,
-      "end": 287.396,
+      "start": 285.3,
+      "end": 286.96,
       "text": "But I'm asset rich,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2284,8 +2510,8 @@
     {
       "index": 224,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 287.396,
-      "end": 287.76,
+      "start": 286.96,
+      "end": 288.1,
       "text": "cash poor",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -2293,17 +2519,17 @@
     {
       "index": 225,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 288.124,
-      "end": 288.487,
+      "start": 288.54,
+      "end": 289.06,
       "text": "I'm debt-aware,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 226,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 289.578,
-      "end": 289.942,
+      "start": 289.5,
+      "end": 289.82,
       "text": "hope-sore,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -2311,26 +2537,26 @@
     {
       "index": 227,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 290.305,
-      "end": 291.76,
+      "start": 290.26,
+      "end": 291.58,
       "text": "still singing for more",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 228,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 292.054,
-      "end": 293.525,
+      "start": 291.58,
+      "end": 293.08,
       "text": "Got a heart in the red",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 229,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 293.525,
-      "end": 295.289,
+      "start": 293.08,
+      "end": 294.34,
       "text": "and a light in the store",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -2338,8 +2564,8 @@
     {
       "index": 230,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 295.289,
-      "end": 296.76,
+      "start": 294.34,
+      "end": 295.7,
       "text": "If love had a wage",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2347,17 +2573,17 @@
     {
       "index": 231,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 297.348,
-      "end": 298.231,
+      "start": 295.7,
+      "end": 297.2,
       "text": "we'd all make it through",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 232,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 298.231,
-      "end": 299.995,
+      "start": 297.2,
+      "end": 298.76,
       "text": "So I count what is left",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -2365,8 +2591,8 @@
     {
       "index": 233,
       "section": "Final Hook - warm, communal, gently triumphant",
-      "start": 299.995,
-      "end": 301.76,
+      "start": 298.76,
+      "end": 300.36,
       "text": "and I share it with you",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -2374,17 +2600,17 @@
     {
       "index": 234,
       "section": "Outro - spoken | instruments fading",
-      "start": 301.76,
-      "end": 303.627,
+      "start": 301.88,
+      "end": 303.24,
       "text": "My bank app says",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 235,
       "section": "Outro - spoken | instruments fading",
-      "start": 303.627,
-      "end": 305.493,
+      "start": 303.24,
+      "end": 304.38,
       "text": "I'm spending too much",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2392,8 +2618,8 @@
     {
       "index": 236,
       "section": "Outro - spoken | instruments fading",
-      "start": 305.493,
-      "end": 306.427,
+      "start": 304.38,
+      "end": 305.06,
       "text": "on groceries.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2401,17 +2627,17 @@
     {
       "index": 237,
       "section": "Outro - spoken | instruments fading",
-      "start": 306.427,
-      "end": 306.893,
+      "start": 305.06,
+      "end": 305.56,
       "text": "Fair.",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 238,
       "section": "Outro - spoken | instruments fading",
-      "start": 306.893,
-      "end": 307.827,
+      "start": 306.22,
+      "end": 307.22,
       "text": "But tonight",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2419,8 +2645,8 @@
     {
       "index": 239,
       "section": "Outro - spoken | instruments fading",
-      "start": 307.827,
-      "end": 309.693,
+      "start": 307.22,
+      "end": 308.9,
       "text": "there are four people",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2428,8 +2654,8 @@
     {
       "index": 240,
       "section": "Outro - spoken | instruments fading",
-      "start": 309.693,
-      "end": 311.093,
+      "start": 308.9,
+      "end": 309.76,
       "text": "at my table,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2437,8 +2663,8 @@
     {
       "index": 241,
       "section": "Outro - spoken | instruments fading",
-      "start": 311.093,
-      "end": 311.56,
+      "start": 309.76,
+      "end": 311.0,
       "text": "laughing",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -2446,8 +2672,8 @@
     {
       "index": 242,
       "section": "Outro - spoken | instruments fading",
-      "start": 311.56,
-      "end": 312.96,
+      "start": 311.0,
+      "end": 312.46,
       "text": "like the rent",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2455,8 +2681,8 @@
     {
       "index": 243,
       "section": "Outro - spoken | instruments fading",
-      "start": 312.96,
-      "end": 314.36,
+      "start": 312.46,
+      "end": 313.4,
       "text": "can't hear us.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2464,8 +2690,8 @@
     {
       "index": 244,
       "section": "Outro - spoken | instruments fading",
-      "start": 314.36,
-      "end": 315.76,
+      "start": 313.4,
+      "end": 314.9,
       "text": "And for once,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2473,8 +2699,8 @@
     {
       "index": 245,
       "section": "Outro - spoken | instruments fading",
-      "start": 315.76,
-      "end": 318.56,
+      "start": 314.9,
+      "end": 316.4,
       "text": "the numbers",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2482,11 +2708,11 @@
     {
       "index": 246,
       "section": "Outro - spoken | instruments fading",
-      "start": 319.96,
-      "end": 322.76,
+      "start": 316.4,
+      "end": 317.86,
       "text": "can wait outside.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     }
   ]
 }

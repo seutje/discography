@@ -4,514 +4,415 @@
   "title": "Feed Yourself",
   "text_path": "Net Worthless/07 - Feed Yourself.txt",
   "audio_path": "Net Worthless/audio/07 - Feed Yourself.mp3",
-  "duration_seconds": 310.0,
-  "model": "base",
+  "duration_seconds": 303.82,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 202,
     "reference_word_count": 736,
-    "observed_word_count": 736,
-    "matched_word_count": 661,
-    "matched_word_ratio": 0.898,
-    "inserted_adlib_count": 0
+    "observed_word_count": 739,
+    "matched_word_count": 721,
+    "matched_word_ratio": 0.98,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
       "start": 0.0,
-      "end": 2.0,
-      "text": "Good news exists."
+      "end": 5.64,
+      "text": "good news exists i know suspicious isn't it"
     },
     {
-      "start": 2.0,
-      "end": 6.0,
-      "text": "I know. Suspicious, isn't it?"
+      "start": 6.36,
+      "end": 11.38,
+      "text": "like finding a tenner in last winter's coat and wondering what tax office you now owe"
     },
     {
-      "start": 6.0,
-      "end": 12.0,
-      "text": "Like finding a tenor in last winter's coat and wondering what tech's office you know."
+      "start": 12.54,
+      "end": 18.4,
+      "text": "but it's out there you just can't expect it to arrive between outrage and discount"
     },
     {
-      "start": 12.0,
-      "end": 14.0,
-      "text": "But it's out there."
+      "start": 18.4,
+      "end": 19.04,
+      "text": "trainers"
     },
     {
-      "start": 14.0,
-      "end": 20.0,
-      "text": "You just can't expect it to arrive between outrage and discount trainers."
+      "start": 21.4,
+      "end": 26.62,
+      "text": "the feed keeps serving emotional meal deals two disasters one hot take and a drink that"
     },
     {
-      "start": 20.0,
-      "end": 25.0,
-      "text": "The feed keeps serving emotional meal deals to disasters."
+      "start": 26.62,
+      "end": 27.5,
+      "text": "tastes like dread"
     },
     {
-      "start": 25.0,
-      "end": 28.0,
-      "text": "One hot take and a drink that tastes like dread."
+      "start": 28.1,
+      "end": 32.94,
+      "text": "and we keep chewing like well it was placed before me mate that's not dinner"
     },
     {
-      "start": 28.0,
-      "end": 32.0,
-      "text": "And we keep chewing like, well, it was placed before me mate."
+      "start": 33.68,
+      "end": 37.24,
+      "text": "that's a vending machine having a breakdown and charging you monthly"
     },
     {
-      "start": 32.0,
-      "end": 33.0,
-      "text": "That's not dinner."
+      "start": 37.92,
+      "end": 38.86,
+      "text": "you want kindness"
     },
     {
-      "start": 33.0,
-      "end": 36.0,
-      "text": "That's a vending machine having a breakdown."
+      "start": 39.3,
+      "end": 40.02,
+      "text": "leave the queue"
     },
     {
-      "start": 36.0,
-      "end": 38.0,
-      "text": "Charging you monthly."
+      "start": 40.56,
+      "end": 45.5,
+      "text": "look past the headline past the sponsored panic past the man in sunglasses explaining"
     },
     {
-      "start": 38.0,
-      "end": 39.0,
-      "text": "You want kindness?"
+      "start": 45.5,
+      "end": 47.32,
+      "text": "collapse from a rented car"
     },
     {
-      "start": 39.0,
-      "end": 40.0,
-      "text": "Leave the queue."
+      "start": 49.58,
+      "end": 54.62,
+      "text": "there's a nurse singing to someone's nan a kid planting flowers in a traffic island"
     },
     {
-      "start": 40.0,
-      "end": 42.0,
-      "text": "Look past the headline."
+      "start": 54.62,
+      "end": 58.94,
+      "text": "a stranger buying nappies with a card that barely survived the week"
     },
     {
-      "start": 42.0,
-      "end": 43.0,
-      "text": "Pass the sponsored panic."
+      "start": 60.14,
+      "end": 65.18,
+      "text": "no press release no profit forecast just small mercy"
     },
     {
-      "start": 43.0,
-      "end": 49.0,
-      "text": "Pass the man in sunglasses explaining collapse from a rented car."
+      "start": 66.74,
+      "end": 69.88,
+      "text": "working overtime for less than it's worth"
     },
     {
-      "start": 49.0,
-      "end": 52.0,
-      "text": "There's a nurse singing to someone's nan."
+      "start": 70.04,
+      "end": 75.32,
+      "text": "you can't just eat what lands on your feed not every cheap plate has the thing that you"
     },
     {
-      "start": 52.0,
-      "end": 55.0,
-      "text": "A kid planting flowers in a traffic island."
+      "start": 75.32,
+      "end": 75.62,
+      "text": "need"
     },
     {
-      "start": 55.0,
-      "end": 56.0,
-      "text": "A stranger buying up."
+      "start": 75.74,
+      "end": 80.48,
+      "text": "there's gold in the cup there's bread in the rain but you've got to go looking through"
     },
     {
-      "start": 56.0,
-      "end": 57.0,
-      "text": "He's with the car."
+      "start": 80.48,
+      "end": 81.48,
+      "text": "the coupons of pain"
     },
     {
-      "start": 57.0,
-      "end": 59.0,
-      "text": "The belly survived the week."
+      "start": 81.48,
+      "end": 84.68,
+      "text": "some good news is a market with a hidden back door"
     },
     {
-      "start": 59.0,
-      "end": 62.0,
-      "text": "No press release."
+      "start": 85.4,
+      "end": 88.88,
+      "text": "kindness is expensive but there's always some more"
     },
     {
-      "start": 62.0,
-      "end": 64.0,
-      "text": "No profit forecast."
+      "start": 90.42,
+      "end": 95.64,
+      "text": "now the machines are making songs paintings poems pictures of cats in legal professions"
     },
     {
-      "start": 64.0,
-      "end": 66.0,
-      "text": "Just small mercy."
+      "start": 95.76,
+      "end": 97.28,
+      "text": "and yes some of it's awful"
     },
     {
-      "start": 66.0,
-      "end": 68.0,
-      "text": "Working overtime."
+      "start": 97.44,
+      "end": 101.9,
+      "text": "some of it looks like a motivational poster got trapped in a microwave"
     },
     {
-      "start": 68.0,
-      "end": 71.0,
-      "text": "For less than it's worth you can't."
+      "start": 101.92,
+      "end": 108.12,
+      "text": "some of it has the emotional depth of a hotel spoon but some of it opens a door for someone"
     },
     {
-      "start": 71.0,
-      "end": 73.0,
-      "text": "Just eat what lands on your feet."
+      "start": 108.12,
+      "end": 109.94,
+      "text": "never handed a key"
     },
     {
-      "start": 73.0,
-      "end": 76.0,
-      "text": "Not every cheap plate has the thing that you need."
+      "start": 110.86,
+      "end": 115.52,
+      "text": "some single dad after the late shift makes a lullaby he couldn't afford to record"
     },
     {
-      "start": 76.0,
-      "end": 77.0,
-      "text": "There's gold in the gut."
+      "start": 116.36,
+      "end": 120.84,
+      "text": "some shy kid builds a whole little world from a bedroom with bad curtains"
     },
     {
-      "start": 77.0,
-      "end": 78.0,
-      "text": "There's bread in the rain."
+      "start": 121.98,
+      "end": 127.5,
+      "text": "some woman once told if she wasn't technical makes the sky do impossible things before"
     },
     {
-      "start": 78.0,
-      "end": 80.0,
-      "text": "But you've got to go."
+      "start": 127.5,
+      "end": 129.16,
+      "text": "breakfast is their slot"
     },
     {
-      "start": 80.0,
-      "end": 82.0,
-      "text": "Looking through the coupons of paint."
+      "start": 129.52,
+      "end": 133.94,
+      "text": "god yes buckets of it but that doesn't mean the kitchen is worthless"
     },
     {
-      "start": 82.0,
-      "end": 85.0,
-      "text": "Good news is a market with a hidden back door."
+      "start": 134.18,
+      "end": 139.92,
+      "text": "it means we learn to taste better we learn to dig we learn to choose we learn the day"
     },
     {
-      "start": 85.0,
-      "end": 87.0,
-      "text": "Kindness is expensive."
+      "start": 139.92,
+      "end": 143.5,
+      "text": "difference between fast content and food"
     },
     {
-      "start": 87.0,
-      "end": 90.0,
-      "text": "But there's always someone."
+      "start": 143.66,
+      "end": 146.58,
+      "text": "you can't just eat what lands on your feet"
     },
     {
-      "start": 90.0,
-      "end": 93.0,
-      "text": "Now the machines are making songs, paintings, poems."
+      "start": 146.7,
+      "end": 149.34,
+      "text": "not every cheap plate has the thing that you need"
     },
     {
-      "start": 93.0,
-      "end": 96.0,
-      "text": "Pictures of cats and eagle professions."
+      "start": 149.54,
+      "end": 154.34,
+      "text": "there's gold in the gut there's bread in the rain but you've got to go looking through"
     },
     {
-      "start": 96.0,
-      "end": 98.0,
-      "text": "And yes, some of it's awful."
+      "start": 154.34,
+      "end": 155.36,
+      "text": "the coupons of pain"
     },
     {
-      "start": 98.0,
-      "end": 102.0,
-      "text": "Some of it looks like a motivational poster got trapped in a microwave."
+      "start": 155.56,
+      "end": 158.58,
+      "text": "good news is a market with a hidden back door"
     },
     {
-      "start": 102.0,
-      "end": 106.0,
-      "text": "Some of it has the emotional depth of a hotel spoon."
+      "start": 158.9,
+      "end": 163.08,
+      "text": "kindness is expensive but there's always some more"
     },
     {
-      "start": 106.0,
-      "end": 110.0,
-      "text": "Some of it opens a door for someone never handed a key."
+      "start": 163.88,
+      "end": 169.4,
+      "text": "and yes this song would not exist without chet jepedy which is beautiful and slightly"
     },
     {
-      "start": 110.0,
-      "end": 114.0,
-      "text": "Some single dad after the late shift makes a lullaby."
+      "start": 169.4,
+      "end": 169.9,
+      "text": "annoying"
     },
     {
-      "start": 114.0,
-      "end": 116.0,
-      "text": "He couldn't afford to record."
+      "start": 170.62,
+      "end": 174.14,
+      "text": "like finding out your therapist is also a toaster with opinions"
     },
     {
-      "start": 116.0,
-      "end": 121.0,
-      "text": "Some shy kid builds a whole little world from a bedroom with bad curtains."
+      "start": 175.82,
+      "end": 180.52,
+      "text": "but i still had to ask still had to listen still had to cut the line"
     },
     {
-      "start": 121.0,
-      "end": 126.0,
-      "text": "Some woman once told if she wasn't technical makes the sky."
+      "start": 180.74,
+      "end": 182.9,
+      "text": "sounded clever but meant nothing"
     },
     {
-      "start": 126.0,
-      "end": 129.0,
-      "text": "If it were impossible things before breakfast is their slot."
+      "start": 183.12,
+      "end": 189.3,
+      "text": "still had to hold each little phrase to the light and check if it had a pulse"
     },
     {
-      "start": 129.0,
-      "end": 131.0,
-      "text": "God yes, buckets of it."
+      "start": 191.38,
+      "end": 197.28,
+      "text": "maybe creativity was never a mansion maybe it was a stall in the rain with a handwritten"
     },
     {
-      "start": 131.0,
-      "end": 134.0,
-      "text": "But that doesn't mean the kitchen is worthless."
+      "start": 197.28,
+      "end": 197.74,
+      "text": "sign"
     },
     {
-      "start": 134.0,
-      "end": 136.0,
-      "text": "It means we learn to taste better."
+      "start": 197.74,
+      "end": 201.82,
+      "text": "maybe now more people can afford a table that matters"
     },
     {
-      "start": 136.0,
-      "end": 137.0,
-      "text": "We learn to dig."
+      "start": 202.82,
+      "end": 208.54,
+      "text": "even if some tables wobble even if some soup is thin you don't have to praise every miracle"
     },
     {
-      "start": 137.0,
-      "end": 139.0,
-      "text": "We learn to choose."
+      "start": 208.54,
+      "end": 209.48,
+      "text": "shaped product"
     },
     {
-      "start": 139.0,
-      "end": 143.0,
-      "text": "We learn the difference between fast content and food."
+      "start": 209.56,
+      "end": 213.5,
+      "text": "you don't have to swallow every shiny thing"
     },
     {
-      "start": 143.0,
-      "end": 146.0,
-      "text": "You can't just keep what lands on your feet."
+      "start": 215.54,
+      "end": 218.3,
+      "text": "but don't confuse the landfill for the whole field"
     },
     {
-      "start": 146.0,
-      "end": 149.0,
-      "text": "Not every cheap plate has the thing that you need."
+      "start": 218.44,
+      "end": 221.22,
+      "text": "there are flowers here stubborn and underfunded"
     },
     {
-      "start": 149.0,
-      "end": 151.0,
-      "text": "There's goals in the gutter."
+      "start": 221.44,
+      "end": 225.94,
+      "text": "there are songs made by people who finally found a way in"
     },
     {
-      "start": 151.0,
-      "end": 152.0,
-      "text": "There's bread in the rain."
+      "start": 226.82,
+      "end": 232.3,
+      "text": "there are strangers still feeding each other from nearly empty plates of gold looking"
     },
     {
-      "start": 152.0,
-      "end": 153.0,
-      "text": "But you've got to go."
+      "start": 233.38,
+      "end": 236.66,
+      "text": "scroll less like a delta search more like a friend"
     },
     {
-      "start": 153.0,
-      "end": 155.0,
-      "text": "Looking through the coupons of paint."
+      "start": 236.98,
+      "end": 239.74,
+      "text": "the world is not only what gets promoted"
     },
     {
-      "start": 155.0,
-      "end": 158.0,
-      "text": "Good news is a market with a hidden back door."
+      "start": 240.66,
+      "end": 243.78,
+      "text": "sometimes the best thing is three pages deep"
     },
     {
-      "start": 158.0,
-      "end": 160.0,
-      "text": "Kindness is expensive."
+      "start": 244.36,
+      "end": 246.48,
+      "text": "bad title heart intact"
     },
     {
-      "start": 160.0,
-      "end": 163.0,
-      "text": "But there's always someone."
+      "start": 246.86,
+      "end": 249.68,
+      "text": "you can't just see what lands on your feet"
     },
     {
-      "start": 163.0,
-      "end": 167.0,
-      "text": "And yes, this song would not exist without Chechipili,"
+      "start": 249.82,
+      "end": 252.76,
+      "text": "not every cheap plate has the thing that you need"
     },
     {
-      "start": 167.0,
-      "end": 170.0,
-      "text": "which is beautiful and slightly annoying."
+      "start": 252.76,
+      "end": 255.82,
+      "text": "there's gold in the cup till there's bread in the rain"
     },
     {
-      "start": 170.0,
-      "end": 175.0,
-      "text": "Like finding out your therapist is also a toaster with opinions."
+      "start": 255.9,
+      "end": 259.02,
+      "text": "but you've got to go looking through the coupons of pain"
     },
     {
-      "start": 175.0,
-      "end": 177.0,
-      "text": "But I still had to ask."
+      "start": 259.18,
+      "end": 262.22,
+      "text": "good news is a market with a hidden back door"
     },
     {
-      "start": 177.0,
-      "end": 179.0,
-      "text": "I'd still had to listen."
+      "start": 262.54,
+      "end": 267.18,
+      "text": "kindness is expensive but there's always some more"
     },
     {
-      "start": 179.0,
-      "end": 180.0,
-      "text": "Still had to cut the line."
+      "start": 267.72,
+      "end": 270.8,
+      "text": "so bring your own hunger bring the bag bring the light"
     },
     {
-      "start": 180.0,
-      "end": 187.0,
-      "text": "Sounded clever but then nothing still had to hold each little phrase to the light and check."
+      "start": 271.02,
+      "end": 272.58,
+      "text": "there's beauty on discount"
     },
     {
-      "start": 187.0,
-      "end": 190.0,
-      "text": "If it had a pause."
+      "start": 273.86,
+      "end": 277.44,
+      "text": "if you search through the night good news exists"
     },
     {
-      "start": 191.0,
-      "end": 194.0,
-      "text": "Maybe creativity was never a mansion."
+      "start": 278.76,
+      "end": 279.78,
+      "text": "kindness exists"
     },
     {
-      "start": 194.0,
-      "end": 198.0,
-      "text": "Maybe it was a storm in the rain with the hand written sign."
+      "start": 280.04,
+      "end": 281.2,
+      "text": "beauty exists"
     },
     {
-      "start": 198.0,
-      "end": 203.0,
-      "text": "Maybe now more people can afford a table that matters."
+      "start": 281.72,
+      "end": 283.42,
+      "text": "but the algorithm is not your mum"
     },
     {
-      "start": 203.0,
-      "end": 208.0,
-      "text": "Even if some tables pop, or even if some superstens you don't have to praise every miracle."
+      "start": 283.9,
+      "end": 286.86,
+      "text": "it will not cut the crusts off and check the temperature"
     },
     {
-      "start": 208.0,
-      "end": 215.0,
-      "text": "Shame prod if you don't have to swallow every shiny thing."
+      "start": 287.98,
+      "end": 289.26,
+      "text": "you have to feed yourself"
     },
     {
-      "start": 215.0,
-      "end": 217.0,
-      "text": "But don't confuse the landfill."
+      "start": 290.36,
+      "end": 292.74,
+      "text": "and sometimes after all the digging"
     },
     {
-      "start": 217.0,
-      "end": 220.0,
-      "text": "For the whole field there are flowers here."
+      "start": 293.38,
+      "end": 297.04,
+      "text": "you find one small thing made by a stranger"
     },
     {
-      "start": 220.0,
-      "end": 223.0,
-      "text": "Stubborn and underfunded there are songs made by people."
+      "start": 297.84,
+      "end": 301.1,
+      "text": "and your bankrupt little chest declares"
     },
     {
-      "start": 223.0,
-      "end": 227.0,
-      "text": "We finally found a way in."
-    },
-    {
-      "start": 227.0,
-      "end": 233.0,
-      "text": "There are strangers still feeding each other from nearly empty plates of gold looking."
-    },
-    {
-      "start": 233.0,
-      "end": 237.0,
-      "text": "Scroless like a death to search more like a friend."
-    },
-    {
-      "start": 237.0,
-      "end": 240.0,
-      "text": "The world is not only what gets promoted."
-    },
-    {
-      "start": 240.0,
-      "end": 244.0,
-      "text": "Sometimes the best thing is three pages deep."
-    },
-    {
-      "start": 244.0,
-      "end": 247.0,
-      "text": "Bad title, heart and tacky cards."
-    },
-    {
-      "start": 247.0,
-      "end": 249.0,
-      "text": "Just see what lands on your feet."
-    },
-    {
-      "start": 249.0,
-      "end": 252.0,
-      "text": "Not every cheat plate has the thing that you need."
-    },
-    {
-      "start": 252.0,
-      "end": 255.0,
-      "text": "This gold in the back to there's bread in the rain."
-    },
-    {
-      "start": 255.0,
-      "end": 259.0,
-      "text": "But you've got to go looking through the coupons of bring good news."
-    },
-    {
-      "start": 259.0,
-      "end": 264.0,
-      "text": "Is a market where they hidden back for kindness is expensive."
-    },
-    {
-      "start": 264.0,
-      "end": 267.0,
-      "text": "But there's always some more."
-    },
-    {
-      "start": 267.0,
-      "end": 270.0,
-      "text": "So bring your own home to bring the back."
-    },
-    {
-      "start": 270.0,
-      "end": 273.0,
-      "text": "Bring the light is beauty undiscount."
-    },
-    {
-      "start": 274.0,
-      "end": 278.0,
-      "text": "If you search through the night good news exists."
-    },
-    {
-      "start": 278.0,
-      "end": 281.0,
-      "text": "Kindness exists beauty exists."
-    },
-    {
-      "start": 281.0,
-      "end": 284.0,
-      "text": "But the algorithm is not your mom."
-    },
-    {
-      "start": 284.0,
-      "end": 287.0,
-      "text": "It will not cut the crust off and check the temperature."
-    },
-    {
-      "start": 287.0,
-      "end": 290.0,
-      "text": "You have to feed yourself."
-    },
-    {
-      "start": 290.0,
-      "end": 297.0,
-      "text": "And sometimes after all the digging you find one small thing made by a stranger."
-    },
-    {
-      "start": 297.0,
-      "end": 302.0,
-      "text": "And you bankrupt your chest declared."
-    },
-    {
-      "start": 303.0,
-      "end": 310.0,
-      "text": "A surplus."
+      "start": 302.46,
+      "end": 303.82,
+      "text": "a surplus"
     }
   ],
   "lines": [
@@ -519,7 +420,7 @@
       "index": 0,
       "section": "Intro – spoken | dry, close-mic",
       "start": 0.0,
-      "end": 2.0,
+      "end": 1.94,
       "text": "Good news exists.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -527,7 +428,7 @@
     {
       "index": 1,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 2.0,
+      "start": 2.32,
       "end": 3.6,
       "text": "I know.",
       "timing_source": "whisper-aligned",
@@ -536,8 +437,8 @@
     {
       "index": 2,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 3.6,
-      "end": 6.0,
+      "start": 4.08,
+      "end": 5.64,
       "text": "Suspicious, isn’t it?",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -545,17 +446,17 @@
     {
       "index": 3,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 6.0,
-      "end": 7.2,
+      "start": 6.36,
+      "end": 7.44,
       "text": "Like finding a tenner",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 4,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 7.6,
-      "end": 9.2,
+      "start": 7.44,
+      "end": 8.88,
       "text": "in last winter’s coat",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -563,8 +464,8 @@
     {
       "index": 5,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 9.2,
-      "end": 10.0,
+      "start": 8.88,
+      "end": 9.56,
       "text": "and wondering",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -572,26 +473,26 @@
     {
       "index": 6,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 10.0,
-      "end": 11.2,
+      "start": 9.56,
+      "end": 10.64,
       "text": "what tax office",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 7,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 11.2,
-      "end": 11.6,
+      "start": 10.64,
+      "end": 11.38,
       "text": "you now owe.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 8,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 12.0,
-      "end": 14.0,
+      "start": 12.54,
+      "end": 13.42,
       "text": "But it’s out there.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -599,8 +500,8 @@
     {
       "index": 9,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 14.0,
-      "end": 16.5,
+      "start": 14.1,
+      "end": 15.32,
       "text": "You just can’t expect it",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -608,8 +509,8 @@
     {
       "index": 10,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 16.5,
-      "end": 17.5,
+      "start": 15.32,
+      "end": 15.96,
       "text": "to arrive",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -617,8 +518,8 @@
     {
       "index": 11,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 17.5,
-      "end": 18.5,
+      "start": 15.96,
+      "end": 16.96,
       "text": "between outrage",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -626,8 +527,8 @@
     {
       "index": 12,
       "section": "Intro – spoken | dry, close-mic",
-      "start": 18.5,
-      "end": 20.0,
+      "start": 16.96,
+      "end": 19.04,
       "text": "and discount trainers.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -635,8 +536,8 @@
     {
       "index": 13,
       "section": "Verse 1 – spoken rap",
-      "start": 20.0,
-      "end": 22.222,
+      "start": 21.14,
+      "end": 22.52,
       "text": "The feed keeps serving",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -644,8 +545,8 @@
     {
       "index": 14,
       "section": "Verse 1 – spoken rap",
-      "start": 22.222,
-      "end": 23.889,
+      "start": 22.52,
+      "end": 23.84,
       "text": "emotional meal deals:",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -653,17 +554,17 @@
     {
       "index": 15,
       "section": "Verse 1 – spoken rap",
-      "start": 24.444,
-      "end": 25.0,
+      "start": 24.04,
+      "end": 24.74,
       "text": "two disasters,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 16,
       "section": "Verse 1 – spoken rap",
       "start": 25.0,
-      "end": 25.9,
+      "end": 25.78,
       "text": "one hot take,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -671,8 +572,8 @@
     {
       "index": 17,
       "section": "Verse 1 – spoken rap",
-      "start": 25.9,
-      "end": 26.8,
+      "start": 25.78,
+      "end": 26.34,
       "text": "and a drink",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -680,8 +581,8 @@
     {
       "index": 18,
       "section": "Verse 1 – spoken rap",
-      "start": 26.8,
-      "end": 28.0,
+      "start": 26.34,
+      "end": 27.5,
       "text": "that tastes like dread.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -689,8 +590,8 @@
     {
       "index": 19,
       "section": "Verse 1 – spoken rap",
-      "start": 28.0,
-      "end": 29.333,
+      "start": 28.1,
+      "end": 28.82,
       "text": "And we keep chewing,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -698,8 +599,8 @@
     {
       "index": 20,
       "section": "Verse 1 – spoken rap",
-      "start": 29.333,
-      "end": 29.667,
+      "start": 28.82,
+      "end": 29.22,
       "text": "like,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -707,8 +608,8 @@
     {
       "index": 21,
       "section": "Verse 1 – spoken rap",
-      "start": 29.667,
-      "end": 31.667,
+      "start": 29.56,
+      "end": 31.34,
       "text": "“Well, it was placed before me.”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -716,8 +617,8 @@
     {
       "index": 22,
       "section": "Verse 1 – spoken rap",
-      "start": 31.667,
-      "end": 32.0,
+      "start": 31.48,
+      "end": 31.68,
       "text": "Mate.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -725,8 +626,8 @@
     {
       "index": 23,
       "section": "Verse 1 – spoken rap",
-      "start": 32.0,
-      "end": 33.0,
+      "start": 32.08,
+      "end": 32.94,
       "text": "That’s not dinner.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -734,8 +635,8 @@
     {
       "index": 24,
       "section": "Verse 1 – spoken rap",
-      "start": 33.0,
-      "end": 34.714,
+      "start": 33.68,
+      "end": 34.7,
       "text": "That’s a vending machine",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -743,8 +644,8 @@
     {
       "index": 25,
       "section": "Verse 1 – spoken rap",
-      "start": 34.714,
-      "end": 36.0,
+      "start": 34.7,
+      "end": 35.92,
       "text": "having a breakdown",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -752,17 +653,17 @@
     {
       "index": 26,
       "section": "Verse 1 – spoken rap",
-      "start": 36.0,
-      "end": 38.0,
+      "start": 35.92,
+      "end": 37.24,
       "text": "and charging you monthly.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 27,
       "section": "Verse 1 – spoken rap",
-      "start": 38.0,
-      "end": 39.0,
+      "start": 37.92,
+      "end": 38.86,
       "text": "You want kindness?",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -770,8 +671,8 @@
     {
       "index": 28,
       "section": "Verse 1 – spoken rap",
-      "start": 39.0,
-      "end": 40.0,
+      "start": 39.3,
+      "end": 40.02,
       "text": "Leave the queue.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -779,8 +680,8 @@
     {
       "index": 29,
       "section": "Verse 1 – spoken rap",
-      "start": 40.0,
-      "end": 42.0,
+      "start": 40.56,
+      "end": 41.7,
       "text": "Look past the headline.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -788,26 +689,26 @@
     {
       "index": 30,
       "section": "Verse 1 – spoken rap",
-      "start": 42.25,
-      "end": 43.0,
+      "start": 41.86,
+      "end": 43.06,
       "text": "Past the sponsored panic.",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 31,
-      "section": "Verse 1 – spoken rap",
-      "start": 43.545,
-      "end": 45.727,
-      "text": "Past the man in sunglasses",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
     {
+      "index": 31,
+      "section": "Verse 1 – spoken rap",
+      "start": 43.36,
+      "end": 44.92,
+      "text": "Past the man in sunglasses",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
       "index": 32,
       "section": "Verse 1 – spoken rap",
-      "start": 45.727,
-      "end": 46.818,
+      "start": 44.92,
+      "end": 46.02,
       "text": "explaining collapse",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -815,8 +716,8 @@
     {
       "index": 33,
       "section": "Verse 1 – spoken rap",
-      "start": 46.818,
-      "end": 49.0,
+      "start": 46.02,
+      "end": 47.32,
       "text": "from a rented car.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -824,8 +725,8 @@
     {
       "index": 34,
       "section": "Verse 1 – spoken rap",
-      "start": 49.0,
-      "end": 50.286,
+      "start": 49.34,
+      "end": 50.18,
       "text": "There’s a nurse",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -833,8 +734,8 @@
     {
       "index": 35,
       "section": "Verse 1 – spoken rap",
-      "start": 50.286,
-      "end": 52.0,
+      "start": 50.18,
+      "end": 51.82,
       "text": "singing to someone’s nan.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -842,8 +743,8 @@
     {
       "index": 36,
       "section": "Verse 1 – spoken rap",
-      "start": 52.0,
-      "end": 53.5,
+      "start": 52.02,
+      "end": 53.2,
       "text": "A kid planting flowers",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -851,8 +752,8 @@
     {
       "index": 37,
       "section": "Verse 1 – spoken rap",
-      "start": 53.5,
-      "end": 55.0,
+      "start": 53.2,
+      "end": 54.62,
       "text": "in a traffic island.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -860,35 +761,35 @@
     {
       "index": 38,
       "section": "Verse 1 – spoken rap",
-      "start": 55.0,
-      "end": 55.75,
+      "start": 54.62,
+      "end": 56.1,
       "text": "A stranger buying nappies",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 39,
       "section": "Verse 1 – spoken rap",
-      "start": 56.25,
-      "end": 56.5,
+      "start": 56.1,
+      "end": 56.82,
       "text": "with a card",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 40,
-      "section": "Verse 1 – spoken rap",
-      "start": 57.8,
-      "end": 59.0,
-      "text": "that barely survived the week.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
     {
+      "index": 40,
+      "section": "Verse 1 – spoken rap",
+      "start": 56.82,
+      "end": 58.94,
+      "text": "that barely survived the week.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
       "index": 41,
       "section": "Verse 1 – spoken rap",
-      "start": 59.0,
-      "end": 62.0,
+      "start": 60.14,
+      "end": 61.74,
       "text": "No press release.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -896,8 +797,8 @@
     {
       "index": 42,
       "section": "Verse 1 – spoken rap",
-      "start": 62.0,
-      "end": 64.0,
+      "start": 62.08,
+      "end": 63.62,
       "text": "No profit forecast.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -905,8 +806,8 @@
     {
       "index": 43,
       "section": "Verse 1 – spoken rap",
-      "start": 64.0,
-      "end": 66.0,
+      "start": 63.88,
+      "end": 65.18,
       "text": "Just small mercy",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -914,8 +815,8 @@
     {
       "index": 44,
       "section": "Verse 1 – spoken rap",
-      "start": 66.0,
-      "end": 68.0,
+      "start": 66.74,
+      "end": 67.94,
       "text": "working overtime",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -923,8 +824,8 @@
     {
       "index": 45,
       "section": "Verse 1 – spoken rap",
-      "start": 68.0,
-      "end": 70.143,
+      "start": 67.94,
+      "end": 69.88,
       "text": "for less than it’s worth.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -932,8 +833,8 @@
     {
       "index": 46,
       "section": "Hook – soft sung folk melody",
-      "start": 70.143,
-      "end": 71.571,
+      "start": 70.04,
+      "end": 71.36,
       "text": "You can’t just eat",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -941,17 +842,17 @@
     {
       "index": 47,
       "section": "Hook – soft sung folk melody",
-      "start": 71.571,
-      "end": 72.714,
+      "start": 71.36,
+      "end": 72.86,
       "text": "what lands on your feed.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 48,
       "section": "Hook – soft sung folk melody",
-      "start": 73.0,
-      "end": 74.2,
+      "start": 72.9,
+      "end": 74.28,
       "text": "Not every cheap plate",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -959,8 +860,8 @@
     {
       "index": 49,
       "section": "Hook – soft sung folk melody",
-      "start": 74.2,
-      "end": 76.0,
+      "start": 74.28,
+      "end": 75.62,
       "text": "has the thing that you need.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -968,8 +869,8 @@
     {
       "index": 50,
       "section": "Hook – soft sung folk melody",
-      "start": 76.0,
-      "end": 76.8,
+      "start": 75.74,
+      "end": 77.04,
       "text": "There’s gold in the gutter,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -977,8 +878,8 @@
     {
       "index": 51,
       "section": "Hook – soft sung folk melody",
-      "start": 77.0,
-      "end": 78.0,
+      "start": 77.42,
+      "end": 78.62,
       "text": "there’s bread in the rain,",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -986,8 +887,8 @@
     {
       "index": 52,
       "section": "Hook – soft sung folk melody",
-      "start": 78.0,
-      "end": 80.333,
+      "start": 78.62,
+      "end": 80.22,
       "text": "but you’ve got to go looking",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -995,17 +896,17 @@
     {
       "index": 53,
       "section": "Hook – soft sung folk melody",
-      "start": 80.333,
-      "end": 81.667,
+      "start": 80.22,
+      "end": 81.48,
       "text": "through the coupons of pain.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 54,
       "section": "Hook – soft sung folk melody",
-      "start": 82.0,
-      "end": 83.5,
+      "start": 81.6,
+      "end": 83.18,
       "text": "Good news is a market",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1013,8 +914,8 @@
     {
       "index": 55,
       "section": "Hook – soft sung folk melody",
-      "start": 83.5,
-      "end": 85.0,
+      "start": 83.18,
+      "end": 84.68,
       "text": "with a hidden back door.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1022,8 +923,8 @@
     {
       "index": 56,
       "section": "Hook – soft sung folk melody",
-      "start": 85.0,
-      "end": 87.0,
+      "start": 85.18,
+      "end": 86.38,
       "text": "Kindness is expensive,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1031,17 +932,17 @@
     {
       "index": 57,
       "section": "Hook – soft sung folk melody",
-      "start": 87.0,
-      "end": 89.25,
+      "start": 86.46,
+      "end": 88.88,
       "text": "but there’s always some more.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 58,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 90.0,
-      "end": 91.125,
+      "start": 90.42,
+      "end": 91.18,
       "text": "Now the machines",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1049,8 +950,8 @@
     {
       "index": 59,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 91.125,
-      "end": 92.25,
+      "start": 91.18,
+      "end": 92.14,
       "text": "are making songs,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1058,8 +959,8 @@
     {
       "index": 60,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 92.25,
-      "end": 92.625,
+      "start": 92.34,
+      "end": 92.6,
       "text": "paintings,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1067,8 +968,8 @@
     {
       "index": 61,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 92.625,
-      "end": 93.0,
+      "start": 92.94,
+      "end": 93.22,
       "text": "poems,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1076,8 +977,8 @@
     {
       "index": 62,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 93.0,
-      "end": 94.5,
+      "start": 93.54,
+      "end": 94.42,
       "text": "pictures of cats",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1085,17 +986,17 @@
     {
       "index": 63,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 95.5,
-      "end": 96.0,
+      "start": 94.42,
+      "end": 95.64,
       "text": "in legal professions.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 64,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 96.0,
-      "end": 96.667,
+      "start": 95.76,
+      "end": 96.18,
       "text": "And yes,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1103,8 +1004,8 @@
     {
       "index": 65,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 96.667,
-      "end": 98.0,
+      "start": 96.32,
+      "end": 97.28,
       "text": "some of it’s awful.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1112,8 +1013,8 @@
     {
       "index": 66,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 98.0,
-      "end": 99.538,
+      "start": 97.44,
+      "end": 98.48,
       "text": "Some of it looks like",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1121,8 +1022,8 @@
     {
       "index": 67,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 99.538,
-      "end": 100.462,
+      "start": 98.48,
+      "end": 99.98,
       "text": "a motivational poster",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1130,8 +1031,8 @@
     {
       "index": 68,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 100.462,
-      "end": 102.0,
+      "start": 99.98,
+      "end": 101.9,
       "text": "got trapped in a microwave.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1139,8 +1040,8 @@
     {
       "index": 69,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 102.0,
-      "end": 103.455,
+      "start": 101.92,
+      "end": 102.9,
       "text": "Some of it has",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1148,8 +1049,8 @@
     {
       "index": 70,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 103.455,
-      "end": 104.545,
+      "start": 102.9,
+      "end": 104.2,
       "text": "the emotional depth",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1157,8 +1058,8 @@
     {
       "index": 71,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 104.545,
-      "end": 106.0,
+      "start": 104.2,
+      "end": 105.44,
       "text": "of a hotel spoon.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1166,17 +1067,17 @@
     {
       "index": 72,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 106.0,
-      "end": 107.0,
+      "start": 105.44,
+      "end": 106.36,
       "text": "But some of it",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 73,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 107.0,
-      "end": 108.0,
+      "start": 106.36,
+      "end": 107.24,
       "text": "opens a door",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1184,8 +1085,8 @@
     {
       "index": 74,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 108.0,
-      "end": 108.667,
+      "start": 107.24,
+      "end": 108.12,
       "text": "for someone",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1193,8 +1094,8 @@
     {
       "index": 75,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 108.667,
-      "end": 110.0,
+      "start": 108.12,
+      "end": 109.94,
       "text": "never handed a key.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1202,8 +1103,8 @@
     {
       "index": 76,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 110.0,
-      "end": 111.2,
+      "start": 110.58,
+      "end": 111.74,
       "text": "Some single dad",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1211,8 +1112,8 @@
     {
       "index": 77,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 111.2,
-      "end": 112.8,
+      "start": 111.74,
+      "end": 112.66,
       "text": "after the late shift",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1220,8 +1121,8 @@
     {
       "index": 78,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 112.8,
-      "end": 114.0,
+      "start": 112.66,
+      "end": 113.82,
       "text": "makes a lullaby",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1229,8 +1130,8 @@
     {
       "index": 79,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 114.0,
-      "end": 116.0,
+      "start": 113.82,
+      "end": 115.52,
       "text": "he couldn’t afford to record.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1238,8 +1139,8 @@
     {
       "index": 80,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 116.0,
-      "end": 117.071,
+      "start": 116.36,
+      "end": 117.2,
       "text": "Some shy kid",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1247,8 +1148,8 @@
     {
       "index": 81,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 117.071,
-      "end": 118.857,
+      "start": 117.2,
+      "end": 118.64,
       "text": "builds a whole little world",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1256,8 +1157,8 @@
     {
       "index": 82,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 118.857,
-      "end": 119.929,
+      "start": 118.64,
+      "end": 119.5,
       "text": "from a bedroom",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1265,8 +1166,8 @@
     {
       "index": 83,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 119.929,
-      "end": 121.0,
+      "start": 119.5,
+      "end": 120.84,
       "text": "with bad curtains.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1274,8 +1175,8 @@
     {
       "index": 84,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 121.0,
-      "end": 121.909,
+      "start": 121.98,
+      "end": 122.76,
       "text": "Some woman",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1283,8 +1184,8 @@
     {
       "index": 85,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 121.909,
-      "end": 122.818,
+      "start": 122.76,
+      "end": 123.48,
       "text": "once told",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1292,8 +1193,8 @@
     {
       "index": 86,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 123.273,
-      "end": 124.636,
+      "start": 123.78,
+      "end": 124.74,
       "text": "she wasn’t technical",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1301,8 +1202,8 @@
     {
       "index": 87,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 124.636,
-      "end": 126.0,
+      "start": 124.74,
+      "end": 125.68,
       "text": "makes the sky",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1310,17 +1211,17 @@
     {
       "index": 88,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 126.9,
-      "end": 127.5,
+      "start": 125.68,
+      "end": 127.06,
       "text": "do impossible things",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 89,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 127.5,
-      "end": 128.1,
+      "start": 127.06,
+      "end": 128.16,
       "text": "before breakfast.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1328,8 +1229,8 @@
     {
       "index": 90,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 128.1,
-      "end": 128.4,
+      "start": 128.16,
+      "end": 128.54,
       "text": "Is there slop?",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1337,8 +1238,8 @@
     {
       "index": 91,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 129.0,
-      "end": 129.8,
+      "start": 129.52,
+      "end": 130.2,
       "text": "God, yes.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1346,8 +1247,8 @@
     {
       "index": 92,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 129.8,
-      "end": 131.0,
+      "start": 130.64,
+      "end": 131.48,
       "text": "Buckets of it.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1355,8 +1256,8 @@
     {
       "index": 93,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 131.0,
-      "end": 132.5,
+      "start": 131.52,
+      "end": 132.64,
       "text": "But that doesn’t mean",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1364,8 +1265,8 @@
     {
       "index": 94,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 132.5,
-      "end": 134.0,
+      "start": 132.64,
+      "end": 133.94,
       "text": "the kitchen is worthless.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1373,8 +1274,8 @@
     {
       "index": 95,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 134.0,
-      "end": 135.143,
+      "start": 134.18,
+      "end": 135.14,
       "text": "It means we learn",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1382,8 +1283,8 @@
     {
       "index": 96,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 135.143,
-      "end": 136.0,
+      "start": 135.14,
+      "end": 136.14,
       "text": "to taste better.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1391,8 +1292,8 @@
     {
       "index": 97,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 136.0,
-      "end": 137.0,
+      "start": 136.46,
+      "end": 137.42,
       "text": "We learn to dig.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1400,8 +1301,8 @@
     {
       "index": 98,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 137.0,
-      "end": 139.0,
+      "start": 137.66,
+      "end": 138.8,
       "text": "We learn to choose.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1409,8 +1310,8 @@
     {
       "index": 99,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 139.0,
-      "end": 140.778,
+      "start": 139.1,
+      "end": 140.36,
       "text": "We learn the difference",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1418,8 +1319,8 @@
     {
       "index": 100,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 140.778,
-      "end": 142.111,
+      "start": 140.36,
+      "end": 142.26,
       "text": "between fast content",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1427,8 +1328,8 @@
     {
       "index": 101,
       "section": "Verse 2 – spoken rap | drums enter",
-      "start": 142.111,
-      "end": 143.0,
+      "start": 142.26,
+      "end": 143.5,
       "text": "and food.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1436,17 +1337,17 @@
     {
       "index": 102,
       "section": "Hook – fuller",
-      "start": 143.0,
-      "end": 144.0,
+      "start": 143.66,
+      "end": 145.06,
       "text": "You can’t just eat",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 103,
       "section": "Hook – fuller",
-      "start": 144.333,
-      "end": 145.667,
+      "start": 145.06,
+      "end": 146.14,
       "text": "what lands on your feed.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1454,8 +1355,8 @@
     {
       "index": 104,
       "section": "Hook – fuller",
-      "start": 146.0,
-      "end": 147.2,
+      "start": 146.7,
+      "end": 148.02,
       "text": "Not every cheap plate",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1463,8 +1364,8 @@
     {
       "index": 105,
       "section": "Hook – fuller",
-      "start": 147.2,
-      "end": 149.0,
+      "start": 148.02,
+      "end": 149.34,
       "text": "has the thing that you need.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1472,8 +1373,8 @@
     {
       "index": 106,
       "section": "Hook – fuller",
-      "start": 149.0,
-      "end": 151.0,
+      "start": 149.54,
+      "end": 150.86,
       "text": "There’s gold in the gutter,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1481,8 +1382,8 @@
     {
       "index": 107,
       "section": "Hook – fuller",
-      "start": 151.0,
-      "end": 152.0,
+      "start": 151.18,
+      "end": 152.44,
       "text": "there’s bread in the rain,",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1490,8 +1391,8 @@
     {
       "index": 108,
       "section": "Hook – fuller",
-      "start": 152.0,
-      "end": 153.333,
+      "start": 152.44,
+      "end": 154.08,
       "text": "but you’ve got to go looking",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1499,17 +1400,17 @@
     {
       "index": 109,
       "section": "Hook – fuller",
-      "start": 153.333,
-      "end": 154.667,
+      "start": 154.08,
+      "end": 155.36,
       "text": "through the coupons of pain.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 110,
       "section": "Hook – fuller",
-      "start": 155.0,
-      "end": 156.5,
+      "start": 155.56,
+      "end": 157.06,
       "text": "Good news is a market",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1517,8 +1418,8 @@
     {
       "index": 111,
       "section": "Hook – fuller",
-      "start": 156.5,
-      "end": 158.0,
+      "start": 157.06,
+      "end": 158.58,
       "text": "with a hidden back door.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1526,8 +1427,8 @@
     {
       "index": 112,
       "section": "Hook – fuller",
-      "start": 158.0,
-      "end": 160.0,
+      "start": 158.9,
+      "end": 160.32,
       "text": "Kindness is expensive,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1535,17 +1436,17 @@
     {
       "index": 113,
       "section": "Hook – fuller",
-      "start": 160.0,
-      "end": 162.25,
+      "start": 160.32,
+      "end": 163.08,
       "text": "but there’s always some more.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 114,
       "section": "Bridge – spoken | vulnerable",
-      "start": 163.0,
-      "end": 163.889,
+      "start": 163.88,
+      "end": 164.4,
       "text": "And yes—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1553,8 +1454,8 @@
     {
       "index": 115,
       "section": "Bridge – spoken | vulnerable",
-      "start": 163.889,
-      "end": 164.778,
+      "start": 164.9,
+      "end": 165.32,
       "text": "this song",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1562,8 +1463,8 @@
     {
       "index": 116,
       "section": "Bridge – spoken | vulnerable",
-      "start": 164.778,
-      "end": 166.111,
+      "start": 165.32,
+      "end": 166.12,
       "text": "would not exist",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1571,17 +1472,17 @@
     {
       "index": 117,
       "section": "Bridge – spoken | vulnerable",
-      "start": 166.111,
-      "end": 166.556,
+      "start": 166.12,
+      "end": 166.94,
       "text": "without Chet Jippedy.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 118,
       "section": "Bridge – spoken | vulnerable",
-      "start": 167.0,
-      "end": 168.5,
+      "start": 167.64,
+      "end": 168.54,
       "text": "Which is beautiful",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1589,8 +1490,8 @@
     {
       "index": 119,
       "section": "Bridge – spoken | vulnerable",
-      "start": 168.5,
-      "end": 170.0,
+      "start": 168.54,
+      "end": 169.9,
       "text": "and slightly annoying.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1598,8 +1499,8 @@
     {
       "index": 120,
       "section": "Bridge – spoken | vulnerable",
-      "start": 170.0,
-      "end": 171.364,
+      "start": 170.62,
+      "end": 171.38,
       "text": "Like finding out",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1607,8 +1508,8 @@
     {
       "index": 121,
       "section": "Bridge – spoken | vulnerable",
-      "start": 171.364,
-      "end": 172.273,
+      "start": 171.38,
+      "end": 172.06,
       "text": "your therapist",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1616,8 +1517,8 @@
     {
       "index": 122,
       "section": "Bridge – spoken | vulnerable",
-      "start": 172.273,
-      "end": 174.091,
+      "start": 172.06,
+      "end": 173.34,
       "text": "is also a toaster",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1625,8 +1526,8 @@
     {
       "index": 123,
       "section": "Bridge – spoken | vulnerable",
-      "start": 174.091,
-      "end": 175.0,
+      "start": 173.34,
+      "end": 174.14,
       "text": "with opinions.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1634,8 +1535,8 @@
     {
       "index": 124,
       "section": "Bridge – spoken | vulnerable",
-      "start": 175.0,
-      "end": 177.0,
+      "start": 175.82,
+      "end": 177.54,
       "text": "But I still had to ask.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1643,8 +1544,8 @@
     {
       "index": 125,
       "section": "Bridge – spoken | vulnerable",
-      "start": 177.4,
-      "end": 179.0,
+      "start": 177.78,
+      "end": 178.96,
       "text": "Still had to listen.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1652,8 +1553,8 @@
     {
       "index": 126,
       "section": "Bridge – spoken | vulnerable",
-      "start": 179.0,
-      "end": 180.0,
+      "start": 179.18,
+      "end": 180.52,
       "text": "Still had to cut the line",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1661,8 +1562,8 @@
     {
       "index": 127,
       "section": "Bridge – spoken | vulnerable",
-      "start": 180.0,
-      "end": 180.824,
+      "start": 180.74,
+      "end": 181.9,
       "text": "that sounded clever",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1670,17 +1571,17 @@
     {
       "index": 128,
       "section": "Bridge – spoken | vulnerable",
-      "start": 180.824,
-      "end": 182.059,
+      "start": 181.9,
+      "end": 182.9,
       "text": "but meant nothing.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 129,
       "section": "Bridge – spoken | vulnerable",
-      "start": 182.059,
-      "end": 183.706,
+      "start": 183.12,
+      "end": 184.24,
       "text": "Still had to hold",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1688,8 +1589,8 @@
     {
       "index": 130,
       "section": "Bridge – spoken | vulnerable",
-      "start": 183.706,
-      "end": 184.941,
+      "start": 184.24,
+      "end": 185.54,
       "text": "each little phrase",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1697,8 +1598,8 @@
     {
       "index": 131,
       "section": "Bridge – spoken | vulnerable",
-      "start": 184.941,
-      "end": 186.176,
+      "start": 185.54,
+      "end": 186.44,
       "text": "to the light",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1706,8 +1607,8 @@
     {
       "index": 132,
       "section": "Bridge – spoken | vulnerable",
-      "start": 186.176,
-      "end": 187.0,
+      "start": 186.44,
+      "end": 187.2,
       "text": "and check",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1715,17 +1616,17 @@
     {
       "index": 133,
       "section": "Bridge – spoken | vulnerable",
-      "start": 187.0,
-      "end": 189.4,
+      "start": 187.2,
+      "end": 189.3,
       "text": "if it had a pulse.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 134,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 191.0,
-      "end": 192.0,
+      "start": 191.38,
+      "end": 192.46,
       "text": "Maybe creativity",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1733,8 +1634,8 @@
     {
       "index": 135,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 192.0,
-      "end": 194.0,
+      "start": 192.46,
+      "end": 194.02,
       "text": "was never a mansion.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1742,17 +1643,17 @@
     {
       "index": 136,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 194.0,
-      "end": 195.231,
+      "start": 194.3,
+      "end": 195.48,
       "text": "Maybe it was a stall",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 137,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 195.538,
-      "end": 196.462,
+      "start": 195.48,
+      "end": 196.24,
       "text": "in the rain",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1760,17 +1661,17 @@
     {
       "index": 138,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 196.462,
-      "end": 198.0,
+      "start": 196.24,
+      "end": 197.74,
       "text": "with a handwritten sign.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 139,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 198.0,
-      "end": 199.0,
+      "start": 197.74,
+      "end": 198.52,
       "text": "Maybe now",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1778,8 +1679,8 @@
     {
       "index": 140,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 199.0,
-      "end": 201.0,
+      "start": 198.52,
+      "end": 200.0,
       "text": "more people can afford",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1787,8 +1688,8 @@
     {
       "index": 141,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 201.0,
-      "end": 202.0,
+      "start": 200.0,
+      "end": 200.76,
       "text": "a table.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1796,8 +1697,8 @@
     {
       "index": 142,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 202.0,
-      "end": 203.0,
+      "start": 200.76,
+      "end": 201.82,
       "text": "That matters.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1805,26 +1706,26 @@
     {
       "index": 143,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 203.0,
-      "end": 204.176,
+      "start": 202.82,
+      "end": 204.66,
       "text": "Even if some tables wobble.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 144,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 204.765,
-      "end": 205.647,
+      "start": 204.78,
+      "end": 206.08,
       "text": "Even if some soup is thin.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 145,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 205.941,
-      "end": 207.412,
+      "start": 206.16,
+      "end": 207.62,
       "text": "You don’t have to praise",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1832,17 +1733,17 @@
     {
       "index": 146,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 207.412,
-      "end": 208.0,
+      "start": 207.62,
+      "end": 209.48,
       "text": "every miracle-shaped product.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 147,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 209.909,
-      "end": 213.091,
+      "start": 209.56,
+      "end": 210.72,
       "text": "You don’t have to swallow",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1850,8 +1751,8 @@
     {
       "index": 148,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 213.091,
-      "end": 215.0,
+      "start": 210.72,
+      "end": 213.5,
       "text": "every shiny thing.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1859,8 +1760,8 @@
     {
       "index": 149,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 215.0,
-      "end": 216.2,
+      "start": 215.54,
+      "end": 216.24,
       "text": "But don’t confuse",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1868,8 +1769,8 @@
     {
       "index": 150,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 216.2,
-      "end": 217.0,
+      "start": 216.24,
+      "end": 216.96,
       "text": "the landfill",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1877,8 +1778,8 @@
     {
       "index": 151,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 217.0,
-      "end": 218.5,
+      "start": 216.96,
+      "end": 218.3,
       "text": "for the whole field.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1886,8 +1787,8 @@
     {
       "index": 152,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 218.5,
-      "end": 220.0,
+      "start": 218.44,
+      "end": 219.46,
       "text": "There are flowers here,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1895,8 +1796,8 @@
     {
       "index": 153,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 220.0,
-      "end": 221.0,
+      "start": 219.74,
+      "end": 221.22,
       "text": "stubborn and underfunded.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1904,8 +1805,8 @@
     {
       "index": 154,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 221.0,
-      "end": 222.0,
+      "start": 221.44,
+      "end": 222.08,
       "text": "There are songs",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1913,8 +1814,8 @@
     {
       "index": 155,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 222.0,
-      "end": 223.0,
+      "start": 222.08,
+      "end": 222.96,
       "text": "made by people",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1922,17 +1823,17 @@
     {
       "index": 156,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 223.667,
-      "end": 225.0,
+      "start": 222.96,
+      "end": 224.44,
       "text": "who finally found",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 157,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 225.0,
-      "end": 227.0,
+      "start": 224.44,
+      "end": 225.94,
       "text": "a way in.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1940,8 +1841,8 @@
     {
       "index": 158,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 227.0,
-      "end": 228.286,
+      "start": 226.82,
+      "end": 228.1,
       "text": "There are strangers",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1949,8 +1850,8 @@
     {
       "index": 159,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 228.286,
-      "end": 230.0,
+      "start": 228.1,
+      "end": 229.54,
       "text": "still feeding each other",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1958,8 +1859,8 @@
     {
       "index": 160,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 230.0,
-      "end": 231.714,
+      "start": 229.54,
+      "end": 231.12,
       "text": "from nearly empty plates.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1967,8 +1868,8 @@
     {
       "index": 161,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 232.571,
-      "end": 233.0,
+      "start": 231.68,
+      "end": 232.3,
       "text": "So go looking.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1976,17 +1877,17 @@
     {
       "index": 162,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 233.4,
-      "end": 234.2,
+      "start": 233.38,
+      "end": 234.84,
       "text": "Scroll less like a debtor.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 163,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 235.0,
-      "end": 237.0,
+      "start": 235.04,
+      "end": 236.66,
       "text": "Search more like a friend.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1994,8 +1895,8 @@
     {
       "index": 164,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 237.0,
-      "end": 238.875,
+      "start": 236.98,
+      "end": 238.18,
       "text": "The world is not only",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2003,8 +1904,8 @@
     {
       "index": 165,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 238.875,
-      "end": 240.0,
+      "start": 238.18,
+      "end": 239.74,
       "text": "what gets promoted.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2012,8 +1913,8 @@
     {
       "index": 166,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 240.0,
-      "end": 242.0,
+      "start": 240.66,
+      "end": 241.98,
       "text": "Sometimes the best thing",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2021,8 +1922,8 @@
     {
       "index": 167,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 242.0,
-      "end": 244.0,
+      "start": 241.98,
+      "end": 243.78,
       "text": "is three pages deep,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2030,8 +1931,8 @@
     {
       "index": 168,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 244.0,
-      "end": 245.0,
+      "start": 244.36,
+      "end": 245.08,
       "text": "bad title,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2039,26 +1940,26 @@
     {
       "index": 169,
       "section": "Verse 3 – warmer | piano enters",
-      "start": 245.0,
-      "end": 245.5,
+      "start": 245.44,
+      "end": 246.48,
       "text": "heart intact.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 170,
       "section": "Final Hook – warm, gently defiant",
-      "start": 247.0,
-      "end": 247.286,
+      "start": 246.86,
+      "end": 247.76,
       "text": "You can’t just eat",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 171,
       "section": "Final Hook – warm, gently defiant",
-      "start": 247.571,
-      "end": 248.714,
+      "start": 248.14,
+      "end": 249.26,
       "text": "what lands on your feed.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2066,17 +1967,17 @@
     {
       "index": 172,
       "section": "Final Hook – warm, gently defiant",
-      "start": 249.0,
-      "end": 250.2,
+      "start": 249.82,
+      "end": 251.18,
       "text": "Not every cheap plate",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 173,
       "section": "Final Hook – warm, gently defiant",
-      "start": 250.2,
-      "end": 252.0,
+      "start": 251.18,
+      "end": 252.76,
       "text": "has the thing that you need.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -2084,17 +1985,17 @@
     {
       "index": 174,
       "section": "Final Hook – warm, gently defiant",
-      "start": 252.273,
-      "end": 253.091,
+      "start": 252.76,
+      "end": 254.12,
       "text": "There’s gold in the gutter,",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 175,
       "section": "Final Hook – warm, gently defiant",
-      "start": 253.636,
-      "end": 255.0,
+      "start": 254.46,
+      "end": 255.82,
       "text": "there’s bread in the rain,",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2102,8 +2003,8 @@
     {
       "index": 176,
       "section": "Final Hook – warm, gently defiant",
-      "start": 255.0,
-      "end": 256.846,
+      "start": 255.9,
+      "end": 257.52,
       "text": "but you’ve got to go looking",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -2111,17 +2012,17 @@
     {
       "index": 177,
       "section": "Final Hook – warm, gently defiant",
-      "start": 256.846,
-      "end": 258.077,
+      "start": 257.52,
+      "end": 259.02,
       "text": "through the coupons of pain.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 178,
       "section": "Final Hook – warm, gently defiant",
-      "start": 258.385,
-      "end": 260.364,
+      "start": 259.18,
+      "end": 260.62,
       "text": "Good news is a market",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2129,17 +2030,17 @@
     {
       "index": 179,
       "section": "Final Hook – warm, gently defiant",
-      "start": 261.273,
-      "end": 262.182,
+      "start": 260.62,
+      "end": 262.22,
       "text": "with a hidden back door.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 5
     },
     {
       "index": 180,
       "section": "Final Hook – warm, gently defiant",
-      "start": 262.636,
-      "end": 264.0,
+      "start": 262.54,
+      "end": 263.98,
       "text": "Kindness is expensive,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2147,8 +2048,8 @@
     {
       "index": 181,
       "section": "Final Hook – warm, gently defiant",
-      "start": 264.0,
-      "end": 267.0,
+      "start": 263.98,
+      "end": 267.18,
       "text": "but there’s always some more.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2156,26 +2057,26 @@
     {
       "index": 182,
       "section": "Final Hook – warm, gently defiant",
-      "start": 267.0,
-      "end": 268.333,
+      "start": 267.72,
+      "end": 269.16,
       "text": "So bring your own hunger,",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 183,
       "section": "Final Hook – warm, gently defiant",
-      "start": 269.0,
-      "end": 269.333,
+      "start": 269.32,
+      "end": 269.94,
       "text": "bring a bag,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 184,
       "section": "Final Hook – warm, gently defiant",
-      "start": 270.0,
-      "end": 271.5,
+      "start": 270.12,
+      "end": 270.8,
       "text": "bring a light.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2183,17 +2084,17 @@
     {
       "index": 185,
       "section": "Final Hook – warm, gently defiant",
-      "start": 272.0,
-      "end": 272.5,
+      "start": 271.02,
+      "end": 272.58,
       "text": "There’s beauty on discount",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 4
     },
     {
       "index": 186,
       "section": "Final Hook – warm, gently defiant",
-      "start": 274.0,
-      "end": 276.667,
+      "start": 273.86,
+      "end": 275.5,
       "text": "if you search through the night.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -2201,8 +2102,8 @@
     {
       "index": 187,
       "section": "Outro – spoken | slight smile",
-      "start": 276.667,
-      "end": 278.0,
+      "start": 276.34,
+      "end": 277.44,
       "text": "Good news exists.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2210,8 +2111,8 @@
     {
       "index": 188,
       "section": "Outro – spoken | slight smile",
-      "start": 278.0,
-      "end": 279.5,
+      "start": 278.76,
+      "end": 279.78,
       "text": "Kindness exists.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2219,8 +2120,8 @@
     {
       "index": 189,
       "section": "Outro – spoken | slight smile",
-      "start": 279.5,
-      "end": 281.0,
+      "start": 280.04,
+      "end": 281.2,
       "text": "Beauty exists.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2228,8 +2129,8 @@
     {
       "index": 190,
       "section": "Outro – spoken | slight smile",
-      "start": 281.0,
-      "end": 282.286,
+      "start": 281.51,
+      "end": 282.5,
       "text": "But the algorithm",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2237,26 +2138,26 @@
     {
       "index": 191,
       "section": "Outro – spoken | slight smile",
-      "start": 282.286,
-      "end": 283.571,
+      "start": 282.5,
+      "end": 283.42,
       "text": "is not your mum.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 192,
       "section": "Outro – spoken | slight smile",
-      "start": 284.0,
-      "end": 285.909,
+      "start": 283.9,
+      "end": 285.66,
       "text": "It will not cut the crusts off",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 193,
       "section": "Outro – spoken | slight smile",
-      "start": 285.909,
-      "end": 287.0,
+      "start": 285.66,
+      "end": 286.86,
       "text": "and check the temperature.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2264,8 +2165,8 @@
     {
       "index": 194,
       "section": "Outro – spoken | slight smile",
-      "start": 287.0,
-      "end": 290.0,
+      "start": 287.98,
+      "end": 289.26,
       "text": "You have to feed yourself.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2273,8 +2174,8 @@
     {
       "index": 195,
       "section": "Outro – spoken | slight smile",
-      "start": 290.0,
-      "end": 290.933,
+      "start": 290.36,
+      "end": 290.96,
       "text": "And sometimes,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2282,8 +2183,8 @@
     {
       "index": 196,
       "section": "Outro – spoken | slight smile",
-      "start": 290.933,
-      "end": 292.8,
+      "start": 291.44,
+      "end": 292.74,
       "text": "after all the digging,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2291,8 +2192,8 @@
     {
       "index": 197,
       "section": "Outro – spoken | slight smile",
-      "start": 292.8,
-      "end": 295.133,
+      "start": 293.38,
+      "end": 295.3,
       "text": "you find one small thing",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2300,8 +2201,8 @@
     {
       "index": 198,
       "section": "Outro – spoken | slight smile",
-      "start": 295.133,
-      "end": 297.0,
+      "start": 295.3,
+      "end": 297.04,
       "text": "made by a stranger",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2309,29 +2210,29 @@
     {
       "index": 199,
       "section": "Outro – spoken | slight smile",
-      "start": 297.0,
-      "end": 301.167,
+      "start": 297.75,
+      "end": 300.22,
       "text": "and your bankrupt little chest",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 200,
       "section": "Outro – spoken | slight smile",
-      "start": 301.167,
-      "end": 302.0,
+      "start": 300.22,
+      "end": 301.1,
       "text": "declares",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 201,
       "section": "Outro – spoken | slight smile",
-      "start": 303.0,
-      "end": 306.5,
+      "start": 302.46,
+      "end": 303.82,
       "text": "a surplus.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     }
   ]
 }

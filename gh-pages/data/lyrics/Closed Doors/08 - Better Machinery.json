@@ -4,427 +4,478 @@
   "title": "Better Machinery",
   "text_path": "Closed Doors/08 - Better Machinery.txt",
   "audio_path": "Closed Doors/audio/08 - Better Machinery.mp3",
-  "duration_seconds": 325.0,
-  "model": "base",
+  "duration_seconds": 323.58,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 184,
     "reference_word_count": 775,
     "observed_word_count": 783,
-    "matched_word_count": 661,
-    "matched_word_ratio": 0.853,
-    "inserted_adlib_count": 0
+    "matched_word_count": 731,
+    "matched_word_ratio": 0.943,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 10.0,
-      "text": "Funny thing, some people spend all day, guarding the gate."
+      "start": 1.56,
+      "end": 8.08,
+      "text": "funny thing some people spend all day guarding the gate"
     },
     {
-      "start": 10.0,
-      "end": 14.0,
-      "text": "And wonder why, nothing grows in the garden."
+      "start": 9.5,
+      "end": 13.04,
+      "text": "and wonder why nothing grows in the garden"
     },
     {
-      "start": 14.0,
-      "end": 23.0,
-      "text": "Yeah, I hear you, but listen, I've seen painters turn preacher with the brush in their fists,"
+      "start": 15.92,
+      "end": 19.22,
+      "text": "yeah i hear you but listen"
     },
     {
-      "start": 23.0,
-      "end": 27.0,
-      "text": "saying that's not creation if a tool helped with this thing they spend four straight hours"
+      "start": 19.88,
+      "end": 22.7,
+      "text": "i've seen painters turn preacher with a brush in their fists"
     },
     {
-      "start": 27.0,
-      "end": 31.0,
-      "text": "and the common section caged on stones and strangers from a fold in chair stage,"
+      "start": 22.7,
+      "end": 25.42,
+      "text": "saying that's not creation if a tool helped with this"
     },
     {
-      "start": 31.0,
-      "end": 38.0,
-      "text": "saying real art suffers, real art bleeds, real art stars and rejects what it needs and I get it."
+      "start": 25.42,
+      "end": 27.88,
+      "text": "then they spent four straight hours in the common section"
     },
     {
-      "start": 38.0,
-      "end": 42.0,
-      "text": "I do, there's rent in the room that rebuilds on the table,"
+      "start": 27.88,
+      "end": 31.02,
+      "text": "cagedown stones at strangers from a folding chair stage"
     },
     {
-      "start": 42.0,
-      "end": 45.0,
-      "text": "there's studios closing and people feeling unstable,"
+      "start": 31.02,
+      "end": 33.9,
+      "text": "saying real art suffers real art bleeds"
     },
     {
-      "start": 45.0,
-      "end": 47.0,
-      "text": "there were hands that learned to craft over half of a life,"
+      "start": 33.9,
+      "end": 36.54,
+      "text": "real art starves and rejects what it needs"
     },
     {
-      "start": 47.0,
-      "end": 50.0,
-      "text": "not watching new doors open and it cuts like a knife."
+      "start": 36.54,
+      "end": 39.12,
+      "text": "and i get it i do"
     },
     {
-      "start": 50.0,
-      "end": 53.0,
-      "text": "Fear has a name, that fear has a home,"
+      "start": 39.12,
+      "end": 41.94,
+      "text": "there's rent in the room there are bills on the table"
     },
     {
-      "start": 53.0,
-      "end": 56.0,
-      "text": "but fear can't be the only thing you make on your own."
+      "start": 41.94,
+      "end": 44.66,
+      "text": "there are studios closing and people feeling unstable"
     },
     {
-      "start": 56.0,
-      "end": 59.0,
-      "text": "You can curse the new hammer or build something true,"
+      "start": 44.66,
+      "end": 47.26,
+      "text": "there are hands that learn to craft over half of a life"
     },
     {
-      "start": 59.0,
-      "end": 62.0,
-      "text": "you can shout at the river or learn how it moves."
+      "start": 47.26,
+      "end": 50.14,
+      "text": "now watching new doors open and it cuts like a knife"
     },
     {
-      "start": 62.0,
-      "end": 67.0,
-      "text": "Same hands, same hunger, same old spark under the skin,"
+      "start": 50.14,
+      "end": 52.98,
+      "text": "that fear has a name that fear has a home"
     },
     {
-      "start": 67.0,
-      "end": 72.0,
-      "text": "new tools, new thunder, new ways to begin."
+      "start": 52.98,
+      "end": 55.58,
+      "text": "but fear can't be the only thing you make on your own"
     },
     {
-      "start": 72.0,
-      "end": 75.0,
-      "text": "You can call me fake from your high little seat,"
+      "start": 55.58,
+      "end": 58.52,
+      "text": "you can curse the new hammer or build something true"
     },
     {
-      "start": 75.0,
-      "end": 77.0,
-      "text": "but I'm still making songs,"
+      "start": 58.52,
+      "end": 61.68,
+      "text": "you can shout at the river or learn how it moves"
     },
     {
-      "start": 77.0,
-      "end": 81.0,
-      "text": "so while you argue with the machine,"
+      "start": 61.68,
+      "end": 67.06,
+      "text": "same hands same hunger same old spark under skin"
     },
     {
-      "start": 82.0,
-      "end": 86.0,
-      "text": "and honestly, the machine seems less angry."
+      "start": 67.06,
+      "end": 72.4,
+      "text": "new tools new thunder new ways to begin"
     },
     {
-      "start": 86.0,
-      "end": 91.0,
-      "text": "They say probability machine, nothing more, nothing real."
+      "start": 72.4,
+      "end": 75.12,
+      "text": "you can call me fake from your high little seat"
     },
     {
-      "start": 91.0,
-      "end": 93.0,
-      "text": "As if one gets smaller, when you question how it feels,"
+      "start": 75.12,
+      "end": 80.06,
+      "text": "but i'm still making songs while you argue with the machine"
     },
     {
-      "start": 93.0,
-      "end": 96.0,
-      "text": "as if meaning is commission from a committee and black,"
+      "start": 81.6,
+      "end": 85.98,
+      "text": "and honestly the machine seems less angry"
     },
     {
-      "start": 96.0,
-      "end": 99.0,
-      "text": "with the clipboard in the headache and the very pure hat,"
+      "start": 87.12,
+      "end": 90.72,
+      "text": "they say probability machine nothing more nothing real"
     },
     {
-      "start": 99.0,
-      "end": 102.0,
-      "text": "they play some epic games with the bullet in the chain,"
+      "start": 90.72,
+      "end": 93.56,
+      "text": "as if wonder gets smaller when you question how it feels"
     },
     {
-      "start": 102.0,
-      "end": 105.0,
-      "text": "say you did the thing, but the name ain't the same."
+      "start": 93.56,
+      "end": 96.26,
+      "text": "as if meaning needs permission from a committee in black"
     },
     {
-      "start": 105.0,
-      "end": 107.0,
-      "text": "You made this song, but the song doesn't count."
+      "start": 96.26,
+      "end": 99.06,
+      "text": "with the clipboard and the headache and the very pure hack"
     },
     {
-      "start": 107.0,
-      "end": 110.0,
-      "text": "You built the door, but you used the wrong mouth."
+      "start": 99.06,
+      "end": 101.84,
+      "text": "they play some anti games with the ruler and the chains"
     },
     {
-      "start": 110.0,
-      "end": 114.0,
-      "text": "And mighty on the hill made the doubt telling everyone below"
+      "start": 101.84,
+      "end": 104.56,
+      "text": "say you did the thing but the name ain't the same"
     },
     {
-      "start": 114.0,
-      "end": 118.0,
-      "text": "them what art is about, but art never cared for the title."
+      "start": 104.56,
+      "end": 107.26,
+      "text": "you made the song but the song doesn't count"
     },
     {
-      "start": 118.0,
-      "end": 121.0,
-      "text": "You gave it just look for the wound and away to translate it"
+      "start": 107.26,
+      "end": 110.12,
+      "text": "you built the door but you used the wrong mountain"
     },
     {
-      "start": 121.0,
-      "end": 124.0,
-      "text": "and why, later bait who was clean, who was staked."
+      "start": 110.12,
+      "end": 112.82,
+      "text": "high and mighty on the hill made a doubt"
     },
     {
-      "start": 124.0,
-      "end": 127.0,
-      "text": "Some kid in the bedroom is making something strange,"
+      "start": 112.82,
+      "end": 115.68,
+      "text": "telling everyone below them what art is about"
     },
     {
-      "start": 127.0,
-      "end": 130.0,
-      "text": "not purking, not holy, not free of concern,"
+      "start": 115.68,
+      "end": 118.62,
+      "text": "but art never cared for the title you gave it"
     },
     {
-      "start": 130.0,
-      "end": 133.0,
-      "text": "but the laugh in the ends of someone willing to learn."
+      "start": 118.62,
+      "end": 121.5,
+      "text": "it just looked for a wound and a way to translate it"
     },
     {
-      "start": 133.0,
-      "end": 136.0,
-      "text": "Same hands, same hunger, same old spark under the skin,"
+      "start": 121.5,
+      "end": 124.32,
+      "text": "and while they debate who was clean who was stained"
     },
     {
-      "start": 136.0,
-      "end": 141.0,
-      "text": "new truths, new thunder, new ways to begin."
+      "start": 124.32,
+      "end": 127.26,
+      "text": "some kid in the bedroom is making something strange"
     },
     {
-      "start": 141.0,
-      "end": 144.0,
-      "text": "You can call me fake from your high little seat,"
+      "start": 127.26,
+      "end": 129.98,
+      "text": "not perfect not holy not free of concern"
     },
     {
-      "start": 144.0,
-      "end": 151.0,
-      "text": "but I'm still making songs, while you argue with the machine."
+      "start": 129.98,
+      "end": 133.18,
+      "text": "but alive in the hands of someone willing to learn"
     },
     {
-      "start": 151.0,
-      "end": 154.0,
-      "text": "I'm not laughing at the fear I felt to do,"
+      "start": 133.18,
+      "end": 138.7,
+      "text": "same hands same hunger same old spark under skin"
     },
     {
-      "start": 154.0,
-      "end": 157.0,
-      "text": "the floor moves fast when the future walks through."
+      "start": 138.7,
+      "end": 144.18,
+      "text": "new tools new thunder new ways to begin"
     },
     {
-      "start": 157.0,
-      "end": 162.0,
-      "text": "Nobody wants to be replaced, nobody wants to be priced out."
+      "start": 144.18,
+      "end": 147.0,
+      "text": "you can call me fake from your high little seat"
     },
     {
-      "start": 162.0,
-      "end": 169.0,
-      "text": "Nobody wants to spend years becoming fluent in the language."
+      "start": 147.0,
+      "end": 154.36,
+      "text": "but i'm still making songs while you argue with the machine"
     },
     {
-      "start": 169.0,
-      "end": 172.0,
-      "text": "Then hear the world say,"
+      "start": 154.36,
+      "end": 157.22,
+      "text": "i'm not laughing at the fear i felt it too"
     },
     {
-      "start": 172.0,
-      "end": 176.0,
-      "text": "cute, we found a shortcut."
+      "start": 157.22,
+      "end": 159.94,
+      "text": "the floor moves fast when the future walks through"
     },
     {
-      "start": 176.0,
-      "end": 180.0,
-      "text": "That hurts, that's real, but hurting people can still be can cruel."
+      "start": 159.94,
+      "end": 161.98,
+      "text": "nobody wants to be replaced"
     },
     {
-      "start": 180.0,
-      "end": 183.0,
-      "text": "And a frightened artist can still turn into a cop with that a posture."
+      "start": 162.78,
+      "end": 165.38,
+      "text": "nobody wants to be priced out"
     },
     {
-      "start": 183.0,
-      "end": 187.0,
-      "text": "There's a difference between protecting the craft and patrolling the borders."
+      "start": 165.38,
+      "end": 170.04,
+      "text": "nobody wants to spend years becoming fluent in the language"
     },
     {
-      "start": 187.0,
-      "end": 189.0,
-      "text": "So nobody else gets past."
+      "start": 170.04,
+      "end": 171.58,
+      "text": "then hear the world say"
     },
     {
-      "start": 189.0,
-      "end": 194.0,
-      "text": "There's a difference between asking hard questions and throwing ass in."
+      "start": 172.48,
+      "end": 174.86,
+      "text": "q we found a shortcut"
     },
     {
-      "start": 194.0,
-      "end": 200.0,
-      "text": "Because someone made art from a different weather."
+      "start": 175.82,
+      "end": 177.84,
+      "text": "that hurts that's real"
     },
     {
-      "start": 200.0,
-      "end": 203.0,
-      "text": "I know the top every snare leaves a thumb print."
+      "start": 177.84,
+      "end": 179.92,
+      "text": "but hurting people can still be cruel"
     },
     {
-      "start": 203.0,
-      "end": 209.0,
-      "text": "Every joke finds a bruise, every fake in the feet makes the gon' feel just fine."
+      "start": 179.92,
+      "end": 183.36,
+      "text": "and a frightened artist can still turn into a cop with better posture"
     },
     {
-      "start": 209.0,
-      "end": 212.0,
-      "text": "You start checking the joy like it might be contraband,"
+      "start": 183.36,
+      "end": 186.96,
+      "text": "there's a difference between protecting the craft and patrolling the border"
     },
     {
-      "start": 212.0,
-      "end": 215.0,
-      "text": "start hiding the song while it's still in your hands."
+      "start": 186.96,
+      "end": 188.88,
+      "text": "so nobody else gets past"
     },
     {
-      "start": 215.0,
-      "end": 219.0,
-      "text": "I wonder if the thing to save you is the same thing."
+      "start": 188.88,
+      "end": 191.66,
+      "text": "there's a difference between asking hard questions"
     },
     {
-      "start": 219.0,
-      "end": 224.0,
-      "text": "They'll use to race you and still something in it just says again."
+      "start": 191.66,
+      "end": 192.86,
+      "text": "and throwing ass in"
     },
     {
-      "start": 224.0,
-      "end": 229.0,
-      "text": "I'ma take one more little rebellion with a one-base shake."
+      "start": 193.8,
+      "end": 198.28,
+      "text": "because someone made art from different weather"
     },
     {
-      "start": 229.0,
-      "end": 233.0,
-      "text": "One more chorus, where the doubt can dissolve."
+      "start": 199.42,
+      "end": 202.56,
+      "text": "i know the toll every sneer leaves a thumbprint"
     },
     {
-      "start": 233.0,
-      "end": 236.0,
-      "text": "One more problem, let the heart one stop,"
+      "start": 202.56,
+      "end": 204.26,
+      "text": "every joke finds a bruise"
     },
     {
-      "start": 236.0,
-      "end": 239.0,
-      "text": "because fight is a match, but one that is cold,"
+      "start": 204.26,
+      "end": 207.88,
+      "text": "every fake in the feed makes the boom feel used"
     },
     {
-      "start": 239.0,
-      "end": 242.0,
-      "text": "one burns loud, one keeps hitting the soul."
+      "start": 208.7,
+      "end": 211.86,
+      "text": "you start checking your joy like it might be contraband"
     },
     {
-      "start": 242.0,
-      "end": 245.0,
-      "text": "Let them make ashes out of every complaint."
+      "start": 211.86,
+      "end": 215.02,
+      "text": "start hiding the song while it's still in your hands"
     },
     {
-      "start": 245.0,
-      "end": 248.0,
-      "text": "I'll make bridges from the park, stay safe."
+      "start": 215.02,
+      "end": 218.98,
+      "text": "start wondering if the thing that saved you is the same thing"
     },
     {
-      "start": 248.0,
-      "end": 251.0,
-      "text": "Hey, hmm."
+      "start": 218.98,
+      "end": 223.82,
+      "text": "they'll use to erase you and still something in the chest says again"
     },
     {
-      "start": 254.0,
-      "end": 260.0,
-      "text": "Same haze, same hunger, same mold spark, underskid."
+      "start": 223.82,
+      "end": 225.56,
+      "text": "one more draft one more take"
     },
     {
-      "start": 260.0,
-      "end": 265.0,
-      "text": "New truth, new thunder, new ways to begin."
+      "start": 225.56,
+      "end": 228.92,
+      "text": "one more little rebellion with a warm base shake"
     },
     {
-      "start": 265.0,
-      "end": 268.0,
-      "text": "You can call me fake from your high little sea,"
+      "start": 228.92,
+      "end": 232.56,
+      "text": "one more chorus where the doubt can dissolve"
     },
     {
-      "start": 268.0,
-      "end": 271.0,
-      "text": "but I'm still making songs."
+      "start": 232.56,
+      "end": 235.62,
+      "text": "one more problem that the heart wants solved"
     },
     {
-      "start": 271.0,
-      "end": 279.0,
-      "text": "Why you argue with machines, same mind, same mind, same fight, same strange road through the rain."
+      "start": 235.62,
+      "end": 238.7,
+      "text": "because spite is a match but one that is cold"
     },
     {
-      "start": 279.0,
-      "end": 284.0,
-      "text": "New truths, new fighter, rock wounds, learning their names."
+      "start": 238.7,
+      "end": 241.74,
+      "text": "one burns loud one keeps heating the soul"
     },
     {
-      "start": 284.0,
-      "end": 287.0,
-      "text": "If the future is common, then let it come clean,"
+      "start": 241.74,
+      "end": 244.84,
+      "text": "so let them make ashes out of every complaint"
     },
     {
-      "start": 287.0,
-      "end": 293.0,
-      "text": "with room for the workers, and the dreamers between."
+      "start": 244.84,
+      "end": 247.9,
+      "text": "i'll make bridges from the parts they say"
     },
     {
-      "start": 293.0,
-      "end": 297.0,
-      "text": "So yes, ask the questions, fight for the living."
+      "start": 247.9,
+      "end": 248.46,
+      "text": "hey"
     },
     {
-      "start": 298.0,
-      "end": 301.0,
-      "text": "Protect the people whose hands built the room,"
+      "start": 253.64,
+      "end": 259.84,
+      "text": "same haze same hunger same old spark under skin"
     },
     {
-      "start": 301.0,
-      "end": 304.0,
-      "text": "but don't confuse bitterness for ethics."
+      "start": 259.84,
+      "end": 265.54,
+      "text": "new tools new thunder new ways to begin"
     },
     {
-      "start": 304.0,
-      "end": 307.0,
-      "text": "Don't mistake the gate for the garden,"
+      "start": 265.54,
+      "end": 268.32,
+      "text": "you can call me fake from your hot little seat"
     },
     {
-      "start": 307.0,
-      "end": 313.0,
-      "text": "and don't spend your whole life calling other people fake."
+      "start": 268.32,
+      "end": 273.18,
+      "text": "but i'm still making songs of why you argue with the machine"
     },
     {
-      "start": 313.0,
-      "end": 318.0,
-      "text": "Then forget to make something real."
+      "start": 273.18,
+      "end": 278.62,
+      "text": "same mind same fire same stranger rolled through the rain"
     },
     {
-      "start": 318.0,
-      "end": 325.0,
-      "text": "Then forget to make something real."
+      "start": 279.26,
+      "end": 284.06,
+      "text": "new tools new fire old wounds learning their names"
+    },
+    {
+      "start": 284.06,
+      "end": 287.5,
+      "text": "if the future is coming then let it come clean"
+    },
+    {
+      "start": 287.5,
+      "end": 292.54,
+      "text": "with room for the workers and the dreamers between"
+    },
+    {
+      "start": 292.54,
+      "end": 296.82,
+      "text": "so yes ask the questions fight for the living"
+    },
+    {
+      "start": 297.9,
+      "end": 300.52,
+      "text": "protect the people whose hands built the room"
+    },
+    {
+      "start": 301.08,
+      "end": 303.34,
+      "text": "but don't confuse bitterness for ethics"
+    },
+    {
+      "start": 304.12,
+      "end": 306.8,
+      "text": "don't mistake the gate for the garden"
+    },
+    {
+      "start": 306.8,
+      "end": 312.1,
+      "text": "and don't spend your whole life calling other people fake"
+    },
+    {
+      "start": 313.32,
+      "end": 317.56,
+      "text": "then forget to make something real"
+    },
+    {
+      "start": 319.62,
+      "end": 323.58,
+      "text": "then forget to make something real"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – spoken | sparse guitar",
-      "start": 0.0,
-      "end": 2.0,
+      "start": 1.56,
+      "end": 2.5,
       "text": "Funny thing.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -432,8 +483,8 @@
     {
       "index": 1,
       "section": "Intro – spoken | sparse guitar",
-      "start": 2.0,
-      "end": 7.0,
+      "start": 4.0,
+      "end": 5.68,
       "text": "Some people spend all day",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -441,8 +492,8 @@
     {
       "index": 2,
       "section": "Intro – spoken | sparse guitar",
-      "start": 7.0,
-      "end": 10.0,
+      "start": 5.68,
+      "end": 8.08,
       "text": "guarding the gate",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -450,8 +501,8 @@
     {
       "index": 3,
       "section": "Intro – spoken | sparse guitar",
-      "start": 10.5,
-      "end": 11.5,
+      "start": 10.02,
+      "end": 10.7,
       "text": "then wonder why",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -459,8 +510,8 @@
     {
       "index": 4,
       "section": "Intro – spoken | sparse guitar",
-      "start": 11.5,
-      "end": 14.0,
+      "start": 10.7,
+      "end": 13.04,
       "text": "nothing grows in the garden.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -468,8 +519,8 @@
     {
       "index": 5,
       "section": "Intro – spoken | sparse guitar",
-      "start": 14.0,
-      "end": 14.529,
+      "start": 15.92,
+      "end": 16.44,
       "text": "Yeah.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -477,8 +528,8 @@
     {
       "index": 6,
       "section": "Intro – spoken | sparse guitar",
-      "start": 14.529,
-      "end": 16.118,
+      "start": 16.44,
+      "end": 17.64,
       "text": "I hear you.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -486,8 +537,8 @@
     {
       "index": 7,
       "section": "Intro – spoken | sparse guitar",
-      "start": 16.118,
-      "end": 17.176,
+      "start": 18.44,
+      "end": 19.22,
       "text": "But listen.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -495,8 +546,8 @@
     {
       "index": 8,
       "section": "Verse 1 – spoken rap",
-      "start": 17.176,
-      "end": 19.824,
+      "start": 19.86,
+      "end": 21.4,
       "text": "I’ve seen painters turn preacher",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -504,17 +555,17 @@
     {
       "index": 9,
       "section": "Verse 1 – spoken rap",
-      "start": 19.824,
-      "end": 22.471,
+      "start": 21.4,
+      "end": 22.36,
       "text": "with a brush in their fist",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 10,
       "section": "Verse 1 – spoken rap",
-      "start": 23.0,
-      "end": 24.0,
+      "start": 22.7,
+      "end": 24.12,
       "text": "saying, “That’s not creation",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -522,8 +573,8 @@
     {
       "index": 11,
       "section": "Verse 1 – spoken rap",
-      "start": 24.0,
-      "end": 25.5,
+      "start": 24.3,
+      "end": 25.42,
       "text": "if a tool helped with this.”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -531,8 +582,8 @@
     {
       "index": 12,
       "section": "Verse 1 – spoken rap",
-      "start": 25.75,
-      "end": 27.0,
+      "start": 25.42,
+      "end": 26.86,
       "text": "Then they spend four straight hours",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -540,35 +591,35 @@
     {
       "index": 13,
       "section": "Verse 1 – spoken rap",
-      "start": 27.8,
-      "end": 28.067,
+      "start": 26.86,
+      "end": 27.88,
       "text": "in a comment section cage",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 14,
-      "section": "Verse 1 – spoken rap",
-      "start": 28.6,
-      "end": 29.4,
-      "text": "throwing stones at strangers",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 14,
+      "section": "Verse 1 – spoken rap",
+      "start": 28.46,
+      "end": 29.56,
+      "text": "throwing stones at strangers",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
       "index": 15,
       "section": "Verse 1 – spoken rap",
-      "start": 29.4,
-      "end": 31.0,
+      "start": 29.56,
+      "end": 31.02,
       "text": "from a folding chair stage.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 16,
       "section": "Verse 1 – spoken rap",
-      "start": 31.0,
-      "end": 32.474,
+      "start": 31.02,
+      "end": 32.46,
       "text": "Saying, “Real art suffers.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -576,8 +627,8 @@
     {
       "index": 17,
       "section": "Verse 1 – spoken rap",
-      "start": 32.474,
-      "end": 33.579,
+      "start": 32.88,
+      "end": 33.9,
       "text": "Real art bleeds.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -585,17 +636,17 @@
     {
       "index": 18,
       "section": "Verse 1 – spoken rap",
-      "start": 33.579,
-      "end": 34.316,
+      "start": 33.9,
+      "end": 35.26,
       "text": "Real art starves",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 19,
       "section": "Verse 1 – spoken rap",
-      "start": 34.684,
-      "end": 36.526,
+      "start": 35.26,
+      "end": 36.54,
       "text": "and rejects what it needs.”",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -603,8 +654,8 @@
     {
       "index": 20,
       "section": "Verse 1 – spoken rap",
-      "start": 36.526,
-      "end": 38.0,
+      "start": 36.54,
+      "end": 37.68,
       "text": "And I get it.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -612,8 +663,8 @@
     {
       "index": 21,
       "section": "Verse 1 – spoken rap",
-      "start": 38.0,
-      "end": 38.667,
+      "start": 37.86,
+      "end": 39.12,
       "text": "I do.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -621,8 +672,8 @@
     {
       "index": 22,
       "section": "Verse 1 – spoken rap",
-      "start": 38.667,
-      "end": 40.333,
+      "start": 39.12,
+      "end": 40.58,
       "text": "There’s rent in the room.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -630,26 +681,26 @@
     {
       "index": 23,
       "section": "Verse 1 – spoken rap",
-      "start": 41.0,
-      "end": 42.0,
+      "start": 40.72,
+      "end": 41.94,
       "text": "There are bills on the table.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 24,
       "section": "Verse 1 – spoken rap",
-      "start": 42.429,
-      "end": 43.286,
+      "start": 41.94,
+      "end": 43.18,
       "text": "There are studios closing",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 25,
       "section": "Verse 1 – spoken rap",
-      "start": 43.286,
-      "end": 45.0,
+      "start": 43.18,
+      "end": 44.66,
       "text": "and people feeling unstable.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -657,8 +708,8 @@
     {
       "index": 26,
       "section": "Verse 1 – spoken rap",
-      "start": 45.0,
-      "end": 46.167,
+      "start": 44.66,
+      "end": 46.08,
       "text": "There are hands that learned a craft",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -666,8 +717,8 @@
     {
       "index": 27,
       "section": "Verse 1 – spoken rap",
-      "start": 46.167,
-      "end": 47.0,
+      "start": 46.08,
+      "end": 47.26,
       "text": "over half of a life",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -675,17 +726,17 @@
     {
       "index": 28,
       "section": "Verse 1 – spoken rap",
-      "start": 47.273,
-      "end": 48.364,
+      "start": 47.26,
+      "end": 48.82,
       "text": "now watching new doors open",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 29,
       "section": "Verse 1 – spoken rap",
-      "start": 48.364,
-      "end": 50.0,
+      "start": 48.82,
+      "end": 50.14,
       "text": "and it cuts like a knife.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -693,17 +744,17 @@
     {
       "index": 30,
       "section": "Verse 1 – spoken rap",
-      "start": 50.0,
-      "end": 51.333,
+      "start": 50.14,
+      "end": 51.58,
       "text": "That fear has a name.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 31,
       "section": "Verse 1 – spoken rap",
-      "start": 51.333,
-      "end": 53.0,
+      "start": 51.76,
+      "end": 52.98,
       "text": "That fear has a home.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -711,8 +762,8 @@
     {
       "index": 32,
       "section": "Verse 1 – spoken rap",
-      "start": 53.0,
-      "end": 54.75,
+      "start": 52.98,
+      "end": 54.52,
       "text": "But fear can’t be the only thing",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -720,8 +771,8 @@
     {
       "index": 33,
       "section": "Verse 1 – spoken rap",
-      "start": 54.75,
-      "end": 56.0,
+      "start": 54.52,
+      "end": 55.58,
       "text": "you make on your own.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -729,8 +780,8 @@
     {
       "index": 34,
       "section": "Pre-Hook – half-sung",
-      "start": 56.0,
-      "end": 57.8,
+      "start": 55.58,
+      "end": 57.16,
       "text": "You can curse the new hammer",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -738,8 +789,8 @@
     {
       "index": 35,
       "section": "Pre-Hook – half-sung",
-      "start": 57.8,
-      "end": 59.0,
+      "start": 57.16,
+      "end": 58.52,
       "text": "or build something true",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -747,8 +798,8 @@
     {
       "index": 36,
       "section": "Pre-Hook – half-sung",
-      "start": 59.0,
-      "end": 60.636,
+      "start": 58.52,
+      "end": 59.94,
       "text": "You can shout at the river",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -756,8 +807,8 @@
     {
       "index": 37,
       "section": "Pre-Hook – half-sung",
-      "start": 60.636,
-      "end": 62.0,
+      "start": 59.94,
+      "end": 61.68,
       "text": "or learn how it moves",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -765,8 +816,8 @@
     {
       "index": 38,
       "section": "Hook – warm sung",
-      "start": 62.0,
-      "end": 63.0,
+      "start": 61.68,
+      "end": 62.98,
       "text": "Same hands",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -774,8 +825,8 @@
     {
       "index": 39,
       "section": "Hook – warm sung",
-      "start": 63.0,
-      "end": 64.0,
+      "start": 63.4,
+      "end": 64.36,
       "text": "same hunger",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -783,8 +834,8 @@
     {
       "index": 40,
       "section": "Hook – warm sung",
-      "start": 64.0,
-      "end": 67.0,
+      "start": 64.88,
+      "end": 67.06,
       "text": "same old spark under skin",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -792,8 +843,8 @@
     {
       "index": 41,
       "section": "Hook – warm sung",
-      "start": 67.0,
-      "end": 68.25,
+      "start": 67.06,
+      "end": 68.48,
       "text": "New tools",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -801,8 +852,8 @@
     {
       "index": 42,
       "section": "Hook – warm sung",
-      "start": 68.25,
-      "end": 69.5,
+      "start": 68.96,
+      "end": 69.78,
       "text": "new thunder",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -810,8 +861,8 @@
     {
       "index": 43,
       "section": "Hook – warm sung",
-      "start": 69.5,
-      "end": 72.0,
+      "start": 70.34,
+      "end": 72.4,
       "text": "new ways to begin",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -819,8 +870,8 @@
     {
       "index": 44,
       "section": "Hook – warm sung",
-      "start": 72.0,
-      "end": 73.5,
+      "start": 72.4,
+      "end": 73.7,
       "text": "You can call me fake",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -828,8 +879,8 @@
     {
       "index": 45,
       "section": "Hook – warm sung",
-      "start": 73.5,
-      "end": 75.0,
+      "start": 73.7,
+      "end": 75.12,
       "text": "from your high little seat",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -837,8 +888,8 @@
     {
       "index": 46,
       "section": "Hook – warm sung",
-      "start": 75.0,
-      "end": 77.0,
+      "start": 75.12,
+      "end": 76.94,
       "text": "But I’m still making songs",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -846,8 +897,8 @@
     {
       "index": 47,
       "section": "Hook – warm sung",
-      "start": 77.571,
-      "end": 81.0,
+      "start": 76.94,
+      "end": 80.06,
       "text": "while you argue with the machine",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -855,8 +906,8 @@
     {
       "index": 48,
       "section": "Post-Hook – spoken aside",
-      "start": 82.0,
-      "end": 83.143,
+      "start": 81.6,
+      "end": 82.5,
       "text": "And honestly?",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -864,8 +915,8 @@
     {
       "index": 49,
       "section": "Post-Hook – spoken aside",
-      "start": 83.143,
-      "end": 86.0,
+      "start": 83.34,
+      "end": 85.98,
       "text": "The machine seems less angry.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -873,8 +924,8 @@
     {
       "index": 50,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 86.0,
-      "end": 88.5,
+      "start": 87.12,
+      "end": 89.26,
       "text": "They say, “Probability machine,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -882,8 +933,8 @@
     {
       "index": 51,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 88.5,
-      "end": 91.0,
+      "start": 89.52,
+      "end": 90.72,
       "text": "nothing more, nothing real.”",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -891,17 +942,17 @@
     {
       "index": 52,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 91.0,
-      "end": 91.909,
+      "start": 90.72,
+      "end": 92.12,
       "text": "As if wonder gets smaller",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 53,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 91.909,
-      "end": 93.0,
+      "start": 92.12,
+      "end": 93.56,
       "text": "when you question how it feels.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -909,44 +960,44 @@
     {
       "index": 54,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 93.0,
-      "end": 93.9,
+      "start": 93.56,
+      "end": 94.84,
       "text": "As if meaning needs permission",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 55,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 94.5,
-      "end": 96.0,
+      "start": 94.84,
+      "end": 96.26,
       "text": "from a committee in black",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 56,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 96.0,
-      "end": 97.636,
+      "start": 96.26,
+      "end": 97.68,
       "text": "with a clipboard and a headache",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 57,
-      "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 97.636,
-      "end": 99.0,
-      "text": "and a very pure hat.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
     {
+      "index": 57,
+      "section": "Verse 2 – spoken rap | gentle bounce",
+      "start": 97.68,
+      "end": 98.7,
+      "text": "and a very pure hat.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
       "index": 58,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 99.0,
-      "end": 100.364,
+      "start": 99.06,
+      "end": 100.44,
       "text": "They play semantic games",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -954,17 +1005,17 @@
     {
       "index": 59,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 100.364,
-      "end": 102.0,
+      "start": 100.44,
+      "end": 101.44,
       "text": "with a ruler and a chain",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 60,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 102.0,
-      "end": 103.364,
+      "start": 101.84,
+      "end": 102.9,
       "text": "Say, “You did the thing,",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -972,8 +1023,8 @@
     {
       "index": 61,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 103.364,
-      "end": 105.0,
+      "start": 102.9,
+      "end": 104.56,
       "text": "but the name ain’t the same.”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -981,17 +1032,17 @@
     {
       "index": 62,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 105.0,
-      "end": 105.889,
+      "start": 104.56,
+      "end": 105.78,
       "text": "“You made the song,",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 63,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 105.889,
-      "end": 107.0,
+      "start": 105.78,
+      "end": 107.26,
       "text": "but the song doesn’t count.”",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -999,8 +1050,8 @@
     {
       "index": 64,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 107.0,
-      "end": 108.2,
+      "start": 107.26,
+      "end": 108.58,
       "text": "“You built the door,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1008,8 +1059,8 @@
     {
       "index": 65,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 108.2,
-      "end": 109.7,
+      "start": 108.58,
+      "end": 109.68,
       "text": "but you used the wrong mount.”",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1017,17 +1068,17 @@
     {
       "index": 66,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 110.0,
-      "end": 110.727,
+      "start": 110.12,
+      "end": 111.4,
       "text": "High and mighty",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 67,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 110.727,
-      "end": 112.909,
+      "start": 111.4,
+      "end": 112.82,
       "text": "on a hill made of doubt",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1035,8 +1086,8 @@
     {
       "index": 68,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 112.909,
-      "end": 114.333,
+      "start": 112.82,
+      "end": 114.46,
       "text": "telling everyone below them",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1044,8 +1095,8 @@
     {
       "index": 69,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 114.333,
-      "end": 115.667,
+      "start": 114.46,
+      "end": 115.68,
       "text": "what art is about.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1053,8 +1104,8 @@
     {
       "index": 70,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 115.667,
-      "end": 117.0,
+      "start": 115.68,
+      "end": 117.14,
       "text": "But art never cared",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1062,8 +1113,8 @@
     {
       "index": 71,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 117.0,
-      "end": 118.692,
+      "start": 117.14,
+      "end": 118.62,
       "text": "for the title you gave it.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1071,44 +1122,44 @@
     {
       "index": 72,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 118.692,
-      "end": 119.846,
+      "start": 118.62,
+      "end": 120.0,
       "text": "It just looked for a wound",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 73,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 119.846,
-      "end": 121.0,
+      "start": 120.0,
+      "end": 121.5,
       "text": "and a way to translate it.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 74,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 121.0,
-      "end": 121.3,
+      "start": 121.5,
+      "end": 122.8,
       "text": "And while they debate",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 4
     },
     {
       "index": 75,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 122.2,
-      "end": 123.4,
+      "start": 122.8,
+      "end": 124.32,
       "text": "who is clean, who is stained",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 76,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 124.0,
-      "end": 125.667,
+      "start": 124.32,
+      "end": 125.72,
       "text": "some kid in a bedroom",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1116,8 +1167,8 @@
     {
       "index": 77,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 125.667,
-      "end": 127.0,
+      "start": 125.72,
+      "end": 127.26,
       "text": "is making something strange.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1125,17 +1176,17 @@
     {
       "index": 78,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 127.0,
-      "end": 127.375,
+      "start": 127.26,
+      "end": 127.94,
       "text": "Not perfect.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 79,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 127.75,
-      "end": 128.5,
+      "start": 128.18,
+      "end": 128.74,
       "text": "Not holy.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1143,8 +1194,8 @@
     {
       "index": 80,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 128.5,
-      "end": 130.0,
+      "start": 128.84,
+      "end": 129.98,
       "text": "Not free of concern.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1152,17 +1203,17 @@
     {
       "index": 81,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 130.0,
-      "end": 131.364,
+      "start": 129.98,
+      "end": 131.3,
       "text": "But alive in the hands",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 82,
       "section": "Verse 2 – spoken rap | gentle bounce",
-      "start": 131.636,
-      "end": 133.0,
+      "start": 131.3,
+      "end": 133.18,
       "text": "of someone willing to learn.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1170,8 +1221,8 @@
     {
       "index": 83,
       "section": "Hook – fuller",
-      "start": 133.0,
-      "end": 133.6,
+      "start": 133.18,
+      "end": 134.48,
       "text": "Same hands",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1179,8 +1230,8 @@
     {
       "index": 84,
       "section": "Hook – fuller",
-      "start": 133.6,
-      "end": 134.2,
+      "start": 134.88,
+      "end": 135.96,
       "text": "same hunger",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1188,8 +1239,8 @@
     {
       "index": 85,
       "section": "Hook – fuller",
-      "start": 134.2,
-      "end": 136.0,
+      "start": 136.48,
+      "end": 138.7,
       "text": "same old spark under skin",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1197,17 +1248,17 @@
     {
       "index": 86,
       "section": "Hook – fuller",
-      "start": 136.0,
-      "end": 136.625,
+      "start": 138.7,
+      "end": 140.12,
       "text": "New tools",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 87,
       "section": "Hook – fuller",
-      "start": 137.25,
-      "end": 138.5,
+      "start": 140.62,
+      "end": 141.46,
       "text": "new thunder",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1215,8 +1266,8 @@
     {
       "index": 88,
       "section": "Hook – fuller",
-      "start": 138.5,
-      "end": 141.0,
+      "start": 142.06,
+      "end": 144.18,
       "text": "new ways to begin",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1224,8 +1275,8 @@
     {
       "index": 89,
       "section": "Hook – fuller",
-      "start": 141.0,
-      "end": 142.5,
+      "start": 144.18,
+      "end": 145.48,
       "text": "You can call me fake",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1233,8 +1284,8 @@
     {
       "index": 90,
       "section": "Hook – fuller",
-      "start": 142.5,
-      "end": 144.0,
+      "start": 145.48,
+      "end": 147.0,
       "text": "from your high little seat",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1242,8 +1293,8 @@
     {
       "index": 91,
       "section": "Hook – fuller",
-      "start": 144.0,
-      "end": 147.182,
+      "start": 147.0,
+      "end": 149.7,
       "text": "But I’m still making songs",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1251,8 +1302,8 @@
     {
       "index": 92,
       "section": "Hook – fuller",
-      "start": 147.182,
-      "end": 151.0,
+      "start": 149.7,
+      "end": 154.36,
       "text": "while you argue with the machine",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1260,8 +1311,8 @@
     {
       "index": 93,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 151.0,
-      "end": 152.8,
+      "start": 154.36,
+      "end": 156.12,
       "text": "I’m not laughing at the fear.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1269,17 +1320,17 @@
     {
       "index": 94,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 153.1,
-      "end": 153.4,
+      "start": 156.36,
+      "end": 157.22,
       "text": "I’ve felt it too.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 95,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 154.0,
-      "end": 155.333,
+      "start": 157.22,
+      "end": 158.58,
       "text": "The floor moves fast",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1287,8 +1338,8 @@
     {
       "index": 96,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 155.333,
-      "end": 157.0,
+      "start": 158.58,
+      "end": 159.94,
       "text": "when the future walks through.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1296,8 +1347,8 @@
     {
       "index": 97,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 157.0,
-      "end": 159.273,
+      "start": 159.94,
+      "end": 161.98,
       "text": "Nobody wants to be replaced.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1305,8 +1356,8 @@
     {
       "index": 98,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 159.273,
-      "end": 162.0,
+      "start": 162.62,
+      "end": 165.38,
       "text": "Nobody wants to be priced out.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1314,8 +1365,8 @@
     {
       "index": 99,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 162.0,
-      "end": 165.5,
+      "start": 165.38,
+      "end": 167.48,
       "text": "Nobody wants to spend years",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1323,8 +1374,8 @@
     {
       "index": 100,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 165.5,
-      "end": 169.0,
+      "start": 167.48,
+      "end": 170.04,
       "text": "becoming fluent in a language",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1332,8 +1383,8 @@
     {
       "index": 101,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 169.0,
-      "end": 172.0,
+      "start": 170.04,
+      "end": 171.68,
       "text": "then hear the world say,",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1341,17 +1392,17 @@
     {
       "index": 102,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 172.0,
-      "end": 176.0,
+      "start": 173.42,
+      "end": 174.86,
       "text": "“Cute. We found a shortcut.”",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 103,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 176.0,
-      "end": 176.667,
+      "start": 175.82,
+      "end": 176.9,
       "text": "That hurts.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1359,8 +1410,8 @@
     {
       "index": 104,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 176.667,
-      "end": 177.333,
+      "start": 177.3,
+      "end": 177.84,
       "text": "That’s real.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1368,8 +1419,8 @@
     {
       "index": 105,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 177.333,
-      "end": 178.333,
+      "start": 177.84,
+      "end": 178.86,
       "text": "But hurting people",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1377,8 +1428,8 @@
     {
       "index": 106,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 178.333,
-      "end": 180.0,
+      "start": 178.86,
+      "end": 179.92,
       "text": "can still become cruel.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1386,8 +1437,8 @@
     {
       "index": 107,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 180.0,
-      "end": 180.857,
+      "start": 179.92,
+      "end": 181.04,
       "text": "And a frightened artist",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1395,8 +1446,8 @@
     {
       "index": 108,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 180.857,
-      "end": 182.143,
+      "start": 181.04,
+      "end": 182.38,
       "text": "can still turn into a cop",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1404,17 +1455,17 @@
     {
       "index": 109,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 182.143,
-      "end": 183.0,
+      "start": 182.38,
+      "end": 183.36,
       "text": "with better posture.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 110,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 183.0,
-      "end": 184.091,
+      "start": 183.36,
+      "end": 184.32,
       "text": "There’s a difference",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1422,8 +1473,8 @@
     {
       "index": 111,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 184.091,
-      "end": 185.545,
+      "start": 184.32,
+      "end": 185.74,
       "text": "between protecting a craft",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1431,17 +1482,17 @@
     {
       "index": 112,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 185.545,
-      "end": 186.273,
+      "start": 185.74,
+      "end": 186.96,
       "text": "and patrolling a border",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 113,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 187.0,
-      "end": 189.0,
+      "start": 186.96,
+      "end": 188.88,
       "text": "so nobody else gets past.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1449,8 +1500,8 @@
     {
       "index": 114,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 189.0,
-      "end": 190.364,
+      "start": 188.88,
+      "end": 189.74,
       "text": "There’s a difference",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1458,8 +1509,8 @@
     {
       "index": 115,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 190.364,
-      "end": 192.182,
+      "start": 189.74,
+      "end": 191.66,
       "text": "between asking hard questions",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1467,8 +1518,8 @@
     {
       "index": 116,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 192.182,
-      "end": 193.091,
+      "start": 191.66,
+      "end": 192.26,
       "text": "and throwing acid",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1476,8 +1527,8 @@
     {
       "index": 117,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 194.0,
-      "end": 197.0,
+      "start": 193.8,
+      "end": 195.98,
       "text": "because someone made art",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1485,8 +1536,8 @@
     {
       "index": 118,
       "section": "Bridge – beat drops | spoken, compassionate",
-      "start": 197.0,
-      "end": 200.0,
+      "start": 195.98,
+      "end": 198.28,
       "text": "from different weather.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1494,26 +1545,26 @@
     {
       "index": 119,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 200.0,
-      "end": 200.9,
+      "start": 199.42,
+      "end": 200.76,
       "text": "I know the toll.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 120,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 201.2,
-      "end": 202.4,
+      "start": 200.9,
+      "end": 202.56,
       "text": "Every sneer leaves a thumbprint.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 121,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 203.0,
-      "end": 204.875,
+      "start": 202.56,
+      "end": 204.26,
       "text": "Every joke finds a bruise.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1521,35 +1572,35 @@
     {
       "index": 122,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 204.875,
-      "end": 206.375,
+      "start": 204.26,
+      "end": 206.0,
       "text": "Every “fake” in the feed",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 123,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 206.75,
-      "end": 208.25,
+      "start": 206.0,
+      "end": 207.88,
       "text": "makes the room feel used.",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 124,
-      "section": "Verse 3 – warmer spoken rap",
-      "start": 209.0,
-      "end": 210.5,
-      "text": "You start checking your joy",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
     {
+      "index": 124,
+      "section": "Verse 3 – warmer spoken rap",
+      "start": 208.61,
+      "end": 210.28,
+      "text": "You start checking your joy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
       "index": 125,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 210.5,
-      "end": 212.0,
+      "start": 210.28,
+      "end": 211.86,
       "text": "like it might be contraband.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1557,8 +1608,8 @@
     {
       "index": 126,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 212.0,
-      "end": 213.2,
+      "start": 211.86,
+      "end": 213.24,
       "text": "Start hiding the song",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1566,8 +1617,8 @@
     {
       "index": 127,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 213.2,
-      "end": 214.7,
+      "start": 213.24,
+      "end": 214.62,
       "text": "while it’s still in your hand.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1575,26 +1626,26 @@
     {
       "index": 128,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 214.7,
-      "end": 215.667,
+      "start": 215.02,
+      "end": 215.7,
       "text": "Start wondering",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 129,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 215.667,
-      "end": 217.667,
+      "start": 215.7,
+      "end": 217.74,
       "text": "if the thing that saved you",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 130,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 217.667,
-      "end": 219.0,
+      "start": 217.74,
+      "end": 218.98,
       "text": "is the same thing",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1602,17 +1653,17 @@
     {
       "index": 131,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 219.0,
-      "end": 220.923,
+      "start": 218.98,
+      "end": 220.86,
       "text": "they’ll use to erase you.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 132,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 220.923,
-      "end": 221.692,
+      "start": 220.86,
+      "end": 221.5,
       "text": "And still—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1620,17 +1671,17 @@
     {
       "index": 133,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 221.692,
-      "end": 223.615,
+      "start": 221.5,
+      "end": 223.28,
       "text": "something in the chest says,",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 134,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 223.615,
-      "end": 224.0,
+      "start": 223.28,
+      "end": 223.82,
       "text": "“Again.”",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1638,26 +1689,26 @@
     {
       "index": 135,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 224.0,
-      "end": 224.455,
+      "start": 223.82,
+      "end": 224.84,
       "text": "One more draft.",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 136,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 224.455,
-      "end": 224.909,
+      "start": 225.06,
+      "end": 225.56,
       "text": "One more take.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 137,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 224.909,
-      "end": 226.727,
+      "start": 225.56,
+      "end": 226.86,
       "text": "One more little rebellion",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1665,17 +1716,17 @@
     {
       "index": 138,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 226.727,
-      "end": 229.0,
+      "start": 226.86,
+      "end": 228.92,
       "text": "with a warm bass shake.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 139,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 229.0,
-      "end": 230.5,
+      "start": 228.92,
+      "end": 230.72,
       "text": "One more chorus",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1683,8 +1734,8 @@
     {
       "index": 140,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 230.5,
-      "end": 233.0,
+      "start": 230.72,
+      "end": 232.56,
       "text": "where the doubt can dissolve.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1692,8 +1743,8 @@
     {
       "index": 141,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 233.0,
-      "end": 234.125,
+      "start": 232.56,
+      "end": 234.1,
       "text": "One more problem",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1701,26 +1752,26 @@
     {
       "index": 142,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 234.5,
-      "end": 235.25,
+      "start": 234.1,
+      "end": 235.62,
       "text": "that the heart wants solved.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 5
     },
     {
       "index": 143,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 236.0,
-      "end": 237.5,
+      "start": 235.62,
+      "end": 237.22,
       "text": "Because spite is a match",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 144,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 237.5,
-      "end": 238.7,
+      "start": 237.22,
+      "end": 238.2,
       "text": "but wonder is coal.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1728,8 +1779,8 @@
     {
       "index": 145,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 239.0,
-      "end": 240.125,
+      "start": 238.7,
+      "end": 239.9,
       "text": "One burns loud.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1737,8 +1788,8 @@
     {
       "index": 146,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 240.125,
-      "end": 242.0,
+      "start": 240.04,
+      "end": 241.74,
       "text": "One keeps heat in the soul.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1746,17 +1797,17 @@
     {
       "index": 147,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 242.0,
-      "end": 243.5,
+      "start": 241.74,
+      "end": 243.12,
       "text": "So let them make ashes",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 148,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 243.5,
-      "end": 245.0,
+      "start": 243.12,
+      "end": 244.84,
       "text": "out of every complaint.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1764,8 +1815,8 @@
     {
       "index": 149,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 245.0,
-      "end": 246.125,
+      "start": 244.84,
+      "end": 246.16,
       "text": "I’ll make bridges",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1773,17 +1824,17 @@
     {
       "index": 150,
       "section": "Verse 3 – warmer spoken rap",
-      "start": 246.125,
-      "end": 246.875,
+      "start": 246.16,
+      "end": 247.9,
       "text": "from the parts they say ain’t.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 5
     },
     {
       "index": 151,
       "section": "Final Hook – uplifting, layered",
-      "start": 254.0,
-      "end": 254.75,
+      "start": 253.64,
+      "end": 254.44,
       "text": "Same hands",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1791,8 +1842,8 @@
     {
       "index": 152,
       "section": "Final Hook – uplifting, layered",
-      "start": 255.5,
-      "end": 257.0,
+      "start": 255.36,
+      "end": 256.82,
       "text": "same hunger",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1800,26 +1851,26 @@
     {
       "index": 153,
       "section": "Final Hook – uplifting, layered",
-      "start": 257.0,
-      "end": 259.25,
+      "start": 256.84,
+      "end": 259.84,
       "text": "same old spark under skin",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 5
     },
     {
       "index": 154,
       "section": "Final Hook – uplifting, layered",
-      "start": 260.0,
-      "end": 260.625,
+      "start": 259.84,
+      "end": 261.12,
       "text": "New tools",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 155,
       "section": "Final Hook – uplifting, layered",
-      "start": 261.25,
-      "end": 262.5,
+      "start": 261.82,
+      "end": 262.62,
       "text": "new thunder",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1827,8 +1878,8 @@
     {
       "index": 156,
       "section": "Final Hook – uplifting, layered",
-      "start": 262.5,
-      "end": 265.0,
+      "start": 263.32,
+      "end": 265.54,
       "text": "new ways to begin",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1836,8 +1887,8 @@
     {
       "index": 157,
       "section": "Final Hook – uplifting, layered",
-      "start": 265.0,
-      "end": 266.5,
+      "start": 265.54,
+      "end": 266.86,
       "text": "You can call me fake",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1845,8 +1896,8 @@
     {
       "index": 158,
       "section": "Final Hook – uplifting, layered",
-      "start": 266.5,
-      "end": 267.7,
+      "start": 266.86,
+      "end": 268.32,
       "text": "from your high little seat",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1854,8 +1905,8 @@
     {
       "index": 159,
       "section": "Final Hook – uplifting, layered",
-      "start": 268.0,
-      "end": 271.0,
+      "start": 268.32,
+      "end": 270.56,
       "text": "But I’m still making songs",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1863,17 +1914,17 @@
     {
       "index": 160,
       "section": "Final Hook – uplifting, layered",
-      "start": 271.471,
-      "end": 272.882,
+      "start": 271.5,
+      "end": 273.18,
       "text": "while you argue with the machine",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 161,
       "section": "Final Hook – uplifting, layered",
-      "start": 273.353,
-      "end": 274.294,
+      "start": 273.18,
+      "end": 274.14,
       "text": "Same mind",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1881,62 +1932,62 @@
     {
       "index": 162,
       "section": "Final Hook – uplifting, layered",
-      "start": 274.294,
-      "end": 274.765,
+      "start": 274.24,
+      "end": 275.54,
       "text": "same fire",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 163,
       "section": "Final Hook – uplifting, layered",
-      "start": 276.176,
-      "end": 279.0,
+      "start": 275.54,
+      "end": 278.62,
       "text": "same strange road through the rain",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 4
     },
     {
       "index": 164,
       "section": "Final Hook – uplifting, layered",
-      "start": 279.0,
-      "end": 279.556,
+      "start": 279.16,
+      "end": 280.1,
       "text": "New tools",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 165,
       "section": "Final Hook – uplifting, layered",
-      "start": 280.111,
-      "end": 280.667,
+      "start": 280.1,
+      "end": 281.66,
       "text": "new choir",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "interpolated",
+      "matched_words": 0
     },
     {
       "index": 166,
       "section": "Final Hook – uplifting, layered",
-      "start": 281.778,
-      "end": 284.0,
+      "start": 281.66,
+      "end": 284.06,
       "text": "old wounds learning their names",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 167,
       "section": "Final Hook – uplifting, layered",
-      "start": 284.0,
-      "end": 285.2,
+      "start": 284.06,
+      "end": 285.92,
       "text": "If the future is coming",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 168,
       "section": "Final Hook – uplifting, layered",
-      "start": 285.5,
-      "end": 287.0,
+      "start": 285.92,
+      "end": 287.5,
       "text": "then let it come clean",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1944,8 +1995,8 @@
     {
       "index": 169,
       "section": "Final Hook – uplifting, layered",
-      "start": 287.0,
-      "end": 290.333,
+      "start": 287.5,
+      "end": 289.4,
       "text": "With room for the workers",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1953,8 +2004,8 @@
     {
       "index": 170,
       "section": "Final Hook – uplifting, layered",
-      "start": 290.333,
-      "end": 293.0,
+      "start": 289.4,
+      "end": 292.54,
       "text": "and the dreamers between",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1962,8 +2013,8 @@
     {
       "index": 171,
       "section": "Outro – spoken | instruments softening",
-      "start": 293.0,
-      "end": 293.889,
+      "start": 292.54,
+      "end": 293.6,
       "text": "So yes.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1971,8 +2022,8 @@
     {
       "index": 172,
       "section": "Outro – spoken | instruments softening",
-      "start": 293.889,
-      "end": 295.222,
+      "start": 294.04,
+      "end": 295.24,
       "text": "Ask the questions.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1980,8 +2031,8 @@
     {
       "index": 173,
       "section": "Outro – spoken | instruments softening",
-      "start": 295.222,
-      "end": 297.0,
+      "start": 295.76,
+      "end": 296.82,
       "text": "Fight for the living.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1989,8 +2040,8 @@
     {
       "index": 174,
       "section": "Outro – spoken | instruments softening",
-      "start": 298.0,
-      "end": 299.125,
+      "start": 297.9,
+      "end": 298.88,
       "text": "Protect the people",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1998,8 +2049,8 @@
     {
       "index": 175,
       "section": "Outro – spoken | instruments softening",
-      "start": 299.125,
-      "end": 301.0,
+      "start": 298.88,
+      "end": 300.52,
       "text": "whose hands built the room.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2007,8 +2058,8 @@
     {
       "index": 176,
       "section": "Outro – spoken | instruments softening",
-      "start": 301.0,
-      "end": 303.0,
+      "start": 300.9,
+      "end": 302.48,
       "text": "But don’t confuse bitterness",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2016,8 +2067,8 @@
     {
       "index": 177,
       "section": "Outro – spoken | instruments softening",
-      "start": 303.0,
-      "end": 304.0,
+      "start": 302.48,
+      "end": 303.34,
       "text": "for ethics.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2025,8 +2076,8 @@
     {
       "index": 178,
       "section": "Outro – spoken | instruments softening",
-      "start": 304.0,
-      "end": 305.714,
+      "start": 303.98,
+      "end": 305.52,
       "text": "Don’t mistake the gate",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2034,8 +2085,8 @@
     {
       "index": 179,
       "section": "Outro – spoken | instruments softening",
-      "start": 305.714,
-      "end": 307.0,
+      "start": 305.52,
+      "end": 306.8,
       "text": "for the garden.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2043,8 +2094,8 @@
     {
       "index": 180,
       "section": "Outro – spoken | instruments softening",
-      "start": 307.0,
-      "end": 310.6,
+      "start": 306.8,
+      "end": 309.26,
       "text": "And don’t spend your whole life",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -2052,8 +2103,8 @@
     {
       "index": 181,
       "section": "Outro – spoken | instruments softening",
-      "start": 310.6,
-      "end": 313.0,
+      "start": 309.26,
+      "end": 312.1,
       "text": "calling other people fake",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2061,8 +2112,8 @@
     {
       "index": 182,
       "section": "Outro – spoken | instruments softening",
-      "start": 313.0,
-      "end": 314.667,
+      "start": 313.2,
+      "end": 314.1,
       "text": "then forget",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2070,8 +2121,8 @@
     {
       "index": 183,
       "section": "Outro – spoken | instruments softening",
-      "start": 314.667,
-      "end": 318.0,
+      "start": 314.1,
+      "end": 317.56,
       "text": "to make something real.",
       "timing_source": "whisper-aligned",
       "matched_words": 4

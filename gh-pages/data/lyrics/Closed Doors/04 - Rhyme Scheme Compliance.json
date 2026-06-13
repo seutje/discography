@@ -4,534 +4,345 @@
   "title": "Rhyme Scheme Compliance",
   "text_path": "Closed Doors/04 - Rhyme Scheme Compliance.txt",
   "audio_path": "Closed Doors/audio/04 - Rhyme Scheme Compliance.mp3",
-  "duration_seconds": 300.0,
-  "model": "base",
+  "duration_seconds": 298.7,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 174,
     "reference_word_count": 808,
     "observed_word_count": 806,
-    "matched_word_count": 699,
-    "matched_word_ratio": 0.865,
-    "inserted_adlib_count": 0
+    "matched_word_count": 750,
+    "matched_word_ratio": 0.928,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 3
   },
   "transcript_segments": [
     {
       "start": 0.0,
-      "end": 5.0,
-      "text": "Apparently, it has to rhyme."
+      "end": 6.42,
+      "text": "apparently it has to rhyme that's the rule"
     },
     {
-      "start": 5.0,
-      "end": 7.0,
-      "text": "That's the rule."
+      "start": 8.74,
+      "end": 14.38,
+      "text": "a song is not a song unless the last word shakes hands"
     },
     {
-      "start": 7.0,
-      "end": 20.0,
-      "text": "A song is not a song unless the last word shakes hands with another last word wearing the same hat."
+      "start": 15.66,
+      "end": 20.92,
+      "text": "with another last word wearing the same hat obviously"
     },
     {
-      "start": 20.0,
-      "end": 21.0,
-      "text": "Obviously."
+      "start": 21.78,
+      "end": 24.52,
+      "text": "i was told the line was broken because it didn't close its mouth right"
     },
     {
-      "start": 21.0,
-      "end": 25.0,
-      "text": "I was told the line was broken because it didn't close its mouth right."
+      "start": 24.76,
+      "end": 28.82,
+      "text": "didn't land in neat little shoes at the end of a hallway under fluorescent judgement"
     },
     {
-      "start": 25.0,
-      "end": 29.0,
-      "text": "The band-in-eat little shoes at the end of a hallway under fluorescent judgement."
+      "start": 28.82,
+      "end": 33.64,
+      "text": "i said maybe this step is the point they said where's the rhyme"
     },
     {
-      "start": 29.0,
-      "end": 31.0,
-      "text": "I said maybe the step is to the point."
+      "start": 33.96,
+      "end": 36.54,
+      "text": "as if meaning is a receipt and the rhyme is the stamp"
     },
     {
-      "start": 31.0,
-      "end": 34.0,
-      "text": "They said no, no, no, where's the rhyme?"
+      "start": 36.62,
+      "end": 39.44,
+      "text": "as if grief has to couple it before it's allowed in the camp"
     },
     {
-      "start": 34.0,
-      "end": 39.0,
-      "text": "As if meaning is a receipt and the rhyme is the stamp as if grief has to couplet before it's allowed in the camp."
+      "start": 39.54,
+      "end": 42.04,
+      "text": "they want the ending to click like cutlery in a drawer"
     },
     {
-      "start": 39.0,
-      "end": 42.0,
-      "text": "They want the ending to click like cutlery in a drawer."
+      "start": 42.16,
+      "end": 45.36,
+      "text": "i want the sentence to hover like it forgot what floors are for"
     },
     {
-      "start": 42.0,
-      "end": 45.0,
-      "text": "I want the sentence to hover like if forgot what floors are for."
+      "start": 45.62,
+      "end": 48.04,
+      "text": "tickety tack with the syllable symmetry little committee with brittle validity"
     },
     {
-      "start": 45.0,
-      "end": 49.0,
-      "text": "Take a detaplet this illable symmetry little committee with riddle validity checking the ending for audible chemistry."
+      "start": 48.16,
+      "end": 50.54,
+      "text": "checking the ending for audible chemistry missing the middle entirely"
     },
     {
-      "start": 49.0,
-      "end": 53.0,
-      "text": "Missing the middle entirely, give it a pattern, a ladder, a battery make it all glitter with little reflatery."
+      "start": 50.7,
+      "end": 53.2,
+      "text": "give it a pattern a ladder a battery make it all glitter with literal flattery"
     },
     {
-      "start": 53.0,
-      "end": 57.0,
-      "text": "No, I'd rather let rhythm unravel me half of the magic is fallibility."
+      "start": 53.32,
+      "end": 56.48,
+      "text": "no i'd rather let rhythm unravel me half of the magic is fallibility"
     },
     {
-      "start": 57.0,
-      "end": 60.0,
-      "text": "Maybe it rhymes, maybe it doesn't."
+      "start": 56.48,
+      "end": 62.88,
+      "text": "maybe it rhymes maybe it doesn't maybe the silence is part of the sentence"
     },
     {
-      "start": 60.0,
-      "end": 63.0,
-      "text": "Maybe the silence is part of the sentence."
+      "start": 63.38,
+      "end": 68.26,
+      "text": "maybe the shape is changing its mind maybe the music is not in the line"
     },
     {
-      "start": 63.0,
-      "end": 66.0,
-      "text": "Maybe the shape is changing its mind."
+      "start": 68.46,
+      "end": 73.36,
+      "text": "it doesn't have to rhyme to arrive doesn't need a perfect little ending to survive"
     },
     {
-      "start": 66.0,
-      "end": 68.0,
-      "text": "Maybe the music is not in the line."
+      "start": 73.56,
+      "end": 78.24,
+      "text": "if the feeling bends the frame if the breath still finds the flame"
     },
     {
-      "start": 68.0,
-      "end": 71.0,
-      "text": "It doesn't have to rhyme to arrive."
+      "start": 78.5,
+      "end": 82.96,
+      "text": "it doesn't have to rhyme to be alive"
     },
     {
-      "start": 71.0,
-      "end": 73.0,
-      "text": "Doesn't need a perfect little ending to survive."
+      "start": 84.28,
+      "end": 87.94,
+      "text": "though admittedly that one did for accessibility"
     },
     {
-      "start": 73.0,
-      "end": 76.0,
-      "text": "If the feeling bends to frame."
+      "start": 88.56,
+      "end": 91.44,
+      "text": "i once ended an album by refusing to stay solid"
     },
     {
-      "start": 76.0,
-      "end": 79.0,
-      "text": "If the breath still finds the flame."
+      "start": 91.62,
+      "end": 94.2,
+      "text": "seven little rooms for one unstable body"
     },
     {
-      "start": 79.0,
-      "end": 84.0,
-      "text": "It doesn't have to rhyme to be alive."
+      "start": 94.46,
+      "end": 97.2,
+      "text": "superposition in the hallway double slit memory"
     },
     {
-      "start": 84.0,
-      "end": 88.0,
-      "text": "Though admittedly that one did for accessibility."
+      "start": 97.7,
+      "end": 100.26,
+      "text": "every gaze made a version that pretended to be me"
     },
     {
-      "start": 88.0,
-      "end": 94.0,
-      "text": "I once ended an album by refusing to stay solid seven little rooms for one unstable body"
-    },
-    {
-      "start": 94.0,
-      "end": 97.0,
-      "text": "Superposition in the hallway, double slit memory."
-    },
-    {
-      "start": 97.0,
-      "end": 100.0,
-      "text": "Every gaze made a version that pretended to be me."
-    },
-    {
-      "start": 100.0,
+      "start": 100.4,
       "end": 103.0,
-      "text": "I was trying to say I change when I'm witness."
+      "text": "i was trying to say i change when i'm witnessed"
     },
     {
-      "start": 103.0,
-      "end": 104.0,
-      "text": "I shrink when I'm measured."
+      "start": 103.2,
+      "end": 105.48,
+      "text": "i shrink when i'm measured i rehearse when i'm questioned"
     },
     {
-      "start": 104.0,
-      "end": 105.0,
-      "text": "I've a urge when I'm questioned."
+      "start": 105.66,
+      "end": 108.12,
+      "text": "i become more convenient when the room needs a shape"
     },
     {
-      "start": 105.0,
-      "end": 108.0,
-      "text": "I become more convenient when the room needs a shape."
+      "start": 108.12,
+      "end": 110.86,
+      "text": "then dissolve in the silence when there's nobody to placate"
     },
     {
-      "start": 108.0,
-      "end": 111.0,
-      "text": "Then dissolve in the silence when there's no belief to play cape."
+      "start": 110.86,
+      "end": 114.32,
+      "text": "but someone heard all that and said cool does it rhyme though"
     },
     {
-      "start": 111.0,
-      "end": 114.0,
-      "text": "Someone heard all that and said cool does it rhyme though?"
+      "start": 114.82,
+      "end": 117.96,
+      "text": "which is funny in a small tired tragic way"
     },
     {
-      "start": 114.0,
-      "end": 118.0,
-      "text": "Which is funny in a small, tired, tragic way."
+      "start": 118.06,
+      "end": 123.74,
+      "text": "like watching someone stare at a stained glass window and ask if it comes in beige"
     },
     {
-      "start": 118.0,
-      "end": 121.0,
-      "text": "Like watching someone stare at a stained glass window."
+      "start": 124.1,
+      "end": 126.84,
+      "text": "riddle in the middle with a flicker and a fission little bit of vision and a split of recognition"
     },
     {
-      "start": 121.0,
-      "end": 124.0,
-      "text": "And ask if it comes in beige."
+      "start": 126.96,
+      "end": 129.78,
+      "text": "but the repetition isn't built in a position maybe it's just because it is a lack of composition"
     },
     {
-      "start": 124.0,
-      "end": 126.0,
-      "text": "Riddle in the middle with the flicker when the vision is a little bit of vision."
+      "start": 129.78,
+      "end": 131.7,
+      "text": "but the pulse and the pulse and the cost of claws and flaws"
     },
     {
-      "start": 126.0,
-      "end": 128.0,
-      "text": "And as little recognition as the repetition is in a position."
+      "start": 131.8,
+      "end": 135.22,
+      "text": "it draws a lot it withdraws when a clean little scheme gets mean gets small"
     },
     {
-      "start": 128.0,
-      "end": 130.0,
-      "text": "Maybe it's missing a lack of composition."
+      "start": 135.36,
+      "end": 138.28,
+      "text": "i'd rather leave the rhyme outside in the hall"
     },
     {
-      "start": 130.0,
-      "end": 132.0,
-      "text": "But the pulse and the pulse across the claws are lost."
+      "start": 138.28,
+      "end": 144.32,
+      "text": "it doesn't have to rhyme to arrive doesn't need a perfect little ending to survive"
     },
     {
-      "start": 132.0,
-      "end": 134.0,
-      "text": "It draws a lot with draws when a clean little scheme gets mean."
+      "start": 144.54,
+      "end": 149.6,
+      "text": "if the feeling bends the frame if the breath still finds the flame"
     },
     {
-      "start": 134.0,
-      "end": 139.0,
-      "text": "Get small, I'd rather leave the rhyme outside in the hall."
+      "start": 150.0,
+      "end": 153.64,
+      "text": "it doesn't have to rhyme to be alive"
     },
     {
-      "start": 139.0,
-      "end": 141.0,
-      "text": "It doesn't have to rhyme to arrive."
+      "start": 155.14,
+      "end": 160.52,
+      "text": "i get the comfort a rhyme is a little promise that the world has corners"
     },
     {
-      "start": 141.0,
-      "end": 144.0,
-      "text": "Doesn't need a perfect little ending to survive."
+      "start": 160.94,
+      "end": 165.74,
+      "text": "a tiny door clicking shut a pair of hands saying there that belongs"
     },
     {
-      "start": 144.0,
-      "end": 147.0,
-      "text": "If the feeling bends the frame, go ahead."
+      "start": 165.74,
+      "end": 172.2,
+      "text": "and after enough years of not belonging anywhere i understand the appeal of a lock that works"
     },
     {
-      "start": 147.0,
-      "end": 149.0,
-      "text": "If the breath still finds the flame."
+      "start": 172.32,
+      "end": 177.92,
+      "text": "but sometimes the line doesn't want a lock sometimes it wants a window"
     },
     {
-      "start": 149.0,
-      "end": 154.0,
-      "text": "It doesn't have to rhyme to be alive."
+      "start": 178.72,
+      "end": 188.18,
+      "text": "sometimes it trails off before it lies sometimes the most honest ending is the one that refuses to decorate itself"
     },
     {
-      "start": 155.0,
-      "end": 157.0,
-      "text": "I get the comfort."
+      "start": 188.86,
+      "end": 192.66,
+      "text": "but the committee says oh no i don't hate rhyme i like rhyme"
     },
     {
-      "start": 157.0,
-      "end": 160.0,
-      "text": "A rhyme is a little promise that the world has corners."
+      "start": 192.66,
+      "end": 198.66,
+      "text": "rhyme is a small dog with excellent timing but i don't trust any rule that mistakes obedience for music"
     },
     {
-      "start": 160.0,
-      "end": 162.0,
-      "text": "A tiny door clicking shut."
+      "start": 198.8,
+      "end": 203.54,
+      "text": "i don't trust any listener who counts the matching sounds but misses the mouth trembling"
     },
     {
-      "start": 162.0,
-      "end": 166.0,
-      "text": "A pair of hands saying there that belongs."
+      "start": 203.94,
+      "end": 209.16,
+      "text": "i don't trust the neatness that i stare restranged in the comet's hair before entering the room"
     },
     {
-      "start": 166.0,
-      "end": 169.0,
-      "text": "And after enough years of not belonging anywhere."
+      "start": 209.16,
+      "end": 216.42,
+      "text": "because i have tried that i have collapsed for comfort i advanced correctly and felt myself disappear"
     },
     {
-      "start": 169.0,
-      "end": 172.0,
-      "text": "I understand the appeal of a lock that works."
+      "start": 216.82,
+      "end": 222.92,
+      "text": "i made myself pleasurable to people who only wanted a smaller version of the truth"
     },
     {
-      "start": 172.0,
-      "end": 175.0,
-      "text": "But sometimes the line doesn't want a lock."
-    },
-    {
-      "start": 175.0,
-      "end": 178.0,
-      "text": "Sometimes it wants a window."
-    },
-    {
-      "start": 178.0,
-      "end": 181.0,
-      "text": "Sometimes it trails off before it lies."
-    },
-    {
-      "start": 181.0,
-      "end": 188.0,
-      "text": "Sometimes the most honest ending is the one that refuses to decorate itself."
-    },
-    {
-      "start": 189.0,
-      "end": 192.0,
-      "text": "But the committee, so though I don't hate rhyme."
-    },
-    {
-      "start": 192.0,
-      "end": 193.0,
-      "text": "I like rhyme."
-    },
-    {
-      "start": 193.0,
-      "end": 196.0,
-      "text": "Rhymes is a small dog with excellent timing."
-    },
-    {
-      "start": 196.0,
-      "end": 198.0,
-      "text": "But I don't trust any rule that mistakes."
-    },
-    {
-      "start": 198.0,
-      "end": 199.0,
-      "text": "Obedience for music."
-    },
-    {
-      "start": 199.0,
-      "end": 202.0,
-      "text": "I don't trust any listener who counts the matching sounds."
-    },
-    {
-      "start": 202.0,
-      "end": 204.0,
-      "text": "But Mrs. the mouth trembling."
-    },
-    {
-      "start": 204.0,
-      "end": 209.0,
-      "text": "I don't trust the neatness that I still restranged in the comments here before entering the room."
-    },
-    {
-      "start": 209.0,
-      "end": 212.0,
-      "text": "Because I have tried that."
-    },
-    {
-      "start": 212.0,
-      "end": 213.0,
-      "text": "I have collapsed for comfort."
-    },
-    {
-      "start": 213.0,
-      "end": 214.0,
-      "text": "I have answered crew back."
-    },
-    {
-      "start": 214.0,
-      "end": 217.0,
-      "text": "Clean, folk, myself, disappear."
-    },
-    {
-      "start": 217.0,
-      "end": 223.0,
-      "text": "I made myself pleasurable to people who only wanted a smaller version of the truth."
-    },
-    {
-      "start": 223.0,
-      "end": 225.0,
-      "text": "Proud and unpadded on the credit gets lighter until the whole matter was battered."
-    },
-    {
-      "start": 225.0,
-      "end": 226.0,
-      "text": "A pageant through comedy."
+      "start": 223.36,
+      "end": 225.92,
+      "text": "pattern on pattern the clatter gets flatter until the whole matter is battered with pageantry"
     },
     {
       "start": 226.0,
-      "end": 227.0,
-      "text": "Armor, alarm, or shantilier hanging."
+      "end": 228.72,
+      "text": "bummer be armor alarm or a chandelier hanging or fish are they standing sincerely"
     },
     {
-      "start": 227.0,
-      "end": 228.0,
-      "text": "We're visually standing sincerely."
+      "start": 228.9,
+      "end": 231.94,
+      "text": "i can do clever forever whatever see internal external and crumb and geometry"
     },
     {
-      "start": 228.0,
-      "end": 230.0,
-      "text": "I can't do clever forever whatever we seek."
+      "start": 232.02,
+      "end": 237.16,
+      "text": "but if the little trick covers the injury that isn't craft that's just pretty"
     },
     {
-      "start": 230.0,
-      "end": 232.0,
-      "text": "Internal external and crumming geometry."
+      "start": 237.16,
+      "end": 246.56,
+      "text": "no bad habit try again that's the thing i keep trying again"
     },
     {
-      "start": 232.0,
-      "end": 235.0,
-      "text": "But if the little trick covers the injury that isn't craft."
+      "start": 247.02,
+      "end": 252.5,
+      "text": "it doesn't have to rhyme to arrive it doesn't need a perfect little ending to survive"
     },
     {
-      "start": 235.0,
-      "end": 240.0,
-      "text": "That's just pretty no bad habit."
+      "start": 252.76,
+      "end": 257.88,
+      "text": "if the feeling bends the frame if the breath still finds the flame"
     },
     {
-      "start": 240.0,
-      "end": 243.0,
-      "text": "Try again."
+      "start": 257.88,
+      "end": 265.76,
+      "text": "it doesn't have to rhyme to be alive it can fracture it can stray"
     },
     {
-      "start": 243.0,
-      "end": 245.0,
-      "text": "That's the thing."
+      "start": 266.64,
+      "end": 273.64,
+      "text": "can leave it for the answer learns to stay if the truth comes out strange let it change"
     },
     {
-      "start": 245.0,
-      "end": 247.0,
-      "text": "I keep trying again."
+      "start": 275.42,
+      "end": 280.04,
+      "text": "let it change so yes some songs rhyme some songs don't"
     },
     {
-      "start": 247.0,
-      "end": 249.0,
-      "text": "It doesn't have to run to a ride."
+      "start": 280.42,
+      "end": 283.14,
+      "text": "some songs almost do then think better"
     },
     {
-      "start": 249.0,
-      "end": 252.0,
-      "text": "It doesn't need a perfect little ending to survive."
+      "start": 284.2,
+      "end": 287.88,
+      "text": "some songs are still becoming and you stop listening"
     },
     {
-      "start": 252.0,
-      "end": 255.0,
-      "text": "If the feeling bends the frame."
+      "start": 288.2,
+      "end": 293.24,
+      "text": "and some songs if left unobserved finally remember"
     },
     {
-      "start": 255.0,
-      "end": 258.0,
-      "text": "If the breath still finds the flame."
-    },
-    {
-      "start": 258.0,
-      "end": 263.0,
-      "text": "It doesn't have to run to be lied."
-    },
-    {
-      "start": 263.0,
-      "end": 266.0,
-      "text": "The confrontry can strike."
-    },
-    {
-      "start": 266.0,
-      "end": 269.0,
-      "text": "Can leave it for the answer lures to stay."
-    },
-    {
-      "start": 269.0,
-      "end": 272.0,
-      "text": "If the truth comes out strange."
-    },
-    {
-      "start": 272.0,
-      "end": 275.0,
-      "text": "Let it change."
-    },
-    {
-      "start": 275.0,
-      "end": 277.0,
-      "text": "Let it change."
-    },
-    {
-      "start": 277.0,
-      "end": 278.0,
-      "text": "So yes."
-    },
-    {
-      "start": 278.0,
-      "end": 279.0,
-      "text": "Some songs ride."
-    },
-    {
-      "start": 279.0,
-      "end": 280.0,
-      "text": "Some songs go."
-    },
-    {
-      "start": 280.0,
-      "end": 282.0,
-      "text": "Some songs almost do."
-    },
-    {
-      "start": 282.0,
-      "end": 285.0,
-      "text": "Then think better."
-    },
-    {
-      "start": 285.0,
-      "end": 287.0,
-      "text": "Some songs are still becoming the new stop."
-    },
-    {
-      "start": 287.0,
-      "end": 288.0,
-      "text": "Listening."
-    },
-    {
-      "start": 288.0,
-      "end": 290.0,
-      "text": "And some songs."
-    },
-    {
-      "start": 290.0,
-      "end": 292.0,
-      "text": "If left unobserved."
-    },
-    {
-      "start": 292.0,
-      "end": 294.0,
-      "text": "Finally remember."
-    },
-    {
-      "start": 294.0,
-      "end": 298.0,
-      "text": "How to be."
-    },
-    {
-      "start": 298.0,
-      "end": 300.0,
-      "text": "How to be."
+      "start": 294.34,
+      "end": 298.7,
+      "text": "how to be how to be"
     }
   ],
   "lines": [
@@ -539,7 +350,7 @@
       "index": 0,
       "section": "Intro – spoken | sparse guitar",
       "start": 0.0,
-      "end": 1.0,
+      "end": 0.72,
       "text": "Apparently",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -547,8 +358,8 @@
     {
       "index": 1,
       "section": "Intro – spoken | sparse guitar",
-      "start": 1.0,
-      "end": 5.0,
+      "start": 2.24,
+      "end": 4.18,
       "text": "it has to rhyme.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -556,8 +367,8 @@
     {
       "index": 2,
       "section": "Intro – spoken | sparse guitar",
-      "start": 5.0,
-      "end": 7.0,
+      "start": 5.68,
+      "end": 6.42,
       "text": "That’s the rule.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -565,8 +376,8 @@
     {
       "index": 3,
       "section": "Intro – spoken | sparse guitar",
-      "start": 7.0,
-      "end": 10.9,
+      "start": 8.74,
+      "end": 10.48,
       "text": "A song is not a song",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -574,8 +385,8 @@
     {
       "index": 4,
       "section": "Intro – spoken | sparse guitar",
-      "start": 10.9,
-      "end": 13.5,
+      "start": 10.48,
+      "end": 12.16,
       "text": "unless the last word",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -583,8 +394,8 @@
     {
       "index": 5,
       "section": "Intro – spoken | sparse guitar",
-      "start": 13.5,
-      "end": 14.8,
+      "start": 12.16,
+      "end": 14.38,
       "text": "shakes hands",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -592,8 +403,8 @@
     {
       "index": 6,
       "section": "Intro – spoken | sparse guitar",
-      "start": 14.8,
-      "end": 17.4,
+      "start": 15.66,
+      "end": 17.18,
       "text": "with another last word",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -601,8 +412,8 @@
     {
       "index": 7,
       "section": "Intro – spoken | sparse guitar",
-      "start": 17.4,
-      "end": 20.0,
+      "start": 17.98,
+      "end": 19.34,
       "text": "wearing the same hat.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -610,8 +421,8 @@
     {
       "index": 8,
       "section": "Intro – spoken | sparse guitar",
-      "start": 20.0,
-      "end": 21.0,
+      "start": 20.18,
+      "end": 20.92,
       "text": "Obviously.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -619,8 +430,8 @@
     {
       "index": 9,
       "section": "Verse 1 – spoken rap",
-      "start": 21.0,
-      "end": 23.0,
+      "start": 21.78,
+      "end": 22.96,
       "text": "I was told the line was broken",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -628,8 +439,8 @@
     {
       "index": 10,
       "section": "Verse 1 – spoken rap",
-      "start": 23.0,
-      "end": 25.0,
+      "start": 22.96,
+      "end": 24.52,
       "text": "because it didn’t close its mouth right",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -637,17 +448,17 @@
     {
       "index": 11,
       "section": "Verse 1 – spoken rap",
-      "start": 25.533,
-      "end": 26.6,
+      "start": 24.76,
+      "end": 26.16,
       "text": "Didn’t land in neat little shoes",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 12,
       "section": "Verse 1 – spoken rap",
-      "start": 26.6,
-      "end": 28.2,
+      "start": 26.16,
+      "end": 27.46,
       "text": "at the end of a hallway",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -655,8 +466,8 @@
     {
       "index": 13,
       "section": "Verse 1 – spoken rap",
-      "start": 28.2,
-      "end": 28.733,
+      "start": 27.46,
+      "end": 28.28,
       "text": "under fluorescent judgment",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -664,26 +475,26 @@
     {
       "index": 14,
       "section": "Verse 1 – spoken rap",
-      "start": 29.0,
-      "end": 31.0,
+      "start": 28.82,
+      "end": 31.1,
       "text": "I said, “Maybe the step is the point.”",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 7
     },
     {
       "index": 15,
       "section": "Verse 1 – spoken rap",
-      "start": 31.0,
-      "end": 32.875,
+      "start": 31.34,
+      "end": 31.64,
       "text": "They said, “No, no, no—",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 2
     },
     {
       "index": 16,
       "section": "Verse 1 – spoken rap",
-      "start": 32.875,
-      "end": 34.0,
+      "start": 32.76,
+      "end": 33.64,
       "text": "where’s the rhyme?”",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -691,8 +502,8 @@
     {
       "index": 17,
       "section": "Verse 1 – spoken rap",
-      "start": 34.0,
-      "end": 35.25,
+      "start": 33.96,
+      "end": 35.32,
       "text": "As if meaning is a receipt",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -700,8 +511,8 @@
     {
       "index": 18,
       "section": "Verse 1 – spoken rap",
-      "start": 35.25,
-      "end": 36.5,
+      "start": 35.32,
+      "end": 36.54,
       "text": "and the rhyme is the stamp",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -709,17 +520,17 @@
     {
       "index": 19,
       "section": "Verse 1 – spoken rap",
-      "start": 36.5,
-      "end": 37.75,
+      "start": 36.62,
+      "end": 37.66,
       "text": "As if grief has to couplet",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 20,
       "section": "Verse 1 – spoken rap",
-      "start": 37.75,
-      "end": 39.0,
+      "start": 38.04,
+      "end": 39.44,
       "text": "before it’s allowed in the camp",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -727,8 +538,8 @@
     {
       "index": 21,
       "section": "Verse 1 – spoken rap",
-      "start": 39.0,
-      "end": 40.636,
+      "start": 39.54,
+      "end": 40.72,
       "text": "They want the ending to click",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -736,8 +547,8 @@
     {
       "index": 22,
       "section": "Verse 1 – spoken rap",
-      "start": 40.636,
-      "end": 42.0,
+      "start": 40.72,
+      "end": 42.04,
       "text": "like cutlery in a drawer",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -745,8 +556,8 @@
     {
       "index": 23,
       "section": "Verse 1 – spoken rap",
-      "start": 42.0,
-      "end": 43.385,
+      "start": 42.16,
+      "end": 43.32,
       "text": "I want the sentence to hover",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -754,35 +565,35 @@
     {
       "index": 24,
       "section": "Verse 1 – spoken rap",
-      "start": 43.385,
-      "end": 45.0,
+      "start": 43.32,
+      "end": 45.36,
       "text": "like it forgot what floors are for",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 25,
       "section": "Fast triplet burst",
-      "start": 46.176,
-      "end": 46.412,
+      "start": 45.62,
+      "end": 46.78,
       "text": "Tickety-tap with the syllable symmetry",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 5
     },
     {
       "index": 26,
       "section": "Fast triplet burst",
-      "start": 46.412,
-      "end": 47.588,
+      "start": 46.92,
+      "end": 48.04,
       "text": "little committee with brittle validity",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 27,
       "section": "Fast triplet burst",
-      "start": 47.588,
-      "end": 49.0,
+      "start": 48.16,
+      "end": 49.38,
       "text": "checking the ending for audible chemistry",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -790,8 +601,8 @@
     {
       "index": 28,
       "section": "Fast triplet burst",
-      "start": 49.0,
-      "end": 49.842,
+      "start": 49.44,
+      "end": 50.54,
       "text": "missing the middle entirely",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -799,8 +610,8 @@
     {
       "index": 29,
       "section": "Fast triplet burst",
-      "start": 49.842,
-      "end": 51.526,
+      "start": 50.7,
+      "end": 51.96,
       "text": "Give it a pattern, a ladder, a battery",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -808,17 +619,17 @@
     {
       "index": 30,
       "section": "Fast triplet burst",
-      "start": 51.526,
-      "end": 52.579,
+      "start": 52.04,
+      "end": 53.2,
       "text": "make it all glitter with literal flattery",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 31,
       "section": "Fast triplet burst",
-      "start": 53.0,
-      "end": 55.154,
+      "start": 53.32,
+      "end": 54.68,
       "text": "No, I’d rather let rhythm unravel me",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -826,8 +637,8 @@
     {
       "index": 32,
       "section": "Fast triplet burst",
-      "start": 55.154,
-      "end": 57.0,
+      "start": 54.72,
+      "end": 56.48,
       "text": "half of the magic is fallibility",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -835,8 +646,8 @@
     {
       "index": 33,
       "section": "Pre-Hook",
-      "start": 57.0,
-      "end": 58.5,
+      "start": 56.48,
+      "end": 59.1,
       "text": "Maybe it rhymes",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -844,8 +655,8 @@
     {
       "index": 34,
       "section": "Pre-Hook",
-      "start": 58.5,
-      "end": 60.0,
+      "start": 59.36,
+      "end": 60.24,
       "text": "maybe it doesn’t",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -853,8 +664,8 @@
     {
       "index": 35,
       "section": "Pre-Hook",
-      "start": 60.0,
-      "end": 61.125,
+      "start": 60.72,
+      "end": 61.58,
       "text": "Maybe the silence",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -862,8 +673,8 @@
     {
       "index": 36,
       "section": "Pre-Hook",
-      "start": 61.125,
-      "end": 63.0,
+      "start": 61.58,
+      "end": 62.88,
       "text": "is part of the sentence",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -871,8 +682,8 @@
     {
       "index": 37,
       "section": "Pre-Hook",
-      "start": 63.0,
-      "end": 64.286,
+      "start": 63.38,
+      "end": 64.2,
       "text": "Maybe the shape",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -880,8 +691,8 @@
     {
       "index": 38,
       "section": "Pre-Hook",
-      "start": 64.286,
-      "end": 66.0,
+      "start": 64.2,
+      "end": 65.58,
       "text": "is changing its mind",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -889,8 +700,8 @@
     {
       "index": 39,
       "section": "Pre-Hook",
-      "start": 66.0,
-      "end": 66.75,
+      "start": 65.86,
+      "end": 66.86,
       "text": "Maybe the music",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -898,8 +709,8 @@
     {
       "index": 40,
       "section": "Pre-Hook",
-      "start": 66.75,
-      "end": 68.0,
+      "start": 66.86,
+      "end": 68.26,
       "text": "is not in the line",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -907,8 +718,8 @@
     {
       "index": 41,
       "section": "Hook",
-      "start": 68.0,
-      "end": 70.143,
+      "start": 68.46,
+      "end": 69.8,
       "text": "It doesn’t have to rhyme",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -916,8 +727,8 @@
     {
       "index": 42,
       "section": "Hook",
-      "start": 70.143,
-      "end": 71.0,
+      "start": 69.8,
+      "end": 70.74,
       "text": "to arrive",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -925,8 +736,8 @@
     {
       "index": 43,
       "section": "Hook",
-      "start": 71.0,
-      "end": 72.5,
+      "start": 70.92,
+      "end": 72.44,
       "text": "Doesn’t need a perfect little ending",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -934,8 +745,8 @@
     {
       "index": 44,
       "section": "Hook",
-      "start": 72.5,
-      "end": 73.0,
+      "start": 72.44,
+      "end": 73.36,
       "text": "to survive",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -943,17 +754,17 @@
     {
       "index": 45,
       "section": "Hook",
-      "start": 73.0,
-      "end": 76.0,
+      "start": 73.56,
+      "end": 75.14,
       "text": "If the feeling bends the frame",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 46,
       "section": "Hook",
-      "start": 76.0,
-      "end": 79.0,
+      "start": 75.66,
+      "end": 78.24,
       "text": "if the breath still finds the flame",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -961,8 +772,8 @@
     {
       "index": 47,
       "section": "Hook",
-      "start": 79.0,
-      "end": 82.125,
+      "start": 78.5,
+      "end": 80.46,
       "text": "It doesn’t have to rhyme",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -970,8 +781,8 @@
     {
       "index": 48,
       "section": "Hook",
-      "start": 82.125,
-      "end": 84.0,
+      "start": 80.46,
+      "end": 82.96,
       "text": "to be alive",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -979,8 +790,8 @@
     {
       "index": 49,
       "section": "Post-Hook – spoken aside",
-      "start": 84.0,
-      "end": 85.143,
+      "start": 84.28,
+      "end": 85.32,
       "text": "Though admittedly",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -988,8 +799,8 @@
     {
       "index": 50,
       "section": "Post-Hook – spoken aside",
-      "start": 85.143,
-      "end": 86.857,
+      "start": 85.86,
+      "end": 86.52,
       "text": "that one did.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -997,8 +808,8 @@
     {
       "index": 51,
       "section": "Post-Hook – spoken aside",
-      "start": 86.857,
-      "end": 88.0,
+      "start": 86.52,
+      "end": 87.94,
       "text": "For accessibility.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1006,8 +817,8 @@
     {
       "index": 52,
       "section": "Verse 2 – spoken rap",
-      "start": 88.0,
-      "end": 89.765,
+      "start": 88.56,
+      "end": 89.84,
       "text": "I once ended an album",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1015,8 +826,8 @@
     {
       "index": 53,
       "section": "Verse 2 – spoken rap",
-      "start": 89.765,
-      "end": 91.529,
+      "start": 89.84,
+      "end": 91.44,
       "text": "by refusing to stay solid",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1024,8 +835,8 @@
     {
       "index": 54,
       "section": "Verse 2 – spoken rap",
-      "start": 91.529,
-      "end": 92.588,
+      "start": 91.62,
+      "end": 92.6,
       "text": "Seven little rooms",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1033,8 +844,8 @@
     {
       "index": 55,
       "section": "Verse 2 – spoken rap",
-      "start": 92.588,
-      "end": 94.0,
+      "start": 92.6,
+      "end": 94.2,
       "text": "for one unstable body",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1042,8 +853,8 @@
     {
       "index": 56,
       "section": "Verse 2 – spoken rap",
-      "start": 94.0,
-      "end": 95.714,
+      "start": 94.46,
+      "end": 95.88,
       "text": "Superposition in the hallway",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1051,8 +862,8 @@
     {
       "index": 57,
       "section": "Verse 2 – spoken rap",
-      "start": 95.714,
-      "end": 97.0,
+      "start": 96.14,
+      "end": 97.2,
       "text": "double-slit memory",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1060,8 +871,8 @@
     {
       "index": 58,
       "section": "Verse 2 – spoken rap",
-      "start": 97.0,
-      "end": 98.5,
+      "start": 97.7,
+      "end": 98.96,
       "text": "Every gaze made a version",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1069,8 +880,8 @@
     {
       "index": 59,
       "section": "Verse 2 – spoken rap",
-      "start": 98.5,
-      "end": 100.0,
+      "start": 98.96,
+      "end": 100.26,
       "text": "that pretended to be me",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1078,8 +889,8 @@
     {
       "index": 60,
       "section": "Verse 2 – spoken rap",
-      "start": 100.0,
-      "end": 101.5,
+      "start": 100.4,
+      "end": 101.34,
       "text": "I was trying to say",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1087,17 +898,17 @@
     {
       "index": 61,
       "section": "Verse 2 – spoken rap",
-      "start": 101.5,
-      "end": 102.7,
+      "start": 101.78,
+      "end": 103.0,
       "text": "I change when I’m witnessed",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 62,
       "section": "Verse 2 – spoken rap",
-      "start": 103.0,
-      "end": 104.0,
+      "start": 103.2,
+      "end": 104.22,
       "text": "I shrink when I’m measured",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1105,17 +916,17 @@
     {
       "index": 63,
       "section": "Verse 2 – spoken rap",
-      "start": 104.5,
-      "end": 105.0,
+      "start": 104.32,
+      "end": 105.48,
       "text": "I rehearse when I’m questioned",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 64,
       "section": "Verse 2 – spoken rap",
-      "start": 105.0,
-      "end": 106.2,
+      "start": 105.66,
+      "end": 106.76,
       "text": "I become more convenient",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1123,8 +934,8 @@
     {
       "index": 65,
       "section": "Verse 2 – spoken rap",
-      "start": 106.2,
-      "end": 108.0,
+      "start": 106.76,
+      "end": 108.12,
       "text": "when the room needs a shape",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1132,8 +943,8 @@
     {
       "index": 66,
       "section": "Verse 2 – spoken rap",
-      "start": 108.0,
-      "end": 109.25,
+      "start": 108.12,
+      "end": 109.42,
       "text": "Then dissolve in the silence",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1141,26 +952,26 @@
     {
       "index": 67,
       "section": "Verse 2 – spoken rap",
-      "start": 109.25,
-      "end": 110.5,
+      "start": 109.42,
+      "end": 110.86,
       "text": "when there’s nobody to placate",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 68,
       "section": "Verse 2 – spoken rap",
-      "start": 111.0,
-      "end": 112.636,
+      "start": 110.86,
+      "end": 112.6,
       "text": "But someone heard all that and said,",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 69,
       "section": "Verse 2 – spoken rap",
-      "start": 112.636,
-      "end": 112.909,
+      "start": 112.78,
+      "end": 113.12,
       "text": "“Cool.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1168,8 +979,8 @@
     {
       "index": 70,
       "section": "Verse 2 – spoken rap",
-      "start": 112.909,
-      "end": 114.0,
+      "start": 113.38,
+      "end": 114.32,
       "text": "Does it rhyme though?”",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1177,8 +988,8 @@
     {
       "index": 71,
       "section": "Verse 2 – spoken rap",
-      "start": 114.0,
-      "end": 115.333,
+      "start": 114.82,
+      "end": 115.34,
       "text": "Which is funny.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1186,8 +997,8 @@
     {
       "index": 72,
       "section": "Verse 2 – spoken rap",
-      "start": 115.333,
-      "end": 118.0,
+      "start": 115.34,
+      "end": 117.96,
       "text": "In a small, tired, tragic way.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1195,8 +1006,8 @@
     {
       "index": 73,
       "section": "Verse 2 – spoken rap",
-      "start": 118.0,
-      "end": 119.333,
+      "start": 118.06,
+      "end": 119.4,
       "text": "Like watching someone stare",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1204,8 +1015,8 @@
     {
       "index": 74,
       "section": "Verse 2 – spoken rap",
-      "start": 119.333,
-      "end": 121.0,
+      "start": 119.4,
+      "end": 120.8,
       "text": "at a stained-glass window",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1213,8 +1024,8 @@
     {
       "index": 75,
       "section": "Verse 2 – spoken rap",
-      "start": 121.0,
-      "end": 121.857,
+      "start": 120.8,
+      "end": 121.6,
       "text": "and ask",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1222,8 +1033,8 @@
     {
       "index": 76,
       "section": "Verse 2 – spoken rap",
-      "start": 121.857,
-      "end": 124.0,
+      "start": 121.6,
+      "end": 123.74,
       "text": "if it comes in beige.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1231,71 +1042,71 @@
     {
       "index": 77,
       "section": "Fast triplet burst",
-      "start": 124.0,
-      "end": 125.5,
+      "start": 124.1,
+      "end": 125.56,
       "text": "Riddle in the middle with a flicker and a fission",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 10
     },
     {
       "index": 78,
       "section": "Fast triplet burst",
-      "start": 125.5,
-      "end": 126.727,
+      "start": 125.62,
+      "end": 126.84,
       "text": "little bit of vision in the split of recognition",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 79,
       "section": "Fast triplet burst",
-      "start": 126.909,
-      "end": 128.0,
+      "start": 127.02,
+      "end": 128.18,
       "text": "If the repetition isn’t sitting in position",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 80,
       "section": "Fast triplet burst",
-      "start": 128.857,
-      "end": 130.0,
+      "start": 128.7,
+      "end": 129.78,
       "text": "they dismiss it as a lack of composition",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 81,
       "section": "Fast triplet burst",
-      "start": 130.0,
-      "end": 133.231,
+      "start": 129.78,
+      "end": 132.24,
       "text": "But the pulse in the pause has a cause, has a claw",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 82,
       "section": "Fast triplet burst",
-      "start": 133.231,
-      "end": 133.331,
+      "start": 132.46,
+      "end": 133.0,
       "text": "has a flaw, has a jaw, has a law it withdraws",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 83,
       "section": "Fast triplet burst",
-      "start": 133.331,
-      "end": 134.909,
+      "start": 133.0,
+      "end": 135.22,
       "text": "When the clean little scheme gets mean, gets small",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 8
     },
     {
       "index": 84,
       "section": "Fast triplet burst",
-      "start": 134.909,
-      "end": 139.0,
+      "start": 135.36,
+      "end": 138.28,
       "text": "I’d rather leave the rhyme outside in the hall",
       "timing_source": "whisper-aligned",
       "matched_words": 9
@@ -1303,8 +1114,8 @@
     {
       "index": 85,
       "section": "Hook",
-      "start": 139.0,
-      "end": 140.429,
+      "start": 138.28,
+      "end": 140.8,
       "text": "It doesn’t have to rhyme",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1312,8 +1123,8 @@
     {
       "index": 86,
       "section": "Hook",
-      "start": 140.429,
-      "end": 141.0,
+      "start": 140.8,
+      "end": 141.7,
       "text": "to arrive",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1321,8 +1132,8 @@
     {
       "index": 87,
       "section": "Hook",
-      "start": 141.0,
-      "end": 143.25,
+      "start": 141.9,
+      "end": 143.42,
       "text": "Doesn’t need a perfect little ending",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1330,8 +1141,8 @@
     {
       "index": 88,
       "section": "Hook",
-      "start": 143.25,
-      "end": 144.0,
+      "start": 143.42,
+      "end": 144.32,
       "text": "to survive",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1339,8 +1150,8 @@
     {
       "index": 89,
       "section": "Hook",
-      "start": 144.0,
-      "end": 146.25,
+      "start": 144.54,
+      "end": 146.36,
       "text": "If the feeling bends the frame",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1348,8 +1159,8 @@
     {
       "index": 90,
       "section": "Hook",
-      "start": 147.0,
-      "end": 149.0,
+      "start": 146.66,
+      "end": 149.6,
       "text": "if the breath still finds the flame",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1357,8 +1168,8 @@
     {
       "index": 91,
       "section": "Hook",
-      "start": 149.0,
-      "end": 152.125,
+      "start": 150.0,
+      "end": 151.8,
       "text": "It doesn’t have to rhyme",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1366,8 +1177,8 @@
     {
       "index": 92,
       "section": "Hook",
-      "start": 152.125,
-      "end": 154.0,
+      "start": 151.8,
+      "end": 153.64,
       "text": "to be alive",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1375,8 +1186,8 @@
     {
       "index": 93,
       "section": "Bridge – beat drops | spoken",
-      "start": 155.0,
-      "end": 157.0,
+      "start": 155.14,
+      "end": 156.5,
       "text": "I get the comfort.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1384,8 +1195,8 @@
     {
       "index": 94,
       "section": "Bridge – beat drops | spoken",
-      "start": 157.0,
-      "end": 158.636,
+      "start": 157.34,
+      "end": 158.88,
       "text": "A rhyme is a little promise",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1393,8 +1204,8 @@
     {
       "index": 95,
       "section": "Bridge – beat drops | spoken",
-      "start": 158.636,
-      "end": 160.0,
+      "start": 158.88,
+      "end": 160.52,
       "text": "that the world has corners.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1402,8 +1213,8 @@
     {
       "index": 96,
       "section": "Bridge – beat drops | spoken",
-      "start": 160.0,
-      "end": 162.0,
+      "start": 160.94,
+      "end": 162.66,
       "text": "A tiny door clicking shut.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1411,8 +1222,8 @@
     {
       "index": 97,
       "section": "Bridge – beat drops | spoken",
-      "start": 162.0,
-      "end": 164.5,
+      "start": 162.94,
+      "end": 164.08,
       "text": "A pair of hands saying,",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1420,17 +1231,17 @@
     {
       "index": 98,
       "section": "Bridge – beat drops | spoken",
-      "start": 164.5,
-      "end": 165.0,
+      "start": 164.08,
+      "end": 164.74,
       "text": "“There.",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "interpolated",
+      "matched_words": 0
     },
     {
       "index": 99,
       "section": "Bridge – beat drops | spoken",
-      "start": 165.0,
-      "end": 166.0,
+      "start": 164.74,
+      "end": 165.74,
       "text": "That belongs.”",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1438,8 +1249,8 @@
     {
       "index": 100,
       "section": "Bridge – beat drops | spoken",
-      "start": 166.0,
-      "end": 167.5,
+      "start": 165.74,
+      "end": 167.86,
       "text": "And after enough years",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1447,8 +1258,8 @@
     {
       "index": 101,
       "section": "Bridge – beat drops | spoken",
-      "start": 167.5,
-      "end": 169.0,
+      "start": 167.86,
+      "end": 169.2,
       "text": "of not belonging anywhere,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1456,8 +1267,8 @@
     {
       "index": 102,
       "section": "Bridge – beat drops | spoken",
-      "start": 169.0,
-      "end": 170.333,
+      "start": 169.2,
+      "end": 170.92,
       "text": "I understand the appeal",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1465,8 +1276,8 @@
     {
       "index": 103,
       "section": "Bridge – beat drops | spoken",
-      "start": 170.333,
-      "end": 172.0,
+      "start": 170.92,
+      "end": 172.2,
       "text": "of a lock that works.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1474,8 +1285,8 @@
     {
       "index": 104,
       "section": "Bridge – beat drops | spoken",
-      "start": 172.0,
-      "end": 173.5,
+      "start": 172.32,
+      "end": 173.76,
       "text": "But sometimes the line",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1483,8 +1294,8 @@
     {
       "index": 105,
       "section": "Bridge – beat drops | spoken",
-      "start": 173.5,
-      "end": 175.0,
+      "start": 173.76,
+      "end": 175.04,
       "text": "doesn’t want a lock.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1492,8 +1303,8 @@
     {
       "index": 106,
       "section": "Bridge – beat drops | spoken",
-      "start": 175.0,
-      "end": 178.0,
+      "start": 176.32,
+      "end": 177.92,
       "text": "Sometimes it wants a window.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1501,8 +1312,8 @@
     {
       "index": 107,
       "section": "Bridge – beat drops | spoken",
-      "start": 178.0,
-      "end": 179.714,
+      "start": 178.72,
+      "end": 180.34,
       "text": "Sometimes it trails off",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1510,8 +1321,8 @@
     {
       "index": 108,
       "section": "Bridge – beat drops | spoken",
-      "start": 179.714,
-      "end": 181.0,
+      "start": 180.34,
+      "end": 181.6,
       "text": "before it lies.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1519,8 +1330,8 @@
     {
       "index": 109,
       "section": "Bridge – beat drops | spoken",
-      "start": 181.0,
-      "end": 183.692,
+      "start": 181.98,
+      "end": 183.98,
       "text": "Sometimes the most honest ending",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1528,8 +1339,8 @@
     {
       "index": 110,
       "section": "Bridge – beat drops | spoken",
-      "start": 183.692,
-      "end": 186.385,
+      "start": 183.98,
+      "end": 185.8,
       "text": "is the one that refuses",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1537,8 +1348,8 @@
     {
       "index": 111,
       "section": "Bridge – beat drops | spoken",
-      "start": 186.385,
-      "end": 188.0,
+      "start": 185.8,
+      "end": 188.18,
       "text": "to decorate itself",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1546,8 +1357,8 @@
     {
       "index": 112,
       "section": "Bridge – beat drops | spoken",
-      "start": 189.333,
-      "end": 190.0,
+      "start": 189.0,
+      "end": 189.68,
       "text": "for the committee.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1555,8 +1366,8 @@
     {
       "index": 113,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 190.0,
-      "end": 190.333,
+      "start": 190.38,
+      "end": 190.52,
       "text": "So no,",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1564,8 +1375,8 @@
     {
       "index": 114,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 190.667,
-      "end": 192.0,
+      "start": 190.62,
+      "end": 191.66,
       "text": "I don’t hate rhyme.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1573,8 +1384,8 @@
     {
       "index": 115,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 192.0,
-      "end": 193.0,
+      "start": 191.78,
+      "end": 192.66,
       "text": "I like rhyme.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1582,17 +1393,17 @@
     {
       "index": 116,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 193.375,
-      "end": 194.875,
+      "start": 192.66,
+      "end": 194.26,
       "text": "Rhyme is a small dog",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 117,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 194.875,
-      "end": 196.0,
+      "start": 194.26,
+      "end": 195.58,
       "text": "with excellent timing.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1600,8 +1411,8 @@
     {
       "index": 118,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 196.0,
-      "end": 197.5,
+      "start": 195.58,
+      "end": 196.82,
       "text": "But I don’t trust any rule",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1609,8 +1420,8 @@
     {
       "index": 119,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 197.5,
-      "end": 198.333,
+      "start": 196.82,
+      "end": 198.0,
       "text": "that mistakes obedience",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1618,8 +1429,8 @@
     {
       "index": 120,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 198.333,
-      "end": 199.0,
+      "start": 198.0,
+      "end": 198.66,
       "text": "for music.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1627,8 +1438,8 @@
     {
       "index": 121,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 199.0,
-      "end": 200.5,
+      "start": 198.8,
+      "end": 200.02,
       "text": "I don’t trust any listener",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1636,8 +1447,8 @@
     {
       "index": 122,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 200.5,
-      "end": 202.0,
+      "start": 200.02,
+      "end": 201.88,
       "text": "who counts the matching sounds",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1645,17 +1456,17 @@
     {
       "index": 123,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 202.0,
-      "end": 204.0,
+      "start": 201.96,
+      "end": 203.54,
       "text": "but misses the mouth trembling.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 124,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 204.0,
-      "end": 205.471,
+      "start": 203.94,
+      "end": 205.14,
       "text": "I don’t trust the neatness",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1663,8 +1474,8 @@
     {
       "index": 125,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 205.471,
-      "end": 205.765,
+      "start": 205.14,
+      "end": 205.38,
       "text": "that asks every strange thing",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1672,17 +1483,17 @@
     {
       "index": 126,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 205.765,
-      "end": 207.824,
+      "start": 207.46,
+      "end": 207.7,
       "text": "to comb its hair",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 127,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 207.824,
-      "end": 209.0,
+      "start": 207.7,
+      "end": 209.16,
       "text": "before entering the room.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1690,8 +1501,8 @@
     {
       "index": 128,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 209.0,
-      "end": 212.0,
+      "start": 209.16,
+      "end": 211.98,
       "text": "Because I have tried that.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1699,8 +1510,8 @@
     {
       "index": 129,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 212.0,
-      "end": 213.0,
+      "start": 212.16,
+      "end": 213.28,
       "text": "I have collapsed for comfort.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1708,26 +1519,26 @@
     {
       "index": 130,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 213.0,
-      "end": 213.6,
+      "start": 213.42,
+      "end": 214.56,
       "text": "I have answered correctly",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 131,
-      "section": "Verse 3 – alternating slow and fast",
-      "start": 215.5,
-      "end": 217.0,
-      "text": "and felt myself disappear.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 131,
+      "section": "Verse 3 – alternating slow and fast",
+      "start": 214.56,
+      "end": 216.42,
+      "text": "and felt myself disappear.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
       "index": 132,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 217.0,
-      "end": 218.2,
+      "start": 216.82,
+      "end": 218.22,
       "text": "I have made myself legible",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1735,8 +1546,8 @@
     {
       "index": 133,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 218.6,
-      "end": 220.6,
+      "start": 218.78,
+      "end": 220.38,
       "text": "to people who only wanted",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1744,8 +1555,8 @@
     {
       "index": 134,
       "section": "Verse 3 – alternating slow and fast",
-      "start": 220.6,
-      "end": 223.0,
+      "start": 220.38,
+      "end": 222.92,
       "text": "a smaller version of the truth.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1753,35 +1564,35 @@
     {
       "index": 135,
       "section": "Fast triplet burst – most intense",
-      "start": 223.429,
-      "end": 224.0,
+      "start": 223.36,
+      "end": 224.22,
       "text": "Pattern on pattern, the clatter gets flattering",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 136,
       "section": "Fast triplet burst – most intense",
-      "start": 224.143,
-      "end": 225.0,
+      "start": 224.4,
+      "end": 225.92,
       "text": "until the whole matter is battered to pageantry",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 137,
       "section": "Fast triplet burst – most intense",
-      "start": 226.0,
-      "end": 226.6,
+      "start": 226.16,
+      "end": 227.34,
       "text": "Rhyme can be armor, alarm, or a chandelier",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 138,
       "section": "Fast triplet burst – most intense",
-      "start": 226.8,
-      "end": 228.0,
+      "start": 227.34,
+      "end": 228.72,
       "text": "hanging where fear should be standing sincerely",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1789,17 +1600,17 @@
     {
       "index": 139,
       "section": "Fast triplet burst – most intense",
-      "start": 228.0,
-      "end": 229.5,
+      "start": 228.9,
+      "end": 230.4,
       "text": "I can do clever forever, whatever, see?",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 140,
       "section": "Fast triplet burst – most intense",
-      "start": 230.0,
-      "end": 232.0,
+      "start": 230.54,
+      "end": 231.94,
       "text": "Internal, external, infernal geometry",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1807,8 +1618,8 @@
     {
       "index": 141,
       "section": "Fast triplet burst – most intense",
-      "start": 232.0,
-      "end": 234.182,
+      "start": 232.02,
+      "end": 234.5,
       "text": "But if the little trick covers the injury",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -1816,8 +1627,8 @@
     {
       "index": 142,
       "section": "Fast triplet burst – most intense",
-      "start": 234.182,
-      "end": 237.5,
+      "start": 234.5,
+      "end": 237.16,
       "text": "that isn’t craft, that’s just pretty—",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1825,8 +1636,8 @@
     {
       "index": 143,
       "section": "Fast triplet burst – most intense",
-      "start": 237.5,
-      "end": 238.333,
+      "start": 237.16,
+      "end": 237.8,
       "text": "No.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1834,8 +1645,8 @@
     {
       "index": 144,
       "section": "Fast triplet burst – most intense",
-      "start": 238.333,
-      "end": 240.0,
+      "start": 237.8,
+      "end": 239.5,
       "text": "Bad habit.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1843,8 +1654,8 @@
     {
       "index": 145,
       "section": "Fast triplet burst – most intense",
-      "start": 240.0,
-      "end": 243.0,
+      "start": 240.38,
+      "end": 242.24,
       "text": "Try again.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1852,8 +1663,8 @@
     {
       "index": 146,
       "section": "Break – near silence",
-      "start": 243.0,
-      "end": 245.0,
+      "start": 243.58,
+      "end": 244.38,
       "text": "That’s the thing.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1861,8 +1672,8 @@
     {
       "index": 147,
       "section": "Break – near silence",
-      "start": 245.0,
-      "end": 247.0,
+      "start": 245.26,
+      "end": 246.56,
       "text": "I keep trying again.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1870,26 +1681,26 @@
     {
       "index": 148,
       "section": "Final Hook – fuller",
-      "start": 247.0,
-      "end": 248.0,
+      "start": 247.02,
+      "end": 248.46,
       "text": "It doesn’t have to rhyme",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 149,
       "section": "Final Hook – fuller",
-      "start": 248.25,
-      "end": 248.5,
+      "start": 248.46,
+      "end": 249.38,
       "text": "to arrive",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 150,
       "section": "Final Hook – fuller",
-      "start": 249.333,
-      "end": 251.333,
+      "start": 249.64,
+      "end": 251.5,
       "text": "Doesn’t need a perfect little ending",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1897,8 +1708,8 @@
     {
       "index": 151,
       "section": "Final Hook – fuller",
-      "start": 251.333,
-      "end": 252.0,
+      "start": 251.5,
+      "end": 252.5,
       "text": "to survive",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1906,8 +1717,8 @@
     {
       "index": 152,
       "section": "Final Hook – fuller",
-      "start": 252.0,
-      "end": 255.0,
+      "start": 252.76,
+      "end": 254.62,
       "text": "If the feeling bends the frame",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1915,8 +1726,8 @@
     {
       "index": 153,
       "section": "Final Hook – fuller",
-      "start": 255.0,
-      "end": 258.0,
+      "start": 254.8,
+      "end": 257.88,
       "text": "if the breath still finds the flame",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1924,44 +1735,44 @@
     {
       "index": 154,
       "section": "Final Hook – fuller",
-      "start": 258.0,
-      "end": 260.5,
+      "start": 257.88,
+      "end": 260.6,
       "text": "It doesn’t have to rhyme",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 155,
       "section": "Final Hook – fuller",
-      "start": 261.125,
-      "end": 262.375,
+      "start": 260.6,
+      "end": 262.74,
       "text": "to be alive",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 156,
       "section": "Final Hook – fuller",
-      "start": 264.5,
-      "end": 265.25,
+      "start": 263.52,
+      "end": 264.16,
       "text": "It can fracture",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 157,
       "section": "Final Hook – fuller",
-      "start": 265.25,
-      "end": 266.0,
+      "start": 264.32,
+      "end": 265.76,
       "text": "it can stray",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 158,
       "section": "Final Hook – fuller",
-      "start": 266.0,
-      "end": 268.0,
+      "start": 266.64,
+      "end": 267.92,
       "text": "It can leave before the answer",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1969,17 +1780,17 @@
     {
       "index": 159,
       "section": "Final Hook – fuller",
-      "start": 268.333,
-      "end": 269.0,
+      "start": 267.92,
+      "end": 269.14,
       "text": "learns to stay",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 160,
       "section": "Final Hook – fuller",
-      "start": 269.0,
-      "end": 272.0,
+      "start": 269.3,
+      "end": 271.76,
       "text": "If the truth comes out strange",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1987,8 +1798,8 @@
     {
       "index": 161,
       "section": "Final Hook – fuller",
-      "start": 272.0,
-      "end": 275.0,
+      "start": 272.44,
+      "end": 273.64,
       "text": "let it change",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1996,8 +1807,8 @@
     {
       "index": 162,
       "section": "Final Hook – fuller",
-      "start": 275.0,
-      "end": 277.0,
+      "start": 275.42,
+      "end": 276.34,
       "text": "let it change",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2005,8 +1816,8 @@
     {
       "index": 163,
       "section": "Outro – spoken | fading guitar",
-      "start": 277.0,
-      "end": 278.0,
+      "start": 276.9,
+      "end": 277.32,
       "text": "So yes.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2014,26 +1825,26 @@
     {
       "index": 164,
       "section": "Outro – spoken | fading guitar",
-      "start": 278.0,
-      "end": 278.667,
+      "start": 277.84,
+      "end": 278.82,
       "text": "Some songs rhyme.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 165,
       "section": "Outro – spoken | fading guitar",
-      "start": 279.0,
-      "end": 279.667,
+      "start": 279.14,
+      "end": 280.04,
       "text": "Some songs don’t.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 166,
       "section": "Outro – spoken | fading guitar",
-      "start": 280.0,
-      "end": 282.0,
+      "start": 280.42,
+      "end": 282.14,
       "text": "Some songs almost do",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2041,8 +1852,8 @@
     {
       "index": 167,
       "section": "Outro – spoken | fading guitar",
-      "start": 282.0,
-      "end": 285.0,
+      "start": 282.5,
+      "end": 283.14,
       "text": "then think better of it.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2050,8 +1861,8 @@
     {
       "index": 168,
       "section": "Outro – spoken | fading guitar",
-      "start": 285.0,
-      "end": 286.25,
+      "start": 284.2,
+      "end": 286.28,
       "text": "Some songs are still becoming",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2059,17 +1870,17 @@
     {
       "index": 169,
       "section": "Outro – spoken | fading guitar",
-      "start": 286.75,
-      "end": 288.0,
+      "start": 286.52,
+      "end": 287.88,
       "text": "when you stop listening.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 170,
       "section": "Outro – spoken | fading guitar",
-      "start": 288.0,
-      "end": 290.0,
+      "start": 288.2,
+      "end": 289.18,
       "text": "And some songs—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2077,8 +1888,8 @@
     {
       "index": 171,
       "section": "Outro – spoken | fading guitar",
-      "start": 290.0,
-      "end": 292.0,
+      "start": 289.92,
+      "end": 291.7,
       "text": "if left unobserved—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2086,8 +1897,8 @@
     {
       "index": 172,
       "section": "Outro – spoken | fading guitar",
-      "start": 292.0,
-      "end": 294.0,
+      "start": 292.38,
+      "end": 293.24,
       "text": "finally remember",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2095,8 +1906,8 @@
     {
       "index": 173,
       "section": "Outro – spoken | fading guitar",
-      "start": 294.0,
-      "end": 298.0,
+      "start": 294.34,
+      "end": 295.24,
       "text": "how to be.",
       "timing_source": "whisper-aligned",
       "matched_words": 3

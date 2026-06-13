@@ -2,6 +2,11 @@
   "generated_at": "2026-06-10T21:52:17Z",
   "news": [
     {
+      "title": "Album transcriptions refreshed",
+      "datetime": "2026-06-14T00:56:39+02:00",
+      "body": "Re-ran [Net Worthless](?album=Net%20Worthless) with a better transcription model.\n\nRe-ran [Closed Doors](?album=Closed%20Doors) with a better transcription model."
+    },
+    {
       "title": "Misfiled Weather timed lyrics cleaned up",
       "datetime": "2026-06-13T00:36:58+02:00",
       "body": "Cleaned up the timed lyrics for [Misfiled Weather](?album=Broken%20Temple&song=Misfiled%20Weather) so repeated transcription ad-libs no longer appear in its lyric data.\n\nAdded scoped timing anchors for the same track so Verse 2 continues advancing smoothly instead of pausing and then skipping ahead.\n\nAdjusted the bridge timing so \"ASD came later\" waits until the vocal arrives instead of advancing during the preceding ad-lib gap.\n\nFixed the intro timing for [Broken Temple](?album=Broken%20Temple&song=Broken%20Temple) so the first lyric line advances normally instead of holding until the title line.\n\nRegenerated the same track's timed lyrics with a larger GPU-backed transcription model so Verse 1 now keeps advancing after \"in the body-country.\"\n\nAdded a 3D museum view where the discography appears as chronological album rooms. Visitors can walk through the wood-toned construction space, play songs from room stations, and see timed lyrics inside the 3D view.\n\nAdjusted the 3D museum rooms so albums with more songs have longer rooms, giving dense track labels more space while keeping shorter albums at a comfortable minimum size.\n\nReduced the size of the 3D museum mobile controls and player overlays so the view is easier to use on smaller phones.\n\nImproved the site header on narrow screens so navigation buttons wrap into reachable rows instead of being clipped."

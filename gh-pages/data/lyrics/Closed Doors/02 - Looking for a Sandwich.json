@@ -4,459 +4,420 @@
   "title": "Looking for a Sandwich",
   "text_path": "Closed Doors/02 - Looking for a Sandwich.txt",
   "audio_path": "Closed Doors/audio/02 - Looking for a Sandwich.mp3",
-  "duration_seconds": 333.88,
-  "model": "base",
+  "duration_seconds": 333.58,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 155,
     "reference_word_count": 808,
-    "observed_word_count": 808,
-    "matched_word_count": 765,
-    "matched_word_ratio": 0.947,
-    "inserted_adlib_count": 0
+    "observed_word_count": 814,
+    "matched_word_count": 790,
+    "matched_word_ratio": 0.978,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
       "start": 0.0,
-      "end": 5.6,
-      "text": "Someone said, my words were salad, which is fair."
+      "end": 5.14,
+      "text": "someone said my words were salad which is fair"
     },
     {
-      "start": 5.6,
-      "end": 10.72,
-      "text": "There were leaves, there were layers, there was dressing involved."
+      "start": 6.58,
+      "end": 9.58,
+      "text": "there were leaves there were layers there was dressing involved"
     },
     {
-      "start": 10.72,
-      "end": 17.96,
-      "text": "But I couldn't help thinking, maybe you were just looking for a sandwich."
+      "start": 11.1,
+      "end": 17.1,
+      "text": "but i couldn't help thinking maybe you were just looking for a sandwich"
     },
     {
-      "start": 17.96,
-      "end": 23.8,
-      "text": "I spent weeks folding feelings into strange little shapes, making paper birds out of things"
+      "start": 18.1,
+      "end": 21.92,
+      "text": "i spent weeks folding feelings into strange little shapes"
     },
     {
-      "start": 23.8,
-      "end": 25.64,
-      "text": "I couldn't say then."
+      "start": 22.26,
+      "end": 24.94,
+      "text": "making paper birds out of things i couldn't say then"
     },
     {
-      "start": 25.64,
-      "end": 28.8,
-      "text": "Someone came with the fork in their fists like mate."
+      "start": 25.24,
+      "end": 27.7,
+      "text": "someone came with the fork in their fist like"
     },
     {
-      "start": 28.8,
-      "end": 30.12,
-      "text": "This is confusing, where's the plate?"
+      "start": 27.7,
+      "end": 30.08,
+      "text": "hey this is confusing where's the plate"
     },
     {
-      "start": 30.12,
-      "end": 31.48,
-      "text": "I said the plate is implied."
+      "start": 30.24,
+      "end": 32.82,
+      "text": "i said the plate is implied they said that's the problem"
     },
     {
-      "start": 31.48,
-      "end": 32.88,
-      "text": "They said, that's the problem."
+      "start": 32.98,
+      "end": 35.62,
+      "text": "i said the problem is hunger dressed up as logic"
     },
     {
-      "start": 32.88,
-      "end": 35.2,
-      "text": "I said the problem is hungard dressed up."
+      "start": 35.8,
+      "end": 38.48,
+      "text": "i wrote the moon has a bruise where the morning got in"
     },
     {
-      "start": 35.2,
-      "end": 38.56,
-      "text": "As logic I wrote the moon has a bruise where the morning got in."
+      "start": 38.62,
+      "end": 40.4,
+      "text": "they said what does that mean"
     },
     {
-      "start": 38.56,
-      "end": 41.28,
-      "text": "They said, what does that mean?"
+      "start": 41.32,
+      "end": 43.08,
+      "text": "i said it means i was lonely"
     },
     {
-      "start": 41.28,
-      "end": 44.16,
-      "text": "I said it means I was lonely."
+      "start": 43.88,
+      "end": 45.76,
+      "text": "they said why not say that"
     },
     {
-      "start": 44.16,
-      "end": 45.88,
-      "text": "They said, why not say that?"
+      "start": 45.86,
+      "end": 48.06,
+      "text": "i said because i was lonely"
     },
     {
-      "start": 45.88,
-      "end": 49.92,
-      "text": "I said, because I was lonely."
+      "start": 49.82,
+      "end": 52.4,
+      "text": "some people build houses some people build tents"
     },
     {
-      "start": 49.92,
-      "end": 54.64,
-      "text": "Some people build houses, some people build tents, some leave notes and bottles, then complain"
+      "start": 52.58,
+      "end": 55.38,
+      "text": "some leave notes in bottles then complain about rent"
     },
     {
-      "start": 54.64,
-      "end": 56.04,
-      "text": "about rent me."
+      "start": 55.38,
+      "end": 58.1,
+      "text": "me i build mazes with the door at the start"
     },
     {
-      "start": 56.04,
-      "end": 60.64,
-      "text": "I build mazes with the door at the start and get offended when nobody studies the walls"
+      "start": 58.22,
+      "end": 61.6,
+      "text": "then get offended when nobody studies the walls and calls it art"
     },
     {
-      "start": 60.64,
-      "end": 62.96,
-      "text": "and calls it art."
+      "start": 62.78,
+      "end": 67.48,
+      "text": "maybe i hid too well maybe i dressed the wound too fine"
     },
     {
-      "start": 62.96,
-      "end": 71.08,
-      "text": "Maybe I hit too well, maybe I dressed the wound too fine, maybe I made a meal, then blamed"
+      "start": 68.24,
+      "end": 73.2,
+      "text": "maybe i made a meal then blamed you for wanting a sign"
     },
     {
-      "start": 71.08,
-      "end": 74.88,
-      "text": "you for warning a sign."
+      "start": 74.72,
+      "end": 79.02,
+      "text": "if you see only salad maybe you were looking for a sandwich"
     },
     {
-      "start": 74.88,
-      "end": 81.64,
-      "text": "If you see only salad, maybe you were looking for a sandwich, maybe I was speaking in"
+      "start": 79.78,
+      "end": 84.62,
+      "text": "maybe i was speaking in storms when you only packed a blanket"
     },
     {
-      "start": 81.64,
-      "end": 85.04,
-      "text": "the dorms when you only packed a blanket."
+      "start": 84.62,
+      "end": 91.0,
+      "text": "if you couldn't find the meaning maybe i buried it too deep"
     },
     {
-      "start": 85.04,
-      "end": 93.96,
-      "text": "If you couldn't find the meaning, maybe I buried it too deep, but don't call it empty."
+      "start": 91.52,
+      "end": 95.78,
+      "text": "but don't call it empty just because it made you reach"
     },
     {
-      "start": 93.96,
-      "end": 96.76,
-      "text": "Just because it made you reach."
+      "start": 97.9,
+      "end": 100.1,
+      "text": "still could have used less parsley"
     },
     {
-      "start": 96.76,
-      "end": 100.84,
-      "text": "Still, could've used less parsley."
+      "start": 100.8,
+      "end": 103.6,
+      "text": "i used to think being understood meant being reduced"
     },
     {
-      "start": 100.84,
-      "end": 105.24,
-      "text": "I used to think being understood, men being reduced, like if I gave you the key, then"
+      "start": 103.7,
+      "end": 106.32,
+      "text": "like if i gave you the key then the room would be used"
     },
     {
-      "start": 105.24,
-      "end": 109.56,
-      "text": "the room would be used like someone would walk through my head with muddy shoes, point"
+      "start": 106.4,
+      "end": 109.18,
+      "text": "like someone would walk through my head with muddy shoes"
     },
     {
-      "start": 109.56,
-      "end": 111.6,
-      "text": "at the curtains and say, bit much."
+      "start": 109.42,
+      "end": 112.44,
+      "text": "point at the curtains and say bit much don't you think"
     },
     {
-      "start": 111.6,
-      "end": 112.6,
-      "text": "Don't you think?"
+      "start": 112.44,
+      "end": 115.24,
+      "text": "and maybe it is maybe i put chandeliers in sheds"
     },
     {
-      "start": 112.6,
-      "end": 113.92,
-      "text": "And maybe it is."
+      "start": 115.36,
+      "end": 118.54,
+      "text": "maybe i describe a headache like a cathedral arguing with bees"
     },
     {
-      "start": 113.92,
-      "end": 117.96,
-      "text": "Maybe I put chandeliers and sheds, maybe I describe a headache, like a cathedral arguing"
+      "start": 118.62,
+      "end": 122.56,
+      "text": "maybe i hid a whole confession in a slice of cake and called it liberation"
     },
     {
-      "start": 117.96,
-      "end": 118.96,
-      "text": "with bees."
+      "start": 123.5,
+      "end": 125.66,
+      "text": "but listen when you grow up explaining your face"
     },
     {
-      "start": 118.96,
-      "end": 122.8,
-      "text": "Maybe I hit a whole confession in a slice of cake and called a liberation."
+      "start": 125.78,
+      "end": 128.6,
+      "text": "your tone your hands or silence your reasons for standing too close"
     },
     {
-      "start": 122.8,
-      "end": 127.02,
-      "text": "But listen, when you grow up explaining your face, your tone, your hands, your silence,"
+      "start": 128.6,
+      "end": 131.5,
+      "text": "then too far away to know where anyone can reach"
     },
     {
-      "start": 127.02,
-      "end": 131.68,
-      "text": "your reasons for standing too close, then too far away than nowhere anyone can reach."
+      "start": 131.66,
+      "end": 135.38,
+      "text": "you learn that plain speech is not always safer"
     },
     {
-      "start": 131.68,
-      "end": 136.04,
-      "text": "You learn that plain speech is not always safer."
+      "start": 135.72,
+      "end": 140.58,
+      "text": "sometimes plain speech is a window sometimes a metaphor is curtains"
     },
     {
-      "start": 136.04,
-      "end": 140.04,
-      "text": "Sometimes, plain speeches are window, sometimes metaphor."
+      "start": 140.58,
+      "end": 146.68,
+      "text": "sometimes curtains are the only thing between you and everyone looking in like they paid for a tour"
     },
     {
-      "start": 140.04,
-      "end": 144.36,
-      "text": "It's curtains, sometimes curtains are the only thing between you and everyone looking"
+      "start": 146.98,
+      "end": 152.68,
+      "text": "so yes i served you leaves bitter ones strange ones a few i should have washed"
     },
     {
-      "start": 144.36,
-      "end": 146.92,
-      "text": "in like they paid for a tour."
+      "start": 153.02,
+      "end": 157.12,
+      "text": "but there was a pulse underneath there was a table there was a chair pulled out"
     },
     {
-      "start": 146.92,
-      "end": 153.04,
-      "text": "So yes, I served you, these bitter ones, strange ones, a few, I should've washed."
+      "start": 157.24,
+      "end": 161.56,
+      "text": "there was me trying badly to invite you somewhere"
     },
     {
-      "start": 153.04,
-      "end": 157.36,
-      "text": "The pair was a pulse underneath, there was a table, there was a chair pulled out, there"
+      "start": 161.96,
+      "end": 166.42,
+      "text": "if you's the only salad maybe you were looking for a sandwich"
     },
     {
-      "start": 157.36,
-      "end": 161.64,
-      "text": "was me trying badly to invite you somewhere."
+      "start": 166.42,
+      "end": 171.94,
+      "text": "maybe i was speaking in storms when you only packed a blanket"
     },
     {
-      "start": 161.64,
-      "end": 164.2,
-      "text": "If you see only salad."
+      "start": 172.82,
+      "end": 178.36,
+      "text": "if you couldn't find the meaning maybe i buried it too deep"
     },
     {
-      "start": 164.2,
-      "end": 167.4,
-      "text": "Maybe you were looking for a sandwich."
+      "start": 179.06,
+      "end": 183.54,
+      "text": "but don't call it empty just because it made you reach"
     },
     {
-      "start": 167.4,
-      "end": 172.6,
-      "text": "Maybe I was speaking in storms when you only packed a blanket."
+      "start": 184.96,
+      "end": 188.16,
+      "text": "and i get it not every locked door is profound"
     },
     {
-      "start": 172.6,
-      "end": 178.44,
-      "text": "Yeah, if you couldn't find a meaning, maybe I'll be ready to do."
+      "start": 188.64,
+      "end": 190.84,
+      "text": "sometimes it's just a locked door"
     },
     {
-      "start": 178.44,
-      "end": 181.56,
-      "text": "But don't call it empty."
+      "start": 191.42,
+      "end": 193.9,
+      "text": "not every strange phrase is a treasure chest"
     },
     {
-      "start": 181.56,
-      "end": 185.04,
-      "text": "Just because it made you reach."
+      "start": 193.9,
+      "end": 197.8,
+      "text": "sometimes it's just me panicking attractively"
     },
     {
-      "start": 185.04,
-      "end": 186.56,
-      "text": "And I get it."
+      "start": 198.32,
+      "end": 203.34,
+      "text": "sometimes the truth looks cold all apart so i overdress it and call it art"
     },
     {
-      "start": 186.56,
-      "end": 188.96,
-      "text": "Not every locked door is profound."
+      "start": 203.46,
+      "end": 208.62,
+      "text": "sometimes i leave the door half open so the room can change with who walks in"
     },
     {
-      "start": 188.96,
-      "end": 191.64,
-      "text": "Sometimes it's just a locked door."
+      "start": 208.74,
+      "end": 215.74,
+      "text": "if i name every shadow too clearly it stops belonging to anyone but me"
     },
     {
-      "start": 191.64,
-      "end": 194.68,
-      "text": "And every strange phrase is a treasure chest."
+      "start": 216.4,
+      "end": 219.04,
+      "text": "that's annoying also useful"
     },
     {
-      "start": 194.68,
-      "end": 198.44,
-      "text": "Sometimes it's just me panicking attractively."
+      "start": 219.56,
+      "end": 222.12,
+      "text": "you came looking for lunch and found a forest"
     },
     {
-      "start": 198.44,
-      "end": 200.72,
-      "text": "Sometimes the truth looks cold all apart."
+      "start": 222.12,
+      "end": 229.34,
+      "text": "i came looking for praise and found a mirror wearing your disappointed face"
     },
     {
-      "start": 200.72,
-      "end": 203.76,
-      "text": "So I overdress it and call it art."
+      "start": 230.06,
+      "end": 233.24,
+      "text": "maybe the next one gets a signpost maybe the next one gets bread"
     },
     {
-      "start": 203.76,
-      "end": 206.28,
-      "text": "Sometimes I leave the door half open."
+      "start": 233.36,
+      "end": 239.44,
+      "text": "maybe the next time i say grief without dressing it up as weather in my head"
     },
     {
-      "start": 206.28,
-      "end": 208.68,
-      "text": "So the room can change with who walks in."
+      "start": 240.68,
+      "end": 244.68,
+      "text": "maybe i leave room for the listener without handing them a map"
     },
     {
-      "start": 208.68,
-      "end": 216.8,
-      "text": "If I name every shadow too clearly, it stops belonging to anyone but me."
+      "start": 244.8,
+      "end": 250.58,
+      "text": "maybe i stop calling every open handed trap but i won't flatten the hills just to make the walk polite"
     },
     {
-      "start": 216.8,
-      "end": 217.8,
-      "text": "That's annoying."
+      "start": 250.58,
+      "end": 253.6,
+      "text": "i won't drain all the colors so the water looks right"
     },
     {
-      "start": 217.8,
-      "end": 218.8,
-      "text": "Also useful."
+      "start": 253.84,
+      "end": 256.84,
+      "text": "there's a place between them since an over explained between"
     },
     {
-      "start": 218.8,
-      "end": 222.4,
-      "text": "You came looking for lunch and found a forest."
+      "start": 257.16,
+      "end": 259.68,
+      "text": "look how deep i am and please feel my pain"
     },
     {
-      "start": 222.4,
-      "end": 230.04,
-      "text": "I came looking for praise and found a mirror wearing your disappointed face."
+      "start": 259.82,
+      "end": 263.3,
+      "text": "i'm trying to find it badly with herbs"
     },
     {
-      "start": 230.04,
-      "end": 231.8,
-      "text": "Maybe the next one gets a signpost."
+      "start": 265.1,
+      "end": 268.42,
+      "text": "so if the line feels crooked maybe sit with the bend"
     },
     {
-      "start": 231.8,
-      "end": 233.52,
-      "text": "Maybe the next one gets bread."
-    },
-    {
-      "start": 233.52,
-      "end": 241.36,
-      "text": "Maybe the next time I say grief without dressing it up as weather in my head."
-    },
-    {
-      "start": 241.36,
-      "end": 245.08,
-      "text": "Maybe I leave room for the listener without handing them a map."
-    },
-    {
-      "start": 245.08,
-      "end": 247.72,
-      "text": "I stop calling every open hand to trap."
-    },
-    {
-      "start": 247.72,
-      "end": 250.64,
-      "text": "But I won't flatten the hills just to make the walk polite."
-    },
-    {
-      "start": 250.64,
-      "end": 253.68,
-      "text": "I won't drain all the colors so the water looks right."
-    },
-    {
-      "start": 253.68,
-      "end": 256.6,
-      "text": "There's a place between mountains and overexplained."
-    },
-    {
-      "start": 256.6,
-      "end": 260.28,
-      "text": "Between look, cubby by am and please fill my pain off."
-    },
-    {
-      "start": 260.28,
-      "end": 265.48,
-      "text": "Trying to find it badly with herbs."
-    },
-    {
-      "start": 265.48,
-      "end": 268.52,
-      "text": "So if the line feels crooked, maybe sit with the bend."
-    },
-    {
-      "start": 268.52,
-      "end": 271.52,
-      "text": "If the meaning comes late, maybe wait for the end."
+      "start": 268.5,
+      "end": 271.48,
+      "text": "if the meaning comes late maybe wait for the end"
     },
     {
       "start": 271.52,
-      "end": 276.44,
-      "text": "And if you still see salad, well fair enough, friend."
+      "end": 274.84,
+      "text": "and if you still see salad well fair enough friend"
     },
     {
-      "start": 276.44,
-      "end": 279.68,
-      "text": "But I was feeding something."
+      "start": 275.64,
+      "end": 277.66,
+      "text": "but i was feeding something"
     },
     {
-      "start": 279.68,
-      "end": 283.12,
-      "text": "I couldn't name them."
+      "start": 279.48,
+      "end": 281.34,
+      "text": "i couldn't name them"
     },
     {
-      "start": 283.12,
-      "end": 288.2,
-      "text": "If you see only salad, maybe you were looking for a sandwich."
+      "start": 283.08,
+      "end": 287.68,
+      "text": "if you see only salad maybe you were looking for a sandwich"
     },
     {
-      "start": 288.2,
-      "end": 294.84,
-      "text": "Maybe I was speaking in storms when you only packed a blanket."
+      "start": 288.32,
+      "end": 293.32,
+      "text": "maybe i was speaking in storms when you only packed a blanket"
     },
     {
-      "start": 294.84,
-      "end": 300.52,
-      "text": "If you couldn't find the meaning, maybe I buried it too deep."
+      "start": 294.3,
+      "end": 299.78,
+      "text": "if you couldn't find the meaning maybe i buried it too deep"
     },
     {
-      "start": 300.52,
-      "end": 306.92,
-      "text": "But don't call it empty just because it made you reach."
+      "start": 299.78,
+      "end": 304.78,
+      "text": "but don't call it empty just because it made you reach"
     },
     {
-      "start": 306.92,
-      "end": 311.92,
-      "text": "If you see only salad, maybe I'll bring bread next time."
+      "start": 306.3,
+      "end": 310.78,
+      "text": "if you see only salad maybe i'll bring bread next time"
     },
     {
-      "start": 311.92,
-      "end": 319.2,
-      "text": "But I won't stop growing strange things in the garden of my mind."
+      "start": 311.8,
+      "end": 316.78,
+      "text": "but i won't stop growing strange things in the garden of my mind"
     },
     {
-      "start": 319.2,
-      "end": 321.48,
-      "text": "So no hard feelings."
+      "start": 318.98,
+      "end": 320.4,
+      "text": "so no hard feelings"
     },
     {
-      "start": 321.48,
-      "end": 323.76,
-      "text": "You want it simple."
+      "start": 321.38,
+      "end": 322.46,
+      "text": "you want it simple"
     },
     {
-      "start": 323.76,
-      "end": 330.48,
-      "text": "I want it seen somewhere between the lettuce and the long."
+      "start": 323.8,
+      "end": 324.64,
+      "text": "i want it seen"
     },
     {
-      "start": 330.48,
-      "end": 333.88,
-      "text": "We were both a little hungry."
+      "start": 324.64,
+      "end": 329.04,
+      "text": "somewhere between the lettuce and the longing"
+    },
+    {
+      "start": 330.34,
+      "end": 333.58,
+      "text": "we were both a little hungry"
     }
   ],
   "lines": [
@@ -464,7 +425,7 @@
       "index": 0,
       "section": "Intro – spoken | dry, close-mic | sparse guitar",
       "start": 0.0,
-      "end": 1.244,
+      "end": 1.46,
       "text": "Someone said",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -472,8 +433,8 @@
     {
       "index": 1,
       "section": "Intro – spoken | dry, close-mic | sparse guitar",
-      "start": 1.244,
-      "end": 3.733,
+      "start": 1.46,
+      "end": 3.26,
       "text": "my words were salad.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -481,8 +442,8 @@
     {
       "index": 2,
       "section": "Intro – spoken | dry, close-mic | sparse guitar",
-      "start": 3.733,
-      "end": 5.6,
+      "start": 3.56,
+      "end": 5.14,
       "text": "Which is fair.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -490,8 +451,8 @@
     {
       "index": 3,
       "section": "Intro – spoken | dry, close-mic | sparse guitar",
-      "start": 5.6,
-      "end": 7.136,
+      "start": 6.58,
+      "end": 7.14,
       "text": "There were leaves.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -499,8 +460,8 @@
     {
       "index": 4,
       "section": "Intro – spoken | dry, close-mic | sparse guitar",
-      "start": 7.136,
-      "end": 8.672,
+      "start": 7.32,
+      "end": 7.9,
       "text": "There were layers.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -508,8 +469,8 @@
     {
       "index": 5,
       "section": "Intro – spoken | dry, close-mic | sparse guitar",
-      "start": 8.672,
-      "end": 10.72,
+      "start": 8.08,
+      "end": 9.58,
       "text": "There was dressing involved.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -517,8 +478,8 @@
     {
       "index": 6,
       "section": "Intro – spoken | dry, close-mic | sparse guitar",
-      "start": 10.72,
-      "end": 13.505,
+      "start": 11.1,
+      "end": 12.72,
       "text": "But I couldn’t help thinking—",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -526,8 +487,8 @@
     {
       "index": 7,
       "section": "Intro – spoken | dry, close-mic | sparse guitar",
-      "start": 13.505,
-      "end": 15.732,
+      "start": 14.16,
+      "end": 15.12,
       "text": "maybe you were just",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -535,8 +496,8 @@
     {
       "index": 8,
       "section": "Intro – spoken | dry, close-mic | sparse guitar",
-      "start": 15.732,
-      "end": 17.96,
+      "start": 15.12,
+      "end": 17.1,
       "text": "looking for a sandwich.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -544,8 +505,8 @@
     {
       "index": 9,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 17.96,
-      "end": 21.464,
+      "start": 18.1,
+      "end": 21.92,
       "text": "I spent weeks folding feelings into strange little shapes",
       "timing_source": "whisper-aligned",
       "matched_words": 9
@@ -553,8 +514,8 @@
     {
       "index": 10,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 21.464,
-      "end": 25.18,
+      "start": 22.26,
+      "end": 24.58,
       "text": "Making paper birds out of things I couldn’t say",
       "timing_source": "whisper-aligned",
       "matched_words": 9
@@ -562,26 +523,26 @@
     {
       "index": 11,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 25.18,
-      "end": 28.484,
+      "start": 24.58,
+      "end": 27.7,
       "text": "Then someone came with a fork in their fist like,",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 9
     },
     {
       "index": 12,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 28.484,
-      "end": 30.12,
+      "start": 28.6,
+      "end": 30.08,
       "text": "“Mate, this is confusing. Where’s the plate?”",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 13,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 30.12,
-      "end": 31.48,
+      "start": 30.24,
+      "end": 31.38,
       "text": "I said, “The plate is implied.”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -589,8 +550,8 @@
     {
       "index": 14,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 31.48,
-      "end": 32.88,
+      "start": 31.5,
+      "end": 32.82,
       "text": "They said, “That’s the problem.”",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -598,17 +559,17 @@
     {
       "index": 15,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 32.88,
-      "end": 35.68,
+      "start": 32.98,
+      "end": 35.62,
       "text": "I said, “The problem is hunger dressed up as logic.”",
       "timing_source": "whisper-aligned",
-      "matched_words": 9
+      "matched_words": 10
     },
     {
       "index": 16,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 35.68,
-      "end": 38.56,
+      "start": 35.8,
+      "end": 38.48,
       "text": "I wrote, “the moon has a bruise where the morning got in”",
       "timing_source": "whisper-aligned",
       "matched_words": 12
@@ -616,8 +577,8 @@
     {
       "index": 17,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 38.56,
-      "end": 41.28,
+      "start": 38.62,
+      "end": 40.4,
       "text": "They said, “What does that mean?”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -625,8 +586,8 @@
     {
       "index": 18,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 41.28,
-      "end": 44.16,
+      "start": 41.32,
+      "end": 43.08,
       "text": "I said, “It means I was lonely.”",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -634,8 +595,8 @@
     {
       "index": 19,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 44.16,
-      "end": 45.88,
+      "start": 43.88,
+      "end": 45.76,
       "text": "They said, “Why not say that?”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -643,8 +604,8 @@
     {
       "index": 20,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 45.88,
-      "end": 49.92,
+      "start": 45.86,
+      "end": 48.06,
       "text": "I said, “Because I was lonely.”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -652,8 +613,8 @@
     {
       "index": 21,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 49.92,
-      "end": 51.179,
+      "start": 49.82,
+      "end": 51.06,
       "text": "Some people build houses",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -661,8 +622,8 @@
     {
       "index": 22,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 51.179,
-      "end": 52.437,
+      "start": 51.24,
+      "end": 52.4,
       "text": "Some people build tents",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -670,17 +631,17 @@
     {
       "index": 23,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 52.437,
-      "end": 54.011,
+      "start": 52.58,
+      "end": 54.02,
       "text": "Some leave notes in bottles",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 24,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 54.011,
-      "end": 55.573,
+      "start": 54.02,
+      "end": 55.38,
       "text": "then complain about rent",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -688,8 +649,8 @@
     {
       "index": 25,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 55.573,
-      "end": 56.04,
+      "start": 55.38,
+      "end": 55.7,
       "text": "Me?",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -697,8 +658,8 @@
     {
       "index": 26,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 56.04,
-      "end": 58.475,
+      "start": 55.96,
+      "end": 58.1,
       "text": "I build mazes with a door at the start",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -706,17 +667,17 @@
     {
       "index": 27,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 58.746,
-      "end": 60.64,
+      "start": 58.22,
+      "end": 60.62,
       "text": "Then get offended when nobody studies the walls",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 8
     },
     {
       "index": 28,
       "section": "Verse 1 – spoken rap | light guitar groove",
-      "start": 60.64,
-      "end": 62.96,
+      "start": 60.62,
+      "end": 61.6,
       "text": "and calls it art.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -724,17 +685,17 @@
     {
       "index": 29,
       "section": "Pre-Hook – half-sung, half-spoken",
-      "start": 62.96,
-      "end": 65.097,
+      "start": 62.78,
+      "end": 64.64,
       "text": "Maybe I hid too well",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 30,
       "section": "Pre-Hook – half-sung, half-spoken",
-      "start": 65.097,
-      "end": 68.088,
+      "start": 65.08,
+      "end": 67.48,
       "text": "Maybe I dressed the wound too fine",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -742,8 +703,8 @@
     {
       "index": 31,
       "section": "Pre-Hook – half-sung, half-spoken",
-      "start": 68.088,
-      "end": 70.225,
+      "start": 68.24,
+      "end": 70.22,
       "text": "Maybe I made a meal",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -751,17 +712,17 @@
     {
       "index": 32,
       "section": "Pre-Hook – half-sung, half-spoken",
-      "start": 70.225,
-      "end": 74.88,
+      "start": 70.22,
+      "end": 73.2,
       "text": "then blamed you for wanting a sign",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 33,
       "section": "Hook – soft sung folk melody",
-      "start": 74.88,
-      "end": 76.868,
+      "start": 74.72,
+      "end": 76.18,
       "text": "If you see only salad",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -769,8 +730,8 @@
     {
       "index": 34,
       "section": "Hook – soft sung folk melody",
-      "start": 76.868,
-      "end": 79.652,
+      "start": 76.86,
+      "end": 79.02,
       "text": "maybe you were looking for a sandwich",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -778,17 +739,17 @@
     {
       "index": 35,
       "section": "Hook – soft sung folk melody",
-      "start": 79.652,
-      "end": 81.64,
+      "start": 79.78,
+      "end": 82.34,
       "text": "Maybe I was speaking in storms",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 36,
       "section": "Hook – soft sung folk melody",
-      "start": 82.49,
-      "end": 85.04,
+      "start": 82.34,
+      "end": 84.62,
       "text": "when you only packed a blanket",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -796,8 +757,8 @@
     {
       "index": 37,
       "section": "Hook – soft sung folk melody",
-      "start": 85.04,
-      "end": 88.188,
+      "start": 84.62,
+      "end": 87.6,
       "text": "If you couldn’t find the meaning",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -805,8 +766,8 @@
     {
       "index": 38,
       "section": "Hook – soft sung folk melody",
-      "start": 88.188,
-      "end": 91.336,
+      "start": 87.84,
+      "end": 91.0,
       "text": "maybe I buried it too deep",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -814,8 +775,8 @@
     {
       "index": 39,
       "section": "Hook – soft sung folk melody",
-      "start": 91.336,
-      "end": 93.96,
+      "start": 91.52,
+      "end": 93.14,
       "text": "But don’t call it empty",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -823,8 +784,8 @@
     {
       "index": 40,
       "section": "Hook – soft sung folk melody",
-      "start": 93.96,
-      "end": 96.76,
+      "start": 93.14,
+      "end": 95.78,
       "text": "just because it made you reach",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -832,8 +793,8 @@
     {
       "index": 41,
       "section": "Post-Hook – spoken aside",
-      "start": 96.76,
-      "end": 97.576,
+      "start": 97.9,
+      "end": 98.42,
       "text": "Still…",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -841,17 +802,17 @@
     {
       "index": 42,
       "section": "Post-Hook – spoken aside",
-      "start": 97.576,
-      "end": 100.84,
+      "start": 99.04,
+      "end": 100.1,
       "text": "could’ve used less parsley.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 43,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 100.84,
-      "end": 102.393,
+      "start": 100.8,
+      "end": 102.44,
       "text": "I used to think being understood",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -859,17 +820,17 @@
     {
       "index": 44,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 102.652,
-      "end": 103.169,
+      "start": 102.44,
+      "end": 103.6,
       "text": "meant being reduced",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 45,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 103.169,
-      "end": 104.981,
+      "start": 103.7,
+      "end": 105.02,
       "text": "Like if I gave you the key",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -877,8 +838,8 @@
     {
       "index": 46,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 104.981,
-      "end": 106.59,
+      "start": 105.02,
+      "end": 106.32,
       "text": "then the room would be used",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -886,8 +847,8 @@
     {
       "index": 47,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 106.59,
-      "end": 108.48,
+      "start": 106.4,
+      "end": 108.22,
       "text": "Like someone would walk through my head",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -895,8 +856,8 @@
     {
       "index": 48,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 108.48,
-      "end": 109.29,
+      "start": 108.22,
+      "end": 109.18,
       "text": "with muddy shoes",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -904,8 +865,8 @@
     {
       "index": 49,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 109.29,
-      "end": 111.017,
+      "start": 109.42,
+      "end": 110.72,
       "text": "Point at the curtains and say,",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -913,8 +874,8 @@
     {
       "index": 50,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 111.017,
-      "end": 112.6,
+      "start": 110.98,
+      "end": 112.44,
       "text": "“Bit much, don’t you think?”",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -922,8 +883,8 @@
     {
       "index": 51,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 112.6,
-      "end": 113.92,
+      "start": 112.44,
+      "end": 113.52,
       "text": "And maybe it is.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -931,17 +892,17 @@
     {
       "index": 52,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 113.92,
-      "end": 115.536,
+      "start": 113.7,
+      "end": 115.24,
       "text": "Maybe I put chandeliers in sheds.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 53,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 115.536,
-      "end": 116.883,
+      "start": 115.36,
+      "end": 116.74,
       "text": "Maybe I describe a headache",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -949,8 +910,8 @@
     {
       "index": 54,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 116.883,
-      "end": 118.96,
+      "start": 116.74,
+      "end": 118.54,
       "text": "like a cathedral arguing with bees.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -958,26 +919,26 @@
     {
       "index": 55,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 118.96,
-      "end": 121.776,
+      "start": 118.62,
+      "end": 121.22,
       "text": "Maybe I hid a whole confession in a slice of cake",
       "timing_source": "whisper-aligned",
-      "matched_words": 10
+      "matched_words": 11
     },
     {
       "index": 56,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 121.776,
-      "end": 122.8,
+      "start": 121.22,
+      "end": 122.56,
       "text": "and called it liberation.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 57,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 122.8,
-      "end": 123.363,
+      "start": 123.5,
+      "end": 123.94,
       "text": "But listen—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -985,8 +946,8 @@
     {
       "index": 58,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 123.363,
-      "end": 125.332,
+      "start": 124.32,
+      "end": 125.66,
       "text": "When you grow up explaining your face",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -994,8 +955,8 @@
     {
       "index": 59,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 125.332,
-      "end": 125.895,
+      "start": 125.78,
+      "end": 126.02,
       "text": "your tone",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1003,8 +964,8 @@
     {
       "index": 60,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 125.895,
-      "end": 126.457,
+      "start": 126.02,
+      "end": 126.46,
       "text": "your hands",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1012,17 +973,17 @@
     {
       "index": 61,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 126.457,
-      "end": 127.02,
+      "start": 126.58,
+      "end": 126.92,
       "text": "your silence",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 62,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 127.02,
-      "end": 128.884,
+      "start": 126.92,
+      "end": 128.6,
       "text": "your reasons for standing too close",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1030,8 +991,8 @@
     {
       "index": 63,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 128.884,
-      "end": 130.127,
+      "start": 128.6,
+      "end": 129.76,
       "text": "then too far away",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1039,17 +1000,17 @@
     {
       "index": 64,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 130.437,
-      "end": 131.68,
+      "start": 130.32,
+      "end": 131.5,
       "text": "then nowhere anyone can reach—",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 65,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 131.68,
-      "end": 134.102,
+      "start": 131.66,
+      "end": 133.16,
       "text": "you learn that plain speech",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1057,8 +1018,8 @@
     {
       "index": 66,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 134.102,
-      "end": 136.04,
+      "start": 133.16,
+      "end": 135.38,
       "text": "is not always safer.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1066,26 +1027,26 @@
     {
       "index": 67,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 136.04,
-      "end": 138.897,
+      "start": 135.72,
+      "end": 138.12,
       "text": "Sometimes plain speech is a window.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 68,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 138.897,
-      "end": 140.705,
+      "start": 138.44,
+      "end": 140.58,
       "text": "Sometimes metaphor is curtains.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 69,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 140.705,
-      "end": 142.698,
+      "start": 140.58,
+      "end": 142.64,
       "text": "Sometimes curtains are the only thing",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1093,8 +1054,8 @@
     {
       "index": 70,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 142.698,
-      "end": 143.363,
+      "start": 142.64,
+      "end": 143.38,
       "text": "between you",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1102,8 +1063,8 @@
     {
       "index": 71,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 143.363,
-      "end": 144.726,
+      "start": 143.38,
+      "end": 144.64,
       "text": "and everyone looking in",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1111,8 +1072,8 @@
     {
       "index": 72,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 144.726,
-      "end": 146.92,
+      "start": 144.64,
+      "end": 146.68,
       "text": "like they paid for a tour.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1120,17 +1081,17 @@
     {
       "index": 73,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 146.92,
-      "end": 148.96,
+      "start": 146.98,
+      "end": 148.62,
       "text": "So yes, I served you leaves.",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 74,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 149.368,
-      "end": 151.0,
+      "start": 148.62,
+      "end": 150.18,
       "text": "Bitter ones. Strange ones.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1138,26 +1099,26 @@
     {
       "index": 75,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 151.0,
-      "end": 153.04,
+      "start": 150.4,
+      "end": 152.68,
       "text": "A few I should’ve washed.",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5
-    },
-    {
-      "index": 76,
-      "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 153.548,
-      "end": 154.565,
-      "text": "But there was a pulse underneath.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
     {
+      "index": 76,
+      "section": "Verse 2 – spoken rap | drums enter, brushed snare",
+      "start": 153.02,
+      "end": 154.52,
+      "text": "But there was a pulse underneath.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
       "index": 77,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 154.565,
-      "end": 155.581,
+      "start": 154.86,
+      "end": 155.64,
       "text": "There was a table.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1165,8 +1126,8 @@
     {
       "index": 78,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 155.581,
-      "end": 157.106,
+      "start": 155.76,
+      "end": 157.12,
       "text": "There was a chair pulled out.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1174,8 +1135,8 @@
     {
       "index": 79,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 157.106,
-      "end": 159.5,
+      "start": 157.24,
+      "end": 158.76,
       "text": "There was me, trying badly,",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1183,8 +1144,8 @@
     {
       "index": 80,
       "section": "Verse 2 – spoken rap | drums enter, brushed snare",
-      "start": 159.5,
-      "end": 161.64,
+      "start": 158.76,
+      "end": 161.56,
       "text": "to invite you somewhere.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1192,17 +1153,17 @@
     {
       "index": 81,
       "section": "Hook – fuller, warmer",
-      "start": 161.64,
-      "end": 164.2,
+      "start": 161.96,
+      "end": 163.34,
       "text": "If you see only salad",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 82,
       "section": "Hook – fuller, warmer",
-      "start": 164.2,
-      "end": 167.4,
+      "start": 163.84,
+      "end": 166.42,
       "text": "maybe you were looking for a sandwich",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1210,8 +1171,8 @@
     {
       "index": 83,
       "section": "Hook – fuller, warmer",
-      "start": 167.4,
-      "end": 170.0,
+      "start": 166.42,
+      "end": 169.74,
       "text": "Maybe I was speaking in storms",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1219,8 +1180,8 @@
     {
       "index": 84,
       "section": "Hook – fuller, warmer",
-      "start": 170.0,
-      "end": 172.6,
+      "start": 169.74,
+      "end": 171.94,
       "text": "when you only packed a blanket",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1228,26 +1189,26 @@
     {
       "index": 85,
       "section": "Hook – fuller, warmer",
-      "start": 173.049,
-      "end": 175.745,
+      "start": 172.82,
+      "end": 174.98,
       "text": "If you couldn’t find the meaning",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 86,
       "section": "Hook – fuller, warmer",
-      "start": 175.745,
-      "end": 176.194,
+      "start": 175.5,
+      "end": 178.36,
       "text": "maybe I buried it too deep",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 6
     },
     {
       "index": 87,
       "section": "Hook – fuller, warmer",
-      "start": 178.44,
-      "end": 181.56,
+      "start": 179.06,
+      "end": 180.86,
       "text": "But don’t call it empty",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1255,8 +1216,8 @@
     {
       "index": 88,
       "section": "Hook – fuller, warmer",
-      "start": 181.56,
-      "end": 185.04,
+      "start": 181.04,
+      "end": 183.54,
       "text": "just because it made you reach",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1264,8 +1225,8 @@
     {
       "index": 89,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 185.04,
-      "end": 186.56,
+      "start": 184.96,
+      "end": 186.0,
       "text": "And I get it.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1273,8 +1234,8 @@
     {
       "index": 90,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 186.56,
-      "end": 188.96,
+      "start": 186.26,
+      "end": 188.16,
       "text": "Not every locked door is profound.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1282,8 +1243,8 @@
     {
       "index": 91,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 188.96,
-      "end": 191.64,
+      "start": 188.64,
+      "end": 190.84,
       "text": "Sometimes it’s just a locked door.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1291,17 +1252,17 @@
     {
       "index": 92,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 192.02,
-      "end": 194.68,
+      "start": 191.42,
+      "end": 193.9,
       "text": "Not every strange phrase is a treasure chest.",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 8
     },
     {
       "index": 93,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 194.68,
-      "end": 197.187,
+      "start": 193.9,
+      "end": 195.9,
       "text": "Sometimes it’s just me",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1309,8 +1270,8 @@
     {
       "index": 94,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 197.187,
-      "end": 198.44,
+      "start": 195.9,
+      "end": 197.8,
       "text": "panicking attractively.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1318,8 +1279,8 @@
     {
       "index": 95,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 198.44,
-      "end": 200.72,
+      "start": 198.32,
+      "end": 200.48,
       "text": "Sometimes the truth looks cold all apart,",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1327,8 +1288,8 @@
     {
       "index": 96,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 200.72,
-      "end": 202.24,
+      "start": 200.48,
+      "end": 202.14,
       "text": "so I overdress it",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1336,8 +1297,8 @@
     {
       "index": 97,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 202.24,
-      "end": 203.76,
+      "start": 202.14,
+      "end": 203.34,
       "text": "and call it art.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1345,8 +1306,8 @@
     {
       "index": 98,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 203.76,
-      "end": 206.28,
+      "start": 203.46,
+      "end": 205.76,
       "text": "Sometimes I leave the door half-open",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1354,8 +1315,8 @@
     {
       "index": 99,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 206.28,
-      "end": 208.68,
+      "start": 205.76,
+      "end": 208.62,
       "text": "so the room can change with who walks in",
       "timing_source": "whisper-aligned",
       "matched_words": 9
@@ -1363,8 +1324,8 @@
     {
       "index": 100,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 208.68,
-      "end": 212.74,
+      "start": 208.74,
+      "end": 211.76,
       "text": "If I name every shadow too clearly",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1372,8 +1333,8 @@
     {
       "index": 101,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 212.74,
-      "end": 216.8,
+      "start": 211.76,
+      "end": 215.74,
       "text": "it stops belonging to anyone but me",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1381,8 +1342,8 @@
     {
       "index": 102,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 216.8,
-      "end": 217.8,
+      "start": 216.4,
+      "end": 217.44,
       "text": "That’s annoying.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1390,8 +1351,8 @@
     {
       "index": 103,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 217.8,
-      "end": 218.8,
+      "start": 217.82,
+      "end": 219.04,
       "text": "Also useful.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1399,8 +1360,8 @@
     {
       "index": 104,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 218.8,
-      "end": 220.8,
+      "start": 219.56,
+      "end": 220.94,
       "text": "You came looking for lunch",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1408,8 +1369,8 @@
     {
       "index": 105,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 220.8,
-      "end": 222.4,
+      "start": 220.94,
+      "end": 222.12,
       "text": "and found a forest.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1417,8 +1378,8 @@
     {
       "index": 106,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 222.4,
-      "end": 225.338,
+      "start": 222.12,
+      "end": 223.9,
       "text": "I came looking for praise",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1426,8 +1387,8 @@
     {
       "index": 107,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 225.338,
-      "end": 227.689,
+      "start": 223.9,
+      "end": 225.26,
       "text": "and found a mirror",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1435,8 +1396,8 @@
     {
       "index": 108,
       "section": "Bridge – beat drops | spoken, vulnerable",
-      "start": 227.689,
-      "end": 230.04,
+      "start": 225.26,
+      "end": 229.34,
       "text": "wearing your disappointed face.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1444,8 +1405,8 @@
     {
       "index": 109,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 230.04,
-      "end": 231.8,
+      "start": 230.06,
+      "end": 231.64,
       "text": "Maybe the next one gets a signpost",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1454,7 +1415,7 @@
       "index": 110,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
       "start": 231.8,
-      "end": 233.52,
+      "end": 233.24,
       "text": "Maybe the next one gets bread",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1462,8 +1423,8 @@
     {
       "index": 111,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 233.52,
-      "end": 236.95,
+      "start": 233.36,
+      "end": 235.26,
       "text": "Maybe the next time I say “grief”",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1471,8 +1432,8 @@
     {
       "index": 112,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 236.95,
-      "end": 241.36,
+      "start": 235.26,
+      "end": 239.44,
       "text": "without dressing it up as weather in my head",
       "timing_source": "whisper-aligned",
       "matched_words": 9
@@ -1480,8 +1441,8 @@
     {
       "index": 113,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 241.36,
-      "end": 243.53,
+      "start": 240.68,
+      "end": 243.16,
       "text": "Maybe I leave room for the listener",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1489,8 +1450,8 @@
     {
       "index": 114,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 243.53,
-      "end": 245.08,
+      "start": 243.16,
+      "end": 244.68,
       "text": "without handing them a map",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1498,7 +1459,7 @@
     {
       "index": 115,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 245.08,
+      "start": 244.8,
       "end": 247.06,
       "text": "Maybe I stop calling every open hand",
       "timing_source": "whisper-aligned",
@@ -1507,8 +1468,8 @@
     {
       "index": 116,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 247.39,
-      "end": 247.72,
+      "start": 247.3,
+      "end": 247.62,
       "text": "a trap",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1516,8 +1477,8 @@
     {
       "index": 117,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 247.72,
-      "end": 249.18,
+      "start": 247.62,
+      "end": 249.16,
       "text": "But I won’t flatten the hills",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1525,8 +1486,8 @@
     {
       "index": 118,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 249.18,
-      "end": 250.64,
+      "start": 249.16,
+      "end": 250.58,
       "text": "just to make the walk polite",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1534,8 +1495,8 @@
     {
       "index": 119,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 250.64,
-      "end": 252.022,
+      "start": 250.58,
+      "end": 251.94,
       "text": "I won’t drain all the color",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1543,8 +1504,8 @@
     {
       "index": 120,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 252.298,
-      "end": 253.68,
+      "start": 252.16,
+      "end": 253.6,
       "text": "so the water looks right",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1552,8 +1513,8 @@
     {
       "index": 121,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 253.68,
-      "end": 255.349,
+      "start": 253.84,
+      "end": 254.74,
       "text": "There’s a place between nonsense",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1561,44 +1522,44 @@
     {
       "index": 122,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 255.766,
-      "end": 256.183,
+      "start": 255.72,
+      "end": 256.42,
       "text": "and over-explained",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 123,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 256.6,
-      "end": 258.273,
+      "start": 256.42,
+      "end": 258.22,
       "text": "Between “look how deep I am”",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 124,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 258.273,
-      "end": 259.945,
+      "start": 258.22,
+      "end": 259.68,
       "text": "and “please feel my pain”",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 125,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 260.28,
-      "end": 263.251,
+      "start": 259.82,
+      "end": 261.4,
       "text": "I’m trying to find it.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 126,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 263.251,
-      "end": 263.994,
+      "start": 261.4,
+      "end": 261.86,
       "text": "Badly.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1606,8 +1567,8 @@
     {
       "index": 127,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 263.994,
-      "end": 265.48,
+      "start": 261.86,
+      "end": 263.3,
       "text": "With herbs.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1615,8 +1576,8 @@
     {
       "index": 128,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 265.48,
-      "end": 267.138,
+      "start": 265.1,
+      "end": 267.06,
       "text": "So if the line feels crooked",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1624,8 +1585,8 @@
     {
       "index": 129,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 267.138,
-      "end": 268.52,
+      "start": 267.24,
+      "end": 268.42,
       "text": "maybe sit with the bend",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1633,7 +1594,7 @@
     {
       "index": 130,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 268.52,
+      "start": 268.5,
       "end": 270.02,
       "text": "If the meaning comes late",
       "timing_source": "whisper-aligned",
@@ -1642,8 +1603,8 @@
     {
       "index": 131,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 270.02,
-      "end": 271.52,
+      "start": 270.22,
+      "end": 271.48,
       "text": "maybe wait for the end",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1652,7 +1613,7 @@
       "index": 132,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
       "start": 271.52,
-      "end": 274.472,
+      "end": 273.16,
       "text": "And if you still see salad",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1660,8 +1621,8 @@
     {
       "index": 133,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 274.472,
-      "end": 276.44,
+      "start": 273.36,
+      "end": 274.84,
       "text": "well, fair enough, friend—",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1669,8 +1630,8 @@
     {
       "index": 134,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 276.44,
-      "end": 279.68,
+      "start": 275.64,
+      "end": 277.66,
       "text": "But I was feeding something",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1678,8 +1639,8 @@
     {
       "index": 135,
       "section": "Verse 3 – warmer spoken rap | piano enters lightly",
-      "start": 279.68,
-      "end": 282.26,
+      "start": 279.48,
+      "end": 280.56,
       "text": "I couldn’t name then.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1687,8 +1648,8 @@
     {
       "index": 136,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 283.12,
-      "end": 285.237,
+      "start": 283.08,
+      "end": 284.56,
       "text": "If you see only salad",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1696,8 +1657,8 @@
     {
       "index": 137,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 285.237,
-      "end": 288.2,
+      "start": 285.5,
+      "end": 287.68,
       "text": "maybe you were looking for a sandwich",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1705,8 +1666,8 @@
     {
       "index": 138,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 288.2,
-      "end": 291.52,
+      "start": 288.32,
+      "end": 291.04,
       "text": "Maybe I was speaking in storms",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1714,8 +1675,8 @@
     {
       "index": 139,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 291.52,
-      "end": 294.84,
+      "start": 291.04,
+      "end": 293.32,
       "text": "when you only packed a blanket",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1723,8 +1684,8 @@
     {
       "index": 140,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 294.84,
-      "end": 297.68,
+      "start": 294.3,
+      "end": 296.38,
       "text": "If you couldn’t find the meaning",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1732,8 +1693,8 @@
     {
       "index": 141,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 297.68,
-      "end": 300.52,
+      "start": 296.86,
+      "end": 299.78,
       "text": "maybe I buried it too deep",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1741,8 +1702,8 @@
     {
       "index": 142,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 300.52,
-      "end": 303.429,
+      "start": 299.78,
+      "end": 302.34,
       "text": "But don’t call it empty",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1750,8 +1711,8 @@
     {
       "index": 143,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 303.429,
-      "end": 306.92,
+      "start": 302.34,
+      "end": 304.98,
       "text": "just because it made you reach",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1759,8 +1720,8 @@
     {
       "index": 144,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 306.92,
-      "end": 309.193,
+      "start": 306.3,
+      "end": 308.56,
       "text": "If you see only salad",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1768,8 +1729,8 @@
     {
       "index": 145,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 309.193,
-      "end": 311.92,
+      "start": 308.88,
+      "end": 311.0,
       "text": "maybe I’ll bring bread next time",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1777,8 +1738,8 @@
     {
       "index": 146,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 311.92,
-      "end": 315.84,
+      "start": 311.8,
+      "end": 314.96,
       "text": "But I won’t stop growing strange things",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1786,8 +1747,8 @@
     {
       "index": 147,
       "section": "Final Hook – warm, gently triumphant",
-      "start": 315.84,
-      "end": 319.2,
+      "start": 314.96,
+      "end": 317.0,
       "text": "in the garden of my mind",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1795,8 +1756,8 @@
     {
       "index": 148,
       "section": "Outro – spoken, slight smile | instruments fading",
-      "start": 319.2,
-      "end": 321.48,
+      "start": 318.98,
+      "end": 320.4,
       "text": "So no hard feelings.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1804,8 +1765,8 @@
     {
       "index": 149,
       "section": "Outro – spoken, slight smile | instruments fading",
-      "start": 321.48,
-      "end": 323.76,
+      "start": 321.38,
+      "end": 322.46,
       "text": "You wanted simple.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1813,8 +1774,8 @@
     {
       "index": 150,
       "section": "Outro – spoken, slight smile | instruments fading",
-      "start": 323.76,
-      "end": 326.204,
+      "start": 323.8,
+      "end": 324.64,
       "text": "I wanted seen.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1822,8 +1783,8 @@
     {
       "index": 151,
       "section": "Outro – spoken, slight smile | instruments fading",
-      "start": 326.204,
-      "end": 328.647,
+      "start": 324.64,
+      "end": 327.02,
       "text": "Somewhere between the lettuce",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1831,17 +1792,17 @@
     {
       "index": 152,
       "section": "Outro – spoken, slight smile | instruments fading",
-      "start": 328.647,
-      "end": 329.869,
+      "start": 327.02,
+      "end": 329.04,
       "text": "and the longing…",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 153,
       "section": "Outro – spoken, slight smile | instruments fading",
-      "start": 330.48,
-      "end": 332.18,
+      "start": 330.34,
+      "end": 331.74,
       "text": "we were both",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1849,8 +1810,8 @@
     {
       "index": 154,
       "section": "Outro – spoken, slight smile | instruments fading",
-      "start": 332.18,
-      "end": 333.88,
+      "start": 331.74,
+      "end": 333.58,
       "text": "a little hungry.",
       "timing_source": "whisper-aligned",
       "matched_words": 3

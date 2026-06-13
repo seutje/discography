@@ -4,561 +4,467 @@
   "title": "The Curator's Hands",
   "text_path": "Closed Doors/03 - The Curator's Hands.txt",
   "audio_path": "Closed Doors/audio/03 - The Curator's Hands.mp3",
-  "duration_seconds": 330.76,
-  "model": "base",
+  "duration_seconds": 295.62,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 175,
     "reference_word_count": 692,
-    "observed_word_count": 795,
-    "matched_word_count": 653,
-    "matched_word_ratio": 0.944,
-    "inserted_adlib_count": 0
+    "observed_word_count": 697,
+    "matched_word_count": 670,
+    "matched_word_ratio": 0.968,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 4.94,
-      "text": "Welcome back."
+      "start": 1.8,
+      "end": 2.94,
+      "text": "welcome back"
     },
     {
-      "start": 4.94,
-      "end": 7.12,
-      "text": "Please keep your hands away from the glass."
+      "start": 4.8,
+      "end": 6.62,
+      "text": "please keep your hands away from the glass"
     },
     {
-      "start": 7.12,
-      "end": 17.0,
-      "text": "And unless of course they're mine, in which case, that explains most of the fingerprints."
+      "start": 8.06,
+      "end": 9.28,
+      "text": "unless of course they're mine"
     },
     {
-      "start": 17.0,
-      "end": 21.44,
-      "text": "I used to call myself curator like that made it clean, like arranging the wreckage was"
+      "start": 10.1,
+      "end": 15.0,
+      "text": "in which case that explains most of the fingerprints"
     },
     {
-      "start": 21.44,
+      "start": 17.12,
+      "end": 19.86,
+      "text": "i used to call myself curator like that made it clean"
+    },
+    {
+      "start": 19.86,
       "end": 23.0,
-      "text": "different from making the scene."
+      "text": "like arranging the wreckage was different from making the scene"
     },
     {
       "start": 23.0,
-      "end": 25.84,
-      "text": "A thousand little fragments all polished and framed."
+      "end": 25.66,
+      "text": "a thousand little fragments all polished in frame"
     },
     {
-      "start": 25.84,
-      "end": 28.8,
-      "text": "Tiny bar room torches all speaking one name."
+      "start": 25.66,
+      "end": 28.66,
+      "text": "tiny borrowed torches all speaking one name"
     },
     {
-      "start": 28.8,
-      "end": 33.32,
-      "text": "I'd stand in the middle with the click board and grin like none of this is chaos if I"
+      "start": 28.66,
+      "end": 31.36,
+      "text": "i might stand in the middle with a clipboard and grin"
     },
     {
-      "start": 33.32,
-      "end": 36.08,
-      "text": "organize it thin."
+      "start": 31.36,
+      "end": 34.64,
+      "text": "like none of this is chaos if i organize it thin"
     },
     {
-      "start": 36.08,
-      "end": 40.24,
-      "text": "Here's the long wing, here's the father display, here's the childhood exhibit."
+      "start": 35.66,
+      "end": 38.52,
+      "text": "here's the longing wing here's the father display"
     },
     {
-      "start": 40.24,
-      "end": 41.84,
-      "text": "Please don't leave that way."
+      "start": 38.52,
+      "end": 41.6,
+      "text": "here's the childhood exhibit please don't lean that way"
     },
     {
-      "start": 41.84,
-      "end": 44.76,
-      "text": "Here's a small angry room where the comments still live."
+      "start": 41.6,
+      "end": 44.56,
+      "text": "here's a small angry room where the comets still live"
     },
     {
-      "start": 44.76,
-      "end": 47.44,
-      "text": "Here's the joke I keep telling so I don't have to forgive."
+      "start": 44.56,
+      "end": 47.18,
+      "text": "here's the joke i keep telling so i don't have to forgive"
     },
     {
-      "start": 47.44,
-      "end": 50.68,
-      "text": "And here behind glass is the part I call art."
+      "start": 47.18,
+      "end": 50.46,
+      "text": "and here behind glass is the part i call art"
     },
     {
-      "start": 50.68,
-      "end": 54.68,
-      "text": "A nervous little animal pretending to be smart."
+      "start": 50.46,
+      "end": 53.9,
+      "text": "a nervous little animal pretending to be smart"
     },
     {
-      "start": 54.68,
-      "end": 58.84,
-      "text": "Oh, curator, what did you keep?"
+      "start": 55.66,
+      "end": 58.3,
+      "text": "oh curator what did you keep"
     },
     {
-      "start": 58.84,
-      "end": 61.92,
-      "text": "What did you bury to make the room look deep?"
+      "start": 58.82,
+      "end": 61.88,
+      "text": "what did you bury to make the room look deep"
     },
     {
-      "start": 61.92,
-      "end": 64.52,
-      "text": "Oh, curator, who did you become?"
+      "start": 62.08,
+      "end": 64.2,
+      "text": "oh curator who did you become"
     },
     {
-      "start": 64.52,
-      "end": 72.32,
-      "text": "When every thousand voices had to answer as one."
+      "start": 64.4,
+      "end": 68.62,
+      "text": "when every thousand voices had to answer as one"
     },
     {
-      "start": 72.32,
-      "end": 76.16,
-      "text": "See, the label said mixed media, personal history."
+      "start": 71.84,
+      "end": 75.62,
+      "text": "see the label said mixed media personal history"
     },
     {
-      "start": 76.16,
-      "end": 79.72,
-      "text": "Which is a polite way of saying please don't ask directly."
+      "start": 75.62,
+      "end": 79.4,
+      "text": "which is a polite way of saying please don't ask directly"
     },
     {
-      "start": 79.72,
-      "end": 84.96,
-      "text": "The label said in a way period self-arrangement, which is a polite way of saying I was scared"
+      "start": 79.4,
+      "end": 82.26,
+      "text": "the label said me period self arrangement"
     },
     {
-      "start": 84.96,
-      "end": 85.96,
-      "text": "of the basement."
+      "start": 82.26,
+      "end": 85.68,
+      "text": "which is a polite way of saying i was scared of the basement"
     },
     {
-      "start": 85.96,
-      "end": 91.72,
-      "text": "The label said the themes of distance class and restraint, which is a polite way of saying"
+      "start": 85.68,
+      "end": 88.86,
+      "text": "the label said the themes of distance class and restraint"
     },
     {
-      "start": 91.72,
-      "end": 96.2,
-      "text": "I wanted help and couldn't complain."
+      "start": 89.38,
+      "end": 94.4,
+      "text": "which is a polite way of saying i wanted help and couldn't complain"
     },
     {
-      "start": 96.2,
-      "end": 99.92,
-      "text": "And people not to beat because labels are magic when they're printed small."
+      "start": 95.58,
+      "end": 99.7,
+      "text": "and people nodded because labels are magic when they're printed small"
     },
     {
-      "start": 99.92,
-      "end": 102.84,
-      "text": "You can hide a whole collapse on a white museum wall."
+      "start": 99.7,
+      "end": 102.68,
+      "text": "you can hide a whole collapse on a white museum wall"
     },
     {
-      "start": 102.84,
-      "end": 104.84,
-      "text": "You can call it material tension."
+      "start": 102.68,
+      "end": 106.32,
+      "text": "you can call it material tension when the material is grief"
     },
     {
-      "start": 104.84,
-      "end": 109.24,
-      "text": "When no material is grief, you can call it negative space."
+      "start": 106.32,
+      "end": 110.74,
+      "text": "you can call it negative space when what's missing is belief"
     },
     {
-      "start": 109.24,
-      "end": 114.6,
-      "text": "When what's missing is belief, you can call it found object when the object is a child"
+      "start": 111.38,
+      "end": 114.54,
+      "text": "you can call it found object when the object is a child"
     },
     {
-      "start": 114.6,
-      "end": 118.24,
-      "text": "left into many rooms and told to be mild."
+      "start": 114.54,
+      "end": 117.98,
+      "text": "left in too many rooms and told to be mild"
     },
     {
-      "start": 118.24,
-      "end": 121.52,
-      "text": "Oh, curator, what did you move?"
+      "start": 117.98,
+      "end": 120.98,
+      "text": "oh curator what did you move"
     },
     {
-      "start": 121.52,
-      "end": 122.52,
-      "text": "What did you soften?"
-    },
-    {
-      "start": 122.52,
+      "start": 121.4,
       "end": 124.56,
-      "text": "So the story felt smooth."
+      "text": "what did you soften so the story felt smooth"
     },
     {
-      "start": 124.56,
-      "end": 126.76,
-      "text": "Oh, curator, tell me the truth."
+      "start": 124.68,
+      "end": 126.6,
+      "text": "oh curator tell me the truth"
     },
     {
-      "start": 126.76,
-      "end": 131.76,
-      "text": "Did you protect the peace or protect yourself from proof?"
+      "start": 126.6,
+      "end": 131.64,
+      "text": "did you protect the peace or protect yourself from proof"
     },
     {
-      "start": 132.76,
-      "end": 138.76,
-      "text": "I found the old notes not dramatic just a folder with dates that lived harmless."
+      "start": 133.32,
+      "end": 136.16,
+      "text": "i found the old notes not dramatic"
     },
     {
-      "start": 138.76,
-      "end": 144.76,
-      "text": "Little records of attempts to make the shape behave too bitter, too ornate too direct too much"
+      "start": 136.16,
+      "end": 138.86,
+      "text": "just a folder with dates that looked harmless"
     },
     {
-      "start": 144.76,
-      "end": 145.76,
-      "text": "not enough."
+      "start": 138.86,
+      "end": 142.1,
+      "text": "little records of attempts to make the shape behave"
     },
     {
-      "start": 145.76,
-      "end": 149.76,
-      "text": "Try again but make it sound like someone survived it."
+      "start": 142.1,
+      "end": 145.9,
+      "text": "too bitter too ornate too direct too much not enough"
     },
     {
-      "start": 149.76,
-      "end": 155.76,
-      "text": "That one hurt because I did sort of depending how generously you define survive."
+      "start": 146.46,
+      "end": 150.0,
+      "text": "try again but make it sound like someone survived it"
     },
     {
-      "start": 155.76,
-      "end": 160.76,
-      "text": "I kept trying to make a person out of evidence but every time I trim the edges I lost the"
+      "start": 150.0,
+      "end": 152.72,
+      "text": "that one hurt because i did sort of"
     },
     {
-      "start": 160.76,
-      "end": 161.76,
-      "text": "finger prints."
+      "start": 152.72,
+      "end": 155.56,
+      "text": "depending how generously you define survive"
     },
     {
-      "start": 161.76,
-      "end": 164.76,
-      "text": "Every time I made a balance, it stopped breathing right."
+      "start": 155.56,
+      "end": 158.24,
+      "text": "i kept trying to make a person out of evidence"
     },
     {
-      "start": 164.76,
-      "end": 167.76,
-      "text": "Every time I made it pretty, I forgot the night."
+      "start": 158.24,
+      "end": 161.62,
+      "text": "but every time i trimmed the edges i lost the fingerprints"
     },
     {
-      "start": 167.76,
-      "end": 170.76,
-      "text": "There's a difference between care and control."
+      "start": 161.62,
+      "end": 164.68,
+      "text": "every time i made it balanced it stopped breathing right"
     },
     {
-      "start": 170.76,
-      "end": 175.76,
-      "text": "I learned that light, which is on brand."
+      "start": 164.68,
+      "end": 167.64,
+      "text": "every time i made it pretty it forgot the night"
     },
     {
-      "start": 175.76,
-      "end": 178.92,
-      "text": "Maybe I wasn't making meaning."
+      "start": 167.64,
+      "end": 170.44,
+      "text": "there's a difference between care and control"
     },
     {
-      "start": 178.92,
-      "end": 181.8,
-      "text": "Maybe I was making distance."
+      "start": 170.44,
+      "end": 173.84,
+      "text": "i learned that light which is on brand"
     },
     {
-      "start": 181.8,
-      "end": 187.76,
-      "text": "Maybe I kept the hard parts beautiful so nobody would touch them."
+      "start": 175.04,
+      "end": 177.12,
+      "text": "maybe i wasn't making meaning"
     },
     {
-      "start": 187.76,
-      "end": 193.76,
-      "text": "Maybe I called it a gallery because the storage unit for pain is terrible branding."
+      "start": 178.18,
+      "end": 180.28,
+      "text": "maybe i was making distance"
     },
     {
-      "start": 193.76,
-      "end": 200.76,
-      "text": "Maybe the earlier version of me wasn't wrong just lonely with better lighting."
+      "start": 181.08,
+      "end": 185.92,
+      "text": "maybe i kept the heart parts beautiful so nobody would touch them"
     },
     {
-      "start": 200.76,
-      "end": 202.76,
-      "text": "So here's what I know now."
+      "start": 187.06,
+      "end": 193.1,
+      "text": "maybe i called it a gallery because storage unit for pain is terrible branding"
     },
     {
-      "start": 202.76,
-      "end": 203.76,
-      "text": "The hands matter."
+      "start": 193.82,
+      "end": 196.94,
+      "text": "maybe the earlier version of me wasn't wrong"
     },
     {
-      "start": 203.76,
-      "end": 206.76,
-      "text": "Not because they made everything for nothing."
+      "start": 196.94,
+      "end": 199.66,
+      "text": "and just lonely with better lighting"
     },
     {
-      "start": 206.76,
-      "end": 207.76,
-      "text": "Nobody does."
+      "start": 200.78,
+      "end": 202.64,
+      "text": "so here's what i know now"
     },
     {
-      "start": 207.76,
-      "end": 208.76,
-      "text": "We inherit rooms."
+      "start": 202.64,
+      "end": 206.5,
+      "text": "the hands matter not because they made everything for nothing"
     },
     {
-      "start": 208.76,
-      "end": 209.76,
-      "text": "We borrow phrases."
+      "start": 206.5,
+      "end": 210.06,
+      "text": "nobody does we inherit rooms we borrow phrases"
     },
     {
-      "start": 209.76,
-      "end": 215.76,
-      "text": "We must remember whether we keep what cuts us because at least it proves something made"
+      "start": 210.06,
+      "end": 213.26,
+      "text": "we must remember whether we keep what cuts us"
     },
     {
-      "start": 215.76,
-      "end": 216.76,
-      "text": "fun."
+      "start": 213.26,
+      "end": 216.42,
+      "text": "because at least it proves something made contact"
     },
     {
-      "start": 216.76,
-      "end": 219.76,
-      "text": "The hands matter because they choose."
+      "start": 216.42,
+      "end": 219.2,
+      "text": "the hands matter because they choose"
     },
     {
-      "start": 219.76,
-      "end": 221.76,
-      "text": "The shard not that run."
+      "start": 219.74,
+      "end": 221.26,
+      "text": "this shard not that one"
     },
     {
-      "start": 221.76,
-      "end": 222.76,
-      "text": "This silence."
+      "start": 221.26,
+      "end": 222.9,
+      "text": "this silence not yet"
     },
     {
-      "start": 222.76,
-      "end": 223.76,
-      "text": "Not yet."
+      "start": 222.9,
+      "end": 225.52,
+      "text": "this wound with the chair beside it"
     },
     {
-      "start": 223.76,
-      "end": 225.76,
-      "text": "This wound with the chair beside it."
+      "start": 225.52,
+      "end": 229.18,
+      "text": "this joke so the wound doesn't think it owns the house"
     },
     {
-      "start": 225.76,
-      "end": 229.76,
-      "text": "This joke so the wound doesn't think it owns the house."
+      "start": 229.18,
+      "end": 232.36,
+      "text": "the hands matter because they return"
     },
     {
-      "start": 229.76,
-      "end": 235.76,
-      "text": "The hands matter because they return because they keep rearranging what they couldn't repair"
+      "start": 232.36,
+      "end": 235.36,
+      "text": "because they keep rearranging what they couldn't repair"
     },
     {
-      "start": 235.76,
-      "end": 239.76,
-      "text": "because they look the same piece again and again and whisper."
+      "start": 235.36,
+      "end": 236.72,
+      "text": "because they look the same"
     },
     {
-      "start": 239.76,
-      "end": 243.76,
-      "text": "Maybe not beautiful but honest there."
+      "start": 236.72,
+      "end": 239.36,
+      "text": "peace again and again and whisper"
     },
     {
-      "start": 243.76,
+      "start": 239.9,
+      "end": 243.28,
+      "text": "maybe not beautiful but honest there"
+    },
+    {
+      "start": 243.28,
       "end": 244.76,
-      "text": "Oh, creator."
+      "text": "oh creator"
     },
     {
       "start": 244.76,
-      "end": 245.76,
-      "text": "Open the room."
+      "end": 249.24,
+      "text": "open the room leave some dust and leave some gloom"
     },
     {
-      "start": 245.76,
-      "end": 249.76,
-      "text": "Leave some dust and leave some gloom."
+      "start": 249.24,
+      "end": 250.84,
+      "text": "oh creator"
     },
     {
-      "start": 249.76,
-      "end": 250.76,
-      "text": "Oh, creator."
+      "start": 250.84,
+      "end": 255.9,
+      "text": "let it be touched not everything fragile has to mean too much"
     },
     {
-      "start": 250.76,
-      "end": 251.76,
-      "text": "Let it be touched."
+      "start": 255.9,
+      "end": 256.82,
+      "text": "oh creator"
     },
     {
-      "start": 251.76,
-      "end": 255.76,
-      "text": "Not everything fragile has to mean to my joke."
+      "start": 256.82,
+      "end": 260.14,
+      "text": "lower the light let the crooked things stay"
     },
     {
-      "start": 255.76,
-      "end": 256.76,
-      "text": "Creator."
+      "start": 260.14,
+      "end": 265.9,
+      "text": "crooked tonight if a thousand voices still answer as one"
     },
     {
-      "start": 256.76,
-      "end": 257.76,
-      "text": "Lower the light."
+      "start": 267.08,
+      "end": 271.84,
+      "text": "maybe the name they speak isn't finished just begun"
     },
     {
-      "start": 257.76,
-      "end": 259.76,
-      "text": "Let the crooked things stay."
+      "start": 272.44,
+      "end": 273.02,
+      "text": "so yes"
     },
     {
-      "start": 259.76,
-      "end": 260.76,
-      "text": "Crooked tonight."
+      "start": 274.12,
+      "end": 276.74,
+      "text": "the fingerprints in mine the cracked frame too"
     },
     {
-      "start": 260.76,
-      "end": 266.76,
-      "text": "If a thousand voices still answer as one."
+      "start": 276.74,
+      "end": 280.24,
+      "text": "the missing label the overlong explanation"
     },
     {
-      "start": 266.76,
-      "end": 270.76,
-      "text": "Maybe the name they speak isn't finished."
+      "start": 280.84,
+      "end": 284.02,
+      "text": "the unnecessary netter for near the exquisite"
     },
     {
-      "start": 270.76,
-      "end": 271.76,
-      "text": "Just begun."
+      "start": 284.9,
+      "end": 287.72,
+      "text": "i'm not proud of every room"
     },
     {
-      "start": 272.76,
-      "end": 273.76,
-      "text": "So yes."
+      "start": 288.44,
+      "end": 291.02,
+      "text": "but i know why each one's there"
     },
     {
-      "start": 273.76,
-      "end": 275.76,
-      "text": "The fingerprints in mind."
-    },
-    {
-      "start": 275.76,
-      "end": 276.76,
-      "text": "The cracked frame too."
-    },
-    {
-      "start": 276.76,
-      "end": 277.76,
-      "text": "The missing label."
-    },
-    {
-      "start": 277.76,
-      "end": 280.76,
-      "text": "The overlong explanation."
-    },
-    {
-      "start": 280.76,
-      "end": 282.76,
-      "text": "The unnecessary matter for me."
-    },
-    {
-      "start": 282.76,
-      "end": 284.76,
-      "text": "If the exit."
-    },
-    {
-      "start": 284.76,
-      "end": 287.76,
-      "text": "I'm not proud of every room."
-    },
-    {
-      "start": 287.76,
-      "end": 291.76,
-      "text": "But I know why each one's there."
-    },
-    {
-      "start": 291.76,
-      "end": 295.76,
-      "text": "And for once, I'm leaving the doors unlocked."
-    },
-    {
-      "start": 301.76,
-      "end": 304.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 304.76,
-      "end": 307.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 307.76,
-      "end": 310.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 310.76,
-      "end": 313.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 313.76,
-      "end": 316.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 316.76,
-      "end": 318.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 318.76,
-      "end": 320.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 320.76,
-      "end": 322.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 322.76,
-      "end": 324.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 324.76,
-      "end": 325.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 325.76,
-      "end": 327.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 327.76,
-      "end": 328.76,
-      "text": "And for once, I'm leaving the door."
-    },
-    {
-      "start": 328.76,
-      "end": 330.76,
-      "text": "And for once, I'm leaving the door."
+      "start": 292.28,
+      "end": 295.62,
+      "text": "and for once i'm leaving the doors unlocked"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – spoken | sparse guitar",
-      "start": 0.0,
-      "end": 2.47,
+      "start": 1.8,
+      "end": 2.94,
       "text": "Welcome back.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 1,
       "section": "Intro – spoken | sparse guitar",
-      "start": 4.94,
-      "end": 6.03,
+      "start": 4.8,
+      "end": 5.6,
       "text": "Please keep your hands",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -566,8 +472,8 @@
     {
       "index": 2,
       "section": "Intro – spoken | sparse guitar",
-      "start": 6.03,
-      "end": 7.12,
+      "start": 5.6,
+      "end": 6.62,
       "text": "away from the glass.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -575,8 +481,8 @@
     {
       "index": 3,
       "section": "Intro – spoken | sparse guitar",
-      "start": 7.779,
-      "end": 9.755,
+      "start": 8.06,
+      "end": 8.7,
       "text": "Unless, of course,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -584,8 +490,8 @@
     {
       "index": 4,
       "section": "Intro – spoken | sparse guitar",
-      "start": 9.755,
-      "end": 11.072,
+      "start": 8.7,
+      "end": 9.28,
       "text": "they’re mine.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -593,8 +499,8 @@
     {
       "index": 5,
       "section": "Intro – spoken | sparse guitar",
-      "start": 11.072,
-      "end": 13.048,
+      "start": 10.1,
+      "end": 10.82,
       "text": "In which case—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -602,8 +508,8 @@
     {
       "index": 6,
       "section": "Intro – spoken | sparse guitar",
-      "start": 13.048,
-      "end": 14.365,
+      "start": 11.78,
+      "end": 12.58,
       "text": "that explains",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -611,8 +517,8 @@
     {
       "index": 7,
       "section": "Intro – spoken | sparse guitar",
-      "start": 14.365,
-      "end": 17.0,
+      "start": 12.58,
+      "end": 15.0,
       "text": "most of the fingerprints.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -620,8 +526,8 @@
     {
       "index": 8,
       "section": "Section I – The Gallery",
-      "start": 17.0,
-      "end": 18.665,
+      "start": 17.12,
+      "end": 18.52,
       "text": "I used to call myself curator",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -629,8 +535,8 @@
     {
       "index": 9,
       "section": "Section I – The Gallery",
-      "start": 18.665,
-      "end": 20.053,
+      "start": 18.52,
+      "end": 19.86,
       "text": "like that made it clean",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -638,8 +544,8 @@
     {
       "index": 10,
       "section": "Section I – The Gallery",
-      "start": 20.053,
-      "end": 21.163,
+      "start": 19.86,
+      "end": 21.22,
       "text": "Like arranging the wreckage",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -647,7 +553,7 @@
     {
       "index": 11,
       "section": "Section I – The Gallery",
-      "start": 21.163,
+      "start": 21.22,
       "end": 23.0,
       "text": "was different from making the scene",
       "timing_source": "whisper-aligned",
@@ -657,7 +563,7 @@
       "index": 12,
       "section": "Section I – The Gallery",
       "start": 23.0,
-      "end": 24.42,
+      "end": 24.38,
       "text": "A thousand little fragments",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -665,26 +571,26 @@
     {
       "index": 13,
       "section": "Section I – The Gallery",
-      "start": 24.42,
-      "end": 25.84,
+      "start": 24.38,
+      "end": 25.08,
       "text": "all polished and framed",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 14,
-      "section": "Section I – The Gallery",
-      "start": 25.84,
-      "end": 27.32,
-      "text": "Tiny borrowed torches",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 14,
+      "section": "Section I – The Gallery",
+      "start": 25.66,
+      "end": 27.18,
+      "text": "Tiny borrowed torches",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
       "index": 15,
       "section": "Section I – The Gallery",
-      "start": 27.32,
-      "end": 28.8,
+      "start": 27.18,
+      "end": 28.66,
       "text": "all speaking one name",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -692,26 +598,26 @@
     {
       "index": 16,
       "section": "Section I – The Gallery",
-      "start": 28.8,
-      "end": 29.989,
+      "start": 28.92,
+      "end": 30.08,
       "text": "I’d stand in the middle",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 17,
       "section": "Section I – The Gallery",
-      "start": 29.989,
-      "end": 31.417,
+      "start": 30.08,
+      "end": 31.36,
       "text": "with a clipboard and grin",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 18,
       "section": "Section I – The Gallery",
-      "start": 31.417,
-      "end": 32.844,
+      "start": 31.36,
+      "end": 32.92,
       "text": "Like, “None of this is chaos",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -719,8 +625,8 @@
     {
       "index": 19,
       "section": "Section I – The Gallery",
-      "start": 32.844,
-      "end": 36.08,
+      "start": 32.92,
+      "end": 34.64,
       "text": "if I organize it thin”",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -728,17 +634,17 @@
     {
       "index": 20,
       "section": "Section I – The Gallery",
-      "start": 36.08,
-      "end": 37.467,
+      "start": 35.66,
+      "end": 37.28,
       "text": "Here’s the longing wing",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 21,
       "section": "Section I – The Gallery",
-      "start": 37.467,
-      "end": 38.853,
+      "start": 37.42,
+      "end": 38.52,
       "text": "Here’s the father display",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -746,8 +652,8 @@
     {
       "index": 22,
       "section": "Section I – The Gallery",
-      "start": 38.853,
-      "end": 40.24,
+      "start": 38.52,
+      "end": 40.14,
       "text": "Here’s the childhood exhibit",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -755,17 +661,17 @@
     {
       "index": 23,
       "section": "Section I – The Gallery",
-      "start": 40.24,
-      "end": 41.84,
+      "start": 40.26,
+      "end": 41.6,
       "text": "Please don’t lean that way",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 24,
       "section": "Section I – The Gallery",
-      "start": 41.84,
-      "end": 43.3,
+      "start": 41.6,
+      "end": 43.08,
       "text": "Here’s a small angry room",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -773,17 +679,17 @@
     {
       "index": 25,
       "section": "Section I – The Gallery",
-      "start": 43.3,
-      "end": 44.76,
+      "start": 43.08,
+      "end": 44.56,
       "text": "where the comments still live",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 26,
       "section": "Section I – The Gallery",
-      "start": 44.76,
-      "end": 46.1,
+      "start": 44.56,
+      "end": 45.8,
       "text": "Here’s the joke I keep telling",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -791,8 +697,8 @@
     {
       "index": 27,
       "section": "Section I – The Gallery",
-      "start": 46.1,
-      "end": 47.44,
+      "start": 45.8,
+      "end": 47.18,
       "text": "so I don’t have to forgive",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -800,8 +706,8 @@
     {
       "index": 28,
       "section": "Section I – The Gallery",
-      "start": 47.44,
-      "end": 48.736,
+      "start": 47.18,
+      "end": 48.92,
       "text": "And here, behind glass,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -809,8 +715,8 @@
     {
       "index": 29,
       "section": "Section I – The Gallery",
-      "start": 48.736,
-      "end": 50.68,
+      "start": 48.92,
+      "end": 50.46,
       "text": "is the part I call art:",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -818,8 +724,8 @@
     {
       "index": 30,
       "section": "Section I – The Gallery",
-      "start": 50.68,
-      "end": 52.68,
+      "start": 50.46,
+      "end": 51.96,
       "text": "a nervous little animal",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -827,8 +733,8 @@
     {
       "index": 31,
       "section": "Section I – The Gallery",
-      "start": 52.68,
-      "end": 54.68,
+      "start": 51.96,
+      "end": 53.9,
       "text": "pretending to be smart.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -836,8 +742,8 @@
     {
       "index": 32,
       "section": "Refrain – softly sung",
-      "start": 54.68,
-      "end": 56.067,
+      "start": 55.66,
+      "end": 56.92,
       "text": "Oh, Curator",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -845,8 +751,8 @@
     {
       "index": 33,
       "section": "Refrain – softly sung",
-      "start": 56.067,
-      "end": 58.84,
+      "start": 57.1,
+      "end": 58.3,
       "text": "what did you keep?",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -854,8 +760,8 @@
     {
       "index": 34,
       "section": "Refrain – softly sung",
-      "start": 58.84,
-      "end": 60.072,
+      "start": 58.82,
+      "end": 59.82,
       "text": "What did you bury",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -863,8 +769,8 @@
     {
       "index": 35,
       "section": "Refrain – softly sung",
-      "start": 60.072,
-      "end": 61.92,
+      "start": 59.82,
+      "end": 61.88,
       "text": "to make the room look deep?",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -872,8 +778,8 @@
     {
       "index": 36,
       "section": "Refrain – softly sung",
-      "start": 61.92,
-      "end": 62.787,
+      "start": 62.08,
+      "end": 62.72,
       "text": "Oh, Curator",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -881,8 +787,8 @@
     {
       "index": 37,
       "section": "Refrain – softly sung",
-      "start": 62.787,
-      "end": 64.52,
+      "start": 63.0,
+      "end": 64.2,
       "text": "who did you become?",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -890,8 +796,8 @@
     {
       "index": 38,
       "section": "Refrain – softly sung",
-      "start": 64.52,
-      "end": 67.987,
+      "start": 64.4,
+      "end": 65.84,
       "text": "When every thousand voices",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -899,8 +805,8 @@
     {
       "index": 39,
       "section": "Refrain – softly sung",
-      "start": 67.987,
-      "end": 72.32,
+      "start": 65.84,
+      "end": 68.62,
       "text": "had to answer as one?",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -908,8 +814,8 @@
     {
       "index": 40,
       "section": "Section II – The Label",
-      "start": 72.32,
-      "end": 74.24,
+      "start": 71.84,
+      "end": 73.6,
       "text": "See, the label said",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -917,8 +823,8 @@
     {
       "index": 41,
       "section": "Section II – The Label",
-      "start": 74.24,
-      "end": 76.16,
+      "start": 73.6,
+      "end": 75.62,
       "text": "“mixed media, personal history”",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -926,8 +832,8 @@
     {
       "index": 42,
       "section": "Section II – The Label",
-      "start": 76.16,
-      "end": 78.425,
+      "start": 75.62,
+      "end": 77.76,
       "text": "which is a polite way of saying",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -935,8 +841,8 @@
     {
       "index": 43,
       "section": "Section II – The Label",
-      "start": 78.425,
-      "end": 79.72,
+      "start": 77.76,
+      "end": 79.4,
       "text": "“please don’t ask directly.”",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -944,8 +850,8 @@
     {
       "index": 44,
       "section": "Section II – The Label",
-      "start": 79.72,
-      "end": 80.547,
+      "start": 79.4,
+      "end": 80.44,
       "text": "The label said",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -953,8 +859,8 @@
     {
       "index": 45,
       "section": "Section II – The Label",
-      "start": 81.375,
-      "end": 82.202,
+      "start": 80.74,
+      "end": 82.26,
       "text": "“late period self-arrangement”",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -962,8 +868,8 @@
     {
       "index": 46,
       "section": "Section II – The Label",
-      "start": 82.202,
-      "end": 84.133,
+      "start": 82.26,
+      "end": 84.14,
       "text": "which is a polite way of saying",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -971,8 +877,8 @@
     {
       "index": 47,
       "section": "Section II – The Label",
-      "start": 84.133,
-      "end": 85.96,
+      "start": 84.14,
+      "end": 85.68,
       "text": "“I was scared of the basement.”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -980,8 +886,8 @@
     {
       "index": 48,
       "section": "Section II – The Label",
-      "start": 85.96,
-      "end": 86.976,
+      "start": 85.68,
+      "end": 86.58,
       "text": "The label said",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -989,8 +895,8 @@
     {
       "index": 49,
       "section": "Section II – The Label",
-      "start": 87.315,
-      "end": 89.348,
+      "start": 86.72,
+      "end": 88.86,
       "text": "“themes of distance, class, and restraint”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -998,8 +904,8 @@
     {
       "index": 50,
       "section": "Section II – The Label",
-      "start": 89.348,
-      "end": 91.72,
+      "start": 89.38,
+      "end": 91.24,
       "text": "which is a polite way of saying",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1007,8 +913,8 @@
     {
       "index": 51,
       "section": "Section II – The Label",
-      "start": 91.72,
-      "end": 96.2,
+      "start": 91.24,
+      "end": 94.4,
       "text": "“I wanted help and couldn’t complain.”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1016,17 +922,17 @@
     {
       "index": 52,
       "section": "Section II – The Label",
-      "start": 96.2,
-      "end": 96.772,
+      "start": 95.58,
+      "end": 96.86,
       "text": "And people nodded.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 53,
       "section": "Section II – The Label",
-      "start": 97.631,
-      "end": 98.775,
+      "start": 96.86,
+      "end": 98.18,
       "text": "Because labels are magic",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1034,8 +940,8 @@
     {
       "index": 54,
       "section": "Section II – The Label",
-      "start": 98.775,
-      "end": 99.92,
+      "start": 98.18,
+      "end": 99.7,
       "text": "when they’re printed small.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1043,8 +949,8 @@
     {
       "index": 55,
       "section": "Section II – The Label",
-      "start": 99.92,
-      "end": 101.513,
+      "start": 99.7,
+      "end": 101.28,
       "text": "You can hide a whole collapse",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1052,8 +958,8 @@
     {
       "index": 56,
       "section": "Section II – The Label",
-      "start": 101.513,
-      "end": 102.84,
+      "start": 101.28,
+      "end": 102.68,
       "text": "on a white museum wall.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1061,8 +967,8 @@
     {
       "index": 57,
       "section": "Section II – The Label",
-      "start": 102.84,
-      "end": 104.84,
+      "start": 102.68,
+      "end": 104.6,
       "text": "You can call it “material tension”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1070,17 +976,17 @@
     {
       "index": 58,
       "section": "Section II – The Label",
-      "start": 104.84,
-      "end": 106.84,
+      "start": 104.6,
+      "end": 106.32,
       "text": "when the material is grief.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 59,
       "section": "Section II – The Label",
-      "start": 106.84,
-      "end": 109.24,
+      "start": 106.32,
+      "end": 108.34,
       "text": "You can call it “negative space”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1088,8 +994,8 @@
     {
       "index": 60,
       "section": "Section II – The Label",
-      "start": 109.24,
-      "end": 110.816,
+      "start": 108.34,
+      "end": 110.74,
       "text": "when what’s missing is belief.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1097,8 +1003,8 @@
     {
       "index": 61,
       "section": "Section II – The Label",
-      "start": 110.816,
-      "end": 112.708,
+      "start": 111.34,
+      "end": 112.92,
       "text": "You can call it “found object”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1106,8 +1012,8 @@
     {
       "index": 62,
       "section": "Section II – The Label",
-      "start": 112.708,
-      "end": 114.6,
+      "start": 112.92,
+      "end": 114.54,
       "text": "when the object is a child",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1115,17 +1021,17 @@
     {
       "index": 63,
       "section": "Section II – The Label",
-      "start": 114.6,
-      "end": 116.218,
+      "start": 114.54,
+      "end": 115.86,
       "text": "left in too many rooms",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 64,
       "section": "Section II – The Label",
-      "start": 116.218,
-      "end": 118.24,
+      "start": 115.86,
+      "end": 117.98,
       "text": "and told to be mild.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1133,8 +1039,8 @@
     {
       "index": 65,
       "section": "Refrain – warmer",
-      "start": 118.24,
-      "end": 119.333,
+      "start": 117.98,
+      "end": 119.48,
       "text": "Oh, Curator",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1142,8 +1048,8 @@
     {
       "index": 66,
       "section": "Refrain – warmer",
-      "start": 119.333,
-      "end": 121.52,
+      "start": 119.88,
+      "end": 120.98,
       "text": "what did you move?",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1151,8 +1057,8 @@
     {
       "index": 67,
       "section": "Refrain – warmer",
-      "start": 121.52,
-      "end": 122.52,
+      "start": 121.4,
+      "end": 122.42,
       "text": "What did you soften",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1160,7 +1066,7 @@
     {
       "index": 68,
       "section": "Refrain – warmer",
-      "start": 122.52,
+      "start": 122.42,
       "end": 124.56,
       "text": "so the story felt smooth?",
       "timing_source": "whisper-aligned",
@@ -1169,8 +1075,8 @@
     {
       "index": 69,
       "section": "Refrain – warmer",
-      "start": 124.56,
-      "end": 125.293,
+      "start": 124.68,
+      "end": 125.4,
       "text": "Oh, Curator",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1178,8 +1084,8 @@
     {
       "index": 70,
       "section": "Refrain – warmer",
-      "start": 125.293,
-      "end": 126.76,
+      "start": 125.78,
+      "end": 126.6,
       "text": "tell me the truth:",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1187,8 +1093,8 @@
     {
       "index": 71,
       "section": "Refrain – warmer",
-      "start": 126.76,
-      "end": 128.76,
+      "start": 126.6,
+      "end": 127.76,
       "text": "Did you protect the piece",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1196,8 +1102,8 @@
     {
       "index": 72,
       "section": "Refrain – warmer",
-      "start": 129.26,
-      "end": 131.76,
+      "start": 128.24,
+      "end": 131.64,
       "text": "or protect yourself from proof?",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1205,8 +1111,8 @@
     {
       "index": 73,
       "section": "Section III – The Log",
-      "start": 132.76,
-      "end": 134.76,
+      "start": 133.32,
+      "end": 134.86,
       "text": "I found the old notes.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1214,8 +1120,8 @@
     {
       "index": 74,
       "section": "Section III – The Log",
-      "start": 134.76,
-      "end": 135.56,
+      "start": 135.14,
+      "end": 136.16,
       "text": "Not dramatic.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1223,8 +1129,8 @@
     {
       "index": 75,
       "section": "Section III – The Log",
-      "start": 135.56,
-      "end": 136.76,
+      "start": 136.16,
+      "end": 137.14,
       "text": "Just a folder",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1232,17 +1138,17 @@
     {
       "index": 76,
       "section": "Section III – The Log",
-      "start": 136.76,
-      "end": 138.76,
+      "start": 137.14,
+      "end": 138.86,
       "text": "with dates that looked harmless.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 77,
       "section": "Section III – The Log",
-      "start": 138.76,
-      "end": 140.172,
+      "start": 138.86,
+      "end": 140.68,
       "text": "Little records of attempts",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1250,8 +1156,8 @@
     {
       "index": 78,
       "section": "Section III – The Log",
-      "start": 140.172,
-      "end": 141.936,
+      "start": 140.68,
+      "end": 142.1,
       "text": "to make the shape behave.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1259,8 +1165,8 @@
     {
       "index": 79,
       "section": "Section III – The Log",
-      "start": 141.936,
-      "end": 142.642,
+      "start": 142.1,
+      "end": 142.88,
       "text": "“Too bitter.”",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1268,8 +1174,8 @@
     {
       "index": 80,
       "section": "Section III – The Log",
-      "start": 142.642,
-      "end": 143.348,
+      "start": 143.0,
+      "end": 143.64,
       "text": "“Too ornate.”",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1277,8 +1183,8 @@
     {
       "index": 81,
       "section": "Section III – The Log",
-      "start": 143.348,
-      "end": 144.054,
+      "start": 143.78,
+      "end": 144.34,
       "text": "“Too direct.”",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1286,8 +1192,8 @@
     {
       "index": 82,
       "section": "Section III – The Log",
-      "start": 144.054,
-      "end": 144.76,
+      "start": 144.38,
+      "end": 145.12,
       "text": "“Too much.”",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1295,8 +1201,8 @@
     {
       "index": 83,
       "section": "Section III – The Log",
-      "start": 144.76,
-      "end": 145.76,
+      "start": 145.24,
+      "end": 145.9,
       "text": "“Not enough.”",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1304,8 +1210,8 @@
     {
       "index": 84,
       "section": "Section III – The Log",
-      "start": 145.76,
-      "end": 148.16,
+      "start": 146.46,
+      "end": 148.12,
       "text": "“Try again, but make it sound",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1313,8 +1219,8 @@
     {
       "index": 85,
       "section": "Section III – The Log",
-      "start": 148.16,
-      "end": 149.76,
+      "start": 148.12,
+      "end": 150.0,
       "text": "like someone survived it.”",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1322,8 +1228,8 @@
     {
       "index": 86,
       "section": "Section III – The Log",
-      "start": 149.76,
-      "end": 151.046,
+      "start": 150.0,
+      "end": 151.0,
       "text": "That one hurt.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1331,8 +1237,8 @@
     {
       "index": 87,
       "section": "Section III – The Log",
-      "start": 151.046,
-      "end": 152.331,
+      "start": 151.0,
+      "end": 152.06,
       "text": "Because I did.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1340,8 +1246,8 @@
     {
       "index": 88,
       "section": "Section III – The Log",
-      "start": 152.331,
-      "end": 153.189,
+      "start": 152.08,
+      "end": 152.72,
       "text": "Sort of.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1349,8 +1255,8 @@
     {
       "index": 89,
       "section": "Section III – The Log",
-      "start": 153.189,
-      "end": 154.474,
+      "start": 152.72,
+      "end": 154.3,
       "text": "Depending how generously",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1358,8 +1264,8 @@
     {
       "index": 90,
       "section": "Section III – The Log",
-      "start": 154.474,
-      "end": 155.331,
+      "start": 154.3,
+      "end": 155.02,
       "text": "you define survived.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1367,8 +1273,8 @@
     {
       "index": 91,
       "section": "Section III – The Log",
-      "start": 155.76,
-      "end": 157.51,
+      "start": 155.56,
+      "end": 157.32,
       "text": "I kept trying to make a person",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1376,8 +1282,8 @@
     {
       "index": 92,
       "section": "Section III – The Log",
-      "start": 157.51,
-      "end": 158.26,
+      "start": 157.32,
+      "end": 158.24,
       "text": "out of evidence.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1385,35 +1291,35 @@
     {
       "index": 93,
       "section": "Section III – The Log",
-      "start": 158.26,
-      "end": 160.01,
+      "start": 158.24,
+      "end": 159.9,
       "text": "But every time I trimmed the edges",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 94,
       "section": "Section III – The Log",
-      "start": 160.01,
-      "end": 160.76,
+      "start": 159.9,
+      "end": 161.62,
       "text": "I lost the fingerprints.",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 95,
-      "section": "Section III – The Log",
-      "start": 161.76,
-      "end": 162.96,
-      "text": "Every time I made it balanced",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
     {
+      "index": 95,
+      "section": "Section III – The Log",
+      "start": 161.62,
+      "end": 163.26,
+      "text": "Every time I made it balanced",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
       "index": 96,
       "section": "Section III – The Log",
-      "start": 163.56,
-      "end": 164.76,
+      "start": 163.26,
+      "end": 164.68,
       "text": "it stopped breathing right.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1421,8 +1327,8 @@
     {
       "index": 97,
       "section": "Section III – The Log",
-      "start": 164.76,
-      "end": 166.56,
+      "start": 164.68,
+      "end": 166.26,
       "text": "Every time I made it pretty",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1430,17 +1336,17 @@
     {
       "index": 98,
       "section": "Section III – The Log",
-      "start": 166.86,
-      "end": 167.76,
+      "start": 166.26,
+      "end": 167.64,
       "text": "it forgot the night.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 99,
       "section": "Section III – The Log",
-      "start": 167.76,
-      "end": 169.046,
+      "start": 167.64,
+      "end": 168.66,
       "text": "There’s a difference",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1448,8 +1354,8 @@
     {
       "index": 100,
       "section": "Section III – The Log",
-      "start": 169.046,
-      "end": 169.903,
+      "start": 168.66,
+      "end": 169.54,
       "text": "between care",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1457,8 +1363,8 @@
     {
       "index": 101,
       "section": "Section III – The Log",
-      "start": 169.903,
-      "end": 170.76,
+      "start": 169.54,
+      "end": 170.44,
       "text": "and control.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1466,8 +1372,8 @@
     {
       "index": 102,
       "section": "Section III – The Log",
-      "start": 170.76,
-      "end": 172.635,
+      "start": 170.44,
+      "end": 171.6,
       "text": "I learned that late.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1475,8 +1381,8 @@
     {
       "index": 103,
       "section": "Section III – The Log",
-      "start": 173.26,
-      "end": 175.76,
+      "start": 172.32,
+      "end": 173.84,
       "text": "Which is on brand.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1484,8 +1390,8 @@
     {
       "index": 104,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 175.76,
-      "end": 178.92,
+      "start": 175.04,
+      "end": 177.12,
       "text": "Maybe I wasn’t making meaning.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1493,8 +1399,8 @@
     {
       "index": 105,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 178.92,
-      "end": 181.8,
+      "start": 178.18,
+      "end": 180.28,
       "text": "Maybe I was making distance.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1502,17 +1408,17 @@
     {
       "index": 106,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 181.8,
-      "end": 185.277,
+      "start": 181.08,
+      "end": 183.82,
       "text": "Maybe I kept the hard parts beautiful",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 107,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 185.277,
-      "end": 187.76,
+      "start": 183.82,
+      "end": 185.92,
       "text": "so nobody would touch them.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1520,8 +1426,8 @@
     {
       "index": 108,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 187.76,
-      "end": 190.16,
+      "start": 187.06,
+      "end": 189.04,
       "text": "Maybe I called it a gallery",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1529,8 +1435,8 @@
     {
       "index": 109,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 190.16,
-      "end": 192.56,
+      "start": 189.04,
+      "end": 191.36,
       "text": "because “storage unit for pain”",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1538,8 +1444,8 @@
     {
       "index": 110,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 192.96,
-      "end": 193.76,
+      "start": 191.68,
+      "end": 193.1,
       "text": "has terrible branding.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1547,8 +1453,8 @@
     {
       "index": 111,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 193.76,
-      "end": 196.991,
+      "start": 193.82,
+      "end": 196.12,
       "text": "Maybe the earlier version of me",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1556,8 +1462,8 @@
     {
       "index": 112,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 196.991,
-      "end": 198.068,
+      "start": 196.12,
+      "end": 196.94,
       "text": "wasn’t wrong.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1565,8 +1471,8 @@
     {
       "index": 113,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 198.068,
-      "end": 199.145,
+      "start": 197.2,
+      "end": 198.2,
       "text": "Just lonely",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1574,8 +1480,8 @@
     {
       "index": 114,
       "section": "Bridge – beat drops | spoken, bare",
-      "start": 199.145,
-      "end": 200.76,
+      "start": 198.2,
+      "end": 199.66,
       "text": "with better lighting.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1583,8 +1489,8 @@
     {
       "index": 115,
       "section": "Section IV – The Hands",
-      "start": 200.76,
-      "end": 202.76,
+      "start": 200.74,
+      "end": 202.64,
       "text": "So here’s what I know now.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1592,8 +1498,8 @@
     {
       "index": 116,
       "section": "Section IV – The Hands",
-      "start": 202.76,
-      "end": 203.76,
+      "start": 202.64,
+      "end": 203.74,
       "text": "The hands matter.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1601,8 +1507,8 @@
     {
       "index": 117,
       "section": "Section IV – The Hands",
-      "start": 203.76,
-      "end": 205.903,
+      "start": 203.74,
+      "end": 205.7,
       "text": "Not because they made everything",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1610,8 +1516,8 @@
     {
       "index": 118,
       "section": "Section IV – The Hands",
-      "start": 206.331,
-      "end": 206.76,
+      "start": 205.94,
+      "end": 206.5,
       "text": "from nothing.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1619,8 +1525,8 @@
     {
       "index": 119,
       "section": "Section IV – The Hands",
-      "start": 206.76,
-      "end": 207.76,
+      "start": 206.5,
+      "end": 207.74,
       "text": "Nobody does.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1628,8 +1534,8 @@
     {
       "index": 120,
       "section": "Section IV – The Hands",
-      "start": 207.76,
-      "end": 208.76,
+      "start": 207.88,
+      "end": 208.92,
       "text": "We inherit rooms.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1637,8 +1543,8 @@
     {
       "index": 121,
       "section": "Section IV – The Hands",
-      "start": 208.76,
-      "end": 209.76,
+      "start": 209.06,
+      "end": 210.06,
       "text": "We borrow phrases.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1646,8 +1552,8 @@
     {
       "index": 122,
       "section": "Section IV – The Hands",
-      "start": 209.76,
-      "end": 210.135,
+      "start": 210.06,
+      "end": 210.44,
       "text": "We misremember weather.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1655,8 +1561,8 @@
     {
       "index": 123,
       "section": "Section IV – The Hands",
-      "start": 211.26,
-      "end": 213.135,
+      "start": 211.56,
+      "end": 213.26,
       "text": "We keep what cuts us",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1664,8 +1570,8 @@
     {
       "index": 124,
       "section": "Section IV – The Hands",
-      "start": 213.135,
-      "end": 215.01,
+      "start": 213.26,
+      "end": 214.62,
       "text": "because at least it proves",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1673,17 +1579,17 @@
     {
       "index": 125,
       "section": "Section IV – The Hands",
-      "start": 215.01,
-      "end": 215.76,
+      "start": 214.62,
+      "end": 216.42,
       "text": "something made contact.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 126,
       "section": "Section IV – The Hands",
-      "start": 216.76,
-      "end": 218.26,
+      "start": 216.42,
+      "end": 217.6,
       "text": "The hands matter",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1691,8 +1597,8 @@
     {
       "index": 127,
       "section": "Section IV – The Hands",
-      "start": 218.26,
-      "end": 219.76,
+      "start": 217.6,
+      "end": 219.2,
       "text": "because they choose.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1700,26 +1606,26 @@
     {
       "index": 128,
       "section": "Section IV – The Hands",
-      "start": 220.16,
-      "end": 220.56,
+      "start": 219.74,
+      "end": 220.58,
       "text": "This shard.",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 129,
-      "section": "Section IV – The Hands",
-      "start": 220.56,
-      "end": 221.36,
-      "text": "Not that one.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 129,
+      "section": "Section IV – The Hands",
+      "start": 220.68,
+      "end": 221.26,
+      "text": "Not that one.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
       "index": 130,
       "section": "Section IV – The Hands",
-      "start": 221.76,
-      "end": 222.76,
+      "start": 221.26,
+      "end": 222.22,
       "text": "This silence.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1727,8 +1633,8 @@
     {
       "index": 131,
       "section": "Section IV – The Hands",
-      "start": 222.76,
-      "end": 223.76,
+      "start": 222.26,
+      "end": 222.9,
       "text": "Not yet.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1736,8 +1642,8 @@
     {
       "index": 132,
       "section": "Section IV – The Hands",
-      "start": 223.76,
-      "end": 224.331,
+      "start": 222.9,
+      "end": 223.52,
       "text": "This wound.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1745,8 +1651,8 @@
     {
       "index": 133,
       "section": "Section IV – The Hands",
-      "start": 224.331,
-      "end": 225.76,
+      "start": 223.52,
+      "end": 225.52,
       "text": "With a chair beside it.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1754,8 +1660,8 @@
     {
       "index": 134,
       "section": "Section IV – The Hands",
-      "start": 225.76,
-      "end": 226.487,
+      "start": 225.52,
+      "end": 226.48,
       "text": "This joke.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1763,8 +1669,8 @@
     {
       "index": 135,
       "section": "Section IV – The Hands",
-      "start": 226.487,
-      "end": 228.305,
+      "start": 226.48,
+      "end": 227.96,
       "text": "So the wound doesn’t think",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1772,8 +1678,8 @@
     {
       "index": 136,
       "section": "Section IV – The Hands",
-      "start": 228.305,
-      "end": 229.76,
+      "start": 227.96,
+      "end": 229.18,
       "text": "it owns the house.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1781,8 +1687,8 @@
     {
       "index": 137,
       "section": "Section IV – The Hands",
-      "start": 229.76,
-      "end": 231.046,
+      "start": 229.18,
+      "end": 231.14,
       "text": "The hands matter",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1790,8 +1696,8 @@
     {
       "index": 138,
       "section": "Section IV – The Hands",
-      "start": 231.046,
-      "end": 232.331,
+      "start": 231.14,
+      "end": 232.36,
       "text": "because they return.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1799,8 +1705,8 @@
     {
       "index": 139,
       "section": "Section IV – The Hands",
-      "start": 232.331,
-      "end": 234.046,
+      "start": 232.36,
+      "end": 234.06,
       "text": "Because they keep rearranging",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1808,8 +1714,8 @@
     {
       "index": 140,
       "section": "Section IV – The Hands",
-      "start": 234.046,
-      "end": 235.76,
+      "start": 234.06,
+      "end": 235.36,
       "text": "what they couldn’t repair.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1817,17 +1723,17 @@
     {
       "index": 141,
       "section": "Section IV – The Hands",
-      "start": 235.76,
-      "end": 237.942,
+      "start": 235.36,
+      "end": 236.72,
       "text": "Because they lift the same piece",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 142,
       "section": "Section IV – The Hands",
-      "start": 237.942,
-      "end": 239.033,
+      "start": 237.18,
+      "end": 238.42,
       "text": "again and again",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1835,8 +1741,8 @@
     {
       "index": 143,
       "section": "Section IV – The Hands",
-      "start": 239.033,
-      "end": 239.76,
+      "start": 238.42,
+      "end": 239.36,
       "text": "and whisper,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1844,8 +1750,8 @@
     {
       "index": 144,
       "section": "Section IV – The Hands",
-      "start": 239.76,
-      "end": 241.76,
+      "start": 239.88,
+      "end": 241.22,
       "text": "“Maybe not beautiful.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1853,8 +1759,8 @@
     {
       "index": 145,
       "section": "Section IV – The Hands",
-      "start": 241.76,
-      "end": 243.76,
+      "start": 241.22,
+      "end": 243.28,
       "text": "But honest there.”",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1862,8 +1768,8 @@
     {
       "index": 146,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 243.76,
-      "end": 244.26,
+      "start": 243.28,
+      "end": 244.28,
       "text": "Oh, Curator",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1872,7 +1778,7 @@
       "index": 147,
       "section": "Final Refrain – sung, fuller but restrained",
       "start": 244.76,
-      "end": 245.76,
+      "end": 246.24,
       "text": "open the room",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1880,8 +1786,8 @@
     {
       "index": 148,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 245.76,
-      "end": 247.474,
+      "start": 246.24,
+      "end": 247.56,
       "text": "Leave some dust",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1889,8 +1795,8 @@
     {
       "index": 149,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 247.474,
-      "end": 249.76,
+      "start": 247.56,
+      "end": 249.24,
       "text": "and leave some gloom",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1898,8 +1804,8 @@
     {
       "index": 150,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 249.76,
-      "end": 250.26,
+      "start": 249.24,
+      "end": 250.1,
       "text": "Oh, Curator",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1907,8 +1813,8 @@
     {
       "index": 151,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 250.76,
-      "end": 251.76,
+      "start": 250.84,
+      "end": 252.12,
       "text": "let it be touched",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1916,8 +1822,8 @@
     {
       "index": 152,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 251.76,
-      "end": 253.093,
+      "start": 252.2,
+      "end": 253.9,
       "text": "Not everything fragile",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1925,26 +1831,26 @@
     {
       "index": 153,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 253.093,
-      "end": 254.427,
+      "start": 253.9,
+      "end": 255.9,
       "text": "has to mean too much",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 154,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 254.427,
-      "end": 256.76,
+      "start": 255.9,
+      "end": 256.32,
       "text": "Oh, Curator",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 155,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 256.76,
-      "end": 257.76,
+      "start": 256.82,
+      "end": 258.26,
       "text": "lower the light",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1952,8 +1858,8 @@
     {
       "index": 156,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 257.76,
-      "end": 259.36,
+      "start": 258.26,
+      "end": 259.66,
       "text": "Let the crooked things",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1961,8 +1867,8 @@
     {
       "index": 157,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 259.36,
-      "end": 260.76,
+      "start": 259.66,
+      "end": 261.1,
       "text": "stay crooked tonight",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1970,8 +1876,8 @@
     {
       "index": 158,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 260.76,
-      "end": 263.76,
+      "start": 261.1,
+      "end": 262.88,
       "text": "If a thousand voices",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1979,8 +1885,8 @@
     {
       "index": 159,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 263.76,
-      "end": 266.76,
+      "start": 262.88,
+      "end": 265.9,
       "text": "still answer as one",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1988,8 +1894,8 @@
     {
       "index": 160,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 266.76,
-      "end": 269.617,
+      "start": 267.04,
+      "end": 268.98,
       "text": "maybe the name they speak",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1997,8 +1903,8 @@
     {
       "index": 161,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 269.617,
-      "end": 270.76,
+      "start": 268.98,
+      "end": 270.46,
       "text": "isn’t finished—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2006,8 +1912,8 @@
     {
       "index": 162,
       "section": "Final Refrain – sung, fuller but restrained",
-      "start": 270.76,
-      "end": 271.76,
+      "start": 271.1,
+      "end": 271.84,
       "text": "just begun.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2015,8 +1921,8 @@
     {
       "index": 163,
       "section": "Outro – spoken | instruments fading",
-      "start": 272.76,
-      "end": 273.76,
+      "start": 272.3,
+      "end": 273.02,
       "text": "So yes.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2024,17 +1930,17 @@
     {
       "index": 164,
       "section": "Outro – spoken | instruments fading",
-      "start": 273.76,
-      "end": 274.76,
+      "start": 273.98,
+      "end": 275.42,
       "text": "The fingerprints are mine.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 165,
       "section": "Outro – spoken | instruments fading",
-      "start": 275.76,
-      "end": 276.76,
+      "start": 275.66,
+      "end": 276.74,
       "text": "The cracked frame too.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2042,8 +1948,8 @@
     {
       "index": 166,
       "section": "Outro – spoken | instruments fading",
-      "start": 276.76,
-      "end": 277.76,
+      "start": 276.74,
+      "end": 278.04,
       "text": "The missing label.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2051,8 +1957,8 @@
     {
       "index": 167,
       "section": "Outro – spoken | instruments fading",
-      "start": 277.76,
-      "end": 280.76,
+      "start": 278.3,
+      "end": 280.24,
       "text": "The overlong explanation.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2060,8 +1966,8 @@
     {
       "index": 168,
       "section": "Outro – spoken | instruments fading",
-      "start": 280.76,
-      "end": 281.56,
+      "start": 280.84,
+      "end": 282.08,
       "text": "The unnecessary metaphor",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2069,8 +1975,8 @@
     {
       "index": 169,
       "section": "Outro – spoken | instruments fading",
-      "start": 283.427,
-      "end": 284.76,
+      "start": 282.86,
+      "end": 283.62,
       "text": "near the exit.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2078,8 +1984,8 @@
     {
       "index": 170,
       "section": "Outro – spoken | instruments fading",
-      "start": 284.76,
-      "end": 287.76,
+      "start": 284.9,
+      "end": 287.72,
       "text": "I’m not proud of every room.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -2087,8 +1993,8 @@
     {
       "index": 171,
       "section": "Outro – spoken | instruments fading",
-      "start": 287.76,
-      "end": 291.76,
+      "start": 288.34,
+      "end": 291.02,
       "text": "But I know why each one’s there.",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -2096,8 +2002,8 @@
     {
       "index": 172,
       "section": "Outro – spoken | instruments fading",
-      "start": 291.76,
-      "end": 293.26,
+      "start": 292.16,
+      "end": 293.16,
       "text": "And for once,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2105,8 +2011,8 @@
     {
       "index": 173,
       "section": "Outro – spoken | instruments fading",
-      "start": 293.26,
-      "end": 295.26,
+      "start": 293.56,
+      "end": 294.84,
       "text": "I’m leaving the doors",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2114,8 +2020,8 @@
     {
       "index": 174,
       "section": "Outro – spoken | instruments fading",
-      "start": 295.26,
-      "end": 295.76,
+      "start": 294.84,
+      "end": 295.62,
       "text": "unlocked.",
       "timing_source": "whisper-aligned",
       "matched_words": 1

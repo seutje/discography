@@ -4,344 +4,310 @@
   "title": "Terms and Conditions",
   "text_path": "Closed Doors/01 - Terms and Conditions.txt",
   "audio_path": "Closed Doors/audio/01 - Terms and Conditions.mp3",
-  "duration_seconds": 340.84,
-  "model": "base",
+  "duration_seconds": 340.95,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 193,
     "reference_word_count": 778,
-    "observed_word_count": 716,
-    "matched_word_count": 673,
-    "matched_word_ratio": 0.865,
-    "inserted_adlib_count": 0
+    "observed_word_count": 777,
+    "matched_word_count": 760,
+    "matched_word_ratio": 0.977,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
       "start": 0.0,
-      "end": 9.2,
-      "text": "Please read carefully. By continuing this conversation, you agree that I may require additional"
+      "end": 7.16,
+      "text": "please read carefully by continuing this conversation you agree that i may require"
     },
     {
-      "start": 9.2,
-      "end": 12.88,
-      "text": "patience. Side effects include over-explaining,"
+      "start": 8.52,
+      "end": 13.84,
+      "text": "additional patience side effects include over explaining under speaking leaving"
     },
     {
-      "start": 12.88,
-      "end": 19.12,
-      "text": "under-speaking, leaving early, arriving strange, and needing three business days to answer."
+      "start": 13.84,
+      "end": 19.64,
+      "text": "early arriving strange and needing three business days to answer a simple"
     },
     {
-      "start": 19.12,
-      "end": 21.12,
-      "text": "A simple question."
+      "start": 19.64,
+      "end": 24.76,
+      "text": "question they said you seem normal enough which is always a trap with"
     },
     {
-      "start": 21.12,
-      "end": 26.04,
-      "text": "They said, you seem normal enough, which is always a trap with curtains like normal as a"
+      "start": 24.76,
+      "end": 29.56,
+      "text": "curtains like normal is a contract and i forgot to check the wording clause one i"
     },
     {
-      "start": 26.04,
-      "end": 28.6,
-      "text": "contract. And I forgot to check the wording."
+      "start": 29.56,
+      "end": 33.68,
+      "text": "may nod like i understand while my brain is still in the lobby looking for the"
     },
     {
-      "start": 28.6,
-      "end": 33.24,
-      "text": "Clause 1. I may nod like I understand while my brain is still in the lobby looking"
+      "start": 33.68,
+      "end": 38.44,
+      "text": "entrance clause two i may laugh three seconds late at a joke i did enjoy but"
     },
     {
-      "start": 33.24,
-      "end": 38.64,
-      "text": "for the entrance. Clause 2. I may laugh three seconds late at a joke I did enjoy, but had"
+      "start": 38.44,
+      "end": 44.56,
+      "text": "had to assemble manually from tone eyebrow context and blind panic clause"
     },
     {
-      "start": 38.64,
-      "end": 44.36,
-      "text": "to assemble manually. From tone, eyebrow context and blind panic."
+      "start": 44.56,
+      "end": 49.6,
+      "text": "three if the room gets loud i reserve the right to become furniture not rude"
     },
     {
-      "start": 44.36,
-      "end": 50.36,
-      "text": "Clause 3. If the room gets loud, I reserve the right to become furniture. Not rude furniture."
+      "start": 49.6,
+      "end": 55.24,
+      "text": "furniture just a chair with survival instincts they say society is built for"
     },
     {
-      "start": 50.36,
-      "end": 55.88,
-      "text": "Just a chair with survival instincts. They say society is built for everyone."
+      "start": 55.24,
+      "end": 59.54,
+      "text": "everyone small princess everyone who can stand the lights read the room catch the"
     },
     {
-      "start": 55.88,
-      "end": 59.8,
-      "text": "Small print sets. Everyone who can stand the lights. Read the room. Catch the hint."
+      "start": 59.54,
+      "end": 64.2,
+      "text": "hint keep the job make the call take the joke hold the gaze and not ask why the"
     },
     {
-      "start": 59.8,
-      "end": 63.88,
-      "text": "Keep the job. Make the call. Take the joke. Hold the gaze. And not ask why."
+      "start": 64.2,
+      "end": 70.9,
+      "text": "rules changed between tuesday and lunch i tried to sign my name where the line"
     },
     {
-      "start": 63.88,
-      "end": 69.16,
-      "text": "The rules changed between Tuesday and lunch. I tried to sign my name."
+      "start": 70.9,
+      "end": 78.9,
+      "text": "was meant to be but every page had footnotes that sounded just like me"
     },
     {
-      "start": 70.12,
-      "end": 74.84,
-      "text": "Where the line was meant to be. But every page had footnotes."
+      "start": 79.58,
+      "end": 85.78,
+      "text": "terms and conditions apply some assembly required inside handle with care but"
     },
     {
-      "start": 74.84,
-      "end": 84.28,
-      "text": "That sounded just like me. Terms and conditions apply. Some assembly required inside."
+      "start": 85.78,
+      "end": 93.16,
+      "text": "don't ask why i come with exceptions attached terms and conditions apply i'm"
     },
     {
-      "start": 84.28,
-      "end": 90.36,
-      "text": "Handle with care, but don't ask why. I come with exceptions attached."
+      "start": 93.16,
+      "end": 99.44,
+      "text": "not broken just hard to classify read the warning before you decide i come"
     },
     {
-      "start": 90.36,
-      "end": 97.24,
-      "text": "Terms and conditions apply. I'm not broken just hard to classify. Read the warning before"
+      "start": 99.44,
+      "end": 107.58,
+      "text": "with exceptions attached there's a helpline it's me i don't answer they love"
     },
     {
-      "start": 97.24,
-      "end": 102.84,
-      "text": "you decide. I come with exceptions attached. There's a help line."
+      "start": 107.58,
+      "end": 112.54,
+      "text": "a clean little slogan for a messy little world work hard speak up calm down be"
     },
     {
-      "start": 102.84,
-      "end": 107.08,
-      "text": "It's me. I don't answer."
+      "start": 112.54,
+      "end": 116.9,
+      "text": "yourself lovely be myself but filtered speak up a pleasant calm down but"
     },
     {
-      "start": 132.84,
+      "start": 116.9,
+      "end": 122.44,
+      "text": "immediately work hard but invisibly need help but not too loudly struggle but"
+    },
+    {
+      "start": 122.44,
+      "end": 126.72,
+      "text": "make it inspiring there's a whole economy built on pretending the stairs"
+    },
+    {
+      "start": 126.72,
+      "end": 131.74,
+      "text": "are fair because technically there is a ramp round the back through a locked gate"
+    },
+    {
+      "start": 131.74,
       "end": 137.16,
-      "text": "With the sign that says ask staff for resistance. Staff for busy staff."
+      "text": "beside a bin with the sign that says ask staff for assistance staff or busy staff"
     },
     {
       "start": 137.16,
-      "end": 140.84,
-      "text": "I've attended a workshop called empathy in modern environments."
+      "end": 141.68,
+      "text": "have attended a workshop called empathy in modern environments and now say"
     },
     {
-      "start": 140.84,
-      "end": 143.72,
-      "text": "And now say things like we hear you."
+      "start": 141.68,
+      "end": 147.08,
+      "text": "things like we hear you while changing nothing with excellent posture everyone"
     },
     {
-      "start": 143.72,
-      "end": 148.84,
-      "text": "While changing nothing. With excellent posture. Everyone has needs. Everyone has limits."
+      "start": 147.08,
+      "end": 151.58,
+      "text": "has needs everyone has limits everyone has something but some of us arrive with"
     },
     {
-      "start": 148.84,
-      "end": 153.08,
-      "text": "Everyone has something. But some of us survive with the terms and booklet."
+      "start": 151.58,
+      "end": 156.38,
+      "text": "the terms and booklet thick enough to level a table in the world keeps saying"
     },
     {
-      "start": 153.08,
-      "end": 159.64,
-      "text": "Fick enough to level a table in the world. Keep saying. Could you summarize that in one sentence?"
+      "start": 156.38,
+      "end": 163.48,
+      "text": "could you summarize that in one sentence sure i am expensive in ways you cannot"
     },
     {
-      "start": 160.6,
-      "end": 164.44,
-      "text": "Sure. I am expensive in ways you cannot invoice."
+      "start": 163.48,
+      "end": 170.08,
+      "text": "invoice terms and conditions apply some assembly required inside handle with"
     },
     {
-      "start": 164.44,
-      "end": 169.24,
-      "text": "Terms and conditions apply. Some assembly required inside."
+      "start": 170.08,
+      "end": 175.1,
+      "text": "care but don't ask why i come with exceptions attached"
     },
     {
-      "start": 169.24,
-      "end": 175.16,
-      "text": "Handle with care, but don't ask why. I come with exceptions attached."
+      "start": 175.1,
+      "end": 181.52,
+      "text": "terms and conditions apply i'm not broken just hard to classify read the"
     },
     {
-      "start": 175.8,
-      "end": 180.92,
-      "text": "Terms and conditions apply. I'm not broken just hard to classify."
+      "start": 181.52,
+      "end": 188.22,
+      "text": "warning before you decide i come with exceptions attached and yes sometimes"
     },
     {
-      "start": 180.92,
-      "end": 186.6,
-      "text": "Read the warning before you decide. I come with exceptions attached."
+      "start": 188.22,
+      "end": 194.18,
+      "text": "i'm difficult not mysterious not poetic just difficult sometimes the plan"
     },
     {
-      "start": 186.6,
-      "end": 192.76,
-      "text": "And yes, sometimes some difficult. Not mysterious. Not poetic. Just difficult."
+      "start": 194.18,
+      "end": 201.14,
+      "text": "changes and i become whether sometimes a text message weighs more than furniture"
     },
     {
-      "start": 192.76,
-      "end": 195.96,
-      "text": "Sometimes the plan changes and I become weather."
+      "start": 201.14,
+      "end": 206.78,
+      "text": "sometimes a smallest errand stands at the end of the hallway holding a knife"
     },
     {
-      "start": 197.8,
-      "end": 203.24,
-      "text": "Sometimes a text message weighs more than furniture. Sometimes a small is daring."
+      "start": 208.24,
+      "end": 212.44,
+      "text": "sometimes i cancel because my face is tired from pretending it knows what"
     },
     {
-      "start": 203.24,
-      "end": 206.44,
-      "text": "Stands at the end of a hallway holding a knife."
+      "start": 212.44,
+      "end": 219.58,
+      "text": "faces are for sometimes i need silence the way other people need air and yes i"
     },
     {
-      "start": 208.52,
-      "end": 213.56,
-      "text": "Sometimes I cancel because my face is tired from pretending it knows what faces are for."
+      "start": 219.73,
+      "end": 226.89,
+      "text": "know that is inconvenient imagine living there but i am not a failed"
     },
     {
-      "start": 214.36,
-      "end": 217.96,
-      "text": "Sometimes I need silence the way other people need air."
+      "start": 226.89,
+      "end": 232.01,
+      "text": "version of someone easier i am not a public service announcement with shoes i"
     },
     {
-      "start": 218.76,
-      "end": 224.6,
-      "text": "And yes, I know that is inconvenient. Imagine living there."
+      "start": 232.01,
+      "end": 237.91,
+      "text": "am not your lesson in patience unless you are paying tuition i am a person"
     },
     {
-      "start": 225.48,
-      "end": 228.52,
-      "text": "But I am not a failed version of someone easier."
+      "start": 237.91,
+      "end": 243.05,
+      "text": "with strange weather careful exits unusual maps and a heart that has spent"
     },
     {
-      "start": 228.52,
-      "end": 231.56,
-      "text": "I am not a public service announcement with shoes."
+      "start": 243.05,
+      "end": 248.09,
+      "text": "years learning how not to spill itself on people who only came to check the"
     },
     {
-      "start": 231.56,
-      "end": 235.8,
-      "text": "I am not your lesson in patience unless you are paying tuition."
+      "start": 248.09,
+      "end": 253.23,
+      "text": "label so here are the revised terms i will try to say what i need before i"
     },
     {
-      "start": 236.84,
-      "end": 238.92,
-      "text": "I am a person with strange weather."
+      "start": 253.23,
+      "end": 259.75,
+      "text": "disappear you will try not to call every need a negotiation i will try to laugh"
     },
     {
-      "start": 238.92,
-      "end": 248.6,
-      "text": "A careful exit. Unusual maps and a heart that has spent years learning how not to spill itself on people who only came to check the label."
+      "start": 259.75,
+      "end": 265.05,
+      "text": "before the moment dies you will try to notice i was laughing with you even if i"
     },
     {
-      "start": 248.6,
-      "end": 253.88,
-      "text": "So here are the replies. Terms I will try to say what I need before I disappear."
+      "start": 265.05,
+      "end": 270.53,
+      "text": "missed my cue i will try not to turn every room into a courtroom you will try"
     },
     {
-      "start": 253.88,
-      "end": 257.88,
-      "text": "You will try not to call every need a negotiation."
+      "start": 270.53,
+      "end": 276.93,
+      "text": "not to make every different stand trial and somewhere between access and apology"
     },
     {
-      "start": 257.88,
-      "end": 264.04,
-      "text": "I will try to laugh before the moment dies. You will try to notice I was laughing with you."
+      "start": 276.93,
+      "end": 286.55,
+      "text": "between patience and pride maybe we stop pretending fair means identical maybe we"
     },
     {
-      "start": 264.12,
-      "end": 269.56,
-      "text": "Even if I missed my cue, I will try not to turn every room into a courtroom."
+      "start": 286.55,
+      "end": 292.59,
+      "text": "build the table with the wobble in mind terms and conditions apply some assembly"
     },
     {
-      "start": 269.56,
-      "end": 277.4,
-      "text": "You will try not to make every difference and trial and somewhere between access and apology."
+      "start": 292.59,
+      "end": 299.17,
+      "text": "required inside handle with care but don't ask why come with exceptions"
     },
     {
-      "start": 277.4,
-      "end": 279.96,
-      "text": "Between patience and pride."
+      "start": 299.17,
+      "end": 306.19,
+      "text": "attached terms and conditions apply i'm not broken just hard to classify read"
     },
     {
-      "start": 281.0,
-      "end": 284.44,
-      "text": "Maybe we stop pretending fair means identical."
+      "start": 306.19,
+      "end": 311.45,
+      "text": "the warning before you decide i come with exceptions attached"
     },
     {
-      "start": 285.96,
-      "end": 291.0,
-      "text": "Maybe we build the table with the wobble in mind. Terms and conditions apply."
+      "start": 312.51,
+      "end": 318.17,
+      "text": "conditions apply but i'm done being sorry for mine if you want the truth"
     },
     {
-      "start": 291.56,
-      "end": 294.04,
-      "text": "Some assembly required inside."
+      "start": 318.17,
+      "end": 327.41,
+      "text": "read every line i come with exceptions attached by staying this long you accept"
     },
     {
-      "start": 294.04,
-      "end": 299.96,
-      "text": "And don't we care but don't ask why I come with exceptions attached."
+      "start": 327.41,
+      "end": 334.89,
+      "text": "that understanding may not be immediate refunds are unavailable the tea may be"
     },
     {
-      "start": 300.68,
-      "end": 302.52,
-      "text": "Terms and conditions apply."
-    },
-    {
-      "start": 302.52,
-      "end": 305.8,
-      "text": "I am not broken just hard to classify."
-    },
-    {
-      "start": 305.8,
-      "end": 308.12,
-      "text": "Read the warning before you decide."
-    },
-    {
-      "start": 308.12,
-      "end": 311.48,
-      "text": "I come with exceptions attached."
-    },
-    {
-      "start": 311.48,
-      "end": 313.96,
-      "text": "But the terms and conditions apply."
-    },
-    {
-      "start": 313.96,
-      "end": 316.84,
-      "text": "But I am done being sorry for mine."
-    },
-    {
-      "start": 316.92,
-      "end": 319.8,
-      "text": "If you want the truth read every line."
-    },
-    {
-      "start": 319.8,
-      "end": 322.76,
-      "text": "I come with exceptions attached."
-    },
-    {
-      "start": 324.52,
-      "end": 330.28,
-      "text": "By staying this long you accept that understanding may not be immediate."
-    },
-    {
-      "start": 331.08,
-      "end": 332.76,
-      "text": "Refunds you are unavailable."
-    },
-    {
-      "start": 333.96,
-      "end": 335.4,
-      "text": "The team may be provided."
-    },
-    {
-      "start": 337.4,
-      "end": 340.84,
-      "text": "And honestly that's more than most systems offer."
+      "start": 334.89,
+      "end": 340.95,
+      "text": "provided and honestly that's more than most systems offer"
     }
   ],
   "lines": [
@@ -349,7 +315,7 @@
       "index": 0,
       "section": "Intro – spoken | sparse guitar",
       "start": 0.0,
-      "end": 1.971,
+      "end": 1.78,
       "text": "Please reed carefully.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -357,8 +323,8 @@
     {
       "index": 1,
       "section": "Intro – spoken | sparse guitar",
-      "start": 1.971,
-      "end": 4.6,
+      "start": 3.38,
+      "end": 4.84,
       "text": "By continuing this conversation",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -366,8 +332,8 @@
     {
       "index": 2,
       "section": "Intro – spoken | sparse guitar",
-      "start": 4.6,
-      "end": 5.914,
+      "start": 4.84,
+      "end": 5.54,
       "text": "you agree",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -375,8 +341,8 @@
     {
       "index": 3,
       "section": "Intro – spoken | sparse guitar",
-      "start": 5.914,
-      "end": 8.543,
+      "start": 5.54,
+      "end": 7.16,
       "text": "that I may require",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -384,8 +350,8 @@
     {
       "index": 4,
       "section": "Intro – spoken | sparse guitar",
-      "start": 8.543,
-      "end": 9.813,
+      "start": 8.52,
+      "end": 9.76,
       "text": "additional patience.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -393,8 +359,8 @@
     {
       "index": 5,
       "section": "Intro – spoken | sparse guitar",
-      "start": 9.813,
-      "end": 11.653,
+      "start": 10.62,
+      "end": 11.6,
       "text": "Side effects include:",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -402,8 +368,8 @@
     {
       "index": 6,
       "section": "Intro – spoken | sparse guitar",
-      "start": 11.653,
-      "end": 12.88,
+      "start": 11.6,
+      "end": 13.84,
       "text": "overexplaining,",
       "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
@@ -411,8 +377,8 @@
     {
       "index": 7,
       "section": "Intro – spoken | sparse guitar",
-      "start": 12.88,
-      "end": 19.12,
+      "start": 13.84,
+      "end": 13.94,
       "text": "underspeaking,",
       "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0
@@ -420,8 +386,8 @@
     {
       "index": 8,
       "section": "Intro – spoken | sparse guitar",
-      "start": 19.12,
-      "end": 19.22,
+      "start": 13.94,
+      "end": 14.3,
       "text": "leaving early,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -429,8 +395,8 @@
     {
       "index": 9,
       "section": "Intro – spoken | sparse guitar",
-      "start": 19.22,
-      "end": 19.32,
+      "start": 14.42,
+      "end": 15.34,
       "text": "arriving strange,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -438,8 +404,8 @@
     {
       "index": 10,
       "section": "Intro – spoken | sparse guitar",
-      "start": 19.32,
-      "end": 19.42,
+      "start": 15.7,
+      "end": 17.26,
       "text": "and needing three business days",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -447,8 +413,8 @@
     {
       "index": 11,
       "section": "Intro – spoken | sparse guitar",
-      "start": 19.42,
-      "end": 21.12,
+      "start": 17.26,
+      "end": 20.12,
       "text": "to answer a simple question.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -456,8 +422,8 @@
     {
       "index": 12,
       "section": "Verse 1 – spoken rap",
-      "start": 21.12,
-      "end": 22.856,
+      "start": 21.9,
+      "end": 23.36,
       "text": "They said, “You seem normal enough.”",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -465,8 +431,8 @@
     {
       "index": 13,
       "section": "Verse 1 – spoken rap",
-      "start": 22.856,
-      "end": 24.882,
+      "start": 23.36,
+      "end": 25.2,
       "text": "Which is always a trap with curtains.",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -474,17 +440,17 @@
     {
       "index": 14,
       "section": "Verse 1 – spoken rap",
-      "start": 24.882,
-      "end": 26.36,
+      "start": 25.2,
+      "end": 26.7,
       "text": "Like normal is a contract",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 15,
       "section": "Verse 1 – spoken rap",
-      "start": 26.36,
-      "end": 28.6,
+      "start": 26.7,
+      "end": 28.34,
       "text": "and I forgot to check the wording.",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -492,17 +458,17 @@
     {
       "index": 16,
       "section": "Verse 1 – spoken rap",
-      "start": 28.6,
-      "end": 28.873,
+      "start": 28.74,
+      "end": 29.26,
       "text": "Clause one:",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 17,
       "section": "Verse 1 – spoken rap",
-      "start": 29.146,
-      "end": 30.784,
+      "start": 29.26,
+      "end": 31.04,
       "text": "I may nod like I understand",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -510,8 +476,8 @@
     {
       "index": 18,
       "section": "Verse 1 – spoken rap",
-      "start": 30.784,
-      "end": 32.967,
+      "start": 31.04,
+      "end": 32.74,
       "text": "while my brain is still in the lobby",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -519,8 +485,8 @@
     {
       "index": 19,
       "section": "Verse 1 – spoken rap",
-      "start": 32.967,
-      "end": 34.093,
+      "start": 32.74,
+      "end": 34.2,
       "text": "looking for the entrance.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -528,17 +494,17 @@
     {
       "index": 20,
       "section": "Verse 1 – spoken rap",
-      "start": 34.093,
-      "end": 34.377,
+      "start": 34.46,
+      "end": 34.92,
       "text": "Clause two:",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 21,
       "section": "Verse 1 – spoken rap",
-      "start": 34.661,
-      "end": 36.366,
+      "start": 34.92,
+      "end": 36.74,
       "text": "I may laugh three seconds late",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -546,8 +512,8 @@
     {
       "index": 22,
       "section": "Verse 1 – spoken rap",
-      "start": 36.366,
-      "end": 38.072,
+      "start": 36.74,
+      "end": 38.22,
       "text": "at a joke I did enjoy",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -555,8 +521,8 @@
     {
       "index": 23,
       "section": "Verse 1 – spoken rap",
-      "start": 38.072,
-      "end": 40.356,
+      "start": 38.22,
+      "end": 39.9,
       "text": "but had to assemble manually",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -564,8 +530,8 @@
     {
       "index": 24,
       "section": "Verse 1 – spoken rap",
-      "start": 40.356,
-      "end": 42.644,
+      "start": 39.9,
+      "end": 41.88,
       "text": "from tone, eyebrow, context,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -573,8 +539,8 @@
     {
       "index": 25,
       "section": "Verse 1 – spoken rap",
-      "start": 42.644,
-      "end": 44.36,
+      "start": 42.12,
+      "end": 43.28,
       "text": "and blind panic.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -582,17 +548,17 @@
     {
       "index": 26,
       "section": "Verse 1 – spoken rap",
-      "start": 44.36,
-      "end": 44.713,
+      "start": 44.06,
+      "end": 44.88,
       "text": "Clause three:",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 27,
       "section": "Verse 1 – spoken rap",
-      "start": 45.066,
-      "end": 46.831,
+      "start": 44.88,
+      "end": 46.42,
       "text": "If the room gets loud",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -600,8 +566,8 @@
     {
       "index": 28,
       "section": "Verse 1 – spoken rap",
-      "start": 46.831,
-      "end": 48.242,
+      "start": 46.42,
+      "end": 47.58,
       "text": "I reserve the right",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -609,8 +575,8 @@
     {
       "index": 29,
       "section": "Verse 1 – spoken rap",
-      "start": 48.242,
-      "end": 49.301,
+      "start": 47.58,
+      "end": 48.9,
       "text": "to become furniture.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -618,8 +584,8 @@
     {
       "index": 30,
       "section": "Verse 1 – spoken rap",
-      "start": 49.301,
-      "end": 50.36,
+      "start": 48.9,
+      "end": 50.3,
       "text": "Not rude furniture.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -627,8 +593,8 @@
     {
       "index": 31,
       "section": "Verse 1 – spoken rap",
-      "start": 50.36,
-      "end": 52.908,
+      "start": 50.3,
+      "end": 52.92,
       "text": "Just a chair with survival instincts.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -636,8 +602,8 @@
     {
       "index": 32,
       "section": "Verse 1 – spoken rap",
-      "start": 52.908,
-      "end": 55.88,
+      "start": 53.16,
+      "end": 55.84,
       "text": "They say society is built for everyone.",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -645,17 +611,17 @@
     {
       "index": 33,
       "section": "Verse 1 – spoken rap",
-      "start": 55.88,
-      "end": 56.403,
+      "start": 55.84,
+      "end": 56.28,
       "text": "Small print says:",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 34,
       "section": "Verse 1 – spoken rap",
-      "start": 56.664,
-      "end": 58.232,
+      "start": 56.84,
+      "end": 58.46,
       "text": "everyone who can stand the lights,",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -663,8 +629,8 @@
     {
       "index": 35,
       "section": "Verse 1 – spoken rap",
-      "start": 58.232,
-      "end": 59.016,
+      "start": 58.46,
+      "end": 59.16,
       "text": "read the room,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -672,8 +638,8 @@
     {
       "index": 36,
       "section": "Verse 1 – spoken rap",
-      "start": 59.016,
-      "end": 59.8,
+      "start": 59.16,
+      "end": 59.76,
       "text": "catch the hint,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -681,8 +647,8 @@
     {
       "index": 37,
       "section": "Verse 1 – spoken rap",
-      "start": 59.8,
-      "end": 60.565,
+      "start": 59.76,
+      "end": 60.58,
       "text": "keep the job,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -690,8 +656,8 @@
     {
       "index": 38,
       "section": "Verse 1 – spoken rap",
-      "start": 60.565,
-      "end": 61.33,
+      "start": 60.58,
+      "end": 61.32,
       "text": "make the call,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -699,8 +665,8 @@
     {
       "index": 39,
       "section": "Verse 1 – spoken rap",
-      "start": 61.33,
-      "end": 62.095,
+      "start": 61.32,
+      "end": 62.02,
       "text": "take the joke,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -708,8 +674,8 @@
     {
       "index": 40,
       "section": "Verse 1 – spoken rap",
-      "start": 62.095,
-      "end": 62.86,
+      "start": 62.02,
+      "end": 62.92,
       "text": "hold the gaze,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -717,8 +683,8 @@
     {
       "index": 41,
       "section": "Verse 1 – spoken rap",
-      "start": 62.86,
-      "end": 65.098,
+      "start": 62.92,
+      "end": 65.04,
       "text": "and not ask why the rules changed",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -726,8 +692,8 @@
     {
       "index": 42,
       "section": "Verse 1 – spoken rap",
-      "start": 65.098,
-      "end": 66.723,
+      "start": 65.04,
+      "end": 67.06,
       "text": "between Tuesday and lunch.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -735,8 +701,8 @@
     {
       "index": 43,
       "section": "Pre-Hook",
-      "start": 66.723,
-      "end": 69.16,
+      "start": 67.72,
+      "end": 69.38,
       "text": "I tried to sign my name",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -744,8 +710,8 @@
     {
       "index": 44,
       "section": "Pre-Hook",
-      "start": 70.12,
-      "end": 72.873,
+      "start": 69.38,
+      "end": 72.14,
       "text": "where the line was meant to be",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -753,8 +719,8 @@
     {
       "index": 45,
       "section": "Pre-Hook",
-      "start": 72.873,
-      "end": 74.84,
+      "start": 72.14,
+      "end": 75.04,
       "text": "But every page had footnotes",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -762,8 +728,8 @@
     {
       "index": 46,
       "section": "Pre-Hook",
-      "start": 74.84,
-      "end": 78.471,
+      "start": 75.04,
+      "end": 78.9,
       "text": "that sounded just like me",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -771,8 +737,8 @@
     {
       "index": 47,
       "section": "Hook",
-      "start": 78.471,
-      "end": 81.375,
+      "start": 79.58,
+      "end": 81.2,
       "text": "Terms and conditions apply",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -780,8 +746,8 @@
     {
       "index": 48,
       "section": "Hook",
-      "start": 81.375,
-      "end": 84.28,
+      "start": 81.2,
+      "end": 84.16,
       "text": "Some assembly required inside",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -789,8 +755,8 @@
     {
       "index": 49,
       "section": "Hook",
-      "start": 84.28,
-      "end": 87.827,
+      "start": 84.16,
+      "end": 87.12,
       "text": "Handle with care, but don’t ask why",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -798,8 +764,8 @@
     {
       "index": 50,
       "section": "Hook",
-      "start": 87.827,
-      "end": 90.36,
+      "start": 87.12,
+      "end": 90.14,
       "text": "I come with exceptions attached",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -807,8 +773,8 @@
     {
       "index": 51,
       "section": "Hook",
-      "start": 90.36,
-      "end": 92.195,
+      "start": 90.86,
+      "end": 92.42,
       "text": "Terms and conditions apply",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -816,8 +782,8 @@
     {
       "index": 52,
       "section": "Hook",
-      "start": 92.195,
-      "end": 95.405,
+      "start": 92.42,
+      "end": 95.74,
       "text": "I’m not broken, just hard to classify",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -825,8 +791,8 @@
     {
       "index": 53,
       "section": "Hook",
-      "start": 95.405,
-      "end": 98.258,
+      "start": 95.74,
+      "end": 98.22,
       "text": "Read the warning before you decide",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -834,8 +800,8 @@
     {
       "index": 54,
       "section": "Hook",
-      "start": 98.258,
-      "end": 100.804,
+      "start": 98.22,
+      "end": 101.46,
       "text": "I come with exceptions attached",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -843,17 +809,17 @@
     {
       "index": 55,
       "section": "Post-Hook – spoken aside",
-      "start": 100.804,
-      "end": 101.822,
+      "start": 101.46,
+      "end": 102.7,
       "text": "There’s a helpline.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 56,
       "section": "Post-Hook – spoken aside",
-      "start": 102.84,
-      "end": 104.536,
+      "start": 102.7,
+      "end": 104.52,
       "text": "It’s me.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -861,8 +827,8 @@
     {
       "index": 57,
       "section": "Post-Hook – spoken aside",
-      "start": 104.536,
-      "end": 107.08,
+      "start": 104.52,
+      "end": 106.6,
       "text": "I don’t answer.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -870,206 +836,206 @@
     {
       "index": 58,
       "section": "Verse 2 – spoken rap",
-      "start": 107.08,
-      "end": 110.15,
+      "start": 107.34,
+      "end": 108.76,
       "text": "They love a clean little slogan",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 59,
       "section": "Verse 2 – spoken rap",
-      "start": 110.15,
-      "end": 112.708,
+      "start": 108.76,
+      "end": 110.14,
       "text": "for a messy little world.",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 60,
       "section": "Verse 2 – spoken rap",
-      "start": 112.708,
-      "end": 113.731,
+      "start": 110.14,
+      "end": 110.8,
       "text": "“Work hard.”",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 61,
       "section": "Verse 2 – spoken rap",
-      "start": 113.731,
-      "end": 114.754,
+      "start": 110.8,
+      "end": 111.44,
       "text": "“Speak up.”",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 62,
       "section": "Verse 2 – spoken rap",
-      "start": 114.754,
-      "end": 115.777,
+      "start": 111.44,
+      "end": 112.22,
       "text": "“Calm down.”",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 63,
       "section": "Verse 2 – spoken rap",
-      "start": 115.777,
-      "end": 116.801,
+      "start": 112.22,
+      "end": 112.98,
       "text": "“Be yourself.”",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 64,
       "section": "Verse 2 – spoken rap",
-      "start": 116.801,
-      "end": 117.312,
+      "start": 112.98,
+      "end": 113.38,
       "text": "Lovely.",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 65,
-      "section": "Verse 2 – spoken rap",
-      "start": 117.312,
-      "end": 119.359,
-      "text": "Be myself, but filtered.",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 66,
-      "section": "Verse 2 – spoken rap",
-      "start": 119.359,
-      "end": 121.405,
-      "text": "Speak up, but pleasant.",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 67,
-      "section": "Verse 2 – spoken rap",
-      "start": 121.405,
-      "end": 123.451,
-      "text": "Calm down, but immediately.",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 68,
-      "section": "Verse 2 – spoken rap",
-      "start": 123.451,
-      "end": 125.498,
-      "text": "Work hard, but invisibly.",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 69,
-      "section": "Verse 2 – spoken rap",
-      "start": 125.498,
-      "end": 128.568,
-      "text": "Need help, but not too loudly.",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 70,
-      "section": "Verse 2 – spoken rap",
-      "start": 128.568,
-      "end": 131.126,
-      "text": "Struggle, but make it inspiring.",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 71,
-      "section": "Verse 2 – spoken rap",
-      "start": 131.126,
-      "end": 133.172,
-      "text": "There’s a whole economy",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 72,
-      "section": "Verse 2 – spoken rap",
-      "start": 133.172,
-      "end": 133.505,
-      "text": "built on pretending the stairs are fair",
       "timing_source": "whisper-aligned",
       "matched_words": 1
     },
     {
+      "index": 65,
+      "section": "Verse 2 – spoken rap",
+      "start": 113.38,
+      "end": 114.8,
+      "text": "Be myself, but filtered.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 – spoken rap",
+      "start": 114.8,
+      "end": 115.92,
+      "text": "Speak up, but pleasant.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 – spoken rap",
+      "start": 115.92,
+      "end": 117.58,
+      "text": "Calm down, but immediately.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 – spoken rap",
+      "start": 117.58,
+      "end": 119.58,
+      "text": "Work hard, but invisibly.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 – spoken rap",
+      "start": 119.58,
+      "end": 121.64,
+      "text": "Need help, but not too loudly.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 – spoken rap",
+      "start": 121.64,
+      "end": 123.66,
+      "text": "Struggle, but make it inspiring.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 – spoken rap",
+      "start": 123.66,
+      "end": 125.2,
+      "text": "There’s a whole economy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 72,
+      "section": "Verse 2 – spoken rap",
+      "start": 125.2,
+      "end": 127.32,
+      "text": "built on pretending the stairs are fair",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
       "index": 73,
       "section": "Verse 2 – spoken rap",
-      "start": 133.505,
-      "end": 133.605,
+      "start": 127.32,
+      "end": 128.54,
       "text": "because technically",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 74,
       "section": "Verse 2 – spoken rap",
-      "start": 133.605,
-      "end": 133.705,
+      "start": 128.54,
+      "end": 130.06,
       "text": "there is a ramp",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 75,
       "section": "Verse 2 – spoken rap",
-      "start": 133.705,
-      "end": 133.805,
+      "start": 130.06,
+      "end": 130.78,
       "text": "round the back",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 76,
       "section": "Verse 2 – spoken rap",
-      "start": 133.805,
-      "end": 133.905,
+      "start": 130.78,
+      "end": 131.74,
       "text": "through a locked gate",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 77,
       "section": "Verse 2 – spoken rap",
-      "start": 133.905,
-      "end": 134.005,
+      "start": 131.74,
+      "end": 132.86,
       "text": "beside a bin",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 78,
       "section": "Verse 2 – spoken rap",
-      "start": 134.005,
-      "end": 134.502,
+      "start": 132.86,
+      "end": 134.12,
       "text": "with a sign that says",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 79,
       "section": "Verse 2 – spoken rap",
-      "start": 134.502,
-      "end": 135.498,
+      "start": 134.12,
+      "end": 135.9,
       "text": "“Ask staff for assistance.”",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 80,
       "section": "Verse 2 – spoken rap",
-      "start": 135.831,
-      "end": 136.828,
+      "start": 135.9,
+      "end": 136.76,
       "text": "Staff are busy.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1077,17 +1043,17 @@
     {
       "index": 81,
       "section": "Verse 2 – spoken rap",
-      "start": 136.828,
-      "end": 138.796,
+      "start": 136.76,
+      "end": 138.62,
       "text": "Staff have attended a workshop",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 82,
       "section": "Verse 2 – spoken rap",
-      "start": 138.796,
-      "end": 140.84,
+      "start": 138.62,
+      "end": 140.76,
       "text": "called “Empathy in Modern Environments”",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1095,8 +1061,8 @@
     {
       "index": 83,
       "section": "Verse 2 – spoken rap",
-      "start": 140.84,
-      "end": 142.64,
+      "start": 140.76,
+      "end": 142.42,
       "text": "and now say things like",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1104,8 +1070,8 @@
     {
       "index": 84,
       "section": "Verse 2 – spoken rap",
-      "start": 142.64,
-      "end": 143.72,
+      "start": 142.42,
+      "end": 143.74,
       "text": "“we hear you”",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1113,8 +1079,8 @@
     {
       "index": 85,
       "section": "Verse 2 – spoken rap",
-      "start": 143.72,
-      "end": 145.0,
+      "start": 143.74,
+      "end": 144.86,
       "text": "while changing nothing",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1122,8 +1088,8 @@
     {
       "index": 86,
       "section": "Verse 2 – spoken rap",
-      "start": 145.0,
-      "end": 146.28,
+      "start": 144.86,
+      "end": 146.58,
       "text": "with excellent posture.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1131,8 +1097,8 @@
     {
       "index": 87,
       "section": "Verse 2 – spoken rap",
-      "start": 146.28,
-      "end": 147.56,
+      "start": 146.58,
+      "end": 147.84,
       "text": "Everyone has needs.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1140,8 +1106,8 @@
     {
       "index": 88,
       "section": "Verse 2 – spoken rap",
-      "start": 147.56,
-      "end": 148.84,
+      "start": 147.84,
+      "end": 148.86,
       "text": "Everyone has limits.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1149,8 +1115,8 @@
     {
       "index": 89,
       "section": "Verse 2 – spoken rap",
-      "start": 148.84,
-      "end": 149.818,
+      "start": 148.86,
+      "end": 150.08,
       "text": "Everyone has something.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1158,17 +1124,17 @@
     {
       "index": 90,
       "section": "Verse 2 – spoken rap",
-      "start": 149.818,
-      "end": 151.123,
+      "start": 150.08,
+      "end": 151.28,
       "text": "But some of us arrive",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 91,
       "section": "Verse 2 – spoken rap",
-      "start": 151.449,
-      "end": 153.08,
+      "start": 151.28,
+      "end": 152.88,
       "text": "with a terms booklet",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1176,17 +1142,17 @@
     {
       "index": 92,
       "section": "Verse 2 – spoken rap",
-      "start": 153.444,
-      "end": 153.809,
+      "start": 152.88,
+      "end": 153.66,
       "text": "thick enough",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 93,
       "section": "Verse 2 – spoken rap",
-      "start": 153.809,
-      "end": 155.267,
+      "start": 153.66,
+      "end": 154.88,
       "text": "to level a table.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1194,17 +1160,17 @@
     {
       "index": 94,
       "section": "Verse 2 – spoken rap",
-      "start": 155.631,
-      "end": 157.089,
+      "start": 155.16,
+      "end": 156.38,
       "text": "And the world keeps saying,",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 95,
       "section": "Verse 2 – spoken rap",
-      "start": 157.089,
-      "end": 158.547,
+      "start": 156.38,
+      "end": 158.62,
       "text": "“Could you summarize that",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1212,8 +1178,8 @@
     {
       "index": 96,
       "section": "Verse 2 – spoken rap",
-      "start": 158.547,
-      "end": 159.64,
+      "start": 158.62,
+      "end": 159.66,
       "text": "in one sentence?”",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1221,8 +1187,8 @@
     {
       "index": 97,
       "section": "Verse 2 – spoken rap",
-      "start": 160.6,
-      "end": 161.027,
+      "start": 159.66,
+      "end": 161.02,
       "text": "Sure.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1230,8 +1196,8 @@
     {
       "index": 98,
       "section": "Verse 2 – spoken rap",
-      "start": 161.027,
-      "end": 162.307,
+      "start": 161.02,
+      "end": 162.5,
       "text": "I am expensive",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1239,8 +1205,8 @@
     {
       "index": 99,
       "section": "Verse 2 – spoken rap",
-      "start": 162.307,
-      "end": 164.44,
+      "start": 162.5,
+      "end": 164.04,
       "text": "in ways you cannot invoice.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1248,8 +1214,8 @@
     {
       "index": 100,
       "section": "Hook – fuller",
-      "start": 164.44,
-      "end": 166.84,
+      "start": 164.04,
+      "end": 166.2,
       "text": "Terms and conditions apply",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1257,8 +1223,8 @@
     {
       "index": 101,
       "section": "Hook – fuller",
-      "start": 166.84,
-      "end": 169.24,
+      "start": 166.2,
+      "end": 169.16,
       "text": "Some assembly required inside",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1266,8 +1232,8 @@
     {
       "index": 102,
       "section": "Hook – fuller",
-      "start": 169.24,
-      "end": 172.693,
+      "start": 169.16,
+      "end": 172.12,
       "text": "Handle with care, but don’t ask why",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1275,8 +1241,8 @@
     {
       "index": 103,
       "section": "Hook – fuller",
-      "start": 172.693,
-      "end": 175.16,
+      "start": 172.12,
+      "end": 175.1,
       "text": "I come with exceptions attached",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1284,8 +1250,8 @@
     {
       "index": 104,
       "section": "Hook – fuller",
-      "start": 175.8,
-      "end": 177.662,
+      "start": 175.1,
+      "end": 177.52,
       "text": "Terms and conditions apply",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1293,8 +1259,8 @@
     {
       "index": 105,
       "section": "Hook – fuller",
-      "start": 177.662,
-      "end": 180.92,
+      "start": 177.52,
+      "end": 180.74,
       "text": "I’m not broken, just hard to classify",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1302,8 +1268,8 @@
     {
       "index": 106,
       "section": "Hook – fuller",
-      "start": 180.92,
-      "end": 184.018,
+      "start": 180.74,
+      "end": 183.2,
       "text": "Read the warning before you decide",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1311,8 +1277,8 @@
     {
       "index": 107,
       "section": "Hook – fuller",
-      "start": 184.018,
-      "end": 186.6,
+      "start": 183.2,
+      "end": 186.48,
       "text": "I come with exceptions attached",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1320,8 +1286,8 @@
     {
       "index": 108,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 186.6,
-      "end": 187.72,
+      "start": 186.48,
+      "end": 187.14,
       "text": "And yes—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1329,17 +1295,17 @@
     {
       "index": 109,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 187.72,
-      "end": 189.4,
+      "start": 187.14,
+      "end": 189.16,
       "text": "sometimes I’m difficult.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 110,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 189.4,
-      "end": 190.52,
+      "start": 189.16,
+      "end": 190.48,
       "text": "Not mysterious.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1347,8 +1313,8 @@
     {
       "index": 111,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 190.52,
-      "end": 191.64,
+      "start": 190.48,
+      "end": 191.54,
       "text": "Not poetic.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1356,8 +1322,8 @@
     {
       "index": 112,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 191.64,
-      "end": 192.76,
+      "start": 191.54,
+      "end": 192.66,
       "text": "Just difficult.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1365,8 +1331,8 @@
     {
       "index": 113,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 192.76,
-      "end": 194.36,
+      "start": 192.66,
+      "end": 194.72,
       "text": "Sometimes the plan changes",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1374,17 +1340,17 @@
     {
       "index": 114,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 194.36,
-      "end": 195.96,
+      "start": 194.72,
+      "end": 195.62,
       "text": "and I become weather.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 115,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 197.8,
-      "end": 199.474,
+      "start": 196.2,
+      "end": 199.46,
       "text": "Sometimes a text message",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1392,8 +1358,8 @@
     {
       "index": 116,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 199.474,
-      "end": 201.148,
+      "start": 199.46,
+      "end": 201.14,
       "text": "weighs more than furniture.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1401,26 +1367,26 @@
     {
       "index": 117,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 201.148,
-      "end": 201.566,
+      "start": 201.14,
+      "end": 203.28,
       "text": "Sometimes the smallest errand",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 118,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 203.24,
-      "end": 205.48,
+      "start": 203.28,
+      "end": 205.26,
       "text": "stands at the end of a hallway",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 119,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 205.48,
-      "end": 206.44,
+      "start": 205.26,
+      "end": 206.78,
       "text": "holding a knife.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1428,8 +1394,8 @@
     {
       "index": 120,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 208.52,
-      "end": 209.465,
+      "start": 208.24,
+      "end": 209.6,
       "text": "Sometimes I cancel",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1437,8 +1403,8 @@
     {
       "index": 121,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 209.465,
-      "end": 211.04,
+      "start": 209.6,
+      "end": 210.86,
       "text": "because my face is tired",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1446,8 +1412,8 @@
     {
       "index": 122,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 211.04,
-      "end": 211.67,
+      "start": 210.86,
+      "end": 211.56,
       "text": "from pretending",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1455,8 +1421,8 @@
     {
       "index": 123,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 211.67,
-      "end": 213.56,
+      "start": 211.56,
+      "end": 213.82,
       "text": "it knows what faces are for.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1464,8 +1430,8 @@
     {
       "index": 124,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 214.36,
-      "end": 215.8,
+      "start": 213.82,
+      "end": 215.98,
       "text": "Sometimes I need silence",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1473,8 +1439,8 @@
     {
       "index": 125,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 215.8,
-      "end": 217.96,
+      "start": 215.98,
+      "end": 218.2,
       "text": "the way other people need air.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1482,8 +1448,8 @@
     {
       "index": 126,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 218.76,
-      "end": 221.096,
+      "start": 218.2,
+      "end": 219.99,
       "text": "And yes, I know.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1491,8 +1457,8 @@
     {
       "index": 127,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 221.096,
-      "end": 222.848,
+      "start": 219.99,
+      "end": 222.39,
       "text": "That is inconvenient.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1500,8 +1466,8 @@
     {
       "index": 128,
       "section": "Bridge – beat drops | vulnerable",
-      "start": 222.848,
-      "end": 224.6,
+      "start": 222.39,
+      "end": 224.97,
       "text": "Imagine living there.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1509,8 +1475,8 @@
     {
       "index": 129,
       "section": "Verse 3 – warmer",
-      "start": 225.48,
-      "end": 227.608,
+      "start": 224.97,
+      "end": 227.39,
       "text": "But I am not a failed version",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1518,8 +1484,8 @@
     {
       "index": 130,
       "section": "Verse 3 – warmer",
-      "start": 227.608,
-      "end": 228.52,
+      "start": 227.39,
+      "end": 228.45,
       "text": "of someone easier.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1527,8 +1493,8 @@
     {
       "index": 131,
       "section": "Verse 3 – warmer",
-      "start": 228.52,
-      "end": 230.884,
+      "start": 228.45,
+      "end": 230.73,
       "text": "I am not a public service announcement",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1536,8 +1502,8 @@
     {
       "index": 132,
       "section": "Verse 3 – warmer",
-      "start": 230.884,
-      "end": 231.56,
+      "start": 230.73,
+      "end": 231.55,
       "text": "with shoes.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1545,8 +1511,8 @@
     {
       "index": 133,
       "section": "Verse 3 – warmer",
-      "start": 231.56,
-      "end": 233.327,
+      "start": 231.55,
+      "end": 232.91,
       "text": "I am not your lesson",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1554,8 +1520,8 @@
     {
       "index": 134,
       "section": "Verse 3 – warmer",
-      "start": 233.327,
-      "end": 234.033,
+      "start": 232.91,
+      "end": 233.59,
       "text": "in patience",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1563,8 +1529,8 @@
     {
       "index": 135,
       "section": "Verse 3 – warmer",
-      "start": 234.033,
-      "end": 235.8,
+      "start": 233.59,
+      "end": 235.83,
       "text": "unless you are paying tuition.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1572,8 +1538,8 @@
     {
       "index": 136,
       "section": "Verse 3 – warmer",
-      "start": 236.84,
-      "end": 238.029,
+      "start": 235.83,
+      "end": 237.91,
       "text": "I am a person",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1581,8 +1547,8 @@
     {
       "index": 137,
       "section": "Verse 3 – warmer",
-      "start": 238.029,
-      "end": 238.92,
+      "start": 237.91,
+      "end": 238.89,
       "text": "with strange weather,",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1590,17 +1556,17 @@
     {
       "index": 138,
       "section": "Verse 3 – warmer",
-      "start": 239.279,
-      "end": 239.637,
+      "start": 238.89,
+      "end": 240.01,
       "text": "careful exits,",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 139,
       "section": "Verse 3 – warmer",
-      "start": 239.996,
-      "end": 240.713,
+      "start": 240.01,
+      "end": 241.39,
       "text": "unusual maps,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1608,8 +1574,8 @@
     {
       "index": 140,
       "section": "Verse 3 – warmer",
-      "start": 240.713,
-      "end": 241.788,
+      "start": 241.39,
+      "end": 242.19,
       "text": "and a heart",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1617,8 +1583,8 @@
     {
       "index": 141,
       "section": "Verse 3 – warmer",
-      "start": 241.788,
-      "end": 243.222,
+      "start": 242.19,
+      "end": 243.49,
       "text": "that has spent years",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1626,8 +1592,8 @@
     {
       "index": 142,
       "section": "Verse 3 – warmer",
-      "start": 243.222,
-      "end": 245.373,
+      "start": 243.49,
+      "end": 245.25,
       "text": "learning how not to spill itself",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1635,8 +1601,8 @@
     {
       "index": 143,
       "section": "Verse 3 – warmer",
-      "start": 245.373,
-      "end": 247.166,
+      "start": 245.25,
+      "end": 246.95,
       "text": "on people who only came",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1644,8 +1610,8 @@
     {
       "index": 144,
       "section": "Verse 3 – warmer",
-      "start": 247.166,
-      "end": 248.6,
+      "start": 246.95,
+      "end": 248.49,
       "text": "to check the label.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1653,17 +1619,17 @@
     {
       "index": 145,
       "section": "Verse 3 – warmer",
-      "start": 248.6,
-      "end": 250.464,
+      "start": 248.49,
+      "end": 250.53,
       "text": "So here are the revised terms:",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 146,
       "section": "Verse 3 – warmer",
-      "start": 250.464,
-      "end": 251.395,
+      "start": 250.53,
+      "end": 251.37,
       "text": "I will try",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1671,8 +1637,8 @@
     {
       "index": 147,
       "section": "Verse 3 – warmer",
-      "start": 251.395,
-      "end": 252.948,
+      "start": 251.37,
+      "end": 252.59,
       "text": "to say what I need",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1680,8 +1646,8 @@
     {
       "index": 148,
       "section": "Verse 3 – warmer",
-      "start": 252.948,
-      "end": 253.88,
+      "start": 252.59,
+      "end": 253.77,
       "text": "before I disappear.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1689,8 +1655,8 @@
     {
       "index": 149,
       "section": "Verse 3 – warmer",
-      "start": 253.88,
-      "end": 255.08,
+      "start": 253.77,
+      "end": 254.81,
       "text": "You will try",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1698,8 +1664,8 @@
     {
       "index": 150,
       "section": "Verse 3 – warmer",
-      "start": 255.08,
-      "end": 257.08,
+      "start": 254.81,
+      "end": 256.37,
       "text": "not to call every need",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1707,8 +1673,8 @@
     {
       "index": 151,
       "section": "Verse 3 – warmer",
-      "start": 257.08,
-      "end": 257.88,
+      "start": 256.37,
+      "end": 257.37,
       "text": "a negotiation.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1716,8 +1682,8 @@
     {
       "index": 152,
       "section": "Verse 3 – warmer",
-      "start": 257.88,
-      "end": 258.853,
+      "start": 257.37,
+      "end": 259.23,
       "text": "I will try",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1725,8 +1691,8 @@
     {
       "index": 153,
       "section": "Verse 3 – warmer",
-      "start": 258.853,
-      "end": 260.798,
+      "start": 259.23,
+      "end": 261.07,
       "text": "to laugh before the moment dies.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1734,8 +1700,8 @@
     {
       "index": 154,
       "section": "Verse 3 – warmer",
-      "start": 260.798,
-      "end": 261.771,
+      "start": 261.07,
+      "end": 262.09,
       "text": "You will try",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1743,8 +1709,8 @@
     {
       "index": 155,
       "section": "Verse 3 – warmer",
-      "start": 261.771,
-      "end": 262.419,
+      "start": 262.09,
+      "end": 262.71,
       "text": "to notice",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1752,8 +1718,8 @@
     {
       "index": 156,
       "section": "Verse 3 – warmer",
-      "start": 262.419,
-      "end": 264.04,
+      "start": 262.71,
+      "end": 264.09,
       "text": "I was laughing with you",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1761,8 +1727,8 @@
     {
       "index": 157,
       "section": "Verse 3 – warmer",
-      "start": 264.12,
-      "end": 266.04,
+      "start": 264.09,
+      "end": 265.93,
       "text": "even if I missed my cue.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1770,8 +1736,8 @@
     {
       "index": 158,
       "section": "Verse 3 – warmer",
-      "start": 266.04,
-      "end": 267.0,
+      "start": 265.93,
+      "end": 266.95,
       "text": "I will try",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1779,8 +1745,8 @@
     {
       "index": 159,
       "section": "Verse 3 – warmer",
-      "start": 267.0,
-      "end": 268.6,
+      "start": 266.95,
+      "end": 268.33,
       "text": "not to turn every room",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1788,8 +1754,8 @@
     {
       "index": 160,
       "section": "Verse 3 – warmer",
-      "start": 268.6,
-      "end": 269.56,
+      "start": 268.33,
+      "end": 269.31,
       "text": "into a courtroom.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1797,8 +1763,8 @@
     {
       "index": 161,
       "section": "Verse 3 – warmer",
-      "start": 269.56,
-      "end": 271.03,
+      "start": 269.31,
+      "end": 270.53,
       "text": "You will try",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1806,26 +1772,26 @@
     {
       "index": 162,
       "section": "Verse 3 – warmer",
-      "start": 271.03,
-      "end": 273.48,
+      "start": 270.53,
+      "end": 271.69,
       "text": "not to make every difference",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 163,
       "section": "Verse 3 – warmer",
-      "start": 273.97,
-      "end": 274.46,
+      "start": 271.91,
+      "end": 273.33,
       "text": "stand trial.",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 164,
       "section": "Verse 3 – warmer",
-      "start": 274.46,
-      "end": 275.44,
+      "start": 273.33,
+      "end": 274.17,
       "text": "And somewhere",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1833,8 +1799,8 @@
     {
       "index": 165,
       "section": "Verse 3 – warmer",
-      "start": 275.44,
-      "end": 276.42,
+      "start": 274.17,
+      "end": 275.75,
       "text": "between access",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1842,8 +1808,8 @@
     {
       "index": 166,
       "section": "Verse 3 – warmer",
-      "start": 276.42,
-      "end": 277.4,
+      "start": 275.75,
+      "end": 276.93,
       "text": "and apology,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1851,8 +1817,8 @@
     {
       "index": 167,
       "section": "Verse 3 – warmer",
-      "start": 277.4,
-      "end": 278.68,
+      "start": 276.93,
+      "end": 278.57,
       "text": "between patience",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1860,8 +1826,8 @@
     {
       "index": 168,
       "section": "Verse 3 – warmer",
-      "start": 278.68,
-      "end": 279.96,
+      "start": 278.57,
+      "end": 279.93,
       "text": "and pride,",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1869,8 +1835,8 @@
     {
       "index": 169,
       "section": "Verse 3 – warmer",
-      "start": 281.0,
-      "end": 282.966,
+      "start": 279.93,
+      "end": 282.59,
       "text": "maybe we stop pretending",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1878,8 +1844,8 @@
     {
       "index": 170,
       "section": "Verse 3 – warmer",
-      "start": 282.966,
-      "end": 284.44,
+      "start": 282.59,
+      "end": 284.41,
       "text": "fair means identical.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1887,8 +1853,8 @@
     {
       "index": 171,
       "section": "Verse 3 – warmer",
-      "start": 285.96,
-      "end": 287.76,
+      "start": 284.41,
+      "end": 287.57,
       "text": "Maybe we build the table",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1896,8 +1862,8 @@
     {
       "index": 172,
       "section": "Verse 3 – warmer",
-      "start": 287.76,
-      "end": 289.56,
+      "start": 287.57,
+      "end": 289.25,
       "text": "with the wobble in mind.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1905,8 +1871,8 @@
     {
       "index": 173,
       "section": "Final Hook",
-      "start": 289.56,
-      "end": 291.0,
+      "start": 289.25,
+      "end": 291.05,
       "text": "Terms and conditions apply",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1914,8 +1880,8 @@
     {
       "index": 174,
       "section": "Final Hook",
-      "start": 291.56,
-      "end": 294.04,
+      "start": 291.05,
+      "end": 293.99,
       "text": "Some assembly required inside",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1923,26 +1889,26 @@
     {
       "index": 175,
       "section": "Final Hook",
-      "start": 295.406,
-      "end": 297.683,
+      "start": 293.99,
+      "end": 296.97,
       "text": "Handle with care, but don’t ask why",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 176,
       "section": "Final Hook",
-      "start": 297.683,
-      "end": 299.96,
+      "start": 296.97,
+      "end": 299.77,
       "text": "I come with exceptions attached",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 177,
       "section": "Final Hook",
-      "start": 300.68,
-      "end": 302.52,
+      "start": 299.77,
+      "end": 302.41,
       "text": "Terms and conditions apply",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1950,17 +1916,17 @@
     {
       "index": 178,
       "section": "Final Hook",
-      "start": 303.34,
-      "end": 305.8,
+      "start": 302.41,
+      "end": 305.69,
       "text": "I’m not broken, just hard to classify",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 179,
       "section": "Final Hook",
-      "start": 305.8,
-      "end": 308.12,
+      "start": 305.69,
+      "end": 308.21,
       "text": "Read the warning before you decide",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1968,8 +1934,8 @@
     {
       "index": 180,
       "section": "Final Hook",
-      "start": 308.12,
-      "end": 311.48,
+      "start": 308.21,
+      "end": 311.45,
       "text": "I come with exceptions attached",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1977,26 +1943,26 @@
     {
       "index": 181,
       "section": "Final Hook",
-      "start": 312.307,
-      "end": 313.96,
+      "start": 312.11,
+      "end": 313.87,
       "text": "Terms and conditions apply",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 182,
       "section": "Final Hook",
-      "start": 313.96,
-      "end": 316.84,
+      "start": 313.87,
+      "end": 316.95,
       "text": "But I’m done being sorry for mine",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 183,
       "section": "Final Hook",
-      "start": 316.92,
-      "end": 319.8,
+      "start": 316.95,
+      "end": 319.77,
       "text": "If you want the truth, read every line",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -2004,8 +1970,8 @@
     {
       "index": 184,
       "section": "Final Hook",
-      "start": 319.8,
-      "end": 322.76,
+      "start": 319.77,
+      "end": 323.03,
       "text": "I come with exceptions attached",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -2013,8 +1979,8 @@
     {
       "index": 185,
       "section": "Outro – spoken",
-      "start": 324.52,
-      "end": 326.44,
+      "start": 323.03,
+      "end": 325.75,
       "text": "By staying this long",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2022,8 +1988,8 @@
     {
       "index": 186,
       "section": "Outro – spoken",
-      "start": 326.44,
-      "end": 327.4,
+      "start": 325.75,
+      "end": 327.41,
       "text": "you accept",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2031,8 +1997,8 @@
     {
       "index": 187,
       "section": "Outro – spoken",
-      "start": 327.4,
-      "end": 328.36,
+      "start": 327.41,
+      "end": 328.53,
       "text": "that understanding",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2040,8 +2006,8 @@
     {
       "index": 188,
       "section": "Outro – spoken",
-      "start": 328.36,
-      "end": 330.28,
+      "start": 328.53,
+      "end": 330.41,
       "text": "may not be immediate.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -2049,8 +2015,8 @@
     {
       "index": 189,
       "section": "Outro – spoken",
-      "start": 331.08,
-      "end": 332.76,
+      "start": 330.41,
+      "end": 332.77,
       "text": "Refunds are unavailable.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -2058,17 +2024,17 @@
     {
       "index": 190,
       "section": "Outro – spoken",
-      "start": 334.536,
-      "end": 335.4,
+      "start": 334.23,
+      "end": 335.45,
       "text": "But tea may be provided.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 191,
       "section": "Outro – spoken",
-      "start": 337.4,
-      "end": 338.26,
+      "start": 335.45,
+      "end": 338.13,
       "text": "And honestly?",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -2076,8 +2042,8 @@
     {
       "index": 192,
       "section": "Outro – spoken",
-      "start": 338.26,
-      "end": 340.84,
+      "start": 338.13,
+      "end": 340.95,
       "text": "That’s more than most systems offer.",
       "timing_source": "whisper-aligned",
       "matched_words": 6

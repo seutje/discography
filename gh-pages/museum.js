@@ -319,13 +319,13 @@ function placeStationColumn(album, tracks, x, z, facing, mats) {
     const station = addBox(new THREE.Vector3(0.55, 1.15, 1.25), new THREE.Vector3(x, 0.65, stationZ), mats.station);
     station.userData = { albumName: album.name, trackTitle: track.title, kind: 'station' };
     museum.stationObjects.push(station);
-    const label = labelPlane([`${track.track_number ?? track.index}. ${track.title}`], 2.75, 0.72, {
-      size: track.title.length > 24 ? 34 : 40,
+    const label = labelPlane([`${track.track_number ?? track.index}. ${track.title}`], 1.72, 0.58, {
+      size: track.title.length > 24 ? 24 : 29,
       background: 'rgba(43, 26, 13, .92)',
     });
     label.position.set(x - facing * 0.42, 1.55, stationZ);
     label.rotation.y = facing > 0 ? Math.PI / 2 : -Math.PI / 2;
-    label.userData = station.userData;
+    label.userData = { albumName: album.name, trackTitle: track.title, kind: 'station-label' };
     museum.stationObjects.push(label);
     museum.scene.add(label);
   });
@@ -448,7 +448,7 @@ function updateFocusedStation(pointer = new THREE.Vector2(0, 0)) {
   museum.raycaster.setFromCamera(pointer, museum.camera);
   const hits = museum.raycaster.intersectObjects(museum.stationObjects, false);
   const station = hits.find(hit => hit.distance < 8)?.object || null;
-  const data = station?.userData?.kind === 'station' ? station.userData : station?.userData;
+  const data = ['station', 'station-label'].includes(station?.userData?.kind) ? station.userData : null;
   museum.focusedStation = data?.trackTitle ? data : null;
   const prompt = museum.overlay.querySelector('[data-museum-prompt]');
   prompt.textContent = museum.focusedStation

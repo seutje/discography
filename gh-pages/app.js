@@ -1888,7 +1888,38 @@ function playCatalogTrack(albumName, trackTitle) {
     title: albumTrack.track.title || 'Selected track',
     meta: albumTrack.track.audio_path || albumTrack.album.name || '',
     lyricsUrl: albumTrack.track.lyrics_url || lyricsUrlForAudio(albumTrack.track.audio_url)
-  });
+  }, { startIfIdle: false });
+  playPlaylistIndex(state.playlist.length - 1);
+  return true;
+}
+
+function playerSnapshot() {
+  const audio = $('globalAudio');
+  return {
+    title: state.currentTrack?.title || '',
+    meta: state.currentTrack?.meta || '',
+    paused: audio.paused,
+    duration: Number.isFinite(audio.duration) ? audio.duration : 0,
+    currentTime: Number.isFinite(audio.currentTime) ? audio.currentTime : 0,
+    hasTrack: Boolean(state.currentTrack?.url),
+  };
+}
+
+async function togglePlayback() {
+  const audio = $('globalAudio');
+  if (!state.currentTrack?.url) return false;
+  if (audio.paused) {
+    await audio.play();
+  } else {
+    audio.pause();
+  }
+  return true;
+}
+
+function seekBy(seconds) {
+  const audio = $('globalAudio');
+  if (!state.currentTrack?.url || !Number.isFinite(audio.duration)) return false;
+  audio.currentTime = Math.max(0, Math.min(audio.duration, audio.currentTime + seconds));
   return true;
 }
 
@@ -1896,7 +1927,12 @@ window.discographyApp = {
   getAlbums: () => state.albums,
   getCurrentTrack: () => state.currentTrack,
   getLyricSnapshot: lyricSnapshot,
+  getPlayerSnapshot: playerSnapshot,
   playCatalogTrack,
+  togglePlayback,
+  seekBy,
+  nextTrack: advancePlaylist,
+  previousTrack: () => playPlaylistIndex(state.currentPlaylistIndex - 1),
   onAudio: (eventName, handler) => $('globalAudio').addEventListener(eventName, handler),
   offAudio: (eventName, handler) => $('globalAudio').removeEventListener(eventName, handler),
 };

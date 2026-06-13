@@ -60,7 +60,7 @@
 .museum-lyrics {
   position: absolute;
   left: 50%;
-  bottom: 26px;
+  bottom: 108px;
   z-index: 2;
   width: min(860px, calc(100vw - 28px));
   transform: translateX(-50%);
@@ -72,6 +72,52 @@
   text-align: center;
   pointer-events: none;
   box-shadow: 0 10px 34px rgba(0, 0, 0, .5);
+}
+.museum-transport {
+  position: absolute;
+  left: 50%;
+  bottom: 16px;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: minmax(180px, 320px) auto;
+  gap: 10px;
+  align-items: center;
+  width: min(860px, calc(100vw - 28px));
+  transform: translateX(-50%);
+  padding: 10px 12px;
+  border: 1px solid rgba(217, 166, 100, .34);
+  border-radius: 8px;
+  background: rgba(24, 14, 7, .82);
+  box-shadow: 0 10px 34px rgba(0, 0, 0, .42);
+}
+.museum-transport-copy {
+  min-width: 0;
+}
+.museum-transport-copy strong,
+.museum-transport-copy span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.museum-transport-copy span {
+  margin-top: 2px;
+  color: #d8c1a1;
+  font-size: 12px;
+}
+.museum-transport-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.museum-transport-buttons button {
+  min-height: 30px;
+  padding: 4px 8px;
+  border-color: rgba(217, 166, 100, .56);
+  background: rgba(64, 38, 18, .9);
+  color: #f8ecd9;
+  font-size: 12px;
 }
 .museum-lyric-side {
   min-height: 18px;
@@ -125,7 +171,7 @@ button.museum-exit {
 }
 .museum-mobile-controls {
   position: absolute;
-  inset: auto 14px 108px;
+  inset: auto 14px 198px;
   z-index: 3;
   display: none;
   justify-content: space-between;
@@ -193,7 +239,15 @@ body.museum-active .global-player {
     display: flex;
   }
   .museum-lyrics {
-    bottom: 12px;
+    bottom: 94px;
+  }
+  .museum-transport {
+    grid-template-columns: 1fr;
+    gap: 7px;
+    bottom: 10px;
+  }
+  .museum-transport-buttons {
+    justify-content: center;
   }
 }
 @media (orientation: portrait) and (max-width: 800px) {

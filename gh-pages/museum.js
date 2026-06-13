@@ -84,12 +84,30 @@ function createOverlay() {
       <div class="museum-lyric-current" data-lyric-current>Timed lyrics will appear here.</div>
       <div class="museum-lyric-side" data-lyric-next></div>
     </div>
+    <div class="museum-transport" aria-label="Museum player controls">
+      <div class="museum-transport-copy">
+        <strong data-player-title>No track selected</strong>
+        <span data-player-time>--:--</span>
+      </div>
+      <div class="museum-transport-buttons">
+        <button class="secondary" type="button" data-player-prev aria-label="Previous track">Prev</button>
+        <button class="secondary" type="button" data-player-rewind aria-label="Rewind 10 seconds">-10s</button>
+        <button class="secondary" type="button" data-player-toggle aria-label="Play or pause">Play</button>
+        <button class="secondary" type="button" data-player-forward aria-label="Forward 10 seconds">+10s</button>
+        <button class="secondary" type="button" data-player-next aria-label="Next track">Next</button>
+      </div>
+    </div>
     <div class="museum-rotate-hint">Rotate your device for the 3D museum.</div>
   `;
   document.body.appendChild(overlay);
   museum.overlay = overlay;
   museum.canvas = overlay.querySelector('.museum-canvas');
   overlay.querySelector('[data-museum-exit]').addEventListener('click', closeMuseum);
+  overlay.querySelector('[data-player-toggle]').addEventListener('click', () => window.discographyApp?.togglePlayback?.());
+  overlay.querySelector('[data-player-prev]').addEventListener('click', () => window.discographyApp?.previousTrack?.());
+  overlay.querySelector('[data-player-next]').addEventListener('click', () => window.discographyApp?.nextTrack?.());
+  overlay.querySelector('[data-player-rewind]').addEventListener('click', () => window.discographyApp?.seekBy?.(-10));
+  overlay.querySelector('[data-player-forward]').addEventListener('click', () => window.discographyApp?.seekBy?.(10));
   wireControls(overlay);
 }
 
@@ -252,11 +270,20 @@ function buildMuseum() {
 function buildRoom(album, index, z, mats) {
   const halfW = ROOM_WIDTH / 2;
   const halfD = ROOM_DEPTH / 2;
+  const doorWidth = 4.2;
+  const doorHeight = 2.55;
+  const sideWallWidth = (ROOM_WIDTH - doorWidth) / 2;
+  const backZ = z - halfD;
   addBox(new THREE.Vector3(ROOM_WIDTH, 0.18, ROOM_DEPTH), new THREE.Vector3(0, 0, z), mats.floor, false);
   addBox(new THREE.Vector3(0.28, 3.7, ROOM_DEPTH), new THREE.Vector3(-halfW, 1.85, z), mats.wall, false);
   addBox(new THREE.Vector3(0.28, 3.7, ROOM_DEPTH), new THREE.Vector3(halfW, 1.85, z), mats.wall, false);
-  addBox(new THREE.Vector3(ROOM_WIDTH, 3.7, 0.28), new THREE.Vector3(0, 1.85, z - halfD), mats.wall, false);
+  addBox(new THREE.Vector3(sideWallWidth, 3.7, 0.28), new THREE.Vector3(-(doorWidth / 2 + sideWallWidth / 2), 1.85, backZ), mats.wall, false);
+  addBox(new THREE.Vector3(sideWallWidth, 3.7, 0.28), new THREE.Vector3(doorWidth / 2 + sideWallWidth / 2, 1.85, backZ), mats.wall, false);
+  addBox(new THREE.Vector3(doorWidth, 3.7 - doorHeight, 0.28), new THREE.Vector3(0, doorHeight + (3.7 - doorHeight) / 2, backZ), mats.wall, false);
   addBox(new THREE.Vector3(ROOM_WIDTH, 0.22, 0.28), new THREE.Vector3(0, 3.7, z + halfD), mats.beam, false);
+  addBox(new THREE.Vector3(0.18, doorHeight, 0.22), new THREE.Vector3(-doorWidth / 2, doorHeight / 2, backZ + 0.03), mats.beam);
+  addBox(new THREE.Vector3(0.18, doorHeight, 0.22), new THREE.Vector3(doorWidth / 2, doorHeight / 2, backZ + 0.03), mats.beam);
+  addBox(new THREE.Vector3(doorWidth + 0.36, 0.18, 0.22), new THREE.Vector3(0, doorHeight, backZ + 0.03), mats.beam);
 
   for (let beam = -2; beam <= 2; beam += 1) {
     addBox(new THREE.Vector3(0.16, 3.9, 0.16), new THREE.Vector3(-halfW + 1.1, 1.95, z + beam * 2.6), mats.beam);
@@ -268,8 +295,7 @@ function buildRoom(album, index, z, mats) {
     size: album.name.length > 22 ? 44 : 54,
     background: 'rgba(49, 29, 13, .94)',
   });
-  title.position.set(0, 3.05, z + halfD - 0.35);
-  title.rotation.y = Math.PI;
+  title.position.set(0, 3.12, backZ + 0.18);
   museum.scene.add(title);
 
   const workLight = new THREE.PointLight(0xd88a3c, 0.75, 8, 1.5);
@@ -324,6 +350,26 @@ function wireControls(overlay) {
     if (['KeyW', 'KeyA', 'KeyS', 'KeyD', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(event.code)) {
       museum.keys.add(event.code);
       event.preventDefault();
+    }
+    if (event.code === 'Space' || event.code === 'KeyP') {
+      event.preventDefault();
+      window.discographyApp?.togglePlayback?.();
+    }
+    if (event.code === 'KeyN') {
+      event.preventDefault();
+      window.discographyApp?.nextTrack?.();
+    }
+    if (event.code === 'KeyB') {
+      event.preventDefault();
+      window.discographyApp?.previousTrack?.();
+    }
+    if (event.code === 'BracketLeft') {
+      event.preventDefault();
+      window.discographyApp?.seekBy?.(-10);
+    }
+    if (event.code === 'BracketRight') {
+      event.preventDefault();
+      window.discographyApp?.seekBy?.(10);
     }
     if (event.code === 'Escape' && document.pointerLockElement !== museum.canvas) closeMuseum();
   });
@@ -464,6 +510,14 @@ function moveCamera(delta) {
   museum.camera.position.y = CAMERA_HEIGHT;
 }
 
+function formatPlayerTime(seconds) {
+  const value = Number(seconds);
+  if (!Number.isFinite(value) || value <= 0) return '0:00';
+  const minutes = Math.floor(value / 60);
+  const secs = Math.floor(value % 60);
+  return `${minutes}:${String(secs).padStart(2, '0')}`;
+}
+
 function updateHud() {
   const room = currentRoom();
   if (room) {
@@ -474,6 +528,17 @@ function updateHud() {
   museum.overlay.querySelector('[data-lyric-current]').textContent = snapshot.current || 'Timed lyrics will appear here.';
   museum.overlay.querySelector('[data-lyric-next]').textContent = snapshot.next || '';
   if (snapshot.title) museum.overlay.querySelector('[data-museum-track]').textContent = snapshot.title;
+
+  const player = window.discographyApp?.getPlayerSnapshot?.() || {};
+  museum.overlay.querySelector('[data-player-title]').textContent = player.title || 'No track selected';
+  museum.overlay.querySelector('[data-player-time]').textContent = player.hasTrack
+    ? `${formatPlayerTime(player.currentTime)} / ${formatPlayerTime(player.duration)}`
+    : '--:--';
+  museum.overlay.querySelector('[data-player-toggle]').textContent = player.hasTrack && !player.paused ? 'Pause' : 'Play';
+  museum.overlay.querySelectorAll('[data-player-prev], [data-player-rewind], [data-player-toggle], [data-player-forward], [data-player-next]')
+    .forEach(button => {
+      button.disabled = !player.hasTrack;
+    });
 
   const lyricText = `${snapshot.title || ''}\n${snapshot.current || ''}`;
   if (museum.lyricPanel && lyricText !== museum.lastLyricText) {

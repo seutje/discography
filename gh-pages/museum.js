@@ -36,8 +36,6 @@ const museum = {
   materials: null,
   focusedStation: null,
   activeStation: null,
-  lyricTexture: null,
-  lyricPanel: null,
   yaw: 0,
   pitch: 0,
   keys: new Set(),
@@ -46,7 +44,6 @@ const museum = {
   previousLook: null,
   running: false,
   animationFrame: 0,
-  lastLyricText: '',
 };
 
 function el(tag, className = '', text = '') {
@@ -255,16 +252,6 @@ function buildMuseum() {
     buildRoom(album, index, z, mats);
   });
 
-  const lyricMaterial = new THREE.MeshBasicMaterial({
-    map: createTextTexture(['Timed lyrics will appear here.'], { width: 1024, height: 256, size: 44 }),
-    transparent: true,
-    side: THREE.DoubleSide,
-  });
-  museum.lyricTexture = lyricMaterial.map;
-  museum.lyricPanel = new THREE.Mesh(new THREE.PlaneGeometry(5.8, 1.45), lyricMaterial);
-  museum.lyricPanel.position.set(0, 2.4, -3);
-  museum.lyricPanel.visible = false;
-  museum.scene.add(museum.lyricPanel);
 }
 
 function buildRoom(album, index, z, mats) {
@@ -540,27 +527,6 @@ function updateHud() {
       button.disabled = !player.hasTrack;
     });
 
-  const lyricText = `${snapshot.title || ''}\n${snapshot.current || ''}`;
-  if (museum.lyricPanel && lyricText !== museum.lastLyricText) {
-    museum.lastLyricText = lyricText;
-    const oldMap = museum.lyricPanel.material.map;
-    museum.lyricPanel.material.map = createTextTexture([snapshot.title || 'Now playing', snapshot.current || 'Timed lyrics will appear here.'], {
-      width: 1024,
-      height: 320,
-      size: 44,
-      background: 'rgba(37, 22, 10, .9)',
-    });
-    museum.lyricPanel.material.needsUpdate = true;
-    oldMap?.dispose?.();
-  }
-  if (museum.lyricPanel) {
-    const distance = 4.6;
-    const forward = new THREE.Vector3(0, 0, -1).applyEuler(museum.camera.rotation);
-    museum.lyricPanel.position.copy(museum.camera.position).addScaledVector(forward, distance);
-    museum.lyricPanel.position.y = museum.camera.position.y + 0.72;
-    museum.lyricPanel.quaternion.copy(museum.camera.quaternion);
-    museum.lyricPanel.visible = Boolean(snapshot.title);
-  }
 }
 
 function animate() {

@@ -1,0 +1,203 @@
+.museum-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  background: #120c07;
+  color: #f6ead8;
+  overflow: hidden;
+}
+.museum-overlay.active {
+  display: block;
+}
+.museum-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+.museum-hud {
+  position: absolute;
+  inset: 14px 14px auto;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  pointer-events: none;
+}
+.museum-panel {
+  min-width: 0;
+  max-width: 680px;
+  padding: 10px 12px;
+  border: 1px solid rgba(217, 166, 100, .36);
+  border-radius: 8px;
+  background: rgba(24, 14, 7, .76);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, .45);
+  backdrop-filter: blur(5px);
+}
+.museum-room-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #d9a664;
+}
+.museum-track-title {
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 800;
+}
+.museum-prompt {
+  margin-top: 3px;
+  color: #d8c1a1;
+  font-size: 12px;
+}
+.museum-lyrics {
+  position: absolute;
+  left: 50%;
+  bottom: 26px;
+  z-index: 2;
+  width: min(860px, calc(100vw - 28px));
+  transform: translateX(-50%);
+  padding: 12px 16px;
+  border: 1px solid rgba(217, 166, 100, .3);
+  border-radius: 8px;
+  background: rgba(18, 10, 5, .72);
+  color: #f8ecd9;
+  text-align: center;
+  pointer-events: none;
+  box-shadow: 0 10px 34px rgba(0, 0, 0, .5);
+}
+.museum-lyric-side {
+  min-height: 18px;
+  color: #c9ad84;
+  font-size: 12px;
+  opacity: .74;
+  overflow-wrap: anywhere;
+}
+.museum-lyric-current {
+  min-height: 28px;
+  margin: 3px 0;
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+button.museum-exit {
+  pointer-events: auto;
+  border-color: #d9a664;
+  background: rgba(38, 22, 11, .9);
+  color: #f6ead8;
+}
+.museum-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  width: 18px;
+  height: 18px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.museum-center::before,
+.museum-center::after {
+  content: "";
+  position: absolute;
+  background: rgba(248, 236, 217, .74);
+}
+.museum-center::before {
+  left: 8px;
+  top: 0;
+  width: 2px;
+  height: 18px;
+}
+.museum-center::after {
+  left: 0;
+  top: 8px;
+  width: 18px;
+  height: 2px;
+}
+.museum-mobile-controls {
+  position: absolute;
+  inset: auto 14px 108px;
+  z-index: 3;
+  display: none;
+  justify-content: space-between;
+  align-items: end;
+  pointer-events: none;
+}
+.museum-move-pad,
+.museum-look-pad {
+  pointer-events: auto;
+  border: 1px solid rgba(217, 166, 100, .32);
+  border-radius: 8px;
+  background: rgba(24, 14, 7, .56);
+  backdrop-filter: blur(4px);
+}
+.museum-move-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 42px);
+  grid-template-rows: repeat(3, 42px);
+  gap: 5px;
+  padding: 7px;
+}
+.museum-move-pad button {
+  min-height: 42px;
+  padding: 0;
+  border-color: rgba(217, 166, 100, .5);
+  background: rgba(64, 38, 18, .82);
+  color: #f8ecd9;
+}
+.museum-move-pad [data-move="forward"] { grid-column: 2; grid-row: 1; }
+.museum-move-pad [data-move="left"] { grid-column: 1; grid-row: 2; }
+.museum-move-pad [data-move="backward"] { grid-column: 2; grid-row: 3; }
+.museum-move-pad [data-move="right"] { grid-column: 3; grid-row: 2; }
+.museum-look-pad {
+  display: grid;
+  place-items: center;
+  width: 132px;
+  height: 132px;
+  color: #d8c1a1;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.museum-rotate-hint {
+  display: none;
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  place-items: center;
+  padding: 24px;
+  background: rgba(18, 10, 5, .9);
+  color: #f8ecd9;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  pointer-events: none;
+}
+body.museum-active {
+  overflow: hidden;
+}
+body.museum-active .global-player {
+  display: none;
+}
+@media (pointer: coarse), (max-width: 800px) {
+  .museum-mobile-controls {
+    display: flex;
+  }
+  .museum-lyrics {
+    bottom: 12px;
+  }
+}
+@media (orientation: portrait) and (max-width: 800px) {
+  .museum-rotate-hint {
+    display: grid;
+  }
+}

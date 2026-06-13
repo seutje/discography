@@ -1866,6 +1866,41 @@ function syncPlayButtons() {
   renderPlaylist();
 }
 
+function lyricSnapshot() {
+  const lines = state.timedLyrics?.lines || [];
+  const index = currentDisplayedLyricIndex();
+  return {
+    title: state.currentTrack?.title || '',
+    meta: state.currentTrack?.meta || '',
+    previous: index >= 0 ? lines[index - 1]?.text || '' : '',
+    current: index >= 0 ? lines[index]?.text || '' : $('karaokeCurrent')?.textContent || '',
+    next: index >= 0 ? lines[index + 1]?.text || '' : '',
+    hasLyrics: Boolean(lines.length),
+    index,
+  };
+}
+
+function playCatalogTrack(albumName, trackTitle) {
+  const albumTrack = albumTrackForRouteSong(trackTitle, albumName);
+  if (!albumTrack?.track?.audio_url) return false;
+  addToPlaylist({
+    url: albumTrack.track.audio_url,
+    title: albumTrack.track.title || 'Selected track',
+    meta: albumTrack.track.audio_path || albumTrack.album.name || '',
+    lyricsUrl: albumTrack.track.lyrics_url || lyricsUrlForAudio(albumTrack.track.audio_url)
+  });
+  return true;
+}
+
+window.discographyApp = {
+  getAlbums: () => state.albums,
+  getCurrentTrack: () => state.currentTrack,
+  getLyricSnapshot: lyricSnapshot,
+  playCatalogTrack,
+  onAudio: (eventName, handler) => $('globalAudio').addEventListener(eventName, handler),
+  offAudio: (eventName, handler) => $('globalAudio').removeEventListener(eventName, handler),
+};
+
 async function fetchJson(url) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`${url} load failed: ${response.status}`);

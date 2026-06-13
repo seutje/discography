@@ -1,5 +1,6 @@
 :root {
   color-scheme: light;
+  --header-min-height: 58px;
   --bg: #f5f6f1;
   --panel: #ffffff;
   --chrome: #fbfcf8;
@@ -53,12 +54,13 @@ body {
   line-height: 1.45;
 }
 header {
-  height: 58px;
+  min-height: var(--header-min-height);
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 14px;
-  padding: 0 22px;
+  flex-wrap: wrap;
+  padding: 10px 22px;
   border-bottom: 1px solid var(--line);
   background: var(--chrome);
 }
@@ -67,11 +69,12 @@ h1 {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0;
+  flex: 0 0 auto;
 }
 main {
   display: grid;
   grid-template-columns: 320px minmax(0, 1fr);
-  min-height: calc(100vh - 58px);
+  min-height: calc(100vh - var(--header-min-height));
 }
 aside {
   border-right: 1px solid var(--line);
@@ -132,8 +135,10 @@ button:disabled {
 .header-actions {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 8px;
   flex-wrap: wrap;
+  min-width: 0;
 }
 .status {
   display: inline-flex;
@@ -589,4 +594,18 @@ button.playing {
     padding: 10px 14px;
   }
   .playlist-list { max-height: 92px; }
+}
+@media (max-width: 560px) {
+  header {
+    align-items: flex-start;
+    padding: 10px 14px;
+  }
+  .header-actions {
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .header-actions .status {
+    flex-basis: 100%;
+    width: fit-content;
+  }
 }

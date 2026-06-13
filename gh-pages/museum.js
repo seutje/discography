@@ -167,7 +167,7 @@ function createTextTexture(lines, options = {}) {
   textLines.forEach((line, index) => {
     ctx.font = `${index === 0 && options.title ? 800 : 700} ${index === 0 ? mainSize : Math.round(mainSize * 0.7)}px Inter, Arial, sans-serif`;
     ctx.fillStyle = index === 0 ? options.color || '#f8ecd9' : options.subColor || '#d8c1a1';
-    ctx.fillText(String(line || '').slice(0, 52), width / 2, startY + index * gap);
+    ctx.fillText(String(line || '').slice(0, 72), width / 2, startY + index * gap, options.maxTextWidth || width - 96);
   });
   const texture = new THREE.CanvasTexture(canvas);
   texture.colorSpace = THREE.SRGBColorSpace;
@@ -277,12 +277,15 @@ function buildRoom(album, index, z, mats) {
     addBox(new THREE.Vector3(0.16, 3.9, 0.16), new THREE.Vector3(halfW - 1.1, 1.95, z + beam * 2.6), mats.beam);
   }
 
-  const title = labelPlane([album.name, `${album.track_count || (album.tracks || []).length} songs`], 6.5, 1.3, {
+  const title = labelPlane([album.name, `${album.track_count || (album.tracks || []).length} songs`], 7.5, 1.3, {
     title: true,
-    size: album.name.length > 22 ? 44 : 54,
+    size: album.name.length > 42 ? 36 : album.name.length > 22 ? 44 : 54,
+    maxTextWidth: 930,
     background: 'rgba(49, 29, 13, .94)',
   });
   title.position.set(0, 3.12, backZ + 0.18);
+  title.userData = { albumName: album.name, kind: 'album-label' };
+  museum.stationObjects.push(title);
   museum.scene.add(title);
 
   const workLight = new THREE.PointLight(0xd88a3c, 0.75, 8, 1.5);
@@ -448,17 +451,24 @@ function updateFocusedStation(pointer = new THREE.Vector2(0, 0)) {
   museum.raycaster.setFromCamera(pointer, museum.camera);
   const hits = museum.raycaster.intersectObjects(museum.stationObjects, false);
   const station = hits.find(hit => hit.distance < 8)?.object || null;
-  const data = ['station', 'station-label'].includes(station?.userData?.kind) ? station.userData : null;
-  museum.focusedStation = data?.trackTitle ? data : null;
+  const data = ['station', 'station-label', 'album-label'].includes(station?.userData?.kind) ? station.userData : null;
+  museum.focusedStation = data?.trackTitle || data?.albumName ? data : null;
   const prompt = museum.overlay.querySelector('[data-museum-prompt]');
-  prompt.textContent = museum.focusedStation
+  prompt.textContent = museum.focusedStation?.trackTitle
     ? `Station: ${museum.focusedStation.trackTitle}`
+    : museum.focusedStation?.albumName
+      ? `Album: ${museum.focusedStation.albumName}`
     : 'Museum under construction';
 }
 
 function playFocusedStation() {
   const station = museum.focusedStation;
   if (!station) return;
+  if (station.kind === 'album-label') {
+    const queued = window.discographyApp?.queueCatalogAlbum?.(station.albumName);
+    if (queued) museum.overlay.querySelector('[data-museum-track]').textContent = `${station.albumName} queued`;
+    return;
+  }
   const played = window.discographyApp?.playCatalogTrack?.(station.albumName, station.trackTitle);
   if (played) {
     museum.activeStation = station;

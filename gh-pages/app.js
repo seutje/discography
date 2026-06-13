@@ -1893,6 +1893,15 @@ function playCatalogTrack(albumName, trackTitle) {
   return true;
 }
 
+function queueCatalogAlbum(albumName) {
+  const album = state.albums.find(item => item.name === albumName);
+  if (!album) return false;
+  const tracks = albumTracksForPlaylist(album);
+  if (!tracks.length) return false;
+  addManyToPlaylist(tracks);
+  return true;
+}
+
 function playerSnapshot() {
   const audio = $('globalAudio');
   return {
@@ -1929,6 +1938,7 @@ window.discographyApp = {
   getLyricSnapshot: lyricSnapshot,
   getPlayerSnapshot: playerSnapshot,
   playCatalogTrack,
+  queueCatalogAlbum,
   togglePlayback,
   seekBy,
   nextTrack: advancePlaylist,

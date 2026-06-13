@@ -9,8 +9,8 @@ const ALBUM_ORDER = [
   'Closed Doors',
   'Net Worthless',
   'Noise Floor',
-  'Orbital Garden',
   'Driftwood',
+  'Orbital Garden',
   'Broken Temple',
   'Lost Souls',
 ];

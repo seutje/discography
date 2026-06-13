@@ -15,9 +15,10 @@ const ALBUM_ORDER = [
   'Lost Souls',
 ];
 
-const ROOM_SPACING = 19;
 const ROOM_WIDTH = 15;
-const ROOM_DEPTH = 15;
+const MIN_ROOM_DEPTH = 15;
+const ROOM_CONNECTOR_DEPTH = 4;
+const SONG_LABEL_SPACING = 2.35;
 const CAMERA_HEIGHT = 1.65;
 const WALK_SPEED = 6.2;
 const LOOK_SPEED = 0.0022;
@@ -242,28 +243,47 @@ function buildMuseum() {
   const albums = ALBUM_ORDER.map(name => byName.get(name)).filter(Boolean);
   const mats = materialSet();
   museum.materials = mats;
-
-  const corridorLength = Math.max(ROOM_SPACING * albums.length + 18, 40);
-  addBox(new THREE.Vector3(ROOM_WIDTH + 4, 0.24, corridorLength), new THREE.Vector3(0, -0.12, -corridorLength / 2 + 8), mats.floor, false);
-
+  const roomPlan = [];
+  let currentZ = 0;
   albums.forEach((album, index) => {
-    const z = -index * ROOM_SPACING;
-    museum.rooms.push({ album, zMin: z - ROOM_DEPTH / 2, zMax: z + ROOM_DEPTH / 2 });
-    buildRoom(album, index, z, mats);
+    const depth = albumRoomDepth(album);
+    if (index > 0) {
+      const previous = roomPlan[index - 1];
+      currentZ = previous.z - previous.depth / 2 - ROOM_CONNECTOR_DEPTH - depth / 2;
+    }
+    roomPlan.push({ album, depth, z: currentZ });
+  });
+
+  const first = roomPlan[0];
+  const last = roomPlan[roomPlan.length - 1];
+  const frontZ = first ? first.z + first.depth / 2 : 8;
+  const backZ = last ? last.z - last.depth / 2 : -32;
+  const corridorLength = Math.max(frontZ - backZ + 8, 40);
+  addBox(new THREE.Vector3(ROOM_WIDTH + 4, 0.24, corridorLength), new THREE.Vector3(0, -0.12, frontZ - corridorLength / 2), mats.floor, false);
+
+  roomPlan.forEach(({ album, depth, z }, index) => {
+    museum.rooms.push({ album, depth, zMin: z - depth / 2, zMax: z + depth / 2 });
+    buildRoom(album, index, z, depth, mats);
   });
 
 }
 
-function buildRoom(album, index, z, mats) {
+function albumRoomDepth(album) {
+  const trackCount = (album.tracks || []).filter(track => track.audio_url).length;
+  const largestWallCount = Math.ceil(trackCount / 2);
+  return Math.max(MIN_ROOM_DEPTH, (largestWallCount - 1) * SONG_LABEL_SPACING + 5.2);
+}
+
+function buildRoom(album, index, z, depth, mats) {
   const halfW = ROOM_WIDTH / 2;
-  const halfD = ROOM_DEPTH / 2;
+  const halfD = depth / 2;
   const doorWidth = 4.2;
   const doorHeight = 2.55;
   const sideWallWidth = (ROOM_WIDTH - doorWidth) / 2;
   const backZ = z - halfD;
-  addBox(new THREE.Vector3(ROOM_WIDTH, 0.18, ROOM_DEPTH), new THREE.Vector3(0, 0, z), mats.floor, false);
-  addBox(new THREE.Vector3(0.28, 3.7, ROOM_DEPTH), new THREE.Vector3(-halfW, 1.85, z), mats.wall, false);
-  addBox(new THREE.Vector3(0.28, 3.7, ROOM_DEPTH), new THREE.Vector3(halfW, 1.85, z), mats.wall, false);
+  addBox(new THREE.Vector3(ROOM_WIDTH, 0.18, depth), new THREE.Vector3(0, 0, z), mats.floor, false);
+  addBox(new THREE.Vector3(0.28, 3.7, depth), new THREE.Vector3(-halfW, 1.85, z), mats.wall, false);
+  addBox(new THREE.Vector3(0.28, 3.7, depth), new THREE.Vector3(halfW, 1.85, z), mats.wall, false);
   addBox(new THREE.Vector3(sideWallWidth, 3.7, 0.28), new THREE.Vector3(-(doorWidth / 2 + sideWallWidth / 2), 1.85, backZ), mats.wall, false);
   addBox(new THREE.Vector3(sideWallWidth, 3.7, 0.28), new THREE.Vector3(doorWidth / 2 + sideWallWidth / 2, 1.85, backZ), mats.wall, false);
   addBox(new THREE.Vector3(doorWidth, 3.7 - doorHeight, 0.28), new THREE.Vector3(0, doorHeight + (3.7 - doorHeight) / 2, backZ), mats.wall, false);
@@ -272,9 +292,9 @@ function buildRoom(album, index, z, mats) {
   addBox(new THREE.Vector3(0.18, doorHeight, 0.22), new THREE.Vector3(doorWidth / 2, doorHeight / 2, backZ + 0.03), mats.beam);
   addBox(new THREE.Vector3(doorWidth + 0.36, 0.18, 0.22), new THREE.Vector3(0, doorHeight, backZ + 0.03), mats.beam);
 
-  for (let beam = -2; beam <= 2; beam += 1) {
-    addBox(new THREE.Vector3(0.16, 3.9, 0.16), new THREE.Vector3(-halfW + 1.1, 1.95, z + beam * 2.6), mats.beam);
-    addBox(new THREE.Vector3(0.16, 3.9, 0.16), new THREE.Vector3(halfW - 1.1, 1.95, z + beam * 2.6), mats.beam);
+  for (let beamZ = z - halfD + 1.5; beamZ <= z + halfD - 1.5; beamZ += 2.6) {
+    addBox(new THREE.Vector3(0.16, 3.9, 0.16), new THREE.Vector3(-halfW + 1.1, 1.95, beamZ), mats.beam);
+    addBox(new THREE.Vector3(0.16, 3.9, 0.16), new THREE.Vector3(halfW - 1.1, 1.95, beamZ), mats.beam);
   }
 
   const title = labelPlane([album.name, `${album.track_count || (album.tracks || []).length} songs`], 7.5, 1.3, {
@@ -292,30 +312,32 @@ function buildRoom(album, index, z, mats) {
   workLight.position.set(index % 2 ? -3.4 : 3.4, 2.8, z - 2);
   museum.scene.add(workLight);
 
-  addConstructionClutter(z, mats, index);
-  addSongStations(album, z, mats);
+  addConstructionClutter(z, depth, mats, index);
+  addSongStations(album, z, depth, mats);
 }
 
-function addConstructionClutter(z, mats, index) {
+function addConstructionClutter(z, depth, mats, index) {
   const baseX = index % 2 ? 4.8 : -4.8;
+  const halfD = depth / 2;
   for (let i = 0; i < 3; i += 1) {
-    addBox(new THREE.Vector3(1.2, 0.55 + i * 0.08, 0.85), new THREE.Vector3(baseX + i * 0.7, 0.28 + i * 0.04, z - 5 + i * 1.2), mats.crate);
+    addBox(new THREE.Vector3(1.2, 0.55 + i * 0.08, 0.85), new THREE.Vector3(baseX + i * 0.7, 0.28 + i * 0.04, z - halfD + 2.4 + i * 1.2), mats.crate);
   }
-  addBox(new THREE.Vector3(4.5, 0.12, 0.18), new THREE.Vector3(-baseX * 0.65, 1.35, z + 4.6), mats.beam);
-  addBox(new THREE.Vector3(0.18, 1.8, 0.18), new THREE.Vector3(-baseX * 0.65 - 2.1, 0.9, z + 4.6), mats.beam);
-  addBox(new THREE.Vector3(0.18, 1.8, 0.18), new THREE.Vector3(-baseX * 0.65 + 2.1, 0.9, z + 4.6), mats.beam);
+  addBox(new THREE.Vector3(4.5, 0.12, 0.18), new THREE.Vector3(-baseX * 0.65, 1.35, z + halfD - 2.9), mats.beam);
+  addBox(new THREE.Vector3(0.18, 1.8, 0.18), new THREE.Vector3(-baseX * 0.65 - 2.1, 0.9, z + halfD - 2.9), mats.beam);
+  addBox(new THREE.Vector3(0.18, 1.8, 0.18), new THREE.Vector3(-baseX * 0.65 + 2.1, 0.9, z + halfD - 2.9), mats.beam);
 }
 
-function addSongStations(album, z, mats) {
+function addSongStations(album, z, depth, mats) {
   const tracks = (album.tracks || []).filter(track => track.audio_url);
   const left = tracks.filter((_, index) => index % 2 === 0);
   const right = tracks.filter((_, index) => index % 2 === 1);
-  placeStationColumn(album, left, -6.35, z, 1, mats);
-  placeStationColumn(album, right, 6.35, z, -1, mats);
+  placeStationColumn(album, left, -6.35, z, depth, 1, mats);
+  placeStationColumn(album, right, 6.35, z, depth, -1, mats);
 }
 
-function placeStationColumn(album, tracks, x, z, facing, mats) {
-  const gap = Math.min(2.2, 11 / Math.max(1, tracks.length - 1));
+function placeStationColumn(album, tracks, x, z, depth, facing, mats) {
+  const usableDepth = Math.max(1, depth - 5.2);
+  const gap = Math.min(SONG_LABEL_SPACING, usableDepth / Math.max(1, tracks.length - 1));
   const startZ = z + ((tracks.length - 1) * gap) / 2;
   tracks.forEach((track, index) => {
     const stationZ = startZ - index * gap;
@@ -502,8 +524,11 @@ function moveCamera(delta) {
   direction.applyAxisAngle(new THREE.Vector3(0, 1, 0), museum.yaw);
   museum.camera.position.addScaledVector(direction, speed);
   museum.camera.position.x = Math.max(-ROOM_WIDTH / 2 + 0.8, Math.min(ROOM_WIDTH / 2 - 0.8, museum.camera.position.x));
-  const minZ = -((museum.rooms.length - 1) * ROOM_SPACING) - ROOM_DEPTH / 2 + 1;
-  museum.camera.position.z = Math.max(minZ, Math.min(ROOM_DEPTH / 2 - 1, museum.camera.position.z));
+  const firstRoom = museum.rooms[0];
+  const lastRoom = museum.rooms[museum.rooms.length - 1];
+  const maxZ = firstRoom ? firstRoom.zMax - 1 : 6.5;
+  const minZ = lastRoom ? lastRoom.zMin + 1 : -32;
+  museum.camera.position.z = Math.max(minZ, Math.min(maxZ, museum.camera.position.z));
   museum.camera.position.y = CAMERA_HEIGHT;
 }
 

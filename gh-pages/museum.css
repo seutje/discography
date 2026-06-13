@@ -235,19 +235,149 @@ body.museum-active .global-player {
   display: none;
 }
 @media (pointer: coarse), (max-width: 800px) {
+  .museum-hud {
+    inset: 8px 8px auto;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+  }
+  .museum-panel {
+    max-width: min(58vw, 420px);
+    padding: 6px 8px;
+    border-radius: 6px;
+  }
+  .museum-room-title {
+    font-size: 9px;
+  }
+  .museum-track-title {
+    font-size: 13px;
+  }
+  .museum-prompt {
+    font-size: 10px;
+  }
+  button.museum-exit {
+    min-height: 30px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+  }
   .museum-mobile-controls {
     display: flex;
+    inset: auto 8px 112px;
+  }
+  .museum-move-pad {
+    grid-template-columns: repeat(3, 28px);
+    grid-template-rows: repeat(3, 28px);
+    gap: 4px;
+    padding: 5px;
+    border-radius: 7px;
+  }
+  .museum-move-pad button {
+    min-height: 28px;
+    font-size: 15px;
+    border-radius: 6px;
+  }
+  .museum-look-pad {
+    width: 76px;
+    height: 76px;
+    border-radius: 7px;
+    font-size: 10px;
   }
   .museum-lyrics {
-    bottom: 94px;
+    bottom: 62px;
+    width: min(620px, calc(100vw - 16px));
+    min-height: 0;
+    padding: 6px 8px;
+    border-radius: 7px;
+  }
+  .museum-lyric-side {
+    min-height: 0;
+    font-size: 9px;
+  }
+  .museum-lyric-current {
+    min-height: 18px;
+    margin: 1px 0;
+    font-size: 15px;
   }
   .museum-transport {
-    grid-template-columns: 1fr;
-    gap: 7px;
-    bottom: 10px;
+    grid-template-columns: minmax(92px, 1fr) auto;
+    gap: 6px;
+    bottom: 6px;
+    width: min(620px, calc(100vw - 16px));
+    padding: 6px 8px;
+    border-radius: 7px;
+  }
+  .museum-transport-copy strong {
+    font-size: 11px;
+  }
+  .museum-transport-copy span {
+    font-size: 9px;
   }
   .museum-transport-buttons {
-    justify-content: center;
+    gap: 4px;
+    justify-content: end;
+    flex-wrap: nowrap;
+  }
+  .museum-transport-buttons button {
+    min-height: 25px;
+    padding: 2px 5px;
+    border-radius: 6px;
+    font-size: 10px;
+  }
+}
+@media (pointer: coarse) and (max-height: 560px), (max-width: 740px) and (orientation: landscape) {
+  .museum-panel {
+    max-width: min(42vw, 320px);
+    padding: 5px 7px;
+  }
+  .museum-track-title {
+    font-size: 11px;
+  }
+  .museum-prompt {
+    display: none;
+  }
+  .museum-mobile-controls {
+    inset: auto 6px 84px;
+  }
+  .museum-move-pad {
+    grid-template-columns: repeat(3, 22px);
+    grid-template-rows: repeat(3, 22px);
+    gap: 3px;
+    padding: 4px;
+  }
+  .museum-move-pad button {
+    min-height: 22px;
+    font-size: 12px;
+  }
+  .museum-look-pad {
+    width: 58px;
+    height: 58px;
+    font-size: 9px;
+  }
+  .museum-lyrics {
+    bottom: 42px;
+    padding: 3px 6px;
+  }
+  .museum-lyric-side {
+    display: none;
+  }
+  .museum-lyric-current {
+    min-height: 14px;
+    font-size: 11px;
+  }
+  .museum-transport {
+    bottom: 3px;
+    padding: 3px 6px;
+  }
+  .museum-transport-copy strong {
+    font-size: 9px;
+  }
+  .museum-transport-copy span {
+    font-size: 8px;
+  }
+  .museum-transport-buttons button {
+    min-height: 19px;
+    padding: 1px 3px;
+    font-size: 8px;
   }
 }
 @media (orientation: portrait) and (max-width: 800px) {

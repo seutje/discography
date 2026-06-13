@@ -338,18 +338,35 @@ def audio_path_for_text(text_path: Path) -> Path | None:
     return None
 
 
-def load_whisper_model(model_name: str, model_cache: Path) -> Any:
+def resolve_device(device: str) -> str | None:
+    if device != "auto":
+        return device or None
+    try:
+        import torch
+
+        return "cuda" if torch.cuda.is_available() else "cpu"
+    except Exception:
+        return None
+
+
+def resolve_fp16(fp16: str, device: str | None) -> bool:
+    if fp16 == "auto":
+        return device == "cuda"
+    return fp16 == "true"
+
+
+def load_whisper_model(model_name: str, model_cache: Path, device: str | None) -> Any:
     import whisper
 
     model_cache.mkdir(parents=True, exist_ok=True)
-    return whisper.load_model(model_name, download_root=str(model_cache))
+    return whisper.load_model(model_name, device=device, download_root=str(model_cache))
 
 
-def transcribe(model: Any, audio_path: Path, language: str | None, word_timestamps: bool) -> dict[str, Any]:
+def transcribe(model: Any, audio_path: Path, language: str | None, word_timestamps: bool, fp16: bool) -> dict[str, Any]:
     kwargs: dict[str, Any] = {
         "temperature": 0,
         "verbose": False,
-        "fp16": False,
+        "fp16": fp16,
         "word_timestamps": word_timestamps,
     }
     if language:
@@ -788,7 +805,7 @@ def insert_repeated_adlibs(
 def build_payload(text_path: Path, audio_path: Path, args: argparse.Namespace, model: Any) -> dict[str, Any]:
     metadata, parsed_lines = parse_lyrics(text_path)
     lines, timing_line_diagnostics = timing_lines(parsed_lines, metadata)
-    transcript = transcribe(model, audio_path, args.language, args.word_timestamps)
+    transcript = transcribe(model, audio_path, args.language, args.word_timestamps, args.resolved_fp16)
     total_duration = max((float(segment.get("end", 0)) for segment in transcript.get("segments") or []), default=0)
     filtered_segments, transcript_filter_diagnostics = filtered_transcript_segments(transcript)
     transcript_segments = concise_segments(filtered_segments)
@@ -853,8 +870,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--track", action="append", default=[], help="Only process matching track title or text-file stem. May be passed more than once.")
     parser.add_argument("--all", action="store_true", help="Process every album directory with lyric sheets and audio.")
     parser.add_argument("--exclude-album", action="append", default=[], help="Album directory name to skip. May be passed more than once.")
-    parser.add_argument("--model", default="base", help="Whisper model name, e.g. tiny, base, small.")
+    parser.add_argument("--model", default="medium.en", help="Whisper model name, e.g. tiny, base, small, medium.en.")
     parser.add_argument("--model-cache", type=Path, default=DEFAULT_MODEL_CACHE, help="Directory for Whisper model files.")
+    parser.add_argument("--device", default="auto", help="Whisper device: auto, cpu, cuda, or cuda:0.")
+    parser.add_argument("--fp16", choices=("auto", "true", "false"), default="auto", help="Use fp16 decoding. auto enables fp16 on CUDA.")
     parser.add_argument("--language", default="en", help="Whisper language code. Use an empty string for auto-detect.")
     parser.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
     parser.add_argument("--word-timestamps", action="store_true", help="Use Whisper word timestamps when the local install supports them.")
@@ -903,14 +922,16 @@ def main() -> int:
     args = parse_args()
     if args.language == "":
         args.language = None
+    args.resolved_device = resolve_device(args.device)
+    args.resolved_fp16 = resolve_fp16(args.fp16, args.resolved_device)
 
     albums = selected_albums(args)
     if not albums:
         print("No albums selected.")
         return 0
 
-    print(f"Loading Whisper model: {args.model}")
-    model = load_whisper_model(args.model, args.model_cache)
+    print(f"Loading Whisper model: {args.model} (device={args.resolved_device or 'default'}, fp16={args.resolved_fp16})")
+    model = load_whisper_model(args.model, args.model_cache, args.resolved_device)
 
     written = 0
     for album in albums:

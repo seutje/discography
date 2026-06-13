@@ -4,89 +4,249 @@
   "title": "Broken Temple",
   "text_path": "Broken Temple/10 - Broken Temple.txt",
   "audio_path": "Broken Temple/audio/10 - Broken Temple.mp3",
-  "duration_seconds": 326.86,
-  "model": "base",
+  "duration_seconds": 313.56,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-word-timestamps",
+  "timing_backend": "whisper-segment-timestamps",
   "diagnostics": {
     "line_count": 163,
     "reference_word_count": 455,
-    "observed_word_count": 1791,
-    "matched_word_count": 52,
-    "matched_word_ratio": 0.114,
+    "observed_word_count": 460,
+    "matched_word_count": 418,
+    "matched_word_ratio": 0.919,
     "section_start_overrides": {},
-    "line_start_overrides": {},
+    "line_start_overrides": {
+      "Intro - stone hit | breath | low sub::Stone by stone": 9.26,
+      "Intro - stone hit | breath | low sub::breath by breath": 11.6,
+      "Intro - stone hit | breath | low sub::forty years": 13.9,
+      "Intro - stone hit | breath | low sub::of holding death": 16.1,
+      "Intro - stone hit | breath | low sub::Rib and altar": 18.4,
+      "Intro - stone hit | breath | low sub::door and lung": 21.1,
+      "Intro - stone hit | breath | low sub::broken temple": 24.86,
+      "Intro - stone hit | breath | low sub::still not done": 28.18
+    },
     "skipped_line_count": 0,
     "skipped_sections": [],
     "inserted_adlib_count": 0,
-    "ignored_adlib_segment_count": 1
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 9.26,
-      "end": 24.86,
-      "text": "Stoned by stone, breath by breath, 40 years of holding death, ribbon out, door in"
+      "start": 0.0,
+      "end": 21.56,
+      "text": "stone by stone breath by breath 40 years of holding death"
     },
     {
-      "start": 24.86,
-      "end": 54.84,
-      "text": "alone, broken temples still not done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done done"
+      "start": 21.56,
+      "end": 31.56,
+      "text": "ribbon altar door in lung broken temple still not done"
     },
     {
-      "start": 70.54,
-      "end": 84.82,
-      "text": "Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now"
+      "start": 43.56,
+      "end": 49.56,
+      "text": "i am 40 in the body country with a border made of habits"
     },
     {
-      "start": 92.6,
-      "end": 114.8,
-      "text": "Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now"
+      "start": 49.56,
+      "end": 54.56,
+      "text": "smoke in the northern rafters all beneath the palace tablets"
     },
     {
-      "start": 134.82,
-      "end": 144.78,
-      "text": "Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now"
+      "start": 54.56,
+      "end": 59.56,
+      "text": "old drink weather in the lowlands white coast where the mirror stood"
     },
     {
-      "start": 158.52,
-      "end": 174.76,
-      "text": "Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now"
+      "start": 59.56,
+      "end": 64.56,
+      "text": "screens bargains late night promises each one saying it meant good"
     },
     {
-      "start": 180.08,
-      "end": 204.74,
-      "text": "Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now"
+      "start": 64.56,
+      "end": 70.56,
+      "text": "i am not held by one chain not one villain not one cause"
     },
     {
-      "start": 220.4,
-      "end": 234.72,
-      "text": "Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now"
+      "start": 70.56,
+      "end": 75.56,
+      "text": "just repeated little treaties signed against my better laws"
     },
     {
-      "start": 234.72,
-      "end": 264.7,
-      "text": "Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now"
+      "start": 75.56,
+      "end": 87.56,
+      "text": "no single wound no single cure just a temple still on shore"
     },
     {
-      "start": 287.98,
-      "end": 294.68,
-      "text": "Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now"
+      "start": 87.56,
+      "end": 93.56,
+      "text": "broken temple hold together not this holy not as clean"
     },
     {
-      "start": 294.68,
-      "end": 324.66,
-      "text": "we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we"
+      "start": 93.56,
+      "end": 98.56,
+      "text": "every crack has kept a record of the countries i have been"
     },
     {
-      "start": 324.66,
-      "end": 326.86,
-      "text": "are going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're going to do the same thing. Now we're"
+      "start": 98.56,
+      "end": 104.56,
+      "text": "broken temple low and well it's still the candles try to live"
     },
     {
-      "start": 326.84,
-      "end": 326.84,
-      "text": ""
+      "start": 104.56,
+      "end": 111.56,
+      "text": "i am built from what i carried and the weight i keep to give"
+    },
+    {
+      "start": 120.56,
+      "end": 125.56,
+      "text": "the youngest son behind the table gin rain under kitchen beams"
+    },
+    {
+      "start": 125.56,
+      "end": 131.56,
+      "text": "bear axe hard beside the window glasses catching classroom teeth"
+    },
+    {
+      "start": 131.56,
+      "end": 136.56,
+      "text": "boarding homes along the hallway wrong diagnosis in the file"
+    },
+    {
+      "start": 136.56,
+      "end": 142.56,
+      "text": "runners lungs and climbers fingers smoke arriving all the while"
+    },
+    {
+      "start": 142.56,
+      "end": 147.56,
+      "text": "friends across the ocean held me on their couches plain and kind"
+    },
+    {
+      "start": 147.56,
+      "end": 154.56,
+      "text": "some soft republics save the body from the borders in the mine"
+    },
+    {
+      "start": 154.56,
+      "end": 160.56,
+      "text": "all of it in the stone all of it not mine alone"
+    },
+    {
+      "start": 160.56,
+      "end": 165.56,
+      "text": "broken temple hold together not this holy not as clean"
+    },
+    {
+      "start": 165.56,
+      "end": 171.56,
+      "text": "every crack has kept a record of the countries i have been"
+    },
+    {
+      "start": 171.56,
+      "end": 176.56,
+      "text": "broken temple low and well it's still the candles try to live"
+    },
+    {
+      "start": 176.56,
+      "end": 183.56,
+      "text": "i am built from what i carried and the weight i keep to give"
+    },
+    {
+      "start": 184.56,
+      "end": 191.56,
+      "text": "i used to think survival meant never touching ground"
+    },
+    {
+      "start": 191.56,
+      "end": 197.56,
+      "text": "keep the engine in the chest keep the old tide weighted down"
+    },
+    {
+      "start": 197.56,
+      "end": 203.56,
+      "text": "but the temple does not heal because i curse the falling stone"
+    },
+    {
+      "start": 203.56,
+      "end": 211.56,
+      "text": "it needs hands and time and wealth and the truth of being known"
+    },
+    {
+      "start": 220.56,
+      "end": 224.56,
+      "text": "mothers rain fathers smoke four boys running"
+    },
+    {
+      "start": 224.56,
+      "end": 230.56,
+      "text": "glasses broke wrong name written new name found salt lying waiting"
+    },
+    {
+      "start": 230.56,
+      "end": 238.56,
+      "text": "couch laid down for years still here"
+    },
+    {
+      "start": 238.56,
+      "end": 243.56,
+      "text": "broken temple hold together not by hiding every scar"
+    },
+    {
+      "start": 243.56,
+      "end": 249.56,
+      "text": "let the lead note enter fully let it say how small we are"
+    },
+    {
+      "start": 249.56,
+      "end": 254.56,
+      "text": "broken temple low and weathered not repaired but not refused"
+    },
+    {
+      "start": 254.56,
+      "end": 261.56,
+      "text": "i can be a damaged country and still choose how i am used"
+    },
+    {
+      "start": 261.56,
+      "end": 267.56,
+      "text": "stone by stone i ask the body"
+    },
+    {
+      "start": 267.56,
+      "end": 273.56,
+      "text": "what it needs before it breaks"
+    },
+    {
+      "start": 273.56,
+      "end": 279.56,
+      "text": "death by breath i leave the ankle"
+    },
+    {
+      "start": 279.56,
+      "end": 286.56,
+      "text": "where the old tide cannot take no clean ending no back part"
+    },
+    {
+      "start": 286.56,
+      "end": 291.56,
+      "text": "no final bell across the phone just a temple still receiving"
+    },
+    {
+      "start": 291.56,
+      "end": 296.56,
+      "text": "all the people who came home"
+    },
+    {
+      "start": 300.56,
+      "end": 306.56,
+      "text": "rim and altar hand in arm forth not late but finally the sun"
+    },
+    {
+      "start": 306.56,
+      "end": 313.56,
+      "text": "broken temple weathered through something damaged holding true"
     }
   ],
   "lines": [
@@ -94,511 +254,511 @@
       "index": 0,
       "section": "Intro - stone hit | breath | low sub",
       "start": 9.26,
-      "end": 24.86,
+      "end": 11.6,
       "text": "Stone by stone",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
+      "timing_source": "whisper-aligned-line-override",
+      "matched_words": 2
     },
     {
       "index": 1,
       "section": "Intro - stone hit | breath | low sub",
-      "start": 24.86,
-      "end": 24.96,
+      "start": 11.6,
+      "end": 13.9,
       "text": "breath by breath",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "timing_source": "whisper-aligned-line-override",
+      "matched_words": 2
     },
     {
       "index": 2,
       "section": "Intro - stone hit | breath | low sub",
-      "start": 24.96,
-      "end": 25.06,
+      "start": 13.9,
+      "end": 16.1,
       "text": "forty years",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 1
     },
     {
       "index": 3,
       "section": "Intro - stone hit | breath | low sub",
-      "start": 25.06,
-      "end": 25.16,
+      "start": 16.1,
+      "end": 18.4,
       "text": "of holding death",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "timing_source": "whisper-aligned-line-override",
+      "matched_words": 2
     },
     {
       "index": 4,
       "section": "Intro - stone hit | breath | low sub",
-      "start": 25.16,
-      "end": 25.26,
+      "start": 18.4,
+      "end": 21.1,
       "text": "Rib and altar",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned-line-override",
+      "matched_words": 1
     },
     {
       "index": 5,
       "section": "Intro - stone hit | breath | low sub",
-      "start": 25.26,
-      "end": 25.36,
+      "start": 21.1,
+      "end": 24.86,
       "text": "door and lung",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "whisper-aligned-line-override",
+      "matched_words": 2
     },
     {
       "index": 6,
       "section": "Intro - stone hit | breath | low sub",
-      "start": 25.66,
-      "end": 27.44,
+      "start": 24.86,
+      "end": 28.18,
       "text": "broken temple",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "whisper-aligned-line-override",
+      "matched_words": 2
     },
     {
       "index": 7,
       "section": "Intro - stone hit | breath | low sub",
       "start": 28.18,
-      "end": 30.36,
+      "end": 43.56,
       "text": "still not done",
-      "timing_source": "whisper-aligned",
+      "timing_source": "whisper-aligned-line-override",
       "matched_words": 3
     },
     {
       "index": 8,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 30.36,
-      "end": 30.46,
+      "start": 43.56,
+      "end": 44.483,
       "text": "I am forty",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 9,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 30.46,
-      "end": 30.56,
+      "start": 44.945,
+      "end": 46.791,
       "text": "in the body-country",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 10,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 30.56,
-      "end": 30.66,
+      "start": 46.791,
+      "end": 48.175,
       "text": "with a border",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 11,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 30.66,
-      "end": 30.76,
+      "start": 48.175,
+      "end": 49.56,
       "text": "made of habits",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 12,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 30.76,
-      "end": 30.86,
+      "start": 49.56,
+      "end": 51.06,
       "text": "Smoke in the",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 13,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 30.86,
-      "end": 30.96,
+      "start": 51.06,
+      "end": 52.06,
       "text": "northern rafters",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 14,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 30.96,
-      "end": 31.06,
+      "start": 52.56,
+      "end": 53.06,
       "text": "salt beneath",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 15,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 31.06,
-      "end": 31.16,
+      "start": 53.06,
+      "end": 54.56,
       "text": "the palace tablets",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 16,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 31.16,
-      "end": 31.26,
+      "start": 54.56,
+      "end": 55.81,
       "text": "Old drink weather",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 17,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 31.26,
-      "end": 31.36,
+      "start": 55.81,
+      "end": 57.06,
       "text": "in the lowlands",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 18,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 31.36,
-      "end": 31.46,
+      "start": 57.06,
+      "end": 57.893,
       "text": "white coast",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 19,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 31.46,
-      "end": 31.56,
+      "start": 57.893,
+      "end": 59.56,
       "text": "where the mirror stood",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 20,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 31.56,
-      "end": 31.66,
+      "start": 59.56,
+      "end": 60.469,
       "text": "Screens, bargains",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 21,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 31.66,
-      "end": 31.76,
+      "start": 60.469,
+      "end": 61.833,
       "text": "late-night promises",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 22,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 31.76,
-      "end": 31.86,
+      "start": 61.833,
+      "end": 63.196,
       "text": "each one saying",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 23,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 31.86,
-      "end": 31.96,
+      "start": 63.196,
+      "end": 64.56,
       "text": "it meant good",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 24,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 31.96,
-      "end": 32.06,
+      "start": 64.56,
+      "end": 66.406,
       "text": "I am not held",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 25,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 32.06,
-      "end": 32.16,
+      "start": 66.406,
+      "end": 67.791,
       "text": "by one chain",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 26,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 32.16,
-      "end": 32.26,
+      "start": 67.791,
+      "end": 69.175,
       "text": "not one villain",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 27,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 32.26,
-      "end": 32.36,
+      "start": 69.175,
+      "end": 70.56,
       "text": "not one cause",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 28,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 32.36,
-      "end": 32.46,
+      "start": 70.56,
+      "end": 71.671,
       "text": "just repeated",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 29,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 32.46,
-      "end": 32.56,
+      "start": 71.671,
+      "end": 72.782,
       "text": "little treaties",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 30,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 32.56,
-      "end": 32.66,
+      "start": 72.782,
+      "end": 73.893,
       "text": "signed against",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 31,
       "section": "Verse 1 - sparse pulse | close vocal",
-      "start": 32.66,
-      "end": 32.76,
+      "start": 73.893,
+      "end": 75.56,
       "text": "my better laws",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 32,
       "section": "Pre-Hook - delay tightens | low shadow",
-      "start": 32.76,
-      "end": 32.86,
+      "start": 75.56,
+      "end": 78.56,
       "text": "No single wound",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 33,
       "section": "Pre-Hook - delay tightens | low shadow",
-      "start": 32.86,
-      "end": 32.96,
+      "start": 78.56,
+      "end": 81.56,
       "text": "no single cure",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 34,
       "section": "Pre-Hook - delay tightens | low shadow",
-      "start": 32.96,
-      "end": 33.06,
+      "start": 81.56,
+      "end": 84.56,
       "text": "just a temple",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 35,
       "section": "Pre-Hook - delay tightens | low shadow",
-      "start": 33.06,
-      "end": 33.16,
+      "start": 84.56,
+      "end": 85.56,
       "text": "still unsure",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 36,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 33.16,
-      "end": 54.84,
+      "start": 87.56,
+      "end": 88.76,
       "text": "Broken temple",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 37,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 54.84,
-      "end": 54.94,
+      "start": 88.76,
+      "end": 89.96,
       "text": "hold together",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 38,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 54.94,
-      "end": 55.04,
+      "start": 89.96,
+      "end": 91.76,
       "text": "not as holy",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 39,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 55.04,
-      "end": 55.14,
+      "start": 91.76,
+      "end": 93.56,
       "text": "not as clean",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 40,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 55.14,
-      "end": 55.24,
+      "start": 93.56,
+      "end": 94.393,
       "text": "Every crack",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 41,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 55.24,
-      "end": 55.34,
+      "start": 94.393,
+      "end": 96.06,
       "text": "has kept a record",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 42,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 55.34,
-      "end": 55.44,
+      "start": 96.06,
+      "end": 97.31,
       "text": "of the countries",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 43,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 55.44,
-      "end": 55.54,
+      "start": 97.31,
+      "end": 98.56,
       "text": "I have been",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 44,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 55.54,
-      "end": 55.64,
+      "start": 98.56,
+      "end": 99.56,
       "text": "Broken temple",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 45,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 55.64,
-      "end": 66.59,
+      "start": 99.56,
+      "end": 100.56,
       "text": "low and weathered",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 46,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 66.59,
-      "end": 78.34,
+      "start": 101.56,
+      "end": 103.06,
       "text": "still the candles",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 47,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 78.34,
-      "end": 78.44,
+      "start": 103.06,
+      "end": 104.56,
       "text": "try to live",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 48,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 78.44,
-      "end": 78.54,
+      "start": 104.56,
+      "end": 106.06,
       "text": "I am built",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 49,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 78.54,
-      "end": 78.64,
+      "start": 106.06,
+      "end": 108.06,
       "text": "from what I carried",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 50,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 78.64,
-      "end": 78.74,
+      "start": 108.06,
+      "end": 109.56,
       "text": "and the weight",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 51,
       "section": "Hook - sub blooms | restrained harmonies",
-      "start": 79.7,
-      "end": 79.8,
+      "start": 109.56,
+      "end": 111.56,
       "text": "I keep to give",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 4
     },
     {
       "index": 52,
       "section": "Verse 2 - wider pads | more motion",
-      "start": 79.8,
-      "end": 79.9,
+      "start": 121.015,
+      "end": 121.924,
       "text": "Youngest son",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 53,
       "section": "Verse 2 - wider pads | more motion",
-      "start": 79.9,
-      "end": 80.013,
+      "start": 121.924,
+      "end": 123.287,
       "text": "behind the table",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 54,
       "section": "Verse 2 - wider pads | more motion",
-      "start": 80.013,
-      "end": 80.153,
+      "start": 123.287,
+      "end": 124.651,
       "text": "gin rain under",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 55,
       "section": "Verse 2 - wider pads | more motion",
-      "start": 80.153,
-      "end": 80.253,
+      "start": 124.651,
+      "end": 125.56,
       "text": "kitchen beams",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 56,
       "section": "Verse 2 - wider pads | more motion",
-      "start": 80.253,
-      "end": 80.353,
+      "start": 125.56,
+      "end": 127.36,
       "text": "Barracks heart",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -606,956 +766,956 @@
     {
       "index": 57,
       "section": "Verse 2 - wider pads | more motion",
-      "start": 80.353,
-      "end": 80.96,
+      "start": 127.36,
+      "end": 129.16,
       "text": "beside the window",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 58,
       "section": "Verse 2 - wider pads | more motion",
-      "start": 80.96,
-      "end": 81.265,
+      "start": 129.16,
+      "end": 130.36,
       "text": "glasses catching",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 59,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 81.265,
-      "end": 81.571,
-      "text": "classroom teeth",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 60,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 81.571,
-      "end": 81.876,
-      "text": "Boarding homes",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 61,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 81.876,
-      "end": 82.335,
-      "text": "along the hallway",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 62,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 82.335,
-      "end": 82.64,
-      "text": "wrong diagnosis",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 63,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 82.64,
-      "end": 82.74,
-      "text": "in the file",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 64,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 82.74,
-      "end": 82.96,
-      "text": "Runner's lungs",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 65,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 82.96,
-      "end": 83.351,
-      "text": "and climber's fingers",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 66,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 83.351,
-      "end": 83.611,
-      "text": "smoke arriving",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 67,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 83.611,
-      "end": 84.001,
-      "text": "all the while",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 68,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 84.001,
-      "end": 84.261,
-      "text": "Friends across",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 69,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 84.261,
-      "end": 84.782,
-      "text": "the ocean held me",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 70,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 84.782,
-      "end": 85.172,
-      "text": "on their couches",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 71,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 85.172,
-      "end": 85.562,
-      "text": "plain and kind",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 72,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 85.562,
-      "end": 85.953,
-      "text": "Some soft republics",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 73,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 85.953,
-      "end": 86.343,
-      "text": "saved the body",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 74,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 86.343,
-      "end": 86.733,
-      "text": "from the borders",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 75,
-      "section": "Verse 2 - wider pads | more motion",
-      "start": 86.733,
-      "end": 87.124,
-      "text": "in the mind",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 76,
-      "section": "Pre-Hook - harmonies offset",
-      "start": 87.124,
-      "end": 87.514,
-      "text": "All of it",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 77,
-      "section": "Pre-Hook - harmonies offset",
-      "start": 87.514,
-      "end": 87.904,
-      "text": "in the stone",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 78,
-      "section": "Pre-Hook - harmonies offset",
-      "start": 87.904,
-      "end": 88.295,
-      "text": "all of it",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 79,
-      "section": "Pre-Hook - harmonies offset",
-      "start": 88.295,
-      "end": 88.685,
-      "text": "not mine alone",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 80,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 88.685,
-      "end": 88.945,
-      "text": "Broken temple",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 81,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 88.945,
-      "end": 89.205,
-      "text": "hold together",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 82,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 89.205,
-      "end": 89.596,
-      "text": "not as holy",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 83,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 89.596,
-      "end": 89.986,
-      "text": "not as clean",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 84,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 89.986,
-      "end": 90.246,
-      "text": "Every crack",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 85,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 90.246,
-      "end": 90.767,
-      "text": "has kept a record",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 86,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 90.767,
-      "end": 91.157,
-      "text": "of the countries",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 87,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 91.157,
-      "end": 91.547,
-      "text": "I have been",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 88,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 91.547,
-      "end": 91.808,
-      "text": "Broken temple",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 89,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 91.808,
-      "end": 92.198,
-      "text": "low and weathered",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 90,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 92.198,
-      "end": 92.588,
-      "text": "still the candles",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 91,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 92.588,
-      "end": 92.978,
-      "text": "try to live",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 92,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 92.978,
-      "end": 93.369,
-      "text": "I am built",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 93,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 93.369,
-      "end": 93.889,
-      "text": "from what I carried",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 94,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 93.889,
-      "end": 94.28,
-      "text": "and the weight",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 95,
-      "section": "Hook - fuller low end | unresolved warmth",
-      "start": 94.28,
-      "end": 94.8,
-      "text": "I keep to give",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 96,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 94.8,
-      "end": 95.1,
-      "text": "I used to think",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 97,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 95.1,
-      "end": 97.801,
-      "text": "survival",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 98,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 97.801,
-      "end": 103.202,
-      "text": "meant never",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 99,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 103.202,
-      "end": 108.604,
-      "text": "touching ground",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 100,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 108.604,
-      "end": 116.706,
-      "text": "keep the engine",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 101,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 116.706,
-      "end": 124.808,
-      "text": "in the chest",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 102,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 124.808,
-      "end": 135.611,
-      "text": "keep the old tide",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 103,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 135.611,
-      "end": 141.012,
-      "text": "weighted down",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 104,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 141.012,
-      "end": 149.114,
-      "text": "But the temple",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 105,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 149.114,
-      "end": 157.216,
-      "text": "does not heal",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 106,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 157.216,
-      "end": 165.318,
-      "text": "because I curse",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 107,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 165.318,
-      "end": 173.42,
-      "text": "the falling stone",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 108,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 173.42,
-      "end": 181.523,
-      "text": "It needs hands",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 109,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 181.523,
-      "end": 186.924,
-      "text": "and time",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 110,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 186.924,
-      "end": 192.325,
-      "text": "and weather",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 111,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 192.325,
-      "end": 200.428,
-      "text": "and the truth",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 112,
-      "section": "Bridge - drums thin | bass remains",
-      "start": 200.428,
-      "end": 208.53,
-      "text": "of being known",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 113,
-      "section": "Rupture - full band | saturated bass | sudden drop",
-      "start": 208.53,
-      "end": 213.931,
-      "text": "Mother's rain",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 114,
-      "section": "Rupture - full band | saturated bass | sudden drop",
-      "start": 213.931,
-      "end": 219.332,
-      "text": "Father's smoke",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 115,
-      "section": "Rupture - full band | saturated bass | sudden drop",
-      "start": 219.332,
-      "end": 227.435,
-      "text": "Four boys running",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 116,
-      "section": "Rupture - full band | saturated bass | sudden drop",
-      "start": 227.435,
-      "end": 232.836,
-      "text": "Glasses broke",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 117,
-      "section": "Rupture - full band | saturated bass | sudden drop",
-      "start": 232.836,
-      "end": 240.938,
-      "text": "Wrong name written",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 118,
-      "section": "Rupture - full band | saturated bass | sudden drop",
-      "start": 240.938,
-      "end": 249.04,
-      "text": "New name found",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 119,
-      "section": "Rupture - full band | saturated bass | sudden drop",
-      "start": 249.04,
-      "end": 257.142,
-      "text": "Salt line waiting",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 120,
-      "section": "Rupture - full band | saturated bass | sudden drop",
-      "start": 257.142,
-      "end": 265.244,
-      "text": "Couch laid down",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 121,
-      "section": "Rupture - full band | saturated bass | sudden drop",
-      "start": 265.244,
-      "end": 270.646,
-      "text": "Forty years",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 122,
-      "section": "Rupture - full band | saturated bass | sudden drop",
-      "start": 270.646,
-      "end": 276.047,
-      "text": "Still here",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 123,
-      "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 276.047,
-      "end": 281.449,
-      "text": "Broken temple",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 124,
-      "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 281.449,
-      "end": 286.85,
-      "text": "hold together",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 125,
-      "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 286.85,
-      "end": 294.952,
-      "text": "not by hiding",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 126,
-      "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 294.952,
-      "end": 300.354,
-      "text": "every scar",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 127,
-      "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 300.354,
-      "end": 311.156,
-      "text": "Let the late note",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 128,
-      "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 311.156,
-      "end": 316.558,
-      "text": "enter fully",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 129,
-      "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 316.558,
-      "end": 324.66,
-      "text": "let it say",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 130,
-      "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 324.66,
-      "end": 326.86,
-      "text": "how small we are",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 59,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 130.36,
+      "end": 131.56,
+      "text": "classroom teeth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 131.56,
+      "end": 132.56,
+      "text": "Boarding homes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 132.56,
+      "end": 134.06,
+      "text": "along the hallway",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 134.06,
+      "end": 135.06,
+      "text": "wrong diagnosis",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 135.06,
+      "end": 136.56,
+      "text": "in the file",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 137.16,
+      "end": 137.76,
+      "text": "Runner's lungs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 137.76,
+      "end": 139.56,
+      "text": "and climber's fingers",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 139.56,
+      "end": 140.76,
+      "text": "smoke arriving",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 140.76,
+      "end": 142.56,
+      "text": "all the while",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 142.56,
+      "end": 143.393,
+      "text": "Friends across",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 143.393,
+      "end": 145.06,
+      "text": "the ocean held me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 145.06,
+      "end": 146.31,
+      "text": "on their couches",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 146.31,
+      "end": 147.56,
+      "text": "plain and kind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 72,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 147.56,
+      "end": 149.31,
+      "text": "Some soft republics",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 73,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 149.893,
+      "end": 151.06,
+      "text": "saved the body",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 74,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 151.06,
+      "end": 152.81,
+      "text": "from the borders",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 75,
+      "section": "Verse 2 - wider pads | more motion",
+      "start": 152.81,
+      "end": 153.977,
+      "text": "in the mind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 76,
+      "section": "Pre-Hook - harmonies offset",
+      "start": 154.56,
+      "end": 156.06,
+      "text": "All of it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 77,
+      "section": "Pre-Hook - harmonies offset",
+      "start": 156.06,
+      "end": 157.56,
+      "text": "in the stone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 78,
+      "section": "Pre-Hook - harmonies offset",
+      "start": 157.56,
+      "end": 159.06,
+      "text": "all of it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 79,
+      "section": "Pre-Hook - harmonies offset",
+      "start": 159.06,
+      "end": 160.56,
+      "text": "not mine alone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 80,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 160.56,
+      "end": 161.56,
+      "text": "Broken temple",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 81,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 161.56,
+      "end": 162.56,
+      "text": "hold together",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 82,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 162.56,
+      "end": 164.06,
+      "text": "not as holy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 83,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 164.06,
+      "end": 165.56,
+      "text": "not as clean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 84,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 165.56,
+      "end": 166.56,
+      "text": "Every crack",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 85,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 166.56,
+      "end": 168.56,
+      "text": "has kept a record",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 86,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 168.56,
+      "end": 170.06,
+      "text": "of the countries",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 87,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 170.06,
+      "end": 171.56,
+      "text": "I have been",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 88,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 171.56,
+      "end": 172.393,
+      "text": "Broken temple",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 89,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 172.393,
+      "end": 173.227,
+      "text": "low and weathered",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 90,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 174.06,
+      "end": 175.31,
+      "text": "still the candles",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 91,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 175.31,
+      "end": 176.56,
+      "text": "try to live",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 92,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 176.56,
+      "end": 178.06,
+      "text": "I am built",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 93,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 178.06,
+      "end": 180.06,
+      "text": "from what I carried",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 94,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 180.06,
+      "end": 181.56,
+      "text": "and the weight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 95,
+      "section": "Hook - fuller low end | unresolved warmth",
+      "start": 181.56,
+      "end": 183.56,
+      "text": "I keep to give",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 96,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 184.56,
+      "end": 187.671,
+      "text": "I used to think",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 97,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 187.671,
+      "end": 188.449,
+      "text": "survival",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 98,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 188.449,
+      "end": 190.004,
+      "text": "meant never",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 99,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 190.004,
+      "end": 191.56,
+      "text": "touching ground",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 100,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 191.56,
+      "end": 193.06,
+      "text": "keep the engine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 101,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 193.06,
+      "end": 194.56,
+      "text": "in the chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 102,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 194.56,
+      "end": 196.56,
+      "text": "keep the old tide",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 103,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 196.56,
+      "end": 197.56,
+      "text": "weighted down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 104,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 197.56,
+      "end": 199.06,
+      "text": "But the temple",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 105,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 199.06,
+      "end": 200.56,
+      "text": "does not heal",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 106,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 200.56,
+      "end": 202.06,
+      "text": "because I curse",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 107,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 202.06,
+      "end": 203.56,
+      "text": "the falling stone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 108,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 203.56,
+      "end": 205.406,
+      "text": "It needs hands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 109,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 205.406,
+      "end": 206.637,
+      "text": "and time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 110,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 206.637,
+      "end": 207.252,
+      "text": "and weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 111,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 207.868,
+      "end": 209.714,
+      "text": "and the truth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 112,
+      "section": "Bridge - drums thin | bass remains",
+      "start": 209.714,
+      "end": 211.56,
+      "text": "of being known",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 113,
+      "section": "Rupture - full band | saturated bass | sudden drop",
+      "start": 221.131,
+      "end": 221.703,
+      "text": "Mother's rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 114,
+      "section": "Rupture - full band | saturated bass | sudden drop",
+      "start": 222.274,
+      "end": 222.846,
+      "text": "Father's smoke",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 115,
+      "section": "Rupture - full band | saturated bass | sudden drop",
+      "start": 222.846,
+      "end": 224.56,
+      "text": "Four boys running",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 116,
+      "section": "Rupture - full band | saturated bass | sudden drop",
+      "start": 224.56,
+      "end": 225.651,
+      "text": "Glasses broke",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 117,
+      "section": "Rupture - full band | saturated bass | sudden drop",
+      "start": 225.651,
+      "end": 227.287,
+      "text": "Wrong name written",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 118,
+      "section": "Rupture - full band | saturated bass | sudden drop",
+      "start": 227.287,
+      "end": 228.924,
+      "text": "New name found",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 119,
+      "section": "Rupture - full band | saturated bass | sudden drop",
+      "start": 228.924,
+      "end": 230.56,
+      "text": "Salt line waiting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 120,
+      "section": "Rupture - full band | saturated bass | sudden drop",
+      "start": 230.56,
+      "end": 233.989,
+      "text": "Couch laid down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 121,
+      "section": "Rupture - full band | saturated bass | sudden drop",
+      "start": 235.131,
+      "end": 236.274,
+      "text": "Forty years",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 122,
+      "section": "Rupture - full band | saturated bass | sudden drop",
+      "start": 236.274,
+      "end": 238.56,
+      "text": "Still here",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 123,
+      "section": "Final Hook - stacked harmonies | wide but suspended",
+      "start": 238.56,
+      "end": 239.671,
+      "text": "Broken temple",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 124,
+      "section": "Final Hook - stacked harmonies | wide but suspended",
+      "start": 239.671,
+      "end": 240.782,
+      "text": "hold together",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 125,
+      "section": "Final Hook - stacked harmonies | wide but suspended",
+      "start": 240.782,
+      "end": 242.449,
+      "text": "not by hiding",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 126,
+      "section": "Final Hook - stacked harmonies | wide but suspended",
+      "start": 242.449,
+      "end": 243.56,
+      "text": "every scar",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 127,
+      "section": "Final Hook - stacked harmonies | wide but suspended",
+      "start": 243.56,
+      "end": 245.406,
+      "text": "Let the late note",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 128,
+      "section": "Final Hook - stacked harmonies | wide but suspended",
+      "start": 245.406,
+      "end": 246.329,
+      "text": "enter fully",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 129,
+      "section": "Final Hook - stacked harmonies | wide but suspended",
+      "start": 246.329,
+      "end": 247.714,
+      "text": "let it say",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 130,
+      "section": "Final Hook - stacked harmonies | wide but suspended",
+      "start": 247.714,
+      "end": 249.56,
+      "text": "how small we are",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
       "index": 131,
       "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 326.86,
-      "end": 326.96,
+      "start": 249.56,
+      "end": 250.56,
       "text": "Broken temple",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 132,
       "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 326.96,
-      "end": 327.06,
+      "start": 250.56,
+      "end": 252.06,
       "text": "low and weathered",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 133,
       "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 327.06,
-      "end": 327.16,
+      "start": 252.06,
+      "end": 253.06,
       "text": "not repaired",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 134,
       "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 327.16,
-      "end": 327.26,
+      "start": 253.06,
+      "end": 254.56,
       "text": "but not refused",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 135,
       "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 327.26,
-      "end": 327.36,
+      "start": 254.56,
+      "end": 256.175,
       "text": "I can be",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 136,
       "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 327.36,
-      "end": 327.46,
+      "start": 256.175,
+      "end": 257.791,
       "text": "a damaged country",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 137,
       "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 327.46,
-      "end": 327.56,
+      "start": 257.791,
+      "end": 259.406,
       "text": "and still choose",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 138,
       "section": "Final Hook - stacked harmonies | wide but suspended",
-      "start": 327.56,
-      "end": 327.66,
+      "start": 259.406,
+      "end": 261.56,
       "text": "how I am used",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 139,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 327.66,
-      "end": 327.76,
+      "start": 261.56,
+      "end": 264.131,
       "text": "Stone by stone",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 140,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 327.76,
-      "end": 327.86,
+      "start": 264.131,
+      "end": 267.56,
       "text": "I ask the body",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 141,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 327.86,
-      "end": 327.96,
+      "start": 267.56,
+      "end": 270.56,
       "text": "what it needs",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 142,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 327.96,
-      "end": 328.06,
+      "start": 270.56,
+      "end": 273.56,
       "text": "before it breaks",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 143,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 328.06,
-      "end": 328.16,
+      "start": 274.417,
+      "end": 276.131,
       "text": "Breath by breath",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 144,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 328.16,
-      "end": 328.26,
+      "start": 276.131,
+      "end": 278.703,
       "text": "I leave the anchor",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 145,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 328.26,
-      "end": 328.36,
+      "start": 279.56,
+      "end": 281.893,
       "text": "where the old tide",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 146,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 328.36,
-      "end": 328.46,
+      "start": 281.893,
+      "end": 283.06,
       "text": "cannot take",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 147,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 328.46,
-      "end": 328.56,
+      "start": 283.06,
+      "end": 284.81,
       "text": "No clean ending",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 148,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 328.56,
-      "end": 328.66,
+      "start": 284.81,
+      "end": 285.393,
       "text": "no bright pardon",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 149,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 328.66,
-      "end": 328.76,
+      "start": 286.56,
+      "end": 287.924,
       "text": "no final bell",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 150,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 328.76,
-      "end": 328.86,
+      "start": 287.924,
+      "end": 288.833,
       "text": "across the foam",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 151,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 328.86,
-      "end": 328.96,
+      "start": 289.287,
+      "end": 290.651,
       "text": "just a temple",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 152,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 328.96,
-      "end": 329.06,
+      "start": 290.651,
+      "end": 291.56,
       "text": "still receiving",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 153,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 329.06,
-      "end": 329.16,
+      "start": 291.56,
+      "end": 294.06,
       "text": "all the people",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 154,
       "section": "Coda - free time | guitar, bass, voices",
-      "start": 329.16,
-      "end": 329.26,
+      "start": 294.06,
+      "end": 296.56,
       "text": "who came home",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 155,
       "section": "Outro - group hum | low-pass fade",
-      "start": 329.26,
-      "end": 329.36,
+      "start": 301.022,
+      "end": 301.945,
       "text": "Rib and altar",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 156,
       "section": "Outro - group hum | low-pass fade",
-      "start": 329.36,
-      "end": 329.46,
+      "start": 301.945,
+      "end": 302.406,
       "text": "hand and lung",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 157,
       "section": "Outro - group hum | low-pass fade",
-      "start": 329.46,
-      "end": 329.56,
+      "start": 304.252,
+      "end": 304.714,
       "text": "fourth note late",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 158,
       "section": "Outro - group hum | low-pass fade",
-      "start": 329.56,
-      "end": 329.66,
+      "start": 304.714,
+      "end": 305.637,
       "text": "but finally sung",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 159,
       "section": "Outro - group hum | low-pass fade",
-      "start": 329.66,
-      "end": 329.76,
+      "start": 306.56,
+      "end": 308.31,
       "text": "Broken temple",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 160,
       "section": "Outro - group hum | low-pass fade",
-      "start": 329.76,
-      "end": 329.86,
+      "start": 308.31,
+      "end": 310.06,
       "text": "weathered through",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 161,
       "section": "Outro - group hum | low-pass fade",
-      "start": 329.86,
-      "end": 329.96,
+      "start": 310.06,
+      "end": 311.81,
       "text": "something damaged",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 162,
       "section": "Outro - group hum | low-pass fade",
-      "start": 329.96,
-      "end": 330.06,
+      "start": 311.81,
+      "end": 313.56,
       "text": "holding true",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     }
   ]
 }

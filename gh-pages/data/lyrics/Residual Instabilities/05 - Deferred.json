@@ -4,128 +4,264 @@
   "title": "Deferred",
   "text_path": "Residual Instabilities/05 - Deferred.txt",
   "audio_path": "Residual Instabilities/audio/05 - Deferred.mp3",
-  "duration_seconds": 302.36,
-  "model": "base",
+  "duration_seconds": 284.7,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 87,
     "reference_word_count": 365,
-    "observed_word_count": 1242,
-    "matched_word_count": 184,
-    "matched_word_ratio": 0.504,
-    "inserted_adlib_count": 0
+    "observed_word_count": 366,
+    "matched_word_count": 351,
+    "matched_word_ratio": 0.962,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 30.0,
-      "text": "I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy, I'm not a good guy"
+      "start": 5.9,
+      "end": 15.2,
+      "text": "minutes gather at the edge never landing never set"
     },
     {
-      "start": 30.0,
-      "end": 59.96,
-      "text": "I divide the hour again into smaller pieces then Watch them slip between my hands like they follow other plans every moment leans away Just a fraction past the frame I can feel it bending thin Where I stop and should begin There's a way I never live Like a constant saddle drift"
+      "start": 17.86,
+      "end": 26.64,
+      "text": "something waiting to begin held somewhere beneath the skin"
     },
     {
-      "start": 59.96,
-      "end": 77.92,
-      "text": "Time expands when I wait Not a pause just to stay I defer into the stretch Where the press and disconnects Every second pulls apart before it ever fully starts"
+      "start": 30.76,
+      "end": 35.96,
+      "text": "i divide the hour again into smaller pieces then"
     },
     {
-      "start": 77.92,
-      "end": 89.92,
-      "text": "It's not refusal just delay Like I'm face to start away I can see it, I can feel but it never turns to real"
+      "start": 36.52,
+      "end": 41.84,
+      "text": "watch them slip between my hands like they follow other plans"
     },
     {
-      "start": 89.92,
-      "end": 108.92,
-      "text": "Conversation start to slow, where to arrive but never flow By the time I try to speak they've already grown too weak"
+      "start": 42.7,
+      "end": 48.18,
+      "text": "every moment leans away just a fraction past the frame"
     },
     {
-      "start": 108.92,
-      "end": 124.92,
-      "text": "Every action held in place, like by an unseen kind of brace Future self is always like copy, hundish shifting, gate I'm not still, do, do, do, do, do, I'm displaced"
+      "start": 48.18,
+      "end": 53.92,
+      "text": "i can feel it bending thin where i stop and should begin"
     },
     {
-      "start": 124.92,
-      "end": 150.92,
-      "text": "Cocks don't break, they just bend when the star won't descend I defer into the stretch Where intention never set that the every motion half-alive Never fully arise, not avoidance just a slide line Through a wideening insight I'm adjacent to the flow"
+      "start": 53.92,
+      "end": 58.94,
+      "text": "there's a weight i never lived like a constant subtle drift"
     },
     {
-      "start": 150.92,
-      "end": 180.92,
-      "text": "But I never fully go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go"
+      "start": 60.34,
+      "end": 66.4,
+      "text": "time expands when i wait not a pause just a stay"
     },
     {
-      "start": 180.92,
-      "end": 210.92,
-      "text": "go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go"
+      "start": 66.4,
+      "end": 72.44,
+      "text": "i defer into the stretch where the present disconnects"
     },
     {
-      "start": 210.92,
-      "end": 240.92,
-      "text": "go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go, go"
+      "start": 72.44,
+      "end": 78.16,
+      "text": "every second pulls apart before it ever fully starts"
     },
     {
-      "start": 240.92,
-      "end": 270.92,
-      "text": "I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I"
+      "start": 78.16,
+      "end": 83.74,
+      "text": "not refusal just delay like i'm faced a step away"
     },
     {
-      "start": 270.92,
-      "end": 300.92,
-      "text": "don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don"
+      "start": 84.24,
+      "end": 89.66,
+      "text": "i can see it i can feel but it never turns to real"
     },
     {
-      "start": 300.92,
-      "end": 302.36,
-      "text": "want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want to be a part of this, I don't want"
+      "start": 97.22,
+      "end": 102.06,
+      "text": "conversations start to slow grades arrive but never flow"
+    },
+    {
+      "start": 102.88,
+      "end": 107.96,
+      "text": "by the time i try to speak they've already grown too weak"
+    },
+    {
+      "start": 108.8,
+      "end": 113.92,
+      "text": "every action held in place by an unseen kind of brace"
+    },
+    {
+      "start": 114.56,
+      "end": 119.66,
+      "text": "future self is always late car behind the shifting gate"
+    },
+    {
+      "start": 119.66,
+      "end": 123.7,
+      "text": "i'm not still i'm displaced"
+    },
+    {
+      "start": 124.66,
+      "end": 127.9,
+      "text": "clocks don't break they just bend"
+    },
+    {
+      "start": 127.9,
+      "end": 130.78,
+      "text": "when the start won't descend"
+    },
+    {
+      "start": 130.78,
+      "end": 136.52,
+      "text": "i defer into the stretch where intention never sets"
+    },
+    {
+      "start": 136.52,
+      "end": 142.6,
+      "text": "every motion half alive never fully arrives"
+    },
+    {
+      "start": 142.6,
+      "end": 148.3,
+      "text": "not avoidance just a slide through a widening insight"
+    },
+    {
+      "start": 148.3,
+      "end": 154.02,
+      "text": "i'm adjacent to the flow but i never fully go"
+    },
+    {
+      "start": 159.34,
+      "end": 166.9,
+      "text": "it's not that i won't move it's that the moment moves first"
+    },
+    {
+      "start": 167.82,
+      "end": 174.36,
+      "text": "and i follow after what if delay isn't absence but distance"
+    },
+    {
+      "start": 174.36,
+      "end": 183.86,
+      "text": "what if now is elastic and i miss a line"
+    },
+    {
+      "start": 206.62,
+      "end": 211.72,
+      "text": "i can feel the tension ease when i stop dividing me"
+    },
+    {
+      "start": 212.46,
+      "end": 217.9,
+      "text": "let the seconds fall as one instead of something to outrun"
+    },
+    {
+      "start": 218.68,
+      "end": 223.94,
+      "text": "there's no future i must chase just a shift in how i place"
+    },
+    {
+      "start": 224.52,
+      "end": 229.82,
+      "text": "where i stand inside the drift not resisting what won't fix"
+    },
+    {
+      "start": 230.62,
+      "end": 235.02,
+      "text": "not behind not ahead"
+    },
+    {
+      "start": 236.46,
+      "end": 241.94,
+      "text": "i release into the frame where the moment stays the same"
+    },
+    {
+      "start": 241.94,
+      "end": 247.78,
+      "text": "not extended not confined just a steadier kind of time"
+    },
+    {
+      "start": 247.78,
+      "end": 253.58,
+      "text": "i don't force it into place i just meet it where it stays"
+    },
+    {
+      "start": 253.58,
+      "end": 259.54,
+      "text": "in the slowing i can find i was never left behind"
+    },
+    {
+      "start": 262.7,
+      "end": 266.88,
+      "text": "no more splitting no more awake"
+    },
+    {
+      "start": 268.62,
+      "end": 273.1,
+      "text": "just a quiet altered state"
+    },
+    {
+      "start": 274.54,
+      "end": 278.94,
+      "text": "time was never running fast"
+    },
+    {
+      "start": 278.94,
+      "end": 284.7,
+      "text": "i was offset from the past"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – distant ticking | stretched ambience | reversed swells",
-      "start": 0.0,
-      "end": 8.333,
+      "start": 5.9,
+      "end": 9.72,
       "text": "Minutes gather at the edge",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 1,
       "section": "Intro – distant ticking | stretched ambience | reversed swells",
-      "start": 8.333,
-      "end": 15.0,
+      "start": 9.72,
+      "end": 13.72,
       "text": "never landing, never said",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 2,
       "section": "Intro – distant ticking | stretched ambience | reversed swells",
-      "start": 15.0,
-      "end": 21.667,
+      "start": 17.86,
+      "end": 21.08,
       "text": "Something waiting to begin",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 3,
       "section": "Intro – distant ticking | stretched ambience | reversed swells",
-      "start": 21.667,
-      "end": 30.0,
+      "start": 21.08,
+      "end": 26.38,
       "text": "held somewhere beneath the skin",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 4,
       "section": "Verse 1 – minimal beat | tight pulse | subtle off-grid delays",
-      "start": 30.0,
-      "end": 32.826,
+      "start": 30.76,
+      "end": 33.82,
       "text": "I divide the hour again",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -133,8 +269,8 @@
     {
       "index": 5,
       "section": "Verse 1 – minimal beat | tight pulse | subtle off-grid delays",
-      "start": 32.826,
-      "end": 35.088,
+      "start": 33.82,
+      "end": 36.16,
       "text": "into smaller pieces, then",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -142,8 +278,8 @@
     {
       "index": 6,
       "section": "Verse 1 – minimal beat | tight pulse | subtle off-grid delays",
-      "start": 35.088,
-      "end": 38.479,
+      "start": 36.52,
+      "end": 39.82,
       "text": "watch them slip between my hands",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -151,8 +287,8 @@
     {
       "index": 7,
       "section": "Verse 1 – minimal beat | tight pulse | subtle off-grid delays",
-      "start": 38.479,
-      "end": 41.306,
+      "start": 39.82,
+      "end": 42.06,
       "text": "like they follow other plans",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -160,8 +296,8 @@
     {
       "index": 8,
       "section": "Verse 1 – minimal beat | tight pulse | subtle off-grid delays",
-      "start": 41.306,
-      "end": 43.567,
+      "start": 42.7,
+      "end": 45.24,
       "text": "Every moment leans away",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -169,8 +305,8 @@
     {
       "index": 9,
       "section": "Verse 1 – minimal beat | tight pulse | subtle off-grid delays",
-      "start": 43.567,
-      "end": 46.958,
+      "start": 45.24,
+      "end": 48.18,
       "text": "just a fraction past the frame",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -178,8 +314,8 @@
     {
       "index": 10,
       "section": "Verse 1 – minimal beat | tight pulse | subtle off-grid delays",
-      "start": 46.958,
-      "end": 50.35,
+      "start": 48.18,
+      "end": 51.14,
       "text": "I can feel it bending thin",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -187,8 +323,8 @@
     {
       "index": 11,
       "section": "Verse 1 – minimal beat | tight pulse | subtle off-grid delays",
-      "start": 50.35,
-      "end": 53.742,
+      "start": 51.14,
+      "end": 53.92,
       "text": "where I stop and should begin",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -196,26 +332,26 @@
     {
       "index": 12,
       "section": "Verse 1 – minimal beat | tight pulse | subtle off-grid delays",
-      "start": 53.742,
-      "end": 56.568,
+      "start": 53.92,
+      "end": 55.72,
       "text": "There’s a weight I never lift",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 13,
       "section": "Verse 1 – minimal beat | tight pulse | subtle off-grid delays",
-      "start": 57.134,
-      "end": 59.96,
+      "start": 56.5,
+      "end": 59.12,
       "text": "like a constant, subtle drift",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 14,
       "section": "Pre-Hook – delays elongate | sense of drag",
-      "start": 59.96,
-      "end": 61.157,
+      "start": 60.34,
+      "end": 62.14,
       "text": "Time expands",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -223,8 +359,8 @@
     {
       "index": 15,
       "section": "Pre-Hook – delays elongate | sense of drag",
-      "start": 61.157,
-      "end": 62.953,
+      "start": 62.14,
+      "end": 63.56,
       "text": "when I wait",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -232,8 +368,8 @@
     {
       "index": 16,
       "section": "Pre-Hook – delays elongate | sense of drag",
-      "start": 62.953,
-      "end": 64.749,
+      "start": 63.56,
+      "end": 65.12,
       "text": "not a pause—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -241,17 +377,17 @@
     {
       "index": 17,
       "section": "Pre-Hook – delays elongate | sense of drag",
-      "start": 64.749,
-      "end": 65.348,
+      "start": 65.12,
+      "end": 65.94,
       "text": "just a state",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 18,
       "section": "Hook – deeper bass | widened space | stretched tails",
-      "start": 66.545,
-      "end": 69.539,
+      "start": 66.4,
+      "end": 69.28,
       "text": "I defer into the stretch",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -259,17 +395,17 @@
     {
       "index": 19,
       "section": "Hook – deeper bass | widened space | stretched tails",
-      "start": 69.539,
-      "end": 72.532,
+      "start": 69.28,
+      "end": 72.44,
       "text": "where the present disconnects",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 20,
       "section": "Hook – deeper bass | widened space | stretched tails",
-      "start": 72.532,
-      "end": 74.927,
+      "start": 72.44,
+      "end": 75.0,
       "text": "Every second pulls apart",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -277,8 +413,8 @@
     {
       "index": 21,
       "section": "Hook – deeper bass | widened space | stretched tails",
-      "start": 74.927,
-      "end": 77.92,
+      "start": 75.0,
+      "end": 78.16,
       "text": "before it ever fully starts",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -286,8 +422,8 @@
     {
       "index": 22,
       "section": "Hook – deeper bass | widened space | stretched tails",
-      "start": 78.42,
-      "end": 80.42,
+      "start": 78.16,
+      "end": 80.82,
       "text": "Not refusal—just delay",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -295,16 +431,16 @@
     {
       "index": 23,
       "section": "Hook – deeper bass | widened space | stretched tails",
-      "start": 80.42,
-      "end": 83.42,
+      "start": 80.82,
+      "end": 83.74,
       "text": "like I'm phased a step away",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 24,
       "section": "Hook – deeper bass | widened space | stretched tails",
-      "start": 83.42,
+      "start": 83.92,
       "end": 86.92,
       "text": "I can see it, I can feel",
       "timing_source": "whisper-aligned",
@@ -314,7 +450,7 @@
       "index": 25,
       "section": "Hook – deeper bass | widened space | stretched tails",
       "start": 86.92,
-      "end": 89.92,
+      "end": 89.66,
       "text": "but it never turns to real",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -322,17 +458,17 @@
     {
       "index": 26,
       "section": "Verse 2 – dub echoes | looser timing | gaps widen",
-      "start": 90.784,
-      "end": 93.375,
+      "start": 97.22,
+      "end": 99.14,
       "text": "Conversations start to slow",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 27,
       "section": "Verse 2 – dub echoes | looser timing | gaps widen",
-      "start": 95.102,
-      "end": 98.556,
+      "start": 100.28,
+      "end": 102.06,
       "text": "words arrive but never flow",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -340,8 +476,8 @@
     {
       "index": 28,
       "section": "Verse 2 – dub echoes | looser timing | gaps widen",
-      "start": 98.556,
-      "end": 104.602,
+      "start": 102.72,
+      "end": 105.2,
       "text": "By the time I try to speak",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -349,8 +485,8 @@
     {
       "index": 29,
       "section": "Verse 2 – dub echoes | looser timing | gaps widen",
-      "start": 104.602,
-      "end": 108.92,
+      "start": 105.2,
+      "end": 107.96,
       "text": "they’ve already grown too weak",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -358,8 +494,8 @@
     {
       "index": 30,
       "section": "Verse 2 – dub echoes | looser timing | gaps widen",
-      "start": 108.92,
-      "end": 111.501,
+      "start": 108.76,
+      "end": 110.88,
       "text": "Every action held in place",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -367,8 +503,8 @@
     {
       "index": 31,
       "section": "Verse 2 – dub echoes | looser timing | gaps widen",
-      "start": 112.017,
-      "end": 115.114,
+      "start": 110.88,
+      "end": 113.92,
       "text": "by an unseen kind of brace",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -376,26 +512,26 @@
     {
       "index": 32,
       "section": "Verse 2 – dub echoes | looser timing | gaps widen",
-      "start": 115.114,
-      "end": 117.178,
+      "start": 114.52,
+      "end": 116.78,
       "text": "Future self is always late",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 33,
       "section": "Verse 2 – dub echoes | looser timing | gaps widen",
-      "start": 118.726,
-      "end": 119.759,
+      "start": 117.22,
+      "end": 119.66,
       "text": "caught behind a shifting gate",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 34,
       "section": "Verse 2 – dub echoes | looser timing | gaps widen",
-      "start": 119.759,
-      "end": 121.307,
+      "start": 119.66,
+      "end": 120.54,
       "text": "I’m not still",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -403,8 +539,8 @@
     {
       "index": 35,
       "section": "Verse 2 – dub echoes | looser timing | gaps widen",
-      "start": 123.888,
-      "end": 124.92,
+      "start": 120.54,
+      "end": 123.7,
       "text": "I’m displaced",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -412,17 +548,17 @@
     {
       "index": 36,
       "section": "Pre-Hook – rising resonance | warped pitch drift",
-      "start": 125.511,
-      "end": 126.693,
+      "start": 124.66,
+      "end": 126.48,
       "text": "Clocks don’t break",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 37,
       "section": "Pre-Hook – rising resonance | warped pitch drift",
-      "start": 126.693,
-      "end": 128.465,
+      "start": 126.48,
+      "end": 127.9,
       "text": "they just bend",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -430,17 +566,17 @@
     {
       "index": 38,
       "section": "Pre-Hook – rising resonance | warped pitch drift",
-      "start": 128.465,
-      "end": 129.647,
+      "start": 127.9,
+      "end": 129.5,
       "text": "when the start",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 39,
       "section": "Pre-Hook – rising resonance | warped pitch drift",
-      "start": 130.238,
-      "end": 131.42,
+      "start": 129.5,
+      "end": 130.78,
       "text": "won’t descend",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -448,8 +584,8 @@
     {
       "index": 40,
       "section": "Hook – fuller low end | harmonies trailing behind",
-      "start": 131.42,
-      "end": 134.375,
+      "start": 130.78,
+      "end": 133.64,
       "text": "I defer into the stretch",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -457,17 +593,17 @@
     {
       "index": 41,
       "section": "Hook – fuller low end | harmonies trailing behind",
-      "start": 134.375,
-      "end": 136.147,
+      "start": 133.64,
+      "end": 136.52,
       "text": "where intention never sets",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 42,
       "section": "Hook – fuller low end | harmonies trailing behind",
-      "start": 137.92,
-      "end": 140.284,
+      "start": 136.52,
+      "end": 139.42,
       "text": "Every motion half-alive",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -475,17 +611,17 @@
     {
       "index": 43,
       "section": "Hook – fuller low end | harmonies trailing behind",
-      "start": 140.284,
-      "end": 141.465,
+      "start": 139.42,
+      "end": 142.6,
       "text": "never fully arrives",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 44,
       "section": "Hook – fuller low end | harmonies trailing behind",
-      "start": 142.056,
-      "end": 145.011,
+      "start": 142.6,
+      "end": 145.28,
       "text": "Not avoidance—just a slide",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -493,17 +629,17 @@
     {
       "index": 45,
       "section": "Hook – fuller low end | harmonies trailing behind",
-      "start": 145.602,
-      "end": 146.784,
+      "start": 145.28,
+      "end": 147.22,
       "text": "through a widening inside",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 46,
       "section": "Hook – fuller low end | harmonies trailing behind",
-      "start": 147.965,
-      "end": 150.92,
+      "start": 148.3,
+      "end": 151.14,
       "text": "I’m adjacent to the flow",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -511,8 +647,8 @@
     {
       "index": 47,
       "section": "Hook – fuller low end | harmonies trailing behind",
-      "start": 150.92,
-      "end": 152.247,
+      "start": 151.14,
+      "end": 154.02,
       "text": "but I never fully go",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -520,98 +656,98 @@
     {
       "index": 48,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 152.247,
-      "end": 157.412,
+      "start": 159.16,
+      "end": 161.36,
       "text": "It’s not that I won’t move",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 49,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 157.412,
-      "end": 162.578,
+      "start": 161.36,
+      "end": 166.9,
       "text": "it’s that the moment… moves first",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 50,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 162.578,
-      "end": 165.161,
+      "start": 167.58,
+      "end": 168.96,
       "text": "and I follow",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 51,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 165.161,
-      "end": 166.021,
+      "start": 168.96,
+      "end": 170.04,
       "text": "after",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 52,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 166.021,
-      "end": 168.604,
+      "start": 170.04,
+      "end": 171.66,
       "text": "What if delay",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 53,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 168.604,
-      "end": 170.326,
+      "start": 171.66,
+      "end": 172.92,
       "text": "isn’t absence",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 54,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 170.326,
-      "end": 172.048,
+      "start": 172.92,
+      "end": 174.36,
       "text": "but distance",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 55,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 172.048,
-      "end": 174.63,
+      "start": 174.36,
+      "end": 175.86,
       "text": "What if now",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 56,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 174.63,
-      "end": 176.352,
+      "start": 175.86,
+      "end": 177.16,
       "text": "is elastic",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 57,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 176.352,
-      "end": 178.074,
+      "start": 177.16,
+      "end": 177.68,
       "text": "and I’m…",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 58,
       "section": "Bridge – dub breakdown | echo fragments | spoken layers",
-      "start": 178.074,
-      "end": 178.935,
+      "start": 177.68,
+      "end": 192.15,
       "text": "misaligned",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -619,8 +755,8 @@
     {
       "index": 59,
       "section": "Drop – sub bass swell | time-smear delays | near weightlessness",
-      "start": 178.935,
-      "end": 179.796,
+      "start": 192.15,
+      "end": 206.62,
       "text": "(ahh—)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -628,245 +764,245 @@
     {
       "index": 60,
       "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
-      "start": 179.796,
-      "end": 184.961,
+      "start": 206.62,
+      "end": 209.46,
       "text": "I can feel the tension ease",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 61,
       "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
-      "start": 184.961,
-      "end": 189.266,
+      "start": 209.46,
+      "end": 211.77,
       "text": "when I stop dividing me",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 62,
       "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
-      "start": 189.266,
-      "end": 194.431,
+      "start": 212.46,
+      "end": 215.24,
       "text": "Let the seconds fall as one",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 63,
       "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
-      "start": 194.431,
-      "end": 198.736,
+      "start": 215.24,
+      "end": 217.9,
       "text": "instead of something to outrun",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 64,
       "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
-      "start": 198.736,
-      "end": 203.901,
+      "start": 218.68,
+      "end": 221.0,
       "text": "There’s no future I must chase",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 65,
       "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
-      "start": 203.901,
-      "end": 209.927,
+      "start": 221.0,
+      "end": 223.94,
       "text": "just a shift in how I place",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 66,
       "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
-      "start": 209.927,
-      "end": 215.093,
+      "start": 224.45,
+      "end": 226.88,
       "text": "where I stand inside the drift",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 67,
       "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
-      "start": 215.093,
-      "end": 219.397,
+      "start": 226.88,
+      "end": 229.82,
       "text": "not resisting what won’t fix",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 68,
       "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
-      "start": 219.397,
-      "end": 221.119,
+      "start": 230.39,
+      "end": 231.76,
       "text": "Not behind",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 69,
-      "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
-      "start": 221.119,
-      "end": 222.841,
-      "text": "not ahead",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 70,
-      "section": "Final Hook – warm, expansive | delays stabilize",
-      "start": 222.841,
-      "end": 227.146,
-      "text": "I release into the frame",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 71,
-      "section": "Final Hook – warm, expansive | delays stabilize",
-      "start": 227.146,
-      "end": 232.311,
-      "text": "where the moment stays the same",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 72,
-      "section": "Final Hook – warm, expansive | delays stabilize",
-      "start": 232.311,
-      "end": 235.755,
-      "text": "Not extended, not confined",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 73,
-      "section": "Final Hook – warm, expansive | delays stabilize",
-      "start": 235.755,
-      "end": 240.92,
-      "text": "just a steadier kind of time",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 74,
-      "section": "Final Hook – warm, expansive | delays stabilize",
-      "start": 240.92,
-      "end": 241.251,
-      "text": "I don’t force it into place",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 69,
+      "section": "Verse 3 – slowed rhythm | grounded bass | softened highs",
+      "start": 233.72,
+      "end": 235.02,
+      "text": "not ahead",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 70,
+      "section": "Final Hook – warm, expansive | delays stabilize",
+      "start": 236.31,
+      "end": 239.02,
+      "text": "I release into the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 71,
+      "section": "Final Hook – warm, expansive | delays stabilize",
+      "start": 239.02,
+      "end": 241.94,
+      "text": "where the moment stays the same",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 72,
+      "section": "Final Hook – warm, expansive | delays stabilize",
+      "start": 241.94,
+      "end": 244.78,
+      "text": "Not extended, not confined",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 73,
+      "section": "Final Hook – warm, expansive | delays stabilize",
+      "start": 244.78,
+      "end": 247.78,
+      "text": "just a steadier kind of time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 74,
+      "section": "Final Hook – warm, expansive | delays stabilize",
+      "start": 247.78,
+      "end": 250.64,
+      "text": "I don’t force it into place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
       "index": 75,
       "section": "Final Hook – warm, expansive | delays stabilize",
-      "start": 242.412,
-      "end": 242.577,
+      "start": 250.64,
+      "end": 253.58,
       "text": "I just meet it where it stays",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 7
     },
     {
       "index": 76,
       "section": "Final Hook – warm, expansive | delays stabilize",
-      "start": 243.903,
-      "end": 244.069,
+      "start": 253.58,
+      "end": 256.5,
       "text": "In the slowing I can find",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 6
     },
     {
       "index": 77,
       "section": "Final Hook – warm, expansive | delays stabilize",
-      "start": 245.395,
-      "end": 245.561,
+      "start": 256.5,
+      "end": 259.54,
       "text": "I was never left behind",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 5
     },
     {
       "index": 78,
       "section": "Outro – deep dub echoes | dissolving ticks | low-pass fade",
-      "start": 245.561,
-      "end": 245.892,
+      "start": 262.32,
+      "end": 264.06,
       "text": "No more splitting",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 79,
       "section": "Outro – deep dub echoes | dissolving ticks | low-pass fade",
-      "start": 245.892,
-      "end": 246.224,
+      "start": 264.06,
+      "end": 266.24,
       "text": "no more wait",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 80,
       "section": "Outro – deep dub echoes | dissolving ticks | low-pass fade",
-      "start": 246.224,
-      "end": 246.39,
+      "start": 268.32,
+      "end": 270.18,
       "text": "just a quiet",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 81,
       "section": "Outro – deep dub echoes | dissolving ticks | low-pass fade",
-      "start": 246.39,
-      "end": 246.532,
+      "start": 270.18,
+      "end": 273.1,
       "text": "altered state",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 82,
       "section": "Outro – deep dub echoes | dissolving ticks | low-pass fade",
-      "start": 246.532,
-      "end": 246.745,
+      "start": 274.18,
+      "end": 275.96,
       "text": "Time was never",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 83,
       "section": "Outro – deep dub echoes | dissolving ticks | low-pass fade",
-      "start": 246.745,
-      "end": 246.887,
+      "start": 275.96,
+      "end": 278.94,
       "text": "running fast",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 84,
       "section": "Outro – deep dub echoes | dissolving ticks | low-pass fade",
-      "start": 246.887,
-      "end": 247.053,
+      "start": 278.94,
+      "end": 280.5,
       "text": "I was…",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 85,
       "section": "Outro – deep dub echoes | dissolving ticks | low-pass fade",
-      "start": 247.053,
-      "end": 260.88,
+      "start": 280.5,
+      "end": 282.12,
       "text": "offset",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 86,
       "section": "Outro – deep dub echoes | dissolving ticks | low-pass fade",
-      "start": 260.88,
-      "end": 302.36,
+      "start": 282.12,
+      "end": 284.7,
       "text": "from the past",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     }
   ]
 }

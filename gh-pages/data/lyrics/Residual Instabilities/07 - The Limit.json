@@ -4,347 +4,223 @@
   "title": "The Limit",
   "text_path": "Residual Instabilities/07 - The Limit.txt",
   "audio_path": "Residual Instabilities/audio/07 - The Limit.mp3",
-  "duration_seconds": 275.0,
-  "model": "base",
+  "duration_seconds": 272.58,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 101,
     "reference_word_count": 420,
-    "observed_word_count": 413,
-    "matched_word_count": 377,
-    "matched_word_ratio": 0.898,
-    "inserted_adlib_count": 0
+    "observed_word_count": 418,
+    "matched_word_count": 411,
+    "matched_word_ratio": 0.979,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 8.0,
-      "text": "They said there's a limit."
+      "start": 3.86,
+      "end": 13.6,
+      "text": "they said there's a limit a mass you can't exceed"
     },
     {
-      "start": 8.0,
-      "end": 24.0,
-      "text": "And as you can't exceed, without becoming something else, I didn't know you could"
+      "start": 16.04,
+      "end": 25.2,
+      "text": "without becoming something else i didn't know it could feel like this"
     },
     {
-      "start": 24.0,
-      "end": 36.0,
-      "text": "be like this."
+      "start": 35.92,
+      "end": 40.94,
+      "text": "i keep adding weight to who i am every proof every secondhand plan"
     },
     {
-      "start": 36.0,
-      "end": 38.0,
-      "text": "I keep adding weight to who I am."
+      "start": 40.94,
+      "end": 46.22,
+      "text": "stacking expectations in my chest approximations i never fully test"
     },
     {
-      "start": 38.0,
-      "end": 41.0,
-      "text": "Every proof, every second hand plan."
+      "start": 46.22,
+      "end": 51.64,
+      "text": "they talk in numbers quiet and precise like certainty is something you can slice"
     },
     {
-      "start": 41.0,
-      "end": 43.0,
-      "text": "Stacking expectations in my chest."
+      "start": 51.64,
+      "end": 55.42,
+      "text": "but every measure i align feels like it fractures over time"
     },
     {
-      "start": 43.0,
-      "end": 46.0,
-      "text": "Approximations I never fully test."
+      "start": 55.42,
+      "end": 62.68,
+      "text": "not quite stable not quite mine somewhere near a boundary line"
     },
     {
-      "start": 46.0,
-      "end": 49.0,
-      "text": "They talk in numbers quiet and precise."
+      "start": 62.68,
+      "end": 71.26,
+      "text": "i feel the curves start to redefine am i past the point where i can hold this"
     },
     {
-      "start": 49.0,
-      "end": 51.0,
-      "text": "Like certainty is something you can slice."
+      "start": 71.26,
+      "end": 77.06,
+      "text": "form where the pressure builds and the self deforms"
     },
     {
-      "start": 51.0,
-      "end": 53.0,
-      "text": "But every measure I align."
+      "start": 78.02,
+      "end": 83.42,
+      "text": "if i cross that line do i disappear or collapse into something more severe"
     },
     {
-      "start": 53.0,
-      "end": 55.0,
-      "text": "Feels like it fractures over time."
+      "start": 83.96,
+      "end": 87.14,
+      "text": "they call it limit like it's clean and defined"
     },
     {
-      "start": 55.0,
-      "end": 58.0,
-      "text": "Not quite stable, not quite mine."
+      "start": 87.14,
+      "end": 90.46,
+      "text": "but it feels like losing my mind"
     },
     {
-      "start": 58.0,
-      "end": 62.0,
-      "text": "Somewhere near a boundary line."
+      "start": 99.4,
+      "end": 104.86,
+      "text": "every voice says you're not enough but dresses it in polished stuff"
     },
     {
-      "start": 62.0,
-      "end": 67.0,
-      "text": "I feel the curve start to redefine."
+      "start": 104.86,
+      "end": 110.32,
+      "text": "equations i don't understand still somehow written in my hands"
     },
     {
-      "start": 67.0,
-      "end": 72.0,
-      "text": "And I pass the point where I can hold this form."
+      "start": 110.32,
+      "end": 115.36,
+      "text": "a bright white heart compressed and tight holding out against the night"
     },
     {
-      "start": 72.0,
-      "end": 77.0,
-      "text": "Where the pressure builds in the self-defence."
+      "start": 115.36,
+      "end": 120.9,
+      "text": "but every doubt i try to hide adds another layer deep inside"
     },
     {
-      "start": 78.0,
-      "end": 84.0,
-      "text": "If I cross that line, do I disappear or collapse into something more severe?"
+      "start": 120.9,
+      "end": 131.84,
+      "text": "i'm still standing but i bend a fragile state of outward calm"
     },
     {
-      "start": 84.0,
-      "end": 85.0,
-      "text": "They call it limit."
+      "start": 131.84,
+      "end": 141.22,
+      "text": "while everything leans toward the dawn am i past the point where i can hold this form"
     },
     {
-      "start": 85.0,
-      "end": 87.0,
-      "text": "Like it's clean and defined."
+      "start": 142.3,
+      "end": 150.24,
+      "text": "where the pressure builds and the self deforms if i cross that line do i disappear"
     },
     {
-      "start": 87.0,
-      "end": 91.0,
-      "text": "But it feels like losing my mind."
+      "start": 150.24,
+      "end": 154.4,
+      "text": "or collapse into something more severe they call it limit"
     },
     {
-      "start": 99.0,
-      "end": 102.0,
-      "text": "Every ev'ly says you're not enough."
+      "start": 154.4,
+      "end": 159.62,
+      "text": "like it's just a line but it feels like it's swallowing mine"
     },
     {
-      "start": 102.0,
-      "end": 105.0,
-      "text": "But dresses it in polished stuff."
+      "start": 162.9,
+      "end": 168.82,
+      "text": "1 44 they set it like a threshold"
     },
     {
-      "start": 105.0,
-      "end": 107.0,
-      "text": "Equations I don't understand."
+      "start": 168.82,
+      "end": 173.62,
+      "text": "like a warning sign like if i reached it"
     },
     {
-      "start": 107.0,
-      "end": 110.0,
-      "text": "Still somehow written in my hands."
+      "start": 173.62,
+      "end": 179.56,
+      "text": "i'd stop being fine but what happens to everything i carried here"
     },
     {
-      "start": 110.0,
-      "end": 113.0,
-      "text": "A bright white heart, compressed and tight."
+      "start": 179.78,
+      "end": 186.16,
+      "text": "all the small lights compressed into fear does it disappear or ignite"
     },
     {
-      "start": 113.0,
-      "end": 115.0,
-      "text": "Holding out against the night."
+      "start": 187.74,
+      "end": 193.4,
+      "text": "i start to feel the edges strain the quiet shift beneath the name"
     },
     {
-      "start": 115.0,
-      "end": 118.0,
-      "text": "But every doubt I try to hide."
+      "start": 193.4,
+      "end": 199.48,
+      "text": "no single self can hold the weight of every doubt i fabricate"
     },
     {
-      "start": 118.0,
-      "end": 121.0,
-      "text": "I'd another layer deep inside."
+      "start": 199.48,
+      "end": 204.76,
+      "text": "and maybe breaking isn't loss but just a different kind of cost"
     },
     {
-      "start": 121.0,
-      "end": 131.0,
-      "text": "I'm still standing, but I've been the fragile state of our word."
+      "start": 204.76,
+      "end": 211.22,
+      "text": "where something dense and undefined becomes a new state over time"
     },
     {
-      "start": 131.0,
-      "end": 141.0,
-      "text": "And I pass the point where I can hold this form."
+      "start": 211.22,
+      "end": 217.62,
+      "text": "i'm not an ending just a change in kind"
     },
     {
-      "start": 141.0,
-      "end": 147.0,
-      "text": "Where the pressure builds in the self-defence."
+      "start": 227.06,
+      "end": 237.64,
+      "text": "if i pass the point where i can't stay the same and the pressure burns through the fragile frame"
     },
     {
-      "start": 147.0,
-      "end": 153.0,
-      "text": "If I cross that line, do I disappear or collapse into something more severe?"
+      "start": 237.64,
+      "end": 243.88,
+      "text": "maybe what i lose is what i outgrew and the collapse is just breaking through"
     },
     {
-      "start": 153.0,
-      "end": 155.0,
-      "text": "They call it limit."
+      "start": 243.88,
+      "end": 247.66,
+      "text": "they call it limit but it might be a door"
     },
     {
-      "start": 155.0,
-      "end": 157.0,
-      "text": "Like it's just a line."
+      "start": 247.66,
+      "end": 255.06,
+      "text": "to something i wasn't before somewhere beyond the weight i hold"
     },
     {
-      "start": 157.0,
-      "end": 160.0,
-      "text": "But it feels like it's wallowing my mind."
+      "start": 255.06,
+      "end": 260.04,
+      "text": "there's a quiet law i didn't know"
     },
     {
-      "start": 163.0,
-      "end": 165.0,
-      "text": "1.44"
+      "start": 262.6,
+      "end": 263.56,
+      "text": "not failure"
     },
     {
-      "start": 167.0,
-      "end": 172.0,
-      "text": "They said it like a threshold, like a warning sign."
+      "start": 263.56,
+      "end": 269.82,
+      "text": "transformation written in pressure"
     },
     {
-      "start": 172.0,
-      "end": 176.0,
-      "text": "Like if I reached it, I'd stop being fine."
-    },
-    {
-      "start": 176.0,
-      "end": 179.0,
-      "text": "But what happens to everything I carried here?"
-    },
-    {
-      "start": 179.0,
-      "end": 182.0,
-      "text": "All the small lights compressed into fear."
-    },
-    {
-      "start": 182.0,
-      "end": 186.0,
-      "text": "Does it disappear or ignite?"
-    },
-    {
-      "start": 188.0,
-      "end": 191.0,
-      "text": "I start to feel the edge of strain."
-    },
-    {
-      "start": 191.0,
-      "end": 194.0,
-      "text": "The quiet shift beneath the name."
-    },
-    {
-      "start": 194.0,
-      "end": 197.0,
-      "text": "No single self can hold the weight."
-    },
-    {
-      "start": 197.0,
-      "end": 200.0,
-      "text": "Of every doubt I fabricate."
-    },
-    {
-      "start": 200.0,
-      "end": 202.0,
-      "text": "And maybe breaking isn't lost."
-    },
-    {
-      "start": 202.0,
-      "end": 205.0,
-      "text": "But just a different kind of cost."
-    },
-    {
-      "start": 205.0,
-      "end": 212.0,
-      "text": "Where something dense and undefined becomes a new state over time."
-    },
-    {
-      "start": 212.0,
-      "end": 218.0,
-      "text": "And ending just a change in time."
-    },
-    {
-      "start": 227.0,
-      "end": 232.0,
-      "text": "If I pass the point where I can't stay the same."
-    },
-    {
-      "start": 232.0,
-      "end": 238.0,
-      "text": "And the pressure burns through the fragile frame."
-    },
-    {
-      "start": 238.0,
-      "end": 241.0,
-      "text": "Maybe what I lose is what I outgrew."
-    },
-    {
-      "start": 241.0,
-      "end": 244.0,
-      "text": "And the collapse is just breaking through."
-    },
-    {
-      "start": 244.0,
-      "end": 246.0,
-      "text": "They call it limit."
-    },
-    {
-      "start": 246.0,
-      "end": 248.0,
-      "text": "But it might be a door."
-    },
-    {
-      "start": 248.0,
-      "end": 251.0,
-      "text": "Just something I wasn't before."
-    },
-    {
-      "start": 251.0,
-      "end": 255.0,
-      "text": "Somewhere beyond the way I hold."
-    },
-    {
-      "start": 255.0,
-      "end": 258.0,
-      "text": "There's a quiet wall."
-    },
-    {
-      "start": 258.0,
-      "end": 262.0,
-      "text": "I didn't know."
-    },
-    {
-      "start": 262.0,
-      "end": 265.0,
-      "text": "Not failure."
-    },
-    {
-      "start": 265.0,
-      "end": 268.0,
-      "text": "Transformation."
-    },
-    {
-      "start": 268.0,
-      "end": 269.0,
-      "text": "Written."
-    },
-    {
-      "start": 269.0,
-      "end": 271.0,
-      "text": "And pressure."
-    },
-    {
-      "start": 271.0,
-      "end": 275.0,
-      "text": "And constellation."
+      "start": 269.82,
+      "end": 272.58,
+      "text": "and constellation"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – whispered fragments | distant low-frequency hum | faint static",
-      "start": 0.0,
-      "end": 3.2,
+      "start": 3.86,
+      "end": 5.74,
       "text": "They said",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -352,26 +228,26 @@
     {
       "index": 1,
       "section": "Intro – whispered fragments | distant low-frequency hum | faint static",
-      "start": 3.2,
-      "end": 6.4,
+      "start": 5.74,
+      "end": 7.92,
       "text": "there’s a limit",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
-    },
-    {
-      "index": 2,
-      "section": "Intro – whispered fragments | distant low-frequency hum | faint static",
-      "start": 10.286,
-      "end": 13.714,
-      "text": "a mass you can’t exceed",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
     {
+      "index": 2,
+      "section": "Intro – whispered fragments | distant low-frequency hum | faint static",
+      "start": 7.92,
+      "end": 13.6,
+      "text": "a mass you can’t exceed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
       "index": 3,
       "section": "Intro – whispered fragments | distant low-frequency hum | faint static",
-      "start": 13.714,
-      "end": 18.286,
+      "start": 15.6,
+      "end": 18.68,
       "text": "without becoming something else",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -379,26 +255,26 @@
     {
       "index": 4,
       "section": "Intro – whispered fragments | distant low-frequency hum | faint static",
-      "start": 18.286,
-      "end": 21.714,
+      "start": 18.68,
+      "end": 22.36,
       "text": "I didn’t know",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 5,
       "section": "Intro – whispered fragments | distant low-frequency hum | faint static",
-      "start": 22.857,
-      "end": 24.0,
+      "start": 22.76,
+      "end": 25.2,
       "text": "it could feel like this",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 5
     },
     {
       "index": 6,
       "section": "Verse 1 – minimal pulse | soft sub pressure",
-      "start": 36.0,
-      "end": 38.0,
+      "start": 35.92,
+      "end": 38.36,
       "text": "I keep adding weight to who I am",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -406,17 +282,17 @@
     {
       "index": 7,
       "section": "Verse 1 – minimal pulse | soft sub pressure",
-      "start": 38.0,
-      "end": 41.0,
+      "start": 38.36,
+      "end": 40.94,
       "text": "every proof, every second-hand plan",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 4
     },
     {
       "index": 8,
       "section": "Verse 1 – minimal pulse | soft sub pressure",
-      "start": 41.0,
-      "end": 43.0,
+      "start": 40.94,
+      "end": 43.6,
       "text": "Stacking expectations in my chest",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -424,8 +300,8 @@
     {
       "index": 9,
       "section": "Verse 1 – minimal pulse | soft sub pressure",
-      "start": 43.0,
-      "end": 46.0,
+      "start": 43.6,
+      "end": 46.22,
       "text": "approximations  I never fully test",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -433,8 +309,8 @@
     {
       "index": 10,
       "section": "Verse 1 – minimal pulse | soft sub pressure",
-      "start": 46.0,
-      "end": 49.0,
+      "start": 46.22,
+      "end": 48.8,
       "text": "They talk in numbers, quiet and precise",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -442,8 +318,8 @@
     {
       "index": 11,
       "section": "Verse 1 – minimal pulse | soft sub pressure",
-      "start": 49.0,
-      "end": 51.0,
+      "start": 48.8,
+      "end": 51.64,
       "text": "like certainty is something you can slice",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -451,8 +327,8 @@
     {
       "index": 12,
       "section": "Verse 1 – minimal pulse | soft sub pressure",
-      "start": 51.0,
-      "end": 53.0,
+      "start": 51.64,
+      "end": 53.48,
       "text": "But every measure I align",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -460,8 +336,8 @@
     {
       "index": 13,
       "section": "Verse 1 – minimal pulse | soft sub pressure",
-      "start": 53.0,
-      "end": 55.0,
+      "start": 53.48,
+      "end": 55.42,
       "text": "feels like it fractures over time",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -469,8 +345,8 @@
     {
       "index": 14,
       "section": "Verse 1 – minimal pulse | soft sub pressure",
-      "start": 55.0,
-      "end": 56.5,
+      "start": 55.42,
+      "end": 56.72,
       "text": "Not quite stable",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -478,8 +354,8 @@
     {
       "index": 15,
       "section": "Verse 1 – minimal pulse | soft sub pressure",
-      "start": 56.5,
-      "end": 58.0,
+      "start": 56.94,
+      "end": 58.02,
       "text": "not quite mine",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -487,8 +363,8 @@
     {
       "index": 16,
       "section": "Pre-Hook – arpeggio flickers | tension rising",
-      "start": 58.0,
-      "end": 59.6,
+      "start": 58.02,
+      "end": 60.02,
       "text": "Somewhere near",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -496,8 +372,8 @@
     {
       "index": 17,
       "section": "Pre-Hook – arpeggio flickers | tension rising",
-      "start": 59.6,
-      "end": 62.0,
+      "start": 60.02,
+      "end": 62.68,
       "text": "a boundary line",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -505,17 +381,17 @@
     {
       "index": 18,
       "section": "Pre-Hook – arpeggio flickers | tension rising",
-      "start": 62.0,
-      "end": 64.857,
+      "start": 62.68,
+      "end": 64.76,
       "text": "I feel the curve",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 19,
       "section": "Pre-Hook – arpeggio flickers | tension rising",
-      "start": 64.857,
-      "end": 67.0,
+      "start": 65.24,
+      "end": 67.7,
       "text": "start to redefine",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -523,17 +399,17 @@
     {
       "index": 20,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 67.455,
-      "end": 69.273,
+      "start": 67.7,
+      "end": 69.32,
       "text": "Am I past the point",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 21,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 69.273,
-      "end": 72.0,
+      "start": 69.32,
+      "end": 71.96,
       "text": "where I can hold this form?",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -541,7 +417,7 @@
     {
       "index": 22,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 72.0,
+      "start": 72.98,
       "end": 74.5,
       "text": "Where the pressure builds",
       "timing_source": "whisper-aligned",
@@ -550,17 +426,17 @@
     {
       "index": 23,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 75.125,
-      "end": 76.375,
+      "start": 74.5,
+      "end": 77.06,
       "text": "and the self deforms",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 24,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 78.0,
-      "end": 80.143,
+      "start": 78.02,
+      "end": 79.5,
       "text": "If I cross that line",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -568,8 +444,8 @@
     {
       "index": 25,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 80.143,
-      "end": 81.429,
+      "start": 79.66,
+      "end": 80.84,
       "text": "do I disappear?",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -577,8 +453,8 @@
     {
       "index": 26,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 81.429,
-      "end": 82.714,
+      "start": 80.84,
+      "end": 82.16,
       "text": "Or collapse into",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -586,8 +462,8 @@
     {
       "index": 27,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 82.714,
-      "end": 84.0,
+      "start": 82.16,
+      "end": 83.42,
       "text": "something more severe",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -595,8 +471,8 @@
     {
       "index": 28,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 84.0,
-      "end": 85.0,
+      "start": 83.96,
+      "end": 84.9,
       "text": "They call it limit",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -604,8 +480,8 @@
     {
       "index": 29,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 85.0,
-      "end": 87.0,
+      "start": 84.9,
+      "end": 87.14,
       "text": "like it’s clean and defined",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -613,8 +489,8 @@
     {
       "index": 30,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 87.0,
-      "end": 89.286,
+      "start": 87.14,
+      "end": 88.38,
       "text": "but it feels like",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -622,8 +498,8 @@
     {
       "index": 31,
       "section": "Hook – airy but strained | expanding mix",
-      "start": 89.286,
-      "end": 91.0,
+      "start": 88.38,
+      "end": 90.46,
       "text": "losing my mind",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -631,17 +507,17 @@
     {
       "index": 32,
       "section": "Verse 2 – added rhythm | glitch textures creeping in",
-      "start": 99.0,
-      "end": 102.0,
+      "start": 99.4,
+      "end": 102.2,
       "text": "Every voice says “you’re not enough”",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 33,
       "section": "Verse 2 – added rhythm | glitch textures creeping in",
-      "start": 102.0,
-      "end": 105.0,
+      "start": 102.2,
+      "end": 104.86,
       "text": "but dresses it in polished stuff",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -649,8 +525,8 @@
     {
       "index": 34,
       "section": "Verse 2 – added rhythm | glitch textures creeping in",
-      "start": 105.0,
-      "end": 107.0,
+      "start": 104.86,
+      "end": 107.44,
       "text": "Equations I don’t understand",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -658,8 +534,8 @@
     {
       "index": 35,
       "section": "Verse 2 – added rhythm | glitch textures creeping in",
-      "start": 107.0,
-      "end": 110.0,
+      "start": 107.44,
+      "end": 110.32,
       "text": "still somehow written in my hands",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -667,8 +543,8 @@
     {
       "index": 36,
       "section": "Verse 2 – added rhythm | glitch textures creeping in",
-      "start": 110.0,
-      "end": 113.0,
+      "start": 110.32,
+      "end": 112.82,
       "text": "A bright white heart, compressed and tight",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -676,8 +552,8 @@
     {
       "index": 37,
       "section": "Verse 2 – added rhythm | glitch textures creeping in",
-      "start": 113.0,
-      "end": 115.0,
+      "start": 112.82,
+      "end": 115.36,
       "text": "holding out against the night",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -685,8 +561,8 @@
     {
       "index": 38,
       "section": "Verse 2 – added rhythm | glitch textures creeping in",
-      "start": 115.0,
-      "end": 118.0,
+      "start": 115.36,
+      "end": 118.36,
       "text": "But every doubt I try to hide",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -694,17 +570,17 @@
     {
       "index": 39,
       "section": "Verse 2 – added rhythm | glitch textures creeping in",
-      "start": 118.6,
-      "end": 121.0,
+      "start": 118.36,
+      "end": 120.9,
       "text": "adds another layer deep inside",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 40,
       "section": "Verse 2 – added rhythm | glitch textures creeping in",
-      "start": 121.0,
-      "end": 123.5,
+      "start": 120.9,
+      "end": 123.32,
       "text": "I’m still standing",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -712,62 +588,62 @@
     {
       "index": 41,
       "section": "Verse 2 – added rhythm | glitch textures creeping in",
-      "start": 123.5,
-      "end": 124.333,
+      "start": 123.32,
+      "end": 126.28,
       "text": "but I bend",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 42,
-      "section": "Pre-Hook – filtered sweep | unstable rhythm",
-      "start": 126.833,
-      "end": 128.5,
-      "text": "A fragile state",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
-    },
-    {
-      "index": 43,
-      "section": "Pre-Hook – filtered sweep | unstable rhythm",
-      "start": 128.5,
-      "end": 129.333,
-      "text": "of outward calm",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 44,
-      "section": "Pre-Hook – filtered sweep | unstable rhythm",
-      "start": 129.333,
-      "end": 130.192,
-      "text": "while everything",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 45,
-      "section": "Pre-Hook – filtered sweep | unstable rhythm",
-      "start": 130.192,
-      "end": 131.909,
-      "text": "leans toward the dawn",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 46,
-      "section": "Hook – fuller | more distortion creeping",
-      "start": 131.909,
-      "end": 135.545,
-      "text": "Am I past the point",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
     {
+      "index": 42,
+      "section": "Pre-Hook – filtered sweep | unstable rhythm",
+      "start": 126.28,
+      "end": 129.2,
+      "text": "A fragile state",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "Pre-Hook – filtered sweep | unstable rhythm",
+      "start": 129.2,
+      "end": 131.84,
+      "text": "of outward calm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Pre-Hook – filtered sweep | unstable rhythm",
+      "start": 131.84,
+      "end": 134.1,
+      "text": "while everything",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 45,
+      "section": "Pre-Hook – filtered sweep | unstable rhythm",
+      "start": 134.1,
+      "end": 136.92,
+      "text": "leans toward the dawn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 46,
+      "section": "Hook – fuller | more distortion creeping",
+      "start": 136.92,
+      "end": 138.46,
+      "text": "Am I past the point",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
       "index": 47,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 135.545,
-      "end": 141.0,
+      "start": 138.46,
+      "end": 141.22,
       "text": "where I can hold this form?",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -775,8 +651,8 @@
     {
       "index": 48,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 141.0,
-      "end": 144.0,
+      "start": 142.3,
+      "end": 143.88,
       "text": "Where the pressure builds",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -784,17 +660,17 @@
     {
       "index": 49,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 144.75,
-      "end": 146.25,
+      "start": 143.88,
+      "end": 146.62,
       "text": "and the self deforms",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 50,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 147.0,
-      "end": 149.143,
+      "start": 146.62,
+      "end": 148.94,
       "text": "If I cross that line",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -802,8 +678,8 @@
     {
       "index": 51,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 149.143,
-      "end": 150.429,
+      "start": 149.02,
+      "end": 150.24,
       "text": "do I disappear?",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -811,8 +687,8 @@
     {
       "index": 52,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 150.429,
-      "end": 151.714,
+      "start": 150.24,
+      "end": 151.62,
       "text": "Or collapse into",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -820,8 +696,8 @@
     {
       "index": 53,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 151.714,
-      "end": 153.0,
+      "start": 151.62,
+      "end": 152.96,
       "text": "something more severe",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -829,8 +705,8 @@
     {
       "index": 54,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 153.0,
-      "end": 155.0,
+      "start": 153.42,
+      "end": 154.4,
       "text": "They call it limit",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -838,8 +714,8 @@
     {
       "index": 55,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 155.0,
-      "end": 157.0,
+      "start": 154.4,
+      "end": 156.7,
       "text": "like it’s just a line",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -847,8 +723,8 @@
     {
       "index": 56,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 157.0,
-      "end": 158.5,
+      "start": 156.7,
+      "end": 157.88,
       "text": "but it feels like",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -856,17 +732,17 @@
     {
       "index": 57,
       "section": "Hook – fuller | more distortion creeping",
-      "start": 158.5,
-      "end": 158.875,
+      "start": 157.88,
+      "end": 159.62,
       "text": "it’s swallowing mine",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 58,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 158.875,
-      "end": 167.0,
+      "start": 159.62,
+      "end": 164.66,
       "text": "One point four four",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -874,17 +750,17 @@
     {
       "index": 59,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 167.0,
-      "end": 170.0,
+      "start": 164.66,
+      "end": 168.82,
       "text": "they said it like a threshold",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 60,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 170.0,
-      "end": 172.0,
+      "start": 168.82,
+      "end": 170.7,
       "text": "like a warning sign",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -892,8 +768,8 @@
     {
       "index": 61,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 172.0,
-      "end": 174.222,
+      "start": 170.7,
+      "end": 173.62,
       "text": "like if I reached it",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -901,8 +777,8 @@
     {
       "index": 62,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 174.222,
-      "end": 175.556,
+      "start": 173.62,
+      "end": 175.3,
       "text": "I’d stop being…",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -910,7 +786,7 @@
     {
       "index": 63,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 175.556,
+      "start": 175.3,
       "end": 176.0,
       "text": "fine",
       "timing_source": "whisper-aligned",
@@ -920,7 +796,7 @@
       "index": 64,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
       "start": 176.0,
-      "end": 177.125,
+      "end": 177.34,
       "text": "But what happens",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -928,8 +804,8 @@
     {
       "index": 65,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 177.125,
-      "end": 179.0,
+      "start": 177.34,
+      "end": 179.56,
       "text": "to everything I carried here?",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -937,8 +813,8 @@
     {
       "index": 66,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 179.0,
-      "end": 180.714,
+      "start": 179.78,
+      "end": 180.7,
       "text": "All the small lights",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -946,8 +822,8 @@
     {
       "index": 67,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 180.714,
-      "end": 182.0,
+      "start": 180.7,
+      "end": 182.5,
       "text": "compressed into fear",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -955,8 +831,8 @@
     {
       "index": 68,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 182.0,
-      "end": 184.4,
+      "start": 182.5,
+      "end": 184.3,
       "text": "Does it disappear",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -964,8 +840,8 @@
     {
       "index": 69,
       "section": "Bridge – breakdown | heavy sub | fragmented vocal | spoken overlays",
-      "start": 184.4,
-      "end": 186.0,
+      "start": 184.3,
+      "end": 186.16,
       "text": "or ignite?",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -973,17 +849,17 @@
     {
       "index": 70,
       "section": "Verse 3 – softer, exposed | melodic but fragile",
-      "start": 188.0,
-      "end": 191.0,
+      "start": 187.74,
+      "end": 190.44,
       "text": "I start to feel the edges strain",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 71,
       "section": "Verse 3 – softer, exposed | melodic but fragile",
-      "start": 191.0,
-      "end": 194.0,
+      "start": 190.44,
+      "end": 193.4,
       "text": "the quiet shift beneath the name",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -991,8 +867,8 @@
     {
       "index": 72,
       "section": "Verse 3 – softer, exposed | melodic but fragile",
-      "start": 194.0,
-      "end": 197.0,
+      "start": 193.4,
+      "end": 196.18,
       "text": "No single self can hold the weight",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1000,8 +876,8 @@
     {
       "index": 73,
       "section": "Verse 3 – softer, exposed | melodic but fragile",
-      "start": 197.0,
-      "end": 200.0,
+      "start": 196.18,
+      "end": 199.48,
       "text": "of every doubt I fabricate",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1009,17 +885,17 @@
     {
       "index": 74,
       "section": "Verse 3 – softer, exposed | melodic but fragile",
-      "start": 200.0,
-      "end": 201.6,
+      "start": 199.48,
+      "end": 201.72,
       "text": "And maybe breaking isn’t loss",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 75,
       "section": "Verse 3 – softer, exposed | melodic but fragile",
-      "start": 202.0,
-      "end": 205.0,
+      "start": 201.72,
+      "end": 204.76,
       "text": "but just a different kind of cost",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1027,8 +903,8 @@
     {
       "index": 76,
       "section": "Verse 3 – softer, exposed | melodic but fragile",
-      "start": 205.0,
-      "end": 208.182,
+      "start": 204.76,
+      "end": 207.62,
       "text": "Where something dense and undefined",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1036,8 +912,8 @@
     {
       "index": 77,
       "section": "Verse 3 – softer, exposed | melodic but fragile",
-      "start": 208.182,
-      "end": 212.0,
+      "start": 207.62,
+      "end": 211.22,
       "text": "becomes a new state over time",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1045,26 +921,26 @@
     {
       "index": 78,
       "section": "Verse 3 – softer, exposed | melodic but fragile",
-      "start": 212.857,
-      "end": 213.714,
+      "start": 211.36,
+      "end": 213.84,
       "text": "Not an ending",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 79,
       "section": "Verse 3 – softer, exposed | melodic but fragile",
-      "start": 213.714,
-      "end": 217.143,
+      "start": 213.84,
+      "end": 217.62,
       "text": "just a change in kind",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 80,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 227.0,
-      "end": 229.273,
+      "start": 226.75,
+      "end": 228.82,
       "text": "If I pass the point",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1072,8 +948,8 @@
     {
       "index": 81,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 229.273,
-      "end": 232.0,
+      "start": 228.82,
+      "end": 231.46,
       "text": "where I can’t stay the same",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1081,8 +957,8 @@
     {
       "index": 82,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 232.0,
-      "end": 235.0,
+      "start": 231.46,
+      "end": 234.3,
       "text": "and the pressure burns",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1090,8 +966,8 @@
     {
       "index": 83,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 235.0,
-      "end": 238.0,
+      "start": 234.3,
+      "end": 237.64,
       "text": "through the fragile frame",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1099,8 +975,8 @@
     {
       "index": 84,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 238.0,
-      "end": 239.5,
+      "start": 237.64,
+      "end": 239.6,
       "text": "Maybe what I lose",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1108,8 +984,8 @@
     {
       "index": 85,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 239.5,
-      "end": 241.0,
+      "start": 239.6,
+      "end": 240.94,
       "text": "is what I outgrew",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1117,8 +993,8 @@
     {
       "index": 86,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 241.0,
-      "end": 242.286,
+      "start": 240.94,
+      "end": 242.2,
       "text": "and the collapse",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1126,8 +1002,8 @@
     {
       "index": 87,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 242.286,
-      "end": 244.0,
+      "start": 242.2,
+      "end": 243.88,
       "text": "is just breaking through",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1135,8 +1011,8 @@
     {
       "index": 88,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 244.0,
-      "end": 246.0,
+      "start": 243.88,
+      "end": 245.26,
       "text": "They call it limit",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1144,8 +1020,8 @@
     {
       "index": 89,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 246.0,
-      "end": 248.0,
+      "start": 245.26,
+      "end": 247.66,
       "text": "but it might be a door",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1153,17 +1029,17 @@
     {
       "index": 90,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 248.6,
-      "end": 249.8,
+      "start": 247.66,
+      "end": 249.02,
       "text": "to something I",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 91,
       "section": "Final Hook – expansive | layered vocals | subtle release",
-      "start": 249.8,
-      "end": 251.0,
+      "start": 249.02,
+      "end": 250.56,
       "text": "wasn’t before",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1171,8 +1047,8 @@
     {
       "index": 92,
       "section": "Outro – ambient drift | dissolving textures | faint harmonic glow",
-      "start": 251.0,
-      "end": 252.333,
+      "start": 250.56,
+      "end": 252.52,
       "text": "Somewhere beyond",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1180,26 +1056,26 @@
     {
       "index": 93,
       "section": "Outro – ambient drift | dissolving textures | faint harmonic glow",
-      "start": 252.333,
-      "end": 255.0,
+      "start": 252.52,
+      "end": 255.06,
       "text": "the weight I hold",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 94,
       "section": "Outro – ambient drift | dissolving textures | faint harmonic glow",
-      "start": 255.0,
-      "end": 257.25,
+      "start": 255.06,
+      "end": 257.82,
       "text": "there’s a quiet law",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 95,
       "section": "Outro – ambient drift | dissolving textures | faint harmonic glow",
-      "start": 258.0,
-      "end": 262.0,
+      "start": 257.82,
+      "end": 260.46,
       "text": "I didn’t know",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1207,8 +1083,8 @@
     {
       "index": 96,
       "section": "Outro – ambient drift | dissolving textures | faint harmonic glow",
-      "start": 262.0,
-      "end": 265.0,
+      "start": 262.42,
+      "end": 263.56,
       "text": "Not failure",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1216,8 +1092,8 @@
     {
       "index": 97,
       "section": "Outro – ambient drift | dissolving textures | faint harmonic glow",
-      "start": 265.0,
-      "end": 268.0,
+      "start": 263.56,
+      "end": 266.32,
       "text": "transformation",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1225,8 +1101,8 @@
     {
       "index": 98,
       "section": "Outro – ambient drift | dissolving textures | faint harmonic glow",
-      "start": 268.0,
-      "end": 269.0,
+      "start": 266.32,
+      "end": 268.32,
       "text": "written",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1234,17 +1110,17 @@
     {
       "index": 99,
       "section": "Outro – ambient drift | dissolving textures | faint harmonic glow",
-      "start": 270.0,
-      "end": 271.0,
+      "start": 268.32,
+      "end": 269.82,
       "text": "in pressure",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 100,
       "section": "Outro – ambient drift | dissolving textures | faint harmonic glow",
-      "start": 271.0,
-      "end": 275.0,
+      "start": 269.82,
+      "end": 272.58,
       "text": "and constellation",
       "timing_source": "whisper-aligned",
       "matched_words": 2

@@ -4,219 +4,230 @@
   "title": "The Other Side",
   "text_path": "Residual Instabilities/10 - The Other Side.txt",
   "audio_path": "Residual Instabilities/audio/10 - The Other Side.mp3",
-  "duration_seconds": 275.0,
-  "model": "base",
+  "duration_seconds": 288.74,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 67,
     "reference_word_count": 337,
-    "observed_word_count": 350,
-    "matched_word_count": 275,
-    "matched_word_ratio": 0.816,
-    "inserted_adlib_count": 0
+    "observed_word_count": 321,
+    "matched_word_count": 288,
+    "matched_word_ratio": 0.855,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 26.0,
-      "text": "I keep one face toward the light calculated always right"
+      "start": 11.2,
+      "end": 12.16,
+      "text": "music"
     },
     {
-      "start": 26.0,
-      "end": 37.0,
-      "text": "The title pull has locked me still held in place against my will"
+      "start": 12.16,
+      "end": 25.64,
+      "text": "i keep one face toward the light calculated always right"
     },
     {
-      "start": 37.0,
-      "end": 43.0,
-      "text": "Measured glow careful show surface calm but never slow"
+      "start": 25.64,
+      "end": 34.64,
+      "text": "tidal pull has locked me still held in place against my will"
     },
     {
-      "start": 43.0,
-      "end": 49.0,
-      "text": "Every motion predefined to a line with watching eyes"
+      "start": 37.28,
+      "end": 42.66,
+      "text": "measured glow careful show surface calm but never slow"
     },
     {
-      "start": 49.0,
-      "end": 54.0,
-      "text": "They map me like a satellite trace my edges chart my night"
+      "start": 42.66,
+      "end": 48.7,
+      "text": "every motion predefined to align with watching eyes"
     },
     {
-      "start": 54.0,
-      "end": 66.0,
-      "text": "What they see is only one half truth beneath the sun I rotate without turning inside"
+      "start": 48.7,
+      "end": 53.94,
+      "text": "they map me like a satellite trace my edges chart my night"
     },
     {
-      "start": 66.0,
-      "end": 73.0,
-      "text": "The other side"
+      "start": 53.94,
+      "end": 59.28,
+      "text": "what they see is only one half a truth beneath the sun"
     },
     {
-      "start": 73.0,
+      "start": 59.28,
+      "end": 67.94,
+      "text": "i rotate without turning inside the other side"
+    },
+    {
+      "start": 72.6,
       "end": 79.0,
-      "text": "Gravity writes through my spine equations etched in borrowed time"
+      "text": "gravity writes through my spine equations etched in borrowed time"
     },
     {
       "start": 79.0,
-      "end": 84.0,
-      "text": "You're what they need to find predictable precise lines"
+      "end": 84.38,
+      "text": "i mirror what they need to find predictable precise lines"
     },
     {
-      "start": 84.0,
-      "end": 89.0,
-      "text": "Spectral lines they think they read don't reveal what I can see"
+      "start": 84.38,
+      "end": 89.76,
+      "text": "spectral lines they think they read don't reveal what i can see"
     },
     {
-      "start": 89.0,
-      "end": 94.0,
-      "text": "It all their models fall apart near the margins of my chart"
+      "start": 89.76,
+      "end": 94.46,
+      "text": "all their models fall apart near the margins of my chart"
     },
     {
-      "start": 94.0,
-      "end": 100.0,
-      "text": "They send their probes they call it care skimming through my outer air"
+      "start": 94.46,
+      "end": 97.64,
+      "text": "they send their probes they call it care"
     },
     {
-      "start": 100.0,
-      "end": 106.0,
-      "text": "Collecting fragments fleeting data never reaching what comes later"
+      "start": 97.64,
+      "end": 101.88,
+      "text": "skimming through my outer air collecting fragments"
     },
     {
-      "start": 106.0,
-      "end": 124.0,
-      "text": "Peripary abscess too close to why the other side"
+      "start": 101.88,
+      "end": 106.28,
+      "text": "fleeting data never reaching what comes later"
     },
     {
-      "start": 124.0,
-      "end": 129.0,
-      "text": "For a bit hiding's pressure climbs face shifts the pain out of time"
+      "start": 106.28,
+      "end": 113.28,
+      "text": "periapsis too close too wide the other side"
     },
     {
-      "start": 129.0,
-      "end": 135.0,
-      "text": "Every input overlay no subtraction nothing things"
+      "start": 123.28,
+      "end": 129.28,
+      "text": "orbit heightens pressure climbs phase shifts slipping out of time"
     },
     {
-      "start": 135.0,
-      "end": 140.0,
-      "text": "So learn wins against my skin too much signal flooding in"
+      "start": 129.6,
+      "end": 135.6,
+      "text": "every input overlaid no subtraction nothing fades"
     },
     {
-      "start": 140.0,
-      "end": 146.0,
-      "text": "I fracture at the seams they trust composition turns the best"
+      "start": 135.6,
+      "end": 140.5,
+      "text": "solar winds against my skin too much signal flooding in"
     },
     {
-      "start": 146.0,
-      "end": 152.0,
-      "text": "They attempt to close a pass but trajectories don't last"
+      "start": 140.5,
+      "end": 146.46,
+      "text": "i fracture at the seams they trust composition turns to dust"
     },
     {
-      "start": 152.0,
-      "end": 160.0,
-      "text": "He even distance into fear nothing stable can draw near a burning arc"
+      "start": 146.46,
+      "end": 152.24,
+      "text": "they attempt to close her past but trajectories don't last"
     },
     {
-      "start": 160.0,
-      "end": 174.0,
-      "text": "A failed glide the other side"
+      "start": 152.24,
+      "end": 158.02,
+      "text": "even distance interfere nothing stable can draw near"
     },
     {
-      "start": 175.0,
-      "end": 187.0,
-      "text": "Too bright too much too near"
+      "start": 158.02,
+      "end": 168.96,
+      "text": "a burning arc a failed glide the other side"
     },
     {
-      "start": 187.0,
-      "end": 192.0,
-      "text": "All of it there's collapse at once no stable frame to hold response"
+      "start": 173.92,
+      "end": 186.5,
+      "text": "too bright too much too near"
     },
     {
-      "start": 192.0,
-      "end": 198.0,
-      "text": "I break the lock but not by choice distortion tearing through my voice days"
+      "start": 186.5,
+      "end": 198.88,
+      "text": "all vectors collapse at once no stable frame to hold response"
     },
     {
-      "start": 198.0,
-      "end": 204.0,
-      "text": "Even the flare they turn away no instrument be prepared to stay"
+      "start": 198.88,
+      "end": 204.44,
+      "text": "the flare they turn away no instrument prepared to stay"
     },
     {
-      "start": 204.0,
-      "end": 216.0,
-      "text": "Just a flash of data spike miss interpreted as I know nothing here no place to buy"
+      "start": 204.44,
+      "end": 209.9,
+      "text": "just a flash of data spike misinterpreted as a light"
     },
     {
-      "start": 216.0,
-      "end": 230.0,
-      "text": "The other side"
+      "start": 209.9,
+      "end": 218.88,
+      "text": "no landing here no place to bind the other side"
     },
     {
-      "start": 230.0,
-      "end": 236.0,
-      "text": "Now I drift but still I'm bound no full rotation never found one face"
+      "start": 229.44,
+      "end": 236.46,
+      "text": "now i drift but still unbound no full rotation never found one face"
     },
     {
-      "start": 236.0,
-      "end": 242.0,
-      "text": "No one always missed a constant half that can't exist no right papers"
+      "start": 236.46,
+      "end": 241.22,
+      "text": "no one always missed a constant half that can't exist"
     },
     {
-      "start": 242.0,
-      "end": 249.0,
-      "text": "The speculator proximate but never stayed what remains beyond their sight"
+      "start": 241.22,
+      "end": 246.26,
+      "text": "they'll write paper speculate approximate but never stayed"
     },
     {
-      "start": 249.0,
-      "end": 261.0,
-      "text": "Is not absence just no light I am a whole but split by design"
+      "start": 246.26,
+      "end": 254.88,
+      "text": "what remains beyond their sight is not absence just no light"
     },
     {
-      "start": 261.0,
-      "end": 272.0,
-      "text": "A hidden half that won't align no more that breaks no past collide"
+      "start": 254.88,
+      "end": 265.68,
+      "text": "i am old but split by design a hidden half that won't align"
     },
     {
-      "start": 272.0,
-      "end": 275.0,
-      "text": "The other side"
+      "start": 265.68,
+      "end": 274.88,
+      "text": "no orbit breaks no paths collide the other side"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 0.0,
-      "end": 7.8,
+      "start": 12.16,
+      "end": 20.06,
       "text": "I keep one face toward the light",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 1,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 7.8,
-      "end": 26.0,
+      "start": 20.6,
+      "end": 23.04,
       "text": "calculated, always right",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 2,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 27.692,
-      "end": 31.923,
+      "start": 26.22,
+      "end": 28.7,
       "text": "tidal pull has locked me still",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 3,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 31.923,
-      "end": 37.0,
+      "start": 28.7,
+      "end": 34.28,
       "text": "held in place against my will",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -224,8 +235,8 @@
     {
       "index": 4,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 37.0,
-      "end": 39.667,
+      "start": 37.68,
+      "end": 39.54,
       "text": "Measured glow, a careful show",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -233,8 +244,8 @@
     {
       "index": 5,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 39.667,
-      "end": 43.0,
+      "start": 40.02,
+      "end": 42.44,
       "text": "surface calm, but never slow",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -242,8 +253,8 @@
     {
       "index": 6,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 43.0,
-      "end": 44.333,
+      "start": 42.66,
+      "end": 43.94,
       "text": "Every motion pre-defined",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -251,17 +262,17 @@
     {
       "index": 7,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 45.0,
-      "end": 49.0,
+      "start": 45.16,
+      "end": 48.66,
       "text": "to align with watching eyes",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 8,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 49.0,
-      "end": 51.5,
+      "start": 48.7,
+      "end": 50.44,
       "text": "They map me like a satellite",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -269,8 +280,8 @@
     {
       "index": 9,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 51.5,
-      "end": 54.0,
+      "start": 51.24,
+      "end": 53.58,
       "text": "trace my edges, chart my night",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -278,8 +289,8 @@
     {
       "index": 10,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 54.0,
-      "end": 58.5,
+      "start": 54.24,
+      "end": 56.6,
       "text": "but what they see is only one",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -287,17 +298,17 @@
     {
       "index": 11,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 58.5,
-      "end": 62.25,
+      "start": 56.6,
+      "end": 59.18,
       "text": "half a truth beneath the sun",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 12,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 62.25,
-      "end": 66.0,
+      "start": 59.28,
+      "end": 62.78,
       "text": "I rotate without turning inside",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -305,8 +316,8 @@
     {
       "index": 13,
       "section": "Section I – distant hum | high orbital tones | restrained pulse",
-      "start": 66.0,
-      "end": 68.333,
+      "start": 62.78,
+      "end": 66.66,
       "text": "the other side",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -314,8 +325,8 @@
     {
       "index": 14,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 73.0,
-      "end": 76.0,
+      "start": 73.24,
+      "end": 76.02,
       "text": "Gravity writes through my spine",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -323,8 +334,8 @@
     {
       "index": 15,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 76.0,
-      "end": 79.0,
+      "start": 76.14,
+      "end": 78.88,
       "text": "equations etched in borrowed time",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -332,17 +343,17 @@
     {
       "index": 16,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 79.556,
-      "end": 82.333,
+      "start": 79.1,
+      "end": 81.06,
       "text": "I mirror what they need to find",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 17,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 82.333,
-      "end": 83.444,
+      "start": 81.24,
+      "end": 82.92,
       "text": "predictable, precise, aligned",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -350,8 +361,8 @@
     {
       "index": 18,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 84.0,
-      "end": 86.5,
+      "start": 84.38,
+      "end": 86.9,
       "text": "Spectral lines they think they read",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -359,8 +370,8 @@
     {
       "index": 19,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 86.5,
-      "end": 88.167,
+      "start": 87.06,
+      "end": 88.78,
       "text": "don’t reveal what I concede",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -368,8 +379,8 @@
     {
       "index": 20,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 89.417,
-      "end": 91.5,
+      "start": 89.76,
+      "end": 92.14,
       "text": "All their models fall apart",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -377,8 +388,8 @@
     {
       "index": 21,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 91.5,
-      "end": 94.0,
+      "start": 92.14,
+      "end": 94.44,
       "text": "near the margins of my chart",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -386,8 +397,8 @@
     {
       "index": 22,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 94.0,
-      "end": 97.692,
+      "start": 94.46,
+      "end": 97.44,
       "text": "They send their probes, they call it care",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -395,8 +406,8 @@
     {
       "index": 23,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 97.692,
-      "end": 100.0,
+      "start": 97.64,
+      "end": 99.98,
       "text": "skimming through my outer air",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -404,8 +415,8 @@
     {
       "index": 24,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 100.0,
-      "end": 102.667,
+      "start": 100.12,
+      "end": 103.1,
       "text": "Collecting fragments, fleeting data",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -413,8 +424,8 @@
     {
       "index": 25,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 102.667,
-      "end": 106.0,
+      "start": 103.44,
+      "end": 106.1,
       "text": "never reaching what comes later",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -422,71 +433,71 @@
     {
       "index": 26,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 110.0,
-      "end": 114.0,
+      "start": 106.78,
+      "end": 110.36,
       "text": "Periapsis—too close, too wide",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 5
     },
     {
       "index": 27,
       "section": "Section II – beat enters | sharper transients | layered signals",
-      "start": 118.0,
-      "end": 122.0,
+      "start": 111.0,
+      "end": 112.92,
       "text": "the other side",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 28,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 125.538,
-      "end": 126.308,
+      "start": 123.42,
+      "end": 126.3,
       "text": "Orbit tightens, pressure climbs",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 29,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 127.846,
-      "end": 129.0,
+      "start": 126.48,
+      "end": 129.1,
       "text": "phase shift slipping out of time",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 30,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 129.0,
-      "end": 130.714,
+      "start": 130.28,
+      "end": 131.84,
       "text": "Every input overlaid",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 31,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 131.571,
-      "end": 134.143,
+      "start": 131.98,
+      "end": 135.04,
       "text": "no subtraction, nothing fades",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 32,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 136.364,
-      "end": 137.727,
+      "start": 135.84,
+      "end": 137.64,
       "text": "Solar winds against my skin",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 33,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 137.727,
-      "end": 140.0,
+      "start": 137.88,
+      "end": 140.48,
       "text": "too much signal flooding in",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -494,8 +505,8 @@
     {
       "index": 34,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 140.0,
-      "end": 143.818,
+      "start": 140.5,
+      "end": 143.4,
       "text": "I fracture at the seams they trust",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -503,26 +514,26 @@
     {
       "index": 35,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 143.818,
-      "end": 144.909,
+      "start": 143.76,
+      "end": 146.34,
       "text": "composition turns to dust",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
-    },
-    {
-      "index": 36,
-      "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 146.0,
-      "end": 149.6,
-      "text": "They attempt a closer pass",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
     {
+      "index": 36,
+      "section": "Section III – unstable rhythm | glitching textures | pressure building",
+      "start": 146.68,
+      "end": 147.7,
+      "text": "They attempt a closer pass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
       "index": 37,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 149.6,
-      "end": 152.0,
+      "start": 149.22,
+      "end": 152.02,
       "text": "but trajectories don’t last",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -530,17 +541,17 @@
     {
       "index": 38,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 153.231,
-      "end": 153.846,
+      "start": 153.04,
+      "end": 154.74,
       "text": "Heat and distance interfere",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 39,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 155.077,
-      "end": 158.154,
+      "start": 154.96,
+      "end": 157.84,
       "text": "nothing stable can draw near",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -548,35 +559,35 @@
     {
       "index": 40,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 158.154,
-      "end": 164.667,
+      "start": 158.02,
+      "end": 162.24,
       "text": "A burning arc, a failed glide",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 41,
       "section": "Section III – unstable rhythm | glitching textures | pressure building",
-      "start": 167.0,
-      "end": 169.333,
+      "start": 162.82,
+      "end": 164.34,
       "text": "the other side",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 42,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 175.0,
-      "end": 179.0,
+      "start": 173.92,
+      "end": 186.5,
       "text": "—too bright",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 43,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 179.0,
-      "end": 183.0,
+      "start": 186.5,
+      "end": 186.6,
       "text": "—too much",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -584,8 +595,8 @@
     {
       "index": 44,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 183.0,
-      "end": 187.0,
+      "start": 186.6,
+      "end": 186.7,
       "text": "—too near",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -593,17 +604,17 @@
     {
       "index": 45,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 187.0,
-      "end": 189.692,
+      "start": 186.7,
+      "end": 189.4,
       "text": "All vectors collapse at once",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 46,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 189.692,
-      "end": 192.0,
+      "start": 189.4,
+      "end": 192.3,
       "text": "no stable frame to hold response",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -611,26 +622,26 @@
     {
       "index": 47,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 192.0,
-      "end": 195.429,
+      "start": 192.3,
+      "end": 196.595,
       "text": "I break the lock, but not by choice",
-      "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "timing_source": "interpolated",
+      "matched_words": 0
     },
     {
       "index": 48,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 195.429,
-      "end": 197.571,
+      "start": 196.595,
+      "end": 199.28,
       "text": "distortion tearing through my voice",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "timing_source": "interpolated",
+      "matched_words": 0
     },
     {
       "index": 49,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 198.5,
-      "end": 201.0,
+      "start": 199.28,
+      "end": 200.94,
       "text": "They see the flare, they turn away",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -638,8 +649,8 @@
     {
       "index": 50,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 201.0,
-      "end": 204.0,
+      "start": 201.06,
+      "end": 204.02,
       "text": "no instrument prepared to stay",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -647,8 +658,8 @@
     {
       "index": 51,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 204.0,
-      "end": 208.235,
+      "start": 204.44,
+      "end": 206.94,
       "text": "Just a flash, a data spike",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -656,44 +667,44 @@
     {
       "index": 52,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 209.647,
-      "end": 210.353,
+      "start": 206.96,
+      "end": 209.22,
       "text": "misinterpreted as alike",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 53,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 212.471,
-      "end": 215.294,
+      "start": 209.9,
+      "end": 213.58,
       "text": "No landing here, no place to bide",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 54,
       "section": "Section IV – breakdown | bass swell | fragmented vocal | meltdown passage",
-      "start": 216.0,
-      "end": 220.667,
+      "start": 214.78,
+      "end": 218.28,
       "text": "the other side",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 55,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 230.0,
-      "end": 233.0,
+      "start": 229.44,
+      "end": 236.46,
       "text": "Now I drift but still I’m bound",
-      "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 56,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 233.0,
-      "end": 235.143,
+      "start": 236.46,
+      "end": 236.56,
       "text": "no full rotation ever found",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -701,8 +712,8 @@
     {
       "index": 57,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 235.143,
-      "end": 237.846,
+      "start": 236.56,
+      "end": 238.1,
       "text": "One face known, one always missed",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -710,8 +721,8 @@
     {
       "index": 58,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 237.846,
-      "end": 240.615,
+      "start": 238.1,
+      "end": 240.92,
       "text": "a constant half that can’t exist",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -719,26 +730,26 @@
     {
       "index": 59,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 241.538,
-      "end": 242.0,
+      "start": 241.22,
+      "end": 243.02,
       "text": "They’ll write papers, speculate",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 60,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 243.909,
-      "end": 245.182,
+      "start": 243.42,
+      "end": 245.54,
       "text": "approximate but never state",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 61,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 245.818,
-      "end": 249.0,
+      "start": 246.3,
+      "end": 249.02,
       "text": "what remains beyond their sight",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -746,8 +757,8 @@
     {
       "index": 62,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 249.0,
-      "end": 254.143,
+      "start": 249.02,
+      "end": 253.84,
       "text": "is not absence—just no light",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -755,17 +766,17 @@
     {
       "index": 63,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 254.143,
-      "end": 261.0,
+      "start": 255.14,
+      "end": 259.64,
       "text": "I am whole, but split by design",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 64,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 261.0,
-      "end": 266.077,
+      "start": 259.64,
+      "end": 265.42,
       "text": "a hidden half that won’t align",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -773,20 +784,20 @@
     {
       "index": 65,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 266.077,
-      "end": 272.0,
+      "start": 265.68,
+      "end": 269.06,
       "text": "No orbit breaks, no paths collide",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 66,
       "section": "Section V – suspended tones | wide reverb | unresolved harmony",
-      "start": 272.0,
-      "end": 275.0,
+      "start": 270.5,
+      "end": 274.12,
       "text": "the other side",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     }
   ]
 }

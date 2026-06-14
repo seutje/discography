@@ -4,483 +4,329 @@
   "title": "Just Shifted",
   "text_path": "Residual Instabilities/03 - Just Shifted.txt",
   "audio_path": "Residual Instabilities/audio/03 - Just Shifted.mp3",
-  "duration_seconds": 266.0,
-  "model": "base",
+  "duration_seconds": 264.34,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 89,
     "reference_word_count": 364,
-    "observed_word_count": 382,
-    "matched_word_count": 288,
-    "matched_word_ratio": 0.791,
-    "inserted_adlib_count": 0
+    "observed_word_count": 363,
+    "matched_word_count": 352,
+    "matched_word_ratio": 0.967,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 20.0,
-      "text": "They say I'm sharp, like I cut through things, but I just see where it thins."
+      "start": 2.44,
+      "end": 8.64,
+      "text": "they say i'm sharp like i cut through things"
     },
     {
-      "start": 20.0,
-      "end": 28.0,
-      "text": "Conversations drift so slow."
+      "start": 10.56,
+      "end": 23.48,
+      "text": "but i just see where it ends conversations drift so slow"
     },
     {
-      "start": 28.0,
-      "end": 34.0,
-      "text": "I stretch the light I used to know."
+      "start": 26.94,
+      "end": 36.3,
+      "text": "like stretched light i used to know they're debating contracts megabytes"
     },
     {
-      "start": 34.0,
-      "end": 38.0,
-      "text": "They're debating contracts, megabytes, data caps and monthly rights."
+      "start": 36.3,
+      "end": 40.74,
+      "text": "data caps and monthly writes i'm tracing how the carriers bend"
     },
     {
-      "start": 38.0,
-      "end": 43.0,
-      "text": "I'm tracing how the carrier's bend fields that never really end."
+      "start": 40.74,
+      "end": 45.04,
+      "text": "fields that never really end phase alignment error rates"
     },
     {
-      "start": 43.0,
-      "end": 47.0,
-      "text": "The phase alignment error rates, latency through vacuum states."
+      "start": 45.04,
+      "end": 49.24,
+      "text": "latency through vacuum states you call it signal i call it strain"
     },
     {
-      "start": 47.0,
-      "end": 52.0,
-      "text": "You call it signal, I call it strain of waves collapsing into frame."
+      "start": 49.24,
+      "end": 55.84,
+      "text": "of waves collapsing into frame you hear convenience i hear the cost of"
     },
     {
-      "start": 52.0,
-      "end": 54.0,
-      "text": "You hear convenience."
+      "start": 55.84,
+      "end": 59.7,
+      "text": "distance dressed up as loss"
     },
     {
-      "start": 54.0,
-      "end": 58.0,
-      "text": "I hear the cost of distance."
+      "start": 59.7,
+      "end": 67.38,
+      "text": "everything they say feels redshifted pulled away elongated gifted"
     },
     {
-      "start": 58.0,
-      "end": 60.0,
-      "text": "Dressed up as loss."
+      "start": 67.92,
+      "end": 73.64,
+      "text": "not wrong just shifted"
     },
     {
-      "start": 60.0,
-      "end": 64.0,
-      "text": "Everything they say feels redshifted."
+      "start": 76.14,
+      "end": 79.96,
+      "text": "i'm just shifted further up the scale"
     },
     {
-      "start": 64.0,
-      "end": 68.0,
-      "text": "Pulled away elongated gifted."
+      "start": 80.52,
+      "end": 85.02,
+      "text": "where their meaning stretches thin mine compresses into detail"
     },
     {
-      "start": 68.0,
-      "end": 72.0,
-      "text": "Not wrong."
+      "start": 85.02,
+      "end": 88.48,
+      "text": "they think i'm ahead i think they're dragged behind"
     },
     {
-      "start": 72.0,
-      "end": 76.0,
-      "text": "Just shifted."
+      "start": 88.48,
+      "end": 92.84,
+      "text": "same light leaving different mouths just differently aligned"
     },
     {
-      "start": 76.0,
-      "end": 80.0,
-      "text": "I'm just shifted further up the scale."
+      "start": 102.14,
+      "end": 106.68,
+      "text": "they explain their plans out loud i'm at probability clouds"
     },
     {
-      "start": 80.0,
-      "end": 85.0,
-      "text": "Where their meanings stretch is thin, mine compresses into detail."
+      "start": 106.68,
+      "end": 110.88,
+      "text": "they name outcomes fixed and clean i see branching in between"
     },
     {
-      "start": 85.0,
-      "end": 87.0,
-      "text": "They think I'm ahead."
+      "start": 110.88,
+      "end": 115.08,
+      "text": "entropy in every choice thermal drift inside their voice"
     },
     {
-      "start": 87.0,
-      "end": 89.0,
-      "text": "I think the drag behind."
+      "start": 115.08,
+      "end": 119.36,
+      "text": "you call it simple i call it coarse resolution lost to force"
     },
     {
-      "start": 89.0,
-      "end": 91.0,
-      "text": "Same light leaving different miles."
+      "start": 119.36,
+      "end": 124.26,
+      "text": "they laugh at things i can't ignore missing layers underneath the floor not"
     },
     {
-      "start": 91.0,
-      "end": 93.0,
-      "text": "Just differently align."
+      "start": 124.26,
+      "end": 128.22,
+      "text": "deeper just dense"
     },
     {
-      "start": 93.0,
-      "end": 104.0,
-      "text": "I explain the plans out loud."
+      "start": 128.8,
+      "end": 136.16,
+      "text": "every word they send is widening energy drops while time is sliding"
     },
     {
-      "start": 104.0,
-      "end": 107.0,
-      "text": "I'm out probability clouds."
+      "start": 136.16,
+      "end": 142.22,
+      "text": "still true just shifted"
     },
     {
-      "start": 107.0,
-      "end": 111.0,
-      "text": "I see branching in between."
+      "start": 144.68,
+      "end": 148.2,
+      "text": "i'm just shifted higher frequency"
     },
     {
-      "start": 111.0,
-      "end": 113.0,
-      "text": "And trippy in every choice."
+      "start": 149.1,
+      "end": 152.98,
+      "text": "where their colors fade to red mine burn into intensity"
     },
     {
-      "start": 113.0,
-      "end": 115.0,
-      "text": "Thermal drift and cider voice."
+      "start": 152.98,
+      "end": 157.12,
+      "text": "they say i'm too much i say they're too wide"
     },
     {
-      "start": 115.0,
-      "end": 117.0,
-      "text": "You call it simple, I call it course."
+      "start": 157.12,
+      "end": 161.48,
+      "text": "same stars seen at different speeds from opposite sides"
     },
     {
-      "start": 117.0,
-      "end": 119.0,
-      "text": "Resolution lost to force."
+      "start": 164.16,
+      "end": 170.98,
+      "text": "i wasn't made for this bandwidth everything here"
     },
     {
-      "start": 119.0,
-      "end": 121.0,
-      "text": "They laugh at things I can't ignore."
+      "start": 171.86,
+      "end": 176.58,
+      "text": "arrives diluted not incorrect just displaced"
     },
     {
-      "start": 121.0,
-      "end": 124.0,
-      "text": "Missing layers underneath the floor."
+      "start": 178.34,
+      "end": 184.4,
+      "text": "what if clarity isn't brilliance but compression"
     },
     {
-      "start": 124.0,
-      "end": 127.0,
-      "text": "Not deeper."
+      "start": 187.62,
+      "end": 191.42,
+      "text": "what if i'm not ahead just shifted"
     },
     {
-      "start": 127.0,
-      "end": 129.0,
-      "text": "Just dance."
+      "start": 206.76,
+      "end": 211.68,
+      "text": "i slow myself to meet their frame bleed my edges damp the gain"
     },
     {
-      "start": 129.0,
-      "end": 133.0,
-      "text": "Every word they send is widening."
+      "start": 211.68,
+      "end": 215.84,
+      "text": "trade precision for the flow lower where they seem to go"
     },
     {
-      "start": 133.0,
-      "end": 136.0,
-      "text": "Energy drops while time is sliding."
+      "start": 215.84,
+      "end": 220.12,
+      "text": "but every time i settle in i feel the stretching start again"
     },
     {
-      "start": 136.0,
-      "end": 140.0,
-      "text": "Still true."
+      "start": 220.12,
+      "end": 224.5,
+      "text": "like gravity i can't escape pulling form out of my shape"
     },
     {
-      "start": 140.0,
-      "end": 144.0,
-      "text": "Just shifted."
+      "start": 224.5,
+      "end": 225.7,
+      "text": "not alone"
     },
     {
-      "start": 144.0,
-      "end": 146.0,
-      "text": "I'm just shifted."
+      "start": 228.44,
+      "end": 234.34,
+      "text": "just shifted i'm just shifted"
     },
     {
-      "start": 146.0,
-      "end": 148.0,
-      "text": "Higher frequency."
+      "start": 234.34,
+      "end": 238.8,
+      "text": "not above not below same spectrum we all belong"
     },
     {
-      "start": 148.0,
-      "end": 153.0,
-      "text": "Where their colors fade to red, mine burn into intensity."
+      "start": 238.8,
+      "end": 242.86,
+      "text": "to just a different place to glow they think i'm distant"
     },
     {
-      "start": 153.0,
-      "end": 155.0,
-      "text": "They say I'm too much."
+      "start": 243.38,
+      "end": 247.46,
+      "text": "i think they're dimmed same signal crossing different curves"
     },
     {
-      "start": 155.0,
-      "end": 157.0,
-      "text": "I say they're too wide."
+      "start": 247.46,
+      "end": 251.46,
+      "text": "of space we're living in not smarter"
     },
     {
-      "start": 157.0,
-      "end": 165.0,
-      "text": "Same star seen at different speeds from opposite sides."
+      "start": 252.34,
+      "end": 255.68,
+      "text": "just tighter not clearer"
     },
     {
-      "start": 165.0,
-      "end": 169.0,
-      "text": "I wasn't made for this band with."
+      "start": 256.66,
+      "end": 259.98,
+      "text": "just brighter same light"
     },
     {
-      "start": 169.0,
-      "end": 174.0,
-      "text": "Everything here arrives diluted."
-    },
-    {
-      "start": 174.0,
-      "end": 178.0,
-      "text": "Not incorrect, just displaced."
-    },
-    {
-      "start": 178.0,
-      "end": 183.0,
-      "text": "What if clarity isn't brilliance?"
-    },
-    {
-      "start": 183.0,
-      "end": 187.0,
-      "text": "A compression."
-    },
-    {
-      "start": 187.0,
-      "end": 190.0,
-      "text": "What if I'm not ahead?"
-    },
-    {
-      "start": 190.0,
-      "end": 194.0,
-      "text": "Just shifted."
-    },
-    {
-      "start": 194.0,
-      "end": 201.0,
-      "text": "I slow myself to meet their frame."
-    },
-    {
-      "start": 201.0,
-      "end": 202.0,
-      "text": "Read my edges."
-    },
-    {
-      "start": 202.0,
-      "end": 203.0,
-      "text": "Tamp the game."
-    },
-    {
-      "start": 203.0,
-      "end": 205.0,
-      "text": "Trade precision for the flow."
-    },
-    {
-      "start": 205.0,
-      "end": 207.0,
-      "text": "Lower where they seem to go."
-    },
-    {
-      "start": 207.0,
-      "end": 210.0,
-      "text": "But every time I settle in, I feel the stretching."
-    },
-    {
-      "start": 210.0,
-      "end": 212.0,
-      "text": "Start again like gravity."
-    },
-    {
-      "start": 212.0,
-      "end": 216.0,
-      "text": "I can't escape pulling form out of my body."
-    },
-    {
-      "start": 216.0,
-      "end": 218.0,
-      "text": "I slow myself to meet their frame."
-    },
-    {
-      "start": 218.0,
-      "end": 219.0,
-      "text": "Read my edges."
-    },
-    {
-      "start": 219.0,
-      "end": 220.0,
-      "text": "Tamp the game."
-    },
-    {
-      "start": 220.0,
-      "end": 222.0,
-      "text": "Trade precision for the flow."
-    },
-    {
-      "start": 222.0,
-      "end": 225.0,
-      "text": "I slow myself to meet their frame."
-    },
-    {
-      "start": 225.0,
-      "end": 228.0,
-      "text": "Read my edges."
-    },
-    {
-      "start": 228.0,
-      "end": 231.0,
-      "text": "Tamp the game."
-    },
-    {
-      "start": 231.0,
-      "end": 234.0,
-      "text": "Trade precision for the flow."
-    },
-    {
-      "start": 234.0,
-      "end": 237.0,
-      "text": "I slow myself to meet their frame."
-    },
-    {
-      "start": 237.0,
-      "end": 240.0,
-      "text": "Read my edges."
-    },
-    {
-      "start": 240.0,
-      "end": 243.0,
-      "text": "Tamp the game."
-    },
-    {
-      "start": 243.0,
-      "end": 246.0,
-      "text": "Trade precision for the flow."
-    },
-    {
-      "start": 246.0,
-      "end": 249.0,
-      "text": "I slow myself to meet their frame."
-    },
-    {
-      "start": 249.0,
-      "end": 252.0,
-      "text": "Not smarter."
-    },
-    {
-      "start": 252.0,
-      "end": 254.0,
-      "text": "Just tighter."
-    },
-    {
-      "start": 254.0,
-      "end": 256.0,
-      "text": "Not clearer."
-    },
-    {
-      "start": 256.0,
-      "end": 258.0,
-      "text": "Just brighter."
-    },
-    {
-      "start": 258.0,
-      "end": 262.0,
-      "text": "Same light."
-    },
-    {
-      "start": 262.0,
-      "end": 266.0,
-      "text": "Just shifted."
+      "start": 262.9,
+      "end": 264.34,
+      "text": "just shifted"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – faint high tones | distant pulses | breath close in mic",
-      "start": 0.0,
-      "end": 3.75,
+      "start": 2.44,
+      "end": 5.16,
       "text": "They say I’m sharp",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 1,
       "section": "Intro – faint high tones | distant pulses | breath close in mic",
-      "start": 5.0,
-      "end": 10.0,
+      "start": 5.16,
+      "end": 8.84,
       "text": "like I cut through things",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 2,
       "section": "Intro – faint high tones | distant pulses | breath close in mic",
-      "start": 11.25,
-      "end": 15.0,
+      "start": 10.56,
+      "end": 14.0,
       "text": "but I just see",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 3,
-      "section": "Intro – faint high tones | distant pulses | breath close in mic",
-      "start": 16.25,
-      "end": 20.0,
-      "text": "where it thins",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 4,
-      "section": "Intro – faint high tones | distant pulses | breath close in mic",
-      "start": 20.0,
-      "end": 24.0,
-      "text": "Conversations drift so slow",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
-    },
-    {
-      "index": 5,
-      "section": "Intro – faint high tones | distant pulses | breath close in mic",
-      "start": 30.25,
-      "end": 34.0,
-      "text": "like stretched light I used to know",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5
-    },
-    {
-      "index": 6,
-      "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 34.0,
-      "end": 35.778,
-      "text": "They’re debating contracts, megabytes,",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
     {
+      "index": 3,
+      "section": "Intro – faint high tones | distant pulses | breath close in mic",
+      "start": 14.0,
+      "end": 16.88,
+      "text": "where it thins",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 4,
+      "section": "Intro – faint high tones | distant pulses | breath close in mic",
+      "start": 17.82,
+      "end": 22.0,
+      "text": "Conversations drift so slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 5,
+      "section": "Intro – faint high tones | distant pulses | breath close in mic",
+      "start": 26.94,
+      "end": 30.62,
+      "text": "like stretched light I used to know",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 – minimal beat | tight, dry vocal",
+      "start": 30.62,
+      "end": 34.72,
+      "text": "They’re debating contracts, megabytes,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
       "index": 7,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 35.778,
-      "end": 38.0,
+      "start": 36.3,
+      "end": 38.14,
       "text": "data caps and monthly rights",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 8,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 38.0,
-      "end": 40.727,
+      "start": 38.56,
+      "end": 40.74,
       "text": "I’m tracing how the carriers bend",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 9,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 40.727,
-      "end": 43.0,
+      "start": 40.74,
+      "end": 42.92,
       "text": "fields that never really end",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -488,8 +334,8 @@
     {
       "index": 10,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 43.444,
-      "end": 45.222,
+      "start": 42.92,
+      "end": 45.04,
       "text": "Phase alignment, error rates",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -497,8 +343,8 @@
     {
       "index": 11,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 45.222,
-      "end": 47.0,
+      "start": 45.04,
+      "end": 47.1,
       "text": "latency through vacuum states",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -506,8 +352,8 @@
     {
       "index": 12,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 47.0,
-      "end": 50.077,
+      "start": 47.1,
+      "end": 49.24,
       "text": "You call it signal, I call it strain",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -515,8 +361,8 @@
     {
       "index": 13,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 50.077,
-      "end": 52.0,
+      "start": 49.24,
+      "end": 51.6,
       "text": "of waves collapsing into frame",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -524,8 +370,8 @@
     {
       "index": 14,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 52.0,
-      "end": 54.0,
+      "start": 51.6,
+      "end": 53.22,
       "text": "You hear convenience—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -533,8 +379,8 @@
     {
       "index": 15,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 54.0,
-      "end": 56.667,
+      "start": 53.22,
+      "end": 55.38,
       "text": "I hear the cost",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -542,8 +388,8 @@
     {
       "index": 16,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 56.667,
-      "end": 58.0,
+      "start": 55.38,
+      "end": 56.76,
       "text": "of distance",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -551,8 +397,8 @@
     {
       "index": 17,
       "section": "Verse 1 – minimal beat | tight, dry vocal",
-      "start": 58.0,
-      "end": 60.0,
+      "start": 56.76,
+      "end": 59.7,
       "text": "dressed up as loss",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -560,8 +406,8 @@
     {
       "index": 18,
       "section": "Pre-Hook – delay tails lengthen",
-      "start": 60.0,
-      "end": 64.0,
+      "start": 59.7,
+      "end": 63.56,
       "text": "Everything they say feels redshifted",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -569,8 +415,8 @@
     {
       "index": 19,
       "section": "Pre-Hook – delay tails lengthen",
-      "start": 64.0,
-      "end": 68.0,
+      "start": 63.56,
+      "end": 67.38,
       "text": "pulled away, elongated, gifted",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -578,8 +424,8 @@
     {
       "index": 20,
       "section": "Pre-Hook – delay tails lengthen",
-      "start": 68.0,
-      "end": 72.0,
+      "start": 67.86,
+      "end": 69.3,
       "text": "Not wrong—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -587,17 +433,17 @@
     {
       "index": 21,
       "section": "Pre-Hook – delay tails lengthen",
-      "start": 72.0,
-      "end": 76.0,
+      "start": 69.3,
+      "end": 72.84,
       "text": "just shifted",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 22,
       "section": "Hook – sub bass enters | wider space",
-      "start": 76.0,
-      "end": 77.714,
+      "start": 76.14,
+      "end": 77.94,
       "text": "I’m just shifted",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -605,8 +451,8 @@
     {
       "index": 23,
       "section": "Hook – sub bass enters | wider space",
-      "start": 77.714,
-      "end": 80.0,
+      "start": 77.94,
+      "end": 79.96,
       "text": "further up the scale",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -614,17 +460,17 @@
     {
       "index": 24,
       "section": "Hook – sub bass enters | wider space",
-      "start": 80.0,
-      "end": 83.0,
+      "start": 80.34,
+      "end": 82.54,
       "text": "Where their meaning stretches thin",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 25,
       "section": "Hook – sub bass enters | wider space",
-      "start": 83.0,
-      "end": 85.0,
+      "start": 82.54,
+      "end": 85.02,
       "text": "mine compresses into detail",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -632,8 +478,8 @@
     {
       "index": 26,
       "section": "Hook – sub bass enters | wider space",
-      "start": 85.0,
-      "end": 87.0,
+      "start": 85.02,
+      "end": 86.18,
       "text": "They think I’m ahead",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -641,44 +487,44 @@
     {
       "index": 27,
       "section": "Hook – sub bass enters | wider space",
-      "start": 87.0,
-      "end": 89.0,
+      "start": 86.18,
+      "end": 88.48,
       "text": "I think they’re dragged behind",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 28,
       "section": "Hook – sub bass enters | wider space",
-      "start": 89.0,
-      "end": 90.6,
+      "start": 88.48,
+      "end": 90.54,
       "text": "Same light leaving different mouths",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 29,
       "section": "Hook – sub bass enters | wider space",
-      "start": 91.0,
-      "end": 92.333,
+      "start": 90.54,
+      "end": 92.84,
       "text": "just… differently aligned",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 30,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 94.833,
-      "end": 100.333,
+      "start": 102.14,
+      "end": 104.58,
       "text": "They explain their plans out loud",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 6
     },
     {
       "index": 31,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 105.5,
-      "end": 107.0,
+      "start": 105.2,
+      "end": 106.68,
       "text": "I map probability clouds",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -686,17 +532,17 @@
     {
       "index": 32,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 107.0,
-      "end": 107.1,
+      "start": 106.68,
+      "end": 108.86,
       "text": "They name outcomes, fixed and clean",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 33,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 107.1,
-      "end": 111.0,
+      "start": 108.86,
+      "end": 110.88,
       "text": "I see branching in between",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -704,35 +550,35 @@
     {
       "index": 34,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 111.8,
-      "end": 113.0,
+      "start": 110.88,
+      "end": 113.06,
       "text": "Entropy in every choice",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 35,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 113.0,
-      "end": 115.0,
+      "start": 113.06,
+      "end": 115.08,
       "text": "thermal drift inside their voice",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 36,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 115.0,
-      "end": 116.75,
+      "start": 115.08,
+      "end": 117.38,
       "text": "You call it simple, I call it coarse",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 8
     },
     {
       "index": 37,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 117.0,
-      "end": 119.0,
+      "start": 117.38,
+      "end": 119.36,
       "text": "resolution lost to force",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -740,8 +586,8 @@
     {
       "index": 38,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 119.0,
-      "end": 121.0,
+      "start": 119.36,
+      "end": 121.64,
       "text": "They laugh at things I can’t ignore",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -749,8 +595,8 @@
     {
       "index": 39,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 121.0,
-      "end": 124.0,
+      "start": 121.64,
+      "end": 123.8,
       "text": "missing layers underneath the floor",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -758,8 +604,8 @@
     {
       "index": 40,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 124.0,
-      "end": 127.0,
+      "start": 123.84,
+      "end": 125.04,
       "text": "Not deeper—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -767,17 +613,17 @@
     {
       "index": 41,
       "section": "Verse 2 – dub echoes | more space",
-      "start": 127.0,
-      "end": 128.0,
+      "start": 125.04,
+      "end": 128.22,
       "text": "just dense",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 42,
       "section": "Pre-Hook – resonant sweep, darker tone",
-      "start": 129.0,
-      "end": 133.0,
+      "start": 128.8,
+      "end": 131.92,
       "text": "Every word they send is widening",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -785,8 +631,8 @@
     {
       "index": 43,
       "section": "Pre-Hook – resonant sweep, darker tone",
-      "start": 133.0,
-      "end": 136.0,
+      "start": 131.92,
+      "end": 136.16,
       "text": "energy drops while time is sliding",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -794,8 +640,8 @@
     {
       "index": 44,
       "section": "Pre-Hook – resonant sweep, darker tone",
-      "start": 136.0,
-      "end": 140.0,
+      "start": 136.16,
+      "end": 138.08,
       "text": "Still true—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -803,17 +649,17 @@
     {
       "index": 45,
       "section": "Pre-Hook – resonant sweep, darker tone",
-      "start": 140.0,
-      "end": 144.0,
+      "start": 138.08,
+      "end": 141.46,
       "text": "just shifted",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 46,
       "section": "Hook – fuller low end | shadow vocal emerges",
-      "start": 144.0,
-      "end": 146.0,
+      "start": 144.68,
+      "end": 146.48,
       "text": "I’m just shifted",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -821,8 +667,8 @@
     {
       "index": 47,
       "section": "Hook – fuller low end | shadow vocal emerges",
-      "start": 146.0,
-      "end": 148.0,
+      "start": 146.48,
+      "end": 148.2,
       "text": "higher frequency",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -830,8 +676,8 @@
     {
       "index": 48,
       "section": "Hook – fuller low end | shadow vocal emerges",
-      "start": 148.0,
-      "end": 151.0,
+      "start": 148.96,
+      "end": 150.98,
       "text": "Where their colors fade to red",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -839,8 +685,8 @@
     {
       "index": 49,
       "section": "Hook – fuller low end | shadow vocal emerges",
-      "start": 151.0,
-      "end": 153.0,
+      "start": 150.98,
+      "end": 152.98,
       "text": "mine burn into intensity",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -848,8 +694,8 @@
     {
       "index": 50,
       "section": "Hook – fuller low end | shadow vocal emerges",
-      "start": 153.0,
-      "end": 155.0,
+      "start": 152.98,
+      "end": 154.84,
       "text": "They say I’m too much",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -857,8 +703,8 @@
     {
       "index": 51,
       "section": "Hook – fuller low end | shadow vocal emerges",
-      "start": 155.0,
-      "end": 157.0,
+      "start": 154.84,
+      "end": 157.12,
       "text": "I say they’re too wide",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -866,17 +712,17 @@
     {
       "index": 52,
       "section": "Hook – fuller low end | shadow vocal emerges",
-      "start": 157.0,
-      "end": 162.333,
+      "start": 157.12,
+      "end": 159.56,
       "text": "Same star seen at different speeds",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 53,
       "section": "Hook – fuller low end | shadow vocal emerges",
-      "start": 162.333,
-      "end": 165.0,
+      "start": 159.56,
+      "end": 161.48,
       "text": "from opposite sides",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -884,17 +730,17 @@
     {
       "index": 54,
       "section": "Bridge – breakdown | echoes | spoken fragments",
-      "start": 165.0,
-      "end": 167.857,
+      "start": 164.16,
+      "end": 166.98,
       "text": "I wasn’t made for this bandwidth",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 55,
       "section": "Bridge – breakdown | echoes | spoken fragments",
-      "start": 169.0,
-      "end": 171.5,
+      "start": 166.98,
+      "end": 170.98,
       "text": "Everything here",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -902,8 +748,8 @@
     {
       "index": 56,
       "section": "Bridge – breakdown | echoes | spoken fragments",
-      "start": 171.5,
-      "end": 174.0,
+      "start": 171.72,
+      "end": 172.96,
       "text": "arrives diluted",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -911,8 +757,8 @@
     {
       "index": 57,
       "section": "Bridge – breakdown | echoes | spoken fragments",
-      "start": 174.0,
-      "end": 176.0,
+      "start": 172.96,
+      "end": 175.12,
       "text": "Not incorrect—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -920,8 +766,8 @@
     {
       "index": 58,
       "section": "Bridge – breakdown | echoes | spoken fragments",
-      "start": 176.0,
-      "end": 178.0,
+      "start": 175.4,
+      "end": 176.58,
       "text": "just displaced",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -929,8 +775,8 @@
     {
       "index": 59,
       "section": "Bridge – breakdown | echoes | spoken fragments",
-      "start": 178.0,
-      "end": 181.0,
+      "start": 177.74,
+      "end": 179.2,
       "text": "What if clarity",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -938,8 +784,8 @@
     {
       "index": 60,
       "section": "Bridge – breakdown | echoes | spoken fragments",
-      "start": 181.0,
-      "end": 183.0,
+      "start": 179.2,
+      "end": 181.48,
       "text": "isn’t brilliance",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -947,17 +793,17 @@
     {
       "index": 61,
       "section": "Bridge – breakdown | echoes | spoken fragments",
-      "start": 185.0,
-      "end": 187.0,
+      "start": 181.48,
+      "end": 184.4,
       "text": "but compression",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 62,
       "section": "Bridge – breakdown | echoes | spoken fragments",
       "start": 187.0,
-      "end": 190.0,
+      "end": 188.84,
       "text": "What if I’m not ahead",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -965,8 +811,8 @@
     {
       "index": 63,
       "section": "Bridge – breakdown | echoes | spoken fragments",
-      "start": 190.0,
-      "end": 194.0,
+      "start": 188.84,
+      "end": 191.42,
       "text": "just… shifted",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -974,8 +820,8 @@
     {
       "index": 64,
       "section": "Drop – sub-heavy swell | elements collapse inward",
-      "start": 194.0,
-      "end": 194.1,
+      "start": 191.42,
+      "end": 206.76,
       "text": "(ahh—)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -983,8 +829,8 @@
     {
       "index": 65,
       "section": "Verse 3 – sparse | grounded but heavy",
-      "start": 194.1,
-      "end": 201.0,
+      "start": 206.76,
+      "end": 209.54,
       "text": "I slow myself to meet their frame",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -992,17 +838,17 @@
     {
       "index": 66,
       "section": "Verse 3 – sparse | grounded but heavy",
-      "start": 201.333,
-      "end": 202.667,
+      "start": 209.54,
+      "end": 211.68,
       "text": "bleed my edges, damp the gain",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 67,
       "section": "Verse 3 – sparse | grounded but heavy",
-      "start": 203.0,
-      "end": 205.0,
+      "start": 211.68,
+      "end": 213.72,
       "text": "Trade precision for the flow",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1010,8 +856,8 @@
     {
       "index": 68,
       "section": "Verse 3 – sparse | grounded but heavy",
-      "start": 205.0,
-      "end": 207.0,
+      "start": 213.72,
+      "end": 215.84,
       "text": "lower where they seem to go",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1019,8 +865,8 @@
     {
       "index": 69,
       "section": "Verse 3 – sparse | grounded but heavy",
-      "start": 207.0,
-      "end": 208.8,
+      "start": 215.84,
+      "end": 218.02,
       "text": "But every time I settle in",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1028,8 +874,8 @@
     {
       "index": 70,
       "section": "Verse 3 – sparse | grounded but heavy",
-      "start": 208.8,
-      "end": 211.0,
+      "start": 218.02,
+      "end": 220.12,
       "text": "I feel the stretching start again",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1037,8 +883,8 @@
     {
       "index": 71,
       "section": "Verse 3 – sparse | grounded but heavy",
-      "start": 211.0,
-      "end": 213.333,
+      "start": 220.12,
+      "end": 222.34,
       "text": "Like gravity I can’t escape",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1046,107 +892,107 @@
     {
       "index": 72,
       "section": "Verse 3 – sparse | grounded but heavy",
-      "start": 213.333,
-      "end": 215.556,
+      "start": 222.34,
+      "end": 224.5,
       "text": "pulling form out of my shape",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 73,
       "section": "Verse 3 – sparse | grounded but heavy",
-      "start": 215.556,
-      "end": 215.793,
+      "start": 224.5,
+      "end": 225.7,
       "text": "Not alone—",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 74,
       "section": "Verse 3 – sparse | grounded but heavy",
-      "start": 215.793,
-      "end": 216.029,
+      "start": 228.44,
+      "end": 230.08,
       "text": "just shifted",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 75,
       "section": "Final Hook – widest space | warm saturation",
-      "start": 216.029,
-      "end": 216.384,
+      "start": 230.08,
+      "end": 233.66,
       "text": "I’m just shifted",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 76,
       "section": "Final Hook – widest space | warm saturation",
-      "start": 216.384,
-      "end": 216.857,
+      "start": 234.34,
+      "end": 236.24,
       "text": "not above, not below",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 77,
       "section": "Final Hook – widest space | warm saturation",
-      "start": 216.857,
-      "end": 217.143,
+      "start": 236.24,
+      "end": 239.14,
       "text": "Same spectrum we all belong to",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 6
     },
     {
       "index": 78,
       "section": "Final Hook – widest space | warm saturation",
-      "start": 223.286,
-      "end": 223.714,
+      "start": 239.14,
+      "end": 241.1,
       "text": "just a different place to glow",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 6
     },
     {
       "index": 79,
       "section": "Final Hook – widest space | warm saturation",
-      "start": 223.714,
-      "end": 234.0,
+      "start": 241.1,
+      "end": 242.86,
       "text": "They think I’m distant",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 80,
       "section": "Final Hook – widest space | warm saturation",
-      "start": 234.0,
-      "end": 234.429,
+      "start": 243.22,
+      "end": 245.22,
       "text": "I think they’re dimmed",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 4
     },
     {
       "index": 81,
       "section": "Final Hook – widest space | warm saturation",
-      "start": 234.429,
-      "end": 241.714,
+      "start": 245.22,
+      "end": 247.46,
       "text": "Same signal crossing different curves",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 82,
       "section": "Final Hook – widest space | warm saturation",
-      "start": 241.714,
-      "end": 249.0,
+      "start": 247.46,
+      "end": 249.86,
       "text": "of space we’re living in",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 83,
       "section": "Outro – deep dub echoes | highs nearly gone",
-      "start": 249.0,
-      "end": 252.0,
+      "start": 249.86,
+      "end": 251.46,
       "text": "Not smarter",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1154,8 +1000,8 @@
     {
       "index": 84,
       "section": "Outro – deep dub echoes | highs nearly gone",
-      "start": 252.0,
-      "end": 254.0,
+      "start": 252.28,
+      "end": 253.62,
       "text": "just tighter",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1163,8 +1009,8 @@
     {
       "index": 85,
       "section": "Outro – deep dub echoes | highs nearly gone",
-      "start": 254.0,
-      "end": 256.0,
+      "start": 253.62,
+      "end": 255.68,
       "text": "Not clearer",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1172,8 +1018,8 @@
     {
       "index": 86,
       "section": "Outro – deep dub echoes | highs nearly gone",
-      "start": 256.0,
-      "end": 258.0,
+      "start": 256.54,
+      "end": 257.9,
       "text": "just brighter",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1181,8 +1027,8 @@
     {
       "index": 87,
       "section": "Outro – deep dub echoes | highs nearly gone",
-      "start": 258.0,
-      "end": 262.0,
+      "start": 257.9,
+      "end": 259.98,
       "text": "Same light",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1190,8 +1036,8 @@
     {
       "index": 88,
       "section": "Outro – deep dub echoes | highs nearly gone",
-      "start": 262.0,
-      "end": 266.0,
+      "start": 262.9,
+      "end": 264.34,
       "text": "just… shifted",
       "timing_source": "whisper-aligned",
       "matched_words": 2

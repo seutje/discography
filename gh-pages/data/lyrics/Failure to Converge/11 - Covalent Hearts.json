@@ -4,209 +4,235 @@
   "title": "Covalent Hearts",
   "text_path": "Failure to Converge/11 - Covalent Hearts.txt",
   "audio_path": "Failure to Converge/audio/11 - Covalent Hearts.mp3",
-  "duration_seconds": 244.0,
-  "model": "base",
+  "duration_seconds": 255.42,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 78,
     "reference_word_count": 256,
-    "observed_word_count": 263,
-    "matched_word_count": 226,
-    "matched_word_ratio": 0.883,
-    "inserted_adlib_count": 0
+    "observed_word_count": 259,
+    "matched_word_count": 252,
+    "matched_word_ratio": 0.984,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 24.0,
-      "text": "We were drifting and charged particles in a quiet field"
+      "start": 13.12,
+      "end": 21.86,
+      "text": "we were drifting uncharged particles in a quiet field"
     },
     {
-      "start": 24.0,
-      "end": 34.0,
-      "text": "No orbit, no language, just distance that felt like truth"
+      "start": 23.98,
+      "end": 30.8,
+      "text": "no orbit no language just distance that felt like truth"
     },
     {
-      "start": 34.0,
-      "end": 44.0,
-      "text": "How I was alone like drunk circling a thing, a question without a frame"
+      "start": 33.86,
+      "end": 40.6,
+      "text": "i was a lone electron circling nothing a question without a frame"
     },
     {
-      "start": 44.0,
-      "end": 52.0,
-      "text": "You were a frequency I couldn't measure but somehow I felt your name"
+      "start": 43.8,
+      "end": 50.62,
+      "text": "you were a frequency i couldn't measure but somehow i felt your name"
     },
     {
-      "start": 53.0,
-      "end": 58.0,
-      "text": "And the static of crowded rooms and the blur of passing light"
+      "start": 52.88,
+      "end": 58.44,
+      "text": "in the static of crowded rooms in the blur of passing light"
     },
     {
-      "start": 58.0,
-      "end": 64.0,
-      "text": "There was something unfinished waiting to ignite"
+      "start": 58.44,
+      "end": 63.34,
+      "text": "there was something unfinished waiting to ignite"
     },
     {
-      "start": 65.0,
-      "end": 70.0,
-      "text": "Fallen is open and just wide, we were incomplete by design"
+      "start": 63.34,
+      "end": 69.74,
+      "text": "violence open edges wide we were incomplete by design"
     },
     {
-      "start": 70.0,
-      "end": 79.0,
-      "text": "We don't fall, we rearrange, share the space, re-shaped the same"
+      "start": 69.74,
+      "end": 73.7,
+      "text": "we don't fall we rearrange"
     },
     {
-      "start": 79.0,
-      "end": 84.0,
-      "text": "Not a fighting line apart, just invisible architecture"
+      "start": 73.7,
+      "end": 78.62,
+      "text": "share the space reshape the same"
     },
     {
-      "start": 84.0,
-      "end": 89.0,
-      "text": "We are covalent hearts"
+      "start": 78.62,
+      "end": 83.5,
+      "text": "no dividing line depart just invisible architecture"
     },
     {
-      "start": 94.0,
-      "end": 106.0,
-      "text": "No collision, no explosion, just a quiet overlap"
+      "start": 84.62,
+      "end": 89.08,
+      "text": "we are covalent hearts"
     },
     {
-      "start": 108.0,
-      "end": 117.0,
-      "text": "You held part of my silence, I held part of your past"
+      "start": 99.62,
+      "end": 105.72,
+      "text": "no collision no explosion just a quiet overlap"
     },
     {
-      "start": 118.0,
-      "end": 124.0,
-      "text": "And the world kept spinning unaware of the bond forming in thin air"
+      "start": 108.62,
+      "end": 116.32,
+      "text": "you held part of my silence i held part of your past"
     },
     {
-      "start": 124.0,
-      "end": 129.0,
-      "text": "Not force, not fate, just balance, we both kept there"
+      "start": 118.72,
+      "end": 124.3,
+      "text": "and the world kept spinning unaware of the bond forming in thin air"
     },
     {
-      "start": 129.0,
-      "end": 135.0,
-      "text": "No excess, no lack, just enough to bring us back"
+      "start": 124.3,
+      "end": 128.7,
+      "text": "not force not fate just balance we both could bear"
     },
     {
-      "start": 135.0,
-      "end": 142.0,
-      "text": "We don't break, we combine, trace the dark"
+      "start": 129.8,
+      "end": 135.26,
+      "text": "no excess no lack just enough to bring us back"
     },
     {
-      "start": 142.0,
-      "end": 150.0,
-      "text": "We define every fracture plays a part in this shared equation"
+      "start": 135.26,
+      "end": 139.04,
+      "text": "we don't break we combine"
     },
     {
-      "start": 150.0,
-      "end": 157.0,
-      "text": "We are covalent hearts"
+      "start": 139.04,
+      "end": 144.14,
+      "text": "trade the dark redefine"
     },
     {
-      "start": 158.0,
-      "end": 170.0,
-      "text": "Not fusion, not fire, no burning collapse"
+      "start": 144.14,
+      "end": 149.16,
+      "text": "every fracture plays a part in this shared equation"
     },
     {
-      "start": 170.0,
-      "end": 175.0,
-      "text": "Just a gentle agreement between what we lacked"
+      "start": 149.16,
+      "end": 154.34,
+      "text": "we are covalent hearts"
     },
     {
-      "start": 175.0,
-      "end": 182.0,
-      "text": "If the universe gathered us into separate frames"
+      "start": 165.26,
+      "end": 170.26,
+      "text": "not fusion not fire no burning collapse"
     },
     {
-      "start": 182.0,
-      "end": 189.0,
-      "text": "We'd still find symmetry in different names"
+      "start": 170.26,
+      "end": 175.5,
+      "text": "just a gentle agreement between what we lacked"
     },
     {
-      "start": 189.0,
-      "end": 194.0,
-      "text": "Bound by nothing held by choice"
+      "start": 175.5,
+      "end": 181.26,
+      "text": "if the universe scattered us into separate frames"
     },
     {
-      "start": 194.0,
-      "end": 201.0,
-      "text": "Every silence finds a fool"
+      "start": 181.26,
+      "end": 187.68,
+      "text": "we'd still find symmetry in different names"
     },
     {
-      "start": 201.0,
-      "end": 208.0,
-      "text": "We don't end, we transform, shift the shape"
+      "start": 189.26,
+      "end": 193.98,
+      "text": "bound by nothing held by choice"
     },
     {
-      "start": 209.0,
-      "end": 213.0,
-      "text": "Keep the form, every distance leaves a mark"
+      "start": 193.98,
+      "end": 199.54,
+      "text": "every silence finds a voice"
     },
     {
-      "start": 213.0,
-      "end": 222.0,
-      "text": "That pulls us back together, we are covalent hearts"
+      "start": 200.98,
+      "end": 205.26,
+      "text": "we don't end we transform"
     },
     {
-      "start": 225.0,
-      "end": 230.0,
-      "text": "No edges, no just shared space"
+      "start": 205.98,
+      "end": 210.34,
+      "text": "shift the shape keep the form"
     },
     {
-      "start": 230.0,
-      "end": 234.0,
-      "text": "No, before no separate place"
+      "start": 210.34,
+      "end": 215.6,
+      "text": "every distance leaves a mark that pulls us back together"
     },
     {
-      "start": 234.0,
-      "end": 239.0,
-      "text": "Only us, only us"
+      "start": 215.6,
+      "end": 220.66,
+      "text": "we are covalent hearts"
     },
     {
-      "start": 241.0,
-      "end": 244.0,
-      "text": "And quiet orbit we adjust"
+      "start": 224.5,
+      "end": 227.98,
+      "text": "no edges no just shared space"
+    },
+    {
+      "start": 229.62,
+      "end": 233.18,
+      "text": "no before no separate place"
+    },
+    {
+      "start": 233.98,
+      "end": 238.76,
+      "text": "only this only us"
+    },
+    {
+      "start": 240.0,
+      "end": 243.6,
+      "text": "in quiet orbit we adjust"
+    },
+    {
+      "start": 254.02,
+      "end": 255.42,
+      "text": "thank you for watching"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – ambient synth swell | distant textures",
-      "start": 0.0,
-      "end": 2.4,
+      "start": 13.12,
+      "end": 15.92,
       "text": "We were drifting",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 1,
       "section": "Intro – ambient synth swell | distant textures",
-      "start": 12.0,
-      "end": 14.4,
+      "start": 16.58,
+      "end": 18.64,
       "text": "uncharged particles",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 2,
       "section": "Intro – ambient synth swell | distant textures",
-      "start": 14.4,
-      "end": 16.8,
+      "start": 18.64,
+      "end": 21.86,
       "text": "in a quiet field",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 4
     },
     {
       "index": 3,
       "section": "Intro – ambient synth swell | distant textures",
-      "start": 24.0,
-      "end": 26.0,
+      "start": 23.98,
+      "end": 25.82,
       "text": "No orbit",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -214,8 +240,8 @@
     {
       "index": 4,
       "section": "Intro – ambient synth swell | distant textures",
-      "start": 26.0,
-      "end": 28.0,
+      "start": 26.08,
+      "end": 27.06,
       "text": "no language",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -223,8 +249,8 @@
     {
       "index": 5,
       "section": "Intro – ambient synth swell | distant textures",
-      "start": 28.0,
-      "end": 34.0,
+      "start": 27.3,
+      "end": 30.8,
       "text": "just distance that felt like truth",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -232,26 +258,26 @@
     {
       "index": 6,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 34.714,
-      "end": 39.714,
+      "start": 33.86,
+      "end": 36.34,
       "text": "I was a lone electron",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 7,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 39.714,
-      "end": 44.0,
+      "start": 36.34,
+      "end": 37.68,
       "text": "circling nothing",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 8,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 44.0,
-      "end": 44.1,
+      "start": 37.88,
+      "end": 40.6,
       "text": "a question without a frame",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -259,8 +285,8 @@
     {
       "index": 9,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 44.1,
-      "end": 46.462,
+      "start": 43.8,
+      "end": 46.16,
       "text": "You were a frequency",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -268,8 +294,8 @@
     {
       "index": 10,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 46.462,
-      "end": 48.308,
+      "start": 46.16,
+      "end": 47.66,
       "text": "I couldn’t measure",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -277,8 +303,8 @@
     {
       "index": 11,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 48.308,
-      "end": 52.0,
+      "start": 47.72,
+      "end": 50.62,
       "text": "but somehow I felt your name",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -286,26 +312,26 @@
     {
       "index": 12,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 53.417,
-      "end": 55.5,
+      "start": 52.88,
+      "end": 56.02,
       "text": "In the static of crowded rooms",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 13,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 55.917,
-      "end": 58.0,
+      "start": 56.02,
+      "end": 58.44,
       "text": "in the blur of passing light",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 14,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 58.0,
-      "end": 61.429,
+      "start": 58.44,
+      "end": 60.4,
       "text": "there was something unfinished",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -313,8 +339,8 @@
     {
       "index": 15,
       "section": "Verse 1 – soft beat enters | warm pads",
-      "start": 61.429,
-      "end": 64.0,
+      "start": 60.4,
+      "end": 63.34,
       "text": "waiting to ignite",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -322,8 +348,8 @@
     {
       "index": 16,
       "section": "Pre-Chorus – subtle lift | arpeggiator begins",
-      "start": 65.909,
-      "end": 66.364,
+      "start": 65.2,
+      "end": 65.98,
       "text": "Valence open",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -331,17 +357,17 @@
     {
       "index": 17,
       "section": "Pre-Chorus – subtle lift | arpeggiator begins",
-      "start": 67.273,
-      "end": 67.727,
+      "start": 65.98,
+      "end": 67.1,
       "text": "edges wide",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 18,
       "section": "Pre-Chorus – subtle lift | arpeggiator begins",
-      "start": 67.727,
-      "end": 70.0,
+      "start": 67.46,
+      "end": 69.74,
       "text": "we were incomplete by design",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -349,8 +375,8 @@
     {
       "index": 19,
       "section": "Chorus – fuller synths | warm harmonies",
-      "start": 70.0,
-      "end": 72.25,
+      "start": 69.74,
+      "end": 71.1,
       "text": "We don’t fall",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -358,8 +384,8 @@
     {
       "index": 20,
       "section": "Chorus – fuller synths | warm harmonies",
-      "start": 72.25,
-      "end": 73.75,
+      "start": 72.16,
+      "end": 73.7,
       "text": "we rearrange",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -367,8 +393,8 @@
     {
       "index": 21,
       "section": "Chorus – fuller synths | warm harmonies",
-      "start": 73.75,
-      "end": 76.0,
+      "start": 73.7,
+      "end": 76.2,
       "text": "share the space",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -376,26 +402,26 @@
     {
       "index": 22,
       "section": "Chorus – fuller synths | warm harmonies",
-      "start": 77.5,
-      "end": 79.0,
+      "start": 77.06,
+      "end": 78.62,
       "text": "reshape the same",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 23,
       "section": "Chorus – fuller synths | warm harmonies",
-      "start": 80.875,
-      "end": 81.5,
+      "start": 78.62,
+      "end": 80.28,
       "text": "No dividing line to part",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 24,
       "section": "Chorus – fuller synths | warm harmonies",
-      "start": 82.125,
-      "end": 84.0,
+      "start": 81.16,
+      "end": 83.5,
       "text": "just invisible architecture",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -403,8 +429,8 @@
     {
       "index": 25,
       "section": "Chorus – fuller synths | warm harmonies",
-      "start": 84.0,
-      "end": 86.5,
+      "start": 84.31,
+      "end": 86.1,
       "text": "We are",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -412,8 +438,8 @@
     {
       "index": 26,
       "section": "Chorus – fuller synths | warm harmonies",
-      "start": 86.5,
-      "end": 89.0,
+      "start": 86.1,
+      "end": 89.08,
       "text": "covalent hearts",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -421,8 +447,8 @@
     {
       "index": 27,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 94.0,
-      "end": 97.0,
+      "start": 99.29,
+      "end": 101.1,
       "text": "No collision",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -430,8 +456,8 @@
     {
       "index": 28,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 97.0,
-      "end": 100.0,
+      "start": 101.44,
+      "end": 102.36,
       "text": "no explosion",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -439,17 +465,17 @@
     {
       "index": 29,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 100.0,
-      "end": 104.5,
+      "start": 102.38,
+      "end": 105.72,
       "text": "just a quiet overlap",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 30,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 108.0,
-      "end": 112.5,
+      "start": 108.62,
+      "end": 111.72,
       "text": "You held part of my silence",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -457,8 +483,8 @@
     {
       "index": 31,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 112.5,
-      "end": 117.0,
+      "start": 111.72,
+      "end": 116.32,
       "text": "I held part of your past",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -466,8 +492,8 @@
     {
       "index": 32,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 118.0,
-      "end": 120.308,
+      "start": 118.72,
+      "end": 120.84,
       "text": "And the world kept spinning",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -475,8 +501,8 @@
     {
       "index": 33,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 120.308,
-      "end": 120.769,
+      "start": 120.96,
+      "end": 121.48,
       "text": "unaware",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -484,8 +510,8 @@
     {
       "index": 34,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 120.769,
-      "end": 124.0,
+      "start": 121.48,
+      "end": 124.3,
       "text": "of the bond forming in thin air",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -493,8 +519,8 @@
     {
       "index": 35,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 124.0,
-      "end": 125.0,
+      "start": 124.3,
+      "end": 124.9,
       "text": "Not force",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -502,8 +528,8 @@
     {
       "index": 36,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 125.0,
-      "end": 126.0,
+      "start": 125.1,
+      "end": 125.52,
       "text": "not fate",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -511,17 +537,17 @@
     {
       "index": 37,
       "section": "Verse 2 – groove deepens | bass more present",
-      "start": 126.0,
-      "end": 128.0,
+      "start": 125.52,
+      "end": 128.7,
       "text": "just balance we both could bear",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 38,
       "section": "Pre-Chorus – brighter textures",
-      "start": 129.0,
-      "end": 130.2,
+      "start": 129.8,
+      "end": 131.18,
       "text": "No excess",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -529,8 +555,8 @@
     {
       "index": 39,
       "section": "Pre-Chorus – brighter textures",
-      "start": 130.2,
-      "end": 131.4,
+      "start": 131.96,
+      "end": 132.7,
       "text": "no lack",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -538,8 +564,8 @@
     {
       "index": 40,
       "section": "Pre-Chorus – brighter textures",
-      "start": 131.4,
-      "end": 135.0,
+      "start": 132.9,
+      "end": 135.26,
       "text": "just enough to bring us back",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -547,8 +573,8 @@
     {
       "index": 41,
       "section": "Chorus – expanded | wider stereo",
-      "start": 135.0,
-      "end": 137.625,
+      "start": 135.26,
+      "end": 136.56,
       "text": "We don’t break",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -556,8 +582,8 @@
     {
       "index": 42,
       "section": "Chorus – expanded | wider stereo",
-      "start": 137.625,
-      "end": 139.375,
+      "start": 137.46,
+      "end": 139.04,
       "text": "we combine",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -565,26 +591,26 @@
     {
       "index": 43,
       "section": "Chorus – expanded | wider stereo",
-      "start": 140.25,
-      "end": 142.0,
+      "start": 139.04,
+      "end": 141.74,
       "text": "trade the dark",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 44,
       "section": "Chorus – expanded | wider stereo",
-      "start": 142.0,
-      "end": 150.0,
+      "start": 142.78,
+      "end": 144.14,
       "text": "redefine",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 45,
       "section": "Chorus – expanded | wider stereo",
-      "start": 150.0,
-      "end": 150.1,
+      "start": 144.14,
+      "end": 146.52,
       "text": "Every fracture plays a part",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -592,8 +618,8 @@
     {
       "index": 46,
       "section": "Chorus – expanded | wider stereo",
-      "start": 150.1,
-      "end": 150.2,
+      "start": 146.52,
+      "end": 149.16,
       "text": "in this shared equation",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -601,8 +627,8 @@
     {
       "index": 47,
       "section": "Chorus – expanded | wider stereo",
-      "start": 150.2,
-      "end": 153.5,
+      "start": 149.16,
+      "end": 151.76,
       "text": "We are",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -610,8 +636,8 @@
     {
       "index": 48,
       "section": "Chorus – expanded | wider stereo",
-      "start": 153.5,
-      "end": 157.0,
+      "start": 151.76,
+      "end": 154.34,
       "text": "covalent hearts",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -619,8 +645,8 @@
     {
       "index": 49,
       "section": "Bridge – atmospheric drop | granular textures | minimal beat",
-      "start": 158.0,
-      "end": 161.429,
+      "start": 165.26,
+      "end": 166.86,
       "text": "Not fusion",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -628,8 +654,8 @@
     {
       "index": 50,
       "section": "Bridge – atmospheric drop | granular textures | minimal beat",
-      "start": 161.429,
-      "end": 164.857,
+      "start": 167.3,
+      "end": 168.14,
       "text": "not fire",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -637,17 +663,17 @@
     {
       "index": 51,
       "section": "Bridge – atmospheric drop | granular textures | minimal beat",
-      "start": 164.857,
-      "end": 168.286,
+      "start": 168.14,
+      "end": 170.26,
       "text": "no burning collapse",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 52,
       "section": "Bridge – atmospheric drop | granular textures | minimal beat",
-      "start": 170.0,
-      "end": 172.5,
+      "start": 170.26,
+      "end": 173.32,
       "text": "Just a gentle agreement",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -655,8 +681,8 @@
     {
       "index": 53,
       "section": "Bridge – atmospheric drop | granular textures | minimal beat",
-      "start": 172.5,
-      "end": 175.0,
+      "start": 173.32,
+      "end": 175.5,
       "text": "between what we lacked",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -664,17 +690,17 @@
     {
       "index": 54,
       "section": "Bridge – atmospheric drop | granular textures | minimal beat",
-      "start": 175.0,
-      "end": 179.375,
+      "start": 175.5,
+      "end": 178.82,
       "text": "If the universe scattered us",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 55,
       "section": "Bridge – atmospheric drop | granular textures | minimal beat",
-      "start": 179.375,
-      "end": 182.0,
+      "start": 178.82,
+      "end": 181.26,
       "text": "into separate frames",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -682,8 +708,8 @@
     {
       "index": 56,
       "section": "Bridge – atmospheric drop | granular textures | minimal beat",
-      "start": 182.0,
-      "end": 186.0,
+      "start": 181.26,
+      "end": 185.04,
       "text": "We’d still find symmetry",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -691,8 +717,8 @@
     {
       "index": 57,
       "section": "Bridge – atmospheric drop | granular textures | minimal beat",
-      "start": 186.0,
-      "end": 189.0,
+      "start": 185.04,
+      "end": 187.68,
       "text": "in different names",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -700,8 +726,8 @@
     {
       "index": 58,
       "section": "Build – rising arps | layered vocals",
-      "start": 189.0,
-      "end": 191.5,
+      "start": 189.13,
+      "end": 191.58,
       "text": "Bound by nothing",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -709,8 +735,8 @@
     {
       "index": 59,
       "section": "Build – rising arps | layered vocals",
-      "start": 191.5,
-      "end": 194.0,
+      "start": 191.64,
+      "end": 193.98,
       "text": "held by choice",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -718,8 +744,8 @@
     {
       "index": 60,
       "section": "Build – rising arps | layered vocals",
-      "start": 194.0,
-      "end": 196.8,
+      "start": 193.98,
+      "end": 196.68,
       "text": "every silence",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -727,17 +753,17 @@
     {
       "index": 61,
       "section": "Build – rising arps | layered vocals",
-      "start": 196.8,
-      "end": 199.6,
+      "start": 196.68,
+      "end": 199.54,
       "text": "finds a voice",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 62,
       "section": "Final Chorus – fullest arrangement | euphoric but soft",
-      "start": 201.0,
-      "end": 203.625,
+      "start": 200.98,
+      "end": 202.84,
       "text": "We don’t end",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -745,8 +771,8 @@
     {
       "index": 63,
       "section": "Final Chorus – fullest arrangement | euphoric but soft",
-      "start": 203.625,
-      "end": 205.375,
+      "start": 203.58,
+      "end": 205.26,
       "text": "we transform",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -754,8 +780,8 @@
     {
       "index": 64,
       "section": "Final Chorus – fullest arrangement | euphoric but soft",
-      "start": 205.375,
-      "end": 208.0,
+      "start": 205.98,
+      "end": 207.86,
       "text": "shift the shape",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -763,8 +789,8 @@
     {
       "index": 65,
       "section": "Final Chorus – fullest arrangement | euphoric but soft",
-      "start": 209.0,
-      "end": 210.5,
+      "start": 208.74,
+      "end": 210.34,
       "text": "keep the form",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -772,8 +798,8 @@
     {
       "index": 66,
       "section": "Final Chorus – fullest arrangement | euphoric but soft",
-      "start": 210.5,
-      "end": 213.0,
+      "start": 210.34,
+      "end": 212.84,
       "text": "Every distance leaves a mark",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -781,8 +807,8 @@
     {
       "index": 67,
       "section": "Final Chorus – fullest arrangement | euphoric but soft",
-      "start": 213.0,
-      "end": 218.0,
+      "start": 212.84,
+      "end": 215.6,
       "text": "that pulls us back together",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -790,8 +816,8 @@
     {
       "index": 68,
       "section": "Final Chorus – fullest arrangement | euphoric but soft",
-      "start": 218.0,
-      "end": 220.0,
+      "start": 215.6,
+      "end": 218.0,
       "text": "We are",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -799,8 +825,8 @@
     {
       "index": 69,
       "section": "Final Chorus – fullest arrangement | euphoric but soft",
-      "start": 220.0,
-      "end": 222.0,
+      "start": 218.0,
+      "end": 220.66,
       "text": "covalent hearts",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -808,8 +834,8 @@
     {
       "index": 70,
       "section": "Outro – beat fades | airy pads | distant textures",
-      "start": 225.0,
-      "end": 226.667,
+      "start": 224.5,
+      "end": 226.18,
       "text": "No edges now",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -817,8 +843,8 @@
     {
       "index": 71,
       "section": "Outro – beat fades | airy pads | distant textures",
-      "start": 227.5,
-      "end": 230.0,
+      "start": 226.64,
+      "end": 227.98,
       "text": "just shared space",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -826,8 +852,8 @@
     {
       "index": 72,
       "section": "Outro – beat fades | airy pads | distant textures",
-      "start": 230.0,
-      "end": 231.6,
+      "start": 229.62,
+      "end": 231.36,
       "text": "No before",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -835,8 +861,8 @@
     {
       "index": 73,
       "section": "Outro – beat fades | airy pads | distant textures",
-      "start": 231.6,
-      "end": 234.0,
+      "start": 231.58,
+      "end": 233.18,
       "text": "no separate place",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -844,17 +870,17 @@
     {
       "index": 74,
       "section": "Outro – beat fades | airy pads | distant textures",
-      "start": 234.0,
-      "end": 235.25,
+      "start": 233.98,
+      "end": 235.94,
       "text": "Only this",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 75,
       "section": "Outro – beat fades | airy pads | distant textures",
-      "start": 236.5,
-      "end": 239.0,
+      "start": 236.14,
+      "end": 238.76,
       "text": "only us",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -862,17 +888,17 @@
     {
       "index": 76,
       "section": "Outro – beat fades | airy pads | distant textures",
-      "start": 241.6,
-      "end": 242.8,
+      "start": 240.0,
+      "end": 242.54,
       "text": "in quiet orbit",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 77,
       "section": "Outro – beat fades | airy pads | distant textures",
-      "start": 242.8,
-      "end": 244.0,
+      "start": 242.54,
+      "end": 243.6,
       "text": "we adjust",
       "timing_source": "whisper-aligned",
       "matched_words": 2

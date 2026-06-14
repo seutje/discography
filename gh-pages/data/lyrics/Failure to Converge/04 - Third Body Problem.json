@@ -4,503 +4,289 @@
   "title": "Third Body Problem",
   "text_path": "Failure to Converge/04 - Third Body Problem.txt",
   "audio_path": "Failure to Converge/audio/04 - Third Body Problem.mp3",
-  "duration_seconds": 295.0,
-  "model": "base",
+  "duration_seconds": 266.02,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 102,
     "reference_word_count": 365,
-    "observed_word_count": 390,
-    "matched_word_count": 330,
-    "matched_word_ratio": 0.904,
-    "inserted_adlib_count": 0
+    "observed_word_count": 369,
+    "matched_word_count": 349,
+    "matched_word_ratio": 0.956,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 7.0,
-      "text": "0 1"
+      "start": 5.12,
+      "end": 17.82,
+      "text": "zero one zero one everything resolves into pairs"
     },
     {
-      "start": 7.0,
-      "end": 14.0,
-      "text": "0 1"
+      "start": 17.82,
+      "end": 26.52,
+      "text": "except me two bodies bending space in symmetry"
     },
     {
-      "start": 14.0,
-      "end": 17.0,
-      "text": "Everything resolves"
+      "start": 26.52,
+      "end": 36.82,
+      "text": "perfect ellipsis drawn so easily every streetlight hums in harmony"
     },
     {
-      "start": 17.0,
-      "end": 22.0,
-      "text": "And appears"
+      "start": 36.82,
+      "end": 44.22,
+      "text": "paired reflections staring back at me table set for two"
     },
     {
-      "start": 22.0,
-      "end": 23.0,
-      "text": "Except me"
+      "start": 44.82,
+      "end": 51.92,
+      "text": "tickets printed clean every algorithm knows what i have never been"
     },
     {
-      "start": 23.0,
-      "end": 28.0,
-      "text": "Two bodies bending space and symmetry"
+      "start": 51.92,
+      "end": 56.9,
+      "text": "i drift between the numbers never quite assigned"
     },
     {
-      "start": 28.0,
-      "end": 33.0,
-      "text": "Perfect ellipsis drawn so easily"
+      "start": 56.9,
+      "end": 62.0,
+      "text": "an unpaired remainder in a system well defined"
     },
     {
-      "start": 33.0,
-      "end": 38.0,
-      "text": "Every street light hums in harmony"
+      "start": 62.0,
+      "end": 67.6,
+      "text": "you orbit you align like gravity was always kind"
     },
     {
-      "start": 38.0,
-      "end": 42.0,
-      "text": "Paired reflection staring back at me"
+      "start": 67.6,
+      "end": 72.12,
+      "text": "two signals intertwined while i flicker out of time"
     },
     {
-      "start": 42.0,
-      "end": 45.0,
-      "text": "Table set for two"
+      "start": 72.12,
+      "end": 76.84,
+      "text": "zero looking for one but i'm neither never done"
     },
     {
-      "start": 45.0,
-      "end": 47.0,
-      "text": "Tickets printed clean"
+      "start": 76.84,
+      "end": 81.9,
+      "text": "just noise between the lines"
     },
     {
-      "start": 47.0,
-      "end": 50.0,
-      "text": "Every algorithm knows what"
+      "start": 82.94,
+      "end": 88.14,
+      "text": "binary logic built into the walls left side right side rise and fall"
     },
     {
-      "start": 50.0,
-      "end": 54.0,
-      "text": "I have never been I drift between the numbers"
+      "start": 88.14,
+      "end": 93.22,
+      "text": "magnetic poles that always choose attract repel no room to lose"
     },
     {
-      "start": 54.0,
-      "end": 61.0,
-      "text": "Never quite assigned an unpaired remainder in a system well defined"
+      "start": 93.22,
+      "end": 98.4,
+      "text": "north find south without a doubt everything knows what it's about"
     },
     {
-      "start": 61.0,
-      "end": 64.0,
-      "text": "You orbit your line"
+      "start": 99.2,
+      "end": 101.68,
+      "text": "meanwhile i'm"
     },
     {
-      "start": 64.0,
-      "end": 69.0,
-      "text": "Like gravity was always kind to signals intertwined"
+      "start": 101.68,
+      "end": 108.44,
+      "text": "a compass spinning in a room with no feel trying to feel what everyone else seems"
     },
     {
-      "start": 69.0,
-      "end": 72.0,
-      "text": "Well I flicker out of time"
+      "start": 108.44,
+      "end": 114.7,
+      "text": "pre wired to feel even silence comes in two"
     },
     {
-      "start": 72.0,
-      "end": 74.0,
-      "text": "Zero looking for one"
+      "start": 114.7,
+      "end": 119.48,
+      "text": "secco answering what it knew but my voice just dissipates"
     },
     {
-      "start": 74.0,
-      "end": 82.0,
-      "text": "But I'm neither never done just noise between the lines"
+      "start": 119.48,
+      "end": 124.66,
+      "text": "before it can be returned to you orbit you align"
     },
     {
-      "start": 83.0,
-      "end": 86.0,
-      "text": "Binary logic built into the walls"
+      "start": 124.66,
+      "end": 129.7,
+      "text": "coded deep in your design two currents intertwine"
     },
     {
-      "start": 86.0,
-      "end": 88.0,
-      "text": "Left side, right side, right and fall"
+      "start": 129.7,
+      "end": 134.4,
+      "text": "closed circuits every time zero reaching for a one"
     },
     {
-      "start": 88.0,
-      "end": 93.0,
-      "text": "Magnetic poles that always choose attract repel no room to lose"
+      "start": 134.4,
+      "end": 138.26,
+      "text": "but i glitch before begun undefined"
     },
     {
-      "start": 93.0,
-      "end": 96.0,
-      "text": "North find south without a doubt"
+      "start": 143.64,
+      "end": 150.36,
+      "text": "in a binary star system everything makes sense"
     },
     {
-      "start": 96.0,
-      "end": 99.0,
-      "text": "Everything knows what it's about"
+      "start": 151.36,
+      "end": 157.1,
+      "text": "two masses locked in motion each shaping the other's path"
     },
     {
-      "start": 99.0,
-      "end": 101.0,
-      "text": "Meanwhile I'm"
+      "start": 157.1,
+      "end": 164.32,
+      "text": "predictable beautiful inevitable but introduce a third"
     },
     {
-      "start": 101.0,
-      "end": 105.0,
-      "text": "Bup, bup, bup, a compass spinning in a room with no field"
-    },
-    {
-      "start": 105.0,
-      "end": 108.0,
-      "text": "Trying to feel what everyone else seems"
-    },
-    {
-      "start": 108.0,
-      "end": 111.0,
-      "text": "Prewired to feel"
-    },
-    {
-      "start": 111.0,
-      "end": 114.0,
-      "text": "Even silence comes into"
-    },
-    {
-      "start": 114.0,
-      "end": 117.0,
-      "text": "Sack of answering what it knew"
-    },
-    {
-      "start": 117.0,
-      "end": 119.0,
-      "text": "But my voice just dissipates"
-    },
-    {
-      "start": 119.0,
-      "end": 122.0,
-      "text": "Before it can be returned to you"
-    },
-    {
-      "start": 122.0,
-      "end": 124.0,
-      "text": "Orbit you align"
-    },
-    {
-      "start": 124.0,
-      "end": 127.0,
-      "text": "Coated deep in your design"
-    },
-    {
-      "start": 127.0,
-      "end": 129.0,
-      "text": "Two currents intertwined"
-    },
-    {
-      "start": 129.0,
-      "end": 132.0,
-      "text": "Close circuits every time"
-    },
-    {
-      "start": 132.0,
-      "end": 134.0,
-      "text": "Zero reaching for one"
-    },
-    {
-      "start": 134.0,
-      "end": 141.0,
-      "text": "But I glitch before become undefined"
-    },
-    {
-      "start": 144.0,
-      "end": 148.0,
-      "text": "In a binary star system"
-    },
-    {
-      "start": 148.0,
-      "end": 151.0,
-      "text": "Everything makes sense"
-    },
-    {
-      "start": 151.0,
-      "end": 154.0,
-      "text": "Two masses locked in motion"
-    },
-    {
-      "start": 154.0,
-      "end": 157.0,
-      "text": "Each shaping the other's path"
-    },
-    {
-      "start": 157.0,
-      "end": 162.0,
-      "text": "Predictable, beautiful, inevitable"
-    },
-    {
-      "start": 163.0,
-      "end": 165.0,
-      "text": "But introduce a third"
-    },
-    {
-      "start": 165.0,
+      "start": 165.36,
       "end": 169.0,
-      "text": "And suddenly nothing resolves"
+      "text": "and suddenly nothing resolves"
     },
     {
-      "start": 172.0,
-      "end": 174.0,
-      "text": "I am that third body"
+      "start": 171.08,
+      "end": 176.02,
+      "text": "i am that third body not enough to belong"
     },
     {
-      "start": 174.0,
-      "end": 176.0,
-      "text": "Not enough to belong"
+      "start": 176.02,
+      "end": 178.36,
+      "text": "too much to ignore"
     },
     {
-      "start": 176.0,
-      "end": 179.0,
-      "text": "Too much to ignore"
+      "start": 179.36,
+      "end": 184.72,
+      "text": "i watch the pairs like constellations perfect in their repetitions"
     },
     {
-      "start": 180.0,
-      "end": 182.0,
-      "text": "I watch the pairs like constellations"
+      "start": 184.72,
+      "end": 189.6,
+      "text": "every orbit writes a story balanced held in quiet glory"
     },
     {
-      "start": 182.0,
-      "end": 185.0,
-      "text": "Perfect in their repetitions"
+      "start": 189.6,
+      "end": 194.46,
+      "text": "and i tried them at my place in their synchronized embrace"
     },
     {
-      "start": 185.0,
-      "end": 187.0,
-      "text": "Every orbit writes a story"
+      "start": 194.46,
+      "end": 199.7,
+      "text": "but my trajectory just breaks every pattern i can trace"
     },
     {
-      "start": 187.0,
-      "end": 190.0,
-      "text": "Balance held in quite glory"
+      "start": 199.7,
+      "end": 204.52,
+      "text": "maybe i'm not meant to bind to a single mirrored line"
     },
     {
-      "start": 190.0,
-      "end": 192.0,
-      "text": "And I try to not my place"
+      "start": 204.52,
+      "end": 209.72,
+      "text": "maybe i'm the shifting frame that no system can contain"
     },
     {
-      "start": 192.0,
-      "end": 194.0,
-      "text": "And they're synchronized embrace"
+      "start": 209.72,
+      "end": 214.68,
+      "text": "you orbit you align but your gravity's not mine"
     },
     {
-      "start": 194.0,
-      "end": 197.0,
-      "text": "But my trajectory just breaks"
+      "start": 214.68,
+      "end": 219.72,
+      "text": "two signals intertwined i dissolve between the signs"
     },
     {
-      "start": 197.0,
-      "end": 200.0,
-      "text": "Every pattern I can trace"
+      "start": 219.72,
+      "end": 225.5,
+      "text": "zero never was a one still the code keeps running on and on"
     },
     {
-      "start": 200.0,
-      "end": 202.0,
-      "text": "Maybe I'm not meant to bind"
+      "start": 225.5,
+      "end": 228.9,
+      "text": "somewhere in the sun"
     },
     {
-      "start": 202.0,
-      "end": 205.0,
-      "text": "To a single mirror mine"
+      "start": 228.9,
+      "end": 233.16,
+      "text": "one one zero one"
     },
     {
-      "start": 205.0,
-      "end": 207.0,
-      "text": "Maybe I'm the shifting frame"
+      "start": 233.9,
+      "end": 237.92,
+      "text": "zero one the universe prefers"
     },
     {
-      "start": 207.0,
-      "end": 210.0,
-      "text": "That no system can contain you"
+      "start": 238.9,
+      "end": 242.8,
+      "text": "a pair but i remain unsolved"
     },
     {
-      "start": 210.0,
-      "end": 212.0,
-      "text": "Orbit you align"
+      "start": 243.9,
+      "end": 248.42,
+      "text": "a third body drifting through perfect systems"
     },
     {
-      "start": 212.0,
-      "end": 214.0,
-      "text": "But your gravity's not mine"
+      "start": 249.9,
+      "end": 254.58,
+      "text": "that were never designed for me"
     },
     {
-      "start": 214.0,
-      "end": 217.0,
-      "text": "Two signals intertwined"
-    },
-    {
-      "start": 217.0,
-      "end": 219.0,
-      "text": "I dissolve between the signs"
-    },
-    {
-      "start": 219.0,
-      "end": 222.0,
-      "text": "Zero never was a one"
-    },
-    {
-      "start": 222.0,
-      "end": 224.0,
-      "text": "Still the code keeps running on"
-    },
-    {
-      "start": 224.0,
-      "end": 229.0,
-      "text": "And I'm somewhere in the soul"
-    },
-    {
-      "start": 229.0,
-      "end": 233.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 233.0,
-      "end": 236.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 236.0,
-      "end": 239.0,
-      "text": "The universe prefers"
-    },
-    {
-      "start": 239.0,
-      "end": 242.0,
-      "text": "A pair but I remain"
-    },
-    {
-      "start": 242.0,
-      "end": 244.0,
-      "text": "Unresolved"
-    },
-    {
-      "start": 244.0,
-      "end": 247.0,
-      "text": "A third body drifting"
-    },
-    {
-      "start": 247.0,
-      "end": 250.0,
-      "text": "Through perfect systems"
-    },
-    {
-      "start": 250.0,
-      "end": 254.0,
-      "text": "That were never designed"
-    },
-    {
-      "start": 254.0,
-      "end": 257.0,
-      "text": "For me"
-    },
-    {
-      "start": 266.0,
-      "end": 269.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 269.0,
-      "end": 272.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 272.0,
-      "end": 275.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 275.0,
-      "end": 278.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 278.0,
-      "end": 281.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 281.0,
-      "end": 283.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 283.0,
-      "end": 285.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 285.0,
-      "end": 287.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 287.0,
-      "end": 289.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 289.0,
-      "end": 291.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 291.0,
-      "end": 293.0,
-      "text": "Zero one"
-    },
-    {
-      "start": 293.0,
-      "end": 295.0,
-      "text": "Zero one"
+      "start": 264.62,
+      "end": 266.02,
+      "text": "thanks for watching"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – ambient drones | distant pulses | faint static",
-      "start": 0.0,
-      "end": 3.5,
+      "start": 5.12,
+      "end": 6.52,
       "text": "Zero",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 1,
       "section": "Intro – ambient drones | distant pulses | faint static",
-      "start": 3.5,
-      "end": 7.0,
+      "start": 6.52,
+      "end": 7.92,
       "text": "One",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 2,
       "section": "Intro – ambient drones | distant pulses | faint static",
-      "start": 7.0,
-      "end": 10.5,
+      "start": 7.92,
+      "end": 11.98,
       "text": "Zero",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 3,
       "section": "Intro – ambient drones | distant pulses | faint static",
-      "start": 10.5,
-      "end": 14.0,
+      "start": 11.98,
+      "end": 13.12,
       "text": "One",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 4,
       "section": "Intro – ambient drones | distant pulses | faint static",
-      "start": 14.0,
-      "end": 17.0,
+      "start": 13.12,
+      "end": 15.24,
       "text": "Everything resolves",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -508,35 +294,35 @@
     {
       "index": 5,
       "section": "Intro – ambient drones | distant pulses | faint static",
-      "start": 17.0,
-      "end": 22.0,
+      "start": 15.24,
+      "end": 17.82,
       "text": "into pairs",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 6,
-      "section": "Intro – ambient drones | distant pulses | faint static",
-      "start": 22.0,
-      "end": 23.0,
-      "text": "except me.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 6,
+      "section": "Intro – ambient drones | distant pulses | faint static",
+      "start": 17.82,
+      "end": 18.92,
+      "text": "except me.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
       "index": 7,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 23.0,
-      "end": 28.0,
+      "start": 22.56,
+      "end": 26.52,
       "text": "Two bodies bending space in symmetry",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 8,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 28.0,
-      "end": 33.0,
+      "start": 26.52,
+      "end": 31.82,
       "text": "Perfect ellipses drawn so easily",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -544,26 +330,26 @@
     {
       "index": 9,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 33.0,
-      "end": 38.0,
+      "start": 31.82,
+      "end": 36.82,
       "text": "Every streetlight hums in harmony",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 10,
-      "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 38.0,
-      "end": 42.0,
-      "text": "Paired reflections staring back at me",
       "timing_source": "whisper-aligned",
       "matched_words": 5
     },
     {
+      "index": 10,
+      "section": "Verse 1 – soft pad + glitch pulse",
+      "start": 36.82,
+      "end": 42.16,
+      "text": "Paired reflections staring back at me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
       "index": 11,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 42.75,
-      "end": 45.0,
+      "start": 43.3,
+      "end": 44.82,
       "text": "Tables set for two",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -571,8 +357,8 @@
     {
       "index": 12,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 45.0,
-      "end": 47.0,
+      "start": 44.82,
+      "end": 47.06,
       "text": "Tickets printed clean",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -580,8 +366,8 @@
     {
       "index": 13,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 47.0,
-      "end": 49.25,
+      "start": 47.06,
+      "end": 49.38,
       "text": "Every algorithm knows",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -589,8 +375,8 @@
     {
       "index": 14,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 49.25,
-      "end": 51.778,
+      "start": 49.38,
+      "end": 51.92,
       "text": "what I have never been",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -598,8 +384,8 @@
     {
       "index": 15,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 51.778,
-      "end": 54.0,
+      "start": 51.92,
+      "end": 54.68,
       "text": "I drift between the numbers",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -607,8 +393,8 @@
     {
       "index": 16,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 54.0,
-      "end": 55.909,
+      "start": 54.68,
+      "end": 56.9,
       "text": "never quite assigned",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -616,8 +402,8 @@
     {
       "index": 17,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 55.909,
-      "end": 57.818,
+      "start": 56.9,
+      "end": 59.52,
       "text": "An unpaired remainder",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -625,8 +411,8 @@
     {
       "index": 18,
       "section": "Verse 1 – soft pad + glitch pulse",
-      "start": 57.818,
-      "end": 61.0,
+      "start": 59.52,
+      "end": 62.0,
       "text": "in a system well-defined",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -634,8 +420,8 @@
     {
       "index": 19,
       "section": "Hook – airy, fragile melody",
-      "start": 61.0,
-      "end": 62.5,
+      "start": 62.0,
+      "end": 63.36,
       "text": "You orbit",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -643,17 +429,17 @@
     {
       "index": 20,
       "section": "Hook – airy, fragile melody",
-      "start": 62.5,
-      "end": 64.0,
+      "start": 63.72,
+      "end": 64.56,
       "text": "you align",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 21,
       "section": "Hook – airy, fragile melody",
-      "start": 64.0,
-      "end": 67.125,
+      "start": 64.56,
+      "end": 67.6,
       "text": "like gravity was always kind",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -661,17 +447,17 @@
     {
       "index": 22,
       "section": "Hook – airy, fragile melody",
-      "start": 67.75,
-      "end": 68.375,
+      "start": 67.6,
+      "end": 68.44,
       "text": "Two signals",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 23,
       "section": "Hook – airy, fragile melody",
-      "start": 68.375,
-      "end": 69.0,
+      "start": 68.44,
+      "end": 69.54,
       "text": "intertwined",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -679,17 +465,17 @@
     {
       "index": 24,
       "section": "Hook – airy, fragile melody",
-      "start": 69.5,
-      "end": 72.0,
+      "start": 69.54,
+      "end": 72.12,
       "text": "while I flicker out of time",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 25,
       "section": "Hook – airy, fragile melody",
-      "start": 72.0,
-      "end": 74.0,
+      "start": 72.12,
+      "end": 74.48,
       "text": "Zero looking for a one",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -697,8 +483,8 @@
     {
       "index": 26,
       "section": "Hook – airy, fragile melody",
-      "start": 74.0,
-      "end": 78.0,
+      "start": 74.48,
+      "end": 76.84,
       "text": "but I’m neither, never done",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -706,8 +492,8 @@
     {
       "index": 27,
       "section": "Hook – airy, fragile melody",
-      "start": 78.0,
-      "end": 82.0,
+      "start": 76.84,
+      "end": 81.9,
       "text": "Just noise between the lines",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -715,8 +501,8 @@
     {
       "index": 28,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 83.0,
-      "end": 86.0,
+      "start": 82.94,
+      "end": 85.86,
       "text": "Binary logic built into the walls",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -724,17 +510,17 @@
     {
       "index": 29,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 86.0,
-      "end": 88.0,
+      "start": 85.86,
+      "end": 88.14,
       "text": "Left side, right side, rise and fall",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 30,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 88.0,
-      "end": 90.273,
+      "start": 88.14,
+      "end": 90.72,
       "text": "Magnetic poles that always choose",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -742,8 +528,8 @@
     {
       "index": 31,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 90.273,
-      "end": 93.0,
+      "start": 90.72,
+      "end": 93.22,
       "text": "Attract, repel—no room to lose",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -751,8 +537,8 @@
     {
       "index": 32,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 93.0,
-      "end": 96.0,
+      "start": 93.22,
+      "end": 95.64,
       "text": "North finds south without a doubt",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -760,8 +546,8 @@
     {
       "index": 33,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 96.0,
-      "end": 99.0,
+      "start": 95.64,
+      "end": 98.4,
       "text": "Everything knows what it’s about",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -769,8 +555,8 @@
     {
       "index": 34,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 99.0,
-      "end": 101.0,
+      "start": 99.2,
+      "end": 101.68,
       "text": "Meanwhile I’m",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -778,8 +564,8 @@
     {
       "index": 35,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 102.0,
-      "end": 103.0,
+      "start": 101.68,
+      "end": 103.32,
       "text": "a compass spinning",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -787,17 +573,17 @@
     {
       "index": 36,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 103.0,
-      "end": 105.0,
+      "start": 103.32,
+      "end": 104.7,
       "text": "in a room with no field",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 37,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 105.0,
-      "end": 106.286,
+      "start": 105.26,
+      "end": 106.34,
       "text": "Trying to feel",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -805,8 +591,8 @@
     {
       "index": 38,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 106.286,
-      "end": 107.571,
+      "start": 106.34,
+      "end": 107.82,
       "text": "what everyone else",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -814,26 +600,26 @@
     {
       "index": 39,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 107.571,
-      "end": 111.0,
+      "start": 107.82,
+      "end": 111.36,
       "text": "seems pre-wired to feel",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 40,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 111.0,
-      "end": 113.25,
+      "start": 111.36,
+      "end": 114.28,
       "text": "Even silence comes in twos",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 41,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 115.0,
-      "end": 117.0,
+      "start": 115.36,
+      "end": 117.1,
       "text": "Echo answering what it knew",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -841,8 +627,8 @@
     {
       "index": 42,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 117.0,
-      "end": 119.0,
+      "start": 117.1,
+      "end": 119.48,
       "text": "But my voice just dissipates",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -850,8 +636,8 @@
     {
       "index": 43,
       "section": "Verse 2 – spoken rhythm | subtle beat enters",
-      "start": 119.0,
-      "end": 121.571,
+      "start": 119.48,
+      "end": 122.32,
       "text": "before it can be returned to",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -859,8 +645,8 @@
     {
       "index": 44,
       "section": "Hook – slightly fuller | arpeggio grows",
-      "start": 121.571,
-      "end": 122.667,
+      "start": 122.32,
+      "end": 123.38,
       "text": "You orbit",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -868,8 +654,8 @@
     {
       "index": 45,
       "section": "Hook – slightly fuller | arpeggio grows",
-      "start": 122.667,
-      "end": 124.0,
+      "start": 123.68,
+      "end": 124.66,
       "text": "you align",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -877,17 +663,17 @@
     {
       "index": 46,
       "section": "Hook – slightly fuller | arpeggio grows",
-      "start": 124.6,
-      "end": 127.0,
+      "start": 124.66,
+      "end": 127.02,
       "text": "coded deep in your design",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 47,
       "section": "Hook – slightly fuller | arpeggio grows",
-      "start": 127.0,
-      "end": 128.333,
+      "start": 127.02,
+      "end": 128.5,
       "text": "Two currents",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -895,44 +681,44 @@
     {
       "index": 48,
       "section": "Hook – slightly fuller | arpeggio grows",
-      "start": 128.333,
-      "end": 129.0,
+      "start": 128.5,
+      "end": 129.7,
       "text": "intertwined",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 49,
       "section": "Hook – slightly fuller | arpeggio grows",
-      "start": 129.75,
-      "end": 132.0,
+      "start": 129.7,
+      "end": 132.1,
       "text": "closed circuits every time",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 50,
       "section": "Hook – slightly fuller | arpeggio grows",
-      "start": 132.0,
-      "end": 134.0,
+      "start": 132.1,
+      "end": 134.4,
       "text": "Zero reaching for a one",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 51,
       "section": "Hook – slightly fuller | arpeggio grows",
-      "start": 134.0,
-      "end": 138.667,
+      "start": 134.4,
+      "end": 136.88,
       "text": "but I glitch before begun",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 52,
       "section": "Hook – slightly fuller | arpeggio grows",
-      "start": 139.833,
-      "end": 141.0,
+      "start": 136.88,
+      "end": 138.26,
       "text": "Undefined",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -940,8 +726,8 @@
     {
       "index": 53,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 144.0,
-      "end": 148.0,
+      "start": 143.64,
+      "end": 146.04,
       "text": "In a binary star system",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -949,17 +735,17 @@
     {
       "index": 54,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 148.0,
-      "end": 151.0,
+      "start": 146.04,
+      "end": 149.32,
       "text": "everything makes sense",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 55,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 151.0,
-      "end": 152.2,
+      "start": 151.36,
+      "end": 152.9,
       "text": "Two masses",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -967,8 +753,8 @@
     {
       "index": 56,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 152.2,
-      "end": 154.0,
+      "start": 152.9,
+      "end": 154.56,
       "text": "locked in motion",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -976,8 +762,8 @@
     {
       "index": 57,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 154.0,
-      "end": 157.0,
+      "start": 154.56,
+      "end": 157.1,
       "text": "each shaping the other’s path",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -985,8 +771,8 @@
     {
       "index": 58,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 157.0,
-      "end": 158.667,
+      "start": 157.1,
+      "end": 158.72,
       "text": "Predictable",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -994,8 +780,8 @@
     {
       "index": 59,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 158.667,
-      "end": 160.333,
+      "start": 159.28,
+      "end": 159.86,
       "text": "beautiful",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1003,8 +789,8 @@
     {
       "index": 60,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 160.333,
-      "end": 162.0,
+      "start": 160.4,
+      "end": 161.14,
       "text": "inevitable",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1012,8 +798,8 @@
     {
       "index": 61,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 163.0,
-      "end": 165.0,
+      "start": 161.14,
+      "end": 164.32,
       "text": "But introduce a third",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1021,8 +807,8 @@
     {
       "index": 62,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 165.0,
-      "end": 167.0,
+      "start": 165.36,
+      "end": 166.7,
       "text": "and suddenly",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1030,7 +816,7 @@
     {
       "index": 63,
       "section": "Bridge – instrumental swell | warped pads | spoken softly",
-      "start": 167.0,
+      "start": 166.7,
       "end": 169.0,
       "text": "nothing resolves.",
       "timing_source": "whisper-aligned",
@@ -1039,8 +825,8 @@
     {
       "index": 64,
       "section": "Turn – subtle lift | brighter pad enters",
-      "start": 172.0,
-      "end": 174.0,
+      "start": 171.08,
+      "end": 173.38,
       "text": "I am that third body",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1048,8 +834,8 @@
     {
       "index": 65,
       "section": "Turn – subtle lift | brighter pad enters",
-      "start": 174.0,
-      "end": 176.0,
+      "start": 173.38,
+      "end": 176.02,
       "text": "not enough to belong",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1057,8 +843,8 @@
     {
       "index": 66,
       "section": "Turn – subtle lift | brighter pad enters",
-      "start": 176.0,
-      "end": 179.0,
+      "start": 176.02,
+      "end": 178.36,
       "text": "too much to ignore",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1066,8 +852,8 @@
     {
       "index": 67,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 180.0,
-      "end": 182.0,
+      "start": 179.36,
+      "end": 182.2,
       "text": "I watch the pairs like constellations",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1075,8 +861,8 @@
     {
       "index": 68,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 182.0,
-      "end": 185.0,
+      "start": 182.2,
+      "end": 184.72,
       "text": "Perfect in their repetitions",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1084,8 +870,8 @@
     {
       "index": 69,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 185.0,
-      "end": 187.0,
+      "start": 184.72,
+      "end": 187.14,
       "text": "Every orbit writes a story",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1093,35 +879,35 @@
     {
       "index": 70,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 187.6,
-      "end": 190.0,
+      "start": 187.14,
+      "end": 189.6,
       "text": "balanced, held in quiet glory",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 71,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 190.0,
-      "end": 192.0,
+      "start": 189.6,
+      "end": 192.12,
       "text": "And I try to map my place",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 4
     },
     {
       "index": 72,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 193.0,
-      "end": 194.0,
+      "start": 192.12,
+      "end": 194.46,
       "text": "in their synchronized embrace",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 73,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 194.0,
-      "end": 197.0,
+      "start": 194.46,
+      "end": 197.04,
       "text": "But my trajectory just breaks",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1129,8 +915,8 @@
     {
       "index": 74,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 197.0,
-      "end": 200.0,
+      "start": 197.04,
+      "end": 199.7,
       "text": "every pattern I can trace",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1138,8 +924,8 @@
     {
       "index": 75,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 200.0,
-      "end": 202.0,
+      "start": 199.7,
+      "end": 201.98,
       "text": "Maybe I’m not meant to bind",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1147,17 +933,17 @@
     {
       "index": 76,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 202.0,
-      "end": 203.8,
+      "start": 201.98,
+      "end": 204.52,
       "text": "to a single mirrored line",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 77,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 205.0,
-      "end": 207.0,
+      "start": 204.52,
+      "end": 207.22,
       "text": "Maybe I’m the shifting frame",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1165,8 +951,8 @@
     {
       "index": 78,
       "section": "Verse 3 – more melodic | still restrained",
-      "start": 207.0,
-      "end": 209.5,
+      "start": 207.22,
+      "end": 209.72,
       "text": "that no system can contain",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1174,8 +960,8 @@
     {
       "index": 79,
       "section": "Hook – expanded, layered harmonies",
-      "start": 209.5,
-      "end": 210.667,
+      "start": 209.72,
+      "end": 210.96,
       "text": "You orbit",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1183,8 +969,8 @@
     {
       "index": 80,
       "section": "Hook – expanded, layered harmonies",
-      "start": 210.667,
-      "end": 212.0,
+      "start": 211.3,
+      "end": 212.08,
       "text": "you align",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1192,8 +978,8 @@
     {
       "index": 81,
       "section": "Hook – expanded, layered harmonies",
-      "start": 212.0,
-      "end": 214.0,
+      "start": 212.08,
+      "end": 214.68,
       "text": "but your gravity’s not mine",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1201,8 +987,8 @@
     {
       "index": 82,
       "section": "Hook – expanded, layered harmonies",
-      "start": 214.0,
-      "end": 216.0,
+      "start": 214.68,
+      "end": 216.04,
       "text": "Two signals",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1210,8 +996,8 @@
     {
       "index": 83,
       "section": "Hook – expanded, layered harmonies",
-      "start": 216.0,
-      "end": 217.0,
+      "start": 216.04,
+      "end": 216.96,
       "text": "intertwined",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1219,8 +1005,8 @@
     {
       "index": 84,
       "section": "Hook – expanded, layered harmonies",
-      "start": 217.0,
-      "end": 219.0,
+      "start": 216.96,
+      "end": 219.72,
       "text": "I dissolve between the signs",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1228,8 +1014,8 @@
     {
       "index": 85,
       "section": "Hook – expanded, layered harmonies",
-      "start": 219.0,
-      "end": 222.0,
+      "start": 219.72,
+      "end": 221.98,
       "text": "Zero never was a one",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1237,8 +1023,8 @@
     {
       "index": 86,
       "section": "Hook – expanded, layered harmonies",
-      "start": 222.0,
-      "end": 224.0,
+      "start": 221.98,
+      "end": 224.58,
       "text": "still the code keeps running on",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1246,17 +1032,17 @@
     {
       "index": 87,
       "section": "Hook – expanded, layered harmonies",
-      "start": 224.0,
-      "end": 228.167,
+      "start": 224.58,
+      "end": 227.92,
       "text": "And I’m somewhere in the sum",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 88,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 229.0,
-      "end": 231.0,
+      "start": 230.94,
+      "end": 232.06,
       "text": "Zero",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1264,8 +1050,8 @@
     {
       "index": 89,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 231.0,
-      "end": 233.0,
+      "start": 232.58,
+      "end": 233.16,
       "text": "One",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1273,8 +1059,8 @@
     {
       "index": 90,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 233.0,
-      "end": 234.5,
+      "start": 233.9,
+      "end": 234.58,
       "text": "Zero",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1282,17 +1068,17 @@
     {
       "index": 91,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 234.5,
-      "end": 236.0,
+      "start": 234.58,
+      "end": 235.84,
       "text": "One",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "interpolated",
+      "matched_words": 0
     },
     {
       "index": 92,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 236.0,
-      "end": 239.0,
+      "start": 235.84,
+      "end": 237.92,
       "text": "The universe prefers",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1300,8 +1086,8 @@
     {
       "index": 93,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 239.0,
-      "end": 240.2,
+      "start": 238.58,
+      "end": 239.64,
       "text": "a pair",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1309,8 +1095,8 @@
     {
       "index": 94,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 240.2,
-      "end": 242.0,
+      "start": 239.92,
+      "end": 241.06,
       "text": "But I remain",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1318,17 +1104,17 @@
     {
       "index": 95,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 242.0,
-      "end": 244.0,
+      "start": 241.06,
+      "end": 242.8,
       "text": "unresolved",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 96,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 244.0,
-      "end": 246.25,
+      "start": 243.3,
+      "end": 244.72,
       "text": "A third body",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1336,8 +1122,8 @@
     {
       "index": 97,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 246.25,
-      "end": 247.0,
+      "start": 244.72,
+      "end": 246.08,
       "text": "drifting",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1345,8 +1131,8 @@
     {
       "index": 98,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 247.0,
-      "end": 250.0,
+      "start": 246.08,
+      "end": 248.42,
       "text": "through perfect systems",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1354,8 +1140,8 @@
     {
       "index": 99,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 250.0,
-      "end": 253.0,
+      "start": 249.58,
+      "end": 250.96,
       "text": "that were never",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1363,8 +1149,8 @@
     {
       "index": 100,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 253.0,
-      "end": 254.0,
+      "start": 250.96,
+      "end": 252.52,
       "text": "designed",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1372,8 +1158,8 @@
     {
       "index": 101,
       "section": "Outro – minimal | fading pulses | tape decay",
-      "start": 254.0,
-      "end": 257.0,
+      "start": 252.52,
+      "end": 254.58,
       "text": "for me.",
       "timing_source": "whisper-aligned",
       "matched_words": 2

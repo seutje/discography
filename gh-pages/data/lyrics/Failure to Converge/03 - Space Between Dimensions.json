@@ -4,159 +4,420 @@
   "title": "Space Between Dimensions",
   "text_path": "Failure to Converge/03 - Space Between Dimensions.txt",
   "audio_path": "Failure to Converge/audio/03 - Space Between Dimensions.mp3",
-  "duration_seconds": 274.76,
-  "model": "base",
+  "duration_seconds": 258.38,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 95,
     "reference_word_count": 404,
-    "observed_word_count": 976,
-    "matched_word_count": 158,
-    "matched_word_ratio": 0.391,
-    "inserted_adlib_count": 25
+    "observed_word_count": 370,
+    "matched_word_count": 328,
+    "matched_word_ratio": 0.812,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 1,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 9
   },
   "transcript_segments": [
     {
       "start": 0.0,
-      "end": 2.0,
-      "text": "Taste, taste, taste"
+      "end": 1.78,
+      "text": "taste taste taste"
     },
     {
-      "start": 6.0,
-      "end": 8.0,
-      "text": "Refine, acquired"
+      "start": 5.74,
+      "end": 7.22,
+      "text": "refined acquired"
     },
     {
-      "start": 11.0,
-      "end": 12.0,
-      "text": "Does it?"
+      "start": 11.2,
+      "end": 12.04,
+      "text": "does it fit"
     },
     {
-      "start": 17.0,
-      "end": 19.0,
-      "text": "You say you've tried everything once"
+      "start": 16.82,
+      "end": 18.92,
+      "text": "you say you've tried everything once"
     },
     {
-      "start": 19.0,
-      "end": 22.0,
-      "text": "The collected flavors like stamps"
+      "start": 19.46,
+      "end": 21.48,
+      "text": "collected flavors like stamps"
     },
     {
-      "start": 22.0,
-      "end": 24.0,
-      "text": "Maped your tongue across continents"
+      "start": 21.48,
+      "end": 23.92,
+      "text": "mapped your tongue across continents"
     },
     {
-      "start": 24.0,
-      "end": 26.0,
-      "text": "Measure depth and grams"
+      "start": 23.92,
+      "end": 26.3,
+      "text": "measured depth in grams"
     },
     {
-      "start": 26.0,
-      "end": 28.0,
-      "text": "You speak in confident lines"
+      "start": 26.3,
+      "end": 28.88,
+      "text": "you speak in confident lines"
     },
     {
-      "start": 28.0,
-      "end": 30.0,
-      "text": "Draw a boundary"
+      "start": 28.88,
+      "end": 31.2,
+      "text": "draw a boundary call it truth"
     },
     {
-      "start": 30.0,
-      "end": 31.0,
-      "text": "Call it true"
+      "start": 31.2,
+      "end": 33.62,
+      "text": "if it doesn't sit where you expect"
     },
     {
-      "start": 31.0,
-      "end": 33.0,
-      "text": "If it doesn't sit where you expect"
+      "start": 33.62,
+      "end": 36.18,
+      "text": "you say there's nothing to it"
     },
     {
-      "start": 33.0,
-      "end": 36.0,
-      "text": "You say there's nothing to it"
+      "start": 36.18,
+      "end": 38.5,
+      "text": "you lean back simplify"
     },
     {
-      "start": 36.0,
-      "end": 38.0,
-      "text": "You lean back, simplify"
+      "start": 38.5,
+      "end": 41.38,
+      "text": "reduce the world to a choice"
     },
     {
-      "start": 38.0,
-      "end": 41.0,
-      "text": "Reduce the world to a choice"
+      "start": 41.38,
+      "end": 43.86,
+      "text": "either it lands inside your grid"
     },
     {
-      "start": 41.0,
-      "end": 43.0,
-      "text": "See that it lands inside your grid"
+      "start": 43.86,
+      "end": 46.2,
+      "text": "or it dissolves to noise"
     },
     {
-      "start": 43.0,
-      "end": 46.0,
-      "text": "Or it dissolves to noise"
+      "start": 46.2,
+      "end": 48.9,
+      "text": "but i hear shapes in the blur"
     },
     {
-      "start": 46.0,
-      "end": 48.0,
-      "text": "But I hear shapes in the blur"
+      "start": 48.9,
+      "end": 51.3,
+      "text": "little patterns you defer"
     },
     {
-      "start": 48.0,
-      "end": 51.0,
-      "text": "Little patterns you'd differ"
+      "start": 51.3,
+      "end": 54.06,
+      "text": "in the space between dimensions"
     },
     {
-      "start": 51.0,
-      "end": 54.0,
-      "text": "In the space between dimensions"
+      "start": 54.06,
+      "end": 56.7,
+      "text": "there's a signal you don't mention"
     },
     {
-      "start": 54.0,
-      "end": 57.0,
-      "text": "There's a signal you don't mention"
+      "start": 80.2,
+      "end": 86.68,
+      "text": "nine"
     },
     {
-      "start": 57.0,
-      "end": 87.0,
-      "text": "Bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind,"
+      "start": 86.68,
+      "end": 88.58,
+      "text": "i call it messy undefined"
     },
     {
-      "start": 87.0,
-      "end": 117.0,
-      "text": "bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind"
+      "start": 89.14,
+      "end": 91.3,
+      "text": "i call it layered air"
     },
     {
-      "start": 117.0,
-      "end": 147.0,
-      "text": "bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind"
+      "start": 91.3,
+      "end": 93.82,
+      "text": "you flatten what you cannot read"
     },
     {
-      "start": 147.0,
-      "end": 177.0,
-      "text": "bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind, bind"
+      "start": 93.82,
+      "end": 96.28,
+      "text": "then say there's nothing there"
     },
     {
-      "start": 177.0,
-      "end": 207.0,
-      "text": "The scar does accident, becomes a place I breathe, you say it fails, you're simple tests, I say your tests is small Not wrong, just built for fewer views, not built to see it all I hear shapes in the blur, every etch you call a blur In the space between dimensions there's a signal you don't mention It's not random, it's expansion"
+      "start": 96.28,
+      "end": 98.92,
+      "text": "but i hear shapes in the blur"
     },
     {
-      "start": 207.0,
-      "end": 237.0,
-      "text": "Not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise, not noise"
+      "start": 98.92,
+      "end": 101.36,
+      "text": "hidden curves beneath the slur"
     },
     {
-      "start": 237.0,
-      "end": 267.0,
-      "text": "Doesn't need your frame, in the space between dimensions Everything you miss, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains,"
+      "start": 101.36,
+      "end": 103.98,
+      "text": "in the space between dimensions"
     },
     {
-      "start": 267.0,
-      "end": 274.76,
-      "text": "remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains, remains"
+      "start": 103.98,
+      "end": 106.5,
+      "text": "there's a signal you don't mention"
+    },
+    {
+      "start": 106.5,
+      "end": 111.86,
+      "text": "i hear more than one direction"
+    },
+    {
+      "start": 113.22,
+      "end": 114.02,
+      "text": "imagine this"
+    },
+    {
+      "start": 114.6,
+      "end": 117.5,
+      "text": "you draw a single line and everything must fall"
+    },
+    {
+      "start": 118.22,
+      "end": 119.32,
+      "text": "on one side"
+    },
+    {
+      "start": 120.72,
+      "end": 121.52,
+      "text": "or the other"
+    },
+    {
+      "start": 122.14,
+      "end": 123.92,
+      "text": "simple clean decisive"
+    },
+    {
+      "start": 123.92,
+      "end": 127.18,
+      "text": "now imagine standing in a room with more directions"
+    },
+    {
+      "start": 127.18,
+      "end": 128.58,
+      "text": "than you can point to"
+    },
+    {
+      "start": 129.46,
+      "end": 131.4,
+      "text": "where something can be sharp"
+    },
+    {
+      "start": 131.4,
+      "end": 132.8,
+      "text": "depth and soft and broken"
+    },
+    {
+      "start": 133.54,
+      "end": 134.16,
+      "text": "beautiful"
+    },
+    {
+      "start": 134.76,
+      "end": 136.5,
+      "text": "all at once"
+    },
+    {
+      "start": 136.5,
+      "end": 139.12,
+      "text": "you say i don't get it"
+    },
+    {
+      "start": 139.12,
+      "end": 142.34,
+      "text": "so you rename it"
+    },
+    {
+      "start": 144.02,
+      "end": 165.56,
+      "text": "so you rename it"
+    },
+    {
+      "start": 165.56,
+      "end": 165.6,
+      "text": "so you rename it"
+    },
+    {
+      "start": 165.6,
+      "end": 165.62,
+      "text": "so you rename it"
+    },
+    {
+      "start": 165.62,
+      "end": 165.68,
+      "text": "so you rename it"
+    },
+    {
+      "start": 165.68,
+      "end": 165.84,
+      "text": "so you rename it"
+    },
+    {
+      "start": 165.84,
+      "end": 166.02,
+      "text": "so you rename it"
+    },
+    {
+      "start": 166.02,
+      "end": 168.34,
+      "text": "so you rename it"
+    },
+    {
+      "start": 168.34,
+      "end": 169.6,
+      "text": "so you rename it"
+    },
+    {
+      "start": 169.6,
+      "end": 171.4,
+      "text": "so you rename it"
+    },
+    {
+      "start": 171.4,
+      "end": 173.9,
+      "text": "and there's rhythm in the fracture points"
+    },
+    {
+      "start": 173.9,
+      "end": 176.28,
+      "text": "color in the seams"
+    },
+    {
+      "start": 176.28,
+      "end": 178.64,
+      "text": "what you discard as accident"
+    },
+    {
+      "start": 179.4,
+      "end": 181.38,
+      "text": "becomes a place i breathe"
+    },
+    {
+      "start": 181.38,
+      "end": 183.76,
+      "text": "you say it fails your simple test"
+    },
+    {
+      "start": 183.76,
+      "end": 186.2,
+      "text": "i say your test is small"
+    },
+    {
+      "start": 186.2,
+      "end": 188.78,
+      "text": "not wrong just built for fewer views"
+    },
+    {
+      "start": 188.78,
+      "end": 191.38,
+      "text": "not built to see it all"
+    },
+    {
+      "start": 191.38,
+      "end": 193.86,
+      "text": "i hear shapes in the blur"
+    },
+    {
+      "start": 193.86,
+      "end": 196.24,
+      "text": "every edge you call a slur"
+    },
+    {
+      "start": 196.24,
+      "end": 198.98,
+      "text": "in the space between dimensions"
+    },
+    {
+      "start": 198.98,
+      "end": 201.44,
+      "text": "there's a signal you don't mention"
+    },
+    {
+      "start": 201.98,
+      "end": 204.82,
+      "text": "it's not random it's expansion"
+    },
+    {
+      "start": 213.86,
+      "end": 215.94,
+      "text": "not noise"
+    },
+    {
+      "start": 217.48,
+      "end": 218.54,
+      "text": "not noise"
+    },
+    {
+      "start": 219.98,
+      "end": 221.08,
+      "text": "not noise"
+    },
+    {
+      "start": 221.98,
+      "end": 224.14,
+      "text": "just more than one answer"
+    },
+    {
+      "start": 224.14,
+      "end": 226.38,
+      "text": "i hear shapes in the blur"
+    },
+    {
+      "start": 226.38,
+      "end": 228.82,
+      "text": "every maybe every unsure"
+    },
+    {
+      "start": 228.82,
+      "end": 231.42,
+      "text": "in the space between dimensions"
+    },
+    {
+      "start": 231.42,
+      "end": 234.0,
+      "text": "there's a signal you don't mention"
+    },
+    {
+      "start": 234.0,
+      "end": 236.42,
+      "text": "and it's louder when it's strange"
+    },
+    {
+      "start": 236.42,
+      "end": 238.86,
+      "text": "and it doesn't need your frame"
+    },
+    {
+      "start": 238.86,
+      "end": 241.66,
+      "text": "in the space between dimensions"
+    },
+    {
+      "start": 242.38,
+      "end": 245.0,
+      "text": "everything you miss remains"
+    },
+    {
+      "start": 249.1,
+      "end": 250.02,
+      "text": "t's"
+    },
+    {
+      "start": 252.38,
+      "end": 254.64,
+      "text": "nine"
+    },
+    {
+      "start": 258.1,
+      "end": 258.38,
+      "text": "nine"
     }
   ],
   "lines": [
@@ -164,7 +425,7 @@
       "index": 0,
       "section": "Intro – fractured audio | scattered clicks | filtered voice fragments",
       "start": 0.0,
-      "end": 0.667,
+      "end": 0.36,
       "text": "taste—",
       "timing_source": "whisper-aligned",
       "matched_words": 1,
@@ -173,8 +434,8 @@
     {
       "index": 1,
       "section": "Intro – fractured audio | scattered clicks | filtered voice fragments",
-      "start": 0.667,
-      "end": 2.0,
+      "start": 0.58,
+      "end": 1.78,
       "text": "taste—taste—",
       "timing_source": "whisper-aligned",
       "matched_words": 2,
@@ -183,18 +444,18 @@
     {
       "index": 2,
       "section": "Intro – fractured audio | scattered clicks | filtered voice fragments",
-      "start": 6.0,
-      "end": 8.0,
+      "start": 5.74,
+      "end": 6.58,
       "text": "\"refined\"",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0,
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
       "line_type": "lyric-sheet"
     },
     {
       "index": 3,
       "section": "Intro – fractured audio | scattered clicks | filtered voice fragments",
-      "start": 8.0,
-      "end": 8.1,
+      "start": 6.78,
+      "end": 7.22,
       "text": "\"acquired\"",
       "timing_source": "whisper-aligned",
       "matched_words": 1,
@@ -203,18 +464,18 @@
     {
       "index": 4,
       "section": "Intro – fractured audio | scattered clicks | filtered voice fragments",
-      "start": 11.0,
-      "end": 12.0,
+      "start": 10.96,
+      "end": 12.04,
       "text": "(does it fit?)",
       "timing_source": "whisper-aligned",
-      "matched_words": 2,
+      "matched_words": 3,
       "line_type": "lyric-sheet"
     },
     {
       "index": 5,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 17.0,
-      "end": 19.0,
+      "start": 16.82,
+      "end": 18.92,
       "text": "You say you’ve tried everything once",
       "timing_source": "whisper-aligned",
       "matched_words": 6,
@@ -223,8 +484,8 @@
     {
       "index": 6,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 19.6,
-      "end": 22.0,
+      "start": 19.46,
+      "end": 21.48,
       "text": "Collected flavors like stamps",
       "timing_source": "whisper-aligned",
       "matched_words": 4,
@@ -233,28 +494,28 @@
     {
       "index": 7,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 22.4,
-      "end": 24.0,
+      "start": 21.48,
+      "end": 23.92,
       "text": "Mapped your tongue across continents",
       "timing_source": "whisper-aligned",
-      "matched_words": 4,
+      "matched_words": 5,
       "line_type": "lyric-sheet"
     },
     {
       "index": 8,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 24.5,
-      "end": 26.0,
+      "start": 23.92,
+      "end": 26.3,
       "text": "Measured depth in grams",
       "timing_source": "whisper-aligned",
-      "matched_words": 2,
+      "matched_words": 4,
       "line_type": "lyric-sheet"
     },
     {
       "index": 9,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 26.0,
-      "end": 28.0,
+      "start": 26.3,
+      "end": 28.88,
       "text": "You speak in confident lines",
       "timing_source": "whisper-aligned",
       "matched_words": 5,
@@ -263,18 +524,18 @@
     {
       "index": 10,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 28.0,
-      "end": 30.667,
+      "start": 28.88,
+      "end": 31.2,
       "text": "Draw a boundary, call it truth",
       "timing_source": "whisper-aligned",
-      "matched_words": 5,
+      "matched_words": 6,
       "line_type": "lyric-sheet"
     },
     {
       "index": 11,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 31.0,
-      "end": 33.0,
+      "start": 31.2,
+      "end": 33.62,
       "text": "If it doesn’t sit where you expect",
       "timing_source": "whisper-aligned",
       "matched_words": 7,
@@ -283,8 +544,8 @@
     {
       "index": 12,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 33.0,
-      "end": 36.0,
+      "start": 33.62,
+      "end": 36.18,
       "text": "You say there’s nothing to it",
       "timing_source": "whisper-aligned",
       "matched_words": 6,
@@ -293,8 +554,8 @@
     {
       "index": 13,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 36.0,
-      "end": 38.0,
+      "start": 36.18,
+      "end": 38.5,
       "text": "You lean back, simplify",
       "timing_source": "whisper-aligned",
       "matched_words": 4,
@@ -303,8 +564,8 @@
     {
       "index": 14,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 38.0,
-      "end": 41.0,
+      "start": 38.5,
+      "end": 41.38,
       "text": "Reduce the world to a choice",
       "timing_source": "whisper-aligned",
       "matched_words": 6,
@@ -313,18 +574,18 @@
     {
       "index": 15,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 41.571,
-      "end": 43.0,
+      "start": 41.38,
+      "end": 43.86,
       "text": "Either it lands inside your grid",
       "timing_source": "whisper-aligned",
-      "matched_words": 5,
+      "matched_words": 6,
       "line_type": "lyric-sheet"
     },
     {
       "index": 16,
       "section": "Verse 1 – sparse beat | off-grid percussion | dry vocal",
-      "start": 43.0,
-      "end": 46.0,
+      "start": 43.86,
+      "end": 46.2,
       "text": "Or it dissolves to noise",
       "timing_source": "whisper-aligned",
       "matched_words": 5,
@@ -333,8 +594,8 @@
     {
       "index": 17,
       "section": "Chorus 1 – soft melody | minimal harmony",
-      "start": 46.0,
-      "end": 48.0,
+      "start": 46.2,
+      "end": 48.9,
       "text": "But I hear shapes in the blur",
       "timing_source": "whisper-aligned",
       "matched_words": 7,
@@ -343,18 +604,18 @@
     {
       "index": 18,
       "section": "Chorus 1 – soft melody | minimal harmony",
-      "start": 48.0,
-      "end": 49.5,
+      "start": 48.9,
+      "end": 51.3,
       "text": "Little patterns you defer",
       "timing_source": "whisper-aligned",
-      "matched_words": 2,
+      "matched_words": 4,
       "line_type": "lyric-sheet"
     },
     {
       "index": 19,
       "section": "Chorus 1 – soft melody | minimal harmony",
-      "start": 51.0,
-      "end": 54.0,
+      "start": 51.3,
+      "end": 54.06,
       "text": "In the space between dimensions",
       "timing_source": "whisper-aligned",
       "matched_words": 5,
@@ -363,8 +624,8 @@
     {
       "index": 20,
       "section": "Chorus 1 – soft melody | minimal harmony",
-      "start": 54.0,
-      "end": 57.0,
+      "start": 54.06,
+      "end": 56.7,
       "text": "There’s a signal you don’t mention",
       "timing_source": "whisper-aligned",
       "matched_words": 6,
@@ -373,8 +634,8 @@
     {
       "index": 21,
       "section": "Glitch break – rhythmic stutter | chopped vocal bits",
-      "start": 57.0,
-      "end": 62.625,
+      "start": 56.7,
+      "end": 58.792,
       "text": "line—line—line—",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -383,8 +644,8 @@
     {
       "index": 22,
       "section": "Glitch break – rhythmic stutter | chopped vocal bits",
-      "start": 62.625,
-      "end": 66.375,
+      "start": 58.792,
+      "end": 60.186,
       "text": "not enough—",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -393,8 +654,8 @@
     {
       "index": 23,
       "section": "Glitch break – rhythmic stutter | chopped vocal bits",
-      "start": 66.375,
-      "end": 70.125,
+      "start": 60.186,
+      "end": 61.58,
       "text": "not enough—",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -403,8 +664,8 @@
     {
       "index": 24,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 70.125,
-      "end": 79.5,
+      "start": 61.58,
+      "end": 65.067,
       "text": "You classify your dinner plate",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -413,8 +674,8 @@
     {
       "index": 25,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 79.5,
-      "end": 87.0,
+      "start": 65.067,
+      "end": 67.855,
       "text": "Sweet, bitter, salt, divide",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -423,8 +684,8 @@
     {
       "index": 26,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 87.0,
-      "end": 96.375,
+      "start": 67.855,
+      "end": 71.341,
       "text": "Everything has its proper place",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -433,8 +694,8 @@
     {
       "index": 27,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 96.375,
-      "end": 102.0,
+      "start": 71.341,
+      "end": 73.433,
       "text": "Everything neatly defined",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -443,8 +704,8 @@
     {
       "index": 28,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 102.0,
-      "end": 113.25,
+      "start": 73.433,
+      "end": 77.616,
       "text": "I wander through a wider frame",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -453,8 +714,8 @@
     {
       "index": 29,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 113.25,
-      "end": 118.875,
+      "start": 77.616,
+      "end": 79.708,
       "text": "Where edges overlap",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -463,8 +724,8 @@
     {
       "index": 30,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 118.875,
-      "end": 130.125,
+      "start": 79.708,
+      "end": 83.891,
       "text": "Where something strange can still belong",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -473,8 +734,8 @@
     {
       "index": 31,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 130.125,
-      "end": 137.625,
+      "start": 83.891,
+      "end": 86.68,
       "text": "Without a label snapped",
       "timing_source": "interpolated",
       "matched_words": 0,
@@ -483,498 +744,498 @@
     {
       "index": 32,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 137.625,
-      "end": 147.0,
+      "start": 86.68,
+      "end": 88.58,
       "text": "You call it messy, undefined",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "timing_source": "whisper-aligned",
+      "matched_words": 4,
       "line_type": "lyric-sheet"
     },
     {
       "index": 33,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 147.0,
-      "end": 156.375,
+      "start": 88.71,
+      "end": 91.3,
       "text": "I call it layered air",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
       "line_type": "lyric-sheet"
     },
     {
       "index": 34,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 156.375,
-      "end": 167.625,
+      "start": 91.3,
+      "end": 93.82,
       "text": "You flatten what you cannot read",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
       "line_type": "lyric-sheet"
     },
     {
       "index": 35,
       "section": "Verse 2 – fuller texture | syncopated bass",
-      "start": 167.625,
-      "end": 177.0,
+      "start": 93.82,
+      "end": 96.28,
       "text": "Then say there’s nothing there",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
       "line_type": "lyric-sheet"
     },
     {
       "index": 36,
       "section": "Chorus 2 – slightly expanded | subtle harmony drift",
-      "start": 177.0,
-      "end": 177.476,
+      "start": 96.28,
+      "end": 98.92,
       "text": "But I hear shapes in the blur",
       "timing_source": "whisper-aligned",
-      "matched_words": 1,
+      "matched_words": 7,
       "line_type": "lyric-sheet"
     },
     {
       "index": 37,
       "section": "Chorus 2 – slightly expanded | subtle harmony drift",
-      "start": 177.476,
-      "end": 177.576,
+      "start": 98.92,
+      "end": 101.36,
       "text": "Hidden curves beneath the slur",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
       "line_type": "lyric-sheet"
     },
     {
       "index": 38,
       "section": "Chorus 2 – slightly expanded | subtle harmony drift",
-      "start": 177.576,
-      "end": 207.0,
+      "start": 101.36,
+      "end": 103.98,
       "text": "In the space between dimensions",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0,
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
       "line_type": "lyric-sheet"
     },
     {
       "index": 39,
       "section": "Chorus 2 – slightly expanded | subtle harmony drift",
-      "start": 207.0,
-      "end": 207.1,
+      "start": 103.98,
+      "end": 106.5,
       "text": "There’s a signal you don’t mention",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0,
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
       "line_type": "lyric-sheet"
     },
     {
       "index": 40,
-      "section": "Detected ad-lib",
-      "start": 207.0,
-      "end": 207.405,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Chorus 2 – slightly expanded | subtle harmony drift",
+      "start": 106.5,
+      "end": 111.86,
+      "text": "(I hear more than one direction)",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 41,
-      "section": "Chorus 2 – slightly expanded | subtle harmony drift",
-      "start": 207.1,
-      "end": 207.2,
-      "text": "(I hear more than one direction)",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
+      "start": 113.05,
+      "end": 114.02,
+      "text": "Imagine this—",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2,
       "line_type": "lyric-sheet"
     },
     {
       "index": 42,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 207.2,
-      "end": 207.3,
-      "text": "Imagine this—",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 114.4,
+      "end": 115.86,
+      "text": "you draw a single line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
       "line_type": "lyric-sheet"
     },
     {
       "index": 43,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 207.3,
-      "end": 207.4,
-      "text": "you draw a single line",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 115.86,
+      "end": 117.5,
+      "text": "and everything must fall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4,
       "line_type": "lyric-sheet"
     },
     {
       "index": 44,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 207.4,
-      "end": 207.5,
-      "text": "and everything must fall",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 118.04,
+      "end": 119.32,
+      "text": "on one side",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3,
       "line_type": "lyric-sheet"
     },
     {
       "index": 45,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 207.5,
-      "end": 207.6,
-      "text": "on one side",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 120.5,
+      "end": 121.52,
+      "text": "or the other",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3,
       "line_type": "lyric-sheet"
     },
     {
       "index": 46,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 207.6,
-      "end": 207.7,
-      "text": "or the other",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0,
+      "start": 122.14,
+      "end": 122.64,
+      "text": "simple",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
       "line_type": "lyric-sheet"
     },
     {
       "index": 47,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 207.7,
-      "end": 207.8,
-      "text": "simple",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0,
+      "start": 122.86,
+      "end": 123.28,
+      "text": "clean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
       "line_type": "lyric-sheet"
     },
     {
       "index": 48,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 207.8,
-      "end": 207.9,
-      "text": "clean",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 123.48,
+      "end": 123.92,
+      "text": "decisive",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
       "line_type": "lyric-sheet"
     },
     {
       "index": 49,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 207.9,
-      "end": 208.0,
-      "text": "decisive",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 123.92,
+      "end": 125.26,
+      "text": "Now imagine standing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3,
       "line_type": "lyric-sheet"
     },
     {
       "index": 50,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 208.0,
-      "end": 208.1,
-      "text": "Now imagine standing",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 125.26,
+      "end": 127.18,
+      "text": "in a room with more directions",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
       "line_type": "lyric-sheet"
     },
     {
       "index": 51,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 208.1,
-      "end": 208.2,
-      "text": "in a room with more directions",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 127.18,
+      "end": 128.58,
+      "text": "than you can point to",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
       "line_type": "lyric-sheet"
     },
     {
       "index": 52,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 208.2,
-      "end": 208.3,
-      "text": "than you can point to",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 129.3,
+      "end": 130.9,
+      "text": "where something can be",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4,
       "line_type": "lyric-sheet"
     },
     {
       "index": 53,
-      "section": "Detected ad-lib",
-      "start": 208.216,
-      "end": 208.622,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
+      "start": 130.9,
+      "end": 131.4,
+      "text": "sharp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 54,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 208.3,
-      "end": 208.4,
-      "text": "where something can be",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 131.56,
+      "end": 132.12,
+      "text": "and soft",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2,
       "line_type": "lyric-sheet"
     },
     {
       "index": 55,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 208.4,
-      "end": 208.5,
-      "text": "sharp",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 132.12,
+      "end": 132.8,
+      "text": "and broken",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2,
       "line_type": "lyric-sheet"
     },
     {
       "index": 56,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 208.5,
-      "end": 208.6,
-      "text": "and soft",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 133.54,
+      "end": 134.16,
+      "text": "and beautiful",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
       "line_type": "lyric-sheet"
     },
     {
       "index": 57,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 208.6,
-      "end": 208.7,
-      "text": "and broken",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 134.76,
+      "end": 136.5,
+      "text": "all at once",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3,
       "line_type": "lyric-sheet"
     },
     {
       "index": 58,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 208.7,
-      "end": 208.8,
-      "text": "and beautiful",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "start": 136.5,
+      "end": 139.12,
+      "text": "You say, “I don’t get it”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
       "line_type": "lyric-sheet"
     },
     {
       "index": 59,
       "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 208.8,
-      "end": 208.9,
-      "text": "all at once",
+      "start": 139.12,
+      "end": 142.34,
+      "text": "so you rename it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 60,
+      "section": "Drop – glitch swell | fragmented chorus elements layered",
+      "start": 142.34,
+      "end": 143.18,
+      "text": "noise—",
       "timing_source": "interpolated",
       "matched_words": 0,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 60,
-      "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 208.9,
-      "end": 209.0,
-      "text": "You say, “I don’t get it”",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
       "index": 61,
-      "section": "Bridge – spoken explanation | stripped back | warm pad emerges",
-      "start": 209.0,
-      "end": 209.1,
-      "text": "so you rename it",
+      "section": "Drop – glitch swell | fragmented chorus elements layered",
+      "start": 143.18,
+      "end": 144.02,
+      "text": "noise—",
       "timing_source": "interpolated",
       "matched_words": 0,
       "line_type": "lyric-sheet"
     },
     {
       "index": 62,
-      "section": "Drop – glitch swell | fragmented chorus elements layered",
-      "start": 209.1,
-      "end": 237.0,
-      "text": "noise—",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0,
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 144.02,
+      "end": 158.3,
+      "text": "You taste the world in straight divides",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1,
       "line_type": "lyric-sheet"
     },
     {
       "index": 63,
-      "section": "Detected ad-lib",
-      "start": 209.432,
-      "end": 209.838,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 158.3,
+      "end": 162.72,
+      "text": "I hear it fold and bend",
+      "timing_source": "interpolated",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 64,
-      "section": "Detected ad-lib",
-      "start": 210.649,
-      "end": 211.054,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 162.72,
+      "end": 167.14,
+      "text": "A chord that shouldn’t make sense",
+      "timing_source": "interpolated",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 65,
-      "section": "Detected ad-lib",
-      "start": 211.865,
-      "end": 212.27,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 167.14,
+      "end": 171.56,
+      "text": "Still finds a way to land",
+      "timing_source": "interpolated",
+      "matched_words": 0,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 66,
-      "section": "Detected ad-lib",
-      "start": 213.081,
-      "end": 213.486,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 171.56,
+      "end": 173.9,
+      "text": "There’s rhythm in the fracture points",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 67,
-      "section": "Detected ad-lib",
-      "start": 214.297,
-      "end": 214.703,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 173.9,
+      "end": 176.28,
+      "text": "Color in the seams",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 68,
-      "section": "Detected ad-lib",
-      "start": 215.514,
-      "end": 215.919,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 176.28,
+      "end": 178.64,
+      "text": "What you discard as accident",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 69,
-      "section": "Detected ad-lib",
-      "start": 216.73,
-      "end": 217.135,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 179.4,
+      "end": 181.38,
+      "text": "Becomes a place I breathe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 70,
-      "section": "Detected ad-lib",
-      "start": 217.946,
-      "end": 218.351,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 181.38,
+      "end": 183.76,
+      "text": "You say it fails your simple test",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 71,
-      "section": "Detected ad-lib",
-      "start": 219.162,
-      "end": 219.568,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 183.76,
+      "end": 186.2,
+      "text": "I say your test is small",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 72,
-      "section": "Detected ad-lib",
-      "start": 220.378,
-      "end": 220.784,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 186.2,
+      "end": 188.78,
+      "text": "Not wrong—just built for fewer views",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 73,
-      "section": "Detected ad-lib",
-      "start": 221.595,
-      "end": 222.0,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
+      "start": 188.78,
+      "end": 191.38,
+      "text": "Not built to see it all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 74,
-      "section": "Detected ad-lib",
-      "start": 222.811,
-      "end": 223.216,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Chorus 3 – fuller, warmer, slightly anthemic",
+      "start": 191.38,
+      "end": 193.86,
+      "text": "I hear shapes in the blur",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 75,
-      "section": "Detected ad-lib",
-      "start": 224.027,
-      "end": 224.432,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Chorus 3 – fuller, warmer, slightly anthemic",
+      "start": 193.86,
+      "end": 196.24,
+      "text": "Every edge you call a slur",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 76,
-      "section": "Detected ad-lib",
-      "start": 225.243,
-      "end": 225.649,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Chorus 3 – fuller, warmer, slightly anthemic",
+      "start": 196.24,
+      "end": 198.98,
+      "text": "In the space between dimensions",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 77,
-      "section": "Detected ad-lib",
-      "start": 226.459,
-      "end": 226.865,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Chorus 3 – fuller, warmer, slightly anthemic",
+      "start": 198.98,
+      "end": 201.44,
+      "text": "There’s a signal you don’t mention",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 78,
-      "section": "Detected ad-lib",
-      "start": 227.676,
-      "end": 228.081,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "section": "Chorus 3 – fuller, warmer, slightly anthemic",
+      "start": 201.98,
+      "end": 204.82,
+      "text": "(It’s not random—it’s expansion)",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5,
+      "line_type": "lyric-sheet"
     },
     {
       "index": 79,
-      "section": "Detected ad-lib",
-      "start": 228.892,
-      "end": 229.297,
+      "section": "Breakdown – near silence | isolated vocal layers drifting",
+      "start": 213.86,
+      "end": 215.94,
       "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
+      "timing_source": "whisper-aligned",
       "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "line_type": "lyric-sheet"
     },
     {
       "index": 80,
-      "section": "Detected ad-lib",
-      "start": 230.108,
-      "end": 230.514,
+      "section": "Breakdown – near silence | isolated vocal layers drifting",
+      "start": 217.26,
+      "end": 218.54,
       "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
+      "timing_source": "whisper-aligned",
       "matched_words": 2,
-      "line_type": "transcript-adlib"
+      "line_type": "lyric-sheet"
     },
     {
       "index": 81,
       "section": "Detected ad-lib",
-      "start": 231.324,
-      "end": 231.73,
+      "start": 219.98,
+      "end": 221.08,
       "text": "not noise—",
       "timing_source": "transcript-repeated-adlib",
       "matched_words": 2,
@@ -982,379 +1243,139 @@
     },
     {
       "index": 82,
-      "section": "Detected ad-lib",
-      "start": 232.541,
-      "end": 232.946,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
-    },
-    {
-      "index": 83,
-      "section": "Detected ad-lib",
-      "start": 233.757,
-      "end": 234.162,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
-    },
-    {
-      "index": 84,
-      "section": "Detected ad-lib",
-      "start": 234.973,
-      "end": 235.378,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
-    },
-    {
-      "index": 85,
-      "section": "Detected ad-lib",
-      "start": 236.189,
-      "end": 236.595,
-      "text": "not noise—",
-      "timing_source": "transcript-repeated-adlib",
-      "matched_words": 2,
-      "line_type": "transcript-adlib"
-    },
-    {
-      "index": 86,
-      "section": "Drop – glitch swell | fragmented chorus elements layered",
-      "start": 237.0,
-      "end": 237.1,
-      "text": "noise—",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 87,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 237.1,
-      "end": 237.2,
-      "text": "You taste the world in straight divides",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 88,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 237.2,
-      "end": 237.3,
-      "text": "I hear it fold and bend",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 89,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 237.3,
-      "end": 237.4,
-      "text": "A chord that shouldn’t make sense",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 90,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 237.4,
-      "end": 237.5,
-      "text": "Still finds a way to land",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 91,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 237.5,
-      "end": 237.6,
-      "text": "There’s rhythm in the fracture points",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 92,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 237.6,
-      "end": 237.7,
-      "text": "Color in the seams",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 93,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 237.7,
-      "end": 237.8,
-      "text": "What you discard as accident",
+      "section": "Breakdown – near silence | isolated vocal layers drifting",
+      "start": 221.68,
+      "end": 222.2,
+      "text": "just…",
       "timing_source": "whisper-aligned",
       "matched_words": 1,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 94,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 237.8,
-      "end": 237.9,
-      "text": "Becomes a place I breathe",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 95,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 237.9,
-      "end": 238.0,
-      "text": "You say it fails your simple test",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 96,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 238.0,
-      "end": 238.1,
-      "text": "I say your test is small",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 97,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 238.1,
-      "end": 238.2,
-      "text": "Not wrong—just built for fewer views",
-      "timing_source": "whisper-aligned",
-      "matched_words": 7,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 98,
-      "section": "Verse 3 – more melodic | richer harmonies | evolving rhythm",
-      "start": 238.2,
-      "end": 238.3,
-      "text": "Not built to see it all",
-      "timing_source": "whisper-aligned",
-      "matched_words": 6,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 99,
-      "section": "Chorus 3 – fuller, warmer, slightly anthemic",
-      "start": 238.3,
-      "end": 238.4,
-      "text": "I hear shapes in the blur",
-      "timing_source": "whisper-aligned",
-      "matched_words": 6,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 100,
-      "section": "Chorus 3 – fuller, warmer, slightly anthemic",
-      "start": 238.4,
-      "end": 238.5,
-      "text": "Every edge you call a slur",
+      "index": 83,
+      "section": "Breakdown – near silence | isolated vocal layers drifting",
+      "start": 222.2,
+      "end": 224.14,
+      "text": "more than one answer",
       "timing_source": "whisper-aligned",
       "matched_words": 4,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 101,
-      "section": "Chorus 3 – fuller, warmer, slightly anthemic",
-      "start": 238.5,
-      "end": 238.6,
+      "index": 84,
+      "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
+      "start": 224.14,
+      "end": 226.38,
+      "text": "I hear shapes in the blur",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 85,
+      "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
+      "start": 226.38,
+      "end": 228.82,
+      "text": "Every maybe, every “unsure”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4,
+      "line_type": "lyric-sheet"
+    },
+    {
+      "index": 86,
+      "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
+      "start": 228.82,
+      "end": 231.42,
       "text": "In the space between dimensions",
       "timing_source": "whisper-aligned",
       "matched_words": 5,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 102,
-      "section": "Chorus 3 – fuller, warmer, slightly anthemic",
-      "start": 238.6,
-      "end": 238.7,
+      "index": 87,
+      "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
+      "start": 231.42,
+      "end": 234.0,
       "text": "There’s a signal you don’t mention",
       "timing_source": "whisper-aligned",
       "matched_words": 6,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 103,
-      "section": "Chorus 3 – fuller, warmer, slightly anthemic",
-      "start": 238.7,
-      "end": 238.8,
-      "text": "(It’s not random—it’s expansion)",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 104,
-      "section": "Breakdown – near silence | isolated vocal layers drifting",
-      "start": 238.8,
-      "end": 238.9,
-      "text": "not noise—",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 105,
-      "section": "Breakdown – near silence | isolated vocal layers drifting",
-      "start": 238.9,
-      "end": 239.0,
-      "text": "not noise—",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 106,
-      "section": "Breakdown – near silence | isolated vocal layers drifting",
-      "start": 239.0,
-      "end": 239.1,
-      "text": "just…",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 107,
-      "section": "Breakdown – near silence | isolated vocal layers drifting",
-      "start": 239.1,
-      "end": 239.2,
-      "text": "more than one answer",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 108,
+      "index": 88,
       "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
-      "start": 239.2,
-      "end": 239.3,
-      "text": "I hear shapes in the blur",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 109,
-      "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
-      "start": 239.3,
-      "end": 239.4,
-      "text": "Every maybe, every “unsure”",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 110,
-      "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
-      "start": 239.4,
-      "end": 267.0,
-      "text": "In the space between dimensions",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 111,
-      "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
-      "start": 267.0,
-      "end": 267.1,
-      "text": "There’s a signal you don’t mention",
-      "timing_source": "interpolated",
-      "matched_words": 0,
-      "line_type": "lyric-sheet"
-    },
-    {
-      "index": 112,
-      "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
-      "start": 267.1,
-      "end": 267.2,
+      "start": 234.0,
+      "end": 236.42,
       "text": "And it’s louder when it’s strange",
-      "timing_source": "interpolated",
-      "matched_words": 0,
+      "timing_source": "whisper-aligned",
+      "matched_words": 6,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 113,
+      "index": 89,
       "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
-      "start": 267.2,
-      "end": 267.3,
+      "start": 236.42,
+      "end": 238.86,
       "text": "And it doesn’t need your frame",
       "timing_source": "whisper-aligned",
-      "matched_words": 4,
+      "matched_words": 6,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 114,
+      "index": 90,
       "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
-      "start": 267.3,
-      "end": 267.4,
+      "start": 238.86,
+      "end": 241.66,
       "text": "In the space between dimensions",
       "timing_source": "whisper-aligned",
       "matched_words": 5,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 115,
+      "index": 91,
       "section": "Final Chorus – widest arrangement | shimmering layers | emotional lift",
-      "start": 267.4,
-      "end": 267.5,
+      "start": 242.38,
+      "end": 245.0,
       "text": "Everything you miss remains",
       "timing_source": "whisper-aligned",
       "matched_words": 4,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 116,
+      "index": 92,
       "section": "Outro – dissolving textures | fading fragments",
-      "start": 267.5,
-      "end": 267.6,
+      "start": 245.0,
+      "end": 248.69,
       "text": "taste—",
       "timing_source": "interpolated",
       "matched_words": 0,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 117,
+      "index": 93,
       "section": "Outro – dissolving textures | fading fragments",
-      "start": 267.6,
-      "end": 267.7,
+      "start": 248.69,
+      "end": 252.38,
       "text": "test—",
       "timing_source": "interpolated",
       "matched_words": 0,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 118,
+      "index": 94,
       "section": "Outro – dissolving textures | fading fragments",
-      "start": 267.7,
-      "end": 267.8,
+      "start": 252.38,
+      "end": 254.64,
       "text": "line…",
-      "timing_source": "interpolated",
+      "timing_source": "whisper-segment-fuzzy",
       "matched_words": 0,
       "line_type": "lyric-sheet"
     },
     {
-      "index": 119,
+      "index": 95,
       "section": "Outro – dissolving textures | fading fragments",
-      "start": 267.8,
-      "end": 274.76,
+      "start": 254.64,
+      "end": 258.38,
       "text": "(or maybe a field)",
       "timing_source": "interpolated",
       "matched_words": 0,

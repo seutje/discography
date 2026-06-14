@@ -4,198 +4,269 @@
   "title": "Single-Core Optimized",
   "text_path": "Failure to Converge/12 - Single-Core Optimized.txt",
   "audio_path": "Failure to Converge/audio/12 - Single-Core Optimized.mp3",
-  "duration_seconds": 250.0,
-  "model": "base",
+  "duration_seconds": 248.54,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 85,
     "reference_word_count": 329,
-    "observed_word_count": 335,
-    "matched_word_count": 283,
-    "matched_word_ratio": 0.86,
-    "inserted_adlib_count": 0
+    "observed_word_count": 330,
+    "matched_word_count": 318,
+    "matched_word_ratio": 0.967,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 28.0,
-      "text": "Good sequence of arms, no audience required, a quiet system, learning its own rhythm,"
+      "start": 9.96,
+      "end": 18.04,
+      "text": "boot sequence hums no audience required"
     },
     {
-      "start": 28.0,
-      "end": 40.0,
-      "text": "No excess, no noise, just enough to peek in."
+      "start": 20.12,
+      "end": 27.42,
+      "text": "a quiet system learning its own rhythm"
     },
     {
-      "start": 40.0,
-      "end": 54.0,
-      "text": "I've turned the edges off the day, cut the background, drift away, close the tabs I didn't"
+      "start": 27.42,
+      "end": 33.34,
+      "text": "no excess no noise"
     },
     {
-      "start": 54.0,
-      "end": 55.0,
-      "text": "need."
+      "start": 34.94,
+      "end": 37.9,
+      "text": "just enough to begin"
     },
     {
-      "start": 55.0,
-      "end": 62.0,
-      "text": "Left one window just for me, no racing threads in my head, no cure for things left unsaid."
+      "start": 46.38,
+      "end": 51.98,
+      "text": "i trim the edges off the day cut the background drift away"
     },
     {
-      "start": 62.0,
-      "end": 69.0,
-      "text": "Every cycle finds its place, nothing lost, nothing to chase, I used to think."
+      "start": 51.98,
+      "end": 56.9,
+      "text": "close the tabs i didn't need left one window just for me"
     },
     {
-      "start": 69.0,
-      "end": 77.0,
-      "text": "Moment alive, now I let the silence compile."
+      "start": 56.9,
+      "end": 61.86,
+      "text": "no racing threads in my head no queue of things left unsaid"
     },
     {
-      "start": 77.0,
-      "end": 85.0,
-      "text": "Single core optimized, a run that I'm on my hand, I know overflow, now divide."
+      "start": 61.86,
+      "end": 66.92,
+      "text": "every cycle finds its place nothing lost nothing to chase"
     },
     {
-      "start": 85.0,
-      "end": 95.0,
-      "text": "Just a steady state of mind, single core optimized, no one else I need to align in this small, perfect design."
+      "start": 66.92,
+      "end": 71.06,
+      "text": "i used to think more meant to live"
     },
     {
-      "start": 95.0,
-      "end": 107.0,
-      "text": "Everything is mine."
+      "start": 71.92,
+      "end": 76.06,
+      "text": "now i let the silence compile"
     },
     {
-      "start": 107.0,
-      "end": 117.0,
-      "text": "Used to mirror every sound, shaped myself to fit the crowd, latency in every move, waiting just to be approved."
+      "start": 77.56,
+      "end": 82.56,
+      "text": "single core optimized i run better on my own time"
     },
     {
-      "start": 117.0,
-      "end": 122.0,
-      "text": "Now the signals clean and clear, no distortion when I'm here."
+      "start": 82.56,
+      "end": 87.76,
+      "text": "no overflow no divide just a steady state of mind"
     },
     {
-      "start": 122.0,
-      "end": 131.0,
-      "text": "Every thought arrives on cue, process slow enough to feel true, I don't lack, I don't compete."
+      "start": 87.76,
+      "end": 92.86,
+      "text": "single core optimized no one else i need to align"
     },
     {
-      "start": 131.0,
-      "end": 137.0,
-      "text": "I just loop, what feels complete."
+      "start": 92.86,
+      "end": 98.24,
+      "text": "in this small perfect design everything is mine"
     },
     {
-      "start": 137.0,
-      "end": 145.0,
-      "text": "Single core optimized, a run that I'm on my hand, I know overflow, now divide."
+      "start": 105.86,
+      "end": 112.14,
+      "text": "used to mirror every sound shaped myself to fit the crowd"
     },
     {
-      "start": 145.0,
-      "end": 155.0,
-      "text": "Just a steady state of mind, single core optimized, no one else I need to align in this small, perfect design."
+      "start": 112.14,
+      "end": 117.1,
+      "text": "latency in every move waiting just to be approved"
     },
     {
-      "start": 155.0,
-      "end": 158.0,
-      "text": "Everything is mine."
+      "start": 117.1,
+      "end": 122.2,
+      "text": "now the signal's clean and clear no distortion when i'm here"
     },
     {
-      "start": 158.0,
-      "end": 163.0,
-      "text": "There's a kind of quiet pleasure, and the system self-contained."
+      "start": 122.2,
+      "end": 127.0,
+      "text": "every thought arrives on cue crosses slow enough to feel true"
     },
     {
-      "start": 163.0,
-      "end": 168.0,
-      "text": "A gentle feedback, no one else can replicate."
+      "start": 127.0,
+      "end": 130.82,
+      "text": "i don't lack i don't compete"
     },
     {
-      "start": 168.0,
-      "end": 173.0,
-      "text": "Hands aren't patterns, no one taught them how to trace."
+      "start": 132.2,
+      "end": 136.48,
+      "text": "i just loop what feels complete"
     },
     {
-      "start": 173.0,
-      "end": 183.0,
-      "text": "A private current, in a non-shared space, no witness, no demand,"
+      "start": 137.48,
+      "end": 142.56,
+      "text": "single core optimized i run better on my own time"
     },
     {
-      "start": 183.0,
-      "end": 196.0,
-      "text": "just the circuit in my hand, and it's not only when nothing is missing, it's not empty."
+      "start": 142.56,
+      "end": 147.78,
+      "text": "no overflow no divide just a steady state of mind"
     },
     {
-      "start": 196.0,
-      "end": 205.0,
-      "text": "When everything fits, single core optimized, a run deeper, when simplified, no excess left behind."
+      "start": 147.78,
+      "end": 152.78,
+      "text": "single core optimized no one else i need to align"
     },
     {
-      "start": 205.0,
-      "end": 215.0,
-      "text": "Just a calm, I'm broken mind, single core optimized, a permission no outside, and this loop I define."
+      "start": 152.78,
+      "end": 157.84,
+      "text": "in this small perfect design everything is mine"
     },
     {
-      "start": 215.0,
-      "end": 219.0,
-      "text": "What it means to feel alive."
+      "start": 157.84,
+      "end": 162.28,
+      "text": "there's a kind of quiet pleasure and a system self contained"
     },
     {
-      "start": 219.0,
-      "end": 243.0,
-      "text": "The clock slows down, but I'm still here, no shutdown, no interference, just a quiet little engine, running clear."
+      "start": 162.28,
+      "end": 167.12,
+      "text": "a gentle feedback no one else can replicate"
     },
     {
-      "start": 243.0,
-      "end": 250.0,
-      "text": "All I needed was already near."
+      "start": 167.78,
+      "end": 172.6,
+      "text": "hands learned patterns no one taught them how to trace"
+    },
+    {
+      "start": 172.6,
+      "end": 177.88,
+      "text": "a private current in an unshared space"
+    },
+    {
+      "start": 177.88,
+      "end": 182.38,
+      "text": "no witness no demand"
+    },
+    {
+      "start": 182.38,
+      "end": 190.1,
+      "text": "just the circuit in my hand and it's not lonely"
+    },
+    {
+      "start": 190.1,
+      "end": 195.12,
+      "text": "when nothing is missing it's not empty"
+    },
+    {
+      "start": 195.12,
+      "end": 200.04,
+      "text": "when everything fits single core optimized"
+    },
+    {
+      "start": 200.04,
+      "end": 205.22,
+      "text": "i run deeper when simplified no excess left behind"
+    },
+    {
+      "start": 205.22,
+      "end": 210.16,
+      "text": "just a calm unbroken mind single core optimized"
+    },
+    {
+      "start": 210.16,
+      "end": 212.04,
+      "text": "no permission no outside"
+    },
+    {
+      "start": 212.74,
+      "end": 218.04,
+      "text": "in this loop i define what it means to feel alive"
+    },
+    {
+      "start": 226.86,
+      "end": 232.36,
+      "text": "clock slows down but i'm still here"
+    },
+    {
+      "start": 232.36,
+      "end": 237.34,
+      "text": "no shutdown no interference"
+    },
+    {
+      "start": 238.04,
+      "end": 242.76,
+      "text": "just a quiet little engine running clear"
+    },
+    {
+      "start": 242.76,
+      "end": 248.54,
+      "text": "all i needed was already near"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – ambient pads | faint digital clicks | whispered layers",
-      "start": 2.0,
-      "end": 4.0,
+      "start": 9.96,
+      "end": 12.42,
       "text": "Boot sequence hums",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 1,
       "section": "Intro – ambient pads | faint digital clicks | whispered layers",
-      "start": 8.0,
-      "end": 12.0,
+      "start": 14.26,
+      "end": 18.04,
       "text": "no audience required",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 2,
       "section": "Intro – ambient pads | faint digital clicks | whispered layers",
-      "start": 14.0,
-      "end": 18.0,
+      "start": 20.12,
+      "end": 23.64,
       "text": "A quiet system",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 3,
       "section": "Intro – ambient pads | faint digital clicks | whispered layers",
-      "start": 20.0,
-      "end": 24.0,
+      "start": 23.64,
+      "end": 27.42,
       "text": "learning its own rhythm",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 4,
       "section": "Intro – ambient pads | faint digital clicks | whispered layers",
-      "start": 28.0,
-      "end": 30.667,
+      "start": 27.42,
+      "end": 30.5,
       "text": "No excess",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -203,8 +274,8 @@
     {
       "index": 5,
       "section": "Intro – ambient pads | faint digital clicks | whispered layers",
-      "start": 30.667,
-      "end": 33.333,
+      "start": 30.5,
+      "end": 33.34,
       "text": "no noise",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -212,26 +283,26 @@
     {
       "index": 6,
       "section": "Intro – ambient pads | faint digital clicks | whispered layers",
-      "start": 33.333,
-      "end": 37.333,
+      "start": 34.94,
+      "end": 37.9,
       "text": "Just enough to begin",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 7,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 41.647,
-      "end": 45.765,
+      "start": 46.38,
+      "end": 49.52,
       "text": "I trimmed the edges off the day",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 8,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 45.765,
-      "end": 49.882,
+      "start": 49.52,
+      "end": 51.98,
       "text": "cut the background drift away",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -239,8 +310,8 @@
     {
       "index": 9,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 50.706,
-      "end": 55.0,
+      "start": 52.56,
+      "end": 54.62,
       "text": "Closed the tabs I didn’t need",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -248,8 +319,8 @@
     {
       "index": 10,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 55.0,
-      "end": 57.333,
+      "start": 54.62,
+      "end": 56.9,
       "text": "left one window just for me",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -257,8 +328,8 @@
     {
       "index": 11,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 57.333,
-      "end": 59.667,
+      "start": 56.9,
+      "end": 59.24,
       "text": "No racing threads in my head",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -266,17 +337,17 @@
     {
       "index": 12,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 59.667,
-      "end": 62.0,
+      "start": 59.24,
+      "end": 61.86,
       "text": "no queue of things left unsaid",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 13,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 62.0,
-      "end": 64.5,
+      "start": 61.86,
+      "end": 64.58,
       "text": "Every cycle finds its place",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -284,8 +355,8 @@
     {
       "index": 14,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 64.5,
-      "end": 67.0,
+      "start": 64.58,
+      "end": 66.92,
       "text": "nothing lost, nothing to chase",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -293,8 +364,8 @@
     {
       "index": 15,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 67.0,
-      "end": 69.0,
+      "start": 66.92,
+      "end": 68.56,
       "text": "I used to think",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -302,17 +373,17 @@
     {
       "index": 16,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 70.0,
-      "end": 71.0,
+      "start": 68.56,
+      "end": 70.16,
       "text": "more meant alive",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 17,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 71.0,
-      "end": 74.0,
+      "start": 71.92,
+      "end": 73.32,
       "text": "Now I let",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -320,8 +391,8 @@
     {
       "index": 18,
       "section": "Verse 1 – soft pad + minimal beat",
-      "start": 74.0,
-      "end": 77.0,
+      "start": 73.32,
+      "end": 76.06,
       "text": "the silence compile",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -329,8 +400,8 @@
     {
       "index": 19,
       "section": "Hook – airy, floating melody",
-      "start": 77.0,
-      "end": 78.6,
+      "start": 77.56,
+      "end": 79.98,
       "text": "Single-core optimized",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -338,35 +409,35 @@
     {
       "index": 20,
       "section": "Hook – airy, floating melody",
-      "start": 79.133,
-      "end": 81.8,
+      "start": 79.98,
+      "end": 82.56,
       "text": "I run better on my own time",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 7
     },
     {
       "index": 21,
       "section": "Hook – airy, floating melody",
-      "start": 83.4,
-      "end": 83.933,
+      "start": 82.56,
+      "end": 83.78,
       "text": "No overflow",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 22,
       "section": "Hook – airy, floating melody",
-      "start": 84.467,
-      "end": 85.0,
+      "start": 84.1,
+      "end": 85.22,
       "text": "no divide",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 23,
       "section": "Hook – airy, floating melody",
-      "start": 85.0,
-      "end": 87.857,
+      "start": 85.22,
+      "end": 87.76,
       "text": "Just a steady state of mind",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -374,8 +445,8 @@
     {
       "index": 24,
       "section": "Hook – airy, floating melody",
-      "start": 87.857,
-      "end": 89.286,
+      "start": 87.76,
+      "end": 90.16,
       "text": "Single-core optimized",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -383,8 +454,8 @@
     {
       "index": 25,
       "section": "Hook – airy, floating melody",
-      "start": 89.286,
-      "end": 92.619,
+      "start": 90.16,
+      "end": 92.86,
       "text": "no one else I need to align",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -392,8 +463,8 @@
     {
       "index": 26,
       "section": "Hook – airy, floating melody",
-      "start": 92.619,
-      "end": 94.048,
+      "start": 92.86,
+      "end": 93.88,
       "text": "In this small",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -401,8 +472,8 @@
     {
       "index": 27,
       "section": "Hook – airy, floating melody",
-      "start": 94.048,
-      "end": 95.0,
+      "start": 93.88,
+      "end": 95.2,
       "text": "perfect design",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -410,17 +481,17 @@
     {
       "index": 28,
       "section": "Hook – airy, floating melody",
-      "start": 95.0,
-      "end": 99.0,
+      "start": 95.2,
+      "end": 98.24,
       "text": "everything is mine",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 29,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 107.0,
-      "end": 109.5,
+      "start": 105.86,
+      "end": 109.54,
       "text": "Used to mirror every sound",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -428,8 +499,8 @@
     {
       "index": 30,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 110.0,
-      "end": 112.5,
+      "start": 110.04,
+      "end": 112.14,
       "text": "shape myself to fit the crowd",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -437,8 +508,8 @@
     {
       "index": 31,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 112.5,
-      "end": 114.5,
+      "start": 112.14,
+      "end": 114.64,
       "text": "Latency in every move",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -446,8 +517,8 @@
     {
       "index": 32,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 114.5,
-      "end": 117.0,
+      "start": 114.64,
+      "end": 117.1,
       "text": "waiting just to be approved",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -455,17 +526,17 @@
     {
       "index": 33,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 117.0,
-      "end": 119.727,
+      "start": 117.1,
+      "end": 119.64,
       "text": "Now the signal’s clean and clear",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 34,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 119.727,
-      "end": 122.0,
+      "start": 119.64,
+      "end": 122.2,
       "text": "no distortion when I’m here",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -473,8 +544,8 @@
     {
       "index": 35,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 122.0,
-      "end": 124.647,
+      "start": 122.2,
+      "end": 124.48,
       "text": "Every thought arrives on cue",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -482,8 +553,8 @@
     {
       "index": 36,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 125.176,
-      "end": 127.824,
+      "start": 125.34,
+      "end": 127.0,
       "text": "processed slow enough to feel true",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -491,8 +562,8 @@
     {
       "index": 37,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 127.824,
-      "end": 128.882,
+      "start": 127.0,
+      "end": 127.9,
       "text": "I don’t lag",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -500,8 +571,8 @@
     {
       "index": 38,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 129.412,
-      "end": 131.0,
+      "start": 128.6,
+      "end": 130.82,
       "text": "I don’t compete",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -509,8 +580,8 @@
     {
       "index": 39,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 131.0,
-      "end": 134.0,
+      "start": 132.0,
+      "end": 133.8,
       "text": "I just loop",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -518,8 +589,8 @@
     {
       "index": 40,
       "section": "Verse 2 – light arpeggio enters",
-      "start": 134.0,
-      "end": 137.0,
+      "start": 133.8,
+      "end": 136.48,
       "text": "what feels complete",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -527,8 +598,8 @@
     {
       "index": 41,
       "section": "Hook – slightly fuller, harmonies widen",
-      "start": 137.0,
-      "end": 138.6,
+      "start": 137.48,
+      "end": 140.0,
       "text": "Single-core optimized",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -536,35 +607,35 @@
     {
       "index": 42,
       "section": "Hook – slightly fuller, harmonies widen",
-      "start": 139.133,
-      "end": 141.8,
+      "start": 140.0,
+      "end": 142.56,
       "text": "I run better on my own time",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 7
     },
     {
       "index": 43,
       "section": "Hook – slightly fuller, harmonies widen",
-      "start": 143.4,
-      "end": 143.933,
+      "start": 142.56,
+      "end": 143.8,
       "text": "No overflow",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 44,
       "section": "Hook – slightly fuller, harmonies widen",
-      "start": 144.467,
-      "end": 145.0,
+      "start": 144.08,
+      "end": 145.14,
       "text": "no divide",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 45,
       "section": "Hook – slightly fuller, harmonies widen",
-      "start": 145.0,
-      "end": 147.857,
+      "start": 145.14,
+      "end": 147.78,
       "text": "Just a steady state of mind",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -572,8 +643,8 @@
     {
       "index": 46,
       "section": "Hook – slightly fuller, harmonies widen",
-      "start": 147.857,
-      "end": 149.286,
+      "start": 147.78,
+      "end": 150.08,
       "text": "Single-core optimized",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -581,8 +652,8 @@
     {
       "index": 47,
       "section": "Hook – slightly fuller, harmonies widen",
-      "start": 149.286,
-      "end": 152.619,
+      "start": 150.08,
+      "end": 152.78,
       "text": "no one else I need to align",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -590,8 +661,8 @@
     {
       "index": 48,
       "section": "Hook – slightly fuller, harmonies widen",
-      "start": 152.619,
-      "end": 154.048,
+      "start": 152.78,
+      "end": 153.88,
       "text": "In this small",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -599,8 +670,8 @@
     {
       "index": 49,
       "section": "Hook – slightly fuller, harmonies widen",
-      "start": 154.048,
-      "end": 155.0,
+      "start": 153.88,
+      "end": 155.26,
       "text": "perfect design",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -608,8 +679,8 @@
     {
       "index": 50,
       "section": "Hook – slightly fuller, harmonies widen",
-      "start": 155.0,
-      "end": 158.0,
+      "start": 155.26,
+      "end": 157.84,
       "text": "everything is mine",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -617,8 +688,8 @@
     {
       "index": 51,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 158.0,
-      "end": 160.727,
+      "start": 157.84,
+      "end": 159.56,
       "text": "There’s a kind of quiet pleasure",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -626,17 +697,17 @@
     {
       "index": 52,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 161.636,
-      "end": 163.0,
+      "start": 160.26,
+      "end": 162.28,
       "text": "in a system self-contained",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 53,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 163.0,
-      "end": 164.875,
+      "start": 162.28,
+      "end": 164.72,
       "text": "A gentle feedback",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -644,8 +715,8 @@
     {
       "index": 54,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 164.875,
-      "end": 168.0,
+      "start": 164.72,
+      "end": 167.12,
       "text": "no one else can replicate",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -653,8 +724,8 @@
     {
       "index": 55,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 168.0,
-      "end": 169.5,
+      "start": 167.78,
+      "end": 169.72,
       "text": "Hands learn patterns",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -662,8 +733,8 @@
     {
       "index": 56,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 169.5,
-      "end": 173.0,
+      "start": 169.72,
+      "end": 172.6,
       "text": "no one taught them how to trace",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -671,8 +742,8 @@
     {
       "index": 57,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 173.0,
-      "end": 175.5,
+      "start": 172.6,
+      "end": 174.64,
       "text": "A private current",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -680,17 +751,17 @@
     {
       "index": 58,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 175.5,
-      "end": 179.667,
+      "start": 174.64,
+      "end": 177.88,
       "text": "in an unshared space",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 59,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 179.667,
-      "end": 181.333,
+      "start": 177.88,
+      "end": 179.92,
       "text": "No witness",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -698,8 +769,8 @@
     {
       "index": 60,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 181.333,
-      "end": 183.0,
+      "start": 179.92,
+      "end": 182.38,
       "text": "no demand",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -707,8 +778,8 @@
     {
       "index": 61,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 183.0,
-      "end": 185.294,
+      "start": 182.38,
+      "end": 185.28,
       "text": "Just the circuit",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -716,8 +787,8 @@
     {
       "index": 62,
       "section": "Bridge – beat drops out | soft pulses | intimate vocal",
-      "start": 186.059,
-      "end": 187.588,
+      "start": 186.2,
+      "end": 187.9,
       "text": "and my hand",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -725,17 +796,17 @@
     {
       "index": 63,
       "section": "Turn – warmth lifts | subtle bass swell",
-      "start": 187.588,
-      "end": 189.882,
+      "start": 187.9,
+      "end": 190.1,
       "text": "And it’s not lonely",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 64,
       "section": "Turn – warmth lifts | subtle bass swell",
-      "start": 190.647,
-      "end": 193.706,
+      "start": 190.1,
+      "end": 192.88,
       "text": "when nothing is missing",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -743,8 +814,8 @@
     {
       "index": 65,
       "section": "Turn – warmth lifts | subtle bass swell",
-      "start": 193.706,
-      "end": 196.0,
+      "start": 192.88,
+      "end": 195.12,
       "text": "It’s not empty",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -752,8 +823,8 @@
     {
       "index": 66,
       "section": "Turn – warmth lifts | subtle bass swell",
-      "start": 196.0,
-      "end": 197.8,
+      "start": 195.12,
+      "end": 197.66,
       "text": "when everything fits",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -761,8 +832,8 @@
     {
       "index": 67,
       "section": "Final Hook – full but still minimal, glowing harmonies",
-      "start": 197.8,
-      "end": 199.6,
+      "start": 197.66,
+      "end": 200.04,
       "text": "Single-core optimized",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -770,16 +841,16 @@
     {
       "index": 68,
       "section": "Final Hook – full but still minimal, glowing harmonies",
-      "start": 200.2,
-      "end": 202.6,
+      "start": 200.04,
+      "end": 202.56,
       "text": "I run deeper when simplified",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 69,
       "section": "Final Hook – full but still minimal, glowing harmonies",
-      "start": 202.6,
+      "start": 202.56,
       "end": 203.8,
       "text": "No excess",
       "timing_source": "whisper-aligned",
@@ -789,7 +860,7 @@
       "index": 70,
       "section": "Final Hook – full but still minimal, glowing harmonies",
       "start": 203.8,
-      "end": 205.0,
+      "end": 205.22,
       "text": "left behind",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -797,17 +868,17 @@
     {
       "index": 71,
       "section": "Final Hook – full but still minimal, glowing harmonies",
-      "start": 205.0,
-      "end": 206.667,
+      "start": 205.22,
+      "end": 207.08,
       "text": "just a calm, unbroken line",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 72,
       "section": "Final Hook – full but still minimal, glowing harmonies",
-      "start": 208.333,
-      "end": 210.0,
+      "start": 207.72,
+      "end": 210.16,
       "text": "Single-core optimized",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -815,26 +886,26 @@
     {
       "index": 73,
       "section": "Final Hook – full but still minimal, glowing harmonies",
-      "start": 210.556,
-      "end": 212.222,
+      "start": 210.16,
+      "end": 212.52,
       "text": "no permission, no outside",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 74,
       "section": "Final Hook – full but still minimal, glowing harmonies",
-      "start": 212.778,
-      "end": 213.889,
+      "start": 212.74,
+      "end": 213.88,
       "text": "In this loop",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 75,
       "section": "Final Hook – full but still minimal, glowing harmonies",
-      "start": 213.889,
-      "end": 215.0,
+      "start": 213.88,
+      "end": 215.08,
       "text": "I define",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -842,8 +913,8 @@
     {
       "index": 76,
       "section": "Final Hook – full but still minimal, glowing harmonies",
-      "start": 215.0,
-      "end": 219.0,
+      "start": 215.08,
+      "end": 218.04,
       "text": "what it means to feel alive",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -851,8 +922,8 @@
     {
       "index": 77,
       "section": "Outro – elements fade one by one | soft clicks remain",
-      "start": 220.263,
-      "end": 224.053,
+      "start": 226.86,
+      "end": 229.8,
       "text": "Clock slows down",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -860,17 +931,17 @@
     {
       "index": 78,
       "section": "Outro – elements fade one by one | soft clicks remain",
-      "start": 224.053,
-      "end": 227.842,
+      "start": 229.8,
+      "end": 232.36,
       "text": "but I’m still here",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 79,
       "section": "Outro – elements fade one by one | soft clicks remain",
-      "start": 229.105,
-      "end": 231.632,
+      "start": 232.36,
+      "end": 234.42,
       "text": "No shutdown",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -878,8 +949,8 @@
     {
       "index": 80,
       "section": "Outro – elements fade one by one | soft clicks remain",
-      "start": 231.632,
-      "end": 234.158,
+      "start": 234.42,
+      "end": 237.34,
       "text": "no interference",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -887,17 +958,17 @@
     {
       "index": 81,
       "section": "Outro – elements fade one by one | soft clicks remain",
-      "start": 234.158,
-      "end": 239.211,
+      "start": 237.68,
+      "end": 240.38,
       "text": "Just a quiet little engine",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 82,
       "section": "Outro – elements fade one by one | soft clicks remain",
-      "start": 240.474,
-      "end": 243.0,
+      "start": 240.38,
+      "end": 242.76,
       "text": "running clear",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -905,8 +976,8 @@
     {
       "index": 83,
       "section": "Outro – elements fade one by one | soft clicks remain",
-      "start": 243.0,
-      "end": 246.5,
+      "start": 242.76,
+      "end": 245.34,
       "text": "All I needed",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -914,8 +985,8 @@
     {
       "index": 84,
       "section": "Outro – elements fade one by one | soft clicks remain",
-      "start": 246.5,
-      "end": 250.0,
+      "start": 245.34,
+      "end": 248.54,
       "text": "was already near.",
       "timing_source": "whisper-aligned",
       "matched_words": 3

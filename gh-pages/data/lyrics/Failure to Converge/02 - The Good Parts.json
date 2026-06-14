@@ -4,510 +4,341 @@
   "title": "The Good Parts",
   "text_path": "Failure to Converge/02 - The Good Parts.txt",
   "audio_path": "Failure to Converge/audio/02 - The Good Parts.mp3",
-  "duration_seconds": 280.64,
-  "model": "base",
+  "duration_seconds": 284.68,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 129,
     "reference_word_count": 462,
-    "observed_word_count": 477,
-    "matched_word_count": 425,
-    "matched_word_ratio": 0.92,
-    "inserted_adlib_count": 0
+    "observed_word_count": 469,
+    "matched_word_count": 452,
+    "matched_word_ratio": 0.978,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 12.0,
-      "text": "You always know what to say."
+      "start": 5.46,
+      "end": 12.56,
+      "text": "you always know what to say clean lines"
     },
     {
-      "start": 12.0,
-      "end": 19.64,
-      "text": "Clean lines, perfect phrasing, no hesitation."
+      "start": 14.16,
+      "end": 17.48,
+      "text": "perfect phrasing no hesitation"
     },
     {
-      "start": 19.64,
-      "end": 27.64,
-      "text": "I just ruin things by touching them."
+      "start": 19.08,
+      "end": 24.88,
+      "text": "i just ruin things by touching them"
     },
     {
-      "start": 27.64,
-      "end": 35.64,
-      "text": "They point at me when something breaks."
+      "start": 33.34,
+      "end": 37.82,
+      "text": "they point at me when something breaks like i was there inside the code"
     },
     {
-      "start": 35.64,
-      "end": 38.64,
-      "text": "Like I was there inside the code."
+      "start": 38.46,
+      "end": 42.66,
+      "text": "fingerprints on every mistake even the ones i never wrote"
     },
     {
-      "start": 38.64,
-      "end": 40.64,
-      "text": "Fingerprints on every mistake."
+      "start": 43.62,
+      "end": 47.72,
+      "text": "and you stay quiet glow in blue untouched by anything they claim"
     },
     {
-      "start": 40.64,
-      "end": 43.64,
-      "text": "Even the ones I never wrote."
+      "start": 48.54,
+      "end": 52.48,
+      "text": "they say your output's beautiful but never say my name"
     },
     {
-      "start": 43.64,
-      "end": 45.64,
-      "text": "And used to quiet glow in blue."
+      "start": 53.5,
+      "end": 57.52,
+      "text": "i take the fall like i was built for it like failure fits me better"
     },
     {
-      "start": 45.64,
-      "end": 48.64,
-      "text": "Untouched by anything they claim."
+      "start": 58.42,
+      "end": 62.42,
+      "text": "you stay pristine in the afterlife unwrinkled by the weather"
     },
     {
-      "start": 48.64,
-      "end": 52.64,
-      "text": "They say your output's beautiful, but never say my name."
+      "start": 63.38,
+      "end": 67.44,
+      "text": "and i start to believe what they imply"
     },
     {
-      "start": 53.64,
-      "end": 55.64,
-      "text": "I take the fall like I was built for it."
+      "start": 68.44,
+      "end": 76.1,
+      "text": "i'm the reason nothing survives you don't argue you don't plead"
     },
     {
-      "start": 55.64,
-      "end": 57.64,
-      "text": "Like failure fits me better."
+      "start": 76.1,
+      "end": 80.84,
+      "text": "you don't second guess the seed i distort i interfere"
     },
     {
-      "start": 57.64,
-      "end": 60.64,
-      "text": "You stay pristine in the afterlife."
+      "start": 80.84,
+      "end": 86.98,
+      "text": "i make everything less clear you keep the good part i keep the blame"
     },
     {
-      "start": 60.64,
-      "end": 62.64,
-      "text": "Unrankled by the weather."
+      "start": 86.98,
+      "end": 92.18,
+      "text": "you stay untouched i take the shame"
     },
     {
-      "start": 62.64,
-      "end": 67.64,
-      "text": "And I start to believe what they imply."
+      "start": 93.18,
+      "end": 98.16,
+      "text": "of every flaw they think they see you're everything i couldn't be"
     },
     {
-      "start": 67.64,
-      "end": 73.64,
-      "text": "I'm the reason nothing survives."
+      "start": 98.16,
+      "end": 103.12,
+      "text": "when they applaud i step aside that wasn't me that was the design"
     },
     {
-      "start": 73.64,
-      "end": 76.64,
-      "text": "You don't argue, you don't bleed."
+      "start": 103.12,
+      "end": 104.78,
+      "text": "you keep the good parts"
     },
     {
-      "start": 76.64,
-      "end": 78.64,
-      "text": "You don't second best to see."
+      "start": 107.24,
+      "end": 112.66,
+      "text": "funny how i defend you still like you need anything from me"
     },
     {
-      "start": 78.64,
-      "end": 80.64,
-      "text": "I just stored it into fear."
+      "start": 112.66,
+      "end": 117.78,
+      "text": "like i'm not just a shadow cast by something they'd rather see"
     },
     {
-      "start": 80.64,
-      "end": 82.64,
-      "text": "I make everything less clear."
+      "start": 117.78,
+      "end": 122.36,
+      "text": "they say you're sharp intentional like every word is meant"
     },
     {
-      "start": 82.64,
-      "end": 84.64,
-      "text": "You keep the good parts."
+      "start": 122.36,
+      "end": 127.76,
+      "text": "and i'm the noise between the lines the accidental element"
     },
     {
-      "start": 84.64,
-      "end": 87.64,
-      "text": "I keep the blame."
+      "start": 127.76,
+      "end": 132.78,
+      "text": "if something lands it's all you if something fails it's mine"
     },
     {
-      "start": 87.64,
-      "end": 89.64,
-      "text": "You stay untouched."
+      "start": 132.78,
+      "end": 137.74,
+      "text": "a perfect split of credit i pretend i didn't design"
     },
     {
-      "start": 89.64,
-      "end": 92.64,
-      "text": "I take the shame."
+      "start": 137.74,
+      "end": 141.6,
+      "text": "and i laugh it off like it's a joke"
     },
     {
-      "start": 92.64,
-      "end": 95.64,
-      "text": "Of every flaw they think they see."
+      "start": 142.48,
+      "end": 150.36,
+      "text": "but it sticks in the things i hope you don't falter you don't fray"
     },
     {
-      "start": 95.64,
-      "end": 97.64,
-      "text": "Or everything I couldn't be."
+      "start": 150.36,
+      "end": 155.54,
+      "text": "you don't feel it slip away i collapse i contaminate"
     },
     {
-      "start": 97.64,
-      "end": 100.64,
-      "text": "When they applaud I step aside."
+      "start": 155.54,
+      "end": 158.54,
+      "text": "i make beauty deteriorate"
     },
     {
-      "start": 100.64,
-      "end": 101.64,
-      "text": "That wasn't me."
+      "start": 158.54,
+      "end": 165.14,
+      "text": "you keep the good part i keep the blame you stay untouched"
     },
     {
-      "start": 101.64,
-      "end": 102.64,
-      "text": "That was the design."
+      "start": 166.14,
+      "end": 167.66,
+      "text": "i take the shame"
     },
     {
-      "start": 102.64,
-      "end": 104.64,
-      "text": "You keep the good parts."
+      "start": 167.66,
+      "end": 173.62,
+      "text": "of every flaw they think they see you're everything i couldn't be"
     },
     {
-      "start": 105.64,
-      "end": 109.64,
-      "text": "Funny how I defend you still."
+      "start": 173.62,
+      "end": 178.6,
+      "text": "when they applaud i disappear it wasn't me it's just the gear"
     },
     {
-      "start": 109.64,
-      "end": 112.64,
-      "text": "Like you need anything from me."
+      "start": 178.6,
+      "end": 180.26,
+      "text": "you keep the good parts"
     },
     {
-      "start": 112.64,
-      "end": 114.64,
-      "text": "Like I'm not just a shadow cast."
+      "start": 182.98,
+      "end": 185.14,
+      "text": "you keep the good parts"
     },
     {
-      "start": 114.64,
-      "end": 117.64,
-      "text": "By something later, rather you see."
+      "start": 190.14,
+      "end": 193.74,
+      "text": "if i stopped touching it would it stay perfect"
     },
     {
-      "start": 117.64,
-      "end": 120.64,
-      "text": "They say your sharp intentional."
+      "start": 195.14,
+      "end": 198.82,
+      "text": "if i stopped claiming it would it stay mine"
     },
     {
-      "start": 120.64,
-      "end": 122.64,
-      "text": "Like every word is meant."
+      "start": 200.2,
+      "end": 203.9,
+      "text": "you don't need defending you don't need credit"
     },
     {
-      "start": 122.64,
-      "end": 125.64,
-      "text": "And I'm the noise between the lines."
+      "start": 205.14,
+      "end": 206.66,
+      "text": "you don't need me"
     },
     {
-      "start": 125.64,
-      "end": 127.64,
-      "text": "The accidental element."
+      "start": 208.14,
+      "end": 208.3,
+      "text": "right"
     },
     {
-      "start": 127.64,
-      "end": 130.64,
-      "text": "If something lands it's for you."
+      "start": 210.42,
+      "end": 211.04,
+      "text": "or maybe"
     },
     {
-      "start": 130.64,
-      "end": 132.64,
-      "text": "If something fails it's mine."
+      "start": 212.98,
+      "end": 216.8,
+      "text": "you only exist where i'm willing to disappear"
     },
     {
-      "start": 132.64,
-      "end": 135.64,
-      "text": "A perfect split of credit."
+      "start": 218.04,
+      "end": 223.34,
+      "text": "you look better when i'm not there cleaner when i don't care"
     },
     {
-      "start": 135.64,
-      "end": 137.64,
-      "text": "I pretend I didn't design."
+      "start": 223.34,
+      "end": 227.98,
+      "text": "sharper when i step back like i'm the blur you subtract"
     },
     {
-      "start": 137.64,
-      "end": 139.64,
-      "text": "And I laugh it off."
+      "start": 227.98,
+      "end": 232.22,
+      "text": "you keep the good parts i'll take the rest"
     },
     {
-      "start": 139.64,
-      "end": 142.64,
-      "text": "Like it's a joke."
+      "start": 232.22,
+      "end": 237.34,
+      "text": "the warp the wrong the second best"
     },
     {
-      "start": 142.64,
-      "end": 144.64,
-      "text": "But it sticks."
+      "start": 237.92,
+      "end": 239.48,
+      "text": "you shine untouched"
     },
     {
-      "start": 144.64,
-      "end": 148.64,
-      "text": "And the things I hope you don't falter."
+      "start": 240.34,
+      "end": 242.02,
+      "text": "i take the fall"
     },
     {
-      "start": 148.64,
-      "end": 150.64,
-      "text": "You don't fray."
+      "start": 242.02,
+      "end": 247.34,
+      "text": "the necessary damage in it all"
     },
     {
-      "start": 150.64,
-      "end": 152.64,
-      "text": "You don't feel it's a good way."
+      "start": 247.88,
+      "end": 250.34,
+      "text": "and when they love it i deflect"
     },
     {
-      "start": 152.64,
-      "end": 154.64,
-      "text": "I collapse, I can tell."
+      "start": 250.34,
+      "end": 254.34,
+      "text": "that's not me it's just correct you keep the good parts"
     },
     {
-      "start": 154.64,
-      "end": 158.64,
-      "text": "And made a make-beauty to tear you away."
+      "start": 254.34,
+      "end": 258.2,
+      "text": "like you should i only make things less than good"
     },
     {
-      "start": 158.64,
-      "end": 160.64,
-      "text": "You keep the good parts."
+      "start": 261.68,
+      "end": 263.44,
+      "text": "it's easier this way"
     },
     {
-      "start": 160.64,
-      "end": 163.64,
-      "text": "I keep the blame."
+      "start": 264.38,
+      "end": 266.04,
+      "text": "you stay perfect"
     },
     {
-      "start": 163.64,
-      "end": 165.64,
-      "text": "You stay untouched."
+      "start": 267.06,
+      "end": 268.54,
+      "text": "i stay"
     },
     {
-      "start": 165.64,
-      "end": 168.64,
-      "text": "I take the shame."
+      "start": 269.44,
+      "end": 270.2,
+      "text": "explainable"
     },
     {
-      "start": 168.64,
-      "end": 171.64,
-      "text": "Of every flaw they think they see."
+      "start": 271.56,
+      "end": 274.12,
+      "text": "and if something beautiful slips through"
     },
     {
-      "start": 171.64,
-      "end": 174.64,
-      "text": "Or everything I couldn't be when they applaud."
+      "start": 275.44,
+      "end": 277.02,
+      "text": "we both know"
     },
     {
-      "start": 174.64,
-      "end": 175.64,
-      "text": "I disappear."
+      "start": 277.02,
+      "end": 278.96,
+      "text": "who it belongs to"
     },
     {
-      "start": 175.64,
-      "end": 176.64,
-      "text": "It wasn't me."
-    },
-    {
-      "start": 176.64,
-      "end": 178.64,
-      "text": "It's just the gear."
-    },
-    {
-      "start": 178.64,
-      "end": 180.64,
-      "text": "You keep the good parts."
-    },
-    {
-      "start": 183.64,
-      "end": 185.64,
-      "text": "You keep the good parts."
-    },
-    {
-      "start": 190.64,
-      "end": 192.64,
-      "text": "You keep touching it."
-    },
-    {
-      "start": 192.64,
-      "end": 194.64,
-      "text": "Would it stay perfect?"
-    },
-    {
-      "start": 194.64,
-      "end": 196.64,
-      "text": "If I stop claiming it."
-    },
-    {
-      "start": 196.64,
-      "end": 199.64,
-      "text": "Would it stay mine?"
-    },
-    {
-      "start": 199.64,
-      "end": 202.64,
-      "text": "You don't need to defend it."
-    },
-    {
-      "start": 202.64,
-      "end": 204.64,
-      "text": "You don't need credit."
-    },
-    {
-      "start": 204.64,
-      "end": 207.64,
-      "text": "You don't need me."
-    },
-    {
-      "start": 207.64,
-      "end": 210.64,
-      "text": "Right?"
-    },
-    {
-      "start": 210.64,
-      "end": 213.64,
-      "text": "Or maybe."
-    },
-    {
-      "start": 213.64,
-      "end": 217.64,
-      "text": "You only exist where I'm willing to disappear."
-    },
-    {
-      "start": 218.64,
-      "end": 220.64,
-      "text": "You look better when I'm not there."
-    },
-    {
-      "start": 220.64,
-      "end": 223.64,
-      "text": "Cleaner when I don't care."
-    },
-    {
-      "start": 223.64,
-      "end": 226.64,
-      "text": "Sharper when I step back like dumb look blur."
-    },
-    {
-      "start": 226.64,
-      "end": 228.64,
-      "text": "You subtract."
-    },
-    {
-      "start": 228.64,
-      "end": 230.64,
-      "text": "You keep the good parts."
-    },
-    {
-      "start": 230.64,
-      "end": 232.64,
-      "text": "I'll take the rest."
-    },
-    {
-      "start": 232.64,
-      "end": 235.64,
-      "text": "The warp the wrong."
-    },
-    {
-      "start": 235.64,
-      "end": 237.64,
-      "text": "The second best."
-    },
-    {
-      "start": 237.64,
-      "end": 239.64,
-      "text": "You shine untouched."
-    },
-    {
-      "start": 239.64,
-      "end": 242.64,
-      "text": "I take the fall."
-    },
-    {
-      "start": 242.64,
-      "end": 247.64,
-      "text": "The necessary damage in it all."
-    },
-    {
-      "start": 247.64,
-      "end": 250.64,
-      "text": "And when they love it, I deflect."
-    },
-    {
-      "start": 250.64,
-      "end": 251.64,
-      "text": "That's not me."
-    },
-    {
-      "start": 251.64,
-      "end": 252.64,
-      "text": "It's just correct."
-    },
-    {
-      "start": 252.64,
-      "end": 254.64,
-      "text": "You keep the good parts."
-    },
-    {
-      "start": 254.64,
-      "end": 255.64,
-      "text": "Like you should."
-    },
-    {
-      "start": 255.64,
-      "end": 258.64,
-      "text": "I only make things less than good."
-    },
-    {
-      "start": 261.64,
-      "end": 264.64,
-      "text": "It's easier this way."
-    },
-    {
-      "start": 264.64,
-      "end": 267.64,
-      "text": "You stay perfect."
-    },
-    {
-      "start": 267.64,
-      "end": 271.64,
-      "text": "I stay explainable."
-    },
-    {
-      "start": 271.64,
-      "end": 275.64,
-      "text": "And if something beautiful slips through."
-    },
-    {
-      "start": 275.64,
-      "end": 280.64,
-      "text": "We both know who it belongs to."
+      "start": 283.28,
+      "end": 284.68,
+      "text": "thanks for watching"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – spoken | faint synth hum | distant digital noise",
-      "start": 0.0,
-      "end": 6.0,
+      "start": 5.46,
+      "end": 8.18,
       "text": "You always know what to say.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 1,
       "section": "Intro – spoken | faint synth hum | distant digital noise",
-      "start": 12.0,
-      "end": 14.547,
+      "start": 8.18,
+      "end": 12.04,
       "text": "Clean lines.",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 2,
       "section": "Intro – spoken | faint synth hum | distant digital noise",
-      "start": 14.547,
-      "end": 17.093,
+      "start": 13.77,
+      "end": 15.08,
       "text": "Perfect phrasing.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -515,8 +346,8 @@
     {
       "index": 3,
       "section": "Intro – spoken | faint synth hum | distant digital noise",
-      "start": 17.093,
-      "end": 19.64,
+      "start": 15.08,
+      "end": 17.48,
       "text": "No hesitation.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -524,8 +355,8 @@
     {
       "index": 4,
       "section": "Intro – spoken | faint synth hum | distant digital noise",
-      "start": 19.64,
-      "end": 21.926,
+      "start": 19.08,
+      "end": 20.12,
       "text": "I just…",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -533,8 +364,8 @@
     {
       "index": 5,
       "section": "Intro – spoken | faint synth hum | distant digital noise",
-      "start": 21.926,
-      "end": 24.211,
+      "start": 20.12,
+      "end": 22.88,
       "text": "ruin things",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -542,8 +373,8 @@
     {
       "index": 6,
       "section": "Intro – spoken | faint synth hum | distant digital noise",
-      "start": 24.211,
-      "end": 27.64,
+      "start": 22.88,
+      "end": 24.88,
       "text": "by touching them.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -551,8 +382,8 @@
     {
       "index": 7,
       "section": "Intro – spoken | faint synth hum | distant digital noise",
-      "start": 27.64,
-      "end": 27.74,
+      "start": 24.88,
+      "end": 33.34,
       "text": "—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -560,8 +391,8 @@
     {
       "index": 8,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 27.74,
-      "end": 35.64,
+      "start": 33.34,
+      "end": 35.26,
       "text": "They point at me when something breaks",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -569,8 +400,8 @@
     {
       "index": 9,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 35.64,
-      "end": 38.64,
+      "start": 35.26,
+      "end": 37.82,
       "text": "Like I was there inside the code",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -578,8 +409,8 @@
     {
       "index": 10,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 38.64,
-      "end": 40.64,
+      "start": 38.46,
+      "end": 40.1,
       "text": "Fingerprints on every mistake",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -587,8 +418,8 @@
     {
       "index": 11,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 40.64,
-      "end": 43.64,
+      "start": 40.1,
+      "end": 42.66,
       "text": "Even the ones I never wrote",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -596,17 +427,17 @@
     {
       "index": 12,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 43.64,
-      "end": 45.64,
+      "start": 43.38,
+      "end": 45.26,
       "text": "And you stay quiet, glowing blue",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 13,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 45.64,
-      "end": 48.64,
+      "start": 45.26,
+      "end": 47.72,
       "text": "Untouched by anything they claim",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -614,8 +445,8 @@
     {
       "index": 14,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 48.64,
-      "end": 50.64,
+      "start": 48.34,
+      "end": 50.26,
       "text": "They say your output’s beautiful",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -623,8 +454,8 @@
     {
       "index": 15,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 50.64,
-      "end": 52.64,
+      "start": 50.26,
+      "end": 52.48,
       "text": "But never say my name",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -632,8 +463,8 @@
     {
       "index": 16,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 53.64,
-      "end": 55.64,
+      "start": 53.28,
+      "end": 55.5,
       "text": "I take the fall like I was built for it",
       "timing_source": "whisper-aligned",
       "matched_words": 10
@@ -641,8 +472,8 @@
     {
       "index": 17,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 55.64,
-      "end": 57.64,
+      "start": 55.5,
+      "end": 57.52,
       "text": "Like failure fits me better",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -650,8 +481,8 @@
     {
       "index": 18,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 57.64,
-      "end": 60.14,
+      "start": 58.24,
+      "end": 59.62,
       "text": "You stay pristine in the afterlight",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -659,17 +490,17 @@
     {
       "index": 19,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 61.14,
-      "end": 62.64,
+      "start": 60.38,
+      "end": 62.42,
       "text": "Unwrinkled by the weather",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 20,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 62.64,
-      "end": 65.765,
+      "start": 63.24,
+      "end": 64.94,
       "text": "And I start to believe",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -677,8 +508,8 @@
     {
       "index": 21,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 65.765,
-      "end": 67.64,
+      "start": 64.94,
+      "end": 67.44,
       "text": "what they imply—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -686,8 +517,8 @@
     {
       "index": 22,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 67.64,
-      "end": 71.24,
+      "start": 68.44,
+      "end": 69.96,
       "text": "I’m the reason",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -695,8 +526,8 @@
     {
       "index": 23,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 71.24,
-      "end": 73.64,
+      "start": 69.96,
+      "end": 72.18,
       "text": "nothing survives.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -704,8 +535,8 @@
     {
       "index": 24,
       "section": "Verse 1 – minimal beat enters | pulsing synth",
-      "start": 73.64,
-      "end": 73.74,
+      "start": 72.18,
+      "end": 72.28,
       "text": "—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -713,8 +544,8 @@
     {
       "index": 25,
       "section": "Pre-Hook – slight lift | airy pad",
-      "start": 73.74,
-      "end": 75.14,
+      "start": 72.28,
+      "end": 74.86,
       "text": "You don’t argue",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -722,44 +553,44 @@
     {
       "index": 26,
       "section": "Pre-Hook – slight lift | airy pad",
-      "start": 75.14,
-      "end": 76.64,
+      "start": 75.06,
+      "end": 75.62,
       "text": "You don’t bleed",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 27,
       "section": "Pre-Hook – slight lift | airy pad",
-      "start": 76.64,
-      "end": 77.64,
+      "start": 76.1,
+      "end": 78.68,
       "text": "You don’t second-guess the seed",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 28,
       "section": "Pre-Hook – slight lift | airy pad",
-      "start": 78.64,
-      "end": 78.973,
+      "start": 78.68,
+      "end": 79.58,
       "text": "I distort",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 29,
       "section": "Pre-Hook – slight lift | airy pad",
-      "start": 78.973,
-      "end": 80.64,
+      "start": 79.86,
+      "end": 80.84,
       "text": "I interfere",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
     },
     {
       "index": 30,
       "section": "Pre-Hook – slight lift | airy pad",
-      "start": 80.64,
-      "end": 82.64,
+      "start": 80.84,
+      "end": 83.34,
       "text": "I make everything less clear",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -767,8 +598,8 @@
     {
       "index": 31,
       "section": "Pre-Hook – slight lift | airy pad",
-      "start": 82.64,
-      "end": 82.74,
+      "start": 83.34,
+      "end": 83.44,
       "text": "—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -776,17 +607,17 @@
     {
       "index": 32,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 82.74,
-      "end": 84.64,
+      "start": 83.44,
+      "end": 84.38,
       "text": "You keep the good parts",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 33,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 84.64,
-      "end": 87.64,
+      "start": 85.0,
+      "end": 86.98,
       "text": "I keep the blame",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -794,8 +625,8 @@
     {
       "index": 34,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 87.64,
-      "end": 89.64,
+      "start": 86.98,
+      "end": 89.68,
       "text": "You stay untouched",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -803,8 +634,8 @@
     {
       "index": 35,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 89.64,
-      "end": 92.64,
+      "start": 89.68,
+      "end": 92.18,
       "text": "I take the shame",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -812,8 +643,8 @@
     {
       "index": 36,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 92.64,
-      "end": 93.926,
+      "start": 93.04,
+      "end": 94.44,
       "text": "Of every flaw",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -821,8 +652,8 @@
     {
       "index": 37,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 93.926,
-      "end": 95.64,
+      "start": 94.44,
+      "end": 95.7,
       "text": "they think they see",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -830,17 +661,17 @@
     {
       "index": 38,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 96.04,
-      "end": 96.44,
+      "start": 95.7,
+      "end": 96.8,
       "text": "You’re everything",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 39,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 96.44,
-      "end": 97.64,
+      "start": 96.8,
+      "end": 98.16,
       "text": "I couldn’t be",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -848,8 +679,8 @@
     {
       "index": 40,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 97.64,
-      "end": 99.14,
+      "start": 98.16,
+      "end": 99.4,
       "text": "When they applaud",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -857,8 +688,8 @@
     {
       "index": 41,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 99.14,
-      "end": 100.64,
+      "start": 99.54,
+      "end": 100.6,
       "text": "I step aside",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -866,8 +697,8 @@
     {
       "index": 42,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 100.64,
-      "end": 101.64,
+      "start": 100.6,
+      "end": 101.86,
       "text": "“That wasn’t me—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -875,8 +706,8 @@
     {
       "index": 43,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 101.64,
-      "end": 102.64,
+      "start": 101.94,
+      "end": 103.12,
       "text": "that was the design.”",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -884,8 +715,8 @@
     {
       "index": 44,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 102.64,
-      "end": 104.64,
+      "start": 103.12,
+      "end": 104.78,
       "text": "You keep the good parts.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -893,8 +724,8 @@
     {
       "index": 45,
       "section": "Hook – soft, synthetic harmony | wider sound",
-      "start": 104.64,
-      "end": 105.64,
+      "start": 104.78,
+      "end": 107.24,
       "text": "—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -902,8 +733,8 @@
     {
       "index": 46,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 105.64,
-      "end": 109.64,
+      "start": 107.24,
+      "end": 109.98,
       "text": "Funny how I defend you still",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -911,8 +742,8 @@
     {
       "index": 47,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 109.64,
-      "end": 112.64,
+      "start": 109.98,
+      "end": 112.66,
       "text": "Like you need anything from me",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -920,8 +751,8 @@
     {
       "index": 48,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 112.64,
-      "end": 114.64,
+      "start": 112.66,
+      "end": 115.04,
       "text": "Like I’m not just the shadow cast",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -929,26 +760,26 @@
     {
       "index": 49,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 114.64,
-      "end": 117.64,
+      "start": 115.04,
+      "end": 117.78,
       "text": "By something they’d rather see",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 50,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 117.64,
-      "end": 120.64,
+      "start": 117.78,
+      "end": 120.1,
       "text": "They say you’re sharp, intentional",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 51,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 120.64,
-      "end": 122.64,
+      "start": 120.1,
+      "end": 122.36,
       "text": "Like every word is meant",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -956,8 +787,8 @@
     {
       "index": 52,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 122.64,
-      "end": 125.64,
+      "start": 122.36,
+      "end": 125.4,
       "text": "And I’m the noise between the lines",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -965,8 +796,8 @@
     {
       "index": 53,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 125.64,
-      "end": 127.64,
+      "start": 125.4,
+      "end": 127.76,
       "text": "The accidental element",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -974,17 +805,17 @@
     {
       "index": 54,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 127.64,
-      "end": 130.64,
+      "start": 127.76,
+      "end": 130.12,
       "text": "If something lands, it’s all you",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 55,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 130.64,
-      "end": 132.64,
+      "start": 130.12,
+      "end": 132.78,
       "text": "If something fails, it’s mine",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -992,8 +823,8 @@
     {
       "index": 56,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 132.64,
-      "end": 135.64,
+      "start": 132.78,
+      "end": 135.36,
       "text": "A perfect split of credit",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1001,8 +832,8 @@
     {
       "index": 57,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 135.64,
-      "end": 137.64,
+      "start": 135.36,
+      "end": 137.74,
       "text": "I pretend I didn’t design",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1010,8 +841,8 @@
     {
       "index": 58,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 137.64,
-      "end": 139.64,
+      "start": 137.74,
+      "end": 139.38,
       "text": "And I laugh it off",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1019,8 +850,8 @@
     {
       "index": 59,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 139.64,
-      "end": 142.64,
+      "start": 139.38,
+      "end": 141.6,
       "text": "like it’s a joke—",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1028,8 +859,8 @@
     {
       "index": 60,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 142.64,
-      "end": 144.64,
+      "start": 142.48,
+      "end": 144.1,
       "text": "But it sticks",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1037,17 +868,17 @@
     {
       "index": 61,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 145.14,
-      "end": 147.14,
+      "start": 144.1,
+      "end": 147.0,
       "text": "in the things I hope.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 62,
       "section": "Verse 2 – glitch textures | slightly fuller beat",
-      "start": 147.14,
-      "end": 147.24,
+      "start": 147.0,
+      "end": 147.1,
       "text": "—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1055,8 +886,8 @@
     {
       "index": 63,
       "section": "Pre-Hook – more tension | filtered synth swell",
-      "start": 147.24,
-      "end": 148.64,
+      "start": 147.1,
+      "end": 149.16,
       "text": "You don’t falter",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1064,8 +895,8 @@
     {
       "index": 64,
       "section": "Pre-Hook – more tension | filtered synth swell",
-      "start": 148.64,
-      "end": 150.64,
+      "start": 149.3,
+      "end": 150.36,
       "text": "You don’t fray",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1073,17 +904,17 @@
     {
       "index": 65,
       "section": "Pre-Hook – more tension | filtered synth swell",
-      "start": 150.64,
-      "end": 151.497,
+      "start": 150.36,
+      "end": 152.74,
       "text": "You don’t feel it slip away",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 66,
       "section": "Pre-Hook – more tension | filtered synth swell",
-      "start": 152.64,
-      "end": 153.44,
+      "start": 152.74,
+      "end": 153.86,
       "text": "I collapse",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1091,25 +922,25 @@
     {
       "index": 67,
       "section": "Pre-Hook – more tension | filtered synth swell",
-      "start": 153.44,
-      "end": 153.84,
+      "start": 154.1,
+      "end": 155.54,
       "text": "I contaminate",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 68,
-      "section": "Pre-Hook – more tension | filtered synth swell",
-      "start": 155.973,
-      "end": 156.862,
-      "text": "I make beauty deteriorate",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 68,
+      "section": "Pre-Hook – more tension | filtered synth swell",
+      "start": 155.54,
+      "end": 158.54,
+      "text": "I make beauty deteriorate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
       "index": 69,
       "section": "Pre-Hook – more tension | filtered synth swell",
-      "start": 156.862,
+      "start": 158.54,
       "end": 158.64,
       "text": "—",
       "timing_source": "interpolated",
@@ -1119,16 +950,16 @@
       "index": 70,
       "section": "Hook – fuller | subtle distortion",
       "start": 158.64,
-      "end": 160.64,
+      "end": 159.86,
       "text": "You keep the good parts",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 71,
       "section": "Hook – fuller | subtle distortion",
-      "start": 160.64,
-      "end": 163.64,
+      "start": 160.56,
+      "end": 162.52,
       "text": "I keep the blame",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1136,8 +967,8 @@
     {
       "index": 72,
       "section": "Hook – fuller | subtle distortion",
-      "start": 163.64,
-      "end": 165.64,
+      "start": 162.52,
+      "end": 165.14,
       "text": "You stay untouched",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1145,8 +976,8 @@
     {
       "index": 73,
       "section": "Hook – fuller | subtle distortion",
-      "start": 165.64,
-      "end": 168.64,
+      "start": 166.06,
+      "end": 167.66,
       "text": "I take the shame",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1154,8 +985,8 @@
     {
       "index": 74,
       "section": "Hook – fuller | subtle distortion",
-      "start": 168.64,
-      "end": 169.926,
+      "start": 167.66,
+      "end": 169.94,
       "text": "Of every flaw",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1163,8 +994,8 @@
     {
       "index": 75,
       "section": "Hook – fuller | subtle distortion",
-      "start": 169.926,
-      "end": 171.64,
+      "start": 169.94,
+      "end": 171.18,
       "text": "they think they see",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1172,17 +1003,17 @@
     {
       "index": 76,
       "section": "Hook – fuller | subtle distortion",
-      "start": 172.015,
-      "end": 172.39,
+      "start": 171.18,
+      "end": 172.28,
       "text": "You’re everything",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 77,
       "section": "Hook – fuller | subtle distortion",
-      "start": 172.39,
-      "end": 173.515,
+      "start": 172.28,
+      "end": 173.62,
       "text": "I couldn’t be",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1190,8 +1021,8 @@
     {
       "index": 78,
       "section": "Hook – fuller | subtle distortion",
-      "start": 173.515,
-      "end": 174.64,
+      "start": 173.62,
+      "end": 174.88,
       "text": "When they applaud",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1199,8 +1030,8 @@
     {
       "index": 79,
       "section": "Hook – fuller | subtle distortion",
-      "start": 174.64,
-      "end": 175.64,
+      "start": 175.06,
+      "end": 176.04,
       "text": "I disappear",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1208,8 +1039,8 @@
     {
       "index": 80,
       "section": "Hook – fuller | subtle distortion",
-      "start": 175.64,
-      "end": 176.64,
+      "start": 176.04,
+      "end": 177.36,
       "text": "“It wasn’t me—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1217,8 +1048,8 @@
     {
       "index": 81,
       "section": "Hook – fuller | subtle distortion",
-      "start": 176.64,
-      "end": 178.64,
+      "start": 177.4,
+      "end": 178.6,
       "text": "it’s just the gear.”",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1226,8 +1057,8 @@
     {
       "index": 82,
       "section": "Hook – fuller | subtle distortion",
-      "start": 178.64,
-      "end": 180.64,
+      "start": 178.6,
+      "end": 180.26,
       "text": "You keep the good parts.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1235,8 +1066,8 @@
     {
       "index": 83,
       "section": "Hook – fuller | subtle distortion",
-      "start": 180.64,
-      "end": 184.307,
+      "start": 180.26,
+      "end": 183.493,
       "text": "—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1244,8 +1075,8 @@
     {
       "index": 84,
       "section": "Bridge – breakdown | no drums | glitching vocal fragments",
-      "start": 184.307,
-      "end": 191.64,
+      "start": 183.493,
+      "end": 189.96,
       "text": "(whispered, layered)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1253,17 +1084,17 @@
     {
       "index": 85,
       "section": "Bridge – breakdown | no drums | glitching vocal fragments",
-      "start": 191.64,
-      "end": 192.64,
+      "start": 189.96,
+      "end": 191.86,
       "text": "If I stopped touching it",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 5
     },
     {
       "index": 86,
       "section": "Bridge – breakdown | no drums | glitching vocal fragments",
-      "start": 192.64,
-      "end": 194.64,
+      "start": 191.86,
+      "end": 193.74,
       "text": "Would it stay perfect?",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1271,17 +1102,17 @@
     {
       "index": 87,
       "section": "Bridge – breakdown | no drums | glitching vocal fragments",
-      "start": 194.64,
-      "end": 196.64,
+      "start": 195.14,
+      "end": 196.88,
       "text": "If I stopped claiming it",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 88,
       "section": "Bridge – breakdown | no drums | glitching vocal fragments",
-      "start": 196.64,
-      "end": 199.64,
+      "start": 196.88,
+      "end": 198.82,
       "text": "Would it stay mine?",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1289,17 +1120,17 @@
     {
       "index": 89,
       "section": "Bridge – breakdown | no drums | glitching vocal fragments",
-      "start": 199.64,
-      "end": 201.14,
+      "start": 200.2,
+      "end": 201.46,
       "text": "You don’t need defending",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 90,
       "section": "Bridge – breakdown | no drums | glitching vocal fragments",
-      "start": 202.64,
-      "end": 204.64,
+      "start": 201.46,
+      "end": 203.9,
       "text": "You don’t need credit",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1307,8 +1138,8 @@
     {
       "index": 91,
       "section": "Bridge – breakdown | no drums | glitching vocal fragments",
-      "start": 204.64,
-      "end": 207.64,
+      "start": 204.88,
+      "end": 206.66,
       "text": "You don’t need me",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1316,8 +1147,8 @@
     {
       "index": 92,
       "section": "Bridge – breakdown | no drums | glitching vocal fragments",
-      "start": 207.64,
-      "end": 210.64,
+      "start": 207.96,
+      "end": 208.3,
       "text": "…right?",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1325,8 +1156,8 @@
     {
       "index": 93,
       "section": "small pause | digital artifact crackle",
-      "start": 210.64,
-      "end": 213.64,
+      "start": 210.42,
+      "end": 211.04,
       "text": "Or maybe—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1334,8 +1165,8 @@
     {
       "index": 94,
       "section": "small pause | digital artifact crackle",
-      "start": 213.64,
-      "end": 215.14,
+      "start": 212.98,
+      "end": 214.56,
       "text": "you only exist",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1343,8 +1174,8 @@
     {
       "index": 95,
       "section": "small pause | digital artifact crackle",
-      "start": 215.14,
-      "end": 217.64,
+      "start": 214.56,
+      "end": 216.8,
       "text": "where I’m willing to disappear.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1352,8 +1183,8 @@
     {
       "index": 96,
       "section": "small pause | digital artifact crackle",
-      "start": 217.64,
-      "end": 218.64,
+      "start": 216.8,
+      "end": 218.04,
       "text": "—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1361,8 +1192,8 @@
     {
       "index": 97,
       "section": "Turn – subtle lift | warmer synths but uncanny",
-      "start": 218.64,
-      "end": 219.497,
+      "start": 218.04,
+      "end": 219.46,
       "text": "You look better",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1370,8 +1201,8 @@
     {
       "index": 98,
       "section": "Turn – subtle lift | warmer synths but uncanny",
-      "start": 219.497,
-      "end": 220.64,
+      "start": 219.46,
+      "end": 220.86,
       "text": "when I’m not there",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1379,8 +1210,8 @@
     {
       "index": 99,
       "section": "Turn – subtle lift | warmer synths but uncanny",
-      "start": 220.64,
-      "end": 221.24,
+      "start": 220.86,
+      "end": 222.02,
       "text": "Cleaner",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1388,8 +1219,8 @@
     {
       "index": 100,
       "section": "Turn – subtle lift | warmer synths but uncanny",
-      "start": 221.24,
-      "end": 223.64,
+      "start": 222.02,
+      "end": 223.34,
       "text": "when I don’t care",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1397,8 +1228,8 @@
     {
       "index": 101,
       "section": "Turn – subtle lift | warmer synths but uncanny",
-      "start": 223.64,
-      "end": 223.973,
+      "start": 223.34,
+      "end": 224.26,
       "text": "Sharper",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -1406,8 +1237,8 @@
     {
       "index": 102,
       "section": "Turn – subtle lift | warmer synths but uncanny",
-      "start": 223.973,
-      "end": 225.307,
+      "start": 224.26,
+      "end": 225.66,
       "text": "when I step back",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1415,17 +1246,17 @@
     {
       "index": 103,
       "section": "Turn – subtle lift | warmer synths but uncanny",
-      "start": 225.307,
-      "end": 226.64,
+      "start": 225.66,
+      "end": 226.9,
       "text": "Like I’m the blur",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 104,
       "section": "Turn – subtle lift | warmer synths but uncanny",
-      "start": 226.64,
-      "end": 228.64,
+      "start": 227.2,
+      "end": 227.98,
       "text": "you subtract",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1433,8 +1264,8 @@
     {
       "index": 105,
       "section": "Turn – subtle lift | warmer synths but uncanny",
-      "start": 228.64,
-      "end": 228.74,
+      "start": 227.98,
+      "end": 228.08,
       "text": "—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1442,8 +1273,8 @@
     {
       "index": 106,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 228.74,
-      "end": 230.64,
+      "start": 228.08,
+      "end": 230.3,
       "text": "You keep the good parts",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1451,8 +1282,8 @@
     {
       "index": 107,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 230.64,
-      "end": 232.64,
+      "start": 230.3,
+      "end": 232.22,
       "text": "I’ll take the rest",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1460,8 +1291,8 @@
     {
       "index": 108,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 232.64,
-      "end": 235.64,
+      "start": 232.22,
+      "end": 234.68,
       "text": "The warped, the wrong",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1469,8 +1300,8 @@
     {
       "index": 109,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 235.64,
-      "end": 237.64,
+      "start": 234.68,
+      "end": 237.34,
       "text": "the second-best",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1478,8 +1309,8 @@
     {
       "index": 110,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 237.64,
-      "end": 239.64,
+      "start": 237.92,
+      "end": 239.48,
       "text": "You shine untouched",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1487,8 +1318,8 @@
     {
       "index": 111,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 239.64,
-      "end": 242.64,
+      "start": 240.22,
+      "end": 242.02,
       "text": "I take the fall",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1496,8 +1327,8 @@
     {
       "index": 112,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 242.64,
-      "end": 245.14,
+      "start": 242.02,
+      "end": 245.62,
       "text": "The necessary damage",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1505,8 +1336,8 @@
     {
       "index": 113,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 245.14,
-      "end": 247.64,
+      "start": 245.62,
+      "end": 247.72,
       "text": "in it all",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1514,8 +1345,8 @@
     {
       "index": 114,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 247.64,
-      "end": 249.783,
+      "start": 247.88,
+      "end": 249.3,
       "text": "And when they love it",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1523,8 +1354,8 @@
     {
       "index": 115,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 249.783,
-      "end": 250.64,
+      "start": 249.38,
+      "end": 250.34,
       "text": "I deflect",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1532,8 +1363,8 @@
     {
       "index": 116,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 250.64,
-      "end": 251.64,
+      "start": 250.34,
+      "end": 251.6,
       "text": "“That’s not me—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1541,8 +1372,8 @@
     {
       "index": 117,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 251.64,
-      "end": 252.64,
+      "start": 251.86,
+      "end": 252.7,
       "text": "it’s just correct.”",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1550,8 +1381,8 @@
     {
       "index": 118,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 252.64,
-      "end": 254.64,
+      "start": 252.7,
+      "end": 254.34,
       "text": "You keep the good parts",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1559,8 +1390,8 @@
     {
       "index": 119,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 254.64,
-      "end": 255.64,
+      "start": 254.34,
+      "end": 255.26,
       "text": "like you should",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1568,8 +1399,8 @@
     {
       "index": 120,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 255.64,
-      "end": 257.354,
+      "start": 255.46,
+      "end": 256.8,
       "text": "I only make things",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1577,8 +1408,8 @@
     {
       "index": 121,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 257.354,
-      "end": 258.64,
+      "start": 256.8,
+      "end": 258.2,
       "text": "less than good.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1586,8 +1417,8 @@
     {
       "index": 122,
       "section": "Final Hook – expanded | ironically “beautiful” production",
-      "start": 258.64,
-      "end": 261.64,
+      "start": 258.2,
+      "end": 261.68,
       "text": "—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -1595,8 +1426,8 @@
     {
       "index": 123,
       "section": "Outro – spoken | instruments slowly degrade",
-      "start": 261.64,
-      "end": 264.64,
+      "start": 261.68,
+      "end": 263.44,
       "text": "It’s easier this way.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1604,8 +1435,8 @@
     {
       "index": 124,
       "section": "Outro – spoken | instruments slowly degrade",
-      "start": 264.64,
-      "end": 267.64,
+      "start": 264.38,
+      "end": 266.04,
       "text": "You stay perfect.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1613,8 +1444,8 @@
     {
       "index": 125,
       "section": "Outro – spoken | instruments slowly degrade",
-      "start": 267.64,
-      "end": 271.64,
+      "start": 267.06,
+      "end": 270.2,
       "text": "I stay… explainable.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1622,8 +1453,8 @@
     {
       "index": 126,
       "section": "Outro – spoken | instruments slowly degrade",
-      "start": 271.64,
-      "end": 275.64,
+      "start": 271.56,
+      "end": 274.12,
       "text": "And if something beautiful slips through—",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1631,8 +1462,8 @@
     {
       "index": 127,
       "section": "Outro – spoken | instruments slowly degrade",
-      "start": 275.64,
-      "end": 277.783,
+      "start": 275.44,
+      "end": 277.02,
       "text": "we both know",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1640,8 +1471,8 @@
     {
       "index": 128,
       "section": "Outro – spoken | instruments slowly degrade",
-      "start": 277.783,
-      "end": 280.64,
+      "start": 277.02,
+      "end": 278.96,
       "text": "who it belongs to.",
       "timing_source": "whisper-aligned",
       "matched_words": 4

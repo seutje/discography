@@ -4,241 +4,232 @@
   "title": "Broken By Design",
   "text_path": "Failure to Converge/06 - Broken By Design.txt",
   "audio_path": "Failure to Converge/audio/06 - Broken By Design.mp3",
-  "duration_seconds": 261.0,
-  "model": "base",
+  "duration_seconds": 260.38,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 82,
     "reference_word_count": 389,
-    "observed_word_count": 427,
-    "matched_word_count": 347,
-    "matched_word_ratio": 0.892,
-    "inserted_adlib_count": 0
+    "observed_word_count": 391,
+    "matched_word_count": 378,
+    "matched_word_ratio": 0.972,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 15.0,
-      "text": "I ran it back again tonight, same input, same design"
+      "start": 2.52,
+      "end": 11.7,
+      "text": "i ran it back again tonight same input same design"
     },
     {
-      "start": 15.0,
-      "end": 20.0,
-      "text": "The length and flickers underneath a quiet misalignment"
+      "start": 14.92,
+      "end": 19.46,
+      "text": "something flickers underneath a quiet misalignment"
     },
     {
-      "start": 20.0,
-      "end": 27.0,
-      "text": "A question I can't silence, has this ever worked?"
+      "start": 19.46,
+      "end": 25.72,
+      "text": "a question i can't silence has this ever hurt"
     },
     {
-      "start": 36.0,
-      "end": 39.0,
-      "text": "I traced the steps I thought were clean"
+      "start": 35.66,
+      "end": 41.1,
+      "text": "i traced the steps i thought were clean follow patterns i've already seen"
     },
     {
-      "start": 39.0,
-      "end": 44.0,
-      "text": "All the patterns I've already seen, every path I marked is true"
+      "start": 41.1,
+      "end": 46.62,
+      "text": "every path i marked as true dends until it isn't you"
     },
     {
-      "start": 44.0,
-      "end": 49.0,
-      "text": "Pins until it isn't you, assertions whisper and collapse"
+      "start": 46.62,
+      "end": 52.12,
+      "text": "assertions whisper then collapse small inconsistencies in maps"
     },
     {
-      "start": 49.0,
-      "end": 55.0,
-      "text": "Small inconsistencies and maps I frame the test, I set the scope"
+      "start": 52.12,
+      "end": 57.7,
+      "text": "i framed the test i set the scope now i don't believe the hope"
     },
     {
-      "start": 55.0,
-      "end": 58.0,
-      "text": "Now I don't believe the hope"
+      "start": 57.7,
+      "end": 63.3,
+      "text": "i keep asking under breath like it's something more than this"
     },
     {
-      "start": 58.0,
-      "end": 63.0,
-      "text": "I keep asking in the breath, like it's something more than this"
+      "start": 63.3,
+      "end": 68.86,
+      "text": "am i testing the right branch or just proving what i am"
     },
     {
-      "start": 63.0,
-      "end": 68.0,
-      "text": "Am I testing the right branch or just proving what I am?"
+      "start": 68.94,
+      "end": 73.24,
+      "text": "has this ever worked or did i just believe it did"
     },
     {
-      "start": 68.0,
-      "end": 73.0,
-      "text": "Has this ever worked? Or did I just believe it did?"
+      "start": 74.2,
+      "end": 78.64,
+      "text": "did i miss the point or protect what i can't admit"
     },
     {
-      "start": 73.0,
-      "end": 79.0,
-      "text": "Did I miss the point? I'll protect what I can admit"
+      "start": 80.08,
+      "end": 84.42,
+      "text": "am i testing truth or a version i rehearsed"
     },
     {
-      "start": 79.0,
-      "end": 85.0,
-      "text": "Am I testing truth or aversion I rehearsed?"
+      "start": 85.68,
+      "end": 89.98,
+      "text": "every check i run just returns me to the first"
     },
     {
-      "start": 85.0,
-      "end": 91.0,
-      "text": "Every check I run and just returns me to the first"
+      "start": 91.8,
+      "end": 97.52,
+      "text": "etch cases drift into the frame uninvited still the same conditions i refuse to meet"
     },
     {
-      "start": 92.0,
-      "end": 96.0,
-      "text": "In case it's drifting to the frame, uninvited still the same conditions"
+      "start": 97.52,
+      "end": 105.12,
+      "text": "now they're walking through my sleep coverage says i'm almost there"
     },
     {
-      "start": 96.0,
-      "end": 103.0,
-      "text": "I refuse to meet, now they're walking through my sleep"
+      "start": 105.12,
+      "end": 108.12,
+      "text": "but there's something i don't share a passing state that feels too thin"
     },
     {
-      "start": 103.0,
-      "end": 106.0,
-      "text": "Coverage says I'm almost there, but there's something I don't share"
+      "start": 108.12,
+      "end": 116.3,
+      "text": "like i filtered out the risk within i simulate what i can see"
     },
     {
-      "start": 106.0,
-      "end": 113.0,
-      "text": "A passing stick that feels too thin, like I feel the dirt out the risk with"
+      "start": 116.3,
+      "end": 121.9,
+      "text": "ignore the deeper dependency every failure i dismiss"
     },
     {
-      "start": 113.0,
-      "end": 119.0,
-      "text": "And I simulate what I can see, ignore the deeper dependency"
+      "start": 121.9,
+      "end": 126.04,
+      "text": "reappears inside the list has this ever worked"
     },
     {
-      "start": 119.0,
-      "end": 124.0,
-      "text": "Every failure I dismiss, reappears inside the list"
+      "start": 126.8,
+      "end": 131.54,
+      "text": "or did i just avoid the truth did i build a frame"
     },
     {
-      "start": 124.0,
-      "end": 129.0,
-      "text": "Has this ever worked? Or did I just avoid the truth?"
+      "start": 132.3,
+      "end": 139.98,
+      "text": "or out of everything i knew am i testing paths that i'm too afraid to take"
     },
     {
-      "start": 129.0,
-      "end": 135.0,
-      "text": "Did I build a frame? Or out of everything I knew?"
+      "start": 141.4,
+      "end": 145.58,
+      "text": "every line i skip is another quiet break"
     },
     {
-      "start": 135.0,
-      "end": 140.0,
-      "text": "Am I testing past that I'm too afraid to take?"
+      "start": 158.54,
+      "end": 164.32,
+      "text": "patterns echo until they're known"
     },
     {
-      "start": 140.0,
-      "end": 146.0,
-      "text": "Every line I skip is another quiet break"
+      "start": 164.32,
+      "end": 175.64,
+      "text": "signals surface on their own not every flaw is there to hide"
     },
     {
-      "start": 149.0,
-      "end": 154.0,
-      "text": "I'm not testing the right branch or just returning me to the frame"
+      "start": 175.64,
+      "end": 180.82,
+      "text": "some survive to realign"
     },
     {
-      "start": 154.0,
-      "end": 159.0,
-      "text": "I'm not testing the right branch or just returning me to the frame"
+      "start": 180.82,
+      "end": 186.8,
+      "text": "so i let the failures take their place read them like a trace not a mistake"
     },
     {
-      "start": 159.0,
-      "end": 170.0,
-      "text": "Patterns echo until they're known, signal surface on their own"
-    },
-    {
-      "start": 170.0,
-      "end": 181.0,
-      "text": "Not every flaw is there to hide some survive to realize"
-    },
-    {
-      "start": 181.0,
-      "end": 187.0,
-      "text": "So I let the failures take their place, read them like a trace, not a mistake"
-    },
-    {
-      "start": 187.0,
+      "start": 186.8,
       "end": 192.0,
-      "text": "Stop defending every pass, start it, see in what might last"
+      "text": "stopped defending every pass started seeing what might last"
     },
     {
       "start": 192.0,
-      "end": 196.0,
-      "text": "There's aversion, our resist living just be on the list, not incorrect"
+      "end": 195.1,
+      "text": "there's a version i resist living just beyond the list"
     },
     {
-      "start": 196.0,
-      "end": 201.0,
-      "text": "And the fine waiting with the edges behind, maybe testing isn't proof"
+      "start": 195.1,
+      "end": 198.06,
+      "text": "not incorrect just undefined waiting where the edge is blind"
     },
     {
-      "start": 201.0,
-      "end": 208.0,
-      "text": "Maybe it's a way to move through uncertainty with care"
+      "start": 198.06,
+      "end": 203.22,
+      "text": "maybe testing isn't proof maybe it's a way to move"
     },
     {
-      "start": 208.0,
-      "end": 214.0,
-      "text": "And still, barkting like it's clean"
+      "start": 203.22,
+      "end": 213.42,
+      "text": "through uncertainty with care instead of acting like it's clear"
     },
     {
-      "start": 214.0,
-      "end": 219.0,
-      "text": "Maybe this can work, if I stop forcing every pass"
+      "start": 214.18,
+      "end": 218.82,
+      "text": "maybe this can work if i stop forcing every pass"
     },
     {
-      "start": 219.0,
-      "end": 225.0,
-      "text": "If I let it break, and just hear what it asks"
+      "start": 219.78,
+      "end": 224.36,
+      "text": "if i let it break and just hear what it asks"
     },
     {
-      "start": 225.0,
-      "end": 231.0,
-      "text": "Am I testing truth or learning how to see?"
+      "start": 225.46,
+      "end": 229.76,
+      "text": "am i testing truth or learning how to see"
     },
     {
-      "start": 231.0,
-      "end": 237.0,
-      "text": "Every failing case is a clearer part of me"
+      "start": 229.76,
+      "end": 239.3,
+      "text": "every failing case is a clearer part of me it settles differently somehow"
     },
     {
-      "start": 237.0,
-      "end": 243.0,
-      "text": "It settles differently somehow, no need to force it now"
+      "start": 239.3,
+      "end": 245.4,
+      "text": "no need to force it now one last quiet check"
     },
     {
-      "start": 243.0,
-      "end": 253.0,
-      "text": "One last quiet check, no rush, has this ever worked?"
+      "start": 245.4,
+      "end": 249.74,
+      "text": "no rush has this ever worked"
     },
     {
-      "start": 253.0,
-      "end": 261.0,
-      "text": "Not like this, but maybe it can"
+      "start": 249.74,
+      "end": 260.38,
+      "text": "not like this but maybe it can"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – minimal synth pulse | distant artifacts",
-      "start": 0.0,
-      "end": 6.0,
+      "start": 2.52,
+      "end": 7.22,
       "text": "I ran it back again tonight",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 1,
       "section": "Intro – minimal synth pulse | distant artifacts",
-      "start": 9.0,
-      "end": 10.5,
+      "start": 7.22,
+      "end": 7.72,
       "text": "Same inputs",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -246,8 +237,8 @@
     {
       "index": 2,
       "section": "Intro – minimal synth pulse | distant artifacts",
-      "start": 12.0,
-      "end": 15.0,
+      "start": 9.22,
+      "end": 11.7,
       "text": "same design",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -255,17 +246,17 @@
     {
       "index": 3,
       "section": "Intro – minimal synth pulse | distant artifacts",
-      "start": 16.875,
-      "end": 18.125,
+      "start": 14.56,
+      "end": 16.98,
       "text": "Something flickers underneath",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 4,
       "section": "Intro – minimal synth pulse | distant artifacts",
-      "start": 18.125,
-      "end": 20.0,
+      "start": 16.98,
+      "end": 19.46,
       "text": "a quiet misalignment",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -273,8 +264,8 @@
     {
       "index": 5,
       "section": "Intro – minimal synth pulse | distant artifacts",
-      "start": 20.0,
-      "end": 23.889,
+      "start": 19.46,
+      "end": 22.58,
       "text": "A question I can’t silence:",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -282,17 +273,17 @@
     {
       "index": 6,
       "section": "Intro – minimal synth pulse | distant artifacts",
-      "start": 23.889,
-      "end": 27.0,
+      "start": 22.58,
+      "end": 24.96,
       "text": "Has this ever worked?",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 7,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 36.0,
-      "end": 39.0,
+      "start": 35.53,
+      "end": 38.38,
       "text": "I trace the steps I thought were clean",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -300,26 +291,26 @@
     {
       "index": 8,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 39.833,
-      "end": 41.5,
+      "start": 38.38,
+      "end": 41.1,
       "text": "Follow patterns I’ve already seen",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 9,
-      "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 41.5,
-      "end": 44.0,
-      "text": "Every path I marked as true",
       "timing_source": "whisper-aligned",
       "matched_words": 5
     },
     {
+      "index": 9,
+      "section": "Verse 1 – soft pulse + minimal beat",
+      "start": 41.1,
+      "end": 43.94,
+      "text": "Every path I marked as true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
       "index": 10,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 44.556,
-      "end": 46.778,
+      "start": 44.36,
+      "end": 46.62,
       "text": "bends until it isn’t you",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -327,35 +318,35 @@
     {
       "index": 11,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 46.778,
-      "end": 49.0,
+      "start": 46.62,
+      "end": 49.4,
       "text": "Assertions whisper, then collapse",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 12,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 49.0,
-      "end": 51.0,
+      "start": 49.4,
+      "end": 52.12,
       "text": "Small inconsistencies in maps",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 13,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 51.0,
-      "end": 55.0,
+      "start": 52.12,
+      "end": 54.94,
       "text": "I framed the test, I set the scope",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 8
     },
     {
       "index": 14,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 55.0,
-      "end": 58.0,
+      "start": 54.94,
+      "end": 57.7,
       "text": "Now I don’t believe the hope",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -363,17 +354,17 @@
     {
       "index": 15,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 58.0,
-      "end": 60.5,
+      "start": 57.7,
+      "end": 60.38,
       "text": "I keep asking under breath",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 16,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 60.5,
-      "end": 63.0,
+      "start": 60.38,
+      "end": 63.3,
       "text": "like it’s something more than this",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -381,8 +372,8 @@
     {
       "index": 17,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 63.0,
-      "end": 65.5,
+      "start": 63.3,
+      "end": 66.16,
       "text": "Am I testing the right branch",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -390,8 +381,8 @@
     {
       "index": 18,
       "section": "Verse 1 – soft pulse + minimal beat",
-      "start": 65.5,
-      "end": 68.0,
+      "start": 66.16,
+      "end": 68.86,
       "text": "or just proving what I am?",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -399,8 +390,8 @@
     {
       "index": 19,
       "section": "Hook – airy, melodic, slightly layered",
-      "start": 68.0,
-      "end": 69.818,
+      "start": 68.94,
+      "end": 70.26,
       "text": "Has this ever worked",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -408,8 +399,8 @@
     {
       "index": 20,
       "section": "Hook – airy, melodic, slightly layered",
-      "start": 69.818,
-      "end": 73.0,
+      "start": 70.84,
+      "end": 73.24,
       "text": "or did I just believe it did",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -417,8 +408,8 @@
     {
       "index": 21,
       "section": "Hook – airy, melodic, slightly layered",
-      "start": 73.0,
-      "end": 75.727,
+      "start": 74.2,
+      "end": 76.0,
       "text": "Did I miss the point",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -426,17 +417,17 @@
     {
       "index": 22,
       "section": "Hook – airy, melodic, slightly layered",
-      "start": 76.273,
-      "end": 79.0,
+      "start": 76.44,
+      "end": 78.64,
       "text": "or protect what I can’t admit",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 23,
       "section": "Hook – airy, melodic, slightly layered",
-      "start": 79.0,
-      "end": 82.0,
+      "start": 80.08,
+      "end": 81.84,
       "text": "Am I testing truth",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -444,17 +435,17 @@
     {
       "index": 24,
       "section": "Hook – airy, melodic, slightly layered",
-      "start": 82.0,
-      "end": 85.0,
+      "start": 81.84,
+      "end": 84.42,
       "text": "or a version I rehearsed",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 25,
       "section": "Hook – airy, melodic, slightly layered",
-      "start": 85.0,
-      "end": 87.182,
+      "start": 85.68,
+      "end": 87.32,
       "text": "Every check I run",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -462,8 +453,8 @@
     {
       "index": 26,
       "section": "Hook – airy, melodic, slightly layered",
-      "start": 87.727,
-      "end": 91.0,
+      "start": 87.32,
+      "end": 89.98,
       "text": "just returns me to the first",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -471,17 +462,17 @@
     {
       "index": 27,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 93.667,
-      "end": 94.333,
+      "start": 92.58,
+      "end": 93.98,
       "text": "Edge cases drift into the frame",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 5
     },
     {
       "index": 28,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 94.333,
-      "end": 95.667,
+      "start": 93.98,
+      "end": 95.4,
       "text": "Uninvited, still the same",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -489,8 +480,8 @@
     {
       "index": 29,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 95.667,
-      "end": 98.8,
+      "start": 95.4,
+      "end": 97.52,
       "text": "Conditions I refused to meet",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -498,8 +489,8 @@
     {
       "index": 30,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 98.8,
-      "end": 103.0,
+      "start": 97.52,
+      "end": 102.56,
       "text": "Now they’re walking through my sleep",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -507,8 +498,8 @@
     {
       "index": 31,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 103.0,
-      "end": 104.364,
+      "start": 102.56,
+      "end": 105.12,
       "text": "Coverage says I’m almost there",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -516,8 +507,8 @@
     {
       "index": 32,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 104.364,
-      "end": 106.0,
+      "start": 105.12,
+      "end": 106.42,
       "text": "But there’s something I don’t share",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -525,26 +516,26 @@
     {
       "index": 33,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 106.0,
-      "end": 109.062,
+      "start": 106.42,
+      "end": 108.12,
       "text": "A passing state that feels too thin",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 34,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 109.062,
-      "end": 112.562,
+      "start": 108.12,
+      "end": 113.42,
       "text": "Like I filtered out the risk within",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 35,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 113.545,
-      "end": 116.818,
+      "start": 113.42,
+      "end": 116.3,
       "text": "I simulate what I can see",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -552,8 +543,8 @@
     {
       "index": 36,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 116.818,
-      "end": 119.0,
+      "start": 116.3,
+      "end": 118.84,
       "text": "Ignore the deeper dependency",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -561,8 +552,8 @@
     {
       "index": 37,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 119.0,
-      "end": 121.5,
+      "start": 118.84,
+      "end": 121.9,
       "text": "Every failure I dismiss",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -570,8 +561,8 @@
     {
       "index": 38,
       "section": "Verse 2 – fuller rhythm, soft glitches",
-      "start": 121.5,
-      "end": 124.0,
+      "start": 121.9,
+      "end": 124.68,
       "text": "reappears inside the list",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -579,8 +570,8 @@
     {
       "index": 39,
       "section": "Hook – slightly fuller",
-      "start": 124.0,
-      "end": 125.818,
+      "start": 124.68,
+      "end": 126.04,
       "text": "Has this ever worked",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -588,8 +579,8 @@
     {
       "index": 40,
       "section": "Hook – slightly fuller",
-      "start": 125.818,
-      "end": 129.0,
+      "start": 126.8,
+      "end": 128.88,
       "text": "or did I just avoid the truth",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -597,8 +588,8 @@
     {
       "index": 41,
       "section": "Hook – slightly fuller",
-      "start": 129.0,
-      "end": 131.727,
+      "start": 130.34,
+      "end": 131.54,
       "text": "Did I build a frame",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -606,8 +597,8 @@
     {
       "index": 42,
       "section": "Hook – slightly fuller",
-      "start": 132.273,
-      "end": 135.0,
+      "start": 132.34,
+      "end": 134.66,
       "text": "out of everything I knew",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -615,17 +606,17 @@
     {
       "index": 43,
       "section": "Hook – slightly fuller",
-      "start": 135.0,
-      "end": 136.5,
+      "start": 136.0,
+      "end": 137.84,
       "text": "Am I testing paths",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 44,
       "section": "Hook – slightly fuller",
-      "start": 137.0,
-      "end": 140.0,
+      "start": 137.84,
+      "end": 139.98,
       "text": "that I’m too afraid to take",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -633,8 +624,8 @@
     {
       "index": 45,
       "section": "Hook – slightly fuller",
-      "start": 140.0,
-      "end": 143.0,
+      "start": 141.4,
+      "end": 142.98,
       "text": "Every line I skip",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -642,8 +633,8 @@
     {
       "index": 46,
       "section": "Hook – slightly fuller",
-      "start": 143.0,
-      "end": 146.0,
+      "start": 142.98,
+      "end": 145.58,
       "text": "is another quiet break",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -651,8 +642,8 @@
     {
       "index": 47,
       "section": "Bridge – instrumental swell | fragmented textures resolving",
-      "start": 159.0,
-      "end": 161.2,
+      "start": 158.54,
+      "end": 160.64,
       "text": "Patterns echo",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -660,8 +651,8 @@
     {
       "index": 48,
       "section": "Bridge – instrumental swell | fragmented textures resolving",
-      "start": 161.2,
-      "end": 164.5,
+      "start": 160.64,
+      "end": 164.32,
       "text": "until they’re known",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -669,17 +660,17 @@
     {
       "index": 49,
       "section": "Bridge – instrumental swell | fragmented textures resolving",
-      "start": 165.6,
-      "end": 166.7,
+      "start": 164.32,
+      "end": 166.3,
       "text": "Signals surface",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 50,
       "section": "Bridge – instrumental swell | fragmented textures resolving",
-      "start": 166.7,
-      "end": 170.0,
+      "start": 166.3,
+      "end": 170.02,
       "text": "on their own",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -687,8 +678,8 @@
     {
       "index": 51,
       "section": "Bridge – instrumental swell | fragmented textures resolving",
-      "start": 170.0,
-      "end": 173.0,
+      "start": 170.02,
+      "end": 172.32,
       "text": "Not every flaw",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -696,8 +687,8 @@
     {
       "index": 52,
       "section": "Bridge – instrumental swell | fragmented textures resolving",
-      "start": 173.0,
-      "end": 177.0,
+      "start": 172.32,
+      "end": 175.64,
       "text": "is there to hide",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -705,8 +696,8 @@
     {
       "index": 53,
       "section": "Bridge – instrumental swell | fragmented textures resolving",
-      "start": 177.0,
-      "end": 179.0,
+      "start": 175.64,
+      "end": 178.0,
       "text": "Some survive",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -714,17 +705,17 @@
     {
       "index": 54,
       "section": "Bridge – instrumental swell | fragmented textures resolving",
-      "start": 179.0,
-      "end": 180.0,
+      "start": 178.0,
+      "end": 180.82,
       "text": "to realign",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 2
     },
     {
       "index": 55,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 181.0,
-      "end": 184.0,
+      "start": 180.82,
+      "end": 184.06,
       "text": "So I let the failures take their place",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -732,8 +723,8 @@
     {
       "index": 56,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 184.0,
-      "end": 187.0,
+      "start": 184.06,
+      "end": 186.8,
       "text": "Read them like a trace, not a mistake",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -741,53 +732,53 @@
     {
       "index": 57,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 187.455,
-      "end": 188.818,
+      "start": 186.8,
+      "end": 189.18,
       "text": "Stopped defending every pass",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 58,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 190.636,
+      "start": 189.18,
       "end": 192.0,
       "text": "Started seeing what might last",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 5
     },
     {
       "index": 59,
       "section": "Verse 3 – warmer tone, more grounded",
       "start": 192.0,
-      "end": 193.333,
+      "end": 193.76,
       "text": "There’s a version I resist",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 5
     },
     {
       "index": 60,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 193.333,
-      "end": 195.333,
+      "start": 193.76,
+      "end": 195.1,
       "text": "living just beyond the list",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 61,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 195.333,
-      "end": 196.0,
+      "start": 195.1,
+      "end": 196.48,
       "text": "Not incorrect, just undefined",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 62,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 197.25,
-      "end": 198.917,
+      "start": 196.48,
+      "end": 197.48,
       "text": "waiting where the edges bind",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -795,8 +786,8 @@
     {
       "index": 63,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 199.333,
-      "end": 201.0,
+      "start": 198.06,
+      "end": 200.1,
       "text": "Maybe testing isn’t proof",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -804,8 +795,8 @@
     {
       "index": 64,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 201.0,
-      "end": 205.2,
+      "start": 200.1,
+      "end": 203.22,
       "text": "Maybe it’s a way to move",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -813,26 +804,26 @@
     {
       "index": 65,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 205.2,
-      "end": 208.0,
+      "start": 203.22,
+      "end": 206.8,
       "text": "Through uncertainty with care",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 66,
       "section": "Verse 3 – warmer tone, more grounded",
-      "start": 211.0,
-      "end": 213.0,
+      "start": 208.16,
+      "end": 213.42,
       "text": "instead of acting like it’s clear",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 6
     },
     {
       "index": 67,
       "section": "Hook – warmer, more resolved",
       "start": 214.0,
-      "end": 216.0,
+      "end": 215.66,
       "text": "Maybe this can work",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -840,8 +831,8 @@
     {
       "index": 68,
       "section": "Hook – warmer, more resolved",
-      "start": 216.0,
-      "end": 219.0,
+      "start": 215.66,
+      "end": 218.82,
       "text": "if I stop forcing every pass",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -849,8 +840,8 @@
     {
       "index": 69,
       "section": "Hook – warmer, more resolved",
-      "start": 219.0,
-      "end": 221.727,
+      "start": 219.54,
+      "end": 221.18,
       "text": "If I let it break",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -858,8 +849,8 @@
     {
       "index": 70,
       "section": "Hook – warmer, more resolved",
-      "start": 221.727,
-      "end": 225.0,
+      "start": 221.18,
+      "end": 224.36,
       "text": "and just hear what it asks",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -867,8 +858,8 @@
     {
       "index": 71,
       "section": "Hook – warmer, more resolved",
-      "start": 225.0,
-      "end": 227.667,
+      "start": 225.18,
+      "end": 227.28,
       "text": "Am I testing truth",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -876,8 +867,8 @@
     {
       "index": 72,
       "section": "Hook – warmer, more resolved",
-      "start": 227.667,
-      "end": 231.0,
+      "start": 227.8,
+      "end": 229.76,
       "text": "or learning how to see",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -885,8 +876,8 @@
     {
       "index": 73,
       "section": "Hook – warmer, more resolved",
-      "start": 231.0,
-      "end": 233.0,
+      "start": 229.76,
+      "end": 233.1,
       "text": "Every failing case",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -894,8 +885,8 @@
     {
       "index": 74,
       "section": "Hook – warmer, more resolved",
-      "start": 233.0,
-      "end": 237.0,
+      "start": 233.1,
+      "end": 235.64,
       "text": "is a clearer part of me",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -903,8 +894,8 @@
     {
       "index": 75,
       "section": "Outro – softened elements, stable rhythm fading",
-      "start": 237.0,
-      "end": 239.4,
+      "start": 235.64,
+      "end": 239.3,
       "text": "It settles differently somehow",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -912,8 +903,8 @@
     {
       "index": 76,
       "section": "Outro – softened elements, stable rhythm fading",
-      "start": 239.4,
-      "end": 243.0,
+      "start": 239.3,
+      "end": 242.54,
       "text": "No need to force it now",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -921,8 +912,8 @@
     {
       "index": 77,
       "section": "Outro – softened elements, stable rhythm fading",
-      "start": 243.0,
-      "end": 249.0,
+      "start": 242.54,
+      "end": 246.92,
       "text": "One last quiet check, no rush",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -930,8 +921,8 @@
     {
       "index": 78,
       "section": "Outro – softened elements, stable rhythm fading",
-      "start": 249.0,
-      "end": 253.0,
+      "start": 246.92,
+      "end": 249.74,
       "text": "Has this ever worked?",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -939,17 +930,17 @@
     {
       "index": 79,
       "section": "Outro – softened elements, stable rhythm fading",
-      "start": 253.0,
-      "end": 256.429,
+      "start": 249.74,
+      "end": 251.22,
       "text": "…not like this",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 1
     },
     {
       "index": 80,
       "section": "Outro – softened elements, stable rhythm fading",
-      "start": 256.429,
-      "end": 258.714,
+      "start": 255.16,
+      "end": 258.3,
       "text": "but maybe",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -957,8 +948,8 @@
     {
       "index": 81,
       "section": "Outro – softened elements, stable rhythm fading",
-      "start": 258.714,
-      "end": 261.0,
+      "start": 258.3,
+      "end": 260.38,
       "text": "it can.",
       "timing_source": "whisper-aligned",
       "matched_words": 2

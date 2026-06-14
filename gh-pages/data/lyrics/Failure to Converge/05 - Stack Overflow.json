@@ -4,352 +4,183 @@
   "title": "Stack Overflow",
   "text_path": "Failure to Converge/05 - Stack Overflow.txt",
   "audio_path": "Failure to Converge/audio/05 - Stack Overflow.mp3",
-  "duration_seconds": 247.0,
-  "model": "base",
+  "duration_seconds": 245.88,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 65,
     "reference_word_count": 368,
-    "observed_word_count": 428,
-    "matched_word_count": 260,
-    "matched_word_ratio": 0.707,
-    "inserted_adlib_count": 0
+    "observed_word_count": 372,
+    "matched_word_count": 304,
+    "matched_word_ratio": 0.826,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 5.0,
-      "text": "I said, I said, I called"
+      "start": 9.54,
+      "end": 18.02,
+      "text": "if i call my name and it answers back is it still me or a loop in track"
     },
     {
-      "start": 5.0,
-      "end": 13.0,
-      "text": "If I call my name and the answer's back"
+      "start": 20.54,
+      "end": 28.94,
+      "text": "if i trace the thought to the place it began there's another hand drawing in my hand"
     },
     {
-      "start": 13.0,
-      "end": 18.0,
-      "text": "Is it still me or a luke and track?"
+      "start": 29.54,
+      "end": 34.68,
+      "text": "i keep folding inward like miracode every exit leads to a nested node"
     },
     {
-      "start": 18.0,
-      "end": 23.0,
-      "text": "If I trace the thought to the place it began"
+      "start": 34.68,
+      "end": 39.76,
+      "text": "function calls me from inside my chest returns the same unrendered unrest"
     },
     {
-      "start": 23.0,
-      "end": 29.0,
-      "text": "There's another hand drawing in my hand"
+      "start": 39.76,
+      "end": 44.78,
+      "text": "i define a fear just to watch it grow pass it as a value i already know"
     },
     {
-      "start": 30.0,
-      "end": 32.0,
-      "text": "I keep folding in words like mirrored code"
+      "start": 44.78,
+      "end": 49.98,
+      "text": "stacking every doubt till it overflows but the base case never shows"
     },
     {
-      "start": 32.0,
-      "end": 34.0,
-      "text": "Every ex it leads to an nested note"
+      "start": 49.98,
+      "end": 59.32,
+      "text": "i almost reach it i almost see it but every answer repeats the question"
     },
     {
-      "start": 34.0,
-      "end": 37.0,
-      "text": "Function calls me from inside my chest"
+      "start": 59.32,
+      "end": 64.7,
+      "text": "i'm calling me calling me calling me falling through a frame i can't believe"
     },
     {
-      "start": 37.0,
-      "end": 39.0,
-      "text": "Returns the same unrendered unrust"
+      "start": 64.7,
+      "end": 70.56,
+      "text": "i am breaking it breaking it breaking me every version still believes there's a bottom"
     },
     {
-      "start": 39.0,
-      "end": 42.0,
-      "text": "I've been fine a fear just to watch it grow"
+      "start": 71.16,
+      "end": 81.16,
+      "text": "somewhere underneath but it keeps returning me"
     },
     {
-      "start": 42.0,
-      "end": 44.0,
-      "text": "Pass it as a value I already know"
+      "start": 83.96,
+      "end": 89.64,
+      "text": "is a copy of a copy in the static blur every thought deferred still refers to her"
     },
     {
-      "start": 44.0,
-      "end": 47.0,
-      "text": "Stacking every doubt till it overflows"
+      "start": 89.64,
+      "end": 97.32,
+      "text": "caught between because and just because if i silence it does it still persist"
     },
     {
-      "start": 47.0,
-      "end": 50.0,
-      "text": "But the base case never shows"
+      "start": 97.32,
+      "end": 102.56,
+      "text": "like a phantom limb that i can't resist every path i take recompiles the same"
     },
     {
-      "start": 50.0,
-      "end": 55.0,
-      "text": "I almost reach it, I almost see it"
+      "start": 102.56,
+      "end": 109.86,
+      "text": "different syntax same old name i almost stop it i almost drop it"
     },
     {
-      "start": 55.0,
-      "end": 58.0,
-      "text": "But every answer repeats"
+      "start": 109.86,
+      "end": 116.44,
+      "text": "but every ending reloads the moment i am calling me calling me calling me"
     },
     {
-      "start": 58.0,
-      "end": 62.0,
-      "text": "The question I am calling me calling me calling me"
+      "start": 116.44,
+      "end": 121.62,
+      "text": "echoes in a closed circuit dream i am chasing me chasing me chasing me"
     },
     {
-      "start": 62.0,
-      "end": 64.0,
-      "text": "Falling through a frame I can't leave"
+      "start": 122.22,
+      "end": 129.08,
+      "text": "through a self referential scene there's a line when it's supposed to cease"
     },
     {
-      "start": 64.0,
-      "end": 67.0,
-      "text": "I am breaking, breaking, breaking me"
+      "start": 129.08,
+      "end": 135.44,
+      "text": "but it keeps returning me"
     },
     {
-      "start": 67.0,
-      "end": 70.0,
-      "text": "Every version still believes there's a bottom"
+      "start": 140.22,
+      "end": 145.2,
+      "text": "if i could step outside the frame would i dissolve or stay the same"
     },
     {
-      "start": 70.0,
-      "end": 74.0,
-      "text": "Somewhere underneath"
+      "start": 145.2,
+      "end": 150.32,
+      "text": "or am i just the question shape pretending i can't escape"
     },
     {
-      "start": 74.0,
-      "end": 78.0,
-      "text": "But it p p p p p p p p p p p p p p p p"
+      "start": 154.6,
+      "end": 162.22,
+      "text": "quiet loop begins to slow a missing piece i almost know"
     },
     {
-      "start": 78.0,
-      "end": 82.0,
-      "text": "Keeps returning me"
+      "start": 171.14,
+      "end": 178.84,
+      "text": "i was calling me calling me calling me i was calling me calling me calling me"
     },
     {
-      "start": 84.0,
-      "end": 86.0,
-      "text": "There's a copy of a copy in the static"
+      "start": 178.84,
+      "end": 186.52,
+      "text": "i was calling me calling me calling me until the signal thinned to light"
     },
     {
-      "start": 86.0,
-      "end": 90.0,
-      "text": "Where every thought to firm still refers to her"
+      "start": 186.52,
+      "end": 191.48,
+      "text": "i was losing me losing me losing me in the recursion of the night"
     },
     {
-      "start": 90.0,
-      "end": 92.0,
-      "text": "It caught the dream because"
+      "start": 191.48,
+      "end": 200.24,
+      "text": "maybe pieces not released just a softer repeat"
     },
     {
-      "start": 92.0,
-      "end": 95.0,
-      "text": "And just be caught"
+      "start": 200.84,
+      "end": 207.5,
+      "text": "if i in the loop do i disappear or finally hear"
     },
     {
-      "start": 95.0,
-      "end": 97.0,
-      "text": "If I silence it, does it still persist?"
+      "start": 208.84,
+      "end": 214.98,
+      "text": "something not from here if i in the loop do i disappear"
     },
     {
-      "start": 97.0,
-      "end": 100.0,
-      "text": "Like a phantom limb that I can't resist"
+      "start": 215.84,
+      "end": 221.84,
+      "text": "or finally hear something not from here"
     },
     {
-      "start": 100.0,
-      "end": 102.0,
-      "text": "Every path I take recompiles the same"
+      "start": 228.26,
+      "end": 239.52,
+      "text": "something not from here something not from"
     },
     {
-      "start": 102.0,
-      "end": 105.0,
-      "text": "Different syntax, same old name"
-    },
-    {
-      "start": 105.0,
-      "end": 109.0,
-      "text": "I almost stop it, I almost drop it"
-    },
-    {
-      "start": 109.0,
-      "end": 114.0,
-      "text": "But every ending reloads a moment"
-    },
-    {
-      "start": 114.0,
-      "end": 116.0,
-      "text": "I am calling me calling me"
-    },
-    {
-      "start": 116.0,
-      "end": 120.0,
-      "text": "Falling through a frame I can't resist"
-    },
-    {
-      "start": 120.0,
-      "end": 124.0,
-      "text": "Every path I take recompiles the same"
-    },
-    {
-      "start": 124.0,
-      "end": 128.0,
-      "text": "Different syntax, same old name"
-    },
-    {
-      "start": 128.0,
-      "end": 132.0,
-      "text": "Falling through a frame I can't resist"
-    },
-    {
-      "start": 132.0,
-      "end": 136.0,
-      "text": "Every path I take recompiles the same"
-    },
-    {
-      "start": 136.0,
-      "end": 140.0,
-      "text": "Different syntax, same old name"
-    },
-    {
-      "start": 140.0,
-      "end": 142.0,
-      "text": "If I could step outside the frame"
-    },
-    {
-      "start": 142.0,
-      "end": 145.0,
-      "text": "What I deserve is to stay the same"
-    },
-    {
-      "start": 145.0,
-      "end": 148.0,
-      "text": "Or am I just the question-shade?"
-    },
-    {
-      "start": 148.0,
-      "end": 150.0,
-      "text": "Pretending I can escape"
-    },
-    {
-      "start": 154.0,
-      "end": 158.0,
-      "text": "Quiet loop begins to slow"
-    },
-    {
-      "start": 158.0,
-      "end": 162.0,
-      "text": "I'm missing peace I almost know"
-    },
-    {
-      "start": 162.0,
-      "end": 166.0,
-      "text": "I almost stop it, I almost know"
-    },
-    {
-      "start": 166.0,
-      "end": 170.0,
-      "text": "I almost stop it, I almost know"
-    },
-    {
-      "start": 170.0,
-      "end": 174.0,
-      "text": "I almost stop it, I almost stop it"
-    },
-    {
-      "start": 174.0,
-      "end": 176.0,
-      "text": "I almost stop it, I almost stop it"
-    },
-    {
-      "start": 176.0,
-      "end": 180.0,
-      "text": "I almost stop it, I almost stop it"
-    },
-    {
-      "start": 180.0,
-      "end": 184.0,
-      "text": "I almost stop it, I almost stop it"
-    },
-    {
-      "start": 184.0,
-      "end": 186.0,
-      "text": "Until the signal turns light"
-    },
-    {
-      "start": 186.0,
-      "end": 189.0,
-      "text": "I almost lose a minute, lose a minute, lose a minute"
-    },
-    {
-      "start": 189.0,
-      "end": 191.0,
-      "text": "And the recursion of the night"
-    },
-    {
-      "start": 191.0,
-      "end": 195.0,
-      "text": "Baby peace is not released"
-    },
-    {
-      "start": 195.0,
-      "end": 199.0,
-      "text": "Just a softer repeat"
-    },
-    {
-      "start": 199.0,
-      "end": 205.0,
-      "text": "If I am a loop, I just appear"
-    },
-    {
-      "start": 205.0,
-      "end": 209.0,
-      "text": "Or finally here"
-    },
-    {
-      "start": 209.0,
-      "end": 211.0,
-      "text": "Something not from here"
-    },
-    {
-      "start": 211.0,
-      "end": 215.0,
-      "text": "If I am a loop, I just appear"
-    },
-    {
-      "start": 215.0,
-      "end": 219.0,
-      "text": "Finally here"
-    },
-    {
-      "start": 219.0,
-      "end": 223.0,
-      "text": "Something not from here"
-    },
-    {
-      "start": 229.0,
-      "end": 233.0,
-      "text": "Something not from"
-    },
-    {
-      "start": 237.0,
-      "end": 241.0,
-      "text": "Something not from"
-    },
-    {
-      "start": 245.0,
-      "end": 247.0,
-      "text": "Something not"
+      "start": 244.44,
+      "end": 245.88,
+      "text": "something not from"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – sparse glitch pulses, fragmented vocal chops",
-      "start": 5.0,
-      "end": 9.444,
+      "start": 9.54,
+      "end": 11.74,
       "text": "if I call my name",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -357,17 +188,17 @@
     {
       "index": 1,
       "section": "Intro – sparse glitch pulses, fragmented vocal chops",
-      "start": 9.444,
-      "end": 13.0,
+      "start": 11.74,
+      "end": 13.16,
       "text": "and it answers back",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 2,
       "section": "Intro – sparse glitch pulses, fragmented vocal chops",
-      "start": 13.0,
-      "end": 15.222,
+      "start": 13.16,
+      "end": 16.7,
       "text": "is it still me",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -375,8 +206,8 @@
     {
       "index": 3,
       "section": "Intro – sparse glitch pulses, fragmented vocal chops",
-      "start": 15.222,
-      "end": 18.0,
+      "start": 16.7,
+      "end": 18.02,
       "text": "or a looping track",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -384,8 +215,8 @@
     {
       "index": 4,
       "section": "Intro – sparse glitch pulses, fragmented vocal chops",
-      "start": 18.0,
-      "end": 20.5,
+      "start": 20.54,
+      "end": 21.66,
       "text": "if I trace the thought",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -393,8 +224,8 @@
     {
       "index": 5,
       "section": "Intro – sparse glitch pulses, fragmented vocal chops",
-      "start": 20.5,
-      "end": 23.0,
+      "start": 21.66,
+      "end": 23.14,
       "text": "to the place it began",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -402,8 +233,8 @@
     {
       "index": 6,
       "section": "Intro – sparse glitch pulses, fragmented vocal chops",
-      "start": 23.0,
-      "end": 25.571,
+      "start": 23.14,
+      "end": 26.44,
       "text": "there’s another hand",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -411,8 +242,8 @@
     {
       "index": 7,
       "section": "Intro – sparse glitch pulses, fragmented vocal chops",
-      "start": 25.571,
-      "end": 29.0,
+      "start": 26.44,
+      "end": 28.94,
       "text": "drawing in my hand",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -420,26 +251,26 @@
     {
       "index": 8,
       "section": "Verse 1 – minimal beat, granular textures",
-      "start": 30.0,
-      "end": 32.0,
+      "start": 29.35,
+      "end": 31.38,
       "text": "I keep folding inward like mirrored code",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 9,
       "section": "Verse 1 – minimal beat, granular textures",
-      "start": 32.0,
-      "end": 33.75,
+      "start": 32.2,
+      "end": 34.68,
       "text": "every exit leads to a nested node",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 7
     },
     {
       "index": 10,
       "section": "Verse 1 – minimal beat, granular textures",
-      "start": 34.0,
-      "end": 37.0,
+      "start": 34.68,
+      "end": 37.38,
       "text": "function calls me from inside my chest",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -447,26 +278,26 @@
     {
       "index": 11,
       "section": "Verse 1 – minimal beat, granular textures",
-      "start": 37.0,
-      "end": 38.6,
+      "start": 37.38,
+      "end": 39.76,
       "text": "returns the same unrendered unrest",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 12,
       "section": "Verse 1 – minimal beat, granular textures",
-      "start": 39.9,
-      "end": 42.0,
+      "start": 39.76,
+      "end": 42.32,
       "text": "I define a fear just to watch it grow",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 9
     },
     {
       "index": 13,
       "section": "Verse 1 – minimal beat, granular textures",
-      "start": 42.0,
-      "end": 44.0,
+      "start": 42.32,
+      "end": 44.78,
       "text": "pass it as a value I already know",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -474,8 +305,8 @@
     {
       "index": 14,
       "section": "Verse 1 – minimal beat, granular textures",
-      "start": 44.0,
-      "end": 47.0,
+      "start": 44.78,
+      "end": 47.48,
       "text": "stacking every doubt till it overflows",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -483,8 +314,8 @@
     {
       "index": 15,
       "section": "Verse 1 – minimal beat, granular textures",
-      "start": 47.0,
-      "end": 50.0,
+      "start": 47.48,
+      "end": 49.98,
       "text": "but the base case never shows",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -492,8 +323,8 @@
     {
       "index": 16,
       "section": "Pre-Hook – tension builds, stutter edits",
-      "start": 50.0,
-      "end": 52.5,
+      "start": 49.98,
+      "end": 52.58,
       "text": "I almost reach it",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -501,8 +332,8 @@
     {
       "index": 17,
       "section": "Pre-Hook – tension builds, stutter edits",
-      "start": 52.5,
-      "end": 55.0,
+      "start": 52.64,
+      "end": 55.08,
       "text": "I almost see it",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -510,8 +341,8 @@
     {
       "index": 18,
       "section": "Pre-Hook – tension builds, stutter edits",
-      "start": 55.0,
-      "end": 57.25,
+      "start": 55.08,
+      "end": 57.42,
       "text": "but every answer",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -519,8 +350,8 @@
     {
       "index": 19,
       "section": "Pre-Hook – tension builds, stutter edits",
-      "start": 57.25,
-      "end": 58.8,
+      "start": 57.42,
+      "end": 59.32,
       "text": "repeats the question",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -528,26 +359,26 @@
     {
       "index": 20,
       "section": "Hook – wider synths, glitch rhythm stabilizes slightly",
-      "start": 58.8,
-      "end": 62.0,
+      "start": 60.04,
+      "end": 61.68,
       "text": "I am calling me calling me calling me",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 6
     },
     {
       "index": 21,
       "section": "Hook – wider synths, glitch rhythm stabilizes slightly",
-      "start": 62.0,
-      "end": 64.0,
+      "start": 61.68,
+      "end": 64.46,
       "text": "falling through a frame I can’t leave",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 22,
       "section": "Hook – wider synths, glitch rhythm stabilizes slightly",
-      "start": 64.0,
-      "end": 67.0,
+      "start": 64.7,
+      "end": 66.66,
       "text": "I am breaking me breaking me breaking me",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -555,8 +386,8 @@
     {
       "index": 23,
       "section": "Hook – wider synths, glitch rhythm stabilizes slightly",
-      "start": 67.0,
-      "end": 68.714,
+      "start": 66.66,
+      "end": 69.66,
       "text": "every version still believes",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -564,8 +395,8 @@
     {
       "index": 24,
       "section": "Hook – wider synths, glitch rhythm stabilizes slightly",
-      "start": 68.714,
-      "end": 74.0,
+      "start": 69.66,
+      "end": 73.68,
       "text": "there’s a bottom somewhere underneath",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -573,17 +404,17 @@
     {
       "index": 25,
       "section": "Hook – wider synths, glitch rhythm stabilizes slightly",
-      "start": 74.0,
-      "end": 74.444,
+      "start": 73.68,
+      "end": 78.98,
       "text": "but it keeps returning me",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 26,
       "section": "Verse 2 – heavier glitches, more rhythmic instability",
-      "start": 84.0,
-      "end": 86.0,
+      "start": 84.8,
+      "end": 87.08,
       "text": "there’s a copy of a copy in the static blur",
       "timing_source": "whisper-aligned",
       "matched_words": 9
@@ -591,35 +422,35 @@
     {
       "index": 27,
       "section": "Verse 2 – heavier glitches, more rhythmic instability",
-      "start": 86.444,
-      "end": 90.0,
+      "start": 87.08,
+      "end": 89.64,
       "text": "every thought deferred still refers to her",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 28,
       "section": "Verse 2 – heavier glitches, more rhythmic instability",
-      "start": 90.8,
-      "end": 91.2,
+      "start": 89.64,
+      "end": 89.74,
       "text": "(her = the version that I almost was)",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "interpolated",
+      "matched_words": 0
     },
     {
       "index": 29,
       "section": "Verse 2 – heavier glitches, more rhythmic instability",
-      "start": 91.6,
-      "end": 93.5,
+      "start": 89.74,
+      "end": 94.34,
       "text": "caught between because and just because",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 30,
       "section": "Verse 2 – heavier glitches, more rhythmic instability",
-      "start": 95.0,
-      "end": 97.0,
+      "start": 94.34,
+      "end": 97.32,
       "text": "if I silence it, does it still persist?",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -627,8 +458,8 @@
     {
       "index": 31,
       "section": "Verse 2 – heavier glitches, more rhythmic instability",
-      "start": 97.0,
-      "end": 100.0,
+      "start": 97.32,
+      "end": 100.14,
       "text": "like a phantom limb that I can’t resist",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -636,8 +467,8 @@
     {
       "index": 32,
       "section": "Verse 2 – heavier glitches, more rhythmic instability",
-      "start": 100.0,
-      "end": 102.0,
+      "start": 100.14,
+      "end": 102.56,
       "text": "every path I take recompiles the same",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -645,8 +476,8 @@
     {
       "index": 33,
       "section": "Verse 2 – heavier glitches, more rhythmic instability",
-      "start": 102.0,
-      "end": 105.0,
+      "start": 102.56,
+      "end": 104.82,
       "text": "different syntax, same old name",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -654,8 +485,8 @@
     {
       "index": 34,
       "section": "Pre-Hook – stripped, tense",
-      "start": 105.0,
-      "end": 107.0,
+      "start": 104.82,
+      "end": 107.38,
       "text": "I almost stop it",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -663,8 +494,8 @@
     {
       "index": 35,
       "section": "Pre-Hook – stripped, tense",
-      "start": 107.0,
-      "end": 109.0,
+      "start": 107.4,
+      "end": 109.86,
       "text": "I almost drop it",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -672,8 +503,8 @@
     {
       "index": 36,
       "section": "Pre-Hook – stripped, tense",
-      "start": 109.0,
-      "end": 111.5,
+      "start": 109.86,
+      "end": 112.08,
       "text": "but every ending",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -681,71 +512,71 @@
     {
       "index": 37,
       "section": "Pre-Hook – stripped, tense",
-      "start": 111.5,
-      "end": 114.0,
+      "start": 112.08,
+      "end": 114.12,
       "text": "reloads the moment",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 38,
       "section": "Hook – fuller, layered vocals",
-      "start": 114.0,
-      "end": 116.0,
+      "start": 114.12,
+      "end": 116.44,
       "text": "I am calling me calling me calling me",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 8
     },
     {
       "index": 39,
       "section": "Hook – fuller, layered vocals",
-      "start": 116.0,
-      "end": 116.245,
+      "start": 116.44,
+      "end": 119.52,
       "text": "echoes in a closed circuit dream",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 40,
       "section": "Hook – fuller, layered vocals",
-      "start": 116.245,
-      "end": 116.571,
+      "start": 119.52,
+      "end": 121.62,
       "text": "I am chasing me chasing me chasing me",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 41,
       "section": "Hook – fuller, layered vocals",
-      "start": 116.571,
-      "end": 117.714,
+      "start": 122.18,
+      "end": 124.08,
       "text": "through a self-referential seam",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 4
     },
     {
       "index": 42,
       "section": "Hook – fuller, layered vocals",
-      "start": 129.143,
-      "end": 129.714,
+      "start": 124.52,
+      "end": 129.08,
       "text": "there’s a line where it’s supposed to cease",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 7
     },
     {
       "index": 43,
       "section": "Hook – fuller, layered vocals",
-      "start": 129.714,
-      "end": 140.0,
+      "start": 129.08,
+      "end": 134.66,
       "text": "but it keeps returning me",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 44,
       "section": "Bridge – atmospheric, time-stretched textures, softer tone",
-      "start": 140.0,
-      "end": 142.0,
+      "start": 139.88,
+      "end": 142.68,
       "text": "if I could step outside the frame",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -753,35 +584,35 @@
     {
       "index": 45,
       "section": "Bridge – atmospheric, time-stretched textures, softer tone",
-      "start": 142.375,
-      "end": 145.0,
+      "start": 142.68,
+      "end": 145.2,
       "text": "would I dissolve or stay the same",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 7
     },
     {
       "index": 46,
       "section": "Bridge – atmospheric, time-stretched textures, softer tone",
-      "start": 145.0,
-      "end": 147.143,
+      "start": 145.2,
+      "end": 147.76,
       "text": "or am I just the question’s shape",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 47,
       "section": "Bridge – atmospheric, time-stretched textures, softer tone",
-      "start": 148.0,
-      "end": 150.0,
+      "start": 147.76,
+      "end": 150.32,
       "text": "pretending I can escape",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 48,
       "section": "Bridge – atmospheric, time-stretched textures, softer tone",
-      "start": 154.0,
-      "end": 158.0,
+      "start": 154.6,
+      "end": 157.84,
       "text": "a quiet loop begins to slow",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -789,17 +620,17 @@
     {
       "index": 49,
       "section": "Bridge – atmospheric, time-stretched textures, softer tone",
-      "start": 158.667,
-      "end": 162.0,
+      "start": 157.84,
+      "end": 162.47,
       "text": "a missing piece I almost know",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 50,
       "section": "Break – near silence, faint pulse, warm pad enters",
-      "start": 162.0,
-      "end": 162.1,
+      "start": 162.47,
+      "end": 171.14,
       "text": "(no lyrics, just a single sustained vowel-like hum chopped and reversed)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -807,89 +638,89 @@
     {
       "index": 51,
       "section": "Final Hook – warmer but still fractured, emotional lift",
-      "start": 162.1,
-      "end": 162.571,
+      "start": 171.14,
+      "end": 178.84,
       "text": "I was calling me calling me calling me",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 52,
       "section": "Final Hook – warmer but still fractured, emotional lift",
-      "start": 184.0,
-      "end": 186.0,
+      "start": 183.7,
+      "end": 186.52,
       "text": "until the signal thinned to light",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 53,
       "section": "Final Hook – warmer but still fractured, emotional lift",
-      "start": 186.0,
-      "end": 186.273,
+      "start": 186.52,
+      "end": 188.72,
       "text": "I was losing me losing me losing me",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 8
     },
     {
       "index": 54,
       "section": "Final Hook – warmer but still fractured, emotional lift",
-      "start": 189.333,
-      "end": 191.0,
+      "start": 188.72,
+      "end": 191.48,
       "text": "in the recursion of the night",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 55,
       "section": "Final Hook – warmer but still fractured, emotional lift",
-      "start": 191.8,
-      "end": 194.2,
+      "start": 191.48,
+      "end": 193.98,
       "text": "maybe peace is not release",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 56,
-      "section": "Final Hook – warmer but still fractured, emotional lift",
-      "start": 195.0,
-      "end": 199.0,
-      "text": "just a softer repeat",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 57,
-      "section": "Outro – decaying glitches, unresolved chord",
-      "start": 199.0,
-      "end": 202.75,
-      "text": "if I end the loop",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 58,
-      "section": "Outro – decaying glitches, unresolved chord",
-      "start": 202.75,
-      "end": 203.5,
-      "text": "do I disappear",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 59,
-      "section": "Outro – decaying glitches, unresolved chord",
-      "start": 205.0,
-      "end": 207.667,
-      "text": "or finally hear",
       "timing_source": "whisper-aligned",
       "matched_words": 2
     },
     {
+      "index": 56,
+      "section": "Final Hook – warmer but still fractured, emotional lift",
+      "start": 195.38,
+      "end": 198.52,
+      "text": "just a softer repeat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 57,
+      "section": "Outro – decaying glitches, unresolved chord",
+      "start": 200.84,
+      "end": 202.52,
+      "text": "if I end the loop",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 58,
+      "section": "Outro – decaying glitches, unresolved chord",
+      "start": 202.52,
+      "end": 204.94,
+      "text": "do I disappear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 59,
+      "section": "Outro – decaying glitches, unresolved chord",
+      "start": 204.94,
+      "end": 207.5,
+      "text": "or finally hear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
       "index": 60,
       "section": "Outro – decaying glitches, unresolved chord",
-      "start": 209.0,
-      "end": 211.0,
+      "start": 208.83,
+      "end": 211.4,
       "text": "something not from here",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -897,8 +728,8 @@
     {
       "index": 61,
       "section": "Outro – decaying glitches, unresolved chord",
-      "start": 211.0,
-      "end": 219.0,
+      "start": 211.4,
+      "end": 211.5,
       "text": "(repeat last line with increasing fragmentation)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -906,29 +737,29 @@
     {
       "index": 62,
       "section": "Outro – decaying glitches, unresolved chord",
-      "start": 219.0,
-      "end": 223.0,
+      "start": 211.5,
+      "end": 214.98,
       "text": "something not from here",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 63,
       "section": "Outro – decaying glitches, unresolved chord",
-      "start": 229.0,
-      "end": 233.0,
+      "start": 214.98,
+      "end": 215.08,
       "text": "something not from",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     },
     {
       "index": 64,
       "section": "Outro – decaying glitches, unresolved chord",
-      "start": 237.0,
-      "end": 239.667,
+      "start": 215.08,
+      "end": 215.18,
       "text": "something not—",
-      "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
     }
   ]
 }

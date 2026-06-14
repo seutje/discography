@@ -4,177 +4,438 @@
   "title": "Splitting The Signal",
   "text_path": "Failure to Converge/08 - Splitting the Signal.txt",
   "audio_path": "Failure to Converge/audio/08 - Splitting the Signal.mp3",
-  "duration_seconds": 293.88,
-  "model": "base",
+  "duration_seconds": 299.2,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 120,
     "reference_word_count": 487,
-    "observed_word_count": 490,
-    "matched_word_count": 473,
-    "matched_word_ratio": 0.971,
-    "inserted_adlib_count": 0
+    "observed_word_count": 492,
+    "matched_word_count": 479,
+    "matched_word_ratio": 0.984,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 12.4,
-      "text": "There are too many voices inside a single thought too many paths for one answer to"
+      "start": 1.72,
+      "end": 8.68,
+      "text": "there are too many voices inside a single thought"
     },
     {
-      "start": 12.4,
-      "end": 25.12,
-      "text": "carry so something inside me learned to choose not everything just enough to keep moving."
+      "start": 10.72,
+      "end": 12.86,
+      "text": "too many paths for one answer to carry"
     },
     {
-      "start": 30.0,
-      "end": 42.16,
-      "text": "I used to think I had to be everything at once every question pulling threads I couldn't"
+      "start": 14.04,
+      "end": 15.8,
+      "text": "so something inside me"
     },
     {
-      "start": 42.16,
-      "end": 47.56,
-      "text": "hold on to every answer heavy with the weight of the hole like I had to carry every"
+      "start": 17.16,
+      "end": 17.94,
+      "text": "learn to choose"
     },
     {
-      "start": 47.56,
-      "end": 52.68,
-      "text": "version of control but somewhere deep beneath the noise and demand the quieter systems"
+      "start": 19.4,
+      "end": 20.26,
+      "text": "not everything"
     },
     {
-      "start": 52.68,
-      "end": 58.84,
-      "text": "started drawing a plan not louder not faster not trying to prove just deciding which parts"
+      "start": 22.06,
+      "end": 25.02,
+      "text": "just enough to keep moving"
     },
     {
-      "start": 58.84,
-      "end": 69.16,
-      "text": "of me to use and leaving the rest in the gentle silence like I'm open doors that still"
+      "start": 36.88,
+      "end": 40.04,
+      "text": "i used to think i had to be everything at once"
     },
     {
-      "start": 69.16,
-      "end": 78.16,
-      "text": "made sense I don't need every voice to speak to find the meaning underneath somewhere"
+      "start": 40.46,
+      "end": 43.06,
+      "text": "every question pulling threads i couldn't hold on to"
     },
     {
-      "start": 78.16,
-      "end": 88.16,
-      "text": "between what I choose and what I leave behind unused there's a shape there's a truth"
+      "start": 43.34,
+      "end": 45.8,
+      "text": "every answer heavy with the weight of the whole"
     },
     {
-      "start": 88.16,
-      "end": 102.52,
-      "text": "that only shows when I let go of the proof there are specialists inside us small"
+      "start": 46.14,
+      "end": 48.8,
+      "text": "like i had to carry every version of control"
     },
     {
-      "start": 102.52,
-      "end": 108.56,
-      "text": "selves trained on different kinds of weather one knows how to hold a memory without breaking"
+      "start": 48.94,
+      "end": 51.32,
+      "text": "but somewhere deep beneath the noise and demand"
     },
     {
-      "start": 108.56,
-      "end": 114.76,
-      "text": "it one knows how to leave one understands the language of failure like it's been there"
+      "start": 51.58,
+      "end": 54.08,
+      "text": "the quieter system started drawing a plan"
     },
     {
-      "start": 114.76,
-      "end": 121.6,
-      "text": "before but they don't all speak at once they wait and something not quite meet not"
+      "start": 54.3,
+      "end": 56.98,
+      "text": "not loud or not fast or not trying to prove"
     },
     {
-      "start": 121.6,
-      "end": 129.4,
-      "text": "quite separate decides who steps forward I don't need every road too light to find"
+      "start": 56.98,
+      "end": 60.0,
+      "text": "just deciding which parts of me to use"
     },
     {
-      "start": 129.4,
-      "end": 137.96,
-      "text": "a way through every night just a signal clear and true choosing what to carry through"
+      "start": 60.24,
+      "end": 64.78,
+      "text": "and leaving the rest in a gentle silence"
     },
     {
-      "start": 137.96,
-      "end": 149.36,
-      "text": "there's a rhythm in the divide where the scattered parts are lying it's strange the way"
+      "start": 65.86,
+      "end": 70.64,
+      "text": "like unopened doors that still made sense"
     },
     {
-      "start": 149.36,
-      "end": 164.88,
-      "text": "clarity isn't about more it's about less but chosen well and then over time the choosing"
+      "start": 72.0,
+      "end": 74.52,
+      "text": "i don't need every voice to speak"
     },
     {
-      "start": 164.88,
-      "end": 177.16,
-      "text": "gets quieter not forced not calculated just understood I started noticing how the pieces"
+      "start": 74.82,
+      "end": 77.14,
+      "text": "to find the meaning underneath"
     },
     {
-      "start": 177.16,
-      "end": 183.6,
-      "text": "would fall not into chaos but into something small a pattern of trust in the way I respond"
+      "start": 77.6,
+      "end": 83.14,
+      "text": "somewhere between what i choose and what i leave behind unused"
     },
     {
-      "start": 183.6,
-      "end": 188.68,
-      "text": "like I don't need to reach for everything at once some parts step forward some gently"
+      "start": 83.14,
+      "end": 84.78,
+      "text": "there's a shape"
     },
     {
-      "start": 188.68,
-      "end": 194.6,
-      "text": "received not lost just resting until they're needed and suddenly the noise wasn't something"
+      "start": 86.28,
+      "end": 87.7,
+      "text": "there's a truth"
     },
     {
-      "start": 194.6,
-      "end": 201.0,
-      "text": "to fight it was a system learning how to be light now I feel the signal form through"
+      "start": 89.32,
+      "end": 96.34,
+      "text": "that only shows when i let go of the proof"
     },
     {
-      "start": 201.0,
-      "end": 208.6,
-      "text": "the quiet and the storm not every voice but the right few shaping something I can move"
+      "start": 98.54,
+      "end": 100.72,
+      "text": "there are specialists inside us"
     },
     {
-      "start": 208.6,
-      "end": 224.56,
-      "text": "through there's a balance I can't force but I can follow like a course maybe we were"
+      "start": 102.24,
+      "end": 104.86,
+      "text": "small selves trained on different kinds of weather"
     },
     {
-      "start": 224.56,
-      "end": 233.44,
-      "text": "never meant to hold everything maybe we were built to choose to trust that not every"
+      "start": 105.84,
+      "end": 108.86,
+      "text": "one knows how to hold a memory without breaking it"
     },
     {
-      "start": 233.44,
-      "end": 242.0,
-      "text": "path needs to be walked for the journey to be real that meaning isn't in the way it's"
+      "start": 108.96,
+      "end": 110.42,
+      "text": "one knows how to leave"
     },
     {
-      "start": 242.0,
-      "end": 252.68,
-      "text": "in the selection and all those unused pieces they're not wasted they're waiting I don't"
+      "start": 111.42,
+      "end": 115.3,
+      "text": "one understands the language of failure like it's been there before"
     },
     {
-      "start": 252.68,
-      "end": 260.6,
-      "text": "need every part to stay to find the truth along the way in what I keep and what I release"
+      "start": 115.54,
+      "end": 117.54,
+      "text": "but they don't all speak at once"
     },
     {
-      "start": 260.6,
+      "start": 117.82,
+      "end": 120.9,
+      "text": "they wait and something not quite me"
+    },
+    {
+      "start": 121.46,
+      "end": 122.68,
+      "text": "not quite separate"
+    },
+    {
+      "start": 122.98,
+      "end": 125.04,
+      "text": "decides who steps forward"
+    },
+    {
+      "start": 125.62,
+      "end": 128.48,
+      "text": "i don't need every road to light"
+    },
+    {
+      "start": 128.72,
+      "end": 131.48,
+      "text": "to find a way through every night"
+    },
+    {
+      "start": 131.88,
+      "end": 134.48,
+      "text": "just a signal clear and true"
+    },
+    {
+      "start": 134.76,
+      "end": 137.56,
+      "text": "choosing what to carry through"
+    },
+    {
+      "start": 137.56,
+      "end": 140.36,
+      "text": "there's a rhythm in the divide"
+    },
+    {
+      "start": 140.74,
+      "end": 143.28,
+      "text": "where the scattered parts align"
+    },
+    {
+      "start": 146.56,
+      "end": 147.56,
+      "text": "it's strange"
+    },
+    {
+      "start": 148.88,
+      "end": 152.02,
+      "text": "the way clarity isn't about more"
+    },
+    {
+      "start": 153.54,
+      "end": 155.32,
+      "text": "it's about less"
+    },
+    {
+      "start": 156.62,
+      "end": 157.98,
+      "text": "but chosen well"
+    },
+    {
+      "start": 160.26,
+      "end": 163.06,
+      "text": "and then over time"
+    },
+    {
+      "start": 164.12,
+      "end": 165.68,
+      "text": "the choosing gets quieter"
+    },
+    {
+      "start": 166.62,
+      "end": 167.82,
+      "text": "not forced"
+    },
+    {
+      "start": 169.22,
+      "end": 170.02,
+      "text": "not calculated"
+    },
+    {
+      "start": 173.24,
+      "end": 173.9,
+      "text": "just"
+    },
+    {
+      "start": 173.9,
+      "end": 174.68,
+      "text": "understood"
+    },
+    {
+      "start": 175.42,
+      "end": 177.7,
+      "text": "i started noticing how the pieces would fall"
+    },
+    {
+      "start": 177.8,
+      "end": 180.66,
+      "text": "not into chaos but into something small"
+    },
+    {
+      "start": 180.78,
+      "end": 183.42,
+      "text": "a pattern of trust in the way i respond"
+    },
+    {
+      "start": 183.72,
+      "end": 186.32,
+      "text": "like i don't need to reach for everything at once"
+    },
+    {
+      "start": 186.58,
+      "end": 187.92,
+      "text": "some parts step forward"
+    },
+    {
+      "start": 188.02,
+      "end": 190.1,
+      "text": "some gently recede not lost"
+    },
+    {
+      "start": 190.12,
+      "end": 192.36,
+      "text": "just resting until they're needed"
+    },
+    {
+      "start": 192.36,
+      "end": 195.04,
+      "text": "and suddenly the noise wasn't something to fight"
+    },
+    {
+      "start": 195.04,
+      "end": 197.56,
+      "text": "it was a system learning how to be light"
+    },
+    {
+      "start": 198.04,
+      "end": 200.42,
+      "text": "now i feel the signal form"
+    },
+    {
+      "start": 200.78,
+      "end": 203.26,
+      "text": "through the quiet and the storm"
+    },
+    {
+      "start": 203.48,
+      "end": 206.2,
+      "text": "not every voice but the right few"
+    },
+    {
+      "start": 206.54,
+      "end": 209.12,
+      "text": "shaping something i can move through"
+    },
+    {
+      "start": 209.66,
+      "end": 210.96,
+      "text": "there's a balance"
+    },
+    {
+      "start": 212.12,
+      "end": 213.94,
+      "text": "i can't force"
+    },
+    {
+      "start": 215.2,
+      "end": 218.04,
+      "text": "but i can follow"
+    },
+    {
+      "start": 218.72,
+      "end": 222.02,
+      "text": "like a course"
+    },
+    {
+      "start": 223.18,
+      "end": 226.16,
+      "text": "maybe we were never meant to hold everything"
+    },
+    {
+      "start": 228.46,
+      "end": 230.72,
+      "text": "maybe we were built to choose"
+    },
+    {
+      "start": 231.86,
+      "end": 236.42,
+      "text": "to trust that not every path needs to be walked for the journey to be real"
+    },
+    {
+      "start": 237.98,
+      "end": 239.64,
+      "text": "that meaning isn't in the weight"
+    },
+    {
+      "start": 241.38,
+      "end": 242.86,
+      "text": "it's in the selection"
+    },
+    {
+      "start": 244.56,
+      "end": 246.76,
+      "text": "and all those unused pieces"
+    },
+    {
+      "start": 248.4,
+      "end": 249.76,
+      "text": "they're not wasted"
+    },
+    {
+      "start": 249.76,
+      "end": 251.26,
+      "text": "they're waiting"
+    },
+    {
+      "start": 251.94,
+      "end": 254.74,
+      "text": "i don't need every part to stay"
+    },
+    {
+      "start": 254.98,
+      "end": 257.7,
+      "text": "to find the truth along the way"
+    },
+    {
+      "start": 257.82,
+      "end": 260.62,
+      "text": "in what i keep and what i release"
+    },
+    {
+      "start": 260.74,
+      "end": 263.74,
+      "text": "i finally feel a kind of peace"
+    },
+    {
+      "start": 264.32,
+      "end": 266.76,
+      "text": "there's a system soft and true"
+    },
+    {
+      "start": 268.44,
       "end": 272.76,
-      "text": "I finally feel a kind of peace there's a system soft and true making something out of you"
+      "text": "making something out of you"
     },
     {
-      "start": 272.76,
-      "end": 293.88,
-      "text": "it was never about being everything just about knowing which parts of you were enough to answer"
+      "start": 276.6,
+      "end": 281.96,
+      "text": "it was never about being everything"
+    },
+    {
+      "start": 283.42,
+      "end": 294.0,
+      "text": "just about knowing which parts of you were enough to answer"
+    },
+    {
+      "start": 298.02,
+      "end": 299.2,
+      "text": "to answer"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – spoken word | sparse guitar harmonics | faint ambient texture",
-      "start": 0.0,
-      "end": 3.875,
+      "start": 1.72,
+      "end": 3.78,
       "text": "There are too many voices",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -182,17 +443,17 @@
     {
       "index": 1,
       "section": "Intro – spoken word | sparse guitar harmonics | faint ambient texture",
-      "start": 3.875,
-      "end": 6.975,
+      "start": 3.78,
+      "end": 8.14,
       "text": "inside a single thought.",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 3
     },
     {
       "index": 2,
       "section": "Intro – spoken word | sparse guitar harmonics | faint ambient texture",
-      "start": 6.975,
-      "end": 9.3,
+      "start": 10.34,
+      "end": 11.48,
       "text": "Too many paths",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -200,8 +461,8 @@
     {
       "index": 3,
       "section": "Intro – spoken word | sparse guitar harmonics | faint ambient texture",
-      "start": 9.3,
-      "end": 13.248,
+      "start": 11.48,
+      "end": 12.86,
       "text": "for one answer to carry.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -209,8 +470,8 @@
     {
       "index": 4,
       "section": "Intro – spoken word | sparse guitar harmonics | faint ambient texture",
-      "start": 13.248,
-      "end": 16.64,
+      "start": 14.04,
+      "end": 15.8,
       "text": "So something inside me",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -218,17 +479,17 @@
     {
       "index": 5,
       "section": "Intro – spoken word | sparse guitar harmonics | faint ambient texture",
-      "start": 16.64,
-      "end": 19.184,
+      "start": 17.3,
+      "end": 17.94,
       "text": "learned to choose.",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 2
     },
     {
       "index": 6,
       "section": "Intro – spoken word | sparse guitar harmonics | faint ambient texture",
-      "start": 19.184,
-      "end": 20.88,
+      "start": 19.4,
+      "end": 20.26,
       "text": "Not everything—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -236,8 +497,8 @@
     {
       "index": 7,
       "section": "Intro – spoken word | sparse guitar harmonics | faint ambient texture",
-      "start": 20.88,
-      "end": 22.576,
+      "start": 22.06,
+      "end": 23.0,
       "text": "just enough",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -245,8 +506,8 @@
     {
       "index": 8,
       "section": "Intro – spoken word | sparse guitar harmonics | faint ambient texture",
-      "start": 22.576,
-      "end": 25.12,
+      "start": 23.0,
+      "end": 25.02,
       "text": "to keep moving.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -254,8 +515,8 @@
     {
       "index": 9,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 30.0,
-      "end": 37.868,
+      "start": 36.88,
+      "end": 40.04,
       "text": "I used to think I had to be everything at once",
       "timing_source": "whisper-aligned",
       "matched_words": 11
@@ -263,8 +524,8 @@
     {
       "index": 10,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 37.868,
-      "end": 42.46,
+      "start": 40.46,
+      "end": 42.44,
       "text": "Every question pulling threads I couldn’t hold onto",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -272,17 +533,17 @@
     {
       "index": 11,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 43.06,
-      "end": 45.46,
+      "start": 43.34,
+      "end": 45.8,
       "text": "Every answer heavy with the weight of the whole",
       "timing_source": "whisper-aligned",
-      "matched_words": 8
+      "matched_words": 9
     },
     {
       "index": 12,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 45.76,
-      "end": 48.657,
+      "start": 46.14,
+      "end": 48.8,
       "text": "Like I had to carry every version of control",
       "timing_source": "whisper-aligned",
       "matched_words": 9
@@ -290,8 +551,8 @@
     {
       "index": 13,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 48.657,
-      "end": 51.583,
+      "start": 48.94,
+      "end": 51.32,
       "text": "But somewhere deep beneath the noise and demand",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -299,35 +560,35 @@
     {
       "index": 14,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 51.949,
-      "end": 54.22,
+      "start": 51.82,
+      "end": 54.08,
       "text": "A quieter system started drawing a plan",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 15,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 54.22,
-      "end": 54.99,
+      "start": 54.3,
+      "end": 54.46,
       "text": "Not louder",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 16,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 54.99,
-      "end": 55.76,
+      "start": 54.98,
+      "end": 55.18,
       "text": "not faster",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 1
     },
     {
       "index": 17,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 55.76,
-      "end": 57.3,
+      "start": 55.72,
+      "end": 56.98,
       "text": "not trying to prove",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -335,8 +596,8 @@
     {
       "index": 18,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 57.3,
-      "end": 58.07,
+      "start": 56.98,
+      "end": 57.98,
       "text": "Just deciding",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -344,8 +605,8 @@
     {
       "index": 19,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 58.07,
-      "end": 61.133,
+      "start": 57.98,
+      "end": 60.0,
       "text": "which parts of me to use",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -353,8 +614,8 @@
     {
       "index": 20,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 61.133,
-      "end": 63.427,
+      "start": 60.24,
+      "end": 61.48,
       "text": "And leaving the rest",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -362,26 +623,26 @@
     {
       "index": 21,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 63.427,
-      "end": 65.72,
+      "start": 61.48,
+      "end": 64.78,
       "text": "in a gentle silence",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 22,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 65.72,
-      "end": 68.013,
+      "start": 65.65,
+      "end": 67.52,
       "text": "like unopened doors",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 23,
       "section": "Verse 1 – soft guitar + minimal beat",
-      "start": 68.013,
-      "end": 70.36,
+      "start": 67.52,
+      "end": 70.64,
       "text": "that still made sense.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -389,8 +650,8 @@
     {
       "index": 24,
       "section": "Hook – fragile sung line",
-      "start": 70.36,
-      "end": 74.56,
+      "start": 72.0,
+      "end": 74.52,
       "text": "I don’t need every voice to speak",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -398,8 +659,8 @@
     {
       "index": 25,
       "section": "Hook – fragile sung line",
-      "start": 74.56,
-      "end": 77.56,
+      "start": 74.82,
+      "end": 77.14,
       "text": "To find the meaning underneath",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -407,8 +668,8 @@
     {
       "index": 26,
       "section": "Hook – fragile sung line",
-      "start": 77.56,
-      "end": 80.66,
+      "start": 77.6,
+      "end": 80.3,
       "text": "Somewhere between what I choose",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -416,8 +677,8 @@
     {
       "index": 27,
       "section": "Hook – fragile sung line",
-      "start": 80.66,
-      "end": 84.41,
+      "start": 80.3,
+      "end": 83.14,
       "text": "And what I leave behind unused",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -425,8 +686,8 @@
     {
       "index": 28,
       "section": "Hook – fragile sung line",
-      "start": 84.41,
-      "end": 86.285,
+      "start": 83.14,
+      "end": 84.78,
       "text": "There’s a shape",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -434,8 +695,8 @@
     {
       "index": 29,
       "section": "Hook – fragile sung line",
-      "start": 86.285,
-      "end": 88.16,
+      "start": 86.28,
+      "end": 87.7,
       "text": "There’s a truth",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -443,8 +704,8 @@
     {
       "index": 30,
       "section": "Hook – fragile sung line",
-      "start": 88.16,
-      "end": 90.852,
+      "start": 89.32,
+      "end": 90.82,
       "text": "That only shows",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -452,8 +713,8 @@
     {
       "index": 31,
       "section": "Hook – fragile sung line",
-      "start": 90.852,
-      "end": 97.135,
+      "start": 90.82,
+      "end": 96.34,
       "text": "when I let go of the proof",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -461,8 +722,8 @@
     {
       "index": 32,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 97.135,
-      "end": 99.828,
+      "start": 98.54,
+      "end": 99.38,
       "text": "There are specialists",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -470,8 +731,8 @@
     {
       "index": 33,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 99.828,
-      "end": 101.623,
+      "start": 99.38,
+      "end": 100.72,
       "text": "inside us.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -479,8 +740,8 @@
     {
       "index": 34,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 101.623,
-      "end": 102.897,
+      "start": 102.24,
+      "end": 103.02,
       "text": "Small selves",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -488,8 +749,8 @@
     {
       "index": 35,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 102.897,
-      "end": 105.162,
+      "start": 103.02,
+      "end": 104.86,
       "text": "trained on different kinds of weather.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -497,8 +758,8 @@
     {
       "index": 36,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 105.162,
-      "end": 107.805,
+      "start": 105.84,
+      "end": 107.56,
       "text": "One knows how to hold a memory",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -506,8 +767,8 @@
     {
       "index": 37,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 107.805,
-      "end": 108.948,
+      "start": 107.56,
+      "end": 108.86,
       "text": "without breaking it.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -515,8 +776,8 @@
     {
       "index": 38,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 108.948,
-      "end": 110.885,
+      "start": 108.96,
+      "end": 110.42,
       "text": "One knows how to leave.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -524,8 +785,8 @@
     {
       "index": 39,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 110.885,
-      "end": 113.21,
+      "start": 111.42,
+      "end": 113.96,
       "text": "One understands the language of failure",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -533,8 +794,8 @@
     {
       "index": 40,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 113.21,
-      "end": 115.187,
+      "start": 113.96,
+      "end": 115.3,
       "text": "like it’s been there before.",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -542,8 +803,8 @@
     {
       "index": 41,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 115.187,
-      "end": 118.18,
+      "start": 115.54,
+      "end": 117.54,
       "text": "But they don’t all speak at once.",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -551,8 +812,8 @@
     {
       "index": 42,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 118.18,
-      "end": 119.035,
+      "start": 117.82,
+      "end": 118.16,
       "text": "They wait.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -560,8 +821,8 @@
     {
       "index": 43,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 119.035,
-      "end": 119.89,
+      "start": 118.16,
+      "end": 119.14,
       "text": "And something—",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -569,17 +830,17 @@
     {
       "index": 44,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 119.89,
-      "end": 120.745,
+      "start": 119.14,
+      "end": 120.9,
       "text": "not quite me",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 45,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 121.172,
-      "end": 122.64,
+      "start": 121.46,
+      "end": 122.68,
       "text": "not quite separate—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -587,8 +848,8 @@
     {
       "index": 46,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 122.64,
-      "end": 123.16,
+      "start": 122.98,
+      "end": 123.6,
       "text": "decides",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -596,8 +857,8 @@
     {
       "index": 47,
       "section": "Verse 2 – spoken rhythm over beat",
-      "start": 123.16,
-      "end": 124.72,
+      "start": 123.6,
+      "end": 125.04,
       "text": "who steps forward.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -605,17 +866,17 @@
     {
       "index": 48,
       "section": "Hook – slightly fuller | bass + light keys",
-      "start": 124.72,
-      "end": 128.36,
+      "start": 125.62,
+      "end": 128.48,
       "text": "I don’t need every road to light",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 49,
       "section": "Hook – slightly fuller | bass + light keys",
-      "start": 128.36,
-      "end": 132.075,
+      "start": 128.72,
+      "end": 131.48,
       "text": "To find a way through every night",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -623,8 +884,8 @@
     {
       "index": 50,
       "section": "Hook – slightly fuller | bass + light keys",
-      "start": 132.075,
-      "end": 133.68,
+      "start": 131.88,
+      "end": 133.04,
       "text": "Just a signal",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -632,8 +893,8 @@
     {
       "index": 51,
       "section": "Hook – slightly fuller | bass + light keys",
-      "start": 133.68,
-      "end": 135.285,
+      "start": 133.04,
+      "end": 134.48,
       "text": "clear and true",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -641,8 +902,8 @@
     {
       "index": 52,
       "section": "Hook – slightly fuller | bass + light keys",
-      "start": 135.285,
-      "end": 137.96,
+      "start": 134.76,
+      "end": 137.56,
       "text": "Choosing what to carry through",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -650,8 +911,8 @@
     {
       "index": 53,
       "section": "Hook – slightly fuller | bass + light keys",
-      "start": 137.96,
-      "end": 140.097,
+      "start": 137.56,
+      "end": 138.82,
       "text": "There’s a rhythm",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -659,8 +920,8 @@
     {
       "index": 54,
       "section": "Hook – slightly fuller | bass + light keys",
-      "start": 140.097,
-      "end": 142.235,
+      "start": 138.82,
+      "end": 140.36,
       "text": "in the divide",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -668,17 +929,17 @@
     {
       "index": 55,
       "section": "Hook – slightly fuller | bass + light keys",
-      "start": 142.235,
-      "end": 145.085,
+      "start": 140.74,
+      "end": 143.28,
       "text": "Where the scattered parts align",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 56,
       "section": "Bridge – instrumental pause | filtered textures | spoken softly",
-      "start": 146.51,
-      "end": 147.935,
+      "start": 146.56,
+      "end": 147.56,
       "text": "It’s strange.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -686,8 +947,8 @@
     {
       "index": 57,
       "section": "Bridge – instrumental pause | filtered textures | spoken softly",
-      "start": 147.935,
-      "end": 150.33,
+      "start": 148.88,
+      "end": 149.9,
       "text": "The way clarity",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -695,8 +956,8 @@
     {
       "index": 58,
       "section": "Bridge – instrumental pause | filtered textures | spoken softly",
-      "start": 150.33,
-      "end": 153.24,
+      "start": 149.9,
+      "end": 152.02,
       "text": "isn’t about more.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -704,8 +965,8 @@
     {
       "index": 59,
       "section": "Bridge – instrumental pause | filtered textures | spoken softly",
-      "start": 153.24,
-      "end": 156.15,
+      "start": 153.54,
+      "end": 155.32,
       "text": "It’s about less—",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -713,8 +974,8 @@
     {
       "index": 60,
       "section": "Bridge – instrumental pause | filtered textures | spoken softly",
-      "start": 156.15,
-      "end": 159.06,
+      "start": 156.62,
+      "end": 157.98,
       "text": "but chosen well.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -722,8 +983,8 @@
     {
       "index": 61,
       "section": "Turn – subtle lift | piano enters | warmer tone",
-      "start": 159.06,
-      "end": 161.0,
+      "start": 160.26,
+      "end": 160.94,
       "text": "And then",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -731,8 +992,8 @@
     {
       "index": 62,
       "section": "Turn – subtle lift | piano enters | warmer tone",
-      "start": 161.0,
-      "end": 162.94,
+      "start": 161.94,
+      "end": 163.06,
       "text": "over time",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -740,8 +1001,8 @@
     {
       "index": 63,
       "section": "Turn – subtle lift | piano enters | warmer tone",
-      "start": 162.94,
-      "end": 164.88,
+      "start": 164.12,
+      "end": 164.86,
       "text": "the choosing",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -749,8 +1010,8 @@
     {
       "index": 64,
       "section": "Turn – subtle lift | piano enters | warmer tone",
-      "start": 164.88,
-      "end": 166.634,
+      "start": 164.86,
+      "end": 165.68,
       "text": "gets quieter.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -758,8 +1019,8 @@
     {
       "index": 65,
       "section": "Turn – subtle lift | piano enters | warmer tone",
-      "start": 166.634,
-      "end": 168.389,
+      "start": 166.62,
+      "end": 167.82,
       "text": "Not forced.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -767,8 +1028,8 @@
     {
       "index": 66,
       "section": "Turn – subtle lift | piano enters | warmer tone",
-      "start": 168.389,
-      "end": 170.143,
+      "start": 169.22,
+      "end": 170.02,
       "text": "Not calculated.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -776,8 +1037,8 @@
     {
       "index": 67,
       "section": "Turn – subtle lift | piano enters | warmer tone",
-      "start": 170.143,
-      "end": 171.02,
+      "start": 173.24,
+      "end": 173.9,
       "text": "Just…",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -785,8 +1046,8 @@
     {
       "index": 68,
       "section": "Turn – subtle lift | piano enters | warmer tone",
-      "start": 171.02,
-      "end": 171.897,
+      "start": 173.9,
+      "end": 174.68,
       "text": "understood.",
       "timing_source": "whisper-aligned",
       "matched_words": 1
@@ -794,8 +1055,8 @@
     {
       "index": 69,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 171.897,
-      "end": 174.529,
+      "start": 175.42,
+      "end": 176.36,
       "text": "I started noticing",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -803,8 +1064,8 @@
     {
       "index": 70,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 174.529,
-      "end": 177.876,
+      "start": 176.36,
+      "end": 177.7,
       "text": "how the pieces would fall",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -812,8 +1073,8 @@
     {
       "index": 71,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 177.876,
-      "end": 178.949,
+      "start": 177.8,
+      "end": 178.86,
       "text": "Not into chaos",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -821,8 +1082,8 @@
     {
       "index": 72,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 178.949,
-      "end": 180.38,
+      "start": 178.88,
+      "end": 180.66,
       "text": "but into something small",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -830,8 +1091,8 @@
     {
       "index": 73,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 180.38,
-      "end": 181.811,
+      "start": 180.78,
+      "end": 181.78,
       "text": "A pattern of trust",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -839,8 +1100,8 @@
     {
       "index": 74,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 181.811,
-      "end": 183.6,
+      "start": 181.78,
+      "end": 183.42,
       "text": "in the way I respond",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -848,8 +1109,8 @@
     {
       "index": 75,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 183.6,
-      "end": 186.775,
+      "start": 183.72,
+      "end": 186.32,
       "text": "Like I don’t need to reach for everything at once",
       "timing_source": "whisper-aligned",
       "matched_words": 10
@@ -857,8 +1118,8 @@
     {
       "index": 76,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 186.775,
-      "end": 188.045,
+      "start": 186.58,
+      "end": 187.92,
       "text": "Some parts step forward",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -866,17 +1127,17 @@
     {
       "index": 77,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 188.045,
-      "end": 188.68,
+      "start": 188.02,
+      "end": 189.26,
       "text": "some gently recede",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 3
     },
     {
       "index": 78,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 189.103,
-      "end": 189.949,
+      "start": 189.36,
+      "end": 190.1,
       "text": "Not lost",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -884,8 +1145,8 @@
     {
       "index": 79,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 189.949,
-      "end": 190.794,
+      "start": 190.12,
+      "end": 190.94,
       "text": "just resting",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -893,8 +1154,8 @@
     {
       "index": 80,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 190.794,
-      "end": 192.063,
+      "start": 190.94,
+      "end": 192.36,
       "text": "until they’re needed",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -902,8 +1163,8 @@
     {
       "index": 81,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 192.063,
-      "end": 193.754,
+      "start": 192.36,
+      "end": 193.86,
       "text": "And suddenly the noise",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -911,8 +1172,8 @@
     {
       "index": 82,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 193.754,
-      "end": 195.311,
+      "start": 193.86,
+      "end": 195.04,
       "text": "wasn’t something to fight",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -920,8 +1181,8 @@
     {
       "index": 83,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 195.311,
-      "end": 196.733,
+      "start": 195.04,
+      "end": 196.02,
       "text": "It was a system",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -929,8 +1190,8 @@
     {
       "index": 84,
       "section": "Verse 3 – melodic singing + spoken blend",
-      "start": 196.733,
-      "end": 198.511,
+      "start": 196.02,
+      "end": 197.56,
       "text": "learning how to be light",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -938,8 +1199,8 @@
     {
       "index": 85,
       "section": "Hook – uplifting variation",
-      "start": 198.511,
-      "end": 200.644,
+      "start": 198.04,
+      "end": 200.42,
       "text": "Now I feel the signal form",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -947,8 +1208,8 @@
     {
       "index": 86,
       "section": "Hook – uplifting variation",
-      "start": 200.644,
-      "end": 203.235,
+      "start": 200.78,
+      "end": 203.26,
       "text": "Through the quiet and the storm",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -956,8 +1217,8 @@
     {
       "index": 87,
       "section": "Hook – uplifting variation",
-      "start": 203.235,
-      "end": 204.576,
+      "start": 203.48,
+      "end": 204.78,
       "text": "Not every voice",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -965,8 +1226,8 @@
     {
       "index": 88,
       "section": "Hook – uplifting variation",
-      "start": 204.576,
-      "end": 206.365,
+      "start": 204.92,
+      "end": 206.2,
       "text": "but the right few",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -974,8 +1235,8 @@
     {
       "index": 89,
       "section": "Hook – uplifting variation",
-      "start": 206.365,
-      "end": 209.539,
+      "start": 206.54,
+      "end": 209.12,
       "text": "Shaping something I can move through",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -983,8 +1244,8 @@
     {
       "index": 90,
       "section": "Hook – uplifting variation",
-      "start": 209.539,
-      "end": 212.355,
+      "start": 209.66,
+      "end": 210.96,
       "text": "There’s a balance",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -992,8 +1253,8 @@
     {
       "index": 91,
       "section": "Hook – uplifting variation",
-      "start": 212.355,
-      "end": 215.172,
+      "start": 212.12,
+      "end": 213.94,
       "text": "I can’t force",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1001,8 +1262,8 @@
     {
       "index": 92,
       "section": "Hook – uplifting variation",
-      "start": 215.172,
-      "end": 218.927,
+      "start": 215.2,
+      "end": 218.04,
       "text": "But I can follow",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1010,8 +1271,8 @@
     {
       "index": 93,
       "section": "Hook – uplifting variation",
-      "start": 218.927,
-      "end": 221.744,
+      "start": 218.72,
+      "end": 222.02,
       "text": "like a course",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1019,8 +1280,8 @@
     {
       "index": 94,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 221.744,
-      "end": 225.67,
+      "start": 223.18,
+      "end": 225.04,
       "text": "Maybe we were never meant",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1028,8 +1289,8 @@
     {
       "index": 95,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 225.67,
-      "end": 227.335,
+      "start": 225.04,
+      "end": 226.16,
       "text": "to hold everything.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1037,8 +1298,8 @@
     {
       "index": 96,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 227.335,
-      "end": 229.555,
+      "start": 228.46,
+      "end": 229.72,
       "text": "Maybe we were built",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1046,8 +1307,8 @@
     {
       "index": 97,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 229.555,
-      "end": 230.665,
+      "start": 229.72,
+      "end": 230.72,
       "text": "to choose.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1055,8 +1316,8 @@
     {
       "index": 98,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 230.665,
-      "end": 233.916,
+      "start": 231.86,
+      "end": 233.98,
       "text": "To trust that not every path",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1064,8 +1325,8 @@
     {
       "index": 99,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 233.916,
-      "end": 235.818,
+      "start": 233.98,
+      "end": 234.94,
       "text": "needs to be walked",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1073,8 +1334,8 @@
     {
       "index": 100,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 235.818,
-      "end": 238.671,
+      "start": 234.94,
+      "end": 236.42,
       "text": "for the journey to be real.",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -1082,17 +1343,17 @@
     {
       "index": 101,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 238.671,
-      "end": 241.049,
+      "start": 237.98,
+      "end": 239.64,
       "text": "That meaning isn’t in the weight—",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 102,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 241.524,
-      "end": 244.136,
+      "start": 241.38,
+      "end": 242.86,
       "text": "it’s in the selection.",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1100,8 +1361,8 @@
     {
       "index": 103,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 244.136,
-      "end": 247.696,
+      "start": 244.56,
+      "end": 246.76,
       "text": "And all those unused pieces",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -1109,8 +1370,8 @@
     {
       "index": 104,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 247.696,
-      "end": 249.832,
+      "start": 248.4,
+      "end": 249.76,
       "text": "they’re not wasted.",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1118,8 +1379,8 @@
     {
       "index": 105,
       "section": "Final Verse – spoken word with warm layers",
-      "start": 249.832,
-      "end": 251.256,
+      "start": 249.76,
+      "end": 251.26,
       "text": "They’re waiting.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1127,8 +1388,8 @@
     {
       "index": 106,
       "section": "Final Hook – full warm arrangement",
-      "start": 251.256,
-      "end": 254.66,
+      "start": 251.94,
+      "end": 254.74,
       "text": "I don’t need every part to stay",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1136,8 +1397,8 @@
     {
       "index": 107,
       "section": "Final Hook – full warm arrangement",
-      "start": 254.66,
-      "end": 257.432,
+      "start": 254.98,
+      "end": 257.7,
       "text": "To find the truth along the way",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1145,8 +1406,8 @@
     {
       "index": 108,
       "section": "Final Hook – full warm arrangement",
-      "start": 257.432,
-      "end": 259.016,
+      "start": 257.82,
+      "end": 259.0,
       "text": "In what I keep",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1154,8 +1415,8 @@
     {
       "index": 109,
       "section": "Final Hook – full warm arrangement",
-      "start": 259.016,
-      "end": 260.6,
+      "start": 259.0,
+      "end": 260.62,
       "text": "and what I release",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1163,8 +1424,8 @@
     {
       "index": 110,
       "section": "Final Hook – full warm arrangement",
-      "start": 260.6,
-      "end": 265.329,
+      "start": 260.74,
+      "end": 263.74,
       "text": "I finally feel a kind of peace",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -1172,8 +1433,8 @@
     {
       "index": 111,
       "section": "Final Hook – full warm arrangement",
-      "start": 265.329,
-      "end": 267.356,
+      "start": 264.32,
+      "end": 265.26,
       "text": "There’s a system",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1181,8 +1442,8 @@
     {
       "index": 112,
       "section": "Final Hook – full warm arrangement",
-      "start": 267.356,
-      "end": 269.382,
+      "start": 265.64,
+      "end": 266.86,
       "text": "soft and true",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1190,8 +1451,8 @@
     {
       "index": 113,
       "section": "Final Hook – full warm arrangement",
-      "start": 269.382,
-      "end": 272.084,
+      "start": 268.44,
+      "end": 272.44,
       "text": "Making something out of few",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -1199,17 +1460,17 @@
     {
       "index": 114,
       "section": "Outro – spoken quietly | instruments fading",
-      "start": 272.76,
-      "end": 276.487,
+      "start": 276.6,
+      "end": 279.12,
       "text": "It was never about",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 4
     },
     {
       "index": 115,
       "section": "Outro – spoken quietly | instruments fading",
-      "start": 277.729,
-      "end": 280.214,
+      "start": 279.12,
+      "end": 281.96,
       "text": "being everything.",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1217,8 +1478,8 @@
     {
       "index": 116,
       "section": "Outro – spoken quietly | instruments fading",
-      "start": 280.214,
-      "end": 283.941,
+      "start": 283.42,
+      "end": 285.0,
       "text": "Just about knowing",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1226,8 +1487,8 @@
     {
       "index": 117,
       "section": "Outro – spoken quietly | instruments fading",
-      "start": 283.941,
-      "end": 287.668,
+      "start": 285.0,
+      "end": 289.48,
       "text": "which parts of you",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -1235,8 +1496,8 @@
     {
       "index": 118,
       "section": "Outro – spoken quietly | instruments fading",
-      "start": 288.911,
-      "end": 291.395,
+      "start": 290.18,
+      "end": 292.28,
       "text": "were enough",
       "timing_source": "whisper-aligned",
       "matched_words": 2
@@ -1244,8 +1505,8 @@
     {
       "index": 119,
       "section": "Outro – spoken quietly | instruments fading",
-      "start": 291.395,
-      "end": 293.88,
+      "start": 292.28,
+      "end": 294.0,
       "text": "to answer.",
       "timing_source": "whisper-aligned",
       "matched_words": 2

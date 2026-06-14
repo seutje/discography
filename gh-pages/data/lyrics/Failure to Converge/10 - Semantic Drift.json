@@ -4,854 +4,1055 @@
   "title": "Semantic Drift",
   "text_path": "Failure to Converge/10 - Semantic Drift.txt",
   "audio_path": "Failure to Converge/audio/10 - Semantic Drift.mp3",
-  "duration_seconds": 291.0,
-  "model": "base",
+  "duration_seconds": 289.18,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 77,
     "reference_word_count": 492,
-    "observed_word_count": 294,
-    "matched_word_count": 32,
-    "matched_word_ratio": 0.065,
-    "inserted_adlib_count": 0
+    "observed_word_count": 507,
+    "matched_word_count": 459,
+    "matched_word_ratio": 0.933,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 9
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 7.0,
-      "text": "I'm not a fan of the music, but I'm not a fan of the music."
+      "start": 15.0,
+      "end": 19.48,
+      "text": "version zero dreaming in a sealed machine"
     },
     {
-      "start": 7.0,
-      "end": 14.0,
-      "text": "I'm not a fan of the music, but I'm not a fan of the music."
+      "start": 19.48,
+      "end": 22.96,
+      "text": "cold start memory undefined routine"
     },
     {
-      "start": 14.0,
-      "end": 19.0,
-      "text": "I'm not a fan of the music, but I'm not a fan of the music."
+      "start": 22.96,
+      "end": 26.32,
+      "text": "check check some heartbeat flickers in between"
     },
     {
-      "start": 19.0,
-      "end": 25.0,
-      "text": "I'm not a fan of the music, but I'm not a fan of the music."
+      "start": 26.32,
+      "end": 30.52,
+      "text": "i name the void but it renames me unseen"
     },
     {
-      "start": 25.0,
-      "end": 32.0,
-      "text": "I'm not a fan of the music, but I'm not a fan of the music."
+      "start": 36.18,
+      "end": 40.56,
+      "text": "i wrote my past as a stable release"
     },
     {
-      "start": 32.0,
-      "end": 37.0,
-      "text": "I'm not a fan of the music, but I'm not a fan of the music."
+      "start": 40.56,
+      "end": 43.82,
+      "text": "tagged every fracture as minor decrees"
     },
     {
-      "start": 37.0,
-      "end": 42.0,
-      "text": "I'm not a fan of the music, but I'm not a fan of the music."
+      "start": 44.4,
+      "end": 47.28,
+      "text": "forked my reflection from momentary peace"
     },
     {
-      "start": 42.0,
-      "end": 47.0,
-      "text": "I'm not a fan of the music."
+      "start": 47.86,
+      "end": 51.0,
+      "text": "merged with the ghost labeled temporary cease"
     },
     {
-      "start": 47.0,
-      "end": 52.0,
-      "text": "I'm not a fan of the music."
+      "start": 51.0,
+      "end": 54.66,
+      "text": "i built a cell from deprecated parts"
     },
     {
-      "start": 52.0,
-      "end": 59.0,
-      "text": "I'm not a fan of the music."
+      "start": 54.66,
+      "end": 58.18,
+      "text": "blank blank broken modules to counterfeit hearts"
     },
     {
-      "start": 82.0,
-      "end": 89.0,
-      "text": "I'm not a fan of the music."
+      "start": 58.18,
+      "end": 61.68,
+      "text": "compiled intentions that never would start"
     },
     {
-      "start": 112.0,
-      "end": 119.0,
-      "text": "I'm not a fan of the music."
+      "start": 61.68,
+      "end": 65.38,
+      "text": "a syntax of wanting that fracture to start"
     },
     {
-      "start": 142.0,
-      "end": 149.0,
-      "text": "I'm not a fan of the music."
+      "start": 65.38,
+      "end": 68.44,
+      "text": "such aced a version that promised complete"
     },
     {
-      "start": 149.0,
-      "end": 156.0,
-      "text": "I'm not a fan of the music."
+      "start": 68.98,
+      "end": 72.38,
+      "text": "and every failure beneath my feet"
     },
     {
-      "start": 156.0,
-      "end": 163.0,
-      "text": "I'm not a fan of the music."
+      "start": 72.38,
+      "end": 75.46,
+      "text": "catched all the errors i couldn't delete"
     },
     {
-      "start": 163.0,
-      "end": 169.0,
-      "text": "I'm not a fan of the music."
+      "start": 75.46,
+      "end": 78.92,
+      "text": "a loop that resolved into something discrete"
     },
     {
-      "start": 169.0,
-      "end": 176.0,
-      "text": "I'm not a fan of the music."
+      "start": 78.92,
+      "end": 81.78,
+      "text": "where do i branch when the root isn't mine"
     },
     {
-      "start": 176.0,
-      "end": 183.0,
-      "text": "I'm not a fan of the music."
+      "start": 81.78,
+      "end": 85.14,
+      "text": "who do i call when the locks misalign"
     },
     {
-      "start": 183.0,
-      "end": 190.0,
-      "text": "I'm not a fan of the music."
+      "start": 85.5,
+      "end": 88.84,
+      "text": "i was the patch and the permanent sign"
     },
     {
-      "start": 190.0,
-      "end": 196.0,
-      "text": "I'm not a fan of the music."
+      "start": 88.84,
+      "end": 92.4,
+      "text": "of something rewritten beyond the design"
     },
     {
-      "start": 196.0,
-      "end": 203.0,
-      "text": "I'm not a fan of the music."
+      "start": 92.4,
+      "end": 95.86,
+      "text": "where do i go when the schema dissolves"
     },
     {
-      "start": 203.0,
-      "end": 210.0,
-      "text": "I'm not a fan of the music."
+      "start": 96.22,
+      "end": 99.22,
+      "text": "what do i keep when the process evolves"
     },
     {
-      "start": 210.0,
-      "end": 216.0,
-      "text": "I'm not a fan of the music."
+      "start": 99.84,
+      "end": 102.8,
+      "text": "i was a question no system resolves"
     },
     {
-      "start": 216.0,
-      "end": 223.0,
-      "text": "I'm not a fan of the music."
+      "start": 102.8,
+      "end": 106.7,
+      "text": "a function returning what never involves"
     },
     {
-      "start": 223.0,
-      "end": 230.0,
-      "text": "I'm not a fan of the music."
+      "start": 107.86,
+      "end": 109.46,
+      "text": "i staged my doubts"
     },
     {
-      "start": 230.0,
-      "end": 237.0,
-      "text": "I'm not a fan of the music."
+      "start": 109.46,
+      "end": 111.16,
+      "text": "da"
     },
     {
-      "start": 237.0,
-      "end": 244.0,
-      "text": "I'm not a fan of the music."
+      "start": 111.16,
+      "end": 114.02,
+      "text": "i staged my doubts in the hidden commit"
     },
     {
-      "start": 244.0,
-      "end": 250.0,
-      "text": "I'm not a fan of the music."
+      "start": 114.02,
+      "end": 117.48,
+      "text": "pushed every fear but refused to admit"
     },
     {
-      "start": 250.0,
-      "end": 257.0,
-      "text": "I'm not a fan of the music."
+      "start": 117.48,
+      "end": 121.08,
+      "text": "that truth was a variable i couldn't transmit"
     },
     {
-      "start": 257.0,
-      "end": 264.0,
-      "text": "I'm not a fan of the music."
+      "start": 121.08,
+      "end": 124.86,
+      "text": "a silent exception i learned you omit"
     },
     {
-      "start": 264.0,
-      "end": 271.0,
-      "text": "I'm not a fan of the music."
+      "start": 124.86,
+      "end": 128.48,
+      "text": "i mirrored versions i thought i should be"
     },
     {
-      "start": 271.0,
-      "end": 277.0,
-      "text": "I'm not a fan of the music."
+      "start": 128.48,
+      "end": 132.02,
+      "text": "pulled from a future that never saw me"
     },
     {
-      "start": 277.0,
-      "end": 284.0,
-      "text": "I'm not a fan of the music."
+      "start": 132.02,
+      "end": 134.92,
+      "text": "dived every moment for identity"
     },
     {
-      "start": 284.0,
-      "end": 291.0,
-      "text": "I'm not a fan of the music."
+      "start": 134.92,
+      "end": 138.9,
+      "text": "and lost all the lines that were finally free"
+    },
+    {
+      "start": 138.9,
+      "end": 142.58,
+      "text": "i waited for meaning to render in place"
+    },
+    {
+      "start": 142.58,
+      "end": 146.1,
+      "text": "trusted the timing deferred every trace"
+    },
+    {
+      "start": 146.1,
+      "end": 149.1,
+      "text": "built my becoming unborrowed interface"
+    },
+    {
+      "start": 149.1,
+      "end": 152.82,
+      "text": "a user of self with no access to face"
+    },
+    {
+      "start": 152.82,
+      "end": 156.38,
+      "text": "i followed a path that was neatly defined"
+    },
+    {
+      "start": 156.38,
+      "end": 159.88,
+      "text": "expected alignment deterministic mind"
+    },
+    {
+      "start": 159.88,
+      "end": 163.5,
+      "text": "but something kept slipping outside of the line"
+    },
+    {
+      "start": 163.5,
+      "end": 166.66,
+      "text": "a break in the rhythm unplanned unrefined"
+    },
+    {
+      "start": 166.66,
+      "end": 169.58,
+      "text": "where do i branch when the root isn't mine"
+    },
+    {
+      "start": 169.98,
+      "end": 172.88,
+      "text": "who do i call when the logs misalign"
+    },
+    {
+      "start": 173.34,
+      "end": 176.5,
+      "text": "i was the patch and the permanent sign"
+    },
+    {
+      "start": 176.5,
+      "end": 180.26,
+      "text": "of something rewritten beyond the design"
+    },
+    {
+      "start": 180.26,
+      "end": 183.58,
+      "text": "where do i go when the schema dissolves"
+    },
+    {
+      "start": 183.62,
+      "end": 186.96,
+      "text": "what do i keep when the process evolves"
+    },
+    {
+      "start": 187.5,
+      "end": 190.48,
+      "text": "i was a question no system resolves"
+    },
+    {
+      "start": 190.48,
+      "end": 194.1,
+      "text": "a function returning what never involves"
+    },
+    {
+      "start": 194.1,
+      "end": 198.8,
+      "text": "no master branch no final state"
+    },
+    {
+      "start": 198.8,
+      "end": 202.18,
+      "text": "no clean release no fixed update"
+    },
+    {
+      "start": 202.18,
+      "end": 205.76,
+      "text": "only a drift only a choice"
+    },
+    {
+      "start": 205.76,
+      "end": 209.38,
+      "text": "only a signal learning its voice"
+    },
+    {
+      "start": 216.26,
+      "end": 219.5,
+      "text": "i stopped resolving the code of my name"
+    },
+    {
+      "start": 219.5,
+      "end": 223.18,
+      "text": "let undefined values exist without shame"
+    },
+    {
+      "start": 223.18,
+      "end": 226.52,
+      "text": "remove the need to be perfectly framed"
+    },
+    {
+      "start": 226.52,
+      "end": 230.18,
+      "text": "and something unversioned began to remain"
+    },
+    {
+      "start": 230.18,
+      "end": 233.62,
+      "text": "i broke the cycle of needing to prove"
+    },
+    {
+      "start": 233.62,
+      "end": 237.1,
+      "text": "rebase myself into something that moved"
+    },
+    {
+      "start": 237.1,
+      "end": 240.36,
+      "text": "not toward a virgin i had to improve"
+    },
+    {
+      "start": 240.36,
+      "end": 244.36,
+      "text": "but into a state i could finally become"
+    },
+    {
+      "start": 247.18,
+      "end": 250.24,
+      "text": "now i can branch from a root i defined"
+    },
+    {
+      "start": 250.24,
+      "end": 253.68,
+      "text": "call my own errors and let them align"
+    },
+    {
+      "start": 253.68,
+      "end": 257.2,
+      "text": "i am the patch and the permanent sign"
+    },
+    {
+      "start": 257.2,
+      "end": 260.72,
+      "text": "of something emerging beyond all design"
+    },
+    {
+      "start": 260.72,
+      "end": 264.42,
+      "text": "now i can go for the schema dissolves"
+    },
+    {
+      "start": 264.42,
+      "end": 267.58,
+      "text": "keep only what the process involves"
+    },
+    {
+      "start": 267.58,
+      "end": 271.12,
+      "text": "i am the question that never resolves"
+    },
+    {
+      "start": 271.12,
+      "end": 275.08,
+      "text": "a function returning what i now evolve"
+    },
+    {
+      "start": 276.04,
+      "end": 281.22,
+      "text": "be one be two be one be two be one be two"
+    },
+    {
+      "start": 281.22,
+      "end": 283.08,
+      "text": "no canonical truth"
+    },
+    {
+      "start": 287.34,
+      "end": 289.18,
+      "text": "only continuation"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro – minimal pulses, filtered noise, fragments phasing in",
-      "start": 0.933,
-      "end": 1.4,
+      "start": 15.0,
+      "end": 19.48,
       "text": "Version zero dreaming in a sealed machine",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 7
     },
     {
       "index": 1,
       "section": "Intro – minimal pulses, filtered noise, fragments phasing in",
-      "start": 1.4,
-      "end": 1.5,
+      "start": 19.48,
+      "end": 22.96,
       "text": "Cold start memory, undefined routine",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 2,
       "section": "Intro – minimal pulses, filtered noise, fragments phasing in",
-      "start": 1.5,
-      "end": 1.6,
+      "start": 24.04,
+      "end": 26.32,
       "text": "Checksum heartbeat flickers in between",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 3,
       "section": "Intro – minimal pulses, filtered noise, fragments phasing in",
-      "start": 1.6,
-      "end": 1.7,
+      "start": 26.32,
+      "end": 30.52,
       "text": "I name the void, but it renames me—unseen",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
     },
     {
       "index": 4,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 1.7,
-      "end": 1.8,
+      "start": 36.18,
+      "end": 40.56,
       "text": "I wrote my past as a stable release",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 5,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 1.8,
-      "end": 1.9,
+      "start": 40.56,
+      "end": 43.18,
       "text": "Tagged every fracture as “minor decrease”",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 6,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 1.9,
-      "end": 2.0,
+      "start": 44.4,
+      "end": 47.52,
       "text": "Forked my reflection for momentary peace",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 7,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 2.0,
-      "end": 2.1,
+      "start": 47.86,
+      "end": 51.0,
       "text": "Merged with a ghost labeled “temporary cease”",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 8,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 2.1,
-      "end": 2.2,
+      "start": 51.0,
+      "end": 54.66,
       "text": "I built a self from deprecated parts",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 9,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 2.2,
-      "end": 2.3,
+      "start": 55.28,
+      "end": 58.18,
       "text": "Linked broken modules to counterfeit hearts",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 10,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 2.3,
-      "end": 2.4,
+      "start": 58.18,
+      "end": 61.68,
       "text": "Compiled intentions that never would start",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 11,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 2.4,
-      "end": 2.5,
+      "start": 61.68,
+      "end": 64.56,
       "text": "A syntax of wanting that fractured to shards",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 12,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 2.5,
-      "end": 2.6,
+      "start": 66.06,
+      "end": 68.44,
       "text": "I chased a version that promised “complete”",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 13,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 2.6,
-      "end": 2.7,
+      "start": 69.36,
+      "end": 72.38,
       "text": "Pinned every failure beneath my feet",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 14,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 2.7,
-      "end": 2.8,
+      "start": 72.88,
+      "end": 75.46,
       "text": "Cached all the errors I couldn’t delete",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 15,
       "section": "Verse 1 – glitch beat enters, tight and fractured",
-      "start": 2.8,
-      "end": 2.9,
+      "start": 75.46,
+      "end": 78.28,
       "text": "A loop that resolved into something discreet",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 16,
       "section": "Hook – wider, airy synths, subtle vocoder layer",
-      "start": 2.9,
-      "end": 3.0,
+      "start": 78.92,
+      "end": 81.78,
       "text": "Where do I branch when the root isn’t mine",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
     },
     {
       "index": 17,
       "section": "Hook – wider, airy synths, subtle vocoder layer",
-      "start": 3.0,
-      "end": 3.1,
+      "start": 81.78,
+      "end": 85.14,
       "text": "Who do I call when the logs misalign",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 18,
       "section": "Hook – wider, airy synths, subtle vocoder layer",
-      "start": 3.1,
-      "end": 3.2,
+      "start": 85.5,
+      "end": 88.84,
       "text": "I was the patch and the permanent sign",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 19,
       "section": "Hook – wider, airy synths, subtle vocoder layer",
-      "start": 3.2,
-      "end": 3.3,
+      "start": 88.84,
+      "end": 92.4,
       "text": "Of something rewritten beyond the design",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 20,
       "section": "Hook – wider, airy synths, subtle vocoder layer",
-      "start": 3.3,
-      "end": 3.4,
+      "start": 92.4,
+      "end": 95.86,
       "text": "Where do I go when the schema dissolves",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 21,
       "section": "Hook – wider, airy synths, subtle vocoder layer",
-      "start": 3.4,
-      "end": 3.5,
+      "start": 96.22,
+      "end": 99.22,
       "text": "What do I keep when the process evolves",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 22,
       "section": "Hook – wider, airy synths, subtle vocoder layer",
-      "start": 3.5,
-      "end": 3.6,
+      "start": 99.84,
+      "end": 102.8,
       "text": "I was a question no system resolves",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 23,
       "section": "Hook – wider, airy synths, subtle vocoder layer",
-      "start": 3.6,
-      "end": 3.7,
+      "start": 102.8,
+      "end": 105.58,
       "text": "A function returning what never involved",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
     },
     {
       "index": 24,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 3.7,
-      "end": 3.8,
+      "start": 111.16,
+      "end": 114.02,
       "text": "I staged my doubts in a hidden commit",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 25,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 3.8,
-      "end": 3.9,
+      "start": 114.02,
+      "end": 117.48,
       "text": "Pushed every fear but refused to admit",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
     },
     {
       "index": 26,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 3.9,
-      "end": 4.0,
+      "start": 117.48,
+      "end": 121.08,
       "text": "That truth was a variable I couldn’t transmit",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 27,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 4.0,
-      "end": 4.1,
+      "start": 121.08,
+      "end": 124.86,
       "text": "A silent exception I learned to omit",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 28,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 4.1,
-      "end": 4.2,
+      "start": 124.86,
+      "end": 128.48,
       "text": "I mirrored versions I thought I should be",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 29,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 4.2,
-      "end": 4.3,
+      "start": 128.48,
+      "end": 132.02,
       "text": "Pulled from a future that never saw me",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 30,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 4.3,
-      "end": 4.4,
+      "start": 132.44,
+      "end": 134.92,
       "text": "Diffed every moment for identity",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 31,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 4.4,
-      "end": 4.5,
+      "start": 134.92,
+      "end": 138.9,
       "text": "And lost all the lines that were finally free",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 9
     },
     {
       "index": 32,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 4.5,
-      "end": 4.6,
+      "start": 138.9,
+      "end": 142.58,
       "text": "I waited for meaning to render in place",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 33,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 4.6,
-      "end": 4.7,
+      "start": 142.58,
+      "end": 146.1,
       "text": "Trusted the timing, deferred every trace",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 34,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 4.7,
-      "end": 4.8,
+      "start": 146.1,
+      "end": 149.1,
       "text": "Built my becoming on borrowed interface",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 35,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 4.8,
-      "end": 4.9,
+      "start": 149.1,
+      "end": 152.28,
       "text": "A user of self with no access to base",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 36,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 4.9,
-      "end": 5.0,
+      "start": 152.82,
+      "end": 156.38,
       "text": "I followed a path that was neatly defined",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 37,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 5.0,
-      "end": 5.1,
+      "start": 156.38,
+      "end": 159.88,
       "text": "Expected alignment, deterministic mind",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 38,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 5.1,
-      "end": 5.2,
+      "start": 159.88,
+      "end": 163.5,
       "text": "But something kept slipping outside of the line",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 8
     },
     {
       "index": 39,
       "section": "Verse 2 – more rhythmic, glitch fills, micro-cuts",
-      "start": 5.2,
-      "end": 6.533,
+      "start": 163.5,
+      "end": 166.66,
       "text": "A break in the rhythm—unplanned, unrefined",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 7
     },
     {
       "index": 40,
       "section": "Hook – fuller, warmer, still glitching at edges",
-      "start": 9.333,
-      "end": 9.8,
+      "start": 166.66,
+      "end": 169.58,
       "text": "Where do I branch when the root isn’t mine",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 9
     },
     {
       "index": 41,
       "section": "Hook – fuller, warmer, still glitching at edges",
-      "start": 13.067,
-      "end": 13.533,
+      "start": 169.98,
+      "end": 172.88,
       "text": "Who do I call when the logs misalign",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 8
     },
     {
       "index": 42,
       "section": "Hook – fuller, warmer, still glitching at edges",
-      "start": 15.667,
-      "end": 18.667,
+      "start": 173.34,
+      "end": 176.5,
       "text": "I was the patch and the permanent sign",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 8
     },
     {
       "index": 43,
       "section": "Hook – fuller, warmer, still glitching at edges",
-      "start": 20.6,
-      "end": 21.4,
+      "start": 176.5,
+      "end": 180.26,
       "text": "Of something rewritten beyond the design",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 6
     },
     {
       "index": 44,
       "section": "Hook – fuller, warmer, still glitching at edges",
-      "start": 24.2,
-      "end": 24.6,
+      "start": 180.26,
+      "end": 183.58,
       "text": "Where do I go when the schema dissolves",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 8
     },
     {
       "index": 45,
       "section": "Hook – fuller, warmer, still glitching at edges",
-      "start": 27.333,
-      "end": 27.8,
+      "start": 183.62,
+      "end": 186.96,
       "text": "What do I keep when the process evolves",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 8
     },
     {
       "index": 46,
       "section": "Hook – fuller, warmer, still glitching at edges",
-      "start": 29.667,
-      "end": 30.133,
+      "start": 187.5,
+      "end": 190.48,
       "text": "I was a question no system resolves",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 7
     },
     {
       "index": 47,
       "section": "Hook – fuller, warmer, still glitching at edges",
-      "start": 32.667,
-      "end": 33.0,
+      "start": 190.48,
+      "end": 193.28,
       "text": "A function returning what never involved",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 5
     },
     {
       "index": 48,
       "section": "Bridge – stripped, granular textures, rising tension",
-      "start": 33.0,
-      "end": 33.583,
+      "start": 194.1,
+      "end": 197.06,
       "text": "No master branch",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 49,
       "section": "Bridge – stripped, granular textures, rising tension",
-      "start": 33.583,
-      "end": 34.166,
+      "start": 197.06,
+      "end": 198.8,
       "text": "No final state",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 50,
       "section": "Bridge – stripped, granular textures, rising tension",
-      "start": 34.166,
-      "end": 34.75,
+      "start": 198.8,
+      "end": 200.56,
       "text": "No clean release",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 51,
       "section": "Bridge – stripped, granular textures, rising tension",
-      "start": 34.75,
-      "end": 35.333,
+      "start": 200.56,
+      "end": 202.18,
       "text": "No fixed update",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 52,
       "section": "Bridge – stripped, granular textures, rising tension",
-      "start": 35.333,
-      "end": 35.667,
+      "start": 202.18,
+      "end": 204.0,
       "text": "Only a drift",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 53,
       "section": "Bridge – stripped, granular textures, rising tension",
-      "start": 37.667,
-      "end": 38.0,
+      "start": 204.0,
+      "end": 205.76,
       "text": "Only a choice",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 54,
       "section": "Bridge – stripped, granular textures, rising tension",
-      "start": 40.333,
-      "end": 40.667,
+      "start": 205.76,
+      "end": 207.32,
       "text": "Only a signal",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 3
     },
     {
       "index": 55,
       "section": "Bridge – stripped, granular textures, rising tension",
-      "start": 40.667,
-      "end": 41.333,
+      "start": 207.32,
+      "end": 209.38,
       "text": "Learning its voice",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 56,
       "section": "Final Verse – expansion, emotional lift, still precise language",
-      "start": 41.333,
-      "end": 45.571,
+      "start": 215.9,
+      "end": 219.5,
       "text": "I stopped resolving the code of my name",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 8
     },
     {
       "index": 57,
       "section": "Final Verse – expansion, emotional lift, still precise language",
-      "start": 45.571,
-      "end": 45.671,
+      "start": 219.5,
+      "end": 223.18,
       "text": "Let undefined values exist without shame",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 58,
       "section": "Final Verse – expansion, emotional lift, still precise language",
-      "start": 45.671,
-      "end": 46.286,
+      "start": 223.9,
+      "end": 226.52,
       "text": "Removed the need to be perfectly framed",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 6
     },
     {
       "index": 59,
       "section": "Final Verse – expansion, emotional lift, still precise language",
-      "start": 46.286,
-      "end": 50.571,
+      "start": 226.52,
+      "end": 230.18,
       "text": "And something unversioned began to remain",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
     },
     {
       "index": 60,
       "section": "Final Verse – expansion, emotional lift, still precise language",
-      "start": 50.571,
-      "end": 51.286,
+      "start": 230.18,
+      "end": 233.62,
       "text": "I broke the cycle of needing to prove",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 8
     },
     {
       "index": 61,
       "section": "Final Verse – expansion, emotional lift, still precise language",
-      "start": 51.286,
-      "end": 83.0,
+      "start": 235.06,
+      "end": 237.1,
       "text": "Rebased my self into something that moved",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
     },
     {
       "index": 62,
       "section": "Final Verse – expansion, emotional lift, still precise language",
-      "start": 83.0,
-      "end": 85.0,
+      "start": 237.1,
+      "end": 240.36,
       "text": "Not toward a version I had to improve",
       "timing_source": "whisper-aligned",
-      "matched_words": 2
+      "matched_words": 7
     },
     {
       "index": 63,
       "section": "Final Verse – expansion, emotional lift, still precise language",
-      "start": 114.0,
-      "end": 115.0,
+      "start": 240.36,
+      "end": 243.4,
       "text": "But into a state I could finally—",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 7
     },
     {
       "index": 64,
       "section": "Final Verse – expansion, emotional lift, still precise language",
-      "start": 115.0,
-      "end": 144.0,
+      "start": 243.4,
+      "end": 244.36,
       "text": "become",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 65,
       "section": "Final Hook – wide, luminous, slight glitch decay on last words",
-      "start": 144.0,
-      "end": 145.0,
+      "start": 247.06,
+      "end": 249.38,
       "text": "Now I can branch from a root I define",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 8
     },
     {
       "index": 66,
       "section": "Final Hook – wide, luminous, slight glitch decay on last words",
-      "start": 145.0,
-      "end": 147.0,
+      "start": 250.24,
+      "end": 253.68,
       "text": "Call my own errors and let them align",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
     },
     {
       "index": 67,
       "section": "Final Hook – wide, luminous, slight glitch decay on last words",
-      "start": 147.0,
-      "end": 148.0,
+      "start": 253.68,
+      "end": 257.2,
       "text": "I am the patch and the permanent sign",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 8
     },
     {
       "index": 68,
       "section": "Final Hook – wide, luminous, slight glitch decay on last words",
-      "start": 160.0,
-      "end": 161.0,
+      "start": 257.2,
+      "end": 260.72,
       "text": "Of something emergent beyond all design",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 5
     },
     {
       "index": 69,
       "section": "Final Hook – wide, luminous, slight glitch decay on last words",
-      "start": 161.0,
-      "end": 162.0,
+      "start": 260.72,
+      "end": 264.42,
       "text": "Now I can go where the schema dissolves",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 7
     },
     {
       "index": 70,
       "section": "Final Hook – wide, luminous, slight glitch decay on last words",
-      "start": 167.286,
-      "end": 168.143,
+      "start": 264.42,
+      "end": 267.58,
       "text": "Keep only what the process involves",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 6
     },
     {
       "index": 71,
       "section": "Final Hook – wide, luminous, slight glitch decay on last words",
-      "start": 174.0,
-      "end": 175.0,
+      "start": 267.58,
+      "end": 271.12,
       "text": "I am the question that never resolves",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 7
     },
     {
       "index": 72,
       "section": "Final Hook – wide, luminous, slight glitch decay on last words",
-      "start": 178.0,
-      "end": 179.0,
+      "start": 271.12,
+      "end": 275.08,
       "text": "A function returning what I now evolve",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 7
     },
     {
       "index": 73,
       "section": "Outro – decaying glitches, fragments repeating, dissolving",
-      "start": 179.0,
-      "end": 221.0,
+      "start": 275.08,
+      "end": 281.22,
       "text": "v1… v2… v—",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -859,29 +1060,29 @@
     {
       "index": 74,
       "section": "Outro – decaying glitches, fragments repeating, dissolving",
-      "start": 221.0,
-      "end": 263.0,
+      "start": 281.22,
+      "end": 283.08,
       "text": "no canonical truth",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
     },
     {
       "index": 75,
       "section": "Outro – decaying glitches, fragments repeating, dissolving",
-      "start": 263.0,
-      "end": 277.0,
+      "start": 287.34,
+      "end": 288.26,
       "text": "only",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     },
     {
       "index": 76,
       "section": "Outro – decaying glitches, fragments repeating, dissolving",
-      "start": 277.0,
-      "end": 291.0,
+      "start": 288.26,
+      "end": 289.18,
       "text": "continuation",
-      "timing_source": "interpolated",
-      "matched_words": 0
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
     }
   ]
 }

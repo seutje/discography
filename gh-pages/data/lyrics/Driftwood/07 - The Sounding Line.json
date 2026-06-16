@@ -4,140 +4,216 @@
   "title": "The Sounding Line",
   "text_path": "Driftwood/07 - The Sounding Line.txt",
   "audio_path": "Driftwood/audio/07 - The Sounding Line.mp3",
-  "duration_seconds": 233.0,
-  "model": "base",
+  "duration_seconds": 229.82,
+  "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
-  "timing_backend": "whisper-segment-timestamps",
+  "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 68,
     "reference_word_count": 409,
     "observed_word_count": 408,
-    "matched_word_count": 353,
-    "matched_word_ratio": 0.863,
-    "inserted_adlib_count": 0
+    "matched_word_count": 387,
+    "matched_word_ratio": 0.946,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
   },
   "transcript_segments": [
     {
-      "start": 0.0,
-      "end": 15.0,
-      "text": "Dark the learn, let it sink, knuckles wide around the brink, leading twine, marked by mark, find the bottom in the dark."
+      "start": 3.0,
+      "end": 8.82,
+      "text": "drop the line let it sink knuckles white around the brink"
     },
     {
-      "start": 16.0,
-      "end": 33.0,
-      "text": "The fish has taught me, depth by touch, wet not to keep in careful count, no grand advice, no silver face."
+      "start": 8.82,
+      "end": 14.7,
+      "text": "let it entwine mark by mark find the bottom in the dark"
     },
     {
-      "start": 33.0,
-      "end": 41.0,
-      "text": "Just touch and patience, keep in place, I let it slip through thumb and tongue, felt the seagull cold and calm."
+      "start": 18.74,
+      "end": 26.72,
+      "text": "mmm mmm the fish has taught me depth by touch"
     },
     {
-      "start": 41.0,
-      "end": 47.0,
-      "text": "Every feather took a thread, from things I thought were better dead."
+      "start": 26.72,
+      "end": 32.22,
+      "text": "wet knots keeping careful count no grand device no silver face"
     },
     {
-      "start": 47.0,
-      "end": 55.0,
-      "text": "There was the island, there the pale, there the shirt that failed to sail, there the mouth that called it neat."
+      "start": 32.22,
+      "end": 38.2,
+      "text": "just touching patience keeping place i let it slip through thumb and palm"
     },
     {
-      "start": 55.0,
-      "end": 70.0,
-      "text": "While quietly teaching me to bleed, some depth sensor when you ask, some keep wearing their old masks, some return of grain of sand and ask, what else your grip is hiding."
+      "start": 38.2,
+      "end": 43.58,
+      "text": "felt the sea go cold and calm every fathom took a thread"
     },
     {
-      "start": 70.0,
-      "end": 79.0,
-      "text": "Sound it out, don't drag it up, not every bottom wants a cup, mark the depth and let it be."
+      "start": 43.58,
+      "end": 48.54,
+      "text": "from things i thought were better dead there was the island they're the pale"
     },
     {
-      "start": 79.0,
-      "end": 87.0,
-      "text": "There are truths beneath the sea, sounded out, then give it slack, something speak by, not coming back."
+      "start": 49.3,
+      "end": 54.64,
+      "text": "they're the shirt that failed his sail they're the mouth that called a need"
     },
     {
-      "start": 87.0,
-      "end": 94.0,
-      "text": "If I must cross what I don't see, let my hands remember me."
+      "start": 54.64,
+      "end": 61.26,
+      "text": "while quietly teaching me to bleed some depths answer when you ask"
     },
     {
-      "start": 95.0,
-      "end": 114.0,
-      "text": "The 20 marks the water cooled, at 30 I stopped feeling fooled, at 40 something and I knew the old day kept an undecided two."
+      "start": 61.26,
+      "end": 66.82,
+      "text": "some keep wearing their old masks some return a grain of sand"
     },
     {
-      "start": 114.0,
-      "end": 126.0,
-      "text": "It wasn't just the anchor's pole, it wasn't only hunger's hollow, it was the fear of open drift, of having no excuse to lift."
+      "start": 66.82,
+      "end": 72.96,
+      "text": "and ask what else your grip is hiding sound it out don't drag it off"
     },
     {
-      "start": 126.0,
-      "end": 140.0,
-      "text": "The line came back with clay and shells, small proof from where the quiet settled, I held it like a rough command and rinsed the clay from every knuckle it doesn't vanish when it's named."
+      "start": 72.96,
+      "end": 78.68,
+      "text": "not every bottom wants a cup mark the depth and let it be"
     },
     {
-      "start": 140.0,
-      "end": 150.0,
-      "text": "It doesn't owe you any change, but what you measure without pride can stop deciding from inside."
+      "start": 78.68,
+      "end": 84.12,
+      "text": "there are truths beneath the sea sound it out then give it slack"
     },
     {
-      "start": 150.0,
-      "end": 158.0,
-      "text": "Sound it out, don't drag it up, not every bottom wants a cup, mark the depth and let it be."
+      "start": 84.12,
+      "end": 90.18,
+      "text": "some things speak by not coming back if i must cross what i don't see"
     },
     {
-      "start": 158.0,
-      "end": 166.0,
-      "text": "There are truths beneath the sea, sounded out, then give it slack, something speak by, not coming back."
+      "start": 90.18,
+      "end": 93.96,
+      "text": "let my hands remember me"
     },
     {
-      "start": 166.0,
-      "end": 173.0,
-      "text": "If I must cross what I don't see, let my hands remember me."
+      "start": 102.6,
+      "end": 108.62,
+      "text": "at twenty marks the water cooled at thirty i stopped feeling fooled"
     },
     {
-      "start": 173.0,
-      "end": 185.0,
-      "text": "No, cure, no, anchor, no final word, I let the first be come up, sir, no, bless it, turn, no clean design, just wet, broke measure through my grip."
+      "start": 108.62,
+      "end": 114.28,
+      "text": "at forty something in me knew the old ache had an underside too"
     },
     {
-      "start": 185.0,
-      "end": 207.0,
-      "text": "And if I shake, let me shake, if I learn, let it take, mark by mark, not too fast, depth is not averted."
+      "start": 114.28,
+      "end": 119.74,
+      "text": "it wasn't just the anchor's pull it wasn't only hunger's hull"
     },
     {
-      "start": 215.0,
-      "end": 233.0,
-      "text": "Drop the line, let it sink, leave some room around the brink, lead in twine, palm and breath, I can cross without a myth."
+      "start": 119.74,
+      "end": 125.52,
+      "text": "it was the fear of open drift of having no excuse to lift"
+    },
+    {
+      "start": 125.52,
+      "end": 131.68,
+      "text": "the line came back with clay and shell small proof from where the quiet settled"
+    },
+    {
+      "start": 131.68,
+      "end": 137.38,
+      "text": "i held it like a rough command and rinsed the clay from every knuckle"
+    },
+    {
+      "start": 137.38,
+      "end": 142.92,
+      "text": "it doesn't vanish when it's named it doesn't owe you any change"
+    },
+    {
+      "start": 142.92,
+      "end": 149.3,
+      "text": "but what you measure without pride can stop deciding from inside"
+    },
+    {
+      "start": 149.3,
+      "end": 154.82,
+      "text": "sound it out don't drag it off not every bottom wants a cup"
+    },
+    {
+      "start": 154.82,
+      "end": 160.68,
+      "text": "mark the depth and let it be there are truths beneath the sea"
+    },
+    {
+      "start": 160.68,
+      "end": 166.14,
+      "text": "sound it out then give it slack some things speak by not coming back"
+    },
+    {
+      "start": 166.14,
+      "end": 172.56,
+      "text": "if i must cross what i don't see let my hands remember me"
+    },
+    {
+      "start": 172.56,
+      "end": 178.16,
+      "text": "no cure no anchor no final word i let the thirst become absurd"
+    },
+    {
+      "start": 178.16,
+      "end": 183.94,
+      "text": "no blessed turn no clean design just wet rope measured through my grip"
+    },
+    {
+      "start": 185.1,
+      "end": 194.82,
+      "text": "and if i shake let me shake if i learn let it take"
+    },
+    {
+      "start": 195.54,
+      "end": 206.6,
+      "text": "mark by mark not too fast depth is not averted"
+    },
+    {
+      "start": 218.34,
+      "end": 223.76,
+      "text": "drop the line let it sink leave some room around the brink"
+    },
+    {
+      "start": 223.76,
+      "end": 229.82,
+      "text": "lead entwined palm in breath i can cross without a myth"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro",
-      "start": 0.682,
-      "end": 4.091,
+      "start": 3.0,
+      "end": 6.16,
       "text": "Drop the line... let it sink...",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 1,
       "section": "Intro",
-      "start": 4.091,
-      "end": 7.5,
+      "start": 6.16,
+      "end": 8.82,
       "text": "Knuckles white around the brink",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 2,
       "section": "Intro",
-      "start": 8.182,
-      "end": 10.909,
+      "start": 10.78,
+      "end": 11.84,
       "text": "Lead and twine... mark by mark...",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -145,8 +221,8 @@
     {
       "index": 3,
       "section": "Intro",
-      "start": 10.909,
-      "end": 15.0,
+      "start": 11.84,
+      "end": 14.7,
       "text": "Find the bottom in the dark",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -154,8 +230,8 @@
     {
       "index": 4,
       "section": "Verse 1",
-      "start": 16.0,
-      "end": 22.476,
+      "start": 20.5,
+      "end": 26.72,
       "text": "The fishers taught me depth by touch",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -163,62 +239,62 @@
     {
       "index": 5,
       "section": "Verse 1",
-      "start": 22.476,
-      "end": 23.286,
+      "start": 26.72,
+      "end": 29.34,
       "text": "Wet knots keeping careful count",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 5
     },
     {
       "index": 6,
       "section": "Verse 1",
-      "start": 28.143,
-      "end": 33.0,
+      "start": 29.34,
+      "end": 32.22,
       "text": "No grand device, no silver face",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 7,
       "section": "Verse 1",
-      "start": 33.0,
-      "end": 35.667,
+      "start": 32.22,
+      "end": 35.34,
       "text": "Just touch and patience keeping place",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 8,
       "section": "Verse 1",
-      "start": 35.667,
-      "end": 38.333,
+      "start": 35.34,
+      "end": 38.2,
       "text": "I let it slip through thumb and palm",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 8
     },
     {
       "index": 9,
       "section": "Verse 1",
-      "start": 38.714,
+      "start": 38.2,
       "end": 41.0,
       "text": "Felt the sea go cold and calm",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 10,
       "section": "Verse 1",
       "start": 41.0,
-      "end": 43.5,
+      "end": 43.58,
       "text": "Every fathom took a thread",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 11,
       "section": "Verse 1",
-      "start": 43.5,
-      "end": 47.0,
+      "start": 43.58,
+      "end": 46.58,
       "text": "From things I thought were better dead",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -226,35 +302,35 @@
     {
       "index": 12,
       "section": "Verse 1",
-      "start": 47.0,
-      "end": 49.286,
+      "start": 46.58,
+      "end": 48.08,
       "text": "There was the island, there the pail",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 13,
       "section": "Verse 1",
-      "start": 49.667,
-      "end": 52.333,
+      "start": 50.0,
+      "end": 51.46,
       "text": "There the shirt that failed as sail",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 14,
       "section": "Verse 1",
-      "start": 52.333,
-      "end": 54.619,
+      "start": 52.86,
+      "end": 54.64,
       "text": "There the mouth that called it need",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 5
     },
     {
       "index": 15,
       "section": "Verse 1",
-      "start": 55.0,
-      "end": 57.812,
+      "start": 54.64,
+      "end": 58.0,
       "text": "While quietly teaching me to bleed",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -262,17 +338,17 @@
     {
       "index": 16,
       "section": "Pre-Chorus",
-      "start": 57.812,
-      "end": 60.625,
+      "start": 58.0,
+      "end": 61.26,
       "text": "Some depths answer when you ask",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 17,
       "section": "Pre-Chorus",
-      "start": 60.625,
-      "end": 62.969,
+      "start": 61.26,
+      "end": 63.52,
       "text": "Some keep wearing their old mask",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -280,17 +356,17 @@
     {
       "index": 18,
       "section": "Pre-Chorus",
-      "start": 63.438,
-      "end": 66.25,
+      "start": 64.08,
+      "end": 66.82,
       "text": "Some return a grain of sand",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 19,
       "section": "Pre-Chorus",
-      "start": 66.25,
-      "end": 70.0,
+      "start": 66.82,
+      "end": 69.92,
       "text": "And ask what else your grip is hiding",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -298,17 +374,17 @@
     {
       "index": 20,
       "section": "Chorus",
-      "start": 70.0,
-      "end": 73.15,
+      "start": 69.92,
+      "end": 72.66,
       "text": "Sound it out, don't drag it up",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 21,
       "section": "Chorus",
-      "start": 73.15,
-      "end": 75.85,
+      "start": 72.96,
+      "end": 75.76,
       "text": "Not every bottom wants a cup",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -316,8 +392,8 @@
     {
       "index": 22,
       "section": "Chorus",
-      "start": 75.85,
-      "end": 79.0,
+      "start": 75.76,
+      "end": 78.68,
       "text": "Mark the depth and let it be",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -325,8 +401,8 @@
     {
       "index": 23,
       "section": "Chorus",
-      "start": 79.0,
-      "end": 81.667,
+      "start": 78.68,
+      "end": 81.66,
       "text": "There are truths beneath the sea",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -334,26 +410,26 @@
     {
       "index": 24,
       "section": "Chorus",
-      "start": 82.111,
-      "end": 84.333,
+      "start": 81.66,
+      "end": 84.12,
       "text": "Sound it out, then give it slack",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 25,
       "section": "Chorus",
-      "start": 84.778,
-      "end": 87.0,
+      "start": 84.12,
+      "end": 87.04,
       "text": "Some things speak by not coming back",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 26,
       "section": "Chorus",
-      "start": 87.0,
-      "end": 91.308,
+      "start": 87.04,
+      "end": 90.18,
       "text": "If I must cross what I don't see",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -361,8 +437,8 @@
     {
       "index": 27,
       "section": "Chorus",
-      "start": 91.308,
-      "end": 94.0,
+      "start": 90.18,
+      "end": 93.96,
       "text": "Let my hands remember me",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -370,62 +446,62 @@
     {
       "index": 28,
       "section": "Verse 2",
-      "start": 96.52,
-      "end": 99.56,
+      "start": 102.6,
+      "end": 105.78,
       "text": "At twenty marks the water cooled",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 29,
       "section": "Verse 2",
-      "start": 99.56,
-      "end": 104.12,
+      "start": 105.78,
+      "end": 108.62,
       "text": "At thirty I stopped feeling fooled",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 30,
       "section": "Verse 2",
-      "start": 104.12,
-      "end": 108.68,
+      "start": 108.62,
+      "end": 111.18,
       "text": "At forty something in me knew",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 31,
       "section": "Verse 2",
-      "start": 108.68,
-      "end": 112.48,
+      "start": 111.18,
+      "end": 114.28,
       "text": "The old ache had an underside too",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 7
     },
     {
       "index": 32,
       "section": "Verse 2",
-      "start": 114.0,
-      "end": 116.5,
+      "start": 114.28,
+      "end": 116.88,
       "text": "It wasn't just the anchor's pull",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 33,
       "section": "Verse 2",
-      "start": 117.0,
-      "end": 119.0,
+      "start": 116.88,
+      "end": 119.74,
       "text": "It wasn't only hunger's hull",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 5
     },
     {
       "index": 34,
       "section": "Verse 2",
-      "start": 119.5,
-      "end": 123.0,
+      "start": 119.74,
+      "end": 122.64,
       "text": "It was the fear of open drift",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -433,8 +509,8 @@
     {
       "index": 35,
       "section": "Verse 2",
-      "start": 123.0,
-      "end": 126.0,
+      "start": 122.64,
+      "end": 125.52,
       "text": "Of having no excuse to lift",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -442,17 +518,17 @@
     {
       "index": 36,
       "section": "Verse 2",
-      "start": 126.0,
-      "end": 128.8,
+      "start": 125.52,
+      "end": 128.92,
       "text": "The line came back with clay and shell",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 8
     },
     {
       "index": 37,
       "section": "Verse 2",
-      "start": 129.2,
-      "end": 132.0,
+      "start": 128.92,
+      "end": 131.68,
       "text": "Small proof from where the quiet settled",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -460,8 +536,8 @@
     {
       "index": 38,
       "section": "Verse 2",
-      "start": 132.0,
-      "end": 134.8,
+      "start": 131.68,
+      "end": 134.54,
       "text": "I held it like a rough command",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -469,8 +545,8 @@
     {
       "index": 39,
       "section": "Verse 2",
-      "start": 135.2,
-      "end": 137.6,
+      "start": 134.88,
+      "end": 137.38,
       "text": "Then rinsed the clay from every knuckle",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -478,8 +554,8 @@
     {
       "index": 40,
       "section": "Pre-Chorus 2",
-      "start": 137.6,
-      "end": 140.0,
+      "start": 137.38,
+      "end": 140.08,
       "text": "It doesn't vanish when it's named",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -487,8 +563,8 @@
     {
       "index": 41,
       "section": "Pre-Chorus 2",
-      "start": 140.0,
-      "end": 143.529,
+      "start": 140.08,
+      "end": 142.92,
       "text": "It doesn't owe you any change",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -496,8 +572,8 @@
     {
       "index": 42,
       "section": "Pre-Chorus 2",
-      "start": 143.529,
-      "end": 147.059,
+      "start": 142.92,
+      "end": 145.68,
       "text": "But what you measure without pride",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -505,8 +581,8 @@
     {
       "index": 43,
       "section": "Pre-Chorus 2",
-      "start": 147.059,
-      "end": 150.0,
+      "start": 145.68,
+      "end": 149.3,
       "text": "Can stop deciding from inside",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -514,17 +590,17 @@
     {
       "index": 44,
       "section": "Chorus",
-      "start": 150.0,
-      "end": 152.8,
+      "start": 149.3,
+      "end": 151.72,
       "text": "Sound it out, don't drag it up",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 45,
       "section": "Chorus",
-      "start": 152.8,
-      "end": 155.2,
+      "start": 152.0,
+      "end": 154.82,
       "text": "Not every bottom wants a cup",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -532,8 +608,8 @@
     {
       "index": 46,
       "section": "Chorus",
-      "start": 155.2,
-      "end": 158.0,
+      "start": 154.82,
+      "end": 157.7,
       "text": "Mark the depth and let it be",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -541,8 +617,8 @@
     {
       "index": 47,
       "section": "Chorus",
-      "start": 158.0,
-      "end": 160.667,
+      "start": 157.7,
+      "end": 160.68,
       "text": "There are truths beneath the sea",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -550,26 +626,26 @@
     {
       "index": 48,
       "section": "Chorus",
-      "start": 161.111,
-      "end": 163.333,
+      "start": 160.68,
+      "end": 163.24,
       "text": "Sound it out, then give it slack",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 49,
       "section": "Chorus",
-      "start": 163.778,
-      "end": 166.0,
+      "start": 163.24,
+      "end": 166.14,
       "text": "Some things speak by not coming back",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 50,
       "section": "Chorus",
-      "start": 166.0,
-      "end": 170.308,
+      "start": 166.14,
+      "end": 169.2,
       "text": "If I must cross what I don't see",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -577,8 +653,8 @@
     {
       "index": 51,
       "section": "Chorus",
-      "start": 170.308,
-      "end": 173.0,
+      "start": 169.2,
+      "end": 172.56,
       "text": "Let my hands remember me",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -586,8 +662,8 @@
     {
       "index": 52,
       "section": "Bridge",
-      "start": 173.0,
-      "end": 175.897,
+      "start": 172.56,
+      "end": 175.4,
       "text": "No cure, no anchor, no final word",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -595,35 +671,35 @@
     {
       "index": 53,
       "section": "Bridge",
-      "start": 175.897,
-      "end": 177.138,
+      "start": 175.4,
+      "end": 178.16,
       "text": "I let the thirst become absurd",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 6
     },
     {
       "index": 54,
       "section": "Bridge",
-      "start": 179.207,
-      "end": 182.103,
+      "start": 178.16,
+      "end": 181.02,
       "text": "No blessed turn, no clean design",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 55,
       "section": "Bridge",
-      "start": 182.103,
-      "end": 185.0,
+      "start": 181.02,
+      "end": 183.94,
       "text": "Just wet rope measured through my grip",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 7
     },
     {
       "index": 56,
       "section": "Bridge",
-      "start": 185.0,
-      "end": 188.826,
+      "start": 184.98,
+      "end": 186.6,
       "text": "And if I shake",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -631,8 +707,8 @@
     {
       "index": 57,
       "section": "Bridge",
-      "start": 188.826,
-      "end": 191.696,
+      "start": 188.24,
+      "end": 189.52,
       "text": "Let me shake",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -640,8 +716,8 @@
     {
       "index": 58,
       "section": "Bridge",
-      "start": 191.696,
-      "end": 194.565,
+      "start": 189.52,
+      "end": 192.54,
       "text": "If I learn",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -649,8 +725,8 @@
     {
       "index": 59,
       "section": "Bridge",
-      "start": 194.565,
-      "end": 197.435,
+      "start": 193.9,
+      "end": 194.82,
       "text": "Let it take",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -658,8 +734,8 @@
     {
       "index": 60,
       "section": "Break",
-      "start": 197.435,
-      "end": 197.535,
+      "start": 194.82,
+      "end": 195.44,
       "text": "(whispered)",
       "timing_source": "interpolated",
       "matched_words": 0
@@ -667,8 +743,8 @@
     {
       "index": 61,
       "section": "Break",
-      "start": 197.535,
-      "end": 200.304,
+      "start": 195.44,
+      "end": 198.0,
       "text": "Mark by mark...",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -676,8 +752,8 @@
     {
       "index": 62,
       "section": "Break",
-      "start": 200.304,
-      "end": 203.174,
+      "start": 198.0,
+      "end": 201.12,
       "text": "Not too fast...",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -685,8 +761,8 @@
     {
       "index": 63,
       "section": "Break",
-      "start": 203.174,
-      "end": 206.043,
+      "start": 201.12,
+      "end": 204.78,
       "text": "Depth is not a verdict...",
       "timing_source": "whisper-aligned",
       "matched_words": 3
@@ -694,8 +770,8 @@
     {
       "index": 64,
       "section": "Outro",
-      "start": 215.0,
-      "end": 219.5,
+      "start": 218.14,
+      "end": 221.0,
       "text": "Drop the line... let it sink...",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -703,8 +779,8 @@
     {
       "index": 65,
       "section": "Outro",
-      "start": 219.5,
-      "end": 224.0,
+      "start": 221.0,
+      "end": 223.76,
       "text": "Leave some room around the brink",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -712,17 +788,17 @@
     {
       "index": 66,
       "section": "Outro",
-      "start": 224.0,
-      "end": 228.5,
+      "start": 223.76,
+      "end": 226.82,
       "text": "Lead and twine... palm and breath...",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 3
     },
     {
       "index": 67,
       "section": "Outro",
-      "start": 228.5,
-      "end": 233.0,
+      "start": 226.82,
+      "end": 229.82,
       "text": "I can cross without a myth",
       "timing_source": "whisper-aligned",
       "matched_words": 6

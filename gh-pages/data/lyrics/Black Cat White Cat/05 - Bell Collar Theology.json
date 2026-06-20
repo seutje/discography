@@ -1,0 +1,1001 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Black Cat White Cat",
+  "title": "Bell Collar Theology",
+  "text_path": "Black Cat White Cat/05 - Bell Collar Theology.txt",
+  "audio_path": "Black Cat White Cat/audio/05 - Bell Collar Theology.mp3",
+  "duration_seconds": 228.18,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 69,
+    "reference_word_count": 399,
+    "observed_word_count": 400,
+    "matched_word_count": 382,
+    "matched_word_ratio": 0.957,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "ring by ring throat by throat"
+    },
+    {
+      "start": 6.0,
+      "end": 10.48,
+      "text": "every step sends up a note"
+    },
+    {
+      "start": 12.1,
+      "end": 17.12,
+      "text": "pretty chain little chime"
+    },
+    {
+      "start": 17.12,
+      "end": 20.98,
+      "text": "someone else's sense of time"
+    },
+    {
+      "start": 22.2,
+      "end": 24.96,
+      "text": "they put a planet at my neck"
+    },
+    {
+      "start": 24.96,
+      "end": 27.9,
+      "text": "a silver rule of great respect"
+    },
+    {
+      "start": 27.9,
+      "end": 30.98,
+      "text": "said it made me sweet to hear"
+    },
+    {
+      "start": 30.98,
+      "end": 33.78,
+      "text": "as if i asked to enter clear"
+    },
+    {
+      "start": 33.78,
+      "end": 36.74,
+      "text": "now every chair knows when i pass"
+    },
+    {
+      "start": 36.74,
+      "end": 39.58,
+      "text": "every cupboard every glass"
+    },
+    {
+      "start": 39.58,
+      "end": 42.04,
+      "text": "the hallway names my appetite"
+    },
+    {
+      "start": 42.04,
+      "end": 45.1,
+      "text": "before i earn the shape of night"
+    },
+    {
+      "start": 45.1,
+      "end": 47.8,
+      "text": "the black cat watches from below"
+    },
+    {
+      "start": 47.8,
+      "end": 50.56,
+      "text": "with paws that speak in almost no"
+    },
+    {
+      "start": 50.56,
+      "end": 53.6,
+      "text": "he moves through rooms like held in rain"
+    },
+    {
+      "start": 53.6,
+      "end": 56.3,
+      "text": "i arrive with a little chain"
+    },
+    {
+      "start": 56.3,
+      "end": 59.08,
+      "text": "it doesn't hurt the sound itself"
+    },
+    {
+      "start": 59.08,
+      "end": 61.96,
+      "text": "it only moves me from myself"
+    },
+    {
+      "start": 61.96,
+      "end": 64.7,
+      "text": "a gentle awe with polished face"
+    },
+    {
+      "start": 64.7,
+      "end": 67.92,
+      "text": "that makes a room announce my place"
+    },
+    {
+      "start": 67.92,
+      "end": 70.44,
+      "text": "bell around my throat"
+    },
+    {
+      "start": 70.44,
+      "end": 73.12,
+      "text": "tiny sermon borrowed note"
+    },
+    {
+      "start": 73.12,
+      "end": 75.94,
+      "text": "if i am loved why must i ring"
+    },
+    {
+      "start": 76.5,
+      "end": 78.82,
+      "text": "why must care become a string"
+    },
+    {
+      "start": 80.04,
+      "end": 81.74,
+      "text": "bell around my throat"
+    },
+    {
+      "start": 81.74,
+      "end": 84.5,
+      "text": "cute enough to keep me numb"
+    },
+    {
+      "start": 84.5,
+      "end": 87.58,
+      "text": "i was quiet once i swear"
+    },
+    {
+      "start": 87.58,
+      "end": 91.68,
+      "text": "before they made me public air"
+    },
+    {
+      "start": 96.5,
+      "end": 98.66,
+      "text": "and the fastened it was kind"
+    },
+    {
+      "start": 98.66,
+      "end": 101.4,
+      "text": "no villain hiding in the bind"
+    },
+    {
+      "start": 101.4,
+      "end": 104.22,
+      "text": "just fear dressed up as tender sense"
+    },
+    {
+      "start": 104.22,
+      "end": 106.8,
+      "text": "just love installing evidence"
+    },
+    {
+      "start": 106.8,
+      "end": 109.8,
+      "text": "the birds outside might bless the sound"
+    },
+    {
+      "start": 109.8,
+      "end": 112.66,
+      "text": "the mice might live another round"
+    },
+    {
+      "start": 112.66,
+      "end": 115.52,
+      "text": "the house might sleep with fewer claws"
+    },
+    {
+      "start": 115.52,
+      "end": 118.38,
+      "text": "because my body keeps its love"
+    },
+    {
+      "start": 118.38,
+      "end": 121.14,
+      "text": "still something in me lowers fat"
+    },
+    {
+      "start": 121.14,
+      "end": 123.86,
+      "text": "when metal speaks before the cat"
+    },
+    {
+      "start": 123.86,
+      "end": 126.96,
+      "text": "i want one step that does not say"
+    },
+    {
+      "start": 126.96,
+      "end": 129.72,
+      "text": "forgive me i am on my way"
+    },
+    {
+      "start": 129.72,
+      "end": 132.56,
+      "text": "it doesn't make the hunter clean"
+    },
+    {
+      "start": 132.56,
+      "end": 135.3,
+      "text": "it only tells on what i mean"
+    },
+    {
+      "start": 135.3,
+      "end": 138.16,
+      "text": "till even mercy even grace"
+    },
+    {
+      "start": 138.16,
+      "end": 141.36,
+      "text": "can feel like bells around the face"
+    },
+    {
+      "start": 141.36,
+      "end": 143.82,
+      "text": "bell around my throat"
+    },
+    {
+      "start": 143.82,
+      "end": 146.68,
+      "text": "tiny sermon borrowed note"
+    },
+    {
+      "start": 146.68,
+      "end": 149.6,
+      "text": "if i am loved why must i ring"
+    },
+    {
+      "start": 150.02,
+      "end": 152.44,
+      "text": "why must care become a string"
+    },
+    {
+      "start": 153.08,
+      "end": 155.3,
+      "text": "bell around my throat"
+    },
+    {
+      "start": 155.3,
+      "end": 158.24,
+      "text": "cute enough to keep me numb"
+    },
+    {
+      "start": 158.24,
+      "end": 161.28,
+      "text": "i was quiet once i swear"
+    },
+    {
+      "start": 161.28,
+      "end": 165.32,
+      "text": "before they made me public air"
+    },
+    {
+      "start": 166.74,
+      "end": 169.74,
+      "text": "the black cat says i know the cost"
+    },
+    {
+      "start": 169.74,
+      "end": 172.6,
+      "text": "of going silent going lost"
+    },
+    {
+      "start": 172.6,
+      "end": 175.44,
+      "text": "the white cat says i know the cost"
+    },
+    {
+      "start": 175.44,
+      "end": 178.12,
+      "text": "of being found before your cross"
+    },
+    {
+      "start": 178.12,
+      "end": 181.02,
+      "text": "so let the bell be not a joke"
+    },
+    {
+      "start": 181.02,
+      "end": 183.86,
+      "text": "nor holy chain nor owner's hope"
+    },
+    {
+      "start": 183.86,
+      "end": 186.82,
+      "text": "let it be what both can hear"
+    },
+    {
+      "start": 186.82,
+      "end": 190.54,
+      "text": "a warning made of care and fear"
+    },
+    {
+      "start": 190.54,
+      "end": 192.78,
+      "text": "ring once"
+    },
+    {
+      "start": 194.0,
+      "end": 195.6,
+      "text": "step twice"
+    },
+    {
+      "start": 196.6,
+      "end": 198.44,
+      "text": "choose when"
+    },
+    {
+      "start": 199.6,
+      "end": 201.1,
+      "text": "choose why"
+    },
+    {
+      "start": 201.1,
+      "end": 203.42,
+      "text": "ring by ring"
+    },
+    {
+      "start": 203.42,
+      "end": 206.1,
+      "text": "through by through"
+    },
+    {
+      "start": 206.1,
+      "end": 210.48,
+      "text": "every step sends up a knot"
+    },
+    {
+      "start": 212.6,
+      "end": 215.58,
+      "text": "pretty chain little chime"
+    },
+    {
+      "start": 216.6,
+      "end": 220.8,
+      "text": "i will keep my own time"
+    },
+    {
+      "start": 225.38,
+      "end": 228.18,
+      "text": "thanks for watching"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Ring by ring... throat by throat...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 6.0,
+      "end": 10.48,
+      "text": "Every step sends up a note",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 12.1,
+      "end": 15.74,
+      "text": "Pretty chain... little chime...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 17.12,
+      "end": 20.98,
+      "text": "Someone else's sense of time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 22.2,
+      "end": 24.96,
+      "text": "They put a planet at my neck",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 24.96,
+      "end": 27.9,
+      "text": "A silver rule, a bright respect",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 27.9,
+      "end": 30.98,
+      "text": "Said it made me sweet to hear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 30.98,
+      "end": 33.78,
+      "text": "As if I asked to enter clear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 33.78,
+      "end": 36.74,
+      "text": "Now every chair knows when I pass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 36.74,
+      "end": 39.58,
+      "text": "Every cupboard, every glass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 39.58,
+      "end": 42.04,
+      "text": "The hallway names my appetite",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 42.04,
+      "end": 45.1,
+      "text": "Before I earn the shape of night",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 45.1,
+      "end": 47.8,
+      "text": "The black cat watches from below",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 47.8,
+      "end": 50.56,
+      "text": "With paws that speak in almost no",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 50.56,
+      "end": 53.6,
+      "text": "He moves through rooms like held-in rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 53.6,
+      "end": 56.3,
+      "text": "I arrive with a little chain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 56.3,
+      "end": 59.08,
+      "text": "It doesn't hurt, the sound itself",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 59.08,
+      "end": 61.96,
+      "text": "It only moves me from myself",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 61.96,
+      "end": 64.7,
+      "text": "A gentle law with polished face",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 64.7,
+      "end": 67.92,
+      "text": "That makes a room announce my place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 67.92,
+      "end": 70.44,
+      "text": "Bell around my throat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 70.44,
+      "end": 73.12,
+      "text": "Tiny sermon, borrowed note",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 73.12,
+      "end": 75.94,
+      "text": "If I am loved, why must I ring?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 76.5,
+      "end": 78.82,
+      "text": "Why must care become a string?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 80.04,
+      "end": 81.74,
+      "text": "Bell around my throat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 81.74,
+      "end": 84.08,
+      "text": "Cute enough to keep me known",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 84.5,
+      "end": 87.58,
+      "text": "I was quiet once, I swear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 87.58,
+      "end": 91.68,
+      "text": "Before they made me public air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 96.78,
+      "end": 98.66,
+      "text": "The hand that fastened it was kind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 98.66,
+      "end": 101.4,
+      "text": "No villain hiding in the bind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 101.4,
+      "end": 104.22,
+      "text": "Just fear dressed up as tender sense",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 104.22,
+      "end": 106.8,
+      "text": "Just love installing evidence",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 106.8,
+      "end": 109.8,
+      "text": "The birds outside might bless the sound",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 109.8,
+      "end": 112.66,
+      "text": "The mice might live another round",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 112.66,
+      "end": 115.52,
+      "text": "The house might sleep with fewer claws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 115.52,
+      "end": 117.92,
+      "text": "Because my body keeps its laws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 118.38,
+      "end": 120.62,
+      "text": "Still something in me lowers flat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 121.14,
+      "end": 123.86,
+      "text": "When metal speaks before the cat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 123.86,
+      "end": 126.96,
+      "text": "I want one step that does not say",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 126.96,
+      "end": 129.72,
+      "text": "Forgive me, I am on my way",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 129.72,
+      "end": 132.56,
+      "text": "It doesn't make the hunter clean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 132.56,
+      "end": 135.3,
+      "text": "It only tells on what I mean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 135.8,
+      "end": 138.16,
+      "text": "Til even mercy, even grace",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 138.16,
+      "end": 141.36,
+      "text": "Can feel like bells around the face",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 141.36,
+      "end": 143.82,
+      "text": "Bell around my throat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 143.82,
+      "end": 146.68,
+      "text": "Tiny sermon, borrowed note",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 146.68,
+      "end": 149.6,
+      "text": "If I am loved, why must I ring?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 150.02,
+      "end": 152.44,
+      "text": "Why must care become a string?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 153.08,
+      "end": 155.3,
+      "text": "Bell around my throat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 155.3,
+      "end": 157.76,
+      "text": "Cute enough to keep me known",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 158.24,
+      "end": 161.28,
+      "text": "I was quiet once, I swear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 161.28,
+      "end": 165.32,
+      "text": "Before they made me public air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 166.74,
+      "end": 169.74,
+      "text": "The black cat says, I know the cost",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 169.74,
+      "end": 172.6,
+      "text": "Of going silent, going lost",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 172.6,
+      "end": 175.44,
+      "text": "The white cat says, I know the cost",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 175.44,
+      "end": 177.3,
+      "text": "Of being found before you're crossed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 178.12,
+      "end": 181.02,
+      "text": "So let the bell be not a joke",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 181.02,
+      "end": 183.86,
+      "text": "Nor holy chain, nor owner's hope",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 183.86,
+      "end": 186.82,
+      "text": "Let it be what both can hear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 186.82,
+      "end": 190.54,
+      "text": "A warning made of care and fear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 190.54,
+      "end": 190.64,
+      "text": "(whispered)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 190.64,
+      "end": 192.78,
+      "text": "Ring once...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 194.0,
+      "end": 195.6,
+      "text": "Step twice...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 63,
+      "section": "Break",
+      "start": 196.6,
+      "end": 198.44,
+      "text": "Choose when...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 64,
+      "section": "Break",
+      "start": 199.6,
+      "end": 201.1,
+      "text": "Choose why...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 65,
+      "section": "Outro",
+      "start": 201.1,
+      "end": 205.38,
+      "text": "Ring by ring... throat by throat...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 66,
+      "section": "Outro",
+      "start": 206.1,
+      "end": 209.78,
+      "text": "Every step sends up a note",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 67,
+      "section": "Outro",
+      "start": 212.6,
+      "end": 215.58,
+      "text": "Pretty chain... little chime...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 68,
+      "section": "Outro",
+      "start": 216.6,
+      "end": 220.8,
+      "text": "I will keep my own time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    }
+  ]
+}

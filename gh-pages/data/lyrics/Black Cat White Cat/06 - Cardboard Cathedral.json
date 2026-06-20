@@ -1,0 +1,972 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Black Cat White Cat",
+  "title": "Cardboard Cathedral",
+  "text_path": "Black Cat White Cat/06 - Cardboard Cathedral.txt",
+  "audio_path": "Black Cat White Cat/audio/06 - Cardboard Cathedral.mp3",
+  "duration_seconds": 256.12,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 68,
+    "reference_word_count": 401,
+    "observed_word_count": 401,
+    "matched_word_count": 378,
+    "matched_word_ratio": 0.943,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 10.96,
+      "end": 14.9,
+      "text": "box on the floor tape at the seam"
+    },
+    {
+      "start": 16.0,
+      "end": 20.02,
+      "text": "kingdom folded from a shipping dream"
+    },
+    {
+      "start": 21.0,
+      "end": 25.22,
+      "text": "four low walls roof half torn"
+    },
+    {
+      "start": 25.22,
+      "end": 29.1,
+      "text": "sanctuary cheaply born"
+    },
+    {
+      "start": 30.22,
+      "end": 34.46,
+      "text": "the package came with someone else's name"
+    },
+    {
+      "start": 35.22,
+      "end": 40.68,
+      "text": "brown walls the dent a barcode frame"
+    },
+    {
+      "start": 41.22,
+      "end": 44.74,
+      "text": "the hand removed the useful thing"
+    },
+    {
+      "start": 46.22,
+      "end": 49.58,
+      "text": "and left the hollow offering"
+    },
+    {
+      "start": 50.9,
+      "end": 53.78,
+      "text": "the white cat entered like a queen"
+    },
+    {
+      "start": 53.78,
+      "end": 56.52,
+      "text": "the black cat checked behind the screen"
+    },
+    {
+      "start": 56.52,
+      "end": 59.14,
+      "text": "both found corners both found proof"
+    },
+    {
+      "start": 59.14,
+      "end": 61.64,
+      "text": "that shelter does not need a roof"
+    },
+    {
+      "start": 61.64,
+      "end": 64.3,
+      "text": "the room outside kept being large"
+    },
+    {
+      "start": 64.3,
+      "end": 67.0,
+      "text": "with clocks and chairs and human charge"
+    },
+    {
+      "start": 67.0,
+      "end": 69.62,
+      "text": "but in the box the world reduced"
+    },
+    {
+      "start": 69.62,
+      "end": 72.46,
+      "text": "to whisker with ventrutes"
+    },
+    {
+      "start": 72.46,
+      "end": 75.38,
+      "text": "it doesn't have to last a whole"
+    },
+    {
+      "start": 75.38,
+      "end": 78.06,
+      "text": "it doesn't have to shine like gold"
+    },
+    {
+      "start": 78.06,
+      "end": 80.66,
+      "text": "some holy places crease and bend"
+    },
+    {
+      "start": 80.66,
+      "end": 83.38,
+      "text": "and still know where the rifts begin"
+    },
+    {
+      "start": 83.38,
+      "end": 88.28,
+      "text": "cardboard cathedral small square miracle"
+    },
+    {
+      "start": 88.28,
+      "end": 91.24,
+      "text": "we make a chapel of the cheap"
+    },
+    {
+      "start": 91.24,
+      "end": 93.94,
+      "text": "and call it hours enough to sleep"
+    },
+    {
+      "start": 93.94,
+      "end": 98.96,
+      "text": "cardboard cathedral ridiculous and beautiful"
+    },
+    {
+      "start": 98.96,
+      "end": 101.84,
+      "text": "if all we get is borrowed walls"
+    },
+    {
+      "start": 101.84,
+      "end": 105.26,
+      "text": "let borrowed walls receive us all"
+    },
+    {
+      "start": 108.9,
+      "end": 111.9,
+      "text": "the bell lay quiet in the dust"
+    },
+    {
+      "start": 111.9,
+      "end": 114.48,
+      "text": "the bulls forgot their border trust"
+    },
+    {
+      "start": 114.48,
+      "end": 117.34,
+      "text": "the door stayed open rain stayed out"
+    },
+    {
+      "start": 117.34,
+      "end": 119.88,
+      "text": "the black cat almost stretched his mouth"
+    },
+    {
+      "start": 119.88,
+      "end": 122.46,
+      "text": "not quite a smile but near enough"
+    },
+    {
+      "start": 122.46,
+      "end": 125.14,
+      "text": "to change the temperature of stuff"
+    },
+    {
+      "start": 125.14,
+      "end": 127.8,
+      "text": "the white cat tucked her tail beside"
+    },
+    {
+      "start": 127.8,
+      "end": 130.54,
+      "text": "the part of him that used to hide"
+    },
+    {
+      "start": 130.54,
+      "end": 133.36,
+      "text": "no sermon came no choir learned"
+    },
+    {
+      "start": 133.36,
+      "end": 135.14,
+      "text": "only the heater clicked"
+    },
+    {
+      "start": 135.14,
+      "end": 138.68,
+      "text": "and turned only two bodies box and floor"
+    },
+    {
+      "start": 138.68,
+      "end": 141.54,
+      "text": "making enough from what was poor"
+    },
+    {
+      "start": 141.54,
+      "end": 144.86,
+      "text": "it doesn't fix the alley ears"
+    },
+    {
+      "start": 144.86,
+      "end": 147.54,
+      "text": "it doesn't make the bride room clear"
+    },
+    {
+      "start": 147.54,
+      "end": 150.34,
+      "text": "but even bride can crawl down small"
+    },
+    {
+      "start": 150.34,
+      "end": 153.5,
+      "text": "when safety has a cardboard wall"
+    },
+    {
+      "start": 156.46,
+      "end": 160.98,
+      "text": "cardboard cathedral small square miracle"
+    },
+    {
+      "start": 160.98,
+      "end": 164.04,
+      "text": "we make a chapel of the cheap"
+    },
+    {
+      "start": 164.04,
+      "end": 166.82,
+      "text": "and call it hours enough to sleep"
+    },
+    {
+      "start": 167.62,
+      "end": 172.08,
+      "text": "cardboard cathedral ridiculous and beautiful"
+    },
+    {
+      "start": 172.08,
+      "end": 175.14,
+      "text": "if all we get is borrowed walls"
+    },
+    {
+      "start": 175.14,
+      "end": 178.7,
+      "text": "let borrowed walls receive us all"
+    },
+    {
+      "start": 180.86,
+      "end": 183.38,
+      "text": "when a cave's in an it will cave"
+    },
+    {
+      "start": 183.38,
+      "end": 186.08,
+      "text": "when the tape lets go of what it gave"
+    },
+    {
+      "start": 186.08,
+      "end": 189.04,
+      "text": "we will not call the shelter falls"
+    },
+    {
+      "start": 190.94,
+      "end": 192.84,
+      "text": "because it could not"
+    },
+    {
+      "start": 194.04,
+      "end": 195.48,
+      "text": "stop all loss"
+    },
+    {
+      "start": 196.74,
+      "end": 200.06,
+      "text": "some rooms are made for crossing through"
+    },
+    {
+      "start": 200.06,
+      "end": 202.92,
+      "text": "some names are only briefly true"
+    },
+    {
+      "start": 202.92,
+      "end": 205.76,
+      "text": "still in the crease where dust collects"
+    },
+    {
+      "start": 205.76,
+      "end": 209.7,
+      "text": "we found a place the day respects"
+    },
+    {
+      "start": 209.7,
+      "end": 213.0,
+      "text": "fold by fold"
+    },
+    {
+      "start": 213.0,
+      "end": 215.68,
+      "text": "breath by breath"
+    },
+    {
+      "start": 217.02,
+      "end": 220.38,
+      "text": "room enough for what is left"
+    },
+    {
+      "start": 220.38,
+      "end": 222.62,
+      "text": "box on the floor"
+    },
+    {
+      "start": 222.62,
+      "end": 225.54,
+      "text": "tape at the seam"
+    },
+    {
+      "start": 226.62,
+      "end": 231.56,
+      "text": "kingdom folded from a shipping dream"
+    },
+    {
+      "start": 231.56,
+      "end": 238.36,
+      "text": "for low walls morning year"
+    },
+    {
+      "start": 238.36,
+      "end": 242.62,
+      "text": "temporary can be sincere"
+    },
+    {
+      "start": 253.32,
+      "end": 256.12,
+      "text": "thanks for watching"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 10.96,
+      "end": 14.9,
+      "text": "Box on the floor... tape at the seam...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 16.0,
+      "end": 20.02,
+      "text": "Kingdom folded from a shipping dream",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 20.77,
+      "end": 25.22,
+      "text": "Four low walls... roof half-torn...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 25.22,
+      "end": 29.1,
+      "text": "Sanctuary cheaply born",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 30.22,
+      "end": 34.46,
+      "text": "The package came with someone else's name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 35.22,
+      "end": 40.68,
+      "text": "Brown walls, a dent, a barcode frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 41.22,
+      "end": 44.74,
+      "text": "The hand removed the useful thing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 46.22,
+      "end": 49.58,
+      "text": "And left the hollow offering",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 50.9,
+      "end": 53.78,
+      "text": "The white cat entered like a queen",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 53.78,
+      "end": 56.52,
+      "text": "The black cat checked behind the screen",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 56.52,
+      "end": 59.14,
+      "text": "Both found corners, both found proof",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 59.14,
+      "end": 61.64,
+      "text": "That shelter does not need a roof",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 61.64,
+      "end": 64.3,
+      "text": "The room outside kept being large",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 64.3,
+      "end": 67.0,
+      "text": "With clocks and chairs and human charge",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 67.0,
+      "end": 69.62,
+      "text": "But in the box the world reduced",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 69.62,
+      "end": 71.16,
+      "text": "To whisker width and truce",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 72.46,
+      "end": 74.76,
+      "text": "It doesn't have to last to hold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 75.38,
+      "end": 78.06,
+      "text": "It doesn't have to shine like gold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 78.06,
+      "end": 80.66,
+      "text": "Some holy places crease and bend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 80.66,
+      "end": 83.38,
+      "text": "And still know where the ribs begin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 83.38,
+      "end": 85.48,
+      "text": "Cardboard cathedral",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 85.92,
+      "end": 88.28,
+      "text": "Small square miracle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 88.28,
+      "end": 91.24,
+      "text": "We make a chapel of the cheap",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 91.24,
+      "end": 93.94,
+      "text": "And call it ours enough to sleep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 93.94,
+      "end": 96.08,
+      "text": "Cardboard cathedral",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 96.6,
+      "end": 98.96,
+      "text": "Ridiculous and beautiful",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 98.96,
+      "end": 101.84,
+      "text": "If all we get is borrowed walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 101.84,
+      "end": 105.26,
+      "text": "Let borrowed walls receive us all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 108.9,
+      "end": 111.9,
+      "text": "The bell lay quiet in the dust",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 111.9,
+      "end": 114.48,
+      "text": "The bowls forgot their border trust",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 114.48,
+      "end": 117.34,
+      "text": "The door stayed open, rain stayed out",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 117.34,
+      "end": 119.88,
+      "text": "The black cat almost stretched his mouth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 119.88,
+      "end": 122.46,
+      "text": "Not quite a smile, but near enough",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 122.46,
+      "end": 125.14,
+      "text": "To change the temperature of stuff",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 125.14,
+      "end": 127.8,
+      "text": "The white cat tucked her tail beside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 127.8,
+      "end": 130.54,
+      "text": "The part of him that used to hide",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 130.54,
+      "end": 133.36,
+      "text": "No sermon came, no choir learned",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 133.36,
+      "end": 135.88,
+      "text": "Only the heater clicked and turned",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 135.88,
+      "end": 138.68,
+      "text": "Only two bodies, box and floor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 138.68,
+      "end": 141.54,
+      "text": "Making enough from what was poor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 141.54,
+      "end": 144.22,
+      "text": "It doesn't fix the alley years",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 144.86,
+      "end": 147.54,
+      "text": "It doesn't make the bright room clear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 147.54,
+      "end": 150.34,
+      "text": "But even pride can curl down small",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 150.34,
+      "end": 153.5,
+      "text": "When safety has a cardboard wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 156.46,
+      "end": 158.04,
+      "text": "Cardboard cathedral",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 158.52,
+      "end": 160.98,
+      "text": "Small square miracle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 160.98,
+      "end": 164.04,
+      "text": "We make a chapel of the cheap",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 164.04,
+      "end": 166.82,
+      "text": "And call it ours enough to sleep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 167.62,
+      "end": 169.12,
+      "text": "Cardboard cathedral",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 169.52,
+      "end": 172.08,
+      "text": "Ridiculous and beautiful",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 172.08,
+      "end": 175.14,
+      "text": "If all we get is borrowed walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 175.14,
+      "end": 178.7,
+      "text": "Let borrowed walls receive us all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 180.86,
+      "end": 183.38,
+      "text": "When it caves in, and it will cave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 183.38,
+      "end": 186.08,
+      "text": "When tape lets go of what it gave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 186.08,
+      "end": 188.68,
+      "text": "We will not call the shelter false",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 190.94,
+      "end": 195.48,
+      "text": "Because it could not stop all loss",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 196.74,
+      "end": 200.06,
+      "text": "Some rooms are made for crossing through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 200.06,
+      "end": 202.92,
+      "text": "Some names are only briefly true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 202.92,
+      "end": 205.76,
+      "text": "Still, in the crease where dust collects",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 205.76,
+      "end": 209.7,
+      "text": "We found a place the day respects",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 209.7,
+      "end": 209.8,
+      "text": "(soft group voices)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 209.8,
+      "end": 213.0,
+      "text": "Fold by fold...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 213.0,
+      "end": 215.68,
+      "text": "Breath by breath...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 63,
+      "section": "Break",
+      "start": 217.02,
+      "end": 220.38,
+      "text": "Room enough for what is left...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 64,
+      "section": "Outro",
+      "start": 220.38,
+      "end": 225.54,
+      "text": "Box on the floor... tape at the seam...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 65,
+      "section": "Outro",
+      "start": 226.62,
+      "end": 231.56,
+      "text": "Kingdom folded from a shipping dream",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 66,
+      "section": "Outro",
+      "start": 233.1,
+      "end": 236.48,
+      "text": "Four low walls... morning near...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 67,
+      "section": "Outro",
+      "start": 238.36,
+      "end": 242.62,
+      "text": "Temporary can be sincere",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    }
+  ]
+}

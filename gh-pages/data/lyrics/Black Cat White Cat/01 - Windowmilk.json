@@ -1,0 +1,831 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Black Cat White Cat",
+  "title": "Windowmilk",
+  "text_path": "Black Cat White Cat/01 - Windowmilk.txt",
+  "audio_path": "Black Cat White Cat/audio/01 - Windowmilk.mp3",
+  "duration_seconds": 228.7,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 69,
+    "reference_word_count": 412,
+    "observed_word_count": 417,
+    "matched_word_count": 387,
+    "matched_word_ratio": 0.939,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 2.08,
+      "end": 6.86,
+      "text": "mm cure the glass sun on the sill"
+    },
+    {
+      "start": 7.52,
+      "end": 17.4,
+      "text": "small bright room holding still clean white paws dust in the beam"
+    },
+    {
+      "start": 17.4,
+      "end": 21.74,
+      "text": "i let them look but not too deep"
+    },
+    {
+      "start": 29.02,
+      "end": 34.32,
+      "text": "morning sets a plate of light across the chair i claimed last night"
+    },
+    {
+      "start": 34.32,
+      "end": 39.64,
+      "text": "the window makes a gentle frame and teaches strangers half my name"
+    },
+    {
+      "start": 39.64,
+      "end": 44.9,
+      "text": "they see the fur the careful face the tidy arch the practiced grace"
+    },
+    {
+      "start": 44.9,
+      "end": 50.28,
+      "text": "they do not see the little claw folded under every law"
+    },
+    {
+      "start": 50.28,
+      "end": 55.6,
+      "text": "i warm my ribs against the pain watch every yard rehearse its lane"
+    },
+    {
+      "start": 55.6,
+      "end": 61.3,
+      "text": "the hedge the gate the neighbor's shoes the outside moving as it chooses"
+    },
+    {
+      "start": 61.3,
+      "end": 66.62,
+      "text": "it doesn't trap me like a chain it only keeps the weather plain"
+    },
+    {
+      "start": 66.62,
+      "end": 71.82,
+      "text": "a prom is clear enough to touch that still refuses me too much"
+    },
+    {
+      "start": 71.82,
+      "end": 76.94,
+      "text": "window milk pour it slow make me bright enough to know"
+    },
+    {
+      "start": 76.94,
+      "end": 82.32,
+      "text": "who is watching who believes softness means i never leave"
+    },
+    {
+      "start": 82.32,
+      "end": 87.6,
+      "text": "window milk pale and kindly one shadow tucked behind"
+    },
+    {
+      "start": 87.6,
+      "end": 93.6,
+      "text": "if they love the shade they see let them miss a part of me"
+    },
+    {
+      "start": 98.62,
+      "end": 103.82,
+      "text": "there is a bowl beneath a clock a cushion with my old paw mark"
+    },
+    {
+      "start": 103.82,
+      "end": 109.06,
+      "text": "a hand that calls me good and sweet as if i never dream of streets"
+    },
+    {
+      "start": 109.06,
+      "end": 114.52,
+      "text": "i rub my cheek along the door not asking much then asking more"
+    },
+    {
+      "start": 114.52,
+      "end": 119.92,
+      "text": "the latch clicks once inside its throat and all my courage changes code"
+    },
+    {
+      "start": 119.92,
+      "end": 125.64,
+      "text": "to cross the fence of black tails lips like ink that learn to keep its hips low"
+    },
+    {
+      "start": 125.64,
+      "end": 130.76,
+      "text": "to the earth away from praise free in ways that do not blaze"
+    },
+    {
+      "start": 130.76,
+      "end": 136.16,
+      "text": "it doesn't hurt to be adored it only polishes the door"
+    },
+    {
+      "start": 136.16,
+      "end": 141.94,
+      "text": "till even hunger even pride learns how to sit and stay inside"
+    },
+    {
+      "start": 141.94,
+      "end": 147.04,
+      "text": "window milk pour it slow make me bright enough to know"
+    },
+    {
+      "start": 147.04,
+      "end": 152.52,
+      "text": "who is watching who believes softness means i never leave"
+    },
+    {
+      "start": 152.52,
+      "end": 157.88,
+      "text": "window milk pale and kindly one shadow tucked behind"
+    },
+    {
+      "start": 157.88,
+      "end": 163.9,
+      "text": "if they love the shade they see let them miss a part of me"
+    },
+    {
+      "start": 163.9,
+      "end": 169.68,
+      "text": "i am not clean because i shine i am not tame because i dine"
+    },
+    {
+      "start": 169.68,
+      "end": 175.28,
+      "text": "i am the paw print on the sheet and dust beneath the polished seat"
+    },
+    {
+      "start": 175.28,
+      "end": 180.82,
+      "text": "if i look a holy in the glass let that mistaken mercy pass"
+    },
+    {
+      "start": 180.82,
+      "end": 186.62,
+      "text": "i have my weather i have my teeth folded where the warm light sleeps"
+    },
+    {
+      "start": 188.52,
+      "end": 191.88,
+      "text": "see me not all of me"
+    },
+    {
+      "start": 194.28,
+      "end": 197.58,
+      "text": "enough not all"
+    },
+    {
+      "start": 208.68,
+      "end": 213.38,
+      "text": "milk in the glass sun on the sill"
+    },
+    {
+      "start": 214.18,
+      "end": 224.42,
+      "text": "small bright room holding still clean white paws dust in the beam"
+    },
+    {
+      "start": 224.42,
+      "end": 228.7,
+      "text": "i let them look and keep the same"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 3.66,
+      "end": 6.86,
+      "text": "Milk in the glass... sun on the sill...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 7.52,
+      "end": 12.12,
+      "text": "Small bright room holding still",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 12.12,
+      "end": 17.4,
+      "text": "Clean white paws... dust in the beam...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 17.4,
+      "end": 21.74,
+      "text": "I let them look, but not too deep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 29.02,
+      "end": 31.62,
+      "text": "Morning sets a plate of light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 31.62,
+      "end": 34.32,
+      "text": "Across the chair I claimed last night",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 34.32,
+      "end": 36.98,
+      "text": "The window makes a gentle frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 36.98,
+      "end": 39.64,
+      "text": "And teaches strangers half my name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 39.64,
+      "end": 42.24,
+      "text": "They see the fur, the careful face",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 42.24,
+      "end": 44.9,
+      "text": "The tidy arch, the practiced grace",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 44.9,
+      "end": 47.68,
+      "text": "They do not see the little claw",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 47.68,
+      "end": 50.28,
+      "text": "Folded under every law",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 50.28,
+      "end": 52.48,
+      "text": "I warm my ribs against the pane",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 52.96,
+      "end": 55.6,
+      "text": "Watch every yard rehearse its lane",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 55.6,
+      "end": 58.24,
+      "text": "The hedge, the gate, the neighbor's shoes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 58.24,
+      "end": 61.3,
+      "text": "The outside moving as it chooses",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 61.3,
+      "end": 63.98,
+      "text": "It doesn't trap me like a chain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 63.98,
+      "end": 66.62,
+      "text": "It only keeps the weather plain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 66.62,
+      "end": 68.9,
+      "text": "A promise clear enough to touch",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 68.9,
+      "end": 71.82,
+      "text": "That still refuses me too much",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 73.06,
+      "end": 74.24,
+      "text": "Windowmilk, pour it slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 74.24,
+      "end": 76.94,
+      "text": "Make me bright enough to know",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 76.94,
+      "end": 79.48,
+      "text": "Who is watching, who believes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 79.88,
+      "end": 82.32,
+      "text": "Softness means I never leave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 84.1,
+      "end": 84.54,
+      "text": "Windowmilk, pale and kind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 85.28,
+      "end": 87.6,
+      "text": "Leave one shadow tucked behind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 87.6,
+      "end": 90.28,
+      "text": "If they love the shape they see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 90.28,
+      "end": 93.6,
+      "text": "Let them miss a part of me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 98.48,
+      "end": 101.04,
+      "text": "There is a bowl beneath the clock",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 101.04,
+      "end": 103.82,
+      "text": "A cushion with my old paw mark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 103.82,
+      "end": 106.38,
+      "text": "A hand that calls me good and sweet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 106.38,
+      "end": 109.06,
+      "text": "As if I never dream of streets",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 109.06,
+      "end": 111.78,
+      "text": "I rub my cheek along the door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 111.78,
+      "end": 114.52,
+      "text": "Not asking much, then asking more",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 114.52,
+      "end": 117.2,
+      "text": "The latch clicks once inside its throat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 117.2,
+      "end": 119.42,
+      "text": "And all my courage changes coat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 120.62,
+      "end": 121.9,
+      "text": "Across the fence a black tail slips",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 122.7,
+      "end": 125.22,
+      "text": "Like ink that learned to keep its hips",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 125.22,
+      "end": 128.12,
+      "text": "Low to the earth, away from praise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 128.12,
+      "end": 130.76,
+      "text": "Free in ways that do not blaze",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 130.76,
+      "end": 133.46,
+      "text": "It doesn't hurt to be adored",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 133.46,
+      "end": 136.16,
+      "text": "It only polishes the door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 136.5,
+      "end": 138.88,
+      "text": "Til even hunger, even pride",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 139.08,
+      "end": 141.94,
+      "text": "Learns how to sit and stay inside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 143.1,
+      "end": 144.26,
+      "text": "Windowmilk, pour it slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 144.26,
+      "end": 147.04,
+      "text": "Make me bright enough to know",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 147.04,
+      "end": 149.66,
+      "text": "Who is watching, who believes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 150.38,
+      "end": 152.52,
+      "text": "Softness means I never leave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 154.12,
+      "end": 154.78,
+      "text": "Windowmilk, pale and kind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 155.42,
+      "end": 157.88,
+      "text": "Leave one shadow tucked behind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 157.88,
+      "end": 160.62,
+      "text": "If they love the shape they see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 160.62,
+      "end": 163.9,
+      "text": "Let them miss a part of me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 163.9,
+      "end": 166.86,
+      "text": "I am not clean because I shine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 166.86,
+      "end": 169.68,
+      "text": "I am not tame because I dine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 169.68,
+      "end": 172.54,
+      "text": "I am the pawprint on the sheet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 172.54,
+      "end": 175.28,
+      "text": "And dust beneath the polished seat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 175.28,
+      "end": 178.1,
+      "text": "If I look holy in the glass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 178.1,
+      "end": 180.82,
+      "text": "Let that mistaken mercy pass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 180.82,
+      "end": 183.82,
+      "text": "I have my weather, I have my teeth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 183.82,
+      "end": 186.62,
+      "text": "Folded where the warm light sleeps",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 186.62,
+      "end": 188.14,
+      "text": "(whispered)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 188.14,
+      "end": 189.54,
+      "text": "See me...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 190.72,
+      "end": 192.48,
+      "text": "Not all of me...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 63,
+      "section": "Break",
+      "start": 194.18,
+      "end": 194.88,
+      "text": "Enough...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 64,
+      "section": "Break",
+      "start": 196.6,
+      "end": 197.58,
+      "text": "Not all...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 65,
+      "section": "Outro",
+      "start": 208.38,
+      "end": 213.38,
+      "text": "Milk in the glass... sun on the sill...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 66,
+      "section": "Outro",
+      "start": 214.04,
+      "end": 218.64,
+      "text": "Small bright room holding still",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 67,
+      "section": "Outro",
+      "start": 218.64,
+      "end": 224.42,
+      "text": "Clean white paws... dust in the beam...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 68,
+      "section": "Outro",
+      "start": 224.42,
+      "end": 228.36,
+      "text": "I let them look, and keep the seam",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    }
+  ]
+}

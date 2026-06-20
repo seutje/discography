@@ -1,0 +1,826 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Black Cat White Cat",
+  "title": "Moths",
+  "text_path": "Black Cat White Cat/09 - Moths.txt",
+  "audio_path": "Black Cat White Cat/audio/09 - Moths.mp3",
+  "duration_seconds": 192.54,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 69,
+    "reference_word_count": 407,
+    "observed_word_count": 400,
+    "matched_word_count": 363,
+    "matched_word_ratio": 0.892,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 9.24,
+      "end": 14.4,
+      "text": "3 am lamp awake tiny wings make the ceiling shake"
+    },
+    {
+      "start": 14.4,
+      "end": 19.58,
+      "text": "white paw up black tail low something bright with nowhere to go"
+    },
+    {
+      "start": 27.14,
+      "end": 31.6,
+      "text": "it hit the shade the night again a little weather with no plan"
+    },
+    {
+      "start": 31.6,
+      "end": 36.66,
+      "text": "the room was sleeping mostly true until desire split in two"
+    },
+    {
+      "start": 37.46,
+      "end": 41.84,
+      "text": "the white cat rose from folded cream the black cat slid from under dream"
+    },
+    {
+      "start": 41.84,
+      "end": 46.58,
+      "text": "both saw the same small frantic spark make a target of the dark"
+    },
+    {
+      "start": 46.58,
+      "end": 51.32,
+      "text": "no bow no bow no door no name just wing beat tapping out a claim"
+    },
+    {
+      "start": 51.32,
+      "end": 56.02,
+      "text": "the house drew in a careful breath the lamp kept offering itself"
+    },
+    {
+      "start": 56.02,
+      "end": 60.76,
+      "text": "it doesn't know what love can do when love mistakes a thing for proof"
+    },
+    {
+      "start": 60.76,
+      "end": 65.74,
+      "text": "it only wants the nearest light and we want wanting through the night"
+    },
+    {
+      "start": 66.26,
+      "end": 71.4,
+      "text": "moss at 3 am we chase what we cannot defend"
+    },
+    {
+      "start": 71.4,
+      "end": 76.26,
+      "text": "tiny moon without the bruise look what wanting learned to choose"
+    },
+    {
+      "start": 76.26,
+      "end": 80.74,
+      "text": "moss at 3 am don't make a sermon of the end"
+    },
+    {
+      "start": 80.74,
+      "end": 85.38,
+      "text": "we are paws and poles a name not every hunger earns a name"
+    },
+    {
+      "start": 93.28,
+      "end": 98.3,
+      "text": "the black cat leapt and missed the shelf the white cat blamed the shelf itself"
+    },
+    {
+      "start": 98.3,
+      "end": 103.2,
+      "text": "two books fell open on the floor like old mouse asking to be more"
+    },
+    {
+      "start": 103.2,
+      "end": 107.68,
+      "text": "the moth dropped low then found the stair the bell said hear the claws said where"
+    },
+    {
+      "start": 107.68,
+      "end": 112.2,
+      "text": "the humans groaned behind the wall the night became a festival"
+    },
+    {
+      "start": 112.2,
+      "end": 117.2,
+      "text": "i laughed and nearly in my chest did all this grace becoming messy"
+    },
+    {
+      "start": 117.2,
+      "end": 122.14,
+      "text": "two proud shapes undone by wings and how fixation grows small things"
+    },
+    {
+      "start": 122.14,
+      "end": 126.62,
+      "text": "it doesn't have to be profound to drag the hidden hunters out"
+    },
+    {
+      "start": 126.62,
+      "end": 131.36,
+      "text": "sometimes a tiny moving thing revise the house by surviving"
+    },
+    {
+      "start": 132.24,
+      "end": 137.34,
+      "text": "moss at 3 am we chase what we cannot defend"
+    },
+    {
+      "start": 137.34,
+      "end": 142.2,
+      "text": "tiny moon without the bruise look what wanting learned to choose"
+    },
+    {
+      "start": 142.2,
+      "end": 146.8,
+      "text": "moss at 3 am don't make a sermon of the end"
+    },
+    {
+      "start": 146.8,
+      "end": 151.48,
+      "text": "we are paws and poles a name not every hunger earns a name"
+    },
+    {
+      "start": 151.48,
+      "end": 156.2,
+      "text": "if inspiration has a wing we might destroy it worshiping"
+    },
+    {
+      "start": 156.2,
+      "end": 160.88,
+      "text": "if love is just a light too near we might arrive at that mysterious"
+    },
+    {
+      "start": 160.88,
+      "end": 165.66,
+      "text": "let it go behind the frame let both cats keep a little shame"
+    },
+    {
+      "start": 165.66,
+      "end": 170.52,
+      "text": "let morning find the lamp still hot and one small life that we forgot"
+    },
+    {
+      "start": 173.46,
+      "end": 177.18,
+      "text": "tap tap wing wing"
+    },
+    {
+      "start": 178.16,
+      "end": 181.28,
+      "text": "not ours still singing"
+    },
+    {
+      "start": 182.0,
+      "end": 184.06,
+      "text": "3 am lamp awake"
+    },
+    {
+      "start": 184.06,
+      "end": 187.86,
+      "text": "tiny wings make the ceiling shake white pot down"
+    },
+    {
+      "start": 187.86,
+      "end": 192.54,
+      "text": "black tail still the moth escapes the windowsill"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 10.96,
+      "end": 11.76,
+      "text": "Three A.M.... lamp awake...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 11.76,
+      "end": 14.4,
+      "text": "Tiny wings make the ceiling shake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 14.4,
+      "end": 16.66,
+      "text": "White paw up... black tail low...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 16.66,
+      "end": 19.58,
+      "text": "Something bright with nowhere to go",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 27.14,
+      "end": 29.04,
+      "text": "It hit the shade, then hit again",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 29.04,
+      "end": 31.6,
+      "text": "A little weather with no plan",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 31.6,
+      "end": 34.2,
+      "text": "The room was sleeping, mostly true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 34.2,
+      "end": 36.66,
+      "text": "Until desire split in two",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 37.18,
+      "end": 39.5,
+      "text": "The white cat rose from folded cream",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 39.5,
+      "end": 41.84,
+      "text": "The black cat slid from under dream",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 41.84,
+      "end": 44.36,
+      "text": "Both saw the same small frantic spark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 44.36,
+      "end": 46.58,
+      "text": "Make a target of the dark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 46.58,
+      "end": 48.98,
+      "text": "No bowl, no bell, no door, no name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 48.98,
+      "end": 51.32,
+      "text": "Just wingbeat tapping out a claim",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 51.32,
+      "end": 53.66,
+      "text": "The house drew in a careful breath",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 53.66,
+      "end": 56.02,
+      "text": "The lamp kept offering itself",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 56.02,
+      "end": 58.54,
+      "text": "It doesn't know what love can do",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 58.54,
+      "end": 60.76,
+      "text": "When love mistakes a thing for proof",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 60.76,
+      "end": 63.2,
+      "text": "It only wants the nearest light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 63.2,
+      "end": 65.74,
+      "text": "And we want wanting through the night",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 66.74,
+      "end": 67.9,
+      "text": "Moths at 3 A.M.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 68.6,
+      "end": 71.4,
+      "text": "We chase what we cannot defend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 71.4,
+      "end": 73.96,
+      "text": "Tiny moon without the bruise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 73.96,
+      "end": 76.26,
+      "text": "Look what wanting learned to choose",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 76.6,
+      "end": 77.38,
+      "text": "Moths at 3 A.M.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 77.98,
+      "end": 80.74,
+      "text": "Don't make a sermon of the end",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 80.74,
+      "end": 82.26,
+      "text": "We are paws and pulse and aim",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 82.94,
+      "end": 85.38,
+      "text": "Not every hunger earns a name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 93.28,
+      "end": 95.98,
+      "text": "The black cat leapt and missed the shelf",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 95.98,
+      "end": 98.3,
+      "text": "The white cat blamed the shelf itself",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 98.3,
+      "end": 100.62,
+      "text": "Two books fell open on the floor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 100.62,
+      "end": 103.2,
+      "text": "Like old maps asking to be more",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 103.2,
+      "end": 105.34,
+      "text": "The moth dropped low, then found the stair",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 105.34,
+      "end": 107.68,
+      "text": "The bell said here, the claws said where",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 107.68,
+      "end": 110.06,
+      "text": "The humans groaned behind the wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 110.06,
+      "end": 112.2,
+      "text": "The night became a festival",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 112.2,
+      "end": 114.94,
+      "text": "I laughed, or nearly, in my chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 115.26,
+      "end": 116.66,
+      "text": "At all this grace becoming mess",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 117.2,
+      "end": 119.7,
+      "text": "At two proud shapes undone by wings",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 119.9,
+      "end": 122.14,
+      "text": "At how fixation crowns small things",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 122.14,
+      "end": 124.24,
+      "text": "It doesn't have to be profound",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 124.24,
+      "end": 126.62,
+      "text": "To drag the hidden hunters out",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 126.62,
+      "end": 129.02,
+      "text": "Sometimes the tiny moving thing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 129.62,
+      "end": 131.36,
+      "text": "Rewrites the house by surviving",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 132.72,
+      "end": 133.86,
+      "text": "Moths at 3 A.M.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 134.54,
+      "end": 137.34,
+      "text": "We chase what we cannot defend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 137.34,
+      "end": 139.96,
+      "text": "Tiny moon without the bruise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 139.96,
+      "end": 142.2,
+      "text": "Look what wanting learned to choose",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 142.6,
+      "end": 143.36,
+      "text": "Moths at 3 A.M.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 144.06,
+      "end": 146.8,
+      "text": "Don't make a sermon of the end",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 146.8,
+      "end": 148.12,
+      "text": "We are paws and pulse and aim",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 149.06,
+      "end": 151.48,
+      "text": "Not every hunger earns a name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 151.48,
+      "end": 153.74,
+      "text": "If inspiration has a wing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 153.74,
+      "end": 156.2,
+      "text": "We might destroy it worshiping",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 156.2,
+      "end": 158.46,
+      "text": "If love is just a light too near",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 158.46,
+      "end": 159.8,
+      "text": "We might arrive as atmosphere",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 160.88,
+      "end": 163.28,
+      "text": "So let it go behind the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 163.28,
+      "end": 165.66,
+      "text": "Let both cats keep a little shame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 165.66,
+      "end": 168.12,
+      "text": "Let morning find the lamp still hot",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 168.12,
+      "end": 170.52,
+      "text": "And one small life that we forgot",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 170.52,
+      "end": 173.46,
+      "text": "(whispered)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 173.46,
+      "end": 175.14,
+      "text": "Tap tap...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 175.14,
+      "end": 177.18,
+      "text": "Wing wing...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 63,
+      "section": "Break",
+      "start": 178.02,
+      "end": 179.14,
+      "text": "Not ours...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 64,
+      "section": "Break",
+      "start": 179.14,
+      "end": 181.28,
+      "text": "Still singing...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 65,
+      "section": "Outro",
+      "start": 182.94,
+      "end": 184.06,
+      "text": "Three A.M.... lamp awake...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 66,
+      "section": "Outro",
+      "start": 184.06,
+      "end": 186.82,
+      "text": "Tiny wings make the ceiling shake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 67,
+      "section": "Outro",
+      "start": 186.82,
+      "end": 189.14,
+      "text": "White paw down... black tail still...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 68,
+      "section": "Outro",
+      "start": 189.14,
+      "end": 192.54,
+      "text": "The moth escapes the windowsill",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    }
+  ]
+}

@@ -1,0 +1,996 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Black Cat White Cat",
+  "title": "Soft Things Kill Quietly",
+  "text_path": "Black Cat White Cat/08 - Soft Things Kill Quietly.txt",
+  "audio_path": "Black Cat White Cat/audio/08 - Soft Things Kill Quietly.mp3",
+  "duration_seconds": 225.98,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 69,
+    "reference_word_count": 397,
+    "observed_word_count": 400,
+    "matched_word_count": 369,
+    "matched_word_ratio": 0.929,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 3.72,
+      "end": 9.24,
+      "text": "soft poor hard floor"
+    },
+    {
+      "start": 10.6,
+      "end": 13.46,
+      "text": "gentle thing behind the door"
+    },
+    {
+      "start": 14.56,
+      "end": 17.74,
+      "text": "claws in breath out"
+    },
+    {
+      "start": 19.72,
+      "end": 23.12,
+      "text": "mercy with a careful mouth"
+    },
+    {
+      "start": 27.12,
+      "end": 29.92,
+      "text": "they thought the white cat could not hunt"
+    },
+    {
+      "start": 30.18,
+      "end": 32.56,
+      "text": "to cling to watch too near the front"
+    },
+    {
+      "start": 32.86,
+      "end": 34.7,
+      "text": "to pretty in the window square"
+    },
+    {
+      "start": 35.42,
+      "end": 37.62,
+      "text": "to love to be a danger there"
+    },
+    {
+      "start": 38.36,
+      "end": 40.92,
+      "text": "but moths know nothing of the name"
+    },
+    {
+      "start": 41.12,
+      "end": 43.74,
+      "text": "they only read the moving flame"
+    },
+    {
+      "start": 43.74,
+      "end": 46.3,
+      "text": "and softness when it wants to feed"
+    },
+    {
+      "start": 46.36,
+      "end": 49.2,
+      "text": "can cross a room at frightening speed"
+    },
+    {
+      "start": 49.42,
+      "end": 51.98,
+      "text": "the black cat kept his darkness plain"
+    },
+    {
+      "start": 51.98,
+      "end": 54.74,
+      "text": "in a coat for weather not for shame"
+    },
+    {
+      "start": 54.9,
+      "end": 57.48,
+      "text": "he killed the lamp by standing still"
+    },
+    {
+      "start": 57.58,
+      "end": 60.24,
+      "text": "and let the hallway keep its will"
+    },
+    {
+      "start": 60.24,
+      "end": 62.92,
+      "text": "it doesn't roar the fatal kind"
+    },
+    {
+      "start": 63.02,
+      "end": 67.18,
+      "text": "it only waits with patience behind the gentle paw"
+    },
+    {
+      "start": 67.4,
+      "end": 71.7,
+      "text": "the folded knife the tender room that lowers life"
+    },
+    {
+      "start": 72.4,
+      "end": 74.92,
+      "text": "soft things kill quietly"
+    },
+    {
+      "start": 74.92,
+      "end": 77.5,
+      "text": "not because they lack the teeth"
+    },
+    {
+      "start": 77.96,
+      "end": 80.3,
+      "text": "every sweetness has a jaw"
+    },
+    {
+      "start": 80.3,
+      "end": 83.12,
+      "text": "every kindness has a law"
+    },
+    {
+      "start": 83.46,
+      "end": 86.0,
+      "text": "soft things kill quietly"
+    },
+    {
+      "start": 86.14,
+      "end": 88.5,
+      "text": "not all danger looks like grief"
+    },
+    {
+      "start": 88.7,
+      "end": 91.34,
+      "text": "if i touch you with a claw"
+    },
+    {
+      "start": 91.72,
+      "end": 93.46,
+      "text": "that is choice"
+    },
+    {
+      "start": 93.82,
+      "end": 94.84,
+      "text": "and choice has weight"
+    },
+    {
+      "start": 99.22,
+      "end": 103.12,
+      "text": "he learned that shadow can protect the part the porch"
+    },
+    {
+      "start": 103.12,
+      "end": 104.44,
+      "text": "light would inspect"
+    },
+    {
+      "start": 104.82,
+      "end": 107.24,
+      "text": "he learned that being held too bright"
+    },
+    {
+      "start": 107.24,
+      "end": 109.96,
+      "text": "can make a hunter out of white"
+    },
+    {
+      "start": 110.26,
+      "end": 113.0,
+      "text": "the moth went frantic at the shade"
+    },
+    {
+      "start": 113.12,
+      "end": 115.7,
+      "text": "the bell gave one uncertain grade"
+    },
+    {
+      "start": 115.92,
+      "end": 118.44,
+      "text": "the bowl sat empty door ajar"
+    },
+    {
+      "start": 118.68,
+      "end": 121.18,
+      "text": "the room became what rooms are"
+    },
+    {
+      "start": 121.4,
+      "end": 123.46,
+      "text": "a place where hunger changes"
+    },
+    {
+      "start": 123.76,
+      "end": 126.66,
+      "text": "stress up a place where love can overpress"
+    },
+    {
+      "start": 126.66,
+      "end": 130.22,
+      "text": "a place where anything adored can scratch"
+    },
+    {
+      "start": 130.22,
+      "end": 132.28,
+      "text": "the finish off the door"
+    },
+    {
+      "start": 132.46,
+      "end": 135.08,
+      "text": "it doesn't mean the soft is false"
+    },
+    {
+      "start": 135.08,
+      "end": 137.9,
+      "text": "it doesn't make the dark at fault"
+    },
+    {
+      "start": 137.9,
+      "end": 143.32,
+      "text": "it only asks the room to see how careful gentleness must be"
+    },
+    {
+      "start": 145.0,
+      "end": 147.14,
+      "text": "soft things kill quietly"
+    },
+    {
+      "start": 147.14,
+      "end": 149.72,
+      "text": "not because they lack the teeth"
+    },
+    {
+      "start": 150.22,
+      "end": 152.56,
+      "text": "every sweetness has a jaw"
+    },
+    {
+      "start": 153.0,
+      "end": 155.28,
+      "text": "every kindness has a law"
+    },
+    {
+      "start": 155.72,
+      "end": 158.24,
+      "text": "soft things kill quietly"
+    },
+    {
+      "start": 158.24,
+      "end": 160.86,
+      "text": "not all danger looks like grief"
+    },
+    {
+      "start": 160.88,
+      "end": 163.7,
+      "text": "if i touch you with a claw"
+    },
+    {
+      "start": 163.7,
+      "end": 165.88,
+      "text": "that is choice"
+    },
+    {
+      "start": 166.14,
+      "end": 167.22,
+      "text": "and choice has weight"
+    },
+    {
+      "start": 167.48,
+      "end": 170.02,
+      "text": "i could have torn the curtain seam"
+    },
+    {
+      "start": 170.16,
+      "end": 172.7,
+      "text": "i could have ended every way"
+    },
+    {
+      "start": 173.06,
+      "end": 175.54,
+      "text": "i could have made my hunger proof"
+    },
+    {
+      "start": 175.54,
+      "end": 178.44,
+      "text": "and dragged the lesson to the roof"
+    },
+    {
+      "start": 178.44,
+      "end": 181.26,
+      "text": "instead i watched it rise and fall"
+    },
+    {
+      "start": 181.44,
+      "end": 183.98,
+      "text": "a small bright panic on the wall"
+    },
+    {
+      "start": 184.06,
+      "end": 189.26,
+      "text": "and kept my claws inside my feet because restraint is also"
+    },
+    {
+      "start": 189.26,
+      "end": 189.62,
+      "text": "me"
+    },
+    {
+      "start": 193.7,
+      "end": 195.6,
+      "text": "claws in"
+    },
+    {
+      "start": 196.46,
+      "end": 198.12,
+      "text": "claws out"
+    },
+    {
+      "start": 199.58,
+      "end": 201.1,
+      "text": "choose the shape"
+    },
+    {
+      "start": 202.18,
+      "end": 204.02,
+      "text": "choose the mouth"
+    },
+    {
+      "start": 206.0,
+      "end": 210.62,
+      "text": "soft heart floor"
+    },
+    {
+      "start": 211.8,
+      "end": 214.82,
+      "text": "gentle thing behind the door"
+    },
+    {
+      "start": 217.2,
+      "end": 218.02,
+      "text": "claws in"
+    },
+    {
+      "start": 219.38,
+      "end": 220.38,
+      "text": "breath out"
+    },
+    {
+      "start": 222.08,
+      "end": 225.98,
+      "text": "my mercy learned to quiet her out"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 3.72,
+      "end": 7.9,
+      "text": "Soft paw... hard floor...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 10.6,
+      "end": 13.46,
+      "text": "Gentle thing behind the door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 14.56,
+      "end": 17.74,
+      "text": "Claws in... breath out...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 19.72,
+      "end": 23.12,
+      "text": "Mercy with a careful mouth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 27.12,
+      "end": 29.92,
+      "text": "They thought the white cat could not hunt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 31.2,
+      "end": 32.56,
+      "text": "Too clean, too watched, too near the front",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 32.96,
+      "end": 34.7,
+      "text": "Too pretty in the window square",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 35.92,
+      "end": 37.62,
+      "text": "Too loved to be a danger there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 38.36,
+      "end": 40.92,
+      "text": "But moths know nothing of a name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 41.12,
+      "end": 43.74,
+      "text": "They only read the moving flame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 43.74,
+      "end": 46.3,
+      "text": "And softness, when it wants to feed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 46.36,
+      "end": 49.2,
+      "text": "Can cross a room at frightening speed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 49.42,
+      "end": 51.98,
+      "text": "The black cat kept his darkness plain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 52.22,
+      "end": 54.74,
+      "text": "A coat for weather, not for shame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 54.9,
+      "end": 57.48,
+      "text": "He killed the lamp by standing still",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 57.58,
+      "end": 60.24,
+      "text": "And let the hallway keep its will",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 60.24,
+      "end": 62.92,
+      "text": "It doesn't roar, the fatal kind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 63.02,
+      "end": 64.66,
+      "text": "It only waits with patient spine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 65.68,
+      "end": 68.48,
+      "text": "The gentle paw, the folded knife",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 68.72,
+      "end": 71.7,
+      "text": "The tender room that lowers life",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 72.4,
+      "end": 74.92,
+      "text": "Soft things kill quietly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 74.92,
+      "end": 77.5,
+      "text": "Not because they lack the teeth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 77.96,
+      "end": 80.3,
+      "text": "Every sweetness has a jaw",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 80.3,
+      "end": 83.12,
+      "text": "Every kindness has a law",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 83.46,
+      "end": 86.0,
+      "text": "Soft things kill quietly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 86.14,
+      "end": 88.5,
+      "text": "Not all danger looks like grief",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 88.7,
+      "end": 90.28,
+      "text": "If I touch you without claws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 91.72,
+      "end": 94.84,
+      "text": "That is choice, and choice has weight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 99.22,
+      "end": 101.68,
+      "text": "He learned that shadow can protect",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 101.68,
+      "end": 104.44,
+      "text": "The part the porch light would inspect",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 104.94,
+      "end": 107.24,
+      "text": "She learned that being held too bright",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 107.24,
+      "end": 109.96,
+      "text": "Can make a hunter out of white",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 110.26,
+      "end": 113.0,
+      "text": "The moth went frantic at the shade",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 113.12,
+      "end": 115.7,
+      "text": "The bell gave one uncertain grade",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 115.92,
+      "end": 118.44,
+      "text": "The bowl sat empty, door ajar",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 118.68,
+      "end": 121.18,
+      "text": "The room became what rooms all are",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 121.4,
+      "end": 123.46,
+      "text": "A place where hunger changes dress",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 124.24,
+      "end": 126.66,
+      "text": "A place where love can overpress",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 126.66,
+      "end": 129.5,
+      "text": "A place where anything adored",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 129.5,
+      "end": 132.28,
+      "text": "Can scratch the finish off the door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 132.46,
+      "end": 135.08,
+      "text": "It doesn't mean the soft is false",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 135.08,
+      "end": 137.9,
+      "text": "It doesn't make the dark at fault",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 137.9,
+      "end": 140.64,
+      "text": "It only asks the room to see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 140.64,
+      "end": 143.57,
+      "text": "How careful gentleness must be",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 145.0,
+      "end": 147.14,
+      "text": "Soft things kill quietly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 147.14,
+      "end": 149.72,
+      "text": "Not because they lack the teeth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 150.22,
+      "end": 152.56,
+      "text": "Every sweetness has a jaw",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 153.0,
+      "end": 155.28,
+      "text": "Every kindness has a law",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 155.72,
+      "end": 158.24,
+      "text": "Soft things kill quietly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 158.24,
+      "end": 160.86,
+      "text": "Not all danger looks like grief",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 160.88,
+      "end": 162.6,
+      "text": "If I touch you without claws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 163.7,
+      "end": 167.22,
+      "text": "That is choice, and choice has weight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 167.48,
+      "end": 170.02,
+      "text": "I could have torn the curtain seam",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 170.16,
+      "end": 172.18,
+      "text": "I could have ended every wing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 173.06,
+      "end": 175.54,
+      "text": "I could have made my hunger proof",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 175.54,
+      "end": 178.44,
+      "text": "And dragged the lesson to the roof",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 178.44,
+      "end": 181.26,
+      "text": "Instead I watched it rise and fall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 181.44,
+      "end": 183.98,
+      "text": "A small bright panic on the wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 184.06,
+      "end": 186.76,
+      "text": "And kept my claws inside my feet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 186.76,
+      "end": 189.26,
+      "text": "Because restraint is also meat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 189.26,
+      "end": 193.7,
+      "text": "(whispered)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 193.7,
+      "end": 195.6,
+      "text": "Claws in...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 196.46,
+      "end": 198.12,
+      "text": "Claws out...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 63,
+      "section": "Break",
+      "start": 199.58,
+      "end": 201.1,
+      "text": "Choose the shape...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 64,
+      "section": "Break",
+      "start": 202.18,
+      "end": 204.02,
+      "text": "Choose the mouth...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 65,
+      "section": "Outro",
+      "start": 206.0,
+      "end": 206.68,
+      "text": "Soft paw... hard floor...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 66,
+      "section": "Outro",
+      "start": 211.8,
+      "end": 214.82,
+      "text": "Gentle thing behind the door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 67,
+      "section": "Outro",
+      "start": 217.2,
+      "end": 220.38,
+      "text": "Claws in... breath out...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 68,
+      "section": "Outro",
+      "start": 223.16,
+      "end": 224.14,
+      "text": "Mercy learned a quieter route",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    }
+  ]
+}

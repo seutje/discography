@@ -1,0 +1,851 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Black Cat White Cat",
+  "title": "Bad Luck With a Pulse",
+  "text_path": "Black Cat White Cat/02 - Bad Luck With a Pulse.txt",
+  "audio_path": "Black Cat White Cat/audio/02 - Bad Luck With a Pulse.mp3",
+  "duration_seconds": 198.4,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 69,
+    "reference_word_count": 418,
+    "observed_word_count": 423,
+    "matched_word_count": 407,
+    "matched_word_ratio": 0.974,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 5.82,
+      "text": "cross the path count to three everybody blaming me"
+    },
+    {
+      "start": 5.82,
+      "end": 10.9,
+      "text": "green eye flash tail held low bad luck walking where i go"
+    },
+    {
+      "start": 10.9,
+      "end": 11.78,
+      "text": "mmm"
+    },
+    {
+      "start": 19.76,
+      "end": 25.68,
+      "text": "i came up thin behind the shops where rain collects and bottle tops"
+    },
+    {
+      "start": 25.68,
+      "end": 30.62,
+      "text": "the moon set dented in a pail and every fence invented jail"
+    },
+    {
+      "start": 30.62,
+      "end": 35.72,
+      "text": "somebody hissed and crossed their heart like i had authored every dark"
+    },
+    {
+      "start": 35.72,
+      "end": 40.5,
+      "text": "i only wanted kitchen steam across the door a place between"
+    },
+    {
+      "start": 40.5,
+      "end": 45.74,
+      "text": "they made an omen from my back a moving hole a warning track"
+    },
+    {
+      "start": 45.74,
+      "end": 50.7,
+      "text": "as if the night had signed my pause to carry all its little flaws"
+    },
+    {
+      "start": 50.7,
+      "end": 55.68,
+      "text": "it doesn't curse you when it stares it only checks the open air"
+    },
+    {
+      "start": 55.68,
+      "end": 61.0,
+      "text": "some eyes turn bright because they learn which headlights do and do not turn"
+    },
+    {
+      "start": 61.0,
+      "end": 65.78,
+      "text": "bad luck with a pulse hungry ribs and careful skull"
+    },
+    {
+      "start": 65.78,
+      "end": 70.86,
+      "text": "if i cross the street too near that is hunger that is fear"
+    },
+    {
+      "start": 70.86,
+      "end": 75.9,
+      "text": "bad luck with a pulse not a spell and not your fault"
+    },
+    {
+      "start": 75.9,
+      "end": 80.82,
+      "text": "i am only passing through with all my black fur catching blue"
+    },
+    {
+      "start": 80.82,
+      "end": 82.04,
+      "text": "mmm"
+    },
+    {
+      "start": 85.38,
+      "end": 86.82,
+      "text": "catching blue"
+    },
+    {
+      "start": 90.42,
+      "end": 95.72,
+      "text": "the white one watches from the glass like daylight train to raise its mask"
+    },
+    {
+      "start": 95.72,
+      "end": 100.62,
+      "text": "i see her paw against the frame i do not know her indoor name"
+    },
+    {
+      "start": 100.62,
+      "end": 105.56,
+      "text": "she has a bowl beneath the clock i have the timing of the lock"
+    },
+    {
+      "start": 105.56,
+      "end": 111.18,
+      "text": "she has a hand that calls her dear i have the map of disappearing still"
+    },
+    {
+      "start": 111.18,
+      "end": 115.7,
+      "text": "when the porch light cuts the rain i find myself below her pain"
+    },
+    {
+      "start": 115.7,
+      "end": 120.72,
+      "text": "not begging no i would deny but counting warmth with one green eye"
+    },
+    {
+      "start": 120.72,
+      "end": 125.88,
+      "text": "it doesn't shame me that i need it only makes me hard to read"
+    },
+    {
+      "start": 125.88,
+      "end": 130.92,
+      "text": "pride is just a narrow stare i climb because the floor is bare"
+    },
+    {
+      "start": 130.92,
+      "end": 135.82,
+      "text": "bad luck with a pulse hungry ribs and careful skull"
+    },
+    {
+      "start": 135.82,
+      "end": 140.82,
+      "text": "if i cross the street too near that is hunger that is fear"
+    },
+    {
+      "start": 140.82,
+      "end": 145.86,
+      "text": "bad luck with a pulse not a spell and not your fault"
+    },
+    {
+      "start": 145.86,
+      "end": 150.74,
+      "text": "i am only passing through with all my black fur catching blue"
+    },
+    {
+      "start": 150.74,
+      "end": 153.86,
+      "text": "if i am shadow let me choose the shape"
+    },
+    {
+      "start": 153.86,
+      "end": 158.16,
+      "text": "i keep the light i use if i am warning let it be"
+    },
+    {
+      "start": 158.16,
+      "end": 163.2,
+      "text": "not every stray is tragedy i have survived the thrown out year"
+    },
+    {
+      "start": 163.2,
+      "end": 168.2,
+      "text": "the boot the broom the volunteer i have come back from every wrong"
+    },
+    {
+      "start": 168.2,
+      "end": 170.56,
+      "text": "not cured not cursed just moving on"
+    },
+    {
+      "start": 171.54,
+      "end": 175.62,
+      "text": "do not name me do not chase"
+    },
+    {
+      "start": 176.58,
+      "end": 180.46,
+      "text": "leave the step leave the plate"
+    },
+    {
+      "start": 181.38,
+      "end": 184.56,
+      "text": "cross the path count to three"
+    },
+    {
+      "start": 184.56,
+      "end": 189.54,
+      "text": "everybody blaming me green eye flash tail held low"
+    },
+    {
+      "start": 189.54,
+      "end": 193.3,
+      "text": "i am luck you do not know"
+    },
+    {
+      "start": 196.64,
+      "end": 198.4,
+      "text": "do not know"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 0.0,
+      "end": 3.28,
+      "text": "Cross the path... count to three...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 3.28,
+      "end": 5.82,
+      "text": "Everybody blaming me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 5.82,
+      "end": 8.34,
+      "text": "Green-eye flash... tail held low...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 8.34,
+      "end": 10.9,
+      "text": "Bad luck walking where I go",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 19.76,
+      "end": 23.26,
+      "text": "I came up thin behind the shops",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 23.26,
+      "end": 25.68,
+      "text": "Where rain collects in bottle tops",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 25.68,
+      "end": 28.24,
+      "text": "The moon sat dented in a pail",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 28.24,
+      "end": 30.62,
+      "text": "And every fence invented jail",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 30.62,
+      "end": 33.24,
+      "text": "Somebody hissed and crossed their heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 33.24,
+      "end": 35.72,
+      "text": "Like I had authored every dark",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 35.72,
+      "end": 38.26,
+      "text": "I only wanted kitchen steam",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 39.1,
+      "end": 40.5,
+      "text": "A crust, a door, a place between",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 40.5,
+      "end": 43.24,
+      "text": "They made an omen from my back",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 43.24,
+      "end": 45.74,
+      "text": "A moving hole, a warning track",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 45.74,
+      "end": 47.86,
+      "text": "As if the night had signed my paws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 48.34,
+      "end": 50.7,
+      "text": "To carry all its little flaws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 50.7,
+      "end": 53.2,
+      "text": "It doesn't curse you when it stares",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 53.2,
+      "end": 55.68,
+      "text": "It only checks the open air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 55.68,
+      "end": 58.22,
+      "text": "Some eyes turn bright because they learn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 58.22,
+      "end": 61.0,
+      "text": "Which headlights do and do not turn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 61.0,
+      "end": 63.38,
+      "text": "Bad luck with a pulse",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 63.38,
+      "end": 65.78,
+      "text": "Hungry ribs and careful skull",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 65.78,
+      "end": 68.38,
+      "text": "If I cross the street too near",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 68.38,
+      "end": 70.86,
+      "text": "That is hunger, that is fear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 70.86,
+      "end": 73.4,
+      "text": "Bad luck with a pulse",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 73.4,
+      "end": 75.9,
+      "text": "Not a spell and not your fault",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 75.9,
+      "end": 78.2,
+      "text": "I am only passing through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 78.2,
+      "end": 80.82,
+      "text": "With all my black fur catching blue",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 90.42,
+      "end": 93.22,
+      "text": "The white one watches from the glass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 93.22,
+      "end": 95.72,
+      "text": "Like daylight trained to raise its mask",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 95.72,
+      "end": 98.18,
+      "text": "I see her paw against the frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 98.18,
+      "end": 100.62,
+      "text": "I do not know her indoor name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 100.62,
+      "end": 103.1,
+      "text": "She has a bowl beneath a clock",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 103.1,
+      "end": 105.56,
+      "text": "I have the timing of the lock",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 105.56,
+      "end": 108.26,
+      "text": "She has a hand that calls her dear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 108.26,
+      "end": 110.74,
+      "text": "I have the map of disappearing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 110.74,
+      "end": 113.24,
+      "text": "Still, when the porch light cuts the rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 113.24,
+      "end": 115.2,
+      "text": "I find myself below her pane",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 115.7,
+      "end": 118.18,
+      "text": "Not begging, no, I would deny",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 118.18,
+      "end": 120.72,
+      "text": "But counting warmth with one green eye",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 120.72,
+      "end": 123.2,
+      "text": "It doesn't shame me that I need",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 123.2,
+      "end": 125.88,
+      "text": "It only makes me hard to read",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 125.88,
+      "end": 127.64,
+      "text": "Pride is just a narrow stair",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 128.12,
+      "end": 130.92,
+      "text": "I climb because the floor is bare",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 130.92,
+      "end": 133.32,
+      "text": "Bad luck with a pulse",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 133.32,
+      "end": 135.82,
+      "text": "Hungry ribs and careful skull",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 135.82,
+      "end": 138.44,
+      "text": "If I cross the street too near",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 138.44,
+      "end": 140.82,
+      "text": "That is hunger, that is fear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 140.82,
+      "end": 143.38,
+      "text": "Bad luck with a pulse",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 143.38,
+      "end": 145.86,
+      "text": "Not a spell and not your fault",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 145.86,
+      "end": 148.2,
+      "text": "I am only passing through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 148.2,
+      "end": 150.74,
+      "text": "With all my black fur catching blue",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 150.74,
+      "end": 153.2,
+      "text": "If I am shadow, let me choose",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 153.2,
+      "end": 155.78,
+      "text": "The shape I keep, the light I use",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 155.78,
+      "end": 158.16,
+      "text": "If I am warning, let it be",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 158.16,
+      "end": 160.42,
+      "text": "Not every stray is tragedy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 160.42,
+      "end": 163.2,
+      "text": "I have survived the thrown-out year",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 163.2,
+      "end": 165.52,
+      "text": "The boot, the broom, the volunteer",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 165.52,
+      "end": 168.2,
+      "text": "I have come back from every wrong",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 168.2,
+      "end": 170.56,
+      "text": "Not cured, not cursed, just moving on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 170.56,
+      "end": 171.54,
+      "text": "(whispered)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 171.54,
+      "end": 173.62,
+      "text": "Do not name me...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 173.62,
+      "end": 175.62,
+      "text": "Do not chase...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 63,
+      "section": "Break",
+      "start": 176.58,
+      "end": 178.04,
+      "text": "Leave the step...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 64,
+      "section": "Break",
+      "start": 178.04,
+      "end": 180.46,
+      "text": "Leave the plate...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 65,
+      "section": "Outro",
+      "start": 181.38,
+      "end": 184.56,
+      "text": "Cross the path... count to three...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 66,
+      "section": "Outro",
+      "start": 184.56,
+      "end": 187.12,
+      "text": "Everybody blaming me",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 67,
+      "section": "Outro",
+      "start": 187.12,
+      "end": 189.54,
+      "text": "Green-eye flash... tail held low...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 68,
+      "section": "Outro",
+      "start": 189.54,
+      "end": 193.3,
+      "text": "I am luck you do not know",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    }
+  ]
+}

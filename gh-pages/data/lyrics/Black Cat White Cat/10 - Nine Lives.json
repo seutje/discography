@@ -1,0 +1,821 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Black Cat White Cat",
+  "title": "Nine Lives",
+  "text_path": "Black Cat White Cat/10 - Nine Lives.txt",
+  "audio_path": "Black Cat White Cat/audio/10 - Nine Lives.mp3",
+  "duration_seconds": 201.98,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 69,
+    "reference_word_count": 428,
+    "observed_word_count": 431,
+    "matched_word_count": 409,
+    "matched_word_ratio": 0.956,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 3.22,
+      "end": 8.56,
+      "text": "count it wasp count it wrong scratch the math and move along"
+    },
+    {
+      "start": 8.56,
+      "end": 15.22,
+      "text": "nine lives owed eight lives spent nobody checks where the first one went"
+    },
+    {
+      "start": 24.24,
+      "end": 29.2,
+      "text": "they say we land on all four feet like landing does not split the street"
+    },
+    {
+      "start": 29.2,
+      "end": 34.42,
+      "text": "like every fall refunds the breath like close calls do not charge interest"
+    },
+    {
+      "start": 34.42,
+      "end": 39.68,
+      "text": "the black cat keeps a private sum of every boot he got away from"
+    },
+    {
+      "start": 39.68,
+      "end": 44.82,
+      "text": "the white cat keeps a quiet chart of every hand that missed the heart"
+    },
+    {
+      "start": 44.82,
+      "end": 49.46,
+      "text": "a life is not a coin you drop and find beneath a butcher block"
+    },
+    {
+      "start": 50.16,
+      "end": 55.26,
+      "text": "it is a room you crawl back through with less of what you thought you knew"
+    },
+    {
+      "start": 55.26,
+      "end": 60.46,
+      "text": "it doesn't mean you reach to last it doesn't balance out the past"
+    },
+    {
+      "start": 60.46,
+      "end": 66.24,
+      "text": "survival is a crooked loan paid in for left on the store"
+    },
+    {
+      "start": 67.02,
+      "end": 72.06,
+      "text": "nine lives is bad at counting all those numbers keep miscounting"
+    },
+    {
+      "start": 72.06,
+      "end": 77.0,
+      "text": "if i made it through before that does not mean i came back more"
+    },
+    {
+      "start": 77.0,
+      "end": 82.34,
+      "text": "nine lives is bad at counting every ledger needs doubting"
+    },
+    {
+      "start": 82.34,
+      "end": 88.24,
+      "text": "do not call me fine because i found the floor and count my claws"
+    },
+    {
+      "start": 91.98,
+      "end": 97.12,
+      "text": "the bowl was full the rain was not the box collapsed the moth forgot"
+    },
+    {
+      "start": 97.12,
+      "end": 102.38,
+      "text": "the bell rang twice the door stayed wide the house kept score from either side"
+    },
+    {
+      "start": 102.38,
+      "end": 107.64,
+      "text": "one life span on looking sweet one on vanishing in the street"
+    },
+    {
+      "start": 107.64,
+      "end": 112.94,
+      "text": "one on learning not to bite one on biting when it was right"
+    },
+    {
+      "start": 112.94,
+      "end": 117.82,
+      "text": "what remains is not a stack of spare cells waiting in the back"
+    },
+    {
+      "start": 117.82,
+      "end": 123.8,
+      "text": "it is the same self patched and thin still asking morning to come in"
+    },
+    {
+      "start": 123.8,
+      "end": 129.0,
+      "text": "that doesn't mean the joke is cruel it only gives the wound a stool"
+    },
+    {
+      "start": 129.0,
+      "end": 135.52,
+      "text": "some truths can sit and cross their legs and ask for breakfast ask for eggs"
+    },
+    {
+      "start": 135.52,
+      "end": 140.92,
+      "text": "nine lives is bad at counting all those numbers keep miscounting"
+    },
+    {
+      "start": 140.92,
+      "end": 146.2,
+      "text": "if i made it through before that does not mean i came back more"
+    },
+    {
+      "start": 146.2,
+      "end": 151.48,
+      "text": "nine lives is bad at counting every ledger needs doubting"
+    },
+    {
+      "start": 151.48,
+      "end": 157.22,
+      "text": "do not call me fine because i found the floor and count my claws"
+    },
+    {
+      "start": 157.22,
+      "end": 162.34,
+      "text": "i do not need a miracle i need the bill made visible"
+    },
+    {
+      "start": 162.34,
+      "end": 167.38,
+      "text": "the little cost the hidden rent of being almost gone and present"
+    },
+    {
+      "start": 167.38,
+      "end": 172.76,
+      "text": "and if i laugh then let me laugh at holy math cut clean in half"
+    },
+    {
+      "start": 172.76,
+      "end": 177.56,
+      "text": "at every myth that tries to prove the living have no right"
+    },
+    {
+      "start": 177.56,
+      "end": 184.1,
+      "text": "do bruise carry the one lose the two"
+    },
+    {
+      "start": 185.54,
+      "end": 192.7,
+      "text": "start again same you count it once count it wrong"
+    },
+    {
+      "start": 192.7,
+      "end": 198.34,
+      "text": "scratch the math and move along nine lives owed one life here"
+    },
+    {
+      "start": 198.94,
+      "end": 201.98,
+      "text": "spend it careful keep it near"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 3.22,
+      "end": 5.86,
+      "text": "Count it once... count it wrong...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 5.86,
+      "end": 8.56,
+      "text": "Scratch the math and move along",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 8.56,
+      "end": 11.06,
+      "text": "Nine lives owed... eight lives spent...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 11.06,
+      "end": 15.22,
+      "text": "Nobody checks where the first one went",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 23.94,
+      "end": 26.64,
+      "text": "They say we land on all four feet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 26.64,
+      "end": 29.2,
+      "text": "Like landing does not split the street",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 29.2,
+      "end": 31.78,
+      "text": "Like every fall refunds the breath",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 31.78,
+      "end": 34.42,
+      "text": "Like close calls do not charge interest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 34.42,
+      "end": 37.02,
+      "text": "The black cat keeps a private sum",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 37.02,
+      "end": 39.68,
+      "text": "Of every boot he got away from",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 39.68,
+      "end": 42.2,
+      "text": "The white cat keeps a quiet chart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 42.2,
+      "end": 44.82,
+      "text": "Of every hand that missed the heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 44.82,
+      "end": 46.84,
+      "text": "A life is not a coin you drop",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 46.84,
+      "end": 49.46,
+      "text": "And find beneath the butcher block",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 50.12,
+      "end": 52.3,
+      "text": "It is a room you crawl back through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 52.3,
+      "end": 55.26,
+      "text": "With less of what you thought you knew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 55.26,
+      "end": 57.96,
+      "text": "It doesn't make you rich to last",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 57.96,
+      "end": 60.46,
+      "text": "It doesn't balance out the past",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 60.46,
+      "end": 63.2,
+      "text": "Survival is a crooked loan",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 63.2,
+      "end": 65.52,
+      "text": "Paid in fur left on the stone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 67.02,
+      "end": 68.52,
+      "text": "Nine lives is bad accounting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 69.24,
+      "end": 72.06,
+      "text": "All those numbers keep miscounting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 72.06,
+      "end": 74.06,
+      "text": "If I made it through before",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 74.06,
+      "end": 77.0,
+      "text": "That does not mean I came back more",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 77.0,
+      "end": 78.92,
+      "text": "Nine lives is bad accounting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 79.6,
+      "end": 82.34,
+      "text": "Every ledger needs doubting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 82.34,
+      "end": 84.46,
+      "text": "Do not call me fine because",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 84.46,
+      "end": 88.24,
+      "text": "I found the floor and kept my claws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 91.98,
+      "end": 94.56,
+      "text": "The bowl was full, the rain was not",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 94.56,
+      "end": 97.12,
+      "text": "The box collapsed, the moth forgot",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 97.12,
+      "end": 99.9,
+      "text": "The bell rang twice, the door stayed wide",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 99.9,
+      "end": 102.38,
+      "text": "The house kept score from either side",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 102.38,
+      "end": 104.9,
+      "text": "One life spent on looking sweet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 104.9,
+      "end": 107.64,
+      "text": "One on vanishing in the street",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 107.64,
+      "end": 110.2,
+      "text": "One on learning not to bite",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 110.2,
+      "end": 112.94,
+      "text": "One on biting when it was right",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 112.94,
+      "end": 115.32,
+      "text": "What remains is not a stack",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 115.32,
+      "end": 117.82,
+      "text": "Of spare selves waiting in the back",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 117.82,
+      "end": 120.44,
+      "text": "It is the same self, patched and thin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 120.44,
+      "end": 123.8,
+      "text": "Still asking morning to come in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 124.2,
+      "end": 126.5,
+      "text": "It doesn't mean the joke is cruel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 126.5,
+      "end": 129.0,
+      "text": "It only gives the wound a stool",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 129.0,
+      "end": 131.8,
+      "text": "Some truths can sit and cross their legs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 131.8,
+      "end": 135.52,
+      "text": "And ask for breakfast, ask for eggs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 135.52,
+      "end": 137.24,
+      "text": "Nine lives is bad accounting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 137.9,
+      "end": 140.92,
+      "text": "All those numbers keep miscounting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 140.92,
+      "end": 143.06,
+      "text": "If I made it through before",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 143.06,
+      "end": 146.2,
+      "text": "That does not mean I came back more",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 146.2,
+      "end": 147.9,
+      "text": "Nine lives is bad accounting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 148.66,
+      "end": 151.48,
+      "text": "Every ledger needs doubting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 151.48,
+      "end": 153.8,
+      "text": "Do not call me fine because",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 153.8,
+      "end": 157.22,
+      "text": "I found the floor and kept my claws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 157.22,
+      "end": 159.62,
+      "text": "I do not need a miracle",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 159.62,
+      "end": 162.34,
+      "text": "I need the bill made visible",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 162.34,
+      "end": 165.14,
+      "text": "The little costs, the hidden rent",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 165.14,
+      "end": 167.38,
+      "text": "Of being almost gone, then present",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 167.38,
+      "end": 169.98,
+      "text": "And if I laugh, then let me laugh",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 169.98,
+      "end": 172.76,
+      "text": "At holy math cut clean in half",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 172.76,
+      "end": 175.4,
+      "text": "At every myth that tries to prove",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 175.4,
+      "end": 179.22,
+      "text": "The living have no right to bruise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 179.22,
+      "end": 179.58,
+      "text": "(whispered)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 179.58,
+      "end": 181.32,
+      "text": "Carry the one...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 181.32,
+      "end": 184.22,
+      "text": "Lose the two...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 63,
+      "section": "Break",
+      "start": 185.54,
+      "end": 187.38,
+      "text": "Start again...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 64,
+      "section": "Break",
+      "start": 187.74,
+      "end": 189.78,
+      "text": "Same you...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 65,
+      "section": "Outro",
+      "start": 189.78,
+      "end": 192.7,
+      "text": "Count it once... count it wrong...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 66,
+      "section": "Outro",
+      "start": 192.7,
+      "end": 195.48,
+      "text": "Scratch the math and move along",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 67,
+      "section": "Outro",
+      "start": 195.48,
+      "end": 198.34,
+      "text": "Nine lives owed... one life here...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 68,
+      "section": "Outro",
+      "start": 198.88,
+      "end": 201.98,
+      "text": "Spend it careful, keep it near",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    }
+  ]
+}

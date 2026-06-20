@@ -1,0 +1,816 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Black Cat White Cat",
+  "title": "The Door Was Never Closed",
+  "text_path": "Black Cat White Cat/04 - The Door Was Never Closed.txt",
+  "audio_path": "Black Cat White Cat/audio/04 - The Door Was Never Closed.mp3",
+  "duration_seconds": 236.78,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 69,
+    "reference_word_count": 418,
+    "observed_word_count": 414,
+    "matched_word_count": 394,
+    "matched_word_ratio": 0.943,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 2.28,
+      "end": 12.94,
+      "text": "latching throat floor in the rain something open without a name"
+    },
+    {
+      "start": 12.94,
+      "end": 22.86,
+      "text": "inside breath outside call door standing nearly nothing at all"
+    },
+    {
+      "start": 33.94,
+      "end": 39.08,
+      "text": "the door was never closed all night it leaned there drinking porch light"
+    },
+    {
+      "start": 39.08,
+      "end": 44.82,
+      "text": "a narrow mouth a wooden doubt letting weather think about"
+    },
+    {
+      "start": 44.82,
+      "end": 50.26,
+      "text": "the white cat saw the cushion fade the exact warm dent her body made"
+    },
+    {
+      "start": 50.26,
+      "end": 55.92,
+      "text": "the black cat saw the alley bend like a road pretending friend"
+    },
+    {
+      "start": 55.92,
+      "end": 61.48,
+      "text": "neither crossed and neither slept both kept count of what they kept"
+    },
+    {
+      "start": 61.48,
+      "end": 67.4,
+      "text": "one had rooms that knew her needs one had roofs and elder trees"
+    },
+    {
+      "start": 67.4,
+      "end": 73.22,
+      "text": "it doesn't tell you leave or stay it only takes the lock away"
+    },
+    {
+      "start": 73.22,
+      "end": 78.8,
+      "text": "and every choice you thought was clear starts growing whiskers in your ear"
+    },
+    {
+      "start": 78.8,
+      "end": 84.02,
+      "text": "the door was never closed not freedom not a home"
+    },
+    {
+      "start": 84.02,
+      "end": 89.42,
+      "text": "just a line the evening drew between the self and what it knew"
+    },
+    {
+      "start": 89.42,
+      "end": 95.0,
+      "text": "the door was never closed no answer in the cold"
+    },
+    {
+      "start": 95.0,
+      "end": 100.8,
+      "text": "if i step out or step back then which part of me begins again"
+    },
+    {
+      "start": 105.64,
+      "end": 110.86,
+      "text": "the black cat placed one paw inside and hated how the four replied"
+    },
+    {
+      "start": 110.86,
+      "end": 116.44,
+      "text": "too warm too known too near a hand too much like being asked to land"
+    },
+    {
+      "start": 116.44,
+      "end": 122.1,
+      "text": "the white cat placed one palm stone and felt the garden call her own"
+    },
+    {
+      "start": 122.1,
+      "end": 127.9,
+      "text": "too wide too damp too full of wings too honest with the hidden things"
+    },
+    {
+      "start": 127.9,
+      "end": 133.5,
+      "text": "a moth kept tapping at the ball the small bride wished a foolish skull"
+    },
+    {
+      "start": 133.5,
+      "end": 140.16,
+      "text": "the bell around the white throat stirred the black cat froze at that small word"
+    },
+    {
+      "start": 140.16,
+      "end": 146.08,
+      "text": "it doesn't heal the split in two it only lets the weather through"
+    },
+    {
+      "start": 146.08,
+      "end": 151.96,
+      "text": "till every wall that kept you whole starts asking for a larger role"
+    },
+    {
+      "start": 151.96,
+      "end": 157.28,
+      "text": "the door was never closed not freedom not a home"
+    },
+    {
+      "start": 157.28,
+      "end": 162.82,
+      "text": "just a line the evening drew between the self and what it knew"
+    },
+    {
+      "start": 162.82,
+      "end": 168.62,
+      "text": "the door was never closed no answer in the cold"
+    },
+    {
+      "start": 168.62,
+      "end": 174.64,
+      "text": "if i step out or step back then which part of me begins again"
+    },
+    {
+      "start": 174.64,
+      "end": 180.88,
+      "text": "inside is not the same and safe outside is not the same as brave"
+    },
+    {
+      "start": 180.88,
+      "end": 186.58,
+      "text": "a room can hold you like a palm a streak can teach a crooked calm"
+    },
+    {
+      "start": 186.58,
+      "end": 192.46,
+      "text": "so let the hinge keep half a song let neither side be wholly wrong"
+    },
+    {
+      "start": 192.46,
+      "end": 198.64,
+      "text": "we can return and still have gone we can leave without moving on"
+    },
+    {
+      "start": 198.64,
+      "end": 212.56,
+      "text": "one paw then none then both not yet"
+    },
+    {
+      "start": 212.56,
+      "end": 223.36,
+      "text": "blotch in the throat floor in the rain something open without a name"
+    },
+    {
+      "start": 223.36,
+      "end": 236.78,
+      "text": "inside breath outside call we cross the line by watching home"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 3.68,
+      "end": 7.48,
+      "text": "Latch in the throat... floor in the rain...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 7.48,
+      "end": 12.94,
+      "text": "Something open without a name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 12.94,
+      "end": 16.84,
+      "text": "Inside breath... outside call...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 17.84,
+      "end": 22.86,
+      "text": "Door standing nearly nothing at all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 33.94,
+      "end": 36.4,
+      "text": "The door was never closed all night",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 36.4,
+      "end": 39.08,
+      "text": "It leaned there drinking porch light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 39.08,
+      "end": 42.24,
+      "text": "A narrow mouth, a wooden doubt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 42.24,
+      "end": 44.82,
+      "text": "Letting weather think about",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 44.82,
+      "end": 47.1,
+      "text": "The white cat saw the cushion fade",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 47.1,
+      "end": 50.26,
+      "text": "The exact warm dent her body made",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 50.26,
+      "end": 52.54,
+      "text": "The black cat saw the alley bend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 52.54,
+      "end": 55.92,
+      "text": "Like a road pretending friend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 55.92,
+      "end": 58.68,
+      "text": "Neither crossed and neither slept",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 58.68,
+      "end": 61.48,
+      "text": "Both kept count of what they kept",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 61.48,
+      "end": 63.86,
+      "text": "One had rooms that knew her knees",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 64.26,
+      "end": 67.4,
+      "text": "One had roofs and elder trees",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 67.4,
+      "end": 70.34,
+      "text": "It doesn't tell you leave or stay",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 70.34,
+      "end": 73.22,
+      "text": "It only takes the lock away",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 73.22,
+      "end": 75.66,
+      "text": "And every choice you thought was clear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 75.66,
+      "end": 78.8,
+      "text": "Starts growing whiskers in your ear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 78.8,
+      "end": 81.54,
+      "text": "The door was never closed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 81.54,
+      "end": 84.02,
+      "text": "Not freedom, not a home",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 84.02,
+      "end": 86.48,
+      "text": "Just a line the evening drew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 86.48,
+      "end": 89.42,
+      "text": "Between the self and what it knew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 89.42,
+      "end": 92.54,
+      "text": "The door was never closed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 92.54,
+      "end": 95.0,
+      "text": "No answer in the cold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 95.0,
+      "end": 97.42,
+      "text": "If I step out or step back in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 97.74,
+      "end": 100.8,
+      "text": "Which part of me begins again?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 105.64,
+      "end": 108.1,
+      "text": "The black cat placed one paw inside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 108.1,
+      "end": 110.86,
+      "text": "And hated how the floor replied",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 110.86,
+      "end": 113.7,
+      "text": "Too warm, too known, too near a hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 113.7,
+      "end": 116.44,
+      "text": "Too much like being asked to land",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 116.44,
+      "end": 119.32,
+      "text": "The white cat placed one paw on stone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 119.32,
+      "end": 122.1,
+      "text": "And felt the garden call her own",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 122.1,
+      "end": 125.04,
+      "text": "Too wide, too damp, too full of wings",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 125.04,
+      "end": 127.9,
+      "text": "Too honest with the hidden things",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 127.9,
+      "end": 130.22,
+      "text": "A moth kept tapping at the bulb",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 130.9,
+      "end": 133.5,
+      "text": "A small bright wish, a foolish skull",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 133.5,
+      "end": 136.24,
+      "text": "The bell around the white throat stirred",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 136.24,
+      "end": 140.16,
+      "text": "The black cat froze at that small word",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 140.16,
+      "end": 143.3,
+      "text": "It doesn't heal the split in two",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 143.3,
+      "end": 146.08,
+      "text": "It only lets the weather through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 146.62,
+      "end": 148.58,
+      "text": "Til every wall that kept you whole",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 148.58,
+      "end": 151.96,
+      "text": "Starts asking for a larger role",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 151.96,
+      "end": 154.74,
+      "text": "The door was never closed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 154.74,
+      "end": 157.28,
+      "text": "Not freedom, not a home",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 157.28,
+      "end": 159.88,
+      "text": "Just a line the evening drew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 159.88,
+      "end": 162.82,
+      "text": "Between the self and what it knew",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 162.82,
+      "end": 166.18,
+      "text": "The door was never closed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 166.18,
+      "end": 168.62,
+      "text": "No answer in the cold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 168.62,
+      "end": 171.14,
+      "text": "If I step out or step back in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 171.48,
+      "end": 174.64,
+      "text": "Which part of me begins again?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 174.64,
+      "end": 178.02,
+      "text": "Inside is not the same as safe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 178.02,
+      "end": 180.88,
+      "text": "Outside is not the same as brave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 180.88,
+      "end": 183.72,
+      "text": "A room can hold you like a palm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 183.72,
+      "end": 186.58,
+      "text": "A street can teach a crooked calm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 186.58,
+      "end": 189.56,
+      "text": "So let the hinge keep half a song",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 189.56,
+      "end": 192.46,
+      "text": "Let neither side be wholly wrong",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 192.46,
+      "end": 195.58,
+      "text": "We can return and still have gone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 195.58,
+      "end": 198.64,
+      "text": "We can leave without moving on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 198.64,
+      "end": 198.74,
+      "text": "(whispered)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 198.74,
+      "end": 200.44,
+      "text": "One paw...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 206.32,
+      "end": 207.7,
+      "text": "Then none...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 63,
+      "section": "Break",
+      "start": 209.18,
+      "end": 210.32,
+      "text": "Then both...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 64,
+      "section": "Break",
+      "start": 211.7,
+      "end": 212.56,
+      "text": "Not yet...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 65,
+      "section": "Outro",
+      "start": 213.5,
+      "end": 217.82,
+      "text": "Latch in the throat... floor in the rain...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 66,
+      "section": "Outro",
+      "start": 217.82,
+      "end": 223.36,
+      "text": "Something open without a name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 67,
+      "section": "Outro",
+      "start": 223.36,
+      "end": 226.02,
+      "text": "Inside breath... outside call...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 68,
+      "section": "Outro",
+      "start": 229.06,
+      "end": 235.26,
+      "text": "We crossed the line by watching all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    }
+  ]
+}

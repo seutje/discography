@@ -1,0 +1,1114 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Black Cat White Cat",
+  "title": "Purring in the Walls",
+  "text_path": "Black Cat White Cat/13 - Purring in the Walls.txt",
+  "audio_path": "Black Cat White Cat/audio/13 - Purring in the Walls.mp3",
+  "duration_seconds": 275.28,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 76,
+    "reference_word_count": 427,
+    "observed_word_count": 421,
+    "matched_word_count": 391,
+    "matched_word_ratio": 0.916,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 4.74,
+      "end": 6.14,
+      "text": "the"
+    },
+    {
+      "start": 10.04,
+      "end": 14.46,
+      "text": "in the wall under the stair"
+    },
+    {
+      "start": 16.12,
+      "end": 18.62,
+      "text": "something breathing through"
+    },
+    {
+      "start": 20.68,
+      "end": 24.96,
+      "text": "dawn in the room dust on the floor"
+    },
+    {
+      "start": 26.52,
+      "end": 30.56,
+      "text": "every cat has been here before"
+    },
+    {
+      "start": 31.52,
+      "end": 35.16,
+      "text": "by morning both had found the sun"
+    },
+    {
+      "start": 35.16,
+      "end": 41.9,
+      "text": "the same small patch the only one"
+    },
+    {
+      "start": 42.52,
+      "end": 45.52,
+      "text": "no treaty sign no ribbon tied"
+    },
+    {
+      "start": 46.22,
+      "end": 52.54,
+      "text": "just ribs rising side by side"
+    },
+    {
+      "start": 52.54,
+      "end": 56.72,
+      "text": "the door stood open less impressed"
+    },
+    {
+      "start": 56.72,
+      "end": 59.5,
+      "text": "the bowls were washed the box compressed"
+    },
+    {
+      "start": 59.5,
+      "end": 62.32,
+      "text": "the bell lay dull beneath the chair"
+    },
+    {
+      "start": 62.32,
+      "end": 64.92,
+      "text": "the moth was somewhere being aired"
+    },
+    {
+      "start": 64.92,
+      "end": 67.82,
+      "text": "the house had learned their separate weights"
+    },
+    {
+      "start": 67.82,
+      "end": 69.94,
+      "text": "the window kept its pride"
+    },
+    {
+      "start": 69.94,
+      "end": 73.42,
+      "text": "mistakes and every sill and every seam"
+    },
+    {
+      "start": 73.42,
+      "end": 76.16,
+      "text": "held fur from someone else's dream"
+    },
+    {
+      "start": 77.38,
+      "end": 80.24,
+      "text": "it doesn't end by being known"
+    },
+    {
+      "start": 80.24,
+      "end": 83.24,
+      "text": "it only makes a warmer tone"
+    },
+    {
+      "start": 83.24,
+      "end": 85.24,
+      "text": "when all the hidden engines start"
+    },
+    {
+      "start": 85.84,
+      "end": 88.22,
+      "text": "to hum beneath the human"
+    },
+    {
+      "start": 88.22,
+      "end": 90.82,
+      "text": "hurrying in the walls"
+    },
+    {
+      "start": 90.82,
+      "end": 93.34,
+      "text": "comfort warning engine call"
+    },
+    {
+      "start": 93.34,
+      "end": 96.28,
+      "text": "not a cure and not applause"
+    },
+    {
+      "start": 96.28,
+      "end": 99.22,
+      "text": "just the room remembering pause"
+    },
+    {
+      "start": 99.22,
+      "end": 101.24,
+      "text": "hurrying in the walls"
+    },
+    {
+      "start": 101.8,
+      "end": 104.3,
+      "text": "every small survivor's lost"
+    },
+    {
+      "start": 104.3,
+      "end": 107.24,
+      "text": "if we sleep where sunlight falls"
+    },
+    {
+      "start": 107.24,
+      "end": 109.76,
+      "text": "let the house remember all"
+    },
+    {
+      "start": 111.74,
+      "end": 114.72,
+      "text": "there were old cats in the plaster"
+    },
+    {
+      "start": 114.72,
+      "end": 117.68,
+      "text": "fast ones shy ones gone ones masters"
+    },
+    {
+      "start": 117.68,
+      "end": 120.1,
+      "text": "names worn thin by kitchen years"
+    },
+    {
+      "start": 120.1,
+      "end": 122.88,
+      "text": "bowls replaced in missing years"
+    },
+    {
+      "start": 122.88,
+      "end": 125.6,
+      "text": "there were scratches on the landing"
+    },
+    {
+      "start": 126.24,
+      "end": 128.46,
+      "text": "every mark a small withstanding"
+    },
+    {
+      "start": 128.46,
+      "end": 130.94,
+      "text": "there were stories no one kept"
+    },
+    {
+      "start": 130.94,
+      "end": 133.62,
+      "text": "except the floorboards where they slept"
+    },
+    {
+      "start": 133.62,
+      "end": 136.42,
+      "text": "the black cat heard them underfoot"
+    },
+    {
+      "start": 136.42,
+      "end": 139.08,
+      "text": "the white cat heard and understood"
+    },
+    {
+      "start": 139.08,
+      "end": 142.02,
+      "text": "not ghost exactly not a choir"
+    },
+    {
+      "start": 142.02,
+      "end": 144.86,
+      "text": "more like embers under wire"
+    },
+    {
+      "start": 146.08,
+      "end": 148.58,
+      "text": "it doesn't ask the wound to leave"
+    },
+    {
+      "start": 149.42,
+      "end": 151.44,
+      "text": "it only gives the wound a sleeve"
+    },
+    {
+      "start": 151.44,
+      "end": 154.22,
+      "text": "a place to shed a place to stay"
+    },
+    {
+      "start": 154.22,
+      "end": 156.84,
+      "text": "a low note under ordinary day"
+    },
+    {
+      "start": 157.42,
+      "end": 159.38,
+      "text": "hurrying in the walls"
+    },
+    {
+      "start": 159.38,
+      "end": 161.94,
+      "text": "comfort warning engine call"
+    },
+    {
+      "start": 161.94,
+      "end": 164.82,
+      "text": "not a cure and not applause"
+    },
+    {
+      "start": 164.82,
+      "end": 167.76,
+      "text": "just the room remembering pause"
+    },
+    {
+      "start": 167.76,
+      "end": 170.32,
+      "text": "hurrying in the walls"
+    },
+    {
+      "start": 170.32,
+      "end": 172.84,
+      "text": "every small survivor's lost"
+    },
+    {
+      "start": 172.84,
+      "end": 175.84,
+      "text": "if we sleep where sunlight falls"
+    },
+    {
+      "start": 175.84,
+      "end": 178.64,
+      "text": "let the house remember all"
+    },
+    {
+      "start": 178.64,
+      "end": 180.82,
+      "text": "white fur in the black laundry"
+    },
+    {
+      "start": 181.34,
+      "end": 183.92,
+      "text": "black fur on the white sheet"
+    },
+    {
+      "start": 183.92,
+      "end": 186.98,
+      "text": "no one exits cleanly"
+    },
+    {
+      "start": 186.98,
+      "end": 189.52,
+      "text": "no one loves without a trace"
+    },
+    {
+      "start": 189.52,
+      "end": 191.82,
+      "text": "we leave ourselves in corners"
+    },
+    {
+      "start": 192.22,
+      "end": 195.02,
+      "text": "in cuffs in couch in song"
+    },
+    {
+      "start": 195.02,
+      "end": 197.66,
+      "text": "not to haunt the living"
+    },
+    {
+      "start": 197.66,
+      "end": 201.22,
+      "text": "just to say we moved along"
+    },
+    {
+      "start": 211.84,
+      "end": 214.66,
+      "text": "low in the wall"
+    },
+    {
+      "start": 215.22,
+      "end": 217.22,
+      "text": "breath by breath"
+    },
+    {
+      "start": 218.4,
+      "end": 222.62,
+      "text": "room for what escaped the dead"
+    },
+    {
+      "start": 222.62,
+      "end": 225.18,
+      "text": "hurrying in the walls"
+    },
+    {
+      "start": 225.18,
+      "end": 227.8,
+      "text": "comfort warning engine call"
+    },
+    {
+      "start": 227.8,
+      "end": 230.5,
+      "text": "not a cure and not applause"
+    },
+    {
+      "start": 230.5,
+      "end": 233.64,
+      "text": "just the room remembering pause"
+    },
+    {
+      "start": 233.64,
+      "end": 236.14,
+      "text": "hurrying in the walls"
+    },
+    {
+      "start": 236.14,
+      "end": 238.66,
+      "text": "every small survivor's lost"
+    },
+    {
+      "start": 238.66,
+      "end": 241.66,
+      "text": "if we sleep where sunlight falls"
+    },
+    {
+      "start": 241.66,
+      "end": 244.54,
+      "text": "let the house remember all"
+    },
+    {
+      "start": 244.54,
+      "end": 255.78,
+      "text": "low in the wall"
+    },
+    {
+      "start": 255.78,
+      "end": 258.74,
+      "text": "under the stair"
+    },
+    {
+      "start": 258.74,
+      "end": 264.18,
+      "text": "something breathing through the air"
+    },
+    {
+      "start": 264.18,
+      "end": 266.8,
+      "text": "dawn in the room"
+    },
+    {
+      "start": 266.8,
+      "end": 269.74,
+      "text": "dust on the floor"
+    },
+    {
+      "start": 269.74,
+      "end": 272.58,
+      "text": "two cats asleep"
+    },
+    {
+      "start": 272.58,
+      "end": 274.52,
+      "text": "where neither was"
+    },
+    {
+      "start": 274.52,
+      "end": 275.28,
+      "text": "before"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro",
+      "start": 9.98,
+      "end": 14.46,
+      "text": "Low in the wall... under the stair...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 1,
+      "section": "Intro",
+      "start": 15.92,
+      "end": 18.62,
+      "text": "Something breathing through the air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 2,
+      "section": "Intro",
+      "start": 20.52,
+      "end": 25.52,
+      "text": "Dawn in the room... dust on the floor...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 3,
+      "section": "Intro",
+      "start": 26.52,
+      "end": 30.56,
+      "text": "Every cat has been here before",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 4,
+      "section": "Verse 1",
+      "start": 31.28,
+      "end": 35.16,
+      "text": "By morning both had found the sun",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 5,
+      "section": "Verse 1",
+      "start": 35.16,
+      "end": 41.9,
+      "text": "The same small patch, the only one",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 6,
+      "section": "Verse 1",
+      "start": 42.18,
+      "end": 45.86,
+      "text": "No treaty signed, no ribbon tied",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 46.22,
+      "end": 52.54,
+      "text": "Just ribs rising side by side",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 8,
+      "section": "Verse 1",
+      "start": 52.54,
+      "end": 56.72,
+      "text": "The door stood open, less impressed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 9,
+      "section": "Verse 1",
+      "start": 56.72,
+      "end": 59.5,
+      "text": "The bowls were washed, the box compressed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 59.5,
+      "end": 62.32,
+      "text": "The bell lay dull beneath a chair",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 11,
+      "section": "Verse 1",
+      "start": 62.32,
+      "end": 64.54,
+      "text": "The moth was somewhere being air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 12,
+      "section": "Verse 1",
+      "start": 64.92,
+      "end": 67.82,
+      "text": "The house had learned their separate weights",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 13,
+      "section": "Verse 1",
+      "start": 67.82,
+      "end": 70.7,
+      "text": "The window kept its bright mistakes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "Verse 1",
+      "start": 70.7,
+      "end": 73.42,
+      "text": "And every sill and every seam",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 15,
+      "section": "Verse 1",
+      "start": 73.42,
+      "end": 76.16,
+      "text": "Held fur from someone else's dream",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 16,
+      "section": "Pre-Chorus",
+      "start": 77.38,
+      "end": 80.24,
+      "text": "It doesn't end by being known",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 17,
+      "section": "Pre-Chorus",
+      "start": 80.24,
+      "end": 83.24,
+      "text": "It only makes a warmer tone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 18,
+      "section": "Pre-Chorus",
+      "start": 83.24,
+      "end": 85.58,
+      "text": "When all the hidden engines start",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 19,
+      "section": "Pre-Chorus",
+      "start": 85.84,
+      "end": 88.22,
+      "text": "To hum beneath the human heart",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 20,
+      "section": "Chorus",
+      "start": 89.62,
+      "end": 90.82,
+      "text": "Purring in the walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Chorus",
+      "start": 90.82,
+      "end": 93.34,
+      "text": "Comfort, warning, engine, call",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 22,
+      "section": "Chorus",
+      "start": 93.34,
+      "end": 96.28,
+      "text": "Not a cure and not applause",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 23,
+      "section": "Chorus",
+      "start": 96.28,
+      "end": 98.24,
+      "text": "Just the room remembering paws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 24,
+      "section": "Chorus",
+      "start": 100.6,
+      "end": 101.62,
+      "text": "Purring in the walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 25,
+      "section": "Chorus",
+      "start": 101.8,
+      "end": 104.06,
+      "text": "Every small survivor's law",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 26,
+      "section": "Chorus",
+      "start": 104.3,
+      "end": 107.24,
+      "text": "If we sleep where sunlight falls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 27,
+      "section": "Chorus",
+      "start": 107.24,
+      "end": 109.76,
+      "text": "Let the house remember all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 111.74,
+      "end": 114.72,
+      "text": "There were old cats in the plaster",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 114.72,
+      "end": 117.68,
+      "text": "Fast ones, shy ones, gone ones, masters",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 117.68,
+      "end": 120.1,
+      "text": "Names worn thin by kitchen years",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 31,
+      "section": "Verse 2",
+      "start": 120.1,
+      "end": 122.24,
+      "text": "Bowls replaced and missing ears",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 32,
+      "section": "Verse 2",
+      "start": 122.88,
+      "end": 125.6,
+      "text": "There were scratches on the landing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 33,
+      "section": "Verse 2",
+      "start": 126.08,
+      "end": 128.46,
+      "text": "Every mark a small withstanding",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 34,
+      "section": "Verse 2",
+      "start": 128.46,
+      "end": 130.94,
+      "text": "There were stories no one kept",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 35,
+      "section": "Verse 2",
+      "start": 130.94,
+      "end": 133.62,
+      "text": "Except the floorboards where they slept",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 36,
+      "section": "Verse 2",
+      "start": 133.62,
+      "end": 136.42,
+      "text": "The black cat heard them underfoot",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 37,
+      "section": "Verse 2",
+      "start": 136.42,
+      "end": 139.08,
+      "text": "The white cat heard and understood",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 38,
+      "section": "Verse 2",
+      "start": 139.08,
+      "end": 142.02,
+      "text": "Not ghosts exactly, not a choir",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 39,
+      "section": "Verse 2",
+      "start": 142.02,
+      "end": 144.86,
+      "text": "More like embers under wire",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 40,
+      "section": "Pre-Chorus 2",
+      "start": 146.08,
+      "end": 148.58,
+      "text": "It doesn't ask the wound to leave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 149.22,
+      "end": 151.44,
+      "text": "It only gives the wound a sleeve",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 42,
+      "section": "Pre-Chorus 2",
+      "start": 151.44,
+      "end": 154.22,
+      "text": "A place to shed, a place to stay",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 43,
+      "section": "Pre-Chorus 2",
+      "start": 154.22,
+      "end": 156.84,
+      "text": "A low note under ordinary day",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 44,
+      "section": "Chorus",
+      "start": 158.2,
+      "end": 159.38,
+      "text": "Purring in the walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 45,
+      "section": "Chorus",
+      "start": 159.38,
+      "end": 161.94,
+      "text": "Comfort, warning, engine, call",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 46,
+      "section": "Chorus",
+      "start": 161.94,
+      "end": 164.82,
+      "text": "Not a cure and not applause",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 47,
+      "section": "Chorus",
+      "start": 164.82,
+      "end": 166.88,
+      "text": "Just the room remembering paws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 48,
+      "section": "Chorus",
+      "start": 169.14,
+      "end": 170.32,
+      "text": "Purring in the walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 170.32,
+      "end": 172.62,
+      "text": "Every small survivor's law",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 172.84,
+      "end": 175.84,
+      "text": "If we sleep where sunlight falls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 51,
+      "section": "Chorus",
+      "start": 175.84,
+      "end": 178.64,
+      "text": "Let the house remember all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 52,
+      "section": "Bridge",
+      "start": 178.64,
+      "end": 180.92,
+      "text": "White fur in the black laundry",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 53,
+      "section": "Bridge",
+      "start": 181.34,
+      "end": 183.92,
+      "text": "Black fur on the white sheet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 54,
+      "section": "Bridge",
+      "start": 183.92,
+      "end": 186.98,
+      "text": "No one exits cleanly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 55,
+      "section": "Bridge",
+      "start": 186.98,
+      "end": 189.52,
+      "text": "No one loves without a trace",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 56,
+      "section": "Bridge",
+      "start": 189.52,
+      "end": 192.22,
+      "text": "We leave ourselves in corners",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 57,
+      "section": "Bridge",
+      "start": 192.22,
+      "end": 195.02,
+      "text": "In cuffs and couch and song",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 58,
+      "section": "Bridge",
+      "start": 195.02,
+      "end": 197.66,
+      "text": "Not to haunt the living",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 59,
+      "section": "Bridge",
+      "start": 197.66,
+      "end": 201.22,
+      "text": "Just to say we moved along",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 60,
+      "section": "Break",
+      "start": 201.22,
+      "end": 211.84,
+      "text": "(soft group voices)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Break",
+      "start": 211.84,
+      "end": 214.66,
+      "text": "Low in the wall...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 62,
+      "section": "Break",
+      "start": 215.22,
+      "end": 217.22,
+      "text": "Breath by breath...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 63,
+      "section": "Break",
+      "start": 218.4,
+      "end": 221.32,
+      "text": "Room for what escaped the depth...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 64,
+      "section": "Final Chorus",
+      "start": 224.02,
+      "end": 225.18,
+      "text": "Purring in the walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 65,
+      "section": "Final Chorus",
+      "start": 225.18,
+      "end": 227.8,
+      "text": "Comfort, warning, engine, call",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 66,
+      "section": "Final Chorus",
+      "start": 227.8,
+      "end": 230.5,
+      "text": "Not a cure and not applause",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 67,
+      "section": "Final Chorus",
+      "start": 230.5,
+      "end": 232.68,
+      "text": "Just the room remembering paws",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 68,
+      "section": "Final Chorus",
+      "start": 234.98,
+      "end": 236.14,
+      "text": "Purring in the walls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 69,
+      "section": "Final Chorus",
+      "start": 236.14,
+      "end": 238.42,
+      "text": "Every small survivor's law",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 70,
+      "section": "Final Chorus",
+      "start": 238.66,
+      "end": 241.66,
+      "text": "If we sleep where sunlight falls",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 71,
+      "section": "Final Chorus",
+      "start": 241.66,
+      "end": 244.54,
+      "text": "Let the house remember all",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 72,
+      "section": "Outro",
+      "start": 244.54,
+      "end": 255.78,
+      "text": "Low in the wall... under the stair...",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 73,
+      "section": "Outro",
+      "start": 258.74,
+      "end": 264.18,
+      "text": "Something breathing through the air",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 74,
+      "section": "Outro",
+      "start": 264.18,
+      "end": 269.74,
+      "text": "Dawn in the room... dust on the floor...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 8
+    },
+    {
+      "index": 75,
+      "section": "Outro",
+      "start": 269.74,
+      "end": 275.28,
+      "text": "Two cats asleep where neither was before",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    }
+  ]
+}

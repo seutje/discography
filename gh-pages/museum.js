@@ -13,6 +13,7 @@ const ALBUM_ORDER = [
   'Orbital Garden',
   'Broken Temple',
   'Lost Souls',
+  'Black Cat White Cat',
 ];
 
 const ROOM_WIDTH = 15;

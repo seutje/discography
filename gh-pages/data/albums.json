@@ -1260,44 +1260,44 @@
           "report_path": "analysis-output/Black_Cat_White_Cat_audio_12_-_Black_Cat_White_Cat.analysis.json",
           "report_url": "reports/analysis-output_Black_Cat_White_Cat_audio_12_-_Black_Cat_White_Cat.analysis.json",
           "source_type": "batch",
-          "generated_at": "2026-06-21T00:32:58",
+          "generated_at": "2026-06-21T14:58:44",
           "title": "Black Cat White Cat",
           "album": "Black Cat White Cat",
           "track_number": 12,
           "audio_path": "Black Cat White Cat/audio/12 - Black Cat White Cat.mp3",
           "audio_url": "media/Black%20Cat%20White%20Cat/audio/12%20-%20Black%20Cat%20White%20Cat.mp3",
           "framework": "Indie.txt",
-          "score": 8.872,
+          "score": 8.974,
           "axes": {
-            "SC_structural_coherence": 10.0,
-            "MI_motivic_integration": 7.42,
-            "BP_beauty_spatial_poise": 9.37,
-            "EG_evolving_grammar": 7.65,
-            "CD_carry_depth": 9.92
+            "SC_structural_coherence": 9.85,
+            "MI_motivic_integration": 8.4,
+            "BP_beauty_spatial_poise": 9.27,
+            "EG_evolving_grammar": 8.1,
+            "CD_carry_depth": 9.25
           },
           "core_metrics": {
-            "CDPD": 0.882,
-            "NGE": 0.668,
-            "HMII_peak_estimate": 5.0
+            "CDPD": 0.88,
+            "NGE": 0.63,
+            "HMII_peak_estimate": 8.0
           },
           "rung_number": 13.0,
           "rung_label": "Inhabited Form",
-          "confidence": 7.7,
-          "duration_seconds": 337.32,
+          "confidence": 9.2,
+          "duration_seconds": 246.56,
           "tempo_bpm": 117.45383522727273,
           "estimated_key": "G#/Ab major",
-          "key_confidence": 0.38843711444689255,
-          "integrated_lufs": -16.467937776742826,
-          "peak_dbfs": -0.04279171496014609,
-          "crest_factor_db": 14.795312598428879,
+          "key_confidence": 0.2041209022749854,
+          "integrated_lufs": -16.287436374963935,
+          "peak_dbfs": -0.8081952268234215,
+          "crest_factor_db": 14.186369998668553,
           "clipping_ratio": 0.0,
-          "onset_rate_per_second": 2.887465907743389,
-          "recurrence_ratio": 0.20345787795124493,
-          "section_count": 11.0,
-          "word_count": 553.0,
-          "line_count": 80.0,
-          "repeated_line_ratio": 0.225,
-          "rhyme_suffix_reuse": 0.5125,
+          "onset_rate_per_second": 3.9787475665152496,
+          "recurrence_ratio": 0.20079925805788026,
+          "section_count": 10.0,
+          "word_count": 464.0,
+          "line_count": 72.0,
+          "repeated_line_ratio": 0.25,
+          "rhyme_suffix_reuse": 0.5277777777777778,
           "lyrics_url": "data/lyrics/Black%20Cat%20White%20Cat/12%20-%20Black%20Cat%20White%20Cat.json"
         }
       },
@@ -1358,21 +1358,21 @@
     "stats": {
       "track_count": 13,
       "analyzed_count": 13,
-      "average_score": 8.491,
+      "average_score": 8.499,
       "average_rung": 12.615,
       "average_tempo_bpm": 141.548,
-      "total_duration_seconds": 3146.36,
+      "total_duration_seconds": 3055.6,
       "axes": {
-        "BP_beauty_spatial_poise": 9.281,
-        "CD_carry_depth": 8.896,
-        "EG_evolving_grammar": 7.047,
-        "MI_motivic_integration": 7.564,
-        "SC_structural_coherence": 9.668
+        "BP_beauty_spatial_poise": 9.273,
+        "CD_carry_depth": 8.845,
+        "EG_evolving_grammar": 7.082,
+        "MI_motivic_integration": 7.639,
+        "SC_structural_coherence": 9.656
       },
       "core_metrics": {
         "CDPD": 0.859,
-        "HMII_peak_estimate": 5.077,
-        "NGE": 0.629
+        "HMII_peak_estimate": 5.308,
+        "NGE": 0.626
       }
     }
   },

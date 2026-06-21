@@ -4,17 +4,17 @@
   "title": "Black Cat White Cat",
   "text_path": "Black Cat White Cat/12 - Black Cat White Cat.txt",
   "audio_path": "Black Cat White Cat/audio/12 - Black Cat White Cat.mp3",
-  "duration_seconds": 335.12,
+  "duration_seconds": 235.64,
   "model": "medium.en",
   "language": "en",
   "timing_granularity": "line",
   "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
-    "line_count": 80,
-    "reference_word_count": 456,
-    "observed_word_count": 460,
-    "matched_word_count": 393,
-    "matched_word_ratio": 0.862,
+    "line_count": 72,
+    "reference_word_count": 447,
+    "observed_word_count": 443,
+    "matched_word_count": 405,
+    "matched_word_ratio": 0.906,
     "section_start_overrides": {},
     "line_start_overrides": {},
     "skipped_line_count": 0,
@@ -25,197 +25,372 @@
   },
   "transcript_segments": [
     {
-      "start": 7.78,
-      "end": 15.86,
-      "text": "black cat white cat two small moons in opposite hats"
+      "start": 0.0,
+      "end": 2.36,
+      "text": "black cat white cat"
     },
     {
-      "start": 17.0,
-      "end": 23.98,
-      "text": "white fur black fur same warm sun remembering both"
+      "start": 4.9,
+      "end": 8.62,
+      "text": "smell hormones in opposite hats"
     },
     {
-      "start": 31.36,
-      "end": 38.48,
-      "text": "she says i learned to shine for bread to make a halo of her head"
+      "start": 10.68,
+      "end": 12.88,
+      "text": "white fur black fur"
     },
     {
-      "start": 39.44,
-      "end": 47.04,
-      "text": "to sit where all the kind hands see and call that almost being free"
+      "start": 16.32,
+      "end": 19.1,
+      "text": "leave proof where they once were"
     },
     {
-      "start": 47.04,
-      "end": 54.66,
-      "text": "he says i learned to slip from sight to make a coat a useful night"
+      "start": 19.8,
+      "end": 22.78,
+      "text": "she says i learned to shine for bread"
     },
     {
-      "start": 55.66,
-      "end": 62.66,
-      "text": "to hear the broom before it swings and keep his name from owning things"
+      "start": 22.78,
+      "end": 25.2,
+      "text": "to make a halo of my head"
     },
     {
-      "start": 63.3,
-      "end": 71.36,
-      "text": "the room says nothing and says all through paw prints crossing down the hall"
+      "start": 25.2,
+      "end": 28.14,
+      "text": "to sit where all the kind pants sit"
     },
     {
-      "start": 71.36,
-      "end": 78.96,
-      "text": "one pale mark on the kitchen tile one dark hair on the folded pile"
+      "start": 28.14,
+      "end": 30.26,
+      "text": "and call it almost being me"
     },
     {
-      "start": 78.96,
-      "end": 86.96,
-      "text": "it doesn't split as clean as that the omen in the house born cat"
+      "start": 30.26,
+      "end": 33.4,
+      "text": "he says i learned to slip from sight"
     },
     {
-      "start": 87.56,
-      "end": 98.14,
-      "text": "the one adored the one accused both carry doors they did not choose"
+      "start": 33.4,
+      "end": 36.08,
+      "text": "to make a coat of useful night"
     },
     {
-      "start": 98.96,
-      "end": 106.26,
-      "text": "black cat white cat a negative of one photograph"
+      "start": 36.08,
+      "end": 38.74,
+      "text": "to hear the broom before its wings"
     },
     {
-      "start": 106.26,
-      "end": 115.7,
-      "text": "if i catch the light you catch the shade both of us are partly men"
+      "start": 38.74,
+      "end": 41.34,
+      "text": "and keep my name from owning things"
     },
     {
-      "start": 115.7,
-      "end": 122.62,
-      "text": "white cat black cat neither curse nor neither saint"
+      "start": 41.34,
+      "end": 43.42,
+      "text": "the room says nothing then says all"
     },
     {
-      "start": 122.62,
-      "end": 131.06,
-      "text": "if i leave her on your sleeve that is not the same as staying"
+      "start": 44.18,
+      "end": 45.86,
+      "text": "the apartments crossing down the hall"
     },
     {
-      "start": 146.08,
-      "end": 154.24,
-      "text": "she says your clean paws learn the dirt when open doors begin to hurt"
+      "start": 45.86,
+      "end": 49.42,
+      "text": "one pale mark on the kitchen tile"
     },
     {
-      "start": 154.24,
-      "end": 162.26,
-      "text": "he says it's dark fur caught the sun when i got tired of being gone"
+      "start": 49.42,
+      "end": 52.22,
+      "text": "one dark hair on the folded pile"
     },
     {
-      "start": 163.26,
-      "end": 170.64,
-      "text": "they met beside the broken box near two bowls and the patient clock"
+      "start": 52.22,
+      "end": 54.58,
+      "text": "doesn't split as clean as that"
     },
     {
-      "start": 171.26,
-      "end": 179.08,
-      "text": "the bell lay quiet on the stair the glass survived behind the chair"
+      "start": 54.58,
+      "end": 56.76,
+      "text": "the omen in the house born cat"
     },
     {
-      "start": 180.26,
-      "end": 187.62,
-      "text": "no one became the other's cure no room was innocent or pure"
+      "start": 56.76,
+      "end": 59.74,
+      "text": "the one adored the one accused"
     },
     {
-      "start": 187.62,
-      "end": 196.62,
-      "text": "hired in the square of borrowed heat two older hungers learned to eat"
+      "start": 59.74,
+      "end": 63.16,
+      "text": "both carried doors they did not choose"
     },
     {
-      "start": 196.62,
-      "end": 204.82,
-      "text": "it doesn't heal by blending names it doesn't end where it begins"
+      "start": 63.16,
+      "end": 66.22,
+      "text": "oh black cat white cat"
     },
     {
-      "start": 204.82,
-      "end": 216.24,
-      "text": "two gloves can stand in one small place and neither law need lose its face"
+      "start": 66.96,
+      "end": 68.94,
+      "text": "negative on photograph"
     },
     {
-      "start": 217.5,
-      "end": 225.18,
-      "text": "black cat white cat a negative of one photograph"
+      "start": 68.94,
+      "end": 71.86,
+      "text": "if i catch the light you catch the shade"
     },
     {
-      "start": 225.18,
-      "end": 234.18,
-      "text": "if i catch the light you catch the shade both of us are partly men"
+      "start": 71.86,
+      "end": 74.6,
+      "text": "both of us are partly made"
     },
     {
-      "start": 234.72,
-      "end": 242.0,
-      "text": "white cat white cat neither curse nor neither saint"
+      "start": 74.6,
+      "end": 77.2,
+      "text": "white cat black cat"
     },
     {
-      "start": 242.0,
-      "end": 250.64,
-      "text": "if i leave her on your sleeve that is not the same as staying"
+      "start": 77.2,
+      "end": 79.72,
+      "text": "neither curse and neither saint"
     },
     {
-      "start": 250.64,
-      "end": 255.3,
-      "text": "you are not the part i hide i am not your cleaner side"
+      "start": 79.72,
+      "end": 82.64,
+      "text": "if i leave fur on your sleeve"
     },
     {
-      "start": 255.3,
-      "end": 259.66,
-      "text": "you are not the door i lack i am i your brighter bed"
+      "start": 82.64,
+      "end": 85.24,
+      "text": "that is not the same mistake"
     },
     {
-      "start": 259.66,
-      "end": 263.98,
-      "text": "i need a weather coat and bone two ways i'm not being you alive"
+      "start": 85.24,
+      "end": 85.74,
+      "text": "you"
     },
     {
-      "start": 263.98,
-      "end": 268.78,
-      "text": "red lines tied to one where it's blind 90 day and most need name"
+      "start": 93.36,
+      "end": 97.44,
+      "text": "she says my clean paws learned the dirt"
     },
     {
-      "start": 268.78,
-      "end": 277.72,
-      "text": "window of box door must end"
+      "start": 97.44,
+      "end": 99.88,
+      "text": "when open doors began to hurt"
     },
     {
-      "start": 282.02,
-      "end": 290.0,
-      "text": "black cat white cat a negative of one photograph"
+      "start": 99.88,
+      "end": 102.68,
+      "text": "he says my dog fur caught the sun"
     },
     {
-      "start": 290.0,
-      "end": 300.26,
-      "text": "if i catch the light you catch the shade both of us are partly men"
+      "start": 102.68,
+      "end": 105.4,
+      "text": "when i got tired of being gone"
     },
     {
-      "start": 300.26,
-      "end": 307.0,
-      "text": "white cat white cat neither curse nor neither saint"
+      "start": 105.4,
+      "end": 108.12,
+      "text": "they met beside the broken box"
     },
     {
-      "start": 307.78,
-      "end": 318.18,
-      "text": "if i leave her on your sleeve that is not the same as staying"
+      "start": 108.12,
+      "end": 110.8,
+      "text": "near two bowls and the patient clocked"
     },
     {
-      "start": 318.18,
-      "end": 325.66,
-      "text": "white cat white cat two small rooms in opposite halves"
+      "start": 110.8,
+      "end": 113.4,
+      "text": "the belly quiet on the stair"
     },
     {
-      "start": 326.18,
-      "end": 335.12,
-      "text": "white fur black fur same warm sun remember in both"
+      "start": 113.4,
+      "end": 116.04,
+      "text": "the mall survived behind the chair"
+    },
+    {
+      "start": 116.04,
+      "end": 117.78,
+      "text": "no one became the other's cure"
+    },
+    {
+      "start": 117.78,
+      "end": 120.5,
+      "text": "no the room was innocent or pure"
+    },
+    {
+      "start": 121.08,
+      "end": 124.08,
+      "text": "but in the square of borrowed heat"
+    },
+    {
+      "start": 124.08,
+      "end": 126.78,
+      "text": "two older hungers learned to eat"
+    },
+    {
+      "start": 126.78,
+      "end": 128.58,
+      "text": "it doesn't heal by blending in"
+    },
+    {
+      "start": 129.48,
+      "end": 131.4,
+      "text": "it doesn't end where it began"
+    },
+    {
+      "start": 131.4,
+      "end": 134.86,
+      "text": "two laws can stand in one small place"
+    },
+    {
+      "start": 134.86,
+      "end": 137.86,
+      "text": "and neither law need lose its face"
+    },
+    {
+      "start": 137.86,
+      "end": 141.24,
+      "text": "oh black cat white cat"
+    },
+    {
+      "start": 141.24,
+      "end": 143.64,
+      "text": "negative on photograph"
+    },
+    {
+      "start": 143.64,
+      "end": 146.44,
+      "text": "if i catch the light you catch the shade"
+    },
+    {
+      "start": 146.44,
+      "end": 149.32,
+      "text": "both of us are partly made"
+    },
+    {
+      "start": 149.32,
+      "end": 151.72,
+      "text": "white cat black cat"
+    },
+    {
+      "start": 151.72,
+      "end": 154.44,
+      "text": "neither curse and neither saint"
+    },
+    {
+      "start": 154.44,
+      "end": 157.3,
+      "text": "if i leave fur on your sleeve"
+    },
+    {
+      "start": 157.3,
+      "end": 159.8,
+      "text": "that is not the same mistake"
+    },
+    {
+      "start": 159.8,
+      "end": 164.4,
+      "text": "you are not the part i hide"
+    },
+    {
+      "start": 164.4,
+      "end": 168.38,
+      "text": "i am not your cleaner side"
+    },
+    {
+      "start": 168.38,
+      "end": 175.22,
+      "text": "mmm you are not the door i lack"
+    },
+    {
+      "start": 175.22,
+      "end": 178.84,
+      "text": "i am not your brighter back"
+    },
+    {
+      "start": 178.84,
+      "end": 184.62,
+      "text": "mmm we are weather cold and bold"
+    },
+    {
+      "start": 185.58,
+      "end": 189.56,
+      "text": "two ways of not being alone"
+    },
+    {
+      "start": 191.58,
+      "end": 196.26,
+      "text": "one learns touch and one learns flight"
+    },
+    {
+      "start": 196.26,
+      "end": 200.2,
+      "text": "both need day and both need night"
+    },
+    {
+      "start": 202.58,
+      "end": 204.76,
+      "text": "black cat white cat"
+    },
+    {
+      "start": 205.62,
+      "end": 207.52,
+      "text": "negative on photograph"
+    },
+    {
+      "start": 207.52,
+      "end": 210.5,
+      "text": "if i catch the light you catch the shade"
+    },
+    {
+      "start": 210.5,
+      "end": 213.08,
+      "text": "both of us are partly made"
+    },
+    {
+      "start": 213.08,
+      "end": 215.48,
+      "text": "white cat black cat"
+    },
+    {
+      "start": 216.18,
+      "end": 218.4,
+      "text": "neither curse and neither saint"
+    },
+    {
+      "start": 218.4,
+      "end": 221.48,
+      "text": "if i leave fur on your sleeve"
+    },
+    {
+      "start": 221.48,
+      "end": 224.02,
+      "text": "let it mean i crossed your evening"
+    },
+    {
+      "start": 224.02,
+      "end": 226.14,
+      "text": "black cat white cat"
+    },
+    {
+      "start": 227.06,
+      "end": 230.12,
+      "text": "two small moons in opposite hands"
+    },
+    {
+      "start": 232.34,
+      "end": 235.64,
+      "text": "same warm sun remember and go"
     }
   ],
   "lines": [
     {
       "index": 0,
       "section": "Intro",
-      "start": 7.78,
-      "end": 11.84,
+      "start": 0.0,
+      "end": 2.36,
       "text": "Black cat... white cat...",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -223,17 +398,17 @@
     {
       "index": 1,
       "section": "Intro",
-      "start": 11.84,
-      "end": 15.86,
+      "start": 6.34,
+      "end": 8.62,
       "text": "Two small moons in opposite hats",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 3
     },
     {
       "index": 2,
       "section": "Intro",
-      "start": 16.56,
-      "end": 19.88,
+      "start": 10.57,
+      "end": 12.88,
       "text": "White fur... black fur...",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -241,17 +416,17 @@
     {
       "index": 3,
       "section": "Intro",
-      "start": 22.88,
-      "end": 23.98,
-      "text": "Both leave proof where they once were",
+      "start": 16.25,
+      "end": 19.1,
+      "text": "Leave proof where they once were",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 6
     },
     {
       "index": 4,
       "section": "Verse 1",
-      "start": 31.36,
-      "end": 34.14,
+      "start": 19.55,
+      "end": 22.78,
       "text": "She says, I learned to shine for bread",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -259,35 +434,35 @@
     {
       "index": 5,
       "section": "Verse 1",
-      "start": 34.14,
-      "end": 38.48,
-      "text": "To make a halo of her head",
+      "start": 22.78,
+      "end": 25.2,
+      "text": "To make a halo of my head",
       "timing_source": "whisper-aligned",
       "matched_words": 7
     },
     {
       "index": 6,
       "section": "Verse 1",
-      "start": 39.44,
-      "end": 43.06,
+      "start": 25.2,
+      "end": 27.14,
       "text": "To sit where all the kind hands see",
-      "timing_source": "whisper-aligned",
-      "matched_words": 8
-    },
-    {
-      "index": 7,
-      "section": "Verse 1",
-      "start": 43.06,
-      "end": 47.04,
-      "text": "And call that almost being free",
       "timing_source": "whisper-aligned",
       "matched_words": 6
     },
     {
+      "index": 7,
+      "section": "Verse 1",
+      "start": 28.14,
+      "end": 29.78,
+      "text": "And call that almost being free",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
       "index": 8,
       "section": "Verse 1",
-      "start": 47.04,
-      "end": 50.62,
+      "start": 30.26,
+      "end": 33.4,
       "text": "He says, I learned to slip from sight",
       "timing_source": "whisper-aligned",
       "matched_words": 8
@@ -295,53 +470,53 @@
     {
       "index": 9,
       "section": "Verse 1",
-      "start": 50.62,
-      "end": 54.66,
+      "start": 33.4,
+      "end": 36.08,
       "text": "To make a coat of useful night",
-      "timing_source": "whisper-aligned",
-      "matched_words": 6
-    },
-    {
-      "index": 10,
-      "section": "Verse 1",
-      "start": 55.28,
-      "end": 58.78,
-      "text": "To hear the broom before it swings",
       "timing_source": "whisper-aligned",
       "matched_words": 7
     },
     {
+      "index": 10,
+      "section": "Verse 1",
+      "start": 36.08,
+      "end": 37.74,
+      "text": "To hear the broom before it swings",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
       "index": 11,
       "section": "Verse 1",
-      "start": 58.78,
-      "end": 62.84,
-      "text": "And keep his name from owning things",
+      "start": 38.74,
+      "end": 41.34,
+      "text": "And keep my name from owning things",
       "timing_source": "whisper-aligned",
       "matched_words": 7
     },
     {
       "index": 12,
       "section": "Verse 1",
-      "start": 63.3,
-      "end": 67.42,
+      "start": 41.34,
+      "end": 43.42,
       "text": "The room says nothing, then says all",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 13,
       "section": "Verse 1",
-      "start": 67.42,
-      "end": 71.36,
+      "start": 44.64,
+      "end": 45.86,
       "text": "Through pawprints crossing down the hall",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 4
     },
     {
       "index": 14,
       "section": "Verse 1",
-      "start": 71.36,
-      "end": 74.92,
+      "start": 45.86,
+      "end": 49.42,
       "text": "One pale mark on the kitchen tile",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -349,8 +524,8 @@
     {
       "index": 15,
       "section": "Verse 1",
-      "start": 74.92,
-      "end": 78.96,
+      "start": 49.42,
+      "end": 52.22,
       "text": "One dark hair on the folded pile",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -358,17 +533,17 @@
     {
       "index": 16,
       "section": "Pre-Chorus",
-      "start": 78.96,
-      "end": 83.5,
+      "start": 52.22,
+      "end": 54.58,
       "text": "It doesn't split as clean as that",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 17,
       "section": "Pre-Chorus",
-      "start": 83.5,
-      "end": 87.17,
+      "start": 54.58,
+      "end": 56.76,
       "text": "The omen and the houseborn cat",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -376,8 +551,8 @@
     {
       "index": 18,
       "section": "Pre-Chorus",
-      "start": 87.56,
-      "end": 91.06,
+      "start": 56.76,
+      "end": 59.74,
       "text": "The one adored, the one accused",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -385,17 +560,17 @@
     {
       "index": 19,
       "section": "Pre-Chorus",
-      "start": 91.06,
-      "end": 98.14,
+      "start": 59.74,
+      "end": 63.16,
       "text": "Both carry doors they did not choose",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 20,
       "section": "Chorus",
-      "start": 98.96,
-      "end": 102.6,
+      "start": 64.08,
+      "end": 66.22,
       "text": "Black cat, white cat",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -403,17 +578,17 @@
     {
       "index": 21,
       "section": "Chorus",
-      "start": 103.28,
-      "end": 106.26,
+      "start": 66.96,
+      "end": 68.94,
       "text": "Negative of one photograph",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 22,
       "section": "Chorus",
-      "start": 106.26,
-      "end": 110.84,
+      "start": 68.94,
+      "end": 71.86,
       "text": "If I catch the light, you catch the shade",
       "timing_source": "whisper-aligned",
       "matched_words": 9
@@ -421,17 +596,17 @@
     {
       "index": 23,
       "section": "Chorus",
-      "start": 110.84,
-      "end": 114.52,
+      "start": 71.86,
+      "end": 74.6,
       "text": "Both of us are partly made",
       "timing_source": "whisper-aligned",
-      "matched_words": 5
+      "matched_words": 6
     },
     {
       "index": 24,
       "section": "Chorus",
-      "start": 115.7,
-      "end": 118.82,
+      "start": 74.6,
+      "end": 77.2,
       "text": "White cat, black cat",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -439,62 +614,62 @@
     {
       "index": 25,
       "section": "Chorus",
-      "start": 118.82,
-      "end": 122.62,
+      "start": 77.2,
+      "end": 79.72,
       "text": "Neither curse and neither saint",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 26,
-      "section": "Chorus",
-      "start": 122.62,
-      "end": 126.88,
-      "text": "If I leave fur on your sleeve",
-      "timing_source": "whisper-aligned",
-      "matched_words": 6
-    },
-    {
-      "index": 27,
-      "section": "Chorus",
-      "start": 126.88,
-      "end": 131.06,
-      "text": "That is not the same as staying",
-      "timing_source": "whisper-aligned",
-      "matched_words": 7
-    },
-    {
-      "index": 28,
-      "section": "Verse 2",
-      "start": 146.08,
-      "end": 150.16,
-      "text": "She says, her clean paws learned the dirt",
-      "timing_source": "whisper-aligned",
-      "matched_words": 6
-    },
-    {
-      "index": 29,
-      "section": "Verse 2",
-      "start": 150.16,
-      "end": 154.24,
-      "text": "When open doors began to hurt",
       "timing_source": "whisper-aligned",
       "matched_words": 5
     },
     {
-      "index": 30,
-      "section": "Verse 2",
-      "start": 154.24,
-      "end": 158.06,
-      "text": "He says, his dark fur caught the sun",
+      "index": 26,
+      "section": "Chorus",
+      "start": 79.72,
+      "end": 82.64,
+      "text": "If I leave fur on your sleeve",
       "timing_source": "whisper-aligned",
       "matched_words": 7
     },
     {
+      "index": 27,
+      "section": "Chorus",
+      "start": 82.64,
+      "end": 84.34,
+      "text": "That is not the same as staying",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 28,
+      "section": "Verse 2",
+      "start": 93.36,
+      "end": 97.44,
+      "text": "She says, her clean paws learned the dirt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 29,
+      "section": "Verse 2",
+      "start": 97.44,
+      "end": 99.88,
+      "text": "When open doors began to hurt",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 30,
+      "section": "Verse 2",
+      "start": 99.88,
+      "end": 102.68,
+      "text": "He says, his dark fur caught the sun",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
       "index": 31,
       "section": "Verse 2",
-      "start": 158.06,
-      "end": 162.26,
+      "start": 102.68,
+      "end": 105.4,
       "text": "When I got tired of being gone",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -502,8 +677,8 @@
     {
       "index": 32,
       "section": "Verse 2",
-      "start": 162.96,
-      "end": 165.54,
+      "start": 105.4,
+      "end": 108.12,
       "text": "They met beside the broken box",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -511,26 +686,26 @@
     {
       "index": 33,
       "section": "Verse 2",
-      "start": 165.54,
-      "end": 170.64,
+      "start": 108.12,
+      "end": 110.02,
       "text": "Near two bowls and the patient clock",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 6
     },
     {
       "index": 34,
       "section": "Verse 2",
-      "start": 171.12,
-      "end": 174.24,
+      "start": 110.8,
+      "end": 113.4,
       "text": "The bell lay quiet on the stair",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 5
     },
     {
       "index": 35,
       "section": "Verse 2",
-      "start": 174.24,
-      "end": 179.08,
+      "start": 113.4,
+      "end": 116.04,
       "text": "The moth survived behind the chair",
       "timing_source": "whisper-aligned",
       "matched_words": 5
@@ -538,8 +713,8 @@
     {
       "index": 36,
       "section": "Verse 2",
-      "start": 180.26,
-      "end": 183.52,
+      "start": 116.04,
+      "end": 117.78,
       "text": "No one became the other's cure",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -547,8 +722,8 @@
     {
       "index": 37,
       "section": "Verse 2",
-      "start": 183.52,
-      "end": 187.62,
+      "start": 117.78,
+      "end": 120.5,
       "text": "No room was innocent or pure",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -556,17 +731,17 @@
     {
       "index": 38,
       "section": "Verse 2",
-      "start": 188.06,
-      "end": 191.66,
+      "start": 121.04,
+      "end": 124.08,
       "text": "But in the square of borrowed heat",
       "timing_source": "whisper-aligned",
-      "matched_words": 6
+      "matched_words": 7
     },
     {
       "index": 39,
       "section": "Verse 2",
-      "start": 191.66,
-      "end": 196.62,
+      "start": 124.08,
+      "end": 126.78,
       "text": "Two older hungers learned to eat",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -574,35 +749,35 @@
     {
       "index": 40,
       "section": "Pre-Chorus 2",
-      "start": 196.62,
-      "end": 199.72,
+      "start": 126.78,
+      "end": 128.58,
       "text": "It doesn't heal by blending in",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5
-    },
-    {
-      "index": 41,
-      "section": "Pre-Chorus 2",
-      "start": 200.78,
-      "end": 204.82,
-      "text": "It doesn't end where it begins",
       "timing_source": "whisper-aligned",
       "matched_words": 6
     },
     {
+      "index": 41,
+      "section": "Pre-Chorus 2",
+      "start": 129.3,
+      "end": 130.66,
+      "text": "It doesn't end where it begins",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
       "index": 42,
       "section": "Pre-Chorus 2",
-      "start": 204.82,
-      "end": 209.5,
+      "start": 131.4,
+      "end": 134.86,
       "text": "Two laws can stand in one small place",
       "timing_source": "whisper-aligned",
-      "matched_words": 7
+      "matched_words": 8
     },
     {
       "index": 43,
       "section": "Pre-Chorus 2",
-      "start": 209.5,
-      "end": 216.24,
+      "start": 134.86,
+      "end": 137.86,
       "text": "And neither law need lose its face",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -610,8 +785,8 @@
     {
       "index": 44,
       "section": "Chorus",
-      "start": 217.5,
-      "end": 221.5,
+      "start": 138.5,
+      "end": 141.24,
       "text": "Black cat, white cat",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -619,17 +794,17 @@
     {
       "index": 45,
       "section": "Chorus",
-      "start": 222.22,
-      "end": 225.18,
+      "start": 141.24,
+      "end": 143.64,
       "text": "Negative of one photograph",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
       "index": 46,
       "section": "Chorus",
-      "start": 225.18,
-      "end": 229.88,
+      "start": 143.64,
+      "end": 146.44,
       "text": "If I catch the light, you catch the shade",
       "timing_source": "whisper-aligned",
       "matched_words": 9
@@ -637,53 +812,53 @@
     {
       "index": 47,
       "section": "Chorus",
-      "start": 229.88,
-      "end": 233.82,
+      "start": 146.44,
+      "end": 149.32,
       "text": "Both of us are partly made",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5
-    },
-    {
-      "index": 48,
-      "section": "Chorus",
-      "start": 234.72,
-      "end": 237.12,
-      "text": "White cat, black cat",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 49,
-      "section": "Chorus",
-      "start": 237.12,
-      "end": 242.0,
-      "text": "Neither curse and neither saint",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 50,
-      "section": "Chorus",
-      "start": 242.0,
-      "end": 246.68,
-      "text": "If I leave fur on your sleeve",
       "timing_source": "whisper-aligned",
       "matched_words": 6
     },
     {
-      "index": 51,
+      "index": 48,
       "section": "Chorus",
-      "start": 246.68,
-      "end": 250.64,
-      "text": "That is not the same as staying",
+      "start": 149.32,
+      "end": 151.72,
+      "text": "White cat, black cat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 49,
+      "section": "Chorus",
+      "start": 151.72,
+      "end": 154.44,
+      "text": "Neither curse and neither saint",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 50,
+      "section": "Chorus",
+      "start": 154.44,
+      "end": 157.3,
+      "text": "If I leave fur on your sleeve",
       "timing_source": "whisper-aligned",
       "matched_words": 7
     },
     {
+      "index": 51,
+      "section": "Chorus",
+      "start": 157.3,
+      "end": 159.04,
+      "text": "That is not the same as staying",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
       "index": 52,
       "section": "Bridge",
-      "start": 250.64,
-      "end": 253.18,
+      "start": 159.8,
+      "end": 164.4,
       "text": "You are not the part I hide",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -691,8 +866,8 @@
     {
       "index": 53,
       "section": "Bridge",
-      "start": 253.18,
-      "end": 255.3,
+      "start": 164.4,
+      "end": 168.38,
       "text": "I am not your cleaner side",
       "timing_source": "whisper-aligned",
       "matched_words": 6
@@ -700,8 +875,8 @@
     {
       "index": 54,
       "section": "Bridge",
-      "start": 255.3,
-      "end": 257.44,
+      "start": 169.2,
+      "end": 175.22,
       "text": "You are not the door I lack",
       "timing_source": "whisper-aligned",
       "matched_words": 7
@@ -709,17 +884,17 @@
     {
       "index": 55,
       "section": "Bridge",
-      "start": 257.44,
-      "end": 259.1,
+      "start": 175.22,
+      "end": 178.84,
       "text": "I am not your brighter back",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 56,
       "section": "Bridge",
-      "start": 260.32,
-      "end": 261.62,
+      "start": 180.86,
+      "end": 183.42,
       "text": "We are weather, coat, and bone",
       "timing_source": "whisper-aligned",
       "matched_words": 4
@@ -727,206 +902,134 @@
     {
       "index": 57,
       "section": "Bridge",
-      "start": 261.62,
-      "end": 263.26,
+      "start": 185.34,
+      "end": 189.56,
       "text": "Two ways of not being alone",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 6
     },
     {
       "index": 58,
       "section": "Bridge",
-      "start": 265.12,
-      "end": 265.42,
+      "start": 191.32,
+      "end": 196.26,
       "text": "One learns touch and one learns flight",
       "timing_source": "whisper-aligned",
-      "matched_words": 1
+      "matched_words": 7
     },
     {
       "index": 59,
       "section": "Bridge",
-      "start": 266.72,
-      "end": 268.0,
+      "start": 196.26,
+      "end": 200.2,
       "text": "Both need day and both need night",
       "timing_source": "whisper-aligned",
-      "matched_words": 3
+      "matched_words": 7
     },
     {
       "index": 60,
-      "section": "Break",
-      "start": 268.78,
-      "end": 269.86,
-      "text": "Window...",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 61,
-      "section": "Break",
-      "start": 269.86,
-      "end": 270.89,
-      "text": "Bowl...",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 62,
-      "section": "Break",
-      "start": 270.89,
-      "end": 271.92,
-      "text": "Bell...",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 63,
-      "section": "Break",
-      "start": 271.92,
-      "end": 273.26,
-      "text": "Box...",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 64,
-      "section": "Break",
-      "start": 273.26,
-      "end": 274.4,
-      "text": "Door...",
-      "timing_source": "whisper-aligned",
-      "matched_words": 1
-    },
-    {
-      "index": 65,
-      "section": "Break",
-      "start": 290.0,
-      "end": 300.26,
-      "text": "Moth...",
-      "timing_source": "whisper-segment-fuzzy",
-      "matched_words": 0
-    },
-    {
-      "index": 66,
-      "section": "Break",
-      "start": 300.26,
-      "end": 300.36,
-      "text": "Can...",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 67,
-      "section": "Break",
-      "start": 300.36,
-      "end": 300.46,
-      "text": "Floor...",
-      "timing_source": "interpolated",
-      "matched_words": 0
-    },
-    {
-      "index": 68,
       "section": "Final Chorus",
-      "start": 300.46,
-      "end": 300.56,
+      "start": 202.46,
+      "end": 204.76,
       "text": "Black cat, white cat",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
     {
-      "index": 69,
+      "index": 61,
       "section": "Final Chorus",
-      "start": 300.56,
-      "end": 300.66,
+      "start": 205.62,
+      "end": 207.52,
       "text": "Negative of one photograph",
       "timing_source": "whisper-aligned",
-      "matched_words": 4
+      "matched_words": 2
     },
     {
-      "index": 70,
+      "index": 62,
       "section": "Final Chorus",
-      "start": 300.66,
-      "end": 300.76,
+      "start": 207.52,
+      "end": 210.5,
       "text": "If I catch the light, you catch the shade",
       "timing_source": "whisper-aligned",
       "matched_words": 9
     },
     {
-      "index": 71,
+      "index": 63,
       "section": "Final Chorus",
-      "start": 300.76,
-      "end": 300.86,
+      "start": 210.5,
+      "end": 213.08,
       "text": "Both of us are partly made",
-      "timing_source": "whisper-aligned",
-      "matched_words": 5
-    },
-    {
-      "index": 72,
-      "section": "Final Chorus",
-      "start": 300.86,
-      "end": 303.54,
-      "text": "White cat, black cat",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 73,
-      "section": "Final Chorus",
-      "start": 303.54,
-      "end": 307.46,
-      "text": "Neither curse and neither saint",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 74,
-      "section": "Final Chorus",
-      "start": 307.78,
-      "end": 312.06,
-      "text": "If I leave fur on your sleeve",
       "timing_source": "whisper-aligned",
       "matched_words": 6
     },
     {
-      "index": 75,
+      "index": 64,
       "section": "Final Chorus",
-      "start": 312.06,
-      "end": 318.46,
+      "start": 213.08,
+      "end": 215.48,
+      "text": "White cat, black cat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 65,
+      "section": "Final Chorus",
+      "start": 216.14,
+      "end": 218.4,
+      "text": "Neither curse and neither saint",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 66,
+      "section": "Final Chorus",
+      "start": 218.4,
+      "end": 221.48,
+      "text": "If I leave fur on your sleeve",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 67,
+      "section": "Final Chorus",
+      "start": 221.48,
+      "end": 224.02,
       "text": "Let it mean I crossed your evening",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 68,
+      "section": "Outro",
+      "start": 224.02,
+      "end": 226.14,
+      "text": "Black cat... white cat...",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 69,
+      "section": "Outro",
+      "start": 226.83,
+      "end": 229.38,
+      "text": "Two small moons in opposite hats",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 70,
+      "section": "Outro",
+      "start": 229.38,
+      "end": 232.17,
+      "text": "White fur... black fur...",
       "timing_source": "interpolated",
       "matched_words": 0
     },
     {
-      "index": 76,
+      "index": 71,
       "section": "Outro",
-      "start": 318.46,
-      "end": 320.88,
-      "text": "Black cat... white cat...",
-      "timing_source": "whisper-aligned",
-      "matched_words": 3
-    },
-    {
-      "index": 77,
-      "section": "Outro",
-      "start": 320.88,
-      "end": 324.12,
-      "text": "Two small moons in opposite hats",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 78,
-      "section": "Outro",
-      "start": 325.82,
-      "end": 329.36,
-      "text": "White fur... black fur...",
-      "timing_source": "whisper-aligned",
-      "matched_words": 4
-    },
-    {
-      "index": 79,
-      "section": "Outro",
-      "start": 329.36,
-      "end": 332.02,
+      "start": 232.17,
+      "end": 233.9,
       "text": "Same warm sun remembering both",
       "timing_source": "whisper-aligned",
       "matched_words": 3

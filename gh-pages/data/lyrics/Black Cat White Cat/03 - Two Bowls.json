@@ -11,10 +11,10 @@
   "timing_backend": "whisper-word-timestamps",
   "diagnostics": {
     "line_count": 68,
-    "reference_word_count": 419,
+    "reference_word_count": 411,
     "observed_word_count": 413,
     "matched_word_count": 387,
-    "matched_word_ratio": 0.924,
+    "matched_word_ratio": 0.942,
     "section_start_overrides": {},
     "line_start_overrides": {},
     "skipped_line_count": 0,
@@ -541,7 +541,7 @@
       "section": "Chorus",
       "start": 54.94,
       "end": 57.18,
-      "text": "Both: Two bowls, one room",
+      "text": "Two bowls, one room",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
@@ -550,7 +550,7 @@
       "section": "Chorus",
       "start": 57.18,
       "end": 59.64,
-      "text": "Both: Enough, but not assumed",
+      "text": "Enough, but not assumed",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
@@ -577,7 +577,7 @@
       "section": "Chorus",
       "start": 65.14,
       "end": 67.68,
-      "text": "Both: Two bowls, one room",
+      "text": "Two bowls, one room",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
@@ -586,7 +586,7 @@
       "section": "Chorus",
       "start": 67.68,
       "end": 70.06,
-      "text": "Both: No song, but not a wound",
+      "text": "No song, but not a wound",
       "timing_source": "whisper-aligned",
       "matched_words": 6
     },
@@ -757,7 +757,7 @@
       "section": "Chorus",
       "start": 121.96,
       "end": 124.72,
-      "text": "Both: Two bowls, one room",
+      "text": "Two bowls, one room",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
@@ -766,7 +766,7 @@
       "section": "Chorus",
       "start": 124.72,
       "end": 127.16,
-      "text": "Both: Enough, but not assumed",
+      "text": "Enough, but not assumed",
       "timing_source": "whisper-aligned",
       "matched_words": 4
     },
@@ -793,7 +793,7 @@
       "section": "Chorus",
       "start": 132.68,
       "end": 135.78,
-      "text": "Both: Two bowls, one room",
+      "text": "Two bowls, one room",
       "timing_source": "whisper-aligned",
       "matched_words": 3
     },
@@ -802,7 +802,7 @@
       "section": "Chorus",
       "start": 135.78,
       "end": 138.02,
-      "text": "Both: No song, but not a wound",
+      "text": "No song, but not a wound",
       "timing_source": "whisper-aligned",
       "matched_words": 6
     },

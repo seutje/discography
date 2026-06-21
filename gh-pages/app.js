@@ -25,7 +25,10 @@ const state = {
   lyricsByAudioUrl: new Map(),
   playlist: [],
   currentPlaylistIndex: -1,
-  playlistSerial: 0
+  playlistSerial: 0,
+  playbackWanted: false,
+  playbackPromise: null,
+  trackTransitioning: false
 };
 
 function $(id) { return document.getElementById(id); }
@@ -250,6 +253,59 @@ function formatDuration(seconds) {
   const minutes = Math.floor(rounded / 60);
   const secs = rounded % 60;
   return `${minutes}:${String(secs).padStart(2, '0')}`;
+}
+
+function setPlaybackWanted(wanted) {
+  const audio = $('globalAudio');
+  state.playbackWanted = Boolean(wanted);
+  audio.autoplay = state.playbackWanted;
+  audio.preload = state.playbackWanted ? 'auto' : 'metadata';
+}
+
+function mediaSessionAlbumFromMeta(meta) {
+  const parts = String(meta || '').split('/').filter(Boolean);
+  return parts.length > 1 ? parts[0] : '';
+}
+
+function updateMediaSessionMetadata(track) {
+  if (!('mediaSession' in navigator) || !('MediaMetadata' in window)) return;
+  navigator.mediaSession.metadata = track?.url
+    ? new MediaMetadata({
+      title: track.title || 'Selected track',
+      artist: 'Discography',
+      album: mediaSessionAlbumFromMeta(track.meta)
+    })
+    : null;
+}
+
+function updateMediaSessionPlaybackState() {
+  if (!('mediaSession' in navigator)) return;
+  const audio = $('globalAudio');
+  navigator.mediaSession.playbackState = !audio.paused && !audio.ended ? 'playing' : 'paused';
+}
+
+function setupMediaSession() {
+  if (!('mediaSession' in navigator)) return;
+  const handlers = {
+    play: () => requestPlayback(),
+    pause: () => {
+      setPlaybackWanted(false);
+      $('globalAudio').pause();
+    },
+    previoustrack: () => playPlaylistIndex(state.currentPlaylistIndex - 1),
+    nexttrack: () => advancePlaylist(),
+    seekbackward: () => seekBy(-10),
+    seekforward: () => seekBy(10)
+  };
+
+  Object.entries(handlers).forEach(([action, handler]) => {
+    try {
+      navigator.mediaSession.setActionHandler(action, handler);
+    } catch {
+      // Some mobile browsers expose Media Session but not every action.
+    }
+  });
+  updateMediaSessionPlaybackState();
 }
 
 function lyricsUrlForAudio(audioUrl) {
@@ -1763,30 +1819,78 @@ function addManyToPlaylist(tracks) {
 function setPlayerTrack(track) {
   const audio = $('globalAudio');
   if (!track?.url) {
+    setPlaybackWanted(false);
     audio.pause();
     audio.removeAttribute('src');
     audio.load();
     state.currentTrack = null;
+    updateMediaSessionMetadata(null);
     state.timedLyricsRequestId += 1;
     resetTimedLyrics();
     $('playerTitle').textContent = 'No track selected';
     $('playerMeta').textContent = 'Use a Play button to add tracks to the playlist.';
-    return;
+    return false;
   }
-  if (audio.getAttribute('src') !== track.url) {
+  audio.autoplay = state.playbackWanted;
+  audio.preload = state.playbackWanted ? 'auto' : 'metadata';
+  const sourceChanged = audio.getAttribute('src') !== track.url;
+  if (sourceChanged) {
     audio.src = track.url;
     audio.load();
   }
-  audio.currentTime = 0;
+  try {
+    audio.currentTime = 0;
+  } catch (err) {
+    console.warn(err);
+  }
   state.currentTrack = track;
+  updateMediaSessionMetadata(track);
   clearManualLyricOverride();
   $('playerTitle').textContent = track.title;
   $('playerMeta').textContent = track.meta || track.url;
   loadTimedLyrics(track);
+  return sourceChanged;
+}
+
+async function requestPlayback() {
+  const audio = $('globalAudio');
+  if (!state.currentTrack?.url) return false;
+  setPlaybackWanted(true);
+  if (state.playbackPromise) return state.playbackPromise;
+
+  let playPromise;
+  try {
+    playPromise = audio.play();
+  } catch (err) {
+    console.warn(err);
+    syncPlayButtons();
+    updateMediaSessionPlaybackState();
+    return false;
+  }
+
+  state.playbackPromise = playPromise;
+  try {
+    await playPromise;
+    return true;
+  } catch (err) {
+    console.warn(err);
+    return false;
+  } finally {
+    if (state.playbackPromise === playPromise) state.playbackPromise = null;
+    syncPlayButtons();
+    updateMediaSessionPlaybackState();
+  }
+}
+
+function retryWantedPlayback() {
+  const audio = $('globalAudio');
+  if (!state.playbackWanted || !state.currentTrack?.url) return;
+  if (!audio.paused && !audio.ended) return;
+  if (audio.readyState < HTMLMediaElement.HAVE_CURRENT_DATA) return;
+  requestPlayback();
 }
 
 async function playPlaylistIndex(index) {
-  const audio = $('globalAudio');
   if (!state.playlist.length) {
     state.currentPlaylistIndex = -1;
     setPlayerTrack(null);
@@ -1795,13 +1899,14 @@ async function playPlaylistIndex(index) {
   }
   const normalizedIndex = ((index % state.playlist.length) + state.playlist.length) % state.playlist.length;
   state.currentPlaylistIndex = normalizedIndex;
+  state.trackTransitioning = true;
+  setPlaybackWanted(true);
   setPlayerTrack(state.playlist[normalizedIndex]);
   syncPlayButtons();
   try {
-    await audio.play();
-  } catch (err) {
-    console.warn(err);
+    await requestPlayback();
   } finally {
+    state.trackTransitioning = false;
     syncPlayButtons();
   }
 }
@@ -1918,8 +2023,9 @@ async function togglePlayback() {
   const audio = $('globalAudio');
   if (!state.currentTrack?.url) return false;
   if (audio.paused) {
-    await audio.play();
+    await requestPlayback();
   } else {
+    setPlaybackWanted(false);
     audio.pause();
   }
   return true;
@@ -1997,13 +2103,23 @@ $('analyzeUploadsBtn').addEventListener('click', () => analyzeUploads());
 $('clearUploadsBtn').addEventListener('click', clearUploads);
 $('globalAudio').addEventListener('ended', advancePlaylist);
 $('globalAudio').addEventListener('play', () => {
+  setPlaybackWanted(true);
   updateKaraokeLines();
   syncPlayButtons();
+  updateMediaSessionPlaybackState();
 });
 $('globalAudio').addEventListener('pause', () => {
+  const audio = $('globalAudio');
+  if (!state.trackTransitioning && !audio.ended && audio.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) {
+    setPlaybackWanted(false);
+  }
   updateKaraokeLines();
   syncPlayButtons();
+  updateMediaSessionPlaybackState();
 });
+$('globalAudio').addEventListener('playing', updateMediaSessionPlaybackState);
+$('globalAudio').addEventListener('loadeddata', retryWantedPlayback);
+$('globalAudio').addEventListener('canplay', retryWantedPlayback);
 $('globalAudio').addEventListener('timeupdate', updateKaraokeLines);
 $('globalAudio').addEventListener('seeked', updateKaraokeLines);
 $('karaokePrevBtn').addEventListener('click', () => shiftManualLyric(-1));
@@ -2084,6 +2200,7 @@ window.addEventListener('popstate', () => {
 });
 
 syncThemeButton();
+setupMediaSession();
 loadCatalog().catch(err => {
   $('dataState').textContent = 'error';
   $('dataState').style.color = 'var(--error)';

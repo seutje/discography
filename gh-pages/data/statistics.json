@@ -3081,6 +3081,50 @@
       "lyrics_url": "data/lyrics/Lost%20Souls/02%20-%20Homeostasis.json"
     },
     {
+      "report_path": "analysis-output/Lost_Souls_audio_03_-_Stevecore.analysis.json",
+      "report_url": "reports/analysis-output_Lost_Souls_audio_03_-_Stevecore.analysis.json",
+      "source_type": "batch",
+      "generated_at": "2026-06-21T11:50:43",
+      "title": "Stevecore",
+      "album": "Lost Souls",
+      "track_number": 3,
+      "audio_path": "Lost Souls/audio/03 - Stevecore.mp3",
+      "audio_url": "media/Lost%20Souls/audio/03%20-%20Stevecore.mp3",
+      "framework": "Hip hop & rap.txt",
+      "score": 8.92,
+      "axes": {
+        "SC_structural_coherence": 9.5,
+        "MI_motivic_integration": 9.8,
+        "BP_beauty_spatial_poise": 9.0,
+        "EG_evolving_grammar": 7.2,
+        "CD_carry_depth": 9.1
+      },
+      "core_metrics": {
+        "CDPD": 0.98,
+        "NGE": 0.64,
+        "HMII_peak_estimate": 8.0
+      },
+      "rung_number": 13.0,
+      "rung_label": "Inhabited Form",
+      "confidence": 9.2,
+      "duration_seconds": 340.16,
+      "tempo_bpm": 161.4990234375,
+      "estimated_key": "D minor",
+      "key_confidence": 0.17318683411837257,
+      "integrated_lufs": -17.52807212686046,
+      "peak_dbfs": -1.1602034216348973,
+      "crest_factor_db": 14.842929492720117,
+      "clipping_ratio": 0.0,
+      "onset_rate_per_second": 4.738946378174976,
+      "recurrence_ratio": 0.29322263627463907,
+      "section_count": 10.0,
+      "word_count": 871.0,
+      "line_count": 178.0,
+      "repeated_line_ratio": 0.09550561797752809,
+      "rhyme_suffix_reuse": 0.3314606741573034,
+      "lyrics_url": "data/lyrics/Lost%20Souls/03%20-%20Stevecore.json"
+    },
+    {
       "report_path": "analysis-output/Net_Worthless_audio_01_-_Main_Character_Morning.analysis.json",
       "report_url": "reports/analysis-output_Net_Worthless_audio_01_-_Main_Character_Morning.analysis.json",
       "source_type": "batch",
@@ -6162,23 +6206,23 @@
     }
   ],
   "summary": {
-    "count": 140,
-    "track_count": 140,
-    "analyzed_count": 140,
-    "average_score": 8.464,
-    "average_rung": 12.343,
-    "average_tempo_bpm": 133.651,
-    "total_duration_seconds": 38433.19,
+    "count": 141,
+    "track_count": 141,
+    "analyzed_count": 141,
+    "average_score": 8.467,
+    "average_rung": 12.348,
+    "average_tempo_bpm": 133.848,
+    "total_duration_seconds": 38773.35,
     "axes": {
-      "BP_beauty_spatial_poise": 9.056,
-      "CD_carry_depth": 8.555,
-      "EG_evolving_grammar": 7.338,
-      "MI_motivic_integration": 7.85,
+      "BP_beauty_spatial_poise": 9.055,
+      "CD_carry_depth": 8.559,
+      "EG_evolving_grammar": 7.337,
+      "MI_motivic_integration": 7.864,
       "SC_structural_coherence": 9.52
     },
     "core_metrics": {
-      "CDPD": 0.701,
-      "HMII_peak_estimate": 5.664,
+      "CDPD": 0.703,
+      "HMII_peak_estimate": 5.681,
       "NGE": 0.603
     }
   }

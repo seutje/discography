@@ -1,0 +1,2177 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Lost Souls",
+  "title": "Stevecore",
+  "text_path": "Lost Souls/03 - Stevecore.txt",
+  "audio_path": "Lost Souls/audio/03 - Stevecore.mp3",
+  "duration_seconds": 340.14,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 178,
+    "reference_word_count": 780,
+    "observed_word_count": 784,
+    "matched_word_count": 737,
+    "matched_word_ratio": 0.945,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 109
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 5.04,
+      "text": "so every day somebody walks in holding a cup"
+    },
+    {
+      "start": 5.7,
+      "end": 9.12,
+      "text": "and says guys i discovered hot water"
+    },
+    {
+      "start": 11.4,
+      "end": 14.84,
+      "text": "then they pour it on the floor and call it"
+    },
+    {
+      "start": 16.14,
+      "end": 16.68,
+      "text": "thermosoulwave"
+    },
+    {
+      "start": 19.06,
+      "end": 21.94,
+      "text": "there's a rule on the wall that says tag what it is"
+    },
+    {
+      "start": 21.94,
+      "end": 24.54,
+      "text": "so people know what they click and before they commit"
+    },
+    {
+      "start": 24.54,
+      "end": 27.76,
+      "text": "country ballad dark wave trap folk punk ambient"
+    },
+    {
+      "start": 27.76,
+      "end": 30.42,
+      "text": "useful little signs for the tired and impatient"
+    },
+    {
+      "start": 30.42,
+      "end": 32.92,
+      "text": "but someone shows up with four on the floor"
+    },
+    {
+      "start": 32.92,
+      "end": 35.36,
+      "text": "drums a violin loop and a bass drop"
+    },
+    {
+      "start": 35.36,
+      "end": 38.02,
+      "text": "chewing gum says this is not edm"
+    },
+    {
+      "start": 38.02,
+      "end": 39.4,
+      "text": "okay what is it then"
+    },
+    {
+      "start": 40.0,
+      "end": 42.84,
+      "text": "they say trek rift fusion and the room goes still"
+    },
+    {
+      "start": 42.84,
+      "end": 46.18,
+      "text": "like a chef just announced he invented the cucumber"
+    },
+    {
+      "start": 46.76,
+      "end": 49.68,
+      "text": "i'm not saying don't make it i'm saying if it quacks"
+    },
+    {
+      "start": 49.68,
+      "end": 52.58,
+      "text": "maybe tag a bird adjacent before you teach it to flap"
+    },
+    {
+      "start": 52.58,
+      "end": 55.3,
+      "text": "because someone came looking for a country ballad"
+    },
+    {
+      "start": 55.3,
+      "end": 58.32,
+      "text": "and got lasers in a tuxedo fighting a fiddle in traffic"
+    },
+    {
+      "start": 58.32,
+      "end": 61.3,
+      "text": "that's not mystique that's hiding the menu"
+    },
+    {
+      "start": 61.3,
+      "end": 63.38,
+      "text": "behind your artist's mission"
+    },
+    {
+      "start": 64.3,
+      "end": 66.8,
+      "text": "you didn't invent boiling water"
+    },
+    {
+      "start": 66.8,
+      "end": 69.64,
+      "text": "you just found the kettle out"
+    },
+    {
+      "start": 69.64,
+      "end": 72.38,
+      "text": "you didn't build a new horizon"
+    },
+    {
+      "start": 72.38,
+      "end": 75.36,
+      "text": "you just named your favorite cloud"
+    },
+    {
+      "start": 75.36,
+      "end": 77.8,
+      "text": "call it yours in the margins"
+    },
+    {
+      "start": 77.8,
+      "end": 80.6,
+      "text": "call it strange call it true"
+    },
+    {
+      "start": 80.6,
+      "end": 83.32,
+      "text": "but don't make me need a passport"
+    },
+    {
+      "start": 83.32,
+      "end": 87.16,
+      "text": "just to know what i'm clicking through"
+    },
+    {
+      "start": 87.16,
+      "end": 90.88,
+      "text": "also it's edm with violins"
+    },
+    {
+      "start": 90.88,
+      "end": 94.18,
+      "text": "that's fine that's legal"
+    },
+    {
+      "start": 96.56,
+      "end": 100.12,
+      "text": "and there's the guy with the japanese grunge"
+    },
+    {
+      "start": 100.12,
+      "end": 103.88,
+      "text": "like nobody ever put distortion under another language once"
+    },
+    {
+      "start": 103.88,
+      "end": 106.0,
+      "text": "like seattle had a customs office"
+    },
+    {
+      "start": 106.0,
+      "end": 107.38,
+      "text": "like sadness needs a visa"
+    },
+    {
+      "start": 107.38,
+      "end": 109.36,
+      "text": "like guitars turn back at the border"
+    },
+    {
+      "start": 109.36,
+      "end": 111.42,
+      "text": "if the chorus isn't in english"
+    },
+    {
+      "start": 111.42,
+      "end": 115.6,
+      "text": "and i get it the first time you make something that sounds like your head"
+    },
+    {
+      "start": 115.6,
+      "end": 118.48,
+      "text": "you feel like a scientist raising lightning from bread"
+    },
+    {
+      "start": 118.48,
+      "end": 122.02,
+      "text": "you think this is new and maybe to you it is"
+    },
+    {
+      "start": 122.02,
+      "end": 126.8,
+      "text": "that matters but personal discovery is not the same as invention"
+    },
+    {
+      "start": 126.8,
+      "end": 128.96,
+      "text": "the first pancake is not a cuisine"
+    },
+    {
+      "start": 128.96,
+      "end": 132.14,
+      "text": "the first time you cry the sense doesn't make it steve kaur"
+    },
+    {
+      "start": 132.14,
+      "end": 134.68,
+      "text": "though i respect the ambition i too"
+    },
+    {
+      "start": 134.68,
+      "end": 137.96,
+      "text": "have heard one minor chord and considered founding a movement"
+    },
+    {
+      "start": 137.96,
+      "end": 141.24,
+      "text": "but a genre's not a hat you put on a song"
+    },
+    {
+      "start": 141.24,
+      "end": 143.58,
+      "text": "when you want it to feel taller"
+    },
+    {
+      "start": 143.58,
+      "end": 148.0,
+      "text": "it's a language other people can use without calling the author"
+    },
+    {
+      "start": 150.0,
+      "end": 152.24,
+      "text": "you didn't invent boiling water"
+    },
+    {
+      "start": 152.94,
+      "end": 155.24,
+      "text": "you just found the kettle out"
+    },
+    {
+      "start": 155.96,
+      "end": 158.74,
+      "text": "you didn't build a new horizon"
+    },
+    {
+      "start": 158.74,
+      "end": 161.62,
+      "text": "you just named your favorite cloud"
+    },
+    {
+      "start": 161.62,
+      "end": 164.18,
+      "text": "call it yours in the margins"
+    },
+    {
+      "start": 164.18,
+      "end": 167.3,
+      "text": "call it strange call it true"
+    },
+    {
+      "start": 167.3,
+      "end": 170.04,
+      "text": "but don't make me need a passport"
+    },
+    {
+      "start": 170.04,
+      "end": 173.54,
+      "text": "just to know what i'm clicking through"
+    },
+    {
+      "start": 173.54,
+      "end": 176.06,
+      "text": "and look i'm not immune"
+    },
+    {
+      "start": 176.06,
+      "end": 178.12,
+      "text": "i've named things too early"
+    },
+    {
+      "start": 178.12,
+      "end": 181.86,
+      "text": "i've heard a weird texture in the back of a track"
+    },
+    {
+      "start": 181.86,
+      "end": 183.8,
+      "text": "and thought finally"
+    },
+    {
+      "start": 184.74,
+      "end": 188.38,
+      "text": "a genre for people who overthink common sections"
+    },
+    {
+      "start": 188.38,
+      "end": 191.38,
+      "text": "maybe all artists want to be unrepeatable"
+    },
+    {
+      "start": 191.38,
+      "end": 195.12,
+      "text": "maybe all of us fear that if the label fits too easily"
+    },
+    {
+      "start": 195.12,
+      "end": 198.46,
+      "text": "then we disappear inside it"
+    },
+    {
+      "start": 198.46,
+      "end": 200.34,
+      "text": "it begins to trap"
+    },
+    {
+      "start": 200.34,
+      "end": 202.12,
+      "text": "japanese grunge"
+    },
+    {
+      "start": 202.74,
+      "end": 205.12,
+      "text": "japanese tracking whatever"
+    },
+    {
+      "start": 205.72,
+      "end": 209.08,
+      "text": "sometimes a name feels like a cage"
+    },
+    {
+      "start": 209.08,
+      "end": 212.0,
+      "text": "sometimes it's just a door sign"
+    },
+    {
+      "start": 212.0,
+      "end": 216.28,
+      "text": "and the door sign is not there to shrink the rooms"
+    },
+    {
+      "start": 216.28,
+      "end": 220.5,
+      "text": "they're so strangers don't walk in expecting a bakery"
+    },
+    {
+      "start": 220.5,
+      "end": 223.06,
+      "text": "and get punched by a fog machine"
+    },
+    {
+      "start": 223.06,
+      "end": 225.44,
+      "text": "so put your secret name in the liner notes"
+    },
+    {
+      "start": 225.44,
+      "end": 228.54,
+      "text": "put your private mythology where the real ones know"
+    },
+    {
+      "start": 228.54,
+      "end": 230.26,
+      "text": "say i call this track refusal"
+    },
+    {
+      "start": 230.26,
+      "end": 231.44,
+      "text": "you hold the chest"
+    },
+    {
+      "start": 231.44,
+      "end": 234.2,
+      "text": "but tag it like a neighbor not a prophet with the quest"
+    },
+    {
+      "start": 234.2,
+      "end": 237.36,
+      "text": "say electronics say violence say dance say weird"
+    },
+    {
+      "start": 237.36,
+      "end": 239.9,
+      "text": "say grunge in japanese if that's what people will hear"
+    },
+    {
+      "start": 239.9,
+      "end": 242.84,
+      "text": "you can blend the genre without breaking the map"
+    },
+    {
+      "start": 242.84,
+      "end": 245.84,
+      "text": "you can be original and still help people tap"
+    },
+    {
+      "start": 245.84,
+      "end": 248.8,
+      "text": "maybe the magic isn't in being first"
+    },
+    {
+      "start": 248.8,
+      "end": 252.58,
+      "text": "maybe it's making a known thing hurt in your particular verse"
+    },
+    {
+      "start": 252.58,
+      "end": 255.34,
+      "text": "maybe the point isn't to escape every shelf"
+    },
+    {
+      "start": 255.34,
+      "end": 259.38,
+      "text": "maybe it's to leave a finger print on something bigger than yourself"
+    },
+    {
+      "start": 261.58,
+      "end": 264.18,
+      "text": "you didn't invent boiling water"
+    },
+    {
+      "start": 264.18,
+      "end": 266.88,
+      "text": "you just found it kept allowed"
+    },
+    {
+      "start": 267.58,
+      "end": 270.1,
+      "text": "you didn't build a new horizon"
+    },
+    {
+      "start": 270.1,
+      "end": 273.16,
+      "text": "you just named your favorite cloud"
+    },
+    {
+      "start": 273.16,
+      "end": 275.56,
+      "text": "call yours in the margins"
+    },
+    {
+      "start": 275.56,
+      "end": 278.38,
+      "text": "call it strange call it true"
+    },
+    {
+      "start": 278.38,
+      "end": 281.24,
+      "text": "but don't make me need a passport"
+    },
+    {
+      "start": 281.24,
+      "end": 284.8,
+      "text": "just to know what i'm clicking through"
+    },
+    {
+      "start": 284.8,
+      "end": 287.84,
+      "text": "you didn't invent boiling water"
+    },
+    {
+      "start": 287.84,
+      "end": 290.18,
+      "text": "but you still made something steam"
+    },
+    {
+      "start": 290.18,
+      "end": 293.92,
+      "text": "there's rome inside the old words for"
+    },
+    {
+      "start": 293.92,
+      "end": 296.04,
+      "text": "new and crooked dream"
+    },
+    {
+      "start": 296.04,
+      "end": 298.5,
+      "text": "so call it yours in the margins"
+    },
+    {
+      "start": 298.5,
+      "end": 301.98,
+      "text": "let the song be strange and true"
+    },
+    {
+      "start": 301.98,
+      "end": 305.34,
+      "text": "just put edm with violence"
+    },
+    {
+      "start": 305.34,
+      "end": 307.9,
+      "text": "where the people can see too"
+    },
+    {
+      "start": 307.9,
+      "end": 310.16,
+      "text": "no hard feelings"
+    },
+    {
+      "start": 310.16,
+      "end": 313.16,
+      "text": "invent the ocean in your own bathtub"
+    },
+    {
+      "start": 313.74,
+      "end": 316.08,
+      "text": "name every way after your cat"
+    },
+    {
+      "start": 316.08,
+      "end": 318.1,
+      "text": "but when the sign says genre"
+    },
+    {
+      "start": 318.1,
+      "end": 320.8,
+      "text": "maybe don't write me"
+    },
+    {
+      "start": 321.42,
+      "end": 322.86,
+      "text": "some of us are just trying"
+    },
+    {
+      "start": 322.86,
+      "end": 325.06,
+      "text": "to find a sandwich"
+    },
+    {
+      "start": 325.06,
+      "end": 329.16,
+      "text": "and not get ambushed by a violin"
+    },
+    {
+      "start": 329.46,
+      "end": 340.14,
+      "text": "drop a b"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro – spoken | dry, close-mic | sparse guitar",
+      "start": 1.52,
+      "end": 2.14,
+      "text": "Every day",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "Intro – spoken | dry, close-mic | sparse guitar",
+      "start": 3.28,
+      "end": 5.04,
+      "text": "somebody walks in holding a cup",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 2,
+      "section": "Intro – spoken | dry, close-mic | sparse guitar",
+      "start": 5.7,
+      "end": 6.6,
+      "text": "and says,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 3,
+      "section": "Intro – spoken | dry, close-mic | sparse guitar",
+      "start": 7.02,
+      "end": 7.26,
+      "text": "“Guys.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 4,
+      "section": "Intro – spoken | dry, close-mic | sparse guitar",
+      "start": 7.66,
+      "end": 8.18,
+      "text": "I discovered",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 5,
+      "section": "Intro – spoken | dry, close-mic | sparse guitar",
+      "start": 8.18,
+      "end": 9.12,
+      "text": "hot water.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 6,
+      "section": "Intro – spoken | dry, close-mic | sparse guitar",
+      "start": 11.4,
+      "end": 13.12,
+      "text": "Then they pour it on the floor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 7,
+      "section": "Intro – spoken | dry, close-mic | sparse guitar",
+      "start": 13.12,
+      "end": 14.84,
+      "text": "and call it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 8,
+      "section": "Intro – spoken | dry, close-mic | sparse guitar",
+      "start": 14.84,
+      "end": 19.06,
+      "text": "Thermal Soulwave.",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 19.06,
+      "end": 20.58,
+      "text": "There’s a rule on the wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 20.58,
+      "end": 21.94,
+      "text": "that says tag what it is",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 21.94,
+      "end": 22.98,
+      "text": "So people know what they’re clicking",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 23.5,
+      "end": 24.54,
+      "text": "before they commit",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 24.54,
+      "end": 25.58,
+      "text": "Country ballad",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 25.58,
+      "end": 26.36,
+      "text": "darkwave",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 26.36,
+      "end": 26.52,
+      "text": "trap",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 26.52,
+      "end": 27.22,
+      "text": "folk punk",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 27.4,
+      "end": 27.76,
+      "text": "ambient",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 27.76,
+      "end": 28.96,
+      "text": "Useful little signs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 28.96,
+      "end": 30.42,
+      "text": "for the tired and impatient",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 30.42,
+      "end": 31.76,
+      "text": "But someone shows up",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 31.76,
+      "end": 33.38,
+      "text": "with four-on-the-floor drums",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 33.52,
+      "end": 34.42,
+      "text": "a violin loop",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 34.46,
+      "end": 36.06,
+      "text": "and a bass drop chewing gum",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 36.06,
+      "end": 36.4,
+      "text": "Says,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 36.72,
+      "end": 38.02,
+      "text": "“This is not EDM.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 38.02,
+      "end": 38.36,
+      "text": "Okay.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 38.58,
+      "end": 39.4,
+      "text": "“What is it then?”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 40.0,
+      "end": 40.4,
+      "text": "They say,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 41.16,
+      "end": 41.44,
+      "text": "“Trekrift Fusion.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 41.44,
+      "end": 42.84,
+      "text": "And the room goes still",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 42.84,
+      "end": 44.22,
+      "text": "like a chef just announced",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 32,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 44.22,
+      "end": 46.18,
+      "text": "he invented the cucumber",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 33,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 46.76,
+      "end": 48.5,
+      "text": "I’m not saying don’t make it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 34,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 48.52,
+      "end": 49.68,
+      "text": "I’m saying if it quacks",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 35,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 49.68,
+      "end": 51.18,
+      "text": "maybe tag it bird-adjacent",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 36,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 51.18,
+      "end": 52.58,
+      "text": "before you teach it to flap",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 37,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 52.58,
+      "end": 53.98,
+      "text": "Because someone came looking",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 38,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 53.98,
+      "end": 55.3,
+      "text": "for a country ballad",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 39,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 55.3,
+      "end": 56.8,
+      "text": "and got lasers in a tuxedo",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 40,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 56.8,
+      "end": 58.32,
+      "text": "fighting a fiddle in traffic",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 41,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 58.32,
+      "end": 59.6,
+      "text": "That’s not mystique.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 42,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 59.6,
+      "end": 61.3,
+      "text": "That’s hiding the menu",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Verse 1 – spoken rap | light guitar groove",
+      "start": 61.3,
+      "end": 63.38,
+      "text": "behind your artist mission.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Hook – soft sung folk melody",
+      "start": 64.2,
+      "end": 66.8,
+      "text": "You didn’t invent boiling water",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 45,
+      "section": "Hook – soft sung folk melody",
+      "start": 66.8,
+      "end": 68.74,
+      "text": "You just found the kettle loud",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 46,
+      "section": "Hook – soft sung folk melody",
+      "start": 69.64,
+      "end": 72.38,
+      "text": "You didn’t build a new horizon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 47,
+      "section": "Hook – soft sung folk melody",
+      "start": 72.38,
+      "end": 75.36,
+      "text": "You just named your favorite cloud",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 48,
+      "section": "Hook – soft sung folk melody",
+      "start": 75.36,
+      "end": 77.8,
+      "text": "Call it yours in the margins",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 49,
+      "section": "Hook – soft sung folk melody",
+      "start": 77.8,
+      "end": 80.6,
+      "text": "Call it strange, call it true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 50,
+      "section": "Hook – soft sung folk melody",
+      "start": 80.6,
+      "end": 83.32,
+      "text": "But don’t make me need a passport",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 51,
+      "section": "Hook – soft sung folk melody",
+      "start": 83.32,
+      "end": 87.16,
+      "text": "just to know what I’m clicking through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 52,
+      "section": "Post-Hook – spoken aside",
+      "start": 87.16,
+      "end": 88.3,
+      "text": "Also…",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 53,
+      "section": "Post-Hook – spoken aside",
+      "start": 89.28,
+      "end": 90.88,
+      "text": "it’s EDM with violins.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 54,
+      "section": "Post-Hook – spoken aside",
+      "start": 90.88,
+      "end": 92.02,
+      "text": "That’s fine.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 55,
+      "section": "Post-Hook – spoken aside",
+      "start": 92.34,
+      "end": 94.18,
+      "text": "That’s legal.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 97.32,
+      "end": 98.52,
+      "text": "Then there’s the guy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 98.52,
+      "end": 100.12,
+      "text": "with the Japanese grunge",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 100.12,
+      "end": 102.16,
+      "text": "Like nobody ever put distortion",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 102.16,
+      "end": 103.88,
+      "text": "under another language once",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 103.88,
+      "end": 106.0,
+      "text": "Like Seattle had a customs office",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 106.0,
+      "end": 107.38,
+      "text": "Like sadness needs a visa",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 107.38,
+      "end": 109.36,
+      "text": "Like guitars turn back at the border",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 109.36,
+      "end": 111.42,
+      "text": "if the chorus isn’t in English",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 111.42,
+      "end": 112.88,
+      "text": "And I get it.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 112.98,
+      "end": 114.5,
+      "text": "The first time you make something",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 114.5,
+      "end": 115.6,
+      "text": "that sounds like your head",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 115.6,
+      "end": 117.18,
+      "text": "you feel like a scientist",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 117.18,
+      "end": 118.48,
+      "text": "raising lightning from bread",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 118.48,
+      "end": 119.0,
+      "text": "You think,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 119.0,
+      "end": 119.88,
+      "text": "“This is new.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 120.12,
+      "end": 121.2,
+      "text": "And maybe to you,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 72,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 121.2,
+      "end": 122.02,
+      "text": "it is.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 73,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 122.02,
+      "end": 123.14,
+      "text": "That matters.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 74,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 123.56,
+      "end": 125.04,
+      "text": "But personal discovery",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 75,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 125.04,
+      "end": 126.8,
+      "text": "is not the same as invention",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 76,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 126.8,
+      "end": 128.04,
+      "text": "The first pancake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 77,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 128.04,
+      "end": 128.96,
+      "text": "is not a cuisine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 78,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 128.96,
+      "end": 130.18,
+      "text": "The first time you cry to synths",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 79,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 130.66,
+      "end": 131.5,
+      "text": "doesn’t make it Stevecore",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 80,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 132.14,
+      "end": 133.78,
+      "text": "Though I respect the ambition.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 81,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 133.96,
+      "end": 134.68,
+      "text": "I, too,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 82,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 134.68,
+      "end": 136.44,
+      "text": "have heard one minor chord",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 83,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 136.44,
+      "end": 137.96,
+      "text": "and considered founding a movement.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 84,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 137.96,
+      "end": 139.68,
+      "text": "But a genre is not a hat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 85,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 139.68,
+      "end": 141.24,
+      "text": "you put on a song",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 86,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 141.24,
+      "end": 143.58,
+      "text": "when you want it to feel taller",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 87,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 143.58,
+      "end": 144.66,
+      "text": "It’s a language",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 88,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 144.66,
+      "end": 145.94,
+      "text": "other people can use",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 89,
+      "section": "Verse 2 – spoken rap | drums enter",
+      "start": 145.94,
+      "end": 148.0,
+      "text": "without calling the author.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 90,
+      "section": "Hook – fuller, warmer",
+      "start": 150.0,
+      "end": 152.55,
+      "text": "You didn’t invent boiling water",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 91,
+      "section": "Hook – fuller, warmer",
+      "start": 152.94,
+      "end": 155.0,
+      "text": "You just found the kettle loud",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 92,
+      "section": "Hook – fuller, warmer",
+      "start": 155.96,
+      "end": 158.74,
+      "text": "You didn’t build a new horizon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 93,
+      "section": "Hook – fuller, warmer",
+      "start": 158.74,
+      "end": 161.62,
+      "text": "You just named your favorite cloud",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 94,
+      "section": "Hook – fuller, warmer",
+      "start": 161.62,
+      "end": 164.18,
+      "text": "Call it yours in the margins",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 95,
+      "section": "Hook – fuller, warmer",
+      "start": 164.18,
+      "end": 167.3,
+      "text": "Call it strange, call it true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 96,
+      "section": "Hook – fuller, warmer",
+      "start": 167.3,
+      "end": 170.04,
+      "text": "But don’t make me need a passport",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 97,
+      "section": "Hook – fuller, warmer",
+      "start": 170.04,
+      "end": 173.54,
+      "text": "just to know what I’m clicking through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 98,
+      "section": "Bridge – spoken | beat drops",
+      "start": 173.54,
+      "end": 174.44,
+      "text": "And look.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 99,
+      "section": "Bridge – spoken | beat drops",
+      "start": 174.84,
+      "end": 176.06,
+      "text": "I’m not immune.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 100,
+      "section": "Bridge – spoken | beat drops",
+      "start": 176.06,
+      "end": 178.12,
+      "text": "I’ve named things too early.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 101,
+      "section": "Bridge – spoken | beat drops",
+      "start": 178.12,
+      "end": 180.4,
+      "text": "I’ve heard a weird texture",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 102,
+      "section": "Bridge – spoken | beat drops",
+      "start": 180.4,
+      "end": 181.86,
+      "text": "in the back of a track",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 103,
+      "section": "Bridge – spoken | beat drops",
+      "start": 181.86,
+      "end": 182.38,
+      "text": "and thought,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 104,
+      "section": "Bridge – spoken | beat drops",
+      "start": 183.32,
+      "end": 183.8,
+      "text": "“Finally.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 105,
+      "section": "Bridge – spoken | beat drops",
+      "start": 184.74,
+      "end": 186.3,
+      "text": "A genre for people",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 106,
+      "section": "Bridge – spoken | beat drops",
+      "start": 186.3,
+      "end": 188.38,
+      "text": "who overthink comment sections.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 107,
+      "section": "Bridge – spoken | beat drops",
+      "start": 188.38,
+      "end": 189.86,
+      "text": "Maybe all artists",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 108,
+      "section": "Bridge – spoken | beat drops",
+      "start": 189.86,
+      "end": 191.38,
+      "text": "want to be unrepeatable",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 109,
+      "section": "Bridge – spoken | beat drops",
+      "start": 191.38,
+      "end": 192.76,
+      "text": "Maybe all of us fear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 110,
+      "section": "Bridge – spoken | beat drops",
+      "start": 192.76,
+      "end": 195.12,
+      "text": "that if the label fits too easily",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 111,
+      "section": "Bridge – spoken | beat drops",
+      "start": 195.12,
+      "end": 198.46,
+      "text": "then we disappear inside it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 112,
+      "section": "Bridge – spoken | beat drops",
+      "start": 199.94,
+      "end": 200.34,
+      "text": "Acoustic trap.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 113,
+      "section": "Bridge – spoken | beat drops",
+      "start": 200.34,
+      "end": 202.36,
+      "text": "Japanese grunge.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 114,
+      "section": "Bridge – spoken | beat drops",
+      "start": 202.36,
+      "end": 204.4,
+      "text": "(verbal diarrhea)",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 115,
+      "section": "Bridge – spoken | beat drops",
+      "start": 204.4,
+      "end": 205.12,
+      "text": "Whatever.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 116,
+      "section": "Bridge – spoken | beat drops",
+      "start": 205.72,
+      "end": 209.08,
+      "text": "Sometimes a name feels like a cage.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 117,
+      "section": "Bridge – spoken | beat drops",
+      "start": 209.08,
+      "end": 212.0,
+      "text": "Sometimes it’s just a door sign.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 118,
+      "section": "Bridge – spoken | beat drops",
+      "start": 212.0,
+      "end": 214.18,
+      "text": "And the door sign is not there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 119,
+      "section": "Bridge – spoken | beat drops",
+      "start": 214.18,
+      "end": 215.6,
+      "text": "to shrink the room.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 120,
+      "section": "Bridge – spoken | beat drops",
+      "start": 216.94,
+      "end": 219.18,
+      "text": "It’s there so strangers don’t walk in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 121,
+      "section": "Bridge – spoken | beat drops",
+      "start": 219.18,
+      "end": 220.5,
+      "text": "expecting a bakery",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 122,
+      "section": "Bridge – spoken | beat drops",
+      "start": 220.5,
+      "end": 223.06,
+      "text": "and get punched by a fog machine.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 123,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 223.06,
+      "end": 224.36,
+      "text": "So put your secret name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 124,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 224.36,
+      "end": 225.44,
+      "text": "in the liner notes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 125,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 225.44,
+      "end": 227.1,
+      "text": "Put your private mythology",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 126,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 227.1,
+      "end": 228.54,
+      "text": "where the real ones know",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 127,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 228.54,
+      "end": 228.84,
+      "text": "Say,",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 128,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 229.04,
+      "end": 229.56,
+      "text": "“I call this Trekrift Fusion”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 129,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 231.12,
+      "end": 231.44,
+      "text": "with your whole chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 130,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 231.44,
+      "end": 232.8,
+      "text": "But tag it like a neighbor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 131,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 232.92,
+      "end": 234.2,
+      "text": "not a prophet with a quest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 132,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 234.2,
+      "end": 234.56,
+      "text": "Say electronic.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 133,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 235.76,
+      "end": 235.86,
+      "text": "Say violin.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 134,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 236.42,
+      "end": 236.88,
+      "text": "Say dance.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 135,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 237.04,
+      "end": 237.36,
+      "text": "Say weird.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 136,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 237.36,
+      "end": 238.52,
+      "text": "Say grunge in Japanese",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 137,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 238.52,
+      "end": 239.9,
+      "text": "if that’s what people will hear",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 138,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 239.9,
+      "end": 241.32,
+      "text": "You can bend the genre",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 139,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 241.32,
+      "end": 242.84,
+      "text": "without breaking the map",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 140,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 242.84,
+      "end": 244.32,
+      "text": "You can be original",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 141,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 244.32,
+      "end": 245.84,
+      "text": "and still help people tap",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 142,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 245.84,
+      "end": 247.02,
+      "text": "Maybe the magic",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 143,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 247.02,
+      "end": 248.8,
+      "text": "isn’t in being first",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 144,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 248.8,
+      "end": 250.62,
+      "text": "Maybe it’s making the known thing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 145,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 250.62,
+      "end": 252.58,
+      "text": "hurt in your particular verse",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 146,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 252.58,
+      "end": 253.48,
+      "text": "Maybe the point",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 147,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 253.48,
+      "end": 255.34,
+      "text": "isn’t to escape every shelf",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 148,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 255.34,
+      "end": 256.6,
+      "text": "Maybe it’s to leave a fingerprint",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 149,
+      "section": "Verse 3 – warmer spoken rap | piano enters",
+      "start": 257.16,
+      "end": 259.38,
+      "text": "on something bigger than yourself",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 150,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 261.42,
+      "end": 264.18,
+      "text": "You didn’t invent boiling water",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 151,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 264.18,
+      "end": 265.46,
+      "text": "You just found the kettle loud",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 152,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 267.3,
+      "end": 270.1,
+      "text": "You didn’t build a new horizon",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 153,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 270.1,
+      "end": 273.16,
+      "text": "You just named your favorite cloud",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 154,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 273.16,
+      "end": 275.56,
+      "text": "Call it yours in the margins",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 155,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 275.56,
+      "end": 278.38,
+      "text": "Call it strange, call it true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 156,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 278.38,
+      "end": 281.24,
+      "text": "But don’t make me need a passport",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 157,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 281.24,
+      "end": 284.8,
+      "text": "just to know what I’m clicking through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 158,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 284.8,
+      "end": 287.84,
+      "text": "You didn’t invent boiling water",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 159,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 287.84,
+      "end": 290.18,
+      "text": "but you still made something steam",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 160,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 290.18,
+      "end": 293.42,
+      "text": "There’s room inside the old words",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 161,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 293.42,
+      "end": 296.04,
+      "text": "for a new and crooked dream",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 162,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 296.04,
+      "end": 298.5,
+      "text": "So call it yours in the margins",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 163,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 298.5,
+      "end": 301.98,
+      "text": "let the song be strange and true",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 164,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 301.98,
+      "end": 304.42,
+      "text": "Just put “EDM with violins”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 165,
+      "section": "Final Hook – warm, gently triumphant",
+      "start": 305.34,
+      "end": 307.9,
+      "text": "where the people can see it too",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 166,
+      "section": "Outro – spoken | fading",
+      "start": 307.9,
+      "end": 310.16,
+      "text": "No hard feelings.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 167,
+      "section": "Outro – spoken | fading",
+      "start": 310.16,
+      "end": 311.94,
+      "text": "Invent the ocean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 168,
+      "section": "Outro – spoken | fading",
+      "start": 311.94,
+      "end": 313.34,
+      "text": "in your own bathtub.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 169,
+      "section": "Outro – spoken | fading",
+      "start": 313.74,
+      "end": 314.7,
+      "text": "Name every wave",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 170,
+      "section": "Outro – spoken | fading",
+      "start": 315.0,
+      "end": 316.08,
+      "text": "after your cat.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 171,
+      "section": "Outro – spoken | fading",
+      "start": 316.08,
+      "end": 318.1,
+      "text": "But when the sign says “genre,”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 172,
+      "section": "Outro – spoken | fading",
+      "start": 318.1,
+      "end": 320.16,
+      "text": "maybe don’t write",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 173,
+      "section": "Outro – spoken | fading",
+      "start": 320.16,
+      "end": 320.8,
+      "text": "“me.”",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 174,
+      "section": "Outro – spoken | fading",
+      "start": 321.42,
+      "end": 322.86,
+      "text": "Some of us are just trying",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 175,
+      "section": "Outro – spoken | fading",
+      "start": 322.86,
+      "end": 325.06,
+      "text": "to find a sandwich",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 176,
+      "section": "Outro – spoken | fading",
+      "start": 325.06,
+      "end": 328.06,
+      "text": "and not get ambushed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 177,
+      "section": "Outro – spoken | fading",
+      "start": 328.06,
+      "end": 330.38,
+      "text": "by a violin drop.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    }
+  ]
+}

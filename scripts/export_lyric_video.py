@@ -527,6 +527,7 @@ def render_frame(
     frame_index: int,
     fps: int,
     start_time: float,
+    reactive: bool,
 ) -> bytes:
     size = base.size[0]
     scale = size / DESIGN_SIZE
@@ -543,25 +544,26 @@ def render_frame(
     frame.alpha_composite(overlay)
 
     draw = ImageDraw.Draw(frame, "RGBA")
-    for point in points:
-        phase = t * (0.45 + high * 2.2) + point.phase
-        drift = (4 + energy * 28) * scale
-        x = point.x + math.sin(phase) * drift * (0.35 + bass)
-        y = point.y + math.cos(phase * 0.8) * drift * (0.3 + mid)
-        point_amplitude = min(1.0, energy * 0.72 + (bass if point.hue_role == "warm" else mid) * 0.28)
-        radius = point.radius + (point_amplitude * 3.05 + bass * 0.7) * scale
-        opacity = 0.20 + point_amplitude * 0.55
-        base_color = warm if point.hue_role == "warm" else accent
-        draw_glowing_sphere(frame, x, y, radius, base_color, opacity)
+    if reactive:
+        for point in points:
+            phase = t * (0.45 + high * 2.2) + point.phase
+            drift = (4 + energy * 28) * scale
+            x = point.x + math.sin(phase) * drift * (0.35 + bass)
+            y = point.y + math.cos(phase * 0.8) * drift * (0.3 + mid)
+            point_amplitude = min(1.0, energy * 0.72 + (bass if point.hue_role == "warm" else mid) * 0.28)
+            radius = point.radius + (point_amplitude * 3.05 + bass * 0.7) * scale
+            opacity = 0.20 + point_amplitude * 0.55
+            base_color = warm if point.hue_role == "warm" else accent
+            draw_glowing_sphere(frame, x, y, radius, base_color, opacity)
 
-    wave_points: list[tuple[float, float]] = []
-    amplitude = (9 + mid * 36) * scale
-    line_color = (*parse_hex(theme["line"]), round(95 + energy * 85))
-    for x in range(0, size + 3, 3):
-        y = size * 0.56 + math.sin(t * 1.3 + x * 0.025) * amplitude
-        y += math.sin(t * 2.1 + x * 0.011) * high * 16
-        wave_points.append((x, y))
-    draw.line(wave_points, fill=line_color, width=max(2, round(size / 360)))
+        wave_points: list[tuple[float, float]] = []
+        amplitude = (9 + mid * 36) * scale
+        line_color = (*parse_hex(theme["line"]), round(95 + energy * 85))
+        for x in range(0, size + 3, 3):
+            y = size * 0.56 + math.sin(t * 1.3 + x * 0.025) * amplitude
+            y += math.sin(t * 2.1 + x * 0.011) * high * 16
+            wave_points.append((x, y))
+        draw.line(wave_points, fill=line_color, width=max(2, round(size / 360)))
 
     fonts = make_fonts(font_path, scale)
     max_width = round(size * 0.84)
@@ -704,6 +706,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--maxrate", default="12000k", help="Constrained video max bitrate. Default: 12000k.")
     parser.add_argument("--bufsize", default="24000k", help="x264 VBV buffer size. Default: 24000k.")
     parser.add_argument("--audio-bitrate", default="160k", help="AAC audio bitrate. Default: 160k.")
+    parser.add_argument("--reactive", action="store_true", help="Render the audio-reactive center spheres and wave line.")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite the output file if it exists.")
     return parser.parse_args()
 
@@ -766,6 +769,7 @@ def main() -> int:
                     frame_index,
                     args.fps,
                     args.start,
+                    args.reactive,
                 )
             )
     except BrokenPipeError:

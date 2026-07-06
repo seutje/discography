@@ -1,0 +1,1116 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Night Bus",
+  "title": "Depot Lights",
+  "text_path": "Night Bus/02 - Depot Lights.txt",
+  "audio_path": "Night Bus/audio/02 - Depot Lights.mp3",
+  "duration_seconds": 229.38,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 104,
+    "reference_word_count": 356,
+    "observed_word_count": 352,
+    "matched_word_count": 271,
+    "matched_word_ratio": 0.761,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 12.84,
+      "end": 22.62,
+      "text": "it pour lights behind the fence rows of roots in prison tents engines cough then settle"
+    },
+    {
+      "start": 22.62,
+      "end": 28.2,
+      "text": "low city lungs begin to go the yard wakes slow"
+    },
+    {
+      "start": 28.2,
+      "end": 38.78,
+      "text": "with the diesel throat drivers hit coal and check road note"
+    },
+    {
+      "start": 54.12,
+      "end": 59.34,
+      "text": "drivers stand with paper cups under lamps that never sleep one checks mirrors one"
+    },
+    {
+      "start": 59.34,
+      "end": 64.52,
+      "text": "checks brakes one checks messages kept cheap route numbers wake in amber squares"
+    },
+    {
+      "start": 64.52,
+      "end": 72.24,
+      "text": "small destinations stacked like brieves meet here once long night again they laugh through"
+    },
+    {
+      "start": 72.24,
+      "end": 74.62,
+      "text": "smoke and step from the rain"
+    },
+    {
+      "start": 75.22,
+      "end": 81.22,
+      "text": "no applause for the first ignition no headline for the night position"
+    },
+    {
+      "start": 81.88,
+      "end": 88.02,
+      "text": "the public face is clean and lit the back lot knows the working weight"
+    },
+    {
+      "start": 88.02,
+      "end": 95.16,
+      "text": "city look easy when you never see who turned the key before three"
+    },
+    {
+      "start": 96.1,
+      "end": 103.24,
+      "text": "it pour lights keep the roots alive while the city thinks it runs by itself can't break"
+    },
+    {
+      "start": 103.24,
+      "end": 109.0,
+      "text": "size and the boards revise someone signs on someone checks help"
+    },
+    {
+      "start": 109.9,
+      "end": 115.96,
+      "text": "it pour lights not bright not kind just enough to read the line"
+    },
+    {
+      "start": 115.96,
+      "end": 122.5,
+      "text": "it pour lights one jacket striped night shift ready you carry the light"
+    },
+    {
+      "start": 136.46,
+      "end": 142.06,
+      "text": "and my kenneth white style from the heel of his hand another but three verses to the"
+    },
+    {
+      "start": 142.06,
+      "end": 143.26,
+      "text": "radio band"
+    },
+    {
+      "start": 143.52,
+      "end": 149.76,
+      "text": "the shift board names in plastic slots late night weather in diesel knots"
+    },
+    {
+      "start": 150.02,
+      "end": 156.12,
+      "text": "there is no seamless city only work made quiet only fuel keys tires and feet must still"
+    },
+    {
+      "start": 156.12,
+      "end": 157.08,
+      "text": "look beside it"
+    },
+    {
+      "start": 157.32,
+      "end": 163.64,
+      "text": "no smooth system dropped from sky his panda and spanner is tired eye"
+    },
+    {
+      "start": 163.64,
+      "end": 170.24,
+      "text": "the first door opens with the tired release like the route itself has been allowed to"
+    },
+    {
+      "start": 170.24,
+      "end": 170.64,
+      "text": "breathe"
+    },
+    {
+      "start": 173.06,
+      "end": 181.2,
+      "text": "stand by for road change driver relief at stop nine running five minutes behind"
+    },
+    {
+      "start": 183.32,
+      "end": 184.34,
+      "text": "behind what"
+    },
+    {
+      "start": 184.96,
+      "end": 193.04,
+      "text": "behind the train behind the rent behind the plan behind the fence behind the sleep"
+    },
+    {
+      "start": 193.04,
+      "end": 199.04,
+      "text": "behind hey hey behind yesterday still driving today"
+    },
+    {
+      "start": 202.3,
+      "end": 209.82,
+      "text": "it pour lights keep the routes alive while the city thinks it runs by itself can't break"
+    },
+    {
+      "start": 209.82,
+      "end": 215.7,
+      "text": "size and the boards revise someone signs on someone checks help"
+    },
+    {
+      "start": 217.18,
+      "end": 226.18,
+      "text": "on the range send the first bus back through the same mr rollout was slow and wide he"
+    },
+    {
+      "start": 226.18,
+      "end": 229.38,
+      "text": "said he need wheels for the people inside"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 14.1,
+      "end": 14.64,
+      "text": "Depot lights",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 1,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 14.64,
+      "end": 16.62,
+      "text": "behind the fence",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 2,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 17.2,
+      "end": 17.58,
+      "text": "rows of routes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 3,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 18.06,
+      "end": 18.76,
+      "text": "in present tense",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 4,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 20.18,
+      "end": 21.44,
+      "text": "Engines cough",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 5,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 21.44,
+      "end": 23.46,
+      "text": "then settle low",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 6,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 23.96,
+      "end": 24.84,
+      "text": "city lungs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 7,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 24.84,
+      "end": 26.32,
+      "text": "begin to go",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 8,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 27.12,
+      "end": 28.2,
+      "text": "Di yard wake slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 9,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 30.48,
+      "end": 31.74,
+      "text": "wid a diesel throat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 10,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 31.74,
+      "end": 35.1,
+      "text": "driver zip coat",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 11,
+      "section": "Intro - engine idle | orange lamps | distant radio",
+      "start": 35.1,
+      "end": 38.78,
+      "text": "and check route note",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 54.12,
+      "end": 56.46,
+      "text": "Drivers stand with paper cups",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 56.46,
+      "end": 58.12,
+      "text": "under lamps that never sleep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 58.38,
+      "end": 59.88,
+      "text": "one checks mirrors, one checks brakes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 60.04,
+      "end": 61.62,
+      "text": "one checks messages kept cheap",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 61.68,
+      "end": 62.96,
+      "text": "Route numbers wake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 62.96,
+      "end": 64.52,
+      "text": "in amber squares",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 64.52,
+      "end": 66.22,
+      "text": "small destinations",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 66.22,
+      "end": 67.24,
+      "text": "stacked like prayers",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 67.24,
+      "end": 69.6,
+      "text": "Mi hear one seh",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 69.6,
+      "end": 71.14,
+      "text": "\"long night again\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 71.56,
+      "end": 72.82,
+      "text": "then laugh through smoke",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 72.82,
+      "end": 74.62,
+      "text": "and step from di rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 75.22,
+      "end": 76.2,
+      "text": "No applause",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 76.2,
+      "end": 77.54,
+      "text": "for the first ignition",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 78.72,
+      "end": 79.5,
+      "text": "no headline",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 79.5,
+      "end": 81.22,
+      "text": "for the night position",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 81.88,
+      "end": 83.14,
+      "text": "The public face",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 83.14,
+      "end": 84.08,
+      "text": "is clean and late",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 85.16,
+      "end": 86.72,
+      "text": "the back lot knows",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 86.72,
+      "end": 88.02,
+      "text": "the working weight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 32,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 88.02,
+      "end": 89.96,
+      "text": "City look easy",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 33,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 89.96,
+      "end": 91.4,
+      "text": "when yuh never see",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 34,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 91.4,
+      "end": 93.46,
+      "text": "who turn di key",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Verse 1 - dub chord stabs | halfstep kick",
+      "start": 93.46,
+      "end": 95.16,
+      "text": "before three",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 36,
+      "section": "Hook - sub from engine tone",
+      "start": 96.44,
+      "end": 96.9,
+      "text": "Depot lights",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 37,
+      "section": "Hook - sub from engine tone",
+      "start": 96.9,
+      "end": 99.24,
+      "text": "keep the routes alive",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 38,
+      "section": "Hook - sub from engine tone",
+      "start": 99.44,
+      "end": 100.56,
+      "text": "while the city thinks",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 39,
+      "section": "Hook - sub from engine tone",
+      "start": 100.56,
+      "end": 102.14,
+      "text": "it runs by itself",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "Hook - sub from engine tone",
+      "start": 102.14,
+      "end": 103.78,
+      "text": "Air brake sighs",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 41,
+      "section": "Hook - sub from engine tone",
+      "start": 103.78,
+      "end": 105.96,
+      "text": "and the boards revise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 42,
+      "section": "Hook - sub from engine tone",
+      "start": 106.26,
+      "end": 107.52,
+      "text": "someone signs on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "Hook - sub from engine tone",
+      "start": 107.78,
+      "end": 108.46,
+      "text": "someone checks health",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 44,
+      "section": "Hook - sub from engine tone",
+      "start": 110.2,
+      "end": 110.56,
+      "text": "Depot lights",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 45,
+      "section": "Hook - sub from engine tone",
+      "start": 110.56,
+      "end": 112.6,
+      "text": "not bright, not kind",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 46,
+      "section": "Hook - sub from engine tone",
+      "start": 113.46,
+      "end": 114.3,
+      "text": "just enough",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 47,
+      "section": "Hook - sub from engine tone",
+      "start": 114.3,
+      "end": 115.96,
+      "text": "to read the line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 48,
+      "section": "Hook - sub from engine tone",
+      "start": 116.76,
+      "end": 117.52,
+      "text": "Depot lights",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 49,
+      "section": "Hook - sub from engine tone",
+      "start": 117.98,
+      "end": 118.56,
+      "text": "pon jacket stripe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 50,
+      "section": "Hook - sub from engine tone",
+      "start": 119.54,
+      "end": 120.7,
+      "text": "night shift ready",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Hook - sub from engine tone",
+      "start": 121.28,
+      "end": 121.74,
+      "text": "fi carry di life",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 52,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 121.74,
+      "end": 136.46,
+      "text": "A mechanic wipes oil",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 53,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 136.46,
+      "end": 142.06,
+      "text": "from the heel of his hand",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 54,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 142.06,
+      "end": 142.16,
+      "text": "another bus reverses",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 55,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 142.16,
+      "end": 143.26,
+      "text": "to the radio band",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 143.72,
+      "end": 144.92,
+      "text": "Shift board names",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 144.92,
+      "end": 146.5,
+      "text": "in plastic slots",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 147.0,
+      "end": 148.02,
+      "text": "late-night weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 148.02,
+      "end": 149.76,
+      "text": "in diesel knots",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 150.02,
+      "end": 151.76,
+      "text": "There is no seamless city",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 151.76,
+      "end": 153.44,
+      "text": "only work made quiet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 153.76,
+      "end": 154.68,
+      "text": "only fuel, keys, tyres",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 155.2,
+      "end": 157.08,
+      "text": "and people stood beside it",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 157.32,
+      "end": 158.72,
+      "text": "No smooth system",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 159.14,
+      "end": 160.16,
+      "text": "drop from sky",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 161.34,
+      "end": 162.18,
+      "text": "is hand and spanner",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 162.18,
+      "end": 163.64,
+      "text": "is tired eye",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 163.64,
+      "end": 165.58,
+      "text": "The first door opens",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 165.58,
+      "end": 167.0,
+      "text": "with a tired release",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 167.38,
+      "end": 168.68,
+      "text": "like the route itself",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 - indicator clicks become hats",
+      "start": 168.68,
+      "end": 170.64,
+      "text": "has been allowed to breathe",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 72,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 173.06,
+      "end": 174.56,
+      "text": "\"Stand by for route change\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 73,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 176.18,
+      "end": 178.12,
+      "text": "\"Driver relief at stop nine\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 74,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 178.56,
+      "end": 181.2,
+      "text": "\"Running five minutes behind\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 75,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 183.32,
+      "end": 184.34,
+      "text": "Behind what?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 76,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 184.96,
+      "end": 186.14,
+      "text": "Behind the train",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 77,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 186.66,
+      "end": 187.8,
+      "text": "behind the rent",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 78,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 188.72,
+      "end": 189.54,
+      "text": "behind the plan",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 79,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 190.28,
+      "end": 191.36,
+      "text": "behind the fence",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 80,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 192.12,
+      "end": 193.04,
+      "text": "Behind sleep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 81,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 193.04,
+      "end": 194.18,
+      "text": "behind pay",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 82,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 195.4,
+      "end": 196.86,
+      "text": "behind yesterday",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 83,
+      "section": "Bridge - radio fragments | drums strip",
+      "start": 196.92,
+      "end": 199.12,
+      "text": "still driving today",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 84,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 203.0,
+      "end": 203.44,
+      "text": "Depot lights",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 85,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 204.04,
+      "end": 205.86,
+      "text": "keep the routes alive",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 86,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 206.22,
+      "end": 207.14,
+      "text": "while the city thinks",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 87,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 207.14,
+      "end": 208.72,
+      "text": "it runs by itself",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 88,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 208.72,
+      "end": 210.36,
+      "text": "Air brake sighs",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 89,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 210.36,
+      "end": 212.58,
+      "text": "and the boards revise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 90,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 212.86,
+      "end": 214.06,
+      "text": "someone signs on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 91,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 214.3,
+      "end": 215.08,
+      "text": "someone checks health",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 92,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 215.08,
+      "end": 217.18,
+      "text": "Depot lights",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 93,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 217.18,
+      "end": 218.46,
+      "text": "low on the rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 94,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 219.4,
+      "end": 220.44,
+      "text": "send the first bus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 95,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 220.44,
+      "end": 222.12,
+      "text": "back through the same",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 96,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 222.12,
+      "end": 224.56,
+      "text": "Mi seh roll out",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 97,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 224.56,
+      "end": 225.72,
+      "text": "slow and wide",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 98,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 226.64,
+      "end": 227.5,
+      "text": "city need wheels",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 99,
+      "section": "Final Hook - fuller bass | dub delay throws",
+      "start": 227.5,
+      "end": 229.38,
+      "text": "for di people inside",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 100,
+      "section": "Outro - door hiss elongates",
+      "start": 229.38,
+      "end": 229.48,
+      "text": "Doors test once",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 101,
+      "section": "Outro - door hiss elongates",
+      "start": 229.48,
+      "end": 229.58,
+      "text": "then close again",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 102,
+      "section": "Outro - door hiss elongates",
+      "start": 229.58,
+      "end": 229.68,
+      "text": "Steam from the yard",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 103,
+      "section": "Outro - door hiss elongates",
+      "start": 229.68,
+      "end": 229.78,
+      "text": "becomes kitchen fan",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    }
+  ]
+}

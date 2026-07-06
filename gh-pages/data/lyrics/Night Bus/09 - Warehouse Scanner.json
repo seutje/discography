@@ -1,0 +1,1136 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Night Bus",
+  "title": "Warehouse Scanner",
+  "text_path": "Night Bus/09 - Warehouse Scanner.txt",
+  "audio_path": "Night Bus/audio/09 - Warehouse Scanner.mp3",
+  "duration_seconds": 188.46,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 114,
+    "reference_word_count": 343,
+    "observed_word_count": 61,
+    "matched_word_count": 17,
+    "matched_word_ratio": 0.05,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 10.5,
+      "end": 16.24,
+      "text": "scan place seal move"
+    },
+    {
+      "start": 17.52,
+      "end": 22.46,
+      "text": "scan place seal move"
+    },
+    {
+      "start": 23.36,
+      "end": 24.14,
+      "text": "target updated"
+    },
+    {
+      "start": 29.98,
+      "end": 33.14,
+      "text": "move it down"
+    },
+    {
+      "start": 35.14,
+      "end": 36.14,
+      "text": "stock it high"
+    },
+    {
+      "start": 36.48,
+      "end": 39.04,
+      "text": "we reach them top"
+    },
+    {
+      "start": 40.18,
+      "end": 41.94,
+      "text": "but you better not reply"
+    },
+    {
+      "start": 67.98,
+      "end": 71.32,
+      "text": "we reach them top"
+    },
+    {
+      "start": 81.14,
+      "end": 84.74,
+      "text": "we reach them top"
+    },
+    {
+      "start": 89.46,
+      "end": 100.72,
+      "text": "we reach them top"
+    },
+    {
+      "start": 108.04,
+      "end": 108.96,
+      "text": "we reach them top"
+    },
+    {
+      "start": 127.64,
+      "end": 130.44,
+      "text": "we reach them top"
+    },
+    {
+      "start": 130.62,
+      "end": 138.94,
+      "text": "we reach them top"
+    },
+    {
+      "start": 138.94,
+      "end": 166.84,
+      "text": "we reach them top"
+    },
+    {
+      "start": 166.84,
+      "end": 186.84,
+      "text": "we reach them top"
+    },
+    {
+      "start": 186.84,
+      "end": 188.46,
+      "text": "we reach them top"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 10.5,
+      "end": 11.86,
+      "text": "Scan",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 1,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 12.42,
+      "end": 13.12,
+      "text": "place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 2,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 14.06,
+      "end": 14.6,
+      "text": "seal",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 3,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 15.84,
+      "end": 16.24,
+      "text": "move",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 4,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 17.52,
+      "end": 17.94,
+      "text": "Scan",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 5,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 18.54,
+      "end": 19.34,
+      "text": "place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 6,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 20.14,
+      "end": 20.82,
+      "text": "seal",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 7,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 21.78,
+      "end": 22.46,
+      "text": "move",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 8,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 23.36,
+      "end": 24.14,
+      "text": "Target updated",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 9,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 29.98,
+      "end": 33.14,
+      "text": "Move it down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 35.5,
+      "end": 36.48,
+      "text": "stack it high",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 11,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 36.48,
+      "end": 40.18,
+      "text": "mi wrist dem talk",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 12,
+      "section": "Intro - scanner beep grid | conveyor rollers",
+      "start": 40.18,
+      "end": 41.94,
+      "text": "but di belt nah reply",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 41.94,
+      "end": 42.862,
+      "text": "Concrete floor",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 42.862,
+      "end": 44.705,
+      "text": "under high-vis light",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 44.705,
+      "end": 45.626,
+      "text": "barcode gun",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 45.626,
+      "end": 47.93,
+      "text": "keeps the same small bite",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 47.93,
+      "end": 48.851,
+      "text": "Pallets lean",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 48.851,
+      "end": 50.694,
+      "text": "by the loading bay",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 50.694,
+      "end": 52.077,
+      "text": "names on labels",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 52.077,
+      "end": 53.459,
+      "text": "going far away",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 53.459,
+      "end": 55.302,
+      "text": "Mi scan Kingston surname",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 55.302,
+      "end": 57.145,
+      "text": "mi scan road unknown",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 57.145,
+      "end": 59.449,
+      "text": "mi scan next-day comfort",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 59.449,
+      "end": 61.292,
+      "text": "from a midnight zone",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 61.292,
+      "end": 62.213,
+      "text": "Every parcel",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 62.213,
+      "end": 63.595,
+      "text": "knows a door",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 63.595,
+      "end": 64.978,
+      "text": "every hand here",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 64.978,
+      "end": 66.36,
+      "text": "knows the floor",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 66.36,
+      "end": 67.742,
+      "text": "Next day promise",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 67.742,
+      "end": 68.664,
+      "text": "printed clean",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 68.664,
+      "end": 70.046,
+      "text": "night shift body",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 32,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 70.046,
+      "end": 70.968,
+      "text": "kept between",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 33,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 70.968,
+      "end": 72.811,
+      "text": "Dem waan it tomorrow",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 34,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 72.811,
+      "end": 74.654,
+      "text": "dem click and gone",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 35,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 74.654,
+      "end": 76.957,
+      "text": "mi pack through di dark",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 36,
+      "section": "Verse 1 - breakbeat assembled from box hits",
+      "start": 76.957,
+      "end": 79.261,
+      "text": "til di grey come on",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 37,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 79.261,
+      "end": 80.183,
+      "text": "Warehouse scanner",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 38,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 80.183,
+      "end": 82.026,
+      "text": "beep for the hand",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 39,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 82.026,
+      "end": 83.869,
+      "text": "beep for the target",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 40,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 83.869,
+      "end": 85.712,
+      "text": "beep for the van",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 41,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 85.712,
+      "end": 86.633,
+      "text": "Warehouse scanner",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 42,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 86.633,
+      "end": 88.476,
+      "text": "count what you can",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 43,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 88.476,
+      "end": 89.858,
+      "text": "sleep gets folded",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 44,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 89.858,
+      "end": 91.241,
+      "text": "inside the plan",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 45,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 91.241,
+      "end": 92.162,
+      "text": "Pick it",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 46,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 92.162,
+      "end": 93.084,
+      "text": "pack it",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 47,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 93.084,
+      "end": 94.005,
+      "text": "stack it",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 48,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 94.005,
+      "end": 94.466,
+      "text": "send",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 49,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 94.466,
+      "end": 95.848,
+      "text": "Start the loop",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 50,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 95.848,
+      "end": 97.231,
+      "text": "then start again",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 51,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 97.231,
+      "end": 98.613,
+      "text": "Scanner seh hurry",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 52,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 98.613,
+      "end": 99.995,
+      "text": "manager seh rate",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 53,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 99.995,
+      "end": 101.838,
+      "text": "mi foot seh rest",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 54,
+      "section": "Hook - fast breaks | half-time sub",
+      "start": 101.838,
+      "end": 104.142,
+      "text": "but di belt seh late",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 55,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 104.142,
+      "end": 105.524,
+      "text": "Tape gun screams",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 105.524,
+      "end": 106.906,
+      "text": "then cardboard shuts",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 106.906,
+      "end": 107.828,
+      "text": "forklift backs",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 107.828,
+      "end": 109.671,
+      "text": "with alarm-clock cuts",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 109.671,
+      "end": 111.053,
+      "text": "Break room clock",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 111.053,
+      "end": 113.357,
+      "text": "with a cracked clear face",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 113.357,
+      "end": 114.278,
+      "text": "twenty minutes",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 114.278,
+      "end": 116.122,
+      "text": "to leave no trace",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 116.122,
+      "end": 118.425,
+      "text": "Tea in a paper cup",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 118.425,
+      "end": 119.808,
+      "text": "bench too cold",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 119.808,
+      "end": 121.19,
+      "text": "somebody joke soft",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 121.19,
+      "end": 123.494,
+      "text": "so di room can hold",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 123.494,
+      "end": 124.415,
+      "text": "Manager's tablet",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 124.415,
+      "end": 125.797,
+      "text": "shows the rate",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 125.797,
+      "end": 127.18,
+      "text": "not the shoulder",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 127.18,
+      "end": 128.562,
+      "text": "not the weight",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 128.562,
+      "end": 129.483,
+      "text": "Barcode stripes",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 72,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 129.483,
+      "end": 130.866,
+      "text": "like little cells",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 73,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 130.866,
+      "end": 132.248,
+      "text": "on objects leaving",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 74,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 132.248,
+      "end": 133.169,
+      "text": "human shells",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 75,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 133.169,
+      "end": 135.473,
+      "text": "Mi nah hate di parcel",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 76,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 135.473,
+      "end": 137.316,
+      "text": "mi hate di chase",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 77,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 137.316,
+      "end": 139.62,
+      "text": "how di number can rise",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 78,
+      "section": "Verse 2 - conveyor rhythm tightens",
+      "start": 139.62,
+      "end": 141.924,
+      "text": "while it empty mi face",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 79,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 141.924,
+      "end": 143.306,
+      "text": "\"Item not recognized\"",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 80,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 143.306,
+      "end": 144.228,
+      "text": "Try again",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 81,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 144.228,
+      "end": 145.61,
+      "text": "\"Item not recognized\"",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 82,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 145.61,
+      "end": 146.531,
+      "text": "Try again",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 83,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 146.531,
+      "end": 148.374,
+      "text": "The body is recognized",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 84,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 148.374,
+      "end": 149.757,
+      "text": "only by pace",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 85,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 149.757,
+      "end": 151.6,
+      "text": "The body is measured",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 86,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 151.6,
+      "end": 152.982,
+      "text": "by empty space",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 87,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 152.982,
+      "end": 154.825,
+      "text": "Mi seh recognize this:",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 88,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 154.825,
+      "end": 155.746,
+      "text": "hand swell",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 89,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 155.746,
+      "end": 156.668,
+      "text": "back tight",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 90,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 156.668,
+      "end": 157.589,
+      "text": "eyes burn",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 91,
+      "section": "Bridge - suffocating loop | voice dry",
+      "start": 157.589,
+      "end": 158.511,
+      "text": "still night",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 92,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 158.511,
+      "end": 159.432,
+      "text": "Warehouse scanner",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 93,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 159.432,
+      "end": 161.275,
+      "text": "beep for the hand",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 94,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 161.275,
+      "end": 163.118,
+      "text": "beep for the target",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 95,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 163.118,
+      "end": 164.962,
+      "text": "beep for the van",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 96,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 164.962,
+      "end": 165.883,
+      "text": "Warehouse scanner",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 97,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 165.883,
+      "end": 167.726,
+      "text": "count what you can",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 98,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 167.726,
+      "end": 169.108,
+      "text": "sleep gets folded",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 99,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 169.108,
+      "end": 170.491,
+      "text": "inside the plan",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 100,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 170.491,
+      "end": 171.412,
+      "text": "Pick it",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 101,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 171.412,
+      "end": 172.334,
+      "text": "pack it",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 102,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 172.334,
+      "end": 173.255,
+      "text": "stack it",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 103,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 173.255,
+      "end": 173.716,
+      "text": "send",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 104,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 173.716,
+      "end": 175.098,
+      "text": "Start the loop",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 105,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 175.098,
+      "end": 176.48,
+      "text": "then start again",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 106,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 176.48,
+      "end": 177.863,
+      "text": "Scanner seh hurry",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 107,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 177.863,
+      "end": 179.245,
+      "text": "manager seh rate",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 108,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 179.245,
+      "end": 181.088,
+      "text": "mi foot seh rest",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 109,
+      "section": "Final Hook - breaks fragment then hit hard",
+      "start": 181.088,
+      "end": 183.392,
+      "text": "but di belt seh late",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 110,
+      "section": "Outro - loading bay door opens",
+      "start": 183.392,
+      "end": 184.774,
+      "text": "Door rolls up",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 111,
+      "section": "Outro - loading bay door opens",
+      "start": 184.774,
+      "end": 186.156,
+      "text": "air comes grey",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 112,
+      "section": "Outro - loading bay door opens",
+      "start": 186.156,
+      "end": 187.078,
+      "text": "Vans reverse",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 113,
+      "section": "Outro - loading bay door opens",
+      "start": 187.078,
+      "end": 188.46,
+      "text": "into first day",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    }
+  ]
+}

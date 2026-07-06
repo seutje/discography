@@ -1,0 +1,1126 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Night Bus",
+  "title": "Hospital Vending Machine",
+  "text_path": "Night Bus/08 - Hospital Vending Machine.txt",
+  "audio_path": "Night Bus/audio/08 - Hospital Vending Machine.mp3",
+  "duration_seconds": 234.56,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 104,
+    "reference_word_count": 375,
+    "observed_word_count": 341,
+    "matched_word_count": 293,
+    "matched_word_ratio": 0.781,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 8.1,
+      "end": 9.3,
+      "text": "mmm"
+    },
+    {
+      "start": 9.5,
+      "end": 16.14,
+      "text": "plastic chairs in a half lit row coffee turning thin and low"
+    },
+    {
+      "start": 16.14,
+      "end": 23.62,
+      "text": "visiting hours printed small someone's coat against the wall"
+    },
+    {
+      "start": 23.62,
+      "end": 34.88,
+      "text": "tell me sit quiet cup in hand fluorescent morning now understand"
+    },
+    {
+      "start": 48.74,
+      "end": 55.68,
+      "text": "nurse in the corner with a badge unclipped eats from the packet with careful fingertips"
+    },
+    {
+      "start": 55.68,
+      "end": 63.4,
+      "text": "the machine gives coffee the colour of rain cup too hot for a hand with a name she sent"
+    },
+    {
+      "start": 63.4,
+      "end": 70.34,
+      "text": "to me soon back nobody near then close her eyes for a half breath there"
+    },
+    {
+      "start": 70.34,
+      "end": 77.5,
+      "text": "lift doors open and close without speech night folds corridors out of reach"
+    },
+    {
+      "start": 77.5,
+      "end": 83.7,
+      "text": "no one here has time to break so they bend in small ways and stay awake"
+    },
+    {
+      "start": 83.7,
+      "end": 88.82,
+      "text": "them bend like paper not because them weak because morning round"
+    },
+    {
+      "start": 88.82,
+      "end": 91.0,
+      "text": "do you take long for speak"
+    },
+    {
+      "start": 91.48,
+      "end": 96.62,
+      "text": "hospital vending machine little altar by the wall"
+    },
+    {
+      "start": 98.74,
+      "end": 104.4,
+      "text": "take my coins keep me moving for another locked door"
+    },
+    {
+      "start": 105.52,
+      "end": 112.54,
+      "text": "artificial dawn in the corridor scene paper cup warm against a body machine"
+    },
+    {
+      "start": 112.54,
+      "end": 115.48,
+      "text": "hospital vending machine"
+    },
+    {
+      "start": 115.48,
+      "end": 120.52,
+      "text": "hum low hum clean hold him in between what is and what could be"
+    },
+    {
+      "start": 120.52,
+      "end": 128.18,
+      "text": "hospital vending machine give me one more try but coffee warm while the night pass by"
+    },
+    {
+      "start": 128.76,
+      "end": 135.12,
+      "text": "family member fighting sleep upright ticketed in hand under milk white light"
+    },
+    {
+      "start": 135.12,
+      "end": 142.24,
+      "text": "staff only sign on a swinging door shoes keep counting on the polished floor"
+    },
+    {
+      "start": 142.24,
+      "end": 146.52,
+      "text": "there is care in the quiet return in the chart checked twice and the kettle burn"
+    },
+    {
+      "start": 146.52,
+      "end": 149.98,
+      "text": "care in the gloves not care in the name care when the fear's tired and the hand still same"
+    },
+    {
+      "start": 149.98,
+      "end": 157.2,
+      "text": "there is anger too but folded tight under blue gloves and the morning shift"
+    },
+    {
+      "start": 158.54,
+      "end": 161.24,
+      "text": "please wait here ticket ticket"
+    },
+    {
+      "start": 162.6,
+      "end": 166.12,
+      "text": "machine temporarily out of service of course"
+    },
+    {
+      "start": 166.12,
+      "end": 176.36,
+      "text": "the room almost laughs then lets it pass me almost laugh too but me droids stay still"
+    },
+    {
+      "start": 176.36,
+      "end": 182.1,
+      "text": "lift door open with a colder chill"
+    },
+    {
+      "start": 183.18,
+      "end": 188.48,
+      "text": "hospital vending machine little altar by the wall"
+    },
+    {
+      "start": 201.84,
+      "end": 218.46,
+      "text": "hospital vending machine give me one more try but coffee warm while the night pass by"
+    },
+    {
+      "start": 218.46,
+      "end": 220.22,
+      "text": "party night pass by"
+    },
+    {
+      "start": 223.66,
+      "end": 224.56,
+      "text": "cup drops"
+    },
+    {
+      "start": 226.86,
+      "end": 230.36,
+      "text": "peep answers somewhere else"
+    },
+    {
+      "start": 231.9,
+      "end": 234.56,
+      "text": "a scanner starts counting"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 9.5,
+      "end": 10.38,
+      "text": "Plastic chairs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 10.38,
+      "end": 12.74,
+      "text": "in a half-lit row",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 2,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 13.34,
+      "end": 14.52,
+      "text": "coffee turning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 3,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 14.52,
+      "end": 16.14,
+      "text": "thin and low",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 16.14,
+      "end": 18.22,
+      "text": "Visiting hours",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 5,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 18.22,
+      "end": 19.86,
+      "text": "printed small",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 6,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 20.42,
+      "end": 21.64,
+      "text": "someone's coat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 7,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 21.64,
+      "end": 23.62,
+      "text": "against the wall",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 8,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 24.16,
+      "end": 25.36,
+      "text": "Mi sit quiet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 9,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 25.76,
+      "end": 27.22,
+      "text": "cup in hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 27.46,
+      "end": 30.04,
+      "text": "fluorescent morning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 11,
+      "section": "Intro - vending hum | far footsteps",
+      "start": 33.74,
+      "end": 34.88,
+      "text": "nah understand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - soft swung taps",
+      "start": 48.74,
+      "end": 50.46,
+      "text": "Nurse in the corner",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - soft swung taps",
+      "start": 50.46,
+      "end": 52.24,
+      "text": "with a badge unclipped",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - soft swung taps",
+      "start": 52.64,
+      "end": 54.04,
+      "text": "eats from a packet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - soft swung taps",
+      "start": 54.04,
+      "end": 55.68,
+      "text": "with careful fingertips",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - soft swung taps",
+      "start": 55.68,
+      "end": 57.66,
+      "text": "The machine gives coffee",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - soft swung taps",
+      "start": 57.66,
+      "end": 59.32,
+      "text": "the colour of rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - soft swung taps",
+      "start": 59.32,
+      "end": 60.96,
+      "text": "cup too hot",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - soft swung taps",
+      "start": 60.96,
+      "end": 62.88,
+      "text": "for a hand with a name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - soft swung taps",
+      "start": 62.88,
+      "end": 64.88,
+      "text": "She seh \"mi soon back\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - soft swung taps",
+      "start": 64.88,
+      "end": 66.82,
+      "text": "to nobody near",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - soft swung taps",
+      "start": 66.82,
+      "end": 68.52,
+      "text": "then close her eyes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - soft swung taps",
+      "start": 68.52,
+      "end": 70.34,
+      "text": "for a half breath there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - soft swung taps",
+      "start": 70.34,
+      "end": 72.1,
+      "text": "Lift doors open",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - soft swung taps",
+      "start": 72.42,
+      "end": 73.94,
+      "text": "then close without speech",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 - soft swung taps",
+      "start": 73.94,
+      "end": 75.98,
+      "text": "night folds corridors",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 - soft swung taps",
+      "start": 75.98,
+      "end": 77.5,
+      "text": "out of reach",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 - soft swung taps",
+      "start": 77.5,
+      "end": 78.46,
+      "text": "No one here",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 - soft swung taps",
+      "start": 78.46,
+      "end": 79.94,
+      "text": "has time to break",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 - soft swung taps",
+      "start": 80.32,
+      "end": 82.1,
+      "text": "so they bend in small ways",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 - soft swung taps",
+      "start": 82.1,
+      "end": 83.7,
+      "text": "and stay awake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 32,
+      "section": "Verse 1 - soft swung taps",
+      "start": 84.22,
+      "end": 85.62,
+      "text": "Dem bend like paper",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 33,
+      "section": "Verse 1 - soft swung taps",
+      "start": 85.62,
+      "end": 87.14,
+      "text": "not because dem weak",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 34,
+      "section": "Verse 1 - soft swung taps",
+      "start": 87.34,
+      "end": 88.82,
+      "text": "because morning round here",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 35,
+      "section": "Verse 1 - soft swung taps",
+      "start": 89.26,
+      "end": 91.0,
+      "text": "take long fi speak",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 36,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 91.48,
+      "end": 93.78,
+      "text": "Hospital vending machine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 37,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 93.82,
+      "end": 96.16,
+      "text": "little altar by the ward",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 38,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 98.68,
+      "end": 100.28,
+      "text": "take my coins",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 39,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 100.6,
+      "end": 101.84,
+      "text": "keep me moving",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 40,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 101.84,
+      "end": 104.4,
+      "text": "for another locked door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 105.52,
+      "end": 107.22,
+      "text": "Artificial dawn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 42,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 107.22,
+      "end": 108.48,
+      "text": "in the corridor seam",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 109.4,
+      "end": 110.78,
+      "text": "paper cup warm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 110.78,
+      "end": 112.54,
+      "text": "against a body machine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 45,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 112.54,
+      "end": 115.48,
+      "text": "Hospital vending machine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 115.48,
+      "end": 117.2,
+      "text": "hum low, hum clean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 47,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 117.38,
+      "end": 117.58,
+      "text": "hold the minute",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 48,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 118.06,
+      "end": 120.52,
+      "text": "between what is and what could be",
+      "timing_source": "whisper-aligned",
+      "matched_words": 7
+    },
+    {
+      "index": 49,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 120.52,
+      "end": 122.52,
+      "text": "Hospital vending machine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 50,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 123.12,
+      "end": 124.5,
+      "text": "gi mi one more try",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 125.02,
+      "end": 126.26,
+      "text": "bad coffee warm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 52,
+      "section": "Hook - muted sub | fragile chords",
+      "start": 126.26,
+      "end": 128.18,
+      "text": "while di night pass by",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 53,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 128.76,
+      "end": 129.78,
+      "text": "Family member",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 54,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 129.78,
+      "end": 131.46,
+      "text": "fighting sleep upright",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 55,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 132.62,
+      "end": 133.48,
+      "text": "ticket in hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 133.48,
+      "end": 135.12,
+      "text": "under milk-white light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 135.12,
+      "end": 137.08,
+      "text": "Staff only sign",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 137.08,
+      "end": 138.78,
+      "text": "on a swinging door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 139.08,
+      "end": 140.66,
+      "text": "shoes keep counting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 140.66,
+      "end": 142.24,
+      "text": "on the polished floor",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 142.24,
+      "end": 143.34,
+      "text": "There is care",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 143.34,
+      "end": 144.56,
+      "text": "in the quiet return",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 144.7,
+      "end": 145.48,
+      "text": "in the chart checked twice",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 145.64,
+      "end": 146.52,
+      "text": "in the kettle burn",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 146.52,
+      "end": 147.0,
+      "text": "Care in di glove snap",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 147.46,
+      "end": 148.18,
+      "text": "care in di name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 148.18,
+      "end": 149.06,
+      "text": "care when di face tired",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 149.06,
+      "end": 149.98,
+      "text": "and di hand still same",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 149.98,
+      "end": 151.08,
+      "text": "There is anger too",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 151.4,
+      "end": 152.46,
+      "text": "but folded tight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 152.46,
+      "end": 154.52,
+      "text": "under blue gloves",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 72,
+      "section": "Verse 2 - wider pads | percussion like footsteps",
+      "start": 154.52,
+      "end": 157.2,
+      "text": "and the morning shift",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 73,
+      "section": "Bridge - drums drop | PA fragments",
+      "start": 158.54,
+      "end": 159.92,
+      "text": "\"Please wait here\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 74,
+      "section": "Bridge - drums drop | PA fragments",
+      "start": 160.58,
+      "end": 161.24,
+      "text": "\"Take a ticket\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 75,
+      "section": "Bridge - drums drop | PA fragments",
+      "start": 162.6,
+      "end": 164.96,
+      "text": "\"Machine temporarily out of service\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 76,
+      "section": "Bridge - drums drop | PA fragments",
+      "start": 165.3,
+      "end": 166.12,
+      "text": "Of course.",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 77,
+      "section": "Bridge - drums drop | PA fragments",
+      "start": 166.12,
+      "end": 168.82,
+      "text": "The room almost laughs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 78,
+      "section": "Bridge - drums drop | PA fragments",
+      "start": 168.82,
+      "end": 170.6,
+      "text": "then lets it pass",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 79,
+      "section": "Bridge - drums drop | PA fragments",
+      "start": 171.08,
+      "end": 172.9,
+      "text": "Mi almost laugh too",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 80,
+      "section": "Bridge - drums drop | PA fragments",
+      "start": 173.1,
+      "end": 176.36,
+      "text": "but mi throat stay still",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 81,
+      "section": "Bridge - drums drop | PA fragments",
+      "start": 176.36,
+      "end": 178.78,
+      "text": "lift door open",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 82,
+      "section": "Bridge - drums drop | PA fragments",
+      "start": 178.78,
+      "end": 182.1,
+      "text": "with a colder chill",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 83,
+      "section": "Final Hook - soft harmony enters",
+      "start": 183.18,
+      "end": 185.94,
+      "text": "Hospital vending machine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 84,
+      "section": "Final Hook - soft harmony enters",
+      "start": 186.2,
+      "end": 188.22,
+      "text": "little altar by the ward",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 85,
+      "section": "Final Hook - soft harmony enters",
+      "start": 188.22,
+      "end": 188.32,
+      "text": "take my coins",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 86,
+      "section": "Final Hook - soft harmony enters",
+      "start": 188.32,
+      "end": 188.42,
+      "text": "keep me moving",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 87,
+      "section": "Final Hook - soft harmony enters",
+      "start": 188.42,
+      "end": 188.52,
+      "text": "for another locked door",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 88,
+      "section": "Final Hook - soft harmony enters",
+      "start": 188.52,
+      "end": 188.62,
+      "text": "Artificial dawn",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 89,
+      "section": "Final Hook - soft harmony enters",
+      "start": 188.62,
+      "end": 188.72,
+      "text": "in the corridor seam",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 90,
+      "section": "Final Hook - soft harmony enters",
+      "start": 188.72,
+      "end": 188.82,
+      "text": "paper cup warm",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 91,
+      "section": "Final Hook - soft harmony enters",
+      "start": 188.82,
+      "end": 188.92,
+      "text": "against a body machine",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 92,
+      "section": "Final Hook - soft harmony enters",
+      "start": 188.92,
+      "end": 189.02,
+      "text": "Hospital vending machine",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 93,
+      "section": "Final Hook - soft harmony enters",
+      "start": 189.02,
+      "end": 189.12,
+      "text": "hum low, hum clean",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 94,
+      "section": "Final Hook - soft harmony enters",
+      "start": 189.12,
+      "end": 189.22,
+      "text": "hold the minute",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 95,
+      "section": "Final Hook - soft harmony enters",
+      "start": 189.22,
+      "end": 189.32,
+      "text": "between what is and what could be",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 96,
+      "section": "Final Hook - soft harmony enters",
+      "start": 189.32,
+      "end": 189.42,
+      "text": "Hospital vending machine",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 97,
+      "section": "Final Hook - soft harmony enters",
+      "start": 215.16,
+      "end": 216.54,
+      "text": "gi mi one more try",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 98,
+      "section": "Final Hook - soft harmony enters",
+      "start": 217.06,
+      "end": 218.32,
+      "text": "bad coffee warm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 99,
+      "section": "Final Hook - soft harmony enters",
+      "start": 218.32,
+      "end": 220.22,
+      "text": "while di night pass by",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 100,
+      "section": "Outro - single beep repeats",
+      "start": 223.32,
+      "end": 224.56,
+      "text": "Cup drops",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 101,
+      "section": "Outro - single beep repeats",
+      "start": 227.38,
+      "end": 228.24,
+      "text": "beep answers",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 102,
+      "section": "Outro - single beep repeats",
+      "start": 228.8,
+      "end": 230.36,
+      "text": "Somewhere else",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 103,
+      "section": "Outro - single beep repeats",
+      "start": 231.66,
+      "end": 234.56,
+      "text": "a scanner starts counting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    }
+  ]
+}

@@ -1,0 +1,1080 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Night Bus",
+  "title": "Rider Down",
+  "text_path": "Night Bus/04 - Rider Down.txt",
+  "audio_path": "Night Bus/audio/04 - Rider Down.mp3",
+  "duration_seconds": 190.62,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 110,
+    "reference_word_count": 398,
+    "observed_word_count": 387,
+    "matched_word_count": 294,
+    "matched_word_ratio": 0.739,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 207
+  },
+  "transcript_segments": [
+    {
+      "start": 0.0,
+      "end": 21.28,
+      "text": "delivery assigned delivery assigned delivery assigned rain starts early pay stays late green dot moving to a closing gate"
+    },
+    {
+      "start": 21.28,
+      "end": 27.3,
+      "text": "witness a move now rain away back and shoulder phone it"
+    },
+    {
+      "start": 45.9,
+      "end": 52.68,
+      "text": "phone on it and the bar crack through the mack left glove soaked right thumb tap rest done back door 13 minutes gone back losing heat while the timer runs on"
+    },
+    {
+      "start": 52.68,
+      "end": 59.06,
+      "text": "man at the counter says 2 minute more but me know 2 minute mean 10 but the door the app has no where that the app has no need the app says quicker than a body can be"
+    },
+    {
+      "start": 59.06,
+      "end": 65.56,
+      "text": "red light shining in the bottle below bus rolls past with a window closed me break them squeal me jacket leak algorithm talk but they never hear me speak"
+    },
+    {
+      "start": 65.56,
+      "end": 84.36,
+      "text": "but the others keep ringing rain on the jacket and the phone still singing by the shut the shock timer keeps counting even when you stop no face on the vice no hand on the break just another route another unpaid wait"
+    },
+    {
+      "start": 85.48,
+      "end": 104.56,
+      "text": "but the pink still comes system's a run when your uncle numb apartment lobby locked after 2 customer message intercom broken lift out of use fire flows up with a drink gone loose me buzz 3 times no answer back rain on me sleeve and sauce in the pack stairs smelled damp box dropped by dumb sent anger from rooms with lights"
+    },
+    {
+      "start": 104.56,
+      "end": 116.64,
+      "text": "he takes the photo but he numbered those proof of arrival proof he is more than a dot that obeys than a fee in the rain than a late night hunger with a surname me name not driver me name not dough me name not where are you pun customer show"
+    },
+    {
+      "start": 117.84,
+      "end": 130.4,
+      "text": "under the bridge he checks the wheel checks the chain checks what he can still feel the city map keeps redrawing the city map does not ask who is falling"
+    },
+    {
+      "start": 130.4,
+      "end": 160.38,
+      "text": "miss it one minute under concrete drive phone start shit like it only time by the orders keep ringing rain on the jacket and the phone still singing by the shut the shock timer keeps counting even when you stop no face on the vice no hand on the break just another route another unpaid wait"
+    },
+    {
+      "start": 161.52,
+      "end": 184.56,
+      "text": "ride it on body things still come system seren when your uncle num"
+    },
+    {
+      "start": 184.56,
+      "end": 190.62,
+      "text": "new schedule available please confirm"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - single app ping | rain on fabric",
+      "start": 7.48,
+      "end": 8.54,
+      "text": "Delivery assigned",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "Intro - single app ping | rain on fabric",
+      "start": 11.96,
+      "end": 15.08,
+      "text": "Delivery assigned",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 2,
+      "section": "Intro - single app ping | rain on fabric",
+      "start": 15.54,
+      "end": 16.58,
+      "text": "Rain starts early",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "Intro - single app ping | rain on fabric",
+      "start": 17.0,
+      "end": 18.18,
+      "text": "pay stays late",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "Intro - single app ping | rain on fabric",
+      "start": 18.62,
+      "end": 19.62,
+      "text": "green dot moving",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 5,
+      "section": "Intro - single app ping | rain on fabric",
+      "start": 19.96,
+      "end": 21.28,
+      "text": "through a closing gate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 6,
+      "section": "Intro - single app ping | rain on fabric",
+      "start": 21.82,
+      "end": 22.64,
+      "text": "Mi seh move now",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 7,
+      "section": "Intro - single app ping | rain on fabric",
+      "start": 22.64,
+      "end": 23.66,
+      "text": "rain nah wait",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 8,
+      "section": "Intro - single app ping | rain on fabric",
+      "start": 25.64,
+      "end": 26.26,
+      "text": "bag pon shoulder",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 9,
+      "section": "Intro - single app ping | rain on fabric",
+      "start": 26.68,
+      "end": 26.88,
+      "text": "phone dictate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 45.9,
+      "end": 46.96,
+      "text": "Phone on the handlebar",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 47.08,
+      "end": 47.54,
+      "text": "crack through the map",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 47.8,
+      "end": 48.64,
+      "text": "left glove soaked",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 48.8,
+      "end": 49.34,
+      "text": "right thumb tap",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 49.78,
+      "end": 50.06,
+      "text": "Restaurant back door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 50.48,
+      "end": 50.92,
+      "text": "thirteen minutes gone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 51.14,
+      "end": 51.7,
+      "text": "bag losing heat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 51.7,
+      "end": 52.68,
+      "text": "while the timer runs on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 52.68,
+      "end": 53.38,
+      "text": "Man at di counter",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 53.78,
+      "end": 54.16,
+      "text": "seh \"two minute more\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 54.16,
+      "end": 54.9,
+      "text": "but mi know two minute",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 54.9,
+      "end": 55.76,
+      "text": "mean ten by di door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 55.76,
+      "end": 56.4,
+      "text": "The app has no weather",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 56.68,
+      "end": 57.22,
+      "text": "the app has no knee",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 57.58,
+      "end": 58.16,
+      "text": "the app says quicker",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 58.16,
+      "end": 59.06,
+      "text": "than a body can be",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 59.06,
+      "end": 59.76,
+      "text": "Red light shining",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 59.76,
+      "end": 60.7,
+      "text": "in the puddle below",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 60.82,
+      "end": 61.38,
+      "text": "bus rolls past",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 61.38,
+      "end": 61.62,
+      "text": "with a windowed glow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 62.78,
+      "end": 63.08,
+      "text": "Mi brake dem squeal",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 63.26,
+      "end": 63.84,
+      "text": "mi jacket leak",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 32,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 63.84,
+      "end": 64.6,
+      "text": "algorithm talk",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 33,
+      "section": "Verse 1 - nervous percussion | bike clicks",
+      "start": 64.6,
+      "end": 65.56,
+      "text": "but it never hear mi speak",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 34,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 65.56,
+      "end": 65.66,
+      "text": "Rider down",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 35,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 65.66,
+      "end": 68.06,
+      "text": "but the orders keep ringing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 36,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 68.46,
+      "end": 69.58,
+      "text": "rain on the jacket",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 37,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 69.58,
+      "end": 71.42,
+      "text": "and the phone still singing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 38,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 71.42,
+      "end": 71.52,
+      "text": "Rider down",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 39,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 71.52,
+      "end": 73.32,
+      "text": "by the shuttered shop",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 40,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 74.68,
+      "end": 76.24,
+      "text": "timer keeps counting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 41,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 76.24,
+      "end": 77.66,
+      "text": "even when you stop",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 42,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 77.96,
+      "end": 79.02,
+      "text": "No face on the voice",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 79.58,
+      "end": 80.62,
+      "text": "no hand on the brake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 44,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 81.22,
+      "end": 82.4,
+      "text": "just another route",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 45,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 82.58,
+      "end": 84.36,
+      "text": "another unpaid wait",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 46,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 84.36,
+      "end": 85.48,
+      "text": "Rider down",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 47,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 85.48,
+      "end": 86.92,
+      "text": "but di ping still come",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 48,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 88.68,
+      "end": 88.92,
+      "text": "system seh run",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 49,
+      "section": "Hook - breakbeat pressure | half-time sub",
+      "start": 88.92,
+      "end": 90.72,
+      "text": "when yuh ankle numb",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 50,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 90.72,
+      "end": 92.5,
+      "text": "Apartment lobby",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 51,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 92.5,
+      "end": 93.04,
+      "text": "locked after two",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 52,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 93.5,
+      "end": 94.04,
+      "text": "customer message:",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 53,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 94.04,
+      "end": 95.04,
+      "text": "\"I'm waiting for you\"",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 54,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 95.04,
+      "end": 95.76,
+      "text": "Intercom broken",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 55,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 95.92,
+      "end": 96.56,
+      "text": "lift out of use",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 97.08,
+      "end": 97.24,
+      "text": "five floors up",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 97.24,
+      "end": 98.1,
+      "text": "with a drink gone loose",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 98.28,
+      "end": 98.4,
+      "text": "Mi buzz three time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 99.12,
+      "end": 99.74,
+      "text": "no answer back",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 99.96,
+      "end": 100.46,
+      "text": "rain in mi sleeve",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 100.46,
+      "end": 101.28,
+      "text": "and sauce in di pack",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 101.52,
+      "end": 102.14,
+      "text": "Stairs smell damp",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 102.14,
+      "end": 103.44,
+      "text": "bag strap bites",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 103.44,
+      "end": 103.68,
+      "text": "thumbs send anger",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 103.68,
+      "end": 104.56,
+      "text": "from rooms with lights",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 104.56,
+      "end": 105.28,
+      "text": "He takes the photo",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 105.56,
+      "end": 105.76,
+      "text": "by the numbered door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 106.34,
+      "end": 107.0,
+      "text": "proof of arrival",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 107.12,
+      "end": 107.72,
+      "text": "proof he is more",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 107.72,
+      "end": 108.52,
+      "text": "than a dot that obeys",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 108.56,
+      "end": 109.32,
+      "text": "than a fee in the rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 72,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 109.32,
+      "end": 110.22,
+      "text": "than a late-night hunger",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 73,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 110.22,
+      "end": 110.92,
+      "text": "with a surname",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 74,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 111.2,
+      "end": 111.8,
+      "text": "Mi name not \"driver\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 75,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 111.98,
+      "end": 112.32,
+      "text": "mi name not \"bro\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 76,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 112.8,
+      "end": 113.94,
+      "text": "mi name not \"where are you\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 77,
+      "section": "Verse 2 - double-time hats | sub ducks",
+      "start": 115.04,
+      "end": 116.64,
+      "text": "pon customer show",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 78,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 117.84,
+      "end": 118.6,
+      "text": "Under the bridge",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 79,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 118.6,
+      "end": 119.62,
+      "text": "he checks the wheel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 80,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 119.64,
+      "end": 120.96,
+      "text": "checks the chain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 81,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 121.0,
+      "end": 123.96,
+      "text": "checks what he can still feel",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 82,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 124.3,
+      "end": 125.14,
+      "text": "The city map",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 83,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 125.14,
+      "end": 127.34,
+      "text": "keeps redrawing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 84,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 127.36,
+      "end": 128.36,
+      "text": "The city map",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 85,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 128.36,
+      "end": 129.2,
+      "text": "does not ask",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 86,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 129.2,
+      "end": 130.4,
+      "text": "who is falling",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 87,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 131.24,
+      "end": 132.18,
+      "text": "Mi sit one minute",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 88,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 132.46,
+      "end": 133.52,
+      "text": "under concrete dry",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 89,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 134.36,
+      "end": 137.86,
+      "text": "phone start shake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 90,
+      "section": "Bridge - underpass dropout | breath close",
+      "start": 138.5,
+      "end": 140.56,
+      "text": "like it own mi time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 91,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 140.56,
+      "end": 143.18,
+      "text": "Rider down",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 92,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 143.18,
+      "end": 145.36,
+      "text": "but the orders keep ringing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 93,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 145.84,
+      "end": 146.92,
+      "text": "rain on the jacket",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 94,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 146.92,
+      "end": 148.7,
+      "text": "and the phone still singing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 95,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 148.7,
+      "end": 150.2,
+      "text": "Rider down",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 96,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 150.2,
+      "end": 150.74,
+      "text": "by the shuttered shop",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 97,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 152.16,
+      "end": 153.56,
+      "text": "timer keeps counting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 98,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 153.56,
+      "end": 154.94,
+      "text": "even when you stop",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 99,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 155.28,
+      "end": 156.36,
+      "text": "No face on the voice",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 100,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 156.92,
+      "end": 157.88,
+      "text": "no hand on the brake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 101,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 158.52,
+      "end": 159.72,
+      "text": "just another route",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 102,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 159.86,
+      "end": 160.38,
+      "text": "another unpaid wait",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 103,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 160.38,
+      "end": 163.86,
+      "text": "Rider down",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 104,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 163.86,
+      "end": 164.72,
+      "text": "but di ping still come",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 105,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 165.0,
+      "end": 165.54,
+      "text": "system seh run",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 106,
+      "section": "Final Hook - breaks return then fragment",
+      "start": 166.2,
+      "end": 166.52,
+      "text": "when yuh ankle numb",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 107,
+      "section": "Outro - phone buzz alone",
+      "start": 166.52,
+      "end": 184.56,
+      "text": "Low battery",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 108,
+      "section": "Outro - phone buzz alone",
+      "start": 184.56,
+      "end": 187.3,
+      "text": "New schedule available",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 109,
+      "section": "Outro - phone buzz alone",
+      "start": 187.3,
+      "end": 190.62,
+      "text": "Please confirm",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    }
+  ]
+}

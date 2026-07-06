@@ -1,0 +1,1249 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Night Bus",
+  "title": "First Bus - Last Bus",
+  "text_path": "Night Bus/10 - First Bus - Last Bus.txt",
+  "audio_path": "Night Bus/audio/10 - First Bus - Last Bus.mp3",
+  "duration_seconds": 236.12,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 116,
+    "reference_word_count": 382,
+    "observed_word_count": 392,
+    "matched_word_count": 158,
+    "matched_word_ratio": 0.414,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 12.36,
+      "end": 19.4,
+      "text": "first bus last bus same wheels same dust"
+    },
+    {
+      "start": 20.1,
+      "end": 26.14,
+      "text": "pale sky wet road one shift leaves one shift loads"
+    },
+    {
+      "start": 26.14,
+      "end": 31.74,
+      "text": "me coming home you just start out"
+    },
+    {
+      "start": 33.34,
+      "end": 38.68,
+      "text": "same bus though same engine more"
+    },
+    {
+      "start": 54.76,
+      "end": 58.34,
+      "text": "take a revan body shot the line cleaner comes out at the same old time"
+    },
+    {
+      "start": 58.34,
+      "end": 60.8,
+      "text": "nurse on the curb with a badge and her fist builder steps up"
+    },
+    {
+      "start": 60.8,
+      "end": 63.4,
+      "text": "where the night bus reaches a long one he was like same"
+    },
+    {
+      "start": 63.4,
+      "end": 67.04,
+      "text": "two tired smiles with no need for name they pass each other without a scene"
+    },
+    {
+      "start": 67.04,
+      "end": 70.38,
+      "text": "two dietites in a bus stop screen birds start cutting to traffic breath"
+    },
+    {
+      "start": 70.38,
+      "end": 73.88,
+      "text": "morning arrives with no rear end sun come pale over wet curbstones"
+    },
+    {
+      "start": 73.88,
+      "end": 75.92,
+      "text": "city change shift but they never go home"
+    },
+    {
+      "start": 78.56,
+      "end": 84.98,
+      "text": "first bus last bus which side are you on when the day starts up"
+    },
+    {
+      "start": 85.74,
+      "end": 91.68,
+      "text": "clock up clock in the same door open again and again"
+    },
+    {
+      "start": 91.68,
+      "end": 98.72,
+      "text": "first bus last bus who keeps turning under all of us"
+    },
+    {
+      "start": 99.22,
+      "end": 105.84,
+      "text": "light comes in but the work stays on one hand leaves one hand holds on"
+    },
+    {
+      "start": 105.84,
+      "end": 112.6,
+      "text": "first bus last bus me tired you're tired same road trust"
+    },
+    {
+      "start": 121.82,
+      "end": 127.28,
+      "text": "you're tired you're tired same road trust"
+    },
+    {
+      "start": 127.28,
+      "end": 130.98,
+      "text": "windows no longer put the street black face a return from the glass looking back"
+    },
+    {
+      "start": 130.98,
+      "end": 134.5,
+      "text": "someone smells bread from the back of a tray someone won't count sours before next day"
+    },
+    {
+      "start": 134.5,
+      "end": 138.02,
+      "text": "one man tie boot one woman untie boat touch demanding open one eye"
+    },
+    {
+      "start": 138.02,
+      "end": 141.44,
+      "text": "the driver changes but the depot road one takes a seat one lets it go"
+    },
+    {
+      "start": 141.44,
+      "end": 145.44,
+      "text": "no grand beginning no clean end just names on a road to deck overlap and bend"
+    },
+    {
+      "start": 145.44,
+      "end": 148.74,
+      "text": "me shift run me shift do city no sleep it does pass through you"
+    },
+    {
+      "start": 155.0,
+      "end": 158.54,
+      "text": "the game becomes footsteps footsteps becomes great"
+    },
+    {
+      "start": 158.54,
+      "end": 162.56,
+      "text": "break becomes cattle when the hands stop shaking"
+    },
+    {
+      "start": 162.56,
+      "end": 169.7,
+      "text": "dawn is a shift change not a part in the sky get lighter the route gets started"
+    },
+    {
+      "start": 169.7,
+      "end": 174.04,
+      "text": "great light rise but the loop remain"
+    },
+    {
+      "start": 176.72,
+      "end": 181.64,
+      "text": "bus wash road in yesterday rain"
+    },
+    {
+      "start": 186.96,
+      "end": 193.42,
+      "text": "first bus last bus which side are you on when the day starts"
+    },
+    {
+      "start": 193.42,
+      "end": 194.02,
+      "text": "up"
+    },
+    {
+      "start": 194.94,
+      "end": 201.2,
+      "text": "clock out clocking same door opening again and again"
+    },
+    {
+      "start": 201.2,
+      "end": 208.28,
+      "text": "first bus last bus route keeps turning under all of us"
+    },
+    {
+      "start": 208.28,
+      "end": 215.7,
+      "text": "light comes in but the work stays on one hand leaves one hand holds on"
+    },
+    {
+      "start": 216.24,
+      "end": 222.52,
+      "text": "first bus last bus you're tired you're tired same road trust"
+    },
+    {
+      "start": 225.3,
+      "end": 236.12,
+      "text": "next stop almost home keys in pocket phone on load"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 12.36,
+      "end": 14.06,
+      "text": "First bus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 15.02,
+      "end": 15.92,
+      "text": "last bus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 2,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 15.92,
+      "end": 17.6,
+      "text": "same wheels",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 3,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 18.34,
+      "end": 19.4,
+      "text": "same dust",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 4,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 19.74,
+      "end": 20.98,
+      "text": "Pale sky",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 5,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 21.52,
+      "end": 22.78,
+      "text": "wet road",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 6,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 22.78,
+      "end": 24.78,
+      "text": "one shift leaves",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 7,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 24.98,
+      "end": 26.14,
+      "text": "one shift loads",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 8,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 26.5,
+      "end": 27.92,
+      "text": "Mi coming home",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 9,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 29.94,
+      "end": 31.74,
+      "text": "yuh just start out",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 32.96,
+      "end": 34.22,
+      "text": "same bus door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 11,
+      "section": "Intro - loading bay air | dawn traffic",
+      "start": 35.08,
+      "end": 37.62,
+      "text": "same engine mouth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - swung drums enter",
+      "start": 37.62,
+      "end": 56.04,
+      "text": "Bakery van",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - swung drums enter",
+      "start": 56.04,
+      "end": 56.52,
+      "text": "by the shutter line",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - swung drums enter",
+      "start": 56.52,
+      "end": 57.38,
+      "text": "cleaner comes out",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - swung drums enter",
+      "start": 57.38,
+      "end": 58.34,
+      "text": "at the same old time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - swung drums enter",
+      "start": 58.34,
+      "end": 58.9,
+      "text": "Nurse on the kerb",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - swung drums enter",
+      "start": 59.06,
+      "end": 59.94,
+      "text": "with her badge in her fist",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - swung drums enter",
+      "start": 59.94,
+      "end": 60.8,
+      "text": "builder steps up",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - swung drums enter",
+      "start": 60.8,
+      "end": 61.42,
+      "text": "where the night bus sits",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - swung drums enter",
+      "start": 61.9,
+      "end": 62.44,
+      "text": "She seh \"long one\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - swung drums enter",
+      "start": 62.44,
+      "end": 63.4,
+      "text": "him seh \"same\"",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - swung drums enter",
+      "start": 63.4,
+      "end": 64.26,
+      "text": "two tired smiles",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - swung drums enter",
+      "start": 64.4,
+      "end": 65.08,
+      "text": "wid no need fi name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - swung drums enter",
+      "start": 65.08,
+      "end": 65.98,
+      "text": "They pass each other",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - swung drums enter",
+      "start": 65.98,
+      "end": 67.04,
+      "text": "without a scene",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 - swung drums enter",
+      "start": 67.04,
+      "end": 67.28,
+      "text": "two tired tides",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 - swung drums enter",
+      "start": 67.74,
+      "end": 68.68,
+      "text": "in a bus-stop screen",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 - swung drums enter",
+      "start": 68.68,
+      "end": 69.46,
+      "text": "Birds start cutting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 - swung drums enter",
+      "start": 69.64,
+      "end": 70.38,
+      "text": "through traffic breath",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 - swung drums enter",
+      "start": 70.38,
+      "end": 71.14,
+      "text": "morning arrives",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 - swung drums enter",
+      "start": 71.14,
+      "end": 71.54,
+      "text": "with no real rest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 32,
+      "section": "Verse 1 - swung drums enter",
+      "start": 72.06,
+      "end": 72.9,
+      "text": "Sun come pale",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 33,
+      "section": "Verse 1 - swung drums enter",
+      "start": 72.9,
+      "end": 73.32,
+      "text": "over wet kerb stone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 34,
+      "section": "Verse 1 - swung drums enter",
+      "start": 73.88,
+      "end": 74.58,
+      "text": "city change shift",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 35,
+      "section": "Verse 1 - swung drums enter",
+      "start": 74.58,
+      "end": 75.92,
+      "text": "but it never go home",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 36,
+      "section": "Hook - warm but unresolved",
+      "start": 78.56,
+      "end": 79.76,
+      "text": "First bus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 37,
+      "section": "Hook - warm but unresolved",
+      "start": 80.46,
+      "end": 81.3,
+      "text": "last bus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 38,
+      "section": "Hook - warm but unresolved",
+      "start": 81.3,
+      "end": 83.04,
+      "text": "which side are you on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 39,
+      "section": "Hook - warm but unresolved",
+      "start": 83.04,
+      "end": 84.98,
+      "text": "when the day starts up",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 40,
+      "section": "Hook - warm but unresolved",
+      "start": 85.74,
+      "end": 85.88,
+      "text": "Clock out",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 41,
+      "section": "Hook - warm but unresolved",
+      "start": 87.36,
+      "end": 88.0,
+      "text": "clock in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 42,
+      "section": "Hook - warm but unresolved",
+      "start": 194.94,
+      "end": 201.2,
+      "text": "same door opening",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 43,
+      "section": "Hook - warm but unresolved",
+      "start": 201.2,
+      "end": 201.3,
+      "text": "again and again",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Hook - warm but unresolved",
+      "start": 201.3,
+      "end": 203.06,
+      "text": "First bus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 45,
+      "section": "Hook - warm but unresolved",
+      "start": 203.34,
+      "end": 204.8,
+      "text": "last bus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 46,
+      "section": "Hook - warm but unresolved",
+      "start": 204.8,
+      "end": 206.42,
+      "text": "route keeps turning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 47,
+      "section": "Hook - warm but unresolved",
+      "start": 206.42,
+      "end": 208.28,
+      "text": "under all of us",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 48,
+      "section": "Hook - warm but unresolved",
+      "start": 208.28,
+      "end": 210.0,
+      "text": "Light comes in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 49,
+      "section": "Hook - warm but unresolved",
+      "start": 210.0,
+      "end": 211.92,
+      "text": "but the work stays on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 50,
+      "section": "Hook - warm but unresolved",
+      "start": 211.92,
+      "end": 213.56,
+      "text": "one hand leaves",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Hook - warm but unresolved",
+      "start": 213.78,
+      "end": 215.7,
+      "text": "one hand holds on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 52,
+      "section": "Hook - warm but unresolved",
+      "start": 216.16,
+      "end": 217.16,
+      "text": "First bus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 53,
+      "section": "Hook - warm but unresolved",
+      "start": 217.44,
+      "end": 219.0,
+      "text": "last bus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 54,
+      "section": "Hook - warm but unresolved",
+      "start": 219.48,
+      "end": 219.8,
+      "text": "mi tired, yuh tired",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 55,
+      "section": "Hook - warm but unresolved",
+      "start": 219.8,
+      "end": 222.52,
+      "text": "same road trust",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 222.52,
+      "end": 222.62,
+      "text": "Windows no longer",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 222.62,
+      "end": 222.72,
+      "text": "hold the street black",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 222.72,
+      "end": 222.82,
+      "text": "faces return",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 222.82,
+      "end": 222.92,
+      "text": "from the glass looking back",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 222.92,
+      "end": 223.02,
+      "text": "Someone smells bread",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 223.02,
+      "end": 223.12,
+      "text": "from the back of a tray",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 223.12,
+      "end": 223.22,
+      "text": "someone counts hours",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 223.22,
+      "end": 223.32,
+      "text": "before next pay",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 223.32,
+      "end": 223.42,
+      "text": "One man tie boot",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 223.42,
+      "end": 223.52,
+      "text": "one woman untie",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 223.52,
+      "end": 223.62,
+      "text": "both watch di morning",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 223.62,
+      "end": 223.72,
+      "text": "open one eye",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 223.72,
+      "end": 223.82,
+      "text": "The driver changes",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 223.82,
+      "end": 223.92,
+      "text": "by the depot road",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 223.92,
+      "end": 224.02,
+      "text": "one takes the seat",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 224.02,
+      "end": 224.12,
+      "text": "one lets it go",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 72,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 224.12,
+      "end": 224.22,
+      "text": "No grand beginning",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 73,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 224.22,
+      "end": 224.32,
+      "text": "no clean end",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 74,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 224.32,
+      "end": 224.42,
+      "text": "just names on a rota",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 75,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 224.42,
+      "end": 224.52,
+      "text": "that overlap and bend",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 76,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 224.52,
+      "end": 224.62,
+      "text": "Mi shift done",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 77,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 224.62,
+      "end": 224.72,
+      "text": "yuh shift due",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 78,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 224.72,
+      "end": 224.82,
+      "text": "city nuh sleep",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 79,
+      "section": "Verse 2 - chords widen slightly",
+      "start": 224.82,
+      "end": 224.92,
+      "text": "it just pass through you",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 80,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 224.92,
+      "end": 225.02,
+      "text": "Scan becomes footstep",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 81,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 225.02,
+      "end": 225.12,
+      "text": "footstep becomes brake",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 82,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 225.12,
+      "end": 225.22,
+      "text": "brake becomes kettle",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 83,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 225.22,
+      "end": 225.32,
+      "text": "when the hands stop shaking",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 84,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 225.32,
+      "end": 225.42,
+      "text": "Dawn is a shift change",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 85,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 225.42,
+      "end": 225.52,
+      "text": "not a pardon",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 86,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 225.52,
+      "end": 225.62,
+      "text": "The sky gets lighter",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 87,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 225.62,
+      "end": 225.72,
+      "text": "the route gets started",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 88,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 225.72,
+      "end": 225.82,
+      "text": "Grey light rise",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 89,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 225.82,
+      "end": 225.92,
+      "text": "but di loop remain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 90,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 225.92,
+      "end": 226.02,
+      "text": "bus wash road",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 91,
+      "section": "Bridge - remnants of scanner pulse",
+      "start": 226.02,
+      "end": 226.12,
+      "text": "in yesterday rain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 92,
+      "section": "Final Hook - title-track beep returns",
+      "start": 226.12,
+      "end": 226.22,
+      "text": "First bus",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 93,
+      "section": "Final Hook - title-track beep returns",
+      "start": 226.22,
+      "end": 226.32,
+      "text": "last bus",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 94,
+      "section": "Final Hook - title-track beep returns",
+      "start": 226.32,
+      "end": 226.42,
+      "text": "which side are you on",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 95,
+      "section": "Final Hook - title-track beep returns",
+      "start": 226.42,
+      "end": 226.52,
+      "text": "when the day starts up",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 96,
+      "section": "Final Hook - title-track beep returns",
+      "start": 226.52,
+      "end": 226.62,
+      "text": "Clock out",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 97,
+      "section": "Final Hook - title-track beep returns",
+      "start": 226.62,
+      "end": 226.72,
+      "text": "clock in",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 98,
+      "section": "Final Hook - title-track beep returns",
+      "start": 226.72,
+      "end": 226.82,
+      "text": "same door opening",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 99,
+      "section": "Final Hook - title-track beep returns",
+      "start": 226.82,
+      "end": 226.92,
+      "text": "again and again",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 100,
+      "section": "Final Hook - title-track beep returns",
+      "start": 226.92,
+      "end": 227.02,
+      "text": "First bus",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 101,
+      "section": "Final Hook - title-track beep returns",
+      "start": 227.02,
+      "end": 227.12,
+      "text": "last bus",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 102,
+      "section": "Final Hook - title-track beep returns",
+      "start": 227.12,
+      "end": 227.22,
+      "text": "route keeps turning",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 103,
+      "section": "Final Hook - title-track beep returns",
+      "start": 227.22,
+      "end": 227.32,
+      "text": "under all of us",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 104,
+      "section": "Final Hook - title-track beep returns",
+      "start": 227.32,
+      "end": 227.42,
+      "text": "Light comes in",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 105,
+      "section": "Final Hook - title-track beep returns",
+      "start": 227.42,
+      "end": 227.52,
+      "text": "but the work stays on",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 106,
+      "section": "Final Hook - title-track beep returns",
+      "start": 227.52,
+      "end": 227.62,
+      "text": "one hand leaves",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 107,
+      "section": "Final Hook - title-track beep returns",
+      "start": 227.62,
+      "end": 227.72,
+      "text": "one hand holds on",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 108,
+      "section": "Final Hook - title-track beep returns",
+      "start": 227.72,
+      "end": 227.82,
+      "text": "First bus",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 109,
+      "section": "Final Hook - title-track beep returns",
+      "start": 227.82,
+      "end": 227.92,
+      "text": "last bus",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 110,
+      "section": "Final Hook - title-track beep returns",
+      "start": 227.92,
+      "end": 228.02,
+      "text": "mi tired, yuh tired",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 111,
+      "section": "Final Hook - title-track beep returns",
+      "start": 228.02,
+      "end": 228.12,
+      "text": "same road trust",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 112,
+      "section": "Outro - engine fades toward home",
+      "start": 228.12,
+      "end": 228.22,
+      "text": "Next stop",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 113,
+      "section": "Outro - engine fades toward home",
+      "start": 228.22,
+      "end": 230.32,
+      "text": "almost home",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 114,
+      "section": "Outro - engine fades toward home",
+      "start": 230.32,
+      "end": 234.2,
+      "text": "keys in pocket",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 115,
+      "section": "Outro - engine fades toward home",
+      "start": 234.74,
+      "end": 235.48,
+      "text": "phone on low",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    }
+  ]
+}

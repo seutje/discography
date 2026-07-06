@@ -1,0 +1,1342 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Night Bus",
+  "title": "Clocking Out at Sunrise",
+  "text_path": "Night Bus/11 - Clocking Out at Sunrise.txt",
+  "audio_path": "Night Bus/audio/11 - Clocking Out at Sunrise.mp3",
+  "duration_seconds": 249.12,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 113,
+    "reference_word_count": 421,
+    "observed_word_count": 424,
+    "matched_word_count": 352,
+    "matched_word_ratio": 0.836,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 0,
+    "filtered_adlib_token_count": 0
+  },
+  "transcript_segments": [
+    {
+      "start": 8.42,
+      "end": 15.46,
+      "text": "sunrise on wet pavement receipt from the night"
+    },
+    {
+      "start": 16.86,
+      "end": 22.54,
+      "text": "printed pale and quiet over yellow light"
+    },
+    {
+      "start": 22.54,
+      "end": 26.8,
+      "text": "dorky stiff hands shoes off lost hands"
+    },
+    {
+      "start": 28.14,
+      "end": 31.96,
+      "text": "me reach home but the route still run"
+    },
+    {
+      "start": 31.96,
+      "end": 35.46,
+      "text": "body coming before mine done"
+    },
+    {
+      "start": 52.54,
+      "end": 56.06,
+      "text": "he leaves the bus before the route turns round"
+    },
+    {
+      "start": 56.06,
+      "end": 59.72,
+      "text": "engine keeps going with the lower sound"
+    },
+    {
+      "start": 59.72,
+      "end": 63.08,
+      "text": "badge in the pocket for nearly dead"
+    },
+    {
+      "start": 63.08,
+      "end": 66.7,
+      "text": "work still moving inside the head"
+    },
+    {
+      "start": 66.7,
+      "end": 69.8,
+      "text": "me take off badge but the hours stay"
+    },
+    {
+      "start": 70.54,
+      "end": 73.22,
+      "text": "like raining cloth from yesterday"
+    },
+    {
+      "start": 74.04,
+      "end": 77.34,
+      "text": "laundry on a radiator cup by the sink"
+    },
+    {
+      "start": 77.34,
+      "end": 80.86,
+      "text": "body ask questions before it can think"
+    },
+    {
+      "start": 80.86,
+      "end": 83.86,
+      "text": "sleep is recovery nobody pays"
+    },
+    {
+      "start": 84.68,
+      "end": 88.16,
+      "text": "sun to the curtain count sun paved days"
+    },
+    {
+      "start": 88.16,
+      "end": 91.46,
+      "text": "me need sleep like wage like bread"
+    },
+    {
+      "start": 91.46,
+      "end": 95.16,
+      "text": "me need quiet inside me head"
+    },
+    {
+      "start": 95.16,
+      "end": 98.86,
+      "text": "clocking out at sunrise hands still carrying weight"
+    },
+    {
+      "start": 99.62,
+      "end": 102.86,
+      "text": "morning on the window not early only late"
+    },
+    {
+      "start": 103.52,
+      "end": 107.0,
+      "text": "clocking out at sunrise route still running through"
+    },
+    {
+      "start": 107.0,
+      "end": 110.06,
+      "text": "city keeps the engine after it let's go"
+    },
+    {
+      "start": 110.06,
+      "end": 112.2,
+      "text": "no view no answer in the daylight"
+    },
+    {
+      "start": 112.2,
+      "end": 115.9,
+      "text": "no keen line in the sky just briefly turning slowly"
+    },
+    {
+      "start": 115.9,
+      "end": 119.4,
+      "text": "where the night went by clocking out at sunrise"
+    },
+    {
+      "start": 119.4,
+      "end": 122.5,
+      "text": "me says you know let the room hold me"
+    },
+    {
+      "start": 122.5,
+      "end": 124.56,
+      "text": "if the city don't know how"
+    },
+    {
+      "start": 131.84,
+      "end": 133.7,
+      "text": "cattle clicks like a small green light"
+    },
+    {
+      "start": 133.7,
+      "end": 135.4,
+      "text": "bread in the toaster room turning white"
+    },
+    {
+      "start": 135.4,
+      "end": 137.24,
+      "text": "someone upstairs starts their day"
+    },
+    {
+      "start": 137.24,
+      "end": 139.04,
+      "text": "watering pipes goes the other way"
+    },
+    {
+      "start": 139.04,
+      "end": 140.76,
+      "text": "neighbour door closed new shoes go down"
+    },
+    {
+      "start": 140.76,
+      "end": 142.54,
+      "text": "another shift started in the same old town"
+    },
+    {
+      "start": 142.54,
+      "end": 144.34,
+      "text": "it sucks by the heat i steam from the muck"
+    },
+    {
+      "start": 144.34,
+      "end": 146.14,
+      "text": "shoulders remember every careful shrug"
+    },
+    {
+      "start": 146.14,
+      "end": 149.0,
+      "text": "there is no romance in being worn thin"
+    },
+    {
+      "start": 149.0,
+      "end": 152.68,
+      "text": "only the fact that he made it back in"
+    },
+    {
+      "start": 152.68,
+      "end": 155.94,
+      "text": "no metal needed no speech free frame"
+    },
+    {
+      "start": 155.94,
+      "end": 160.42,
+      "text": "just one warm cup and somebody name"
+    },
+    {
+      "start": 160.42,
+      "end": 163.94,
+      "text": "take the keys up wash the hands"
+    },
+    {
+      "start": 163.94,
+      "end": 167.44,
+      "text": "leave the bag where the hallway lands"
+    },
+    {
+      "start": 167.44,
+      "end": 170.82,
+      "text": "let the engine leave the chest"
+    },
+    {
+      "start": 171.44,
+      "end": 174.84,
+      "text": "let the room do all it can with rest"
+    },
+    {
+      "start": 174.84,
+      "end": 179.82,
+      "text": "me lay down slow me let breathe fine"
+    },
+    {
+      "start": 181.18,
+      "end": 186.64,
+      "text": "one small space outside"
+    },
+    {
+      "start": 186.64,
+      "end": 191.34,
+      "text": "clock time"
+    },
+    {
+      "start": 191.34,
+      "end": 194.94,
+      "text": "clocking out at sunrise hands still carrying weight"
+    },
+    {
+      "start": 195.3,
+      "end": 198.8,
+      "text": "morning on the window not early only late"
+    },
+    {
+      "start": 199.52,
+      "end": 203.02,
+      "text": "clocking out at sunrise roof still running true"
+    },
+    {
+      "start": 203.02,
+      "end": 206.08,
+      "text": "city keeps the engine after it let's go"
+    },
+    {
+      "start": 206.08,
+      "end": 210.02,
+      "text": "view no answer in the daylight no clean line in the sky"
+    },
+    {
+      "start": 210.02,
+      "end": 211.92,
+      "text": "me and you breathe returning slowly"
+    },
+    {
+      "start": 211.92,
+      "end": 215.46,
+      "text": "where the night went by clocking out at sunrise"
+    },
+    {
+      "start": 215.46,
+      "end": 218.6,
+      "text": "me says you know let the room hold me"
+    },
+    {
+      "start": 218.6,
+      "end": 220.76,
+      "text": "if the city don't know how"
+    },
+    {
+      "start": 227.42,
+      "end": 229.72,
+      "text": "clocking out at sunrise"
+    },
+    {
+      "start": 233.1,
+      "end": 238.16,
+      "text": "the bus goes on past the end of the street"
+    },
+    {
+      "start": 238.16,
+      "end": 241.86,
+      "text": "the kettle cools beside tired feet"
+    },
+    {
+      "start": 241.86,
+      "end": 246.3,
+      "text": "clock out lights in sleep comes late"
+    },
+    {
+      "start": 246.3,
+      "end": 249.12,
+      "text": "the route begins"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 8.42,
+      "end": 11.8,
+      "text": "Sunrise on wet pavement",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 1,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 12.56,
+      "end": 15.46,
+      "text": "receipt from the night",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 2,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 16.58,
+      "end": 19.16,
+      "text": "printed pale and quiet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 3,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 19.16,
+      "end": 22.54,
+      "text": "over yellow light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 4,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 22.54,
+      "end": 23.94,
+      "text": "Door key",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 5,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 23.94,
+      "end": 24.3,
+      "text": "stiff hand",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 6,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 24.86,
+      "end": 25.74,
+      "text": "shoes off",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 7,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 25.74,
+      "end": 28.44,
+      "text": "floor stands",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 8,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 28.44,
+      "end": 29.64,
+      "text": "Mi reach home",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 9,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 29.76,
+      "end": 31.96,
+      "text": "but di route still run",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 10,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 31.96,
+      "end": 32.78,
+      "text": "body come in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 11,
+      "section": "Intro - far bus | soft reprise of platform tone",
+      "start": 33.44,
+      "end": 35.46,
+      "text": "before mind done",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 52.54,
+      "end": 54.06,
+      "text": "He leaves the bus",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 54.06,
+      "end": 56.06,
+      "text": "before the route turns round",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 56.06,
+      "end": 57.74,
+      "text": "engine keeps going",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 57.74,
+      "end": 59.72,
+      "text": "with a lower sound",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 59.72,
+      "end": 61.42,
+      "text": "Badge in the pocket",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 61.86,
+      "end": 63.08,
+      "text": "phone nearly dead",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 63.08,
+      "end": 64.94,
+      "text": "work still moving",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 64.94,
+      "end": 66.7,
+      "text": "inside the head",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 67.1,
+      "end": 68.38,
+      "text": "Mi take off badge",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 68.52,
+      "end": 69.8,
+      "text": "but di hours stay",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 70.26,
+      "end": 71.9,
+      "text": "like rain in cloth",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 71.9,
+      "end": 73.22,
+      "text": "from yesterday",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 74.04,
+      "end": 75.86,
+      "text": "Laundry on a radiator",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 75.86,
+      "end": 77.34,
+      "text": "cup by the sink",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 77.34,
+      "end": 79.22,
+      "text": "body asks questions",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 79.22,
+      "end": 80.86,
+      "text": "before it can think",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 80.86,
+      "end": 82.84,
+      "text": "Sleep is recovery",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 83.16,
+      "end": 84.05,
+      "text": "nobody pays",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 84.68,
+      "end": 86.22,
+      "text": "sun through the curtain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 87.48,
+      "end": 88.16,
+      "text": "counts unpaid days",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 32,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 88.5,
+      "end": 89.72,
+      "text": "Mi need sleep",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 33,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 89.72,
+      "end": 91.46,
+      "text": "like wage, like bread",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 34,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 91.98,
+      "end": 93.28,
+      "text": "mi need quiet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Verse 1 - gentle sub breaths | sparse percussion",
+      "start": 93.28,
+      "end": 95.16,
+      "text": "inside mi head",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 36,
+      "section": "Hook - restrained melodic lift",
+      "start": 95.16,
+      "end": 97.26,
+      "text": "Clocking out at sunrise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 37,
+      "section": "Hook - restrained melodic lift",
+      "start": 97.36,
+      "end": 99.25,
+      "text": "hands still carrying weight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 38,
+      "section": "Hook - restrained melodic lift",
+      "start": 99.62,
+      "end": 101.28,
+      "text": "morning on the window",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 39,
+      "section": "Hook - restrained melodic lift",
+      "start": 101.4,
+      "end": 103.05,
+      "text": "not early, only late",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 40,
+      "section": "Hook - restrained melodic lift",
+      "start": 103.52,
+      "end": 105.24,
+      "text": "Clocking out at sunrise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 41,
+      "section": "Hook - restrained melodic lift",
+      "start": 105.48,
+      "end": 107.0,
+      "text": "route still running through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 42,
+      "section": "Hook - restrained melodic lift",
+      "start": 107.0,
+      "end": 108.32,
+      "text": "city keeps the engine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 43,
+      "section": "Hook - restrained melodic lift",
+      "start": 108.32,
+      "end": 110.06,
+      "text": "after it lets go of you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 44,
+      "section": "Hook - restrained melodic lift",
+      "start": 110.42,
+      "end": 112.2,
+      "text": "No answer in the daylight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 45,
+      "section": "Hook - restrained melodic lift",
+      "start": 112.2,
+      "end": 114.02,
+      "text": "no clean line in the sky",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 46,
+      "section": "Hook - restrained melodic lift",
+      "start": 114.04,
+      "end": 115.9,
+      "text": "just breath returning slowly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 47,
+      "section": "Hook - restrained melodic lift",
+      "start": 115.9,
+      "end": 117.78,
+      "text": "where the night went by",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 48,
+      "section": "Hook - restrained melodic lift",
+      "start": 117.9,
+      "end": 119.4,
+      "text": "Clocking out at sunrise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 49,
+      "section": "Hook - restrained melodic lift",
+      "start": 119.4,
+      "end": 120.96,
+      "text": "mi seh easy now",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 50,
+      "section": "Hook - restrained melodic lift",
+      "start": 120.96,
+      "end": 122.18,
+      "text": "let di room hold mi",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 51,
+      "section": "Hook - restrained melodic lift",
+      "start": 122.5,
+      "end": 124.56,
+      "text": "if di city don't know how",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 52,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 132.44,
+      "end": 132.68,
+      "text": "Kettle clicks",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 53,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 132.68,
+      "end": 133.7,
+      "text": "like a small green light",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 54,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 133.7,
+      "end": 134.6,
+      "text": "bread in the toaster",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 55,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 134.64,
+      "end": 135.4,
+      "text": "room turning white",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 135.4,
+      "end": 136.24,
+      "text": "Someone upstairs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 136.24,
+      "end": 137.24,
+      "text": "starts their day",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 137.8,
+      "end": 138.16,
+      "text": "water in pipes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 138.16,
+      "end": 139.04,
+      "text": "goes the other way",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 139.04,
+      "end": 139.54,
+      "text": "Neighbour door close",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 139.9,
+      "end": 140.76,
+      "text": "new shoes go down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 140.76,
+      "end": 141.32,
+      "text": "another shift start",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 141.58,
+      "end": 142.54,
+      "text": "in di same old town",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 142.88,
+      "end": 143.18,
+      "text": "His socks by the heater",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 143.54,
+      "end": 144.2,
+      "text": "steam from the mug",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 144.34,
+      "end": 145.08,
+      "text": "shoulders remember",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 145.08,
+      "end": 146.14,
+      "text": "every careful shrug",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 146.14,
+      "end": 147.22,
+      "text": "There is no romance",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 147.22,
+      "end": 149.0,
+      "text": "in being worn thin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 149.0,
+      "end": 150.58,
+      "text": "only the fact",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 150.58,
+      "end": 152.68,
+      "text": "that he made it back in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 72,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 152.68,
+      "end": 154.14,
+      "text": "No medal needed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 73,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 154.48,
+      "end": 155.94,
+      "text": "no speech fi frame",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 74,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 155.94,
+      "end": 158.18,
+      "text": "just one warm cup",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 75,
+      "section": "Verse 2 - warmer chords | drums loosen",
+      "start": 158.18,
+      "end": 160.42,
+      "text": "and somebody name",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 76,
+      "section": "Bridge - beatless | close voice",
+      "start": 160.42,
+      "end": 161.8,
+      "text": "Take the keys out",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 77,
+      "section": "Bridge - beatless | close voice",
+      "start": 162.72,
+      "end": 163.94,
+      "text": "wash the hands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 78,
+      "section": "Bridge - beatless | close voice",
+      "start": 163.94,
+      "end": 165.34,
+      "text": "leave the bag",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 79,
+      "section": "Bridge - beatless | close voice",
+      "start": 165.34,
+      "end": 167.44,
+      "text": "where the hallway lands",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 80,
+      "section": "Bridge - beatless | close voice",
+      "start": 167.44,
+      "end": 169.12,
+      "text": "Let the engine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 81,
+      "section": "Bridge - beatless | close voice",
+      "start": 169.12,
+      "end": 170.82,
+      "text": "leave the chest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 82,
+      "section": "Bridge - beatless | close voice",
+      "start": 171.3,
+      "end": 172.38,
+      "text": "Let the room",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 83,
+      "section": "Bridge - beatless | close voice",
+      "start": 172.38,
+      "end": 173.92,
+      "text": "do what it can",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 84,
+      "section": "Bridge - beatless | close voice",
+      "start": 173.92,
+      "end": 174.84,
+      "text": "with rest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 85,
+      "section": "Bridge - beatless | close voice",
+      "start": 175.1,
+      "end": 176.88,
+      "text": "Mi lay down slow",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 86,
+      "section": "Bridge - beatless | close voice",
+      "start": 177.8,
+      "end": 178.12,
+      "text": "mi let breath find",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 87,
+      "section": "Bridge - beatless | close voice",
+      "start": 181.18,
+      "end": 184.28,
+      "text": "one small space",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 88,
+      "section": "Bridge - beatless | close voice",
+      "start": 184.28,
+      "end": 187.4,
+      "text": "outside clock time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 89,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 191.34,
+      "end": 193.3,
+      "text": "Clocking out at sunrise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 90,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 193.62,
+      "end": 195.3,
+      "text": "hands still carrying weight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 91,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 195.3,
+      "end": 197.3,
+      "text": "morning on the window",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 92,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 197.42,
+      "end": 198.92,
+      "text": "not early, only late",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 93,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 199.52,
+      "end": 201.18,
+      "text": "Clocking out at sunrise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 94,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 201.62,
+      "end": 202.6,
+      "text": "route still running through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 95,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 203.02,
+      "end": 204.34,
+      "text": "city keeps the engine",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 96,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 204.34,
+      "end": 206.08,
+      "text": "after it lets go of you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 97,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 206.38,
+      "end": 208.16,
+      "text": "No answer in the daylight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 98,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 208.26,
+      "end": 210.02,
+      "text": "no clean line in the sky",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 99,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 210.5,
+      "end": 211.92,
+      "text": "just breath returning slowly",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 100,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 211.92,
+      "end": 213.8,
+      "text": "where the night went by",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 101,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 213.82,
+      "end": 215.46,
+      "text": "Clocking out at sunrise",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 102,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 215.46,
+      "end": 216.94,
+      "text": "mi seh easy now",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 103,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 216.94,
+      "end": 218.16,
+      "text": "let di room hold mi",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 104,
+      "section": "Final Hook - harmonies as breath | sub fades",
+      "start": 218.6,
+      "end": 220.76,
+      "text": "if di city don't know how",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 105,
+      "section": "Outro - room tone | distant bus recedes",
+      "start": 233.1,
+      "end": 235.94,
+      "text": "The bus goes on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 106,
+      "section": "Outro - room tone | distant bus recedes",
+      "start": 235.94,
+      "end": 238.16,
+      "text": "past the end of the street",
+      "timing_source": "whisper-aligned",
+      "matched_words": 6
+    },
+    {
+      "index": 107,
+      "section": "Outro - room tone | distant bus recedes",
+      "start": 238.16,
+      "end": 239.84,
+      "text": "The kettle cools",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 108,
+      "section": "Outro - room tone | distant bus recedes",
+      "start": 239.84,
+      "end": 241.86,
+      "text": "beside tired feet",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 109,
+      "section": "Outro - room tone | distant bus recedes",
+      "start": 241.86,
+      "end": 242.94,
+      "text": "Clock out",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 110,
+      "section": "Outro - room tone | distant bus recedes",
+      "start": 243.2,
+      "end": 244.16,
+      "text": "lights in",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 111,
+      "section": "Outro - room tone | distant bus recedes",
+      "start": 244.74,
+      "end": 246.3,
+      "text": "sleep comes late",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 112,
+      "section": "Outro - room tone | distant bus recedes",
+      "start": 246.3,
+      "end": 249.12,
+      "text": "the route begins",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

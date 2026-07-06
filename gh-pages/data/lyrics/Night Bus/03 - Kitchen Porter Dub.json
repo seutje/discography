@@ -1,0 +1,1208 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Night Bus",
+  "title": "Kitchen Porter Dub",
+  "text_path": "Night Bus/03 - Kitchen Porter Dub.txt",
+  "audio_path": "Night Bus/audio/03 - Kitchen Porter Dub.mp3",
+  "duration_seconds": 238.88,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 117,
+    "reference_word_count": 410,
+    "observed_word_count": 282,
+    "matched_word_count": 198,
+    "matched_word_ratio": 0.483,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 1,
+    "filtered_adlib_token_count": 113
+  },
+  "transcript_segments": [
+    {
+      "start": 1.28,
+      "end": 2.5,
+      "text": "big up"
+    },
+    {
+      "start": 6.28,
+      "end": 18.88,
+      "text": "steam up tray down back door rain sound hands in water brissy neck midnight service"
+    },
+    {
+      "start": 18.88,
+      "end": 27.48,
+      "text": "leaves awake wash it quick rinse it clean me and them hot from the kitchen steam"
+    },
+    {
+      "start": 32.44,
+      "end": 57.46,
+      "text": "brr r"
+    },
+    {
+      "start": 79.48,
+      "end": 87.22,
+      "text": "10 more plates then 10 more call service is over work is not"
+    },
+    {
+      "start": 114.78,
+      "end": 117.2,
+      "text": "lights turn low water stays hot front door locked back room sweat"
+    },
+    {
+      "start": 117.2,
+      "end": 125.74,
+      "text": "back door away kitchen water dug me say wall de lime cream plate shining at somebody time"
+    },
+    {
+      "start": 125.74,
+      "end": 132.62,
+      "text": "staff meal standing by the prep fridge hum two quick bites before the next load comes"
+    },
+    {
+      "start": 132.62,
+      "end": 139.34,
+      "text": "phone in a locker shift still late last bus timing on a track screenplay"
+    },
+    {
+      "start": 139.34,
+      "end": 146.3,
+      "text": "me food get cold me bus nearly gone but this sink full up and me fans still on"
+    },
+    {
+      "start": 146.3,
+      "end": 153.34,
+      "text": "this sink feels brown and clears again like the room is learning how to pretend"
+    },
+    {
+      "start": 153.34,
+      "end": 160.26,
+      "text": "there is dignity in repeating not because it frees you because hands keep doing"
+    },
+    {
+      "start": 160.26,
+      "end": 167.44,
+      "text": "me not turn story into pity display just rub a glove work at the end of day"
+    },
+    {
+      "start": 167.44,
+      "end": 174.74,
+      "text": "close the back door watch the wet floor leave that one i'll get more"
+    },
+    {
+      "start": 174.74,
+      "end": 181.28,
+      "text": "water runs and nobody claps water runs through the night scraps"
+    },
+    {
+      "start": 181.28,
+      "end": 188.24,
+      "text": "pass me the rap mind your foot there one more load then we gone here"
+    },
+    {
+      "start": 188.24,
+      "end": 195.18,
+      "text": "kitchen water dug under the stairs city eats well then leaves the repairs"
+    },
+    {
+      "start": 195.18,
+      "end": 201.3,
+      "text": "mapping the allen scheme in the long every clean plate has a cause"
+    },
+    {
+      "start": 201.3,
+      "end": 209.06,
+      "text": "sun sung kitchen water dug tree after tree night life drains through the back door way"
+    },
+    {
+      "start": 209.06,
+      "end": 216.12,
+      "text": "kitchen water dug me say wall de lime cream plate shining at somebody time"
+    },
+    {
+      "start": 220.44,
+      "end": 224.78,
+      "text": "room boom boom boom"
+    },
+    {
+      "start": 227.16,
+      "end": 228.38,
+      "text": "been lit shots"
+    },
+    {
+      "start": 230.36,
+      "end": 232.6,
+      "text": "ring comes in"
+    },
+    {
+      "start": 234.92,
+      "end": 236.1,
+      "text": "delivery assigned"
+    },
+    {
+      "start": 236.92,
+      "end": 238.88,
+      "text": "under wet skin"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 1.28,
+      "end": 2.5,
+      "text": "Big up!",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 1,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 6.28,
+      "end": 8.08,
+      "text": "Steam up",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 2,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 9.24,
+      "end": 9.92,
+      "text": "tray down",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 3,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 10.28,
+      "end": 11.7,
+      "text": "back door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 4,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 12.62,
+      "end": 13.5,
+      "text": "rain sound",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 5,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 13.5,
+      "end": 15.34,
+      "text": "Hands in water",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 6,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 15.34,
+      "end": 17.44,
+      "text": "wrists in ache",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 7,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 17.44,
+      "end": 18.88,
+      "text": "midnight service",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 8,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 18.88,
+      "end": 19.48,
+      "text": "leaves a wake",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 9,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 21.06,
+      "end": 22.08,
+      "text": "Wash it quick",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 10,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 22.08,
+      "end": 23.9,
+      "text": "rinse it clean",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 11,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 25.12,
+      "end": 25.46,
+      "text": "mi hand dem hot",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 12,
+      "section": "Intro - extractor fan | plates in distance",
+      "start": 25.46,
+      "end": 27.48,
+      "text": "from di kitchen steam",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 27.48,
+      "end": 29.891,
+      "text": "The front room emptied",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 29.891,
+      "end": 32.302,
+      "text": "with laughter in glasses",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 32.302,
+      "end": 34.713,
+      "text": "the back room kept",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 34.713,
+      "end": 37.124,
+      "text": "what the evening passes",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 37.124,
+      "end": 39.535,
+      "text": "Rice in the drain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 39.535,
+      "end": 41.945,
+      "text": "oil on the shoe",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 41.945,
+      "end": 43.754,
+      "text": "burn mark blooming",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 43.754,
+      "end": 46.767,
+      "text": "where the glove wore through",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 46.767,
+      "end": 48.575,
+      "text": "Grease pon tile",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 48.575,
+      "end": 50.986,
+      "text": "knife by di sink",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 50.986,
+      "end": 53.397,
+      "text": "chef seh \"nearly done\"",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 53.397,
+      "end": 57.014,
+      "text": "but mi know how him think",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 57.014,
+      "end": 58.822,
+      "text": "No one photographs",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 58.822,
+      "end": 60.63,
+      "text": "the silver rack",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 60.63,
+      "end": 63.644,
+      "text": "no one books a table",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 63.644,
+      "end": 66.657,
+      "text": "by the bin out back",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 66.657,
+      "end": 69.068,
+      "text": "He scrapes the plates",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 30,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 69.068,
+      "end": 70.876,
+      "text": "in practiced time",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 31,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 70.876,
+      "end": 72.685,
+      "text": "forks hit steel",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 32,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 72.685,
+      "end": 75.698,
+      "text": "like a work bell chime",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 33,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 75.698,
+      "end": 78.109,
+      "text": "Mi count by tray",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 34,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 78.109,
+      "end": 80.52,
+      "text": "not clock pon wall",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 35,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 80.52,
+      "end": 82.06,
+      "text": "ten more plates",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 36,
+      "section": "Verse 1 - clank percussion | deep sub",
+      "start": 82.06,
+      "end": 83.94,
+      "text": "then ten more call",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 37,
+      "section": "Pre-Hook - spring reverb splash",
+      "start": 83.94,
+      "end": 85.88,
+      "text": "Service is over",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 38,
+      "section": "Pre-Hook - spring reverb splash",
+      "start": 86.18,
+      "end": 87.22,
+      "text": "work is not",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 39,
+      "section": "Pre-Hook - spring reverb splash",
+      "start": 114.78,
+      "end": 116.18,
+      "text": "Lights turn low",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 40,
+      "section": "Pre-Hook - spring reverb splash",
+      "start": 116.18,
+      "end": 116.28,
+      "text": "water stays hot",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 41,
+      "section": "Pre-Hook - spring reverb splash",
+      "start": 116.28,
+      "end": 116.38,
+      "text": "Front door lock",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 42,
+      "section": "Pre-Hook - spring reverb splash",
+      "start": 116.38,
+      "end": 117.2,
+      "text": "back room sweat",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 43,
+      "section": "Pre-Hook - spring reverb splash",
+      "start": 117.2,
+      "end": 117.869,
+      "text": "night nuh done",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 44,
+      "section": "Pre-Hook - spring reverb splash",
+      "start": 117.869,
+      "end": 118.76,
+      "text": "fi di porter yet",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 45,
+      "section": "Hook - dub delay on final words",
+      "start": 118.76,
+      "end": 119.2,
+      "text": "Kitchen porter dub",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 46,
+      "section": "Hook - dub delay on final words",
+      "start": 119.2,
+      "end": 119.449,
+      "text": "under the stairs",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 47,
+      "section": "Hook - dub delay on final words",
+      "start": 119.449,
+      "end": 119.699,
+      "text": "city eats well",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 48,
+      "section": "Hook - dub delay on final words",
+      "start": 119.699,
+      "end": 120.031,
+      "text": "then leaves the repairs",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 49,
+      "section": "Hook - dub delay on final words",
+      "start": 120.031,
+      "end": 120.364,
+      "text": "Mop in the alley",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 50,
+      "section": "Hook - dub delay on final words",
+      "start": 120.364,
+      "end": 120.696,
+      "text": "steam in the lung",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 51,
+      "section": "Hook - dub delay on final words",
+      "start": 120.696,
+      "end": 120.945,
+      "text": "every clean plate",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 52,
+      "section": "Hook - dub delay on final words",
+      "start": 120.945,
+      "end": 121.278,
+      "text": "has a cost unsung",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 53,
+      "section": "Hook - dub delay on final words",
+      "start": 121.278,
+      "end": 121.527,
+      "text": "Kitchen porter dub",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 54,
+      "section": "Hook - dub delay on final words",
+      "start": 121.527,
+      "end": 121.776,
+      "text": "tray after tray",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 55,
+      "section": "Hook - dub delay on final words",
+      "start": 121.776,
+      "end": 121.943,
+      "text": "nightlife drains",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 56,
+      "section": "Hook - dub delay on final words",
+      "start": 121.943,
+      "end": 122.275,
+      "text": "through the back doorway",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 57,
+      "section": "Hook - dub delay on final words",
+      "start": 122.275,
+      "end": 122.524,
+      "text": "Kitchen porter dub",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 58,
+      "section": "Hook - dub delay on final words",
+      "start": 122.524,
+      "end": 122.94,
+      "text": "mi seh hold di line",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 59,
+      "section": "Hook - dub delay on final words",
+      "start": 122.94,
+      "end": 123.82,
+      "text": "clean plate shining",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 60,
+      "section": "Hook - dub delay on final words",
+      "start": 124.28,
+      "end": 125.74,
+      "text": "off somebody time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 125.74,
+      "end": 127.22,
+      "text": "Staff meal standing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 127.22,
+      "end": 128.92,
+      "text": "by the prep fridge hum",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 128.92,
+      "end": 130.64,
+      "text": "two quick bites",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 130.64,
+      "end": 132.62,
+      "text": "before the next load comes",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 132.62,
+      "end": 134.3,
+      "text": "Phone in a locker",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 66,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 134.78,
+      "end": 136.08,
+      "text": "shift still late",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 67,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 136.08,
+      "end": 137.72,
+      "text": "last bus timing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 68,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 137.72,
+      "end": 138.36,
+      "text": "on a cracked screen plate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 69,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 139.92,
+      "end": 141.28,
+      "text": "Mi food get cold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 70,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 141.7,
+      "end": 142.94,
+      "text": "mi bus nearly gone",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 142.94,
+      "end": 144.52,
+      "text": "but di sink full up",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 72,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 144.52,
+      "end": 146.3,
+      "text": "and di fan still on",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 73,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 146.92,
+      "end": 148.2,
+      "text": "The sink fills brown",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 74,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 148.6,
+      "end": 149.84,
+      "text": "then clears again",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 75,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 149.84,
+      "end": 151.86,
+      "text": "like the room is learning",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 76,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 151.86,
+      "end": 153.34,
+      "text": "how to pretend",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 77,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 153.34,
+      "end": 154.84,
+      "text": "There is dignity",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 78,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 154.84,
+      "end": 155.28,
+      "text": "in the repeated thing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 79,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 156.28,
+      "end": 158.5,
+      "text": "not because it frees you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 80,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 158.52,
+      "end": 160.26,
+      "text": "because hands keep doing",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 81,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 161.18,
+      "end": 162.08,
+      "text": "Mi nah turn story",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 82,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 162.08,
+      "end": 163.8,
+      "text": "into pity display",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 83,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 163.8,
+      "end": 165.58,
+      "text": "just rubber glove work",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 84,
+      "section": "Verse 2 - break fill | tighter groove",
+      "start": 165.58,
+      "end": 167.44,
+      "text": "at di end of day",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 85,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 167.44,
+      "end": 169.46,
+      "text": "\"Close the back door\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 86,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 169.5,
+      "end": 171.26,
+      "text": "\"Watch the wet floor\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 87,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 171.26,
+      "end": 172.48,
+      "text": "\"Leave that one\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 88,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 172.66,
+      "end": 174.74,
+      "text": "\"I'll get more\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 89,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 174.74,
+      "end": 176.1,
+      "text": "Water runs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 90,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 176.1,
+      "end": 177.8,
+      "text": "and nobody claps",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 91,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 177.8,
+      "end": 179.68,
+      "text": "Water runs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 92,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 179.68,
+      "end": 181.28,
+      "text": "through the night's scraps",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 93,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 181.28,
+      "end": 182.06,
+      "text": "\"Pass mi di rack\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 94,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 183.04,
+      "end": 184.72,
+      "text": "\"Mind yuh foot deh\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 95,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 185.08,
+      "end": 186.52,
+      "text": "\"One more load\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 96,
+      "section": "Bridge - percussion drops | room tone and breath",
+      "start": 186.98,
+      "end": 187.78,
+      "text": "\"Then we gone, yeah\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 97,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 188.24,
+      "end": 188.72,
+      "text": "Kitchen porter dub",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 98,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 190.4,
+      "end": 191.74,
+      "text": "under the stairs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 99,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 191.74,
+      "end": 193.32,
+      "text": "city eats well",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 100,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 193.32,
+      "end": 195.18,
+      "text": "then leaves the repairs",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 101,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 197.64,
+      "end": 198.34,
+      "text": "Mop in the alley",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 102,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 198.34,
+      "end": 198.76,
+      "text": "steam in the lung",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 103,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 198.76,
+      "end": 200.38,
+      "text": "every clean plate",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 104,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 200.38,
+      "end": 201.0,
+      "text": "has a cost unsung",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 105,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 202.22,
+      "end": 202.64,
+      "text": "Kitchen porter dub",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 106,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 204.38,
+      "end": 205.04,
+      "text": "tray after tray",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 107,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 206.84,
+      "end": 207.3,
+      "text": "nightlife drains",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 108,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 207.3,
+      "end": 208.18,
+      "text": "through the back doorway",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 109,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 209.06,
+      "end": 209.86,
+      "text": "Kitchen porter dub",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 110,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 209.86,
+      "end": 213.36,
+      "text": "mi seh hold di line",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 111,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 213.36,
+      "end": 214.26,
+      "text": "clean plate shining",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 112,
+      "section": "Final Hook - heavier sub | clanks in delay",
+      "start": 214.66,
+      "end": 216.12,
+      "text": "off somebody time",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 113,
+      "section": "Outro - alley door opens | phone ping",
+      "start": 216.12,
+      "end": 230.36,
+      "text": "Bin lid shuts",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 114,
+      "section": "Outro - alley door opens | phone ping",
+      "start": 230.36,
+      "end": 232.6,
+      "text": "rain comes in",
+      "timing_source": "whisper-segment-fuzzy",
+      "matched_words": 0
+    },
+    {
+      "index": 115,
+      "section": "Outro - alley door opens | phone ping",
+      "start": 234.72,
+      "end": 236.1,
+      "text": "Delivery assigned",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 116,
+      "section": "Outro - alley door opens | phone ping",
+      "start": 236.92,
+      "end": 238.88,
+      "text": "under wet skin",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    }
+  ]
+}

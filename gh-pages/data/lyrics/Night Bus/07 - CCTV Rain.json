@@ -1,0 +1,1008 @@
+{
+  "schema": "discography-timed-lyrics-v1",
+  "album": "Night Bus",
+  "title": "CCTV Rain",
+  "text_path": "Night Bus/07 - CCTV Rain.txt",
+  "audio_path": "Night Bus/audio/07 - CCTV Rain.mp3",
+  "duration_seconds": 251.46,
+  "model": "medium.en",
+  "language": "en",
+  "timing_granularity": "line",
+  "timing_backend": "whisper-word-timestamps",
+  "diagnostics": {
+    "line_count": 97,
+    "reference_word_count": 323,
+    "observed_word_count": 161,
+    "matched_word_count": 115,
+    "matched_word_ratio": 0.356,
+    "section_start_overrides": {},
+    "line_start_overrides": {},
+    "skipped_line_count": 0,
+    "skipped_sections": [],
+    "inserted_adlib_count": 0,
+    "ignored_adlib_segment_count": 5,
+    "filtered_adlib_token_count": 560
+  },
+  "transcript_segments": [
+    {
+      "start": 7.12,
+      "end": 14.24,
+      "text": "for your safety recording in progress"
+    },
+    {
+      "start": 17.5,
+      "end": 22.06,
+      "text": "for your safety move along"
+    },
+    {
+      "start": 23.42,
+      "end": 24.78,
+      "text": "me dare"
+    },
+    {
+      "start": 28.84,
+      "end": 29.86,
+      "text": "me just dare"
+    },
+    {
+      "start": 45.54,
+      "end": 49.12,
+      "text": "blue white camera above the sharp door"
+    },
+    {
+      "start": 49.12,
+      "end": 52.88,
+      "text": "turns his little head then turns once more"
+    },
+    {
+      "start": 53.46,
+      "end": 56.14,
+      "text": "green lights lines on the shelter screen"
+    },
+    {
+      "start": 56.74,
+      "end": 59.64,
+      "text": "one man waits where sleep is not seen"
+    },
+    {
+      "start": 59.9,
+      "end": 63.08,
+      "text": "in court so true him must not do"
+    },
+    {
+      "start": 63.74,
+      "end": 66.56,
+      "text": "signs say no waiting but what him they do"
+    },
+    {
+      "start": 67.08,
+      "end": 70.2,
+      "text": "bench has an arm rest every half's peace"
+    },
+    {
+      "start": 70.74,
+      "end": 73.68,
+      "text": "time is designed out of the place"
+    },
+    {
+      "start": 73.68,
+      "end": 77.44,
+      "text": "victory delight opens its eyes"
+    },
+    {
+      "start": 77.8,
+      "end": 80.78,
+      "text": "because a cleaner is passing by"
+    },
+    {
+      "start": 81.0,
+      "end": 84.36,
+      "text": "she hold her keys and keep her peace"
+    },
+    {
+      "start": 84.76,
+      "end": 87.88,
+      "text": "watch light problem in a working place"
+    },
+    {
+      "start": 88.22,
+      "end": 91.28,
+      "text": "cctv rain on the city lens"
+    },
+    {
+      "start": 91.82,
+      "end": 94.72,
+      "text": "watch for safety watched for sense"
+    },
+    {
+      "start": 94.96,
+      "end": 98.24,
+      "text": "needed a midnight suspect by two"
+    },
+    {
+      "start": 98.78,
+      "end": 101.72,
+      "text": "he's in your pocket camera on you"
+    },
+    {
+      "start": 160.74,
+      "end": 187.0,
+      "text": "so is the doorway so is the stairs so is the shelter with nobody there move along along with me my boss here my feet cold me shift on me not more"
+    }
+  ],
+  "lines": [
+    {
+      "index": 0,
+      "section": "Intro - rain on shelter | camera servo",
+      "start": 7.12,
+      "end": 10.22,
+      "text": "For your safety",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 1,
+      "section": "Intro - rain on shelter | camera servo",
+      "start": 10.8,
+      "end": 14.24,
+      "text": "Recording in progress",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 2,
+      "section": "Intro - rain on shelter | camera servo",
+      "start": 17.5,
+      "end": 19.04,
+      "text": "For your safety",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 3,
+      "section": "Intro - rain on shelter | camera servo",
+      "start": 20.98,
+      "end": 22.06,
+      "text": "move along",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 4,
+      "section": "Intro - rain on shelter | camera servo",
+      "start": 22.06,
+      "end": 29.0,
+      "text": "Mi deh yah",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 5,
+      "section": "Intro - rain on shelter | camera servo",
+      "start": 29.0,
+      "end": 29.36,
+      "text": "mi just deh yah",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 6,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 45.54,
+      "end": 47.5,
+      "text": "Blue-white camera",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 7,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 47.5,
+      "end": 49.12,
+      "text": "above the shop door",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 8,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 49.12,
+      "end": 50.84,
+      "text": "turns its little head",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 9,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 50.84,
+      "end": 52.88,
+      "text": "then turns once more",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 10,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 54.12,
+      "end": 54.4,
+      "text": "Rain writes lines",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 11,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 54.4,
+      "end": 56.14,
+      "text": "on the shelter screen",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 12,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 56.74,
+      "end": 57.9,
+      "text": "one man waits",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 13,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 57.9,
+      "end": 59.64,
+      "text": "where sleep is not seen",
+      "timing_source": "whisper-aligned",
+      "matched_words": 5
+    },
+    {
+      "index": 14,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 61.72,
+      "end": 61.86,
+      "text": "Him coat soak through",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 15,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 62.22,
+      "end": 62.6,
+      "text": "him bus not due",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 16,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 64.28,
+      "end": 65.04,
+      "text": "sign seh no waiting",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 17,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 65.04,
+      "end": 66.56,
+      "text": "but what him fi do",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 18,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 67.08,
+      "end": 67.94,
+      "text": "Bench has an armrest",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 19,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 68.68,
+      "end": 69.28,
+      "text": "every half space",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 20,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 71.32,
+      "end": 72.12,
+      "text": "kindness designed",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 21,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 72.12,
+      "end": 73.68,
+      "text": "out of the place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 22,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 73.68,
+      "end": 75.18,
+      "text": "Security light",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 23,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 75.18,
+      "end": 76.74,
+      "text": "opens its eye",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 24,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 77.8,
+      "end": 79.06,
+      "text": "because a cleaner",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 25,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 79.06,
+      "end": 80.78,
+      "text": "is passing by",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 26,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 81.0,
+      "end": 82.44,
+      "text": "She hold her keys",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 27,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 82.44,
+      "end": 83.86,
+      "text": "and keep her pace",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 28,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 85.4,
+      "end": 85.86,
+      "text": "watched like problem",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 29,
+      "section": "Verse 1 - cold sub pulses | distant siren",
+      "start": 85.86,
+      "end": 87.88,
+      "text": "in a working place",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 30,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 88.22,
+      "end": 89.44,
+      "text": "CCTV rain",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 31,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 89.44,
+      "end": 91.28,
+      "text": "on the city lens",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 32,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 92.16,
+      "end": 93.1,
+      "text": "watched for safety",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 33,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 93.56,
+      "end": 94.72,
+      "text": "watched for sense",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 34,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 94.96,
+      "end": 96.46,
+      "text": "Needed at midnight",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 35,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 96.46,
+      "end": 98.24,
+      "text": "suspect by two",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 36,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 99.14,
+      "end": 99.86,
+      "text": "keys in your pocket",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 37,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 99.86,
+      "end": 101.72,
+      "text": "camera on you",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 38,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 101.72,
+      "end": 102.912,
+      "text": "CCTV rain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 39,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 102.912,
+      "end": 105.297,
+      "text": "no heart, no claim",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 40,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 105.297,
+      "end": 107.085,
+      "text": "only a timestamp",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 41,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 107.085,
+      "end": 109.47,
+      "text": "next to your name",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 42,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 109.47,
+      "end": 110.662,
+      "text": "CCTV rain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 43,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 110.662,
+      "end": 113.047,
+      "text": "mi face pon file",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 44,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 113.047,
+      "end": 115.432,
+      "text": "mi only pass through",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 45,
+      "section": "Hook - echoing rim | low vocal",
+      "start": 115.432,
+      "end": 117.816,
+      "text": "for a likkle while",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 46,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 117.816,
+      "end": 119.009,
+      "text": "Shopfront shutters",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 47,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 119.009,
+      "end": 120.797,
+      "text": "silver and wet",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 48,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 120.797,
+      "end": 121.989,
+      "text": "public pavement",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 49,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 121.989,
+      "end": 123.182,
+      "text": "private threat",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 50,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 123.182,
+      "end": 124.97,
+      "text": "No loitering sign",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 51,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 124.97,
+      "end": 127.951,
+      "text": "by the night bus stop",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 52,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 127.951,
+      "end": 130.336,
+      "text": "as if waiting itself",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 53,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 130.336,
+      "end": 133.317,
+      "text": "should be made to stop",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 54,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 133.317,
+      "end": 135.701,
+      "text": "A nurse cuts through",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 55,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 135.701,
+      "end": 137.49,
+      "text": "the service lane",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 56,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 137.49,
+      "end": 139.278,
+      "text": "badge under coat",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 57,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 139.278,
+      "end": 141.067,
+      "text": "hands in rain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 58,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 141.067,
+      "end": 143.451,
+      "text": "Dem need her hands",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 59,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 143.451,
+      "end": 146.432,
+      "text": "when di ward get rough",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 60,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 146.432,
+      "end": 148.221,
+      "text": "but streetlight ask",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 61,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 148.221,
+      "end": 150.605,
+      "text": "if her reason enough",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 62,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 150.605,
+      "end": 152.99,
+      "text": "The lens keeps everything",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 63,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 152.99,
+      "end": 154.778,
+      "text": "except the why",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 64,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 154.778,
+      "end": 156.567,
+      "text": "keeps the walk",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 65,
+      "section": "Verse 2 - chord stab decay | intercom crackle",
+      "start": 156.567,
+      "end": 158.355,
+      "text": "keeps the time",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 66,
+      "section": "Bridge - drums out | fragments",
+      "start": 158.355,
+      "end": 160.74,
+      "text": "\"This area is monitored\"",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 67,
+      "section": "Bridge - drums out | fragments",
+      "start": 160.74,
+      "end": 161.92,
+      "text": "So is the doorway",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 68,
+      "section": "Bridge - drums out | fragments",
+      "start": 167.58,
+      "end": 169.68,
+      "text": "so is the stair",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 69,
+      "section": "Bridge - drums out | fragments",
+      "start": 170.22,
+      "end": 173.86,
+      "text": "so is the shelter",
+      "timing_source": "whisper-aligned",
+      "matched_words": 4
+    },
+    {
+      "index": 70,
+      "section": "Bridge - drums out | fragments",
+      "start": 173.86,
+      "end": 177.4,
+      "text": "with nobody there",
+      "timing_source": "whisper-aligned",
+      "matched_words": 3
+    },
+    {
+      "index": 71,
+      "section": "Bridge - drums out | fragments",
+      "start": 177.4,
+      "end": 178.84,
+      "text": "\"Move along\"",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 72,
+      "section": "Bridge - drums out | fragments",
+      "start": 178.9,
+      "end": 179.38,
+      "text": "Along where?",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 73,
+      "section": "Bridge - drums out | fragments",
+      "start": 179.38,
+      "end": 182.56,
+      "text": "Mi bus late",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 74,
+      "section": "Bridge - drums out | fragments",
+      "start": 182.56,
+      "end": 183.4,
+      "text": "mi feet cold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 2
+    },
+    {
+      "index": 75,
+      "section": "Bridge - drums out | fragments",
+      "start": 184.24,
+      "end": 184.56,
+      "text": "mi shift done",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 76,
+      "section": "Bridge - drums out | fragments",
+      "start": 186.06,
+      "end": 186.32,
+      "text": "mi not bold",
+      "timing_source": "whisper-aligned",
+      "matched_words": 1
+    },
+    {
+      "index": 77,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 186.32,
+      "end": 188.356,
+      "text": "CCTV rain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 78,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 188.356,
+      "end": 192.427,
+      "text": "on the city lens",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 79,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 192.427,
+      "end": 195.48,
+      "text": "watched for safety",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 80,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 195.48,
+      "end": 198.534,
+      "text": "watched for sense",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 81,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 198.534,
+      "end": 201.587,
+      "text": "Needed at midnight",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 82,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 201.587,
+      "end": 204.641,
+      "text": "suspect by two",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 83,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 204.641,
+      "end": 208.712,
+      "text": "keys in your pocket",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 84,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 208.712,
+      "end": 211.765,
+      "text": "camera on you",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 85,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 211.765,
+      "end": 213.801,
+      "text": "CCTV rain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 86,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 213.801,
+      "end": 217.872,
+      "text": "no heart, no claim",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 87,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 217.872,
+      "end": 220.926,
+      "text": "only a timestamp",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 88,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 220.926,
+      "end": 224.997,
+      "text": "next to your name",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 89,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 224.997,
+      "end": 227.032,
+      "text": "CCTV rain",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 90,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 227.032,
+      "end": 231.104,
+      "text": "mi face pon file",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 91,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 231.104,
+      "end": 235.175,
+      "text": "mi only pass through",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 92,
+      "section": "Final Hook - sub heavier, still sparse",
+      "start": 235.175,
+      "end": 239.246,
+      "text": "for a likkle while",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 93,
+      "section": "Outro - electrical buzz becomes fluorescent hum",
+      "start": 239.246,
+      "end": 242.3,
+      "text": "The camera forgets",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 94,
+      "section": "Outro - electrical buzz becomes fluorescent hum",
+      "start": 242.3,
+      "end": 246.371,
+      "text": "what the body remembers",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 95,
+      "section": "Outro - electrical buzz becomes fluorescent hum",
+      "start": 246.371,
+      "end": 248.407,
+      "text": "Corridor light",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    },
+    {
+      "index": 96,
+      "section": "Outro - electrical buzz becomes fluorescent hum",
+      "start": 248.407,
+      "end": 251.46,
+      "text": "burns through December",
+      "timing_source": "interpolated",
+      "matched_words": 0
+    }
+  ]
+}
